@@ -1,0 +1,6 @@
+const fs=require('fs');
+const raw=new TextDecoder('gbk').decode(fs.readFileSync('C:/Users/admin/Downloads/_select_id_record_text_from_patient_medical_record_pmr_where_pmr_202610081539.csv'));
+function csv(s){const rows=[];let row=[],v='',q=false;for(let i=0;i<s.length;i++){let c=s[i];if(c==='"'){if(q&&s[i+1]==='"'){v+='"';i++;}else q=!q;}else if(c===','&&!q){row.push(v);v='';}else if((c==='\r'||c==='\n')&&!q){if(c==='\r'&&s[i+1]==='\n')i++;row.push(v);if(row.some(Boolean))rows.push(row);row=[];v='';}else v+=c;}if(v||row.length){row.push(v);rows.push(row);}return rows;}
+const rows=csv(raw).slice(1);
+const terms=/升结肠|贝伐|capeox|CAPEOX|2026[-年./]0?5[-月./]26|2026[-年./]0?9[-月./]14|尚未|模板|示例|模拟查房|OncoRounds/g;
+for(const [id,t] of rows){let pages;try{pages=JSON.parse(t.trim());}catch{}const s=Array.isArray(pages)?pages.join('\n'):t;const hits=[...s.matchAll(terms)].map(m=>s.slice(Math.max(0,m.index-35),m.index+m[0].length+80).replace(/\s+/g,' ')); const medical=s.split('\n').filter(l=>/诊断|治疗|病理|化疗|手术|结肠|腺癌|出院|示例|虚构|仅供|参考|2026/.test(l)&&!/姓名|住院号|病理号|身份证|电话|地址|医师|医生|签名/.test(l));console.log(JSON.stringify({id,length:s.length,pages:Array.isArray(pages)?pages.length:null,hits,medical:medical.slice(0,14)}));}

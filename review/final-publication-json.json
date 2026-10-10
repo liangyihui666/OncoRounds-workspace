@@ -1,0 +1,151 @@
+{
+  "generation_status": "success",
+  "case_summary": "65岁男性，HER2过表达、PD-L1 CPS 5、MSS/pMMR的Borrmann IV型胃低分化腺癌，初诊记录为cT4N3M1 IV期，No.16a2及No.16b1腹主动脉旁淋巴结影像学疑转移。经3周期SOX联合曲妥珠单抗和帕博利珠单抗治疗后接受根治性全胃切除及腹主动脉旁淋巴结清扫，术后病理TRG 1、ypT1bN0M0。",
+  "difficulty": "进阶",
+  "question_count": 5,
+  "missing_information": [],
+  "risk_message": "",
+  "questions": [
+    {
+      "id": "Q1",
+      "type": "治疗",
+      "phase": "初始治疗",
+      "timepoint": "当前教学复盘：2022年8月初始治疗决策",
+      "question": "当前使用2024年围手术期免疫治疗共识回顾本例初始治疗决策时，关于其推荐适用边界，以下哪项最准确？",
+      "options": [
+        "该推荐可以直接证明本例三联方案属于标准转化治疗",
+        "该推荐限定可切除Ⅲ至Ⅳa期HER2阴性患者及临床研究背景，不能直接外推至本例HER2阳性、疑似M1的转化治疗场景",
+        "PD-L1 CPS 5可以替代HER2状态决定共识适用人群",
+        "该推荐否定所有Ⅳ期胃癌接受转化手术的可能"
+      ],
+      "answer": 1,
+      "answer_text": "该推荐限定可切除Ⅲ至Ⅳa期HER2阴性患者及临床研究背景，不能直接外推至本例HER2阳性、疑似M1的转化治疗场景",
+      "explain": "该推荐意见1限定可切除的影像学III~IVa期HER2阴性GC/GEJC患者，且要求在临床研究背景下考虑新辅助化疗联合免疫。本例为HER2阳性，且治疗前腹主动脉旁淋巴结为影像学疑转移，因此该条文只能用于评估推荐适用边界，不能当作本例三联转化方案的直接依据。",
+      "keyPoint": "指南适用性必须同时匹配分子亚型、分期、可切除性和治疗目的。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "source_title": "免疫检查点抑制剂用于进展期胃癌围手术期治疗的中国专家共识(2024版)",
+        "source_version": "2024",
+        "source_section": "（一）新辅助治疗人群选择",
+        "source_url": "",
+        "evidence_summary": "推荐意见1：对于可切除的影像学分期为Ⅲ~IVa期HER2阴性GC/GEJC患者，可在临床研究的背景下，考虑使用新辅助化疗联合免疫治疗。",
+        "doc_id": "bedf23cb-6970-47de-85ff-77c15fd0a977",
+        "split_index": 19,
+        "type": "guideline",
+        "authority": "CACA"
+      }
+    },
+    {
+      "id": "Q2",
+      "type": "治疗",
+      "phase": "手术决策",
+      "timepoint": "当前教学复盘：2022年10月系统治疗3周期后",
+      "question": "患者3周期SOX联合曲妥珠单抗和帕博利珠单抗后影像及综合疗效PR/cPR，肿瘤标志物显著下降；MDT认为腹主动脉旁淋巴结位于可清扫范围且技术上可能实现R0切除。下一步最符合围手术期管理原则的是？",
+      "options": [
+        "仅凭PR/cPR立即手术，无需再评估营养状态或治疗相关不良事件",
+        "继续原方案治疗直至影像学CR再讨论手术",
+        "结合营养状态和治疗相关不良事件，由MDT及经验丰富的外科团队制订手术方案",
+        "因腹主动脉旁淋巴结曾疑转移，任何情况下均不宜手术"
+      ],
+      "answer": 2,
+      "answer_text": "结合营养状态和治疗相关不良事件，由MDT及经验丰富的外科团队制订手术方案",
+      "explain": "新辅助治疗可能对手术造成组织水肿、解剖层面判断困难等，需重点关注围手术期营养状态和治疗相关不良事件，及时对症处理，并结合多学科讨论由经验丰富的外科团队制订手术方案。影像学缓解是触发手术再评估的线索，但不能取代围手术期安全性和技术可切除性评估。",
+      "keyPoint": "转化治疗后的手术窗口由疗效、围手术期安全性、R0机会及MDT共同决定。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "source_title": "免疫检查点抑制剂用于进展期胃癌围手术期治疗的中国专家共识(2024版)",
+        "source_version": "2024",
+        "source_section": "",
+        "source_url": "",
+        "evidence_summary": "应重点关注围手术期患者的营养状态、治疗相关不良事件发生情况，及时对症处理，并结合多学科讨论制订合理手术方案；建议经验丰富的外科团队开展此类手术。",
+        "doc_id": "bedf23cb-6970-47de-85ff-77c15fd0a977",
+        "split_index": 35,
+        "type": "guideline",
+        "authority": "CACA"
+      }
+    },
+    {
+      "id": "Q3",
+      "type": "诊断",
+      "phase": "不良反应管理",
+      "timepoint": "2023年1月9日",
+      "question": "患者ICI暴露后因腹泻、口干多饮入院，随机血糖最高68.24 mmol/L，pH 7.26，HCO3- 9.3 mmol/L，尿酮体++，尿糖++++，C肽<0.003 nmol/L，HbA1c 7.06%，胰岛自身抗体阴性。结合病例记录，以下哪项诊断最符合？",
+      "options": [
+        "2型糖尿病合并应激性高血糖",
+        "ICI诱导1型糖尿病并糖尿病酮症酸中毒",
+        "类固醇性高血糖",
+        "单纯代谢性酸中毒"
+      ],
+      "answer": 1,
+      "answer_text": "ICI诱导1型糖尿病并糖尿病酮症酸中毒",
+      "explain": "病例明确记录“免疫检查点抑制剂诱导的1型糖尿病G4”并接受胰岛素治疗。患者极高血糖、酸中毒、酮尿和极低C肽支持DKA判断，胰岛自身抗体阴性不改变该病例中的诊断。",
+      "keyPoint": "对ICI暴露后急性高血糖和酸中毒，应优先识别DKA，而非因抗体阴性延误识别。",
+      "guidelineRef": {
+        "evidence_type": "病例事实",
+        "source_title": "HER2过表达晚期胃癌转化治疗、根治手术与重度免疫毒性的全程",
+        "source_version": "",
+        "source_section": "",
+        "source_url": "",
+        "evidence_summary": "2023年1月9日记录：随机血糖最高68.24 mmol/L，pH 7.26，HCO3- 9.3 mmol/L，尿酮体++，C肽<0.003 nmol/L，HbA1c 7.06%，胰岛自身抗体阴性；诊断ICI诱导1型糖尿病G4并接受胰岛素。"
+      }
+    },
+    {
+      "id": "Q4",
+      "type": "不良反应",
+      "phase": "不良反应管理",
+      "timepoint": "2023年1月9日",
+      "question": "患者已诊断ICI诱导1型糖尿病G4并DKA，随机血糖68.24 mmol/L，pH 7.26，HCO3- 9.3 mmol/L。根据ASCO指南，对该患者应优先采取的管理措施是？",
+      "options": [
+        "继续ICI治疗并仅门诊口服降糖药",
+        "入院管理DKA，进行容量和电解质复苏并启动胰岛素，暂停ICI直至血糖控制且毒性≤G1",
+        "仅监测血糖，无需住院",
+        "立即再次使用帕博利珠单抗以控制肿瘤"
+      ],
+      "answer": 1,
+      "answer_text": "入院管理DKA，进行容量和电解质复苏并启动胰岛素，暂停ICI直至血糖控制且毒性≤G1",
+      "explain": "ASCO指南表格中G3-4高血糖或酮症酸中毒患者应暂停ICI直至血糖控制且毒性降至≤G1；需要入院处理DKA，进行容量和电解质复苏并启动胰岛素，并请内分泌会诊。患者血糖68.24 mmol/L、pH 7.26、HCO3- 9.3 mmol/L，符合DKA。",
+      "keyPoint": "G4 ICI诱导T1DM并DKA的优先处理是住院、胰岛素、容量和电解质复苏，并暂停ICI。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "source_title": "Management of Immune-Related Adverse Events in Patients Treated With Immune Checkpoint Inhibitor Therapy: ASCO Guideline Update",
+        "source_version": "2021",
+        "source_section": "TABLE 4. Endocrine Toxicities (continued), 4.4. Diabetes",
+        "source_url": "",
+        "evidence_summary": "ASCO指南指出，G3至G4免疫检查点抑制剂相关糖尿病或DKA应暂停ICPi，直至血糖得到控制且毒性降至不高于G1；患者应住院接受DKA管理、容量和电解质复苏及胰岛素治疗，并进行内分泌专科会诊。",
+        "doc_id": "5318f5f1-c827-4976-805c-b577d3953b2d",
+        "split_index": 38,
+        "type": "guideline",
+        "authority": "ASCO"
+      }
+    },
+    {
+      "id": "Q5",
+      "type": "不良反应",
+      "phase": "不良反应管理",
+      "timepoint": "2023年5月激素治疗后",
+      "question": "患者ICI暴露后出现双肺病变，抗感染2周后仍进展，伴高热和低氧；BAL涂片见革兰阴性杆菌，细胞学未见肿瘤。诊断为G3 ICI相关性间质性肺炎，激素和支持治疗后症状及胸部CT明显改善。根据CSCO毒性管理指南，关于后续ICIs治疗，以下哪项最准确？",
+      "options": [
+        "肺部症状恢复至G1后即可重启ICIs",
+        "因BAL见革兰阴性杆菌，可排除ICI肺炎并继续ICIs",
+        "出现G3~4肺炎应永不考虑重启ICIs",
+        "若DKA恢复稳定，即可同步重启所有抗肿瘤药物"
+      ],
+      "answer": 2,
+      "answer_text": "出现G3~4肺炎应永不考虑重启ICIs",
+      "explain": "CSCO相关注释明确肺部出现严重或危及生命的肺炎（G3~4）永不考虑重启ICIs。BAL革兰阴性杆菌阳性提示感染、定植或污染需并行鉴别，但不能仅凭此排除ICI肺炎；抗感染后仍进展、高热低氧支持本例肺毒性判断。",
+      "keyPoint": "G3 ICI肺炎管理后应永久停用ICIs；感染与免疫肺毒性可并存，不能以细菌学阳性排除肺毒性。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "source_title": "中国临床肿瘤学会（CSCO）免疫检查点抑制剂相关的毒性管理指南 2023",
+        "source_version": "2023",
+        "source_section": "【注释】",
+        "source_url": "",
+        "evidence_summary": "肺部：一旦G2肺炎已消退至≤G1且已经停用糖皮质激素，或同时使用糖皮质激素（泼尼松≤10mg或等效剂量），可以重启ICIs治疗；出现严重或危及生命的肺炎（G3~4），永不考虑重启ICIs治疗。",
+        "doc_id": "1a5c4240-bad9-4448-ab64-9b705a3ad087",
+        "split_index": 208,
+        "type": "guideline",
+        "authority": "CSCO"
+      }
+    }
+  ]
+}

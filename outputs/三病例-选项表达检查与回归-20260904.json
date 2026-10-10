@@ -1,0 +1,486 @@
+{
+  "passed": 10,
+  "tests": [
+    "三组真实日志候选数仍为5/15/10；最终各5题，无新增按长度拒收",
+    "选项原文和正确答案保留，重排后答案对应；指标按最终ABCD重新计算",
+    "肺癌Q4长答案及极端干扰项会提示；食管等长仍能提示绝对化线索",
+    "字数算法去空白标点、支持数组及字母答案；异常结构交由原结构检查",
+    "GEJ原发伴肺转移不再被导出为肺癌；题目与病例页面分类相同",
+    "两轮装配只加warnings，不改变errors、候选和配额处理",
+    "OPTION_STYLE_BIAS可通过既有PATCH/FULL合并且无需换证据；未授权题不变",
+    "首轮75/74、二轮直出、无题与回退行为和真实审核信息不变",
+    "JSON保持原根配置、节点ID、连线、输出和模型参数；仅指定字段改变",
+    "新增warnings引用存在且进入两轮校验输入；生成/修订/校验/终选约束同步"
+  ],
+  "selected_count": 15,
+  "correct_unique_longest_count": 10,
+  "option_style_warning_count": 10,
+  "cases": [
+    {
+      "name": "ALK",
+      "candidate_count": 5,
+      "selected_count": 5,
+      "final_cancer_type": "肺癌",
+      "source_status": [
+        {
+          "group_id": "G1",
+          "parse_status": "OK",
+          "count": 0,
+          "selected_round": null,
+          "error": null
+        },
+        {
+          "group_id": "G2",
+          "parse_status": "OK",
+          "count": 5,
+          "selected_round": 2,
+          "error": null
+        },
+        {
+          "group_id": "G3",
+          "parse_status": "OK",
+          "count": 0,
+          "selected_round": null,
+          "error": null
+        }
+      ],
+      "options": [
+        {
+          "final_id": "Q1",
+          "candidate_id": "G2_Q1",
+          "version": "option-style-1.0",
+          "length_unit": "unicode_chars_excluding_spaces_punctuation_symbols",
+          "option_lengths": [
+            13,
+            22,
+            19,
+            14
+          ],
+          "answer_position": "B",
+          "correct_is_unique_longest": true,
+          "correct_to_distractor_median_ratio": 1.57,
+          "max_min_difference": 9,
+          "max_min_ratio": 1.69,
+          "absolute_phrase_positions": [],
+          "warning_codes": [
+            "CORRECT_OPTION_LONGER",
+            "OPTION_LENGTH_SPREAD"
+          ],
+          "warnings": [
+            "正确项独自较长：应复核是否只有正确项包含条件、理由或多个动作。",
+            "四项长度差异较大：应统一表达层次，不得机械补字或截断。"
+          ],
+          "interpretation": "仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。"
+        },
+        {
+          "final_id": "Q2",
+          "candidate_id": "G2_Q3",
+          "version": "option-style-1.0",
+          "length_unit": "unicode_chars_excluding_spaces_punctuation_symbols",
+          "option_lengths": [
+            19,
+            18,
+            25,
+            20
+          ],
+          "answer_position": "C",
+          "correct_is_unique_longest": true,
+          "correct_to_distractor_median_ratio": 1.32,
+          "max_min_difference": 7,
+          "max_min_ratio": 1.39,
+          "absolute_phrase_positions": [
+            "A"
+          ],
+          "warning_codes": [
+            "DISTRACTOR_ABSOLUTE_CUE"
+          ],
+          "warnings": [
+            "干扰项含绝对化或极端措辞：需复核是否构成无需医学推理的排除线索，不能仅凭关键词判错。"
+          ],
+          "interpretation": "仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。"
+        },
+        {
+          "final_id": "Q3",
+          "candidate_id": "G2_Q2",
+          "version": "option-style-1.0",
+          "length_unit": "unicode_chars_excluding_spaces_punctuation_symbols",
+          "option_lengths": [
+            13,
+            16,
+            13,
+            19
+          ],
+          "answer_position": "D",
+          "correct_is_unique_longest": true,
+          "correct_to_distractor_median_ratio": 1.46,
+          "max_min_difference": 6,
+          "max_min_ratio": 1.46,
+          "absolute_phrase_positions": [],
+          "warning_codes": [
+            "CORRECT_OPTION_LONGER"
+          ],
+          "warnings": [
+            "正确项独自较长：应复核是否只有正确项包含条件、理由或多个动作。"
+          ],
+          "interpretation": "仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。"
+        },
+        {
+          "final_id": "Q4",
+          "candidate_id": "G2_Q4",
+          "version": "option-style-1.0",
+          "length_unit": "unicode_chars_excluding_spaces_punctuation_symbols",
+          "option_lengths": [
+            11,
+            10,
+            20,
+            12
+          ],
+          "answer_position": "C",
+          "correct_is_unique_longest": true,
+          "correct_to_distractor_median_ratio": 1.82,
+          "max_min_difference": 10,
+          "max_min_ratio": 2,
+          "absolute_phrase_positions": [
+            "D"
+          ],
+          "warning_codes": [
+            "CORRECT_OPTION_LONGER",
+            "OPTION_LENGTH_SPREAD",
+            "DISTRACTOR_ABSOLUTE_CUE"
+          ],
+          "warnings": [
+            "正确项独自较长：应复核是否只有正确项包含条件、理由或多个动作。",
+            "四项长度差异较大：应统一表达层次，不得机械补字或截断。",
+            "干扰项含绝对化或极端措辞：需复核是否构成无需医学推理的排除线索，不能仅凭关键词判错。"
+          ],
+          "interpretation": "仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。"
+        },
+        {
+          "final_id": "Q5",
+          "candidate_id": "G2_Q5",
+          "version": "option-style-1.0",
+          "length_unit": "unicode_chars_excluding_spaces_punctuation_symbols",
+          "option_lengths": [
+            20,
+            16,
+            17,
+            10
+          ],
+          "answer_position": "A",
+          "correct_is_unique_longest": true,
+          "correct_to_distractor_median_ratio": 1.25,
+          "max_min_difference": 10,
+          "max_min_ratio": 2,
+          "absolute_phrase_positions": [],
+          "warning_codes": [
+            "OPTION_LENGTH_SPREAD"
+          ],
+          "warnings": [
+            "四项长度差异较大：应统一表达层次，不得机械补字或截断。"
+          ],
+          "interpretation": "仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。"
+        }
+      ]
+    },
+    {
+      "name": "GEJ",
+      "candidate_count": 15,
+      "selected_count": 5,
+      "final_cancer_type": "胃食管结合部癌",
+      "source_status": [
+        {
+          "group_id": "G1",
+          "parse_status": "OK",
+          "count": 5,
+          "selected_round": 1,
+          "error": null
+        },
+        {
+          "group_id": "G2",
+          "parse_status": "OK",
+          "count": 5,
+          "selected_round": 1,
+          "error": null
+        },
+        {
+          "group_id": "G3",
+          "parse_status": "OK",
+          "count": 5,
+          "selected_round": 1,
+          "error": null
+        }
+      ],
+      "options": [
+        {
+          "final_id": "Q1",
+          "candidate_id": "G1_Q1",
+          "version": "option-style-1.0",
+          "length_unit": "unicode_chars_excluding_spaces_punctuation_symbols",
+          "option_lengths": [
+            21,
+            20,
+            19,
+            19
+          ],
+          "answer_position": "B",
+          "correct_is_unique_longest": false,
+          "correct_to_distractor_median_ratio": 1.05,
+          "max_min_difference": 2,
+          "max_min_ratio": 1.11,
+          "absolute_phrase_positions": [],
+          "warning_codes": [],
+          "warnings": [],
+          "interpretation": "仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。"
+        },
+        {
+          "final_id": "Q2",
+          "candidate_id": "G1_Q2",
+          "version": "option-style-1.0",
+          "length_unit": "unicode_chars_excluding_spaces_punctuation_symbols",
+          "option_lengths": [
+            21,
+            31,
+            20,
+            24
+          ],
+          "answer_position": "B",
+          "correct_is_unique_longest": true,
+          "correct_to_distractor_median_ratio": 1.48,
+          "max_min_difference": 11,
+          "max_min_ratio": 1.55,
+          "absolute_phrase_positions": [],
+          "warning_codes": [
+            "CORRECT_OPTION_LONGER",
+            "OPTION_LENGTH_SPREAD"
+          ],
+          "warnings": [
+            "正确项独自较长：应复核是否只有正确项包含条件、理由或多个动作。",
+            "四项长度差异较大：应统一表达层次，不得机械补字或截断。"
+          ],
+          "interpretation": "仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。"
+        },
+        {
+          "final_id": "Q3",
+          "candidate_id": "G1_Q3",
+          "version": "option-style-1.0",
+          "length_unit": "unicode_chars_excluding_spaces_punctuation_symbols",
+          "option_lengths": [
+            12,
+            19,
+            20,
+            21
+          ],
+          "answer_position": "C",
+          "correct_is_unique_longest": false,
+          "correct_to_distractor_median_ratio": 1.05,
+          "max_min_difference": 9,
+          "max_min_ratio": 1.75,
+          "absolute_phrase_positions": [],
+          "warning_codes": [
+            "OPTION_LENGTH_SPREAD"
+          ],
+          "warnings": [
+            "四项长度差异较大：应统一表达层次，不得机械补字或截断。"
+          ],
+          "interpretation": "仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。"
+        },
+        {
+          "final_id": "Q4",
+          "candidate_id": "G1_Q5",
+          "version": "option-style-1.0",
+          "length_unit": "unicode_chars_excluding_spaces_punctuation_symbols",
+          "option_lengths": [
+            25,
+            24,
+            22,
+            22
+          ],
+          "answer_position": "D",
+          "correct_is_unique_longest": false,
+          "correct_to_distractor_median_ratio": 0.92,
+          "max_min_difference": 3,
+          "max_min_ratio": 1.14,
+          "absolute_phrase_positions": [],
+          "warning_codes": [],
+          "warnings": [],
+          "interpretation": "仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。"
+        },
+        {
+          "final_id": "Q5",
+          "candidate_id": "G2_Q4",
+          "version": "option-style-1.0",
+          "length_unit": "unicode_chars_excluding_spaces_punctuation_symbols",
+          "option_lengths": [
+            22,
+            18,
+            19,
+            16
+          ],
+          "answer_position": "A",
+          "correct_is_unique_longest": true,
+          "correct_to_distractor_median_ratio": 1.22,
+          "max_min_difference": 6,
+          "max_min_ratio": 1.38,
+          "absolute_phrase_positions": [],
+          "warning_codes": [],
+          "warnings": [],
+          "interpretation": "仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。"
+        }
+      ]
+    },
+    {
+      "name": "食管",
+      "candidate_count": 10,
+      "selected_count": 5,
+      "final_cancer_type": "食管癌",
+      "source_status": [
+        {
+          "group_id": "G1",
+          "parse_status": "OK",
+          "count": 5,
+          "selected_round": 1,
+          "error": null
+        },
+        {
+          "group_id": "G2",
+          "parse_status": "OK",
+          "count": 5,
+          "selected_round": 1,
+          "error": null
+        },
+        {
+          "group_id": "G3",
+          "parse_status": "ERROR",
+          "count": 0,
+          "error": "子工作流回复为空。"
+        }
+      ],
+      "options": [
+        {
+          "final_id": "Q1",
+          "candidate_id": "G1_Q1",
+          "version": "option-style-1.0",
+          "length_unit": "unicode_chars_excluding_spaces_punctuation_symbols",
+          "option_lengths": [
+            25,
+            24,
+            24,
+            23
+          ],
+          "answer_position": "B",
+          "correct_is_unique_longest": false,
+          "correct_to_distractor_median_ratio": 1,
+          "max_min_difference": 2,
+          "max_min_ratio": 1.09,
+          "absolute_phrase_positions": [],
+          "warning_codes": [],
+          "warnings": [],
+          "interpretation": "仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。"
+        },
+        {
+          "final_id": "Q2",
+          "candidate_id": "G1_Q4",
+          "version": "option-style-1.0",
+          "length_unit": "unicode_chars_excluding_spaces_punctuation_symbols",
+          "option_lengths": [
+            25,
+            24,
+            25,
+            27
+          ],
+          "answer_position": "B",
+          "correct_is_unique_longest": false,
+          "correct_to_distractor_median_ratio": 0.96,
+          "max_min_difference": 3,
+          "max_min_ratio": 1.13,
+          "absolute_phrase_positions": [
+            "D"
+          ],
+          "warning_codes": [
+            "DISTRACTOR_ABSOLUTE_CUE"
+          ],
+          "warnings": [
+            "干扰项含绝对化或极端措辞：需复核是否构成无需医学推理的排除线索，不能仅凭关键词判错。"
+          ],
+          "interpretation": "仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。"
+        },
+        {
+          "final_id": "Q3",
+          "candidate_id": "G1_Q2",
+          "version": "option-style-1.0",
+          "length_unit": "unicode_chars_excluding_spaces_punctuation_symbols",
+          "option_lengths": [
+            24,
+            22,
+            22,
+            27
+          ],
+          "answer_position": "D",
+          "correct_is_unique_longest": true,
+          "correct_to_distractor_median_ratio": 1.23,
+          "max_min_difference": 5,
+          "max_min_ratio": 1.23,
+          "absolute_phrase_positions": [],
+          "warning_codes": [],
+          "warnings": [],
+          "interpretation": "仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。"
+        },
+        {
+          "final_id": "Q4",
+          "candidate_id": "G1_Q3",
+          "version": "option-style-1.0",
+          "length_unit": "unicode_chars_excluding_spaces_punctuation_symbols",
+          "option_lengths": [
+            27,
+            23,
+            26,
+            25
+          ],
+          "answer_position": "A",
+          "correct_is_unique_longest": true,
+          "correct_to_distractor_median_ratio": 1.08,
+          "max_min_difference": 4,
+          "max_min_ratio": 1.17,
+          "absolute_phrase_positions": [
+            "B"
+          ],
+          "warning_codes": [
+            "DISTRACTOR_ABSOLUTE_CUE"
+          ],
+          "warnings": [
+            "干扰项含绝对化或极端措辞：需复核是否构成无需医学推理的排除线索，不能仅凭关键词判错。"
+          ],
+          "interpretation": "仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。"
+        },
+        {
+          "final_id": "Q5",
+          "candidate_id": "G1_Q5",
+          "version": "option-style-1.0",
+          "length_unit": "unicode_chars_excluding_spaces_punctuation_symbols",
+          "option_lengths": [
+            20,
+            20,
+            23,
+            21
+          ],
+          "answer_position": "C",
+          "correct_is_unique_longest": true,
+          "correct_to_distractor_median_ratio": 1.15,
+          "max_min_difference": 3,
+          "max_min_ratio": 1.15,
+          "absolute_phrase_positions": [
+            "D"
+          ],
+          "warning_codes": [
+            "DISTRACTOR_ABSOLUTE_CUE"
+          ],
+          "warnings": [
+            "干扰项含绝对化或极端措辞：需复核是否构成无需医学推理的排除线索，不能仅凭关键词判错。"
+          ],
+          "interpretation": "仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。"
+        }
+      ]
+    }
+  ],
+  "scope": "本地静态配置/真实日志回放/代码回归；使用原入选ID，没有实际调用千问或验证FastGPT在线导入。原题未重写。"
+}

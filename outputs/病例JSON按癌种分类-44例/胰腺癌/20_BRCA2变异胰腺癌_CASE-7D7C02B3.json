@@ -1,0 +1,252 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-7D7C02B3",
+    "cancer_type": "胰腺癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "不良反应管理",
+        "phase": "新辅助治疗计划阶段",
+        "timepoint": "新辅助治疗期间",
+        "question": "患者在新辅助治疗期间因吉西他滨出现 CTCAE 2 级皮疹而中断治疗。若该皮疹被判定为药物特异质反应（过敏反应），关于后续“再挑战”该药物的风险判断正确的是？",
+        "options": {
+          "A": "将剂量减半后重新给药可安全避免过敏反应复发",
+          "B": "降低剂量不能预防不良反应再次发生，通常禁忌再挑战",
+          "C": "联合使用抗组胺药后可按原剂量继续吉西他滨治疗",
+          "D": "暂停用药待皮疹完全消退后即可按原剂量恢复治疗"
+        },
+        "answer": "B",
+        "answer_text": "降低剂量不能预防不良反应再次发生，通常禁忌再挑战",
+        "explain": "CACA 指南指出对于特异质反应（如过敏反应），降低剂量不能预防不良反应再次发生，因此通常不建议再挑战该药物。",
+        "keyPoint": "药物特异质反应（过敏）减量无效，通常禁止再挑战",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "c9294314-38c0-4a55-92b6-b261f374a7da",
+          "split_index": 60,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 整体支持",
+          "source_version": "2023",
+          "source_section": "（五）不良反应的处理",
+          "source_url": "",
+          "evidence_summary": "CACA 指南明确特异质反应降低剂量不能预防再次发生，需慎重考虑再挑战。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "诊断与分期",
+        "phase": "术中意外发现",
+        "timepoint": "首次手术尝试",
+        "question": "患者术中意外发现肝脏表面两个小结节，其中一个经冰冻病理确诊为转移灶。此时对于原计划的手术及分期诊断，最恰当的处理是？",
+        "options": {
+          "A": "继续完成胰腺切除并同期切除肝转移灶",
+          "B": "仅切除胰腺原发灶，肝转移灶留待术后处理",
+          "C": "关腹结束手术，等待术后影像再评估分期",
+          "D": "中止手术并重新诊断为不可切除转移性胰腺癌"
+        },
+        "answer": "D",
+        "answer_text": "中止手术并重新诊断为不可切除转移性胰腺癌",
+        "explain": "术中发现并证实远处转移（肝转移），意味着疾病已属 IV 期，原发灶不再具备根治性切除指征，应中止手术并转为全身治疗策略。",
+        "keyPoint": "术中证实远处转移即定义为不可切除，应中止根治手术",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "c58c5fc4-4ec6-4d54-988e-3aa1c849de7d",
+          "split_index": 19,
+          "type": "guideline",
+          "authority": "NCCN",
+          "source_title": "NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®) Pancreatic Adenocarcinoma Version 2.2026",
+          "source_version": "2026",
+          "source_section": "PANC-8",
+          "source_url": "",
+          "evidence_summary": "指南明确术中若发现不可切除疾病，需活检确认诊断并进行分子检测，隐含中止原切除计划之意。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "转化治疗维持阶段",
+        "timepoint": "强化化疗阶段",
+        "question": "患者携带 BRCA2 胚系突变，经 SOXIRI 含铂方案化疗 16 周后疾病无进展。基于 POLO 研究证据，此时最推荐的维持治疗策略是？",
+        "options": {
+          "A": "启用奥拉帕利单药进行维持治疗",
+          "B": "继续使用原三联化疗方案直至疾病进展",
+          "C": "停用所有化疗药物仅进行最佳支持治疗",
+          "D": "更换为非铂类双药化疗方案进行维持"
+        },
+        "answer": "A",
+        "answer_text": "启用奥拉帕利单药进行维持治疗",
+        "explain": "POLO 研究证实，gBRCA 突变晚期胰腺癌患者在一线含铂化疗无进展后，奥拉帕利维持治疗可显著延长 PFS，是标准推荐。",
+        "keyPoint": "gBRCA 突变患者含铂化疗有效后推荐奥拉帕利维持",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "4c3e980d-b839-40be-9fa7-4bbd4f416d1a",
+          "split_index": 243,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 靶向治疗",
+          "source_version": "2023",
+          "source_section": "（二）PARP抑制剂",
+          "source_url": "",
+          "evidence_summary": "指南指出 BRCA1/2 胚系突变转移性胰腺癌，含铂方案治疗≥16 周无进展，考虑奥拉帕利维持治疗。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "治疗决策",
+        "phase": "转化治疗后评估阶段",
+        "timepoint": "维持治疗阶段",
+        "question": "患者经转化治疗后 CA19-9 复常且影像学未见进展，拟行转化手术。关于此类伴有肝转移病史患者的局部治疗策略，下列观点符合指南精神的是？",
+        "options": {
+          "A": "只要有肝转移病史即绝对禁忌任何形式的根治性手术",
+          "B": "必须对所有肝转移灶先行射频消融后再考虑胰腺切除",
+          "C": "全身肿瘤控制良好时，可对原发灶和转移灶选择性切除",
+          "D": "仅当肝转移灶完全消失后才可考虑对原发灶进行切除"
+        },
+        "answer": "C",
+        "answer_text": "全身肿瘤控制良好时，可对原发灶和转移灶选择性切除",
+        "explain": "CSCO 指南注释指出，对于伴肝转移患者，若全身肿瘤控制良好，可选择性地对转移灶和原发灶进行介入或手术治疗，体现了转化治疗的理念。",
+        "keyPoint": "全身控制良好是伴转移患者行局部治疗的前提条件",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "25e2adca-a9b0-4637-b0f0-197427ea0c81",
+          "split_index": 79,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会（CSCO）胰腺癌诊疗指南2024",
+          "source_version": "2024",
+          "source_section": "【注释】",
+          "source_url": "",
+          "evidence_summary": "CSCO 指南指出全身控制良好时可选择性对转移灶和原发灶进行治疗。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "分子诊断",
+        "phase": "术后病理评估",
+        "timepoint": "术后病理",
+        "question": "患者术后病理证实为高分化腺癌，ypT3N0M0。针对该切除标本，除常规病理指标外，指南推荐的必行分子检测项目是？",
+        "options": {
+          "A": "检测 BRCA 等基因及错配修复状态",
+          "B": "常规检测 PD-1 和 PD-L1 表达水平",
+          "C": "采用 NGS 进行全基因组多基因检测",
+          "D": "仅检测 KRAS 基因突变状态即可"
+        },
+        "answer": "A",
+        "answer_text": "检测 BRCA 等基因及错配修复状态",
+        "explain": "CSCO 指南Ⅰ级推荐手术切除标本行 BRCA1/2、PALB2 等基因检测及 dMMR/MSI 检测，以指导后续治疗及遗传风险评估。",
+        "keyPoint": "胰腺癌术后标本推荐检测 BRCA/PALB2 及 MMR/MSI 状态",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "25e2adca-a9b0-4637-b0f0-197427ea0c81",
+          "split_index": 18,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会（CSCO）胰腺癌诊疗指南2024",
+          "source_version": "2024",
+          "source_section": "【注释】",
+          "source_url": "",
+          "evidence_summary": "指南Ⅰ级推荐手术切除标本行 BRCA1/2、PALB2 基因检测及 dMMR/MSI 检测。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-7D7C02B3",
+    "cancer_type": "胰腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "胰腺癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "胰腺癌治疗路径的动态调整",
+      "description": "47岁男性，胰尾腺癌初判可切除，首次手术中发现并证实肝转移。"
+    },
+    "overview": {
+      "hero": {
+        "title": "胰腺癌治疗路径的动态调整",
+        "subtitle": "影像与术中发现的差异、BRCA2变异的证据边界，以及系统治疗后再次手术的评估。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "47岁男性，胰尾腺癌初判可切除，首次手术中发现并证实肝转移。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "胰腺导管腺癌伴BRCA2变异；现有资料未明确变异的胚系属性。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "SOXIRI治疗后采用奥拉帕利维持，继而行远端胰腺切除，达到R0切除。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "影像与术中发现的差异、BRCA2变异的证据边界，以及系统治疗后再次手术的评估。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "初诊",
+              "title": "胰腺腺癌确诊",
+              "detail": "胰尾45 mm病灶，穿刺为腺癌，检出BRCA2变异。"
+            },
+            {
+              "date": "首次手术前后",
+              "title": "治疗中断与分期变化",
+              "detail": "吉西他滨过敏后中断新辅助治疗；术中肝结节病理证实转移，停止胰腺切除。"
+            },
+            {
+              "date": "随后16周",
+              "title": "SOXIRI治疗",
+              "detail": "完成8疗程，CA19-9降至正常；出现血小板减少及轻度周围神经病变。"
+            },
+            {
+              "date": "随后14周",
+              "title": "奥拉帕利维持",
+              "detail": "维持期间影像未见进展，CA19-9正常。"
+            },
+            {
+              "date": "转化手术",
+              "title": "R0切除",
+              "detail": "行远端胰腺切除，术中肝结节未见恶性；既往肝转移病史保留。"
+            },
+            {
+              "date": "术后及随访",
+              "title": "后续治疗",
+              "detail": "术后奥拉帕利12个月，报道36个月未复发。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "case_id": "CASE-66FC4AA7",
+  "cancer_type": "胃癌",
+  "generation_status": "success",
+  "difficulty": "进阶",
+  "question_count": 5,
+  "questions": [
+    {
+      "id": "Q1",
+      "type": "分子诊断",
+      "phase": "复发后的免疫治疗评估",
+      "timepoint": "当前教学复盘：复发后的免疫治疗评估",
+      "question": "67岁男性，胃癌术后复发，病例记载HER2阴性、MSI-H，随后接受帕博利珠单抗。为核对这一用药依据，需追溯原始分子报告。关于MSI与MMR检测，哪项表述最准确？",
+      "options": {
+        "A": "免疫组化评估MMR蛋白，PCR评估微卫星不稳定性",
+        "B": "免疫组化评估微卫星位点，PCR评估MMR蛋白表达",
+        "C": "免疫组化保留表达可判MSI-H，PCR用于补充定量",
+        "D": "免疫组化缺失表达可判MSS，PCR用于确定原发灶"
+      },
+      "answer": "A",
+      "answer_text": "免疫组化评估MMR蛋白，PCR评估微卫星不稳定性",
+      "explain": "MMR免疫组化检测的是错配修复蛋白表达；MSI-PCR检测的是微卫星位点的不稳定性。两者相关，但并非同一检测。应核对方法、质控及原始结论，不能将病例中的“MSI-H”改写为某次已完成的MMR免疫组化结果。",
+      "keyPoint": "分清检测对象，并保留原始报告的证据边界。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "",
+        "split_index": null,
+        "type": "guideline",
+        "authority": "CAP",
+        "source_title": "CAP：MMR/MSI检测指南（2022）",
+        "source_version": "2022",
+        "source_section": "",
+        "source_url": "https://www.cap.org/cap-guidelines/mismatch-repair-and-microsatellite-instability-testing-for-immune-checkpoint-inhibitor-therapy/",
+        "evidence_summary": "分清检测对象，并保留原始报告的证据边界。"
+      }
+    },
+    {
+      "id": "Q2",
+      "type": "疗效复评",
+      "phase": "帕博利珠单抗治疗13个疗程后",
+      "timepoint": "当前教学复盘：帕博利珠单抗治疗13个疗程后",
+      "question": "患者治疗13个疗程后，CT描述复发淋巴结“几乎完全消失”。现有摘要未列出各淋巴结短径及全部病灶评估结果。若要按RECIST 1.1正式登记为完全缓解，最需要核对什么？",
+      "options": {
+        "A": "病灶长径缩小比例，以及同期肿瘤标志物是否正常",
+        "B": "最大淋巴结是否消失，以及临床症状是否完全缓解",
+        "C": "各病理性淋巴结短径，以及其他病灶和新病灶情况",
+        "D": "既往最佳疗效类别，以及本次是否已达到治疗年限"
+      },
+      "answer": "C",
+      "answer_text": "各病理性淋巴结短径，以及其他病灶和新病灶情况",
+      "explain": "“几乎消失”不是可直接登记的RECIST类别。完全缓解要求病理性淋巴结短径降至10 mm以下，并满足其他病灶及新病灶的整体评估条件。临床改善或标志物正常不能替代这些要求，影像缓解也不等同于病理完全缓解。",
+      "keyPoint": "疗效类别由完整测量与全病灶评估确定，而非描述性措辞。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "",
+        "split_index": null,
+        "type": "guideline",
+        "authority": "RECIST工作组",
+        "source_title": "RECIST工作组：RECIST 1.1及淋巴结评估",
+        "source_version": "RECIST 1.1",
+        "source_section": "",
+        "source_url": "https://recist.eortc.org/recist-1-1/",
+        "evidence_summary": "疗效类别由完整测量与全病灶评估确定，而非描述性措辞。"
+      }
+    },
+    {
+      "id": "Q3",
+      "type": "不良反应鉴别",
+      "phase": "帕博利珠单抗治疗15个疗程后",
+      "timepoint": "当前教学复盘：帕博利珠单抗治疗15个疗程后",
+      "question": "患者出现乏力、发热、黄疸，ALP和GGT明显升高，转氨酶仅轻度升高；CT见胆管扩张、胆囊壁增厚，未显示明确梗阻。在同步排查感染等病因时，为进一步评价胆管损伤，最有针对性的影像检查是？",
+      "options": {
+        "A": "行肝胆超声联合弹性成像，重点评价肝纤维化程度",
+        "B": "行肝胆MRI联合MRCP，重点评价胆管壁与狭窄",
+        "C": "行腹部CT血管成像检查，重点评价门静脉血流受阻",
+        "D": "行全身PET-CT复查，重点评价胆管周围代谢变化"
+      },
+      "answer": "B",
+      "answer_text": "行肝胆MRI联合MRCP，重点评价胆管壁与狭窄",
+      "explain": "这一组合提示胆汁淤积型损伤，MRI联合MRCP有助于评价胆管扩张、狭窄及管壁改变。CT未显示明确梗阻并不等于病因已确定；仍需结合感染检查、其他药物史及必要的内镜或病理评估，鉴别免疫相关胆管炎。",
+      "keyPoint": "按肝胆损伤模式选择检查，不能凭免疫用药史直接定因。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "",
+        "split_index": null,
+        "type": "guideline",
+        "authority": "中国专家共识",
+        "source_title": "中国专家共识：MRI评价腹部免疫相关不良反应（2024），胆管炎部分",
+        "source_version": "2024",
+        "source_section": "",
+        "source_url": "https://doi.org/10.12015/issn.1674-8034.2024.12.004",
+        "evidence_summary": "按肝胆损伤模式选择检查，不能凭免疫用药史直接定因。"
+      }
+    },
+    {
+      "id": "Q4",
+      "type": "证据适用性",
+      "phase": "确诊免疫相关硬化性胆管炎后的治疗复盘",
+      "timepoint": "当前教学复盘：确诊免疫相关硬化性胆管炎后的治疗复盘",
+      "question": "本例在氢化可的松减量后病情反复，调整为泼尼松龙后改善。讨论其他类似患者时，如何解释这一个案观察最严谨？",
+      "options": {
+        "A": "改善提示泼尼松龙疗效更强，可优先替代同类激素",
+        "B": "反复提示病因判断存在偏差，应重新归类为肿瘤进展",
+        "C": "改善提示胆管结构已经恢复，可据此缩短后续监测",
+        "D": "改善反映整个调整过程获益，尚不能证明药物间优劣"
+      },
+      "answer": "D",
+      "answer_text": "改善反映整个调整过程获益，尚不能证明药物间优劣",
+      "explain": "个案同时涉及药物、等效剂量、减量速度及病程变化，不能分离出某一种激素的比较疗效。胆管型免疫损伤可能对激素反应不充分；再处理需复核感染、梗阻和损伤活动性，由专科团队制定方案，而非复制个案换药顺序。",
+      "keyPoint": "个案中的时间先后关系，不等于药物优越性的因果证据。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "",
+        "split_index": null,
+        "type": "guideline",
+        "authority": "SITC",
+        "source_title": "SITC：免疫检查点抑制剂相关不良反应指南（2021），胆道毒性",
+        "source_version": "2021",
+        "source_section": "",
+        "source_url": "https://jitc.bmj.com/content/9/6/e002435",
+        "evidence_summary": "个案中的时间先后关系，不等于药物优越性的因果证据。"
+      }
+    },
+    {
+      "id": "Q5",
+      "type": "随访管理",
+      "phase": "免疫相关胆管炎发生约8个月后",
+      "timepoint": "当前教学复盘：免疫相关胆管炎发生约8个月后",
+      "question": "随访时患者临床状况良好，激素逐渐减量，肿瘤未见进展；影像显示胆管壁改变减轻，但胆总管扩张仍存在。对这一残留影像表现，最合适的判断是？",
+      "options": {
+        "A": "扩张提示胆道肿瘤性进展，应优先调整抗肿瘤治疗",
+        "B": "壁厚减轻提示炎症已消退，可据此结束肝胆随访",
+        "C": "结构恢复可能滞后于症状，应结合肝胆指标动态判断",
+        "D": "扩张提示免疫损伤仍加重，应按影像程度追加激素"
+      },
+      "answer": "C",
+      "answer_text": "结构恢复可能滞后于症状，应结合肝胆指标动态判断",
+      "explain": "本例的肿瘤控制与胆道结构异常可以并存。持续扩张本身既不能证明肿瘤进展，也不能单独决定加大免疫抑制。应联合症状、胆红素和胆汁淤积酶谱、感染征象及连续影像，区分残留结构改变与持续活动性损伤。",
+      "keyPoint": "分别评估肿瘤状态、胆道结构和炎症活动性。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "",
+        "split_index": null,
+        "type": "guideline",
+        "authority": "中国专家共识",
+        "source_title": "中国专家共识：MRI评价腹部免疫相关不良反应（2024）＋本例随访事实",
+        "source_version": "2024",
+        "source_section": "",
+        "source_url": "https://doi.org/10.12015/issn.1674-8034.2024.12.004",
+        "evidence_summary": "分别评估肿瘤状态、胆道结构和炎症活动性。"
+      }
+    }
+  ],
+  "missing_information": []
+}

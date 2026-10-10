@@ -1,0 +1,119 @@
+{
+  "scope": "离线代码与导出结构校验；不代表FastGPT导入、分支调度、OCR服务、PDF增强服务或模型结果已验证",
+  "checks": [
+    {
+      "name": "PDF/HTML/图片正确分流，支持大写扩展名及签名参数",
+      "result": "PASS"
+    },
+    {
+      "name": "不将未知文件误当图片",
+      "result": "PASS"
+    },
+    {
+      "name": "重复链接只读取一次",
+      "result": "PASS"
+    },
+    {
+      "name": "空输入明确报缺失",
+      "result": "PASS"
+    },
+    {
+      "name": "本地路径不作为远程图片",
+      "result": "PASS"
+    },
+    {
+      "name": "8份以上标记问题而非静默截断",
+      "result": "PASS"
+    },
+    {
+      "name": "原始HTML可作为独立输入",
+      "result": "PASS"
+    },
+    {
+      "name": "HTML内嵌图片和Markdown图片提取去重",
+      "result": "PASS"
+    },
+    {
+      "name": "无法读取的相对图片路径不静默忽略",
+      "result": "PASS"
+    },
+    {
+      "name": "清洗脚本但保留医疗不等式",
+      "result": "PASS"
+    },
+    {
+      "name": "文档解析空结果和错误均提示",
+      "result": "PASS"
+    },
+    {
+      "name": "图片数量超限不静默截断OCR",
+      "result": "PASS"
+    },
+    {
+      "name": "OCR少返回一页会阻止提取",
+      "result": "PASS"
+    },
+    {
+      "name": "OCR空页会阻止提取",
+      "result": "PASS"
+    },
+    {
+      "name": "超长输入不静默截断",
+      "result": "PASS"
+    },
+    {
+      "name": "图片与文档一起聚合，保留来源",
+      "result": "PASS"
+    },
+    {
+      "name": "核对PASS仍为待人工确认草稿，不自动放行",
+      "result": "PASS"
+    },
+    {
+      "name": "核对异常不伪装PASS",
+      "result": "PASS"
+    },
+    {
+      "name": "PASS带问题不放行",
+      "result": "PASS"
+    },
+    {
+      "name": "多个患者拒绝输出合并病例",
+      "result": "PASS"
+    },
+    {
+      "name": "提取结构错误拒绝",
+      "result": "PASS"
+    },
+    {
+      "name": "独立核对不足时清空变量",
+      "result": "PASS"
+    },
+    {
+      "name": "输出显式身份标签拦截",
+      "result": "PASS"
+    },
+    {
+      "name": "预处理失败不使用模型结果",
+      "result": "PASS"
+    },
+    {
+      "name": "节点ID、连线、变量引用完整",
+      "result": "PASS"
+    },
+    {
+      "name": "每个条件节点均有有内容和无内容出口",
+      "result": "PASS"
+    },
+    {
+      "name": "中间模型不直接输出且历史为零",
+      "result": "PASS"
+    },
+    {
+      "name": "导出不含原OCR头像签名，保留工具绑定及PDF增强配置",
+      "result": "PASS"
+    }
+  ],
+  "total": 28,
+  "passed": 28
+}

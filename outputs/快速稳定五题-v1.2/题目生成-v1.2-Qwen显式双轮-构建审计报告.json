@@ -1,0 +1,443 @@
+{
+  "status": "PASS",
+  "workflow_version": "1.2",
+  "public_schema_version": "1.1",
+  "source": "C:\\Users\\admin\\Downloads\\题目生成 Copy.json",
+  "source_sha256": "c8920c852baa6f68451654f167c00af14f2f55932535747291f67348e94858b1",
+  "source_expected_sha256": "c8920c852baa6f68451654f167c00af14f2f55932535747291f67348e94858b1",
+  "source_unchanged": true,
+  "output": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\outputs\\快速稳定五题-v1.2\\题目生成-v1.2-Qwen显式双轮-可导入.json",
+  "report": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\outputs\\快速稳定五题-v1.2\\题目生成-v1.2-Qwen显式双轮-构建审计报告.json",
+  "import_ready": true,
+  "DO_NOT_IMPORT": false,
+  "node_count": 46,
+  "edge_count": 59,
+  "reachable_executable_nodes": 45,
+  "errors": [],
+  "warnings": [],
+  "unresolved_schema_issues": [],
+  "unresolved_runtime_validation": [
+    "尚未在FastGPT测试副本执行导入；需确认当前服务版本接受全部动态输出类型、条件分支与可选未执行引用。",
+    "尚未运行ALK连续3次及至少20病例的新旧流程各3次A/B；耗时、token、PASS率和医学错误目标均需线上实测。",
+    "离线构建不能证明数据库召回质量、证据适用性或医学结论正确；最终仍以两轮独立校验和人工抽查为准。",
+    "case_intro_images兼容输入被明确保留但不接入模型；需要图片理解时应由独立上游人工确认流程处理。"
+  ],
+  "asset_sha256": {
+    "题目生成-systemPrompt.txt": "20e20b76fb464b53221aca34fdc28dcfa7f307515e7feae5d7e4c921275743a1",
+    "题目校验-systemPrompt.txt": "b95b294a44214b7afc23028ed0e4fbe2e7178af4a2d1f543529dafce23b350f6",
+    "题目修订-systemPrompt.txt": "196dc9a3ddd51363627290b6e1e4ca6a06cbd56f056ff1b5a1494612e0109ea5",
+    "证据注册与压缩-v1.2.js": "e965fef9d5e08a57d9c5a0f568484b358e0fc18070cf3715135dd58d2e86adc2",
+    "候选题装配与硬检.js": "187cbcbb76ce34056c9c1ed2961f131c03537f3e11b4d5246c4854608e6ad855",
+    "修订补丁合并与复检.js": "b1d2f45ab7d9bc5b35eca55819508e9e47470dacea37b7e201076f92edd06a6e",
+    "病例输入精确去重.js": "d5164e83da447583c3f513407ddf7479f1b4a78e6c7d521faae6144390186187",
+    "自测-v1.2.js": "c1412a264efb17ebd2789f7f79e44aa255a1a94f8c3c7113028bb55f5c7615d0",
+    "test_fastgpt_v12_gates.js": "5eb2ec97ecc4626ddfae60918dc7ae8164ed6aac3c3ec7b41dd3d229b482bede",
+    "README-部署说明.md": "f4c4b3c3d909b1ef31f9548402fa4a5d4eb69208bc71ab00f7520e06b0cfe29c",
+    "build_fastgpt_v12.py": "833d83b144d57327a2e7d4d4c7d718a920e3ec29ef5811f4ea33c962d6d071bc"
+  },
+  "embedded_prompt_text": {
+    "题目生成-首轮": {
+      "asset": "题目生成-systemPrompt.txt",
+      "embedded_text_sha256": "20e20b76fb464b53221aca34fdc28dcfa7f307515e7feae5d7e4c921275743a1",
+      "asset_text_sha256": "20e20b76fb464b53221aca34fdc28dcfa7f307515e7feae5d7e4c921275743a1",
+      "exact_match": true
+    },
+    "题目修订-第二轮": {
+      "asset": "题目修订-systemPrompt.txt",
+      "embedded_text_sha256": "196dc9a3ddd51363627290b6e1e4ca6a06cbd56f056ff1b5a1494612e0109ea5",
+      "asset_text_sha256": "196dc9a3ddd51363627290b6e1e4ca6a06cbd56f056ff1b5a1494612e0109ea5",
+      "exact_match": true
+    },
+    "题目校验-首轮": {
+      "asset": "题目校验-systemPrompt.txt",
+      "embedded_text_sha256": "b95b294a44214b7afc23028ed0e4fbe2e7178af4a2d1f543529dafce23b350f6",
+      "asset_text_sha256": "b95b294a44214b7afc23028ed0e4fbe2e7178af4a2d1f543529dafce23b350f6",
+      "exact_match": true
+    },
+    "题目校验-第二轮": {
+      "asset": "题目校验-systemPrompt.txt",
+      "embedded_text_sha256": "b95b294a44214b7afc23028ed0e4fbe2e7178af4a2d1f543529dafce23b350f6",
+      "asset_text_sha256": "b95b294a44214b7afc23028ed0e4fbe2e7178af4a2d1f543529dafce23b350f6",
+      "exact_match": true
+    }
+  },
+  "embedded_asset_text": {
+    "证据注册与压缩-初检": {
+      "asset": "证据注册与压缩-v1.2.js",
+      "embedded_text_sha256": "e965fef9d5e08a57d9c5a0f568484b358e0fc18070cf3715135dd58d2e86adc2",
+      "asset_text_sha256": "e965fef9d5e08a57d9c5a0f568484b358e0fc18070cf3715135dd58d2e86adc2",
+      "exact_match": true
+    },
+    "证据注册与压缩-最终": {
+      "asset": "证据注册与压缩-v1.2.js",
+      "embedded_text_sha256": "e965fef9d5e08a57d9c5a0f568484b358e0fc18070cf3715135dd58d2e86adc2",
+      "asset_text_sha256": "e965fef9d5e08a57d9c5a0f568484b358e0fc18070cf3715135dd58d2e86adc2",
+      "exact_match": true
+    },
+    "候选题装配与硬检-首轮": {
+      "asset": "候选题装配与硬检.js",
+      "embedded_text_sha256": "187cbcbb76ce34056c9c1ed2961f131c03537f3e11b4d5246c4854608e6ad855",
+      "asset_text_sha256": "187cbcbb76ce34056c9c1ed2961f131c03537f3e11b4d5246c4854608e6ad855",
+      "exact_match": true
+    },
+    "候选题装配与硬检-第二轮": {
+      "asset": "候选题装配与硬检.js",
+      "embedded_text_sha256": "187cbcbb76ce34056c9c1ed2961f131c03537f3e11b4d5246c4854608e6ad855",
+      "asset_text_sha256": "187cbcbb76ce34056c9c1ed2961f131c03537f3e11b4d5246c4854608e6ad855",
+      "exact_match": true
+    },
+    "修订补丁合并": {
+      "asset": "修订补丁合并与复检.js",
+      "embedded_text_sha256": "b1d2f45ab7d9bc5b35eca55819508e9e47470dacea37b7e201076f92edd06a6e",
+      "asset_text_sha256": "b1d2f45ab7d9bc5b35eca55819508e9e47470dacea37b7e201076f92edd06a6e",
+      "exact_match": true
+    },
+    "病例输入精确去重": {
+      "asset": "病例输入精确去重.js",
+      "embedded_text_sha256": "d5164e83da447583c3f513407ddf7479f1b4a78e6c7d521faae6144390186187",
+      "asset_text_sha256": "d5164e83da447583c3f513407ddf7479f1b4a78e6c7d521faae6144390186187",
+      "exact_match": true
+    }
+  },
+  "retrieval_health_wiring": {
+    "证据注册与压缩-初检.guideline_a_error": {
+      "value": [
+        "rfC50X90Ce6cGaIB",
+        "error"
+      ],
+      "required": false,
+      "exact_match": true
+    },
+    "证据注册与压缩-初检.guideline_a_system_error": {
+      "value": [
+        "rfC50X90Ce6cGaIB",
+        "system_error_text"
+      ],
+      "required": false,
+      "exact_match": true
+    },
+    "证据注册与压缩-初检.guideline_b_error": {
+      "value": [
+        "sB1igq1zFijP0xqL",
+        "error"
+      ],
+      "required": false,
+      "exact_match": true
+    },
+    "证据注册与压缩-初检.guideline_b_system_error": {
+      "value": [
+        "sB1igq1zFijP0xqL",
+        "system_error_text"
+      ],
+      "required": false,
+      "exact_match": true
+    },
+    "证据注册与压缩-初检.clinical_study_initial_error": {
+      "value": [
+        "k2eB90ICRuNwnMYm",
+        "error"
+      ],
+      "required": false,
+      "exact_match": true
+    },
+    "证据注册与压缩-初检.clinical_study_initial_system_error": {
+      "value": [
+        "k2eB90ICRuNwnMYm",
+        "system_error_text"
+      ],
+      "required": false,
+      "exact_match": true
+    },
+    "证据注册与压缩-初检.clinical_study_supplement_error": {
+      "value": [],
+      "required": false,
+      "exact_match": true
+    },
+    "证据注册与压缩-初检.clinical_study_supplement_system_error": {
+      "value": [],
+      "required": false,
+      "exact_match": true
+    },
+    "证据注册与压缩-初检.irae_a_error": {
+      "value": [
+        "cmjDyjb1ro4mMLZq",
+        "error"
+      ],
+      "required": false,
+      "exact_match": true
+    },
+    "证据注册与压缩-初检.irae_a_system_error": {
+      "value": [
+        "cmjDyjb1ro4mMLZq",
+        "system_error_text"
+      ],
+      "required": false,
+      "exact_match": true
+    },
+    "证据注册与压缩-初检.irae_b_error": {
+      "value": [
+        "tVs35q6nFPGaT2Zu",
+        "error"
+      ],
+      "required": false,
+      "exact_match": true
+    },
+    "证据注册与压缩-初检.irae_b_system_error": {
+      "value": [
+        "tVs35q6nFPGaT2Zu",
+        "system_error_text"
+      ],
+      "required": false,
+      "exact_match": true
+    },
+    "证据注册与压缩-初检.knowledge_search_error": {
+      "value": [],
+      "required": false,
+      "exact_match": true
+    },
+    "证据注册与压缩-最终.guideline_a_error": {
+      "value": [
+        "rfC50X90Ce6cGaIB",
+        "error"
+      ],
+      "required": false,
+      "exact_match": true
+    },
+    "证据注册与压缩-最终.guideline_a_system_error": {
+      "value": [
+        "rfC50X90Ce6cGaIB",
+        "system_error_text"
+      ],
+      "required": false,
+      "exact_match": true
+    },
+    "证据注册与压缩-最终.guideline_b_error": {
+      "value": [
+        "sB1igq1zFijP0xqL",
+        "error"
+      ],
+      "required": false,
+      "exact_match": true
+    },
+    "证据注册与压缩-最终.guideline_b_system_error": {
+      "value": [
+        "sB1igq1zFijP0xqL",
+        "system_error_text"
+      ],
+      "required": false,
+      "exact_match": true
+    },
+    "证据注册与压缩-最终.clinical_study_initial_error": {
+      "value": [
+        "k2eB90ICRuNwnMYm",
+        "error"
+      ],
+      "required": false,
+      "exact_match": true
+    },
+    "证据注册与压缩-最终.clinical_study_initial_system_error": {
+      "value": [
+        "k2eB90ICRuNwnMYm",
+        "system_error_text"
+      ],
+      "required": false,
+      "exact_match": true
+    },
+    "证据注册与压缩-最终.clinical_study_supplement_error": {
+      "value": [
+        "wYNikERvoe0rtN03",
+        "error"
+      ],
+      "required": false,
+      "exact_match": true
+    },
+    "证据注册与压缩-最终.clinical_study_supplement_system_error": {
+      "value": [
+        "wYNikERvoe0rtN03",
+        "system_error_text"
+      ],
+      "required": false,
+      "exact_match": true
+    },
+    "证据注册与压缩-最终.irae_a_error": {
+      "value": [
+        "cmjDyjb1ro4mMLZq",
+        "error"
+      ],
+      "required": false,
+      "exact_match": true
+    },
+    "证据注册与压缩-最终.irae_a_system_error": {
+      "value": [
+        "cmjDyjb1ro4mMLZq",
+        "system_error_text"
+      ],
+      "required": false,
+      "exact_match": true
+    },
+    "证据注册与压缩-最终.irae_b_error": {
+      "value": [
+        "tVs35q6nFPGaT2Zu",
+        "error"
+      ],
+      "required": false,
+      "exact_match": true
+    },
+    "证据注册与压缩-最终.irae_b_system_error": {
+      "value": [
+        "tVs35q6nFPGaT2Zu",
+        "system_error_text"
+      ],
+      "required": false,
+      "exact_match": true
+    },
+    "证据注册与压缩-最终.knowledge_search_error": {
+      "value": [
+        "wP0lzgeUtpvzxSHw",
+        "system_error_text"
+      ],
+      "required": false,
+      "exact_match": true
+    }
+  },
+  "fail_closed_optional_inputs": {
+    "候选题装配与硬检-首轮.candidate_json": true,
+    "修订补丁合并.previous_internal_json": true,
+    "修订补丁合并.patch_json": true,
+    "候选题装配与硬检-第二轮.candidate_json": true
+  },
+  "validation_payload": {
+    "校验输入拼接-首轮": {
+      "uses_public_reference_map": true,
+      "duplicates_public_candidate": false,
+      "duplicates_previous_full_candidate": false,
+      "compact": true
+    },
+    "校验输入拼接-第二轮": {
+      "uses_public_reference_map": true,
+      "duplicates_public_candidate": false,
+      "duplicates_previous_full_candidate": false,
+      "compact": true
+    }
+  },
+  "model_configuration": {
+    "题目生成-首轮": {
+      "model": "qwen3.5-plus",
+      "temperature": 0.1,
+      "maxToken": 8192,
+      "aiChatVision": false,
+      "aiChatReasoning": false,
+      "aiChatReasoningEffort": "",
+      "aiChatResponseFormat": "json_object"
+    },
+    "题目修订-第二轮": {
+      "model": "qwen3.5-plus",
+      "temperature": 0.1,
+      "maxToken": 8192,
+      "aiChatVision": false,
+      "aiChatReasoning": false,
+      "aiChatReasoningEffort": "",
+      "aiChatResponseFormat": "json_object"
+    },
+    "题目校验-首轮": {
+      "model": "qwen3.5-plus",
+      "temperature": 0.1,
+      "maxToken": 16384,
+      "aiChatVision": false,
+      "aiChatReasoning": true,
+      "aiChatReasoningEffort": "medium",
+      "aiChatResponseFormat": "json_object"
+    },
+    "题目校验-第二轮": {
+      "model": "qwen3.5-plus",
+      "temperature": 0.1,
+      "maxToken": 16384,
+      "aiChatVision": false,
+      "aiChatReasoning": true,
+      "aiChatReasoningEffort": "medium",
+      "aiChatResponseFormat": "json_object"
+    }
+  },
+  "compatibility_global_keys": {
+    "question_count": "qIBOhWU5",
+    "difficulty": "gTw1bH5A",
+    "question_draft": "dEe0na4W",
+    "review_feedback": "dlE2lQcE",
+    "case_intro_images": "budXueGl"
+  },
+  "checks": {
+    "json_root_shape": true,
+    "unique_node_ids": true,
+    "no_dangling_edges_or_refs": true,
+    "five_lane_nodes_preserved": true,
+    "conditional_study_supplement": true,
+    "explicit_two_rounds_no_loop": true,
+    "single_final_publication_owner": true,
+    "public_release_requires_independent_pass_score_75": true
+  },
+  "behavioral_self_test": {
+    "status": "PASS",
+    "commands": [
+      {
+        "name": "deterministic_assets",
+        "command": [
+          "node",
+          "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\outputs\\快速稳定五题-v1.2\\自测-v1.2.js"
+        ],
+        "exit_code": 0,
+        "stderr": "",
+        "reported_status": "PASS",
+        "assertions": {
+          "supplement_gate": "PASS",
+          "stable_evidence_ids_within_normalized_pool": "PASS",
+          "deterministic_hydration": "PASS",
+          "medical_auditable_on_structure_failure": "PASS",
+          "insufficiency_full_pool": "PASS",
+          "patch_byte_preservation": "PASS",
+          "duplicate_root_key_guard": "PASS",
+          "patch_authorization": "PASS",
+          "full_authorization_and_summary": "PASS",
+          "exact_case_deduplication": "PASS"
+        },
+        "passed": true
+      },
+      {
+        "name": "embedded_gate_matrix",
+        "command": [
+          "node",
+          "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\scripts\\review\\test_fastgpt_v12_gates.js",
+          "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\outputs\\快速稳定五题-v1.2\\.题目生成-v1.2-Qwen显式双轮-待验证.json"
+        ],
+        "exit_code": 0,
+        "stderr": "",
+        "reported_status": "PASS",
+        "matrix": {
+          "dataset_quote_q_lead_extraction": "PASS",
+          "blank_output_fail_closed_transport": "PASS",
+          "duplicate_root_key_fail_closed": "PASS",
+          "retrieval_health_fail_closed": "PASS",
+          "esmo_results_heading_study": "PASS",
+          "r1_consistent_pass": "PASS",
+          "pass_internal_consistency_guard": "PASS",
+          "integer_score_fail_closed": "PASS",
+          "strict_json_types_and_code_normalization": "PASS",
+          "fallback_full_fields": "PASS",
+          "empty_r1_full_r2_recovery": "PASS",
+          "root_only_preservation": "PASS",
+          "r2_insufficient_independent_stop": "PASS",
+          "r1_independent_stop_preserved": "PASS",
+          "r2_consistent_pass": "PASS",
+          "stop_requires_valid_pool_and_exact_contract": "PASS",
+          "r1_publishable_gate_and_clean_pass": "PASS",
+          "r2_publishable_gate": "PASS",
+          "invalid_r2_fail_closed_and_summary_fallback": "PASS",
+          "final_r2_stop_preserved": "PASS"
+        },
+        "passed": true
+      }
+    ]
+  },
+  "output_replaced": true,
+  "output_sha256": "a3184c15ce70b1f0e66161798aca913af198d2e78438d8374dba1a26b88fd8af",
+  "output_size_bytes": 581565
+}

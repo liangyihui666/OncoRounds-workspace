@@ -1,0 +1,247 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-F5639B6F",
+    "cancer_type": "胃癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "治疗决策",
+        "phase": "一线系统治疗",
+        "timepoint": "诊断时",
+        "question": "针对该 HER2 阴性、PD-L1 CPS 8 分的 IV 期胃癌伴肝转移患者，初始系统治疗的最佳策略是？",
+        "options": {
+          "A": "单纯化疗方案如 XELOX 或 SOX",
+          "B": "化疗联合替雷利珠单抗免疫治疗",
+          "C": "化疗联合曲妥珠单抗靶向治疗",
+          "D": "单药免疫检查点抑制剂治疗"
+        },
+        "answer": "B",
+        "answer_text": "化疗联合替雷利珠单抗免疫治疗",
+        "explain": "指南推荐 HER2 阴性且 PD-L1 CPS≥5 分或 TAP≥5% 的患者，一线治疗优选化疗联合替雷利珠单抗。患者 CPS 8 分符合该指征。曲妥珠单抗仅用于 HER2 阳性患者。",
+        "keyPoint": "HER2 阴性且 PD-L1 高表达患者一线优选免疫联合化疗",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "1a0b9e2f-8e94-4c79-9a34-a15aa4e10180",
+          "split_index": 105,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "胃癌的预防与筛查",
+          "source_version": "2024",
+          "source_section": "3 晚期胃癌的治疗",
+          "source_url": "",
+          "evidence_summary": "指南明确推荐 PD-L1 TAP≥5% 或 CPS 高分者，替雷利珠单抗联合化疗为优先方案。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "疗效复评与局部治疗",
+        "phase": "转化治疗评估",
+        "timepoint": "第 5 疗程后",
+        "question": "患者经 5 疗程治疗后肝转移灶消失，原发灶缩小，此时决定手术前，除影像学评估外，哪项操作有助于提高腹腔微小病灶检出率？",
+        "options": {
+          "A": "行腹腔镜探查并同步腹腔灌洗细胞学检查",
+          "B": "直接行开腹根治性全胃切除术",
+          "C": "继续增加两个疗程化疗后再评估",
+          "D": "行 PET-CT 检查替代有创探查"
+        },
+        "answer": "A",
+        "answer_text": "行腹腔镜探查并同步腹腔灌洗细胞学检查",
+        "explain": "指南推荐新辅助治疗前或转化治疗评估时，对晚期患者行腹腔镜探查及腹水细胞学检查，可提高腹腔种植及微小肝转移诊断率，优于单纯 CT。",
+        "keyPoint": "腹腔镜探查结合细胞学检查可提高腹腔微转移检出率",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+          "split_index": 84,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026",
+          "source_version": "2026",
+          "source_section": "专家组成员（以姓氏汉语拼音为序）（\\为执笔人）",
+          "source_url": "",
+          "evidence_summary": "指南指出腹腔镜探查可提高腹腔种植及微小转移诊断率，推荐用于分期较晚患者。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "术后辅助治疗",
+        "timepoint": "术后恢复期",
+        "question": "若该患者术后恢复顺利，无并发症，根据专家共识建议，行辅助免疫治疗的适宜启动时间是？",
+        "options": {
+          "A": "术后即刻出院当天开始给药",
+          "B": "术后 3 个月复查无复发再开始",
+          "C": "仅在出现复发迹象时才开始治疗",
+          "D": "术后 4 至 6 周开始治疗"
+        },
+        "answer": "D",
+        "answer_text": "术后 4 至 6 周开始治疗",
+        "explain": "专家共识建议在手术后 4 至 6 周开始行辅助免疫治疗，以平衡术后恢复与治疗时机。过早可能影响伤口愈合，过晚可能增加复发风险。",
+        "keyPoint": "辅助免疫治疗建议在术后 4 至 6 周启动",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "bedf23cb-6970-47de-85ff-77c15fd0a977",
+          "split_index": 29,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "免疫检查点抑制剂用于进展期胃癌围手术期治疗的中国专家共识(2024版)",
+          "source_version": "2024",
+          "source_section": "（二）辅助治疗人群选择",
+          "source_url": "",
+          "evidence_summary": "共识明确建议术后 4 至 6 周开始行辅助免疫治疗。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "分子诊断",
+        "phase": "初诊评估",
+        "timepoint": "诊断时",
+        "question": "针对该 IV 期胃癌患者，初诊时关于分子病理检测的完整策略应包含？",
+        "options": {
+          "A": "仅检测 HER2 状态以指导靶向治疗",
+          "B": "仅对原发灶进行常规病理形态学检查",
+          "C": "完善 PD-L1、MMR、HER2 等全面评估",
+          "D": "等待术后标本再进行所有分子检测"
+        },
+        "answer": "C",
+        "answer_text": "完善 PD-L1、MMR、HER2 等全面评估",
+        "explain": "IV 期胃癌初诊时应进行包括 PD-L1、MMR/MSI、HER2 等在内的全面分子病理评估，以指导精准治疗决策。",
+        "keyPoint": "IV 期胃癌需初诊即完善分子分型检测",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "4569a34f-9f0f-44e5-8b93-5f298ef949e7",
+          "split_index": 18,
+          "type": "guideline",
+          "authority": "中华医学会外科学分会腹腔镜与内镜外科学组, 中国抗癌协会胃癌专业委员会, 中国抗癌协会腔镜与机器人外科分会, 《中华消化外科杂志》编辑委员会",
+          "source_title": "精准外科胃癌转化治疗专家共识（2025版）",
+          "source_version": "2025",
+          "source_section": "CQ7：病理学评估",
+          "source_url": "",
+          "evidence_summary": "专家共识推荐 IV 期胃癌患者初诊时完善活检组织的 PD-L1、MMR、HER2 等免疫组化及基因检测。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "诊断与分期",
+        "phase": "病理诊断",
+        "timepoint": "检查时",
+        "question": "活检提示低分化腺癌可能伴神经内分泌分化，此时病理检测的补充措施是？",
+        "options": {
+          "A": "加做 Syn、CgA 等神经内分泌标志物",
+          "B": "无需补充检测仅凭形态学诊断",
+          "C": "立即行全身 PET-CT 重新分期",
+          "D": "直接按神经内分泌癌制定方案"
+        },
+        "answer": "A",
+        "answer_text": "加做 Syn、CgA 等神经内分泌标志物",
+        "explain": "特殊类型胃癌如疑伴神经内分泌分化时，需检测 Syn、CgA、Ki67 等标志物以辅助确诊及指导治疗。",
+        "keyPoint": "疑似特殊类型胃癌需加做相应标志物",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "f51ad2ef-8e21-42f9-bfd1-f2ed36512587",
+          "split_index": 109,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 病理诊断",
+          "source_version": "2023",
+          "source_section": "（三）免疫组织化学",
+          "source_url": "",
+          "evidence_summary": "指南指出特殊类型胃癌如神经内分泌癌需检测 Syn、CgA、Ki67 等标志物以辅助诊断。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-F5639B6F",
+    "cancer_type": "胃癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/gastric-her2.png",
+      "alt": "胃癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "胃癌系统治疗与复评决策",
+      "description": "66岁女性因吞咽困难就诊，胃腺癌伴多发肝转移。"
+    },
+    "overview": {
+      "hero": {
+        "title": "胃癌系统治疗与复评决策",
+        "subtitle": "肝转移治疗后的影像复评、手术前病灶范围判断，以及影像缓解与病理缓解的区别。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "66岁女性因吞咽困难就诊，胃腺癌伴多发肝转移。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "HER2阴性、PD-L1 CPS 8；病理提示可能伴神经内分泌分化。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "XELOX联合替雷利珠单抗5周期后病灶缩小，继而行全胃切除。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "肝转移治疗后的影像复评、手术前病灶范围判断，以及影像缓解与病理缓解的区别。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "初诊",
+              "title": "胃癌伴肝转移",
+              "detail": "吞咽困难就诊，胃低分化腺癌伴多发肝转移，HER2阴性、PD-L1 CPS 8。"
+            },
+            {
+              "date": "前5周期",
+              "title": "免疫联合化疗",
+              "detail": "接受XELOX联合替雷利珠单抗。"
+            },
+            {
+              "date": "5周期后",
+              "title": "转化评估",
+              "detail": "CT显示肝病灶消失、原发缩小，腹腔镜未见明显腹腔转移。"
+            },
+            {
+              "date": "随后",
+              "title": "手术及病理",
+              "detail": "全胃切除后标本无残留肿瘤，达到pCR。"
+            },
+            {
+              "date": "术后6周及后续",
+              "title": "复查与继续治疗",
+              "detail": "PET-CT未见转移，后续接受辅助化疗及免疫治疗。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

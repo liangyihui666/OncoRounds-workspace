@@ -1,0 +1,1433 @@
+[
+  {
+    "case_id": "CASE-FCB62584",
+    "file": "01_肝癌_仑伐替尼肾损伤_CASE-FCB62584.json",
+    "original_source_slot": 1,
+    "original_questions": [
+      {
+        "id": "Q1",
+        "type": "不良反应管理",
+        "phase": "一线系统治疗期间",
+        "timepoint": "2023 年 11 月",
+        "question": "患者出现大量蛋白尿（19.5g/24h）、低白蛋白血症及水肿，肾活检证实肾微血管病变。此时最恰当的治疗决策是？",
+        "options": {
+          "A": "维持仑伐替尼 8mg/d 治疗，加强利尿及降压支持治疗",
+          "B": "将仑伐替尼进一步减量至 4mg/d 并联合糖皮质激素",
+          "C": "永久停用仑伐替尼，转为保守治疗并密切监测肾功能",
+          "D": "暂停仑伐替尼 2 周，若蛋白尿缓解则恢复原剂量 12mg/d"
+        },
+        "answer": "C",
+        "answer_text": "永久停用仑伐替尼，转为保守治疗并密切监测肾功能",
+        "explain": "患者已出现危及生命的肾病综合征及病理证实的微血管病变，属于严重不良反应。依据临床推理及指南对不耐受患者的处理原则，应永久停药以保器官功能，而非减量或暂时暂停。",
+        "keyPoint": "出现危及生命的 TKI 相关肾微血管病变或肾病综合征应永久停药。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "aac207db-4ece-44ff-b841-0e20af26108a",
+          "split_index": 38,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "原发性肝癌转化及围手术期治疗中国专家共识(2024版)",
+          "source_version": "2024",
+          "source_section": "2.基于安全性选择合适的手术时机",
+          "source_url": "",
+          "evidence_summary": "指南明确指出一线治疗失败或不耐受（包括严重毒性）时，应及时更换为二线方案或停止当前治疗，支持永久停药决策。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "治疗决策",
+        "phase": "复发后二线治疗",
+        "timepoint": "2024 年 1 月",
+        "question": "患者仑伐替尼治疗失败且因毒性停药，2024 年 1 月肝癌复发行微波消融后，选择信迪利单抗单药治疗。依据中国肝癌诊疗指南，该决策的合理性在于？",
+        "options": {
+          "A": "信迪利单抗单药疗效优于 TKI 联合免疫的双药一线方案",
+          "B": "患者肾功能不全禁忌使用所有酪氨酸激酶抑制剂类药物",
+          "C": "微波消融术后必须序贯免疫治疗以防复发延长生存",
+          "D": "TKI 治疗失败后，免疫检查点抑制剂是推荐的二线治疗选择之一"
+        },
+        "answer": "D",
+        "answer_text": "TKI 治疗失败后，免疫检查点抑制剂是推荐的二线治疗选择之一",
+        "explain": "指南推荐 TKI 治疗失败后可换用免疫检查点抑制剂（如卡瑞利珠单抗、替雷利珠单抗、帕博利珠单抗等）作为二线治疗，符合该患者既往 TKI 不耐受及进展的病史。",
+        "keyPoint": "TKI 进展或不耐受后，二线治疗可选用免疫检查点抑制剂单药。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "aac207db-4ece-44ff-b841-0e20af26108a",
+          "split_index": 38,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "原发性肝癌转化及围手术期治疗中国专家共识(2024版)",
+          "source_version": "2024",
+          "source_section": "2.基于安全性选择合适的手术时机",
+          "source_url": "",
+          "evidence_summary": "指南明确指出一线 TKI 失败后，二线可换用 ICIs 治疗，包括卡瑞利珠单抗、替雷利珠单抗、帕博利珠单抗等。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "不良反应管理",
+        "phase": "仑伐替尼治疗期间",
+        "timepoint": "2021 年 3 月至 2022 年 10 月",
+        "question": "患者仑伐替尼治疗 10 个月内出现尿蛋白从 1+ 进展至 3+，伴肌酐升高至 108μmol/L，但尚未出现肾病综合征表现。基于本病例实际处理过程，此时最合理的剂量调整策略是？",
+        "options": {
+          "A": "将仑伐替尼剂量从 12mg/d 减至 8mg/d 并密切监测",
+          "B": "立即永久停用仑伐替尼并转为最佳支持治疗",
+          "C": "维持原剂量 12mg/d，仅加用 ACEI/ARB 类药物",
+          "D": "暂停用药待蛋白尿完全转阴后恢复原剂量 12mg/d"
+        },
+        "answer": "A",
+        "answer_text": "将仑伐替尼剂量从 12mg/d 减至 8mg/d 并密切监测",
+        "explain": "病例事实显示患者在出现进行性蛋白尿和肌酐升高但未达肾病综合征时，采取了减量至 8mg/d 的措施。虽指南建议不耐受时调整方案，但具体减量操作需结合患者耐受性个体化决策，而非直接永久停药或盲目维持。",
+        "keyPoint": "TKI 致蛋白尿早期识别与分级管理：3 级毒性常需减量或暂停，具体策略需个体化评估。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "aac207db-4ece-44ff-b841-0e20af26108a",
+          "split_index": 38,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "原发性肝癌转化及围手术期治疗中国专家共识(2024版)",
+          "source_version": "2024",
+          "source_section": "2.基于安全性选择合适的手术时机",
+          "source_url": "",
+          "evidence_summary": "共识指出对于治疗不耐受患者应及时调整方案，包括更换药物或联合其他模式，强调对基础疾病及不良反应的管理。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "治疗决策",
+        "phase": "肝癌复发后",
+        "timepoint": "2024 年 1 月",
+        "question": "患者停用仑伐替尼后肝癌复发，病灶局限于右叶 VIII 段，已行微波消融。考虑到既往 TKI 致严重肾毒性，本病例实际采取的后续系统治疗策略是？",
+        "options": {
+          "A": "重新挑战仑伐替尼，起始剂量 4mg/d",
+          "B": "启用信迪利单抗单药治疗",
+          "C": "选用索拉非尼，因其肾毒性发生率低于仑伐替尼",
+          "D": "启用信迪利单抗联合贝伐珠单抗类似物"
+        },
+        "answer": "B",
+        "answer_text": "启用信迪利单抗单药治疗",
+        "explain": "病例事实明确记载患者开始信迪利单抗治疗，未联合贝伐珠单抗。因患者既往有严重 TKI 致肾毒性及难治性高血压，联合贝伐珠单抗可能加重肾损伤及高血压，故本例选择单药免疫治疗更为安全。",
+        "keyPoint": "TKI 不耐受复发患者，优先转换为免疫治疗；若存在严重肾毒性或高血压，需慎用联合贝伐珠单抗。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "ea2a8a87-e782-4e9c-b9fc-6c9823c9f851",
+          "split_index": 62,
+          "type": "guideline",
+          "authority": "中华医学会肿瘤学分会",
+          "source_title": "原发性肝癌诊疗指南（2026 年版）",
+          "source_version": "2026",
+          "source_section": "原发性肝癌诊疗指南（2026年版）",
+          "source_url": "",
+          "evidence_summary": "指南列出一线系统治疗选项，但具体方案选择需结合患者既往耐受性及合并症进行个体化调整。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "治疗决策",
+        "phase": "肝癌复发后",
+        "timepoint": "2024 年 1 月",
+        "question": "患者停用仑伐替尼后肝癌局部复发，肝功能及体能状态允许。鉴于既往多次局部治疗史，合理的综合治疗策略是？",
+        "options": {
+          "A": "直接启动全身系统治疗，忽略局部病灶",
+          "B": "再次行肝切除术，术后辅助索拉非尼治疗",
+          "C": "行微波消融术局部控制，序贯信迪利单抗治疗",
+          "D": "仅行最佳支持治疗，放弃抗肿瘤干预"
+        },
+        "answer": "C",
+        "answer_text": "行微波消融术局部控制，序贯信迪利单抗治疗",
+        "explain": "对于局部复发病灶，若适合局部治疗（如消融），应优先行局部控制。鉴于患者既往多次手术/TACE 史，再次手术风险高，消融更适宜；序贯未用过的免疫治疗符合二线转换原则。",
+        "keyPoint": "寡复发灶优选局部治疗（消融）联合序贯未用过的系统治疗（免疫）的 MDT 模式。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "aac207db-4ece-44ff-b841-0e20af26108a",
+          "split_index": 38,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "原发性肝癌转化及围手术期治疗中国专家共识(2024版)",
+          "source_version": "2024",
+          "source_section": "2.基于安全性选择合适的手术时机",
+          "source_url": "",
+          "evidence_summary": "指南指出对于局部进展患者，除转换二线方案外，也可联合局部治疗；一线 TKI 失败后可换用 ICIs 治疗，支持局部联合系统治疗策略。"
+        }
+      }
+    ],
+    "revised_question_ids": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4",
+      "Q5"
+    ]
+  },
+  {
+    "case_id": "CASE-BD2810E1",
+    "file": "02_胃神经内分泌肿瘤_恶性贫血_CASE-BD2810E1.json",
+    "original_source_slot": 2,
+    "original_questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "初诊评估",
+        "timepoint": "就诊时",
+        "question": "该患者胃窦结节活检示 Ki-67<3% 且核分裂象<2 个/mm²，结合背景黏膜萎缩及高胃泌素血症，其 WHO 分级及临床亚型应如何判定？",
+        "options": {
+          "A": "NET G2 级，1 型胃神经内分泌肿瘤",
+          "B": "NET G1 级，3 型胃神经内分泌肿瘤",
+          "C": "神经内分泌癌（NEC），3 型胃神经内分泌肿瘤",
+          "D": "NET G1 级，1 型胃神经内分泌肿瘤"
+        },
+        "answer": "D",
+        "answer_text": "NET G1 级，1 型胃神经内分泌肿瘤",
+        "explain": "Ki-67<3% 且核分裂<2 个/mm²符合 NET G1 标准；背景萎缩性胃炎、高胃泌素及 ECL 细胞增生特征指向 1 型。",
+        "keyPoint": "1 型胃 NET 由 AIG 驱动，分级依据增殖指数，需与 3 型鉴别。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "340588b3-fde3-4995-a125-fbcb294a1c76",
+          "split_index": 30,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会 (CSCO) 神经内分泌肿瘤诊疗指南 2026",
+          "source_version": "2026",
+          "source_section": "中国临床肿瘤学会指南工作委员会",
+          "source_url": "",
+          "evidence_summary": "CSCO 指南指出 1 型胃 NET 基础病因为自身免疫性胃炎，伴高胃泌素血症，分级标准与肠道一致。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "分子诊断",
+        "phase": "初诊评估",
+        "timepoint": "就诊时",
+        "question": "针对疑似自身免疫性萎缩性胃炎（AIG）合并胃神经内分泌肿瘤的患者，下列哪项血清学检测组合最有助于明确病因及指导后续治疗？",
+        "options": {
+          "A": "抗壁细胞抗体、抗内因子抗体、胃泌素、维生素 B12",
+          "B": "HER2、MMR 蛋白、PD-L1 及 EBER 检测组合",
+          "C": "CEA、CA19-9、CA72-4 及 AFP 肿瘤标志物",
+          "D": "促胃液素释放肽、NSE、降钙素及甲状旁腺激素"
+        },
+        "answer": "A",
+        "answer_text": "抗壁细胞抗体、抗内因子抗体、胃泌素、维生素 B12",
+        "explain": "AIG 诊断依赖自身抗体及维生素 B12 水平，高胃泌素是 1 型胃 NET 的驱动因素，需同步检测以确立诊断链条。",
+        "keyPoint": "AIG 相关胃 NET 的确诊需整合自身免疫指标、维生素 B12 及胃泌素水平。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "e5a17f7f-e974-4d8f-81a4-df017e1364de",
+          "split_index": 60,
+          "type": "guideline",
+          "authority": "中华医学会消化病学分会",
+          "source_title": "中国慢性胃炎诊治指南（2022年，上海）",
+          "source_version": "2022",
+          "source_section": "瓶。内镜医师应向病理医师提供取材部位、内镜所见、内镜诊断和简要病史等临床资料。",
+          "source_url": "",
+          "evidence_summary": "慢性胃炎诊治指南推荐对伴贫血的萎缩性胃炎患者检测自身抗体、维生素 B12 及胃泌素以明确 AIG 及 1 型胃 NET 风险。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "初始治疗",
+        "timepoint": "出院计划制定时",
+        "question": "对于该例单发、直径较小（<1cm）且无浸润深度的 1 型胃 NET G1 患者，在纠正恶性贫血后，首选的管理策略是什么？",
+        "options": {
+          "A": "立即行内镜下黏膜切除术（EMR）",
+          "B": "定期胃镜随访，暂不行内镜下切除",
+          "C": "行根治性胃大部切除术",
+          "D": "启动长效生长抑素类似物（SSA）治疗"
+        },
+        "answer": "B",
+        "answer_text": "定期胃镜随访，暂不行内镜下切除",
+        "explain": "指南指出对于<1cm 的 1 型胃 NET，若病灶数目不多，可选择单纯随访；本例单发小病灶，且已纠正贫血，随访是合理选项。",
+        "keyPoint": "小病灶 1 型胃 NET 可采取保守随访策略，避免过度治疗，但需密切监测。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "340588b3-fde3-4995-a125-fbcb294a1c76",
+          "split_index": 55,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会 (CSCO) 神经内分泌肿瘤诊疗指南 2026",
+          "source_version": "2026",
+          "source_section": "【注释】",
+          "source_url": "",
+          "evidence_summary": "CSCO 指南注释表明，<1cm 的 1 型胃 NET 若病灶不多，专家主张可单纯内镜随访，每 6-12 个月复查。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "疗效复评与局部治疗",
+        "phase": "随访管理",
+        "timepoint": "出院后长期管理",
+        "question": "根据 CSCO 指南，该 1 型胃 NET 患者在确诊并制定随访计划后，前 5 年的推荐随访频率及核心检查内容是什么？",
+        "options": {
+          "A": "每 3 个月随访 1 次，含胸腹盆 CT 及生长抑素受体显像",
+          "B": "每年随访 1 次，检测肿瘤标志物 CgA、NSE 及血常规",
+          "C": "每 6-12 个月随访 1 次，含胃镜、血常规、维生素 B12 及胃泌素",
+          "D": "每 24 个月随访 1 次，行胃镜检查及血清胃泌素测定"
+        },
+        "answer": "C",
+        "answer_text": "每 6-12 个月随访 1 次，含胃镜、血常规、维生素 B12 及胃泌素",
+        "explain": "1 型胃 NET 进展缓慢，指南推荐前 5 年每 6-12 个月随访，重点监测胃镜变化及贫血、高胃泌素状态。",
+        "keyPoint": "1 型胃 NET 随访需兼顾肿瘤局部控制与基础疾病（AIG/贫血）的监测。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "340588b3-fde3-4995-a125-fbcb294a1c76",
+          "split_index": 153,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会 (CSCO) 神经内分泌肿瘤诊疗指南 2026",
+          "source_version": "2026",
+          "source_section": "【注释】",
+          "source_url": "",
+          "evidence_summary": "CSCO 指南规定 1 型胃 NET 建议每 6-12 个月随访 1 次共 5 年，内容包括胃镜、血常规、维生素 B12 及胃泌素等。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "分子诊断",
+        "phase": "初诊评估",
+        "timepoint": "就诊时",
+        "question": "在确立 1 型胃 NET 诊断过程中，下列哪项血清学指标组合对提示“自身免疫性萎缩性胃炎”这一基础病因最具特异性？",
+        "options": {
+          "A": "血清胃泌素降低与壁细胞抗体阴性",
+          "B": "嗜铬粒蛋白 A 显著升高与胃泌素正常",
+          "C": "维生素 B12 正常与壁细胞抗体阳性",
+          "D": "血清胃泌素升高与内因子抗体阳性"
+        },
+        "answer": "D",
+        "answer_text": "血清胃泌素升高与内因子抗体阳性",
+        "explain": "自身免疫性胃炎导致壁细胞破坏，胃酸缺乏反馈性引起胃泌素升高，内因子抗体阳性是恶性贫血及 1 型胃 NET 的特异性标志。",
+        "keyPoint": "高胃泌素血症联合内因子抗体阳性是 1 型胃 NET 病因诊断的关键血清学特征。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "e5a17f7f-e974-4d8f-81a4-df017e1364de",
+          "split_index": 60,
+          "type": "guideline",
+          "authority": "中华医学会消化病学分会",
+          "source_title": "中国慢性胃炎诊治指南（2022年，上海）",
+          "source_version": "2022",
+          "source_section": "瓶。内镜医师应向病理医师提供取材部位、内镜所见、内镜诊断和简要病史等临床资料。",
+          "source_url": "",
+          "evidence_summary": "慢性胃炎诊治指南指出 AIG 患者需检测抗胃壁细胞/内因子抗体，常伴胃泌素升高及 1 型胃 NET。"
+        }
+      }
+    ],
+    "revised_question_ids": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4",
+      "Q5"
+    ]
+  },
+  {
+    "case_id": "CASE-46B8BDDE",
+    "file": "03_胆管癌_EGFR靶向证据边界_CASE-46B8BDDE.json",
+    "original_source_slot": 3,
+    "original_questions": [
+      {
+        "id": "Q1",
+        "type": "分子诊断",
+        "phase": "初诊",
+        "timepoint": "2019 年 2 月",
+        "question": "本例仅检测了 EGFR、ALK 和 ROS1 基因并发现 EGFR 突变。依据 2024 版肝内胆管癌精准检测共识，该检测策略的主要局限性是？",
+        "options": {
+          "A": "ARMS-PCR 方法灵敏度不足以检测低频突变",
+          "B": "未进行液体活检导致无法评估异质性",
+          "C": "未覆盖 FGFR2 融合等必检高频率驱动基因",
+          "D": "未检测 MSI/MMR 状态影响免疫治疗决策"
+        },
+        "answer": "C",
+        "answer_text": "未覆盖 FGFR2 融合等必检高频率驱动基因",
+        "explain": "共识推荐 FGFR2 融合为必检基因，本例受限于当时条件未检测，可能遗漏关键靶向治疗机会。",
+        "keyPoint": "ICC 分子检测应优先覆盖 FGFR2 融合等高频必检靶点，避免漏诊可治疗突变。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "c872fb94-84f2-441f-820d-2de8662ab657",
+          "split_index": 30,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "肝内胆管癌精准检测专家共识(2024版)",
+          "source_version": "2024",
+          "source_section": "2 分子生物标志物检测项目及方法",
+          "source_url": "",
+          "evidence_summary": "共识将 FGFR2 融合列为必检基因，因其变异频率高且有获批靶向药。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "治疗决策",
+        "phase": "一线治疗",
+        "timepoint": "2019 年 2 月",
+        "question": "患者拒绝吉西他滨联合铂类标准化疗，尝试阿法替尼单药治疗。关于此决策的循证医学评价，正确的是？",
+        "options": {
+          "A": "阿法替尼是胆管癌 EGFR 突变患者的一线标准治疗方案，指南强推荐",
+          "B": "既往研究证实阿法替尼可显著延长此类患者总生存期，应作为首选",
+          "C": "该决策符合 NCCN 指南对于 EGFR 突变胆管癌的强推荐，疗效确切",
+          "D": "EGFR 突变在胆管癌中驱动作用不明，缺乏适应症外使用 TKI 的确切获益证据"
+        },
+        "answer": "D",
+        "answer_text": "EGFR 突变在胆管癌中驱动作用不明，缺乏适应症外使用 TKI 的确切获益证据",
+        "explain": "胆管癌 EGFR 突变频率低且非明确驱动因子，与肺癌不同；目前指南未推荐 TKI 作为标准治疗，属探索性尝试。",
+        "keyPoint": "胆管癌 EGFR 突变非明确驱动因子，适应症外使用 TKI 需谨慎评估风险获益。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "588b2660-a9f2-4476-8c6e-ca4a7ad04346",
+          "split_index": 72,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "原发性肝癌诊疗指南之肝内胆管癌诊疗中国专家共识(2022版)",
+          "source_version": "2022",
+          "source_section": "（三）二线治疗",
+          "source_url": "",
+          "evidence_summary": "指南推荐二线靶向治疗针对 FGFR2/NTRK 等，未提及 EGFR-TKI 作为标准方案。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "疗效复评与局部治疗",
+        "phase": "疗效评估",
+        "timepoint": "治疗 1 个月后",
+        "question": "患者阿法替尼治疗 1 个月后症状加重，CT 示肿瘤最长径较基线增大 80%。此时最恰当的疗效评估结论及后续策略是？",
+        "options": {
+          "A": "疾病进展（PD），原发耐药明确，应停止当前方案并考虑更换机制药物",
+          "B": "假性进展可能，建议继续原方案治疗并短期复查影像学变化",
+          "C": "部分缓解（PR），但症状波动需对症处理，维持原方案观察",
+          "D": "疾病稳定（SD），建议联合局部治疗以控制病灶，继续用药"
+        },
+        "answer": "A",
+        "answer_text": "疾病进展（PD），原发耐药明确，应停止当前方案并考虑更换机制药物",
+        "explain": "肿瘤径线增加>20% 且绝对值增加>5mm 符合 RECIST 1.1 PD 标准；伴症状恶化提示无临床获益，应终止无效方案。",
+        "keyPoint": "治疗早期肿瘤显著增大伴症状恶化提示原发耐药，应及时终止无效方案。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "588b2660-a9f2-4476-8c6e-ca4a7ad04346",
+          "split_index": 91,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "原发性肝癌诊疗指南之肝内胆管癌诊疗中国专家共识(2022版)",
+          "source_version": "2022",
+          "source_section": "三、病理诊断辅助检查指标：",
+          "source_url": "",
+          "evidence_summary": "循证证据显示标准治疗 mPFS 约 5-8 个月，本例 1 个月进展提示方案无效。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "诊断与分期",
+        "phase": "初诊评估",
+        "timepoint": "2019 年 2 月",
+        "question": "患者腹部 CT 提示左肝巨大占位伴右肝多发结节，临床分期定为 T4N0M0。依据 AJCC 第 8 版肝内胆管癌分期系统，该分期的主要判定依据是？",
+        "options": {
+          "A": "存在多发病灶但局限于肝内",
+          "B": "肿瘤直接侵及局部肝外组织或结构",
+          "C": "肿瘤伴有血管浸润但未穿透腹膜",
+          "D": "出现区域淋巴结转移"
+        },
+        "answer": "B",
+        "answer_text": "肿瘤直接侵及局部肝外组织或结构",
+        "explain": "AJCC 第 8 版中，T4 定义为肿瘤直接侵及局部肝外组织；多发病灶伴或不伴血管浸润为 T2；穿透腹膜为 T3；区域淋巴结转移为 N1。",
+        "keyPoint": "T4 期核心特征是侵犯肝外邻近结构，区别于肝内多灶或血管侵犯。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "588b2660-a9f2-4476-8c6e-ca4a7ad04346",
+          "split_index": 83,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "原发性肝癌诊疗指南之肝内胆管癌诊疗中国专家共识(2022版)",
+          "source_version": "2022",
+          "source_section": "附录2：第7版与第8版美国癌症联合委员会（AJCC）TNM分期系统肝内胆管癌临床分期比较",
+          "source_url": "",
+          "evidence_summary": "指南明确 T4 定义为直接侵及局部肝外组织，对应 IIIB 期。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "疗效复评与局部治疗",
+        "phase": "疗效评估",
+        "timepoint": "治疗 1 个月后",
+        "question": "患者阿法替尼治疗 1 个月后肿瘤增大 80%，评估为 PD。此时关于后续管理策略，错误的是？",
+        "options": {
+          "A": "立即停用阿法替尼，避免毒性累积且无获益",
+          "B": "若患者仍拒绝化疗，可考虑抗血管生成药物等后线尝试",
+          "C": "继续原剂量阿法替尼治疗，期待延迟起效",
+          "D": "重新评估基因状态，寻找其他潜在靶点或临床试验机会"
+        },
+        "answer": "C",
+        "answer_text": "继续原剂量阿法替尼治疗，期待延迟起效",
+        "explain": "肿瘤显著增大属明确进展，继续无效治疗会延误时机并增加毒性。应停药并考虑二线方案或最佳支持治疗。",
+        "keyPoint": "明确疾病进展时应及时停药，避免无效治疗带来的风险。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "588b2660-a9f2-4476-8c6e-ca4a7ad04346",
+          "split_index": 72,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "原发性肝癌诊疗指南之肝内胆管癌诊疗中国专家共识(2022版)",
+          "source_version": "2022",
+          "source_section": "（三）二线治疗",
+          "source_url": "",
+          "evidence_summary": "指南建议一线进展后推荐二线化疗或针对特定突变的靶向治疗，无效方案不应继续。"
+        }
+      }
+    ],
+    "revised_question_ids": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4",
+      "Q5"
+    ]
+  },
+  {
+    "case_id": "CASE-DD610E54",
+    "file": "04_乳腺血管肉瘤_局部治疗_CASE-DD610E54.json",
+    "original_source_slot": 5,
+    "original_questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "初诊评估",
+        "timepoint": "就诊时",
+        "question": "针对该例原发性乳腺血管肉瘤患者，关于其临床分期与淋巴结评估策略，下列哪项描述最符合当前诊疗规范？",
+        "options": {
+          "A": "鉴于淋巴转移极低，可省略所有淋巴结评估",
+          "B": "临床淋巴结阴性者可考虑前哨淋巴结活检评估",
+          "C": "应常规行腋窝淋巴结清扫以明确病理分期",
+          "D": "必须先行新辅助化疗后再评估淋巴结状态"
+        },
+        "answer": "B",
+        "answer_text": "临床淋巴结阴性者可考虑前哨淋巴结活检评估",
+        "explain": "虽然血管肉瘤主要血行转移，但乳腺原发灶仍有淋巴结转移风险。证据指出分期需评估 N 状态，本病例实际行前哨活检符合规范，而非直接清扫或完全忽略。",
+        "keyPoint": "乳腺血管肉瘤需评估淋巴结，临床阴性首选前哨活检。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "3e2d3321-05a1-480f-b5e9-8498456c08eb",
+          "split_index": 23,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会 (CSCO) 骨与软组织肿瘤诊疗指南 2026",
+          "source_version": "2026",
+          "source_section": "更新要点",
+          "source_url": "",
+          "evidence_summary": "肉瘤分期需结合 TNM 系统，评估淋巴结状况以制定治疗计划。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "治疗决策",
+        "phase": "术后辅助治疗决策",
+        "timepoint": "术后讨论",
+        "question": "基于 TNM 分期系统原则，该患者术后制定个体化治疗计划（如是否辅助放疗）的首要依据是什么？",
+        "options": {
+          "A": "仅依据肿瘤大小决定，与切缘状态无关",
+          "B": "必须依据新辅助治疗后的病理反应决定",
+          "C": "依据切除状态、分期及组织学分级综合评估",
+          "D": "仅依据患者哺乳期状态决定，忽略肿瘤特征"
+        },
+        "answer": "C",
+        "answer_text": "依据切除状态、分期及组织学分级综合评估",
+        "explain": "证据指出肉瘤分期需结合肿瘤大小、淋巴结、远处转移及组织学分级。术后治疗计划应基于完整的分期信息和切除状态（如切缘）进行个体化权衡，而非单一因素。",
+        "keyPoint": "肉瘤术后治疗决策需基于完整分期、分级及切除状态综合制定。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "3e2d3321-05a1-480f-b5e9-8498456c08eb",
+          "split_index": 23,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会 (CSCO) 骨与软组织肿瘤诊疗指南 2026",
+          "source_version": "2026",
+          "source_section": "更新要点",
+          "source_url": "",
+          "evidence_summary": "肉瘤通用分期结合肿瘤大小、淋巴结、远处转移及分级，利于制订治疗计划。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "疗效复评与局部治疗",
+        "phase": "术后随访",
+        "timepoint": "术后 6 个月",
+        "question": "患者术后随访发现术区结构改变，对于影像学提示可疑复发的病灶，首选的确诊手段是？",
+        "options": {
+          "A": "仅凭超声血流丰富特征直接诊断为复发，无需病理证实",
+          "B": "立即行全身 PET/CT 扫描，若代谢增高即确诊局部复发",
+          "C": "先行观察三个月，若病灶持续增大再行活检明确性质",
+          "D": "对可疑病灶进行穿刺或切除活检，获取组织学诊断"
+        },
+        "answer": "D",
+        "answer_text": "对可疑病灶进行穿刺或切除活检，获取组织学诊断",
+        "explain": "影像学提示可疑复发时，必须通过活检获取组织学诊断以明确性质，避免误诊为瘢痕或炎症。",
+        "keyPoint": "影像可疑复发必须经活检病理确诊，不可仅凭影像判断。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "dc50d064-e119-490d-b6e9-d5701acfb054",
+          "split_index": 267,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "乳腺肿瘤整形与乳房重建专家共识（2022年版）",
+          "source_version": "2022",
+          "source_section": "10.2.3 乳房重建术后局部复发的随访及诊断",
+          "source_url": "",
+          "evidence_summary": "乳房重建术后监测复发，对影像学可疑者可行活检以明确病理诊断。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "分子诊断",
+        "phase": "初诊病理确诊",
+        "timepoint": "粗针穿刺及术后病理",
+        "question": "患者为哺乳期女性，右乳肿块伴皮肤蓝紫色变色，病理提示血管源性肿瘤。为确诊原发性乳腺血管肉瘤，下列哪组免疫组化标志物组合最具特异性支持该诊断？",
+        "options": {
+          "A": "CD34 阳性，ERG 阳性",
+          "B": "ER 阳性，PR 阳性",
+          "C": "HER2 过表达，Ki-67 高",
+          "D": "S-100 阳性，HMB-45 阳性"
+        },
+        "answer": "A",
+        "answer_text": "CD34 阳性，ERG 阳性",
+        "explain": "乳腺血管肉瘤是内皮细胞来源的恶性肿瘤，CD34 和 ERG 是敏感且特异的血管内皮标记物。ER/PR/HER2 用于乳腺癌分型，S-100/HMB-45 用于黑色素瘤诊断。",
+        "keyPoint": "血管肉瘤诊断依赖血管内皮标记物（CD34, ERG），需与乳腺癌及黑色素瘤鉴别。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "f51ad2ef-8e21-42f9-bfd1-f2ed36512587",
+          "split_index": 225,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 病理诊断",
+          "source_version": "2023",
+          "source_section": "（三）免疫组化检测",
+          "source_url": "",
+          "evidence_summary": "软组织肿瘤诊断需采用 CD34 等一线标记协助明确诊断，兼顾鉴别非软组织肿瘤。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "疗效复评与局部治疗",
+        "phase": "术后随访监测",
+        "timepoint": "术后 6 个月复查",
+        "question": "患者术后 6 个月复查发现术区结构改变，因资源限制未行 MRI。在无法进行乳腺 MRI 的情况下，下列哪种随访策略最符合当前病例的评估原则？",
+        "options": {
+          "A": "仅依靠患者自我触诊，无需影像学检查直至出现明显症状",
+          "B": "联合定期查体、乳腺超声及必要时对可疑病灶进行穿刺活检",
+          "C": "必须等待资源允许行 MRI 后才能进行任何评估与随访",
+          "D": "直接行全身 PET/CT 扫描替代所有局部影像学检查手段"
+        },
+        "answer": "B",
+        "answer_text": "联合定期查体、乳腺超声及必要时对可疑病灶进行穿刺活检",
+        "explain": "鉴于原发性乳腺血管肉瘤罕见，目前缺乏特异性随访指南，临床常参照乳腺癌重建术后监测共识（如 GB03）执行。推荐结合查体、超声监测，对可疑者行活检。MRI 虽佳但非唯一，不可因缺 MRI 而停滞评估。",
+        "keyPoint": "乳房重建或术后随访可结合查体、超声及活检，无需拘泥于单一影像手段。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "dc50d064-e119-490d-b6e9-d5701acfb054",
+          "split_index": 267,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "乳腺肿瘤整形与乳房重建专家共识（2022年版）",
+          "source_version": "2022",
+          "source_section": "10.2.3 乳房重建术后局部复发的随访及诊断",
+          "source_url": "",
+          "evidence_summary": "乳房重建术后局部复发监测应结合定期查体、乳腺超声，对可疑者可行活检。"
+        }
+      }
+    ],
+    "revised_question_ids": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4",
+      "Q5"
+    ]
+  },
+  {
+    "case_id": "CASE-8DC486E7",
+    "file": "05_胆管癌_自发性肿瘤溶解_CASE-8DC486E7.json",
+    "original_source_slot": 6,
+    "original_questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "初诊评估",
+        "timepoint": "入院检查及病理确认后",
+        "question": "患者影像学显示肝脏巨大肿块伴腹水、多发淋巴结肿大及肺部结节，病理确诊为中分化腺癌。根据胆道恶性肿瘤分期原则，该患者临床分期应判定为？",
+        "options": {
+          "A": "II 期，因肿瘤局限于肝脏且无大血管侵犯",
+          "B": "III 期，因存在区域淋巴结转移但未证实远处器官受累",
+          "C": "IV 期，因存在远处转移（肺部结节及腹膜种植可能）",
+          "D": "无法分期，因缺乏增强 MRI 明确血管侵犯情况"
+        },
+        "answer": "C",
+        "answer_text": "IV 期，因存在远处转移（肺部结节及腹膜种植可能）",
+        "explain": "病例明确提及胸部 CT 示淋巴周围分布结节（远处转移）及腹水（常提示腹膜转移），依据 CSCO 指南，任何 T、任何 N 伴远处转移（M1）即定义为 IV 期。",
+        "keyPoint": "胆道恶性肿瘤一旦出现远处转移（M1），无论原发灶大小或淋巴结状态，均直接归为 IV 期。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "7094ca99-ad8b-40c8-b91a-417197a6c030",
+          "split_index": 34,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会（CSCO）胆道恶性肿瘤诊疗指南 2025",
+          "source_version": "2025",
+          "source_section": "【注释】",
+          "source_url": "",
+          "evidence_summary": "CSCO 指南定义 IV 期为任何 T、任何 N 伴有远处转移。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "分子诊断",
+        "phase": "病理诊断完善",
+        "timepoint": "免疫组化结果回报后",
+        "question": "若该患者病理亚型倾向于肝内胆管癌（ICC），为指导靶向或免疫治疗，指南推荐优先检测的分子标志物组合是？",
+        "options": {
+          "A": "仅检测 EGFR 和 HER2 蛋白表达",
+          "B": "常规进行全外显子测序，无需针对性 Panel",
+          "C": "因患者决定舒适护理，无需任何分子检测",
+          "D": "检测 MMR 蛋白及 FGFR2、IDH1 基因变异"
+        },
+        "answer": "D",
+        "answer_text": "检测 MMR 蛋白及 FGFR2、IDH1 基因变异",
+        "explain": "CSCO 指南推荐胆管癌常规检测 MMR 状态。针对肝内胆管癌（ICC），特别推荐检测 FGFR2 融合及 IDH1 突变以指导靶向治疗，这与肝外胆管癌侧重略有不同。",
+        "keyPoint": "肝内胆管癌分子检测应覆盖 MMR 状态及特异性驱动基因（如 FGFR2、IDH1）。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "7094ca99-ad8b-40c8-b91a-417197a6c030",
+          "split_index": 28,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会（CSCO）胆道恶性肿瘤诊疗指南 2025",
+          "source_version": "2025",
+          "source_section": "【注释】",
+          "source_url": "",
+          "evidence_summary": "指南推荐检测 MMR 蛋白确定 MSI 状态，并特别推荐 ICC 患者检测 FGFR2 和 IDH1/2。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "不良反应管理",
+        "phase": "住院并发症处理",
+        "timepoint": "住院第 5 天出现代谢异常时",
+        "question": "患者在未接受抗肿瘤治疗情况下突发高钾、低钙、高尿酸及肾功能恶化，确诊为自发性肿瘤溶解综合征（TLS）。关于该并发症的管理，下列描述正确的是？",
+        "options": {
+          "A": "主要风险因素为高肿瘤负荷，需立即水化、降尿酸及纠正电解质紊乱",
+          "B": "TLS 仅发生于化疗后，该患者诊断不成立，应考虑其他肾损原因",
+          "C": "应立即开始紧急化疗以快速缩小肿瘤负荷，从而缓解代谢异常",
+          "D": "低钙血症症状不明显时无需处理，避免加重高磷血症风险"
+        },
+        "answer": "A",
+        "answer_text": "主要风险因素为高肿瘤负荷，需立即水化、降尿酸及纠正电解质紊乱",
+        "explain": "证据指出 TLS 常由治疗诱发，但临床共识认为高负荷实体瘤在罕见情况下可自发 TLS。管理核心为充分水化、降尿酸及纠正电解质，而非立即化疗。",
+        "keyPoint": "高负荷实体瘤可罕见自发 TLS，治疗基石为水化、碱化及代谢纠正。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "8350da7b-6914-4101-be88-7d4db6c58220",
+          "split_index": 176,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 化学治疗",
+          "source_version": "2023",
+          "source_section": "（四）肿瘤溶解综合征",
+          "source_url": "",
+          "evidence_summary": "指南指出 TLS 常由治疗引发，但部分血液瘤可自发；结合临床共识，高负荷实体瘤亦可罕见自发。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "治疗决策",
+        "phase": "后续治疗规划",
+        "timepoint": "TLS 纠正后及多学科讨论后",
+        "question": "患者经处理 TLS 改善，但鉴于晚期胆管癌伴严重并发症及体能状态差，医患共同决定行舒适护理。此决策符合哪项原则？",
+        "options": {
+          "A": "晚期胆管癌首选吉西他滨联合顺铂，除非 ECOG 评分大于 4 分",
+          "B": "对于无法耐受系统治疗且预后极差者，支持治疗与安宁疗护是合理选择",
+          "C": "必须先尝试局部介入治疗（如 TACE），无效后再考虑舒适护理",
+          "D": "鉴于 CA19-9 显著升高，应优先尝试单药化疗而非直接放弃治疗"
+        },
+        "answer": "B",
+        "answer_text": "对于无法耐受系统治疗且预后极差者，支持治疗与安宁疗护是合理选择",
+        "explain": "指南强调治疗需基于患者意愿、全身状况及耐受性。对于无法耐受积极治疗者，以重建引流为核心的支持治疗或安宁疗护可改善生活质量。",
+        "keyPoint": "晚期肿瘤治疗决策需综合评估体能与意愿，不耐受者选择支持/安宁疗护符合规范。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "589e14e7-e55b-4c97-9ca2-464e6ece431c",
+          "split_index": 26,
+          "type": "guideline",
+          "authority": "中华医学会外科学分会胆道外科学组, 中国医师协会外科医师分会胆道外科专家工作组",
+          "source_title": "胆道恶性肿瘤全程规范化管理中国专家共识(2023)",
+          "source_version": "2023",
+          "source_section": "七、不可切除胆道恶性肿瘤的治疗",
+          "source_url": "",
+          "evidence_summary": "共识指出不可切除患者应评估全身状况，支持治疗可改善生活质量，尊重患者意愿。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "不良反应管理",
+        "phase": "住院并发症处理",
+        "timepoint": "住院第 5 天",
+        "question": "患者在未接受抗肿瘤治疗下突发高尿酸、高钾、低钙及急性肾损伤，确诊自发性肿瘤溶解综合征（TLS）。关于该并发症的管理，下列哪项最符合指南推荐？",
+        "options": {
+          "A": "立即开始标准化疗以快速缩小肿瘤负荷，从源头消除 TLS 风险",
+          "B": "仅进行观察，因实体瘤自发 TLS 通常为良性自限过程",
+          "C": "给予充分水化、别嘌醇降尿酸及纠正电解质紊乱，并密切监测肾功能",
+          "D": "首选血液透析，无需药物干预，因化疗药物会加重肾毒性"
+        },
+        "answer": "C",
+        "answer_text": "给予充分水化、别嘌醇降尿酸及纠正电解质紊乱，并密切监测肾功能",
+        "explain": "指南指出 TLS 需紧急处理，包括水化、降尿酸（别嘌醇）及纠正电解质异常。虽多见于血液肿瘤，但高负荷实体瘤亦可自发，需积极支持治疗而非立即化疗或单纯观察。",
+        "keyPoint": "实体瘤自发 TLS 虽罕见，但需按标准流程进行水化、降尿酸及电解质管理以防肾衰。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "8350da7b-6914-4101-be88-7d4db6c58220",
+          "split_index": 176,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 化学治疗",
+          "source_version": "2023",
+          "source_section": "（四）肿瘤溶解综合征",
+          "source_url": "",
+          "evidence_summary": "TLS 管理包括水化、别嘌醇及纠正电解质，实体瘤高负荷者亦可发生。"
+        }
+      }
+    ],
+    "revised_question_ids": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4",
+      "Q5"
+    ]
+  },
+  {
+    "case_id": "CASE-DB524C69",
+    "file": "06_肝移植后肝癌_肾上腺转移_CASE-DB524C69.json",
+    "original_source_slot": 7,
+    "original_questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "移植后复发诊断阶段",
+        "timepoint": "移植后 48 个月急诊入院时",
+        "question": "患者肝移植术后 48 个月出现肾上腺转移伴破裂出血，根据中国肝癌分期（CNLC）系统，该患者此时的临床分期应判定为？",
+        "options": {
+          "A": "CNLC IIIa 期，因存在血管侵犯风险",
+          "B": "CNLC IIIb 期，因存在肝外转移",
+          "C": "CNLC IV 期，因出现休克及急症表现",
+          "D": "CNLC IIb 期，因原发灶已切除仅存孤立转移"
+        },
+        "answer": "B",
+        "answer_text": "CNLC IIIb 期，因存在肝外转移",
+        "explain": "根据 CNLC 分期标准，不论肿瘤大小及数目，只要存在肝外转移且 PS 评分 0-2 分、肝功能 Child-Pugh A/B 级，即归为 IIIb 期。患者虽有急症但肝功能 A 级，且明确肾上腺转移，故为 IIIb 期。",
+        "keyPoint": "CNLC 分期中肝外转移是界定 IIIb 期的关键因素，与急症表现无直接分期对应关系。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "81c18c6b-4e36-4e9e-83b6-de1a70935128",
+          "split_index": 30,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会(CSCO)原发性肝癌诊疗指南2024",
+          "source_version": "2024",
+          "source_section": "中国临床肿瘤学会(CSC0)原发性肝癌诊疗指南2024",
+          "source_url": "",
+          "evidence_summary": "CSCO 指南定义 CNLC IIIb 期为：不论肿瘤情况，有肝外转移，PS 0-2 分，肝功能 Child-Pugh A/B 级。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "治疗决策",
+        "phase": "复发转移灶处理阶段",
+        "timepoint": "移植后 48 个月急诊止血后",
+        "question": "针对该患者肝移植后出现的孤立性肾上腺转移伴破裂出血，在急诊栓塞止血且患者一般状况允许的情况下，后续首选的治疗策略是？",
+        "options": {
+          "A": "立即启动系统性免疫检查点抑制剂治疗",
+          "B": "仅行放射治疗以控制局部病灶",
+          "C": "首选手术切除转移灶，并调整免疫抑制方案",
+          "D": "放弃局部治疗，直接改为最佳支持治疗"
+        },
+        "answer": "C",
+        "answer_text": "首选手术切除转移灶，并调整免疫抑制方案",
+        "explain": "指南推荐对于肝移植术后可切除的复发转移灶，首选手术切除。同时，鉴于 mTOR 抑制剂具有抗肿瘤潜能，常建议调整免疫抑制方案（如转换为依维莫司）。",
+        "keyPoint": "移植后孤立性可切除复发灶首选手术，联合免疫抑制方案调整（如 mTOR 抑制剂）是标准策略。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "5796dbee-acb6-48c8-8191-0d7f59564a9d",
+          "split_index": 26,
+          "type": "guideline",
+          "authority": "中国医师协会器官移植医师分会",
+          "source_title": "中国肝癌肝移植临床实践指南（2021版）",
+          "source_version": "2021",
+          "source_section": "五、肝癌肝移植后肿瘤复发的防治（表6）",
+          "source_url": "",
+          "evidence_summary": "中国肝癌肝移植临床实践指南建议：对于术后可切除的复发转移灶，首选手术切除治疗；超标准者可采用依维莫司方案。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "术后辅助与免疫抑制调整阶段",
+        "timepoint": "肾上腺切除术后",
+        "question": "患者术后将免疫抑制方案从他克莫司单药调整为依维莫司，其主要理论依据是？",
+        "options": {
+          "A": "依维莫司可完全替代抗病毒治疗，清除 HCV",
+          "B": "钙调磷酸酶抑制剂会导致肾上腺功能衰竭",
+          "C": "依维莫司能迅速提升血小板计数以纠正出血",
+          "D": "mTOR 抑制剂具有直接抗肿瘤活性，可降低复发风险"
+        },
+        "answer": "D",
+        "answer_text": "mTOR 抑制剂具有直接抗肿瘤活性，可降低复发风险",
+        "explain": "mTOR 信号通路在细胞增殖中起关键作用。研究及共识表明，肝移植后使用 mTOR 抑制剂（如依维莫司、西罗莫司）替代或减少钙调磷酸酶抑制剂，有助于降低 HCC 复发率并延长生存。",
+        "keyPoint": "肝移植后 HCC 复发防治中，转换为 mTOR 抑制剂免疫抑制方案是利用其抗肿瘤特性的关键策略。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "486988cf-080d-4230-ac91-0335fdaf5a42",
+          "split_index": 46,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "肝细胞癌术后辅助治疗专家共识（2026 版）",
+          "source_version": "2026",
+          "source_section": "关键词",
+          "source_url": "",
+          "evidence_summary": "专家共识推荐：肝癌肝移植术后使用 mTOR 抑制剂为主的免疫抑制方案，有助于减少肿瘤复发率，延长患者 OS。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "疗效复评与局部治疗",
+        "phase": "复发后再次干预阶段",
+        "timepoint": "依维莫司治疗 14 个月后",
+        "question": "患者在依维莫司治疗 14 个月后出现局部复发，再次行手术切除并将药物更换为西罗莫司。关于此类复发后的管理，下列描述最准确的是？",
+        "options": {
+          "A": "局限性复发可再次手术切除并调整 mTOR 抑制剂",
+          "B": "复发即预示预后极差，不应再进行任何积极局部治疗",
+          "C": "复发后必须立即使用免疫检查点抑制剂",
+          "D": "复发后仅推荐姑息性放疗，禁止手术治疗"
+        },
+        "answer": "A",
+        "answer_text": "局限性复发可再次手术切除并调整 mTOR 抑制剂",
+        "explain": "尽管移植后复发预后较差，但指南指出在 MDT 基础上，采取再次手术切除、变更免疫抑制方案等综合手段，可能延长生存。本例患者再次手术及换药后 AFP 下降且无新发，证实了该策略的可行性。",
+        "keyPoint": "移植后复发并非绝对禁忌再次局部根治性治疗，综合治疗（手术 + 药物调整）可争取长期生存。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "ea2a8a87-e782-4e9c-b9fc-6c9823c9f851",
+          "split_index": 90,
+          "type": "guideline",
+          "authority": "中华医学会肿瘤学分会",
+          "source_title": "原发性肝癌诊疗指南（2026 年版）",
+          "source_version": "2026",
+          "source_section": "原发性肝癌诊疗指南（2026年版）",
+          "source_url": "",
+          "evidence_summary": "诊疗指南指出：在 MDT 基础上，采取变更免疫抑制方案、再次手术切除等综合治疗手段，可能延长患者生存时间。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "分子诊断",
+        "phase": "全程监测期",
+        "timepoint": "移植前至复发后",
+        "question": "该患者 AFP 从移植前 29 ng/mL 升至复发时 42115 ng/mL，术后又波动。关于 AFP 在肝移植 HCC 患者中的预后评估价值，下列说法正确的是？",
+        "options": {
+          "A": "AFP 水平仅用于诊断，与移植后复发风险无统计学相关性",
+          "B": "AFP>1000 ng/mL 患者移植后 5 年复发率显著高于 AFP≤100 ng/mL 者",
+          "C": "只要术后 AFP 降至正常，无论移植前水平如何，复发风险均相同",
+          "D": "AFP-L3 亚型检测已被所有指南列为移植前必查项目，优于总 AFP"
+        },
+        "answer": "B",
+        "answer_text": "AFP>1000 ng/mL 患者移植后 5 年复发率显著高于 AFP≤100 ng/mL 者",
+        "explain": "研究显示，移植前 AFP>1000 ng/mL 人群 5 年复发率（35.0%）显著高于 AFP≤100 ng/mL 人群（7.2%）。AFP 是重要的预后指标，术后未复常者复发风险也增高。",
+        "keyPoint": "移植前高 AFP 水平（>1000 ng/mL）是肝移植后 HCC 复发的强预测因子。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "d7d4313a-b426-4b79-82c5-90695d63f129",
+          "split_index": 13,
+          "type": "guideline",
+          "authority": "中华医学会肝病学分会",
+          "source_title": "原发性肝癌三级预防共识(2022年版)",
+          "source_version": "2022",
+          "source_section": "（二）HCC血清生物标志物水平",
+          "source_url": "",
+          "evidence_summary": "肝移植前 AFP>1000 ng/mL 人群 5 年 HCC 复发率为 35.0%，显著高于 AFP≤100 ng/mL 人群的 7.2%。"
+        }
+      }
+    ],
+    "revised_question_ids": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4",
+      "Q5"
+    ]
+  },
+  {
+    "case_id": "CASE-4FDC8196",
+    "file": "07_十二指肠腺癌_转移期管理_CASE-4FDC8196.json",
+    "original_source_slot": 8,
+    "original_questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "初诊评估",
+        "timepoint": "确诊时",
+        "question": "该患者确诊为原发性十二指肠腺癌伴肝转移。关于其临床分期（cTNM）的判定原则，下列哪项描述最准确？",
+        "options": {
+          "A": "基于治疗前体检、影像及活检资料确定，不随后续治疗改变",
+          "B": "应依据治疗后的影像学缓解情况修正初始临床分期",
+          "C": "仅依据手术切除后的病理结果确定最终分期，无需临床分期",
+          "D": "若出现新发肺栓塞，需立即将分期升级为更晚期别"
+        },
+        "answer": "A",
+        "answer_text": "基于治疗前体检、影像及活检资料确定，不随后续治疗改变",
+        "explain": "临床分期（cTNM）依据首次治疗前资料确定，用于指导初始治疗，一旦决定不再治疗或开始治疗，该分期即终止，不应根据随后所得资料（如疗效或并发症）改动。",
+        "keyPoint": "临床分期基于初诊资料锁定，不随治疗过程或并发症动态修正。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "b7b8c6fe-f9e7-4b55-addd-bb56d5453ec7",
+          "split_index": 154,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 整体评估",
+          "source_version": "2023",
+          "source_section": "一、肿瘤分期",
+          "source_url": "",
+          "evidence_summary": "临床分期依据首次治疗前资料明确，用于初步指导治疗，不应根据随后所得资料改动。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "分子诊断",
+        "phase": "初始诊断",
+        "timepoint": "病理确诊后",
+        "question": "患者分子检测显示 MSI、HER2、PD-1 均为阴性。针对该十二指肠腺癌患者的分子病理检测策略，下列哪项符合规范？",
+        "options": {
+          "A": "因 HER2 阴性，无需再进行任何基因检测",
+          "B": "参考结直肠癌原则，检测 KRAS/BRAF 等热点基因",
+          "C": "MSI 阴性可完全排除林奇综合征，无需遗传咨询",
+          "D": "必须常规进行 NTRK 融合检测作为一线决策依据"
+        },
+        "answer": "B",
+        "answer_text": "参考结直肠癌原则，检测 KRAS/BRAF 等热点基因",
+        "explain": "十二指肠癌缺乏特异性指南，常参考结直肠癌或胆道癌通用原则检测 KRAS/BRAF 等热点基因以指导治疗或临床研究；MSI 阴性非绝对排除林奇综合征；NTRK 非常规一线必测。",
+        "keyPoint": "十二指肠癌分子检测常参考消化道通用原则，关注热点基因。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "f51ad2ef-8e21-42f9-bfd1-f2ed36512587",
+          "split_index": 139,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 病理诊断",
+          "source_version": "2023",
+          "source_section": "三、整合诊断技术和展望",
+          "source_url": "",
+          "evidence_summary": "胆囊癌及肝外胆管癌可检测 KRAS、BRAF 等热点基因，十二指肠癌常参考此通用原则。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "不良反应管理",
+        "phase": "并发症阶段",
+        "timepoint": "化疗过程中",
+        "question": "患者在 FOLFOX 化疗期间出现多发性肺栓塞。关于肿瘤相关静脉血栓栓塞症（VTE）的诊断与评估，下列哪项正确？",
+        "options": {
+          "A": "应依据 D-二聚体检测结果，若正常即可排除肺栓塞",
+          "B": "应首选 CTPA 等影像学手段，因 D-二聚体特异性低",
+          "C": "应仅依据临床症状判断，无需进行影像学确认",
+          "D": "应立即行下腔静脉滤器植入术作为首选诊断措施"
+        },
+        "answer": "B",
+        "answer_text": "应首选 CTPA 等影像学手段，因 D-二聚体特异性低",
+        "explain": "肿瘤患者 D-二聚体基线常升高，特异性低，不推荐仅依据其诊断急性肺栓塞；指南推荐首选 CTPA 等影像学检查确诊，除非存在禁忌证。",
+        "keyPoint": "肿瘤患者 VTE 诊断不依赖 D-二聚体，首选影像学检查。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "01005469-68ed-4427-bc4e-899296d93405",
+          "split_index": 72,
+          "type": "guideline",
+          "authority": "中华医学会心血管病学分会",
+          "source_title": "急性肺栓塞诊断和治疗指南2025",
+          "source_version": "2025",
+          "source_section": "二、急性肺栓塞与肿瘤",
+          "source_url": "",
+          "evidence_summary": "恶性肿瘤患者 D-二聚体水平较高，不推荐依据其诊断，应首选 CTPA 等影像学手段。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "不良反应管理",
+        "phase": "并发症阶段",
+        "timepoint": "出现神经毒性时",
+        "question": "患者化疗中出现神经系统症状，评估为化疗诱导的周围神经病变（CIPN）。若症状达到 2 级（伴运动无力），下列哪项管理策略最适宜？",
+        "options": {
+          "A": "维持原剂量化疗，仅加用预防性神经保护剂",
+          "B": "暂停抗肿瘤治疗，永久停用该化疗药物",
+          "C": "立即行血浆置换以清除神经毒性药物",
+          "D": "调整抗肿瘤治疗（如减量），同时启动神经对症治疗"
+        },
+        "answer": "D",
+        "answer_text": "调整抗肿瘤治疗（如减量），同时启动神经对症治疗",
+        "explain": "对于中风险（2 级）神经毒性，建议调整抗肿瘤治疗（如减量、延迟），同时启动神经对症治疗（如止痛、维生素补充）；暂停或永久停药通常用于更高级别。",
+        "keyPoint": "2 级神经毒性需调整化疗剂量并对症处理，而非直接停药或维持原量。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "164cd842-d200-4180-9d87-58dcc871ea75",
+          "split_index": 139,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国肿瘤共病防治专家共识（2025版）",
+          "source_version": "2025",
+          "source_section": "5 肿瘤共病诊疗管理",
+          "source_url": "",
+          "evidence_summary": "中风险神经毒性应调整抗肿瘤治疗（如化疗减量），同时启动神经对症治疗。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "诊断与分期",
+        "phase": "初诊阶段",
+        "timepoint": "确诊时",
+        "question": "该患者确诊为原发性十二指肠腺癌伴肝转移。根据 AJCC 小肠腺癌 TNM 分期系统（第 8 版），其临床分期应判定为？",
+        "options": {
+          "A": "IV 期",
+          "B": "II B 期",
+          "C": "III A 期",
+          "D": "III B 期"
+        },
+        "answer": "A",
+        "answer_text": "IV 期",
+        "explain": "根据 AJCC 第 8 版分期，任何 T、任何 N 伴远处转移（M1）均定义为 IV 期。该患者存在肝转移，故分期为 IV 期。",
+        "keyPoint": "小肠腺癌伴远处转移直接归为 IV 期，不论原发灶浸润深度或淋巴结状态。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "6397a576-7b39-41f1-9852-48b0489a42c5",
+          "split_index": 13,
+          "type": "guideline",
+          "authority": "中国医师协会结直肠肿瘤专业委员会",
+          "source_title": "原发性小肠肿瘤多学科综合治疗中国专家共识（2025版）",
+          "source_version": "2025",
+          "source_section": "（二）小肠癌的病理诊断",
+          "source_url": "",
+          "evidence_summary": "AJCC 小肠腺癌 TNM 分期规定：任何 T 任何 N M1 为 IV 期。"
+        }
+      }
+    ],
+    "revised_question_ids": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4",
+      "Q5"
+    ]
+  },
+  {
+    "case_id": "CASE-776A405",
+    "file": "08_胃GIST_CLEAN-NET_CASE-776A405.json",
+    "original_source_slot": 9,
+    "original_questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "初诊评估",
+        "timepoint": "就诊时",
+        "question": "患者胃体上部发现 3cm 黏膜下肿瘤，影像学未见远处转移。根据 AJCC 第 8 版 TNM 分期系统，该原发肿瘤（T）的分期应为？",
+        "options": {
+          "A": "T1（肿瘤≤2cm）",
+          "B": "T3（肿瘤>5cm 且≤10cm）",
+          "C": "T4（肿瘤>10cm）",
+          "D": "T2（肿瘤>2cm 且≤5cm）"
+        },
+        "answer": "D",
+        "answer_text": "T2（肿瘤>2cm 且≤5cm）",
+        "explain": "患者肿瘤直径约 3cm，依据 AJCC 第 8 版分期标准，大于 2cm 但不超过 5cm 的原发 GIST 定义为 T2 期。T1 为≤2cm，T3 为>5cm。",
+        "keyPoint": "GIST 的 T 分期主要依据肿瘤最大径，2cm 和 5cm 是关键分界点。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "03033a1d-4c4b-479b-b233-5248463156a4",
+          "split_index": 33,
+          "type": "guideline",
+          "authority": "NCCN",
+          "source_title": "NCCN Clinical Practice Guidelines in Oncology: Gastrointestinal Stromal Tumors Version 1.2026",
+          "source_version": "2026",
+          "source_section": "American Joint Committee on Cancer (AJCC) Staging System for Gastrointestinal Stromal Tumor (8th ed, 2017)",
+          "source_url": "",
+          "evidence_summary": "NCCN 指南定义 T2 为肿瘤大于 2cm 但不超过 5cm。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "分子诊断",
+        "phase": "病理确诊",
+        "timepoint": "活检后",
+        "question": "该患者免疫组化显示 KIT 阳性、CD34 阳性、DOG1 阳性。关于 GIST 的免疫表型特征，下列描述正确的是？",
+        "options": {
+          "A": "DOG1 阳性对诊断 KIT 阴性 GIST 具有补充价值",
+          "B": "KIT 阴性但 DOG1 阳性可完全排除 GIST 诊断",
+          "C": "S-100 阳性是确诊 GIST 的特异性指标",
+          "D": "α-SMA 阳性即可确诊为平滑肌肉瘤而非 GIST"
+        },
+        "answer": "A",
+        "answer_text": "DOG1 阳性对诊断 KIT 阴性 GIST 具有补充价值",
+        "explain": "KIT 是 GIST 最特异标记，但约 5% 病例 KIT 阴性。此时若 DOG1 阳性，仍高度提示 GIST，需结合分子检测。S-100 阳性多见于神经鞘瘤，α-SMA 可见于部分 GIST 但不具排他性。",
+        "keyPoint": "DOG1 是诊断 KIT 阴性 GIST 的重要补充标记，两者共表达率高。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "5b9f5b48-fa95-4253-98a0-01ad5c458352",
+          "split_index": 109,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "胃肠间质瘤",
+          "source_version": "2024",
+          "source_section": "3 病理科",
+          "source_url": "",
+          "evidence_summary": "指南指出 DOG1 常与 KIT 共表达，对诊断 KIT 阴性 GIST 尤其有用。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "手术治疗",
+        "timepoint": "治疗阶段",
+        "question": "针对该患者靠近贲门的 3cm 胃 GIST，选择改良 CLEAN-NET 手术的主要考量是？",
+        "options": {
+          "A": "传统楔形切除是该部位首选，因操作简便且复发率低",
+          "B": "避免传统楔形切除导致贲门功能受损或狭窄",
+          "C": "该术式主要适用于肿瘤直径大于 5cm 的患者",
+          "D": "对于未接受新辅助治疗的患者，应优先选择全胃切除"
+        },
+        "answer": "B",
+        "answer_text": "避免传统楔形切除导致贲门功能受损或狭窄",
+        "explain": "肿瘤位于贲门附近，传统楔形切除可能损伤贲门功能或造成狭窄。CLEAN-NET 技术通过浆膜肌层切口完整剥离肿瘤，保护黏膜和器官功能，适合关键部位小肿瘤。",
+        "keyPoint": "特殊部位 GIST 手术需平衡根治性与器官功能保留，CLEAN-NET 是优选。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "5b9f5b48-fa95-4253-98a0-01ad5c458352",
+          "split_index": 113,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "胃肠间质瘤",
+          "source_version": "2024",
+          "source_section": "1 原发局限性 GIST",
+          "source_url": "",
+          "evidence_summary": "指南建议特殊部位 GIST 需多学科讨论，权衡手术方式以保留功能。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "疗效复评与局部治疗",
+        "phase": "术后随访",
+        "timepoint": "术后三个月",
+        "question": "患者术后病理评估为低风险 GIST，切缘阴性。关于其术后随访策略，下列建议最合理的是？",
+        "options": {
+          "A": "低风险患者无需随访，因复发概率为零",
+          "B": "仅需每年进行一次胸部 X 线检查即可",
+          "C": "建议术后 5 年内每 6-12 个月行腹盆腔 CT 随访",
+          "D": "必须立即开始伊马替尼辅助治疗以防复发"
+        },
+        "answer": "C",
+        "answer_text": "建议术后 5 年内每 6-12 个月行腹盆腔 CT 随访",
+        "explain": "低风险 GIST 复发风险较低，但仍需规律随访。指南推荐低风险患者术后 5 年内每 6-12 个月进行 CT 检查。无需常规辅助治疗，且随访不仅限于胸部。",
+        "keyPoint": "低风险 GIST 术后需长期随访，频率依据风险分级个体化制定。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "6f0296e6-000f-4496-9150-586d3dc650e0",
+          "split_index": 32,
+          "type": "guideline",
+          "authority": "中华医学会消化内镜学分会",
+          "source_title": "中国胃肠间质瘤内镜下诊治专家共识(2020,北京)",
+          "source_version": "2020",
+          "source_section": "七、治疗后的随访策略",
+          "source_url": "",
+          "evidence_summary": "共识建议低风险患者术后 5 年内 CT 扫描每 6-12 个月进行一次。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "治疗决策",
+        "phase": "手术治疗",
+        "timepoint": "术中决策",
+        "question": "针对该近贲门的 3cm 胃 GIST，选择改良 CLEAN-NET 手术而非传统楔形切除的主要考量是？",
+        "options": {
+          "A": "彻底清扫区域淋巴结以防转移",
+          "B": "缩短手术时间以减少麻醉风险",
+          "C": "便于术后立即开始伊马替尼辅助治疗",
+          "D": "避免肿瘤破裂并最大限度保留贲门功能"
+        },
+        "answer": "D",
+        "answer_text": "避免肿瘤破裂并最大限度保留贲门功能",
+        "explain": "近贲门部位传统切除易损伤括约肌致反流或需全胃切除。CLEAN-NET 技术通过浆膜肌层切口剥离肿瘤，保护黏膜完整性，避免破裂并保留器官功能。GIST 极少淋巴转移，无需常规清扫。",
+        "keyPoint": "特殊部位 GIST 手术需平衡 R0 切除与器官功能保留，避免肿瘤破裂是关键原则。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "d3126d85-b559-44b1-b291-6c2c829d0c25",
+          "split_index": 35,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会胃肠间质瘤诊疗指南 2025",
+          "source_version": "2025",
+          "source_section": "【注释】",
+          "source_url": "",
+          "evidence_summary": "指南强调 GIST 手术需遵循无瘤原则避免破裂，且通常无须淋巴结清扫。"
+        }
+      }
+    ],
+    "revised_question_ids": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4",
+      "Q5"
+    ]
+  },
+  {
+    "case_id": "CASE-E3A31C4F",
+    "file": "09_食管鳞癌_ESD后追加治疗_CASE-E3A31C4F.json",
+    "original_source_slot": 10,
+    "original_questions": [
+      {
+        "id": "Q1",
+        "type": "治疗决策",
+        "phase": "ESD 术后追加治疗决策",
+        "timepoint": "ESD 术后病理回报后",
+        "question": "患者 ESD 术后病理示 pT1a 伴脉管瘤栓及水平切缘＜1mm，依据指南，下一步最恰当的处理是？",
+        "options": {
+          "A": "密切随访观察，暂不干预",
+          "B": "追加内镜下消融治疗（如 APC）",
+          "C": "立即开始全身系统性化疗",
+          "D": "推荐追加根治性手术或补充放疗"
+        },
+        "answer": "D",
+        "answer_text": "推荐追加根治性手术或补充放疗",
+        "explain": "ESD 术后存在脉管瘤栓、切缘阳性或过近等高危因素时，淋巴结转移风险显著增加，指南推荐追加根治性手术或补充放疗。",
+        "keyPoint": "ESD 术后高危因素（脉管侵犯/切缘风险）是追加根治性治疗的核心指征。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "afd92428-0167-47d3-b88c-c62c652f7bcf",
+          "split_index": 12,
+          "type": "guideline",
+          "authority": "国家癌症中心, 中国医师协会胸外科医师分会, 中华医学会胸心血管外科学分会",
+          "source_title": "中国可切除食管癌围手术期诊疗实践指南(2023版)",
+          "source_version": "2023",
+          "source_section": "（三）手术适应证",
+          "source_url": "",
+          "evidence_summary": "指南明确 ESD 术后复发高危因素包括脉管癌栓、切缘阳性等，推荐根治性手术或补充放疗。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "诊断与分期",
+        "phase": "术前临床分期评估",
+        "timepoint": "ESD 术后、根治术前",
+        "question": "患者 ESD 术后分期 CT 显示气管隆突前及隆突下稍大淋巴结，关于该阶段淋巴结分期评估，正确的是？",
+        "options": {
+          "A": "推荐综合增强 CT、超声及 EUS-FNA 等多模式评估",
+          "B": "CT 对短径≥1cm 淋巴结诊断灵敏度高，可直接确诊转移",
+          "C": "PET-CT 诊断颈部淋巴结转移灵敏度最高，应作为首选",
+          "D": "仅凭 CT 显示稍大淋巴结即可判定为 N+ 并放弃手术"
+        },
+        "answer": "A",
+        "answer_text": "推荐综合增强 CT、超声及 EUS-FNA 等多模式评估",
+        "explain": "单一影像学方法对淋巴结诊断灵敏度有限，CT 对≥1cm 淋巴结灵敏度仅 30%-60%。指南推荐综合多模式影像及内镜学评估。",
+        "keyPoint": "食管癌临床 N 分期需综合多模式影像及内镜评估，避免单一检查误判。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "97b21876-ef50-4b60-bd03-ab43b5724dad",
+          "split_index": 10,
+          "type": "guideline",
+          "authority": "国家癌症中心, 中国医师协会胸外科医师分会, 中华医学会胸心血管外科学分会",
+          "source_title": "中国可切除食管癌围手术期诊疗实践指南（2023版）",
+          "source_version": "2023",
+          "source_section": "（二）术前诊断及临床分期",
+          "source_url": "",
+          "evidence_summary": "指南推荐综合多模式影像学及内镜学方法评估临床 N 分期，因单一方法灵敏度较低。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "诊断与分期",
+        "phase": "病理报告规范化",
+        "timepoint": "ESD 术后病理诊断时",
+        "question": "针对该患者 ESD 切除标本的病理报告，下列哪项是评估是否需要追加治疗的关键高危因素？",
+        "options": {
+          "A": "肿瘤的大体分型及颜色",
+          "B": "脉管有无侵犯及切缘状态",
+          "C": "患者就诊前的黑便症状",
+          "D": "肿瘤距门齿的具体距离"
+        },
+        "answer": "B",
+        "answer_text": "脉管有无侵犯及切缘状态",
+        "explain": "ESD 标本病理报告必须包含浸润深度、脉管侵犯及切缘状态，其中脉管侵犯和切缘阳性/过近是判断非治愈性切除的关键。",
+        "keyPoint": "ESD 术后病理报告中脉管侵犯和切缘状态是决定后续治疗策略的核心指标。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "5d60cf8c-605e-4a9d-8925-5215b5f897b3",
+          "split_index": 243,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 内镜诊疗",
+          "source_version": "2023",
+          "source_section": "（5）脉管有无侵犯",
+          "source_url": "",
+          "evidence_summary": "ESD 标本有无淋巴管、血管侵犯是评判是否需要外科治疗的重要因素，需规范报告。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "分子诊断",
+        "phase": "病理报告规范化",
+        "timepoint": "ESD 术后病理评估",
+        "question": "针对该患者 ESD 切除标本的病理报告，除组织学类型和分级外，必须包含哪些关键指标以评估治愈性及指导后续治疗？",
+        "options": {
+          "A": "仅报告肿瘤大小和肉眼分型即可",
+          "B": "重点检测 HER2 表达及 MSI 状态指导治疗",
+          "C": "必须包含浸润深度、脉管及切缘状态",
+          "D": "只需报告淋巴结清扫数目忽略脉管"
+        },
+        "answer": "C",
+        "answer_text": "必须包含浸润深度、脉管及切缘状态",
+        "explain": "早期食管癌 ESD 标本病理报告必须包含浸润深度、脉管有无侵犯及切缘状态，这些是判断是否治愈性切除及决定是否需要追加治疗的核心依据。HER2/MSI 主要针对晚期腺癌。",
+        "keyPoint": "ESD 标本病理报告须含浸润深度、脉管侵犯及切缘状态，以评估治愈性。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "b299a9f7-4136-4eb8-bf39-0627ff7775a3",
+          "split_index": 64,
+          "type": "guideline",
+          "authority": "中华医学会消化内镜学分会",
+          "source_title": "上消化道肿瘤高危人群放大内镜检查中西部专家意见",
+          "source_version": "2023",
+          "source_section": "1.不同类型标本病理诊断要点",
+          "source_url": "",
+          "evidence_summary": "早期食管癌内镜切除标本规范化报告内容必须包含浸润深度、脉管侵犯及切缘状态。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "分子诊断",
+        "phase": "病理报告规范",
+        "timepoint": "ESD 术后病理报告",
+        "question": "下列哪项不属于食管鳞癌 ESD 标本病理报告中必须常规检测的项目？",
+        "options": {
+          "A": "浸润深度及脉管侵犯情况",
+          "B": "水平与垂直切缘状态评估",
+          "C": "组织学类型与分化程度分级",
+          "D": "HER2 蛋白表达及基因扩增检测"
+        },
+        "answer": "D",
+        "answer_text": "HER2 蛋白表达及基因扩增检测",
+        "explain": "HER2 检测主要针对晚期食管胃连接部腺癌。本例为食管鳞癌且为早期 ESD 标本，常规无需检测 HER2，重点应关注浸润深度、脉管侵犯及切缘。",
+        "keyPoint": "食管鳞癌 ESD 标本病理报告重点在于浸润深度、脉管侵犯及切缘，HER2 非必测项。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "1f2a5a56-78cc-4461-bf80-9c54c600de20",
+          "split_index": 25,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会（CSCO）食管癌诊疗指南 2026",
+          "source_version": "2026",
+          "source_section": "中国临床肿瘤学会指南工作委员会",
+          "source_url": "",
+          "evidence_summary": "指南规定内镜切除标本需报告浸润深度、脉管侵犯、切缘等，HER2 检测主要针对腺癌。"
+        }
+      }
+    ],
+    "revised_question_ids": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4",
+      "Q5"
+    ]
+  }
+]

@@ -1,0 +1,2334 @@
+[
+  {
+    "file": "题目9.14/01_乳腺癌合并MPN及韧带样纤维瘤_CASE-37BF6300.json",
+    "case_id": "CASE-37BF6300",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "患者拟启动瑞波西利联合内分泌治疗。为确保HR阳性、HER2阴性的分型可用于选药，最需要核查哪项内容？",
+        "after_stem": "患者拟启动瑞波西利联合内分泌治疗。为确保HR阳性、HER2阴性的分型可用于选药，最需要核查哪项内容？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "患者合并JAK2 V617F阳性骨髓增殖性肿瘤，血小板明显升高。制定乳腺癌方案时，如何安排合并症管理更妥当？",
+        "after_stem": "患者合并JAK2 V617F阳性骨髓增殖性肿瘤，血小板明显升高。制定乳腺癌方案时，如何安排合并症管理更妥当？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "骨转移持续稳定期间，乳房出现快速增大的新肿块，影像高度怀疑局部进展。在改变全身治疗前，最有价值的下一步是什么？",
+        "after_stem": "骨转移持续稳定期间，乳房出现快速增大的新肿块，影像高度怀疑局部进展。在改变全身治疗前，最有价值的下一步是什么？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "术后肿块诊断为韧带样纤维瘤。关于这种病变的生物学行为，哪项理解更准确？",
+        "after_stem": "术后肿块诊断为韧带样纤维瘤。关于这种病变的生物学行为，哪项理解更准确？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "新乳房肿块证实为韧带样纤维瘤，乳腺癌其他病灶仍稳定。对原有全身治疗，哪项决策更合理？",
+        "after_stem": "新乳房肿块证实为韧带样纤维瘤，乳腺癌其他病灶仍稳定。对原有全身治疗，哪项决策更合理？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.14/02_乳腺癌肾上腺转移_CASE-DE70CBF4.json",
+    "case_id": "CASE-DE70CBF4",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "乳腺癌术后患者出现性质未明的双侧肾上腺病灶，拟通过取材指导治疗。何时适合考虑肾上腺活检？",
+        "after_stem": "乳腺癌术后患者出现性质未明的双侧肾上腺病灶，拟通过取材指导治疗。何时适合考虑肾上腺活检？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "乳腺癌术后约14年出现疑似肾上腺转移。若已安全取得足量组织，重新检测ER、PR及HER2的主要目的是什么？",
+        "after_stem": "乳腺癌术后约14年出现疑似肾上腺转移。若已安全取得足量组织，重新检测ER、PR及HER2的主要目的是什么？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "转移灶确认为HR阳性、HER2阴性，患者已开始肾上腺激素替代。若无内脏危象且适合联合治疗，哪项方案可合理考虑？",
+        "after_stem": "转移灶确认为HR阳性、HER2阴性，患者已开始肾上腺激素替代。若无内脏危象且适合联合治疗，哪项方案可合理考虑？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "原发性肾上腺皮质功能不全患者接受抗肿瘤治疗期间，除日常氢化可的松替代外，还应重点落实哪项管理？",
+        "after_stem": "原发性肾上腺皮质功能不全患者接受抗肿瘤治疗期间，除日常氢化可的松替代外，还应重点落实哪项管理？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "瑞波西利联合来曲唑治疗2周后出现严重中性粒细胞减少，原文未给出ANC及是否发热。下一步最合理的原则是什么？",
+        "after_stem": "瑞波西利联合来曲唑治疗2周后出现严重中性粒细胞减少，原文未给出ANC及是否发热。下一步最合理的原则是什么？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.14/03_BRCA2变异胰腺癌_CASE-7D7C02B3.json",
+    "case_id": "CASE-7D7C02B3",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "吉西他滨治疗期间发生2级皮疹，病例将其记录为过敏。考虑再次用药时，最应避免哪种推断？",
+        "after_stem": "吉西他滨治疗期间发生2级皮疹，病例将其记录为过敏。考虑再次用药时，最应避免哪种推断？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "计划胰腺切除时发现肝表面结节，冰冻病理证实其中一处为转移。对原定根治性手术计划，最合理的调整是什么？",
+        "after_stem": "计划胰腺切除时发现肝表面结节，冰冻病理证实其中一处为转移。对原定根治性手术计划，最合理的调整是什么？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "患者接受含铂SOXIRI约16周后未进展。若拟依据POLO选择奥拉帕利维持，最关键的适用条件是什么？",
+        "after_stem": "患者接受含铂SOXIRI约16周后未进展。若拟依据POLO选择奥拉帕利维持，最关键的适用条件是什么？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "有病理证实肝转移史的胰腺癌患者，经治疗后CA19-9正常、影像无进展。如何理解其后实施的转化手术？",
+        "after_stem": "有病理证实肝转移史的胰腺癌患者，经治疗后CA19-9正常、影像无进展。如何理解其后实施的转化手术？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "病例已有BRCA2突变报告，并在术后继续使用奥拉帕利。就分子信息的核实而言，哪项最重要？",
+        "after_stem": "病例已有BRCA2突变报告，并在术后继续使用奥拉帕利。就分子信息的核实而言，哪项最重要？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.14/04_乳腺癌PIK3CA多重突变_CASE-C38F9D7E.json",
+    "case_id": "CASE-C38F9D7E",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "患者拒绝新的组织活检，拟评估PIK3CA靶向治疗。关于血浆ctDNA检测，哪项策略更合理？",
+        "after_stem": "患者拒绝新的组织活检，拟评估PIK3CA靶向治疗。关于血浆ctDNA检测，哪项策略更合理？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "该患者ER阳性、HER2阴性，既往接受内分泌治疗后进展，ctDNA检出PIK3CA突变。评估阿培利司联合氟维司群时，哪项理解正确？",
+        "after_stem": "该患者ER阳性、HER2阴性，既往接受内分泌治疗后进展，ctDNA检出PIK3CA突变。评估阿培利司联合氟维司群时，哪项理解正确？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "ctDNA报告PIK3CA H1047R、R108C及C804R三个位点。对多重突变结果，哪项解释最稳妥？",
+        "after_stem": "ctDNA报告PIK3CA H1047R、R108C及C804R三个位点。对多重突变结果，哪项解释最稳妥？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "阿培利司治疗后出现皮疹，病例记录减量至250 mg，但未说明分级。规范处理时应如何判断？",
+        "after_stem": "阿培利司治疗后出现皮疹，病例记录减量至250 mg，但未说明分级。规范处理时应如何判断？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "系统治疗获益约18个月后，仅肝脏少数病灶进展。关于继续原方案并联合局部放疗，哪项评价更准确？",
+        "after_stem": "系统治疗获益约18个月后，仅肝脏少数病灶进展。关于继续原方案并联合局部放疗，哪项评价更准确？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.14/05_胰腺腺鳞癌转化治疗_CASE-CA70947A.json",
+    "case_id": "CASE-CA70947A",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "胰头肿瘤累及主要血管，初评不可切除且无远处转移。若病理明确、患者可耐受治疗，哪项初始策略更合适？",
+        "after_stem": "胰头肿瘤累及主要血管，初评不可切除且无远处转移。若病理明确、患者可耐受治疗，哪项初始策略更合适？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "治疗3个月后肿瘤达到PR，但仍不可切除，尚无远处进展。若毒性可控，下一步更合理的决策是什么？",
+        "after_stem": "治疗3个月后肿瘤达到PR，但仍不可切除，尚无远处进展。若毒性可控，下一步更合理的决策是什么？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "约7个月治疗后，肿瘤缩小、血管受累改善，未见远处转移且CA19-9下降。此时应如何评估手术机会？",
+        "after_stem": "约7个月治疗后，肿瘤缩小、血管受累改善，未见远处转移且CA19-9下降。此时应如何评估手术机会？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "新辅助治疗后完成胰十二指肠切除。病理报告应重点涵盖哪组信息？",
+        "after_stem": "新辅助治疗后完成胰十二指肠切除。病理报告应重点涵盖哪组信息？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "患者术前已接受约7个月化疗，之后获得R0切除。关于术后系统治疗，哪项原则更妥当？",
+        "after_stem": "患者术前已接受约7个月化疗，之后获得R0切除。关于术后系统治疗，哪项原则更妥当？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.14/06_胃癌肝转移转化治疗_CASE-F5639B6F.json",
+    "case_id": "CASE-F5639B6F",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "IV期胃癌启动系统治疗前，哪种检测安排更能支持选药？",
+        "after_stem": "IV期胃癌启动系统治疗前，哪种检测安排更能支持选药？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "小活检提示低分化腺癌，可能伴神经内分泌分化。下一步病理评估哪项更合适？",
+        "after_stem": "小活检提示低分化腺癌，可能伴神经内分泌分化。下一步病理评估哪项更合适？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "HER2阴性胃癌伴肝转移，病例PD-L1 CPS为8并采用XELOX联合替雷利珠单抗。解释PD-L1证据时，哪项说法更准确？",
+        "after_stem": "HER2阴性胃癌伴肝转移，病例PD-L1 CPS为8并采用XELOX联合替雷利珠单抗。解释PD-L1证据时，哪项说法更准确？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "治疗后肝转移灶影像消失，拟评估胃部转化手术。除影像外，哪项检查有助于识别隐匿腹膜转移？",
+        "after_stem": "治疗后肝转移灶影像消失，拟评估胃部转化手术。除影像外，哪项检查有助于识别隐匿腹膜转移？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "患者原为IV期胃癌，转化切除后原发灶达到pCR。关于术后继续化疗和免疫治疗，哪项解释最妥当？",
+        "after_stem": "患者原为IV期胃癌，转化切除后原发灶达到pCR。关于术后继续化疗和免疫治疗，哪项解释最妥当？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.14/07_男性乳腺癌_CASE-B559946D.json",
+    "case_id": "CASE-B559946D",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "这名男性乳腺癌患者拟完善遗传风险评估。哪项检测及配套措施具有明确价值？",
+        "after_stem": "这名男性乳腺癌患者拟完善遗传风险评估。哪项检测及配套措施具有明确价值？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "男性HR阳性、HER2阴性乳腺癌伴广泛肝转移，病例称存在肝危机。决定是否按内脏危象处理时，哪项原则最重要？",
+        "after_stem": "男性HR阳性、HER2阴性乳腺癌伴广泛肝转移，病例称存在肝危机。决定是否按内脏危象处理时，哪项原则最重要？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "白蛋白紫杉醇治疗4周期后肝病灶略有缩小，评价为SD。复盘下一步选择时，哪项原则更合理？",
+        "after_stem": "白蛋白紫杉醇治疗4周期后肝病灶略有缩小，评价为SD。复盘下一步选择时，哪项原则更合理？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "卡培他滨后进展，患者既往未使用CDK4/6抑制剂。若当前器官功能允许、无迫切危象，如何评估内分泌联合治疗？",
+        "after_stem": "卡培他滨后进展，患者既往未使用CDK4/6抑制剂。若当前器官功能允许、无迫切危象，如何评估内分泌联合治疗？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "患者因严重潮热暂停戈舍瑞林，并更换内分泌骨架。对男性患者使用芳香化酶抑制剂的方案复核，哪项最重要？",
+        "after_stem": "患者因严重潮热暂停戈舍瑞林，并更换内分泌骨架。对男性患者使用芳香化酶抑制剂的方案复核，哪项最重要？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.14/08_胰腺神经内分泌肿瘤_CASE-761970EB.json",
+    "case_id": "CASE-761970EB",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "肝穿刺提示胰腺神经内分泌肿瘤，Ki-67约10%。对有限标本的分级，哪项解读最妥当？",
+        "after_stem": "肝穿刺提示胰腺神经内分泌肿瘤，Ki-67约10%。对有限标本的分级，哪项解读最妥当？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "患者为非功能型、分化较好的G2胰腺NET，SSTR2免疫组化阳性，局部治疗后病情较稳定。评估SSA时，哪项说法更准确？",
+        "after_stem": "患者为非功能型、分化较好的G2胰腺NET，SSTR2免疫组化阳性，局部治疗后病情较稳定。评估SSA时，哪项说法更准确？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "奥曲肽治疗中出现头晕并自行停药。最合理的后续安排是什么？",
+        "after_stem": "奥曲肽治疗中出现头晕并自行停药。最合理的后续安排是什么？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "失访后病灶明显进展，伴腹水和肾功能异常。MDT认为再次取材风险较高，下一步选药应如何权衡？",
+        "after_stem": "失访后病灶明显进展，伴腹水和肾功能异常。MDT认为再次取材风险较高，下一步选药应如何权衡？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "系统治疗期间肝肿瘤负荷仍高，拟增加TACE。下列哪项最能体现局部治疗的合理定位？",
+        "after_stem": "系统治疗期间肝肿瘤负荷仍高，拟增加TACE。下列哪项最能体现局部治疗的合理定位？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.14/09_结直肠癌肝转移多次复发_CASE-BE8833A9.json",
+    "case_id": "CASE-BE8833A9",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "化疗13周期后，肝转移灶大幅缩小，仅余肝Ⅵ段约1 cm结节。此时最合理的局部治疗决策是什么？",
+        "after_stem": "化疗13周期后，肝转移灶大幅缩小，仅余肝Ⅵ段约1 cm结节。此时最合理的局部治疗决策是什么？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "患者既往使用贝伐珠单抗，拟接受择期大手术。术前后用药计划应遵循哪项原则？",
+        "after_stem": "患者既往使用贝伐珠单抗，拟接受择期大手术。术前后用药计划应遵循哪项原则？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "放化疗后胃镜发现深溃疡，首次活检仅见溃疡碎片。复盘诊断和安全管理，哪项原则最合理？",
+        "after_stem": "放化疗后胃镜发现深溃疡，首次活检仅见溃疡碎片。复盘诊断和安全管理，哪项原则最合理？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "多次复发且曾接受抗EGFR治疗，拟调整后线方案。怎样复核分子信息更合理？",
+        "after_stem": "多次复发且曾接受抗EGFR治疗，拟调整后线方案。怎样复核分子信息更合理？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "患者已接受多线标准化疗及靶向治疗，仍需评估后线方案。哪项组合属于有依据的可讨论选择？",
+        "after_stem": "患者已接受多线标准化疗及靶向治疗，仍需评估后线方案。哪项组合属于有依据的可讨论选择？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.14/10_HER2阳性乳腺癌皮肤及脑转移_CASE-51D1DA57.json",
+    "case_id": "CASE-51D1DA57",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "胸壁及上肢丹毒样皮肤病变反复，患者有乳腺癌病史。皮肤活检最重要的临床价值是什么？",
+        "after_stem": "胸壁及上肢丹毒样皮肤病变反复，患者有乳腺癌病史。皮肤活检最重要的临床价值是什么？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "患者既往接受辅助抗HER2治疗，现出现远处复发。决定是否再次采用抗HER2单抗为基础的方案时，最需要补齐什么信息？",
+        "after_stem": "患者既往接受辅助抗HER2治疗，现出现远处复发。决定是否再次采用抗HER2单抗为基础的方案时，最需要补齐什么信息？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "HER2阳性乳腺癌伴脑及颅外转移，已接受全脑放疗。筛选后续系统方案时，哪项依据最有价值？",
+        "after_stem": "HER2阳性乳腺癌伴脑及颅外转移，已接受全脑放疗。筛选后续系统方案时，哪项依据最有价值？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "患者采用曲妥珠单抗、吡咯替尼及卡培他滨治疗。将其中“双药研究”用于解释三药方案时，哪项表述最严谨？",
+        "after_stem": "患者采用曲妥珠单抗、吡咯替尼及卡培他滨治疗。将其中“双药研究”用于解释三药方案时，哪项表述最严谨？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "放疗及三药系统治疗后，皮肤病变改善，脑MRI病灶缩小。下一步管理哪项更妥当？",
+        "after_stem": "放疗及三药系统治疗后，皮肤病变改善，脑MRI病灶缩小。下一步管理哪项更妥当？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.14/135868_HER2阳性胃癌_润色版.json",
+    "case_id": "CASE-8C6E34E9",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "患者胃癌术后标本HER2 IHC为3+。复发后，若新取活检标本的HER2结果与既往不一致，首先应如何核查检测质量？",
+        "after_stem": "患者胃癌术后标本HER2 IHC为3+。复发后，若新取活检标本的HER2结果与既往不一致，首先应如何核查检测质量？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "患者复发后一线接受S-1、顺铂联合曲妥珠单抗，随后进展。关于更换化疗后继续使用曲妥珠单抗，T-ACT研究提供了什么证据？",
+        "after_stem": "患者复发后一线接受S-1、顺铂联合曲妥珠单抗，随后进展。关于更换化疗后继续使用曲妥珠单抗，T-ACT研究提供了什么证据？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "患者HER2阳性胃癌已接受五线治疗，包括曲妥珠单抗及多种化疗。若复核靶点、体能状态和器官功能后仍适合抗肿瘤治疗，下列哪项有相应后线研究支持？",
+        "after_stem": "患者HER2阳性胃癌已接受五线治疗，包括曲妥珠单抗及多种化疗。若复核靶点、体能状态和器官功能后仍适合抗肿瘤治疗，下列哪项有相应后线研究支持？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "患者最初胃癌标本HER2 IHC为3+，之后经历多线治疗。关于这一历史结果对后续选药的意义，下列哪项最准确？",
+        "after_stem": "患者最初胃癌标本HER2 IHC为3+，之后经历多线治疗。关于这一历史结果对后续选药的意义，下列哪项最准确？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "本例在德曲妥珠单抗治疗后达到并维持临床完全缓解。将这一结果用于其他同类患者的管理时，下列哪项最妥当？",
+        "after_stem": "本例在德曲妥珠单抗治疗后达到并维持临床完全缓解。将这一结果用于其他同类患者的管理时，下列哪项最妥当？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.14/137559_转移性直肠癌_润色版.json",
+    "case_id": "CASE-A8792225",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "患者直肠癌伴多发肝转移，已有原发灶切除标本。为评估抗EGFR治疗的分子条件，关于RAS检测取材，下列哪项最合理？",
+        "after_stem": "患者直肠癌伴多发肝转移，已有原发灶切除标本。为评估抗EGFR治疗的分子条件，关于RAS检测取材，下列哪项最合理？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "患者直肠癌伴初始不可切除肝转移，RAS野生型、BRAF V600E阴性。若综合评估后选择“化疗联合西妥昔单抗”进行转化治疗，下列哪种化疗骨架最符合常用证据？",
+        "after_stem": "患者直肠癌伴初始不可切除肝转移，RAS野生型、BRAF V600E阴性。若综合评估后选择“化疗联合西妥昔单抗”进行转化治疗，下列哪种化疗骨架最符合常用证据？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "含铂化疗联合西妥昔单抗期间，患者出现3级皮疹和2级神经病变。关于后续处理，下列哪项更合理？",
+        "after_stem": "含铂化疗联合西妥昔单抗期间，患者出现3级皮疹和2级神经病变。关于后续处理，下列哪项更合理？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "治疗约3个月后，患者肝转移灶达到PR，但仍不可切除，且已有皮疹与神经毒性。下一步最合适的策略是什么？",
+        "after_stem": "治疗约3个月后，患者肝转移灶达到PR，但仍不可切除，且已有皮疹与神经毒性。下一步最合适的策略是什么？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "患者后续接受FOLFOX时发生过敏反应，原文未交代责任药物及严重程度。对这一事件最恰当的处理原则是什么？",
+        "after_stem": "患者后续接受FOLFOX时发生过敏反应，原文未交代责任药物及严重程度。对这一事件最恰当的处理原则是什么？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.14/139352_食管癌疑似寡转移_润色版.json",
+    "case_id": "CASE-55BF9202",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "食管鳞癌术后近3年，患者左肺上叶病灶穿刺显示低分化鳞状细胞癌免疫表型。鉴别食管癌肺转移与新发肺鳞癌，哪项判断最恰当？",
+        "after_stem": "食管鳞癌术后近3年，患者左肺上叶病灶穿刺显示低分化鳞状细胞癌免疫表型。鉴别食管癌肺转移与新发肺鳞癌，哪项判断最恰当？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "PET-CT除左上肺病灶外，还提示胸膜异常及多站可疑淋巴结，同时存在支气管扩张伴感染。此时能否直接认定为单发肺寡转移？",
+        "after_stem": "PET-CT除左上肺病灶外，还提示胸膜异常及多站可疑淋巴结，同时存在支气管扩张伴感染。此时能否直接认定为单发肺寡转移？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "MDT拟先行化疗联合抗PD-1治疗，再讨论肺部局部干预。为使后续决策有据可依，复评应重点回答什么问题？",
+        "after_stem": "MDT拟先行化疗联合抗PD-1治疗，再讨论肺部局部干预。为使后续决策有据可依，复评应重点回答什么问题？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "本例食管原发灶术后控制近3年。若进一步评估确认符合寡转移条件，关于系统治疗与局部治疗的顺序，下列哪项最准确？",
+        "after_stem": "本例食管原发灶术后控制近3年。若进一步评估确认符合寡转移条件，关于系统治疗与局部治疗的顺序，下列哪项最准确？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "讨论ESO-Shanghai 13研究对本例的参考价值时，下列哪项解释最恰当？",
+        "after_stem": "讨论ESO-Shanghai 13研究对本例的参考价值时，下列哪项解释最恰当？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.14/141249_乳腺癌心包填塞_润色版.json",
+    "case_id": "CASE-B5FF3EFE",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "患者原发乳腺癌为HR阳性，术后内分泌治疗期间出现淋巴结和骨转移。制定新的系统治疗方案前，哪项信息最值得通过可及病灶活检重新确认？",
+        "after_stem": "患者原发乳腺癌为HR阳性，术后内分泌治疗期间出现淋巴结和骨转移。制定新的系统治疗方案前，哪项信息最值得通过可及病灶活检重新确认？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "患者胸腔引流后仍气促加重、无法平卧并出现少尿，检查提示大量心包积液及心包填塞。此时应优先采取哪项措施？",
+        "after_stem": "患者胸腔引流后仍气促加重、无法平卧并出现少尿，检查提示大量心包积液及心包填塞。此时应优先采取哪项措施？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "此前骨转移活检为HR阳性，现胸水和心包积液检出乳腺来源恶性细胞，ER/PR阴性、HER2 IHC 2+且FISH阴性。哪项解读更合理？",
+        "after_stem": "此前骨转移活检为HR阳性，现胸水和心包积液检出乳腺来源恶性细胞，ER/PR阴性、HER2 IHC 2+且FISH阴性。哪项解读更合理？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "患者既往已接受化疗，当前进展部位符合HER2低表达，但急症时ECOG为3～4分。如何理解德曲妥珠单抗在本例中的选择依据？",
+        "after_stem": "患者既往已接受化疗，当前进展部位符合HER2低表达，但急症时ECOG为3～4分。如何理解德曲妥珠单抗在本例中的选择依据？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "患者有胸腔及心包积液病史，后续使用德曲妥珠单抗。下列哪项监测安排最合适？",
+        "after_stem": "患者有胸腔及心包积液病史，后续使用德曲妥珠单抗。下列哪项监测安排最合适？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.14/154097_乳腺癌受体演变_润色版.json",
+    "case_id": "CASE-902F741C",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "患者乳腺癌治疗后，手术瘢痕附近出现红斑、皮肤增厚和色素沉着，抗生素治疗无效。下一步最合适的评估是什么？",
+        "after_stem": "患者乳腺癌治疗后，手术瘢痕附近出现红斑、皮肤增厚和色素沉着，抗生素治疗无效。下一步最合适的评估是什么？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "初诊肿瘤ER强阳性，局部复发灶却报告ER/PR阴性、HER2 IHC 1+且FISH阴性。面对这一变化，哪项解释最稳妥？",
+        "after_stem": "初诊肿瘤ER强阳性，局部复发灶却报告ER/PR阴性、HER2 IHC 1+且FISH阴性。面对这一变化，哪项解释最稳妥？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "本例局部复发灶为三阴性，PD-L1 CPS为10，随后接受帕博利珠单抗联合化疗并再次手术。引用KEYNOTE-355解释这一选择时，应特别注意什么？",
+        "after_stem": "本例局部复发灶为三阴性，PD-L1 CPS为10，随后接受帕博利珠单抗联合化疗并再次手术。引用KEYNOTE-355解释这一选择时，应特别注意什么？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "纵隔淋巴结活检显示ER>80%、PR阴性、HER2 IHC 0，与此前局部复发灶不同。若样本质量可靠，下一步选药应如何考虑？",
+        "after_stem": "纵隔淋巴结活检显示ER>80%、PR阴性、HER2 IHC 0，与此前局部复发灶不同。若样本质量可靠，下一步选药应如何考虑？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "胸水中仅见少量非典型细胞，GATA3阳性、ER阴性，因细胞不足未完成PR和HER2检测。关于此次结果，下列哪项最准确？",
+        "after_stem": "胸水中仅见少量非典型细胞，GATA3阳性、ER阴性，因细胞不足未完成PR和HER2检测。关于此次结果，下列哪项最准确？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.16/01_CASE-82A82F9C_妊娠期HER2阳性乳腺癌伴胎盘转移.json",
+    "case_id": "CASE-82A82F9C",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "孕35周乳腺超声提示恶性可能并见可疑腋窝淋巴结。要在分娩前明确诊断，哪项处理最恰当？",
+        "after_stem": "孕35周乳腺超声提示恶性可能并见可疑腋窝淋巴结。要在分娩前明确诊断，哪项处理最恰当？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "胎盘病理证实乳腺癌转移，胎儿随访暂未发现肿瘤。对母婴状态应如何记录？",
+        "after_stem": "胎盘病理证实乳腺癌转移，胎儿随访暂未发现肿瘤。对母婴状态应如何记录？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "患者HER2 3+，团队需要同时安排分娩与抗肿瘤治疗。关于曲妥珠单抗的时机，哪项最符合孕期安全性原则？",
+        "after_stem": "患者HER2 3+，团队需要同时安排分娩与抗肿瘤治疗。关于曲妥珠单抗的时机，哪项最符合孕期安全性原则？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "患者既往有室间隔缺损等先天性心脏病，历史记录心功能Ⅰ级。开始产后抗HER2治疗前，哪项信息最能直接支持安全性决策？",
+        "after_stem": "患者既往有室间隔缺损等先天性心脏病，历史记录心功能Ⅰ级。开始产后抗HER2治疗前，哪项信息最能直接支持安全性决策？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "本例产后已发现肝、骨等转移，治疗后仍有乳腺残余病灶。讨论乳腺手术时，哪项判断最稳妥？",
+        "after_stem": "本例产后已发现肝、骨等转移，治疗后仍有乳腺残余病灶。讨论乳腺手术时，哪项判断最稳妥？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.16/01_肝癌_仑伐替尼肾损伤_CASE-FCB62584.json",
+    "case_id": "CASE-FCB62584",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "患者既往有轻度蛋白尿，仑伐替尼治疗后尿蛋白升至3+、肌酐升至108 μmol/L。此时尚未提供24小时尿蛋白定量。决定暂停或调整用药前，最需要补充哪项评估？",
+        "after_stem": "患者既往有轻度蛋白尿，仑伐替尼治疗后尿蛋白升至3+、肌酐升至108 μmol/L。此时尚未提供24小时尿蛋白定量。决定暂停或调整用药前，最需要补充哪项评估？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "患者24小时尿蛋白19.5 g，伴白蛋白26.4 g/L、水肿及肾微血管病变。针对已出现的肾病综合征，依据仑伐替尼说明书，最恰当的用药处理是？",
+        "after_stem": "患者24小时尿蛋白19.5 g，伴白蛋白26.4 g/L、水肿及肾微血管病变。针对已出现的肾病综合征，依据仑伐替尼说明书，最恰当的用药处理是？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "停药后患者水肿减轻，但24小时尿蛋白仍为3.66 g，肌酐为168 μmol/L。对这次改善应如何判断？",
+        "after_stem": "停药后患者水肿减轻，但24小时尿蛋白仍为3.66 g，肌酐为168 μmol/L。对这次改善应如何判断？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "病例记载微波消融后启用了信迪利单抗。若希望将这一方案推荐给其他仑伐替尼不耐受患者，首先应核对哪项证据条件？",
+        "after_stem": "病例记载微波消融后启用了信迪利单抗。若希望将这一方案推荐给其他仑伐替尼不耐受患者，首先应核对哪项证据条件？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "肝脏MRI发现右叶VIII段活动性病灶。若评估是否适合局部消融，现有病例摘要之外，哪组资料最关键？",
+        "after_stem": "肝脏MRI发现右叶VIII段活动性病灶。若评估是否适合局部消融，现有病例摘要之外，哪组资料最关键？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.16/01_胃癌_CAPOX持久缓解_CASE-29CA171F.json",
+    "case_id": "CASE-29CA171F",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "本例胃癌记录HER2阴性、CPS＜1及pMMR。若按所引2024年指南评估类似的新诊断转移性胃癌患者，哪项检测策略更完整？",
+        "after_stem": "本例胃癌记录HER2阴性、CPS＜1及pMMR。若按所引2024年指南评估类似的新诊断转移性胃癌患者，哪项检测策略更完整？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "患者第5周期出现骨髓毒性，影像显示缩小，但摘要未给出中性粒细胞和血小板计数。决定下一周期能否按时给药前，最关键的是？",
+        "after_stem": "患者第5周期出现骨髓毒性，影像显示缩小，但摘要未给出中性粒细胞和血小板计数。决定下一周期能否按时给药前，最关键的是？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": true,
+        "before_stem": "患者因持续血液学毒性停用CAPOX，当时尚未达到后来记录的CR。对这一停药决定，哪项解释最严谨？",
+        "after_stem": "患者因持续血液学毒性停用CAPOX，停药时影像尚未达到CR。仅依据这一时点的信息，如何评价停药决定？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "影像记录完全缓解，胃镜局部活检未见肿瘤细胞，但没有原发灶与肝转移灶完整切除标本。哪项表述最准确？",
+        "after_stem": "影像记录完全缓解，胃镜局部活检未见肿瘤细胞，但没有原发灶与肝转移灶完整切除标本。哪项表述最准确？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "患者长期未见进展，希望减少检查。拟定随访方案时，哪项最合理？",
+        "after_stem": "患者长期未见进展，希望减少检查。拟定随访方案时，哪项最合理？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.16/02_CASE-6A44390F_HER2阳性胆道癌多线治疗后T-DXd获控.json",
+    "case_id": "CASE-6A44390F",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "拟参考HERB研究考虑T-DXd时，现有报告只写“HER2免疫组化阳性、FISH扩增”。最应补核对哪项？",
+        "after_stem": "拟参考HERB研究考虑T-DXd时，现有报告只写“HER2免疫组化阳性、FISH扩增”。最应补核对哪项？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "HERB研究提示T-DXd对部分HER2阳性胆道癌有活性。用于解释本例后线选择时，哪项表述最准确？",
+        "after_stem": "HERB研究提示T-DXd对部分HER2阳性胆道癌有活性。用于解释本例后线选择时，哪项表述最准确？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "T-DXd治疗约4个月，CA19-9由低点回升，PET提示仍有肿瘤代谢活性，但未给出可比病灶尺寸或明确新灶。更合适的下一步是？",
+        "after_stem": "T-DXd治疗约4个月，CA19-9由低点回升，PET提示仍有肿瘤代谢活性，但未给出可比病灶尺寸或明确新灶。更合适的下一步是？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": true,
+        "before_stem": "决定下一次T-DXd给药及是否使用升白支持前，应首先核对什么？",
+        "after_stem": "T-DXd治疗后，病例报告2级白细胞减少和贫血，但未提供当前ANC、血小板计数及是否发热。决定下一次给药及是否使用升白支持前，应首先核对什么？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": true,
+        "before_stem": "本例没有记录ILD。若拟制定T-DXd期间的呼吸系统风险预案，哪项最恰当？",
+        "after_stem": "拟制定T-DXd治疗期间的呼吸系统风险预案，当前未记录ILD。哪项安排最恰当？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.16/02_乳腺癌_髌骨转移_CASE-C54DD4A4.json",
+    "case_id": "CASE-C54DD4A4",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "既往乳腺癌患者出现持续膝痛及髌骨溶骨性病变，间隔已19年。下一步诊断策略应如何选择？",
+        "after_stem": "既往乳腺癌患者出现持续膝痛及髌骨溶骨性病变，间隔已19年。下一步诊断策略应如何选择？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "髌骨标本ER/PR强阳性、Ki-67＜5%，HER2结果未提供。用于系统治疗前，最恰当的补充核对是？",
+        "after_stem": "髌骨标本ER/PR强阳性、Ki-67＜5%，HER2结果未提供。用于系统治疗前，最恰当的补充核对是？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "除髌骨外，PET/CT还提示左股骨上段、右胫骨近端摄取增高。决定是否按孤立转移实施局部策略前，应如何处理？",
+        "after_stem": "除髌骨外，PET/CT还提示左股骨上段、右胫骨近端摄取增高。决定是否按孤立转移实施局部策略前，应如何处理？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": true,
+        "before_stem": "髌骨骨皮质破坏并持续疼痛，病例采用刮除、骨水泥填充及放疗。推广到类似患者时，最应评估什么？",
+        "after_stem": "髌骨骨皮质破坏并持续疼痛，团队正在讨论刮除、骨水泥填充及放疗等局部处理。制定方案前，最应评估什么？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "术后疼痛缓解、关节活动改善。后续管理中哪项最重要？",
+        "after_stem": "术后疼痛缓解、关节活动改善。后续管理中哪项最重要？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.16/02_胃神经内分泌肿瘤_恶性贫血_CASE-BD2810E1.json",
+    "case_id": "CASE-BD2810E1",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "患者大细胞性贫血、维生素B12显著降低，内因子及壁细胞抗体阳性。确认胃部相关病因和伴发肿瘤时，哪种评估最有价值？",
+        "after_stem": "患者大细胞性贫血、维生素B12显著降低，内因子及壁细胞抗体阳性。确认胃部相关病因和伴发肿瘤时，哪种评估最有价值？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "患者胃NET病理分级为G1，同时有自身免疫性萎缩性胃炎、高胃泌素血症及恶性贫血。对“G1”和“1型”的理解，哪项正确？",
+        "after_stem": "患者胃NET病理分级为G1，同时有自身免疫性萎缩性胃炎、高胃泌素血症及恶性贫血。对“G1”和“1型”的理解，哪项正确？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "原文仅称胃NET“小且单发、G1”，没有记录确切直径和浸润深度。复核“仅随访、不切除”的依据时，最应补齐什么？",
+        "after_stem": "原文仅称胃NET“小且单发、G1”，没有记录确切直径和浸润深度。复核“仅随访、不切除”的依据时，最应补齐什么？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "患者恶性贫血与自身免疫性萎缩性胃炎相关，替代治疗后症状和血红蛋白恢复。关于维生素B12后续处理，哪项最恰当？",
+        "after_stem": "患者恶性贫血与自身免疫性萎缩性胃炎相关，替代治疗后症状和血红蛋白恢复。关于维生素B12后续处理，哪项最恰当？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "维生素B12治疗后血红蛋白恢复正常，但胃NET未被切除。后续随访应如何安排？",
+        "after_stem": "维生素B12治疗后血红蛋白恢复正常，但胃NET未被切除。后续随访应如何安排？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.16/03_CASE-95977E69_卡匹色替治疗后的放射回忆性皮炎.json",
+    "case_id": "CASE-95977E69",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "右下肢新照射野与既往30 Gy/10次区域部分重叠。制定再照射计划时，最关键的评估是什么？",
+        "after_stem": "右下肢新照射野与既往30 Gy/10次区域部分重叠。制定再照射计划时，最关键的评估是什么？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "本例依据PIK3CA改变考虑卡匹色替联合氟维司群。关于药物与标志物的对应关系，哪项正确？",
+        "after_stem": "本例依据PIK3CA改变考虑卡匹色替联合氟维司群。关于药物与标志物的对应关系，哪项正确？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "医嘱为卡匹色替400 mg每日两次、连续4天后停3天，患者在两个停药日多服了4剂。哪项是此次用药复盘的关键？",
+        "after_stem": "医嘱为卡匹色替400 mg每日两次、连续4天后停3天，患者在两个停药日多服了4剂。哪项是此次用药复盘的关键？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "皮疹与既往照射野部分吻合，但已伴大疱并向野外扩展。此时最合适的处理方向是？",
+        "after_stem": "皮疹与既往照射野部分吻合，但已伴大疱并向野外扩展。此时最合适的处理方向是？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": true,
+        "before_stem": "本例改用阿培利司后耐受良好。对类似患者考虑该药时，哪项评估仍不可省略？",
+        "after_stem": "卡匹色替治疗中皮疹反复，停药后消退，现需评估阿培利司这一后续选择。对类似患者，哪项评估仍不可省略？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.16/03_三阴乳腺癌_脑膜转移_CASE-22A52DF0.json",
+    "case_id": "CASE-22A52DF0",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "患者初始cT4bN3cM0，新辅助后原发残留仅7 mm，但仍为ypN3a。哪项最能支持术后放疗评估？",
+        "after_stem": "患者初始cT4bN3cM0，新辅助后原发残留仅7 mm，但仍为ypN3a。哪项最能支持术后放疗评估？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "术后患者出现头痛、头晕和恶心，需排查脑实质及脑膜转移。哪项检查路径更合理？",
+        "after_stem": "术后患者出现头痛、头晕和恶心，需排查脑实质及脑膜转移。哪项检查路径更合理？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "增强MRI见脑膜线样强化，脑脊液细胞学检出恶性细胞。两项检查如何共同用于诊断？",
+        "after_stem": "增强MRI见脑膜线样强化，脑脊液细胞学检出恶性细胞。两项检查如何共同用于诊断？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "患者CSF细胞学阳性，拟讨论鞘内治疗。除肿瘤亚型和全身状态外，哪项评估直接影响这一给药途径是否适合？",
+        "after_stem": "患者CSF细胞学阳性，拟讨论鞘内治疗。除肿瘤亚型和全身状态外，哪项评估直接影响这一给药途径是否适合？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "本例同时有多发脑实质病灶、症状性脑膜受累，接受全脑放疗及鞘内治疗。哪项推广结论最稳妥？",
+        "after_stem": "本例同时有多发脑实质病灶、症状性脑膜受累，接受全脑放疗及鞘内治疗。哪项推广结论最稳妥？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.16/03_胆管癌_EGFR靶向证据边界_CASE-46B8BDDE.json",
+    "case_id": "CASE-46B8BDDE",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": true,
+        "before_stem": "原文将肝内胆管癌记为T4N0M0，但已展示的影像描述主要为左肝巨大病灶及右肝多发结节。核对AJCC第8版T4时，最需要确认哪项依据？",
+        "after_stem": "原文将肝内胆管癌记为T4N0M0，但现有影像描述主要为巨大肝内病灶及其他肝内结节。核对AJCC第8版T4时，最需要确认哪项依据？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "当时仅检测EGFR、ALK和ROS1，发现EGFR外显子19缺失。若按现有胆道癌检测策略补充评估，最合理的是？",
+        "after_stem": "当时仅检测EGFR、ALK和ROS1，发现EGFR外显子19缺失。若按现有胆道癌检测策略补充评估，最合理的是？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "该肝内胆管癌患者拒绝标准化疗，团队依据EGFR外显子19缺失尝试阿法替尼。评价这项决策时，应坚持哪一原则？",
+        "after_stem": "该肝内胆管癌患者拒绝标准化疗，团队依据EGFR外显子19缺失尝试阿法替尼。评价这项决策时，应坚持哪一原则？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "原文报告肿瘤最长径较基线增大80%，并将疗效判定为PD。若独立复核RECIST 1.1，以下哪项资料最关键？",
+        "after_stem": "原文报告肿瘤最长径较基线增大80%，并将疗效判定为PD。若独立复核RECIST 1.1，以下哪项资料最关键？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "患者已被报告为PD，仍拒绝化疗并希望继续口服药物。此时最合理的下一步决策框架是什么？",
+        "after_stem": "患者已被报告为PD，仍拒绝化疗并希望继续口服药物。此时最合理的下一步决策框架是什么？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.16/04_CASE-6E309B6B_乳腺癌术后诺卡菌菌血症的诊治.json",
+    "case_id": "CASE-6E309B6B",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "患者高热伴肺部病灶，CRP及PCT正常，经验性左氧氟沙星无效。血培养见革兰阳性分支丝状菌。下一步最有价值的是？",
+        "after_stem": "患者高热伴肺部病灶，CRP及PCT正常，经验性左氧氟沙星无效。血培养见革兰阳性分支丝状菌。下一步最有价值的是？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "患者已确诊诺卡菌菌血症，未诉明显神经系统症状。为何仍需要评估中枢神经系统？",
+        "after_stem": "患者已确诊诺卡菌菌血症，未诉明显神经系统症状。为何仍需要评估中枢神经系统？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": true,
+        "before_stem": "原病例后来在合用抗组胺药的情况下再次使用TMP-SMX。把这一经过用于类似患者时，最需要先明确什么？",
+        "after_stem": "患者使用TMP-SMX后出现皮疹，曾因考虑药物过敏而换药，现需评估是否可以再次使用。最需要先明确什么？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "本例未规律服药后再次血培养阳性。重新制定抗感染计划时，哪项最完整？",
+        "after_stem": "本例未规律服药后再次血培养阳性。重新制定抗感染计划时，哪项最完整？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "原文根据RSV IgM升高及肺部新病灶考虑共感染。若条件允许，哪项最能补强当前RSV感染的病原学证据？",
+        "after_stem": "原文根据RSV IgM升高及肺部新病灶考虑共感染。若条件允许，哪项最能补强当前RSV感染的病原学证据？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.16/04_乳腺癌_十二指肠梗阻_CASE-8EB5623E.json",
+    "case_id": "CASE-8EB5623E",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q2",
+        "stem_changed": true,
+        "before_stem": "内镜显示腔外压迫性狭窄和黏膜水肿，表浅活检未获得确诊组织。下一步更合理的是？",
+        "after_stem": "患者有乳腺癌病史，现出现十二指肠狭窄与梗阻。内镜显示腔外压迫和黏膜水肿，表浅活检未取得确诊组织。下一步更合理的是？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "十二指肠病灶CK7、GATA3等阳性，ER/PR阴性，有既往乳腺癌史。哪项病理解释最严谨？",
+        "after_stem": "十二指肠病灶CK7、GATA3等阳性，ER/PR阴性，有既往乳腺癌史。哪项病理解释最严谨？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "既往乳腺标本ER/PR阳性，本次转移灶ER/PR阴性、HER2阴性。如何用于后续治疗最妥当？",
+        "after_stem": "既往乳腺标本ER/PR阳性，本次转移灶ER/PR阴性、HER2阴性。如何用于后续治疗最妥当？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "患者高位小肠梗阻，经胃管减压部分缓解，病理支持乳腺转移。制定系统治疗时，哪项最关键？",
+        "after_stem": "患者高位小肠梗阻，经胃管减压部分缓解，病理支持乳腺转移。制定系统治疗时，哪项最关键？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "两周期化疗后呕吐腹痛明显缓解。判断后续疗效与是否继续方案，应采用哪种方式？",
+        "after_stem": "两周期化疗后呕吐腹痛明显缓解。判断后续疗效与是否继续方案，应采用哪种方式？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.16/04_乳腺血管肉瘤_局部治疗_CASE-DD610E54.json",
+    "case_id": "CASE-DD610E54",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "哺乳期女性乳房肿物增大，活检见异常血管腔和内皮细胞异型，CD34、ERG阳性。制定治疗方案前，对这些结果最恰当的处理是？",
+        "after_stem": "哺乳期女性乳房肿物增大，活检见异常血管腔和内皮细胞异型，CD34、ERG阳性。制定治疗方案前，对这些结果最恰当的处理是？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "本例原发性乳腺血管肉瘤临床腋窝未见异常，实际接受了前哨淋巴结手术。对这一做法应如何进行教学解读？",
+        "after_stem": "本例原发性乳腺血管肉瘤临床腋窝未见异常，实际接受了前哨淋巴结手术。对这一做法应如何进行教学解读？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "患者乳腺血管肉瘤未见远处转移，团队拟在保乳切除与乳房切除之间选择。哪项应作为局部手术决策的核心？",
+        "after_stem": "患者乳腺血管肉瘤未见远处转移，团队拟在保乳切除与乳房切除之间选择。哪项应作为局部手术决策的核心？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "原文记载完整切除后未予放疗，并提及放疗相关继发血管肉瘤风险。评价这一决定时，哪项最合理？",
+        "after_stem": "原文记载完整切除后未予放疗，并提及放疗相关继发血管肉瘤风险。评价这一决定时，哪项最合理？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "术区影像显示结构改变，穿刺提示瘢痕组织且未见恶性细胞。下一步随访策略应如何把握？",
+        "after_stem": "术区影像显示结构改变，穿刺提示瘢痕组织且未见恶性细胞。下一步随访策略应如何把握？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.16/05_CASE-351D64C1_MSS胃癌转化治疗后病理完全缓解.json",
+    "case_id": "CASE-351D64C1",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "本例MSS胃癌的PD-L1 CPS≥70。讨论一线免疫联合化疗时，哪项解释最准确？",
+        "after_stem": "本例MSS胃癌的PD-L1 CPS≥70。讨论一线免疫联合化疗时，哪项解释最准确？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "用CheckMate 649解释本例治疗时，哪项必须区分？",
+        "after_stem": "用CheckMate 649解释本例治疗时，哪项必须区分？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "本例初诊有单个较大肝转移及巨块淋巴结。治疗缩小后讨论切除，最重要的前提是什么？",
+        "after_stem": "本例初诊有单个较大肝转移及巨块淋巴结。治疗缩小后讨论切除，最重要的前提是什么？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "胃、淋巴结及肝切除标本达到pCR。对后续管理的推论，哪项最严谨？",
+        "after_stem": "胃、淋巴结及肝切除标本达到pCR。对后续管理的推论，哪项最严谨？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "原始论文报告TP53 p.R106C为胚系变异，并指出其临床意义存在争议。最恰当的解释是？",
+        "after_stem": "原始论文报告TP53 p.R106C为胚系变异，并指出其临床意义存在争议。最恰当的解释是？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.16/05_乳腺癌_肾上腺及脑转移_CASE-F5CEC3E2.json",
+    "case_id": "CASE-F5CEC3E2",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "乳腺癌患者CT发现肾上腺新病灶，PET/CT显示摄取增高。最准确的解释是？",
+        "after_stem": "乳腺癌患者CT发现肾上腺新病灶，PET/CT显示摄取增高。最准确的解释是？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "原发乳腺癌HR阳性、HER2 0，后续出现多处转移，摘要未提供转移灶受体结果。哪项做法更合理？",
+        "after_stem": "原发乳腺癌HR阳性、HER2 0，后续出现多处转移，摘要未提供转移灶受体结果。哪项做法更合理？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "患者曾用阿那曲唑，后发生进展，原发HR+/HER2-。评价CDK4/6抑制剂联合内分泌治疗是否适合，应重点核对什么？",
+        "after_stem": "患者曾用阿那曲唑，后发生进展，原发HR+/HER2-。评价CDK4/6抑制剂联合内分泌治疗是否适合，应重点核对什么？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "本例脑病灶接受放疗，同时调整系统治疗。如何评价这种组合的依据？",
+        "after_stem": "本例脑病灶接受放疗，同时调整系统治疗。如何评价这种组合的依据？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "CT显示肾上腺病灶缩小，原文报告总体PR。独立复核总体疗效还需要什么？",
+        "after_stem": "CT显示肾上腺病灶缩小，原文报告总体PR。独立复核总体疗效还需要什么？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.16/05_胆管癌_自发性肿瘤溶解_CASE-8DC486E7.json",
+    "case_id": "CASE-8DC486E7",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "胆管癌患者有巨大肝肿块、腹水、慢性门静脉血栓及胸部小结节，原文诊断伴转移。若独立复核M分期，应怎样使用这些资料？",
+        "after_stem": "胆管癌患者有巨大肝肿块、腹水、慢性门静脉血栓及胸部小结节，原文诊断伴转移。若独立复核M分期，应怎样使用这些资料？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "患者肝脏穿刺提示胆管来源腺癌。若一般状况改善、可以考虑系统治疗，哪种检测思路更符合胆道癌的病种特点？",
+        "after_stem": "患者肝脏穿刺提示胆管来源腺癌。若一般状况改善、可以考虑系统治疗，哪种检测思路更符合胆道癌的病种特点？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": true,
+        "before_stem": "患者尚未接受抗肿瘤治疗，却出现肾功能恶化、高钾、低钙和高尿酸，且肿瘤负荷巨大。哪种诊断思路最合理？",
+        "after_stem": "胆管癌患者尚未接受抗肿瘤治疗，住院中出现肾功能恶化、高钾、低钙和高尿酸，且肿瘤负荷巨大。哪种诊断思路最合理？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "原文记载患者使用别嘌醇后病情改善。对于已存在高尿酸和肾功能损害的TLS，以下哪项理解正确？",
+        "after_stem": "原文记载患者使用别嘌醇后病情改善。对于已存在高尿酸和肾功能损害的TLS，以下哪项理解正确？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "急性代谢异常改善后，患者总体状况仍差，医患共同选择以舒适照护为主。对这一转变，哪项解释最恰当？",
+        "after_stem": "急性代谢异常改善后，患者总体状况仍差，医患共同选择以舒适照护为主。对这一转变，哪项解释最恰当？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.16/06_CASE-E920FEFC_三阴性乳腺癌肝内脏危象的挽救治疗.json",
+    "case_id": "CASE-E920FEFC",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "患者肝弥漫转移伴胆红素迅速升高，原文称超过正常上限1.5倍。判断肝内脏危象还应重点核对什么？",
+        "after_stem": "患者肝弥漫转移伴胆红素迅速升高，原文称超过正常上限1.5倍。判断肝内脏危象还应重点核对什么？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "肝活检确认三阴性表型，资料只写“BRCA1/2阴性”。据此讨论后续治疗，哪项记录方式正确？",
+        "after_stem": "肝活检确认三阴性表型，资料只写“BRCA1/2阴性”。据此讨论后续治疗，哪项记录方式正确？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "本例SG联合帕博利珠单抗后肝病灶缩小。将该经验用于另一例同样肝功能受损患者时，最关键的限制是什么？",
+        "after_stem": "本例SG联合帕博利珠单抗后肝病灶缩小。将该经验用于另一例同样肝功能受损患者时，最关键的限制是什么？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": true,
+        "before_stem": "团队怀疑免疫介导性膀胱炎。进一步处理最应遵循哪项原则？",
+        "after_stem": "帕博利珠单抗相关治疗期间出现尿路刺激症状及肌酐升高，团队怀疑免疫介导性膀胱炎。进一步处理最应遵循哪项原则？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "原文记载患者因费用减少给药频率，之后疾病进展并死亡。哪项复盘最准确？",
+        "after_stem": "原文记载患者因费用减少给药频率，之后疾病进展并死亡。哪项复盘最准确？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.16/06_HER2乳腺癌_RC48脑转移_CASE-8B47BE60.json",
+    "case_id": "CASE-8B47BE60",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "患者有既往HER2阳性记录，现为放疗后症状性脑进展。考虑受体复核时哪项最合理？",
+        "after_stem": "患者有既往HER2阳性记录，现为放疗后症状性脑进展。考虑受体复核时哪项最合理？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "患者颅外稳定、颅内进展，既往全脑放疗且拒绝再次放疗。团队最应如何开展下一步决策？",
+        "after_stem": "患者颅外稳定、颅内进展，既往全脑放疗且拒绝再次放疗。团队最应如何开展下一步决策？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "本例RC48治疗后获得颅内PR。对其他放疗后进展患者，哪项证据解释最准确？",
+        "after_stem": "本例RC48治疗后获得颅内PR。对其他放疗后进展患者，哪项证据解释最准确？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "治疗首周期后神经症状改善，5周期MRI见病灶缩小。怎样记录疗效更合适？",
+        "after_stem": "治疗首周期后神经症状改善，5周期MRI见病灶缩小。怎样记录疗效更合适？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "有人用本例PR断言“已证实RC48通过受损血脑屏障进入脑组织”。更准确的判断是？",
+        "after_stem": "有人用本例PR断言“已证实RC48通过受损血脑屏障进入脑组织”。更准确的判断是？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.16/06_肝移植后肝癌_肾上腺转移_CASE-DB524C69.json",
+    "case_id": "CASE-DB524C69",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "肝移植后患者突发腹痛、头晕和低血压，CT见肾上腺区巨大血肿及活动性出血。以下处理顺序最合理？",
+        "after_stem": "肝移植后患者突发腹痛、头晕和低血压，CT见肾上腺区巨大血肿及活动性出血。以下处理顺序最合理？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "出血控制后拟切除肾上腺转移灶。确定该局部治疗适用性时，哪组信息最重要？",
+        "after_stem": "出血控制后拟切除肾上腺转移灶。确定该局部治疗适用性时，哪组信息最重要？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "团队讨论mTOR抑制剂是否有助于降低HCC移植后复发风险。对SiLVER随机试验结果，哪项表述最准确？",
+        "after_stem": "团队讨论mTOR抑制剂是否有助于降低HCC移植后复发风险。对SiLVER随机试验结果，哪项表述最准确？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "若该肝移植受者再次复发并需要评估系统治疗，为什么不能直接套用普通HCC患者的免疫检查点抑制剂方案？",
+        "after_stem": "若该肝移植受者再次复发并需要评估系统治疗，为什么不能直接套用普通HCC患者的免疫检查点抑制剂方案？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "患者AFP曾明显升高，随后下降至712 ng/mL，而同期检查未发现进一步复发。对AFP与影像结果应如何解释？",
+        "after_stem": "患者AFP曾明显升高，随后下降至712 ng/mL，而同期检查未发现进一步复发。对AFP与影像结果应如何解释？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.16/07_AFP阳性结肠癌_CASE-9236151F.json",
+    "case_id": "CASE-9236151F",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "患者有乙肝史、AFP 212.6 ng/mL，肝脏增强CT未见可疑占位，结肠病理及AFP染色阳性。哪项解释更准确？",
+        "after_stem": "患者有乙肝史、AFP 212.6 ng/mL，肝脏增强CT未见可疑占位，结肠病理及AFP染色阳性。哪项解释更准确？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "原文写T3N2b，同时描述“侵及浆膜层”，淋巴结转移10/10。哪种分期复核方法最严谨？",
+        "after_stem": "原文写T3N2b，同时描述“侵及浆膜层”，淋巴结转移10/10。哪种分期复核方法最严谨？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "患者N2b、pMMR，原文接受CAPOX。依据所引ASCO辅助疗程指南，如何讨论预定疗程最合理？",
+        "after_stem": "患者N2b、pMMR，原文接受CAPOX。依据所引ASCO辅助疗程指南，如何讨论预定疗程最合理？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "术后一周CEA和AFP恢复正常。用于复发监测时，哪项最妥当？",
+        "after_stem": "术后一周CEA和AFP恢复正常。用于复发监测时，哪项最妥当？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "CT提示肠套叠但未描述肠梗阻，内镜见肿瘤占据管腔，并有便血。决定局部干预紧迫性时，应重点评价什么？",
+        "after_stem": "CT提示肠套叠但未描述肠梗阻，内镜见肿瘤占据管腔，并有便血。决定局部干预紧迫性时，应重点评价什么？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.16/07_CASE-CC5590E2_pMMR_MSS直肠癌复发后的RIN治疗.json",
+    "case_id": "CASE-CC5590E2",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": true,
+        "before_stem": "肿块侵犯宫颈、阴道及邻近组织。确定复发后的治疗策略前，哪项评估最关键？",
+        "after_stem": "直肠癌术后14个月发现盆腔复发肿块，侵犯宫颈、阴道及邻近组织。确定复发后的治疗策略前，哪项评估最关键？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": true,
+        "before_stem": "患者出现坏死性筋膜炎并需ICU救治，此时处理重点是什么？",
+        "after_stem": "复发后FOLFOXIRI治疗期间出现坏死性筋膜炎，病情严重并需ICU救治。此时处理重点是什么？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "本例采用瑞戈非尼、伊匹木单抗及纳武利尤单抗。所引RIN研究最能支持哪项判断？",
+        "after_stem": "本例采用瑞戈非尼、伊匹木单抗及纳武利尤单抗。所引RIN研究最能支持哪项判断？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "本例为缓解疼痛和出血再次照射。制定计划时，哪项最重要？",
+        "after_stem": "本例为缓解疼痛和出血再次照射。制定计划时，哪项最重要？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "本例ctDNA和CEA转阴，影像病灶亦改善。如何据此讨论治疗与随访？",
+        "after_stem": "本例ctDNA和CEA转阴，影像病灶亦改善。如何据此讨论治疗与随访？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.16/07_十二指肠腺癌_转移期管理_CASE-4FDC8196.json",
+    "case_id": "CASE-4FDC8196",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "患者有十二指肠肿块及多发肝肿块，十二指肠和肝脏活检均提示腺癌。确定原发部位时，哪种判断最可靠？",
+        "after_stem": "患者有十二指肠肿块及多发肝肿块，十二指肠和肝脏活检均提示腺癌。确定原发部位时，哪种判断最可靠？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "摘要写有“MSI、HER2、PD-1阴性”，并称未见错配修复缺陷。用于后续治疗决策前，最应采取哪种处理？",
+        "after_stem": "摘要写有“MSI、HER2、PD-1阴性”，并称未见错配修复缺陷。用于后续治疗决策前，最应采取哪种处理？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "患者确诊十二指肠腺癌伴肝转移，原文采用FOLFOX。以下哪项最准确地表述这一阶段的治疗目标？",
+        "after_stem": "患者确诊十二指肠腺癌伴肝转移，原文采用FOLFOX。以下哪项最准确地表述这一阶段的治疗目标？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "患者在FOLFOX期间发生肺栓塞，原发灶位于消化道。讨论抗凝方案时，哪项评估最关键？",
+        "after_stem": "患者在FOLFOX期间发生肺栓塞，原发灶位于消化道。讨论抗凝方案时，哪项评估最关键？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "原文仅记载化疗中出现神经系统症状，未给出分级和功能受损程度。决定是否调整奥沙利铂前，最恰当的是？",
+        "after_stem": "原文仅记载化疗中出现神经系统症状，未给出分级和功能受损程度。决定是否调整奥沙利铂前，最恰当的是？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.16/08_CASE-14D22BE9_直肠癌胰腺转移伴感染性假性囊肿.json",
+    "case_id": "CASE-14D22BE9",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "患者小脑病灶伴明显神经症状和脑水肿。系统方案尚在讨论时，应如何安排颅内处理？",
+        "after_stem": "患者小脑病灶伴明显神经症状和脑水肿。系统方案尚在讨论时，应如何安排颅内处理？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "EUS取材发现胰腺腺癌，CDX2、SATB2阳性且HER2 3+。结合直肠病理，哪项判断最有依据？",
+        "after_stem": "EUS取材发现胰腺腺癌，CDX2、SATB2阳性且HER2 3+。结合直肠病理，哪项判断最有依据？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "原病例在抗菌治疗改善炎症后启动双HER2治疗。对这一顺序，哪项理解最准确？",
+        "after_stem": "原病例在抗菌治疗改善炎症后启动双HER2治疗。对这一顺序，哪项理解最准确？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "用MyPathway研究解释本例选择时，哪项最需要说明？",
+        "after_stem": "用MyPathway研究解释本例选择时，哪项最需要说明？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": true,
+        "before_stem": "现有摘要未提供靶病灶径线总和及完整全身复评。哪项疗效表述最合适？",
+        "after_stem": "双HER2治疗12周后，胰腺病灶及假性囊肿改善，CEA和CA19-9下降，但未提供靶病灶径线总和及完整全身复评。哪项疗效表述最合适？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.16/08_胃GIST_CLEAN-NET_CASE-776A405.json",
+    "case_id": "CASE-776A405",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "近贲门胃部肿瘤为梭形细胞病变，KIT、DOG1及CD34免疫组化阳性。对KIT阳性的含义，哪项理解正确？",
+        "after_stem": "近贲门胃部肿瘤为梭形细胞病变，KIT、DOG1及CD34免疫组化阳性。对KIT阳性的含义，哪项理解正确？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "患者为约3 cm、靠近贲门的胃GIST，未见播散或远处转移。设计局部切除方案时，哪项最能兼顾肿瘤控制与器官功能？",
+        "after_stem": "患者为约3 cm、靠近贲门的胃GIST，未见播散或远处转移。设计局部切除方案时，哪项最能兼顾肿瘤控制与器官功能？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "病理报告将本例胃GIST评为低风险。若独立复核这一结论，除约3 cm的直径外，还应重点核对哪些资料？",
+        "after_stem": "病理报告将本例胃GIST评为低风险。若独立复核这一结论，除约3 cm的直径外，还应重点核对哪些资料？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "本例完整切除、切缘阴性，病理评估为低风险GIST。关于辅助伊马替尼，哪项最合理？",
+        "after_stem": "本例完整切除、切缘阴性，病理评估为低风险GIST。关于辅助伊马替尼，哪项最合理？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "术后三个月进食良好且未见复发。对于低风险胃GIST，后续随访应如何理解？",
+        "after_stem": "术后三个月进食良好且未见复发。对于低风险胃GIST，后续随访应如何理解？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.16/08_胃癌_HER2阳性合并MSI-H_CASE-E07D1504.json",
+    "case_id": "CASE-E07D1504",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "原文记载cT4bN1M0及临床IVA期，肿瘤与肝脏直接相连受侵。最需避免哪种分期混淆？",
+        "after_stem": "原文记载cT4bN1M0及临床IVA期，肿瘤与肝脏直接相连受侵。最需避免哪种分期混淆？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "胃癌标本HER2 3+，MLH1缺失且MSI检测为MSI-H。哪项解释正确？",
+        "after_stem": "胃癌标本HER2 3+，MLH1缺失且MSI检测为MSI-H。哪项解释正确？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "初始广泛肝脏直接侵犯，治疗后原发与邻近病变缩小。决定是否进行联合切除最关键的是？",
+        "after_stem": "初始广泛肝脏直接侵犯，治疗后原发与邻近病变缩小。决定是否进行联合切除最关键的是？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "术后继续方案时出现持续中性粒细胞减少及菌血症。此时应如何处理？",
+        "after_stem": "术后继续方案时出现持续中性粒细胞减少及菌血症。此时应如何处理？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "病例经SOX加曲妥珠单抗后达到pCR。该结果能支持哪种结论？",
+        "after_stem": "病例经SOX加曲妥珠单抗后达到pCR。该结果能支持哪种结论？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.16/09_CASE-10436F33_腹水与胃部病变揭示乳腺小叶癌转移.json",
+    "case_id": "CASE-10436F33",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "患者持续上腹痛、腹水，首次内镜未明确病因。腹膜取材提示单细胞浸润。下一步最合理的是？",
+        "after_stem": "患者持续上腹痛、腹水，首次内镜未明确病因。腹膜取材提示单细胞浸润。下一步最合理的是？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "胃活检见单列排列肿瘤细胞且ER阳性。确认乳腺小叶癌胃转移时，哪项证据组合更可靠？",
+        "after_stem": "胃活检见单列排列肿瘤细胞且ER阳性。确认乳腺小叶癌胃转移时，哪项证据组合更可靠？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "本例采用来曲唑联合瑞波西利。判断类似患者是否适合这一方向，最需核对哪项？",
+        "after_stem": "本例采用来曲唑联合瑞波西利。判断类似患者是否适合这一方向，最需核对哪项？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "本例约5个月后按RECIST评估进展。确定后续方案时，哪项评估最有意义？",
+        "after_stem": "本例约5个月后按RECIST评估进展。确定后续方案时，哪项评估最有意义？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "已明确胃、腹膜及骨转移，讨论是否胃切除时，哪项判断更合适？",
+        "after_stem": "已明确胃、腹膜及骨转移，讨论是否胃切除时，哪项判断更合适？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": true
+  },
+  {
+    "file": "题目9.16/09_小肠癌_双侧卵巢转移_CASE-E9E45955.json",
+    "case_id": "CASE-E9E45955",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "双侧卵巢黏液肿瘤CK7阴性、CK20/CDX2/SATB2阳性、PAX8阴性，另有小肠原发灶。怎样解释最严谨？",
+        "after_stem": "双侧卵巢黏液肿瘤CK7阴性、CK20/CDX2/SATB2阳性、PAX8阴性，另有小肠原发灶。怎样解释最严谨？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "原文记pT4N1M1，但报告区域淋巴结转移3枚。若按AJCC第8版小肠腺癌标准复核，应如何记录？",
+        "after_stem": "原文记pT4N1M1，但报告区域淋巴结转移3枚。若按AJCC第8版小肠腺癌标准复核，应如何记录？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "患者小肠癌伴双侧卵巢转移，术后计划XELOX。哪项表述最妥当？",
+        "after_stem": "患者小肠癌伴双侧卵巢转移，术后计划XELOX。哪项表述最妥当？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "现有报告包含多项来源鉴别标志物，但未给出MMR/MSI。哪项补充评估与后续治疗及遗传风险最相关？",
+        "after_stem": "现有报告包含多项来源鉴别标志物，但未给出MMR/MSI。哪项补充评估与后续治疗及遗传风险最相关？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "患者原发小肠癌伴卵巢转移，术后影像暂未报告残余情况。后续复评应如何安排？",
+        "after_stem": "患者原发小肠癌伴卵巢转移，术后影像暂未报告残余情况。后续复评应如何安排？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.16/09_食管鳞癌_ESD后追加治疗_CASE-E3A31C4F.json",
+    "case_id": "CASE-E3A31C4F",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "食管鳞癌ESD病理为pT1a-MM，存在脉管瘤栓，垂直切缘阴性。哪项最能说明仍需讨论追加治疗？",
+        "after_stem": "食管鳞癌ESD病理为pT1a-MM，存在脉管瘤栓，垂直切缘阴性。哪项最能说明仍需讨论追加治疗？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "CT显示气管隆突前和隆突下淋巴结稍大，摘要未提供组织学证据。对这些淋巴结应如何处理？",
+        "after_stem": "CT显示气管隆突前和隆突下淋巴结稍大，摘要未提供组织学证据。对这些淋巴结应如何处理？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "报告写“肿瘤距最近水平切缘＜1 mm”，垂直切缘阴性。对水平切缘最准确的表述是？",
+        "after_stem": "报告写“肿瘤距最近水平切缘＜1 mm”，垂直切缘阴性。对水平切缘最准确的表述是？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "针对pT1a-MM伴脉管侵犯的食管鳞癌，团队讨论食管切除术与放化疗。哪种决策方式最恰当？",
+        "after_stem": "针对pT1a-MM伴脉管侵犯的食管鳞癌，团队讨论食管切除术与放化疗。哪种决策方式最恰当？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "团队引用JCOG0508支持“诊断性内镜切除后选择性放化疗”。使用这项证据时，哪项理解最准确？",
+        "after_stem": "团队引用JCOG0508支持“诊断性内镜切除后选择性放化疗”。使用这项证据时，哪项理解最准确？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.16/10_CASE-E251EF18_寡转移肝癌系统治疗及SBRT后长期获控.json",
+    "case_id": "CASE-E251EF18",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "患者近期有严重胃肠道出血，讨论含贝伐珠单抗方案时，最恰当的处理是？",
+        "after_stem": "患者近期有严重胃肠道出血，讨论含贝伐珠单抗方案时，最恰当的处理是？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": true,
+        "before_stem": "原文考虑免疫相关肾毒性，但摘要缺少基线肌酐和完整尿检。最合适的评估是？",
+        "after_stem": "纳武利尤单抗相关治疗期间肌酐升高，原文考虑免疫相关肾毒性，但现有资料缺少基线肌酐和完整尿检。最合适的评估是？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "本例对肝脏及T9病灶实施SBRT。将类似策略用于其他患者前，最应核对什么？",
+        "after_stem": "本例对肝脏及T9病灶实施SBRT。将类似策略用于其他患者前，最应核对什么？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "AFP显著下降后，如何评价治疗反应更准确？",
+        "after_stem": "AFP显著下降后，如何评价治疗反应更准确？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "患者在联合及局部治疗后长期获控。对停药和疗效归因，哪项结论最严谨？",
+        "after_stem": "患者在联合及局部治疗后长期获控。对停药和疗效归因，哪项结论最严谨？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  },
+  {
+    "file": "题目9.16/10_MSI-H结肠癌_肝转移转化_CASE-6E841405.json",
+    "case_id": "CASE-6E841405",
+    "question_mapping": [
+      {
+        "new_id": "Q1",
+        "original_id": "Q1",
+        "stem_changed": false,
+        "before_stem": "升结肠癌切除后区域淋巴结0/2，区域引流区有2个符合定义的肿瘤沉积灶，肝活检证实转移。N分期应如何判断？",
+        "after_stem": "升结肠癌切除后区域淋巴结0/2，区域引流区有2个符合定义的肿瘤沉积灶，肝活检证实转移。N分期应如何判断？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q2",
+        "original_id": "Q2",
+        "stem_changed": false,
+        "before_stem": "25岁患者肿瘤MSI-H，父亲有结直肠癌。如何处理遗传性肿瘤评估最合理？",
+        "after_stem": "25岁患者肿瘤MSI-H，父亲有结直肠癌。如何处理遗传性肿瘤评估最合理？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q3",
+        "original_id": "Q3",
+        "stem_changed": false,
+        "before_stem": "患者KRAS突变、MSI-H，一线含奥沙利铂治疗进展。评价免疫治疗策略时，哪项最准确？",
+        "after_stem": "患者KRAS突变、MSI-H，一线含奥沙利铂治疗进展。评价免疫治疗策略时，哪项最准确？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q4",
+        "original_id": "Q4",
+        "stem_changed": false,
+        "before_stem": "多阶段免疫相关治疗后肝病灶可能完全缓解，团队考虑切除。哪项是手术决策的核心？",
+        "after_stem": "多阶段免疫相关治疗后肝病灶可能完全缓解，团队考虑切除。哪项是手术决策的核心？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      },
+      {
+        "new_id": "Q5",
+        "original_id": "Q5",
+        "stem_changed": false,
+        "before_stem": "患者先后用帕博利珠单抗加贝伐珠单抗、特瑞普利单抗相关方案，最终手术pCR。对这一经过的正确总结是？",
+        "after_stem": "患者先后用帕博利珠单抗加贝伐珠单抗、特瑞普利单抗相关方案，最终手术pCR。对这一经过的正确总结是？",
+        "information_source": "现有题干及精简版病例资料；不添加未提供的检查结果",
+        "review": "本题决策条件在题干提供；完整病程及结局在整组提交后揭晓"
+      }
+    ],
+    "classification_hidden_in_learner_payload": true,
+    "cover_hidden_until_reveal": false
+  }
+]

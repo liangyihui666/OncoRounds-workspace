@@ -1,0 +1,208 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-6E841405",
+    "cancer_type": "消化系统肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "急诊术后分期",
+        "timepoint": "0/2淋巴结及2个肿瘤沉积灶",
+        "question": "升结肠癌切除后区域淋巴结0/2，区域引流区有2个符合定义的肿瘤沉积灶，肝活检证实转移。N分期应如何判断？",
+        "options": {
+          "A": "N1c；肿瘤沉积灶不直接等同阳性淋巴结计数",
+          "B": "N0；只要取出的淋巴结均阴性就忽略沉积灶",
+          "C": "N2a；将沉积灶个数加倍计为阳性淋巴结",
+          "D": "M1c；所有区域脂肪内沉积灶都等同腹膜播散"
+        },
+        "answer": "A",
+        "answer_text": "N1c；肿瘤沉积灶不直接等同阳性淋巴结计数",
+        "explain": "无区域淋巴结转移而存在符合定义的区域肿瘤沉积灶时为N1c。仅检出2枚淋巴结提示评估充分性问题，但不会使已经发现的沉积灶失去分期意义。",
+        "keyPoint": "结肠癌无区域淋巴结转移而有合格肿瘤沉积灶时为N1c。",
+        "guidelineRef": {
+          "evidence_type": "权威诊疗资料",
+          "doc_id": "",
+          "split_index": null,
+          "type": "reference",
+          "authority": "NCI",
+          "source_title": "Colon Cancer Treatment (PDQ®)–Health Professional Version",
+          "source_version": "",
+          "source_section": "",
+          "source_url": "https://www.cancer.gov/types/colorectal/hp/colon-treatment-pdq",
+          "evidence_summary": "结肠癌无区域淋巴结转移而有合格肿瘤沉积灶时为N1c。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "分子诊断",
+        "phase": "年轻发病与遗传风险",
+        "timepoint": "MSI-H结果及家族史复核",
+        "question": "25岁患者肿瘤MSI-H，父亲有结直肠癌。如何处理遗传性肿瘤评估最合理？",
+        "options": {
+          "A": "转遗传咨询，结合MMR模式及必要的肿瘤/胚系检测，不能仅凭MSI-H确诊Lynch",
+          "B": "MSI-H等同已检出胚系致病变异，无需进一步检测",
+          "C": "KRAS G13D可排除Lynch，不需家族风险评估",
+          "D": "以妊娠期起病为由将贫血和肿瘤归于妊娠生理变化"
+        },
+        "answer": "A",
+        "answer_text": "转遗传咨询，结合MMR模式及必要的肿瘤/胚系检测，不能仅凭MSI-H确诊Lynch",
+        "explain": "年轻发病、家族史及MSI-H共同支持遗传风险评估。MSI-H是肿瘤表型，可能有不同病因，不能直接标注胚系阳性。",
+        "keyPoint": "MSI-H不等于Lynch确诊，年轻发病及家族史需进一步遗传评估。",
+        "guidelineRef": {
+          "evidence_type": "权威诊疗资料",
+          "doc_id": "",
+          "split_index": null,
+          "type": "reference",
+          "authority": "NCI",
+          "source_title": "Genetics of Colorectal Cancer (PDQ®)–Health Professional Version",
+          "source_version": "",
+          "source_section": "",
+          "source_url": "https://www.cancer.gov/types/colorectal/hp/colorectal-genetics-pdq",
+          "evidence_summary": "MSI-H不等于Lynch确诊，年轻发病及家族史需进一步遗传评估。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "耐药与后线管理",
+        "phase": "MSI-H进展期治疗",
+        "timepoint": "一线化疗进展后教学复盘",
+        "question": "患者KRAS突变、MSI-H，一线含奥沙利铂治疗进展。评价免疫治疗策略时，哪项最准确？",
+        "options": {
+          "A": "一例联合贝伐珠单抗获pCR证明该联合优于免疫单药或双免",
+          "B": "MSI-H支持评估有证据的免疫方案，KRAS突变不取消这一依据；抗血管联合需单独证据",
+          "C": "只要追求转化，就无需核对联合药物证据与围手术期风险",
+          "D": "KRAS突变意味着所有PD-1治疗均无效"
+        },
+        "answer": "B",
+        "answer_text": "MSI-H支持评估有证据的免疫方案，KRAS突变不取消这一依据；抗血管联合需单独证据",
+        "explain": "MMR/MSI用于免疫治疗选择，与RAS对抗EGFR治疗的预测意义不同。不能把免疫方案本身的证据扩展为所有抗血管联合的标准依据。",
+        "keyPoint": "MSI-H的免疫治疗证据不能自动扩展至未经验证的联合方案。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ASCO",
+          "source_title": "Treatment of Metastatic Colorectal Cancer: ASCO Guideline",
+          "source_version": "2022",
+          "source_section": "",
+          "source_url": "https://ascopubs.org/doi/10.1200/JCO.22.01690",
+          "evidence_summary": "MSI-H的免疫治疗证据不能自动扩展至未经验证的联合方案。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "疗效复评与局部治疗",
+        "phase": "转化手术评估",
+        "timepoint": "2020年3月影像深度缓解后",
+        "question": "多阶段免疫相关治疗后肝病灶可能完全缓解，团队考虑切除。哪项是手术决策的核心？",
+        "options": {
+          "A": "肿瘤标志物未全部正常就绝对不能讨论切除",
+          "B": "影像CR即可自动确认pCR并保证无需病理检查",
+          "C": "评估残余与原病灶分布、完整清除可能性、肝余量及手术风险，而非只为证明pCR",
+          "D": "所有影像消失病灶都必须手术，仅为了取得pCR标签"
+        },
+        "answer": "C",
+        "answer_text": "评估残余与原病灶分布、完整清除可能性、肝余量及手术风险，而非只为证明pCR",
+        "explain": "cCR与pCR不同，但这一差异本身不是普遍手术指征。转化手术需以潜在获益和可切除性为基础；本例pCR是在切除后确定。",
+        "keyPoint": "结直肠肝转移手术以可切除性和潜在获益为依据，不能仅为确认pCR。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ASCO",
+          "source_title": "Treatment of Metastatic Colorectal Cancer: ASCO Guideline",
+          "source_version": "2022",
+          "source_section": "",
+          "source_url": "https://ascopubs.org/doi/10.1200/JCO.22.01690",
+          "evidence_summary": "结直肠肝转移手术以可切除性和潜在获益为依据，不能仅为确认pCR。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "耐药与后线管理",
+        "phase": "长期获益的证据边界",
+        "timepoint": "多种免疫方案后pCR复盘",
+        "question": "患者先后用帕博利珠单抗加贝伐珠单抗、特瑞普利单抗相关方案，最终手术pCR。对这一经过的正确总结是？",
+        "options": {
+          "A": "证明所有MSI-H肝转移均需照搬相同周期数和术后方案",
+          "B": "说明个体综合治疗获益，不能分离各药贡献或建立统一联合及停药标准",
+          "C": "证明两种PD-1药物在任何治疗线次都可无条件互换",
+          "D": "证明贝伐珠单抗是获得pCR不可缺少的因果因素"
+        },
+        "answer": "B",
+        "answer_text": "说明个体综合治疗获益，不能分离各药贡献或建立统一联合及停药标准",
+        "explain": "多阶段治疗、手术及单例观察限制了因果归属。应保留原始时间线和实际用药，不把成功病例写成药物比较试验或统一转化路径。",
+        "keyPoint": "单例多阶段治疗不能分离药物贡献或建立普遍疗程标准。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "",
+          "split_index": null,
+          "type": "journal",
+          "authority": "",
+          "source_title": "Efficacy of Combined PD-1 Inhibitor and Bevacizumab in Unresectable Liver Metastasis of MSI-H Colorectal Cancer: A Case Report",
+          "source_version": "2025",
+          "source_section": "",
+          "source_url": "https://doi.org/10.12659/AJCR.946757",
+          "evidence_summary": "单例多阶段治疗不能分离药物贡献或建立普遍疗程标准。"
+        }
+      }
+    ],
+    "missing_information": [],
+    "second_cancer_type": "结肠癌"
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-6E841405",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "结肠癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "年轻结肠癌患者的分期与治疗",
+      "description": "25岁女性，产后因腹痛确诊升结肠癌伴肝病灶，急诊手术后需评估分期及后续治疗。"
+    },
+    "overview": {
+      "hero": {
+        "title": "年轻结肠癌患者的分期与治疗",
+        "subtitle": "根据当前已知资料作出判断，完成整组后查看解析与实际经过。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "初始资料",
+              "value": "25岁女性，产后因腹痛确诊升结肠癌伴肝病灶，急诊手术后需评估分期及后续治疗。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": []
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    },
+    "second_cancer_type": "结肠癌"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "fixture_scope": "User-provided seven patient paragraphs and corresponding source region, excluding unrelated document preface/discussion; outer-node contract test uses synthetic structured fields.",
+  "tests": [
+    {
+      "name": "从用户输入摘录的七段原文与清洗正文复现旧版第1、2段误拦截",
+      "pass": true
+    },
+    {
+      "name": "新版七段均回溯且只返回原文切片，保留中文引号和原句空格",
+      "pass": true
+    },
+    {
+      "name": "本地原始HTML提取文本也能匹配用户七段清洗正文",
+      "pass": true
+    },
+    {
+      "name": "仍拒绝事实变化 52岁→53岁",
+      "pass": true
+    },
+    {
+      "name": "仍拒绝事实变化 2020年6月→2021年6月",
+      "pass": true
+    },
+    {
+      "name": "仍拒绝事实变化 2.5 cm→25 cm",
+      "pass": true
+    },
+    {
+      "name": "仍拒绝事实变化 疑似新的转移灶→确诊新的转移灶",
+      "pass": true
+    },
+    {
+      "name": "仍拒绝事实变化 无肿瘤家族史→有肿瘤家族史",
+      "pass": true
+    },
+    {
+      "name": "仍拒绝事实变化 25%→50%",
+      "pass": true
+    },
+    {
+      "name": "仍拒绝事实变化 阿贝西利→其他药物",
+      "pass": true
+    },
+    {
+      "name": "不是任意标点或符号均放宽，小数不等号英文词边界保留",
+      "pass": true
+    },
+    {
+      "name": "中英单双引号边界不删除或吞掉引号",
+      "pass": true
+    },
+    {
+      "name": "缺少原文、未通过状态、跨段非连续拼接仍拒绝",
+      "pass": true
+    },
+    {
+      "name": "整节点输出保持接口、source_id且原文传入病例包",
+      "pass": true
+    }
+  ],
+  "passed": 14,
+  "failed": 0,
+  "actual_trace": {
+    "scope": "literal_source_trace_not_medical_validation",
+    "status": "PASS",
+    "normalization_policy": "case-display-layout-1.2",
+    "patient_paragraph_count": 7,
+    "matched_paragraph_count": 7,
+    "display_normalized_paragraph_count": 3,
+    "source_restored": true,
+    "paragraph_matches": [
+      {
+        "line": 1,
+        "start": 18,
+        "end": 125,
+        "match_mode": "display_layout_only"
+      },
+      {
+        "line": 2,
+        "start": 127,
+        "end": 297,
+        "match_mode": "display_layout_only"
+      },
+      {
+        "line": 3,
+        "start": 299,
+        "end": 417,
+        "match_mode": "exact"
+      },
+      {
+        "line": 4,
+        "start": 443,
+        "end": 620,
+        "match_mode": "exact"
+      },
+      {
+        "line": 5,
+        "start": 622,
+        "end": 738,
+        "match_mode": "exact"
+      },
+      {
+        "line": 6,
+        "start": 740,
+        "end": 900,
+        "match_mode": "exact"
+      },
+      {
+        "line": 7,
+        "start": 925,
+        "end": 1194,
+        "match_mode": "display_layout_only"
+      }
+    ],
+    "semantic_support": "not_independently_verified"
+  },
+  "online_verified": false,
+  "model_empty_response_resolved": false
+}

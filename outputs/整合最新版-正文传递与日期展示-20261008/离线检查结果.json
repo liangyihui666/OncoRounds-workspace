@@ -1,0 +1,11 @@
+{
+  "patient_text_forwarded": true,
+  "expert_text_excluded": true,
+  "date_start_suffix_preserved": true,
+  "json_line_biomarkers_readable": true,
+  "questions_unchanged": true,
+  "global_variables_and_edges_unchanged": true,
+  "api_calls": 0,
+  "online_verified": false,
+  "medical_review_performed": false
+}

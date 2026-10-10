@@ -1,0 +1,22 @@
+{
+  "file_count": 9,
+  "question_count": 45,
+  "answer_distribution": {
+    "C": 11,
+    "D": 11,
+    "A": 11,
+    "B": 12
+  },
+  "checks": [
+    "9个JSON解析成功",
+    "每份5题且题数与详情一致",
+    "所有答案字母与文本一致",
+    "两级癌种及病例ID在Questions/detail一致",
+    "45个题干无完全重复",
+    "原病例图片字段保留",
+    "新公开引用不沿用原数据库定位"
+  ],
+  "medical_pass_asserted": false,
+  "workflow_modified": false,
+  "source_sha256": "55ad9adbdb46ec68307a6074bd05942ab792227b969b72bd97ecf7299b6a92b9"
+}

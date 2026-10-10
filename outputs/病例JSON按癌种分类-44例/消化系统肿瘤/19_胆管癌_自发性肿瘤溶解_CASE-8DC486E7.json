@@ -1,0 +1,242 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-8DC486E7",
+    "cancer_type": "消化系统肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "初诊评估",
+        "timepoint": "入院检查及病理确认后",
+        "question": "患者影像学显示肝脏巨大肿块伴腹水、多发淋巴结肿大及肺部结节，病理确诊为中分化腺癌。根据胆道恶性肿瘤分期原则，该患者临床分期应判定为？",
+        "options": {
+          "A": "II 期，因肿瘤局限于肝脏且无大血管侵犯",
+          "B": "III 期，因存在区域淋巴结转移但未证实远处器官受累",
+          "C": "IV 期，因存在远处转移（肺部结节及腹膜种植可能）",
+          "D": "无法分期，因缺乏增强 MRI 明确血管侵犯情况"
+        },
+        "answer": "C",
+        "answer_text": "IV 期，因存在远处转移（肺部结节及腹膜种植可能）",
+        "explain": "病例明确提及胸部 CT 示淋巴周围分布结节（远处转移）及腹水（常提示腹膜转移），依据 CSCO 指南，任何 T、任何 N 伴远处转移（M1）即定义为 IV 期。",
+        "keyPoint": "胆道恶性肿瘤一旦出现远处转移（M1），无论原发灶大小或淋巴结状态，均直接归为 IV 期。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "7094ca99-ad8b-40c8-b91a-417197a6c030",
+          "split_index": 34,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会（CSCO）胆道恶性肿瘤诊疗指南 2025",
+          "source_version": "2025",
+          "source_section": "【注释】",
+          "source_url": "",
+          "evidence_summary": "CSCO 指南定义 IV 期为任何 T、任何 N 伴有远处转移。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "分子诊断",
+        "phase": "病理诊断完善",
+        "timepoint": "免疫组化结果回报后",
+        "question": "若该患者病理亚型倾向于肝内胆管癌（ICC），为指导靶向或免疫治疗，指南推荐优先检测的分子标志物组合是？",
+        "options": {
+          "A": "仅检测 EGFR 和 HER2 蛋白表达",
+          "B": "常规进行全外显子测序，无需针对性 Panel",
+          "C": "因患者决定舒适护理，无需任何分子检测",
+          "D": "检测 MMR 蛋白及 FGFR2、IDH1 基因变异"
+        },
+        "answer": "D",
+        "answer_text": "检测 MMR 蛋白及 FGFR2、IDH1 基因变异",
+        "explain": "CSCO 指南推荐胆管癌常规检测 MMR 状态。针对肝内胆管癌（ICC），特别推荐检测 FGFR2 融合及 IDH1 突变以指导靶向治疗，这与肝外胆管癌侧重略有不同。",
+        "keyPoint": "肝内胆管癌分子检测应覆盖 MMR 状态及特异性驱动基因（如 FGFR2、IDH1）。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "7094ca99-ad8b-40c8-b91a-417197a6c030",
+          "split_index": 28,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会（CSCO）胆道恶性肿瘤诊疗指南 2025",
+          "source_version": "2025",
+          "source_section": "【注释】",
+          "source_url": "",
+          "evidence_summary": "指南推荐检测 MMR 蛋白确定 MSI 状态，并特别推荐 ICC 患者检测 FGFR2 和 IDH1/2。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "不良反应管理",
+        "phase": "住院并发症处理",
+        "timepoint": "住院第 5 天出现代谢异常时",
+        "question": "患者在未接受抗肿瘤治疗情况下突发高钾、低钙、高尿酸及肾功能恶化，确诊为自发性肿瘤溶解综合征（TLS）。关于该并发症的管理，下列描述正确的是？",
+        "options": {
+          "A": "主要风险因素为高肿瘤负荷，需立即水化、降尿酸及纠正电解质紊乱",
+          "B": "TLS 仅发生于化疗后，该患者诊断不成立，应考虑其他肾损原因",
+          "C": "应立即开始紧急化疗以快速缩小肿瘤负荷，从而缓解代谢异常",
+          "D": "低钙血症症状不明显时无需处理，避免加重高磷血症风险"
+        },
+        "answer": "A",
+        "answer_text": "主要风险因素为高肿瘤负荷，需立即水化、降尿酸及纠正电解质紊乱",
+        "explain": "证据指出 TLS 常由治疗诱发，但临床共识认为高负荷实体瘤在罕见情况下可自发 TLS。管理核心为充分水化、降尿酸及纠正电解质，而非立即化疗。",
+        "keyPoint": "高负荷实体瘤可罕见自发 TLS，治疗基石为水化、碱化及代谢纠正。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "8350da7b-6914-4101-be88-7d4db6c58220",
+          "split_index": 176,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 化学治疗",
+          "source_version": "2023",
+          "source_section": "（四）肿瘤溶解综合征",
+          "source_url": "",
+          "evidence_summary": "指南指出 TLS 常由治疗引发，但部分血液瘤可自发；结合临床共识，高负荷实体瘤亦可罕见自发。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "治疗决策",
+        "phase": "后续治疗规划",
+        "timepoint": "TLS 纠正后及多学科讨论后",
+        "question": "患者经处理 TLS 改善，但鉴于晚期胆管癌伴严重并发症及体能状态差，医患共同决定行舒适护理。此决策符合哪项原则？",
+        "options": {
+          "A": "晚期胆管癌首选吉西他滨联合顺铂，除非 ECOG 评分大于 4 分",
+          "B": "对于无法耐受系统治疗且预后极差者，支持治疗与安宁疗护是合理选择",
+          "C": "必须先尝试局部介入治疗（如 TACE），无效后再考虑舒适护理",
+          "D": "鉴于 CA19-9 显著升高，应优先尝试单药化疗而非直接放弃治疗"
+        },
+        "answer": "B",
+        "answer_text": "对于无法耐受系统治疗且预后极差者，支持治疗与安宁疗护是合理选择",
+        "explain": "指南强调治疗需基于患者意愿、全身状况及耐受性。对于无法耐受积极治疗者，以重建引流为核心的支持治疗或安宁疗护可改善生活质量。",
+        "keyPoint": "晚期肿瘤治疗决策需综合评估体能与意愿，不耐受者选择支持/安宁疗护符合规范。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "589e14e7-e55b-4c97-9ca2-464e6ece431c",
+          "split_index": 26,
+          "type": "guideline",
+          "authority": "中华医学会外科学分会胆道外科学组, 中国医师协会外科医师分会胆道外科专家工作组",
+          "source_title": "胆道恶性肿瘤全程规范化管理中国专家共识(2023)",
+          "source_version": "2023",
+          "source_section": "七、不可切除胆道恶性肿瘤的治疗",
+          "source_url": "",
+          "evidence_summary": "共识指出不可切除患者应评估全身状况，支持治疗可改善生活质量，尊重患者意愿。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "不良反应管理",
+        "phase": "住院并发症处理",
+        "timepoint": "住院第 5 天",
+        "question": "患者在未接受抗肿瘤治疗下突发高尿酸、高钾、低钙及急性肾损伤，确诊自发性肿瘤溶解综合征（TLS）。关于该并发症的管理，下列哪项最符合指南推荐？",
+        "options": {
+          "A": "立即开始标准化疗以快速缩小肿瘤负荷，从源头消除 TLS 风险",
+          "B": "仅进行观察，因实体瘤自发 TLS 通常为良性自限过程",
+          "C": "给予充分水化、别嘌醇降尿酸及纠正电解质紊乱，并密切监测肾功能",
+          "D": "首选血液透析，无需药物干预，因化疗药物会加重肾毒性"
+        },
+        "answer": "C",
+        "answer_text": "给予充分水化、别嘌醇降尿酸及纠正电解质紊乱，并密切监测肾功能",
+        "explain": "指南指出 TLS 需紧急处理，包括水化、降尿酸（别嘌醇）及纠正电解质异常。虽多见于血液肿瘤，但高负荷实体瘤亦可自发，需积极支持治疗而非立即化疗或单纯观察。",
+        "keyPoint": "实体瘤自发 TLS 虽罕见，但需按标准流程进行水化、降尿酸及电解质管理以防肾衰。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "8350da7b-6914-4101-be88-7d4db6c58220",
+          "split_index": 176,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 化学治疗",
+          "source_version": "2023",
+          "source_section": "（四）肿瘤溶解综合征",
+          "source_url": "",
+          "evidence_summary": "TLS 管理包括水化、别嘌醇及纠正电解质，实体瘤高负荷者亦可发生。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-8DC486E7",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "胆道恶性肿瘤主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "高肿瘤负荷胆管癌的诊疗评估",
+      "description": "72岁男性，转移性胆管癌伴肝内高肿瘤负荷及腹水。"
+    },
+    "overview": {
+      "hero": {
+        "title": "高肿瘤负荷胆管癌的诊疗评估",
+        "subtitle": "治疗前肾功能与代谢指标的变化、肿瘤负荷，以及急性处理后的治疗目标。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "72岁男性，转移性胆管癌伴肝内高肿瘤负荷及腹水。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "尚未抗肿瘤治疗即出现急性肾损伤、高钾、低钙及高尿酸，诊断自发性TLS。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "补液、别嘌醇及高钾等支持处理后改善。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "治疗前肾功能与代谢指标的变化、肿瘤负荷，以及急性处理后的治疗目标。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "入院评估",
+              "title": "高肿瘤负荷胆管癌",
+              "detail": "巨大肝内肿瘤负荷及腹水，病理结合临床诊断胆管癌；引流腹水。"
+            },
+            {
+              "date": "住院第5天",
+              "title": "自发性TLS",
+              "detail": "抗肿瘤治疗前即出现急性肾损伤及代谢异常，诊断自发性TLS。"
+            },
+            {
+              "date": "急性处理",
+              "title": "支持与代谢纠正",
+              "detail": "补液、别嘌醇及高钾等支持处理后改善。"
+            },
+            {
+              "date": "病情改善后",
+              "title": "照护目标讨论",
+              "detail": "结合病情及患者意愿，转为舒适照护。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

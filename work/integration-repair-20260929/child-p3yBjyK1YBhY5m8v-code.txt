@@ -1,0 +1,29 @@
+function main(inputs) {
+  const config = {"purpose": "匹配病例实际方案的原始临床研究", "fields": [{"key": "case_timeline", "budget": 170, "label": "方案和阶段", "pattern": "方案|化疗|联合|治疗|放疗"}, {"key": "biomarkers", "budget": 115, "label": "人群线索", "pattern": "基因|KRAS|NRAS|BRAF|MSS|MSI|HER2|EGFR|ALK|ROS1"}], "scope": "匹配药物、人群、治疗阶段与决策终点，需该记录已报告原始研究结果。"};
+  const clean = v => typeof v === 'string' ? v.replace(/\s+/g,' ').trim() : '';
+  const report = {version:'query-lines-20260928',max_length:480,selected_segments:{},omitted_segments:{}};
+  // Split BEFORE whitespace normalization. Do not cut a source clause in half.
+  function excerpt(value,budget,key,pattern) {
+    const parts = String(value||'').split(/\r?\n|[；;。]/).map(clean).filter(Boolean);
+    const ordered=parts.map((text,index)=>({text,index,score:pattern&&new RegExp(pattern,'i').test(text)?1:0}))
+      .filter(item=>!pattern||item.score)
+      .map(item=>({...item,score:item.score+(key==='case_timeline'&&/调整|改为|停用/.test(item.text)?2:0)}))
+      .sort((a,b)=>b.score-a.score||a.index-b.index);
+    const kept=[];let length=0;
+    for(const item of ordered) if(length+item.text.length+(kept.length?1:0)<=budget){kept.push(item);length+=item.text.length+(kept.length>1?1:0);}
+    report.selected_segments[key]=kept.map(x=>x.index);
+    report.omitted_segments[key]=parts.length-kept.length;
+    return kept.map(x=>x.text).join('；');
+  }
+  let disease=clean(inputs.disease);
+  if(disease.length>130)disease=clean(inputs.second_cancer_type);
+  if(disease.length>130)throw new Error('疾病名称超过检索预算，请核对输入');
+  const lines=[config.purpose,'原发诊断：'+disease];
+  for(const field of config.fields){const text=excerpt(inputs[field.key],field.budget,field.key,field.pattern);if(text)lines.push(field.label+'：'+text);}
+  lines.push(config.scope);
+  const query=lines.join('\n');
+  if(query.length>480)throw new Error('检索词超过480字符预算');
+  report.query_length=query.length;
+  report.specific_context_present=Object.values(report.selected_segments).some(x=>x.length>0);
+  return {system_text:query,query_report:report};
+}

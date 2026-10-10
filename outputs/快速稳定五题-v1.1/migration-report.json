@@ -1,0 +1,26 @@
+{
+  "source": "C:\\Users\\admin\\Downloads\\肿瘤大查房小工具 (AI简化) (5).json",
+  "source_sha256": "d1041b5aa05989096da487969bb0d68f085db6be15229f70852a8418521ac37f",
+  "source_sha_note": "源文件只读；未覆盖 Downloads 或线上工作流",
+  "workflow_name_before": "肿瘤大查房小工具 (AI简化)",
+  "workflow_name_after": "【禁止导入】肿瘤大查房小工具-v1.1-离线审计参考",
+  "changes": [
+    "知识库搜索.limit: 5000 → 1500",
+    "全局 difficulty 固定为进阶，question_count 固定为5",
+    "题目结构归一化改为纯机械 fail-closed 检查；删除选项重排/答案字母分布逻辑",
+    "临床研究补检改为条件触发：初检无明确合格研究或基础证据池少于5时才使用线索补检",
+    "新增证据注册与压缩：docId+splitIndex 全局去重，6/6/5/3/4/4限额，snippet≤1000字；生成器不再接收原始数组",
+    "旁路独立出题计划与证据门禁；保留节点但断开，不删除线上可追溯配置",
+    "校验输入改为按五题 locator 精选证据；临床研究初检/补检统一纳入注册池，不再传完整五路数组",
+    "题目生成 systemPrompt 从显式 v1.1 文件注入",
+    "题目校验 systemPrompt 从显式 v1.1 文件注入"
+  ],
+  "unresolved": [
+    "双 irAE 锚点模型未在离线 JSON 中自动重连；请在在线复制的测试工作流中使用本地 irAE双锚点确定性拆分.js 与 irAE锚点轻量回退-systemPrompt.txt，逐节点实现‘确定性拆分 + 最多一次轻量回退’并核验连线。",
+    "在线测试副本切换为生产版本前，必须完成一次完整循环 JSON 审计和至少20病例 A/B 验收；本脚本 JSON 永久禁止导入。"
+  ],
+  "preflight_errors": [],
+  "import_ready": false,
+  "DO_NOT_IMPORT": true,
+  "output_workflow": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\outputs\\快速稳定五题-v1.1\\肿瘤大查房小工具-v1.1-离线审计参考-DO_NOT_IMPORT.json"
+}

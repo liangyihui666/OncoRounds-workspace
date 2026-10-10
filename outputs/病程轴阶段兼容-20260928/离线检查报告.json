@@ -1,0 +1,71 @@
+{
+  "checks": [
+    {
+      "name": "仅修改两个代码字段，保留提示词、模型、连线、布局及应用配置",
+      "pass": true
+    },
+    {
+      "name": "全部代码节点语法通过",
+      "pass": true
+    },
+    {
+      "name": "两阶段状态透传，保留未审核和不可发布标记",
+      "pass": true
+    },
+    {
+      "name": "新格式按行解析，保留标题、同事件分号及日期",
+      "pass": true
+    },
+    {
+      "name": "五行含35个分句仍为五个事件",
+      "pass": true
+    },
+    {
+      "name": "旧格式仅在明确时间前缀前拆分，不按处理分句拆分",
+      "pass": true
+    },
+    {
+      "name": "无时间处理不冒充date、不继承日期、不从正文抽取日期",
+      "pass": true
+    },
+    {
+      "name": "相对时间、中英文竖线、空输入兼容且不计算日期",
+      "pass": true
+    },
+    {
+      "name": "病程详情不在300字处截断",
+      "pass": true
+    },
+    {
+      "name": "答案、顺序、逐项解析与引用保持不变",
+      "pass": true
+    },
+    {
+      "name": "兼容旧审核记录，仍提示真实失败，缺记录不会虚报已审核",
+      "pass": true
+    },
+    {
+      "name": "零候选分支同样保留一次未审核说明",
+      "pass": true
+    },
+    {
+      "name": "前处理代码保留病程换行",
+      "pass": true
+    },
+    {
+      "name": "用户最新两题结果经新旧展示代码处理一致，不删题或改答案解析",
+      "pass": true
+    },
+    {
+      "name": "本次原始时间线11行对应11事件，日期阶段、标题和详情均保留",
+      "pass": true
+    },
+    {
+      "name": "相对上一交付仅增加后续阶段识别",
+      "pass": true
+    }
+  ],
+  "online_verified": false,
+  "medical_correctness_verified": false,
+  "actual_run_raw_timeline_available": true
+}

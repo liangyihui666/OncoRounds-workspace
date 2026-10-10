@@ -1,0 +1,247 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-A8792225",
+    "cancer_type": "直肠癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "分子诊断",
+        "phase": "初始诊断与检测",
+        "timepoint": "2016 年初诊",
+        "question": "患者初诊为同时性肝转移性直肠癌，拟行靶向治疗筛选。关于分子病理学检测标本选择，下列哪项最符合规范推荐？",
+        "options": {
+          "A": "首选原发灶组织，因手术切除原发灶更易获取足量样本",
+          "B": "直接采用液体活检，以避免侵入性操作并动态监测",
+          "C": "必须同时检测原发灶和转移灶，否则结果视为无效",
+          "D": "首选转移癌组织，原发灶仅在转移灶不可获取时替代"
+        },
+        "answer": "D",
+        "answer_text": "首选转移癌组织，原发灶仅在转移灶不可获取时替代",
+        "explain": "共识推荐初治患者首选转移癌组织检测；同时性肝转移若转移灶不可获取才考虑原发灶替代。液体活检虽可用但存在假阴性风险，非首选。",
+        "keyPoint": "同时性肝转移首选转移灶组织检测",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "081135af-a852-484b-be7a-64c828c334f5",
+          "split_index": 11,
+          "type": "guideline",
+          "authority": "中国医疗保健国际交流促进会",
+          "source_title": "结直肠癌肝转移MDT诊治中国专家共识(2024版)",
+          "source_version": "2024",
+          "source_section": "4 结直肠癌肝转移的分子病理学检测",
+          "source_url": "",
+          "evidence_summary": "共识明确初治患者分子检测首选转移癌组织，转移灶不可获取时才考虑原发灶替代。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "治疗决策",
+        "phase": "复发或转移性结直肠癌一线治疗",
+        "timepoint": "2016 年初诊确诊转移性直肠癌且分子检测为 RAS 野生型时",
+        "question": "针对该 RAS 野生型转移性直肠癌患者，若需进行转化治疗以争取手术机会，下列哪种系统治疗方案最符合指南推荐？",
+        "options": {
+          "A": "FOLFOXIRI 联合贝伐珠单抗作为唯一标准选择",
+          "B": "卡培他滨单药联合免疫检查点抑制剂",
+          "C": "雷替曲塞联合瑞戈非尼作为初始治疗",
+          "D": "FOLFOX 或 FOLFIRI 联合西妥昔单抗"
+        },
+        "answer": "D",
+        "answer_text": "FOLFOX 或 FOLFIRI 联合西妥昔单抗",
+        "explain": "指南推荐 RAS/BRAF 野生型患者一线治疗可选 FOLFOX/FOLFIRI 联合西妥昔单抗；虽肿瘤负荷大时可考虑三药联合贝伐珠单抗，但双药联合抗 EGFR 亦是标准推荐且适合转化治疗。",
+        "keyPoint": "RAS 野生型患者一线推荐化疗联合抗 EGFR 单抗",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "6e90e9ac-4a5f-41cb-b7c6-c761ecbdc5e8",
+          "split_index": 94,
+          "type": "guideline",
+          "authority": "中华医学会肿瘤学分会",
+          "source_title": "中国结直肠癌诊疗规范（2023版）",
+          "source_version": "2023",
+          "source_section": "4 内科治疗",
+          "source_url": "",
+          "evidence_summary": "指南推荐 FOLFOX/FOLFIRI+ 西妥昔单抗用于 RAS/BRAF 野生型转移性结直肠癌患者的一二线治疗。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "不良反应管理",
+        "phase": "化疗毒性处理",
+        "timepoint": "2016 年术后",
+        "question": "患者接受铂类化疗联合西妥昔单抗期间出现 3 级皮疹和 2 级神经病变。关于不良反应管理，正确的是？",
+        "options": {
+          "A": "暂停可疑药物并按分级处理，评估风险获益后调整",
+          "B": "立即永久停用所有抗肿瘤药物并转入姑息治疗",
+          "C": "仅使用外用激素处理皮疹，继续原剂量化疗",
+          "D": "无需特殊处理，待疗程结束后自然缓解"
+        },
+        "answer": "A",
+        "answer_text": "暂停可疑药物并按分级处理，评估风险获益后调整",
+        "explain": "指南指出Ⅲ度不良事件需停药，基于风险获益比考虑是否恢复或减量，需分级精细化处理。",
+        "keyPoint": "严重不良反应需暂停用药并分级管理",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "c9294314-38c0-4a55-92b6-b261f374a7da",
+          "split_index": 60,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 整体支持",
+          "source_version": "2023",
+          "source_section": "（五）不良反应的处理",
+          "source_url": "",
+          "evidence_summary": "指南规定Ⅲ度事件需停药，基于风险获益比考虑恢复或减量，复杂情况需 MDT 参与。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "疗效复评与局部治疗",
+        "phase": "肝转移灶处理",
+        "timepoint": "2017 年 9 月",
+        "question": "患者经转化治疗后肝转移灶部分缓解但仍评估为不可切除。此时最合理的后续管理策略是？",
+        "options": {
+          "A": "立即停止系统治疗，等待肿瘤自然进展后再评估",
+          "B": "继续原方案治疗并定期外科评估，转化可切除即手术",
+          "C": "更换为三药化疗方案，强制要求短期内达到可切除",
+          "D": "直接行肝移植手术，因化疗已无法实现 R0 切除"
+        },
+        "answer": "B",
+        "answer_text": "继续原方案治疗并定期外科评估，转化可切除即手术",
+        "explain": "对于潜在可达到 NED 患者，应定期（1.5-2 个月）外科评估，一旦转化为可切除应立即手术。继续有效治疗是转化关键。",
+        "keyPoint": "定期评估转化状态，可切除即行手术",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "081135af-a852-484b-be7a-64c828c334f5",
+          "split_index": 28,
+          "type": "guideline",
+          "authority": "中国医疗保健国际交流促进会",
+          "source_title": "结直肠癌肝转移MDT诊治中国专家共识(2024版)",
+          "source_version": "2024",
+          "source_section": "5 结直肠癌肝转移的治疗原则",
+          "source_url": "",
+          "evidence_summary": "共识推荐定期外科评估，肿瘤一旦转化为可切除应立即进行手术。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "不良反应管理",
+        "phase": "全身治疗毒性管理",
+        "timepoint": "FOLFOX 治疗出现过敏反应后调整方案时",
+        "question": "患者对 FOLFOX 方案中的奥沙利铂出现特异质过敏反应，需调整后续全身治疗方案。关于此类反应的处理原则，下列哪项最符合指南建议？",
+        "options": {
+          "A": "降低奥沙利铂剂量后重新挑战，可预防过敏反应复发",
+          "B": "联合使用抗过敏药物后继续原方案，无需更换化疗骨架",
+          "C": "避免再次使用致敏药物，调整为非交叉过敏的伊立替康方案",
+          "D": "暂停治疗直至过敏完全消失，随后恢复原剂量原方案"
+        },
+        "answer": "C",
+        "answer_text": "避免再次使用致敏药物，调整为非交叉过敏的伊立替康方案",
+        "explain": "指南指出特异质反应（如过敏）降低剂量不能预防再次发生，应避免再次使用致敏药物，调整为其他机制药物如伊立替康为基础的方案更为安全。",
+        "keyPoint": "特异质过敏反应减量无效，应更换非交叉过敏药物",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "c9294314-38c0-4a55-92b6-b261f374a7da",
+          "split_index": 60,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 整体支持",
+          "source_version": "2023",
+          "source_section": "（五）不良反应的处理",
+          "source_url": "",
+          "evidence_summary": "指南强调特异质反应降低剂量不能预防不良反应再次发生，需调整药物种类。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-A8792225",
+    "cancer_type": "直肠癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "直肠癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "转移性直肠癌的分阶段决策",
+      "description": "38岁女性，2016年确诊阻塞性直肠癌伴多发肝转移。"
+    },
+    "overview": {
+      "hero": {
+        "title": "转移性直肠癌的分阶段决策",
+        "subtitle": "多次局部治疗后的复发管理、后线分子检测，以及不同部位进展时的治疗目标。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "38岁女性，2016年确诊阻塞性直肠癌伴多发肝转移。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "初诊RAS野生型、BRAF V600E阴性；后期液体活检检出KRAS等变异。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "原发切除后多线系统治疗，两次肝转移切除，后对骨及脑转移实施局部治疗。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "多次局部治疗后的复发管理、后线分子检测，以及不同部位进展时的治疗目标。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2016年",
+              "title": "原发切除与系统治疗",
+              "detail": "阻塞性直肠癌伴肝转移，切除原发后用化疗联合西妥昔单抗。"
+            },
+            {
+              "date": "2017至2018年",
+              "title": "两次肝转化手术",
+              "detail": "肝病灶缓解后切除；复发再治疗后行第二次肝切除，后用CAPOX。"
+            },
+            {
+              "date": "2019至2020年",
+              "title": "后线与再挑战",
+              "detail": "FOLFIRI联合阿柏西普获控10个月；再检测后尝试西妥昔单抗。"
+            },
+            {
+              "date": "后续进展",
+              "title": "骨转移处理",
+              "detail": "距骨活检证实转移，行放疗并调整全身治疗。"
+            },
+            {
+              "date": "2021年及后续",
+              "title": "脑转移与照护调整",
+              "detail": "后线治疗后出现脑转移并手术，液体活检检出KRAS等变异；病情恶化后转姑息照护并去世。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

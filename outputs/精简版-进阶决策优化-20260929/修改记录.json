@@ -1,0 +1,28 @@
+{
+  "base": "outputs/精简版-表格换行修复-20260929",
+  "edits": [
+    {
+      "id": "sR35QbYF2xamDQR3",
+      "name": "题目生成-首轮",
+      "field": "systemPrompt",
+      "before_chars": 2109,
+      "after_chars": 2472
+    },
+    {
+      "id": "v12RevisionGenerator",
+      "name": "题目修订-第二轮",
+      "field": "systemPrompt",
+      "before_chars": 2200,
+      "after_chars": 2601
+    }
+  ],
+  "checks": {
+    "json_parse": true,
+    "only_two_system_prompts_changed": true,
+    "output_contract_unchanged": true,
+    "outer_and_batch_byte_identical": true
+  },
+  "model_api_calls": 0,
+  "online_verified": false,
+  "question_quality_verified": false
+}

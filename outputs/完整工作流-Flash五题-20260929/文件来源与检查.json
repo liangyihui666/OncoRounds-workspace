@@ -1,0 +1,43 @@
+{
+  "package_version": "20260929-flash-five-compact-outer",
+  "online_verified": false,
+  "files": [
+    {
+      "file": "01-出题子应用.json",
+      "source": "outputs/证据原句核对与进阶出题-20260929/01-出题子应用-证据与进阶加强版.json",
+      "sha256": "ece1bec94b22142b1fcb94eff321ebf6c747a22263b6853cfbfec540fe5b7bbd",
+      "nodes": 33,
+      "edges": 52,
+      "code_nodes_syntax_checked": 14,
+      "calls": []
+    },
+    {
+      "file": "02-HTML单例外层.json",
+      "source": "outputs/六例空返回排查-20260929/02-HTML单例外层-精简返回版.json",
+      "sha256": "992248bdd6bedf4c38723144151c274e33a60e42fa9854715a2f25a0db2b9d67",
+      "nodes": 11,
+      "edges": 11,
+      "code_nodes_syntax_checked": 5,
+      "calls": [
+        {
+          "name": "题目生成",
+          "pluginId": "6a96a10d67bd869e3352af48"
+        }
+      ]
+    },
+    {
+      "file": "03-批量生成.json",
+      "source": "outputs/证据原句核对与进阶出题-20260929/03-批量生成-配套版.json",
+      "sha256": "efdcbf3310033d6d03814fa68a2c97e31d0042641be4c2821ab198e5dac52546",
+      "nodes": 8,
+      "edges": 7,
+      "code_nodes_syntax_checked": 2,
+      "calls": [
+        {
+          "name": "三连",
+          "pluginId": "6a991c7e2a5b103c1841ea95"
+        }
+      ]
+    }
+  ]
+}

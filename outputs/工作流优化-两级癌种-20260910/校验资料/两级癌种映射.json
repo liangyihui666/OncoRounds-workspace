@@ -1,0 +1,794 @@
+[
+  {
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺叶状肿瘤",
+    "csv_first_type": "乳腺肿瘤",
+    "mapping_status": "用户已确认"
+  },
+  {
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌",
+    "csv_first_type": "乳腺肿瘤",
+    "mapping_status": "用户已确认"
+  },
+  {
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺肉瘤",
+    "csv_first_type": "乳腺肿瘤",
+    "mapping_status": "用户已确认"
+  },
+  {
+    "cancer_type": "",
+    "second_cancer_type": "儿童心脏肿瘤",
+    "csv_first_type": "其他肿瘤",
+    "mapping_status": "待确认"
+  },
+  {
+    "cancer_type": "",
+    "second_cancer_type": "儿童早期肿瘤",
+    "csv_first_type": "其他肿瘤",
+    "mapping_status": "待确认"
+  },
+  {
+    "cancer_type": "",
+    "second_cancer_type": "儿童星形细胞瘤",
+    "csv_first_type": "其他肿瘤",
+    "mapping_status": "待确认"
+  },
+  {
+    "cancer_type": "",
+    "second_cancer_type": "儿童横纹肌肉瘤",
+    "csv_first_type": "其他肿瘤",
+    "mapping_status": "待确认"
+  },
+  {
+    "cancer_type": "",
+    "second_cancer_type": "儿童罕见癌症",
+    "csv_first_type": "其他肿瘤",
+    "mapping_status": "待确认"
+  },
+  {
+    "cancer_type": "",
+    "second_cancer_type": "儿童血管瘤",
+    "csv_first_type": "其他肿瘤",
+    "mapping_status": "待确认"
+  },
+  {
+    "cancer_type": "",
+    "second_cancer_type": "儿童颅咽管瘤",
+    "csv_first_type": "其他肿瘤",
+    "mapping_status": "待确认"
+  },
+  {
+    "cancer_type": "",
+    "second_cancer_type": "原位导管癌",
+    "csv_first_type": "其他肿瘤",
+    "mapping_status": "待确认"
+  },
+  {
+    "cancer_type": "",
+    "second_cancer_type": "原发灶不明的转移癌",
+    "csv_first_type": "其他肿瘤",
+    "mapping_status": "待确认"
+  },
+  {
+    "cancer_type": "",
+    "second_cancer_type": "复发性癌症",
+    "csv_first_type": "其他肿瘤",
+    "mapping_status": "待确认"
+  },
+  {
+    "cancer_type": "",
+    "second_cancer_type": "恶性间皮瘤",
+    "csv_first_type": "其他肿瘤",
+    "mapping_status": "待确认"
+  },
+  {
+    "cancer_type": "",
+    "second_cancer_type": "未知原发性癌症",
+    "csv_first_type": "其他肿瘤",
+    "mapping_status": "待确认"
+  },
+  {
+    "cancer_type": "",
+    "second_cancer_type": "纵隔肿瘤",
+    "csv_first_type": "其他肿瘤",
+    "mapping_status": "待确认"
+  },
+  {
+    "cancer_type": "",
+    "second_cancer_type": "转移性肿瘤",
+    "csv_first_type": "其他肿瘤",
+    "mapping_status": "待确认"
+  },
+  {
+    "cancer_type": "",
+    "second_cancer_type": "青少年癌症",
+    "csv_first_type": "其他肿瘤",
+    "mapping_status": "待确认"
+  },
+  {
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "气管支气管瘤",
+    "csv_first_type": "呼吸系统及胸腺肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "胸腺瘤",
+    "csv_first_type": "呼吸系统及胸腺肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "胸膜间皮瘤",
+    "csv_first_type": "呼吸系统及胸腺肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "头颈部肿瘤",
+    "second_cancer_type": "上呼吸消化道恶性黑色素瘤",
+    "csv_first_type": "头颈部肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "头颈部肿瘤",
+    "second_cancer_type": "下咽癌",
+    "csv_first_type": "头颈部肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "头颈部肿瘤",
+    "second_cancer_type": "口咽癌",
+    "csv_first_type": "头颈部肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "头颈部肿瘤",
+    "second_cancer_type": "唇和口腔癌",
+    "csv_first_type": "头颈部肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "头颈部肿瘤",
+    "second_cancer_type": "唾液腺癌",
+    "csv_first_type": "头颈部肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "头颈部肿瘤",
+    "second_cancer_type": "喉癌",
+    "csv_first_type": "头颈部肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "头颈部肿瘤",
+    "second_cancer_type": "头颈部皮肤癌",
+    "csv_first_type": "头颈部肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "头颈部肿瘤",
+    "second_cancer_type": "头颈部鳞癌",
+    "csv_first_type": "头颈部肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "头颈部肿瘤",
+    "second_cancer_type": "扁桃体恶性肿瘤",
+    "csv_first_type": "头颈部肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "头颈部肿瘤",
+    "second_cancer_type": "甲状腺癌",
+    "csv_first_type": "头颈部肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "头颈部肿瘤",
+    "second_cancer_type": "耳部恶性肿瘤",
+    "csv_first_type": "头颈部肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "头颈部肿瘤",
+    "second_cancer_type": "隐性原发转移的鳞状颈癌",
+    "csv_first_type": "头颈部肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "头颈部肿瘤",
+    "second_cancer_type": "颌骨恶性肿瘤",
+    "csv_first_type": "头颈部肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "头颈部肿瘤",
+    "second_cancer_type": "鼻咽癌",
+    "csv_first_type": "头颈部肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "头颈部肿瘤",
+    "second_cancer_type": "鼻腔和（副）鼻窦癌症",
+    "csv_first_type": "头颈部肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "",
+    "second_cancer_type": "心包肿瘤",
+    "csv_first_type": "心脏肿瘤",
+    "mapping_status": "待确认"
+  },
+  {
+    "cancer_type": "",
+    "second_cancer_type": "心脏肿瘤",
+    "csv_first_type": "心脏肿瘤",
+    "mapping_status": "待确认"
+  },
+  {
+    "cancer_type": "泌尿系肿瘤",
+    "second_cancer_type": "尿路上皮癌",
+    "csv_first_type": "泌尿系统肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "泌尿系肿瘤",
+    "second_cancer_type": "尿道癌",
+    "csv_first_type": "泌尿系统肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "泌尿系肿瘤",
+    "second_cancer_type": "肾盂和输尿管移行细胞癌",
+    "csv_first_type": "泌尿系统肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "泌尿系肿瘤",
+    "second_cancer_type": "肾细胞癌",
+    "csv_first_type": "泌尿系统肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "泌尿系肿瘤",
+    "second_cancer_type": "膀胱癌",
+    "csv_first_type": "泌尿系统肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "Vater壶腹癌",
+    "csv_first_type": "消化系统肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "壶腹周围癌",
+    "csv_first_type": "消化系统肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "大肠癌",
+    "csv_first_type": "消化系统肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "小肠癌",
+    "csv_first_type": "消化系统肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "直肠癌",
+    "csv_first_type": "消化系统肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "结直肠癌",
+    "csv_first_type": "消化系统肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "结肠癌",
+    "csv_first_type": "消化系统肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "肛周皮肤癌",
+    "csv_first_type": "消化系统肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "肛管肿瘤",
+    "csv_first_type": "消化系统肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "肛门肿瘤",
+    "csv_first_type": "消化系统肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "肝癌",
+    "csv_first_type": "消化系统肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "胃癌",
+    "csv_first_type": "消化系统肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "胆道恶性肿瘤",
+    "csv_first_type": "消化系统肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "胰腺癌",
+    "csv_first_type": "消化系统肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "阑尾肿瘤",
+    "csv_first_type": "消化系统肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "食管癌",
+    "csv_first_type": "消化系统肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "食管胃交界处肿瘤",
+    "csv_first_type": "消化系统肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "泌尿系肿瘤",
+    "second_cancer_type": "前列腺癌",
+    "csv_first_type": "生殖系统肿瘤",
+    "mapping_status": "用户已确认"
+  },
+  {
+    "cancer_type": "妇科肿瘤",
+    "second_cancer_type": "卵巢癌",
+    "csv_first_type": "生殖系统肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "妇科肿瘤",
+    "second_cancer_type": "外阴癌",
+    "csv_first_type": "生殖系统肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "妇科肿瘤",
+    "second_cancer_type": "子宫内膜癌",
+    "csv_first_type": "生殖系统肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "妇科肿瘤",
+    "second_cancer_type": "宫颈癌",
+    "csv_first_type": "生殖系统肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "",
+    "second_cancer_type": "性腺外生殖细胞肿瘤",
+    "csv_first_type": "生殖系统肿瘤",
+    "mapping_status": "待确认"
+  },
+  {
+    "cancer_type": "妇科肿瘤",
+    "second_cancer_type": "滋养细胞肿瘤",
+    "csv_first_type": "生殖系统肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "泌尿系肿瘤",
+    "second_cancer_type": "睾丸癌",
+    "csv_first_type": "生殖系统肿瘤",
+    "mapping_status": "用户已确认"
+  },
+  {
+    "cancer_type": "",
+    "second_cancer_type": "纵隔生殖细胞瘤",
+    "csv_first_type": "生殖系统肿瘤",
+    "mapping_status": "待确认"
+  },
+  {
+    "cancer_type": "妇科肿瘤",
+    "second_cancer_type": "胎盘恶性肿瘤",
+    "csv_first_type": "生殖系统肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "妇科肿瘤",
+    "second_cancer_type": "输卵管癌",
+    "csv_first_type": "生殖系统肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "泌尿系肿瘤",
+    "second_cancer_type": "阴茎癌",
+    "csv_first_type": "生殖系统肿瘤",
+    "mapping_status": "用户已确认"
+  },
+  {
+    "cancer_type": "妇科肿瘤",
+    "second_cancer_type": "阴道癌",
+    "csv_first_type": "生殖系统肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "",
+    "second_cancer_type": "颅外生殖细胞肿瘤",
+    "csv_first_type": "生殖系统肿瘤",
+    "mapping_status": "待确认"
+  },
+  {
+    "cancer_type": "皮肤肿瘤",
+    "second_cancer_type": "乳头状瘤病",
+    "csv_first_type": "皮肤肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "皮肤肿瘤",
+    "second_cancer_type": "皮肤基底细胞癌",
+    "csv_first_type": "皮肤肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "皮肤肿瘤",
+    "second_cancer_type": "皮肤鳞状细胞癌",
+    "csv_first_type": "皮肤肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "皮肤肿瘤",
+    "second_cancer_type": "蕈样肉芽肿",
+    "csv_first_type": "皮肤肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "皮肤肿瘤",
+    "second_cancer_type": "黑色素瘤",
+    "csv_first_type": "皮肤肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "皮肤肿瘤",
+    "second_cancer_type": "默克尔细胞癌",
+    "csv_first_type": "皮肤肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "眼部肿瘤",
+    "second_cancer_type": "泪腺癌",
+    "csv_first_type": "眼部肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "眼部肿瘤",
+    "second_cancer_type": "眼内黑色素瘤",
+    "csv_first_type": "眼部肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "眼部肿瘤",
+    "second_cancer_type": "眼眶肉瘤",
+    "csv_first_type": "眼部肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "眼部肿瘤",
+    "second_cancer_type": "眼睑癌",
+    "csv_first_type": "眼部肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "眼部肿瘤",
+    "second_cancer_type": "结膜癌",
+    "csv_first_type": "眼部肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "眼部肿瘤",
+    "second_cancer_type": "结膜黑色素瘤",
+    "csv_first_type": "眼部肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "眼部肿瘤",
+    "second_cancer_type": "视网膜母细胞瘤",
+    "csv_first_type": "眼部肿瘤",
+    "mapping_status": "沿用CSV分类"
+  },
+  {
+    "cancer_type": "神经内分泌肿瘤",
+    "second_cancer_type": "副神经节瘤",
+    "csv_first_type": "神经内分泌瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "神经内分泌肿瘤",
+    "second_cancer_type": "十二指肠和Vater壶腹神经内分泌肿瘤",
+    "csv_first_type": "神经内分泌瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "神经内分泌肿瘤",
+    "second_cancer_type": "嗜铬细胞瘤",
+    "csv_first_type": "神经内分泌瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "神经内分泌肿瘤",
+    "second_cancer_type": "垂体瘤",
+    "csv_first_type": "神经内分泌瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "神经内分泌肿瘤",
+    "second_cancer_type": "多发性内分泌肿瘤综合征",
+    "csv_first_type": "神经内分泌瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "神经内分泌肿瘤",
+    "second_cancer_type": "梅克尔细胞癌",
+    "csv_first_type": "神经内分泌瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "神经内分泌肿瘤",
+    "second_cancer_type": "甲状旁腺癌",
+    "csv_first_type": "神经内分泌瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "神经内分泌肿瘤",
+    "second_cancer_type": "神经母细胞瘤",
+    "csv_first_type": "神经内分泌瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "神经内分泌肿瘤",
+    "second_cancer_type": "空肠回肠神经内分泌肿瘤",
+    "csv_first_type": "神经内分泌瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "神经内分泌肿瘤",
+    "second_cancer_type": "结肠、直肠神经内分泌肿瘤",
+    "csv_first_type": "神经内分泌瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "神经内分泌肿瘤",
+    "second_cancer_type": "肾上腺皮质癌",
+    "csv_first_type": "神经内分泌瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "神经内分泌肿瘤",
+    "second_cancer_type": "肾上腺神经内分泌肿瘤",
+    "csv_first_type": "神经内分泌瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "神经内分泌肿瘤",
+    "second_cancer_type": "胃神经内分泌肿瘤",
+    "csv_first_type": "神经内分泌瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "神经内分泌肿瘤",
+    "second_cancer_type": "胰腺神经内分泌肿瘤",
+    "csv_first_type": "神经内分泌瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "神经内分泌肿瘤",
+    "second_cancer_type": "阑尾神经内分泌肿瘤",
+    "csv_first_type": "神经内分泌瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "神经内分泌肿瘤",
+    "second_cancer_type": "非典型畸胎瘤",
+    "csv_first_type": "神经内分泌瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "肺癌",
+    "csv_first_type": "肺部肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "头颈部肿瘤",
+    "second_cancer_type": "室管膜瘤",
+    "csv_first_type": "脑部肿瘤",
+    "mapping_status": "用户已确认"
+  },
+  {
+    "cancer_type": "头颈部肿瘤",
+    "second_cancer_type": "神经纤维瘤",
+    "csv_first_type": "脑部肿瘤",
+    "mapping_status": "用户已确认"
+  },
+  {
+    "cancer_type": "头颈部肿瘤",
+    "second_cancer_type": "脑干胶质瘤",
+    "csv_first_type": "脑部肿瘤",
+    "mapping_status": "用户已确认"
+  },
+  {
+    "cancer_type": "头颈部肿瘤",
+    "second_cancer_type": "脑胶质瘤",
+    "csv_first_type": "脑部肿瘤",
+    "mapping_status": "用户已确认"
+  },
+  {
+    "cancer_type": "头颈部肿瘤",
+    "second_cancer_type": "脑膜瘤",
+    "csv_first_type": "脑部肿瘤",
+    "mapping_status": "用户已确认"
+  },
+  {
+    "cancer_type": "头颈部肿瘤",
+    "second_cancer_type": "髓母细胞瘤",
+    "csv_first_type": "脑部肿瘤",
+    "mapping_status": "用户已确认"
+  },
+  {
+    "cancer_type": "",
+    "second_cancer_type": "原发性腹膜癌",
+    "csv_first_type": "腹膜肿瘤",
+    "mapping_status": "待确认"
+  },
+  {
+    "cancer_type": "",
+    "second_cancer_type": "腹膜间皮瘤",
+    "csv_first_type": "腹膜肿瘤",
+    "mapping_status": "待确认"
+  },
+  {
+    "cancer_type": "血液肿瘤",
+    "second_cancer_type": "多发性骨髓瘤",
+    "csv_first_type": "血液及淋巴系统肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "血液肿瘤",
+    "second_cancer_type": "恶性免疫增生性疾病",
+    "csv_first_type": "血液及淋巴系统肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "血液肿瘤",
+    "second_cancer_type": "慢性骨髓增殖性肿瘤",
+    "csv_first_type": "血液及淋巴系统肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "血液肿瘤",
+    "second_cancer_type": "淋巴瘤",
+    "csv_first_type": "血液及淋巴系统肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "血液肿瘤",
+    "second_cancer_type": "白血病",
+    "csv_first_type": "血液及淋巴系统肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "血液肿瘤",
+    "second_cancer_type": "组织细胞增多症",
+    "csv_first_type": "血液及淋巴系统肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "血液肿瘤",
+    "second_cancer_type": "骨髓增殖性肿瘤",
+    "csv_first_type": "血液及淋巴系统肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "血液肿瘤",
+    "second_cancer_type": "骨髓增生异常综合征",
+    "csv_first_type": "血液及淋巴系统肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "骨与软组织肿瘤",
+    "second_cancer_type": "卡波西肉瘤",
+    "csv_first_type": "软组织肉瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "骨与软组织肿瘤",
+    "second_cancer_type": "四肢和躯干软组织肉瘤",
+    "csv_first_type": "软组织肉瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "骨与软组织肿瘤",
+    "second_cancer_type": "胃肠道间质瘤",
+    "csv_first_type": "软组织肉瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "骨与软组织肿瘤",
+    "second_cancer_type": "腹膜后软组织肉瘤",
+    "csv_first_type": "软组织肉瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "骨与软组织肿瘤",
+    "second_cancer_type": "腹部和胸腔内脏器官软组织肉瘤",
+    "csv_first_type": "软组织肉瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "骨与软组织肿瘤",
+    "second_cancer_type": "血管瘤",
+    "csv_first_type": "软组织肉瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "骨与软组织肿瘤",
+    "second_cancer_type": "尤文氏肉瘤",
+    "csv_first_type": "骨关节系统肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "骨与软组织肿瘤",
+    "second_cancer_type": "恶性骨巨细胞瘤",
+    "csv_first_type": "骨关节系统肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "骨与软组织肿瘤",
+    "second_cancer_type": "未分化多形性肉瘤",
+    "csv_first_type": "骨关节系统肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "骨与软组织肿瘤",
+    "second_cancer_type": "脊索瘤",
+    "csv_first_type": "骨关节系统肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "骨与软组织肿瘤",
+    "second_cancer_type": "软骨肉瘤",
+    "csv_first_type": "骨关节系统肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  },
+  {
+    "cancer_type": "骨与软组织肿瘤",
+    "second_cancer_type": "骨肉瘤",
+    "csv_first_type": "骨关节系统肿瘤",
+    "mapping_status": "按CSV类别名称对应整理"
+  }
+]

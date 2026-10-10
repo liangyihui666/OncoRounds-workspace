@@ -1,0 +1,2935 @@
+[
+  {
+    "Questions": {
+      "schema_version": "1.0",
+      "case_id": "CASE-82A82F9C",
+      "cancer_type": "胸部肿瘤",
+      "generation_status": "success",
+      "difficulty": "进阶",
+      "question_count": 5,
+      "questions": [
+        {
+          "id": "Q1",
+          "type": "诊断与分期",
+          "phase": "产后初诊评估",
+          "timepoint": "产后",
+          "question": "患者产后评估发现肝、骨及多处淋巴结转移，结合孕期确诊的乳腺原发灶，关于其分期及诊断原则，下列描述正确的是？",
+          "options": {
+            "A": "属于复发转移性乳腺癌，因孕期仅发现局部病灶",
+            "B": "属于初诊 IV 期乳腺癌，定义为首诊时即存在远处转移",
+            "C": "属于寡转移乳腺癌，因转移灶数目少于 5 个",
+            "D": "属于局部晚期乳腺癌，因原发灶未行根治手术"
+          },
+          "answer": "B",
+          "answer_text": "属于初诊 IV 期乳腺癌，定义为首诊时即存在远处转移",
+          "explain": "初诊 IV 期乳腺癌指初次诊断时即存在远处转移。该患者产后全面评估才发现远处转移，符合初诊 IV 期定义，而非治疗后复发。",
+          "keyPoint": "初诊 IV 期指首次确诊即伴远处转移，需全面评估明确分期。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "7e911bc2-d9c4-41ea-bcef-d28c231dc12d",
+            "split_index": 3,
+            "type": "guideline",
+            "authority": "中华医学会外科学分会乳腺外科学组",
+            "source_title": "初诊IV期乳腺癌诊疗临床实践指南（2025版）",
+            "source_version": "2025",
+            "source_section": "初诊IV期乳腺癌诊疗临床实践指南（2025版）",
+            "source_url": "",
+            "evidence_summary": "指南定义初诊 IV 期乳腺癌为初次诊断时即存在远处转移（任何 T、任何 N、M1）。"
+          }
+        },
+        {
+          "id": "Q2",
+          "type": "分子诊断",
+          "phase": "病理确诊与转移灶评估",
+          "timepoint": "孕 35 周及产后",
+          "question": "该患者原发灶与胎盘转移灶的分子标志物检测结果显示 HER2 均为 3+，ER/PR 弱阳。关于此类晚期乳腺癌分子检测原则，正确的是？",
+          "options": {
+            "A": "原发灶检测准确即可，转移灶无需再次进行免疫组化",
+            "B": "胎盘转移罕见，其分子结果不能代表全身转移灶特征",
+            "C": "复发或转移灶受体状态可能改变，原则上应重新检测",
+            "D": "仅当原发灶 HER2 为 2+ 时，才需对转移灶进行 FISH 检测"
+          },
+          "answer": "C",
+          "answer_text": "复发或转移灶受体状态可能改变，原则上应重新检测",
+          "explain": "指南指出复发/转移灶受体状态可能发生转变（10%-40%），直接影响治疗决策。虽证据章节涉及预防性治疗背景，但明确强调了复发灶需重新检测 ER、PR、HER2 及 Ki-67 的原则。",
+          "keyPoint": "转移灶分子分型可能改变，需重新活检检测以指导治疗。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+            "split_index": 362,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+            "source_version": "2026",
+            "source_section": "13.2.3.1 药物预防性治疗",
+            "source_url": "",
+            "evidence_summary": "指南在相关章节强调：对复发灶必须重新检测 ER、PR、HER2 表达及 Ki-67，因受体状态可能发生改变。"
+          }
+        },
+        {
+          "id": "Q3",
+          "type": "疗效复评与局部治疗",
+          "phase": "疗效评估与后续策略",
+          "timepoint": "治疗 8 周期后",
+          "question": "患者一线治疗 8 周期后评价为 SD（疾病稳定），随访 4 个月仍维持 SD。关于此时局部治疗（如手术或放疗）的考量，正确的是？",
+          "options": {
+            "A": "只要原发灶存在，无论全身病灶如何，均应立即行乳房切除术",
+            "B": "疾病稳定即代表耐药，应立即更换二线方案并放弃局部治疗",
+            "C": "胎盘转移已切除，全身病灶稳定，应常规行预防性全脑放疗",
+            "D": "初诊 IV 期患者局部治疗价值未明，通常需全身治疗有效后再评估"
+          },
+          "answer": "D",
+          "answer_text": "初诊 IV 期患者局部治疗价值未明，通常需全身治疗有效后再评估",
+          "explain": "初诊 IV 期乳腺癌首选全身治疗，局部治疗价值尚不明确。仅在全身治疗取得较好疗效时，才考虑姑息性局部治疗以巩固疗效。",
+          "keyPoint": "初诊 IV 期以全身治疗为主，局部治疗需在全身控制良好时谨慎评估。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+            "split_index": 259,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+            "source_version": "2026",
+            "source_section": "中国抗癌协会乳腺癌专业委员会，中华医学会肿瘤学分会乳腺肿瘤学组",
+            "source_url": "",
+            "evidence_summary": "指南指出初诊 IV 期乳腺癌局部治疗价值不明确，仅当全身药物治疗疗效较好时可考虑姑息性局部治疗。"
+          }
+        },
+        {
+          "id": "Q4",
+          "type": "治疗决策",
+          "phase": "一线系统治疗",
+          "timepoint": "产后治疗开始",
+          "question": "针对该 HER2 阳性晚期乳腺癌患者，产后一线选择 THPy 方案（含吡咯替尼）的主要考量依据是什么？",
+          "options": {
+            "A": "HER2 阳性晚期患者优先选择含抗 HER2 靶向药物的联合方案",
+            "B": "吡咯替尼仅适用于新辅助治疗，晚期一线缺乏证据支持",
+            "C": "因患者有先天性心脏病，应避免使用任何抗 HER2 药物",
+            "D": "胎盘转移提示预后极差，应直接选择最佳支持治疗"
+          },
+          "answer": "A",
+          "answer_text": "HER2 阳性晚期患者优先选择含抗 HER2 靶向药物的联合方案",
+          "explain": "HER2 阳性晚期乳腺癌治疗原则是以全身治疗为主，抗 HER2 靶向治疗是核心。指南推荐根据分子分型制定方案，HER2 阳性患者从抗 HER2 治疗中获益显著。",
+          "keyPoint": "HER2 阳性晚期乳腺癌一线治疗应包含抗 HER2 靶向药物。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "2c622f44-2a67-43b9-a4da-a13278793a7b",
+            "split_index": 31,
+            "type": "guideline",
+            "authority": "国家肿瘤质控中心乳腺癌专家委员会",
+            "source_title": "中国县域乳腺癌防治管理路径与质量控制指南(2023版)",
+            "source_version": "2023",
+            "source_section": "（二）晚期乳腺癌的治疗路径",
+            "source_url": "",
+            "evidence_summary": "指南指出 HER2 阳性患者更多从抗 HER2 治疗中获益，应制定全面抗肿瘤方案。"
+          }
+        },
+        {
+          "id": "Q5",
+          "type": "分子诊断",
+          "phase": "病理确诊阶段",
+          "timepoint": "孕 35 周及产后",
+          "question": "该患者原发灶与胎盘转移灶的分子标志物检测结果显示 Ki-67 指数差异显著（40% vs 70%）。对此现象的临床解读正确的是？",
+          "options": {
+            "A": "说明检测误差，应以原发灶结果为准制定治疗方案",
+            "B": "提示肿瘤异质性，转移灶增殖活性更高，需密切监测疗效",
+            "C": "表明胎盘转移灶已发生去分化，必须更换化疗方案",
+            "D": "反映妊娠期激素影响，产后 Ki-67 会自动恢复正常"
+          },
+          "answer": "B",
+          "answer_text": "提示肿瘤异质性，转移灶增殖活性更高，需密切监测疗效",
+          "explain": "原发与转移灶分子特征可能存在差异（异质性），Ki-67 升高提示转移灶增殖更活跃，这不影响 HER2 阳性这一核心治疗靶点，但提示需严密评估治疗反应。",
+          "keyPoint": "原发与转移灶分子特征可能不同，体现肿瘤异质性，需关注生物学行为变化。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+            "split_index": 362,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+            "source_version": "2026",
+            "source_section": "13.2.3.1 药物预防性治疗",
+            "source_url": "",
+            "evidence_summary": "指南指出复发灶需重新检测标志物，受体状态及 Ki-67 可能发生改变，直接影响后续治疗决策。"
+          }
+        }
+      ],
+      "missing_information": [],
+      "second_cancer_type": "乳腺癌"
+    },
+    "detail": {
+      "schema_version": "1.0",
+      "case_id": "CASE-82A82F9C",
+      "cancer_type": "胸部肿瘤",
+      "difficulty": "进阶",
+      "decision_point_count": 5,
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "home": {
+        "recommendation_label": "今日推荐病例",
+        "display_title": "妊娠期乳腺癌伴胎盘及多器官转移病例",
+        "description": "患者女，35 岁，孕 31 周发现右乳肿块。既往有先天性心脏病史（室间隔缺损、动脉导管未闭、房间隔缺损），6 年前剖宫产史。本次妊娠 35 周超声提示右乳恶性可能伴腋窝淋巴结可疑转移，穿刺确诊浸润性乳腺癌 II 级（ER 弱阳，PR 弱阳，HER2 3+）。孕 37 周行剖宫产术同时行输卵管结扎等手术，术后病理证实胎盘转移。产后评估发现肝、骨及多处淋巴结转移……"
+      },
+      "overview": {
+        "hero": {
+          "title": "妊娠期乳腺癌伴胎盘及多器官转移病例",
+          "subtitle": "妊娠期乳腺癌的诊断时机与安全性评估；胎盘转移的罕见性及病理确诊依据；妊娠晚期乳腺癌的多学科协作诊疗模式（产科与肿瘤科平衡）；HER2 阳性妊娠期乳腺癌的治疗策略选择。"
+        },
+        "tabs": [
+          {
+            "id": "summary",
+            "label": "病例摘要",
+            "order": 1,
+            "summary_items": [
+              {
+                "order": 1,
+                "label": "患者与就诊背景",
+                "value": "患者女，35 岁，孕 31 周发现右乳肿块。既往有先天性心脏病史（室间隔缺损、动脉导管未闭、房间隔缺损），6 年前剖宫产史。本次妊娠 35 周超声提示右乳恶性可能伴腋窝淋巴结可疑转移，穿刺确诊浸润性乳腺癌 II 级（ER 弱阳，PR 弱阳，HER2 3+）。孕 37 周行剖宫产术同时行输卵管结扎等手术，术后病理证实胎盘转移。产后评估发现肝、骨及多处淋巴结转移。诊断为 IV 期乳腺癌。"
+              },
+              {
+                "order": 2,
+                "label": "疾病与分期",
+                "value": "右乳浸润性乳腺癌 IV 期（cT2N3aM1）"
+              },
+              {
+                "order": 3,
+                "label": "分子与病理",
+                "value": "原发灶（右乳）及腋窝淋巴结穿刺：浸润性乳腺癌 II 级，ER 弱阳（约 10%），PR 弱阳（约 5%），HER2 3+，Ki-67 40%；胎盘转移灶：异型上皮样细胞浸润，ER 约 10%+，PR 约 5%+，HER2 3+，Ki-67 70%。检测方法：免疫组化。"
+              },
+              {
+                "order": 4,
+                "label": "核心教学点",
+                "value": "妊娠期乳腺癌的诊断时机与安全性评估；胎盘转移的罕见性及病理确诊依据；妊娠晚期乳腺癌的多学科协作诊疗模式（产科与肿瘤科平衡）；HER2 阳性妊娠期乳腺癌的治疗策略选择。"
+              }
+            ]
+          },
+          {
+            "id": "timeline",
+            "label": "病程轴",
+            "order": 2,
+            "timeline_items": [
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 1",
+                "detail": "孕 31 周：自检发现右乳不规则肿块"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 2",
+                "detail": "孕 35 周：乳腺及腋窝超声检查，提示恶性可能及淋巴结转移"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 3",
+                "detail": "孕 35 周：穿刺活检确诊浸润性乳腺癌 II 级，免疫组化 ER 10%+, PR 5%+, HER2 3+, Ki-67 40%"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 4",
+                "detail": "孕 37 周：行剖宫产术，娩出女婴，同时行双侧输卵管结扎等手术"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 5",
+                "detail": "产后：胎盘病理确诊乳腺癌转移（Ki-67 70%）"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 6",
+                "detail": "产后：腹部 CT 示肝内多发占位，胸部 CT 示多发淋巴结肿大，骨显像示骨转移"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 7",
+                "detail": "治疗开始：采用 THPy 方案（白蛋白结合型紫杉醇 + 曲妥珠单抗 + 吡咯替尼）"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 8",
+                "detail": "治疗 4 周期后：病灶缩小，评价 PR"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 9",
+                "detail": "治疗 8 周期后：病灶稳定，评价 SD"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 10",
+                "detail": "随访 4 个月：病灶维持 SD。"
+              }
+            ]
+          },
+          {
+            "id": "images",
+            "label": "病例图片",
+            "order": 3,
+            "image_items": []
+          }
+        ]
+      },
+      "second_cancer_type": "乳腺癌"
+    }
+  },
+  {
+    "Questions": {
+      "schema_version": "1.0",
+      "case_id": "CASE-6A44390F",
+      "cancer_type": "消化系统肿瘤",
+      "generation_status": "success",
+      "difficulty": "进阶",
+      "question_count": 5,
+      "questions": [
+        {
+          "id": "Q1",
+          "type": "分子诊断",
+          "phase": "复发/转移后线治疗前",
+          "timepoint": "2024 年 4 月多线治疗进展后",
+          "question": "该患者经多线标准化疗及免疫联合治疗进展后，决定进行 HER2 再检测的主要依据是什么？",
+          "options": {
+            "A": "初诊时未检测 HER2，必须补测才能开始任何治疗",
+            "B": "所有胆道肿瘤患者无论分期均需在每周期前常规复测",
+            "C": "仅当出现肝转移时才需要重新评估分子标志物",
+            "D": "胆道肿瘤 HER2 状态具有时空异质性，复发灶可能获得新靶点"
+          },
+          "answer": "D",
+          "answer_text": "胆道肿瘤 HER2 状态具有时空异质性，复发灶可能获得新靶点",
+          "explain": "胆道恶性肿瘤存在分子特征的时空异质性，初诊阴性或未知者，在复发/转移后线治疗前重新检测可发现新的靶向治疗机会（如本例 HER2 阳性）。",
+          "keyPoint": "复发/转移性胆道肿瘤应在后线治疗前重新评估关键驱动基因及靶点。",
+          "guidelineRef": {
+            "evidence_type": "病例+临床推理",
+            "doc_id": "f51ad2ef-8e21-42f9-bfd1-f2ed36512587",
+            "split_index": 137,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "中国肿瘤整合诊治技术指南（CACA） 病理诊断",
+            "source_version": "2023",
+            "source_section": "（五）分子病理诊断",
+            "source_url": "",
+            "evidence_summary": "指南指出胆囊癌及肝外胆管癌 HER2 扩增比例约 16%，可用 IHC 及 FISH 检测，为靶向治疗提供依据。"
+          }
+        },
+        {
+          "id": "Q2",
+          "type": "治疗决策",
+          "phase": "四线治疗",
+          "timepoint": "2024 年 6 月确认 HER2 阳性后",
+          "question": "针对该 HER2 阳性胆道肿瘤患者，在多线治疗失败后，首选的单药靶向治疗方案是？",
+          "options": {
+            "A": "德曲妥珠单抗（T-DXd）",
+            "B": "曲妥珠单抗联合帕妥珠单抗",
+            "C": "维迪西妥单抗",
+            "D": "拉帕替尼联合卡培他滨"
+          },
+          "answer": "A",
+          "answer_text": "德曲妥珠单抗（T-DXd）",
+          "explain": "HERB 研究显示 T-DXd 在 HER2 阳性不可切除/复发性胆道肿瘤中显示出显著疗效（ORR 36.4%），指南推荐用于此类患者后线治疗。",
+          "keyPoint": "T-DXd 是 HER2 阳性胆道肿瘤后线治疗的重要选择，基于 HERB 研究数据。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "588b2660-a9f2-4476-8c6e-ca4a7ad04346",
+            "split_index": 109,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "原发性肝癌诊疗指南之肝内胆管癌诊疗中国专家共识(2022版)",
+            "source_version": "2022",
+            "source_section": "三、病理诊断辅助检查指标：",
+            "source_url": "",
+            "evidence_summary": "HERB 研究显示 T-DXd 治疗 HER2 阳性 BTC 的 ORR 为 36.4%，mPFS 4.4 个月，支持其临床应用。"
+          }
+        },
+        {
+          "id": "Q3",
+          "type": "耐药与后线管理",
+          "phase": "四线治疗耐药后",
+          "timepoint": "2024 年 10 月 T-DXd 治疗 4 个月后",
+          "question": "患者接受 T-DXd 单药治疗 4 个月后出现疾病进展（CA19-9 回升），基于本病例报告及机制推测，可考虑的探索性策略是？",
+          "options": {
+            "A": "立即停用所有抗肿瘤药物，仅进行最佳支持治疗",
+            "B": "联合酪氨酸激酶抑制剂（如仑伐替尼）继续维持抗 HER2 治疗",
+            "C": "更换为不含抗 HER2 成分的标准化疗方案（如 FOLFOX）",
+            "D": "增加 T-DXd 剂量至 6.4mg/kg 以克服耐药"
+          },
+          "answer": "B",
+          "answer_text": "联合酪氨酸激酶抑制剂（如仑伐替尼）继续维持抗 HER2 治疗",
+          "explain": "目前 T-DXd 耐药后联合 TKI 缺乏高级别循证医学证据，本例为个案报道。机制上 TKI 可阻断旁路激活，临床决策需结合患者具体情况及多学科讨论。",
+          "keyPoint": "T-DXd 耐药后联合 TKI 属探索性策略，需个体化评估，非标准指南推荐。",
+          "guidelineRef": {
+            "evidence_type": "病例+临床推理",
+            "doc_id": "588b2660-a9f2-4476-8c6e-ca4a7ad04346",
+            "split_index": 71,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "原发性肝癌诊疗指南之肝内胆管癌诊疗中国专家共识(2022版)",
+            "source_version": "2022",
+            "source_section": "（三）二线治疗",
+            "source_url": "",
+            "evidence_summary": "指南提及 T-DXd 疗效需探索，临床实践中联合 TKI 是克服 ADC 耐药的潜在策略，本例证实有效。"
+          }
+        },
+        {
+          "id": "Q4",
+          "type": "不良反应管理",
+          "phase": "四线治疗期间",
+          "timepoint": "2024 年 7 月 T-DXd 治疗期间",
+          "question": "患者接受 T-DXd 治疗期间出现 2 级骨髓抑制（白细胞减少、贫血），依据通用安全共识及研究数据，应采取的管理措施是？",
+          "options": {
+            "A": "永久停用 T-DXd，不再尝试任何抗 HER2 治疗",
+            "B": "无需调整剂量，仅口服升白药并继续原方案治疗",
+            "C": "暂停用药，给予造血生长因子治疗及支持治疗，恢复后酌情减量重启",
+            "D": "立即减量 50% 并常规预防性使用 G-CSF，不停药"
+          },
+          "answer": "C",
+          "answer_text": "暂停用药，给予造血生长因子治疗及支持治疗，恢复后酌情减量重启",
+          "explain": "虽无胆道肿瘤特异性指南详述 T-DXd 血液学毒性分级管理，但依据 ADC 类药物通用安全共识及 HERB 研究安全性数据，2 级毒性通常建议暂停并支持治疗。",
+          "keyPoint": "ADC 药物致 2 级骨髓抑制应暂停治疗并给予支持治疗，恢复后评估减量重启。",
+          "guidelineRef": {
+            "evidence_type": "病例+临床推理",
+            "doc_id": "e13a7302-7425-4b2c-aa54-f72696d523a8",
+            "split_index": 40,
+            "type": "guideline",
+            "authority": "中国医师协会泌尿外科医师分会/中华医学会泌尿外科学分会",
+            "source_title": "尿路上皮癌抗 HER2 治疗中国专家共识（2026 版）",
+            "source_version": "2026",
+            "source_section": "Chinese expert consensus on anti-HER2 therapy for urothelial carcinoma (2026 edition)",
+            "source_url": "",
+            "evidence_summary": "引用抗 HER2 ADC 药物通用安全管理原则，2 级血液学毒性需暂停用药并给予 G-CSF 等支持治疗。"
+          }
+        },
+        {
+          "id": "Q5",
+          "type": "耐药与后线管理",
+          "phase": "靶向治疗耐药后",
+          "timepoint": "2024 年 10 月 T-DXd 治疗 4 个月后进展",
+          "question": "基于本病例的实际转归，针对该患者 T-DXd 单药耐药后的处理措施是？",
+          "options": {
+            "A": "立即停用 T-DXd，更换为吉西他滨 + 顺铂标准化疗",
+            "B": "继续 T-DXd 单药治疗，期待二次缓解",
+            "C": "转为最佳支持治疗，不再进行抗肿瘤治疗",
+            "D": "联合酪氨酸激酶抑制剂（如仑伐替尼）尝试克服耐药"
+          },
+          "answer": "D",
+          "answer_text": "联合酪氨酸激酶抑制剂（如仑伐替尼）尝试克服耐药",
+          "explain": "本病例中医生采取联合仑伐替尼策略使病情再次控制。需注意目前尚无指南将其列为标准推荐，属个体化探索；机制上 TKI 可能抑制旁路激活，但需更多循证证据支持。",
+          "keyPoint": "ADC 耐药后可探索联合 TKI 等策略，但需明确其目前多为个体化尝试而非标准疗法。",
+          "guidelineRef": {
+            "evidence_type": "病例+临床推理",
+            "doc_id": "588b2660-a9f2-4476-8c6e-ca4a7ad04346",
+            "split_index": 109,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "原发性肝癌诊疗指南之肝内胆管癌诊疗中国专家共识(2022版)",
+            "source_version": "2022",
+            "source_section": "三、病理诊断辅助检查指标：",
+            "source_url": "",
+            "evidence_summary": "HERB 研究证实 T-DXd 单药疗效，联合 TKI 克服耐药为本病例展示的创新尝试，缺乏高级别指南直接支持。"
+          }
+        }
+      ],
+      "missing_information": [],
+      "second_cancer_type": "胆道恶性肿瘤"
+    },
+    "detail": {
+      "schema_version": "1.0",
+      "case_id": "CASE-6A44390F",
+      "cancer_type": "消化系统肿瘤",
+      "difficulty": "进阶",
+      "decision_point_count": 5,
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "home": {
+        "recommendation_label": "今日推荐病例",
+        "display_title": "HER2 阳性胆总管腺癌术后复发多线治疗及 T-DXd 联合仑伐替尼获控病例",
+        "description": "57 岁男性，初诊磁共振显示胆总管上段节段性增厚，行根治性胆管癌手术（Roux-en-Y 肝空肠端侧吻合术），术后病理确诊胆总管中低分化腺癌，切缘神经侵犯，淋巴结阴性。免疫组化 CK7(+)、CK19(+)、CK20(-)、CDX2(-)。基因检测 TP53 突变，VEGFR1/2 表达。2021 年 12 月复发，行二次手术。后续接受吉西他滨 + 顺铂 +……"
+      },
+      "overview": {
+        "hero": {
+          "title": "HER2 阳性胆总管腺癌术后复发多线治疗及 T-DXd 联合仑伐替尼获控病例",
+          "subtitle": "晚期胆道恶性肿瘤在后线治疗中通过重新检测 HER2 状态可发现靶向治疗机会；T-DXd 单药在 HER2 阳性胆道肿瘤中显示疗效但可能出现耐药；联合酪氨酸激酶抑制剂（如仑伐替尼）可能克服 T-DXd 耐药并维持疾病控制。"
+        },
+        "tabs": [
+          {
+            "id": "summary",
+            "label": "病例摘要",
+            "order": 1,
+            "summary_items": [
+              {
+                "order": 1,
+                "label": "患者与就诊背景",
+                "value": "57 岁男性，初诊磁共振显示胆总管上段节段性增厚，行根治性胆管癌手术（Roux-en-Y 肝空肠端侧吻合术），术后病理确诊胆总管中低分化腺癌，切缘神经侵犯，淋巴结阴性。免疫组化 CK7(+)、CK19(+)、CK20(-)、CDX2(-)。基因检测 TP53 突变，VEGFR1/2 表达。2021 年 12 月复发，行二次手术。后续接受吉西他滨 + 顺铂 + 贝伐珠单抗治疗至病情进展。一线治疗采用度伐利尤单抗 + 白蛋白紫杉醇 + 卡铂联合放疗及维持治疗，再次进展。后线尝试卡度尼利单抗 + 奥沙利铂 + 卡培他滨因……"
+              },
+              {
+                "order": 2,
+                "label": "疾病与分期",
+                "value": "胆总管中低分化腺癌"
+              },
+              {
+                "order": 3,
+                "label": "分子与病理",
+                "value": "原发灶（胆总管）：中低分化腺癌；免疫组化：CK7(+)、CK19(+)、CK20(-)、CDX2(-)；基因检测：TP53 突变，VEGFR1/2 蛋白表达；复发/转移灶检测：HER2 免疫组化阳性，FISH 证实扩增；血清标志物：CA19-9 动态变化（497->977->783->174->253 U/mL）。"
+              },
+              {
+                "order": 4,
+                "label": "核心教学点",
+                "value": "晚期胆道恶性肿瘤在后线治疗中通过重新检测 HER2 状态可发现靶向治疗机会；T-DXd 单药在 HER2 阳性胆道肿瘤中显示疗效但可能出现耐药；联合酪氨酸激酶抑制剂（如仑伐替尼）可能克服 T-DXd 耐药并维持疾病控制。"
+              }
+            ]
+          },
+          {
+            "id": "timeline",
+            "label": "病程轴",
+            "order": 2,
+            "timeline_items": [
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 1",
+                "detail": "初诊：磁共振示胆总管上段增厚，行根治术"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 2",
+                "detail": "术后病理确诊胆总管中低分化腺癌"
+              },
+              {
+                "date": "2021",
+                "title": "诊疗节点 3",
+                "detail": "2021 年 12 月：黄疸复发，MRI 提示肝内胆管扩张及肿块，DFS 2 年"
+              },
+              {
+                "date": "2022",
+                "title": "诊疗节点 4",
+                "detail": "2022 年 1 月 4 日：二次胆管癌根治术"
+              },
+              {
+                "date": "2022",
+                "title": "诊疗节点 5",
+                "detail": "2022 年 1 月至 8 月：吉西他滨 + 顺铂 + 贝伐珠单抗治疗，病情稳定"
+              },
+              {
+                "date": "2023",
+                "title": "诊疗节点 6",
+                "detail": "2023 年 6 月 5 日：CT 示胃窦前外侧淋巴结肿大，PFS1 17 个月"
+              },
+              {
+                "date": "2023",
+                "title": "诊疗节点 7",
+                "detail": "2023 年 6 月 15 日至 8 月 20 日：度伐利尤单抗 + 白蛋白紫杉醇 + 卡铂（4 周期）+ 腹部放疗（45 Gy/25 次）+ 度伐利尤单抗维持（8 周期）"
+              },
+              {
+                "date": "2024",
+                "title": "诊疗节点 8",
+                "detail": "2024 年 4 月：CT 示大网膜和腹膜淋巴结转移，PFS2 10 个月"
+              },
+              {
+                "date": "2024",
+                "title": "诊疗节点 9",
+                "detail": "2024 年 4 月 18 日至 5 月 31 日：卡度尼利单抗 + 奥沙利铂 + 卡培他滨（2 周期），因严重手足反应停药"
+              },
+              {
+                "date": "2024",
+                "title": "诊疗节点 10",
+                "detail": "2024 年 5 月 31 日：CT 示多发结节增大，CA19-9 升至 977 U/mL，PFS3 2 个月"
+              },
+              {
+                "date": "2024",
+                "title": "诊疗节点 11",
+                "detail": "2024 年 6 月起：T-DXd 治疗（每 3 周一次）"
+              },
+              {
+                "date": "2024",
+                "title": "诊疗节点 12",
+                "detail": "2024 年 7 月 15 日：CT 示转移灶缩小，CA19-9 降至 174 U/mL"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 13",
+                "detail": "T-DXd 治疗期间：出现 2 级骨髓抑制（白细胞减少、贫血）及 1 级肝功能异常"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 14",
+                "detail": "T-DXd 治疗 4 个月后：CA19-9 升至 253 U/mL，PET-CT 示肿瘤活动"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 15",
+                "detail": "后续：调整为仑伐替尼+T-DXd 联合治疗，观察到 1 级血小板减少，CA19-9 维持低水平。"
+              }
+            ]
+          },
+          {
+            "id": "images",
+            "label": "病例图片",
+            "order": 3,
+            "image_items": []
+          }
+        ]
+      },
+      "second_cancer_type": "胆道恶性肿瘤"
+    }
+  },
+  {
+    "Questions": {
+      "schema_version": "1.0",
+      "case_id": "CASE-95977E69",
+      "cancer_type": "胸部肿瘤",
+      "generation_status": "success",
+      "difficulty": "进阶",
+      "question_count": 5,
+      "questions": [
+        {
+          "id": "Q1",
+          "type": "分子诊断",
+          "phase": "复发/转移治疗阶段",
+          "timepoint": "2023 年内分泌治疗进展后",
+          "question": "患者 HR+/HER2-转移性乳腺癌在 AI 及 CDK4/6 抑制剂治疗后进展，拟启用卡匹色替联合氟维司群。启动该方案前必须确认的关键分子标志物及检测样本首选是什么？",
+          "options": {
+            "A": "BRCA1/2 胚系突变，首选外周血样本",
+            "B": "ESR1 突变状态，首选血浆 ctDNA",
+            "C": "PIK3CA 突变状态，首选肿瘤组织样本",
+            "D": "HER2 低表达状态，首选原发灶存档蜡块"
+          },
+          "answer": "C",
+          "answer_text": "PIK3CA 突变状态，首选肿瘤组织样本",
+          "explain": "指南推荐优先选择组织样本检测 PIK3CA 突变以指导用药；仅在组织样本不可获得时，才考虑采用血浆 ctDNA 作为补充检测手段。",
+          "keyPoint": "PI3K 抑制剂使用前须确认 PIK3CA 突变，组织样本为检测首选，ctDNA 仅作补充。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "7f8a2463-763c-4669-a370-54fca8039124",
+            "split_index": 9,
+            "type": "guideline",
+            "authority": "中华医学会病理学分会, CACA, 国家病理质控中心",
+            "source_title": "乳腺癌生物标志物检测临床应用指南",
+            "source_version": "2025",
+            "source_section": "二、乳腺癌治疗靶点检测及临床意义",
+            "source_url": "",
+            "evidence_summary": "指南明确卡匹色替适用于伴 PIK3CA 等改变患者，优先选组织样本检测，组织不可及时可选 ctDNA。"
+          }
+        },
+        {
+          "id": "Q2",
+          "type": "不良反应管理",
+          "phase": "靶向治疗期间",
+          "timepoint": "卡匹色替服药第 8 天出现重度皮疹",
+          "question": "患者服用卡匹色替后出现泛发大疱性皮疹伴界面性皮炎病理改变，诊断为重度放射性回忆性皮炎。此时最恰当的药物管理策略是？",
+          "options": {
+            "A": "立即永久停用卡匹色替，不再尝试同类药物",
+            "B": "维持原剂量，仅加强外用激素及抗组胺药对症",
+            "C": "直接更换为 Alpelisib，无需等待皮疹完全消退",
+            "D": "暂停用药，给予系统激素治疗，恢复后尝试减量重启"
+          },
+          "answer": "D",
+          "answer_text": "暂停用药，给予系统激素治疗，恢复后尝试减量重启",
+          "explain": "对于重度皮肤毒性，指南建议暂停致病药物并使用系统激素。待毒性恢复至轻度后，可尝试减量重启；若再次发生严重反应则永久停药或换药。",
+          "keyPoint": "重度靶向药皮疹需暂停用药并系统治疗，缓解后可尝试减量重启评估耐受性。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "aa30e019-576b-410b-9d2b-bf53a07d4de8",
+            "split_index": 216,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "皮肤、黏膜保护 中国肿瘤整合诊治技术指南（CACA）",
+            "source_version": "2023",
+            "source_section": "2. 治疗",
+            "source_url": "",
+            "evidence_summary": "指南指出Ⅲ级黏膜/皮肤损伤需暂停控瘤药物并联合糖皮质激素，恢复至Ⅰ级后可低剂量重新启动，若再发则永久停用。"
+          }
+        },
+        {
+          "id": "Q3",
+          "type": "治疗决策",
+          "phase": "复发/转移治疗阶段",
+          "timepoint": "2023 年骨转移进展时",
+          "question": "患者在接受来曲唑 + 瑞波西利治疗期间出现骨转移进展，且既往同一区域曾接受过放疗。此时全身及局部治疗调整的最佳策略是？",
+          "options": {
+            "A": "更换内分泌药物为氟维司群，并对进展病灶行再放疗",
+            "B": "继续原内分泌方案，仅对新增骨病灶行姑息放疗",
+            "C": "立即启动化疗，避免对既往放疗区域再次照射",
+            "D": "单用卡匹色替，暂停所有局部治疗直至全身控制"
+          },
+          "answer": "A",
+          "answer_text": "更换内分泌药物为氟维司群，并对进展病灶行再放疗",
+          "explain": "AI 治疗进展后标准二线方案为氟维司群。对于寡进展或症状性骨转移，联合局部再放疗可控制局部症状，需评估既往放疗剂量与范围。",
+          "keyPoint": "内分泌治疗进展后应更换机制不同的药物，并可联合局部放疗控制寡进展病灶。",
+          "guidelineRef": {
+            "evidence_type": "病例+临床推理",
+            "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+            "split_index": 364,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+            "source_version": "2026",
+            "source_section": "13.2.3.1 药物预防性治疗",
+            "source_url": "",
+            "evidence_summary": "指南强调复发治疗需回顾既往放疗详情，根据复发病灶与放射野关系决定局部治疗，同时系统治疗需随进展调整。"
+          }
+        },
+        {
+          "id": "Q4",
+          "type": "耐药与后线管理",
+          "phase": "靶向治疗不耐受后",
+          "timepoint": "卡匹色替减量重启失败后",
+          "question": "患者因卡匹色替致严重放射性回忆性皮炎，减量重启后仍出现皮疹。在 PIK3CA 突变阳性且需继续靶向治疗的前提下，后续合理选择是？",
+          "options": {
+            "A": "永久停用所有 PI3K/AKT 通路抑制剂，直接转为单纯化疗",
+            "B": "换用结构不同的同类药物 Alpelisib，并密切监测皮肤毒性",
+            "C": "增加激素预防剂量，强行维持卡匹色替原剂量继续治疗",
+            "D": "改用免疫检查点抑制剂联合内分泌治疗以规避皮疹风险"
+          },
+          "answer": "B",
+          "answer_text": "换用结构不同的同类药物 Alpelisib，并密切监测皮肤毒性",
+          "explain": "病例显示患者换用 Alpelisib 后耐受良好。不同 PI3K 抑制剂化学结构及副作用谱存在差异，对一种药物不耐受时，可尝试换用同类其他药物。",
+          "keyPoint": "对特定 PI3K 抑制剂不耐受时，可考虑换用同类不同结构药物以维持靶向治疗。",
+          "guidelineRef": {
+            "evidence_type": "病例+临床推理",
+            "doc_id": "7f8a2463-763c-4669-a370-54fca8039124",
+            "split_index": 9,
+            "type": "guideline",
+            "authority": "中华医学会病理学分会, CACA, 国家病理质控中心",
+            "source_title": "乳腺癌生物标志物检测临床应用指南",
+            "source_version": "2025",
+            "source_section": "二、乳腺癌治疗靶点检测及临床意义",
+            "source_url": "",
+            "evidence_summary": "指南支持 PIK3CA 突变患者使用 PI3K 抑制剂；本例依据病例事实推导换药可行性，属个体化临床推理。"
+          }
+        },
+        {
+          "id": "Q5",
+          "type": "分子诊断",
+          "phase": "复发转移后治疗决策前",
+          "timepoint": "2023 年氟维司群治疗期间",
+          "question": "该患者在氟维司群治疗进展后，加用卡匹色替（Capivasertib）的关键分子依据是什么？",
+          "options": {
+            "A": "骨转移灶 HER2 表达为 1+",
+            "B": "检测到 PIK3CA 基因突变",
+            "C": "原发灶 ER 阳性且 PR 阴性",
+            "D": "血清 CA15-3 水平显著升高"
+          },
+          "answer": "B",
+          "answer_text": "检测到 PIK3CA 基因突变",
+          "explain": "CAPItello-291 研究及指南推荐卡匹色替联合氟维司群用于携带 PIK3CA/AKT1/PTEN 改变的 HR+/HER2-晚期乳腺癌患者。本例明确检出 PIK3CA 突变，是启动该靶向治疗的核心依据。",
+          "keyPoint": "PIK3CA 突变是 AKT 抑制剂联合内分泌治疗的优势人群标志物。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "7f8a2463-763c-4669-a370-54fca8039124",
+            "split_index": 9,
+            "type": "guideline",
+            "authority": "中华医学会病理学分会, CACA, 国家病理质控中心",
+            "source_title": "乳腺癌生物标志物检测临床应用指南",
+            "source_version": "2025",
+            "source_section": "二、乳腺癌治疗靶点检测及临床意义",
+            "source_url": "",
+            "evidence_summary": "指南指出 AKT 抑制剂卡匹色替联合氟维司群获批用于伴有 PIK3CA/AKT1/PTEN 改变的 HR+/HER2-转移性乳腺癌。"
+          }
+        }
+      ],
+      "missing_information": [],
+      "second_cancer_type": "乳腺癌"
+    },
+    "detail": {
+      "schema_version": "1.0",
+      "case_id": "CASE-95977E69",
+      "cancer_type": "胸部肿瘤",
+      "difficulty": "进阶",
+      "decision_point_count": 5,
+      "image": {
+        "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/W5eo1iW1xft-K-SZ9XaQfw/s6VRC4npwRmb4TODNCNbRLdoJEaRNuiB.png",
+        "alt": "放射治疗剂量分布及右下肢皮疹图像（前视图和后视图）"
+      },
+      "home": {
+        "recommendation_label": "今日推荐病例",
+        "display_title": "转移性乳腺癌患者卡匹色替治疗后出现放射性回忆性皮炎病例",
+        "description": "56 岁女性，有高脂血症病史。2005 年确诊右侧乳腺癌 IIA 期，行右乳肿块切除术、腋窝淋巴结清扫术，术后化疗、放疗及他莫昔芬治疗 10 年。2023 年随访发现肺转移及右胫骨转移，确认为 ER 阳性/PR 阴性/HER2 阴性（骨转移灶 HER2 1+）。接受来曲唑、瑞波西利、唑来膦酸治疗及右胫骨手术和放疗。后病情进展，更换内分泌方案为氟维司群并再次放……"
+      },
+      "overview": {
+        "hero": {
+          "title": "转移性乳腺癌患者卡匹色替治疗后出现放射性回忆性皮炎病例",
+          "subtitle": "识别 PI3K 抑制剂（如卡匹色替）诱发的放射性回忆性皮炎的临床特征与时间关系；管理靶向治疗引起的严重皮肤毒性（包括激素阶梯治疗及抗生素联用）；在发生严重不良反应后，通过减量重试或更换同类药物（Alpelisib）维持治疗的策略。"
+        },
+        "tabs": [
+          {
+            "id": "summary",
+            "label": "病例摘要",
+            "order": 1,
+            "summary_items": [
+              {
+                "order": 1,
+                "label": "患者与就诊背景",
+                "value": "56 岁女性，有高脂血症病史。2005 年确诊右侧乳腺癌 IIA 期，行右乳肿块切除术、腋窝淋巴结清扫术，术后化疗、放疗及他莫昔芬治疗 10 年。2023 年随访发现肺转移及右胫骨转移，确认为 ER 阳性/PR 阴性/HER2 阴性（骨转移灶 HER2 1+）。接受来曲唑、瑞波西利、唑来膦酸治疗及右胫骨手术和放疗。后病情进展，更换内分泌方案为氟维司群并再次放疗。因检出 PIK3CA 突变加用卡匹色替，随后出现严重皮疹，诊断为放射性回忆性皮炎，经激素及抗生素治疗好转，最终换用 Alpelisib 耐受良好。"
+              },
+              {
+                "order": 2,
+                "label": "疾病与分期",
+                "value": "右侧乳腺癌 IIA 期伴肺及骨转移"
+              },
+              {
+                "order": 3,
+                "label": "分子与病理",
+                "value": "肺转移灶（2023 年，支气管活检）：ER 阳性，PR 阴性，HER2 阴性；右胫骨转移灶（2023 年，CT 引导活检）：GATA-3 阳性，ER 阳性，PR 阴性，HER2(1+)；基因检测：PIK3CA 突变阳性；肿瘤标志物：CA 27-29 (290.5→206.0)，CA 15-3 (252→175)（卡匹色替治疗后）。"
+              },
+              {
+                "order": 4,
+                "label": "核心教学点",
+                "value": "识别 PI3K 抑制剂（如卡匹色替）诱发的放射性回忆性皮炎的临床特征与时间关系；管理靶向治疗引起的严重皮肤毒性（包括激素阶梯治疗及抗生素联用）；在发生严重不良反应后，通过减量重试或更换同类药物（Alpelisib）维持治疗的策略。"
+              }
+            ]
+          },
+          {
+            "id": "timeline",
+            "label": "病程轴",
+            "order": 2,
+            "timeline_items": [
+              {
+                "date": "2005",
+                "title": "诊疗节点 1",
+                "detail": "2005 年：诊断右侧乳腺癌 IIA 期，行手术、化疗、放疗（第一疗程），开始他莫昔芬治疗"
+              },
+              {
+                "date": "2015",
+                "title": "诊疗节点 2",
+                "detail": "2015 年左右：结束他莫昔芬治疗（共 10 年）"
+              },
+              {
+                "date": "2023",
+                "title": "诊疗节点 3",
+                "detail": "2023 年：CT 发现肺结节，支气管活检证实乳腺癌转移（ER+, PR-, HER2-）"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 4",
+                "detail": "X 光及骨扫描发现右胫骨病灶，活检证实转移性乳腺癌（ER+, PR-, HER2 1+）"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 5",
+                "detail": "开始来曲唑 + 瑞波西利 + 唑来膦酸治疗，行右胫骨切开复位内固定术及姑息放疗（30 Gy/10 次，第二疗程）"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 6",
+                "detail": "放疗后约 7 个月：影像学显示右内踝、距骨体及股骨新发病灶进展，行刮除内固定术"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 7",
+                "detail": "PET/CT 确认多处骨摄取"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 8",
+                "detail": "内分泌方案改为氟维司群"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 9",
+                "detail": "行右侧股骨远端至脚踝放疗（30 Gy/10 次，第三疗程）及股骨近端小野照射"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 10",
+                "detail": "放疗结束第 7 天：开始卡匹色替（400mg bid，服 4 停 3）"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 11",
+                "detail": "服药第 8 天：出现高度瘙痒性皮疹（右下肢大疱，泛发至躯干四肢），急诊排除 DVT"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 12",
+                "detail": "入院行皮疹活检示界面性皮炎，给予泼尼松、苯海拉明、外用曲安奈德及抗生素治疗"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 13",
+                "detail": "因疗效有限调整为甲泼尼龙 50mg/d，4 天后皮疹好转"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 14",
+                "detail": "入院 7 天后出院"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 15",
+                "detail": "门诊随访：肿瘤标志物下降，尝试减量重启卡匹色替（400mg q3d），服一剂后腹部再现皮疹，停药后消退"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 16",
+                "detail": "初次症状后 29 天：皮疹完全消退"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 17",
+                "detail": "开始使用 Alpelisib，耐受良好。"
+              }
+            ]
+          },
+          {
+            "id": "images",
+            "label": "病例图片",
+            "order": 3,
+            "image_items": [
+              {
+                "id": "IMG1",
+                "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/W5eo1iW1xft-K-SZ9XaQfw/s6VRC4npwRmb4TODNCNbRLdoJEaRNuiB.png",
+                "timepoint": "首次急诊就诊时",
+                "caption": "放射治疗剂量分布及右下肢皮疹图像（前视图和后视图）",
+                "alt": "放射治疗剂量分布及右下肢皮疹图像（前视图和后视图）",
+                "mapping_status": "caption_only",
+                "related_timeline": null
+              },
+              {
+                "id": "IMG2",
+                "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/W5eo1iW1xft-K-SZ9XaQfw/DVpTGNBvUtUCuXEFj6J3LRq79zWNn5gf.png",
+                "timepoint": "入院期间",
+                "caption": "背部泛发性皮疹穿刺活检 HE 染色（10 倍和 20 倍放大）",
+                "alt": "背部泛发性皮疹穿刺活检 HE 染色（10 倍和 20 倍放大）",
+                "mapping_status": "caption_only",
+                "related_timeline": null
+              },
+              {
+                "id": "IMG3",
+                "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/W5eo1iW1xft-K-SZ9XaQfw/iyQ9vXnZ2lOMOL7e6kmviEucb2WuvRKD.png",
+                "timepoint": "治疗及随访期间",
+                "caption": "经类固醇和抗生素治疗后右下肢皮疹消退情况及事件时间线",
+                "alt": "经类固醇和抗生素治疗后右下肢皮疹消退情况及事件时间线",
+                "mapping_status": "caption_only",
+                "related_timeline": null
+              }
+            ]
+          }
+        ]
+      },
+      "second_cancer_type": "乳腺癌"
+    }
+  },
+  {
+    "Questions": {
+      "schema_version": "1.0",
+      "case_id": "CASE-6E309B6B",
+      "cancer_type": "胸部肿瘤",
+      "generation_status": "success",
+      "difficulty": "进阶",
+      "question_count": 5,
+      "questions": [
+        {
+          "id": "Q1",
+          "type": "诊断与分期",
+          "phase": "术后并发症诊断",
+          "timepoint": "术后第 14 天经验性治疗无效后",
+          "question": "患者术后高热伴肺部结节，经验性抗菌治疗无效，血培养提示革兰阳性分支丝状菌。为明确罕见病原体诊断，首选的确诊策略是？",
+          "options": {
+            "A": "仅凭影像特征启动抗真菌治疗",
+            "B": "重复广谱抗生素并观察热型变化",
+            "C": "立即行肺穿刺活检等待肉芽肿结果",
+            "D": "联合形态学观察与质谱技术鉴定"
+          },
+          "answer": "D",
+          "answer_text": "联合形态学观察与质谱技术鉴定",
+          "explain": "诺卡菌形态特殊（革兰阳性、弱抗酸、分支丝状），常规培养易漏检。指南推荐在疑难感染中利用质谱（MALDI-TOF MS）快速鉴定，结合形态学可避免误诊为结核或真菌。",
+          "keyPoint": "免疫低下患者疑似罕见菌感染，应联合形态学与质谱技术快速确诊。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "20671b05-8bf1-405a-8631-281aa5771539",
+            "split_index": 51,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "中国肿瘤整合诊治技术指南（CACA）——肺脏保护",
+            "source_version": "2023",
+            "source_section": "2.主要病原学检测",
+            "source_url": "",
+            "evidence_summary": "指南指出 mNGS 及质谱技术在疑难、特殊患者少见病原体检测中具有较高敏感性及特异性。"
+          }
+        },
+        {
+          "id": "Q2",
+          "type": "治疗决策",
+          "phase": "抗感染治疗方案调整",
+          "timepoint": "确诊新诺卡菌且 TMP-SMX 过敏后",
+          "question": "确诊新诺卡菌血症后，患者对首选药 TMP-SMX 出现皮疹过敏。根据药敏及指南推荐，最合理的替代联合治疗方案是？",
+          "options": {
+            "A": "亚胺培南联合阿米卡星或利奈唑胺",
+            "B": "单用利奈唑胺口服维持治疗",
+            "C": "换用头孢曲松联合甲硝唑",
+            "D": "继续使用左氧氟沙星并增加剂量"
+          },
+          "answer": "A",
+          "answer_text": "亚胺培南联合阿米卡星或利奈唑胺",
+          "explain": "TMP-SMX 是诺卡菌首选，过敏时需换用碳青霉烯类（如亚胺培南）联合氨基糖苷类或利奈唑胺。单药治疗易导致耐药或复发，尤其对于播散性感染。",
+          "keyPoint": "诺卡菌治疗需联合用药，磺胺过敏时首选碳青霉烯类联合方案。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "9fbc9e3d-42c7-41c8-9c98-fdc28914c0ec",
+            "split_index": 37,
+            "type": "guideline",
+            "authority": "广东省药学会",
+            "source_title": "临床重症与药学超说明书用药专家共识·2025 版",
+            "source_version": "2025",
+            "source_section": "临床重症与药学超说明书用药专家共识·2025版",
+            "source_url": "",
+            "evidence_summary": "指南推荐诺卡菌感染首选 SMZ-TMP，多器官受累或过敏时可联合亚胺培南、阿米卡星等药物。"
+          }
+        },
+        {
+          "id": "Q3",
+          "type": "耐药与后线管理",
+          "phase": "复发与长期管理",
+          "timepoint": "出院后因依从性差导致复发",
+          "question": "患者出院后因依从性差导致诺卡菌血症复发并合并 RSV 感染。针对此类长疗程易复发感染，后续管理的关键措施是？",
+          "options": {
+            "A": "缩短静脉用药时间，尽早改为口服单药",
+            "B": "强化患者教育，确保联合用药足疗程（≥6 个月）",
+            "C": "仅针对 RSV 进行抗病毒治疗，暂停抗生素",
+            "D": "每次复发均更换全新类别的抗生素组合"
+          },
+          "answer": "B",
+          "answer_text": "强化患者教育，确保联合用药足疗程（≥6 个月）",
+          "explain": "诺卡菌感染治疗疗程长（通常 6-12 个月），依从性差是复发主因。复发后需重新评估药敏，强调足疗程联合治疗及患者教育，而非频繁更换药物类别。",
+          "keyPoint": "诺卡菌治疗成功关键在于长疗程联合用药及严格的依从性管理。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "9fbc9e3d-42c7-41c8-9c98-fdc28914c0ec",
+            "split_index": 37,
+            "type": "guideline",
+            "authority": "广东省药学会",
+            "source_title": "临床重症与药学超说明书用药专家共识·2025 版",
+            "source_version": "2025",
+            "source_section": "临床重症与药学超说明书用药专家共识·2025版",
+            "source_url": "",
+            "evidence_summary": "指南指出诺卡菌肺炎等严重感染需联合治疗 3-4 周后序贯口服，总疗程达 3-6 个月以上。"
+          }
+        },
+        {
+          "id": "Q4",
+          "type": "耐药与后线管理",
+          "phase": "复发与合并感染管理",
+          "timepoint": "出院 3 周后复发并合并 RSV 感染",
+          "question": "患者因依从性差导致诺卡菌复发并合并 RSV 感染，后续治疗决策的核心重点是？",
+          "options": {
+            "A": "仅针对 RSV 进行抗病毒治疗，暂停抗生素",
+            "B": "缩短抗生素疗程以减少药物相互作用",
+            "C": "恢复联合抗生素规范治疗并强调长程维持",
+            "D": "改用单一口服抗生素方便患者居家服用"
+          },
+          "answer": "C",
+          "answer_text": "恢复联合抗生素规范治疗并强调长程维持",
+          "explain": "诺卡菌感染疗程长（通常 3-6 个月甚至更长），依从性差易复发。复发后需重新评估并恢复有效的联合方案，同时处理合并的病毒感染，确保持续治疗至彻底清除。",
+          "keyPoint": "诺卡菌治疗需长程，依从性差致复发需重启规范联合。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "9fbc9e3d-42c7-41c8-9c98-fdc28914c0ec",
+            "split_index": 37,
+            "type": "guideline",
+            "authority": "广东省药学会",
+            "source_title": "临床重症与药学超说明书用药专家共识·2025 版",
+            "source_version": "2025",
+            "source_section": "临床重症与药学超说明书用药专家共识·2025版",
+            "source_url": "",
+            "evidence_summary": "诺卡菌肺炎或血行感染需 SMZ-TMP 联合治疗 3-4 周后序贯口服，总疗程 3-6 个月。"
+          }
+        },
+        {
+          "id": "Q5",
+          "type": "不良反应管理",
+          "phase": "药物不良反应处理",
+          "timepoint": "使用 TMP-SMX 出现皮疹后",
+          "question": "患者在抗诺卡菌治疗中出现皮疹，考虑药物过敏。若皮疹局限且无全身严重症状，下列处理原则正确的是？",
+          "options": {
+            "A": "立即永久停用所有抗感染药物",
+            "B": "减量继续原药治疗并密切观察",
+            "C": "仅外用激素，不停用抗感染药物",
+            "D": "暂停可疑药物，对症处理后换用替代方案"
+          },
+          "answer": "D",
+          "answer_text": "暂停可疑药物，对症处理后换用替代方案",
+          "explain": "出现药物过敏应暂停可疑药物，评估严重程度。若为轻中度可对症处理后换用其他有效抗生素，而非永久停药或强行继续原药。此基于通用药物安全原则，非特定 ICI 指南。",
+          "keyPoint": "药物过敏需暂停并换药，平衡感染控制与安全性。",
+          "guidelineRef": {
+            "evidence_type": "病例+临床推理",
+            "doc_id": "e25d8ea3-a792-4bd9-a100-ad206591ac31",
+            "split_index": 121,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "中国肿瘤整合诊治技术指南（CACA） 血液保护",
+            "source_version": "2023",
+            "source_section": "2. 感染的治疗",
+            "source_url": "",
+            "evidence_summary": "指南提及经验性治疗需考虑毒副反应小且具安全性，无效或不耐受时需调整药物，支持停药换药原则。"
+          }
+        }
+      ],
+      "missing_information": [],
+      "second_cancer_type": "乳腺癌"
+    },
+    "detail": {
+      "schema_version": "1.0",
+      "case_id": "CASE-6E309B6B",
+      "cancer_type": "胸部肿瘤",
+      "difficulty": "进阶",
+      "decision_point_count": 5,
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "home": {
+        "recommendation_label": "今日推荐病例",
+        "display_title": "HER2 阳性乳腺癌术后新诺卡菌菌血症合并 RSV 感染病例",
+        "description": "54 岁中国女性，因左乳肿块增大伴疼痛入院。既往体健，入院前 5 个月置入 PICC。术前诊断左乳占位伴腋窝淋巴结肿大，肺部 CT 未见异常。行新辅助化疗（阿霉素 + 环磷酰胺 1 周期，卡铂 + 曲妥珠单抗 + 帕妥珠单抗 2 周期）后行左乳改良根治术。术后第 14 天突发高热、咳嗽，初诊肺部感染，经验性治疗无效。血培养及 MALDI-TOF MS 鉴定为……"
+      },
+      "overview": {
+        "hero": {
+          "title": "HER2 阳性乳腺癌术后新诺卡菌菌血症合并 RSV 感染病例",
+          "subtitle": "免疫功能低下患者术后发热需警惕罕见病原体如新诺卡菌感染；MALDI-TOF MS 在快速鉴定诺卡菌属中的价值；诺卡菌感染治疗疗程长，患者依从性对预后至关重要；诺卡菌感染可合并病毒感染（如 RSV），需全面评估。"
+        },
+        "tabs": [
+          {
+            "id": "summary",
+            "label": "病例摘要",
+            "order": 1,
+            "summary_items": [
+              {
+                "order": 1,
+                "label": "患者与就诊背景",
+                "value": "54 岁中国女性，因左乳肿块增大伴疼痛入院。既往体健，入院前 5 个月置入 PICC。术前诊断左乳占位伴腋窝淋巴结肿大，肺部 CT 未见异常。行新辅助化疗（阿霉素 + 环磷酰胺 1 周期，卡铂 + 曲妥珠单抗 + 帕妥珠单抗 2 周期）后行左乳改良根治术。术后第 14 天突发高热、咳嗽，初诊肺部感染，经验性治疗无效。血培养及 MALDI-TOF MS 鉴定为新诺卡菌（N. nova）。治疗过程中出现药物过敏，调整方案后因依从性差导致复发，合并呼吸道合胞病毒（RSV）感染，最终经联合抗生素规范治疗 6 个月康复。"
+              },
+              {
+                "order": 2,
+                "label": "疾病与分期",
+                "value": "左乳非特殊型（NST）浸润性癌，ER(-)/PR(-)/HER2(3+)，伴左侧腋窝淋巴结肿大"
+              },
+              {
+                "order": 3,
+                "label": "分子与病理",
+                "value": "原发灶（左乳）穿刺标本：ER(-), PR(-), HER2(3+), Ki-67 30%；血培养标本：革兰阳性串珠状细长分支丝状菌，MALDI-TOF MS 鉴定为新诺卡菌（N. nova）；血清学：呼吸道合胞病毒（RSV）IgM 抗体 104.5 AU/mL；真菌 G/GM 试验及结核 IGRA 均为阴性。"
+              },
+              {
+                "order": 4,
+                "label": "核心教学点",
+                "value": "免疫功能低下患者术后发热需警惕罕见病原体如新诺卡菌感染；MALDI-TOF MS 在快速鉴定诺卡菌属中的价值；诺卡菌感染治疗疗程长，患者依从性对预后至关重要；诺卡菌感染可合并病毒感染（如 RSV），需全面评估。"
+              }
+            ]
+          },
+          {
+            "id": "timeline",
+            "label": "病程轴",
+            "order": 2,
+            "timeline_items": [
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 1",
+                "detail": "入院前 5 个月：置入 PICC"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 2",
+                "detail": "入院时：胸部 CT 示左乳占位及腋窝淋巴结肿大，穿刺确诊 HER2 阳性浸润性癌"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 3",
+                "detail": "术前：完成新辅助化疗（AC 方案 1 周期，TCbHP 方案 2 周期），行左乳改良根治术"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 4",
+                "detail": "术后第 14 天：突发高热（39.4°C），复查 CT 示双肺多发结节，经验性左氧氟沙星治疗无效"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 5",
+                "detail": "培养第 4 天：血培养阳性，鉴定为新诺卡菌，改用 TMP-SMX"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 6",
+                "detail": "用药 2 天后：出现皮疹，换用亚胺培南/西司他丁，出院带药利奈唑胺"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 7",
+                "detail": "出院 3 周后：因未规律服药再次高热，血培养复阳，检出 RSV IgM 升高，CT 示左肺上叶新发结节"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 8",
+                "detail": "再次入院：联用抗组胺药后耐受 TMP-SMX，给予亚胺培南联合 TMP-SMX 静脉治疗 2 周，序贯口服 TMP-SMX"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 9",
+                "detail": "治疗启动后 1 个月：出院并维持口服治疗至 6 个月"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 10",
+                "detail": "随访至今：完全康复。"
+              }
+            ]
+          },
+          {
+            "id": "images",
+            "label": "病例图片",
+            "order": 3,
+            "image_items": []
+          }
+        ]
+      },
+      "second_cancer_type": "乳腺癌"
+    }
+  },
+  {
+    "Questions": {
+      "schema_version": "1.0",
+      "case_id": "CASE-351D64C1",
+      "cancer_type": "消化系统肿瘤",
+      "generation_status": "success",
+      "difficulty": "进阶",
+      "question_count": 5,
+      "questions": [
+        {
+          "id": "Q1",
+          "type": "分子诊断",
+          "phase": "初诊评估",
+          "timepoint": "治疗前",
+          "question": "针对该 MSS 型晚期胃癌患者，初诊时关于生物标志物检测策略的描述，最符合当前专家共识的是？",
+          "options": {
+            "A": "推荐完善全面分子病理评估以指导精准治疗",
+            "B": "仅需检测 HER2 和 MMR 状态，无需评估 PD-L1",
+            "C": "MSS 型患者免疫治疗无效，不应检测 PD-L1",
+            "D": "仅在有家族史时才进行胚系基因检测"
+          },
+          "answer": "A",
+          "answer_text": "推荐完善全面分子病理评估以指导精准治疗",
+          "explain": "IV 期胃癌初诊推荐全面分子评估，包括 PD-L1 CPS、MMR/MSI、HER2 等，即使 MSS 型也需评估 PD-L1 以筛选潜在获益人群。",
+          "keyPoint": "晚期胃癌初诊应行全面分子检测，PD-L1 高表达可预测免疫获益。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "4569a34f-9f0f-44e5-8b93-5f298ef949e7",
+            "split_index": 18,
+            "type": "guideline",
+            "authority": "中华医学会外科学分会腹腔镜与内镜外科学组, 中国抗癌协会胃癌专业委员会, 中国抗癌协会腔镜与机器人外科分会, 《中华消化外科杂志》编辑委员会",
+            "source_title": "精准外科胃癌转化治疗专家共识（2025版）",
+            "source_version": "2025",
+            "source_section": "CQ7：病理学评估",
+            "source_url": "",
+            "evidence_summary": "IV 期胃癌患者初诊推荐完善活检组织 PD-L1、MMR/MSI、HER2 等免疫组化及基因检测。"
+          }
+        },
+        {
+          "id": "Q2",
+          "type": "治疗决策",
+          "phase": "转化治疗",
+          "timepoint": "一线治疗决策",
+          "question": "该患者为 MSS、低 TMB 但 PD-L1 CPS≥70% 的晚期胃癌，首选治疗策略的依据是？",
+          "options": {
+            "A": "MSS 型胃癌对免疫治疗通常获益有限，应仅行单纯化疗",
+            "B": "超高 PD-L1 表达可能驱动深度响应，推荐免疫联合化疗转化",
+            "C": "必须等待新辅助放化疗后再评估手术机会",
+            "D": "因存在肝转移，直接行姑息性化疗，不考虑手术"
+          },
+          "answer": "B",
+          "answer_text": "超高 PD-L1 表达可能驱动深度响应，推荐免疫联合化疗转化",
+          "explain": "虽为 MSS 型，但超高 PD-L1 表达（CPS≥70%）及高 TIL 密度提示免疫治疗潜在获益，联合化疗可争取转化手术机会。",
+          "keyPoint": "PD-L1 高表达可弥补 MSS 状态，支持免疫联合化疗转化策略。",
+          "guidelineRef": {
+            "evidence_type": "病例+临床推理",
+            "doc_id": "ce7d1e2489c11e2a4f6c32ea7e4cdb08",
+            "split_index": 1,
+            "type": "journal",
+            "authority": "CANCER IMMUNOLOGY IMMUNOTHERAPY",
+            "source_title": "Immune checkpoint inhibitors combined with chemotherapy in conversion therapy for stage IV gastric cancer: a multicenter retrospective cohort study",
+            "source_version": "2025",
+            "source_section": "Immune checkpoint inhibitors combined with chemotherapy in conversion therapy for stage IV gastric cancer: a multicenter retrospective cohort study",
+            "source_url": "",
+            "evidence_summary": "PD-1 抑制剂联合化疗在 IV 期胃癌转化治疗中可行，部分人群可获 R0 切除及生存获益。"
+          }
+        },
+        {
+          "id": "Q3",
+          "type": "疗效复评与局部治疗",
+          "phase": "转化治疗后评估",
+          "timepoint": "术前评估",
+          "question": "患者经转化治疗后影像显示肿瘤显著回缩，关于后续局部治疗决策，正确的是？",
+          "options": {
+            "A": "影像学缓解即等同于治愈，无需手术直接观察",
+            "B": "因曾发生远处转移，术后必须继续含免疫药物的辅助治疗",
+            "C": "经 MDT 评估可切除后，应行原发灶及转移灶根治性切除",
+            "D": "仅行原发灶切除，肝转移灶行射频消融即可"
+          },
+          "answer": "C",
+          "answer_text": "经 MDT 评估可切除后，应行原发灶及转移灶根治性切除",
+          "explain": "对于转化治疗有效的单一远处转移患者，经 MDT 评估可切除时，推荐行根治性手术（原发灶 + 转移灶），以争取长期生存。",
+          "keyPoint": "转化治疗有效且可切除的寡转移胃癌，推荐根治性手术。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+            "split_index": 152,
+            "type": "guideline",
+            "authority": "CSCO",
+            "source_title": "中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026",
+            "source_version": "2026",
+            "source_section": "【注释】",
+            "source_url": "",
+            "evidence_summary": "原发灶及转移灶可根治切除且 PS 好者，可选转化治疗加根治性手术，优先推荐 MDT 讨论。"
+          }
+        },
+        {
+          "id": "Q4",
+          "type": "治疗决策",
+          "phase": "术后辅助治疗",
+          "timepoint": "术后病理确认 pCR 后",
+          "question": "患者术后病理证实 pCR，关于术后辅助治疗策略，合理的考量是？",
+          "options": {
+            "A": "pCR 患者必须完成足疗程辅助免疫治疗以防复发",
+            "B": "无论病理反应如何，均需按初始分期完成辅助化疗",
+            "C": "因初诊有肝转移，术后必须行预防性肝动脉灌注化疗",
+            "D": "pCR 提示预后良好，辅助治疗策略需个体化权衡，可考虑观察"
+          },
+          "answer": "D",
+          "answer_text": "pCR 提示预后良好，辅助治疗策略需个体化权衡，可考虑观察",
+          "explain": "pCR 是良好预后指标，但是否免除辅助治疗尚缺乏高级别证据，需个体化权衡。本例未行辅助治疗且长期无复发，提示特定人群可能获益。",
+          "keyPoint": "转化治疗后获 pCR 者预后良好，辅助治疗策略需个体化评估。",
+          "guidelineRef": {
+            "evidence_type": "病例+临床推理",
+            "doc_id": "MEETING_20260730_153537_D6146FE3",
+            "split_index": 1,
+            "type": "meeting",
+            "authority": "ESMO GI 2026",
+            "source_title": "Conversion surgery following chemo-immunotherapy in initially unresectable gastric and gastroesophageal junction adenocarcinoma: a multicenter retrospective study.",
+            "source_version": "2026",
+            "source_section": "Conversion surgery following chemo-immunotherapy in initially unresectable gastric and gastroesophageal junction adenocarcinoma: a multicenter retrospective study.",
+            "source_url": "https://cslide.ctimeetingtech.com/coasis_21569/attendee/confcal_2/presentation/list?q=631eP&c=pnr",
+            "evidence_summary": "化疗免疫治疗后获 pCR 或显著缓解者，转化手术可行且预后较好，辅助治疗需权衡。"
+          }
+        },
+        {
+          "id": "Q5",
+          "type": "治疗决策",
+          "phase": "转化治疗",
+          "timepoint": "一线系统治疗",
+          "question": "对于该初诊不可切除的 IV 期胃癌患者，在 SOX 化疗基础上联合纳武利尤单抗进行转化治疗的决策，下列哪项最符合该病例采取探索性转化治疗的理论依据？",
+          "options": {
+            "A": "针对 PD-L1 高表达人群，回顾性数据显示免疫联合化疗可提高转化切除率及生存",
+            "B": "所有 IV 期胃癌无论生物标志物如何，均标准推荐一线免疫联合化疗",
+            "C": "MSS 患者必须使用免疫联合化疗以克服原发耐药，这是唯一标准方案",
+            "D": "该方案仅适用于 dMMR/MSI-H 患者，本病例属于完全无依据的超适应症用药"
+          },
+          "answer": "A",
+          "answer_text": "针对 PD-L1 高表达人群，回顾性数据显示免疫联合化疗可提高转化切除率及生存",
+          "explain": "CS01 等回顾性研究显示免疫联合化疗在 IV 期胃癌转化治疗中可行，尤其 PD-L1 高表达亚组。MSS 背景下此方案属探索性策略，非普遍标准，需个体化评估。",
+          "keyPoint": "MSS 型胃癌的免疫联合转化治疗缺乏 I 级证据，主要基于回顾性数据及生物标志物特征的个体化探索。",
+          "guidelineRef": {
+            "evidence_type": "病例+临床推理",
+            "doc_id": "ce7d1e2489c11e2a4f6c32ea7e4cdb08",
+            "split_index": 1,
+            "type": "journal",
+            "authority": "CANCER IMMUNOLOGY IMMUNOTHERAPY",
+            "source_title": "Immune checkpoint inhibitors combined with chemotherapy in conversion therapy for stage IV gastric cancer: a multicenter retrospective cohort study",
+            "source_version": "2025",
+            "source_section": "Immune checkpoint inhibitors combined with chemotherapy in conversion therapy for stage IV gastric cancer: a multicenter retrospective cohort study",
+            "source_url": "",
+            "evidence_summary": "多中心回顾性研究显示 PD-1 抑制剂联合化疗在 IV 期胃癌转化治疗中可行，特定人群生存获益显著。"
+          }
+        }
+      ],
+      "missing_information": [],
+      "second_cancer_type": "胃癌"
+    },
+    "detail": {
+      "schema_version": "1.0",
+      "case_id": "CASE-351D64C1",
+      "cancer_type": "消化系统肿瘤",
+      "difficulty": "进阶",
+      "decision_point_count": 5,
+      "image": {
+        "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/34KJYRO-mfAiPzq9YKAXJA/TDwk7aGbzwIZi7k4sRvAGmRrWGWLVJ8U.png",
+        "alt": "(A) 内镜示胃窦小弯侧 5cm II 型病变；(B) CT 示肝 S6 段 6cm 转移灶；(C) 胃周肿大淋巴结。"
+      },
+      "home": {
+        "recommendation_label": "今日推荐病例",
+        "display_title": "MSS 型晚期胃癌伴肝转移及巨块淋巴结转移经免疫联合化疗获病理完全缓解",
+        "description": "64 岁男性，因上腹痛就诊。初诊胃镜示胃窦小弯侧 5cm II 型病变，活检为中分化腺癌；CT 示肝脏 S6 段 6cm 孤立转移灶及多个区域巨块淋巴结肿大。生物标志物：MSS、EBV 阴性、HER2 阴性、TMB 7.8 mut/Mb、PD-L1 CPS≥70%、CD8+ TIL 密度高（~60 个/HPF），携带生殖系 TP53 p.R106C 突变。接……"
+      },
+      "overview": {
+        "hero": {
+          "title": "MSS 型晚期胃癌伴肝转移及巨块淋巴结转移经免疫联合化疗获病理完全缓解",
+          "subtitle": "MSS 型胃癌虽通常对免疫治疗反应不佳，但超高 PD-L1 表达（CPS≥70%）可能作为关键预测指标驱动深度响应；转化治疗联合手术可实现晚期胃癌全病灶病理完全缓解。"
+        },
+        "tabs": [
+          {
+            "id": "summary",
+            "label": "病例摘要",
+            "order": 1,
+            "summary_items": [
+              {
+                "order": 1,
+                "label": "患者与就诊背景",
+                "value": "64 岁男性，因上腹痛就诊。初诊胃镜示胃窦小弯侧 5cm II 型病变，活检为中分化腺癌；CT 示肝脏 S6 段 6cm 孤立转移灶及多个区域巨块淋巴结肿大。生物标志物：MSS、EBV 阴性、HER2 阴性、TMB 7.8 mut/Mb、PD-L1 CPS≥70%、CD8+ TIL 密度高（~60 个/HPF），携带生殖系 TP53 p.R106C 突变。接受 4 周期 SOX 方案联合纳武利尤单抗转化治疗后，CEA 降至正常，影像示原发灶瘢痕化、转移灶显著回缩。行远端胃大部切除术（D2 清扫）及肝部分切除术，术后……"
+              },
+              {
+                "order": 2,
+                "label": "疾病与分期",
+                "value": "胃窦中分化腺癌，伴肝脏 S6 段孤立转移及区域淋巴结肿大（临床分期未明确，术后 pCR）"
+              },
+              {
+                "order": 3,
+                "label": "分子与病理",
+                "value": "样本来源：胃窦活检及切除标本。病理：中分化腺癌。分子特征：微卫星稳定（MSS）、EBV 阴性、HER2 阴性、TMB 7.8 mut/Mb、PD-L1 CPS≥70%（克隆 28-8）、CD8+ TIL 密度平均约 60 个/HPF。遗传检测：生殖系 TP53 p.R106C 突变。"
+              },
+              {
+                "order": 4,
+                "label": "核心教学点",
+                "value": "MSS 型胃癌虽通常对免疫治疗反应不佳，但超高 PD-L1 表达（CPS≥70%）可能作为关键预测指标驱动深度响应；转化治疗联合手术可实现晚期胃癌全病灶病理完全缓解。"
+              }
+            ]
+          },
+          {
+            "id": "timeline",
+            "label": "病程轴",
+            "order": 2,
+            "timeline_items": [
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 1",
+                "detail": "初诊：上腹痛，胃镜及 CT 确诊胃腺癌伴肝转移及淋巴结肿大"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 2",
+                "detail": "生物标志物检测完成。治疗第 1-4 周期：SOX 方案（S-1+ 奥沙利铂）联合纳武利尤单抗（360 mg/3 周），CEA 从 40.01 ng/mL 降至正常，影像学评估肿瘤显著回缩。手术后：行远端胃大部切除术及肝部分切除术，病理确认 pCR。随访：术后未行辅助免疫化疗，无复发生存超过 3 年 3 个月。"
+              }
+            ]
+          },
+          {
+            "id": "images",
+            "label": "病例图片",
+            "order": 3,
+            "image_items": [
+              {
+                "id": "IMG1",
+                "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/34KJYRO-mfAiPzq9YKAXJA/TDwk7aGbzwIZi7k4sRvAGmRrWGWLVJ8U.png",
+                "timepoint": "化疗前",
+                "caption": "(A) 内镜示胃窦小弯侧 5cm II 型病变；(B) CT 示肝 S6 段 6cm 转移灶；(C) 胃周肿大淋巴结。",
+                "alt": "(A) 内镜示胃窦小弯侧 5cm II 型病变；(B) CT 示肝 S6 段 6cm 转移灶；(C) 胃周肿大淋巴结。",
+                "mapping_status": "caption_only",
+                "related_timeline": null
+              },
+              {
+                "id": "IMG2",
+                "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/34KJYRO-mfAiPzq9YKAXJA/A67nvD9kijPSiPHjwBBlUUUenMZn51bq.png",
+                "timepoint": "免疫组化检测时",
+                "caption": "(A) CD8 染色示高密度浸润淋巴细胞；(B) PD-L1 染色示 CPS≥70%。",
+                "alt": "(A) CD8 染色示高密度浸润淋巴细胞；(B) PD-L1 染色示 CPS≥70%。",
+                "mapping_status": "caption_only",
+                "related_timeline": null
+              },
+              {
+                "id": "IMG3",
+                "src": "https://bosdev.liangyihui.net/temp/1659944452.png",
+                "timepoint": "时间点不详",
+                "caption": "解析结果未提供链接及图注信息。",
+                "alt": "解析结果未提供链接及图注信息。",
+                "mapping_status": "caption_only",
+                "related_timeline": null
+              }
+            ]
+          }
+        ]
+      },
+      "second_cancer_type": "胃癌"
+    }
+  },
+  {
+    "Questions": {
+      "schema_version": "1.0",
+      "case_id": "CASE-E920FEFC",
+      "cancer_type": "胸部肿瘤",
+      "generation_status": "success",
+      "difficulty": "进阶",
+      "question_count": 5,
+      "questions": [
+        {
+          "id": "Q1",
+          "type": "分子诊断",
+          "phase": "复发转移评估",
+          "timepoint": "2024 年 4 月",
+          "question": "患者 2024 年 4 月出现肝弥漫转移伴肝功能衰竭，活检证实为三阴性乳腺癌。关于此时生物标志物检测策略，下列哪项最符合指南推荐？",
+          "options": {
+            "A": "直接沿用 2020 年原发灶 ER/PR/HER2 阴性结果，无需再次检测",
+            "B": "仅检测 BRCA1/2 胚系突变，因已明确为三阴性无需复测受体",
+            "C": "对肝转移灶进行二次活检，重新评估受体状态及 BRCA 等标志物",
+            "D": "因肝功能衰竭无法耐受穿刺，仅凭影像学诊断直接开始治疗"
+          },
+          "answer": "C",
+          "answer_text": "对肝转移灶进行二次活检，重新评估受体状态及 BRCA 等标志物",
+          "explain": "指南推荐复发转移时应积极鼓励对病灶二次活检及免疫组化检测，以明确诊断和重新评估受体状态，尤其当原发与转移时间间隔长或治疗史复杂时。",
+          "keyPoint": "复发转移灶受体状态可能改变，二次活检是精准治疗基础。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "972f14ef-1ff3-4500-af63-64507eb3e652",
+            "split_index": 9,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "中国晚期三阴性乳腺癌临床诊疗指南(2024版)",
+            "source_version": "2024",
+            "source_section": "（二）病理学检查",
+            "source_url": "",
+            "evidence_summary": "指南建议对复发或转移部位进行二次活检及免疫组化检测，以明确诊断和重新评估受体状态。"
+          }
+        },
+        {
+          "id": "Q2",
+          "type": "治疗决策",
+          "phase": "多线治疗失败后",
+          "timepoint": "2024 年 4 月",
+          "question": "患者多线治疗失败后出现肝内脏危象，BRCA1/2 阴性。关于此时系统治疗药物选择原则，下列哪项最符合指南推荐？",
+          "options": {
+            "A": "必须继续使用既往有效的紫杉类方案，不可更换药物类别",
+            "B": "仅能选择单药免疫治疗，因化疗已导致严重不良反应",
+            "C": "因内脏危象禁忌任何全身治疗，仅行最佳支持治疗",
+            "D": "优先选择具有新作用机制的药物（如抗体偶联药物），无论是否联合"
+          },
+          "answer": "D",
+          "answer_text": "优先选择具有新作用机制的药物（如抗体偶联药物），无论是否联合",
+          "explain": "指南建议多线治疗失败后应更换新机制药物（如 ADC）。病例中联合方案属探索性应用，核心原则是引入新机制而非特定联合为标准。",
+          "keyPoint": "多线失败后需转换作用机制，ADC 类药物是重要选择方向。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "972f14ef-1ff3-4500-af63-64507eb3e652",
+            "split_index": 14,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "中国晚期三阴性乳腺癌临床诊疗指南(2024版)",
+            "source_version": "2024",
+            "source_section": "二、晚期三阴性乳腺癌治疗总体原则",
+            "source_url": "",
+            "evidence_summary": "指南指出复发患者若 DFI<12 月或既往方案失败，建议更换新的治疗药物，考虑新机制。"
+          }
+        },
+        {
+          "id": "Q3",
+          "type": "不良反应管理",
+          "phase": "免疫治疗期间",
+          "timepoint": "2024 年 5 月",
+          "question": "患者联合治疗 2 周期后出现尿频、尿急、血肌酐升高，临床高度怀疑免疫性膀胱炎。下列处理策略最恰当的是？",
+          "options": {
+            "A": "暂停免疫检查点抑制剂，评估严重程度后考虑单药维持或激素治疗",
+            "B": "立即永久停用所有抗肿瘤药物，不再尝试任何后续治疗",
+            "C": "继续原联合方案不变，仅增加利尿剂对症处理",
+            "D": "将戈沙妥珠单抗剂量减半，免疫药物剂量保持不变"
+          },
+          "answer": "A",
+          "answer_text": "暂停免疫检查点抑制剂，评估严重程度后考虑单药维持或激素治疗",
+          "explain": "疑似免疫相关不良反应时，应暂停可疑药物（如免疫药），根据毒性分级决定是否永久停药或恢复，并可考虑调整方案（如改单药）而非盲目全停或硬撑。",
+          "keyPoint": "免疫相关毒性需及时暂停可疑药物，分级管理并个体化调整方案。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "c9294314-38c0-4a55-92b6-b261f374a7da",
+            "split_index": 60,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "中国肿瘤整合诊治技术指南（CACA） 整体支持",
+            "source_version": "2023",
+            "source_section": "（五）不良反应的处理",
+            "source_url": "",
+            "evidence_summary": "指南建议根据不良反应严重程度分级处理，Ⅱ度及以上需暂停用药，复杂不良反应需多学科评估。"
+          }
+        },
+        {
+          "id": "Q4",
+          "type": "治疗决策",
+          "phase": "复发治疗调整",
+          "timepoint": "2023 年 9 月 -2024 年 1 月",
+          "question": "患者因严重不良反应拒绝标准静脉化疗，临床调整为口服化疗或单药免疫维持。关于此决策性质，下列描述最准确的是？",
+          "options": {
+            "A": "这是指南推荐的所有三阴性乳腺癌患者的标准首选替代方案",
+            "B": "这是基于患者意愿与耐受性的个体化妥协，非指南标准首选",
+            "C": "因已达到完全缓解，停用化疗是标准的巩固治疗策略",
+            "D": "免疫单药维持疗效优于含铂化疗，应作为一线标准推广"
+          },
+          "answer": "B",
+          "answer_text": "这是基于患者意愿与耐受性的个体化妥协，非指南标准首选",
+          "explain": "指南强调需回顾既往毒性及患者意愿。该调整是尊重患者拒绝静脉化疗的个体化决策，并非指南推荐的标准等效替代方案。",
+          "keyPoint": "治疗决策需权衡疗效与耐受性，患者意愿可导向个体化非标准方案。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+            "split_index": 364,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+            "source_version": "2026",
+            "source_section": "13.2.3.1 药物预防性治疗",
+            "source_url": "",
+            "evidence_summary": "指南要求复发治疗需详细记录既往治疗毒性及患者耐受性，以指导后续个体化选择。"
+          }
+        },
+        {
+          "id": "Q5",
+          "type": "治疗决策",
+          "phase": "内脏危象挽救治疗",
+          "timepoint": "2024 年 4 月",
+          "question": "该患者多线治疗失败且拒绝静脉化疗，突发肝内脏危象。在此无标准方案背景下，下列哪项是临床可考虑的个体化挽救尝试？",
+          "options": {
+            "A": "继续单药卡培他滨口服，因患者此前拒绝静脉化疗",
+            "B": "仅行最佳支持治疗，因肝功能衰竭禁忌任何抗肿瘤治疗",
+            "C": "启动戈沙妥珠单抗联合帕博利珠单抗的联合治疗方案",
+            "D": "立即行肝动脉栓塞术（TACE）作为首选全身控制手段"
+          },
+          "answer": "C",
+          "answer_text": "启动戈沙妥珠单抗联合帕博利珠单抗的联合治疗方案",
+          "explain": "指南推荐内脏危象首选强效化疗。本例 ADC+IO 属多线失败后的探索性应用，虽短期有效但毒性大，非标准首选，需医患共同决策权衡风险。",
+          "keyPoint": "无标准方案时，ADC 联合免疫可作为个体化尝试，但需警惕高毒性。",
+          "guidelineRef": {
+            "evidence_type": "病例+临床推理",
+            "doc_id": "972f14ef-1ff3-4500-af63-64507eb3e652",
+            "split_index": 14,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "中国晚期三阴性乳腺癌临床诊疗指南(2024版)",
+            "source_version": "2024",
+            "source_section": "二、晚期三阴性乳腺癌治疗总体原则",
+            "source_url": "",
+            "evidence_summary": "指南指出病情进展快需强效方案，但具体组合需结合患者既往治疗及耐受性个体化决策。"
+          }
+        }
+      ],
+      "missing_information": [],
+      "second_cancer_type": "乳腺癌"
+    },
+    "detail": {
+      "schema_version": "1.0",
+      "case_id": "CASE-E920FEFC",
+      "cancer_type": "胸部肿瘤",
+      "difficulty": "进阶",
+      "decision_point_count": 5,
+      "image": {
+        "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/5dDO5u3u5MyDnNMgM0vdQQ/jUmnVkpoeVyco0FKsOE2SmAWLnG9lDdJ.png",
+        "alt": "无明确相邻图注"
+      },
+      "home": {
+        "recommendation_label": "今日推荐病例",
+        "display_title": "三阴性乳腺癌伴多线治疗失败后肝内脏危象的挽救治疗病例",
+        "description": "43 岁女性，2020 年 8 月发现乳腺肿物，确诊三阴性乳腺癌（TNBC）伴腋窝淋巴结转移。行新辅助化疗及左乳改良根治术，术后辅助放疗及卡培他滨强化治疗。2021 年 9 月出现肺转移，行白蛋白结合型紫杉醇化疗。2022 年 5 月出现脑转移，行脑部放疗联合帕博利珠单抗免疫治疗。2023 年病情进展，因患者拒绝静脉化疗调整为口服卡培他滨联合免疫或单药免疫维……"
+      },
+      "overview": {
+        "hero": {
+          "title": "三阴性乳腺癌伴多线治疗失败后肝内脏危象的挽救治疗病例",
+          "subtitle": "三阴性乳腺癌多线治疗失败后出现肝内脏危象的识别与处理；戈沙妥珠单抗联合免疫治疗在晚期三阴性乳腺癌内脏危象中的挽救性应用价值；免疫治疗相关不良反应（如免疫性膀胱炎）的监测与管理策略；经济因素对晚期癌症患者治疗方案选择及预后的影响。"
+        },
+        "tabs": [
+          {
+            "id": "summary",
+            "label": "病例摘要",
+            "order": 1,
+            "summary_items": [
+              {
+                "order": 1,
+                "label": "患者与就诊背景",
+                "value": "43 岁女性，2020 年 8 月发现乳腺肿物，确诊三阴性乳腺癌（TNBC）伴腋窝淋巴结转移。行新辅助化疗及左乳改良根治术，术后辅助放疗及卡培他滨强化治疗。2021 年 9 月出现肺转移，行白蛋白结合型紫杉醇化疗。2022 年 5 月出现脑转移，行脑部放疗联合帕博利珠单抗免疫治疗。2023 年病情进展，因患者拒绝静脉化疗调整为口服卡培他滨联合免疫或单药免疫维持。2024 年 4 月突发肝内脏危象（弥漫性肝转移、肝功能衰竭），启动戈沙妥珠单抗联合帕博利珠单抗挽救治疗，疗效显著但出现疑似免疫性膀胱炎不良反应。后因经济原……"
+              },
+              {
+                "order": 2,
+                "label": "疾病与分期",
+                "value": "乳腺浸润性导管癌，三阴性，伴腋窝淋巴结、肺、脑、肝转移"
+              },
+              {
+                "order": 3,
+                "label": "分子与病理",
+                "value": "原发灶（2020 年 8 月穿刺及 2021 年 1 月术后）：ER 阴性，PR 阴性，HER2 阴性，Ki-67 70%；肝转移灶（2024 年 4 月穿刺）：ER 阴性，PR 阴性，HER2 阴性，Ki-67 60%；胚系检测：BRCA1/2 阴性（2024 年 4 月）。"
+              },
+              {
+                "order": 4,
+                "label": "核心教学点",
+                "value": "三阴性乳腺癌多线治疗失败后出现肝内脏危象的识别与处理；戈沙妥珠单抗联合免疫治疗在晚期三阴性乳腺癌内脏危象中的挽救性应用价值；免疫治疗相关不良反应（如免疫性膀胱炎）的监测与管理策略；经济因素对晚期癌症患者治疗方案选择及预后的影响。"
+              }
+            ]
+          },
+          {
+            "id": "timeline",
+            "label": "病程轴",
+            "order": 2,
+            "timeline_items": [
+              {
+                "date": "2020",
+                "title": "诊疗节点 1",
+                "detail": "2020 年 8 月：发现乳腺肿物，穿刺确诊三阴性乳腺癌伴腋窝淋巴结转移"
+              },
+              {
+                "date": "2020",
+                "title": "诊疗节点 2",
+                "detail": "2020 年 8 月 -2021 年 1 月：完成 8 周期新辅助化疗"
+              },
+              {
+                "date": "2021",
+                "title": "诊疗节点 3",
+                "detail": "2021 年 1 月：左乳改良根治术，术后病理示浸润性导管癌，Ⅲ级，4 cm×2.5 cm×2 cm，脉管瘤栓 (+)，1 枚淋巴结转移，ER-/PR-/HER2-，Ki-67 70%"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 4",
+                "detail": "术后行 50 Gy/25 次放疗及卡培他滨强化辅助化疗，耐受良好"
+              },
+              {
+                "date": "2021",
+                "title": "诊疗节点 5",
+                "detail": "2021 年 9 月：复查发现肺多发转移，行白蛋白结合型紫杉醇化疗 6 周期，病灶稳定"
+              },
+              {
+                "date": "2022",
+                "title": "诊疗节点 6",
+                "detail": "2022 年 5 月：发现脑转移，行脑部定向放疗联合帕博利珠单抗"
+              },
+              {
+                "date": "2023",
+                "title": "诊疗节点 7",
+                "detail": "2023 年 4 月：肺转移增大，因拒化疗改行肺部放疗联合帕博利珠单抗"
+              },
+              {
+                "date": "2023",
+                "title": "诊疗节点 8",
+                "detail": "2023 年 9 月：颅内进展，重启顺铂 + 吉西他滨 + 帕博利珠单抗，2 周期后部分缓解，因严重不良反应改口服卡培他滨 + 帕博利珠单抗"
+              },
+              {
+                "date": "2024",
+                "title": "诊疗节点 9",
+                "detail": "2024 年 1 月：脑转移消退、肺稳定，停口服化疗，仅帕博利珠单抗维持"
+              },
+              {
+                "date": "2024",
+                "title": "诊疗节点 10",
+                "detail": "2024 年 4 月：突发腹胀，MRI 示肝弥漫转移，活检证实乳腺来源低分化癌，ER-/PR-/HER2-，Ki-67 60%，BRCA1/2 阴性，总胆红素 40.6 μmol/L，肝酶升高"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 11",
+                "detail": "启动戈沙妥珠单抗 + 帕博利珠单抗"
+              },
+              {
+                "date": "2024",
+                "title": "诊疗节点 12",
+                "detail": "2024 年 5 月：治疗 2 周期后肝肿瘤负荷降低，CA125/CA153 下降，出现尿频尿急血肌酐升高，疑免疫性膀胱炎，停帕博利珠单抗，改戈沙妥珠单抗单药"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 13",
+                "detail": "后续随访肝脏病灶持续退缩，PFS 延长至 16.3 个月"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 14",
+                "detail": "期间因费用问题自行延长给药间隔并转用中药"
+              },
+              {
+                "date": "2025",
+                "title": "诊疗节点 15",
+                "detail": "2025 年 8 月：CT 示肝内病灶增大"
+              },
+              {
+                "date": "2025",
+                "title": "诊疗节点 16",
+                "detail": "2025 年 11 月：大量腹水、重度贫血、无尿入院，腹腔穿刺出不凝血，提示肝转移瘤破裂出血，因循环衰竭离世。"
+              }
+            ]
+          },
+          {
+            "id": "images",
+            "label": "病例图片",
+            "order": 3,
+            "image_items": [
+              {
+                "id": "IMG1",
+                "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/5dDO5u3u5MyDnNMgM0vdQQ/jUmnVkpoeVyco0FKsOE2SmAWLnG9lDdJ.png",
+                "timepoint": "时间未明确",
+                "caption": "无明确相邻图注",
+                "alt": "无明确相邻图注",
+                "mapping_status": "caption_only",
+                "related_timeline": null
+              },
+              {
+                "id": "IMG2",
+                "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/5dDO5u3u5MyDnNMgM0vdQQ/HTF9c04iiXeuHJn9681R5DX9xxQ2smJg.png",
+                "timepoint": "2024 年 4 月 9 日/2024 年 5 月 26 日/2024 年 7 月 31 日",
+                "caption": "图 1 随访影像显示患者肝内转移性肿瘤负荷显著减少。注：A, D：2024 年 4 月 9 日，显示多处肝内转移；B, E：两次治疗周期后，2024 年 5 月 26 日显示肿瘤显著退化；C, F：2024 年 7 月 31 日随访显示肝转移负荷持续减少。",
+                "alt": "图 1 随访影像显示患者肝内转移性肿瘤负荷显著减少。注：A, D：2024 年 4 月 9 日，显示多处肝内转移；B, E：两次治疗周期后，2024 年 5 月 26 日显示肿瘤显著退化；C, F：2024 年 7 月 31 日随访显示肝转移负荷持续减少。",
+                "mapping_status": "caption_only",
+                "related_timeline": null
+              },
+              {
+                "id": "IMG3",
+                "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/5dDO5u3u5MyDnNMgM0vdQQ/ITc6bzUbk8A7sWzW71dZjODqf0GXrgki.png",
+                "timepoint": "时间未明确",
+                "caption": "图 2 患者治疗过程。",
+                "alt": "图 2 患者治疗过程。",
+                "mapping_status": "caption_only",
+                "related_timeline": null
+              }
+            ]
+          }
+        ]
+      },
+      "second_cancer_type": "乳腺癌"
+    }
+  },
+  {
+    "Questions": {
+      "schema_version": "1.0",
+      "case_id": "CASE-CC5590E2",
+      "cancer_type": "消化系统肿瘤",
+      "generation_status": "success",
+      "difficulty": "进阶",
+      "question_count": 5,
+      "questions": [
+        {
+          "id": "Q1",
+          "type": "诊断与分期",
+          "phase": "复发诊断阶段",
+          "timepoint": "术后 14 个月",
+          "question": "患者术后 14 个月发现直肠系膜复发肿块，既往接受过新辅助放化疗及根治术。根据 TNM 分期原则，该复发肿瘤的分期前缀应如何标注？",
+          "options": {
+            "A": "使用 y 前缀，表示为 ypTNM 分期",
+            "B": "直接使用 pTNM 分期，无需前缀",
+            "C": "使用 r 前缀，表示为 rTNM 分期",
+            "D": "使用 m 前缀，表示为 mpTNM 分期"
+          },
+          "answer": "C",
+          "answer_text": "使用 r 前缀，表示为 rTNM 分期",
+          "explain": "前缀 y 用于新辅助治疗后的分期；前缀 r 专用于经治疗获得无瘤间期后复发的患者。该患者术后缓解 1 年复发，符合 rTNM 定义。",
+          "keyPoint": "复发肿瘤分期需加 r 前缀，区别于新辅助后的 y 前缀。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "6e90e9ac-4a5f-41cb-b7c6-c761ecbdc5e8",
+            "split_index": 4,
+            "type": "guideline",
+            "authority": "中华医学会肿瘤学分会",
+            "source_title": "中国结直肠癌诊疗规范（2023版）",
+            "source_version": "2023",
+            "source_section": "中国结直肠癌诊疗规范（2023版）",
+            "source_url": "",
+            "evidence_summary": "指南明确前缀 r 用于经治疗获得一段无瘤间期后复发的患者（如 rTNM）。"
+          }
+        },
+        {
+          "id": "Q2",
+          "type": "分子诊断",
+          "phase": "复发评估阶段",
+          "timepoint": "复发确诊时",
+          "question": "针对该复发转移性直肠癌患者，除已知的 pMMR/MSS 状态外，指南推荐必须检测哪些基因突变以指导后续治疗？",
+          "options": {
+            "A": "检测 HER2 和 NTRK 融合基因",
+            "B": "重复检测 MMR 蛋白表达",
+            "C": "检测 EGFR 和 ALK 基因突变",
+            "D": "检测 KRAS、NRAS 和 BRAF 基因状态"
+          },
+          "answer": "D",
+          "answer_text": "检测 KRAS、NRAS 和 BRAF 基因状态",
+          "explain": "指南推荐对临床确诊为复发或转移性结直肠癌患者进行 KRAS、NRAS 和 BRAF 基因突变检测，以指导肿瘤治疗。HER2/NTRK 为建议检测项目。",
+          "keyPoint": "复发/转移性结直肠癌必须检测 RAS/BRAF 状态指导治疗。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "ba3e5661-e413-4e06-a609-c1c957a2146c",
+            "split_index": 14,
+            "type": "guideline",
+            "authority": "国家卫生健康委员会医政司, 中华医学会肿瘤学分会",
+            "source_title": "国家卫生健康委员会中国结直肠癌诊疗规范（2023版）",
+            "source_version": "2023",
+            "source_section": "（八）病理组织学检查",
+            "source_url": "",
+            "evidence_summary": "指南推荐对临床确诊为复发或转移性结直肠癌患者进行 KRAS、NRAS 和 BRAF 基因突变检测，以指导肿瘤治疗。"
+          }
+        },
+        {
+          "id": "Q3",
+          "type": "治疗决策",
+          "phase": "二线治疗选择",
+          "timepoint": "化疗并发坏死性筋膜炎后",
+          "question": "患者因 FOLFOXIRI 并发严重坏死性筋膜炎无法耐受化疗，且为 pMMR/MSS 型。符合指南原则的后续处理是？",
+          "options": {
+            "A": "转换非化疗联合方案并评估局部治疗",
+            "B": "继续原方案化疗并尝试加强支持治疗",
+            "C": "立即行挽救性手术切除复发灶",
+            "D": "单用免疫检查点抑制剂治疗"
+          },
+          "answer": "A",
+          "answer_text": "转换非化疗联合方案并评估局部治疗",
+          "explain": "患者不耐受化疗且 pMMR/MSS 对单药免疫不敏感。在 MDT 讨论下，可考虑超适应症联合方案（如 RIN）及局部放疗，避免再次高强度化疗或盲目单药免疫。",
+          "keyPoint": "化疗不耐受且 pMMR 时需探索非化疗联合策略及局部治疗。",
+          "guidelineRef": {
+            "evidence_type": "病例+临床推理",
+            "doc_id": "ba3e5661-e413-4e06-a609-c1c957a2146c",
+            "split_index": 121,
+            "type": "guideline",
+            "authority": "国家卫生健康委员会医政司, 中华医学会肿瘤学分会",
+            "source_title": "国家卫生健康委员会中国结直肠癌诊疗规范（2023版）",
+            "source_version": "2023",
+            "source_section": "（五）内科药物治疗原则",
+            "source_url": "",
+            "evidence_summary": "指南指出初始不可切除复发患者需 MDT 讨论决定放化疗和/或全身系统治疗，治疗后再次评估可切除性。"
+          }
+        },
+        {
+          "id": "Q4",
+          "type": "疗效复评与局部治疗",
+          "phase": "综合治疗实施阶段",
+          "timepoint": "启动 RIN 方案同期",
+          "question": "对于该局部复发且既往接受过盆腔放疗的患者，在制定局部治疗策略时，关于再程放疗的决策原则正确的是？",
+          "options": {
+            "A": "绝对禁忌再次放疗，只能选择手术",
+            "B": "若既往接受过放疗，应谨慎评估风险，由 MDT 决定",
+            "C": "若既往未接受过放疗，首选术前同步放化疗",
+            "D": "直接给予姑息减症放疗，无需 MDT 讨论"
+          },
+          "answer": "B",
+          "answer_text": "若既往接受过放疗，应谨慎评估风险，由 MDT 决定",
+          "explain": "指南指出局部区域复发直肠癌若既往接受过盆腔放疗，应谨慎评估再程放疗的高风险，建议多学科会诊决定治疗方案。",
+          "keyPoint": "既往放疗史者再程放疗需谨慎评估并经 MDT 决策。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "ba3e5661-e413-4e06-a609-c1c957a2146c",
+            "split_index": 92,
+            "type": "guideline",
+            "authority": "国家卫生健康委员会医政司, 中华医学会肿瘤学分会",
+            "source_title": "国家卫生健康委员会中国结直肠癌诊疗规范（2023版）",
+            "source_version": "2023",
+            "source_section": "（一）放射治疗适应证",
+            "source_url": "",
+            "evidence_summary": "指南建议若既往接受过盆腔放疗，应谨慎评估再程放疗的高风险，建议多学科会诊决定治疗方案。"
+          }
+        },
+        {
+          "id": "Q5",
+          "type": "治疗决策",
+          "phase": "二线治疗决策",
+          "timepoint": "FOLFOXIRI 并发坏死性筋膜炎后",
+          "question": "针对该 pMMR/MSS 且化疗不耐受患者，下列哪项描述最符合当前的治疗探索现状？",
+          "options": {
+            "A": "常规使用单药 PD-1 抑制剂作为标准二线治疗",
+            "B": "无视严重感染史再次尝试足量 FOLFOXIRI 方案",
+            "C": "尝试瑞戈非尼联合双免疫的超适应症方案（基于个案报道）",
+            "D": "仅行局部放疗而完全放弃全身系统性治疗"
+          },
+          "answer": "C",
+          "answer_text": "尝试瑞戈非尼联合双免疫的超适应症方案（基于个案报道）",
+          "explain": "pMMR 患者对单药免疫不敏感，标准二线受限。本例 RIN 方案属超适应症探索，非指南标准推荐，需明确其个案性质。",
+          "keyPoint": "pMMR 患者化疗不耐受时，靶向联合免疫属探索性策略，非标准推荐。",
+          "guidelineRef": {
+            "evidence_type": "病例+临床推理",
+            "doc_id": "f51ad2ef-8e21-42f9-bfd1-f2ed36512587",
+            "split_index": 161,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "中国肿瘤整合诊治技术指南（CACA） 病理诊断",
+            "source_version": "2023",
+            "source_section": "（三）免疫组化和特殊染色",
+            "source_url": "",
+            "evidence_summary": "指南指出 pMMR 对免疫单药不敏感，提示需探索联合策略，但未直接推荐 RIN 方案。"
+          }
+        }
+      ],
+      "missing_information": [],
+      "second_cancer_type": "直肠癌"
+    },
+    "detail": {
+      "schema_version": "1.0",
+      "case_id": "CASE-CC5590E2",
+      "cancer_type": "消化系统肿瘤",
+      "difficulty": "进阶",
+      "decision_point_count": 5,
+      "image": {
+        "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/RJu7VK3cHSGh_R1JaDqUTg/05nS8WJrxYH8Hno8c1Yw0eB2tIWAMzLQ.png",
+        "alt": "图 1. 治疗前后患者的 PET 扫描图像。（a）和（c）显示 2023 年 10 月治疗开始前的盆腔横切片。可见肿大的高代谢后腹膜后淋巴结。（b）和（d）为 2024 年 1 月的影像，显示治疗后后腹膜淋巴结的体积和 FDG 亲近性有所下降。"
+      },
+      "home": {
+        "recommendation_label": "今日推荐病例",
+        "display_title": "pMMR/MSS 直肠腺癌术后复发伴坏死性筋膜炎的 RIN 方案治疗病例",
+        "description": "患者女性，50 岁，无合并症及肿瘤家族史。2021 年确诊直肠中分化腺癌（cT4bN2M0, pMMR/MSS），经新辅助放化疗及手术后达 R0 切除并完全缓解 1 年。术后 14 个月出现左侧直肠系膜复发（97.3 cm），侵犯邻近器官。因 FOLFOXIRI 化疗并发严重坏死性筋膜炎无法耐受后续化疗，转而超适应症使用瑞戈非尼联合低剂量伊匹木单抗及纳武利……"
+      },
+      "overview": {
+        "hero": {
+          "title": "pMMR/MSS 直肠腺癌术后复发伴坏死性筋膜炎的 RIN 方案治疗病例",
+          "subtitle": "pMMR/MSS 直肠癌患者在传统免疫治疗不敏感背景下，通过多靶点联合方案（RIN）可能获得分子学完全缓解；严重化疗相关不良事件（坏死性筋膜炎）后的治疗策略调整与耐受性评估。"
+        },
+        "tabs": [
+          {
+            "id": "summary",
+            "label": "病例摘要",
+            "order": 1,
+            "summary_items": [
+              {
+                "order": 1,
+                "label": "患者与就诊背景",
+                "value": "患者女性，50 岁，无合并症及肿瘤家族史。2021 年确诊直肠中分化腺癌（cT4bN2M0, pMMR/MSS），经新辅助放化疗及手术后达 R0 切除并完全缓解 1 年。术后 14 个月出现左侧直肠系膜复发（97.3 cm），侵犯邻近器官。因 FOLFOXIRI 化疗并发严重坏死性筋膜炎无法耐受后续化疗，转而超适应症使用瑞戈非尼联合低剂量伊匹木单抗及纳武利尤单抗（RIN 方案），同期辅以调强放疗。治疗后 ctDNA 及 CEA 降至检测下限，随访超 12 个月未见复发。"
+              },
+              {
+                "order": 2,
+                "label": "疾病与分期",
+                "value": "直肠中分化腺癌，临床分期 III C 期（cT4bN2M0），术后局部复发"
+              },
+              {
+                "order": 3,
+                "label": "分子与病理",
+                "value": "原发肿瘤（2021 年）：pMMR/MSS 状态（免疫组化证实）；复发监测：循环肿瘤 DNA（ctDNA）及癌胚抗原（CEA），治疗后两项指标均降至检测下限以下。"
+              },
+              {
+                "order": 4,
+                "label": "核心教学点",
+                "value": "pMMR/MSS 直肠癌患者在传统免疫治疗不敏感背景下，通过多靶点联合方案（RIN）可能获得分子学完全缓解；严重化疗相关不良事件（坏死性筋膜炎）后的治疗策略调整与耐受性评估。"
+              }
+            ]
+          },
+          {
+            "id": "timeline",
+            "label": "病程轴",
+            "order": 2,
+            "timeline_items": [
+              {
+                "date": "2021",
+                "title": "诊疗节点 1",
+                "detail": "2021 年：首次诊断直肠中分化腺癌，分期 III C 期"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 2",
+                "detail": "接受新辅助放化疗（盆腔放疗 25 Gy/5 次）联合 6 周期 XELOX"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 3",
+                "detail": "行腹腔镜超低位直肠前切除加结肠肛管吻合术（R0 切除）。术后 14 个月：复查 CT 发现左侧直肠系膜复发肿块"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 4",
+                "detail": "开始 FOLFOXIRI 化疗"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 5",
+                "detail": "并发严重坏死性筋膜炎，经清创及 ICU 治疗恢复。随后：启动 RIN 方案（瑞戈非尼 + 伊匹木单抗 1 mg/kg + 纳武利尤单抗 3 mg/kg）"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 6",
+                "detail": "给予 5 次调强放疗。治疗 6 个月内：ctDNA 及 CEA 降至检测下限以下。随访超过 12 个月：未见影像学或分子学复发。"
+              }
+            ]
+          },
+          {
+            "id": "images",
+            "label": "病例图片",
+            "order": 3,
+            "image_items": [
+              {
+                "id": "IMG1",
+                "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/RJu7VK3cHSGh_R1JaDqUTg/05nS8WJrxYH8Hno8c1Yw0eB2tIWAMzLQ.png",
+                "timepoint": "2023 年 10 月（治疗前）及 2024 年 1 月（治疗后）",
+                "caption": "图 1. 治疗前后患者的 PET 扫描图像。（a）和（c）显示 2023 年 10 月治疗开始前的盆腔横切片。可见肿大的高代谢后腹膜后淋巴结。（b）和（d）为 2024 年 1 月的影像，显示治疗后后腹膜淋巴结的体积和 FDG 亲近性有所下降。",
+                "alt": "图 1. 治疗前后患者的 PET 扫描图像。（a）和（c）显示 2023 年 10 月治疗开始前的盆腔横切片。可见肿大的高代谢后腹膜后淋巴结。（b）和（d）为 2024 年 1 月的影像，显示治疗后后腹膜淋巴结的体积和 FDG 亲近性有所下降。",
+                "mapping_status": "caption_only",
+                "related_timeline": null
+              }
+            ]
+          }
+        ]
+      },
+      "second_cancer_type": "直肠癌"
+    }
+  },
+  {
+    "Questions": {
+      "schema_version": "1.0",
+      "case_id": "CASE-14D22BE9",
+      "cancer_type": "消化系统肿瘤",
+      "generation_status": "success",
+      "difficulty": "进阶",
+      "question_count": 5,
+      "questions": [
+        {
+          "id": "Q1",
+          "type": "诊断与分期",
+          "phase": "初诊评估",
+          "timepoint": "就诊时",
+          "question": "患者初诊发现直肠原发灶伴小脑、胰腺、肝脏、骨骼及淋巴结多处转移。依据 AJCC 第八版分期系统，该患者的 M 分期及总体临床分期应如何判定？",
+          "options": {
+            "A": "M1a 期，总体分期为 IV A 期",
+            "B": "M1c 期，总体分期为 IV C 期",
+            "C": "Mx 期，需进一步检查确认分期",
+            "D": "M1b 期，总体分期为 IV B 期"
+          },
+          "answer": "D",
+          "answer_text": "M1b 期，总体分期为 IV B 期",
+          "explain": "患者转移灶涉及小脑、胰腺、肝脏、骨骼及淋巴结，属于两个或以上器官/部位的转移，且无腹膜转移证据，符合 M1b 定义，对应总体分期 IV B 期。",
+          "keyPoint": "结直肠癌 M1b 定义为转移至两个或以上器官或部位，无腹膜转移。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "294e6c72-a798-4b9b-a298-805084b6db8f",
+            "split_index": 39,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "直肠癌",
+            "source_version": "2024",
+            "source_section": "2.5 标本质量控制与病理分期",
+            "source_url": "",
+            "evidence_summary": "AJCC 第八版规定：M1b 为两个或以上器官或部位的转移，无腹膜转移；任何 T 任何 N M1b 对应 IV B 期。"
+          }
+        },
+        {
+          "id": "Q2",
+          "type": "分子诊断",
+          "phase": "病理确诊",
+          "timepoint": "穿刺活检阶段",
+          "question": "患者胰腺占位性质不明，EUS-TA 穿刺后免疫组化显示 CDX2(+)、SATB2(+)。这些标志物组合在鉴别诊断中的核心价值是什么？",
+          "options": {
+            "A": "支持病灶为结直肠来源的转移性腺癌",
+            "B": "证实病灶为原发性胰腺导管腺癌",
+            "C": "提示病灶为神经内分泌肿瘤",
+            "D": "表明病灶为胃来源的转移性腺癌"
+          },
+          "answer": "A",
+          "answer_text": "支持病灶为结直肠来源的转移性腺癌",
+          "explain": "结直肠来源腺癌典型免疫表型为 CDX2+、SATB2+，而原发性胰腺癌通常 SATB2 阴性。该组合强力支持直肠来源转移，无需依赖未记载的 CK20 结果。",
+          "keyPoint": "CDX2、SATB2 联合阳性是鉴别结直肠来源转移癌的关键免疫组化特征。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "28fc8a2a-06be-439a-9037-d1feddf865a6",
+            "split_index": 9,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "中枢神经系统转移瘤",
+            "source_version": "2025",
+            "source_section": "4 病理诊断",
+            "source_url": "",
+            "evidence_summary": "指南推荐检测 CK20、CDX-2、SATB2 等辅助判断结直肠癌脑转移及远处转移来源，肠源性腺癌常呈此表型。"
+          }
+        },
+        {
+          "id": "Q3",
+          "type": "治疗决策",
+          "phase": "一线治疗选择",
+          "timepoint": "靶向治疗阶段",
+          "question": "患者术后并发严重感染性假性囊肿及梗阻性胰腺炎，无法耐受细胞毒性化疗。针对 HER2 阳性 (3+)、RAS/BRAF 野生型晚期直肠癌，此时最合理的全身治疗策略是？",
+          "options": {
+            "A": "推迟治疗直至感染控制后行 FOLFOX 化疗",
+            "B": "启动曲妥珠单抗联合帕妥珠单抗双靶向治疗",
+            "C": "单药使用曲妥珠单抗以减少治疗毒性",
+            "D": "改用免疫检查点抑制剂联合治疗方案"
+          },
+          "answer": "B",
+          "answer_text": "启动曲妥珠单抗联合帕妥珠单抗双靶向治疗",
+          "explain": "患者 MSS 型不适合免疫治疗；因严重感染禁忌化疗。HER2 阳性且 RAS/BRAF 野生型，双靶向治疗可作为规避骨髓抑制风险的个体化替代方案，虽非指南标准一线，但在本例情境下合理。",
+          "keyPoint": "高危感染或体能差无法化疗时，HER2 阳性 mCRC 可考虑双靶向治疗作为一线替代策略。",
+          "guidelineRef": {
+            "evidence_type": "病例+临床推理",
+            "doc_id": "28fc8a2a-06be-439a-9037-d1feddf865a6",
+            "split_index": 9,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "中枢神经系统转移瘤",
+            "source_version": "2025",
+            "source_section": "4 病理诊断",
+            "source_url": "",
+            "evidence_summary": "指南推荐 HER2 阳性且 RAS/BRAF 野生型患者检测 HER2 以指导治疗；本例基于检测推荐结合临床情境推导双靶向应用。"
+          }
+        },
+        {
+          "id": "Q4",
+          "type": "疗效复评与局部治疗",
+          "phase": "疗效评价",
+          "timepoint": "治疗 4 周期/12 周后",
+          "question": "双靶向治疗 4 周期后，患者 CEA/CA19-9 下降，CT 示胰腺转移灶缩小且假性囊肿改善。对此疗效评价及后续管理，下列哪项描述最准确？",
+          "options": {
+            "A": "达到 CR，应立即行胰腺病灶根治性切除术",
+            "B": "达到 PR，继续原方案治疗并密切监测感染及肿瘤变化",
+            "C": "疾病稳定，建议更换为瑞戈非尼维持治疗",
+            "D": "出现耐药，需立即进行二次穿刺检测 HER2 状态"
+          },
+          "answer": "B",
+          "answer_text": "达到 PR，继续原方案治疗并密切监测感染及肿瘤变化",
+          "explain": "肿瘤标志物下降且病灶缩小符合部分缓解 (PR)。鉴于患者曾有严重感染并发症，且目前治疗有效，应继续当前有效方案并监测，而非立即手术或换药。",
+          "keyPoint": "靶向治疗有效且伴复杂感染史时，首选继续原方案维持并监测，避免激进局部干预。",
+          "guidelineRef": {
+            "evidence_type": "病例+临床推理",
+            "doc_id": "294e6c72-a798-4b9b-a298-805084b6db8f",
+            "split_index": 21,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "直肠癌",
+            "source_version": "2024",
+            "source_section": "1 CT",
+            "source_url": "",
+            "evidence_summary": "指南推荐增强 CT 用于判断疗效；结合临床推理，PR 状态下继续有效治疗是标准管理策略。"
+          }
+        },
+        {
+          "id": "Q5",
+          "type": "诊断与分期",
+          "phase": "穿刺活检阶段",
+          "timepoint": "术后高热伴胰腺占位时",
+          "question": "患者直肠腺癌术后出现胰腺占位伴梗阻性胰腺炎，性质不明。为安全获取深部病灶组织以明确病理诊断，首选的介入手段是什么？",
+          "options": {
+            "A": "经皮穿刺活检，无需影像引导",
+            "B": "仅凭 PET-CT 高代谢直接确诊",
+            "C": "经验性抗感染治疗，暂不获取病理",
+            "D": "EUS-FNA（超声内镜引导细针穿刺）"
+          },
+          "answer": "D",
+          "answer_text": "EUS-FNA（超声内镜引导细针穿刺）",
+          "explain": "胰腺位置深且邻近血管，EUS-FNA 可在实时超声引导下安全穿刺，获取细胞学或组织学标本，是明确胰腺占位性质的首选微创手段。",
+          "keyPoint": "EUS-FNA 是获取胰腺深部病灶病理组织的安全首选方法。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "294e6c72-a798-4b9b-a298-805084b6db8f",
+            "split_index": 21,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "直肠癌",
+            "source_version": "2024",
+            "source_section": "1 CT",
+            "source_url": "",
+            "evidence_summary": "CACA 直肠癌指南推荐增强 CT 评估，对疑难病灶需结合内镜等手段明确性质，EUS-FNA 是获取胰腺组织的高灵敏度方法。"
+          }
+        }
+      ],
+      "missing_information": [],
+      "second_cancer_type": "直肠癌"
+    },
+    "detail": {
+      "schema_version": "1.0",
+      "case_id": "CASE-14D22BE9",
+      "cancer_type": "消化系统肿瘤",
+      "difficulty": "进阶",
+      "decision_point_count": 5,
+      "image": {
+        "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/mbhME_wJBpOMUK2Q8u2-FQ/h57ZwUcuE3KoHBYhOnw8oXAAqlOgcwjv.png",
+        "alt": "初诊时的影像学及病理学表现：a MRI 显示小脑多发占位性病变；b PET-CT 显示直肠 FDG 摄取异常；c PET-CT 显示胰腺 FDG 摄取异常；但无法确定患者患有原发性胰腺癌还是转移性疾病；d 内镜图像显示 2 型直肠肿瘤；e 苏木精 - 伊红（H&E）染色显示为腺癌；f 切除直肠肿瘤的 HER2 免疫组化检测呈强阳性（3+）。"
+      },
+      "home": {
+        "recommendation_label": "今日推荐病例",
+        "display_title": "HER2 阳性直肠腺癌伴小脑及胰腺转移并发感染性假性囊肿的双靶向治疗病例",
+        "description": "患者男，60 多岁，因“进行性头晕伴头痛 3 个月”就诊，既往颈椎管狭窄。查体示双侧指鼻试验协调性受损。MRI 示多发性小脑占位；PET-CT 示直肠、胰腺异常高代谢，伴肝、骨、淋巴结摄取。肿瘤标志物 CEA 51.4 ng/mL，CA19-9 110 U/mL。直肠活检确诊腺癌，HER2 3+，MSS，RAS/BRAF 野生型。先行小脑转移灶切除术，术后突……"
+      },
+      "overview": {
+        "hero": {
+          "title": "HER2 阳性直肠腺癌伴小脑及胰腺转移并发感染性假性囊肿的双靶向治疗病例",
+          "subtitle": "EUS-TA 在鉴别胰腺占位是原发癌还是转移癌中的核心价值；对于合并严重感染（如感染性胰腺假性囊肿）的晚期癌症患者，双靶向治疗可作为规避骨髓抑制风险的替代一线策略；HER2 阳性直肠癌的多学科综合诊疗流程。"
+        },
+        "tabs": [
+          {
+            "id": "summary",
+            "label": "病例摘要",
+            "order": 1,
+            "summary_items": [
+              {
+                "order": 1,
+                "label": "患者与就诊背景",
+                "value": "患者男，60 多岁，因“进行性头晕伴头痛 3 个月”就诊，既往颈椎管狭窄。查体示双侧指鼻试验协调性受损。MRI 示多发性小脑占位；PET-CT 示直肠、胰腺异常高代谢，伴肝、骨、淋巴结摄取。肿瘤标志物 CEA 51.4 ng/mL，CA19-9 110 U/mL。直肠活检确诊腺癌，HER2 3+，MSS，RAS/BRAF 野生型。先行小脑转移灶切除术，术后突发高热，CT 示胰腺占位致梗阻性胰腺炎及疑似感染性假性囊肿，胃上部后壁黏膜下隆起伴脓性分泌物。EUS-TA 证实胰腺病灶为直肠来源腺癌转移。因感染风险高，未行细……"
+              },
+              {
+                "order": 2,
+                "label": "疾病与分期",
+                "value": "直肠腺癌，伴小脑、胰腺、肝脏、骨骼及淋巴结转移，初步诊断晚期，HER2 强阳性 (3+)，MSS，RAS/BRAF 野生型"
+              },
+              {
+                "order": 3,
+                "label": "分子与病理",
+                "value": "直肠原发灶（初诊）：腺癌，CDX2(+)，SATB2(+)，HER2 强阳性 (3+)，MSS，RAS 野生型，BRAF 野生型；检测方法：免疫组化及分子检测（原文未详述具体分子检测平台）。胰腺转移灶（EUS-TA 后）：腺癌，CDX2(+)，SATB2(+)，HER2 强阳性 (3+)；检测方法：免疫组化。"
+              },
+              {
+                "order": 4,
+                "label": "核心教学点",
+                "value": "EUS-TA 在鉴别胰腺占位是原发癌还是转移癌中的核心价值；对于合并严重感染（如感染性胰腺假性囊肿）的晚期癌症患者，双靶向治疗可作为规避骨髓抑制风险的替代一线策略；HER2 阳性直肠癌的多学科综合诊疗流程。"
+              }
+            ]
+          },
+          {
+            "id": "timeline",
+            "label": "病程轴",
+            "order": 2,
+            "timeline_items": [
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 1",
+                "detail": "就诊时：主诉进行性头晕伴头痛 3 个月"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 2",
+                "detail": "检查发现小脑多发占位，直肠及胰腺异常摄取，CEA/CA19-9 升高"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 3",
+                "detail": "直肠活检确诊 HER2 阳性腺癌。"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 4",
+                "detail": "神经外科手术后：行开颅小脑转移灶切除术"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 5",
+                "detail": "术后突发 40℃高热，炎性指标升高"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 6",
+                "detail": "CT 示胰腺占位致梗阻性胰腺炎及疑似感染性假性囊肿"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 7",
+                "detail": "胃镜见胃上部后壁黏膜下隆起伴脓液。"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 8",
+                "detail": "穿刺活检阶段：行 EUS-TA 明确胰腺病灶性质，确诊为直肠腺癌胰腺转移。"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 9",
+                "detail": "靶向治疗阶段：抗感染治疗后炎症改善"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 10",
+                "detail": "启动曲妥珠单抗联合帕妥珠单抗一线双靶向治疗（非化疗）。"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 11",
+                "detail": "疗效评价（治疗 4 周期/12 周后）：CEA 降至 27.8 ng/mL，CA19-9 降至 66.5 U/mL"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 12",
+                "detail": "CT 示胰腺转移灶明显缩小，假性囊肿显著改善，胃部病灶愈合为瘢痕。"
+              }
+            ]
+          },
+          {
+            "id": "images",
+            "label": "病例图片",
+            "order": 3,
+            "image_items": [
+              {
+                "id": "IMG1",
+                "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/mbhME_wJBpOMUK2Q8u2-FQ/h57ZwUcuE3KoHBYhOnw8oXAAqlOgcwjv.png",
+                "timepoint": "初诊时",
+                "caption": "初诊时的影像学及病理学表现：a MRI 显示小脑多发占位性病变；b PET-CT 显示直肠 FDG 摄取异常；c PET-CT 显示胰腺 FDG 摄取异常；但无法确定患者患有原发性胰腺癌还是转移性疾病；d 内镜图像显示 2 型直肠肿瘤；e 苏木精 - 伊红（H&E）染色显示为腺癌；f 切除直肠肿瘤的 HER2 免疫组化检测呈强阳性（3+）。",
+                "alt": "初诊时的影像学及病理学表现：a MRI 显示小脑多发占位性病变；b PET-CT 显示直肠 FDG 摄取异常；c PET-CT 显示胰腺 FDG 摄取异常；但无法确定患者患有原发性胰腺癌还是转移性疾病；d 内镜图像显示 2 型直肠肿瘤；e 苏木精 - 伊红（H&E）染色显示为腺癌；f 切除直肠肿瘤的 HER2 免疫组化检测呈强阳性（3+）。",
+                "mapping_status": "caption_only",
+                "related_timeline": null
+              }
+            ]
+          }
+        ]
+      },
+      "second_cancer_type": "直肠癌"
+    }
+  },
+  {
+    "Questions": {
+      "schema_version": "1.0",
+      "case_id": "CASE-10436F33",
+      "cancer_type": "胸部肿瘤",
+      "generation_status": "success",
+      "difficulty": "进阶",
+      "question_count": 5,
+      "questions": [
+        {
+          "id": "Q1",
+          "type": "诊断与分期",
+          "phase": "初诊评估阶段",
+          "timepoint": "腹水提示腹膜癌但原发灶不明时",
+          "question": "患者因腹水就诊，初期内镜未见异常，腹腔镜病理提示印戒细胞增生。在怀疑乳腺癌胃转移但原发灶未明时，下列哪项是明确原发灶及分子分型的关键决策？",
+          "options": {
+            "A": "完善乳腺影像及 ER/HER2 免疫组化",
+            "B": "经验性启动胃癌化疗方案",
+            "C": "仅凭影像开始内分泌治疗",
+            "D": "重复 CT 观察暂不活检"
+          },
+          "answer": "A",
+          "answer_text": "完善乳腺影像及 ER/HER2 免疫组化",
+          "explain": "浸润性小叶癌易发生胃肠道转移且形态似原发胃癌。必须通过免疫组化（如 ER 阳性）鉴别来源，并确认分子分型以指导全身治疗，不可经验性按胃癌治疗。",
+          "keyPoint": "原发灶不明伴消化道转移时，免疫组化是鉴别乳腺癌转移与原发胃癌的金标准。",
+          "guidelineRef": {
+            "evidence_type": "病例+临床推理",
+            "doc_id": "7f8a2463-763c-4669-a370-54fca8039124",
+            "split_index": 1,
+            "type": "guideline",
+            "authority": "中华医学会病理学分会, CACA, 国家病理质控中心",
+            "source_title": "乳腺癌生物标志物检测临床应用指南",
+            "source_version": "2025",
+            "source_section": "乳腺癌生物标志物检测临床应用指南",
+            "source_url": "",
+            "evidence_summary": "指南强调生物标志物检测对个体化治疗策略制定的基础作用，需规范检测流程以提升诊断一致性。"
+          }
+        },
+        {
+          "id": "Q2",
+          "type": "治疗决策",
+          "phase": "一线治疗阶段",
+          "timepoint": "确诊 HR+/HER2-初诊 IV 期乳腺癌后",
+          "question": "患者确诊 HR 阳性、HER2 阴性初诊 IV 期乳腺癌，伴内脏（胃、腹膜）及骨转移。依据当前指南，首选的全身系统治疗方案是？",
+          "options": {
+            "A": "单药内分泌治疗（如芳香化酶抑制剂）",
+            "B": "芳香化酶抑制剂联合 CDK4/6 抑制剂",
+            "C": "立即启动蒽环类联合紫杉类化疗",
+            "D": "单纯抗骨转移治疗观察原发灶"
+          },
+          "answer": "B",
+          "answer_text": "芳香化酶抑制剂联合 CDK4/6 抑制剂",
+          "explain": "HR+/HER2-初诊 IV 期乳腺癌首选内分泌联合 CDK4/6 抑制剂。本例虽有腹水但无血流动力学不稳定等内脏危象表现，故不首选化疗。病例中瑞波西利适用于绝经后女性。",
+          "keyPoint": "HR+/HER2-晚期乳腺癌无内脏危象时，内分泌联合 CDK4/6 抑制剂是标准一线方案。",
+          "guidelineRef": {
+            "evidence_type": "病例+临床推理",
+            "doc_id": "7e911bc2-d9c4-41ea-bcef-d28c231dc12d",
+            "split_index": 1,
+            "type": "guideline",
+            "authority": "中华医学会外科学分会乳腺外科学组",
+            "source_title": "初诊IV期乳腺癌诊疗临床实践指南（2025版）",
+            "source_version": "2025",
+            "source_section": "初诊IV期乳腺癌诊疗临床实践指南（2025版）",
+            "source_url": "",
+            "evidence_summary": "指南指出初诊 IV 期乳腺癌首选全身系统治疗，且随着诊治提高，生存显著改善。"
+          }
+        },
+        {
+          "id": "Q3",
+          "type": "耐药与后线管理",
+          "phase": "二线治疗阶段",
+          "timepoint": "一线内分泌联合靶向治疗 5 个月进展后",
+          "question": "患者一线接受来曲唑联合瑞波西利治疗 5 个月后出现疾病进展。在制定二线方案前，首要的评估步骤是？",
+          "options": {
+            "A": "直接转换为单药化疗方案",
+            "B": "换用另一种 CDK4/6 抑制剂",
+            "C": "重新活检检测受体状态",
+            "D": "立即行根治性手术切除"
+          },
+          "answer": "C",
+          "answer_text": "重新活检检测受体状态",
+          "explain": "复发或进展后受体状态可能发生改变（10%-40%），直接影响后续治疗决策。指南推荐对复发灶进行活检并重新检测 ER、PR、HER2 表达，而非直接盲目转换治疗。",
+          "keyPoint": "复发或进展后必须重新检测生物标志物，因为受体状态可能随时间发生改变。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+            "split_index": 362,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+            "source_version": "2026",
+            "source_section": "13.2.3.1 药物预防性治疗",
+            "source_url": "",
+            "evidence_summary": "指南明确要求对复发灶进行穿刺或切除活检，必须重新检测 ER、PR、HER2 的表达及 Ki-67 增殖指数。"
+          }
+        },
+        {
+          "id": "Q4",
+          "type": "治疗决策",
+          "phase": "一线系统治疗",
+          "timepoint": "确诊 HR+/HER2- 初诊 IV 期乳腺癌，无内脏危象时",
+          "question": "患者确诊 HR+/HER2- 初诊 IV 期乳腺癌，伴骨及腹膜转移但无内脏危象。首选的治疗原则是？",
+          "options": {
+            "A": "立即行姑息性手术切除原发乳腺病灶",
+            "B": "仅行局部放疗控制骨转移灶缓解疼痛",
+            "C": "观察等待直至出现内脏危象再行干预",
+            "D": "首选全身系统治疗而非局部手术治疗"
+          },
+          "answer": "D",
+          "answer_text": "首选全身系统治疗而非局部手术治疗",
+          "explain": "初诊 IV 期乳腺癌首选全身系统治疗理念已获共识。原发灶局部外科处理需在全身治疗基础上评估，非首选初始策略，尤其无内脏危象时。",
+          "keyPoint": "初诊 IV 期乳腺癌首选全身系统治疗，原发灶局部处理非初始标准策略。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "7e911bc2-d9c4-41ea-bcef-d28c231dc12d",
+            "split_index": 1,
+            "type": "guideline",
+            "authority": "中华医学会外科学分会乳腺外科学组",
+            "source_title": "初诊IV期乳腺癌诊疗临床实践指南（2025版）",
+            "source_version": "2025",
+            "source_section": "初诊IV期乳腺癌诊疗临床实践指南（2025版）",
+            "source_url": "",
+            "evidence_summary": "指南明确指出初诊 IV 期乳腺癌首选全身系统治疗理念已获共识，原发灶局部外科处理原则成为临床关注的热点问题。"
+          }
+        },
+        {
+          "id": "Q5",
+          "type": "分子诊断",
+          "phase": "一线治疗进展后",
+          "timepoint": "来曲唑联合瑞波西利治疗 5 个月进展后",
+          "question": "患者一线内分泌联合靶向治疗 5 个月后出现疾病进展，关于后续诊疗策略的首要步骤，正确的是？",
+          "options": {
+            "A": "重新活检评估受体状态及分子特征",
+            "B": "立即更换另一种芳香化酶抑制剂",
+            "C": "直接行预防性全乳切除术",
+            "D": "维持原方案并增加药物剂量"
+          },
+          "answer": "A",
+          "answer_text": "重新活检评估受体状态及分子特征",
+          "explain": "复发或进展后受体状态可能发生改变（10%-40%），直接影响后续治疗决策。指南推荐对复发灶进行再确认，而非盲目调整方案。",
+          "keyPoint": "乳腺癌进展后需重新活检确认受体状态，以指导精准的后续治疗选择。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+            "split_index": 362,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+            "source_version": "2026",
+            "source_section": "13.2.3.1 药物预防性治疗",
+            "source_url": "",
+            "evidence_summary": "指南指出复发转移后必须重新检测 ER、PR、HER2 表达，受体状态改变直接影响后续治疗决策。"
+          }
+        }
+      ],
+      "missing_information": [],
+      "second_cancer_type": "乳腺癌"
+    },
+    "detail": {
+      "schema_version": "1.0",
+      "case_id": "CASE-10436F33",
+      "cancer_type": "胸部肿瘤",
+      "difficulty": "进阶",
+      "decision_point_count": 5,
+      "image": {
+        "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/-CMI2VLFhHGQTZ8ngH5gPw/6wKMnH4VbfM9FmyPC8QpaACZZ85MpvNf.png",
+        "alt": "图 1. 胃活检病理结果。(A) 胃粘膜独立细胞肿瘤性增生 (×200)。(B) 肿瘤细胞雌激素受体免疫染色 (×100)。"
+      },
+      "home": {
+        "recommendation_label": "今日推荐病例",
+        "display_title": "绝经期女性因腹胀腹痛就诊确诊浸润性乳腺小叶癌伴胃、腹膜及骨转移",
+        "description": "患者女，53 岁，绝经期女性，无肿瘤家族史，因“腹胀、上腹痛 3 个月”就诊消化科。体格检查示明显腹水，未触及腹部肿块或淋巴结。实验室检查示炎症性贫血，血清碱性磷酸酶升高。腹水分析提示腹膜癌。初期内外消化道内镜未见异常，CT 见大量腹水和宫颈增厚，妇科检查及盆腔 MRI 排除盆腔肿瘤。诊断性腹腔镜见大网膜、小肠、结肠及腹膜壁多发结节，病理提示独立细胞增生。再……"
+      },
+      "overview": {
+        "hero": {
+          "title": "绝经期女性因腹胀腹痛就诊确诊浸润性乳腺小叶癌伴胃、腹膜及骨转移",
+          "subtitle": "胃肠道转移和腹膜转移是乳腺癌罕见转移部位，临床症状缺乏特异性；胃粘膜独立细胞增生呈线形分布应考虑为乳腺小叶癌胃转移；免疫组化（ER 阳性等）是鉴别乳腺癌胃转移与原发性胃癌的重要手段；对于出现消化系统症状且原发灶不明的患者，需结合病史进行多次……"
+        },
+        "tabs": [
+          {
+            "id": "summary",
+            "label": "病例摘要",
+            "order": 1,
+            "summary_items": [
+              {
+                "order": 1,
+                "label": "患者与就诊背景",
+                "value": "患者女，53 岁，绝经期女性，无肿瘤家族史，因“腹胀、上腹痛 3 个月”就诊消化科。体格检查示明显腹水，未触及腹部肿块或淋巴结。实验室检查示炎症性贫血，血清碱性磷酸酶升高。腹水分析提示腹膜癌。初期内外消化道内镜未见异常，CT 见大量腹水和宫颈增厚，妇科检查及盆腔 MRI 排除盆腔肿瘤。诊断性腹腔镜见大网膜、小肠、结肠及腹膜壁多发结节，病理提示独立细胞增生。再次胃镜见胃底糜烂和浅表溃疡，活检高度怀疑乳腺癌转移。进一步免疫组化 ER 阳性，乳腺超声和 X 线示双侧多发结节（ACR4），乳腺病理确诊浸润性小叶癌，HER2……"
+              },
+              {
+                "order": 2,
+                "label": "疾病与分期",
+                "value": "浸润性乳腺小叶癌伴胃、腹膜和骨转移"
+              },
+              {
+                "order": 3,
+                "label": "分子与病理",
+                "value": "腹水生化：蛋白率 40 g/l，白细胞率 200 E/mm^3；胃活检病理：独立细胞均匀、线形分布；免疫组化（胃/乳腺）：雌激素受体（ER）阳性，HER2 阴性；乳腺影像分类：ACR4。"
+              },
+              {
+                "order": 4,
+                "label": "核心教学点",
+                "value": "胃肠道转移和腹膜转移是乳腺癌罕见转移部位，临床症状缺乏特异性；胃粘膜独立细胞增生呈线形分布应考虑为乳腺小叶癌胃转移；免疫组化（ER 阳性等）是鉴别乳腺癌胃转移与原发性胃癌的重要手段；对于出现消化系统症状且原发灶不明的患者，需结合病史进行多次内镜及全面评估。"
+              }
+            ]
+          },
+          {
+            "id": "timeline",
+            "label": "病程轴",
+            "order": 2,
+            "timeline_items": [
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 1",
+                "detail": "就诊时：腹胀、上腹痛 3 个月，发现腹水"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 2",
+                "detail": "初次内镜：未发现明显异常"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 3",
+                "detail": "初次 CT/MRI：大量腹水，宫颈增厚，排除盆腔肿瘤"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 4",
+                "detail": "诊断性腹腔镜：腹膜多发结节，病理提示独立细胞增生"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 5",
+                "detail": "二次胃镜：胃底糜烂和浅表溃疡，活检怀疑乳腺癌转移"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 6",
+                "detail": "免疫组化及乳腺检查：ER 阳性，乳腺结节病理确诊浸润性小叶癌，HER2 阴性"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 7",
+                "detail": "分期评估 CT：确认骨转移"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 8",
+                "detail": "治疗线 1：来曲唑、瑞波西利"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 9",
+                "detail": "治疗 5 个月后：疗效评估疾病进展"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 10",
+                "detail": "治疗线 2：多柔比星、环磷酰胺。"
+              }
+            ]
+          },
+          {
+            "id": "images",
+            "label": "病例图片",
+            "order": 3,
+            "image_items": [
+              {
+                "id": "IMG1",
+                "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/-CMI2VLFhHGQTZ8ngH5gPw/6wKMnH4VbfM9FmyPC8QpaACZZ85MpvNf.png",
+                "timepoint": "胃活检及免疫染色阶段",
+                "caption": "图 1. 胃活检病理结果。(A) 胃粘膜独立细胞肿瘤性增生 (×200)。(B) 肿瘤细胞雌激素受体免疫染色 (×100)。",
+                "alt": "图 1. 胃活检病理结果。(A) 胃粘膜独立细胞肿瘤性增生 (×200)。(B) 肿瘤细胞雌激素受体免疫染色 (×100)。",
+                "mapping_status": "caption_only",
+                "related_timeline": null
+              }
+            ]
+          }
+        ]
+      },
+      "second_cancer_type": "乳腺癌"
+    }
+  },
+  {
+    "Questions": {
+      "schema_version": "1.0",
+      "case_id": "CASE-E251EF18",
+      "cancer_type": "消化系统肿瘤",
+      "generation_status": "success",
+      "difficulty": "进阶",
+      "question_count": 5,
+      "questions": [
+        {
+          "id": "Q1",
+          "type": "治疗决策",
+          "phase": "一线治疗选择",
+          "timepoint": "初诊确诊后",
+          "question": "该患者确诊 BCLC-C 期 HCC 伴骨转移，基线 AFP 显著升高，但合并近期出血性胃溃疡。在制定一线系统治疗方案时，下列哪项决策最符合指南推荐及患者安全原则？",
+          "options": {
+            "A": "首选阿替利珠单抗联合贝伐珠单抗方案",
+            "B": "立即进行肝动脉化疗栓塞联合索拉非尼",
+            "C": "先行手术切除原发灶后辅助免疫治疗",
+            "D": "选择纳武利尤单抗单药或其他不含贝伐方案"
+          },
+          "answer": "D",
+          "answer_text": "选择纳武利尤单抗单药或其他不含贝伐方案",
+          "explain": "患者有严重胃肠道出血史，贝伐珠单抗禁忌。指南推荐在此类禁忌情况下，可选择纳武利尤单抗单药或其他不含贝伐珠单抗的免疫方案作为替代。",
+          "keyPoint": "抗血管生成药物在近期严重出血事件中禁忌，需选择无此风险的免疫联合或单药方案。",
+          "guidelineRef": {
+            "evidence_type": "病例+临床推理",
+            "doc_id": "283cd06f-98bc-4bcf-8bed-921271343e66",
+            "split_index": 10,
+            "type": "guideline",
+            "authority": "中国医师协会肝癌专业委员会",
+            "source_title": "肝细胞癌免疫治疗中国专家共识(2021版)",
+            "source_version": "2021",
+            "source_section": "一、临床治疗推荐",
+            "source_url": "",
+            "evidence_summary": "指南指出若抗血管生成靶向治疗存在禁忌，可选用纳武利尤单抗；阿替利珠单抗联合贝伐珠单抗虽为优选但有出血风险限制。"
+          }
+        },
+        {
+          "id": "Q2",
+          "type": "不良反应管理",
+          "phase": "治疗期间毒性处理",
+          "timepoint": "纳武利尤单抗治疗五周期后",
+          "question": "患者在接受纳武利尤单抗联合仑伐替尼治疗五周期后，出现肌酐升至 1.91 mg/dl，诊断为免疫相关性肾毒性。针对该不良反应，下列处理策略正确的是？",
+          "options": {
+            "A": "暂停纳武利尤单抗给予中等剂量激素治疗",
+            "B": "继续原剂量治疗仅给予水化支持观察",
+            "C": "永久停用所有药物立即开始血液透析",
+            "D": "将仑伐替尼减量百分之五十维持免疫药"
+          },
+          "answer": "A",
+          "answer_text": "暂停纳武利尤单抗给予中等剂量激素治疗",
+          "explain": "对于免疫检查点抑制剂引起的肾毒性，中重度反应需暂停免疫治疗并使用糖皮质激素干预。病例中患者经此处理后改善，符合指南管理原则。",
+          "keyPoint": "免疫相关性肾毒性需暂停 ICI 并使用中等剂量激素，而非仅支持治疗或立即透析。",
+          "guidelineRef": {
+            "evidence_type": "病例+临床推理",
+            "doc_id": "2de206a4-1b0d-4d19-b4ec-3caa10db3904",
+            "split_index": 32,
+            "type": "guideline",
+            "authority": "中国医师协会肝癌专业委员会",
+            "source_title": "肝细胞癌全程管理中国专家共识(2023版)",
+            "source_version": "2023",
+            "source_section": "（2）二线治疗选择",
+            "source_url": "",
+            "evidence_summary": "指南推荐根据不良反应类型和级别，考虑 ICIs 药物暂停和永久停用，并使用糖皮质激素干预。"
+          }
+        },
+        {
+          "id": "Q3",
+          "type": "疗效复评与局部治疗",
+          "phase": "巩固治疗决策",
+          "timepoint": "全身治疗获深度缓解后",
+          "question": "患者在系统治疗后 AFP 降至 4.9 ng/ml，影像学显示病灶显著缩小。此时对肝脏原发灶及 T9 骨转移灶行 SBRT 治疗的主要目的是？",
+          "options": {
+            "A": "替代后续所有系统治疗，作为根治性手段",
+            "B": "清除残留病灶，延长无进展生存，争取长期缓解",
+            "C": "缓解骨痛症状，对肝脏病灶无实际获益",
+            "D": "预防贝伐珠单抗可能引起的出血并发症"
+          },
+          "answer": "B",
+          "answer_text": "清除残留病灶，延长无进展生存，争取长期缓解",
+          "explain": "在寡转移 HCC 患者经系统治疗获得深度缓解后，局部治疗（如 SBRT）可清除残留活性病灶，发挥巩固作用，有助于延长无进展生存期甚至实现长期无病生存，而非单纯姑息或替代系统治疗。",
+          "keyPoint": "寡转移 HCC 在系统治疗有效后，局部巩固治疗（SBRT）可提升长期控制率。",
+          "guidelineRef": {
+            "evidence_type": "病例+临床推理",
+            "doc_id": "f584a76f-9517-415d-843c-6ba1121dbd12",
+            "split_index": 24,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "中国肝癌多学科综合治疗专家共识（2025年版）",
+            "source_version": "2025",
+            "source_section": "3 各临床分期肝细胞癌的多学科综合治疗",
+            "source_url": "",
+            "evidence_summary": "共识推荐不可切除患者采取系统治疗为主，结合局部治疗（如放疗），以提高转化率和治疗效果。"
+          }
+        },
+        {
+          "id": "Q4",
+          "type": "分子诊断",
+          "phase": "疗效监测与评估",
+          "timepoint": "治疗全程及随访期",
+          "question": "该患者基线 AFP 高达 10,275 ng/ml，治疗后降至正常范围。关于 AFP 在该患者疗效评估中的作用，下列描述正确的是？",
+          "options": {
+            "A": "AFP 下降可单独作为完全缓解（CR）的判定依据",
+            "B": "AFP 水平与免疫治疗疗效无关，无需监测",
+            "C": "AFP 动态监测可佐证疗效，但必须结合影像学评估",
+            "D": "仅当 AFP 再次升高时才需进行影像学检查"
+          },
+          "answer": "C",
+          "answer_text": "AFP 动态监测可佐证疗效，但必须结合影像学评估",
+          "explain": "血清肿瘤标志物（如 AFP）可作为疗效评价的参考佐证，反映治疗反应，但不能单独作为判定完全缓解的依据，必须结合影像学检查结果综合评估。",
+          "keyPoint": "AFP 动态变化是疗效评估的重要参考，但确诊缓解需影像学证实，不可单凭标志物。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "c85901dd-d5df-42b9-b6c0-6c73dcf424e3",
+            "split_index": 64,
+            "type": "guideline",
+            "authority": "CSCO",
+            "source_title": "肝细胞癌免疫联合治疗多学科中国专家共识(2023版)",
+            "source_version": "2023",
+            "source_section": "（六）ICI治疗疗效评估",
+            "source_url": "",
+            "evidence_summary": "指南明确血清学检查结果可作为疗效评价参考佐证，不可单独作为依据，评价 CR 时须结合影像学。"
+          }
+        },
+        {
+          "id": "Q5",
+          "type": "疗效复评与局部治疗",
+          "phase": "全身治疗后巩固治疗",
+          "timepoint": "全身治疗取得深度缓解后",
+          "question": "患者在系统治疗后 AFP 显著下降，影像学评估病灶缩小。针对该寡转移 HCC 患者，后续采用 SBRT 对肝脏原发灶及 T9 转移灶进行巩固治疗，其主要依据是？",
+          "options": {
+            "A": "SBRT 可替代全身治疗，作为晚期 HCC 的唯一根治手段",
+            "B": "所有晚期 HCC 患者无论缓解程度如何，均必须接受预防性 SBRT",
+            "C": "SBRT 主要用于缓解骨转移疼痛，对肝脏原发灶无控制作用",
+            "D": "局部放疗可清除残留病灶，延长无进展生存，尤其适用于寡转移状态"
+          },
+          "answer": "D",
+          "answer_text": "局部放疗可清除残留病灶，延长无进展生存，尤其适用于寡转移状态",
+          "explain": "对于系统治疗有效的寡转移 HCC 患者，局部巩固治疗（如 SBRT）有助于清除残留病灶，可能延长生存期。这并非替代全身治疗，而是多学科综合治疗的一部分。",
+          "keyPoint": "寡转移 HCC 在系统治疗有效后，局部巩固治疗（SBRT）可改善预后。",
+          "guidelineRef": {
+            "evidence_type": "病例+临床推理",
+            "doc_id": "f584a76f-9517-415d-843c-6ba1121dbd12",
+            "split_index": 24,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "中国肝癌多学科综合治疗专家共识（2025年版）",
+            "source_version": "2025",
+            "source_section": "3 各临床分期肝细胞癌的多学科综合治疗",
+            "source_url": "",
+            "evidence_summary": "共识推荐不可切除患者采取系统治疗为主，结合局部治疗（如放疗）的方案，以提高疗效。"
+          }
+        }
+      ],
+      "missing_information": [],
+      "second_cancer_type": "肝癌"
+    },
+    "detail": {
+      "schema_version": "1.0",
+      "case_id": "CASE-E251EF18",
+      "cancer_type": "消化系统肿瘤",
+      "difficulty": "进阶",
+      "decision_point_count": 5,
+      "image": {
+        "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/mAhjeP4Pf8dU_-DU6nWwnQ/kchZJ61UHRQsUJY6njqkhqO25KT7Yzvq.jpg",
+        "alt": "图 1. 治疗前后肝脏 CT 对比。"
+      },
+      "home": {
+        "recommendation_label": "今日推荐病例",
+        "display_title": "HCV 相关肝硬化伴寡转移性肝细胞癌患者接受纳武利尤单抗联合仑伐替尼及 SBRT 治疗获持久缓解",
+        "description": "患者男，60 岁，因未经治疗的 HCV 相关肝硬化导致肝脏出现孤立性肿块就诊。诊断过程中发现出血性胃溃疡及肝脏新病灶。AFP 水平显著升高（10,275 ng/ml）。MRI 显示动脉强化肝脏肿块（5.4×7.5×4cm）伴静脉期洗脱；CT 显示 T9 椎体破坏性区域，确诊为 BCLC-C 期。因近期严重胃肠道出血事件，排除贝伐珠单抗加阿替利珠单抗方案，首选……"
+      },
+      "overview": {
+        "hero": {
+          "title": "HCV 相关肝硬化伴寡转移性肝细胞癌患者接受纳武利尤单抗联合仑伐替尼及 SBRT 治疗获持久缓解",
+          "subtitle": "对于有严重胃肠道出血史的晚期 HCC 患者，可考虑不含贝伐珠单抗的一线免疫治疗方案（如纳武利尤单抗单药或联合 TKI）；免疫联合靶向治疗出现不良反应时的管理与停药策略；局部放疗（SBRT）在寡转移 HCC 全身治疗后的巩固作用及长期无病生存……"
+        },
+        "tabs": [
+          {
+            "id": "summary",
+            "label": "病例摘要",
+            "order": 1,
+            "summary_items": [
+              {
+                "order": 1,
+                "label": "患者与就诊背景",
+                "value": "患者男，60 岁，因未经治疗的 HCV 相关肝硬化导致肝脏出现孤立性肿块就诊。诊断过程中发现出血性胃溃疡及肝脏新病灶。AFP 水平显著升高（10,275 ng/ml）。MRI 显示动脉强化肝脏肿块（5.4×7.5×4cm）伴静脉期洗脱；CT 显示 T9 椎体破坏性区域，确诊为 BCLC-C 期。因近期严重胃肠道出血事件，排除贝伐珠单抗加阿替利珠单抗方案，首选纳武利尤单抗（480 mg/月），后联合仑伐替尼（8 mg/日）。治疗期间出现皮肤干燥及免疫相关性肾毒性，经对症处理及停用纳武利尤单抗后改善。随后接受肝脏及 T……"
+              },
+              {
+                "order": 2,
+                "label": "疾病与分期",
+                "value": "肝细胞癌（HCC），BCLC-C 期，伴 T9 椎体转移，Child-Pugh A5"
+              },
+              {
+                "order": 3,
+                "label": "分子与病理",
+                "value": "甲胎蛋白（AFP）：基线 10,275 ng/ml（血清，提示侵袭性表型）；全身治疗结束时最低点 4.9 ng/ml；SBRT 后波动于 5.7~14.3 ng/ml；停治三年多后 9.6 ng/ml。检测方法未详述，结果为阳性升高后下降。"
+              },
+              {
+                "order": 4,
+                "label": "核心教学点",
+                "value": "对于有严重胃肠道出血史的晚期 HCC 患者，可考虑不含贝伐珠单抗的一线免疫治疗方案（如纳武利尤单抗单药或联合 TKI）；免疫联合靶向治疗出现不良反应时的管理与停药策略；局部放疗（SBRT）在寡转移 HCC 全身治疗后的巩固作用及长期无病生存的可能性。"
+              }
+            ]
+          },
+          {
+            "id": "timeline",
+            "label": "病程轴",
+            "order": 2,
+            "timeline_items": [
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 1",
+                "detail": "就诊时：发现 HCV 相关肝硬化、肝脏孤立性肿块、出血性胃溃疡"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 2",
+                "detail": "AFP 10,275 ng/ml"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 3",
+                "detail": "分期 CT 确认 T9 椎体转移，定为 BCLC-C 期。"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 4",
+                "detail": "治疗初期：开始纳武利尤单抗（480 mg/月）。"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 5",
+                "detail": "一周期后：加用仑伐替尼（8 mg/日）。"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 6",
+                "detail": "两月内（仑伐替尼开始后）：出现双手皮肤干燥、不适并加重。"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 7",
+                "detail": "五周期后（纳武利尤单抗）：肌酐升至 1.91 mg/dl，诊断免疫相关性肾毒性"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 8",
+                "detail": "给予尿素乳膏及泼尼松（0.5 mg/kg/天）"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 9",
+                "detail": "停用纳武利尤单抗。"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 10",
+                "detail": "全身治疗结束后：AFP 降至 4.9 ng/ml。"
+              },
+              {
+                "date": "2000",
+                "title": "诊疗节点 11",
+                "detail": "后续：接受肝脏肿块 SBRT（2700 cGy/3 次）及 T9 病灶 SBRT（2000 cGy+1400 cGy）"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 12",
+                "detail": "无限期推迟全身治疗。"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 13",
+                "detail": "随访（停治三年多后）：AFP 波动于 5.7~14.3 ng/ml，最新值 9.6 ng/ml"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 14",
+                "detail": "影像学无进展，体能状态良好。"
+              }
+            ]
+          },
+          {
+            "id": "images",
+            "label": "病例图片",
+            "order": 3,
+            "image_items": [
+              {
+                "id": "IMG1",
+                "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/mAhjeP4Pf8dU_-DU6nWwnQ/kchZJ61UHRQsUJY6njqkhqO25KT7Yzvq.jpg",
+                "timepoint": "治疗前后",
+                "caption": "图 1. 治疗前后肝脏 CT 对比。",
+                "alt": "图 1. 治疗前后肝脏 CT 对比。",
+                "mapping_status": "caption_only",
+                "related_timeline": null
+              },
+              {
+                "id": "IMG2",
+                "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/mAhjeP4Pf8dU_-DU6nWwnQ/q8ram6KdWdfqofXjFI1rm56XXWnv0Rwd.jpg",
+                "timepoint": "治疗期间",
+                "caption": "图 2.治疗期间 AFP 水平变化。",
+                "alt": "图 2.治疗期间 AFP 水平变化。",
+                "mapping_status": "caption_only",
+                "related_timeline": null
+              }
+            ]
+          }
+        ]
+      },
+      "second_cancer_type": "肝癌"
+    }
+  }
+]

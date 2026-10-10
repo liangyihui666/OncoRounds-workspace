@@ -1,0 +1,247 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-DE70CBF4",
+    "cancer_type": "乳腺癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "鉴别诊断",
+        "timepoint": "首次随访",
+        "question": "对于有乳腺癌病史患者新发现肾上腺占位，关于活检决策的说法正确的是？",
+        "options": {
+          "A": "常规推荐所有肾上腺意外瘤患者立即行穿刺活检",
+          "B": "因 PET-CT 显示高摄取即可确诊转移无需病理",
+          "C": "仅在需组织学证据指导治疗且无法手术时考虑",
+          "D": "所有恶性肿瘤病史患者均必须行切除确诊"
+        },
+        "answer": "C",
+        "answer_text": "仅在需组织学证据指导治疗且无法手术时考虑",
+        "explain": "共识指出肾上腺活检临床价值有限，不推荐常规进行，仅在需组织学证据指导治疗且无法手术时考虑。",
+        "keyPoint": "肾上腺活检非常规手段，仅限特定情况",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "9468dbf8-82c8-4eba-9e3e-d0c5eeb74030",
+          "split_index": 14,
+          "type": "guideline",
+          "authority": "肾上腺意外瘤多学科管理专家组",
+          "source_title": "肾上腺意外瘤多学科管理专家共识",
+          "source_version": "",
+          "source_section": "Expert consensus on multidisciplinary management of adrenal incidentalomas",
+          "source_url": "",
+          "evidence_summary": "共识建议不推荐将肾上腺活检作为常规手段，仅在需组织学证据指导治疗时考虑。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "分子诊断",
+        "phase": "复发转移确诊阶段",
+        "timepoint": "病理确诊阶段",
+        "question": "患者乳腺癌术后 14 年出现双侧肾上腺转移，虽原发灶 ER/PR/HER2 状态明确，针对复发转移灶进行生物标志物检测的主要依据是？",
+        "options": {
+          "A": "原发灶检测结果已过有效期，所有复发患者必须重新检测",
+          "B": "受体状态可能随时间发生改变，需重新检测以指导后续治疗",
+          "C": "肾上腺转移灶特异性表达谱与原发灶完全不同，必须重测",
+          "D": "仅当临床怀疑三阴性转化时才需对复发灶进行复核"
+        },
+        "answer": "B",
+        "answer_text": "受体状态可能随时间发生改变，需重新检测以指导后续治疗",
+        "explain": "指南指出与原发肿瘤相比，复发灶受体状态可能发生改变（10%~40%），直接影响后续治疗决策，因此必须重新检测 ER、PR、HER2 及 Ki-67。",
+        "keyPoint": "复发转移灶必须重新检测生物标志物以排除受体状态改变",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+          "split_index": 362,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+          "source_version": "2026",
+          "source_section": "13.2.3.1 药物预防性治疗",
+          "source_url": "",
+          "evidence_summary": "指南明确要求对复发灶进行活检，必须重新检测 ER、PR、HER2 表达，因受体状态可能发生改变。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "系统治疗启动",
+        "timepoint": "治疗启动",
+        "question": "患者确诊 HR+/HER2-乳腺癌肾上腺转移，伴原发性肾上腺皮质功能不全（已行氢化可的松替代）。针对晚期一线系统治疗，下列哪项策略最符合规范？",
+        "options": {
+          "A": "瑞波西利联合芳香化酶抑制剂，同时继续激素替代治疗",
+          "B": "单用芳香化酶抑制剂，避免联合靶向药加重肾上腺负担",
+          "C": "优先行双侧肾上腺切除术，术后再考虑系统治疗",
+          "D": "改用氟维司群单药，因联合治疗缺乏肾上腺转移数据"
+        },
+        "answer": "A",
+        "answer_text": "瑞波西利联合芳香化酶抑制剂，同时继续激素替代治疗",
+        "explain": "指南指出复发转移性乳腺癌治疗需结合病理信息精准指导药物选择，机体状态和转移部位是主要考虑因素。",
+        "keyPoint": "依据病理分型与机体状态制定一线治疗方案",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "fea9ac8e-8f06-46c0-9a57-2bf3069f1a01",
+          "split_index": 32,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "乳腺癌多学科诊疗标准与规范（2023年版）",
+          "source_version": "2023",
+          "source_section": "9 《乳腺癌多学科诊疗标准与规范（2023年版）》的具体要求",
+          "source_url": "",
+          "evidence_summary": "指南建议结合病理学信息精准指导一线及后线药物选择，机体状态和转移部位是主要考虑因素。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "治疗决策",
+        "phase": "综合管理",
+        "timepoint": "治疗启动",
+        "question": "该患者合并原发性肾上腺皮质功能不全，在启动抗肿瘤治疗时最需关注的管理重点是？",
+        "options": {
+          "A": "优先行肾上腺切除术以消除激素分泌异常来源",
+          "B": "给予氢化可的松替代治疗并监测抗肿瘤药物毒性",
+          "C": "暂停所有抗肿瘤治疗直至肾上腺功能完全恢复",
+          "D": "仅针对肾上腺功能不全治疗而推迟抗肿瘤治疗"
+        },
+        "answer": "B",
+        "answer_text": "给予氢化可的松替代治疗并监测抗肿瘤药物毒性",
+        "explain": "肿瘤治疗可致肾上腺皮质功能损伤，需在替代治疗基础上进行抗肿瘤治疗，并密切监测药物相关毒性。",
+        "keyPoint": "替代治疗与抗肿瘤治疗需同步管理",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "a0ceb1ac-d0eb-45fa-b51a-ab92d462333c",
+          "split_index": 115,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 内分泌保护",
+          "source_version": "2023",
+          "source_section": "第五章",
+          "source_url": "",
+          "evidence_summary": "指南指出肿瘤治疗方案可造成肾上腺皮质功能损伤，需关注药物毒性对肾上腺的影响及管理。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "不良反应管理",
+        "phase": "毒性管理阶段",
+        "timepoint": "治疗 2 周后",
+        "question": "患者瑞波西利联合来曲唑治疗 2 周后出现严重中性粒细胞减少，依据不良反应分级处理原则，后续管理策略应为？",
+        "options": {
+          "A": "永久停用瑞波西利，更换为单药内分泌治疗不再挑战",
+          "B": "继续原剂量用药，同时预防性使用升白针维持治疗",
+          "C": "立即减量至最低剂量，无需暂停用药直接继续治疗",
+          "D": "暂停用药直至恢复，评估风险获益后考虑减量恢复治疗"
+        },
+        "answer": "D",
+        "answer_text": "暂停用药直至恢复，评估风险获益后考虑减量恢复治疗",
+        "explain": "指南规定Ⅲ度不良反应需停药，基于风险/获益比考虑是否恢复药物治疗或减量处理；骨髓抑制属于剂量限制性毒性，可减量再挑战。",
+        "keyPoint": "Ⅲ度血液学毒性需暂停用药，恢复后评估风险获益决定是否减量",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "c9294314-38c0-4a55-92b6-b261f374a7da",
+          "split_index": 60,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 整体支持",
+          "source_version": "2023",
+          "source_section": "（五）不良反应的处理",
+          "source_url": "",
+          "evidence_summary": "指南明确Ⅲ度不良事件需停药，基于风险获益比考虑恢复治疗或减量，骨髓抑制可减量处理。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-DE70CBF4",
+    "cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "乳腺癌术后肾上腺病灶评估",
+      "description": "64岁女性，乳腺癌术后多年因腹部隐痛就诊，随访发现双侧肾上腺结节。"
+    },
+    "overview": {
+      "hero": {
+        "title": "乳腺癌术后肾上腺病灶评估",
+        "subtitle": "迟发肾上腺病灶的来源判断、激素功能评估，以及系统治疗期间血细胞变化的处理。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "64岁女性，乳腺癌术后多年因腹部隐痛就诊，随访发现双侧肾上腺结节。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "活检支持乳腺来源转移，ER/PR阳性、HER2阴性；合并原发性肾上腺皮质功能不全。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "予氢化可的松替代及瑞波西利联合来曲唑；严重中性粒细胞减少后暂停并减量。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "迟发肾上腺病灶的来源判断、激素功能评估，以及系统治疗期间血细胞变化的处理。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2011年及其后",
+              "title": "乳腺癌初始治疗",
+              "detail": "手术、化疗、放疗后接受内分泌治疗；2016年自行停用芳香化酶抑制剂。"
+            },
+            {
+              "date": "本次就诊及随访",
+              "title": "双侧肾上腺变化",
+              "detail": "腹痛就诊，影像随访发现双侧肾上腺结节进展及腹主动脉旁淋巴结异常。"
+            },
+            {
+              "date": "诊断阶段",
+              "title": "确认来源与功能异常",
+              "detail": "活检支持乳腺转移；激素检查及刺激试验确诊肾上腺皮质功能不全。"
+            },
+            {
+              "date": "治疗启动",
+              "title": "替代及抗肿瘤治疗",
+              "detail": "氢化可的松替代，联合瑞波西利及来曲唑治疗。"
+            },
+            {
+              "date": "治疗2周后及后续",
+              "title": "处理血液学毒性",
+              "detail": "严重中性粒细胞减少后暂停1周期，减量恢复，继续随访。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

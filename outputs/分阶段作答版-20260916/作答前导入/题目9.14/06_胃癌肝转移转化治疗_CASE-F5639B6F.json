@@ -1,0 +1,208 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-F5639B6F",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "胃癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "分子诊断",
+        "phase": "初诊评估",
+        "timepoint": "诊断时",
+        "question": "IV期胃癌启动系统治疗前，哪种检测安排更能支持选药？",
+        "options": {
+          "A": "仅检测HER2，其余项目待首次进展后再考虑",
+          "B": "只做常规病理，待手术大标本再补齐所有分子信息",
+          "C": "完善HER2、PD-L1、MMR/MSI等与可用方案相关的检测",
+          "D": "根据肝转移数量选择药物，无需区分分子分型"
+        },
+        "answer": "C",
+        "answer_text": "完善HER2、PD-L1、MMR/MSI等与可用方案相关的检测",
+        "explain": "应结合可及药物和检测条件完成相关标志物评估，避免遗漏靶向或免疫治疗线索。本题列举核心项目，并不声称已覆盖所有可用靶点；不能等待不确定的手术机会才开展基线检测。",
+        "keyPoint": "晚期胃癌的分子评估应服务于当前系统治疗选择。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for gastric cancer",
+          "source_version": "2024",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10937212/",
+          "evidence_summary": "晚期胃癌的分子评估应服务于当前系统治疗选择。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "诊断与分期",
+        "phase": "病理诊断",
+        "timepoint": "检查时",
+        "question": "小活检提示低分化腺癌，可能伴神经内分泌分化。下一步病理评估哪项更合适？",
+        "options": {
+          "A": "结合形态补充Syn、CgA、Ki-67等，并评估取样局限",
+          "B": "单凭低分化形态即诊断神经内分泌癌并更改方案",
+          "C": "发现任一神经内分泌标记阳性即可确诊混合性肿瘤",
+          "D": "以PET代谢高低取代补充免疫组化及形态学复核"
+        },
+        "answer": "A",
+        "answer_text": "结合形态补充Syn、CgA、Ki-67等，并评估取样局限",
+        "explain": "补充标记有助于鉴别，但局灶表达不能单独等同于神经内分泌癌或混合性肿瘤。需综合形态、增殖和成分情况；有限小标本可能无法完整评价各成分比例。",
+        "keyPoint": "神经内分泌分化需形态与标记结合，不能凭单项阳性定型。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 病理诊断",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "",
+          "evidence_summary": "神经内分泌分化需形态与标记结合，不能凭单项阳性定型。（原引用书目信息保留；本轮未取得对应原文分块，支持范围待复核。）"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "分子诊断",
+        "phase": "PD-L1证据解释",
+        "timepoint": "初始系统治疗评估时",
+        "question": "HER2阴性胃癌伴肝转移，病例PD-L1 CPS为8并采用XELOX联合替雷利珠单抗。解释PD-L1证据时，哪项说法更准确？",
+        "options": {
+          "A": "CPS为8即可直接换算为TAP≥5%，两种评分可以互换",
+          "B": "应核对方案对应的检测方法，CPS不能直接换算为TAP",
+          "C": "HER2阴性即可省略PD-L1评估，评分不影响证据解释",
+          "D": "PD-L1阳性说明可省略化疗，直接采用免疫单药"
+        },
+        "answer": "B",
+        "answer_text": "应核对方案对应的检测方法，CPS不能直接换算为TAP",
+        "explain": "替雷利珠单抗相关研究采用TAP评分评估PD-L1，不能将病例CPS数值直接替换为TAP阈值。评估具体方案需结合研究、适应证及完整分子信息，不能仅凭阳性就决定免疫单药。",
+        "keyPoint": "PD-L1评分体系与阈值必须对应具体研究和药物。",
+        "guidelineRef": {
+          "evidence_type": "药品说明书",
+          "doc_id": "",
+          "split_index": null,
+          "type": "drug_label",
+          "authority": "DailyMed / 美国处方信息",
+          "source_title": "TEVIMBRA Prescribing Information: RATIONALE-305",
+          "source_version": "在线版本（核查于2026-09-10）",
+          "source_section": "",
+          "source_url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=08ef1e3e-496f-4b0b-94ee-fbba3cc1985a&type=display",
+          "evidence_summary": "PD-L1评分体系与阈值必须对应具体研究和药物。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "疗效复评与局部治疗",
+        "phase": "转化治疗评估",
+        "timepoint": "第 5 疗程后",
+        "question": "治疗后肝转移灶影像消失，拟评估胃部转化手术。除影像外，哪项检查有助于识别隐匿腹膜转移？",
+        "options": {
+          "A": "根据风险进行分期腹腔镜，必要时同步腹腔灌洗细胞学",
+          "B": "直接开腹切除胃原发灶，以术后病理完成全部分期",
+          "C": "以PET阴性排除微小腹膜病灶，不再考虑进一步评估",
+          "D": "仅用CA19-9和CEA正常作为腹膜无转移的依据"
+        },
+        "answer": "A",
+        "answer_text": "根据风险进行分期腹腔镜，必要时同步腹腔灌洗细胞学",
+        "explain": "腹腔镜可直接观察腹膜，灌洗细胞学可补充评估隐匿播散。病例只记载腹腔镜未见明显转移，不应补写为灌洗阴性；影像消失也不等于既往转移已被病理清除。",
+        "keyPoint": "转化手术前需评估影像可能漏检的腹膜播散。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for gastric cancer",
+          "source_version": "2024",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10937212/",
+          "evidence_summary": "转化手术前需评估影像可能漏检的腹膜播散。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "治疗决策",
+        "phase": "术后辅助治疗",
+        "timepoint": "术后恢复期",
+        "question": "患者原为IV期胃癌，转化切除后原发灶达到pCR。关于术后继续化疗和免疫治疗，哪项解释最妥当？",
+        "options": {
+          "A": "原发灶pCR意味着全身根治，可以停止所有复评",
+          "B": "应等到出现影像复发，再讨论是否恢复系统治疗",
+          "C": "所有患者都必须在术后第4周开始固定免疫疗程",
+          "D": "结合术前治疗、恢复及风险个体化决定，不能套用统一时间表"
+        },
+        "answer": "D",
+        "answer_text": "结合术前治疗、恢复及风险个体化决定，不能套用统一时间表",
+        "explain": "该病例术后继续治疗属于其管理经过。IV期转化切除与初始可切除胃癌的围手术期情境不同，不能机械套用统一的4～6周免疫启动时间；也不能将胃部pCR推断为全身微转移清除。",
+        "keyPoint": "转化手术后治疗不能由原发灶pCR或固定时间窗单独决定。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for gastric cancer",
+          "source_version": "2024",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10937212/",
+          "evidence_summary": "转化手术后治疗不能由原发灶pCR或固定时间窗单独决定。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-F5639B6F",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "胃癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/gastric-her2.png",
+      "alt": "胃癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "胃癌系统治疗与复评决策",
+      "description": "66岁女性因吞咽困难就诊，检查发现胃部肿瘤及多发肝脏病灶，拟进一步制定治疗方案。"
+    },
+    "overview": {
+      "hero": {
+        "title": "胃癌系统治疗与复评决策",
+        "subtitle": "根据当前已知资料作出判断，完成整组后查看解析与实际经过。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "初始资料",
+              "value": "66岁女性因吞咽困难就诊，检查发现胃部肿瘤及多发肝脏病灶，拟进一步制定治疗方案。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": []
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "title": "HER2阳性合并MSI-H晚期胃癌转化治疗",
+  "missing": [],
+  "questions": [
+    {
+      "id": "Q1",
+      "type": "治疗决策",
+      "phase": "初始治疗",
+      "timepoint": "初诊",
+      "question": "75岁男性，胃窦腺癌T4b(HEP)N1M0 IVA期，HER2 3+，MSI-H，因广泛肝浸润初始不可切除。关于初始系统治疗策略，下列哪项正确？",
+      "options": {
+        "A": "因MSI-H应优先选择免疫检查点抑制剂单药作为初始治疗",
+        "B": "因HER2 3+应仅用曲妥珠单抗联合化疗，MSI-H不影响方案",
+        "C": "HER2高表达或dMMR/MSI-H的Ⅰ级推荐为系统治疗为主",
+        "D": "T4b肝浸润初始应行同步放化疗降期后再评估手术"
+      },
+      "answer": "C",
+      "answer_text": "HER2高表达或dMMR/MSI-H的Ⅰ级推荐为系统治疗为主",
+      "explain": "A｜不正确：指南对HER2+/MSI-H的Ⅰ级推荐为系统治疗为主而非指定ICI单药，免疫单药非本情境唯一首选\nB｜不正确：指南将HER2高表达与dMMR/MSI-H并列同一分层，MSI状态并非无关而是共同指向系统治疗路径\nC｜正确：指南明确HER2高表达或dMMR/MSI-H的Ⅰ级推荐为系统治疗为主（参照转移性胃癌部分），SOX+Tmab属该路径\nD｜不正确：放化疗为HER2中/低/不表达且pMMR/MSS分层的推荐，本例HER2 3+且MSI-H不适用该路径",
+      "keyPoint": "HER2+与MSI-H在不可切除局部进展期胃癌中归入同一系统治疗层级，不产生互斥选择",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+        "split_index": 94,
+        "type": "guideline",
+        "authority": "CSCO",
+        "source_title": "中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026",
+        "source_version": "2026",
+        "source_section": "专家组成员（以姓氏汉语拼音为序）（\\*为执笔人）",
+        "source_url": "",
+        "evidence_summary": "CSCO 2026：T4b/淋巴结融合固定中HER2高表达或dMMR/MSI-H的Ⅰ级推荐为系统治疗为主（参照转移性胃癌部分）"
+      }
+    },
+    {
+      "id": "Q2",
+      "type": "治疗决策",
+      "phase": "术后辅助",
+      "timepoint": "转化手术后",
+      "question": "该患者转化手术后病理示pCR，分子检测证实MSI-H。关于是否继续术后SOX+曲妥珠单抗巩固化疗，下列哪项正确？",
+      "options": {
+        "A": "pCR后必须完成标准周期辅助化疗，MSI状态不改变决策",
+        "B": "pCR后应仅保留曲妥珠单抗维持，停用所有化疗药物",
+        "C": "已获pCR且标志物正常，无需任何术后治疗直接随访",
+        "D": "MSI-H提示辅助化疗获益有限，结合pCR需重新权衡"
+      },
+      "answer": "D",
+      "answer_text": "MSI-H提示辅助化疗获益有限，结合pCR需重新权衡",
+      "explain": "A｜不正确：指南明确MSI-H辅助化疗疗效不佳，'必须完成'与该证据直接矛盾\nB｜不正确：指南讨论化疗获益问题，未推荐pCR后仅保留曲妥珠单抗的具体方案，缺乏证据支持\nC｜不正确：指南仅提示化疗获益有限，并未得出'无需任何治疗'的结论，曲妥珠单抗管理需另行评估\nD｜正确：指南明确MSI-H辅助化疗疗效不佳，结合pCR无残留病灶，继续化疗的获益-风险比需重新权衡",
+      "keyPoint": "MSI-H是评估辅助化疗获益的关键标志，pCR后需结合该信息重新权衡化疗必要性",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "0d244cdc-4b4c-4b72-9a3f-5ce862be52d6",
+        "split_index": 33,
+        "type": "guideline",
+        "authority": "中华医学会肿瘤学分会",
+        "source_title": "中华医学会胃癌临床诊疗指南（2021版）",
+        "source_version": "2021",
+        "source_section": "（六）分子病理检测",
+        "source_url": "",
+        "evidence_summary": "中华医学会2021：MSI-H胃癌预后较好但新辅助/辅助化疗疗效不佳，可作为术后化疗疗效参考指标"
+      }
+    },
+    {
+      "id": "Q3",
+      "type": "不良反应管理",
+      "phase": "术后化疗",
+      "timepoint": "巩固化疗期间",
+      "question": "术后SOX+Tmab化疗期间出现持续时间较长的中性粒细胞减少合并菌血症（推测与化疗相关黏膜炎有关）。关于该毒性的规范处理，下列哪项正确？",
+      "options": {
+        "A": "出现菌血症即永久停用全部化疗及靶向药物不再恢复",
+        "B": "ANC<0.5×10⁹/L暂停至缓解，G-CSF并评价治疗感染",
+        "C": "继续原方案化疗并预防性G-CSF，感染仅抗感染处理",
+        "D": "仅暂停S-1，保留奥沙利铂和曲妥珠单抗继续化疗"
+      },
+      "answer": "B",
+      "answer_text": "ANC<0.5×10⁹/L暂停至缓解，G-CSF并评价治疗感染",
+      "explain": "A｜不正确：指南规定ANC<0.5×10⁹/L时暂停药物直至缓解，而非永久停药，永久终止超出标准管理\nB｜正确：指南明确ANC<0.5×10⁹/L暂停直至缓解，同时要求及时G-CSF并对伴发感染评价和治疗\nC｜不正确：指南要求ANC<0.5×10⁹/L时暂停药物，继续化疗违反该规定；感染需评价和治疗而非仅抗感染\nD｜不正确：指南暂停要求针对药物应用整体，未区分具体组分；S-1含氟嘧啶本身可致黏膜炎和骨髓抑制",
+      "keyPoint": "化疗相关中性粒细胞减少的标准处理是暂停至缓解并治疗感染，永久停药需额外获益-风险判断",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "5ca91f68-5b2a-46f4-a4f7-74d5b6f3894f",
+        "split_index": 346,
+        "type": "guideline",
+        "authority": "CACA",
+        "source_title": "中国肿瘤整合诊治指南 淋巴瘤",
+        "source_version": "2024",
+        "source_section": "4 中性粒细胞减少",
+        "source_url": "",
+        "evidence_summary": "CACA：ANC<0.5×10⁹/L暂停药物直至缓解，全程监测血常规，及时G-CSF，评价和治疗伴发感染"
+      }
+    },
+    {
+      "id": "Q4",
+      "type": "疗效复评与局部治疗",
+      "phase": "转化手术",
+      "timepoint": "化疗3周期后",
+      "question": "化疗3周期后原发灶、淋巴结及肝脏浸润明显缩小。关于转化手术的评估与决策，下列哪项正确？",
+      "options": {
+        "A": "肿瘤退缩后再次MDT评估，据侵犯程度决定切除范围",
+        "B": "初始IVA期即不可切除，无论化疗反应均不考虑手术",
+        "C": "肿瘤缩小后主诊外科医师可直接安排手术无需MDT",
+        "D": "肝S4浸润为远处转移，转化手术仅切除胃原发灶"
+      },
+      "answer": "A",
+      "answer_text": "肿瘤退缩后再次MDT评估，据侵犯程度决定切除范围",
+      "explain": "A｜正确：指南明确肿瘤明显退缩者推荐再次MDT评估可否手术切除，本例据侵犯程度行联合切除获R0符合该路径\nB｜不正确：指南指出肿瘤明显退缩后应评估手术可行性，并非IVA期即永久排除手术可能\nC｜不正确：指南要求再次MDT评估而非主诊医师单独决定，MDT是转化手术决策的必要环节\nD｜不正确：T4b(HEP)为直接侵犯非远处转移（M0），指南要求根据肿瘤具体侵犯程度评估，同期切除受侵肝脏是R0前提",
+      "keyPoint": "转化手术决策需以肿瘤退缩为触发、MDT再评估为程序、侵犯程度为范围依据",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+        "split_index": 96,
+        "type": "guideline",
+        "authority": "CSCO",
+        "source_title": "中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026",
+        "source_version": "2026",
+        "source_section": "专家组成员（以姓氏汉语拼音为序）（\\*为执笔人）",
+        "source_url": "",
+        "evidence_summary": "CSCO 2026：肿瘤明显退缩者推荐再次MDT评估可否手术切除，根据侵犯程度全面评估转化手术可能"
+      }
+    },
+    {
+      "id": "Q5",
+      "type": "耐药与后线管理",
+      "phase": "后线",
+      "timepoint": "假设进展后",
+      "question": "【延伸情境】假设该患者后续出现疾病进展，关于后线治疗选择，下列哪项正确？",
+      "options": {
+        "A": "因HER2 3+进展后仅选德曲妥珠单抗，MSI-H不改变",
+        "B": "已用曲妥珠单抗，进展后应换帕妥珠单抗联合化疗",
+        "C": "MSI-H进展后仅选化疗，既往靶向史排除免疫治疗",
+        "D": "dMMR/MSI-H无论HER2状态可选ICI，T-DXd亦为Ⅰ级"
+      },
+      "answer": "D",
+      "answer_text": "dMMR/MSI-H无论HER2状态可选ICI，T-DXd亦为Ⅰ级",
+      "explain": "A｜不正确：指南中dMMR/MSI-H行注明'无论HER2状态'，HER2 3+不排斥ICI推荐，'仅'字使该选项错误\nB｜不正确：指南对HER2高表达进展后Ⅰ级推荐为德曲妥珠单抗而非帕妥珠单抗，后者未列入该指南后线推荐\nC｜不正确：指南将dMMR/MSI-H的ICI列为Ⅰ级推荐，未设既往用过靶向治疗则排除ICI的限制条件\nD｜正确：指南中MSI-H行'无论HER2状态'意味着ICI独立适用，同时HER2高表达行T-DXd亦为Ⅰ级，两者可并存",
+      "keyPoint": "MSI-H后线免疫推荐'无论HER2状态'，与HER2靶向路径并列而非互斥",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+        "split_index": 114,
+        "type": "guideline",
+        "authority": "CSCO",
+        "source_title": "中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026",
+        "source_version": "2026",
+        "source_section": "专家组成员（以姓氏汉语拼音为序）（\\*为执笔人）",
+        "source_url": "",
+        "evidence_summary": "CSCO 2026：dMMR/MSI-H无论HER2状态Ⅰ级推荐帕博利珠单抗等ICI；HER2高表达进展后Ⅰ级为德曲妥珠单抗"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "evidence_id": "GA05",
+      "doc_id": "0d244cdc-4b4c-4b72-9a3f-5ce862be52d6",
+      "split_index": 33,
+      "type": "guideline",
+      "authority": "中华医学会肿瘤学分会",
+      "source_title": "中华医学会胃癌临床诊疗指南（2021版）",
+      "source_version": "2021",
+      "source_section": "（六）分子病理检测",
+      "source_url": "",
+      "snippet": " \n是ICI疗效较佳的预测标志物。目前TMB检测主要通过全外显子组基因测序或基于一组较大的突变基因组和Panel换算进行。\n4. 胃癌化疗相关标志物：建议对胃腺癌组织常规进行Ki-67检测以评估癌细胞的增殖状态，并为术后化疗疗效提供参考。MSI-H胃癌预后相对较好，但新辅助/辅助化疗疗效不佳，可作为术后化疗疗效参考指标。\n5. 二代测序（next-generation sequencing，NGS）：NGS可评估胃癌的遗传改变，从而指导胃癌的精准治疗。在晚期胃癌中使用NGS被NCCN指南列为2A类建议，用于确定治疗方案和（或）临床试验入组参考，特别对于药物治疗无效或病理组织取材有限的病例，考虑行NGS指导治疗，也用于MSI、TMB及ctDNA检测。",
+      "hard_evidence_type": "指南",
+      "reasoning_eligible": true
+    },
+    {
+      "evidence_id": "GB01",
+      "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+      "split_index": 96,
+      "type": "guideline",
+      "authority": "CSCO",
+      "source_title": "中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026",
+      "source_version": "2026",
+      "source_section": "专家组成员（以姓氏汉语拼音为序）（\\*为执笔人）",
+      "source_url": "",
+      "snippet": "专家组经过讨论，建议此类患者提交MDT会诊，根据肿瘤具体侵犯程度、病理和分子分型指标（如HER2、MMR/MSI状态、PD-L1表达及Claudin 18.2表达等），全面评估肿瘤分期、综合治疗方案和转化手术的可能。一般情况良好的患者首选系统治疗，对于肿瘤明显退缩者推荐再次MDT评估可否手术切除；若肿瘤仍无法切除且未发生远处转移，可考虑同步放化疗及联合免疫、靶向治疗。对于不能耐受手术或放化疗以及治疗中发生广泛进展、远处转移的病例，参照转移性胃癌的全身治疗选择后线方案。\nb 放射治疗用于局部进展期不可切除胃癌的早期研究发表于20世纪60年代末［11］及20世纪80年代初［12］，提供了初步的联合放化疗优于单纯放疗和单纯化疗的证据。在诊断技术、手术范围、化疗方案和放射治疗技术已取得长足进步的条件下，后续发表的多项Ⅱ～Ⅲ期研究［5,13-17］也显示了放化疗的“降期”和局部控制优势。\n ",
+      "hard_evidence_type": "指南",
+      "reasoning_eligible": true
+    },
+    {
+      "evidence_id": "GB02",
+      "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+      "split_index": 94,
+      "type": "guideline",
+      "authority": "CSCO",
+      "source_title": "中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026",
+      "source_version": "2026",
+      "source_section": "专家组成员（以姓氏汉语拼音为序）（\\*为执笔人）",
+      "source_url": "",
+      "snippet": "<table><tr><td>分期</td><td>分层</td><td>Ⅰ级推荐</td><td>Ⅱ级推荐</td><td>Ⅲ级推荐</td></tr><tr><td rowspan=\"2\">T4V/淋巴结融合固定</td><td>HER2中/低/不表达<br/>并且pMMR/MSS</td><td>系统治疗后MDT评估转化手术的可行性，<br/>仍然不可切除且无转移者接受放化疗a</td><td>同步放化疗b, f, g<br/>[1A 类] ①③<br/>化疗联合免疫治疗c [1B 类] ②</td><td>放化疗联合免疫治疗d<br/>[2 类] ②③<br/>化疗b, g [2 类] ②<br/>化疗+放疗g, h [2 类] ②③<br/>化疗+靶向+免疫c [3 类] ①②</td></tr><tr><td>HER2高表达<br/>或dMMR/MSI-H</td><td>系统治疗为主e (参照转移性胃癌部分)</td><td></td><td></td></tr></table>",
+      "hard_evidence_type": "指南",
+      "reasoning_eligible": true
+    },
+    {
+      "evidence_id": "GB03",
+      "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+      "split_index": 114,
+      "type": "guideline",
+      "authority": "CSCO",
+      "source_title": "中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026",
+      "source_version": "2026",
+      "source_section": "专家组成员（以姓氏汉语拼音为序）（\\*为执笔人）",
+      "source_url": "",
+      "snippet": "<table><tr><td>分层</td><td>I 级推荐</td><td>II 级推荐</td><td>III 级推荐</td></tr><tr><td>HER2 高<br/>表达（IHC 3 + 或2 + 且FISH + )℃</td><td>既往接受过曲妥珠单抗，德曲妥珠单抗</td><td>既往接受过曲妥珠单抗，紫杉醇＋雷莫西尤单抗＊<br/>［1B 类］<br/>单药化疗（紫杉类＊/<br/>伊立替康）［1B 类］<br/>既往未接受曲妥珠单抗且铂类治疗失败，曲妥珠单抗＋紫杉类＊［2A 类］</td><td>既往未接受曲妥珠单抗，<br/>曲妥珠单抗＋紫杉类／蒽环类之外的其他二线化疗＊［3 类］<br/>既往接受过曲妥珠单抗，根据既往用药情况推荐化疗［3 类］</td></tr><tr><td>HER2 中／低／不表达＊</td><td>紫杉醇＋雷莫西尤单抗＊<br/>［1A 类］<br/>单药化疗（紫杉类＊/<br/>伊立替康）［1A 类］</td><td>根据既往用药情况推荐两药化疗＊［2B 类］</td><td>紫杉醇＋呋喹替尼＊［1B 类］<br/>既往未经铂类治疗失败，顺铂或奥沙利铂为基础的化疗［3 类］</td></tr><tr><td>dMMIR／<br/>MSI -H ，无论HER2 状态</td><td>帕博利珠单抗＊［2A 类］＊<br/>恩沃利单抗＊［2A 类］＊<br/>替雷利珠单抗＊［2A 类］＊<br/>斯鲁利单抗＊［2A 类］＊</td><td></td><td>如既往用过PD -1 /PD -L1 单抗，根据HER2 状态选择二线治疗［3 类］</td></tr></table>",
+      "hard_evidence_type": "指南",
+      "reasoning_eligible": true
+    },
+    {
+      "evidence_id": "IR01",
+      "doc_id": "5ca91f68-5b2a-46f4-a4f7-74d5b6f3894f",
+      "split_index": 346,
+      "type": "guideline",
+      "authority": "CACA",
+      "source_title": "中国肿瘤整合诊治指南 淋巴瘤",
+      "source_version": "2024",
+      "source_section": "4 中性粒细胞减少",
+      "source_url": "",
+      "snippet": "治疗相关中性粒细胞减少常发生在首次用药后1月左右，其中多数为3\\~4级。用药期间全程监测血常规变化，及时应用粒细胞集落刺激因子治疗，中性粒细胞计数小于 \\$0.5\\times 10^{9} / \\mathrm{L}\\$ 时暂停药物应用，直至不良事件缓解。应预测该类患者发生感染的风险，并对任何伴发的感染进行评价和治疗。",
+      "hard_evidence_type": "指南",
+      "reasoning_eligible": true
+    }
+  ]
+}

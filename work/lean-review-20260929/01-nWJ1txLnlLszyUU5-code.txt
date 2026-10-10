@@ -1,0 +1,31 @@
+function main(inputs) {
+  const config = {"purpose":"复评、局部协调与后线决策正式指南","fields":[{"key":"decision_points","budget":100,"label":"决策问题","pattern":"复评|转移|进展|耐药|后线|拒绝|不可及|脑膜|梗阻|出血|感染|调整|局部"},{"key":"case_timeline","budget":145,"label":"实际治疗","pattern":"方案|化疗|联合|治疗|放疗"},{"key":"biomarkers","budget":115,"label":"检测记录","pattern":"基因|KRAS|NRAS|BRAF|MSS|MSI|HER2|EGFR|ALK|ROS1"}],"scope":"按原发癌种匹配复评与后线阶段，保留已知治疗限制。"};
+  const clean = v => typeof v === 'string' ? v.replace(/\s+/g,' ').trim() : '';
+  const report = {version:'query-lines-20260928',max_length:480,selected_segments:{},omitted_segments:{}};
+  // Split BEFORE whitespace normalization. Do not cut a source clause in half.
+  function excerpt(value,budget,key,pattern) {
+    const parts = String(value||'').split(/\r?\n|[；;。]/).map(clean).filter(Boolean);
+    const ordered=parts.map((text,index)=>({text,index,score:pattern&&new RegExp(pattern,'i').test(text)?1:0}))
+      .filter(item=>!pattern||item.score)
+      .map(item=>({...item,score:item.score+(key==='case_timeline'&&/调整|改为|停用/.test(item.text)?2:0)}))
+      .sort((a,b)=>b.score-a.score||a.index-b.index);
+    const kept=[];let length=0;
+    for(const item of ordered) if(length+item.text.length+(kept.length?1:0)<=budget){kept.push(item);length+=item.text.length+(kept.length>1?1:0);}
+    report.selected_segments[key]=kept.map(x=>x.index);
+    report.omitted_segments[key]=parts.length-kept.length;
+    return kept.map(x=>x.text).join('；');
+  }
+  let disease=clean(inputs.disease);
+  if(disease.length>130)disease=clean(inputs.second_cancer_type);
+  if(disease.length>130)throw new Error('疾病名称超过检索预算，请核对输入');
+  const lines=[config.purpose,'原发诊断：'+disease];
+  const fixedLength=lines.join('\n').length+1+config.scope.length+config.fields.reduce((n,f)=>n+1+f.label.length+1,0);
+  const scale=Math.min(1,(480-fixedLength)/config.fields.reduce((n,f)=>n+f.budget,0));
+  for(const field of config.fields){const text=excerpt(inputs[field.key],Math.floor(field.budget*scale),field.key,field.pattern);if(text)lines.push(field.label+'：'+text);}
+  lines.push(config.scope);
+  const query=lines.join('\n');
+  if(query.length>480)throw new Error('检索词超过480字符预算');
+  report.query_length=query.length;
+  report.specific_context_present=Object.values(report.selected_segments).some(x=>x.length>0);
+  return {system_text:query,query_report:report};
+}

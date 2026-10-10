@@ -1,0 +1,14 @@
+{
+  "version": "20260929-error-return",
+  "base": "outputs/HTML原句排版修复-20260929",
+  "online_verified": false,
+  "root_cause_of_empty_response_known": false,
+  "changes": {
+    "child": "只接入模型错误，区分执行失败和格式失败",
+    "outer": "9个现有错误端口接入错误整理与回复两个新增节点；成功分支不变",
+    "batch": "新增单例返回检查，空返回和上游错误保留到汇总"
+  },
+  "no_prompt_change": true,
+  "no_retrieval_change": true,
+  "no_concurrency_change": true
+}

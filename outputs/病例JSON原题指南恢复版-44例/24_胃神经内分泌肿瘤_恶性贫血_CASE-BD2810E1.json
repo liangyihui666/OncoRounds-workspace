@@ -1,0 +1,247 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-BD2810E1",
+    "cancer_type": "神经内分泌肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "初诊评估",
+        "timepoint": "就诊时",
+        "question": "该患者胃窦结节活检示 Ki-67<3% 且核分裂象<2 个/mm²，结合背景黏膜萎缩及高胃泌素血症，其 WHO 分级及临床亚型应如何判定？",
+        "options": {
+          "A": "NET G2 级，1 型胃神经内分泌肿瘤",
+          "B": "NET G1 级，3 型胃神经内分泌肿瘤",
+          "C": "神经内分泌癌（NEC），3 型胃神经内分泌肿瘤",
+          "D": "NET G1 级，1 型胃神经内分泌肿瘤"
+        },
+        "answer": "D",
+        "answer_text": "NET G1 级，1 型胃神经内分泌肿瘤",
+        "explain": "Ki-67<3% 且核分裂<2 个/mm²符合 NET G1 标准；背景萎缩性胃炎、高胃泌素及 ECL 细胞增生特征指向 1 型。",
+        "keyPoint": "1 型胃 NET 由 AIG 驱动，分级依据增殖指数，需与 3 型鉴别。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "340588b3-fde3-4995-a125-fbcb294a1c76",
+          "split_index": 30,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会 (CSCO) 神经内分泌肿瘤诊疗指南 2026",
+          "source_version": "2026",
+          "source_section": "中国临床肿瘤学会指南工作委员会",
+          "source_url": "",
+          "evidence_summary": "CSCO 指南指出 1 型胃 NET 基础病因为自身免疫性胃炎，伴高胃泌素血症，分级标准与肠道一致。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "分子诊断",
+        "phase": "初诊评估",
+        "timepoint": "就诊时",
+        "question": "针对疑似自身免疫性萎缩性胃炎（AIG）合并胃神经内分泌肿瘤的患者，下列哪项血清学检测组合最有助于明确病因及指导后续治疗？",
+        "options": {
+          "A": "抗壁细胞抗体、抗内因子抗体、胃泌素、维生素 B12",
+          "B": "HER2、MMR 蛋白、PD-L1 及 EBER 检测组合",
+          "C": "CEA、CA19-9、CA72-4 及 AFP 肿瘤标志物",
+          "D": "促胃液素释放肽、NSE、降钙素及甲状旁腺激素"
+        },
+        "answer": "A",
+        "answer_text": "抗壁细胞抗体、抗内因子抗体、胃泌素、维生素 B12",
+        "explain": "AIG 诊断依赖自身抗体及维生素 B12 水平，高胃泌素是 1 型胃 NET 的驱动因素，需同步检测以确立诊断链条。",
+        "keyPoint": "AIG 相关胃 NET 的确诊需整合自身免疫指标、维生素 B12 及胃泌素水平。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "e5a17f7f-e974-4d8f-81a4-df017e1364de",
+          "split_index": 60,
+          "type": "guideline",
+          "authority": "中华医学会消化病学分会",
+          "source_title": "中国慢性胃炎诊治指南（2022年，上海）",
+          "source_version": "2022",
+          "source_section": "瓶。内镜医师应向病理医师提供取材部位、内镜所见、内镜诊断和简要病史等临床资料。",
+          "source_url": "",
+          "evidence_summary": "慢性胃炎诊治指南推荐对伴贫血的萎缩性胃炎患者检测自身抗体、维生素 B12 及胃泌素以明确 AIG 及 1 型胃 NET 风险。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "初始治疗",
+        "timepoint": "出院计划制定时",
+        "question": "对于该例单发、直径较小（<1cm）且无浸润深度的 1 型胃 NET G1 患者，在纠正恶性贫血后，首选的管理策略是什么？",
+        "options": {
+          "A": "立即行内镜下黏膜切除术（EMR）",
+          "B": "定期胃镜随访，暂不行内镜下切除",
+          "C": "行根治性胃大部切除术",
+          "D": "启动长效生长抑素类似物（SSA）治疗"
+        },
+        "answer": "B",
+        "answer_text": "定期胃镜随访，暂不行内镜下切除",
+        "explain": "指南指出对于<1cm 的 1 型胃 NET，若病灶数目不多，可选择单纯随访；本例单发小病灶，且已纠正贫血，随访是合理选项。",
+        "keyPoint": "小病灶 1 型胃 NET 可采取保守随访策略，避免过度治疗，但需密切监测。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "340588b3-fde3-4995-a125-fbcb294a1c76",
+          "split_index": 55,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会 (CSCO) 神经内分泌肿瘤诊疗指南 2026",
+          "source_version": "2026",
+          "source_section": "【注释】",
+          "source_url": "",
+          "evidence_summary": "CSCO 指南注释表明，<1cm 的 1 型胃 NET 若病灶不多，专家主张可单纯内镜随访，每 6-12 个月复查。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "疗效复评与局部治疗",
+        "phase": "随访管理",
+        "timepoint": "出院后长期管理",
+        "question": "根据 CSCO 指南，该 1 型胃 NET 患者在确诊并制定随访计划后，前 5 年的推荐随访频率及核心检查内容是什么？",
+        "options": {
+          "A": "每 3 个月随访 1 次，含胸腹盆 CT 及生长抑素受体显像",
+          "B": "每年随访 1 次，检测肿瘤标志物 CgA、NSE 及血常规",
+          "C": "每 6-12 个月随访 1 次，含胃镜、血常规、维生素 B12 及胃泌素",
+          "D": "每 24 个月随访 1 次，行胃镜检查及血清胃泌素测定"
+        },
+        "answer": "C",
+        "answer_text": "每 6-12 个月随访 1 次，含胃镜、血常规、维生素 B12 及胃泌素",
+        "explain": "1 型胃 NET 进展缓慢，指南推荐前 5 年每 6-12 个月随访，重点监测胃镜变化及贫血、高胃泌素状态。",
+        "keyPoint": "1 型胃 NET 随访需兼顾肿瘤局部控制与基础疾病（AIG/贫血）的监测。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "340588b3-fde3-4995-a125-fbcb294a1c76",
+          "split_index": 153,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会 (CSCO) 神经内分泌肿瘤诊疗指南 2026",
+          "source_version": "2026",
+          "source_section": "【注释】",
+          "source_url": "",
+          "evidence_summary": "CSCO 指南规定 1 型胃 NET 建议每 6-12 个月随访 1 次共 5 年，内容包括胃镜、血常规、维生素 B12 及胃泌素等。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "分子诊断",
+        "phase": "初诊评估",
+        "timepoint": "就诊时",
+        "question": "在确立 1 型胃 NET 诊断过程中，下列哪项血清学指标组合对提示“自身免疫性萎缩性胃炎”这一基础病因最具特异性？",
+        "options": {
+          "A": "血清胃泌素降低与壁细胞抗体阴性",
+          "B": "嗜铬粒蛋白 A 显著升高与胃泌素正常",
+          "C": "维生素 B12 正常与壁细胞抗体阳性",
+          "D": "血清胃泌素升高与内因子抗体阳性"
+        },
+        "answer": "D",
+        "answer_text": "血清胃泌素升高与内因子抗体阳性",
+        "explain": "自身免疫性胃炎导致壁细胞破坏，胃酸缺乏反馈性引起胃泌素升高，内因子抗体阳性是恶性贫血及 1 型胃 NET 的特异性标志。",
+        "keyPoint": "高胃泌素血症联合内因子抗体阳性是 1 型胃 NET 病因诊断的关键血清学特征。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "e5a17f7f-e974-4d8f-81a4-df017e1364de",
+          "split_index": 60,
+          "type": "guideline",
+          "authority": "中华医学会消化病学分会",
+          "source_title": "中国慢性胃炎诊治指南（2022年，上海）",
+          "source_version": "2022",
+          "source_section": "瓶。内镜医师应向病理医师提供取材部位、内镜所见、内镜诊断和简要病史等临床资料。",
+          "source_url": "",
+          "evidence_summary": "慢性胃炎诊治指南指出 AIG 患者需检测抗胃壁细胞/内因子抗体，常伴胃泌素升高及 1 型胃 NET。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-BD2810E1",
+    "cancer_type": "神经内分泌肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/gastric-her2.png",
+      "alt": "胃神经内分泌肿瘤主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "贫血与胃部病变的评估",
+      "description": "39岁男性因乏力就诊，重度大细胞性贫血，维生素B12显著降低。"
+    },
+    "overview": {
+      "hero": {
+        "title": "贫血与胃部病变的评估",
+        "subtitle": "贫血病因与胃黏膜背景、神经内分泌肿瘤分型分级，以及随访和干预条件。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "39岁男性因乏力就诊，重度大细胞性贫血，维生素B12显著降低。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "1型胃NET、G1，伴自身免疫性萎缩性胃炎；CT未见转移，病灶直径未详。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "给予维生素B12替代，未行内镜切除，安排定期随访。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "贫血病因与胃黏膜背景、神经内分泌肿瘤分型分级，以及随访和干预条件。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "就诊前两周",
+              "title": "出现症状",
+              "detail": "出现乏力、疲倦及食欲下降。"
+            },
+            {
+              "date": "入院检查",
+              "title": "发现恶性贫血",
+              "detail": "大细胞性贫血、维生素B12显著降低，内因子及壁细胞抗体阳性。"
+            },
+            {
+              "date": "胃镜及活检",
+              "title": "诊断胃NET",
+              "detail": "胃窦结节活检结合背景检查，诊断1型G1胃NET；CT未见转移。"
+            },
+            {
+              "date": "治疗及出院",
+              "title": "替代治疗与随访安排",
+              "detail": "肌内维生素B12及长期替代，未行内镜切除，安排随访。"
+            },
+            {
+              "date": "出院后3个月及6个月",
+              "title": "血液指标改善",
+              "detail": "血红蛋白等指标恢复正常，未提供肿瘤消退证据。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

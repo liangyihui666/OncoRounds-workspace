@@ -1,0 +1,618 @@
+[
+  {
+    "file": "题目9.14/01_乳腺癌合并MPN及韧带样纤维瘤_CASE-37BF6300.json",
+    "case_id": "CASE-37BF6300",
+    "second_cancer_type": "乳腺癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/FBXU41hwmqCKnCQM_7D1DQ/rqNPLHJW5WBF10q9DpBqyhekwJpssy3W.png",
+      "alt": "图 2. 硬纤维瘤的组织病理学和免疫组织化学特征（A）DTF 的大体外观通常呈肿大的结节状肿块，局部浸润到周围脂肪组织。（B）纤维瘤病浸润到周围乳腺实质。其不规则边界在影像学上可与浸润性癌高度相似。（C）高倍镜下可见长而交错的梭形细胞束，显示轻度异型性。（D）DTF 显示β-连环蛋白在细胞核中呈异常模式。（E）DTF 显示平滑肌肌动蛋白阳性染色，可见无有丝分裂象的梭形细胞。（F）DTF 显示广谱细胞角蛋白阴性染色。（G）DTF 显示 CD34 阴性染色。（H）DTF 显示 CD31 阴性染色。（I）DTF 显示 S-100 阴性染色。（J）DTF 显示结蛋白阴性染色。"
+    },
+    "new_image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "status": "已匹配现有插画"
+  },
+  {
+    "file": "题目9.14/02_乳腺癌肾上腺转移_CASE-DE70CBF4.json",
+    "case_id": "CASE-DE70CBF4",
+    "second_cancer_type": "乳腺癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/uV5J-na17vZLo1PLtJtuHw/HSYUvb0mHwewpyHoR1Cj6f6knurb09ZS.png",
+      "alt": "图 1 腹部增强 CT"
+    },
+    "new_image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "status": "已匹配现有插画"
+  },
+  {
+    "file": "题目9.14/03_BRCA2变异胰腺癌_CASE-7D7C02B3.json",
+    "case_id": "CASE-7D7C02B3",
+    "second_cancer_type": "胰腺癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/AVnsim0wz-kZVmCiz1WlEw/u5KMB2LO0EERPQx5I32IqZJlCMpFOcQd.png",
+      "alt": "图 1.初诊时的增强 CT 和 B 内镜超声检查。A.黄色圆圈显示原发性肿瘤。B.左图显示囊性病变，右图显示内镜超声引导下细针穿刺实体肿瘤。"
+    },
+    "new_image": {
+      "src": "",
+      "alt": "胰腺癌主题封面待配置"
+    },
+    "status": "待配置封面"
+  },
+  {
+    "file": "题目9.14/04_乳腺癌PIK3CA多重突变_CASE-C38F9D7E.json",
+    "case_id": "CASE-C38F9D7E",
+    "second_cancer_type": "乳腺癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/KllwDzW7kTtWvlQoxcS_Wg/2rqoA3IecRwDRuoOZS3uSZkVPDlemM3g.png",
+      "alt": "无明确图注"
+    },
+    "new_image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "status": "已匹配现有插画"
+  },
+  {
+    "file": "题目9.14/05_胰腺腺鳞癌转化治疗_CASE-CA70947A.json",
+    "case_id": "CASE-CA70947A",
+    "second_cancer_type": "胰腺癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/3XJKeMY57V2OZhJvqs1SPA/cem2cf7SCS9sVV1e77NJB4iB5lCvm5hM.png",
+      "alt": "图 1. a–c 转化疗前的增强 MDCT 扫描；d–f 转化疗后的增强 MDCT 扫描。"
+    },
+    "new_image": {
+      "src": "",
+      "alt": "胰腺癌主题封面待配置"
+    },
+    "status": "待配置封面"
+  },
+  {
+    "file": "题目9.14/06_胃癌肝转移转化治疗_CASE-F5639B6F.json",
+    "case_id": "CASE-F5639B6F",
+    "second_cancer_type": "胃癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/sw5VJtbzTRUanx1MLxwxKA/FMLlQWWCkaUuBEGog57izIrHOnPXfsfv.jpg",
+      "alt": "图 1.食管胃十二指肠镜检查显示贲门附近可见一巨大溃疡。"
+    },
+    "new_image": {
+      "src": "../assets/cases/gastric-her2.png",
+      "alt": "胃癌主题示意封面（非患者影像）"
+    },
+    "status": "已匹配现有插画"
+  },
+  {
+    "file": "题目9.14/07_男性乳腺癌_CASE-B559946D.json",
+    "case_id": "CASE-B559946D",
+    "second_cancer_type": "乳腺癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/BU7bEqNOjb7R3YiQTFvgmg/T0M1XQhkXg1KMNrV6rKHPRBxoY5qAZ5a.png",
+      "alt": "图 1.原发性乳腺肿瘤与肝转移灶的组织病理学及治疗时间线（A）原发性乳腺病灶的代表性苏木素 - 伊红（H&E）染色结果，低倍镜（40×，左侧）及高倍镜（100×，右侧）下所示。（B）肝转移灶的代表性苏木素 - 伊红（H&E）染色结果，低倍镜（40×，左侧）及高倍镜（100×，右侧）下所示。（C）临床病程及治疗时间线。"
+    },
+    "new_image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "status": "已匹配现有插画"
+  },
+  {
+    "file": "题目9.14/08_胰腺神经内分泌肿瘤_CASE-761970EB.json",
+    "case_id": "CASE-761970EB",
+    "second_cancer_type": "胰腺神经内分泌肿瘤",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/_7ri7EzT6rqha9GIuyv4ig/fnajC8ETzzLZfDeRb7rRomgmP4HBhGRn.jpg",
+      "alt": "免疫组织化学和 H&E 染色结果"
+    },
+    "new_image": {
+      "src": "",
+      "alt": "胰腺神经内分泌肿瘤主题封面待配置"
+    },
+    "status": "待配置封面"
+  },
+  {
+    "file": "题目9.14/09_结直肠癌肝转移多次复发_CASE-BE8833A9.json",
+    "case_id": "CASE-BE8833A9",
+    "second_cancer_type": "直肠癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/0BiDtMSUZxkRwPeH6491FA/3jcT1ZeHD4rCTZLx5FcElPVu5AyUIMJa.jpg",
+      "alt": "图 1. PET-CT 或腹部 CT 图像。(A)PET-CT 显示肝右叶多发转移灶。(B)CT 显示残留肝脏中的转移结节。(C)CT 显示双侧肺下叶转移结节。(D)CT 显示残留肝脏（前包膜下区域）转移结节。(E)CT 显示左肝（包膜下区域）肝转移。"
+    },
+    "new_image": {
+      "src": "",
+      "alt": "直肠癌主题封面待配置"
+    },
+    "status": "待配置封面"
+  },
+  {
+    "file": "题目9.14/10_HER2阳性乳腺癌皮肤及脑转移_CASE-51D1DA57.json",
+    "case_id": "CASE-51D1DA57",
+    "second_cancer_type": "乳腺癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/UnJ1ig_go-ySWtfZEqwBUA/0ydypsVwoXT49bUGn76hJGamfIQF9G0j.png",
+      "alt": "图 2 左上肢病变。（A）治疗前红斑（2024 年 4 月 12 日，手背发红，局部肿胀，边界清晰）。（B）治疗后消退（2024 年 4 月 18 日，抗生素治疗一周后局部皮肤红肿消退）。"
+    },
+    "new_image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "status": "已匹配现有插画"
+  },
+  {
+    "file": "题目9.14/135868_HER2阳性胃癌_润色版.json",
+    "case_id": "CASE-8C6E34E9",
+    "second_cancer_type": "胃癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/J1U1m0g27flQ_Lx808W9Kw/xUbIuXrU7u2JnHuq1ceiLtU0pPKqUb8o.png",
+      "alt": "图 2. 切除标本的病理学检查结果。A.苏木精 - 伊红染色证实为高分化管状腺癌细胞浸润至黏膜下层。B.HER2 免疫组织化学染色证实肿瘤细胞中 HER2 蛋白强表达。"
+    },
+    "new_image": {
+      "src": "../assets/cases/gastric-her2.png",
+      "alt": "胃癌主题示意封面（非患者影像）"
+    },
+    "status": "已匹配现有插画"
+  },
+  {
+    "file": "题目9.14/137559_转移性直肠癌_润色版.json",
+    "case_id": "CASE-A8792225",
+    "second_cancer_type": "直肠癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/6T9x2EGd7TnNfACgFdiFNA/hdK072LJfLvs1qRkkDUgF0frvMEnvBLv.png",
+      "alt": "图 1.基线 MRI 显示浸润性直肠肿瘤，长度超过 8.5 厘米，狭窄，超过浆膜并浸润直肠周围空间、子宫后上部和道格拉斯陷凹的腹膜。"
+    },
+    "new_image": {
+      "src": "",
+      "alt": "直肠癌主题封面待配置"
+    },
+    "status": "待配置封面"
+  },
+  {
+    "file": "题目9.14/139352_食管癌疑似寡转移_润色版.json",
+    "case_id": "CASE-55BF9202",
+    "second_cancer_type": "食管癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/JXoMZctjOZRATJiNgaoY0Q/p2GEeeVGzPopGiVpvkg6JXhma2i9tHZQ.png",
+      "alt": "距门齿 22cm"
+    },
+    "new_image": {
+      "src": "../assets/cases/esophageal-vaccine.png",
+      "alt": "食管癌主题示意封面（非患者影像）"
+    },
+    "status": "已匹配现有插画"
+  },
+  {
+    "file": "题目9.14/141249_乳腺癌心包填塞_润色版.json",
+    "case_id": "CASE-B5FF3EFE",
+    "second_cancer_type": "乳腺癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/PhYHLTkVfkX6QIH3Jqo4_w/e84941334d6144049a75d5a61851e891.jpeg",
+      "alt": "无"
+    },
+    "new_image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "status": "已匹配现有插画"
+  },
+  {
+    "file": "题目9.14/154097_乳腺癌受体演变_润色版.json",
+    "case_id": "CASE-902F741C",
+    "second_cancer_type": "乳腺癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/Z6BGyjUbydPbAALFxSC_Fw/hUzZwwYv5sbfk1C4skBr3Zdt6X2FGdhX.png",
+      "alt": "表 1 活检部位受体表达状态的几次转变和相应治疗方案的调整"
+    },
+    "new_image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "status": "已匹配现有插画"
+  },
+  {
+    "file": "题目9.16/01_CASE-82A82F9C_妊娠期HER2阳性乳腺癌伴胎盘转移.json",
+    "case_id": "CASE-82A82F9C",
+    "second_cancer_type": "乳腺癌",
+    "old_image": {
+      "src": "",
+      "alt": ""
+    },
+    "new_image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "status": "已匹配现有插画"
+  },
+  {
+    "file": "题目9.16/01_肝癌_仑伐替尼肾损伤_CASE-FCB62584.json",
+    "case_id": "CASE-FCB62584",
+    "second_cancer_type": "肝癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/QgASB97nYQfBeZOcRYucoQ/5aBIKYWXuJoasOdZD2tVotASm395Ncuq.jpg",
+      "alt": "图 1. 使用仑伐替尼前后相关指标的变化。"
+    },
+    "new_image": {
+      "src": "",
+      "alt": "肝癌主题封面待配置"
+    },
+    "status": "待配置封面"
+  },
+  {
+    "file": "题目9.16/01_胃癌_CAPOX持久缓解_CASE-29CA171F.json",
+    "case_id": "CASE-29CA171F",
+    "second_cancer_type": "胃癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/7HgL9EtEijiGoP5rDE1EWA/c0r8WX47hnQITN89BFlErkG3uRFVqTRE.jpg",
+      "alt": "病灶 CT"
+    },
+    "new_image": {
+      "src": "../assets/cases/gastric-her2.png",
+      "alt": "胃癌主题示意封面（非患者影像）"
+    },
+    "status": "已匹配现有插画"
+  },
+  {
+    "file": "题目9.16/02_CASE-6A44390F_HER2阳性胆道癌多线治疗后T-DXd获控.json",
+    "case_id": "CASE-6A44390F",
+    "second_cancer_type": "胆道恶性肿瘤",
+    "old_image": {
+      "src": "",
+      "alt": ""
+    },
+    "new_image": {
+      "src": "",
+      "alt": "胆道恶性肿瘤主题封面待配置"
+    },
+    "status": "待配置封面"
+  },
+  {
+    "file": "题目9.16/02_乳腺癌_髌骨转移_CASE-C54DD4A4.json",
+    "case_id": "CASE-C54DD4A4",
+    "second_cancer_type": "乳腺癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/EZ0fLTF3NHuoYzh5azEGpw/Tq7SL0szaxcgWcQepXmvaprGoXQtPD87.jpeg",
+      "alt": "无明确图注"
+    },
+    "new_image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "status": "已匹配现有插画"
+  },
+  {
+    "file": "题目9.16/02_胃神经内分泌肿瘤_恶性贫血_CASE-BD2810E1.json",
+    "case_id": "CASE-BD2810E1",
+    "second_cancer_type": "胃神经内分泌肿瘤",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/9xVP7yEYN6eGg4mf00H-SA/IXt2FYh07lq59q5SHw3YV3BlrQAoQTG4.jpg",
+      "alt": "图 1.上消化道内镜检查结果。"
+    },
+    "new_image": {
+      "src": "../assets/cases/gastric-her2.png",
+      "alt": "胃神经内分泌肿瘤主题示意封面（非患者影像）"
+    },
+    "status": "已匹配现有插画"
+  },
+  {
+    "file": "题目9.16/03_CASE-95977E69_卡匹色替治疗后的放射回忆性皮炎.json",
+    "case_id": "CASE-95977E69",
+    "second_cancer_type": "乳腺癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/W5eo1iW1xft-K-SZ9XaQfw/s6VRC4npwRmb4TODNCNbRLdoJEaRNuiB.png",
+      "alt": "放射治疗剂量分布及右下肢皮疹图像（前视图和后视图）"
+    },
+    "new_image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "status": "已匹配现有插画"
+  },
+  {
+    "file": "题目9.16/03_三阴乳腺癌_脑膜转移_CASE-22A52DF0.json",
+    "case_id": "CASE-22A52DF0",
+    "second_cancer_type": "乳腺癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/sFlYhBomJoUI0_upWviKPg/0k9AY9k4My6ht3t5igDJU8tLXgMjqtVO.png",
+      "alt": "增强 MRI 显示左颞叶结节长径约 0.7 cm，伴脑膜及蛛网膜强化，符合脑实质及脑膜转移。"
+    },
+    "new_image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "status": "已匹配现有插画"
+  },
+  {
+    "file": "题目9.16/03_胆管癌_EGFR靶向证据边界_CASE-46B8BDDE.json",
+    "case_id": "CASE-46B8BDDE",
+    "second_cancer_type": "胆道恶性肿瘤",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/aa3WVBhYQfwUdqP1C9HUcw/5WQnYWfZFVR2Smx3QzEAGxHnwFpmIlZZ.jpg",
+      "alt": "图 5. 阿法替尼治疗 30 天后复查 CT。"
+    },
+    "new_image": {
+      "src": "",
+      "alt": "胆道恶性肿瘤主题封面待配置"
+    },
+    "status": "待配置封面"
+  },
+  {
+    "file": "题目9.16/04_CASE-6E309B6B_乳腺癌术后诺卡菌菌血症的诊治.json",
+    "case_id": "CASE-6E309B6B",
+    "second_cancer_type": "乳腺癌",
+    "old_image": {
+      "src": "",
+      "alt": ""
+    },
+    "new_image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "status": "已匹配现有插画"
+  },
+  {
+    "file": "题目9.16/04_乳腺癌_十二指肠梗阻_CASE-8EB5623E.json",
+    "case_id": "CASE-8EB5623E",
+    "second_cancer_type": "乳腺癌",
+    "old_image": {
+      "src": "",
+      "alt": ""
+    },
+    "new_image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "status": "已匹配现有插画"
+  },
+  {
+    "file": "题目9.16/04_乳腺血管肉瘤_局部治疗_CASE-DD610E54.json",
+    "case_id": "CASE-DD610E54",
+    "second_cancer_type": "乳腺肉瘤",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/tH_bEZB86OqvuLzDCExxTQ/JyWWIvatJpCPESQJ1NbtoO9WjoOjrbKn.png",
+      "alt": "图 5 术后 6 个月钼靶：术区轻度结构变形，金属夹在位，未见肿块。"
+    },
+    "new_image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺肉瘤主题示意封面（非患者影像）"
+    },
+    "status": "已匹配现有插画"
+  },
+  {
+    "file": "题目9.16/05_CASE-351D64C1_MSS胃癌转化治疗后病理完全缓解.json",
+    "case_id": "CASE-351D64C1",
+    "second_cancer_type": "胃癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/34KJYRO-mfAiPzq9YKAXJA/TDwk7aGbzwIZi7k4sRvAGmRrWGWLVJ8U.png",
+      "alt": "(A) 内镜示胃窦小弯侧 5cm II 型病变；(B) CT 示肝 S6 段 6cm 转移灶；(C) 胃周肿大淋巴结。"
+    },
+    "new_image": {
+      "src": "../assets/cases/gastric-her2.png",
+      "alt": "胃癌主题示意封面（非患者影像）"
+    },
+    "status": "已匹配现有插画"
+  },
+  {
+    "file": "题目9.16/05_乳腺癌_肾上腺及脑转移_CASE-F5CEC3E2.json",
+    "case_id": "CASE-F5CEC3E2",
+    "second_cancer_type": "乳腺癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/Q4mQkaeRlDsplSL5Ge7dqw/DJ3dd8fesDyKKzm0PRiQ5sTBhSZqTXH5.png",
+      "alt": "影像学上肾上腺病灶的显著退缩（Figure C 对比 Figure A/B）提供了直观的疗效证据"
+    },
+    "new_image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "status": "已匹配现有插画"
+  },
+  {
+    "file": "题目9.16/05_胆管癌_自发性肿瘤溶解_CASE-8DC486E7.json",
+    "case_id": "CASE-8DC486E7",
+    "second_cancer_type": "胆道恶性肿瘤",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/x-jYUwYN918MsxbLCb-iBg/SODaht2dx61j0zSXH2qA633ikvr7XNRB.png",
+      "alt": "（A）动脉期腹部 CT 和（B）门静脉期显示出现大范围且外观异质的肝脏肿块"
+    },
+    "new_image": {
+      "src": "",
+      "alt": "胆道恶性肿瘤主题封面待配置"
+    },
+    "status": "待配置封面"
+  },
+  {
+    "file": "题目9.16/06_CASE-E920FEFC_三阴性乳腺癌肝内脏危象的挽救治疗.json",
+    "case_id": "CASE-E920FEFC",
+    "second_cancer_type": "乳腺癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/5dDO5u3u5MyDnNMgM0vdQQ/jUmnVkpoeVyco0FKsOE2SmAWLnG9lDdJ.png",
+      "alt": "无明确相邻图注"
+    },
+    "new_image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "status": "已匹配现有插画"
+  },
+  {
+    "file": "题目9.16/06_HER2乳腺癌_RC48脑转移_CASE-8B47BE60.json",
+    "case_id": "CASE-8B47BE60",
+    "second_cancer_type": "乳腺癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/CDQJit2OCcelnEyRc12f-w/SwYNVFMDvqPNRgBVhhi8Qqm9yLqdLJ5R.png",
+      "alt": "图 1. 维迪西妥单抗（RC48）治疗前后的颅脑 MRI 对比。A-D：基线期（2021 年 9 月），显示多发强化的脑转移病灶。E-H：维迪西妥单抗治疗 5 周期后，病灶显著缩小，评价为部分缓解（PR）。"
+    },
+    "new_image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "status": "已匹配现有插画"
+  },
+  {
+    "file": "题目9.16/06_肝移植后肝癌_肾上腺转移_CASE-DB524C69.json",
+    "case_id": "CASE-DB524C69",
+    "second_cancer_type": "肝癌",
+    "old_image": {
+      "src": "",
+      "alt": ""
+    },
+    "new_image": {
+      "src": "",
+      "alt": "肝癌主题封面待配置"
+    },
+    "status": "待配置封面"
+  },
+  {
+    "file": "题目9.16/07_AFP阳性结肠癌_CASE-9236151F.json",
+    "case_id": "CASE-9236151F",
+    "second_cancer_type": "结肠癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/57U1GQSIua7f6pYeFfbosQ/vCDgNKEzVRIPDkZNpVASPI4ejPxXApHv.png",
+      "alt": "CT 显示肝曲处肠套叠，套叠部分（箭头所示）在轴位和冠状位图像上均呈现为低密度肿块。"
+    },
+    "new_image": {
+      "src": "",
+      "alt": "结肠癌主题封面待配置"
+    },
+    "status": "待配置封面"
+  },
+  {
+    "file": "题目9.16/07_CASE-CC5590E2_pMMR_MSS直肠癌复发后的RIN治疗.json",
+    "case_id": "CASE-CC5590E2",
+    "second_cancer_type": "直肠癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/RJu7VK3cHSGh_R1JaDqUTg/05nS8WJrxYH8Hno8c1Yw0eB2tIWAMzLQ.png",
+      "alt": "图 1. 治疗前后患者的 PET 扫描图像。（a）和（c）显示 2023 年 10 月治疗开始前的盆腔横切片。可见肿大的高代谢后腹膜后淋巴结。（b）和（d）为 2024 年 1 月的影像，显示治疗后后腹膜淋巴结的体积和 FDG 亲近性有所下降。"
+    },
+    "new_image": {
+      "src": "",
+      "alt": "直肠癌主题封面待配置"
+    },
+    "status": "待配置封面"
+  },
+  {
+    "file": "题目9.16/07_十二指肠腺癌_转移期管理_CASE-4FDC8196.json",
+    "case_id": "CASE-4FDC8196",
+    "second_cancer_type": "小肠癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/r7Xbujb3l5N0jfnc_BThyg/uoAdviF0YIkDtpGmzFWTkb6kecmhLVK8.png",
+      "alt": "腹部和骨盆 CT 静脉造影、动脉期、轴向视图。红色箭头表示左上象限中央肠系膜内、胰腺下方的软组织肿块。邻近的突出淋巴结也清晰可见，表明可能存在淋巴结受累。"
+    },
+    "new_image": {
+      "src": "",
+      "alt": "小肠癌主题封面待配置"
+    },
+    "status": "待配置封面"
+  },
+  {
+    "file": "题目9.16/08_CASE-14D22BE9_直肠癌胰腺转移伴感染性假性囊肿.json",
+    "case_id": "CASE-14D22BE9",
+    "second_cancer_type": "直肠癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/mbhME_wJBpOMUK2Q8u2-FQ/h57ZwUcuE3KoHBYhOnw8oXAAqlOgcwjv.png",
+      "alt": "初诊时的影像学及病理学表现：a MRI 显示小脑多发占位性病变；b PET-CT 显示直肠 FDG 摄取异常；c PET-CT 显示胰腺 FDG 摄取异常；但无法确定患者患有原发性胰腺癌还是转移性疾病；d 内镜图像显示 2 型直肠肿瘤；e 苏木精 - 伊红（H&E）染色显示为腺癌；f 直肠肿瘤标本的 HER2 免疫组化检测呈强阳性（3+）。"
+    },
+    "new_image": {
+      "src": "",
+      "alt": "直肠癌主题封面待配置"
+    },
+    "status": "待配置封面"
+  },
+  {
+    "file": "题目9.16/08_胃GIST_CLEAN-NET_CASE-776A405.json",
+    "case_id": "CASE-776A405",
+    "second_cancer_type": "胃肠道间质瘤",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/1wiO66N_AL4gBBxtCAUvHQ/CGCSUAotUVFpXVxGSPA53f3xbQG7GlZp.png",
+      "alt": "图 1.术前检查。A.医疗检查中的内镜检查结果。在靠近贲门的胃体上部后壁观察到一个直径约 3 cm、无溃疡的胃黏膜下肿瘤（蓝色箭头）。B.上消化道造影结果显示胃黏膜下肿瘤（黄色箭头）位于贲门附近（蓝色箭头）。C.增强计算机断层扫描图像显示胃内腔内肿瘤（直径 3 cm）（黄色箭头）。D.内镜超声检查结果显示起源于第四层的黏膜下肿瘤。"
+    },
+    "new_image": {
+      "src": "../assets/cases/gastric-her2.png",
+      "alt": "胃肠道间质瘤主题示意封面（非患者影像）"
+    },
+    "status": "已匹配现有插画"
+  },
+  {
+    "file": "题目9.16/08_胃癌_HER2阳性合并MSI-H_CASE-E07D1504.json",
+    "case_id": "CASE-E07D1504",
+    "second_cancer_type": "胃癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/P777nMGaWYgwhEe1h2E5wg/8tnvHB4hxxpFGHIsTbJCTNO1bmUeYw4j.jpeg",
+      "alt": "图 4. a.切除胃标本示溃疡疤痕；b.切除肝肿块 (30x20x10mm)。"
+    },
+    "new_image": {
+      "src": "../assets/cases/gastric-her2.png",
+      "alt": "胃癌主题示意封面（非患者影像）"
+    },
+    "status": "已匹配现有插画"
+  },
+  {
+    "file": "题目9.16/09_CASE-10436F33_腹水与胃部病变揭示乳腺小叶癌转移.json",
+    "case_id": "CASE-10436F33",
+    "second_cancer_type": "乳腺癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/-CMI2VLFhHGQTZ8ngH5gPw/6wKMnH4VbfM9FmyPC8QpaACZZ85MpvNf.png",
+      "alt": "图 1. 胃活检病理结果。(A) 胃粘膜独立细胞肿瘤性增生 (×200)。(B) 肿瘤细胞雌激素受体免疫染色 (×100)。"
+    },
+    "new_image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "status": "已匹配现有插画"
+  },
+  {
+    "file": "题目9.16/09_小肠癌_双侧卵巢转移_CASE-E9E45955.json",
+    "case_id": "CASE-E9E45955",
+    "second_cancer_type": "小肠癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/0V3tFGZ1yhAjLeQXcTbthw/3nnRoUSskiKiW3lgbdl1qiqkaEjeOCxc.jpg",
+      "alt": "图 2. 右半结肠癌根治术术中病理（A～C）和盆腔肿块切除术术中病理（D～F）。"
+    },
+    "new_image": {
+      "src": "",
+      "alt": "小肠癌主题封面待配置"
+    },
+    "status": "待配置封面"
+  },
+  {
+    "file": "题目9.16/09_食管鳞癌_ESD后追加治疗_CASE-E3A31C4F.json",
+    "case_id": "CASE-E3A31C4F",
+    "second_cancer_type": "食管癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/RxFqIOTEWBvFjvUO0L_gfg/2g0FMAhY4ktSTnaN6gO51Q59SLISswD4.png",
+      "alt": "无明确图注文字"
+    },
+    "new_image": {
+      "src": "../assets/cases/esophageal-vaccine.png",
+      "alt": "食管癌主题示意封面（非患者影像）"
+    },
+    "status": "已匹配现有插画"
+  },
+  {
+    "file": "题目9.16/10_CASE-E251EF18_寡转移肝癌系统治疗及SBRT后长期获控.json",
+    "case_id": "CASE-E251EF18",
+    "second_cancer_type": "肝癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/mAhjeP4Pf8dU_-DU6nWwnQ/kchZJ61UHRQsUJY6njqkhqO25KT7Yzvq.jpg",
+      "alt": "图 1. 治疗前后肝脏 CT 对比。"
+    },
+    "new_image": {
+      "src": "",
+      "alt": "肝癌主题封面待配置"
+    },
+    "status": "待配置封面"
+  },
+  {
+    "file": "题目9.16/10_MSI-H结肠癌_肝转移转化_CASE-6E841405.json",
+    "case_id": "CASE-6E841405",
+    "second_cancer_type": "结肠癌",
+    "old_image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/ZbUIVESN2SfqtGRHYz_09Q/e0DQ2Q4jy2r1ATdcAYMWKT6ohqqdce0Z.jpg",
+      "alt": "图 5. 2021 年 3 月 CT 结果。"
+    },
+    "new_image": {
+      "src": "",
+      "alt": "结肠癌主题封面待配置"
+    },
+    "status": "待配置封面"
+  }
+]

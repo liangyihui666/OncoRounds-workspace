@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0",
+  "ui_component": "round_progress",
+  "counter_format": "{current_question} / {total_questions}",
+  "progress_formula": "current_question / total_questions * 100",
+  "cases": [
+    {
+      "case_id": "lung-ros1",
+      "cancer_type": "肺癌",
+      "display_title": "ROS1 融合肺癌",
+      "total_questions": 5,
+      "steps": [
+        {
+          "order": 1,
+          "question_id": "Q1",
+          "current_question": 1,
+          "total_questions": 5,
+          "display_counter": "1 / 5",
+          "progress_percent": 20.0
+        },
+        {
+          "order": 2,
+          "question_id": "Q2",
+          "current_question": 2,
+          "total_questions": 5,
+          "display_counter": "2 / 5",
+          "progress_percent": 40.0
+        },
+        {
+          "order": 3,
+          "question_id": "Q3",
+          "current_question": 3,
+          "total_questions": 5,
+          "display_counter": "3 / 5",
+          "progress_percent": 60.0
+        },
+        {
+          "order": 4,
+          "question_id": "Q4",
+          "current_question": 4,
+          "total_questions": 5,
+          "display_counter": "4 / 5",
+          "progress_percent": 80.0
+        },
+        {
+          "order": 5,
+          "question_id": "Q5",
+          "current_question": 5,
+          "total_questions": 5,
+          "display_counter": "5 / 5",
+          "progress_percent": 100.0
+        }
+      ]
+    },
+    {
+      "case_id": "esophageal-vaccine",
+      "cancer_type": "食管癌",
+      "display_title": "新抗原疫苗联合免疫",
+      "total_questions": 5,
+      "steps": [
+        {
+          "order": 1,
+          "question_id": "Q1",
+          "current_question": 1,
+          "total_questions": 5,
+          "display_counter": "1 / 5",
+          "progress_percent": 20.0
+        },
+        {
+          "order": 2,
+          "question_id": "Q2",
+          "current_question": 2,
+          "total_questions": 5,
+          "display_counter": "2 / 5",
+          "progress_percent": 40.0
+        },
+        {
+          "order": 3,
+          "question_id": "Q3",
+          "current_question": 3,
+          "total_questions": 5,
+          "display_counter": "3 / 5",
+          "progress_percent": 60.0
+        },
+        {
+          "order": 4,
+          "question_id": "Q4",
+          "current_question": 4,
+          "total_questions": 5,
+          "display_counter": "4 / 5",
+          "progress_percent": 80.0
+        },
+        {
+          "order": 5,
+          "question_id": "Q5",
+          "current_question": 5,
+          "total_questions": 5,
+          "display_counter": "5 / 5",
+          "progress_percent": 100.0
+        }
+      ]
+    },
+    {
+      "case_id": "gastric-her2",
+      "cancer_type": "胃癌",
+      "display_title": "HER2 过表达胃癌",
+      "total_questions": 5,
+      "steps": [
+        {
+          "order": 1,
+          "question_id": "Q1",
+          "current_question": 1,
+          "total_questions": 5,
+          "display_counter": "1 / 5",
+          "progress_percent": 20.0
+        },
+        {
+          "order": 2,
+          "question_id": "Q2",
+          "current_question": 2,
+          "total_questions": 5,
+          "display_counter": "2 / 5",
+          "progress_percent": 40.0
+        },
+        {
+          "order": 3,
+          "question_id": "Q3",
+          "current_question": 3,
+          "total_questions": 5,
+          "display_counter": "3 / 5",
+          "progress_percent": 60.0
+        },
+        {
+          "order": 4,
+          "question_id": "Q4",
+          "current_question": 4,
+          "total_questions": 5,
+          "display_counter": "4 / 5",
+          "progress_percent": 80.0
+        },
+        {
+          "order": 5,
+          "question_id": "Q5",
+          "current_question": 5,
+          "total_questions": 5,
+          "display_counter": "5 / 5",
+          "progress_percent": 100.0
+        }
+      ]
+    }
+  ]
+}

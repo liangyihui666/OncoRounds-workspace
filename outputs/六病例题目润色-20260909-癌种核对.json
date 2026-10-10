@@ -1,0 +1,44 @@
+[
+  {
+    "file": "135868_HER2阳性胃癌_润色版.json",
+    "cancer_type": "胃癌",
+    "previous": "胃癌",
+    "question_count": 5,
+    "generation_status": "success"
+  },
+  {
+    "file": "137559_转移性直肠癌_润色版.json",
+    "cancer_type": "直肠癌",
+    "previous": "直肠癌",
+    "question_count": 5,
+    "generation_status": "success"
+  },
+  {
+    "file": "139352_食管癌疑似寡转移_润色版.json",
+    "cancer_type": "食管癌",
+    "previous": "食管癌",
+    "question_count": 5,
+    "generation_status": "success"
+  },
+  {
+    "file": "141249_乳腺癌心包填塞_润色版.json",
+    "cancer_type": "乳腺癌",
+    "previous": "乳腺癌",
+    "question_count": 5,
+    "generation_status": "success"
+  },
+  {
+    "file": "154097_乳腺癌受体演变_润色版.json",
+    "cancer_type": "乳腺癌",
+    "previous": "乳腺癌",
+    "question_count": 5,
+    "generation_status": "success"
+  },
+  {
+    "file": "154186_乳腺癌合并结节病_不足状态.json",
+    "cancer_type": "乳腺癌",
+    "previous": "浸润性导管癌（ER 阴性、HER2 阳性）；系统性结节病（累及肺、肝、淋巴结、骨及脾脏）",
+    "question_count": 0,
+    "generation_status": "insufficient"
+  }
+]

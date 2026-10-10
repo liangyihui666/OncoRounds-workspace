@@ -1,0 +1,247 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-8EB5623E",
+    "cancer_type": "乳腺癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "复发/转移诊断阶段",
+        "timepoint": "2025 年初",
+        "question": "患者既往乳腺癌史，现出现十二指肠梗阻，内镜活检阴性。在鉴别原发消化道肿瘤与乳腺癌转移时，下列哪项免疫组化标志物组合最能支持乳腺癌转移的诊断？",
+        "options": {
+          "A": "CK20+, CDX2+, SATB2+, GATA3-",
+          "B": "CK7+, GATA3+, E-cadherin+, CDX2-",
+          "C": "CK7+, TTF-1+, Napsin A+, GATA3-",
+          "D": "CK5/6+, p63+, p40+, GATA3-"
+        },
+        "answer": "B",
+        "answer_text": "CK7+, GATA3+, E-cadherin+, CDX2-",
+        "explain": "乳腺癌转移通常 CK7+、GATA3+（高特异性）、E-cadherin+（区别于小叶癌丢失，但本例为阳性或弱表达），且消化道特异标记 CDX2 阴性。CK20+/CDX2+ 提示结直肠来源；TTF-1+ 提示肺来源；p63+ 提示鳞癌。",
+        "keyPoint": "GATA3 是乳腺癌高特异性标志物，结合 CK7+/CK20- 谱系可鉴别胃肠道转移灶来源。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "7f8a2463-763c-4669-a370-54fca8039124",
+          "split_index": 2,
+          "type": "guideline",
+          "authority": "中华医学会病理学分会, CACA, 国家病理质控中心",
+          "source_title": "乳腺癌生物标志物检测临床应用指南",
+          "source_version": "2025",
+          "source_section": "Clinical application guideline for breast cancer biomarker testing",
+          "source_url": "",
+          "evidence_summary": "指南指出分子病理检测及特异性标志物（如 GATA3）在精准分类和鉴别原发与转移中发挥关键作用。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "分子诊断",
+        "phase": "复发/转移诊断阶段",
+        "timepoint": "2025 年初",
+        "question": "患者原发灶 ER/PR 强阳性，本次转移灶检测为 ER-/PR-。关于复发转移性乳腺癌受体状态检测，下列处理原则正确的是？",
+        "options": {
+          "A": "受体状态极少改变，直接沿用原发灶结果制定内分泌治疗方案",
+          "B": "仅当原发灶结果缺失时，才需要对转移灶进行受体检测",
+          "C": "必须对复发/转移灶进行再活检，以最新检测结果指导治疗",
+          "D": "转移灶检测困难时，可仅凭影像学特征推断受体状态"
+        },
+        "answer": "C",
+        "answer_text": "必须对复发/转移灶进行再活检，以最新检测结果指导治疗",
+        "explain": "指南推荐对复发/转移灶进行再活检，因为 10%-40% 患者受体状态会发生演变，直接影响治疗决策（如本例由内分泌治疗转为化疗）。不能沿用旧结果或仅凭影像推断。",
+        "keyPoint": "复发转移灶受体状态可能发生演变，必须再活检确认，以最新结果指导治疗。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+          "split_index": 362,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+          "source_version": "2026",
+          "source_section": "13.2.3.1 药物预防性治疗",
+          "source_url": "",
+          "evidence_summary": "指南明确规定复发灶必须重新检测 ER、PR、HER2，受体状态改变发生率 10%-40%，直接影响后续决策。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "分子诊断",
+        "phase": "复发/转移诊断阶段",
+        "timepoint": "2025 年初",
+        "question": "本例常规内镜活检未能确诊，最终通过 EUS-FNAB 获取组织。关于此类深部病灶取样的规范，下列描述正确的是？",
+        "options": {
+          "A": "视为阴性结果，停止进一步有创检查",
+          "B": "仅依赖影像学高代谢灶确诊，无需病理",
+          "C": "细胞学准确性低，不可用于复发确诊",
+          "D": "首选 EUS-FNAB 以获取深层组织或细胞学证据"
+        },
+        "answer": "D",
+        "answer_text": "首选 EUS-FNAB 以获取深层组织或细胞学证据",
+        "explain": "指南建议初诊 IV 期或复发转移时应积极穿刺活检。当常规活检失败或病灶位于深部时，EUS-FNAB 是有效手段；若无法获得组织，细胞学检测亦可作为确诊依据。",
+        "keyPoint": "常规活检阴性不能排除转移，深部病灶应利用 EUS-FNAB 等技术积极获取病理依据。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "972f14ef-1ff3-4500-af63-64507eb3e652",
+          "split_index": 9,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国晚期三阴性乳腺癌临床诊疗指南(2024版)",
+          "source_version": "2024",
+          "source_section": "（二）病理学检查",
+          "source_url": "",
+          "evidence_summary": "指南建议初诊 IV 期或复发转移时应积极穿刺活检，无法获得组织病理时可选择细胞学检测。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "治疗决策",
+        "phase": "复发/转移治疗阶段",
+        "timepoint": "2025 年初",
+        "question": "患者转移灶确认为三阴性乳腺癌（ER-/PR-/HER2-），且伴有症状性内脏转移（梗阻）。首选的系统治疗方案是？",
+        "options": {
+          "A": "联合化疗（如蒽环类联合环磷酰胺）",
+          "B": "单药内分泌治疗（如芳香化酶抑制剂）",
+          "C": "抗 HER2 靶向治疗联合化疗",
+          "D": "单纯局部放疗，暂不进行全身治疗"
+        },
+        "answer": "A",
+        "answer_text": "联合化疗（如蒽环类联合环磷酰胺）",
+        "explain": "三阴性乳腺癌缺乏内分泌和 HER2 靶点，且患者有症状性内脏危象（梗阻），需快速缓解症状，首选联合化疗。内分泌和抗 HER2 治疗无效，单纯局部治疗无法控制全身疾病。",
+        "keyPoint": "三阴性乳腺癌伴症状性内脏转移，首选联合化疗以快速控制病情和缓解症状。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+          "split_index": 258,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+          "source_version": "2026",
+          "source_section": "中国抗癌协会乳腺癌专业委员会，中华医学会肿瘤学分会乳腺肿瘤学组",
+          "source_url": "",
+          "evidence_summary": "指南指出晚期乳腺癌治疗目的为延缓进展和提高生活质量，三阴性表型需依据受体状态选择化疗而非内分泌或靶向治疗。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "疗效复评与局部治疗",
+        "phase": "治疗评估阶段",
+        "timepoint": "化疗两周期后",
+        "question": "患者接受两周期化疗后梗阻症状明显缓解。关于晚期乳腺癌疗效评价与后续管理，下列说法符合规范的是？",
+        "options": {
+          "A": "仅凭症状缓解延长当前方案至 6 周期",
+          "B": "结合 RECIST 标准及症状，每 2 周期影像评估",
+          "C": "仅监测肿瘤标志物，若正常则无需影像学复查",
+          "D": "局部放疗替代全身治疗以巩固疗效"
+        },
+        "answer": "B",
+        "answer_text": "结合 RECIST 标准及症状，每 2 周期影像评估",
+        "explain": "晚期乳腺癌治疗需定期评价，原则上每 2 周期结合症状和影像学（RECIST 1.1）评估。单纯症状缓解不等于 CR，且标志物不能单独作为调整依据。",
+        "keyPoint": "晚期乳腺癌疗效评估需结合影像学（RECIST 1.1）与临床症状，定期动态监测。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "b2719254-d290-4ec9-866b-51b36cafd1bc",
+          "split_index": 141,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会（CSCO）乳腺癌诊疗指南 2026",
+          "source_version": "2026",
+          "source_section": "绝经前乳腺癌患者辅助内分泌治疗策略",
+          "source_url": "",
+          "evidence_summary": "指南规定晚期乳腺癌需定期疗效评价，参照 RECIST 1.1，原则上每 2 周期对病灶进行影像学检查。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-8EB5623E",
+    "cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "乳腺癌病史与十二指肠梗阻",
+      "description": "53岁女性，有乳腺癌及多次复发史，出现恶心、呕吐和腹痛。"
+    },
+    "overview": {
+      "hero": {
+        "title": "乳腺癌病史与十二指肠梗阻",
+        "subtitle": "梗阻部位与既往肿瘤史、阴性浅表取样的局限，以及组织来源和受体复核。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "53岁女性，有乳腺癌及多次复发史，出现恶心、呕吐和腹痛。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "十二指肠第三段梗阻，EUS取材支持乳腺转移；本次ER/PR/HER2阴性。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "胃管减压后，接受2周期环磷酰胺联合阿霉素。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "梗阻部位与既往肿瘤史、阴性浅表取样的局限，以及组织来源和受体复核。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2005年",
+              "title": "早期乳腺癌治疗",
+              "detail": "保乳手术后接受放疗及内分泌治疗。"
+            },
+            {
+              "date": "2019—2024年",
+              "title": "多次复发及受体演变",
+              "detail": "多次局部及淋巴结复发，受体结果随取材时点变化。"
+            },
+            {
+              "date": "2025年初",
+              "title": "十二指肠梗阻",
+              "detail": "十二指肠第三段病变致梗阻，胃管减压后部分缓解。"
+            },
+            {
+              "date": "取样阶段",
+              "title": "表浅活检未确诊",
+              "detail": "常规活检未确诊，EUS穿刺结合病理支持乳腺转移。"
+            },
+            {
+              "date": "2周期AC后",
+              "title": "症状改善",
+              "detail": "环磷酰胺联合阿霉素后梗阻症状改善。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

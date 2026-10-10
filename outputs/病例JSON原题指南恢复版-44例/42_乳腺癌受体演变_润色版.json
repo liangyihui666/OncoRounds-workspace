@@ -1,0 +1,247 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-902F741C",
+    "cancer_type": "乳腺癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "复发转移评估",
+        "timepoint": "复发事件 1，手术疤痕附近病灶出现时",
+        "question": "患者术后数年出现手术疤痕附近皮肤红斑及增厚，活检证实肿瘤转变为三阴性乳腺癌且 PD-L1 CPS 升高至 10。关于此次复发灶检测策略的描述，下列哪项最为恰当？",
+        "options": {
+          "A": "仅检测 ER 状态即可，因 HER2 状态在初诊及术后病理中均为阴性",
+          "B": "因系局部复发，无需进行分子分型检测，直接沿用初诊治疗方案",
+          "C": "应积极鼓励对复发部位进行二次活检，重新评估受体状态及 PD-L1",
+          "D": "若影像学提示孤立性转移灶，可免除活检直接经验性选择免疫治疗"
+        },
+        "answer": "C",
+        "answer_text": "应积极鼓励对复发部位进行二次活检，重新评估受体状态及 PD-L1",
+        "explain": "指南强调经影像学提示复发转移时，应积极鼓励二次活检及免疫组化检测，以明确诊断和重新评估受体状态。",
+        "keyPoint": "复发转移时应二次活检重新评估受体状态，因生物学特征可能改变。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+          "split_index": 362,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+          "source_version": "2026",
+          "source_section": "13.2.3.1 药物预防性治疗",
+          "source_url": "",
+          "evidence_summary": "指南要求对复发灶进行穿刺活检，必须重新检测 ER、PR、HER2 表达，因受体状态可能发生改变。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "分子诊断",
+        "phase": "复发转移评估",
+        "timepoint": "复发事件 1，手术疤痕附近病灶出现时",
+        "question": "患者初诊为 Luminal B 型，局部复发时穿刺活检显示转为三阴性且 PD-L1 CPS 升至 10。对于复发转移灶受体状态发生改变的现象，下列哪项解释最符合指南关于肿瘤异质性的描述？",
+        "options": {
+          "A": "这是检测误差导致，应以初诊原发灶的受体状态为准",
+          "B": "肿瘤存在时空异质性，复发灶与原发灶结果不一致是已知现象",
+          "C": "新辅助化疗可能导致部分患者受体状态发生显著改变",
+          "D": "受体状态改变多见于 HER2 状态，ER 改变较为罕见"
+        },
+        "answer": "B",
+        "answer_text": "肿瘤存在时空异质性，复发灶与原发灶结果不一致是已知现象",
+        "explain": "指南指出乳腺癌标志物表达存在时间和空间异质性，原发灶与转移灶检测结果可能不一致，这直接影响后续治疗决策，需重新评估而非视为误差。",
+        "keyPoint": "受体状态改变源于肿瘤时空异质性，需重新检测。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "f51ad2ef-8e21-42f9-bfd1-f2ed36512587",
+          "split_index": 83,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 病理诊断",
+          "source_version": "2023",
+          "source_section": "二、病理技术局限性",
+          "source_url": "",
+          "evidence_summary": "指南说明标志物存在时空异质性，原发与转移灶结果可能不一致。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "晚期一线治疗",
+        "timepoint": "复发事件 1，确诊三阴性且 PD-L1 高表达时",
+        "question": "复发事件 1 中，患者确诊为三阴性乳腺癌且 PD-L1 CPS 为 10。依据 CSCO 免疫检查点抑制剂临床应用指南，针对 PD-L1 CPS≥10 的晚期三阴性乳腺癌患者，推荐的免疫联合治疗方案是？",
+        "options": {
+          "A": "帕博利珠单抗联合化疗作为晚期一线治疗推荐",
+          "B": "单药帕博利珠单抗作为晚期一线治疗首选方案",
+          "C": "仅适用于围手术期新辅助治疗，不用于晚期一线",
+          "D": "必须联合戈沙妥珠单抗才能作为晚期一线推荐"
+        },
+        "answer": "A",
+        "answer_text": "帕博利珠单抗联合化疗作为晚期一线治疗推荐",
+        "explain": "CSCO 指南明确推荐帕博利珠单抗联合化疗用于 PD-L1 CPS≥10 的晚期三阴性乳腺癌一线治疗（1A 类证据），而单药或特定联合其他 ADC 并非此人群的标准一线推荐。",
+        "keyPoint": "PD-L1 CPS≥10 的晚期 TNBC 一线推荐免疫联合化疗。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "a5ccf5c1-a809-467b-bc23-95e93bdfac08",
+          "split_index": 135,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会（CSCO）免疫检查点抑制剂临床应用指南 2026",
+          "source_version": "2026",
+          "source_section": "更新要点",
+          "source_url": "",
+          "evidence_summary": "指南推荐帕博利珠单抗联合化疗用于 PD-L1 CPS≥10 的晚期三阴性乳腺癌一线。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "分子诊断",
+        "phase": "复发转移评估",
+        "timepoint": "初诊 6 年后，纵隔淋巴结复发时",
+        "question": "患者初诊为 HR 阳性/HER2 阴性，复发事件 1 时转为三阴性。现纵隔淋巴结复发，EBUS 活检显示 ER 重新表达阳性（>80%）。针对受体状态随病程动态演变的情况，后续治疗决策应依据哪次检测结果？",
+        "options": {
+          "A": "依据初诊原发灶 ER 阳性结果，维持内分泌治疗策略",
+          "B": "依据复发事件 1 的三阴性结果，优先选择化疗方案",
+          "C": "取初诊与最近一次检测的平均值作为参考标准",
+          "D": "依据最近一次纵隔淋巴结活检 ER 阳性结果制定治疗"
+        },
+        "answer": "D",
+        "answer_text": "依据最近一次纵隔淋巴结活检 ER 阳性结果制定治疗",
+        "explain": "指南明确指出，当原发灶与转移灶或不同时间点的受体状态不一致时，建议按照最近一次的受体情况指导治疗，以反映肿瘤当前的生物学特征。",
+        "keyPoint": "受体状态演变时，以最近一次检测结果为治疗依据。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "972f14ef-1ff3-4500-af63-64507eb3e652",
+          "split_index": 9,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国晚期三阴性乳腺癌临床诊疗指南(2024版)",
+          "source_version": "2024",
+          "source_section": "（二）病理学检查",
+          "source_url": "",
+          "evidence_summary": "指南建议原发灶与转移灶检测结果不同时，按照最近一次受体情况治疗。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "分子诊断",
+        "phase": "复发转移评估",
+        "timepoint": "初诊 7 年后，胸腔积液确诊转移时",
+        "question": "患者胸腔积液细胞学证实转移，GATA3 阳性但 ER 阴性，因细胞量稀少无法检测 HER2 及 PD-L1。在无法获得完整受体状态报告的情况下，下列哪项处理原则最符合指南关于标本受限时的检测建议？",
+        "options": {
+          "A": "必须等待再次活检获取完整 HER2 和 PD-L1 结果后方可启动治疗",
+          "B": "依据细胞学检测结果指导治疗，无需强求组织活检",
+          "C": "直接认定为 HER2 低表达乳腺癌并优先使用抗 HER2 药物",
+          "D": "因缺乏分子分型证据，仅能选择最佳支持治疗而不能用 SG"
+        },
+        "answer": "B",
+        "answer_text": "依据细胞学检测结果指导治疗，无需强求组织活检",
+        "explain": "指南指出对于无法获得组织病理学的患者可以选择细胞学检测，并建议按照最近一次受体情况治疗。本例基于细胞学 ER 阴性及既往病史决策符合该原则。",
+        "keyPoint": "标本受限时可依据细胞学检测结果指导治疗决策。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "972f14ef-1ff3-4500-af63-64507eb3e652",
+          "split_index": 9,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国晚期三阴性乳腺癌临床诊疗指南(2024版)",
+          "source_version": "2024",
+          "source_section": "（二）病理学检查",
+          "source_url": "",
+          "evidence_summary": "指南明确无法获得组织病理学时可选择细胞学检测，并按最近结果治疗。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-902F741C",
+    "cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "乳腺癌复发时的受体评估",
+      "description": "52岁女性，乳腺癌初诊ER阳性、HER2阴性，后经历局部及远处复发。"
+    },
+    "overview": {
+      "hero": {
+        "title": "乳腺癌复发时的受体评估",
+        "subtitle": "不同取材时点的受体变化、标本不足时的结论边界，以及后续治疗选择。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "52岁女性，乳腺癌初诊ER阳性、HER2阴性，后经历局部及远处复发。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "复发灶转为三阴性，纵隔转移再现ER阳性；末次积液ER阴性，其余受体未测全。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "随活检结果调整化疗、免疫及内分泌方案，最后使用戈沙妥珠单抗。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "不同取材时点的受体变化、标本不足时的结论边界，以及后续治疗选择。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "初诊及术后",
+              "title": "初始综合治疗",
+              "detail": "ER阳性、HER2阴性，cT4N1M0；新辅助化疗、手术及放疗后接受内分泌治疗。"
+            },
+            {
+              "date": "局部复发",
+              "title": "受体转变",
+              "detail": "活检为三阴性、HER2 IHC 1+，PD-L1 CPS 10；免疫联合化疗后再次手术及放疗。"
+            },
+            {
+              "date": "后续辅助治疗",
+              "title": "耐受性调整",
+              "detail": "继续帕博利珠单抗，卡培他滨因口腔黏膜炎提前停止。"
+            },
+            {
+              "date": "初诊6年后",
+              "title": "ER重新阳性",
+              "detail": "纵隔淋巴结活检ER＞80%，改氟维司群联合瑞波西利，稳定约1年。"
+            },
+            {
+              "date": "初诊7年后",
+              "title": "积液与后线治疗",
+              "detail": "胸水ER阴性，其他受体因细胞不足未测全；采用戈沙妥珠单抗，3个月后至少PR。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

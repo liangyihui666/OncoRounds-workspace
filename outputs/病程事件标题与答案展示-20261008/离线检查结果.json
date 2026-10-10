@@ -1,0 +1,14 @@
+{
+  "timeline_titles": [
+    "胸部CT检查",
+    "PET/CT检查",
+    "病理活检",
+    "EBUS-TBNA检查",
+    "启动新辅助治疗"
+  ],
+  "dates_and_facts_unchanged": true,
+  "questions_unchanged": true,
+  "answer_text_matches_option": true,
+  "api_calls": 0,
+  "online_verified": false
+}

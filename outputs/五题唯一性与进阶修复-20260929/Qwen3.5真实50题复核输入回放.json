@@ -1,0 +1,635 @@
+{
+  "scope": "review_input_transport_only",
+  "public_letter_fields_adapted_to_internal": true,
+  "full_evidence_available": false,
+  "model_rerun": false,
+  "medical_correctness_verified": false,
+  "rows": [
+    {
+      "index": 1,
+      "case_id": "CASE-592272A8",
+      "question_count": 5,
+      "option_review_count": 20,
+      "answer_counts": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "set_review": {
+        "scope": "review_tasks_not_medical_verdict",
+        "questions": [
+          {
+            "id": "Q1",
+            "phase": "一线治疗",
+            "timepoint": "确诊初治",
+            "question": "患者确诊转移性胃癌，HER2 阴性、PD-L1 阴性且 MMR 功能正常，体能状态良好。下列哪项是一线化疗方案的正确选择？",
+            "keyPoint": "HER2 阴性转移性胃癌首选含铂双药联合化疗。",
+            "review_cues": []
+          },
+          {
+            "id": "Q2",
+            "phase": "治疗中",
+            "timepoint": "化疗 2-3 周期后",
+            "question": "启动一线化疗后，为及时评估疗效并调整策略，首次影像学复查的最佳时机是？",
+            "keyPoint": "化疗期间需定期评估疗效，通常每 2 至 3 周期一次。",
+            "review_cues": []
+          },
+          {
+            "id": "Q3",
+            "phase": "化疗维持期",
+            "timepoint": "第 5 周期出现毒性",
+            "question": "【延伸情境】假设毒性分级为Ⅲ度。化疗第 5 周期出现骨髓毒性，经评估为剂量限制性毒性但可恢复。下列哪项处理符合规范？",
+            "keyPoint": "剂量限制性毒性可采取暂停恢复后减量策略。",
+            "review_cues": []
+          },
+          {
+            "id": "Q4",
+            "phase": "化疗终止",
+            "timepoint": "第 9 周期后",
+            "question": "患者化疗 9 个周期后因持续血液学毒性无法耐受。此时最恰当的处理决策是？",
+            "keyPoint": "患者耐受性是决定化疗终止时机的关键因素。",
+            "review_cues": [
+              "DEPTH_REVIEW：核对是否仅考一般流程或分期记忆；有关键词不等于不合格"
+            ]
+          },
+          {
+            "id": "Q5",
+            "phase": "确诊初治",
+            "timepoint": "入院时",
+            "question": "针对 IV 期胃癌患者，除 HER2 和 MMR 检测外，指南推荐完善哪些分子病理评估以指导潜在治疗？",
+            "keyPoint": "IV 期胃癌推荐完善特定基因检测以指导精准治疗。",
+            "review_cues": []
+          }
+        ],
+        "instruction": "逐题归纳真正需要作出的决策，比较五题是否重复；同一判断即可解两题时保留较好者并换写另一题。至少2题优先覆盖病例核心问题；一般MDT、完善检查不能静默代替独特决策。关键词线索不作为删题或医学判错依据。"
+      }
+    },
+    {
+      "index": 2,
+      "case_id": "CASE-3109000F",
+      "question_count": 5,
+      "option_review_count": 20,
+      "answer_counts": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "set_review": {
+        "scope": "review_tasks_not_medical_verdict",
+        "questions": [
+          {
+            "id": "Q1",
+            "phase": "就诊时",
+            "timepoint": "诊断明确前",
+            "question": "患者乳腺癌术后 19 年出现右膝疼痛，影像提示髌骨破坏。关于确诊策略，下列哪项正确？",
+            "keyPoint": "复发转移灶病理确诊及分子分型必要性",
+            "review_cues": []
+          },
+          {
+            "id": "Q2",
+            "phase": "病理确诊后",
+            "timepoint": "治疗前",
+            "question": "患者转移灶病理显示 ER/PR 强阳性。关于生物标志物检测策略，以下处理正确的是？",
+            "keyPoint": "复发转移灶生物标志物再检测的必要性",
+            "review_cues": []
+          },
+          {
+            "id": "Q3",
+            "phase": "术后",
+            "timepoint": "全身治疗规划",
+            "question": "患者转移灶 ER/PR 强阳性，Ki-67 低，无内脏危象。后续全身治疗首选策略是？",
+            "keyPoint": "激素受体阳性转移性乳腺癌全身治疗优选内分泌",
+            "review_cues": []
+          },
+          {
+            "id": "Q4",
+            "phase": "治疗后",
+            "timepoint": "随访期",
+            "question": "启动全身治疗后，关于疗效评估的影像学检查策略，以下处理正确的是？",
+            "keyPoint": "转移性乳腺癌疗效评估间隔需个体化调整",
+            "review_cues": []
+          },
+          {
+            "id": "Q5",
+            "phase": "延伸情境",
+            "timepoint": "假设检测后",
+            "question": "【延伸情境】若后续检测发现转移灶 HER2 阳性，而十九年前原发灶记录为阴性，治疗建议是？",
+            "keyPoint": "原发与转移灶 HER2 状态不一致时的治疗原则",
+            "review_cues": []
+          }
+        ],
+        "instruction": "逐题归纳真正需要作出的决策，比较五题是否重复；同一判断即可解两题时保留较好者并换写另一题。至少2题优先覆盖病例核心问题；一般MDT、完善检查不能静默代替独特决策。关键词线索不作为删题或医学判错依据。"
+      }
+    },
+    {
+      "index": 3,
+      "case_id": "CASE-2B71EEC7",
+      "question_count": 5,
+      "option_review_count": 20,
+      "answer_counts": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "set_review": {
+        "scope": "review_tasks_not_medical_verdict",
+        "questions": [
+          {
+            "id": "Q1",
+            "phase": "新辅助治疗期间",
+            "timepoint": "化疗第 2 周期末",
+            "question": "该患者新辅助化疗期间，关于疗效评估的正确处理是？",
+            "keyPoint": "新辅助治疗中需定期评估疗效，推荐 MRI 监测",
+            "review_cues": []
+          },
+          {
+            "id": "Q2",
+            "phase": "术后辅助治疗前",
+            "timepoint": "新辅助化疗后",
+            "question": "新辅助化疗术后，为制定辅助治疗方案，必须完成的评估包括？",
+            "keyPoint": "术后需综合评估病理、分子特征及耐受性",
+            "review_cues": [
+              "DEPTH_REVIEW：核对是否仅考一般流程或分期记忆；有关键词不等于不合格",
+              "STAGING_SOURCE_REVIEW：核对癌种、版本、c/p/yp及完整分期条款，包括错误项解析"
+            ]
+          },
+          {
+            "id": "Q3",
+            "phase": "初始诊断时",
+            "timepoint": "治疗前",
+            "question": "针对该高危三阴性乳腺癌患者，关于遗传基因检测的建议正确的是？",
+            "keyPoint": "三阴性乳腺癌推荐检测 BRCA 基因指导治疗",
+            "review_cues": []
+          },
+          {
+            "id": "Q4",
+            "phase": "新辅助治疗前",
+            "timepoint": "制定方案时",
+            "question": "制定该患者新辅助治疗决策时，核心参与科室应包括？",
+            "keyPoint": "新辅助决策需多学科诊疗团队共同参与",
+            "review_cues": [
+              "DEPTH_REVIEW：核对是否仅考一般流程或分期记忆；有关键词不等于不合格"
+            ]
+          },
+          {
+            "id": "Q5",
+            "phase": "初始诊断时",
+            "timepoint": "首次治疗前",
+            "question": "关于该患者首次治疗前的临床分期诊断，符合质控要求的是？",
+            "keyPoint": "首次治疗前完成分期是规范化治疗基础",
+            "review_cues": [
+              "DEPTH_REVIEW：核对是否仅考一般流程或分期记忆；有关键词不等于不合格",
+              "STAGING_SOURCE_REVIEW：核对癌种、版本、c/p/yp及完整分期条款，包括错误项解析"
+            ]
+          }
+        ],
+        "instruction": "逐题归纳真正需要作出的决策，比较五题是否重复；同一判断即可解两题时保留较好者并换写另一题。至少2题优先覆盖病例核心问题；一般MDT、完善检查不能静默代替独特决策。关键词线索不作为删题或医学判错依据。"
+      }
+    },
+    {
+      "index": 4,
+      "case_id": "CASE-656D0757",
+      "question_count": 5,
+      "option_review_count": 20,
+      "answer_counts": [
+        1,
+        2,
+        1,
+        1
+      ],
+      "set_review": {
+        "scope": "review_tasks_not_medical_verdict",
+        "questions": [
+          {
+            "id": "Q1",
+            "phase": "复发转移",
+            "timepoint": "2025 年初确诊转移时",
+            "question": "患者 2019 年复发灶 HER2 阴性，2025 年十二指肠转移灶检测仍阴性。关于 HER2 检测，下列哪项正确？",
+            "keyPoint": "转移灶 HER2 状态可能演变，复测指导治疗",
+            "review_cues": []
+          },
+          {
+            "id": "Q2",
+            "phase": "复发转移",
+            "timepoint": "2025 年初梗阻缓解后",
+            "question": "对于转移负荷可控、全身状况允许的乳腺癌肠梗阻患者，关于局部治疗的选择，下列哪项正确？",
+            "keyPoint": "局部治疗需评估适宜性，非所有患者必选手术",
+            "review_cues": []
+          },
+          {
+            "id": "Q3",
+            "phase": "确诊阶段",
+            "timepoint": "2025 年初胃镜活检失败后",
+            "question": "胃镜活检未获确诊组织，影像学提示转移但不排除原发肿瘤。针对此类疑难病例，以下处理正确的是？",
+            "keyPoint": "疑难病例需 MDT 协作及多种手段获取病理",
+            "review_cues": [
+              "DEPTH_REVIEW：核对是否仅考一般流程或分期记忆；有关键词不等于不合格"
+            ]
+          },
+          {
+            "id": "Q4",
+            "phase": "复发转移",
+            "timepoint": "2025 年初制定方案前",
+            "question": "制定复发转移治疗方案时，关于既往治疗信息的回顾，下列哪项正确？",
+            "keyPoint": "完整治疗史回顾是复发后决策的基础",
+            "review_cues": []
+          },
+          {
+            "id": "Q5",
+            "phase": "初诊 IV 期",
+            "timepoint": "2025 年初治疗前",
+            "question": "开始全身治疗前，关于转移性乳腺癌患者的基线评估，下列哪项正确？",
+            "keyPoint": "基线评估需涵盖全身状态及肿瘤学详细分期",
+            "review_cues": [
+              "DEPTH_REVIEW：核对是否仅考一般流程或分期记忆；有关键词不等于不合格",
+              "STAGING_SOURCE_REVIEW：核对癌种、版本、c/p/yp及完整分期条款，包括错误项解析"
+            ]
+          }
+        ],
+        "instruction": "逐题归纳真正需要作出的决策，比较五题是否重复；同一判断即可解两题时保留较好者并换写另一题。至少2题优先覆盖病例核心问题；一般MDT、完善检查不能静默代替独特决策。关键词线索不作为删题或医学判错依据。"
+      }
+    },
+    {
+      "index": 5,
+      "case_id": "CASE-82E80B60",
+      "question_count": 5,
+      "option_review_count": 20,
+      "answer_counts": [
+        0,
+        5,
+        0,
+        0
+      ],
+      "set_review": {
+        "scope": "review_tasks_not_medical_verdict",
+        "questions": [
+          {
+            "id": "Q1",
+            "phase": "复发转移",
+            "timepoint": "2021 年 12 月",
+            "question": "随访 CT 发现右侧肾上腺疑似新转移灶，既往有骨转移史。为明确病灶性质及全身分期，下列哪项检查策略最合理？",
+            "keyPoint": "影像学可疑转移且常规检查难分期时，PET-CT 可评估远处转移",
+            "review_cues": [
+              "DEPTH_REVIEW：核对是否仅考一般流程或分期记忆；有关键词不等于不合格",
+              "STAGING_SOURCE_REVIEW：核对癌种、版本、c/p/yp及完整分期条款，包括错误项解析"
+            ]
+          },
+          {
+            "id": "Q2",
+            "phase": "复发转移",
+            "timepoint": "2022 年 3 月",
+            "question": "肾上腺转移灶未行活检，仅凭 PET-CT 确诊。关于后续治疗决策的风险，下列哪项描述正确？",
+            "keyPoint": "复发转移灶受体状态可能与原发灶不一致，需病理确诊并再检测",
+            "review_cues": []
+          },
+          {
+            "id": "Q3",
+            "phase": "复发转移",
+            "timepoint": "2022 年 4 月",
+            "question": "患者既往内分泌治疗后进展，现 HR 阳性/HER-2 阴性晚期乳腺癌。下列哪项方案适用于该患者？",
+            "keyPoint": "内分泌耐药后 HR+/HER2-晚期患者，可用氟维司群联合 CDK4/6 抑制剂",
+            "review_cues": []
+          },
+          {
+            "id": "Q4",
+            "phase": "复发转移",
+            "timepoint": "2022 年 4 月",
+            "question": "患者存在骨、肾上腺及脑转移，无内脏危象。关于系统治疗优先级，下列哪项正确？",
+            "keyPoint": "ER 阳性复发转移乳腺癌无内脏危象时，首选内分泌联合靶向治疗",
+            "review_cues": []
+          },
+          {
+            "id": "Q5",
+            "phase": "复发转移",
+            "timepoint": "2022 年 4 月后",
+            "question": "启动联合治疗后，关于疗效评估及随访策略，以下哪项正确？",
+            "keyPoint": "转移性疾病评估间隔应基于疾病进展速度、转移部位及治疗模式调整",
+            "review_cues": [
+              "DEPTH_REVIEW：核对是否仅考一般流程或分期记忆；有关键词不等于不合格"
+            ]
+          }
+        ],
+        "instruction": "逐题归纳真正需要作出的决策，比较五题是否重复；同一判断即可解两题时保留较好者并换写另一题。至少2题优先覆盖病例核心问题；一般MDT、完善检查不能静默代替独特决策。关键词线索不作为删题或医学判错依据。"
+      }
+    },
+    {
+      "index": 6,
+      "case_id": "CASE-4A504956",
+      "question_count": 5,
+      "option_review_count": 20,
+      "answer_counts": [
+        1,
+        2,
+        1,
+        1
+      ],
+      "set_review": {
+        "scope": "review_tasks_not_medical_verdict",
+        "questions": [
+          {
+            "id": "Q1",
+            "phase": "初诊",
+            "timepoint": "2017 年 8 月",
+            "question": "针对该初诊 IV 期伴骨及肝转移患者，下列哪项影像学评估策略符合规范？",
+            "keyPoint": "IV 期乳腺癌分期需按转移部位选择特异性影像学检查手段",
+            "review_cues": [
+              "DEPTH_REVIEW：核对是否仅考一般流程或分期记忆；有关键词不等于不合格",
+              "STAGING_SOURCE_REVIEW：核对癌种、版本、c/p/yp及完整分期条款，包括错误项解析"
+            ]
+          },
+          {
+            "id": "Q2",
+            "phase": "复发转移",
+            "timepoint": "2019 年 4 月",
+            "question": "2019 年确诊脑转移且颅外病灶稳定时，关于系统治疗调整下列哪项正确？",
+            "keyPoint": "颅外稳定时脑转移经局部治疗后仍可维持或调整抗 HER2 系统治疗",
+            "review_cues": []
+          },
+          {
+            "id": "Q3",
+            "phase": "治疗中",
+            "timepoint": "2019 年 4 月后",
+            "question": "针对吡咯替尼治疗期间出现的无法耐受胃肠道反应，下列处理原则正确的是？",
+            "keyPoint": "TKI 致严重腹泻需暂停治疗，恢复后尝试减量或预防性重启",
+            "review_cues": []
+          },
+          {
+            "id": "Q4",
+            "phase": "复发转移",
+            "timepoint": "2021 年 9 月",
+            "question": "2021 年颅内进展且拒绝再放疗时，选择维迪西妥单抗的主要依据是？",
+            "keyPoint": "HER2 阳性脑转移后线治疗可优先考虑 TKI 或 ADC 类药物",
+            "review_cues": [
+              "CLASS_TO_AGENT_REVIEW：核对完整原文是否支持此具体药物及场景，不以类别推荐替代"
+            ]
+          },
+          {
+            "id": "Q5",
+            "phase": "随访",
+            "timepoint": "2021 年 9 月后",
+            "question": "关于该患者随访期间的影像学检查，下列哪项符合质控要求？",
+            "keyPoint": "晚期乳腺癌随访影像评估应保持基线检查方法的一致性",
+            "review_cues": [
+              "DEPTH_REVIEW：核对是否仅考一般流程或分期记忆；有关键词不等于不合格"
+            ]
+          }
+        ],
+        "instruction": "逐题归纳真正需要作出的决策，比较五题是否重复；同一判断即可解两题时保留较好者并换写另一题。至少2题优先覆盖病例核心问题；一般MDT、完善检查不能静默代替独特决策。关键词线索不作为删题或医学判错依据。"
+      }
+    },
+    {
+      "index": 7,
+      "case_id": "CASE-94E451EE",
+      "question_count": 5,
+      "option_review_count": 20,
+      "answer_counts": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "set_review": {
+        "scope": "review_tasks_not_medical_verdict",
+        "questions": [
+          {
+            "id": "Q1",
+            "phase": "术后病理",
+            "timepoint": "术后",
+            "question": "患者术后病理示 10 枚区域淋巴结均见癌转移，依据 AJCC 第八版分期，该患者 N 分期应判定为？",
+            "keyPoint": "淋巴结转移数目决定 N 分期，7 枚以上为 N2b。",
+            "review_cues": [
+              "DEPTH_REVIEW：核对是否仅考一般流程或分期记忆；有关键词不等于不合格",
+              "STAGING_SOURCE_REVIEW：核对癌种、版本、c/p/yp及完整分期条款，包括错误项解析"
+            ]
+          },
+          {
+            "id": "Q2",
+            "phase": "辅助治疗",
+            "timepoint": "术后恢复",
+            "question": "患者术后恢复顺利，无并发症，依据规范，辅助化疗开始的最佳时机是？",
+            "keyPoint": "辅助化疗宜术后 4 周开始，最迟不超过 8 周。",
+            "review_cues": []
+          },
+          {
+            "id": "Q3",
+            "phase": "辅助治疗",
+            "timepoint": "方案制定",
+            "question": "该患者为 pMMR 的 T3N2b 期结肠癌，不属于低危 III 期，辅助化疗疗程推荐为？",
+            "keyPoint": "非低危 III 期结肠癌辅助化疗标准疗程为 6 个月。",
+            "review_cues": [
+              "STAGING_SOURCE_REVIEW：核对癌种、版本、c/p/yp及完整分期条款，包括错误项解析"
+            ]
+          },
+          {
+            "id": "Q4",
+            "phase": "辅助治疗",
+            "timepoint": "标志物评估",
+            "question": "患者免疫组化示 HER2 阳性，在辅助治疗阶段关于靶向治疗的决策正确的是？",
+            "keyPoint": "HER2 检测主要指导复发转移性结肠癌治疗，非辅助阶段。",
+            "review_cues": []
+          },
+          {
+            "id": "Q5",
+            "phase": "辅助治疗",
+            "timepoint": "治疗结束",
+            "question": "患者完成辅助化疗后，关于停药时机的原则，下列哪项正确？",
+            "keyPoint": "辅助治疗达到规范疗程后应停止，不推荐无限期维持。",
+            "review_cues": []
+          }
+        ],
+        "instruction": "逐题归纳真正需要作出的决策，比较五题是否重复；同一判断即可解两题时保留较好者并换写另一题。至少2题优先覆盖病例核心问题；一般MDT、完善检查不能静默代替独特决策。关键词线索不作为删题或医学判错依据。"
+      }
+    },
+    {
+      "index": 8,
+      "case_id": "CASE-2B54AB73",
+      "question_count": 5,
+      "option_review_count": 20,
+      "answer_counts": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "set_review": {
+        "scope": "review_tasks_not_medical_verdict",
+        "questions": [
+          {
+            "id": "Q1",
+            "phase": "初诊治疗",
+            "timepoint": "初诊",
+            "question": "患者初诊为 IVA 期胃癌伴肝脏直接浸润，HER2 高表达且 MSI-H，暂不可切除，首选策略是什么？",
+            "keyPoint": "局部晚期伴特定分子特征患者优选系统治疗转化",
+            "review_cues": []
+          },
+          {
+            "id": "Q2",
+            "phase": "初诊治疗",
+            "timepoint": "初诊",
+            "question": "针对该晚期胃癌患者，初诊时分子病理检测的建议是什么？",
+            "keyPoint": "晚期胃癌初诊需全面分子评估指导治疗",
+            "review_cues": []
+          },
+          {
+            "id": "Q3",
+            "phase": "术后巩固",
+            "timepoint": "术后",
+            "question": "术后病理证实 MSI-H，关于围术期化疗证据的说法正确的是？",
+            "keyPoint": "特定分子亚型围术期化疗获益存在差异",
+            "review_cues": []
+          },
+          {
+            "id": "Q4",
+            "phase": "术后巩固",
+            "timepoint": "术后巩固",
+            "question": "术后辅助化疗期间出现长时间中性粒细胞减少伴菌血症，处理正确的是？",
+            "keyPoint": "严重感染伴中性粒细胞减少需暂停化疗",
+            "review_cues": []
+          },
+          {
+            "id": "Q5",
+            "phase": "术后随访",
+            "timepoint": "术后",
+            "question": "转化治疗后手术病理证实完全缓解，新辅助治疗后分期应如何判定？",
+            "keyPoint": "新辅助治疗后需依据病理进行 ypTNM 分期",
+            "review_cues": [
+              "DEPTH_REVIEW：核对是否仅考一般流程或分期记忆；有关键词不等于不合格",
+              "STAGING_SOURCE_REVIEW：核对癌种、版本、c/p/yp及完整分期条款，包括错误项解析"
+            ]
+          }
+        ],
+        "instruction": "逐题归纳真正需要作出的决策，比较五题是否重复；同一判断即可解两题时保留较好者并换写另一题。至少2题优先覆盖病例核心问题；一般MDT、完善检查不能静默代替独特决策。关键词线索不作为删题或医学判错依据。"
+      }
+    },
+    {
+      "index": 9,
+      "case_id": "CASE-377A61A2",
+      "question_count": 5,
+      "option_review_count": 20,
+      "answer_counts": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "set_review": {
+        "scope": "review_tasks_not_medical_verdict",
+        "questions": [
+          {
+            "id": "Q1",
+            "phase": "术后病理",
+            "timepoint": "分期诊断",
+            "question": "患者术后病理确认小肠原发灶侵透浆膜，区域淋巴结有转移，双侧卵巢转移。依据小肠腺癌 TNM 分期系统，该患者分期应如何界定？",
+            "keyPoint": "远处转移存在即定义为 IV 期，不受原发灶浸润深度或淋巴结数目影响",
+            "review_cues": [
+              "DEPTH_REVIEW：核对是否仅考一般流程或分期记忆；有关键词不等于不合格",
+              "STAGING_SOURCE_REVIEW：核对癌种、版本、c/p/yp及完整分期条款，包括错误项解析"
+            ]
+          },
+          {
+            "id": "Q2",
+            "phase": "术后辅助",
+            "timepoint": "治疗决策",
+            "question": "患者术后恢复良好，体能状态适合强烈治疗。针对 IV 期小肠腺癌术后全身治疗，下列哪项方案选择正确？",
+            "keyPoint": "适合强烈治疗者首选含奥沙利铂双药方案，抗 EGFR 及后线药不推荐一线",
+            "review_cues": []
+          },
+          {
+            "id": "Q3",
+            "phase": "术中及术后",
+            "timepoint": "诊断与分期",
+            "question": "术中冰冻提示卵巢交界性肿瘤伴少量印戒细胞，术后石蜡及免疫组化确诊转移。关于病理诊断策略，下列哪项描述正确？",
+            "keyPoint": "免疫组化需结合形态学与临床表现综合分析，避免片面解读导致误诊",
+            "review_cues": [
+              "DEPTH_REVIEW：核对是否仅考一般流程或分期记忆；有关键词不等于不合格",
+              "STAGING_SOURCE_REVIEW：核对癌种、版本、c/p/yp及完整分期条款，包括错误项解析"
+            ]
+          },
+          {
+            "id": "Q4",
+            "phase": "治疗后",
+            "timepoint": "随访计划",
+            "question": "患者完成术后辅助化疗后进入随访阶段。依据小肠肿瘤随访共识，下列哪项检查组合是建议的常规随访内容？",
+            "keyPoint": "随访建议包括定期胸腹盆 CT 及 CEA/CA19-9 监测，而非仅靠症状或单一标志物",
+            "review_cues": [
+              "DEPTH_REVIEW：核对是否仅考一般流程或分期记忆；有关键词不等于不合格"
+            ]
+          },
+          {
+            "id": "Q5",
+            "phase": "化疗中",
+            "timepoint": "疗效评价",
+            "question": "患者接受 XELOX 方案化疗中。关于疗效评价及方案调整时机，下列哪项处理符合化疗原则？",
+            "keyPoint": "2~3 周期后评价疗效，未进展可维持原方案，避免频繁更换或盲目加量",
+            "review_cues": []
+          }
+        ],
+        "instruction": "逐题归纳真正需要作出的决策，比较五题是否重复；同一判断即可解两题时保留较好者并换写另一题。至少2题优先覆盖病例核心问题；一般MDT、完善检查不能静默代替独特决策。关键词线索不作为删题或医学判错依据。"
+      }
+    },
+    {
+      "index": 10,
+      "case_id": "CASE-FA55A17A",
+      "question_count": 5,
+      "option_review_count": 20,
+      "answer_counts": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "set_review": {
+        "scope": "review_tasks_not_medical_verdict",
+        "questions": [
+          {
+            "id": "Q1",
+            "phase": "初始评估",
+            "timepoint": "入院时",
+            "question": "针对结直肠癌肝转移患者进行分子病理检测，关于样本选择的推荐，下列哪项正确？",
+            "keyPoint": "肝转移患者初治即应进行分子检测，首选转移灶组织。",
+            "review_cues": []
+          },
+          {
+            "id": "Q2",
+            "phase": "二线治疗",
+            "timepoint": "一线进展后",
+            "question": "一线化疗联合贝伐珠单抗进展且确认 MSI-H 状态后，关于后续全身治疗药物选择的描述，下列哪项正确？",
+            "keyPoint": "MSI-H 转移性结直肠癌可选用免疫检查点抑制剂治疗。",
+            "review_cues": []
+          },
+          {
+            "id": "Q3",
+            "phase": "术后病理",
+            "timepoint": "急诊手术后",
+            "question": "术后病理显示淋巴结阴性但存在肿瘤沉积灶，N 分期判定正确的是？",
+            "keyPoint": "无区域淋巴结转移但有肿瘤沉积灶定义为 N1c 期。",
+            "review_cues": [
+              "DEPTH_REVIEW：核对是否仅考一般流程或分期记忆；有关键词不等于不合格",
+              "STAGING_SOURCE_REVIEW：核对癌种、版本、c/p/yp及完整分期条款，包括错误项解析"
+            ]
+          },
+          {
+            "id": "Q4",
+            "phase": "检测实施",
+            "timepoint": "一线失败后",
+            "question": "关于该患者二代测序检测标本及结果一致性的描述，下列哪项正确？",
+            "keyPoint": "结直肠癌原发灶与转移灶基因突变状态具有高度一致性。",
+            "review_cues": []
+          },
+          {
+            "id": "Q5",
+            "phase": "转化治疗",
+            "timepoint": "一线治疗前",
+            "question": "参考 KRAS 突变不可切除肝转移转化治疗研究，关于化疗方案强度的结论正确的是？",
+            "keyPoint": "三药方案未显著提高切除率，双药联合靶向是标准选择。",
+            "review_cues": []
+          }
+        ],
+        "instruction": "逐题归纳真正需要作出的决策，比较五题是否重复；同一判断即可解两题时保留较好者并换写另一题。至少2题优先覆盖病例核心问题；一般MDT、完善检查不能静默代替独特决策。关键词线索不作为删题或医学判错依据。"
+      }
+    }
+  ]
+}

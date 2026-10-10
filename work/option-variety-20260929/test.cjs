@@ -1,0 +1,11 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert/strict');
+let test=fs.readFileSync('work/structured-five-20260928/test.cjs','utf8');
+test=test.replaceAll('outputs/五题结构与证据边界修复-20260928/','outputs/选项重复与答案布局修复-20260929/').replaceAll('01-出题子应用-五题结构与证据边界修复版.json','01-出题子应用-Flash选项去重复版.json').replaceAll('20260928-structured-five','20260929-option-variety-five');
+test=test.replace('outputs/五题内容修订-20260928/01-出题子应用-五题内容修订版.json','outputs/上传版证据范围修复-20260929/01-出题子应用-Flash证据范围修复版.json');
+test=test.replace("'v12RevisionInput','cmuTcUhJefVm2DC6','v12AssemblyR2','v12FinalPublicationNormalize'","'v12RevisionInput','cmuTcUhJefVm2DC6','v12AssemblyR2','v12FinalPublicationNormalize','v12CasePacket','lUxTeIqSf0zHu2BL'");
+test=test.replace('修改六个节点，保留模型参数、知识库、所有输入引用及连线','修改八节点，保留模型检索及连线，仅增加首次出题布局变量');
+test=test.replace('assert.deepEqual(n.outputs,b.outputs);',"assert.deepEqual(n.outputs.filter(o=>o.id!=='answerPositionPlanJson'),b.outputs);");
+test=test.replace("['code','systemPrompt'].includes(i.key)","['code','systemPrompt','system_textareaInput'].includes(i.key)");
+const anchor="extra+'\\nconst datasetConfig='";assert(test.includes(anchor));
+test=test.replace(anchor,"extra+fs.readFileSync('work/applicability-five-20260928/cases.js','utf8')+fs.readFileSync('work/wording-facts-20260929/cases.js','utf8')+fs.readFileSync('work/uniqueness-five-20260929/cases.js','utf8')+fs.readFileSync('work/source-scope-20260929/cases.js','utf8').replace('n.inputs=b.inputs;', 'n.inputs=b.inputs;n.outputs=b.outputs;')+fs.readFileSync('work/option-variety-20260929/cases.js','utf8')+'\\nconst datasetConfig='");
+vm.runInThisContext('(function(require){'+test+'\n})',{filename:'option-variety-suite.cjs'})(require);

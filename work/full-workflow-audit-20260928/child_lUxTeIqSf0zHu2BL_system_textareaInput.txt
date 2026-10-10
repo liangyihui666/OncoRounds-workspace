@@ -1,0 +1,11 @@
+【case_packet：直接接收 OCR 病例字段，保留原文与待核实说明】
+{{$v12CasePacket.v12CasePacketJson$}}
+
+【evidence_pool：带稳定evidence_id的候选筛选证据池（压缩文本）】
+{{$v11EvidenceRegistry.v12FinalPoolJson$}}
+
+【固定内部参数】
+目标question_count=5，实际允许1至5题，不足时保留已有题目；difficulty=进阶；case_intro_images仅兼容保留，未被模型处理。
+
+【目标学员】
+高年资肿瘤专科医生。进阶指基于病例条件与证据边界的方案取舍；禁止常识题、明显错误干扰项和无依据的复杂化。

@@ -1,0 +1,27 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const assert = require('node:assert/strict');
+const vm = require('node:vm');
+
+const root = path.resolve(__dirname, '../..');
+const basePath = path.join(root, 'outputs/题目生成-质量优化-首轮75分-二轮直出-20260904.json');
+const promptPath = path.join(root, 'outputs/题目修订-第二轮-执行强化提示词-20260904.txt');
+const outPath = path.join(root, 'outputs/题目生成-质量优化-二轮修订强化-20260904.json');
+const raw = fs.readFileSync(basePath, 'utf8');
+const base = JSON.parse(raw.replace(/^\uFEFF/, ''));
+const node = base.nodes.find(n => n.name === '题目修订-第二轮');
+const oldPrompt = node.inputs.find(i => i.key === 'systemPrompt').value;
+const prompt = fs.readFileSync(promptPath, 'utf8').trim();
+assert(prompt.length < oldPrompt.length, 'The execution prompt should be more concise');
+assert.equal(raw.split(JSON.stringify(oldPrompt)).length - 1, 1);
+const nextRaw = raw.replace(JSON.stringify(oldPrompt), () => JSON.stringify(prompt));
+const next = JSON.parse(nextRaw.replace(/^\uFEFF/, ''));
+assert.equal(nextRaw.charCodeAt(0), raw.charCodeAt(0));
+const restored = structuredClone(next);
+restored.nodes.find(n => n.nodeId === node.nodeId).inputs.find(i => i.key === 'systemPrompt').value = oldPrompt;
+assert.deepEqual(restored, base, 'Only the revision systemPrompt may change');
+for (const n of next.nodes) for (const i of n.inputs || []) if (i.key === 'code') new vm.Script(i.value);
+assert.equal(node.inputs.find(i => i.key === 'temperature').value, 0.2);
+for (const field of ['EVIDENCE_REPLACEMENT_REQUIRED','SUPPORT_MODE_CHANGE_REQUIRED','previous_candidate','repair_packet','preserve_ids','replacements','answer_text']) assert(prompt.includes(field));
+fs.writeFileSync(outPath, nextRaw, 'utf8');
+console.log(JSON.stringify({output:outPath,changed_node:node.name,before_chars:oldPrompt.length,after_chars:prompt.length,nodes:next.nodes.length,edges:next.edges.length,unchanged:'连线、代码、其他提示词、变量引用、温度、首轮75分及第二轮直出',test_scope:'静态单字段差异与代码编译；未调用模型，需实际复跑验证修订完成率。'},null,2));

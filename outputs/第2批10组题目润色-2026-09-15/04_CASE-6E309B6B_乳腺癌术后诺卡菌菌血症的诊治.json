@@ -1,0 +1,254 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-6E309B6B",
+    "cancer_type": "胸部肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "术后发热病原鉴别",
+        "timepoint": "术后第14天高热、双肺新发病灶",
+        "question": "患者高热伴肺部病灶，CRP及PCT正常，经验性左氧氟沙星无效。血培养见革兰阳性分支丝状菌。下一步最有价值的是？",
+        "options": {
+          "A": "仅依据肺部影像改用抗真菌药，不再追查血培养",
+          "B": "把分支丝状菌视为污染，继续原抗菌方案至退热",
+          "C": "因CRP及PCT正常，先按肿瘤热处理并停抗菌药",
+          "D": "联系微生物室完成菌种鉴定和药敏，并结合培养结果调整治疗"
+        },
+        "answer": "D",
+        "answer_text": "联系微生物室完成菌种鉴定和药敏，并结合培养结果调整治疗",
+        "explain": "本例血培养及MALDI-TOF MS确认新诺卡菌，药敏指导后续选药。正常炎症指标不能排除感染；形态提示方向，但不足以代替种水平鉴定及药敏。病例不是免疫检查点抑制剂相关肺炎。",
+        "keyPoint": "机会性感染需重视病原学，不能由正常炎症指标排除。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "",
+          "split_index": null,
+          "type": "journal",
+          "authority": "",
+          "source_title": "Nocardia Nova bacteremia and viral pneumonia in a breast cancer patient post modified radical mastectomy: a case report",
+          "source_version": "2025",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12541933/",
+          "evidence_summary": "机会性感染需重视病原学，不能由正常炎症指标排除。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "诊断与分期",
+        "phase": "感染范围评估",
+        "timepoint": "确诊诺卡菌菌血症后",
+        "question": "患者已确诊诺卡菌菌血症，未诉明显神经系统症状。为何仍需要评估中枢神经系统？",
+        "options": {
+          "A": "中枢受累可能无明显症状，脑影像结果会影响选药和疗程",
+          "B": "仅在痰培养阳性时才需筛查脑部感染",
+          "C": "血培养确诊后，脑部病变性质不再影响处理",
+          "D": "无头痛即可排除播散，脑影像仅用于乳腺癌分期"
+        },
+        "answer": "A",
+        "answer_text": "中枢受累可能无明显症状，脑影像结果会影响选药和疗程",
+        "explain": "诺卡菌可发生无症状中枢播散。相关回顾性研究支持免疫受损患者重视脑影像评估；本例实际脑MRI及脑脊液培养未见异常。不能反向将“无症状”当作排除依据，也不要求所有患者固定行腰穿。",
+        "keyPoint": "诺卡菌播散评估不能仅依赖神经系统症状。",
+        "guidelineRef": {
+          "evidence_type": "临床研究",
+          "doc_id": "",
+          "split_index": null,
+          "type": "journal",
+          "authority": "",
+          "source_title": "Clinical and Radiological Characterization of Central Nervous System Involvement in Nocardiosis: A 20-Year Experience",
+          "source_version": "2024",
+          "source_section": "",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/38406155/",
+          "evidence_summary": "诺卡菌播散评估不能仅依赖神经系统症状。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "不良反应管理",
+        "phase": "抗菌药皮疹后再用药",
+        "timepoint": "TMP-SMX用药2天出现皮疹",
+        "question": "原病例后来在合用抗组胺药的情况下再次使用TMP-SMX。把这一经过用于类似患者时，最需要先明确什么？",
+        "options": {
+          "A": "只要加用抗组胺药，即可保证不会出现严重过敏",
+          "B": "细菌药敏显示敏感，即可优先于过敏风险恢复用药",
+          "C": "既往皮疹未记录等级，就按轻型处理并常规再用",
+          "D": "皮疹类型、黏膜及器官受累、严重程度，再由专科评估再暴露风险"
+        },
+        "answer": "D",
+        "answer_text": "皮疹类型、黏膜及器官受累、严重程度，再由专科评估再暴露风险",
+        "explain": "本例再用后耐受是个体结果，不能证明抗组胺药可预防严重药物反应。轻型皮疹与严重皮肤不良反应的处理不同；现有记录不足以补写毒性等级或推荐统一再激发方案。",
+        "keyPoint": "药敏敏感不等于患者可安全再暴露，先明确过敏表型。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "AAAAI / ACAAI",
+          "source_title": "Drug Allergy: A 2022 Practice Parameter Update",
+          "source_version": "2022",
+          "source_section": "",
+          "source_url": "https://www.aaaai.org/Aaaai/media/Media-Library-PDFs/Allergist%20Resources/Statements%20and%20Practice%20Parameters/Drug-Allergy-PP-9-2022.pdf",
+          "evidence_summary": "药敏敏感不等于患者可安全再暴露，先明确过敏表型。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "治疗决策",
+        "phase": "感染复发后的治疗计划",
+        "timepoint": "出院后未规律服药，3周后再次菌血症",
+        "question": "本例未规律服药后再次血培养阳性。重新制定抗感染计划时，哪项最完整？",
+        "options": {
+          "A": "复核病原及药敏、感染范围和依从性，并安排序贯治疗及毒性监测",
+          "B": "退热且血培养转阴后即停药，以减少再次皮疹风险",
+          "C": "只延长同一种静脉药物至6个月，不再考虑口服序贯",
+          "D": "把再次阳性直接认定为获得性耐药，跳过药敏复核"
+        },
+        "answer": "A",
+        "answer_text": "复核病原及药敏、感染范围和依从性，并安排序贯治疗及毒性监测",
+        "explain": "原病例经再次联合及口服序贯治疗、持续至6个月后康复。该疗程不能机械用于所有诺卡菌病；部位、免疫状态、反应及耐受性共同决定计划，需解决实际服药困难。",
+        "keyPoint": "复发评估同时关注感染本身与疗程执行，避免把个案疗程固定化。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "",
+          "split_index": null,
+          "type": "journal",
+          "authority": "",
+          "source_title": "Nocardia Nova bacteremia and viral pneumonia in a breast cancer patient post modified radical mastectomy: a case report",
+          "source_version": "2025",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12541933/",
+          "evidence_summary": "复发评估同时关注感染本身与疗程执行，避免把个案疗程固定化。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "诊断与分期",
+        "phase": "共感染证据评估",
+        "timepoint": "复发时RSV IgM升高，未开展呼吸道PCR",
+        "question": "原文根据RSV IgM升高及肺部新病灶考虑共感染。若条件允许，哪项最能补强当前RSV感染的病原学证据？",
+        "options": {
+          "A": "以抗菌治疗退热作为排除所有病毒共感染的依据",
+          "B": "采集合适呼吸道标本做RSV核酸检测，并结合临床解释",
+          "C": "以新发肺结节的位置区分RSV与诺卡菌感染",
+          "D": "仅重复测同一种IgM，直接据高值确认肺炎病原"
+        },
+        "answer": "B",
+        "answer_text": "采集合适呼吸道标本做RSV核酸检测，并结合临床解释",
+        "explain": "CDC列出的RSV诊断方法包括高敏感性的呼吸道核酸检测。原病例没有PCR结果，应保留“临床考虑”的证据边界，不能补写核酸阳性或据单项IgM认定全部肺病灶由RSV造成。",
+        "keyPoint": "共感染判断需区分血清学线索与呼吸道直接病原检测。",
+        "guidelineRef": {
+          "evidence_type": "权威诊疗资料",
+          "doc_id": "",
+          "split_index": null,
+          "type": "reference",
+          "authority": "CDC",
+          "source_title": "Diagnostic Testing for RSV",
+          "source_version": "2026-02-24",
+          "source_section": "",
+          "source_url": "https://www.cdc.gov/rsv/hcp/clinical-overview/diagnostic-testing.html",
+          "evidence_summary": "共感染判断需区分血清学线索与呼吸道直接病原检测。"
+        }
+      }
+    ],
+    "missing_information": [],
+    "second_cancer_type": "乳腺癌"
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-6E309B6B",
+    "cancer_type": "胸部肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": ""
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "乳腺癌术后诺卡菌菌血症的诊治",
+      "description": "54岁女性，HER2阳性乳腺癌新辅助治疗及改良根治术后出现高热。血培养鉴定新诺卡菌。抗菌治疗期间出现皮疹，出院后未规律服药并复发；临床考虑RSV共感染，后持续抗感染治疗至6个月康复。"
+    },
+    "overview": {
+      "hero": {
+        "title": "乳腺癌术后诺卡菌菌血症的诊治",
+        "subtitle": "机会性感染需重视病原学，不能由正常炎症指标排除；诺卡菌播散评估不能仅依赖神经系统症状；药敏敏感不等于患者可安全再暴露，先明确过敏表型；复发评估同时关注感染本身与疗程执行，避免把个案疗程固定化；共感染判断需区分血清学线索与呼吸道直接病原检测。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者与就诊背景",
+              "value": "54岁女性，HER2阳性乳腺癌新辅助治疗及改良根治术后出现高热。血培养鉴定新诺卡菌。抗菌治疗期间出现皮疹，出院后未规律服药并复发；临床考虑RSV共感染，后持续抗感染治疗至6个月康复。"
+            },
+            {
+              "order": 2,
+              "label": "疾病与分期",
+              "value": "左乳非特殊型浸润性癌；术后新诺卡菌菌血症。未依据感染性肺病灶推定肿瘤转移。"
+            },
+            {
+              "order": 3,
+              "label": "分子与病理",
+              "value": "ER、PR阴性，HER2 3+，Ki-67约30%；血培养和MALDI-TOF MS确认N. nova，药敏指导选药。RSV IgM升高，但未行呼吸道PCR。"
+            },
+            {
+              "order": 4,
+              "label": "核心教学点",
+              "value": "机会性感染需重视病原学，不能由正常炎症指标排除；诺卡菌播散评估不能仅依赖神经系统症状；药敏敏感不等于患者可安全再暴露，先明确过敏表型；复发评估同时关注感染本身与疗程执行，避免把个案疗程固定化；共感染判断需区分血清学线索与呼吸道直接病原检测。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "术前",
+              "title": "乳腺癌治疗",
+              "detail": "原文记载阿霉素加环磷酰胺1周期，卡铂、曲妥珠单抗及帕妥珠单抗2周期；随后改良根治术。未补加未记录的紫杉类。"
+            },
+            {
+              "date": "术后14天",
+              "title": "高热及肺病灶",
+              "detail": "高热、咳嗽，CT出现肺部结节；经验性左氧氟沙星无效。"
+            },
+            {
+              "date": "血培养阳性后",
+              "title": "病原确诊",
+              "detail": "鉴定新诺卡菌并做药敏；脑MRI及脑脊液培养未见异常。"
+            },
+            {
+              "date": "TMP-SMX用药2天后",
+              "title": "皮疹与改药",
+              "detail": "考虑药物过敏，改亚胺培南/西司他丁，后带利奈唑胺出院。"
+            },
+            {
+              "date": "出院3周后",
+              "title": "感染复发",
+              "detail": "未规律服药后再次菌血症；RSV IgM升高及影像变化提示可能共感染，缺少PCR确证。"
+            },
+            {
+              "date": "再次治疗及随访",
+              "title": "序贯抗感染",
+              "detail": "原文再用TMP-SMX并合用抗组胺药，联合亚胺培南/西司他丁后口服序贯，治疗至6个月康复。再用药经过不构成通用过敏处理规则。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    },
+    "second_cancer_type": "乳腺癌"
+  }
+}

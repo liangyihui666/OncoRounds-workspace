@@ -1,0 +1,312 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-DD610E54",
+    "cancer_type": "胸部肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "病理诊断",
+        "timepoint": "粗针活检后",
+        "question": "哺乳期女性乳房肿物增大，活检见异常血管腔和内皮细胞异型，CD34、ERG阳性。制定治疗方案前，对这些结果最恰当的处理是？",
+        "options": {
+          "A": "由肉瘤病理专家结合形态与免疫表型复核诊断",
+          "B": "仅凭ERG阳性排除其他血管性病变",
+          "C": "仅凭CD34阳性确定肿瘤级别和放疗指征",
+          "D": "按普通乳腺癌处理，血管标志物不影响方案"
+        },
+        "answer": "A",
+        "answer_text": "由肉瘤病理专家结合形态与免疫表型复核诊断",
+        "explain": "免疫表型需要结合组织形态解释，不能单独决定恶性程度、分期或治疗。本例属于少见乳腺肉瘤，应进行专科病理复核，并由乳腺与肉瘤团队共同决策。",
+        "keyPoint": "先明确病理实体，再选择与之匹配的治疗路径。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "British Sarcoma Group",
+          "source_title": "UK guidelines for the management of soft tissue sarcomas",
+          "source_version": "",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11724041/",
+          "evidence_summary": "乳腺肉瘤应转诊专科团队进行病理复核和多学科讨论。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "诊断与分期",
+        "phase": "腋窝评估",
+        "timepoint": "手术前教学复盘",
+        "question": "本例原发性乳腺血管肉瘤临床腋窝未见异常，实际接受了前哨淋巴结手术。对这一做法应如何进行教学解读？",
+        "options": {
+          "A": "只要临床腋窝阴性，就无需任何区域淋巴结评估",
+          "B": "单例实施前哨手术，说明该操作应成为所有患者常规",
+          "C": "保乳手术后必须追加腋窝清扫以弥补切除范围",
+          "D": "应评估区域淋巴结，但不照搬上皮性乳腺癌的常规前哨路径"
+        },
+        "answer": "D",
+        "answer_text": "应评估区域淋巴结，但不照搬上皮性乳腺癌的常规前哨路径",
+        "explain": "乳腺肉瘤与上皮性乳腺癌的处理原则不同。病例中的前哨手术不等于常规推荐；可疑淋巴结仍需有针对性评估，不能把“不常规做前哨活检”解释成“不看淋巴结”。",
+        "keyPoint": "区分区域淋巴结评估与常规前哨淋巴结手术。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "British Sarcoma Group",
+          "source_title": "UK guidelines for the management of soft tissue sarcomas",
+          "source_version": "",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11724041/",
+          "evidence_summary": "乳腺肉瘤不要求常规以前哨活检完成腋窝分期；血管肉瘤仍需关注区域淋巴结。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "局部手术方案",
+        "timepoint": "手术前",
+        "question": "患者乳腺血管肉瘤未见远处转移，团队拟在保乳切除与乳房切除之间选择。哪项应作为局部手术决策的核心？",
+        "options": {
+          "A": "仅依据血管标志物阳性选择全乳切除和腋窝清扫",
+          "B": "仅依据患者年龄选择保乳，不再考虑局部侵犯范围",
+          "C": "能否获得足够的阴性切缘，并兼顾肿瘤范围和重建需求",
+          "D": "优先采用切除体积最小的方式，切缘由术后观察补偿"
+        },
+        "answer": "C",
+        "answer_text": "能否获得足够的阴性切缘，并兼顾肿瘤范围和重建需求",
+        "explain": "局限性乳腺肉瘤的手术重点是完整切除及切缘控制。保乳或乳房切除需结合病变范围决定，不能从单例保乳成功推导所有患者均适合相同术式。",
+        "keyPoint": "肉瘤局部手术首先保证肿瘤学切除质量。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "British Sarcoma Group",
+          "source_title": "UK guidelines for the management of soft tissue sarcomas",
+          "source_version": "",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11724041/",
+          "evidence_summary": "乳腺肉瘤标准局部手术为取得阴性切缘的广泛切除，术式根据具体情况选择。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "治疗决策",
+        "phase": "术后辅助治疗讨论",
+        "timepoint": "术后病理回报后",
+        "question": "原文记载完整切除后未予放疗，并提及放疗相关继发血管肉瘤风险。评价这一决定时，哪项最合理？",
+        "options": {
+          "A": "以患者术后短期满意度替代局部复发风险评估",
+          "B": "结合切缘、大小、级别及局部复发风险个体化讨论",
+          "C": "只要是血管肉瘤，无论切缘与级别均应术后放疗",
+          "D": "既然放疗可能诱发肉瘤，原发性乳腺肉瘤均应避免放疗"
+        },
+        "answer": "B",
+        "answer_text": "结合切缘、大小、级别及局部复发风险个体化讨论",
+        "explain": "放疗相关肿瘤风险不能单独排除放疗的潜在局部控制获益。术后方案应评估个体复发风险；这份摘要没有足够细节支撑把“不放疗”推广为统一规则。",
+        "keyPoint": "辅助放疗取决于个体风险，不能由单一风险或个案结局决定。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "British Sarcoma Group",
+          "source_title": "UK guidelines for the management of soft tissue sarcomas",
+          "source_version": "",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11724041/",
+          "evidence_summary": "乳腺肉瘤术后放疗可结合高级别、较大肿瘤和切缘等局部复发风险讨论。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "疗效复评与局部治疗",
+        "phase": "术后随访",
+        "timepoint": "术后6个月",
+        "question": "术区影像显示结构改变，穿刺提示瘢痕组织且未见恶性细胞。下一步随访策略应如何把握？",
+        "options": {
+          "A": "继续按风险随访，核对影像与病理一致性及远处复发线索",
+          "B": "固定每次随访重复穿刺，不再依据临床或影像变化",
+          "C": "只观察瘢痕变化，不再考虑胸部或新症状评估",
+          "D": "将本次阴性活检视为治愈证据，结束肿瘤随访"
+        },
+        "answer": "A",
+        "answer_text": "继续按风险随访，核对影像与病理一致性及远处复发线索",
+        "explain": "本次检查支持瘢痕改变，但不能保证以后不会复发。随访应结合局部查体、必要影像以及肺部等远处复发评估；出现不一致或新的可疑变化时再作进一步检查。",
+        "keyPoint": "一次良性取样不能替代后续按风险安排的随访。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "British Sarcoma Group",
+          "source_title": "UK guidelines for the management of soft tissue sarcomas",
+          "source_version": "",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11724041/",
+          "evidence_summary": "软组织肉瘤随访关注局部复发、肺部转移和治疗晚期影响，影像检查结合临床怀疑安排。"
+        }
+      }
+    ],
+    "missing_information": [],
+    "second_cancer_type": "乳腺肉瘤"
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-DD610E54",
+    "cancer_type": "胸部肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺肉瘤主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "32 岁哺乳期女性原发性乳腺血管肉瘤诊疗病例",
+      "description": "32岁哺乳期女性，乳腺肿块出现约6个月，近1个月增长加快。体检约4×4 cm，超声约2.7×1.7 cm，CT约2.9×1.8 cm，各测量来自不同检查。组织学及CD34、ERG等检查支持原发性乳腺血管肉瘤。病例接受乳腺局部切除及整形，并实施了前哨淋巴结相关手术；这一经过不构成所有乳腺肉瘤常规进行前哨淋巴结活检的依据。原文未行放疗。6个月瘢痕处异常经活检为良性，仍需长期随访。"
+    },
+    "overview": {
+      "hero": {
+        "title": "32 岁哺乳期女性原发性乳腺血管肉瘤诊疗病例",
+        "subtitle": "病理诊断；腋窝评估；局部手术方案；术后辅助治疗讨论；术后随访。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者与就诊背景",
+              "value": "32岁哺乳期女性，乳腺肿块出现约6个月，近1个月增长加快。体检约4×4 cm，超声约2.7×1.7 cm，CT约2.9×1.8 cm，各测量来自不同检查。组织学及CD34、ERG等检查支持原发性乳腺血管肉瘤。病例接受乳腺局部切除及整形，并实施了前哨淋巴结相关手术；这一经过不构成所有乳腺肉瘤常规进行前哨淋巴结活检的依据。原文未行放疗。6个月瘢痕处异常经活检为良性，仍需长期随访。"
+            },
+            {
+              "order": 2,
+              "label": "疾病与分期",
+              "value": "原发性乳腺血管肉瘤；不能套用普通乳腺上皮癌的完整分期及治疗路径。"
+            },
+            {
+              "order": 3,
+              "label": "分子与病理",
+              "value": "组织形态结合CD34、ERG等血管内皮标志物支持诊断；单一标志物阳性不能独立确定组织学级别。"
+            },
+            {
+              "order": 4,
+              "label": "核心教学点",
+              "value": "病理诊断；腋窝评估；局部手术方案；术后辅助治疗讨论；术后随访。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "就诊前约6个月",
+              "title": "出现乳腺肿块",
+              "detail": "近1个月增长加快，患者处于哺乳期。"
+            },
+            {
+              "date": "就诊评估",
+              "title": "影像与组织学诊断",
+              "detail": "体检、超声、CT测量不完全相同；病理及免疫组化支持血管肉瘤。"
+            },
+            {
+              "date": "手术期",
+              "title": "局部切除及乳腺整形",
+              "detail": "实施局部切除及Batwing整形，原文也记载前哨淋巴结相关手术。"
+            },
+            {
+              "date": "术后",
+              "title": "未接受放疗",
+              "detail": "保留本病例经过，不将其解释为所有血管肉瘤均禁忌放疗。"
+            },
+            {
+              "date": "术后6个月",
+              "title": "瘢痕处复评",
+              "detail": "异常处活检为良性，继续随访。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/tH_bEZB86OqvuLzDCExxTQ/GlAyuohGW4w3jNum3opW6OsyBgPSPktm.jpg",
+              "timepoint": "就诊初期",
+              "caption": "图 1 乳腺超声：右乳外上象限见边界不清的混合回声区，无明确肿块，彩超示血流丰富。",
+              "alt": "图 1 乳腺超声：右乳外上象限见边界不清的混合回声区，无明确肿块，彩超示血流丰富。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/tH_bEZB86OqvuLzDCExxTQ/x4YulRDhBjRICrwgFgNd4CwZYdxIjNyl.png",
+              "timepoint": "穿刺活检时",
+              "caption": "图 2 HE 染色：（A）可见血管腔、轻度异型梭形细胞及背景出血（10X）；（B）异型细胞排列更明显（40X）。",
+              "alt": "图 2 HE 染色：（A）可见血管腔、轻度异型梭形细胞及背景出血（10X）；（B）异型细胞排列更明显（40X）。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/tH_bEZB86OqvuLzDCExxTQ/sVIGOfQTmsJc4FJPywHO2fdsW8nCF7oU.png",
+              "timepoint": "穿刺活检时",
+              "caption": "图 3 免疫组化：（A）CD34 阳性，示血管通道清晰（40X）；（B）ERG 核阳性，提示血管内皮来源（40X）。",
+              "alt": "图 3 免疫组化：（A）CD34 阳性，示血管通道清晰（40X）；（B）ERG 核阳性，提示血管内皮来源（40X）。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG4",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/tH_bEZB86OqvuLzDCExxTQ/MjWX1sgTGe7m7YDnLdXtgUaGjvuFhOMY.png",
+              "timepoint": "就诊初期",
+              "caption": "图 4 乳腺 CT：白箭所示为右乳外上象限结节状增强灶，伴周围实质扭曲及皮肤增厚，未见转移。",
+              "alt": "图 4 乳腺 CT：白箭所示为右乳外上象限结节状增强灶，伴周围实质扭曲及皮肤增厚，未见转移。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG5",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/tH_bEZB86OqvuLzDCExxTQ/JyWWIvatJpCPESQJ1NbtoO9WjoOjrbKn.png",
+              "timepoint": "术后 6 个月",
+              "caption": "图 5 术后 6 个月钼靶：术区轻度结构变形，金属夹在位，未见肿块。",
+              "alt": "图 5 术后 6 个月钼靶：术区轻度结构变形，金属夹在位，未见肿块。",
+              "mapping_status": "matched_by_timepoint",
+              "related_timeline": {
+                "date": "时间未详",
+                "title": "诊疗节点 9",
+                "detail": "术后 6 个月：钼靶及超声复查示术区结构改变但无新发病灶，穿刺活检证实为瘢痕组织。"
+              }
+            },
+            {
+              "id": "IMG6",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/tH_bEZB86OqvuLzDCExxTQ/TH7Zo5PYmDOFV9GSfPHP6VuNe7dtR5tD.png",
+              "timepoint": "术后 6 个月",
+              "caption": "图 6 术后 6 个月乳腺超声：乳晕周围瘢痕区轻度增厚，彩超未见异常血流。穿刺活检证实为瘢痕组织，无恶性细胞。",
+              "alt": "图 6 术后 6 个月乳腺超声：乳晕周围瘢痕区轻度增厚，彩超未见异常血流。穿刺活检证实为瘢痕组织，无恶性细胞。",
+              "mapping_status": "matched_by_timepoint",
+              "related_timeline": {
+                "date": "时间未详",
+                "title": "诊疗节点 9",
+                "detail": "术后 6 个月：钼靶及超声复查示术区结构改变但无新发病灶，穿刺活检证实为瘢痕组织。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "乳腺肉瘤"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "case_id": "CASE-2CBF15F6",
+  "cancer_type": "食管癌",
+  "generation_status": "success",
+  "difficulty": "进阶",
+  "question_count": 5,
+  "questions": [
+    {
+      "id": "Q1",
+      "type": "综合治疗评估",
+      "phase": "初始治疗规划：73岁、食管中下段鳞癌",
+      "timepoint": "当前教学复盘：初始治疗规划：73岁、食管中下段鳞癌",
+      "question": "患者73岁，诊断食管中下段鳞状细胞癌，MDT拟评估新辅助治疗后手术路径。在解剖学可切除性之外，哪一组信息最直接影响能否耐受食管切除术？",
+      "options": {
+        "A": "病灶代谢强度、原发灶长度及区域淋巴结的数量",
+        "B": "病理分化程度、鳞癌标志物及原发灶免疫组化结果",
+        "C": "心肺功能储备、营养与衰弱状态及重要脏器合并症",
+        "D": "治疗后缓解深度、随访时间及肿瘤标志物下降幅度"
+      },
+      "answer": "C",
+      "answer_text": "心肺功能储备、营养与衰弱状态及重要脏器合并症",
+      "explain": "可切除性回答肿瘤能否切除，可手术性还要回答患者能否承受手术。老年患者需综合功能储备、营养、衰弱及合并症评估；年龄本身不能单独作否定依据。治疗后疗效尚未发生，也不能倒推为初始时点已知信息。",
+      "keyPoint": "解剖学可切除与患者生理可耐受是两个独立维度。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "",
+        "split_index": null,
+        "type": "guideline",
+        "authority": "Onkopedia / DGHO",
+        "source_title": "Onkopedia：食管癌指南（2024），可手术性评估",
+        "source_version": "2024；存档版本",
+        "source_section": "",
+        "source_url": "https://www.onkopedia-guidelines.info/en/onkopedia/archive/guidelines/esophageal-cancer/version-02122025T174721/%40%40guideline/html/index.html",
+        "evidence_summary": "解剖学可切除与患者生理可耐受是两个独立维度。"
+      }
+    },
+    {
+      "id": "Q2",
+      "type": "严重不良反应识别",
+      "phase": "2021年2月：放化疗联合帕博利珠单抗后",
+      "timepoint": "当前教学复盘：2021年2月：放化疗联合帕博利珠单抗后",
+      "question": "患者出现广泛红色丘疹，继而发生疼痛性皮肤破溃及唇部溃疡、出血结痂，此时尚未完成皮肤专科诊断。下一步最合适的处置是？",
+      "options": {
+        "A": "暂停免疫用药，紧急评估重症药疹并请皮肤科会诊",
+        "B": "先用局部激素，待皮损面积进一步扩大再升级评估",
+        "C": "先完成常规抗感染疗程，再判断是否需要皮肤活检",
+        "D": "调整为较低免疫剂量，再根据黏膜恢复情况复查"
+      },
+      "answer": "A",
+      "answer_text": "暂停免疫用药，紧急评估重症药疹并请皮肤科会诊",
+      "explain": "皮肤疼痛、破溃及黏膜受累是严重皮肤不良反应的警示信号，不能按普通轻度皮疹处理。应暂停可疑免疫药并紧急进行专科评估，视情况住院、活检和排查感染或其他致病药物；不应等待面积继续扩大才启动处置。",
+      "keyPoint": "识别重症药疹红旗，诊断未定不等于可以延迟处理。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "",
+        "split_index": null,
+        "type": "guideline",
+        "authority": "Cancer Care Ontario",
+        "source_title": "Cancer Care Ontario：免疫检查点抑制剂毒性管理指南，皮肤毒性",
+        "source_version": "在线版",
+        "source_section": "",
+        "source_url": "https://www.cancercareontario.ca/en/file/39391/download?token=Thzk5Jp9",
+        "evidence_summary": "识别重症药疹红旗，诊断未定不等于可以延迟处理。"
+      }
+    },
+    {
+      "id": "Q3",
+      "type": "再次用药边界",
+      "phase": "确诊免疫相关TEN并接受治疗后",
+      "timepoint": "当前教学复盘：确诊免疫相关TEN并接受治疗后",
+      "question": "后续明确诊断为帕博利珠单抗相关中毒性表皮坏死松解症（TEN），同时合并MRSA感染；经治疗后皮肤改善。关于后续PD-1治疗，哪项原则最合适？",
+      "options": {
+        "A": "皮肤恢复至轻度后，可在小剂量激素保护下恢复原药",
+        "B": "感染获得控制后，可更换另一种PD-1抑制剂再挑战",
+        "C": "肿瘤仍存在残留时，可缩短疗程重新引入同类治疗",
+        "D": "应永久停用致病免疫药，后续不常规安排同类再挑战"
+      },
+      "answer": "D",
+      "answer_text": "应永久停用致病免疫药，后续不常规安排同类再挑战",
+      "explain": "已确认免疫相关TEN属于危及生命的严重皮肤毒性，不能套用普通可逆性皮疹的复药规则。感染需要同步治疗，但感染控制并不消除再次免疫暴露的风险。后续抗肿瘤治疗应由MDT重新规划，而非根据肿瘤缩小或皮肤好转直接复药。",
+      "keyPoint": "复药决策取决于毒性类型及严重性，不只是症状是否消退。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "",
+        "split_index": null,
+        "type": "guideline",
+        "authority": "ASCO",
+        "source_title": "ASCO：免疫相关不良反应管理指南（2018），严重皮肤反应",
+        "source_version": "2018",
+        "source_section": "",
+        "source_url": "https://ascopubs.org/doi/abs/10.1200/JCO.2017.77.6385",
+        "evidence_summary": "复药决策取决于毒性类型及严重性，不只是症状是否消退。"
+      }
+    },
+    {
+      "id": "Q4",
+      "type": "局部疗效复评",
+      "phase": "2021年5月：未能按原计划行食管切除",
+      "timepoint": "当前教学复盘：2021年5月：未能按原计划行食管切除",
+      "question": "患者因严重不良反应未行计划中的食管切除。随后PET未再见原食管壁肿块，仍有代谢摄取，报告考虑治疗后改变。在决定后续局部管理前，最合理的评估方向是？",
+      "options": {
+        "A": "将残余摄取视为存活肿瘤，依据PET结果启动挽救手术",
+        "B": "结合内镜取样及必要的超声内镜，综合判断局部残留",
+        "C": "将肿块消失视为病理缓解，依据PET结果结束局部评估",
+        "D": "结合一次肿瘤标志物复查，替代后续内镜组织学评估"
+      },
+      "answer": "B",
+      "answer_text": "结合内镜取样及必要的超声内镜，综合判断局部残留",
+      "explain": "治疗后残余摄取可能与炎症有关，肿块消失也不能证明没有微小残留。局部判断需整合内镜、组织取样及必要的超声内镜等信息，并结合全身复评。未取得切除标本不能以此认定pCR；单次阴性活检同样存在取样局限。",
+      "keyPoint": "代谢改善、临床完全缓解和病理完全缓解不能互相替代。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "",
+        "split_index": null,
+        "type": "guideline",
+        "authority": "Onkopedia / DGHO",
+        "source_title": "Onkopedia：食管癌指南（2024），PET疗效评价边界",
+        "source_version": "2024；存档版本",
+        "source_section": "",
+        "source_url": "https://www.onkopedia-guidelines.info/en/onkopedia/archive/guidelines/esophageal-cancer/version-02122025T174721/%40%40guideline/html/index.html",
+        "evidence_summary": "代谢改善、临床完全缓解和病理完全缓解不能互相替代。 补充核对来源：SEOM–GEMCAD–TTD：食管癌指南（更新2025），疗后评估（https://pmc.ncbi.nlm.nih.gov/articles/PMC13099785/）。"
+      }
+    },
+    {
+      "id": "Q5",
+      "type": "器官保存随访",
+      "phase": "2022—2024年：未手术后的连续随访",
+      "timepoint": "当前教学复盘：2022—2024年：未手术后的连续随访",
+      "question": "此后多次随访未发现明确复发，CT仍有轻度食管壁增厚，内镜见黏膜完整但管壁较僵硬。对于继续器官保存管理，哪项安排最合理？",
+      "options": {
+        "A": "以症状复发作为检查触发点，减少无症状时内镜随访",
+        "B": "以CT壁厚变化作为主要终点，减少黏膜完整时的取样",
+        "C": "持续结合内镜与影像监测，可疑变化时复评挽救治疗",
+        "D": "以长期无复发作为治愈依据，转为一般人群常规体检"
+      },
+      "answer": "C",
+      "answer_text": "持续结合内镜与影像监测，可疑变化时复评挽救治疗",
+      "explain": "未手术后的随访要兼顾局部再生长和远处复发，不能仅依赖症状或CT壁厚。出现可疑变化时应针对性取样，并评估挽救治疗可行性。本例的试验性联合方案及TEN病史具有特殊性，不能据其长期控制推广为所有患者均可省略手术；具体随访间隔需个体化制定。",
+      "keyPoint": "器官保存是主动监测策略，不是放弃复评与挽救治疗。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "",
+        "split_index": null,
+        "type": "guideline",
+        "authority": "SEOM–GEMCAD–TTD",
+        "source_title": "SEOM–GEMCAD–TTD：食管癌指南（更新2025），未手术患者随访原则",
+        "source_version": "更新2025",
+        "source_section": "",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13099785/",
+        "evidence_summary": "器官保存是主动监测策略，不是放弃复评与挽救治疗。"
+      }
+    }
+  ],
+  "missing_information": []
+}

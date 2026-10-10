@@ -1,0 +1,526 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-BE8833A9",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "直肠癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "疗效复评与局部治疗",
+        "phase": "转化治疗评估",
+        "timepoint": "2015 年 10 月",
+        "question": "化疗13周期后，肝转移灶大幅缩小，仅余肝Ⅵ段约1 cm结节。此时最合理的局部治疗决策是什么？",
+        "options": {
+          "A": "继续治疗直到全部病灶影像消失，再讨论局部处理",
+          "B": "及时由MDT评估可切除性及原始病灶位置，制定局部计划",
+          "C": "固定再观察6个月，不受当前可切除性变化影响",
+          "D": "影像病灶接近消失即可停止治疗，改为单纯随访"
+        },
+        "answer": "B",
+        "answer_text": "及时由MDT评估可切除性及原始病灶位置，制定局部计划",
+        "explain": "一旦出现转化机会应及时评估，不必追求影像CR。影像消失不一定等于病理清除，需结合治疗前病灶分布规划处理，同时兼顾既往治疗和器官储备。",
+        "keyPoint": "转化机会出现时及时评估，影像消失不代表病灶已清除。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic colorectal cancer",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10220270/",
+          "evidence_summary": "转化机会出现时及时评估，影像消失不代表病灶已清除。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "疗效复评与局部治疗",
+        "phase": "转化治疗评估",
+        "timepoint": "2015 年 10 月",
+        "question": "患者既往使用贝伐珠单抗，拟接受择期大手术。术前后用药计划应遵循哪项原则？",
+        "options": {
+          "A": "末次用药后可立即手术，只需术后延迟下一次输注",
+          "B": "以血象正常作为可以手术的依据，无需核对末次用药时间",
+          "C": "术后出院即可恢复贝伐珠单抗，无需检查切口愈合",
+          "D": "留足术前停药间隔，术后至少28天且伤口充分愈合再恢复"
+        },
+        "answer": "D",
+        "answer_text": "留足术前停药间隔，术后至少28天且伤口充分愈合再恢复",
+        "explain": "贝伐珠单抗影响伤口愈合。美国说明书规定择期手术前至少停28天，重大手术后至少28天且伤口充分愈合；临床可能根据手术类型采用更长术前间隔。不能把单一6～8周规则机械用于所有手术和消融。",
+        "keyPoint": "贝伐珠单抗围手术期管理需兼顾停药时间与实际愈合情况。",
+        "guidelineRef": {
+          "evidence_type": "药品说明书",
+          "doc_id": "",
+          "split_index": null,
+          "type": "drug_label",
+          "authority": "Genentech / 美国处方信息",
+          "source_title": "AVASTIN Prescribing Information",
+          "source_version": "在线版本（核查于2026-09-10）",
+          "source_section": "",
+          "source_url": "https://www.gene.com/download/pdf/avastin_prescribing.pdf",
+          "evidence_summary": "贝伐珠单抗围手术期管理需兼顾停药时间与实际愈合情况。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "诊断与分期",
+        "phase": "胃溃疡鉴别",
+        "timepoint": "放化疗后发现胃部深溃疡时",
+        "question": "放化疗后胃镜发现深溃疡，首次活检仅见溃疡碎片。复盘诊断和安全管理，哪项原则最合理？",
+        "options": {
+          "A": "首次活检未见癌就足以排除恶性，后续无需再关注",
+          "B": "直接认定为3级药物毒性，只需按统一减量规则处理",
+          "C": "评估出血穿孔及治疗损伤，并按持续疑点安排复查取材",
+          "D": "以PET摄取高低替代组织评估，直接判定是否肿瘤侵犯"
+        },
+        "answer": "C",
+        "answer_text": "评估出血穿孔及治疗损伤，并按持续疑点安排复查取材",
+        "explain": "应警惕胃壁损伤及并发症，并结合内镜、影像和随访判断性质。一次有限取材阴性不能在后续持续异常时永久排除恶性；原文未给出CTCAE分级，不能虚构3级再套用停药规则。",
+        "keyPoint": "深溃疡需评估安全风险，有限阴性病理不能终止后续鉴别。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 整体支持",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "",
+          "evidence_summary": "深溃疡需评估安全风险，有限阴性病理不能终止后续鉴别。（原引用书目信息保留；本轮未取得对应原文分块，支持范围待复核。）"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "分子诊断",
+        "phase": "复发后检测",
+        "timepoint": "2023 年 4 月",
+        "question": "多次复发且曾接受抗EGFR治疗，拟调整后线方案。怎样复核分子信息更合理？",
+        "options": {
+          "A": "只参考初诊KRAS阴性，不再关注检测范围和时效",
+          "B": "优先重复EGFR突变检测，用于替代扩展RAS评估",
+          "C": "结合拟选药物核对RAS/BRAF及MMR/MSI等，必要时补充组织或血浆检测",
+          "D": "每次复发均必须侵入性取材，不考虑已有标本与取材风险"
+        },
+        "answer": "C",
+        "answer_text": "结合拟选药物核对RAS/BRAF及MMR/MSI等，必要时补充组织或血浆检测",
+        "explain": "应先明确当前选药问题，再核对既往结果是否完整可靠。初诊KRAS和EGFR结果不能等同于完整RAS/BRAF评估。组织或血浆选择取决于可及性与问题，不能承诺一次检测一定解释全部耐药。",
+        "keyPoint": "后线检测应围绕实际选药问题，补齐而非机械重复。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic colorectal cancer",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10220270/",
+          "evidence_summary": "后线检测应围绕实际选药问题，补齐而非机械重复。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "治疗决策",
+        "phase": "多线治疗后管理",
+        "timepoint": "2023 年 5 月",
+        "question": "患者已接受多线标准化疗及靶向治疗，仍需评估后线方案。哪项组合属于有依据的可讨论选择？",
+        "options": {
+          "A": "根据既往暴露和耐受性，考虑曲氟尿苷替匹嘧啶相关方案或瑞戈非尼",
+          "B": "重复已明确进展的氟尿嘧啶单药，以用药方便作为主要依据",
+          "C": "采用高剂量原方案，按剂量增加即可逆转耐药的思路处理",
+          "D": "仅根据治疗线数较多，直接排除所有后线药物选择"
+        },
+        "answer": "A",
+        "answer_text": "根据既往暴露和耐受性，考虑曲氟尿苷替匹嘧啶相关方案或瑞戈非尼",
+        "explain": "后线方案需结合分子信息、体能、既往暴露和毒性。本例已用贝伐珠单抗联合曲氟尿苷替匹嘧啶，不能把这一路径在后续再次列为未使用方案；出现胃溃疡时还须特别复核抗血管生成治疗风险。",
+        "keyPoint": "后线药物选择同时考虑既往使用情况与当前风险。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic colorectal cancer",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10220270/",
+          "evidence_summary": "后线药物选择同时考虑既往使用情况与当前风险。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-BE8833A9",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "直肠癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "直肠癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "不可切除结直肠癌肝转移经转化治疗及多次复发后行肝胃联合切除术病例",
+      "description": "患者男性，56 岁。2015 年 5 月因便血就诊，CEA 轻度升高。结肠镜发现直肠肿块，活检证实为高分化腺癌。因肝脏双叶存在超过 10 个转移灶，诊断为不可切除结直肠癌。基线分子检测显示 KRAS 和 EGFR 基因突变阴性，微卫星稳定。"
+    },
+    "overview": {
+      "hero": {
+        "title": "不可切除结直肠癌肝转移经转化治疗及多次复发后行肝胃联合切除术病例",
+        "subtitle": "初始不可切除结直肠癌肝转移的转化治疗策略与疗效评估 反复肝转移灶的多模式局部治疗（RFA、多次肝切除、SBRT）应用 放疗后胃部溃疡病变的鉴别诊断与随访管理 结直肠癌肝转移直接侵犯胃部的罕见表现及手术决策 晚期结直肠癌多线化疗方案的选择与序……"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者与就诊背景",
+              "value": "患者男性，56 岁。2015 年 5 月因便血就诊，CEA 轻度升高。结肠镜发现直肠肿块，活检证实为高分化腺癌。因肝脏双叶存在超过 10 个转移灶，诊断为不可切除结直肠癌。基线分子检测显示 KRAS 和 EGFR 基因突变阴性，微卫星稳定。"
+            },
+            {
+              "order": 2,
+              "label": "疾病与分期",
+              "value": "高分化腺癌（结直肠来源），初始诊断不可切除结直肠癌伴肝脏双叶多发转移，微卫星稳定，未检测到 KRAS 和表皮生长因子受体基因突变"
+            },
+            {
+              "order": 3,
+              "label": "分子与病理",
+              "value": "2015 年 5 月 | 直肠肿块活检组织 | 基因检测 | KRAS | 未检测到突变 | 不详 2015 年 5 月 | 直肠肿块活检组织 | 基因检测 | 表皮生长因子受体（EGFR）| 未检测到突变 | 不详 2016 年 1 月 | 术后病理标本 | 免疫组化/分子检测 | 微卫星状态 | 稳定 | 不详"
+            },
+            {
+              "order": 4,
+              "label": "核心教学点",
+              "value": "初始不可切除结直肠癌肝转移的转化治疗策略与疗效评估 反复肝转移灶的多模式局部治疗（RFA、多次肝切除、SBRT）应用 放疗后胃部溃疡病变的鉴别诊断与随访管理 结直肠癌肝转移直接侵犯胃部的罕见表现及手术决策 晚期结直肠癌多线化疗方案的选择与序贯治疗"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2015",
+              "title": "诊疗节点 1",
+              "detail": "2015 年 5 月：因便血就诊，CEA 6.12ng/mL"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 2",
+              "detail": "结肠镜发现直肠肿块"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 3",
+              "detail": "活检示高分化腺癌"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 4",
+              "detail": "基因检测未检出 KRAS 及 EGFR 突变"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 5",
+              "detail": "诊断不可切除结直肠癌伴肝多发转移"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 6",
+              "detail": "开始贝伐单抗-FOLFIRI 方案姑息化疗"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 7",
+              "detail": "化疗 13 个周期后：病情好转，肝转移灶几乎消失，仅余肝Ⅵ段 1cm 结节"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 8",
+              "detail": "评估决定改为转化治疗"
+            },
+            {
+              "date": "2015",
+              "title": "诊疗节点 9",
+              "detail": "2015 年 11 月：对肝Ⅵ段病灶行 RFA 治疗"
+            },
+            {
+              "date": "2016",
+              "title": "诊疗节点 10",
+              "detail": "2016 年 1 月：完成共 15 个周期化疗"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 11",
+              "detail": "行腹腔镜低前切除术"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 12",
+              "detail": "术后病理示高分化腺癌，淋巴结未见转移，分期 ypT3N0M1a，微卫星稳定"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 13",
+              "detail": "患者拒绝辅助化疗"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 14",
+              "detail": "术后随访：每 3 个月行胸腹 CT 及 CEA 评估"
+            },
+            {
+              "date": "2016",
+              "title": "诊疗节点 15",
+              "detail": "2016 年 9 月：影像学示肝脏右叶多发转移，CEA 升至 9.53ng/mL"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 16",
+              "detail": "行右半肝切除术"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 17",
+              "detail": "术后接受 12 个周期贝伐单抗-FOLFOX4 方案化疗"
+            },
+            {
+              "date": "2017",
+              "title": "诊疗节点 18",
+              "detail": "2017 年 8 月：腹部 CT 发现肝脏 II 段新转移灶"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 19",
+              "detail": "行部分肝切除术"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 20",
+              "detail": "术后接受 9 个周期卡培他滨单药化疗"
+            },
+            {
+              "date": "2018",
+              "title": "诊疗节点 21",
+              "detail": "2018 年 7 月：CT 示双侧肺下叶及残余肝脏 III 段转移"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 22",
+              "detail": "行双肺 VATS 楔形切除术及肝脏病灶 SBRT 治疗"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 23",
+              "detail": "随后接受 12 个周期西妥昔单抗 - 伊立替康方案化疗"
+            },
+            {
+              "date": "2020",
+              "title": "诊疗节点 24",
+              "detail": "2020 年 4 月：发现左肝包膜下区新转移灶"
+            },
+            {
+              "date": "2020",
+              "title": "诊疗节点 25",
+              "detail": "2020 年 5 月：行腹腔镜肝楔形切除术"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 26",
+              "detail": "组织学示癌组织侵及切缘"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 27",
+              "detail": "评估认为进一步化疗或放疗不可行"
+            },
+            {
+              "date": "2021",
+              "title": "诊疗节点 28",
+              "detail": "2021 年 1 月：第 5 次转移性复发，PET-CT 示残留肝脏新局灶高代谢病变"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 29",
+              "detail": "因病灶位置不利切除，选择同步放化疗（总剂量 6500 cGy/26 次）联合两轮 FL 方案化疗"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 30",
+              "detail": "同步放化疗后：CT 示胃部深溃疡"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 31",
+              "detail": "胃镜示 25×20mm 圆形深部溃疡"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 32",
+              "detail": "活检仅见溃疡碎片，高度怀疑恶性但未能确诊"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 33",
+              "detail": "3 个月后随访：胃镜示溃疡改善，组织学符合溃疡疤痕，排除恶性病变"
+            },
+            {
+              "date": "2021",
+              "title": "诊疗节点 34",
+              "detail": "2021 年 7 月：所有影像学检查（CT、MRI、PET-CT）均未发现复发"
+            },
+            {
+              "date": "2022",
+              "title": "诊疗节点 35",
+              "detail": "2022 年 4 月：PET-CT 示肝脏新局灶高代谢病变，CT 示边缘增强结节，放射科考虑可能为炎症改变"
+            },
+            {
+              "date": "2022",
+              "title": "诊疗节点 36",
+              "detail": "2022 年 10 月：PET-CT 示病灶扩大及新病灶，但 MRI 和 CT 未见明显变化"
+            },
+            {
+              "date": "2023",
+              "title": "诊疗节点 37",
+              "detail": "2023 年 1 月：PET-CT 示高代谢病灶更明显及新病灶，MRI 和 CT 仍无明显变化"
+            },
+            {
+              "date": "2023",
+              "title": "诊疗节点 38",
+              "detail": "2023 年 4 月：MRI 示增强病灶扩大，PET-CT 示代谢进一步增加，证实为转移性复发而非炎症"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 39",
+              "detail": "发现肝脏三个代谢亢进病灶（其一靠近胃部）"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 40",
+              "detail": "CEA 升至 16.90 ng/mL"
+            },
+            {
+              "date": "2023",
+              "title": "诊疗节点 41",
+              "detail": "2023 年 5 月：开始贝伐单抗 - 曲氟尿苷替匹嘧啶六线化疗"
+            },
+            {
+              "date": "2023",
+              "title": "诊疗节点 42",
+              "detail": "2023 年 8 月：胃镜示胃溃疡恶化，活检证实为高分化腺癌"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 43",
+              "detail": "MDT 讨论认为肝脏病灶直接侵犯胃部"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 44",
+              "detail": "建议行肝脏和胃部病灶楔形切除术并术后放疗"
+            },
+            {
+              "date": "2023",
+              "title": "诊疗节点 45",
+              "detail": "2023 年 10 月：行胃楔形切除术和肝 III、IV 段切除术"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 46",
+              "detail": "术后病理证实结直肠腺癌肝转移直接侵犯胃部形成溃疡"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 47",
+              "detail": "术后两周出院"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 48",
+              "detail": "目前：随访 8 年，生活质量良好"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/0BiDtMSUZxkRwPeH6491FA/3jcT1ZeHD4rCTZLx5FcElPVu5AyUIMJa.jpg",
+              "timepoint": "2016 年 9 月 -2020 年 5 月",
+              "caption": "图 1. PET-CT 或腹部 CT 图像。(A)PET-CT 显示肝右叶多发转移灶。(B)CT 显示残留肝脏中的转移结节。(C)CT 显示双侧肺下叶转移结节。(D)CT 显示残留肝脏（前包膜下区域）转移结节。(E)CT 显示左肝（包膜下区域）肝转移。",
+              "alt": "图 1. PET-CT 或腹部 CT 图像。(A)PET-CT 显示肝右叶多发转移灶。(B)CT 显示残留肝脏中的转移结节。(C)CT 显示双侧肺下叶转移结节。(D)CT 显示残留肝脏（前包膜下区域）转移结节。(E)CT 显示左肝（包膜下区域）肝转移。",
+              "mapping_status": "matched_by_timepoint",
+              "related_timeline": {
+                "date": "2016",
+                "title": "诊疗节点 15",
+                "detail": "2016 年 9 月：影像学示肝脏右叶多发转移，CEA 升至 9.53ng/mL"
+              }
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/0BiDtMSUZxkRwPeH6491FA/5ZIREm9PHjukHTDGzVjqq3tapY1akA7O.jpg",
+              "timepoint": "2021 年 1 月 -2023 年 4 月",
+              "caption": "图 2. PET-CT 图像。(A) 残留肝脏中的局灶性高代谢病变。(B) 肝脏中的三个高代谢病变（轴位图）。(C) 靠近胃的转移性结节（冠状位图）。",
+              "alt": "图 2. PET-CT 图像。(A) 残留肝脏中的局灶性高代谢病变。(B) 肝脏中的三个高代谢病变（轴位图）。(C) 靠近胃的转移性结节（冠状位图）。",
+              "mapping_status": "matched_by_timepoint",
+              "related_timeline": {
+                "date": "2021",
+                "title": "诊疗节点 28",
+                "detail": "2021 年 1 月：第 5 次转移性复发，PET-CT 示残留肝脏新局灶高代谢病变"
+              }
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/0BiDtMSUZxkRwPeH6491FA/58tdoo9CpONF1MbIzWgU14xlsMhyUs6d.jpg",
+              "timepoint": "2021 年同步放化疗后 -2023 年 8 月",
+              "caption": "图 3. CT 和胃镜结果。(A) CT（冠状位）显示胃部深溃疡。(B) 胃镜显示深溃疡病变。(C) 随访胃镜图像。",
+              "alt": "图 3. CT 和胃镜结果。(A) CT（冠状位）显示胃部深溃疡。(B) 胃镜显示深溃疡病变。(C) 随访胃镜图像。",
+              "mapping_status": "matched_by_timepoint",
+              "related_timeline": {
+                "date": "2021",
+                "title": "诊疗节点 28",
+                "detail": "2021 年 1 月：第 5 次转移性复发，PET-CT 示残留肝脏新局灶高代谢病变"
+              }
+            },
+            {
+              "id": "IMG4",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/0BiDtMSUZxkRwPeH6491FA/NRplvVx2E9hXBDUSHvf1XHl4ab7NJlUx.png",
+              "timepoint": "",
+              "caption": "表 1.不同影像学肝脏评估结果。",
+              "alt": "表 1.不同影像学肝脏评估结果。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG5",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/0BiDtMSUZxkRwPeH6491FA/Bu8XD1pp8rKKXZe3hUGLcCOyemKnSpxr.jpg",
+              "timepoint": "2023 年 10 月术后",
+              "caption": "图 4.胃和肝楔形切除术的病理学结果。(A) 胃黏膜可见深而圆的溃疡。(B) 肝组织可见边界不清的实性肿块。(C) 肝脏肿块直接侵犯邻近的胃壁，形成明显的溃疡。(D) C 图中矩形虚线区域的显微镜检查显示腺癌横跨肝实质（黑色箭头）和胃壁（白色箭头）。星号 () 表示腺癌引起的胃溃疡。（HE 染色，X6）",
+              "alt": "图 4.胃和肝楔形切除术的病理学结果。(A) 胃黏膜可见深而圆的溃疡。(B) 肝组织可见边界不清的实性肿块。(C) 肝脏肿块直接侵犯邻近的胃壁，形成明显的溃疡。(D) C 图中矩形虚线区域的显微镜检查显示腺癌横跨肝实质（黑色箭头）和胃壁（白色箭头）。星号 (*) 表示腺癌引起的胃溃疡。（HE 染色，X6）",
+              "mapping_status": "matched_by_timepoint",
+              "related_timeline": {
+                "date": "2023",
+                "title": "诊疗节点 45",
+                "detail": "2023 年 10 月：行胃楔形切除术和肝 III、IV 段切除术"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

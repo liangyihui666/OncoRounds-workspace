@@ -1,0 +1,5398 @@
+{
+  "CASE-37BF6300": {
+    "schema_version": "1.0",
+    "case_id": "CASE-37BF6300",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "乳腺癌治疗中新发肿块的诊断转折",
+      "description": "44岁绝经前女性，乳腺癌伴骨转移，合并JAK2突变阳性骨髓增殖性肿瘤。"
+    },
+    "overview": {
+      "hero": {
+        "title": "乳腺癌治疗中新发肿块的诊断转折",
+        "subtitle": "瑞波西利联合内分泌治疗后原病灶缩小；新肿块快速增大后接受乳房切除。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "44岁绝经前女性，乳腺癌伴骨转移，合并JAK2突变阳性骨髓增殖性肿瘤。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "原乳腺癌HR阳性、HER2阴性；治疗中新发乳房肿块术后确诊韧带样纤维瘤。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "瑞波西利联合内分泌治疗后原病灶缩小；新肿块快速增大后接受乳房切除。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "新肿块并非乳腺癌进展，后续继续原系统治疗。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "初诊",
+              "title": "确认转移性乳腺癌",
+              "detail": "乳腺穿刺及骨病灶取材支持乳腺癌伴骨转移，HR阳性、HER2阴性。"
+            },
+            {
+              "date": "治疗前",
+              "title": "发现合并疾病",
+              "detail": "白细胞及血小板增多，骨髓检查确诊JAK2突变阳性骨髓增殖性肿瘤。"
+            },
+            {
+              "date": "一线治疗",
+              "title": "系统治疗",
+              "detail": "采用瑞波西利、芳香化酶抑制剂、戈舍瑞林及地诺单抗，并予阿司匹林。"
+            },
+            {
+              "date": "治疗72至90周",
+              "title": "局部病灶变化",
+              "detail": "原乳腺病灶缩小、骨病灶稳定，后出现快速增大的乳房肿块。"
+            },
+            {
+              "date": "治疗30周期后",
+              "title": "手术修正诊断",
+              "detail": "未再穿刺即行乳房切除，术后确诊韧带样纤维瘤。"
+            },
+            {
+              "date": "后续",
+              "title": "继续原方案",
+              "detail": "继续至原文记录的第36周期，系统治疗方案未变。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/FBXU41hwmqCKnCQM_7D1DQ/fU9JkL1lstGdnZSDV1mKlxu5FwqCekxS.png",
+              "timepoint": "初诊及治疗 72 周、90 周",
+              "caption": "图 1. 乳腺和转移性病变的影像学表现",
+              "alt": "图 1. 乳腺和转移性病变的影像学表现",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/FBXU41hwmqCKnCQM_7D1DQ/rqNPLHJW5WBF10q9DpBqyhekwJpssy3W.png",
+              "timepoint": "术后",
+              "caption": "图 2. 硬纤维瘤的组织病理学和免疫组织化学特征",
+              "alt": "图 2. 硬纤维瘤的组织病理学和免疫组织化学特征",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "CASE-DE70CBF4": {
+    "schema_version": "1.0",
+    "case_id": "CASE-DE70CBF4",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "乳腺癌术后迟发肾上腺转移",
+      "description": "64岁女性，乳腺癌术后多年因腹部隐痛就诊，随访发现双侧肾上腺结节。"
+    },
+    "overview": {
+      "hero": {
+        "title": "乳腺癌术后迟发肾上腺转移",
+        "subtitle": "予氢化可的松替代及瑞波西利联合来曲唑；严重中性粒细胞减少后暂停并减量。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "64岁女性，乳腺癌术后多年因腹部隐痛就诊，随访发现双侧肾上腺结节。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "活检支持乳腺来源转移，ER/PR阳性、HER2阴性；合并原发性肾上腺皮质功能不全。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "予氢化可的松替代及瑞波西利联合来曲唑；严重中性粒细胞减少后暂停并减量。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "恢复治疗后继续随访，现有资料未提供明确长期疗效。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2011年及其后",
+              "title": "乳腺癌初始治疗",
+              "detail": "手术、化疗、放疗后接受内分泌治疗；2016年自行停用芳香化酶抑制剂。"
+            },
+            {
+              "date": "本次就诊及随访",
+              "title": "双侧肾上腺变化",
+              "detail": "腹痛就诊，影像随访发现双侧肾上腺结节进展及腹主动脉旁淋巴结异常。"
+            },
+            {
+              "date": "诊断阶段",
+              "title": "确认来源与功能异常",
+              "detail": "活检支持乳腺转移；激素检查及刺激试验确诊肾上腺皮质功能不全。"
+            },
+            {
+              "date": "治疗启动",
+              "title": "替代及抗肿瘤治疗",
+              "detail": "氢化可的松替代，联合瑞波西利及来曲唑治疗。"
+            },
+            {
+              "date": "治疗2周后及后续",
+              "title": "处理血液学毒性",
+              "detail": "严重中性粒细胞减少后暂停1周期，减量恢复，继续随访。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/uV5J-na17vZLo1PLtJtuHw/HSYUvb0mHwewpyHoR1Cj6f6knurb09ZS.png",
+              "timepoint": "就诊时",
+              "caption": "图 1 腹部增强 CT",
+              "alt": "图 1 腹部增强 CT",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/uV5J-na17vZLo1PLtJtuHw/i7R2Iijm2R1bYBMR8Osaq4icW3auACCt.png",
+              "timepoint": "随访期间",
+              "caption": "图 2 随访腹部 CT 示双侧肾上腺结节样增大进展，PET/CT 示 FDG 摄取增高",
+              "alt": "图 2 随访腹部 CT 示双侧肾上腺结节样增大进展，PET/CT 示 FDG 摄取增高",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "CASE-7D7C02B3": {
+    "schema_version": "1.0",
+    "case_id": "CASE-7D7C02B3",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "胰腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "胰腺癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "BRCA2变异胰腺癌的转化治疗",
+      "description": "47岁男性，胰尾腺癌初判可切除，首次手术中发现并证实肝转移。"
+    },
+    "overview": {
+      "hero": {
+        "title": "BRCA2变异胰腺癌的转化治疗",
+        "subtitle": "SOXIRI治疗后采用奥拉帕利维持，继而行远端胰腺切除，达到R0切除。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "47岁男性，胰尾腺癌初判可切除，首次手术中发现并证实肝转移。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "胰腺导管腺癌伴BRCA2变异；现有资料未明确变异的胚系属性。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "SOXIRI治疗后采用奥拉帕利维持，继而行远端胰腺切除，达到R0切除。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "术后继续奥拉帕利12个月；报道随访36个月未见复发。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "初诊",
+              "title": "胰腺腺癌确诊",
+              "detail": "胰尾45 mm病灶，穿刺为腺癌，检出BRCA2变异。"
+            },
+            {
+              "date": "首次手术前后",
+              "title": "治疗中断与分期变化",
+              "detail": "吉西他滨过敏后中断新辅助治疗；术中肝结节病理证实转移，停止胰腺切除。"
+            },
+            {
+              "date": "随后16周",
+              "title": "SOXIRI治疗",
+              "detail": "完成8疗程，CA19-9降至正常；出现血小板减少及轻度周围神经病变。"
+            },
+            {
+              "date": "随后14周",
+              "title": "奥拉帕利维持",
+              "detail": "维持期间影像未见进展，CA19-9正常。"
+            },
+            {
+              "date": "转化手术",
+              "title": "R0切除",
+              "detail": "行远端胰腺切除，术中肝结节未见恶性；既往肝转移病史保留。"
+            },
+            {
+              "date": "术后及随访",
+              "title": "后续治疗",
+              "detail": "术后奥拉帕利12个月，报道36个月未复发。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/AVnsim0wz-kZVmCiz1WlEw/u5KMB2LO0EERPQx5I32IqZJlCMpFOcQd.png",
+              "timepoint": "初诊",
+              "caption": "图 1.初诊时的增强 CT 和 B 内镜超声检查。A.黄色圆圈显示原发性肿瘤。B.左图显示囊性病变，右图显示内镜超声引导下细针穿刺实体肿瘤。",
+              "alt": "图 1.初诊时的增强 CT 和 B 内镜超声检查。A.黄色圆圈显示原发性肿瘤。B.左图显示囊性病变，右图显示内镜超声引导下细针穿刺实体肿瘤。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/AVnsim0wz-kZVmCiz1WlEw/kLv80aBaDHQkI0q7GoNSeSvOLZ7MNdBY.png",
+              "timepoint": "1 疗程新辅助吉西他滨+S-1 治疗后及强化化疗期间",
+              "caption": "图 2. A. 1 疗程新辅助吉西他滨+S-1 治疗后腹腔镜检查及 B.强化化疗期间 Gd-EOB-MRI 成像",
+              "alt": "图 2. A. 1 疗程新辅助吉西他滨+S-1 治疗后腹腔镜检查及 B.强化化疗期间 Gd-EOB-MRI 成像",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/AVnsim0wz-kZVmCiz1WlEw/tayWEeNZiV397IHqfjjIckuPdZUecwqS.png",
+              "timepoint": "患者临床病程中",
+              "caption": "图 3. 患者临床病程中的 CA19-9 水平",
+              "alt": "图 3. 患者临床病程中的 CA19-9 水平",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG4",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/AVnsim0wz-kZVmCiz1WlEw/PoxYHWDgjq0TAmyoJ58pYOK9dyz0av6h.png",
+              "timepoint": "奥拉帕利等强化化疗后及术后",
+              "caption": "图 4. A 奥拉帕利等强化化疗后的腹腔镜检查 B 腹腔镜远端胰腺切除术后切除标本",
+              "alt": "图 4. A 奥拉帕利等强化化疗后的腹腔镜检查 B 腹腔镜远端胰腺切除术后切除标本",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "CASE-C38F9D7E": {
+    "schema_version": "1.0",
+    "case_id": "CASE-C38F9D7E",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "PIK3CA突变乳腺癌的后线治疗",
+      "description": "47岁确诊ER阳性、HER2阴性乳腺癌，后出现骨、肝、肺及淋巴结转移。"
+    },
+    "overview": {
+      "hero": {
+        "title": "PIK3CA突变乳腺癌的后线治疗",
+        "subtitle": "阿培利司联合氟维司群后获PR；皮疹后减量，肝局限进展时加局部放疗。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "47岁确诊ER阳性、HER2阴性乳腺癌，后出现骨、肝、肺及淋巴结转移。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "液体活检检出PIK3CA H1047R、R108C及C804R变异。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "阿培利司联合氟维司群后获PR；皮疹后减量，肝局限进展时加局部放疗。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "治疗18个月出现肝局限进展；2024年3月发生全身进展。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "初诊及复发后",
+              "title": "既往治疗",
+              "detail": "保乳及辅助治疗后发生骨转移，接受多线内分泌治疗及卡培他滨。"
+            },
+            {
+              "date": "2021年3月",
+              "title": "进展与分子检测",
+              "detail": "肝病灶进展，液体活检检出三个PIK3CA变异，开始阿培利司联合氟维司群。"
+            },
+            {
+              "date": "早期治疗",
+              "title": "症状改善并减量",
+              "detail": "咳嗽及淋巴结肿大改善；因皮疹，阿培利司由300 mg减至250 mg。"
+            },
+            {
+              "date": "治疗4个月",
+              "title": "影像缓解",
+              "detail": "肝、肺、淋巴结及骨病灶获深度PR。"
+            },
+            {
+              "date": "治疗18个月",
+              "title": "局限进展处理",
+              "detail": "肝有限病灶进展，继续系统治疗并加立体定向放疗。"
+            },
+            {
+              "date": "2024年3月",
+              "title": "全身进展",
+              "detail": "原文记录明确全身性疾病进展。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/KllwDzW7kTtWvlQoxcS_Wg/2rqoA3IecRwDRuoOZS3uSZkVPDlemM3g.png",
+              "timepoint": "",
+              "caption": "无明确图注",
+              "alt": "无明确图注",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "CASE-CA70947A": {
+    "schema_version": "1.0",
+    "case_id": "CASE-CA70947A",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "胰腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "胰腺癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "胰腺腺鳞癌从不可切除到手术",
+      "description": "76岁女性因上腹痛、恶心就诊，胰头肿瘤累及主要血管，初判不可切除。"
+    },
+    "overview": {
+      "hero": {
+        "title": "胰腺腺鳞癌从不可切除到手术",
+        "subtitle": "吉西他滨联合白蛋白紫杉醇7个月后重新评估，行胰十二指肠切除，达到R0。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "76岁女性因上腹痛、恶心就诊，胰头肿瘤累及主要血管，初判不可切除。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "胰腺腺鳞癌；初诊CA19-9升高。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "吉西他滨联合白蛋白紫杉醇7个月后重新评估，行胰十二指肠切除，达到R0。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "术后接受S-1；报道术后7个月未见复发。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "初诊",
+              "title": "评估不可切除",
+              "detail": "胰头肿瘤累及肝总动脉等主要血管，伴上腹痛及恶心。"
+            },
+            {
+              "date": "前3个月",
+              "title": "启动化疗",
+              "detail": "吉西他滨联合白蛋白紫杉醇后PR，但仍不可切除。"
+            },
+            {
+              "date": "治疗7个月",
+              "title": "再次手术评估",
+              "detail": "肿瘤缩小、血管受累改善，未见远处转移。"
+            },
+            {
+              "date": "手术及术后",
+              "title": "切除与辅助治疗",
+              "detail": "行胰十二指肠切除并达到R0，术后使用S-1。"
+            },
+            {
+              "date": "术后7个月",
+              "title": "随访",
+              "detail": "影像未见复发，肿瘤标志物未升高。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/3XJKeMY57V2OZhJvqs1SPA/cem2cf7SCS9sVV1e77NJB4iB5lCvm5hM.png",
+              "timepoint": "转化化疗前后",
+              "caption": "图 1. a–c 转化疗前的增强 MDCT 扫描；d–f 转化疗后的增强 MDCT 扫描。",
+              "alt": "图 1. a–c 转化疗前的增强 MDCT 扫描；d–f 转化疗后的增强 MDCT 扫描。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/3XJKeMY57V2OZhJvqs1SPA/E9lbPgOegSyoRIKtYtC7dqBnzolWPsib.png",
+              "timepoint": "转化化疗前后",
+              "caption": "图 2. a、b 转化疗前的增强 MDCT 扫描；c、d 转化疗后的增强 MDCT 扫描。",
+              "alt": "图 2. a、b 转化疗前的增强 MDCT 扫描；c、d 转化疗后的增强 MDCT 扫描。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/3XJKeMY57V2OZhJvqs1SPA/E8nb9OpAvSQwciJ1XCnUXU50QF5Djvsk.png",
+              "timepoint": "新辅助化疗前后",
+              "caption": "病例资料图3",
+              "alt": "病例资料图3",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG4",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/3XJKeMY57V2OZhJvqs1SPA/IFoZPqAhu71WzFSIB1siJuwG0cCs85j6.png",
+              "timepoint": "术中",
+              "caption": "图 4.术中图片",
+              "alt": "图 4.术中图片",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG5",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/3XJKeMY57V2OZhJvqs1SPA/XJJZJVZhhoDSv3AdHWfvmw2tCX3KRFJU.png",
+              "timepoint": "术后病理",
+              "caption": "图 5.胰腺腺鳞癌组织学和免疫组织化学结果。",
+              "alt": "图 5.胰腺腺鳞癌组织学和免疫组织化学结果。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "CASE-F5639B6F": {
+    "schema_version": "1.0",
+    "case_id": "CASE-F5639B6F",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "胃癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/gastric-her2.png",
+      "alt": "胃癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "胃癌肝转移的转化治疗与pCR",
+      "description": "66岁女性因吞咽困难就诊，胃腺癌伴多发肝转移。"
+    },
+    "overview": {
+      "hero": {
+        "title": "胃癌肝转移的转化治疗与pCR",
+        "subtitle": "XELOX联合替雷利珠单抗5周期后病灶缩小，继而行全胃切除。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "66岁女性因吞咽困难就诊，胃腺癌伴多发肝转移。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "HER2阴性、PD-L1 CPS 8；病理提示可能伴神经内分泌分化。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "XELOX联合替雷利珠单抗5周期后病灶缩小，继而行全胃切除。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "切除标本达pCR；术后6周PET-CT未见转移，后续继续化疗及免疫治疗。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "初诊",
+              "title": "胃癌伴肝转移",
+              "detail": "吞咽困难就诊，胃低分化腺癌伴多发肝转移，HER2阴性、PD-L1 CPS 8。"
+            },
+            {
+              "date": "前5周期",
+              "title": "免疫联合化疗",
+              "detail": "接受XELOX联合替雷利珠单抗。"
+            },
+            {
+              "date": "5周期后",
+              "title": "转化评估",
+              "detail": "CT显示肝病灶消失、原发缩小，腹腔镜未见明显腹腔转移。"
+            },
+            {
+              "date": "随后",
+              "title": "手术及病理",
+              "detail": "全胃切除后标本无残留肿瘤，达到pCR。"
+            },
+            {
+              "date": "术后6周及后续",
+              "title": "复查与继续治疗",
+              "detail": "PET-CT未见转移，后续接受辅助化疗及免疫治疗。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/sw5VJtbzTRUanx1MLxwxKA/FMLlQWWCkaUuBEGog57izIrHOnPXfsfv.jpg",
+              "timepoint": "就诊时",
+              "caption": "图 1.食管胃十二指肠镜检查显示贲门附近可见一巨大溃疡。",
+              "alt": "图 1.食管胃十二指肠镜检查显示贲门附近可见一巨大溃疡。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/sw5VJtbzTRUanx1MLxwxKA/JtpNkQSfSTyatGBwJkUiDlYlKLXNWy2P.jpg",
+              "timepoint": "检查时",
+              "caption": "图 2.活检标本的组织病理学分析显示为低分化癌。标尺，100 μm。",
+              "alt": "图 2.活检标本的组织病理学分析显示为低分化癌。标尺，100 μm。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/sw5VJtbzTRUanx1MLxwxKA/kj6Kug9mrUvADnazDd10kZZ2xvIuej37.jpg",
+              "timepoint": "检查时/术后 6 周",
+              "caption": "图 3. PET-CT 图像。(a) 多发性肝转移。(b) 无多发性肝转移。",
+              "alt": "图 3. PET-CT 图像。(a) 多发性肝转移。(b) 无多发性肝转移。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG4",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/sw5VJtbzTRUanx1MLxwxKA/zaShzKLgB638M6WwM5c8P0JEfj4ukGDi.jpg",
+              "timepoint": "检查时",
+              "caption": "图 4. PD-L1 免疫组织化学染色。标尺，50 μm。",
+              "alt": "图 4. PD-L1 免疫组织化学染色。标尺，50 μm。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG5",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/sw5VJtbzTRUanx1MLxwxKA/dlipYLLnd2x4TvTsI9fgl7WmuNoVBX7I.jpg",
+              "timepoint": "术后病理",
+              "caption": "图 5.手术标本分析。未检测到肿瘤细胞。标尺，50 μm。",
+              "alt": "图 5.手术标本分析。未检测到肿瘤细胞。标尺，50 μm。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "CASE-B559946D": {
+    "schema_version": "1.0",
+    "case_id": "CASE-B559946D",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "男性转移性乳腺癌的治疗调整",
+      "description": "61岁男性，初诊乳腺癌伴肝、骨转移，后经多线治疗。"
+    },
+    "overview": {
+      "hero": {
+        "title": "男性转移性乳腺癌的治疗调整",
+        "subtitle": "化疗后进展，改达尔西利联合内分泌治疗；潮热影响去势治疗，后调整方案。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "61岁男性，初诊乳腺癌伴肝、骨转移，后经多线治疗。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "浸润性导管癌，ER/PR阳性，HER2 IHC 1+、FISH阴性。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "化疗后进展，改达尔西利联合内分泌治疗；潮热影响去势治疗，后调整方案。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "肝病灶曾达PR，最近随访为SD；继续系统治疗。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "初诊",
+              "title": "明确分型及转移",
+              "detail": "HR阳性、HER2阴性乳腺癌，伴肝、骨转移。"
+            },
+            {
+              "date": "一线及二线",
+              "title": "化疗后进展",
+              "detail": "白蛋白紫杉醇后SD；改卡培他滨，7周期后出现进展。"
+            },
+            {
+              "date": "三线开始",
+              "title": "内分泌联合治疗",
+              "detail": "使用达尔西利、戈舍瑞林及来曲唑，继续唑来膦酸。"
+            },
+            {
+              "date": "治疗3个月后",
+              "title": "缓解及耐受性调整",
+              "detail": "肝病灶达PR；严重潮热后暂停戈舍瑞林，来曲唑改他莫昔芬。"
+            },
+            {
+              "date": "2025年4月及后续",
+              "title": "随访与治疗意愿",
+              "detail": "肝病灶继续缩小，患者同意恢复去势治疗；最近随访为SD。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/BU7bEqNOjb7R3YiQTFvgmg/T0M1XQhkXg1KMNrV6rKHPRBxoY5qAZ5a.png",
+              "timepoint": "",
+              "caption": "图 1.原发性乳腺肿瘤与肝转移灶的组织病理学及治疗时间线",
+              "alt": "图 1.原发性乳腺肿瘤与肝转移灶的组织病理学及治疗时间线",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/BU7bEqNOjb7R3YiQTFvgmg/HTtUQwqAlGlnrjRDYTDykr0e8eacYs0B.png",
+              "timepoint": "",
+              "caption": "图 2.肝转移灶的纵向放射学评估及临床反应；",
+              "alt": "图 2.肝转移灶的纵向放射学评估及临床反应；",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "CASE-761970EB": {
+    "schema_version": "1.0",
+    "case_id": "CASE-761970EB",
+    "cancer_type": "神经内分泌肿瘤",
+    "second_cancer_type": "胰腺神经内分泌肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "胰腺神经内分泌肿瘤主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "胰腺神经内分泌肿瘤进展后的管理",
+      "description": "2021年确诊胰腺神经内分泌肿瘤伴肝转移，自行停药后于2023年进展。"
+    },
+    "overview": {
+      "hero": {
+        "title": "胰腺神经内分泌肿瘤进展后的管理",
+        "subtitle": "既往射频消融及奥曲肽；进展后用索凡替尼联合短效奥曲肽，随后行TACE。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "2021年确诊胰腺神经内分泌肿瘤伴肝转移，自行停药后于2023年进展。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "非功能性G2肿瘤，Ki-67 10%，原文分期T4N0M1。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "既往射频消融及奥曲肽；进展后用索凡替尼联合短效奥曲肽，随后行TACE。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "2024年6月影像显示胰腺及肝脏病灶稳定。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2021年2月",
+              "title": "确诊G2胰腺NET",
+              "detail": "肝取材确诊，Ki-67 10%，伴多发肝转移。"
+            },
+            {
+              "date": "2021年",
+              "title": "初始治疗及停药",
+              "detail": "多次射频消融并用奥曲肽，10月因副作用自行停药，后未规律复诊。"
+            },
+            {
+              "date": "2023年9月",
+              "title": "疾病进展",
+              "detail": "胰尾及肝病灶增大，伴腹水、肾受压及肾功能异常。"
+            },
+            {
+              "date": "2023年9至11月",
+              "title": "调整治疗",
+              "detail": "采用索凡替尼联合短效奥曲肽，后行TACE。"
+            },
+            {
+              "date": "2024年6月",
+              "title": "影像随访",
+              "detail": "胰腺及肝病灶稳定，未见新病灶。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/_7ri7EzT6rqha9GIuyv4ig/fnajC8ETzzLZfDeRb7rRomgmP4HBhGRn.jpg",
+              "timepoint": "2021 年 2 月后",
+              "caption": "免疫组织化学和 H&E 染色结果",
+              "alt": "免疫组织化学和 H&E 染色结果",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/_7ri7EzT6rqha9GIuyv4ig/ksI77ro1QqIWjr2MncjPdUw3q9O3Pvl1.jpg",
+              "timepoint": "2023 年 9 月后",
+              "caption": "接受靶向治疗的患者肿瘤发生变化",
+              "alt": "接受靶向治疗的患者肿瘤发生变化",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/_7ri7EzT6rqha9GIuyv4ig/8MhKuxXYko84hrls2kQUQWknxCnpvK1E.jpg",
+              "timepoint": "2023 年 11 月后",
+              "caption": "接受靶向治疗的患者的 NSE 水平变化",
+              "alt": "接受靶向治疗的患者的 NSE 水平变化",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG4",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/_7ri7EzT6rqha9GIuyv4ig/3s3d1ElGko3ysGxXTuLw8vIynoEMBFxj.jpg",
+              "timepoint": "",
+              "caption": "诊治流程图",
+              "alt": "诊治流程图",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG5",
+              "src": "https://bosdev.liangyihui.net/temp/1659944452.png",
+              "timepoint": "",
+              "caption": "无明确图注",
+              "alt": "无明确图注",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "CASE-BE8833A9": {
+    "schema_version": "1.0",
+    "case_id": "CASE-BE8833A9",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "直肠癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "直肠癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "直肠癌肝转移的多次复发管理",
+      "description": "56岁男性，2015年因便血确诊直肠癌，伴双叶多发肝转移。"
+    },
+    "overview": {
+      "hero": {
+        "title": "直肠癌肝转移的多次复发管理",
+        "subtitle": "系统治疗与消融、肝肺手术及放疗交替使用；后续复发累及胃部。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "56岁男性，2015年因便血确诊直肠癌，伴双叶多发肝转移。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "高分化腺癌、MSS；初始KRAS未检出突变，后反复肝及肺转移。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "系统治疗与消融、肝肺手术及放疗交替使用；后续复发累及胃部。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "2023年肝胃联合切除证实肝转移直接侵犯胃部；原文报告随访8年、生活质量良好。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2015至2016年",
+              "title": "初始转化治疗",
+              "detail": "直肠癌伴多发肝转移，贝伐珠单抗联合FOLFIRI后行肝消融及直肠切除。"
+            },
+            {
+              "date": "2016至2018年",
+              "title": "反复肝肺复发",
+              "detail": "多次肝切除、肺楔形切除及肝SBRT，配合系统治疗。"
+            },
+            {
+              "date": "2020至2021年",
+              "title": "再次肝复发",
+              "detail": "肝楔形切除后切缘受累，后因新病灶采用同步放化疗。"
+            },
+            {
+              "date": "2021年",
+              "title": "胃溃疡复核",
+              "detail": "胃溃疡初次取材未确诊恶性，3个月后改善，病理符合瘢痕。"
+            },
+            {
+              "date": "2022至2023年",
+              "title": "疑似病灶动态评估",
+              "detail": "肝病灶先有代谢变化、后见形态进展，2023年确认复发并调整系统治疗。"
+            },
+            {
+              "date": "2023年10月及后续",
+              "title": "肝胃联合切除",
+              "detail": "病理证实肝转移直接侵犯胃部；原文报告随访8年、生活质量良好。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/0BiDtMSUZxkRwPeH6491FA/3jcT1ZeHD4rCTZLx5FcElPVu5AyUIMJa.jpg",
+              "timepoint": "2016 年 9 月 -2020 年 5 月",
+              "caption": "图 1. PET-CT 或腹部 CT 图像",
+              "alt": "图 1. PET-CT 或腹部 CT 图像",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/0BiDtMSUZxkRwPeH6491FA/5ZIREm9PHjukHTDGzVjqq3tapY1akA7O.jpg",
+              "timepoint": "2021 年 1 月 -2023 年 4 月",
+              "caption": "图 2. PET-CT 图像。(A) 残留肝脏中的局灶性高代谢病变。(B) 肝脏中的三个高代谢病变（轴位图）。(C) 靠近胃的转移性结节（冠状位图）。",
+              "alt": "图 2. PET-CT 图像。(A) 残留肝脏中的局灶性高代谢病变。(B) 肝脏中的三个高代谢病变（轴位图）。(C) 靠近胃的转移性结节（冠状位图）。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/0BiDtMSUZxkRwPeH6491FA/58tdoo9CpONF1MbIzWgU14xlsMhyUs6d.jpg",
+              "timepoint": "2021 年同步放化疗后 -2023 年 8 月",
+              "caption": "图 3. CT 和胃镜结果。(A) CT（冠状位）显示胃部深溃疡。(B) 胃镜显示深溃疡病变。(C) 随访胃镜图像。",
+              "alt": "图 3. CT 和胃镜结果。(A) CT（冠状位）显示胃部深溃疡。(B) 胃镜显示深溃疡病变。(C) 随访胃镜图像。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG4",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/0BiDtMSUZxkRwPeH6491FA/NRplvVx2E9hXBDUSHvf1XHl4ab7NJlUx.png",
+              "timepoint": "",
+              "caption": "表 1.不同影像学肝脏评估结果。",
+              "alt": "表 1.不同影像学肝脏评估结果。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG5",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/0BiDtMSUZxkRwPeH6491FA/Bu8XD1pp8rKKXZe3hUGLcCOyemKnSpxr.jpg",
+              "timepoint": "2023 年 10 月术后",
+              "caption": "图 4.胃和肝楔形切除术的病理学结果",
+              "alt": "图 4.胃和肝楔形切除术的病理学结果",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "CASE-51D1DA57": {
+    "schema_version": "1.0",
+    "case_id": "CASE-51D1DA57",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "乳腺癌皮肤及脑转移的识别与治疗",
+      "description": "51岁女性，HER2阳性乳腺癌术后出现反复红斑、水肿及神经症状。"
+    },
+    "overview": {
+      "hero": {
+        "title": "乳腺癌皮肤及脑转移的识别与治疗",
+        "subtitle": "接受全脑放疗，后用曲妥珠单抗、吡咯替尼及卡培他滨。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "51岁女性，HER2阳性乳腺癌术后出现反复红斑、水肿及神经症状。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "皮肤活检证实转移，ER/PR阴性、HER2 3+；MRI提示多发脑转移。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "接受全脑放疗，后用曲妥珠单抗、吡咯替尼及卡培他滨。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "1周期后皮肤及脑病灶改善，原文评为PR；2024年9月仍稳定。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2021年",
+              "title": "初始综合治疗",
+              "detail": "改良根治术后接受多西他赛、卡铂及曲妥珠单抗、帕妥珠单抗。"
+            },
+            {
+              "date": "2024年4至5月",
+              "title": "红斑及神经症状",
+              "detail": "红斑水肿初按丹毒处理，随后发现多发脑转移并接受全脑放疗。"
+            },
+            {
+              "date": "2024年6月",
+              "title": "皮肤活检",
+              "detail": "胸壁皮肤病理证实乳腺癌转移，ER/PR阴性、HER2 3+。"
+            },
+            {
+              "date": "2024年6月30日",
+              "title": "系统治疗",
+              "detail": "启动曲妥珠单抗、吡咯替尼及卡培他滨。"
+            },
+            {
+              "date": "1周期后至9月",
+              "title": "疗效复评",
+              "detail": "皮肤病灶及脑转移缩小，原文评为PR；后续病情稳定。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/UnJ1ig_go-ySWtfZEqwBUA/97V2QzEIDfU61cOYYyldwDAMkCMIFgsT.png",
+              "timepoint": "",
+              "caption": "图 1 治疗干预时间表",
+              "alt": "图 1 治疗干预时间表",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/UnJ1ig_go-ySWtfZEqwBUA/0ydypsVwoXT49bUGn76hJGamfIQF9G0j.png",
+              "timepoint": "2024 年 4 月 12 日 -2024 年 4 月 18 日",
+              "caption": "图 2 左上肢病变",
+              "alt": "图 2 左上肢病变",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/UnJ1ig_go-ySWtfZEqwBUA/96FSVMHTrIJ1OUu1lerm79YkjgmcA4gs.png",
+              "timepoint": "2024 年 6 月 3 日 -2024 年 7 月 30 日",
+              "caption": "图 3 头颅 MRI 显示治疗前后的转移灶变化",
+              "alt": "图 3 头颅 MRI 显示治疗前后的转移灶变化",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "CASE-8C6E34E9": {
+    "schema_version": "1.0",
+    "case_id": "CASE-8C6E34E9",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "胃癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/gastric-her2.png",
+      "alt": "胃癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "HER2阳性胃癌六线治疗获缓解",
+      "description": "70岁男性，胃癌根治术后1年7个月出现腹主动脉旁淋巴结复发。"
+    },
+    "overview": {
+      "hero": {
+        "title": "HER2阳性胃癌六线治疗获缓解",
+        "subtitle": "历经五线治疗后使用德曲妥珠单抗，4个月达PR，1年4个月达临床CR。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "70岁男性，胃癌根治术后1年7个月出现腹主动脉旁淋巴结复发。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "胃腺癌HER2 3+，多线治疗后进展并出现肺转移。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "历经五线治疗后使用德曲妥珠单抗，4个月达PR，1年4个月达临床CR。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "原文报告临床CR维持超过2年，后续未再治疗；这是个案经过。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "初始治疗",
+              "title": "胃癌手术",
+              "detail": "远端胃切除及D2清扫，HER2 3+；因既往不良反应拒绝辅助化疗。"
+            },
+            {
+              "date": "术后1年7个月",
+              "title": "淋巴结复发",
+              "detail": "发现腹主动脉旁淋巴结复发，开始系统治疗。"
+            },
+            {
+              "date": "一至五线",
+              "title": "多线后进展",
+              "detail": "含曲妥珠单抗、雷莫芦单抗、伊立替康、纳武利尤单抗及CAPOX等方案后进展。"
+            },
+            {
+              "date": "六线治疗4个月",
+              "title": "T-DXd获PR",
+              "detail": "使用德曲妥珠单抗后病灶明显缩小。"
+            },
+            {
+              "date": "治疗1年4个月及后续",
+              "title": "临床CR",
+              "detail": "达到临床CR，原文报告维持超过2年，后续未再治疗。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/J1U1m0g27flQ_Lx808W9Kw/rZ2JdK67K3ZH80YdfxLhiHF9x0DQ9v6e.png",
+              "timepoint": "初始诊断时",
+              "caption": "图 1. 切除胃的肉眼观察结果。在胃体后壁观察到一个 30×20 mm 大小的 0-IIc 型肿瘤（白色三角形）。",
+              "alt": "图 1. 切除胃的肉眼观察结果。在胃体后壁观察到一个 30×20 mm 大小的 0-IIc 型肿瘤（白色三角形）。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/J1U1m0g27flQ_Lx808W9Kw/xUbIuXrU7u2JnHuq1ceiLtU0pPKqUb8o.png",
+              "timepoint": "术后病理",
+              "caption": "图 2. 切除标本的病理学检查结果",
+              "alt": "图 2. 切除标本的病理学检查结果",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/J1U1m0g27flQ_Lx808W9Kw/m5lLPDIIkPJGRI4X76H9z3DgDOK59Yem.png",
+              "timepoint": "术后 1 年 7 个月",
+              "caption": "图 3. 定期随访的增强 CT 扫描显示出腹主动脉旁淋巴结复发（B），在胃切除术前未法检测到的（A）（红色圆圈）。",
+              "alt": "图 3. 定期随访的增强 CT 扫描显示出腹主动脉旁淋巴结复发（B），在胃切除术前未法检测到的（A）（红色圆圈）。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG4",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/J1U1m0g27flQ_Lx808W9Kw/cKpaVpFOWCaen2QJECEn8z8U3qjGGlqU.png",
+              "timepoint": "六线治疗后",
+              "caption": "图 4. 化疗后增强 CT 表现。A、B 增大的转移性主动脉旁淋巴结明显萎缩（红圈）。C、D 右上肺叶肺转移灶消失（红圈）。",
+              "alt": "图 4. 化疗后增强 CT 表现。A、B 增大的转移性主动脉旁淋巴结明显萎缩（红圈）。C、D 右上肺叶肺转移灶消失（红圈）。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG5",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/J1U1m0g27flQ_Lx808W9Kw/qjIWGGRNrlWAv5j0EemGPiVut9NXonAt.png",
+              "timepoint": "六线治疗 1 年 4 个月后",
+              "caption": "图 5. 化疗后 PET-CT 结果。没有肿瘤复发的证据，诊断为临床 CR（黄色圆圈）。",
+              "alt": "图 5. 化疗后 PET-CT 结果。没有肿瘤复发的证据，诊断为临床 CR（黄色圆圈）。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG6",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/J1U1m0g27flQ_Lx808W9Kw/ErOdUlxtesl08sL5YBDrtmANKSMDOZY4.png",
+              "timepoint": "治疗全过程",
+              "caption": "图 6. 治疗过程的时间进程和肿瘤标志物的变化。",
+              "alt": "图 6. 治疗过程的时间进程和肿瘤标志物的变化。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "CASE-A8792225": {
+    "schema_version": "1.0",
+    "case_id": "CASE-A8792225",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "直肠癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "直肠癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "转移性直肠癌的多线治疗与再活检",
+      "description": "38岁女性，2016年确诊阻塞性直肠癌伴多发肝转移。"
+    },
+    "overview": {
+      "hero": {
+        "title": "转移性直肠癌的多线治疗与再活检",
+        "subtitle": "原发切除后多线系统治疗，两次肝转移切除，后对骨及脑转移实施局部治疗。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "38岁女性，2016年确诊阻塞性直肠癌伴多发肝转移。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "初诊RAS野生型、BRAF V600E阴性；后期液体活检检出KRAS等变异。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "原发切除后多线系统治疗，两次肝转移切除，后对骨及脑转移实施局部治疗。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "后期病情恶化转入姑息照护，约2个月后去世。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2016年",
+              "title": "原发切除与系统治疗",
+              "detail": "阻塞性直肠癌伴肝转移，切除原发后用化疗联合西妥昔单抗。"
+            },
+            {
+              "date": "2017至2018年",
+              "title": "两次肝转化手术",
+              "detail": "肝病灶缓解后切除；复发再治疗后行第二次肝切除，后用CAPOX。"
+            },
+            {
+              "date": "2019至2020年",
+              "title": "后线与再挑战",
+              "detail": "FOLFIRI联合阿柏西普获控10个月；再检测后尝试西妥昔单抗。"
+            },
+            {
+              "date": "后续进展",
+              "title": "骨转移处理",
+              "detail": "距骨活检证实转移，行放疗并调整全身治疗。"
+            },
+            {
+              "date": "2021年及后续",
+              "title": "脑转移与照护调整",
+              "detail": "后线治疗后出现脑转移并手术，液体活检检出KRAS等变异；病情恶化后转姑息照护并去世。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/6T9x2EGd7TnNfACgFdiFNA/hdK072LJfLvs1qRkkDUgF0frvMEnvBLv.png",
+              "timepoint": "2016 年",
+              "caption": "图 1.基线 MRI 显示浸润性直肠肿瘤，长度超过 8.5 厘米，狭窄，超过浆膜并浸润直肠周围空间、子宫后上部和道格拉斯陷凹的腹膜。",
+              "alt": "图 1.基线 MRI 显示浸润性直肠肿瘤，长度超过 8.5 厘米，狭窄，超过浆膜并浸润直肠周围空间、子宫后上部和道格拉斯陷凹的腹膜。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/6T9x2EGd7TnNfACgFdiFNA/RgW6nFRC2FMdfI8uHfoU3cHaOL0y9hOt.png",
+              "timepoint": "2016 年",
+              "caption": "图 2.基线 MRI 显示多个肝转移瘤，边界相对较好，大小在 2-3 毫米至 3 厘米之间，弥漫分布于肝实质的所有部分。",
+              "alt": "图 2.基线 MRI 显示多个肝转移瘤，边界相对较好，大小在 2-3 毫米至 3 厘米之间，弥漫分布于肝实质的所有部分。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/6T9x2EGd7TnNfACgFdiFNA/77f7dVKU3ypse5o3X4RATlQ4NS6MIbs9.png",
+              "timepoint": "治疗后三个月",
+              "caption": "图 3. MRI 显示肝转移瘤的大小和数量减少（部分反应）。",
+              "alt": "图 3. MRI 显示肝转移瘤的大小和数量减少（部分反应）。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG4",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/6T9x2EGd7TnNfACgFdiFNA/vHsdVNkaA9306WlwFqrm5fWBWxmKxsrw.png",
+              "timepoint": "2020 年",
+              "caption": "图 4.MRI 显示左距骨转移，大小为 33/31/23 毫米。",
+              "alt": "图 4.MRI 显示左距骨转移，大小为 33/31/23 毫米。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG5",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/6T9x2EGd7TnNfACgFdiFNA/tYmDWAkRTOeUeWUxODSGiODYdm3npnQ9.png",
+              "timepoint": "",
+              "caption": "图 5.患者接受的多模式治疗的时间线。",
+              "alt": "图 5.患者接受的多模式治疗的时间线。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "CASE-55BF9202": {
+    "schema_version": "1.0",
+    "case_id": "CASE-55BF9202",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "食管癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/esophageal-vaccine.png",
+      "alt": "食管癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "食管癌术后肺病灶的再评估",
+      "description": "69岁女性，食管鳞癌经新辅助放化疗及手术达pCR，约3年后发现肺病灶。"
+    },
+    "overview": {
+      "hero": {
+        "title": "食管癌术后肺病灶的再评估",
+        "subtitle": "团队拟先行化疗联合抗PD-1治疗，再评估是否适合肺部局部治疗。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "69岁女性，食管鳞癌经新辅助放化疗及手术达pCR，约3年后发现肺病灶。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "左肺上叶穿刺见低分化鳞形细胞癌；另有胸膜及淋巴结可疑灶，合并肺部感染。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "团队拟先行化疗联合抗PD-1治疗，再评估是否适合肺部局部治疗。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "现有资料未提供后续疗效；左下肺支气管镜阴性不代表左上肺病灶阴性。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2021年5月",
+              "title": "初诊食管鳞癌",
+              "detail": "临床分期cT3N2M0。"
+            },
+            {
+              "date": "2021年8至10月",
+              "title": "新辅助治疗及手术",
+              "detail": "同步放化疗后根治术，术后ypT0N0M0，达到pCR。"
+            },
+            {
+              "date": "2024年8月",
+              "title": "左上肺取材",
+              "detail": "肺占位增大，CT引导穿刺符合低分化鳞形细胞癌。"
+            },
+            {
+              "date": "2024年9月",
+              "title": "分部位再评估",
+              "detail": "PET-CT另见胸膜及淋巴结可疑灶；左下肺感染区域支气管镜未见恶性证据。"
+            },
+            {
+              "date": "后续计划",
+              "title": "系统治疗后复评",
+              "detail": "拟化疗联合抗PD-1，再评估肺部局部治疗；后续疗效未提供。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/JXoMZctjOZRATJiNgaoY0Q/p2GEeeVGzPopGiVpvkg6JXhma2i9tHZQ.png",
+              "timepoint": "2021 年 5 月",
+              "caption": "距门齿 22cm",
+              "alt": "距门齿 22cm",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/JXoMZctjOZRATJiNgaoY0Q/SeOIe7dQrQEeMAF0eDRc6PPxLEzGScgn.png",
+              "timepoint": "2021 年 5 月",
+              "caption": "距门齿 27cm",
+              "alt": "距门齿 27cm",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/JXoMZctjOZRATJiNgaoY0Q/wqswWTCaJ4i1rseoNCFBmlBqQ3MmEcCO.png",
+              "timepoint": "2024 年 8 月",
+              "caption": "左肺上叶转移性病灶",
+              "alt": "左肺上叶转移性病灶",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG4",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/JXoMZctjOZRATJiNgaoY0Q/F7T5LFoEpepraif5v0ATQpT2CNEy4MMv.png",
+              "timepoint": "2024 年 8 月",
+              "caption": "左肺下叶炎症性病灶",
+              "alt": "左肺下叶炎症性病灶",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG5",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/JXoMZctjOZRATJiNgaoY0Q/j3SuWPaekI5hnI22p5NoVVUJCf5OLLeA.png",
+              "timepoint": "",
+              "caption": "无明确相邻图注文字",
+              "alt": "无明确相邻图注文字",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG6",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/JXoMZctjOZRATJiNgaoY0Q/cEOLiEbXqpWgo7kRswsfa9lArvFjJjX4.png",
+              "timepoint": "",
+              "caption": "无明确相邻图注文字",
+              "alt": "无明确相邻图注文字",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "CASE-B5FF3EFE": {
+    "schema_version": "1.0",
+    "case_id": "CASE-B5FF3EFE",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "乳腺癌合并心包填塞的救治",
+      "description": "33岁女性，转移性乳腺癌多线治疗后出现严重气促、大量胸腔及心包积液。"
+    },
+    "overview": {
+      "hero": {
+        "title": "乳腺癌合并心包填塞的救治",
+        "subtitle": "先行胸腔及紧急心包引流，稳定后使用德曲妥珠单抗。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "33岁女性，转移性乳腺癌多线治疗后出现严重气促、大量胸腔及心包积液。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "积液检出乳腺来源恶性细胞；ER/PR阴性，HER2 IHC 2+、FISH阴性。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "先行胸腔及紧急心包引流，稳定后使用德曲妥珠单抗。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "症状与肝功能改善，后续CT持续PR，骨病灶稳定，积液控制良好。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "早期病程",
+              "title": "乳腺癌初始治疗",
+              "detail": "新辅助化疗、手术及术后内分泌治疗，后出现淋巴结和骨转移。"
+            },
+            {
+              "date": "转移后",
+              "title": "多次活检及调整",
+              "detail": "淋巴结呈三阴性，后骨活检HR阳性；接受相应系统治疗。"
+            },
+            {
+              "date": "2024年初",
+              "title": "心包填塞急救",
+              "detail": "大量胸腔积液引流后仍恶化，紧急心包引流，症状及肝功能改善。"
+            },
+            {
+              "date": "积液检查",
+              "title": "确认当前受体",
+              "detail": "乳腺来源恶性细胞，ER/PR阴性、HER2 IHC 2+且FISH阴性。"
+            },
+            {
+              "date": "2024年2月及后续",
+              "title": "T-DXd治疗与复评",
+              "detail": "使用德曲妥珠单抗后持续PR，骨病灶稳定，胸腔及心包积液控制良好。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/PhYHLTkVfkX6QIH3Jqo4_w/e84941334d6144049a75d5a61851e891.jpeg",
+              "timepoint": "",
+              "caption": "无",
+              "alt": "无",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/PhYHLTkVfkX6QIH3Jqo4_w/3a48b42e1cae4272a5bb68e16df23708.jpeg",
+              "timepoint": "",
+              "caption": "无",
+              "alt": "无",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/PhYHLTkVfkX6QIH3Jqo4_w/66227b87a0514f19a5136bb617bfe4c7.jpeg",
+              "timepoint": "",
+              "caption": "无",
+              "alt": "无",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG4",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/PhYHLTkVfkX6QIH3Jqo4_w/20cb26bd7b01497a93b3708cdbbbaace.jpeg",
+              "timepoint": "",
+              "caption": "无",
+              "alt": "无",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG5",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/PhYHLTkVfkX6QIH3Jqo4_w/2c017c173ef14716adc897fc15d844bf.jpeg",
+              "timepoint": "",
+              "caption": "左右滑动查看更多",
+              "alt": "左右滑动查看更多",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG6",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/PhYHLTkVfkX6QIH3Jqo4_w/c015a7da67ae418d871a58f5306625f9.jpeg",
+              "timepoint": "",
+              "caption": "无",
+              "alt": "无",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "CASE-902F741C": {
+    "schema_version": "1.0",
+    "case_id": "CASE-902F741C",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "乳腺癌受体演变与治疗调整",
+      "description": "52岁女性，乳腺癌初诊ER阳性、HER2阴性，后经历局部及远处复发。"
+    },
+    "overview": {
+      "hero": {
+        "title": "乳腺癌受体演变与治疗调整",
+        "subtitle": "随活检结果调整化疗、免疫及内分泌方案，最后使用戈沙妥珠单抗。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "52岁女性，乳腺癌初诊ER阳性、HER2阴性，后经历局部及远处复发。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "复发灶转为三阴性，纵隔转移再现ER阳性；末次积液ER阴性，其余受体未测全。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "随活检结果调整化疗、免疫及内分泌方案，最后使用戈沙妥珠单抗。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "戈沙妥珠单抗治疗3个月后，原文报告至少部分缓解。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "初诊及术后",
+              "title": "初始综合治疗",
+              "detail": "ER阳性、HER2阴性，cT4N1M0；新辅助化疗、手术及放疗后接受内分泌治疗。"
+            },
+            {
+              "date": "局部复发",
+              "title": "受体转变",
+              "detail": "活检为三阴性、HER2 IHC 1+，PD-L1 CPS 10；免疫联合化疗后再次手术及放疗。"
+            },
+            {
+              "date": "后续辅助治疗",
+              "title": "耐受性调整",
+              "detail": "继续帕博利珠单抗，卡培他滨因口腔黏膜炎提前停止。"
+            },
+            {
+              "date": "初诊6年后",
+              "title": "ER重新阳性",
+              "detail": "纵隔淋巴结活检ER＞80%，改氟维司群联合瑞波西利，稳定约1年。"
+            },
+            {
+              "date": "初诊7年后",
+              "title": "积液与后线治疗",
+              "detail": "胸水ER阴性，其他受体因细胞不足未测全；采用戈沙妥珠单抗，3个月后至少PR。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/Z6BGyjUbydPbAALFxSC_Fw/hUzZwwYv5sbfk1C4skBr3Zdt6X2FGdhX.png",
+              "timepoint": "",
+              "caption": "表 1 活检部位受体表达状态的几次转变和相应治疗方案的调整",
+              "alt": "表 1 活检部位受体表达状态的几次转变和相应治疗方案的调整",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "CASE-82A82F9C": {
+    "schema_version": "1.0",
+    "case_id": "CASE-82A82F9C",
+    "cancer_type": "胸部肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "妊娠期乳腺癌伴胎盘转移",
+      "description": "35岁女性孕31周发现乳房肿块，孕35周穿刺确诊，孕37周剖宫产。"
+    },
+    "overview": {
+      "hero": {
+        "title": "妊娠期乳腺癌伴胎盘转移",
+        "subtitle": "产后接受白蛋白紫杉醇、曲妥珠单抗及吡咯替尼，后调整含卡培他滨方案。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "35岁女性孕31周发现乳房肿块，孕35周穿刺确诊，孕37周剖宫产。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "HER2阳性乳腺癌；胎盘病理证实转移，产后另见肝、骨及淋巴结转移。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "产后接受白蛋白紫杉醇、曲妥珠单抗及吡咯替尼，后调整含卡培他滨方案。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "4周期后PR、8周期后SD；婴儿随访未发现肿瘤受累。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "孕31周",
+              "title": "发现肿块",
+              "detail": "发现右乳不规则肿块。"
+            },
+            {
+              "date": "孕35周",
+              "title": "穿刺确诊",
+              "detail": "乳腺及腋窝病变穿刺，确诊乳腺癌。"
+            },
+            {
+              "date": "孕37周",
+              "title": "分娩及胎盘检查",
+              "detail": "剖宫产，胎盘病理证实乳腺癌转移。"
+            },
+            {
+              "date": "产后",
+              "title": "全身评估与治疗",
+              "detail": "发现肝、骨及淋巴结转移，使用白蛋白紫杉醇、曲妥珠单抗及吡咯替尼。"
+            },
+            {
+              "date": "治疗4至8周期",
+              "title": "疗效复评",
+              "detail": "原文记录4周期后PR、8周期后SD。"
+            },
+            {
+              "date": "后续随访",
+              "title": "维持治疗",
+              "detail": "后用吡咯替尼、卡培他滨及曲妥珠单抗，随访4个月为SD；婴儿未发现肿瘤受累。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    },
+    "second_cancer_type": "乳腺癌"
+  },
+  "CASE-FCB62584": {
+    "schema_version": "1.0",
+    "case_id": "CASE-FCB62584",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "肝癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "仑伐替尼治疗中的严重肾损伤",
+      "description": "68岁男性，复发肝癌使用仑伐替尼后蛋白尿及肾功能损害逐渐加重。"
+    },
+    "overview": {
+      "hero": {
+        "title": "仑伐替尼治疗中的严重肾损伤",
+        "subtitle": "减量后仍恶化，停药并支持治疗；后肝癌复发，行微波消融及信迪利单抗治疗。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "68岁男性，复发肝癌使用仑伐替尼后蛋白尿及肾功能损害逐渐加重。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "24小时尿蛋白19.5 g；肾活检示肾微血管病变及肾小动脉硬化。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "减量后仍恶化，停药并支持治疗；后肝癌复发，行微波消融及信迪利单抗治疗。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "水肿改善，但仍有蛋白尿和肾功能异常。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2015年",
+              "title": "原发肝癌诊断",
+              "detail": "确诊肝癌，后先后接受肝切除、射频消融及TACE。"
+            },
+            {
+              "date": "2021年3月",
+              "title": "开始仑伐替尼",
+              "detail": "复发后用仑伐替尼12 mg/d，既往已有轻度蛋白尿。"
+            },
+            {
+              "date": "治疗约10个月内",
+              "title": "肾脏指标恶化",
+              "detail": "尿蛋白升至3+，肌酐108 μmol/L。"
+            },
+            {
+              "date": "2022年10月",
+              "title": "减量治疗",
+              "detail": "减至8 mg/d，蛋白尿及肾功能异常仍持续。"
+            },
+            {
+              "date": "2023年7月",
+              "title": "出现明显水肿",
+              "detail": "出现明显水肿，1个月体重增加10 kg，血压控制不佳。"
+            },
+            {
+              "date": "2023年11月24日及入院后",
+              "title": "严重蛋白尿与肾活检",
+              "detail": "尿蛋白19.5 g/24 h；肾活检示微血管病变及小动脉硬化，随后停药并支持治疗。"
+            },
+            {
+              "date": "停药后",
+              "title": "肾脏复评",
+              "detail": "水肿改善，尿蛋白仍3.66 g/24 h、肌酐168 μmol/L。"
+            },
+            {
+              "date": "2024年1月",
+              "title": "肝癌复发后治疗",
+              "detail": "MRI确认肝癌复发，微波消融后开始信迪利单抗。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/QgASB97nYQfBeZOcRYucoQ/5aBIKYWXuJoasOdZD2tVotASm395Ncuq.jpg",
+              "timepoint": "使用仑伐替尼前后",
+              "caption": "图 1. 使用仑伐替尼前后相关指标的变化。",
+              "alt": "图 1. 使用仑伐替尼前后相关指标的变化。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/QgASB97nYQfBeZOcRYucoQ/PrBcXBXpi3x4VODmzJp2sBbR2zBw33dZ.png",
+              "timepoint": "诊治流程",
+              "caption": "表 1.诊治流程。",
+              "alt": "表 1.诊治流程。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/QgASB97nYQfBeZOcRYucoQ/3RWMSmuaIiZUZAzOtwJQ9PcgyeEdJsUt.jpg",
+              "timepoint": "肾活检时",
+              "caption": "图 2.肾脏病理。",
+              "alt": "图 2.肾脏病理。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG4",
+              "src": "https://bosdev.liangyihui.net/temp/1659944452.png",
+              "timepoint": "时间点不详",
+              "caption": "无明确图注。",
+              "alt": "无明确图注。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "肝癌"
+  },
+  "CASE-29CA171F": {
+    "schema_version": "1.0",
+    "case_id": "CASE-29CA171F",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/gastric-her2.png",
+      "alt": "胃癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "胃癌肝转移化疗后持久缓解",
+      "description": "59岁男性，胃窦腺癌伴多发肝转移，2016年开始CAPOX治疗。"
+    },
+    "overview": {
+      "hero": {
+        "title": "胃癌肝转移化疗后持久缓解",
+        "subtitle": "完成9周期后因持续血液学毒性停药，之后影像逐渐改善。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "59岁男性，胃窦腺癌伴多发肝转移，2016年开始CAPOX治疗。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "HER2阴性、PD-L1 CPS＜1、pMMR。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "完成9周期后因持续血液学毒性停药，之后影像逐渐改善。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "2018年5月记录影像CR；2023年12月仍维持缓解。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2016年12月",
+              "title": "开始CAPOX",
+              "detail": "胃癌伴多发肝转移，开始CAPOX。"
+            },
+            {
+              "date": "约4个月后及第5周期起",
+              "title": "缩瘤与血液学毒性",
+              "detail": "影像缩小；第5周期起因骨髓毒性减量。"
+            },
+            {
+              "date": "完成9周期后",
+              "title": "因持续毒性停药",
+              "detail": "因持续血液学毒性停药，当时影像尚未达CR。"
+            },
+            {
+              "date": "2018年5月",
+              "title": "影像完全缓解",
+              "detail": "原文记录影像CR。"
+            },
+            {
+              "date": "2021年8月",
+              "title": "胃镜复评",
+              "detail": "胃镜活检未见肿瘤细胞。"
+            },
+            {
+              "date": "2023年12月",
+              "title": "末次报道随访",
+              "detail": "原文记录仍维持缓解。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/7HgL9EtEijiGoP5rDE1EWA/c0r8WX47hnQITN89BFlErkG3uRFVqTRE.jpg",
+              "timepoint": "诊断/治疗评估阶段",
+              "caption": "病灶 CT",
+              "alt": "病灶 CT",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "胃癌"
+  },
+  "CASE-6A44390F": {
+    "schema_version": "1.0",
+    "case_id": "CASE-6A44390F",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "胆道恶性肿瘤主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "HER2阳性胆道癌的后线治疗",
+      "description": "57岁男性，胆总管腺癌术后复发，经再次手术及多线系统治疗。"
+    },
+    "overview": {
+      "hero": {
+        "title": "HER2阳性胆道癌的后线治疗",
+        "subtitle": "治疗后病灶缩小、CA19-9下降；约4个月后指标回升，随后加用仑伐替尼。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "57岁男性，胆总管腺癌术后复发，经再次手术及多线系统治疗。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "HER2扩增；进展后采用德曲妥珠单抗。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "治疗后病灶缩小、CA19-9下降；约4个月后指标回升，随后加用仑伐替尼。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "原文报告后续疾病获控，治疗中有血液学及肝功能异常。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "初诊",
+              "title": "手术及病理",
+              "detail": "胆管切除及胆肠吻合，病理为胆总管腺癌。"
+            },
+            {
+              "date": "2021年12月至2022年",
+              "title": "复发后再治疗",
+              "detail": "复发后二次手术，继以吉西他滨、顺铂及贝伐珠单抗。"
+            },
+            {
+              "date": "2023年6月起",
+              "title": "再次进展后治疗",
+              "detail": "度伐利尤单抗、白蛋白紫杉醇、卡铂及腹部放疗，后免疫维持。"
+            },
+            {
+              "date": "2024年4至5月",
+              "title": "后线调整",
+              "detail": "调整为卡度尼利单抗、奥沙利铂及卡培他滨，因严重手足反应停止。"
+            },
+            {
+              "date": "2024年6至7月",
+              "title": "T-DXd治疗",
+              "detail": "T-DXd后病灶缩小、CA19-9下降，出现血液学及肝功能异常。"
+            },
+            {
+              "date": "约4个月后及后续",
+              "title": "个体化联合",
+              "detail": "CA19-9回升、PET仍有活性，后加仑伐替尼，原文记录获控。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    },
+    "second_cancer_type": "胆道恶性肿瘤"
+  },
+  "CASE-C54DD4A4": {
+    "schema_version": "1.0",
+    "case_id": "CASE-C54DD4A4",
+    "cancer_type": "胸部肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "乳腺癌术后19年出现髌骨转移",
+      "description": "63岁女性，乳腺癌治疗19年后出现持续右膝疼痛及跛行。"
+    },
+    "overview": {
+      "hero": {
+        "title": "乳腺癌术后19年出现髌骨转移",
+        "subtitle": "接受病灶刮除、骨水泥填充及放疗。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "63岁女性，乳腺癌治疗19年后出现持续右膝疼痛及跛行。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "髌骨活检证实乳腺来源，ER/PR强阳性；其他骨部位另有可疑影像灶。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "接受病灶刮除、骨水泥填充及放疗。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "疼痛和活动功能改善；未提供HER2结果及长期全身疗效。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "19年前",
+              "title": "乳腺癌治疗",
+              "detail": "乳腺癌手术、放疗及化疗后未坚持定期复查。"
+            },
+            {
+              "date": "就诊前半年",
+              "title": "持续右膝疼痛",
+              "detail": "右膝持续疼痛，伴跛行及髌骨压痛。"
+            },
+            {
+              "date": "本次影像",
+              "title": "骨病灶评估",
+              "detail": "髌骨溶骨性破坏；股骨与胫骨另有可疑灶。"
+            },
+            {
+              "date": "髌骨活检",
+              "title": "确认乳腺来源",
+              "detail": "活检证实乳腺来源，ER/PR强阳性、Ki-67＜5%。"
+            },
+            {
+              "date": "局部治疗后",
+              "title": "疼痛及功能改善",
+              "detail": "刮除、骨水泥填充及放疗后，疼痛和活动功能改善。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/EZ0fLTF3NHuoYzh5azEGpw/Tq7SL0szaxcgWcQepXmvaprGoXQtPD87.jpeg",
+              "timepoint": "位于病例详情标题前",
+              "caption": "无明确图注",
+              "alt": "无明确图注",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/EZ0fLTF3NHuoYzh5azEGpw/vbfDmIX9yUcPkwLjUPhZ3xxJrIzo35FI.jpeg",
+              "timepoint": "X 线检查结果描述后",
+              "caption": "X 线检查结果描述后",
+              "alt": "X 线检查结果描述后",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/EZ0fLTF3NHuoYzh5azEGpw/CJEOWz7V8yLfNDCN2TFHWypAdYgqNoCb.jpeg",
+              "timepoint": "MRI 检查结果描述后",
+              "caption": "MRI 检查结果描述后",
+              "alt": "MRI 检查结果描述后",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG4",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/EZ0fLTF3NHuoYzh5azEGpw/95v09XJWEGYGO2jrticMMlKhuJrf2ZJ1.jpeg",
+              "timepoint": "PET/CT 检查结果描述后",
+              "caption": "PET/CT 检查结果描述后",
+              "alt": "PET/CT 检查结果描述后",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG5",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/EZ0fLTF3NHuoYzh5azEGpw/4i3NDsyJWwkWQZ7gv7dNViTtfeOl2Efn.jpeg",
+              "timepoint": "免疫组化结果描述后",
+              "caption": "免疫组化结果描述后",
+              "alt": "免疫组化结果描述后",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "乳腺癌"
+  },
+  "CASE-BD2810E1": {
+    "schema_version": "1.0",
+    "case_id": "CASE-BD2810E1",
+    "cancer_type": "神经内分泌肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/gastric-her2.png",
+      "alt": "胃神经内分泌肿瘤主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "恶性贫血伴1型胃神经内分泌肿瘤",
+      "description": "39岁男性因乏力就诊，重度大细胞性贫血，维生素B12显著降低。"
+    },
+    "overview": {
+      "hero": {
+        "title": "恶性贫血伴1型胃神经内分泌肿瘤",
+        "subtitle": "给予维生素B12替代，未行内镜切除，安排定期随访。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "39岁男性因乏力就诊，重度大细胞性贫血，维生素B12显著降低。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "1型胃NET、G1，伴自身免疫性萎缩性胃炎；CT未见转移，病灶直径未详。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "给予维生素B12替代，未行内镜切除，安排定期随访。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "3个月及6个月血液指标恢复正常；未提供肿瘤消退证据。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "就诊前两周",
+              "title": "出现症状",
+              "detail": "出现乏力、疲倦及食欲下降。"
+            },
+            {
+              "date": "入院检查",
+              "title": "发现恶性贫血",
+              "detail": "大细胞性贫血、维生素B12显著降低，内因子及壁细胞抗体阳性。"
+            },
+            {
+              "date": "胃镜及活检",
+              "title": "诊断胃NET",
+              "detail": "胃窦结节活检结合背景检查，诊断1型G1胃NET；CT未见转移。"
+            },
+            {
+              "date": "治疗及出院",
+              "title": "替代治疗与随访安排",
+              "detail": "肌内维生素B12及长期替代，未行内镜切除，安排随访。"
+            },
+            {
+              "date": "出院后3个月及6个月",
+              "title": "血液指标改善",
+              "detail": "血红蛋白等指标恢复正常，未提供肿瘤消退证据。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/9xVP7yEYN6eGg4mf00H-SA/IXt2FYh07lq59q5SHw3YV3BlrQAoQTG4.jpg",
+              "timepoint": "就诊时胃镜检查阶段",
+              "caption": "图 1.上消化道内镜检查结果。",
+              "alt": "图 1.上消化道内镜检查结果。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/9xVP7yEYN6eGg4mf00H-SA/zeKcegsDJRIz90LZibV00zLAUREFtLTU.jpg",
+              "timepoint": "病理诊断阶段",
+              "caption": "图 2.胃窦部结节活检切片显示嗜铬粒蛋白 A 阳性。",
+              "alt": "图 2.胃窦部结节活检切片显示嗜铬粒蛋白 A 阳性。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/9xVP7yEYN6eGg4mf00H-SA/E5uFWaahaMjk3sehKu0XARL6ASuBVBPY.jpg",
+              "timepoint": "病理诊断阶段",
+              "caption": "图 3.胃窦部结节活检切片显示 Ki-67 增殖指数低于 3%，核分裂象少于 2 个/mm²。",
+              "alt": "图 3.胃窦部结节活检切片显示 Ki-67 增殖指数低于 3%，核分裂象少于 2 个/mm²。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG4",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/9xVP7yEYN6eGg4mf00H-SA/B9KoHCkZtOIo01djNypAzSdblu0WJIW4.png",
+              "timepoint": "资料展示",
+              "caption": "表 1.三种类型的 G-NET 及其各自的特点。",
+              "alt": "表 1.三种类型的 G-NET 及其各自的特点。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "胃神经内分泌肿瘤"
+  },
+  "CASE-95977E69": {
+    "schema_version": "1.0",
+    "case_id": "CASE-95977E69",
+    "cancer_type": "胸部肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "卡匹色替相关放射回忆性皮炎",
+      "description": "56岁女性，转移性乳腺癌再次骨放疗后开始卡匹色替。"
+    },
+    "overview": {
+      "hero": {
+        "title": "卡匹色替相关放射回忆性皮炎",
+        "subtitle": "暂停用药并给予激素及局部处理；再暴露后皮疹复发，再次停药。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "56岁女性，转移性乳腺癌再次骨放疗后开始卡匹色替。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "随后出现照射区域大疱及泛发皮疹，期间存在停药日误服。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "暂停用药并给予激素及局部处理；再暴露后皮疹复发，再次停药。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "后改用阿培利司，原文报告耐受良好。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2005年及其后",
+              "title": "初始治疗",
+              "detail": "乳腺手术、化疗、放疗及长期他莫昔芬治疗。"
+            },
+            {
+              "date": "2023年",
+              "title": "发现转移",
+              "detail": "肺及胫骨活检证实转移，接受内分泌联合CDK4/6治疗及骨局部治疗。"
+            },
+            {
+              "date": "骨放疗约7个月后",
+              "title": "进展及再照射",
+              "detail": "骨病灶进展后再次手术、放疗，内分泌改氟维司群。"
+            },
+            {
+              "date": "再次放疗后7天起",
+              "title": "卡匹色替及皮疹",
+              "detail": "开始卡匹色替，停药日误服4剂，随后出现大疱及泛发皮疹。"
+            },
+            {
+              "date": "住院期间",
+              "title": "停药及皮肤处理",
+              "detail": "停药，给予激素、局部处理及抗菌药后改善。"
+            },
+            {
+              "date": "再暴露及后续",
+              "title": "再次停药并换药",
+              "detail": "再用一剂后皮疹复发，停药后消退；改阿培利司，报道耐受良好。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/W5eo1iW1xft-K-SZ9XaQfw/s6VRC4npwRmb4TODNCNbRLdoJEaRNuiB.png",
+              "timepoint": "首次急诊就诊时",
+              "caption": "放射治疗剂量分布及右下肢皮疹图像（前视图和后视图）",
+              "alt": "放射治疗剂量分布及右下肢皮疹图像（前视图和后视图）",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/W5eo1iW1xft-K-SZ9XaQfw/DVpTGNBvUtUCuXEFj6J3LRq79zWNn5gf.png",
+              "timepoint": "入院期间",
+              "caption": "背部泛发性皮疹穿刺活检 HE 染色（10 倍和 20 倍放大）",
+              "alt": "背部泛发性皮疹穿刺活检 HE 染色（10 倍和 20 倍放大）",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/W5eo1iW1xft-K-SZ9XaQfw/iyQ9vXnZ2lOMOL7e6kmviEucb2WuvRKD.png",
+              "timepoint": "治疗及随访期间",
+              "caption": "经类固醇和抗生素治疗后右下肢皮疹消退情况及事件时间线",
+              "alt": "经类固醇和抗生素治疗后右下肢皮疹消退情况及事件时间线",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "乳腺癌"
+  },
+  "CASE-22A52DF0": {
+    "schema_version": "1.0",
+    "case_id": "CASE-22A52DF0",
+    "cancer_type": "胸部肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "三阴性乳腺癌术后脑膜转移",
+      "description": "54岁女性，局部晚期三阴性乳腺癌，新辅助治疗后PR并接受手术。"
+    },
+    "overview": {
+      "hero": {
+        "title": "三阴性乳腺癌术后脑膜转移",
+        "subtitle": "采用放疗、鞘内甲氨蝶呤及支持治疗。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "54岁女性，局部晚期三阴性乳腺癌，新辅助治疗后PR并接受手术。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "术后仍有10枚淋巴结转移；约1个月后MRI及脑脊液细胞学支持脑及脑膜转移。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "采用放疗、鞘内甲氨蝶呤及支持治疗。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "神经症状缓解，MRI病灶缩小，继续随访。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "新辅助治疗前",
+              "title": "局部晚期TNBC",
+              "detail": "乳腺三阴性癌，腋窝及锁骨上淋巴结阳性，cT4bN3cM0。"
+            },
+            {
+              "date": "6周期TA后",
+              "title": "原发缩小",
+              "detail": "白蛋白紫杉醇联合吡柔比星后PR。"
+            },
+            {
+              "date": "2024年10月23日",
+              "title": "改良根治术",
+              "detail": "改良根治术，残留最大7 mm，仍有10枚淋巴结转移。"
+            },
+            {
+              "date": "2024年11月23—25日",
+              "title": "中枢转移确诊",
+              "detail": "神经症状出现，MRI提示脑及脑膜病变，脑脊液细胞学阳性。"
+            },
+            {
+              "date": "确诊后",
+              "title": "综合治疗",
+              "detail": "采用放疗、鞘内甲氨蝶呤及对症支持。"
+            },
+            {
+              "date": "治疗后",
+              "title": "复评改善",
+              "detail": "症状缓解，MRI病灶缩小。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/sFlYhBomJoUI0_upWviKPg/9A5s7ZeJhavgJzIJWvgiP25ciI9t0ctj.png",
+              "timepoint": "新辅助治疗期间",
+              "caption": "在新辅助治疗开始后，每两个治疗周期一次 MRI，治疗效果为部分缓解。",
+              "alt": "在新辅助治疗开始后，每两个治疗周期一次 MRI，治疗效果为部分缓解。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/sFlYhBomJoUI0_upWviKPg/0k9AY9k4My6ht3t5igDJU8tLXgMjqtVO.png",
+              "timepoint": "2024 年 11 月 24 日",
+              "caption": "增强 MRI 显示左颞叶结节长径约 0.7 cm，伴脑膜及蛛网膜强化，符合脑实质及脑膜转移。",
+              "alt": "增强 MRI 显示左颞叶结节长径约 0.7 cm，伴脑膜及蛛网膜强化，符合脑实质及脑膜转移。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/sFlYhBomJoUI0_upWviKPg/aEpAkwT3D6UHDDruvY2BJCcRpgNALhK0.png",
+              "timepoint": "放疗及鞘内化疗后复查",
+              "caption": "放疗及鞘内化疗后复查 MRI 示多发转移病灶缩小。",
+              "alt": "放疗及鞘内化疗后复查 MRI 示多发转移病灶缩小。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "乳腺癌"
+  },
+  "CASE-46B8BDDE": {
+    "schema_version": "1.0",
+    "case_id": "CASE-46B8BDDE",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "胆道恶性肿瘤主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "EGFR变异胆管癌的靶向治疗经过",
+      "description": "2019年确诊肝内胆管癌，右肝巨大病灶伴卫星结节。"
+    },
+    "overview": {
+      "hero": {
+        "title": "EGFR变异胆管癌的靶向治疗经过",
+        "subtitle": "患者拒绝化疗，接受阿法替尼；约1个月后进展，再尝试阿帕替尼。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "2019年确诊肝内胆管癌，右肝巨大病灶伴卫星结节。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "EGFR 19号外显子缺失；原文T4分期依据不充分。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "患者拒绝化疗，接受阿法替尼；约1个月后进展，再尝试阿帕替尼。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "原文报告总生存约1.8个月，因肝功能衰竭死亡。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2019年2月",
+              "title": "肝内胆管癌诊断",
+              "detail": "巨大右肝病灶伴卫星结节，病理诊断肝内胆管癌。"
+            },
+            {
+              "date": "治疗前",
+              "title": "有限分子检测与讨论",
+              "detail": "检出EGFR 19号外显子缺失，患者拒绝化疗。"
+            },
+            {
+              "date": "随后",
+              "title": "阿法替尼治疗",
+              "detail": "知情讨论后使用阿法替尼40 mg/d。"
+            },
+            {
+              "date": "约1个月后",
+              "title": "疾病进展",
+              "detail": "疾病进展，后尝试阿帕替尼。"
+            },
+            {
+              "date": "总生存约1.8个月",
+              "title": "死亡",
+              "detail": "因肝功能衰竭死亡。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/aa3WVBhYQfwUdqP1C9HUcw/bgP2qFWloh3xMYpXDO8JJy5b5wz1IUaK.jpg",
+              "timepoint": "就诊初期",
+              "caption": "图 1. 腹部 CT 示肝左叶巨大低密度灶，增强呈不均匀强化；肝右叶多发结节，呈环形强化。",
+              "alt": "图 1. 腹部 CT 示肝左叶巨大低密度灶，增强呈不均匀强化；肝右叶多发结节，呈环形强化。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/aa3WVBhYQfwUdqP1C9HUcw/IU6A02lZLkfjjkUa4A1JgQyDLWCnislh.jpg",
+              "timepoint": "病理诊断阶段",
+              "caption": "图 2. 肿瘤组织病理学（H&E 染色）。",
+              "alt": "图 2. 肿瘤组织病理学（H&E 染色）。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/aa3WVBhYQfwUdqP1C9HUcw/HdhV2zDQyAqdY55qPs3hL5lR4rAkSxrq.jpg",
+              "timepoint": "病理诊断阶段",
+              "caption": "图 3. 肿瘤细胞免疫组化染色。",
+              "alt": "图 3. 肿瘤细胞免疫组化染色。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG4",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/aa3WVBhYQfwUdqP1C9HUcw/D5mqwtrCThdIy0cytIQ7P1nMaqwlERxk.jpg",
+              "timepoint": "基因检测阶段",
+              "caption": "图 4. ARMS-PCR 法检测到 EGFR 19 号外显子缺失突变。",
+              "alt": "图 4. ARMS-PCR 法检测到 EGFR 19 号外显子缺失突变。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG5",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/aa3WVBhYQfwUdqP1C9HUcw/5WQnYWfZFVR2Smx3QzEAGxHnwFpmIlZZ.jpg",
+              "timepoint": "治疗 1 个月后",
+              "caption": "图 5. 阿法替尼治疗 30 天后复查 CT。",
+              "alt": "图 5. 阿法替尼治疗 30 天后复查 CT。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG6",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/aa3WVBhYQfwUdqP1C9HUcw/qL9CjicIEn8QQ3Ttwvc7zwYcaQLf9oFT.jpg",
+              "timepoint": "全程总结",
+              "caption": "图 6. 患者临床诊疗过程时间轴总结。",
+              "alt": "图 6. 患者临床诊疗过程时间轴总结。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "胆道恶性肿瘤"
+  },
+  "CASE-6E309B6B": {
+    "schema_version": "1.0",
+    "case_id": "CASE-6E309B6B",
+    "cancer_type": "胸部肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "乳腺癌术后诺卡菌菌血症",
+      "description": "54岁女性，HER2阳性乳腺癌新辅助治疗及手术后出现高热、咳嗽。"
+    },
+    "overview": {
+      "hero": {
+        "title": "乳腺癌术后诺卡菌菌血症",
+        "subtitle": "按药敏及耐受性调整抗菌药；出院后不规律服药，菌血症复发后再次治疗。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "54岁女性，HER2阳性乳腺癌新辅助治疗及手术后出现高热、咳嗽。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "血培养鉴定新诺卡菌；复发时临床考虑RSV共感染，未获PCR确证。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "按药敏及耐受性调整抗菌药；出院后不规律服药，菌血症复发后再次治疗。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "持续抗感染治疗至6个月康复。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "术前",
+              "title": "乳腺癌治疗",
+              "detail": "新辅助治疗后行乳腺改良根治术。"
+            },
+            {
+              "date": "术后14天",
+              "title": "高热及肺病灶",
+              "detail": "高热、咳嗽及肺结节，经验性左氧氟沙星无效。"
+            },
+            {
+              "date": "血培养阳性后",
+              "title": "病原确诊",
+              "detail": "血培养鉴定新诺卡菌；脑MRI及脑脊液培养未见异常。"
+            },
+            {
+              "date": "TMP-SMX用药2天后",
+              "title": "皮疹与改药",
+              "detail": "皮疹考虑药物过敏，改亚胺培南/西司他丁，后带利奈唑胺出院。"
+            },
+            {
+              "date": "出院3周后",
+              "title": "感染复发",
+              "detail": "未规律服药后菌血症复发，临床考虑RSV共感染。"
+            },
+            {
+              "date": "再次治疗及随访",
+              "title": "序贯抗感染",
+              "detail": "再次调整联合抗菌治疗并口服序贯，持续治疗至6个月康复。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    },
+    "second_cancer_type": "乳腺癌"
+  },
+  "CASE-8EB5623E": {
+    "schema_version": "1.0",
+    "case_id": "CASE-8EB5623E",
+    "cancer_type": "胸部肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "乳腺癌十二指肠转移致梗阻",
+      "description": "53岁女性，有乳腺癌及多次复发史，出现恶心、呕吐和腹痛。"
+    },
+    "overview": {
+      "hero": {
+        "title": "乳腺癌十二指肠转移致梗阻",
+        "subtitle": "胃管减压后，接受2周期环磷酰胺联合阿霉素。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "53岁女性，有乳腺癌及多次复发史，出现恶心、呕吐和腹痛。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "十二指肠第三段梗阻，EUS取材支持乳腺转移；本次ER/PR/HER2阴性。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "胃管减压后，接受2周期环磷酰胺联合阿霉素。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "梗阻症状改善，未提供明确影像缓解分级。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2005年",
+              "title": "早期乳腺癌治疗",
+              "detail": "保乳手术后接受放疗及内分泌治疗。"
+            },
+            {
+              "date": "2019—2024年",
+              "title": "多次复发及受体演变",
+              "detail": "多次局部及淋巴结复发，受体结果随取材时点变化。"
+            },
+            {
+              "date": "2025年初",
+              "title": "十二指肠梗阻",
+              "detail": "十二指肠第三段病变致梗阻，胃管减压后部分缓解。"
+            },
+            {
+              "date": "取样阶段",
+              "title": "表浅活检未确诊",
+              "detail": "常规活检未确诊，EUS穿刺结合病理支持乳腺转移。"
+            },
+            {
+              "date": "2周期AC后",
+              "title": "症状改善",
+              "detail": "环磷酰胺联合阿霉素后梗阻症状改善。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    },
+    "second_cancer_type": "乳腺癌"
+  },
+  "CASE-DD610E54": {
+    "schema_version": "1.0",
+    "case_id": "CASE-DD610E54",
+    "cancer_type": "胸部肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺肉瘤主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "哺乳期乳腺血管肉瘤的诊疗",
+      "description": "32岁哺乳期女性，乳房肿块持续约6个月，近1个月增长加快。"
+    },
+    "overview": {
+      "hero": {
+        "title": "哺乳期乳腺血管肉瘤的诊疗",
+        "subtitle": "行局部切除及整形，原文还记载前哨淋巴结相关手术；未行放疗。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "32岁哺乳期女性，乳房肿块持续约6个月，近1个月增长加快。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "病理及CD34、ERG等检查支持原发性乳腺血管肉瘤。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "行局部切除及整形，原文还记载前哨淋巴结相关手术；未行放疗。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "6个月瘢痕处异常活检为良性，继续随访。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "就诊前约6个月",
+              "title": "出现乳腺肿块",
+              "detail": "哺乳期出现肿块，近1个月增长加快。"
+            },
+            {
+              "date": "就诊评估",
+              "title": "影像与组织学诊断",
+              "detail": "影像、组织学及免疫组化支持乳腺血管肉瘤。"
+            },
+            {
+              "date": "手术期",
+              "title": "局部切除及乳腺整形",
+              "detail": "行局部切除、Batwing整形及原文记载的前哨淋巴结相关手术。"
+            },
+            {
+              "date": "术后",
+              "title": "未接受放疗",
+              "detail": "原文未行放疗。"
+            },
+            {
+              "date": "术后6个月",
+              "title": "瘢痕处复评",
+              "detail": "瘢痕处异常活检为良性。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/tH_bEZB86OqvuLzDCExxTQ/GlAyuohGW4w3jNum3opW6OsyBgPSPktm.jpg",
+              "timepoint": "就诊初期",
+              "caption": "图 1 乳腺超声：右乳外上象限见边界不清的混合回声区，无明确肿块，彩超示血流丰富。",
+              "alt": "图 1 乳腺超声：右乳外上象限见边界不清的混合回声区，无明确肿块，彩超示血流丰富。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/tH_bEZB86OqvuLzDCExxTQ/x4YulRDhBjRICrwgFgNd4CwZYdxIjNyl.png",
+              "timepoint": "穿刺活检时",
+              "caption": "图 2 HE 染色：（A）可见血管腔、轻度异型梭形细胞及背景出血（10X）；（B）异型细胞排列更明显（40X）。",
+              "alt": "图 2 HE 染色：（A）可见血管腔、轻度异型梭形细胞及背景出血（10X）；（B）异型细胞排列更明显（40X）。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/tH_bEZB86OqvuLzDCExxTQ/sVIGOfQTmsJc4FJPywHO2fdsW8nCF7oU.png",
+              "timepoint": "穿刺活检时",
+              "caption": "图 3 免疫组化：（A）CD34 阳性，示血管通道清晰（40X）；（B）ERG 核阳性，提示血管内皮来源（40X）。",
+              "alt": "图 3 免疫组化：（A）CD34 阳性，示血管通道清晰（40X）；（B）ERG 核阳性，提示血管内皮来源（40X）。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG4",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/tH_bEZB86OqvuLzDCExxTQ/MjWX1sgTGe7m7YDnLdXtgUaGjvuFhOMY.png",
+              "timepoint": "就诊初期",
+              "caption": "图 4 乳腺 CT：白箭所示为右乳外上象限结节状增强灶，伴周围实质扭曲及皮肤增厚，未见转移。",
+              "alt": "图 4 乳腺 CT：白箭所示为右乳外上象限结节状增强灶，伴周围实质扭曲及皮肤增厚，未见转移。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG5",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/tH_bEZB86OqvuLzDCExxTQ/JyWWIvatJpCPESQJ1NbtoO9WjoOjrbKn.png",
+              "timepoint": "术后 6 个月",
+              "caption": "图 5 术后 6 个月钼靶：术区轻度结构变形，金属夹在位，未见肿块。",
+              "alt": "图 5 术后 6 个月钼靶：术区轻度结构变形，金属夹在位，未见肿块。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG6",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/tH_bEZB86OqvuLzDCExxTQ/TH7Zo5PYmDOFV9GSfPHP6VuNe7dtR5tD.png",
+              "timepoint": "术后 6 个月",
+              "caption": "图 6 术后 6 个月乳腺超声：乳晕周围瘢痕区轻度增厚，彩超未见异常血流。穿刺活检证实为瘢痕组织，无恶性细胞。",
+              "alt": "图 6 术后 6 个月乳腺超声：乳晕周围瘢痕区轻度增厚，彩超未见异常血流。穿刺活检证实为瘢痕组织，无恶性细胞。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "乳腺肉瘤"
+  },
+  "CASE-351D64C1": {
+    "schema_version": "1.0",
+    "case_id": "CASE-351D64C1",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/gastric-her2.png",
+      "alt": "胃癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "MSS胃癌肝转移的转化治疗",
+      "description": "64岁男性，胃窦腺癌伴肝S6单个约6 cm转移及巨块淋巴结。"
+    },
+    "overview": {
+      "hero": {
+        "title": "MSS胃癌肝转移的转化治疗",
+        "subtitle": "SOX联合纳武利尤单抗4周期后缩瘤，接受胃切除、D2清扫及肝部分切除。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "64岁男性，胃窦腺癌伴肝S6单个约6 cm转移及巨块淋巴结。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "MSS胃癌，原文报告PD-L1高表达。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "SOX联合纳武利尤单抗4周期后缩瘤，接受胃切除、D2清扫及肝部分切除。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "切除标本达pCR；原文随访超过3年3个月未见复发。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "初诊",
+              "title": "分期及检测",
+              "detail": "胃原发约5 cm，肝S6约6 cm转移，伴巨块淋巴结。"
+            },
+            {
+              "date": "系统治疗阶段",
+              "title": "免疫联合化疗",
+              "detail": "SOX联合纳武利尤单抗4周期。"
+            },
+            {
+              "date": "4周期后",
+              "title": "转化评估",
+              "detail": "CEA正常，原发及肝病灶缩小。"
+            },
+            {
+              "date": "手术阶段",
+              "title": "胃及肝脏切除",
+              "detail": "远端胃切除、D2清扫及肝部分切除，标本达pCR。"
+            },
+            {
+              "date": "术后及随访",
+              "title": "观察结局",
+              "detail": "原文记载未行含免疫药物的术后辅助化疗；超过3年3个月未见复发。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/34KJYRO-mfAiPzq9YKAXJA/TDwk7aGbzwIZi7k4sRvAGmRrWGWLVJ8U.png",
+              "timepoint": "化疗前",
+              "caption": "(A) 内镜示胃窦小弯侧 5cm II 型病变；(B) CT 示肝 S6 段 6cm 转移灶；(C) 胃周肿大淋巴结。",
+              "alt": "(A) 内镜示胃窦小弯侧 5cm II 型病变；(B) CT 示肝 S6 段 6cm 转移灶；(C) 胃周肿大淋巴结。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/34KJYRO-mfAiPzq9YKAXJA/A67nvD9kijPSiPHjwBBlUUUenMZn51bq.png",
+              "timepoint": "免疫组化检测时",
+              "caption": "(A) CD8 染色示高密度浸润淋巴细胞；(B) PD-L1 染色示 CPS≥70%。",
+              "alt": "(A) CD8 染色示高密度浸润淋巴细胞；(B) PD-L1 染色示 CPS≥70%。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://bosdev.liangyihui.net/temp/1659944452.png",
+              "timepoint": "时间点不详",
+              "caption": "解析结果未提供链接及图注信息。",
+              "alt": "解析结果未提供链接及图注信息。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "胃癌"
+  },
+  "CASE-F5CEC3E2": {
+    "schema_version": "1.0",
+    "case_id": "CASE-F5CEC3E2",
+    "cancer_type": "胸部肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "乳腺癌肾上腺及脑转移的治疗",
+      "description": "52岁绝经女性，乳腺癌术后先后出现骨、肾上腺及小脑病灶。"
+    },
+    "overview": {
+      "hero": {
+        "title": "乳腺癌肾上腺及脑转移的治疗",
+        "subtitle": "使用阿贝西利、氟维司群及骨改良治疗，并行头部放疗。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "52岁绝经女性，乳腺癌术后先后出现骨、肾上腺及小脑病灶。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "原发ER/PR阳性、HER2 0；转移病灶未提供病理受体复测结果。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "使用阿贝西利、氟维司群及骨改良治疗，并行头部放疗。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "2023年2月肾上腺缩小，原文报告PR；脑部疗效未单独明确。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2020年6月及术后",
+              "title": "原发乳腺癌治疗",
+              "detail": "乳腺术后接受FEC，后阿那曲唑及骨健康相关治疗。"
+            },
+            {
+              "date": "随后随访",
+              "title": "肋骨病变进展",
+              "detail": "肋骨病变进展，接受化疗及局部放疗，化疗药物未详。"
+            },
+            {
+              "date": "2021年12月",
+              "title": "疑肾上腺转移",
+              "detail": "CT发现右肾上腺新病灶，疑似转移。"
+            },
+            {
+              "date": "2022年3—4月",
+              "title": "影像复评及新脑病灶",
+              "detail": "PET/CT支持肾上腺转移判断，MRI后发现小脑病灶。"
+            },
+            {
+              "date": "后续治疗",
+              "title": "系统联合局部策略",
+              "detail": "使用阿贝西利、氟维司群、唑来膦酸，并行头部放疗。"
+            },
+            {
+              "date": "2023年2月",
+              "title": "影像改善",
+              "detail": "肾上腺缩小，原文报告PR；脑部反应未单独明确。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/Q4mQkaeRlDsplSL5Ge7dqw/DJ3dd8fesDyKKzm0PRiQ5sTBhSZqTXH5.png",
+              "timepoint": "2023 年 2 月（推测，对应疗效评估时间点）",
+              "caption": "影像学上肾上腺病灶的显著退缩（Figure C 对比 Figure A/B）提供了直观的疗效证据",
+              "alt": "影像学上肾上腺病灶的显著退缩（Figure C 对比 Figure A/B）提供了直观的疗效证据",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "乳腺癌"
+  },
+  "CASE-8DC486E7": {
+    "schema_version": "1.0",
+    "case_id": "CASE-8DC486E7",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "胆道恶性肿瘤主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "胆管癌治疗前自发性肿瘤溶解",
+      "description": "72岁男性，转移性胆管癌伴肝内高肿瘤负荷及腹水。"
+    },
+    "overview": {
+      "hero": {
+        "title": "胆管癌治疗前自发性肿瘤溶解",
+        "subtitle": "补液、别嘌醇及高钾等支持处理后改善。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "72岁男性，转移性胆管癌伴肝内高肿瘤负荷及腹水。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "尚未抗肿瘤治疗即出现急性肾损伤、高钾、低钙及高尿酸，诊断自发性TLS。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "补液、别嘌醇及高钾等支持处理后改善。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "患者后续选择舒适照护；未提供完整毒性分级资料。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "入院评估",
+              "title": "高肿瘤负荷胆管癌",
+              "detail": "巨大肝内肿瘤负荷及腹水，病理结合临床诊断胆管癌；引流腹水。"
+            },
+            {
+              "date": "住院第5天",
+              "title": "自发性TLS",
+              "detail": "抗肿瘤治疗前即出现急性肾损伤及代谢异常，诊断自发性TLS。"
+            },
+            {
+              "date": "急性处理",
+              "title": "支持与代谢纠正",
+              "detail": "补液、别嘌醇及高钾等支持处理后改善。"
+            },
+            {
+              "date": "病情改善后",
+              "title": "照护目标讨论",
+              "detail": "结合病情及患者意愿，转为舒适照护。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/x-jYUwYN918MsxbLCb-iBg/SODaht2dx61j0zSXH2qA633ikvr7XNRB.png",
+              "timepoint": "入院影像学检查",
+              "caption": "（A）动脉期腹部 CT 和（B）门静脉期显示出现大范围且外观异质的肝脏肿块",
+              "alt": "（A）动脉期腹部 CT 和（B）门静脉期显示出现大范围且外观异质的肝脏肿块",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/x-jYUwYN918MsxbLCb-iBg/OXfOsN9gGBs2otLmHGyZJTfu405BZlbi.png",
+              "timepoint": "病理检查",
+              "caption": "病例资料图2",
+              "alt": "病例资料图2",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://bosdev.liangyihui.net/temp/1659944452.png",
+              "timepoint": "未知",
+              "caption": "无明确图注",
+              "alt": "无明确图注",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "胆道恶性肿瘤"
+  },
+  "CASE-E920FEFC": {
+    "schema_version": "1.0",
+    "case_id": "CASE-E920FEFC",
+    "cancer_type": "胸部肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "三阴性乳腺癌肝内脏危象的治疗",
+      "description": "43岁女性，三阴性乳腺癌多线治疗后出现弥漫肝转移及胆红素升高。"
+    },
+    "overview": {
+      "hero": {
+        "title": "三阴性乳腺癌肝内脏危象的治疗",
+        "subtitle": "戈沙妥珠单抗联合帕博利珠单抗后改善；疑似免疫性膀胱炎后停免疫治疗。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "43岁女性，三阴性乳腺癌多线治疗后出现弥漫肝转移及胆红素升高。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "原文诊断肝内脏危象，既往伴肺及脑转移。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "戈沙妥珠单抗联合帕博利珠单抗后改善；疑似免疫性膀胱炎后停免疫治疗。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "后因费用调整给药，继而肝进展；2025年11月死亡。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2020至2021年",
+              "title": "初始综合治疗",
+              "detail": "新辅助化疗、乳腺手术，继以放疗及卡培他滨。"
+            },
+            {
+              "date": "2021至2023年",
+              "title": "转移后多线治疗",
+              "detail": "肺及脑转移后先后接受化疗、免疫和局部放疗。"
+            },
+            {
+              "date": "2023年后期至2024年初",
+              "title": "治疗耐受与意愿",
+              "detail": "因不良反应及患者意愿，多次调整化疗与维持方案。"
+            },
+            {
+              "date": "2024年4月",
+              "title": "肝危象及挽救治疗",
+              "detail": "弥漫肝转移伴胆红素升高，开始SG联合帕博利珠单抗。"
+            },
+            {
+              "date": "2周期后",
+              "title": "改善及疑似毒性",
+              "detail": "肝病灶改善；疑似免疫性膀胱炎后停帕博利珠单抗，SG维持。"
+            },
+            {
+              "date": "后续至2025年11月",
+              "title": "后期结局",
+              "detail": "因费用减少给药频率，后肝进展；2025年11月因出血及循环衰竭死亡。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/5dDO5u3u5MyDnNMgM0vdQQ/jUmnVkpoeVyco0FKsOE2SmAWLnG9lDdJ.png",
+              "timepoint": "时间未明确",
+              "caption": "无明确相邻图注",
+              "alt": "无明确相邻图注",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/5dDO5u3u5MyDnNMgM0vdQQ/HTF9c04iiXeuHJn9681R5DX9xxQ2smJg.png",
+              "timepoint": "2024 年 4 月 9 日/2024 年 5 月 26 日/2024 年 7 月 31 日",
+              "caption": "图 1 随访影像显示患者肝内转移性肿瘤负荷显著减少",
+              "alt": "图 1 随访影像显示患者肝内转移性肿瘤负荷显著减少",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/5dDO5u3u5MyDnNMgM0vdQQ/ITc6bzUbk8A7sWzW71dZjODqf0GXrgki.png",
+              "timepoint": "时间未明确",
+              "caption": "图 2 患者治疗过程。",
+              "alt": "图 2 患者治疗过程。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "乳腺癌"
+  },
+  "CASE-8B47BE60": {
+    "schema_version": "1.0",
+    "case_id": "CASE-8B47BE60",
+    "cancer_type": "胸部肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "HER2阳性乳腺癌脑转移的后线治疗",
+      "description": "45岁女性，HER2阳性乳腺癌多线治疗及全脑放疗后，出现症状性颅内进展。"
+    },
+    "overview": {
+      "hero": {
+        "title": "HER2阳性乳腺癌脑转移的后线治疗",
+        "subtitle": "结合既往治疗、患者意愿及当时药物可及性，采用维迪西妥单抗。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "45岁女性，HER2阳性乳腺癌多线治疗及全脑放疗后，出现症状性颅内进展。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "2021年9月颅内进展时，原文明确颅外病灶稳定。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "结合既往治疗、患者意愿及当时药物可及性，采用维迪西妥单抗。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "首周期症状改善，5周期MRI为PR；报道颅内控制约12个月。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2017年8月",
+              "title": "初诊转移性乳腺癌",
+              "detail": "HER2阳性乳腺癌伴多处转移，原文cT4bN3cM1。"
+            },
+            {
+              "date": "初始多阶段治疗",
+              "title": "综合治疗",
+              "detail": "接受化疗、抗HER2治疗、手术及后续维持。"
+            },
+            {
+              "date": "2019年4月",
+              "title": "脑转移治疗",
+              "detail": "脑转移后全脑放疗，使用吡咯替尼及卡培他滨，胃肠反应影响用药。"
+            },
+            {
+              "date": "2021年9月",
+              "title": "症状性颅内进展",
+              "detail": "症状性颅内进展、颅外稳定，综合评估后选择RC48。"
+            },
+            {
+              "date": "RC48首周期及5周期后",
+              "title": "症状与MRI反应",
+              "detail": "首周期症状改善，5周期MRI为PR。"
+            },
+            {
+              "date": "后续报道",
+              "title": "颅内控制",
+              "detail": "原文记录颅内控制约12个月。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/CDQJit2OCcelnEyRc12f-w/3rF1subGOOqNfbdjq17uYvBqlaFt2JyH.png",
+              "timepoint": "时间点不详",
+              "caption": "无明确图注文字紧邻。",
+              "alt": "无明确图注文字紧邻。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/CDQJit2OCcelnEyRc12f-w/SwYNVFMDvqPNRgBVhhi8Qqm9yLqdLJ5R.png",
+              "timepoint": "基线期（2021 年 9 月）及治疗 5 周期后",
+              "caption": "图 1. 维迪西妥单抗",
+              "alt": "图 1. 维迪西妥单抗",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/CDQJit2OCcelnEyRc12f-w/zChUFB4y3rDEWehI8liV1uMYYiQ9TE9z.png",
+              "timepoint": "时间点不详",
+              "caption": "注：上表汇总的数据来源于不同的临床试验，鉴于各研究在试验设计",
+              "alt": "注：上表汇总的数据来源于不同的临床试验，鉴于各研究在试验设计",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "乳腺癌"
+  },
+  "CASE-DB524C69": {
+    "schema_version": "1.0",
+    "case_id": "CASE-DB524C69",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "肝癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "肝移植后肝癌肾上腺转移出血",
+      "description": "62岁男性，肝癌肝移植约48个月后出现肾上腺巨大血肿及循环异常。"
+    },
+    "overview": {
+      "hero": {
+        "title": "肝移植后肝癌肾上腺转移出血",
+        "subtitle": "先介入止血再手术，调整免疫抑制；约14个月后局部复发再次切除。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "62岁男性，肝癌肝移植约48个月后出现肾上腺巨大血肿及循环异常。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "术后病理证实肝癌肾上腺转移，切缘阴性。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "先介入止血再手术，调整免疫抑制；约14个月后局部复发再次切除。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "后续AFP波动，影像未见明确病灶，继续随访。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2018年",
+              "title": "肝移植",
+              "detail": "因HCV相关肝硬化及肝癌接受肝移植，术后使用免疫抑制药。"
+            },
+            {
+              "date": "移植后约48个月",
+              "title": "肾上腺出血性转移",
+              "detail": "肾上腺巨大血肿、活动性出血，AFP明显升高。"
+            },
+            {
+              "date": "急性处理及手术",
+              "title": "先止血再切除",
+              "detail": "介入止血后切除，病理证实肝癌转移，切缘阴性。"
+            },
+            {
+              "date": "术后",
+              "title": "调整免疫抑制方案",
+              "detail": "调整免疫抑制方案，原文记载使用依维莫司。"
+            },
+            {
+              "date": "约14个月后",
+              "title": "局部复发再切除",
+              "detail": "局部复发再次切除，后续方案涉及西罗莫司。"
+            },
+            {
+              "date": "后续随访",
+              "title": "AFP与影像动态观察",
+              "detail": "AFP升高后下降，影像未见明确病灶，继续随访。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    },
+    "second_cancer_type": "肝癌"
+  },
+  "CASE-9236151F": {
+    "schema_version": "1.0",
+    "case_id": "CASE-9236151F",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "结肠癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "AFP升高背后的结肠腺癌",
+      "description": "59岁男性因便血就诊，AFP升高，肝脏影像未见可疑占位。"
+    },
+    "overview": {
+      "hero": {
+        "title": "AFP升高背后的结肠腺癌",
+        "subtitle": "行扩大右半结肠切除，术后CAPOX；原文周期与疗程时长不一致。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "59岁男性因便血就诊，AFP升高，肝脏影像未见可疑占位。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "结肠黏液腺癌，AFP染色阳性、pMMR，10枚淋巴结转移；原文T分期待核对。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "行扩大右半结肠切除，术后CAPOX；原文周期与疗程时长不一致。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "CEA、AFP恢复正常，术后1年CT及肠镜未见复发。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "就诊前2个月",
+              "title": "间断便血",
+              "detail": "间断便血，贫血，AFP及CEA升高。"
+            },
+            {
+              "date": "诊断期",
+              "title": "原发定位及肝脏评估",
+              "detail": "肝脏未见占位，结肠肠套叠及腔内肿瘤，CT未见梗阻。"
+            },
+            {
+              "date": "急诊手术",
+              "title": "扩大右半结肠切除",
+              "detail": "扩大右半结肠切除，术后10枚淋巴结阳性；原文T分期待核对。"
+            },
+            {
+              "date": "术后一周",
+              "title": "标志物下降",
+              "detail": "CEA、AFP恢复正常。"
+            },
+            {
+              "date": "术后CAPOX",
+              "title": "辅助治疗",
+              "detail": "完成CAPOX；原文“8周期”与“4个月”的疗程记录待核对。"
+            },
+            {
+              "date": "术后1年",
+              "title": "随访",
+              "detail": "CT及肠镜未见复发。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/57U1GQSIua7f6pYeFfbosQ/vCDgNKEzVRIPDkZNpVASPI4ejPxXApHv.png",
+              "timepoint": "CT 检查时",
+              "caption": "CT 显示肝曲处肠套叠，套叠部分（箭头所示）在轴位和冠状位图像上均呈现为低密度肿块。",
+              "alt": "CT 显示肝曲处肠套叠，套叠部分（箭头所示）在轴位和冠状位图像上均呈现为低密度肿块。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/57U1GQSIua7f6pYeFfbosQ/ij9pFfBRuKJ7c7NSyjJ6PTzAmV7jCXr0.png",
+              "timepoint": "结肠镜检查时",
+              "caption": "结肠镜检查显示，一个大的易碎肿瘤阻塞了整个管腔。",
+              "alt": "结肠镜检查显示，一个大的易碎肿瘤阻塞了整个管腔。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/57U1GQSIua7f6pYeFfbosQ/Pa2840z73Zyrc7Qsok5dFWwxXY5VrxYJ.png",
+              "timepoint": "病理检查时",
+              "caption": "腺癌伴有成群的肿瘤细胞（黑色箭头）漂浮在黏液池中：(A) H&E 染色；(B) AFP 免疫组织化学染色阳性 (x200)。",
+              "alt": "腺癌伴有成群的肿瘤细胞（黑色箭头）漂浮在黏液池中：(A) H&E 染色；(B) AFP 免疫组织化学染色阳性 (x200)。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG4",
+              "src": "https://bosdev.liangyihui.net/temp/1660012838.png",
+              "timepoint": "",
+              "caption": "无明确图注。",
+              "alt": "无明确图注。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG5",
+              "src": "https://bosdev.liangyihui.net/temp/1660012838.png",
+              "timepoint": "",
+              "caption": "无明确图注。",
+              "alt": "无明确图注。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "结肠癌"
+  },
+  "CASE-CC5590E2": {
+    "schema_version": "1.0",
+    "case_id": "CASE-CC5590E2",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "直肠癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "复发性MSS直肠癌的个体化治疗",
+      "description": "50岁女性，直肠癌新辅助治疗及R0切除后14个月出现盆腔复发。"
+    },
+    "overview": {
+      "hero": {
+        "title": "复发性MSS直肠癌的个体化治疗",
+        "subtitle": "感染恢复后采用瑞戈非尼、伊匹木单抗及纳武利尤单抗，并辅以局部放疗。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "50岁女性，直肠癌新辅助治疗及R0切除后14个月出现盆腔复发。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "pMMR/MSS；FOLFOXIRI期间发生坏死性筋膜炎，治疗耐受受限。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "感染恢复后采用瑞戈非尼、伊匹木单抗及纳武利尤单抗，并辅以局部放疗。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "ctDNA、CEA及影像改善，原文报告持续获控。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2021年",
+              "title": "初始诊疗",
+              "detail": "盆腔短程放疗及XELOX后行直肠手术，达到R0。"
+            },
+            {
+              "date": "术后14个月",
+              "title": "局部复发",
+              "detail": "盆腔复发病灶侵犯邻近组织。"
+            },
+            {
+              "date": "复发化疗期间",
+              "title": "严重感染",
+              "detail": "FOLFOXIRI期间坏死性筋膜炎，经清创及ICU治疗恢复。"
+            },
+            {
+              "date": "恢复后",
+              "title": "个体化后线治疗",
+              "detail": "采用个体化RIN方案：瑞戈非尼、伊匹木单抗及纳武利尤单抗。"
+            },
+            {
+              "date": "同期及6个月内",
+              "title": "局部及系统反应",
+              "detail": "局部放疗缓解疼痛及出血；ctDNA、CEA转阴，影像改善。"
+            },
+            {
+              "date": "超过12个月随访",
+              "title": "持续获控",
+              "detail": "原文报告影像及分子学持续获控。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/RJu7VK3cHSGh_R1JaDqUTg/05nS8WJrxYH8Hno8c1Yw0eB2tIWAMzLQ.png",
+              "timepoint": "2023 年 10 月（治疗前）及 2024 年 1 月（治疗后）",
+              "caption": "图 1. 治疗前后患者的 PET 扫描图像",
+              "alt": "图 1. 治疗前后患者的 PET 扫描图像",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "直肠癌"
+  },
+  "CASE-4FDC8196": {
+    "schema_version": "1.0",
+    "case_id": "CASE-4FDC8196",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "小肠癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "十二指肠腺癌伴肝转移的诊疗",
+      "description": "53岁女性因腹痛、黄疸就诊，发现十二指肠第三段肿块及肝病灶。"
+    },
+    "overview": {
+      "hero": {
+        "title": "十二指肠腺癌伴肝转移的诊疗",
+        "subtitle": "接受FOLFOX，期间发生肺栓塞及神经症状，予抗凝及支持治疗。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "53岁女性因腹痛、黄疸就诊，发现十二指肠第三段肿块及肝病灶。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "两处活检支持十二指肠腺癌伴肝转移；肺结节性质未完全确定。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "接受FOLFOX，期间发生肺栓塞及神经症状，予抗凝及支持治疗。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "继续综合管理；神经毒性等级及长期结局未详。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "就诊前约3周",
+              "title": "出现腹部症状",
+              "detail": "出现腹痛、黄疸等症状。"
+            },
+            {
+              "date": "诊断期",
+              "title": "确认十二指肠原发及肝转移",
+              "detail": "十二指肠及肝活检支持原发与转移；肺结节性质未明确。"
+            },
+            {
+              "date": "系统治疗期",
+              "title": "FOLFOX治疗",
+              "detail": "针对转移性疾病使用FOLFOX。"
+            },
+            {
+              "date": "治疗期间",
+              "title": "肺栓塞及神经症状",
+              "detail": "发生肺栓塞及神经症状，予抗凝和支持治疗。"
+            },
+            {
+              "date": "后续照护",
+              "title": "持续症状与治疗评估",
+              "detail": "结合疾病控制及耐受性继续管理，长期结局未提供。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/r7Xbujb3l5N0jfnc_BThyg/uoAdviF0YIkDtpGmzFWTkb6kecmhLVK8.png",
+              "timepoint": "诊断初期",
+              "caption": "腹部和骨盆 CT 静脉造影、动脉期、轴向视图",
+              "alt": "腹部和骨盆 CT 静脉造影、动脉期、轴向视图",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/r7Xbujb3l5N0jfnc_BThyg/8Bt0zPg8WcwZ0QfYO5Tu4L5YYfbkGPVw.png",
+              "timepoint": "诊断初期",
+              "caption": "十二指肠内窥镜图像，黑色箭头表示十二指肠肿块。肿块呈不规则凸起病变，位于十二指肠第三部分，与活检证实的腺癌相符。",
+              "alt": "十二指肠内窥镜图像，黑色箭头表示十二指肠肿块。肿块呈不规则凸起病变，位于十二指肠第三部分，与活检证实的腺癌相符。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/r7Xbujb3l5N0jfnc_BThyg/FnTLPgw9SinTzuKHyPgfkB5plOpSb01D.png",
+              "timepoint": "诊断初期",
+              "caption": "超声引导下穿刺活检，蓝色箭头表示活检针，绿色箭头指向肝肿块。",
+              "alt": "超声引导下穿刺活检，蓝色箭头表示活检针，绿色箭头指向肝肿块。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG4",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/r7Xbujb3l5N0jfnc_BThyg/8NxEVXeEjCjBJPq0zSl4OeQSeSg8uRT4.png",
+              "timepoint": "病理检查",
+              "caption": "HE 染色（20x），红色星号表示腺癌区域；蓝色星号表示 Lieberkühn 隐窝。",
+              "alt": "HE 染色（20x），红色星号表示腺癌区域；蓝色星号表示 Lieberkühn 隐窝。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG5",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/r7Xbujb3l5N0jfnc_BThyg/wxFGFhSG8SwNes2pNBXXYV6moFL0M5zt.png",
+              "timepoint": "病理检查",
+              "caption": "HE 染色（20x），蓝色箭头表示淋巴血管侵袭区域；黄色箭头指向粘蛋白；红色箭头表示小肠（十二指肠）的良性隐窝。",
+              "alt": "HE 染色（20x），蓝色箭头表示淋巴血管侵袭区域；黄色箭头指向粘蛋白；红色箭头表示小肠（十二指肠）的良性隐窝。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG6",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/r7Xbujb3l5N0jfnc_BThyg/c6aym4BrsLlGt8aUDAD0HNhLHmVZgzzK.png",
+              "timepoint": "病理检查",
+              "caption": "HE 染色（20x），橙色箭头表示胆汁背景，黄色箭头表示含有粘蛋白的区域，红色星号表示肝脏内的腺癌区域。",
+              "alt": "HE 染色（20x），橙色箭头表示胆汁背景，黄色箭头表示含有粘蛋白的区域，红色星号表示肝脏内的腺癌区域。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "小肠癌"
+  },
+  "CASE-14D22BE9": {
+    "schema_version": "1.0",
+    "case_id": "CASE-14D22BE9",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "直肠癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "直肠癌胰腺转移合并感染",
+      "description": "60多岁男性因神经症状确诊HER2阳性直肠癌，伴小脑及胰腺转移。"
+    },
+    "overview": {
+      "hero": {
+        "title": "直肠癌胰腺转移合并感染",
+        "subtitle": "抗感染处理后，使用曲妥珠单抗联合帕妥珠单抗。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "60多岁男性因神经症状确诊HER2阳性直肠癌，伴小脑及胰腺转移。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "小脑手术后出现梗阻性胰腺炎及感染性假性囊肿；EUS取材支持直肠来源。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "抗感染处理后，使用曲妥珠单抗联合帕妥珠单抗。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "12周时胰腺病灶、假性囊肿及肿瘤指标改善。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "初诊",
+              "title": "神经及全身检查",
+              "detail": "神经症状及小脑病灶，进一步检查发现直肠病变并活检确诊。"
+            },
+            {
+              "date": "首先局部处理",
+              "title": "小脑手术",
+              "detail": "行小脑转移灶切除。"
+            },
+            {
+              "date": "术后",
+              "title": "感染及胰腺病灶",
+              "detail": "高热，检查提示梗阻性胰腺炎及感染性假性囊肿。"
+            },
+            {
+              "date": "组织获取",
+              "title": "确认胰腺病灶来源",
+              "detail": "EUS取材及免疫组化支持直肠来源胰腺转移。"
+            },
+            {
+              "date": "抗感染改善后",
+              "title": "双HER2治疗",
+              "detail": "抗感染改善后使用曲妥珠单抗联合帕妥珠单抗。"
+            },
+            {
+              "date": "4周期/12周",
+              "title": "复评",
+              "detail": "肿瘤指标下降，胰腺病灶及假性囊肿改善；未提供全身RECIST分级。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/mbhME_wJBpOMUK2Q8u2-FQ/h57ZwUcuE3KoHBYhOnw8oXAAqlOgcwjv.png",
+              "timepoint": "初诊时",
+              "caption": "病例资料图1",
+              "alt": "病例资料图1",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "直肠癌"
+  },
+  "CASE-776A405": {
+    "schema_version": "1.0",
+    "case_id": "CASE-776A405",
+    "cancer_type": "骨与软组织肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/gastric-her2.png",
+      "alt": "胃肠道间质瘤主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "贲门附近胃GIST的保功能切除",
+      "description": "43岁女性，胃贲门附近后壁约3 cm胃肠道间质瘤。"
+    },
+    "overview": {
+      "hero": {
+        "title": "贲门附近胃GIST的保功能切除",
+        "subtitle": "接受改良CLEAN-NET切除，切缘阴性，术后第9天出院。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "43岁女性，胃贲门附近后壁约3 cm胃肠道间质瘤。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "KIT、CD34及DOG1染色阳性，CT未见播散；原文评为低风险。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "接受改良CLEAN-NET切除，切缘阴性，术后第9天出院。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "3个月未见复发；完整核分裂计数未提供。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "术前",
+              "title": "定位及诊断",
+              "detail": "贲门附近胃后壁约3 cm GIST，CT未见明确播散。"
+            },
+            {
+              "date": "手术期",
+              "title": "改良CLEAN-NET切除",
+              "detail": "改良CLEAN-NET切除，兼顾贲门功能。"
+            },
+            {
+              "date": "术后病理",
+              "title": "切缘阴性",
+              "detail": "切缘阴性，原文评为低风险；完整核分裂计数未提供。"
+            },
+            {
+              "date": "术后第9天",
+              "title": "出院",
+              "detail": "恢复后出院。"
+            },
+            {
+              "date": "术后3个月",
+              "title": "随访",
+              "detail": "未见复发，继续随访。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/1wiO66N_AL4gBBxtCAUvHQ/CGCSUAotUVFpXVxGSPA53f3xbQG7GlZp.png",
+              "timepoint": "术前检查",
+              "caption": "图 1.术前检查",
+              "alt": "图 1.术前检查",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/1wiO66N_AL4gBBxtCAUvHQ/XhY3HeNoEctn1gq6KP3K9GoXGe4nyhso.png",
+              "timepoint": "术中操作",
+              "caption": "图 2.改良 CLEAN-NET 手术",
+              "alt": "图 2.改良 CLEAN-NET 手术",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/1wiO66N_AL4gBBxtCAUvHQ/HRABaJILCdkMDht3nuSrsjHOdLLNqQHg.png",
+              "timepoint": "术后病理及标本",
+              "caption": "图 3.切除标本和病理结果",
+              "alt": "图 3.切除标本和病理结果",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG4",
+              "src": "https://bosdev.liangyihui.net/temp/1660012838.png",
+              "timepoint": "时间点不详",
+              "caption": "无明确图注。",
+              "alt": "无明确图注。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG5",
+              "src": "https://bosdev.liangyihui.net/temp/1660012838.png",
+              "timepoint": "时间点不详",
+              "caption": "无明确图注。",
+              "alt": "无明确图注。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "胃肠道间质瘤"
+  },
+  "CASE-E07D1504": {
+    "schema_version": "1.0",
+    "case_id": "CASE-E07D1504",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/gastric-her2.png",
+      "alt": "胃癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "HER2阳性、MSI-H胃癌的转化治疗",
+      "description": "75岁男性，胃癌直接侵犯邻近肝S4，原文cT4bN1M0。"
+    },
+    "overview": {
+      "hero": {
+        "title": "HER2阳性、MSI-H胃癌的转化治疗",
+        "subtitle": "SOX联合曲妥珠单抗3周期后行胃及肝联合切除，达到R0。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "75岁男性，胃癌直接侵犯邻近肝S4，原文cT4bN1M0。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "HER2 3+、MLH1缺失、MSI-H；肝受累为直接侵犯。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "SOX联合曲妥珠单抗3周期后行胃及肝联合切除，达到R0。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "病理pCR；术后因中性粒细胞减少及菌血症停药，7个月未复发。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "初诊",
+              "title": "局部晚期及分子检测",
+              "detail": "胃癌直接侵犯肝S4，HER2 3+、MLH1缺失、MSI-H。"
+            },
+            {
+              "date": "3周期治疗后",
+              "title": "缩瘤复评",
+              "detail": "SOX联合曲妥珠单抗后病灶缩小。"
+            },
+            {
+              "date": "转化手术",
+              "title": "胃及肝联合切除",
+              "detail": "胃及肝联合切除达到R0，病理pCR。"
+            },
+            {
+              "date": "术后继续治疗",
+              "title": "中性粒细胞减少及菌血症",
+              "detail": "持续中性粒细胞减少及菌血症，权衡后停止术后方案。"
+            },
+            {
+              "date": "术后7个月",
+              "title": "末次报道随访",
+              "detail": "未见复发。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/P777nMGaWYgwhEe1h2E5wg/wJCtzpUiDmIN7COuoT4m0KKZCW1ziyy9.jpeg",
+              "timepoint": "化疗前及 3 周期治疗后",
+              "caption": "图 1. a.化疗前食管胃十二指肠镜显示胃窦溃疡性病变；b.3 周期 SOX+Tmab 治疗后原发病灶显著缩小呈白色苔藓样瘢痕。",
+              "alt": "图 1. a.化疗前食管胃十二指肠镜显示胃窦溃疡性病变；b.3 周期 SOX+Tmab 治疗后原发病灶显著缩小呈白色苔藓样瘢痕。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/P777nMGaWYgwhEe1h2E5wg/uDJ1vLXtdhf2ZJbUNkliRJZgtkRQFb53.jpeg",
+              "timepoint": "化疗前及 3 周期治疗后",
+              "caption": "图 2.增强 CT。a,b 化疗前示原发肿瘤、肝门淋巴结和肝 S4 段受累；c,d 3 周期治疗后影像。",
+              "alt": "图 2.增强 CT。a,b 化疗前示原发肿瘤、肝门淋巴结和肝 S4 段受累；c,d 3 周期治疗后影像。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/P777nMGaWYgwhEe1h2E5wg/x1Py9nwEgTaRcUWyNsbJq6Uurqx3DgN8.jpeg",
+              "timepoint": "诊断时",
+              "caption": "图 3. a.HE 染色示中 - 低分化腺癌；b.HER2 染色 3+；c.MLH1 免疫染色阴性。",
+              "alt": "图 3. a.HE 染色示中 - 低分化腺癌；b.HER2 染色 3+；c.MLH1 免疫染色阴性。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG4",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/P777nMGaWYgwhEe1h2E5wg/8tnvHB4hxxpFGHIsTbJCTNO1bmUeYw4j.jpeg",
+              "timepoint": "术后",
+              "caption": "图 4. a.切除胃标本示溃疡疤痕；b.切除肝肿块 (30x20x10mm)。",
+              "alt": "图 4. a.切除胃标本示溃疡疤痕；b.切除肝肿块 (30x20x10mm)。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG5",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/P777nMGaWYgwhEe1h2E5wg/lde8NbmxXIhhXOfPDH1ykF7uWhwIKmAi.jpeg",
+              "timepoint": "术前及术后",
+              "caption": "图 5. a.术前活检示中 - 低分化腺癌；b.术后切除组织未发现存活肿瘤细胞。",
+              "alt": "图 5. a.术前活检示中 - 低分化腺癌；b.术后切除组织未发现存活肿瘤细胞。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG6",
+              "src": "https://bosdev.liangyihui.net/temp/1659944452.png",
+              "timepoint": "",
+              "caption": "无明确图注。",
+              "alt": "无明确图注。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "胃癌"
+  },
+  "CASE-10436F33": {
+    "schema_version": "1.0",
+    "case_id": "CASE-10436F33",
+    "cancer_type": "胸部肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "腹水与胃病变揭示乳腺小叶癌",
+      "description": "53岁女性因腹胀、腹痛及腹水就诊，首次内镜未明确病因。"
+    },
+    "overview": {
+      "hero": {
+        "title": "腹水与胃病变揭示乳腺小叶癌",
+        "subtitle": "先用来曲唑联合瑞波西利，约5个月后进展，改为表柔比星联合环磷酰胺。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "53岁女性因腹胀、腹痛及腹水就诊，首次内镜未明确病因。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "后经胃、腹膜及乳腺取材确诊乳腺小叶癌，伴胃、腹膜及骨转移。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "先用来曲唑联合瑞波西利，约5个月后进展，改为表柔比星联合环磷酰胺。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "现有资料未提供调整化疗后的长期结局。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "就诊阶段",
+              "title": "症状与初检",
+              "detail": "腹痛、腹胀及腹水，首次内镜未明确病因。"
+            },
+            {
+              "date": "后续取材",
+              "title": "寻找来源",
+              "detail": "腹膜及再次胃活检提示乳腺来源可能。"
+            },
+            {
+              "date": "乳腺及分期检查",
+              "title": "确诊",
+              "detail": "乳腺影像及病理确诊小叶癌，伴胃、腹膜及骨转移。"
+            },
+            {
+              "date": "一线治疗",
+              "title": "内分泌联合",
+              "detail": "使用来曲唑联合瑞波西利。"
+            },
+            {
+              "date": "约5个月后",
+              "title": "进展后调整",
+              "detail": "记录疾病进展，改表柔比星联合环磷酰胺。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/-CMI2VLFhHGQTZ8ngH5gPw/6wKMnH4VbfM9FmyPC8QpaACZZ85MpvNf.png",
+              "timepoint": "胃活检及免疫染色阶段",
+              "caption": "图 1. 胃活检病理结果。(A) 胃粘膜独立细胞肿瘤性增生 (×200)。(B) 肿瘤细胞雌激素受体免疫染色 (×100)。",
+              "alt": "图 1. 胃活检病理结果。(A) 胃粘膜独立细胞肿瘤性增生 (×200)。(B) 肿瘤细胞雌激素受体免疫染色 (×100)。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "乳腺癌"
+  },
+  "CASE-E9E45955": {
+    "schema_version": "1.0",
+    "case_id": "CASE-E9E45955",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "小肠癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "小肠腺癌伴双侧卵巢转移",
+      "description": "55岁女性因阴道出血及下腹痛就诊，发现盆腔及小肠肿块。"
+    },
+    "overview": {
+      "hero": {
+        "title": "小肠腺癌伴双侧卵巢转移",
+        "subtitle": "切除肠道及盆腔病变，术后接受XELOX。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "55岁女性因阴道出血及下腹痛就诊，发现盆腔及小肠肿块。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "小肠黏液腺癌伴双侧卵巢转移，3/19枚区域淋巴结阳性；原文N分期待核对。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "切除肠道及盆腔病变，术后接受XELOX。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "报道时恢复良好、仍在化疗；长期结局未提供。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "就诊前10天",
+              "title": "症状出现",
+              "detail": "阴道出血及下腹痛，后疼痛加重。"
+            },
+            {
+              "date": "检查阶段",
+              "title": "小肠及盆腔病变",
+              "detail": "发现小肠及盆腔肿块，活检小肠黏液腺癌。"
+            },
+            {
+              "date": "手术",
+              "title": "肠道及盆腔肿物切除",
+              "detail": "接受肠道及盆腔肿物切除。"
+            },
+            {
+              "date": "最终病理",
+              "title": "确认卵巢转移",
+              "detail": "双侧卵巢转移、3/19枚淋巴结阳性；原文N分期待核对。"
+            },
+            {
+              "date": "术后",
+              "title": "XELOX系统治疗",
+              "detail": "接受XELOX，报道时恢复良好，长期结局未提供。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/0V3tFGZ1yhAjLeQXcTbthw/tjtVmjwNyjdAUtWc4Gx3iV62kHEQUcwV.jpg",
+              "timepoint": "术前",
+              "caption": "图 1. 术前影像学及纤维结肠镜检查。",
+              "alt": "图 1. 术前影像学及纤维结肠镜检查。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/0V3tFGZ1yhAjLeQXcTbthw/3nnRoUSskiKiW3lgbdl1qiqkaEjeOCxc.jpg",
+              "timepoint": "术中",
+              "caption": "图 2. 右半结肠癌根治术术中病理（A～C）和盆腔肿块切除术术中病理（D～F）。",
+              "alt": "图 2. 右半结肠癌根治术术中病理（A～C）和盆腔肿块切除术术中病理（D～F）。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "小肠癌"
+  },
+  "CASE-E3A31C4F": {
+    "schema_version": "1.0",
+    "case_id": "CASE-E3A31C4F",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/esophageal-vaccine.png",
+      "alt": "食管癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "食管鳞癌ESD后的追加治疗",
+      "description": "54岁男性因进食不适就诊，食管病灶接受内镜黏膜下剥离术。"
+    },
+    "overview": {
+      "hero": {
+        "title": "食管鳞癌ESD后的追加治疗",
+        "subtitle": "分期CT见部分纵隔淋巴结稍大，随后行颈胸腹三切口食管切除。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "54岁男性因进食不适就诊，食管病灶接受内镜黏膜下剥离术。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "中低分化鳞癌、pT1a-MM，伴脉管侵犯；垂直切缘阴性，水平切缘距离＜1 mm。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "分期CT见部分纵隔淋巴结稍大，随后行颈胸腹三切口食管切除。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "最终淋巴结病理及长期随访未提供。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "就诊前约2个月",
+              "title": "出现症状",
+              "detail": "进食哽噎等不适促使内镜评估。"
+            },
+            {
+              "date": "内镜治疗",
+              "title": "ESD切除",
+              "detail": "ESD切除病灶约4.5×3.2 cm。"
+            },
+            {
+              "date": "ESD病理",
+              "title": "发现高危因素",
+              "detail": "pT1a-MM伴脉管侵犯，垂直切缘阴性，距水平切缘＜1 mm。"
+            },
+            {
+              "date": "追加治疗前",
+              "title": "再分期及方案讨论",
+              "detail": "CT见部分纵隔淋巴结稍大，尚无病理证实。"
+            },
+            {
+              "date": "后续治疗",
+              "title": "食管切除术",
+              "detail": "行三切口食管切除，最终pN及长期结局未提供。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/RxFqIOTEWBvFjvUO0L_gfg/2g0FMAhY4ktSTnaN6gO51Q59SLISswD4.png",
+              "timepoint": "ESD 手术描述后",
+              "caption": "无明确图注文字",
+              "alt": "无明确图注文字",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/RxFqIOTEWBvFjvUO0L_gfg/JfzJuvxmlGiVm2LBksT3Pe0aCyfvcBQI.png",
+              "timepoint": "病理描述后",
+              "caption": "无明确图注文字",
+              "alt": "无明确图注文字",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/RxFqIOTEWBvFjvUO0L_gfg/QJyp00Xe87f99GBKNH12zxGcDCFUvEpL.png",
+              "timepoint": "治疗策略讨论文本中",
+              "caption": "无明确图注文字",
+              "alt": "无明确图注文字",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG4",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/RxFqIOTEWBvFjvUO0L_gfg/VWUhWvDVwelNbssLNLn99gjbocUrGKqD.png",
+              "timepoint": "研究数据讨论文本中",
+              "caption": "无明确图注文字",
+              "alt": "无明确图注文字",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG5",
+              "src": "https://bosdev.liangyihui.net/temp/1659944452.png",
+              "timepoint": "未知",
+              "caption": "无",
+              "alt": "无",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "食管癌"
+  },
+  "CASE-E251EF18": {
+    "schema_version": "1.0",
+    "case_id": "CASE-E251EF18",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "肝癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "寡转移肝癌系统治疗联合SBRT",
+      "description": "60岁男性，HCV相关肝硬化，肝癌伴T9转移；Child-Pugh A5。"
+    },
+    "overview": {
+      "hero": {
+        "title": "寡转移肝癌系统治疗联合SBRT",
+        "subtitle": "纳武利尤单抗联合仑伐替尼后处理皮肤及疑似肾毒性，继以肝与椎体SBRT。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "60岁男性，HCV相关肝硬化，肝癌伴T9转移；Child-Pugh A5。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "原文BCLC-C，近期有出血性胃溃疡。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "纳武利尤单抗联合仑伐替尼后处理皮肤及疑似肾毒性，继以肝与椎体SBRT。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "停系统治疗后三年多，原文报告影像未见活动性疾病。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "初诊",
+              "title": "肝癌及风险评估",
+              "detail": "HCV肝硬化、肝癌及T9转移，近期有出血性胃溃疡。"
+            },
+            {
+              "date": "系统治疗",
+              "title": "个体化方案",
+              "detail": "先用纳武利尤单抗，1周期后加仑伐替尼。"
+            },
+            {
+              "date": "治疗期间",
+              "title": "皮肤及肾功能变化",
+              "detail": "出现手部皮肤症状，后肌酐升高，临床考虑免疫相关肾毒性。"
+            },
+            {
+              "date": "毒性处理",
+              "title": "暂停与支持治疗",
+              "detail": "局部用药及短期泼尼松，停纳武利尤单抗后改善。"
+            },
+            {
+              "date": "后续",
+              "title": "局部SBRT",
+              "detail": "肝病灶27 Gy/3次；T9病灶及椎体其余区域分别接受单次20 Gy及14 Gy。"
+            },
+            {
+              "date": "长期随访",
+              "title": "暂缓恢复系统治疗",
+              "detail": "SBRT后暂停系统治疗，三年多仍无活动性疾病影像证据。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/mAhjeP4Pf8dU_-DU6nWwnQ/kchZJ61UHRQsUJY6njqkhqO25KT7Yzvq.jpg",
+              "timepoint": "治疗前后",
+              "caption": "图 1. 治疗前后肝脏 CT 对比。",
+              "alt": "图 1. 治疗前后肝脏 CT 对比。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/mAhjeP4Pf8dU_-DU6nWwnQ/q8ram6KdWdfqofXjFI1rm56XXWnv0Rwd.jpg",
+              "timepoint": "治疗期间",
+              "caption": "图 2.治疗期间 AFP 水平变化。",
+              "alt": "图 2.治疗期间 AFP 水平变化。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "肝癌"
+  },
+  "CASE-6E841405": {
+    "schema_version": "1.0",
+    "case_id": "CASE-6E841405",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "结肠癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "MSI-H结肠癌肝转移的转化治疗",
+      "description": "25岁女性，产后确诊升结肠腺癌伴弥漫肝转移。"
+    },
+    "overview": {
+      "hero": {
+        "title": "MSI-H结肠癌肝转移的转化治疗",
+        "subtitle": "XELOX联合贝伐珠单抗后进展，转PD-1相关方案，缓解后切除肝病灶。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "25岁女性，产后确诊升结肠腺癌伴弥漫肝转移。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "MSI-H；原文pT4aN1cM1a，未提供胚系病因结论。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "XELOX联合贝伐珠单抗后进展，转PD-1相关方案，缓解后切除肝病灶。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "肝病灶病理pCR；2021年可疑淋巴结活检阴性，至2023年11月未见复发。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "初诊及急诊手术",
+              "title": "原发与肝转移确认",
+              "detail": "急诊切除原发并肝活检，确认结肠癌伴肝转移。"
+            },
+            {
+              "date": "3疗程XELOX加贝伐珠单抗后",
+              "title": "一线进展",
+              "detail": "肝病灶进展，后续检测提示MSI-H。"
+            },
+            {
+              "date": "后续免疫相关治疗",
+              "title": "多阶段方案",
+              "detail": "先用帕博利珠单抗联合贝伐珠单抗，后因经济因素改特瑞普利单抗相关方案。"
+            },
+            {
+              "date": "2020年3月18日",
+              "title": "转化手术及病理",
+              "detail": "缓解后切除肝病灶，病理pCR。"
+            },
+            {
+              "date": "术后3个月起",
+              "title": "后续系统治疗",
+              "detail": "再次接受6疗程特瑞普利单抗联合贝伐珠单抗。"
+            },
+            {
+              "date": "2021年3月",
+              "title": "可疑淋巴结复核",
+              "detail": "髂外血管旁淋巴结增大，活检未见肿瘤细胞。"
+            },
+            {
+              "date": "2023年11月",
+              "title": "末次报道随访",
+              "detail": "原文记录未见复发或转移。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/ZbUIVESN2SfqtGRHYz_09Q/tW8flyFsbDQw84EOJijZ8XD73IlNKaI5.jpg",
+              "timepoint": "术前",
+              "caption": "图 1. 术前结肠镜检查。",
+              "alt": "图 1. 术前结肠镜检查。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/ZbUIVESN2SfqtGRHYz_09Q/2iwfUtcFxEo5OwOCMIBmc70ExgToRhLi.jpg",
+              "timepoint": "入院时/术前",
+              "caption": "图 2. 腹部增强 CT。",
+              "alt": "图 2. 腹部增强 CT。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/ZbUIVESN2SfqtGRHYz_09Q/8J7jZKZXEmQh42Q2tvKKZSozJ4nheJAi.jpg",
+              "timepoint": "治疗期间",
+              "caption": "图 3. 患者一线和二线治疗期间的血清（A）CA19-9 和（B）CEA 浓度。",
+              "alt": "图 3. 患者一线和二线治疗期间的血清（A）CA19-9 和（B）CEA 浓度。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG4",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/ZbUIVESN2SfqtGRHYz_09Q/24gNmGKAqtMEsaC4ekwo7V6nT5gnlpEa.jpg",
+              "timepoint": "2018 年 3 月至 2020 年 3 月",
+              "caption": "图 4. CT 显示不同时间点的多发性肝转移灶：",
+              "alt": "图 4. CT 显示不同时间点的多发性肝转移灶：",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG5",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/ZbUIVESN2SfqtGRHYz_09Q/e0DQ2Q4jy2r1ATdcAYMWKT6ohqqdce0Z.jpg",
+              "timepoint": "2021 年 3 月",
+              "caption": "图 5. 2021 年 3 月 CT 结果。",
+              "alt": "图 5. 2021 年 3 月 CT 结果。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG6",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/ZbUIVESN2SfqtGRHYz_09Q/6hsmgFnTezJinJOwEWBqAfUwYXLz8pjw.jpg",
+              "timepoint": "全程",
+              "caption": "图 6.该患者诊治经过。",
+              "alt": "图 6.该患者诊治经过。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "结肠癌"
+  }
+}

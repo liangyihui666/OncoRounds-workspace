@@ -1,0 +1,120 @@
+/* Series extension: scoped home layout and private-round UI. Existing clinical styles stay intact. */
+.series-home.home-screen {
+  justify-content: flex-start;
+  height: auto;
+  min-height: 100svh;
+  gap: 20px;
+  padding-top: calc(26px + env(safe-area-inset-top));
+  padding-bottom: calc(24px + env(safe-area-inset-bottom));
+}
+.series-home .home-header { margin-top: 0; }
+.series-home::after { display: none; }
+.series-home #home-panel { min-width: 0; }
+.series-home .home-actions { margin: 18px 0; }
+.series-home .learning-disclaimer { color: #61708a; }
+.series-home .featured-case-section { padding-top: 10px; }
+.series-home .featured-case-copy h2 { font-size: clamp(20px, 5.3vw, 24px); line-height: 1.4; overflow-wrap: anywhere; }
+.series-home .featured-case-copy p { font-size: 14px; line-height: 1.65; }
+.series-home .featured-case-chips span { font-size: 12px; }
+.series-home .featured-case-art { height: clamp(172px, 48vw, 205px); }
+.series-home .featured-case-art img { object-fit: contain; }
+.home-tabs { display: grid; grid-template-columns: 1fr 1fr; padding: 5px; border-radius: 16px; background: #e4eafa; gap: 5px; }
+.home-tabs button { border: 0; background: transparent; color: #56637b; border-radius: 12px; min-height: 46px; font-size: 16px; font-weight: 700; cursor: pointer; }
+.home-tabs button[aria-selected="true"] { color: var(--primary-dark); background: white; box-shadow: 0 3px 10px #5265a014; }
+.cancer-tabs { display: flex; gap: 6px; max-width: 100%; overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: none; padding: 2px 1px 10px; margin-bottom: 4px; }
+.cancer-tabs::-webkit-scrollbar { display: none; }
+.cancer-tabs button { flex: 0 0 auto; padding: 0 13px; min-height: 44px; border: 1px solid #dce3f2; border-radius: 22px; color: #51617e; background: #f7f9ff; font-size: 14px; font-weight: 650; cursor: pointer; }
+.cancer-tabs button[aria-pressed="true"] { color: white; background: var(--primary); border-color: var(--primary); }
+.create-round-entry { display: flex; align-items: center; gap: 12px; width: 100%; padding: 18px 14px; background: #f7f9ff; border: 1px solid #d5def1; border-radius: 20px; text-align: left; cursor: pointer; }
+.create-round-entry > span:nth-child(2) { flex: 1; min-width: 0; }
+.create-round-entry strong { display: block; color: #263756; font-size: 16px; }
+.create-round-entry small { display: block; color: #5f6d86; font-size: 12px; line-height: 1.65; margin-top: 5px; }
+.create-round-entry > svg { flex-shrink: 0; color: var(--primary); width: 20px; height: 20px; }
+.create-round-entry .create-round-plus { width: 34px; height: 34px; padding: 7px; border-radius: 10px; background: #ececff; }
+.demo-footnote { color: #606f88; font-size: 11px; text-align: center; line-height: 1.6; margin: 0; }
+.private-list-heading { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin: 28px 0 16px; }
+.private-list-heading h2 { margin: 0; font-size: 18px; }
+.private-list-heading > span { color: #69758e; font-size: 12px; }
+.private-empty { padding: 38px 14px 60px; text-align: center; color: #586986; }
+.private-empty > svg { color: var(--primary); }
+.private-empty h3 { font-size: 18px; color: #31425f; margin: 16px 0 8px; }
+.private-empty p { font-size: 14px; line-height: 1.8; margin: 0; }
+.private-list { display: grid; gap: 12px; }
+.private-record { display: flex; width: 100%; align-items: flex-start; gap: 14px; border: 1px solid #dbe3f2; border-radius: 18px; padding: 14px; text-align: left; background: #ffffffd9; cursor: pointer; }
+.private-record > img { width: 64px; height: 76px; border-radius: 12px; object-fit: cover; }
+.private-record-copy { flex: 1; min-width: 0; display: grid; gap: 6px; }
+.private-record-copy > small { font-size: 11px; color: #61708a; }
+.private-record-copy > strong { font-size: 15px; line-height: 1.65; overflow-wrap: anywhere; }
+.record-status { justify-self: start; border-radius: 5px; padding: 3px 6px; font-size: 11px; background: #eef0ff; color: #514fc0; }
+.record-status.completed { color: #207366; background: #e4f4ef; }
+.record-action { display: flex; align-items: center; gap: 5px; justify-content: flex-end; font-size: 13px; font-weight: 700; color: var(--primary-dark); }
+.generation-progress { position: sticky; top: 0; z-index: 12; padding: calc(12px + env(safe-area-inset-top)) 18px 12px; background: #f2f6ff; border-bottom: 1px solid #d6dfef; }
+.generation-label { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: 13px; }
+.generation-label > span { font-size: 11px; color: #63708a; }
+.generation-progress ol { list-style: none; padding: 0; margin: 12px 0; display: flex; justify-content: space-between; gap: 7px; }
+.generation-progress li { display: flex; gap: 4px; align-items: center; font-size: 11px; color: #63708a; }
+.generation-progress li.active { color: #514fc0; }
+.generation-progress li > span { display: inline-flex; align-items: center; justify-content: center; width: 18px; height: 18px; border-radius: 50%; background: #e3e8f7; font-size: 11px; }
+.generation-progress li svg { width: 18px; height: 18px; }
+.generation-track { height: 4px; overflow: hidden; border-radius: 2px; background: #dfe5f3; }
+.generation-track > span { display: block; width: 100%; height: 100%; transform-origin: left; background: var(--primary); transition: transform 250ms ease; }
+.generation-banner { display: flex; justify-content: space-between; background: #e4f4ed; padding: 6px 12px; }
+.generation-banner button { border: 0; min-height: 44px; background: transparent; color: #216b56; font-size: 13px; font-weight: 650; cursor: pointer; }
+.generation-banner button:last-child { flex: 0 0 44px; }
+.demo-dialog { padding: 0; border: 0; border-radius: 24px; background: #f7faff; width: min(430px, calc(100vw - 24px)); max-width: calc(100vw - 24px); max-height: calc(100dvh - 32px); overflow: auto; color: var(--ink); box-shadow: 0 24px 80px #1c2e5f35; }
+.demo-dialog::backdrop { background: #24365670; }
+.dialog-heading { position: sticky; top: 0; z-index: 1; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 18px; background: #f7faff; border-bottom: 1px solid #e1e7f2; }
+.dialog-heading h2 { margin: 0; font-size: 18px; line-height: 1.5; }
+.dialog-heading .icon-button { width: 44px; height: 44px; min-height: 44px; flex-shrink: 0; }
+.dialog-content { padding: 18px; }
+.demo-dialog .action-button { width: 100%; margin-top: 10px; }
+.demo-dialog .segmented-tabs { margin: 0 0 18px; }
+.demo-dialog .clinical-info-card { padding: 15px 12px; gap: 10px; }
+.demo-dialog .clinical-info-card p { font-size: 15px; line-height: 1.85; }
+.demo-notice { margin: 0; border-radius: 10px; padding: 12px; background: #e9efff; color: #4859a0; font-size: 13px; line-height: 1.6; }
+.upload-intro, .failure-copy { color: #52627e; line-height: 1.8; font-size: 14px; }
+.upload-methods { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin: 20px 0 14px; }
+.upload-methods button { display: flex; flex-direction: column; align-items: center; gap: 10px; border: 1px solid #d8e1f0; border-radius: 14px; background: white; padding: 18px 4px; font-size: 13px; cursor: pointer; }
+.upload-methods svg { width: 25px; height: 25px; color: var(--primary); }
+.picked-file { border-radius: 10px; background: #edf2fa; padding: 12px; font-size: 13px; color: #576780; overflow-wrap: anywhere; line-height: 1.6; }
+.picked-file small { display: block; margin-top: 5px; }
+.form-field { display: grid; gap: 9px; margin-top: 20px; font-size: 14px; font-weight: 650; }
+.form-field select { box-sizing: border-box; width: 100%; min-width: 0; min-height: 46px; padding: 10px; border: 1px solid #cad6eb; border-radius: 10px; background: white; color: #263756; font: inherit; font-weight: 400; }
+.field-help { margin: 9px 0 0; color: #61708a; font-size: 12px; line-height: 1.75; }
+.demo-controls { margin: 20px 0; color: #5b6980; font-size: 13px; }
+.demo-controls summary { cursor: pointer; min-height: 30px; }
+.completion-copy { text-align: center; padding: 6px 0 20px; }
+.completion-copy > svg { color: #228272; }
+.completion-copy h3 { font-size: 20px; margin: 14px 0 8px; }
+.completion-copy p { line-height: 1.7; font-size: 15px; }
+.completion-copy small { color: #61708a; line-height: 1.7; display: block; }
+.case-content-image { margin: 22px 0 0; padding: 12px; background: white; border-radius: 16px; }
+.case-content-image img { width: 100%; height: auto; object-fit: contain; }
+.case-content-image figcaption { margin-top: 10px; font-size: 12px; line-height: 1.75; color: #56657d; }
+.case-content-image a, .evidence-panel a { color: #4849b9; text-underline-offset: 3px; overflow-wrap: anywhere; }
+.round-screen[data-react-review] .round-progress-copy { min-width: 0; overflow-wrap: anywhere; }
+.round-screen[data-react-review] .round-progress-copy > span { white-space: normal; overflow: visible; text-overflow: clip; line-height: 1.5; }
+.correct-answer { font-weight: 650; }
+.series-home button:focus-visible, .demo-dialog :is(button, select, summary):focus-visible { outline: 3px solid #3975d4; outline-offset: 2px; }
+.series-home button:disabled, .demo-dialog button:disabled { cursor: not-allowed; opacity: .55; }
+::selection { color: #262660; background: #d8dbff; }
+@media (min-width: 560px) {
+  .app-canvas:has(.series-home), .app-frame:has(.series-home) { height: auto; min-height: calc(100vh - 48px); }
+  .series-home.home-screen { min-height: calc(100vh - 48px); padding-top: 30px; }
+}
+@media (max-width: 360px) {
+  .series-home.home-screen { padding-left: 16px; padding-right: 16px; gap: 16px; }
+  .cancer-tabs { gap: 5px; }
+  .cancer-tabs button { padding: 0 10px; }
+  .series-home .featured-case-copy { padding: 14px 11px; margin-left: 9px; margin-right: 9px; }
+  .dialog-heading, .dialog-content { padding: 14px; }
+  .round-screen[data-react-review] .round-header { gap: 6px; }
+  .round-screen[data-react-review] .case-review-trigger { padding: 8px; font-size: 11px; }
+}
+@media (hover: hover) {
+  .create-round-entry:hover, .private-record:hover, .upload-methods button:hover { border-color: #a4afe7; background: #f0f3ff; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .generation-track > span { transition: none; }
+  .series-home .featured-case-card { animation: none; }
+}

@@ -1,0 +1,620 @@
+[
+  {
+    "key": "system_addInputParam",
+    "label": "",
+    "valueType": "dynamic",
+    "required": false,
+    "customInputConfig": {
+      "selectValueTypeList": [
+        "string",
+        "number",
+        "boolean",
+        "object",
+        "arrayString",
+        "arrayNumber",
+        "arrayBoolean",
+        "arrayObject",
+        "arrayAny",
+        "any",
+        "chatHistory",
+        "datasetQuote",
+        "dynamic",
+        "selectDataset",
+        "selectApp"
+      ],
+      "showDescription": false,
+      "showDefaultValue": true
+    },
+    "selectedType": "addInputParam",
+    "renderTypeList": [
+      "addInputParam"
+    ],
+    "debugLabel": "",
+    "description": "workflow:these_variables_will_be_input_parameters_for_code_execution",
+    "toolDescription": "",
+    "canAgentGenerated": false
+  },
+  {
+    "key": "codeType",
+    "label": "",
+    "valueType": "string",
+    "selectedType": "hidden",
+    "renderTypeList": [
+      "hidden"
+    ],
+    "value": "js",
+    "debugLabel": "",
+    "toolDescription": ""
+  },
+  {
+    "key": "code",
+    "label": "",
+    "valueType": "string",
+    "selectedType": "custom",
+    "renderTypeList": [
+      "custom"
+    ],
+    "value": "LONG_CODE",
+    "debugLabel": "",
+    "toolDescription": ""
+  },
+  {
+    "key": "case_id",
+    "label": "case_id",
+    "valueType": "string",
+    "required": false,
+    "customInputConfig": {
+      "selectValueTypeList": [
+        "string",
+        "number",
+        "boolean",
+        "object",
+        "arrayString",
+        "arrayNumber",
+        "arrayBoolean",
+        "arrayObject",
+        "arrayAny",
+        "any",
+        "chatHistory",
+        "datasetQuote",
+        "dynamic",
+        "selectDataset",
+        "selectApp"
+      ],
+      "showDescription": false,
+      "showDefaultValue": true
+    },
+    "selectedType": "reference",
+    "renderTypeList": [
+      "reference"
+    ],
+    "value": [
+      "ogy1PAMdD268kXeo",
+      "svI5Uc"
+    ],
+    "canAgentGenerated": false,
+    "canEdit": true
+  },
+  {
+    "key": "disease",
+    "label": "disease",
+    "valueType": "string",
+    "required": true,
+    "customInputConfig": {
+      "selectValueTypeList": [
+        "string",
+        "number",
+        "boolean",
+        "object",
+        "arrayString",
+        "arrayNumber",
+        "arrayBoolean",
+        "arrayObject",
+        "arrayAny",
+        "any",
+        "chatHistory",
+        "datasetQuote",
+        "dynamic",
+        "selectDataset",
+        "selectApp"
+      ],
+      "showDescription": false,
+      "showDefaultValue": true
+    },
+    "selectedType": "reference",
+    "renderTypeList": [
+      "reference"
+    ],
+    "value": [
+      "ogy1PAMdD268kXeo",
+      "fTvz8J"
+    ],
+    "canAgentGenerated": false,
+    "canEdit": true
+  },
+  {
+    "key": "case_title",
+    "label": "case_title",
+    "valueType": "string",
+    "required": true,
+    "customInputConfig": {
+      "selectValueTypeList": [
+        "string",
+        "number",
+        "boolean",
+        "object",
+        "arrayString",
+        "arrayNumber",
+        "arrayBoolean",
+        "arrayObject",
+        "arrayAny",
+        "any",
+        "chatHistory",
+        "datasetQuote",
+        "dynamic",
+        "selectDataset",
+        "selectApp"
+      ],
+      "showDescription": false,
+      "showDefaultValue": true
+    },
+    "selectedType": "reference",
+    "renderTypeList": [
+      "reference"
+    ],
+    "value": [
+      "ogy1PAMdD268kXeo",
+      "jqRbmC"
+    ],
+    "canAgentGenerated": false,
+    "canEdit": true
+  },
+  {
+    "key": "case_context",
+    "label": "case_context",
+    "valueType": "string",
+    "required": false,
+    "customInputConfig": {
+      "selectValueTypeList": [
+        "string",
+        "number",
+        "boolean",
+        "object",
+        "arrayString",
+        "arrayNumber",
+        "arrayBoolean",
+        "arrayObject",
+        "arrayAny",
+        "any",
+        "chatHistory",
+        "datasetQuote",
+        "dynamic",
+        "selectDataset",
+        "selectApp"
+      ],
+      "showDescription": false,
+      "showDefaultValue": true
+    },
+    "selectedType": "reference",
+    "renderTypeList": [
+      "reference"
+    ],
+    "value": [
+      "ogy1PAMdD268kXeo",
+      "jvAfM5"
+    ],
+    "canAgentGenerated": false,
+    "canEdit": true
+  },
+  {
+    "key": "learning_points",
+    "label": "learning_points",
+    "valueType": "string",
+    "required": false,
+    "customInputConfig": {
+      "selectValueTypeList": [
+        "string",
+        "number",
+        "boolean",
+        "object",
+        "arrayString",
+        "arrayNumber",
+        "arrayBoolean",
+        "arrayObject",
+        "arrayAny",
+        "any",
+        "chatHistory",
+        "datasetQuote",
+        "dynamic",
+        "selectDataset",
+        "selectApp"
+      ],
+      "showDescription": false,
+      "showDefaultValue": true
+    },
+    "selectedType": "reference",
+    "renderTypeList": [
+      "reference"
+    ],
+    "value": [
+      "ogy1PAMdD268kXeo",
+      "nZ569o"
+    ],
+    "canAgentGenerated": false,
+    "canEdit": true
+  },
+  {
+    "key": "case_timeline",
+    "label": "case_timeline",
+    "valueType": "string",
+    "required": false,
+    "customInputConfig": {
+      "selectValueTypeList": [
+        "string",
+        "number",
+        "boolean",
+        "object",
+        "arrayString",
+        "arrayNumber",
+        "arrayBoolean",
+        "arrayObject",
+        "arrayAny",
+        "any",
+        "chatHistory",
+        "datasetQuote",
+        "dynamic",
+        "selectDataset",
+        "selectApp"
+      ],
+      "showDescription": false,
+      "showDefaultValue": true
+    },
+    "selectedType": "reference",
+    "renderTypeList": [
+      "reference"
+    ],
+    "value": [
+      "ogy1PAMdD268kXeo",
+      "wjaggH"
+    ],
+    "canAgentGenerated": false,
+    "canEdit": true
+  },
+  {
+    "key": "biomarkers",
+    "label": "biomarkers",
+    "valueType": "string",
+    "required": false,
+    "customInputConfig": {
+      "selectValueTypeList": [
+        "string",
+        "number",
+        "boolean",
+        "object",
+        "arrayString",
+        "arrayNumber",
+        "arrayBoolean",
+        "arrayObject",
+        "arrayAny",
+        "any",
+        "chatHistory",
+        "datasetQuote",
+        "dynamic",
+        "selectDataset",
+        "selectApp"
+      ],
+      "showDescription": false,
+      "showDefaultValue": true
+    },
+    "selectedType": "reference",
+    "renderTypeList": [
+      "reference"
+    ],
+    "value": [
+      "ogy1PAMdD268kXeo",
+      "aaTHm3"
+    ],
+    "canAgentGenerated": false,
+    "canEdit": true
+  },
+  {
+    "key": "decision_points",
+    "label": "decision_points",
+    "valueType": "string",
+    "required": false,
+    "customInputConfig": {
+      "selectValueTypeList": [
+        "string",
+        "number",
+        "boolean",
+        "object",
+        "arrayString",
+        "arrayNumber",
+        "arrayBoolean",
+        "arrayObject",
+        "arrayAny",
+        "any",
+        "chatHistory",
+        "datasetQuote",
+        "dynamic",
+        "selectDataset",
+        "selectApp"
+      ],
+      "showDescription": false,
+      "showDefaultValue": true
+    },
+    "selectedType": "reference",
+    "renderTypeList": [
+      "reference"
+    ],
+    "value": [
+      "ogy1PAMdD268kXeo",
+      "n5nH06"
+    ],
+    "canAgentGenerated": false,
+    "canEdit": true
+  },
+  {
+    "key": "case_image_index",
+    "label": "case_image_index",
+    "valueType": "string",
+    "required": false,
+    "customInputConfig": {
+      "selectValueTypeList": [
+        "string",
+        "number",
+        "boolean",
+        "object",
+        "arrayString",
+        "arrayNumber",
+        "arrayBoolean",
+        "arrayObject",
+        "arrayAny",
+        "any",
+        "chatHistory",
+        "datasetQuote",
+        "dynamic",
+        "selectDataset",
+        "selectApp"
+      ],
+      "showDescription": false,
+      "showDefaultValue": true
+    },
+    "selectedType": "reference",
+    "renderTypeList": [
+      "reference"
+    ],
+    "value": [
+      "ogy1PAMdD268kXeo",
+      "g7Y0Kp"
+    ],
+    "canAgentGenerated": false,
+    "canEdit": true
+  },
+  {
+    "key": "difficulty",
+    "label": "difficulty",
+    "valueType": "string",
+    "required": false,
+    "customInputConfig": {
+      "selectValueTypeList": [
+        "string",
+        "number",
+        "boolean",
+        "object",
+        "arrayString",
+        "arrayNumber",
+        "arrayBoolean",
+        "arrayObject",
+        "arrayAny",
+        "any",
+        "chatHistory",
+        "datasetQuote",
+        "dynamic",
+        "selectDataset",
+        "selectApp"
+      ],
+      "showDescription": false,
+      "showDefaultValue": true
+    },
+    "selectedType": "reference",
+    "renderTypeList": [
+      "reference"
+    ],
+    "value": [
+      "ogy1PAMdD268kXeo",
+      "geFy5d"
+    ],
+    "canAgentGenerated": false,
+    "canEdit": true
+  },
+  {
+    "key": "candidate_pool",
+    "label": "candidate_pool",
+    "valueType": "object",
+    "required": true,
+    "customInputConfig": {
+      "selectValueTypeList": [
+        "string",
+        "number",
+        "boolean",
+        "object",
+        "arrayString",
+        "arrayNumber",
+        "arrayBoolean",
+        "arrayObject",
+        "arrayAny",
+        "any",
+        "chatHistory",
+        "datasetQuote",
+        "dynamic",
+        "selectDataset",
+        "selectApp"
+      ],
+      "showDescription": false,
+      "showDefaultValue": true
+    },
+    "selectedType": "reference",
+    "renderTypeList": [
+      "reference"
+    ],
+    "value": [
+      "bJcPjyWI8hiwuVOS",
+      "r26CandidatePool"
+    ],
+    "canAgentGenerated": false,
+    "canEdit": true
+  },
+  {
+    "key": "cancer_type",
+    "label": "cancer_type",
+    "valueType": "string",
+    "required": false,
+    "customInputConfig": {
+      "selectValueTypeList": [
+        "string",
+        "number",
+        "boolean",
+        "object",
+        "arrayString",
+        "arrayNumber",
+        "arrayBoolean",
+        "arrayObject",
+        "arrayAny",
+        "any",
+        "chatHistory",
+        "datasetQuote",
+        "dynamic",
+        "selectDataset",
+        "selectApp"
+      ],
+      "showDescription": false,
+      "showDefaultValue": true
+    },
+    "selectedType": "reference",
+    "renderTypeList": [
+      "reference"
+    ],
+    "value": [
+      "ogy1PAMdD268kXeo",
+      "oncCancerType"
+    ],
+    "debugLabel": "",
+    "toolDescription": "",
+    "canAgentGenerated": false,
+    "canEdit": true
+  },
+  {
+    "key": "second_cancer_type",
+    "label": "second_cancer_type",
+    "valueType": "string",
+    "required": false,
+    "customInputConfig": {
+      "selectValueTypeList": [
+        "string",
+        "number",
+        "boolean",
+        "object",
+        "arrayString",
+        "arrayNumber",
+        "arrayBoolean",
+        "arrayObject",
+        "arrayAny",
+        "any",
+        "chatHistory",
+        "datasetQuote",
+        "dynamic",
+        "selectDataset",
+        "selectApp"
+      ],
+      "showDescription": false,
+      "showDefaultValue": true
+    },
+    "selectedType": "reference",
+    "renderTypeList": [
+      "reference"
+    ],
+    "value": [
+      "ogy1PAMdD268kXeo",
+      "oncSecondCancerType"
+    ],
+    "debugLabel": "",
+    "toolDescription": "",
+    "canAgentGenerated": false,
+    "canEdit": true
+  },
+  {
+    "key": "transport_mode",
+    "label": "transport_mode",
+    "valueType": "string",
+    "required": false,
+    "customInputConfig": {
+      "selectValueTypeList": [
+        "string",
+        "number",
+        "boolean",
+        "object",
+        "arrayString",
+        "arrayNumber",
+        "arrayBoolean",
+        "arrayObject",
+        "arrayAny",
+        "any",
+        "chatHistory",
+        "datasetQuote",
+        "dynamic",
+        "selectDataset",
+        "selectApp"
+      ],
+      "showDescription": false,
+      "showDefaultValue": true
+    },
+    "selectedType": "reference",
+    "renderTypeList": [
+      "reference"
+    ],
+    "value": [
+      "448745",
+      "userChatInput"
+    ],
+    "canAgentGenerated": false,
+    "canEdit": true
+  },
+  {
+    "key": "extraction_check",
+    "label": "extraction_check",
+    "valueType": "object",
+    "required": false,
+    "customInputConfig": {
+      "selectValueTypeList": [
+        "string",
+        "number",
+        "boolean",
+        "object",
+        "arrayString",
+        "arrayNumber",
+        "arrayBoolean",
+        "arrayObject",
+        "arrayAny",
+        "any",
+        "chatHistory",
+        "datasetQuote",
+        "dynamic",
+        "selectDataset",
+        "selectApp"
+      ],
+      "showDescription": false,
+      "showDefaultValue": true
+    },
+    "selectedType": "reference",
+    "renderTypeList": [
+      "reference"
+    ],
+    "value": [
+      "ogy1PAMdD268kXeo",
+      "extraction_check"
+    ],
+    "canAgentGenerated": false,
+    "canEdit": true
+  }
+]

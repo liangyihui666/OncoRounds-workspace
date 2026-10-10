@@ -1,0 +1,36 @@
+{
+  "revision": "20260928-applicability-five",
+  "base": "20260928-structured-five",
+  "changed_nodes": [
+    {
+      "id": "sR35QbYF2xamDQR3",
+      "name": "题目生成-首轮"
+    },
+    {
+      "id": "cmuTcUhJefVm2DC6",
+      "name": "首轮格式预检"
+    },
+    {
+      "id": "v12RevisionInput",
+      "name": "第二轮修订输入"
+    },
+    {
+      "id": "v12RevisionGenerator",
+      "name": "题目修订-第二轮"
+    },
+    {
+      "id": "v12AssemblyR2",
+      "name": "最终程序检查与引用装配"
+    },
+    {
+      "id": "v12FinalPublicationNormalize",
+      "name": "整理最终输出"
+    }
+  ],
+  "knowledge_base_and_queries_unchanged": true,
+  "checkmate_source_conflict": "out_of_scope_per_user",
+  "public_schema_unchanged": true,
+  "model_calls": 2,
+  "online_verified": false,
+  "medical_correctness_verified": false
+}

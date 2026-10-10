@@ -1,0 +1,5 @@
+# BETA角标
+
+内置 image_gen 生成，成品 OncoRounds-BETA.png。
+
+Create a single isolated UI badge asset for a light blue / violet medical mobile app, meant as a small superscript at the upper-right corner of a Chinese navigation tab. Exact text: BETA (all uppercase, four letters only). Clean flat rounded rectangle, wide horizontal proportions approximately 2.7:1, modest corner radius, soft very pale lavender fill #EEE9FF, clear dark violet #6954CF text. Medium-bold neutral sans-serif, excellent legibility at small display sizes, balanced letter spacing, centered text with modest even internal padding. Badge alone, tightly framed with a small transparent margin, TRUE transparent alpha background outside the badge. No other text, no Chinese tab label, no screen mockup, no icons, no spheres, no gradients, no glow, no 3D, no drop shadow, no decorative border, no watermark. This is a quiet secondary BETA status label, not a headline or a button. Deliver PNG with real transparency, not a checkerboard baked into the image.

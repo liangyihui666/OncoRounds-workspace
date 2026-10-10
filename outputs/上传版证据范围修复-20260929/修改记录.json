@@ -1,0 +1,48 @@
+{
+  "source": "C:/Users/admin/.codex/attachments/00063ce5-cdef-4bc1-a44d-d812d02ee114/已粘贴的文本.txt",
+  "source_sha256": "7827c211a7a099b6d24cc17705ba0c906cdfa59692fcc6ffeb86d843078683b8",
+  "revision": "20260929-source-scope-five",
+  "changed_nodes": [
+    {
+      "id": "sR35QbYF2xamDQR3",
+      "name": "题目生成-首轮"
+    },
+    {
+      "id": "v11EvidenceRegistry",
+      "name": "证据注册与压缩-最终"
+    },
+    {
+      "id": "v11EvidenceRegistryInitial",
+      "name": "证据注册与压缩-初检"
+    },
+    {
+      "id": "v12RevisionInput",
+      "name": "第二轮修订输入"
+    },
+    {
+      "id": "v12RevisionGenerator",
+      "name": "题目修订-第二轮"
+    },
+    {
+      "id": "v12FinalPublicationNormalize",
+      "name": "整理最终输出"
+    }
+  ],
+  "removed_error_edge": {
+    "source": "v12RevisionInput",
+    "target": "v12RevisionGenerator",
+    "sourceHandle": "v12RevisionInput-source_catch-right",
+    "targetHandle": "v12RevisionGenerator-target-left"
+  },
+  "nodes": 33,
+  "edges": 52,
+  "models_unchanged": true,
+  "retrieval_calls_unchanged": true,
+  "public_contract_unchanged": true,
+  "online_run": false,
+  "prompt_lengths": {
+    "before": 3403,
+    "after": 3204
+  },
+  "upstream_html_extraction_included": false
+}

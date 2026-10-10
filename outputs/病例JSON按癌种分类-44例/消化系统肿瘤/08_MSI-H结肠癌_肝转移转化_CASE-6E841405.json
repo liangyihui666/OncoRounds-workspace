@@ -1,0 +1,257 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-6E841405",
+    "cancer_type": "消化系统肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "术后病理分期",
+        "timepoint": "入院后第二天急诊手术后",
+        "question": "患者急诊行姑息性右半结肠切除术及肝活检，病理示淋巴结 0/2 转移，但存在 2 个肿瘤沉积灶。依据 AJCC 第八版分期系统，该患者的 N 分期应如何判定？",
+        "options": {
+          "A": "N1c 期，无淋巴结转移但存在肿瘤沉积灶",
+          "B": "N0 期，因为区域淋巴结未见明确转移证据",
+          "C": "N2a 期，将肿瘤沉积灶直接等同于淋巴结计数",
+          "D": "M1c 期，误将肿瘤沉积灶视为腹膜表面转移"
+        },
+        "answer": "A",
+        "answer_text": "N1c 期，无淋巴结转移但存在肿瘤沉积灶",
+        "explain": "AJCC 第八版规定，无区域淋巴结转移但存在肿瘤沉积灶（TD）时，分期为 N1c。TD 不计入淋巴结数目，但决定 N 分期等级。",
+        "keyPoint": "无淋巴结转移但有肿瘤沉积灶时，结直肠癌 N 分期定为 N1c。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "ba3e5661-e413-4e06-a609-c1c957a2146c",
+          "split_index": 62,
+          "type": "guideline",
+          "authority": "国家卫生健康委员会医政司, 中华医学会肿瘤学分会",
+          "source_title": "国家卫生健康委员会中国结直肠癌诊疗规范（2023版）",
+          "source_version": "2023",
+          "source_section": "远处转移（M）",
+          "source_url": "",
+          "evidence_summary": "指南明确 M1a 为单器官转移，且分期表中定义 N1c 为无淋巴结转移但有肿瘤沉积灶的情况。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "分子诊断",
+        "phase": "二线治疗前检测",
+        "timepoint": "一线化疗进展后",
+        "question": "患者一线化疗进展后行 NGS 检测发现 MSI-H。关于结直肠癌 MSI 检测的策略与时机，下列哪项描述最符合当前专家共识？",
+        "options": {
+          "A": "仅晚期患者需要检测，早期患者无需筛查 MSI 状态",
+          "B": "MSI 检测适用于所有分期结直肠癌，免疫组化筛查异常需进一步确认",
+          "C": "KRAS 突变患者无需检测 MSI，因为两者互斥",
+          "D": "只有在化疗无效时才进行 MSI 检测，初诊不建议检测"
+        },
+        "answer": "B",
+        "answer_text": "MSI 检测适用于所有分期结直肠癌，免疫组化筛查异常需进一步确认",
+        "explain": "共识推荐 MSI 检测适用于所有分期结直肠癌。MMR 免疫组化可作为常规筛查，MSI-H 与 dMMR 高度一致，必要时需相互补充验证。",
+        "keyPoint": "MSI 检测应覆盖所有分期结直肠癌，不仅限于晚期或特定治疗线次。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "f51ad2ef-8e21-42f9-bfd1-f2ed36512587",
+          "split_index": 162,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 病理诊断",
+          "source_version": "2023",
+          "source_section": "（四）分子病理诊断",
+          "source_url": "",
+          "evidence_summary": "指南指出 MSI 检测适用于所有分期结直肠癌，MSI-H 与 dMMR 具高度一致性，推荐作为常规筛查手段。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "二线治疗选择",
+        "timepoint": "确认 MSI-H 后",
+        "question": "患者一线含奥沙利铂方案进展且不耐受，确诊 MSI-H 后，二线治疗的最佳策略是什么？",
+        "options": {
+          "A": "继续更换化疗方案如 FOLFIRI 联合抗 EGFR 抗体",
+          "B": "立即行肝转移灶射频消融术，暂停全身治疗",
+          "C": "优先推荐 PD-1 单抗治疗，可联合抗血管生成药物",
+          "D": "使用双免疗法（纳武利尤单抗 + 伊匹木单抗）作为唯一标准"
+        },
+        "answer": "C",
+        "answer_text": "优先推荐 PD-1 单抗治疗，可联合抗血管生成药物",
+        "explain": "对于 MSI-H/dMMR 患者，不论 RAS 状态，优先推荐 PD-1 单抗。本例中联合贝伐珠单抗实现了转化治疗，符合指南推荐方向。",
+        "keyPoint": "MSI-H 转移性结直肠癌二线优先推荐免疫检查点抑制剂治疗。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "745fcee1-ab81-490d-96fc-517f2a543f7b",
+          "split_index": 53,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "结肠癌",
+          "source_version": "2024",
+          "source_section": "3 不可切除的结肠癌肝转移",
+          "source_url": "",
+          "evidence_summary": "指南推荐不论 RAS/BRAF 状态，对 MSI-H/dMMR 患者均优先推荐 PD-1 单抗，也可考虑双免疗法。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "疗效复评与局部治疗",
+        "phase": "转化治疗评估与手术决策",
+        "timepoint": "免疫治疗 11 疗程后",
+        "question": "患者经免疫联合治疗后影像学提示肝转移灶可能完全缓解，此时行手术切除的主要依据和目的是什么？",
+        "options": {
+          "A": "影像学完全缓解即可确诊 pCR，手术仅为巩固治疗",
+          "B": "必须等待肿瘤标志物完全正常方可手术，否则禁忌切除",
+          "C": "免疫治疗后手术并发症极高，应无限期推迟手术观察",
+          "D": "影像学存在假阴性可能，手术旨在获取病理证实并清除潜在残留"
+        },
+        "answer": "D",
+        "answer_text": "影像学存在假阴性可能，手术旨在获取病理证实并清除潜在残留",
+        "explain": "影像学评估完全缓解（cCR）不完全等同于病理完全缓解（pCR）。手术可确认 pCR 状态并清除可能存在的微小残留病灶，防止复发。",
+        "keyPoint": "影像学完全缓解需病理证实，手术是确认 pCR 和清除残留的关键手段。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "745fcee1-ab81-490d-96fc-517f2a543f7b",
+          "split_index": 50,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "结肠癌",
+          "source_version": "2024",
+          "source_section": "（3）免疫检查点抑制剂治疗",
+          "source_url": "",
+          "evidence_summary": "指南指出转化治疗需评估可切除性，TRG 分级评估病理退缩，影像学与病理结果需结合判断。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "治疗决策",
+        "phase": "二线治疗阶段",
+        "timepoint": "确认 MSI-H 后",
+        "question": "患者一线化疗联合贝伐珠单抗治疗进展，二线检测到 MSI-H。考虑到患者初始不可切除且有强烈转化手术需求，下列哪种治疗策略最符合该病例的个体化决策逻辑？",
+        "options": {
+          "A": "帕博利珠单抗联合贝伐珠单抗，旨在追求深度缓解以争取转化",
+          "B": "严格遵循指南首选单药帕博利珠单抗，避免联合用药风险",
+          "C": "纳武利尤单抗联合伊匹木单抗，作为唯一标准的双免疗法",
+          "D": "更换化疗方案为 FOLFIRI，继续联合贝伐珠单抗维持"
+        },
+        "answer": "A",
+        "answer_text": "帕博利珠单抗联合贝伐珠单抗，旨在追求深度缓解以争取转化",
+        "explain": "指南推荐 MSI-H 患者优先免疫治疗。虽单药或双免为标准，但在初始不可切除需转化时，联合抗血管生成药物可能提高缓解深度（如本例 pCR）。此为基于转化目标的个体化探索，非通用标准。",
+        "keyPoint": "转化治疗场景下，为追求最大退缩，可在免疫基础上联合抗血管生成药物，但需权衡风险。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "745fcee1-ab81-490d-96fc-517f2a543f7b",
+          "split_index": 50,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "结肠癌",
+          "source_version": "2024",
+          "source_section": "（3）免疫检查点抑制剂治疗",
+          "source_url": "",
+          "evidence_summary": "指南提及免疫治疗用于 MSI-H 肝转移，联合贝伐珠单抗需注意手术间隔，支持在特定目标下联合应用的可行性。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-6E841405",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "结肠癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "年轻结肠癌患者的分期与治疗",
+      "description": "25岁女性，产后确诊升结肠腺癌伴弥漫肝转移。"
+    },
+    "overview": {
+      "hero": {
+        "title": "年轻结肠癌患者的分期与治疗",
+        "subtitle": "化疗后进展时的分子检测、免疫治疗后的手术评估，以及新发淋巴结的性质判断。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "25岁女性，产后确诊升结肠腺癌伴弥漫肝转移。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "MSI-H；原文pT4aN1cM1a，未提供胚系病因结论。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "XELOX联合贝伐珠单抗后进展，转PD-1相关方案，缓解后切除肝病灶。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "化疗后进展时的分子检测、免疫治疗后的手术评估，以及新发淋巴结的性质判断。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "初诊及急诊手术",
+              "title": "原发与肝转移确认",
+              "detail": "急诊切除原发并肝活检，确认结肠癌伴肝转移。"
+            },
+            {
+              "date": "3疗程XELOX加贝伐珠单抗后",
+              "title": "一线进展",
+              "detail": "肝病灶进展，后续检测提示MSI-H。"
+            },
+            {
+              "date": "后续免疫相关治疗",
+              "title": "多阶段方案",
+              "detail": "先用帕博利珠单抗联合贝伐珠单抗，后因经济因素改特瑞普利单抗相关方案。"
+            },
+            {
+              "date": "2020年3月18日",
+              "title": "转化手术及病理",
+              "detail": "缓解后切除肝病灶，病理pCR。"
+            },
+            {
+              "date": "术后3个月起",
+              "title": "后续系统治疗",
+              "detail": "再次接受6疗程特瑞普利单抗联合贝伐珠单抗。"
+            },
+            {
+              "date": "2021年3月",
+              "title": "可疑淋巴结复核",
+              "detail": "髂外血管旁淋巴结增大，活检未见肿瘤细胞。"
+            },
+            {
+              "date": "2023年11月",
+              "title": "末次报道随访",
+              "detail": "原文记录未见复发或转移。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

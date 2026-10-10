@@ -1,0 +1,208 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-46B8BDDE",
+    "cancer_type": "消化系统肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "初始分期资料复核",
+        "timepoint": "2019年2月的教学复盘",
+        "question": "原文将肝内胆管癌记为T4N0M0，但现有影像描述主要为巨大肝内病灶及其他肝内结节。核对AJCC第8版T4时，最需要确认哪项依据？",
+        "options": {
+          "A": "是否直接侵犯局部肝外组织或结构",
+          "B": "是否存在多发肝内病灶",
+          "C": "最大病灶直径是否超过5 cm",
+          "D": "是否伴CA19-9明显升高"
+        },
+        "answer": "A",
+        "answer_text": "是否直接侵犯局部肝外组织或结构",
+        "explain": "肝内胆管癌的T4依据是直接侵犯局部肝外结构，不能由病灶巨大或肝内多灶单独推出。教学中应保留原文分期记载并说明待核实，不能为使分期成立而补造侵犯范围。",
+        "keyPoint": "分期标签与支持它的解剖证据必须对应。",
+        "guidelineRef": {
+          "evidence_type": "权威诊疗资料",
+          "doc_id": "",
+          "split_index": null,
+          "type": "reference",
+          "authority": "NCI",
+          "source_title": "Bile Duct Cancer (Cholangiocarcinoma) Treatment (PDQ®)–Health Professional Version",
+          "source_version": "",
+          "source_section": "",
+          "source_url": "https://www.cancer.gov/types/liver/hp/bile-duct-treatment-pdq",
+          "evidence_summary": "AJCC第8版肝内胆管癌T4为直接侵犯局部肝外结构；肝内多灶本身不能证明T4。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "分子诊断",
+        "phase": "分子检测策略复核",
+        "timepoint": "基于现有指南回顾初诊检测",
+        "question": "当时仅检测EGFR、ALK和ROS1，发现EGFR外显子19缺失。若按现有胆道癌检测策略补充评估，最合理的是？",
+        "options": {
+          "A": "补齐本病种可干预靶点及MMR/MSI等检测",
+          "B": "仅增加血清肿瘤标志物，替代组织分子检测",
+          "C": "按肺癌阳性结果直接套用肺癌用药序列",
+          "D": "重复同一EGFR检测，阳性后不再扩大检测"
+        },
+        "answer": "A",
+        "answer_text": "补齐本病种可干预靶点及MMR/MSI等检测",
+        "explain": "本题是使用现有证据进行教学复盘，不认定2019年的医生已掌握后来的推荐。胆道癌需评估FGFR2、IDH1、BRAF、HER2等相关改变及免疫治疗相关指标；已检出EGFR不代表其余项目阴性或无价值。",
+        "keyPoint": "按原发病种补齐可干预检测，不能被单一阳性结果截断检测路径。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "ESMO Clinical Practice Guideline interim update on the management of biliary tract cancer",
+          "source_version": "2024",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11846563/",
+          "evidence_summary": "晚期胆道癌推荐分子谱检测，以覆盖本病种具有治疗意义的改变。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "适应症外用药证据评估",
+        "timepoint": "阿法替尼治疗前的教学复盘",
+        "question": "该肝内胆管癌患者拒绝标准化疗，团队依据EGFR外显子19缺失尝试阿法替尼。评价这项决策时，应坚持哪一原则？",
+        "options": {
+          "A": "患者拒绝标准化疗后，分子匹配即可替代疗效证据",
+          "B": "需核对胆道癌特定证据，不能仅据肺癌获益作标准推荐",
+          "C": "相同EGFR变异在不同器官原发癌中具有相同药物敏感性",
+          "D": "通过重复检测证实变异即可免除证据不确定性讨论"
+        },
+        "answer": "B",
+        "answer_text": "需核对胆道癌特定证据，不能仅据肺癌获益作标准推荐",
+        "explain": "检测结果与治疗获益不是同一概念。适应症外尝试应明确证据不足、替代方案与监测计划；也不能用这一个患者的失败反向证明所有EGFR突变胆管癌必然无效。",
+        "keyPoint": "跨癌种分子匹配须重新核对药物适用证据。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "ESMO Clinical Practice Guideline interim update on the management of biliary tract cancer",
+          "source_version": "2024",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11846563/",
+          "evidence_summary": "ESMO胆道癌靶向治疗推荐对应具体分子改变、药物及病种证据，不能整体套用肺癌推荐。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "疗效复评与局部治疗",
+        "phase": "首次疗效评估",
+        "timepoint": "阿法替尼治疗1个月后",
+        "question": "原文报告肿瘤最长径较基线增大80%，并将疗效判定为PD。若独立复核RECIST 1.1，以下哪项资料最关键？",
+        "options": {
+          "A": "核对靶病灶径线总和、研究中最小值及新病灶情况",
+          "B": "仅核对腹痛和腹胀是否同步恶化",
+          "C": "仅核对最大单灶相对基线的百分比变化",
+          "D": "以EGFR突变阳性作为延迟判定进展的依据"
+        },
+        "answer": "A",
+        "answer_text": "核对靶病灶径线总和、研究中最小值及新病灶情况",
+        "explain": "RECIST 1.1按靶病灶径线总和相对研究中最小值评估，进展需满足相对及绝对增加条件；新病灶等也影响总体评价。摘要中的单灶百分比不能替代完整测量表，本题不擅自推翻原文PD记录。",
+        "keyPoint": "复核PD应回到完整测量规则，而非只看一个病灶的百分比。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "RECIST Working Group",
+          "source_title": "New response evaluation criteria in solid tumours: revised RECIST guideline (version 1.1)",
+          "source_version": "2009",
+          "source_section": "",
+          "source_url": "https://project.eortc.org/recist/wp-content/uploads/sites/4/2015/03/RECISTGuidelines.pdf",
+          "evidence_summary": "靶病灶PD要求径线总和较最小值增加≥20%且绝对增加≥5 mm；需综合新病灶及非靶病灶。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "耐药与后线管理",
+        "phase": "进展后的治疗沟通",
+        "timepoint": "阿法替尼治疗失败后",
+        "question": "患者已被报告为PD，仍拒绝化疗并希望继续口服药物。此时最合理的下一步决策框架是什么？",
+        "options": {
+          "A": "延长原药观察期，以持续服药验证延迟疗效",
+          "B": "重评器官功能和意愿，再讨论可行治疗、试验及支持照护",
+          "C": "根据口服偏好选择另一种TKI，无需重新评估",
+          "D": "优先加大阿法替尼剂量，以克服推测的耐药机制"
+        },
+        "answer": "B",
+        "answer_text": "重评器官功能和意愿，再讨论可行治疗、试验及支持照护",
+        "explain": "治疗进展后应同时评估可干预靶点、体能状态、肝功能及患者目标。偏好口服不能把证据不足的换药变成标准后线治疗；支持照护也应纳入沟通，而非继续无效治疗的附属选项。",
+        "keyPoint": "后线决策要把循证可行性、器官储备与患者目标放在一起。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "ESMO Clinical Practice Guideline interim update on the management of biliary tract cancer",
+          "source_version": "2024",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11846563/",
+          "evidence_summary": "晚期胆道癌后续治疗需结合分子检测、患者状况及治疗可行性选择。"
+        }
+      }
+    ],
+    "missing_information": [],
+    "second_cancer_type": "胆道恶性肿瘤"
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-46B8BDDE",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "胆道恶性肿瘤主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "肝内胆管癌的分期与分子决策",
+      "description": "患者已诊断肝内胆管癌，影像显示巨大肝脏病灶及其他肝内结节，需复核分期并讨论治疗。"
+    },
+    "overview": {
+      "hero": {
+        "title": "肝内胆管癌的分期与分子决策",
+        "subtitle": "根据当前已知资料作出判断，完成整组后查看解析与实际经过。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "初始资料",
+              "value": "患者已诊断肝内胆管癌，影像显示巨大肝脏病灶及其他肝内结节，需复核分期并讨论治疗。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": []
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    },
+    "second_cancer_type": "胆道恶性肿瘤"
+  }
+}

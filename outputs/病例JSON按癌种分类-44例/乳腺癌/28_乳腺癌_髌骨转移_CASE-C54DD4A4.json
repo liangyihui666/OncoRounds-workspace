@@ -1,0 +1,247 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-C54DD4A4",
+    "cancer_type": "乳腺癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "确诊阶段",
+        "timepoint": "就诊时",
+        "question": "患者乳腺癌术后 19 年出现孤立性髌骨病变，关于其诊断策略与分期评估，下列哪项描述最符合规范？",
+        "options": {
+          "A": "直接按骨关节炎治疗，无需活检，因原发癌已治愈多年",
+          "B": "仅凭 PET/CT 高代谢即可确诊转移，无需病理证实",
+          "C": "因是孤立病灶，直接行广泛切除手术，术后再定性质",
+          "D": "应行穿刺活检明确病理，并重新检测 ER/PR 等受体状态"
+        },
+        "answer": "D",
+        "answer_text": "应行穿刺活检明确病理，并重新检测 ER/PR 等受体状态",
+        "explain": "指南推荐对可疑复发转移灶进行二次活检以明确诊断，且受体状态可能随时间改变，需重新检测指导治疗。HER2 亦属常规检测项目。",
+        "keyPoint": "转移灶必须病理确诊并复核受体，不可凭病史或影像直接治疗。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+          "split_index": 362,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+          "source_version": "2026",
+          "source_section": "13.2.3.1 药物预防性治疗",
+          "source_url": "",
+          "evidence_summary": "指南指出复发灶需活检获取组织学诊断，必须重新检测 ER、PR、HER2 及 Ki-67，因受体状态可能发生改变。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "治疗决策",
+        "phase": "治疗阶段",
+        "timepoint": "确诊后",
+        "question": "针对该患者右侧髌骨孤立性溶骨性破坏伴疼痛，在全身治疗基础上，局部治疗策略选择正确的是？",
+        "options": {
+          "A": "行病灶刮除术联合骨水泥填充，术后辅以放疗",
+          "B": "仅行放疗，避免手术干扰骨结构稳定性",
+          "C": "行患肢截肢术以彻底清除肿瘤负荷",
+          "D": "仅使用双膦酸盐治疗，不进行局部干预"
+        },
+        "answer": "A",
+        "answer_text": "行病灶刮除术联合骨水泥填充，术后辅以放疗",
+        "explain": "对于负重骨 solitary 病变伴骨折风险或疼痛，刮除加骨水泥填充可恢复稳定性并缓解疼痛，联合放疗可控制局部残留病灶。",
+        "keyPoint": "负重骨孤立转移灶可行刮除 + 骨水泥填充术以恢复功能，联合放疗提高局部控制。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "8e307c38-97eb-4701-8233-764b23dd777e",
+          "split_index": 149,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 骨骼保护",
+          "source_version": "2023",
+          "source_section": "（六）治疗",
+          "source_url": "",
+          "evidence_summary": "骨转移治疗需多学科综合治疗，结合外科手术干预与放疗等手段，旨在减轻疼痛、恢复功能和控制肿瘤。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "分子诊断",
+        "phase": "确诊阶段",
+        "timepoint": "病理回报后",
+        "question": "患者转移灶病理显示 ER/PR 强阳性，Ki-67<5%，与原发灶相比受体状态可能发生变化的原因及应对是？",
+        "options": {
+          "A": "肿瘤异质性导致，应按原发灶结果治疗以避免误差",
+          "B": "肿瘤生物学行为演变，应按最新转移灶结果制定治疗",
+          "C": "检测误差导致，应重复检测原发灶标本确认",
+          "D": "时间久远标本失效，应直接经验性使用化疗方案"
+        },
+        "answer": "B",
+        "answer_text": "肿瘤生物学行为演变，应按最新转移灶结果制定治疗",
+        "explain": "原发与转移灶受体状态存在不一致性，指南建议对复发转移部位进行二次活检，若结果不同，应按照最近一次受体情况治疗。",
+        "keyPoint": "受体状态随时间/部位可能改变，治疗决策应依据最新的转移灶检测结果。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "972f14ef-1ff3-4500-af63-64507eb3e652",
+          "split_index": 9,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国晚期三阴性乳腺癌临床诊疗指南(2024版)",
+          "source_version": "2024",
+          "source_section": "（二）病理学检查",
+          "source_url": "",
+          "evidence_summary": "指南建议经影像学提示复发转移时，应积极鼓励对复发或转移部位进行二次活检及免疫组化检测，建议按照最近一次受体情况治疗。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "治疗决策",
+        "phase": "全程管理",
+        "timepoint": "制定治疗方案时",
+        "question": "关于乳腺癌骨转移的整体管理原则，下列哪项描述最为准确？",
+        "options": {
+          "A": "治疗目标仅为延长生存时间，无需关注生活质量",
+          "B": "骨转移患者禁忌进行任何形式的手术干预",
+          "C": "应采用多学科协作模式，综合应用手术、放疗及全身治疗",
+          "D": "仅需使用双膦酸盐治疗，无需抗肿瘤治疗"
+        },
+        "answer": "C",
+        "answer_text": "应采用多学科协作模式，综合应用手术、放疗及全身治疗",
+        "explain": "乳腺癌骨转移需要采用多学科共同协作（MDT）的模式，治疗目标包括预防 SREs、缓解疼痛、恢复功能、控制肿瘤进展及提高生存质量。",
+        "keyPoint": "乳腺癌骨转移管理核心是多学科协作（MDT），兼顾肿瘤控制与骨骼健康。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "bafc2ade-7b85-4ccb-bdc4-c6bd2069a9ca",
+          "split_index": 34,
+          "type": "guideline",
+          "authority": "国家肿瘤质控中心乳腺癌专家委员会",
+          "source_title": "乳腺癌骨健康全周期管理规范",
+          "source_version": "2023",
+          "source_section": "四、治疗",
+          "source_url": "",
+          "evidence_summary": "指南强调乳腺癌骨转移需 MDT 模式，制定合理个体化方案，目标涵盖功能恢复与生存质量。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "诊断与分期",
+        "phase": "初诊评估阶段",
+        "timepoint": "就诊时",
+        "question": "患者有乳腺癌病史，现出现不明原因骨痛及影像学溶骨性病变，关于其诊断策略，下列哪项最为关键？",
+        "options": {
+          "A": "直接按退行性骨关节病治疗，无需进一步排查恶性肿瘤",
+          "B": "仅凭影像学高代谢灶即可确诊，无需病理组织学验证",
+          "C": "因间隔时间长达 19 年，可排除乳腺癌转移，按原发骨肿瘤处理",
+          "D": "应警惕转移可能，并通过穿刺活检获取病理以确诊转移灶性质"
+        },
+        "answer": "D",
+        "answer_text": "应警惕转移可能，并通过穿刺活检获取病理以确诊转移灶性质",
+        "explain": "指南指出经影像学提示复发转移时，应积极鼓励对复发或转移部位进行二次活检及免疫组化检测，以明确诊断和重新评估受体状态，这是确诊的金标准。",
+        "keyPoint": "有肿瘤病史者新发骨痛需警惕转移，病理活检是确诊金标准。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "972f14ef-1ff3-4500-af63-64507eb3e652",
+          "split_index": 9,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国晚期三阴性乳腺癌临床诊疗指南(2024版)",
+          "source_version": "2024",
+          "source_section": "（二）病理学检查",
+          "source_url": "",
+          "evidence_summary": "指南建议影像学提示复发转移时，应积极对复发或转移部位进行二次活检以明确诊断。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-C54DD4A4",
+    "cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "乳腺癌术后多年出现膝痛",
+      "description": "63岁女性，乳腺癌治疗19年后出现持续右膝疼痛及跛行。"
+    },
+    "overview": {
+      "hero": {
+        "title": "乳腺癌术后多年出现膝痛",
+        "subtitle": "长期无复查后的新发骨痛、骨病灶来源与范围，以及局部功能和全身病情评估。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "63岁女性，乳腺癌治疗19年后出现持续右膝疼痛及跛行。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "髌骨活检证实乳腺来源，ER/PR强阳性；其他骨部位另有可疑影像灶。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "接受病灶刮除、骨水泥填充及放疗。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "长期无复查后的新发骨痛、骨病灶来源与范围，以及局部功能和全身病情评估。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "19年前",
+              "title": "乳腺癌治疗",
+              "detail": "乳腺癌手术、放疗及化疗后未坚持定期复查。"
+            },
+            {
+              "date": "就诊前半年",
+              "title": "持续右膝疼痛",
+              "detail": "右膝持续疼痛，伴跛行及髌骨压痛。"
+            },
+            {
+              "date": "本次影像",
+              "title": "骨病灶评估",
+              "detail": "髌骨溶骨性破坏；股骨与胫骨另有可疑灶。"
+            },
+            {
+              "date": "髌骨活检",
+              "title": "确认乳腺来源",
+              "detail": "活检证实乳腺来源，ER/PR强阳性、Ki-67＜5%。"
+            },
+            {
+              "date": "局部治疗后",
+              "title": "疼痛及功能改善",
+              "detail": "刮除、骨水泥填充及放疗后，疼痛和活动功能改善。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

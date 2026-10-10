@@ -1,0 +1,247 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-E3A31C4F",
+    "cancer_type": "食管癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "治疗决策",
+        "phase": "ESD 术后追加治疗决策",
+        "timepoint": "ESD 术后病理回报后",
+        "question": "患者 ESD 术后病理示 pT1a 伴脉管瘤栓及水平切缘＜1mm，依据指南，下一步最恰当的处理是？",
+        "options": {
+          "A": "密切随访观察，暂不干预",
+          "B": "追加内镜下消融治疗（如 APC）",
+          "C": "立即开始全身系统性化疗",
+          "D": "推荐追加根治性手术或补充放疗"
+        },
+        "answer": "D",
+        "answer_text": "推荐追加根治性手术或补充放疗",
+        "explain": "ESD 术后存在脉管瘤栓、切缘阳性或过近等高危因素时，淋巴结转移风险显著增加，指南推荐追加根治性手术或补充放疗。",
+        "keyPoint": "ESD 术后高危因素（脉管侵犯/切缘风险）是追加根治性治疗的核心指征。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "afd92428-0167-47d3-b88c-c62c652f7bcf",
+          "split_index": 12,
+          "type": "guideline",
+          "authority": "国家癌症中心, 中国医师协会胸外科医师分会, 中华医学会胸心血管外科学分会",
+          "source_title": "中国可切除食管癌围手术期诊疗实践指南(2023版)",
+          "source_version": "2023",
+          "source_section": "（三）手术适应证",
+          "source_url": "",
+          "evidence_summary": "指南明确 ESD 术后复发高危因素包括脉管癌栓、切缘阳性等，推荐根治性手术或补充放疗。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "诊断与分期",
+        "phase": "术前临床分期评估",
+        "timepoint": "ESD 术后、根治术前",
+        "question": "患者 ESD 术后分期 CT 显示气管隆突前及隆突下稍大淋巴结，关于该阶段淋巴结分期评估，正确的是？",
+        "options": {
+          "A": "推荐综合增强 CT、超声及 EUS-FNA 等多模式评估",
+          "B": "CT 对短径≥1cm 淋巴结诊断灵敏度高，可直接确诊转移",
+          "C": "PET-CT 诊断颈部淋巴结转移灵敏度最高，应作为首选",
+          "D": "仅凭 CT 显示稍大淋巴结即可判定为 N+ 并放弃手术"
+        },
+        "answer": "A",
+        "answer_text": "推荐综合增强 CT、超声及 EUS-FNA 等多模式评估",
+        "explain": "单一影像学方法对淋巴结诊断灵敏度有限，CT 对≥1cm 淋巴结灵敏度仅 30%-60%。指南推荐综合多模式影像及内镜学评估。",
+        "keyPoint": "食管癌临床 N 分期需综合多模式影像及内镜评估，避免单一检查误判。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "97b21876-ef50-4b60-bd03-ab43b5724dad",
+          "split_index": 10,
+          "type": "guideline",
+          "authority": "国家癌症中心, 中国医师协会胸外科医师分会, 中华医学会胸心血管外科学分会",
+          "source_title": "中国可切除食管癌围手术期诊疗实践指南（2023版）",
+          "source_version": "2023",
+          "source_section": "（二）术前诊断及临床分期",
+          "source_url": "",
+          "evidence_summary": "指南推荐综合多模式影像学及内镜学方法评估临床 N 分期，因单一方法灵敏度较低。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "诊断与分期",
+        "phase": "病理报告规范化",
+        "timepoint": "ESD 术后病理诊断时",
+        "question": "针对该患者 ESD 切除标本的病理报告，下列哪项是评估是否需要追加治疗的关键高危因素？",
+        "options": {
+          "A": "肿瘤的大体分型及颜色",
+          "B": "脉管有无侵犯及切缘状态",
+          "C": "患者就诊前的黑便症状",
+          "D": "肿瘤距门齿的具体距离"
+        },
+        "answer": "B",
+        "answer_text": "脉管有无侵犯及切缘状态",
+        "explain": "ESD 标本病理报告必须包含浸润深度、脉管侵犯及切缘状态，其中脉管侵犯和切缘阳性/过近是判断非治愈性切除的关键。",
+        "keyPoint": "ESD 术后病理报告中脉管侵犯和切缘状态是决定后续治疗策略的核心指标。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "5d60cf8c-605e-4a9d-8925-5215b5f897b3",
+          "split_index": 243,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 内镜诊疗",
+          "source_version": "2023",
+          "source_section": "（5）脉管有无侵犯",
+          "source_url": "",
+          "evidence_summary": "ESD 标本有无淋巴管、血管侵犯是评判是否需要外科治疗的重要因素，需规范报告。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "分子诊断",
+        "phase": "病理报告规范化",
+        "timepoint": "ESD 术后病理评估",
+        "question": "针对该患者 ESD 切除标本的病理报告，除组织学类型和分级外，必须包含哪些关键指标以评估治愈性及指导后续治疗？",
+        "options": {
+          "A": "仅报告肿瘤大小和肉眼分型即可",
+          "B": "重点检测 HER2 表达及 MSI 状态指导治疗",
+          "C": "必须包含浸润深度、脉管及切缘状态",
+          "D": "只需报告淋巴结清扫数目忽略脉管"
+        },
+        "answer": "C",
+        "answer_text": "必须包含浸润深度、脉管及切缘状态",
+        "explain": "早期食管癌 ESD 标本病理报告必须包含浸润深度、脉管有无侵犯及切缘状态，这些是判断是否治愈性切除及决定是否需要追加治疗的核心依据。HER2/MSI 主要针对晚期腺癌。",
+        "keyPoint": "ESD 标本病理报告须含浸润深度、脉管侵犯及切缘状态，以评估治愈性。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "b299a9f7-4136-4eb8-bf39-0627ff7775a3",
+          "split_index": 64,
+          "type": "guideline",
+          "authority": "中华医学会消化内镜学分会",
+          "source_title": "上消化道肿瘤高危人群放大内镜检查中西部专家意见",
+          "source_version": "2023",
+          "source_section": "1.不同类型标本病理诊断要点",
+          "source_url": "",
+          "evidence_summary": "早期食管癌内镜切除标本规范化报告内容必须包含浸润深度、脉管侵犯及切缘状态。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "分子诊断",
+        "phase": "病理报告规范",
+        "timepoint": "ESD 术后病理报告",
+        "question": "下列哪项不属于食管鳞癌 ESD 标本病理报告中必须常规检测的项目？",
+        "options": {
+          "A": "浸润深度及脉管侵犯情况",
+          "B": "水平与垂直切缘状态评估",
+          "C": "组织学类型与分化程度分级",
+          "D": "HER2 蛋白表达及基因扩增检测"
+        },
+        "answer": "D",
+        "answer_text": "HER2 蛋白表达及基因扩增检测",
+        "explain": "HER2 检测主要针对晚期食管胃连接部腺癌。本例为食管鳞癌且为早期 ESD 标本，常规无需检测 HER2，重点应关注浸润深度、脉管侵犯及切缘。",
+        "keyPoint": "食管鳞癌 ESD 标本病理报告重点在于浸润深度、脉管侵犯及切缘，HER2 非必测项。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "1f2a5a56-78cc-4461-bf80-9c54c600de20",
+          "split_index": 25,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会（CSCO）食管癌诊疗指南 2026",
+          "source_version": "2026",
+          "source_section": "中国临床肿瘤学会指南工作委员会",
+          "source_url": "",
+          "evidence_summary": "指南规定内镜切除标本需报告浸润深度、脉管侵犯、切缘等，HER2 检测主要针对腺癌。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-E3A31C4F",
+    "cancer_type": "食管癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/esophageal-vaccine.png",
+      "alt": "食管癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "食管病灶内镜切除后的评估",
+      "description": "54岁男性因进食不适就诊，食管病灶接受内镜黏膜下剥离术。"
+    },
+    "overview": {
+      "hero": {
+        "title": "食管病灶内镜切除后的评估",
+        "subtitle": "浸润深度、脉管侵犯和切缘的综合判断，以及追加治疗前的淋巴结评估。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "54岁男性因进食不适就诊，食管病灶接受内镜黏膜下剥离术。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "中低分化鳞癌、pT1a-MM，伴脉管侵犯；垂直切缘阴性，水平切缘距离＜1 mm。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "分期CT见部分纵隔淋巴结稍大，随后行颈胸腹三切口食管切除。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "浸润深度、脉管侵犯和切缘的综合判断，以及追加治疗前的淋巴结评估。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "就诊前约2个月",
+              "title": "出现症状",
+              "detail": "进食哽噎等不适促使内镜评估。"
+            },
+            {
+              "date": "内镜治疗",
+              "title": "ESD切除",
+              "detail": "ESD切除病灶约4.5×3.2 cm。"
+            },
+            {
+              "date": "ESD病理",
+              "title": "发现高危因素",
+              "detail": "pT1a-MM伴脉管侵犯，垂直切缘阴性，距水平切缘＜1 mm。"
+            },
+            {
+              "date": "追加治疗前",
+              "title": "再分期及方案讨论",
+              "detail": "CT见部分纵隔淋巴结稍大，尚无病理证实。"
+            },
+            {
+              "date": "后续治疗",
+              "title": "食管切除术",
+              "detail": "行三切口食管切除，最终pN及长期结局未提供。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

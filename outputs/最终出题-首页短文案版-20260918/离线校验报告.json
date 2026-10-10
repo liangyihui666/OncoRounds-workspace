@@ -1,0 +1,71 @@
+{
+  "tests": [
+    {
+      "name": "全部代码节点可编译，现有工具输入输出引用可定位",
+      "status": "PASS"
+    },
+    {
+      "name": "仅一次子工作流调用，应用绑定与版本保持原样",
+      "status": "PASS"
+    },
+    {
+      "name": "零题直接旁路终稿模型，保留不足原因和空detail",
+      "status": "PASS"
+    },
+    {
+      "name": "单次调用失败或回复截断均不回收旧草稿",
+      "status": "PASS"
+    },
+    {
+      "name": "1至5题均保留，答案映射与指南原文一致，六类分类、隐藏二级及图片空数组",
+      "status": "PASS"
+    },
+    {
+      "name": "完全重复去重；终选错误ID、无JSON、空回复均回退原题",
+      "status": "PASS"
+    },
+    {
+      "name": "表达编辑可以生效，但绝不改写引用；审核作用范围标记为编辑前原题",
+      "status": "PASS"
+    },
+    {
+      "name": "伪造指南、答案、数字、阴阳性或过度删减的补丁被拒绝",
+      "status": "PASS"
+    },
+    {
+      "name": "补丁失败不影响原题，模型无法打乱原始题序",
+      "status": "PASS"
+    },
+    {
+      "name": "缺口与部分题目并存；相对时间阶段保留",
+      "status": "PASS"
+    },
+    {
+      "name": "格式修复保留evidence_notes；展示字段不混入分工提示词",
+      "status": "PASS"
+    },
+    {
+      "name": "44例220道现有工作流原题走单组终稿链，原始引用逐题保留",
+      "status": "PASS"
+    },
+    {
+      "name": "首页短文案正确写入，完整详情和题目与上一版相同",
+      "status": "PASS"
+    },
+    {
+      "name": "首页缺失、超长、无效格式、新增年龄、含推荐动作均有短文案回退",
+      "status": "PASS"
+    },
+    {
+      "name": "全部44例首页边界检查、原文件不改写、模型调用数不变",
+      "status": "PASS"
+    }
+  ],
+  "passed": 15,
+  "failed": 0,
+  "app_calls_before": 1,
+  "app_calls_after": 1,
+  "editor_input_sample_chars": 4282,
+  "full_candidate_pool_sample_chars": 8310,
+  "online_tested": false
+}

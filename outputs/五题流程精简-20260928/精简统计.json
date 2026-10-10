@@ -1,0 +1,15 @@
+{
+  "prompt_characters_before": 18549,
+  "prompt_characters_after": 8976,
+  "child_nodes_before": 33,
+  "child_nodes_after": 33,
+  "outer_nodes_before": 13,
+  "outer_nodes_after": 11,
+  "removed_outer_nodes": [
+    "单组题目终稿优化",
+    "是否有题目可整理"
+  ],
+  "removed_ai_calls_per_nonempty_run": 1,
+  "online_verified": false,
+  "prompt_reduction_percent": 51.6
+}

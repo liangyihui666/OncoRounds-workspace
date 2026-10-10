@@ -1,0 +1,247 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-46B8BDDE",
+    "cancer_type": "消化系统肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "分子诊断",
+        "phase": "初诊",
+        "timepoint": "2019 年 2 月",
+        "question": "本例仅检测了 EGFR、ALK 和 ROS1 基因并发现 EGFR 突变。依据 2024 版肝内胆管癌精准检测共识，该检测策略的主要局限性是？",
+        "options": {
+          "A": "ARMS-PCR 方法灵敏度不足以检测低频突变",
+          "B": "未进行液体活检导致无法评估异质性",
+          "C": "未覆盖 FGFR2 融合等必检高频率驱动基因",
+          "D": "未检测 MSI/MMR 状态影响免疫治疗决策"
+        },
+        "answer": "C",
+        "answer_text": "未覆盖 FGFR2 融合等必检高频率驱动基因",
+        "explain": "共识推荐 FGFR2 融合为必检基因，本例受限于当时条件未检测，可能遗漏关键靶向治疗机会。",
+        "keyPoint": "ICC 分子检测应优先覆盖 FGFR2 融合等高频必检靶点，避免漏诊可治疗突变。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "c872fb94-84f2-441f-820d-2de8662ab657",
+          "split_index": 30,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "肝内胆管癌精准检测专家共识(2024版)",
+          "source_version": "2024",
+          "source_section": "2 分子生物标志物检测项目及方法",
+          "source_url": "",
+          "evidence_summary": "共识将 FGFR2 融合列为必检基因，因其变异频率高且有获批靶向药。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "治疗决策",
+        "phase": "一线治疗",
+        "timepoint": "2019 年 2 月",
+        "question": "患者拒绝吉西他滨联合铂类标准化疗，尝试阿法替尼单药治疗。关于此决策的循证医学评价，正确的是？",
+        "options": {
+          "A": "阿法替尼是胆管癌 EGFR 突变患者的一线标准治疗方案，指南强推荐",
+          "B": "既往研究证实阿法替尼可显著延长此类患者总生存期，应作为首选",
+          "C": "该决策符合 NCCN 指南对于 EGFR 突变胆管癌的强推荐，疗效确切",
+          "D": "EGFR 突变在胆管癌中驱动作用不明，缺乏适应症外使用 TKI 的确切获益证据"
+        },
+        "answer": "D",
+        "answer_text": "EGFR 突变在胆管癌中驱动作用不明，缺乏适应症外使用 TKI 的确切获益证据",
+        "explain": "胆管癌 EGFR 突变频率低且非明确驱动因子，与肺癌不同；目前指南未推荐 TKI 作为标准治疗，属探索性尝试。",
+        "keyPoint": "胆管癌 EGFR 突变非明确驱动因子，适应症外使用 TKI 需谨慎评估风险获益。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "588b2660-a9f2-4476-8c6e-ca4a7ad04346",
+          "split_index": 72,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "原发性肝癌诊疗指南之肝内胆管癌诊疗中国专家共识(2022版)",
+          "source_version": "2022",
+          "source_section": "（三）二线治疗",
+          "source_url": "",
+          "evidence_summary": "指南推荐二线靶向治疗针对 FGFR2/NTRK 等，未提及 EGFR-TKI 作为标准方案。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "疗效复评与局部治疗",
+        "phase": "疗效评估",
+        "timepoint": "治疗 1 个月后",
+        "question": "患者阿法替尼治疗 1 个月后症状加重，CT 示肿瘤最长径较基线增大 80%。此时最恰当的疗效评估结论及后续策略是？",
+        "options": {
+          "A": "疾病进展（PD），原发耐药明确，应停止当前方案并考虑更换机制药物",
+          "B": "假性进展可能，建议继续原方案治疗并短期复查影像学变化",
+          "C": "部分缓解（PR），但症状波动需对症处理，维持原方案观察",
+          "D": "疾病稳定（SD），建议联合局部治疗以控制病灶，继续用药"
+        },
+        "answer": "A",
+        "answer_text": "疾病进展（PD），原发耐药明确，应停止当前方案并考虑更换机制药物",
+        "explain": "肿瘤径线增加>20% 且绝对值增加>5mm 符合 RECIST 1.1 PD 标准；伴症状恶化提示无临床获益，应终止无效方案。",
+        "keyPoint": "治疗早期肿瘤显著增大伴症状恶化提示原发耐药，应及时终止无效方案。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "588b2660-a9f2-4476-8c6e-ca4a7ad04346",
+          "split_index": 91,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "原发性肝癌诊疗指南之肝内胆管癌诊疗中国专家共识(2022版)",
+          "source_version": "2022",
+          "source_section": "三、病理诊断辅助检查指标：",
+          "source_url": "",
+          "evidence_summary": "循证证据显示标准治疗 mPFS 约 5-8 个月，本例 1 个月进展提示方案无效。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "诊断与分期",
+        "phase": "初诊评估",
+        "timepoint": "2019 年 2 月",
+        "question": "患者腹部 CT 提示左肝巨大占位伴右肝多发结节，临床分期定为 T4N0M0。依据 AJCC 第 8 版肝内胆管癌分期系统，该分期的主要判定依据是？",
+        "options": {
+          "A": "存在多发病灶但局限于肝内",
+          "B": "肿瘤直接侵及局部肝外组织或结构",
+          "C": "肿瘤伴有血管浸润但未穿透腹膜",
+          "D": "出现区域淋巴结转移"
+        },
+        "answer": "B",
+        "answer_text": "肿瘤直接侵及局部肝外组织或结构",
+        "explain": "AJCC 第 8 版中，T4 定义为肿瘤直接侵及局部肝外组织；多发病灶伴或不伴血管浸润为 T2；穿透腹膜为 T3；区域淋巴结转移为 N1。",
+        "keyPoint": "T4 期核心特征是侵犯肝外邻近结构，区别于肝内多灶或血管侵犯。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "588b2660-a9f2-4476-8c6e-ca4a7ad04346",
+          "split_index": 83,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "原发性肝癌诊疗指南之肝内胆管癌诊疗中国专家共识(2022版)",
+          "source_version": "2022",
+          "source_section": "附录2：第7版与第8版美国癌症联合委员会（AJCC）TNM分期系统肝内胆管癌临床分期比较",
+          "source_url": "",
+          "evidence_summary": "指南明确 T4 定义为直接侵及局部肝外组织，对应 IIIB 期。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "疗效复评与局部治疗",
+        "phase": "疗效评估",
+        "timepoint": "治疗 1 个月后",
+        "question": "患者阿法替尼治疗 1 个月后肿瘤增大 80%，评估为 PD。此时关于后续管理策略，错误的是？",
+        "options": {
+          "A": "立即停用阿法替尼，避免毒性累积且无获益",
+          "B": "若患者仍拒绝化疗，可考虑抗血管生成药物等后线尝试",
+          "C": "继续原剂量阿法替尼治疗，期待延迟起效",
+          "D": "重新评估基因状态，寻找其他潜在靶点或临床试验机会"
+        },
+        "answer": "C",
+        "answer_text": "继续原剂量阿法替尼治疗，期待延迟起效",
+        "explain": "肿瘤显著增大属明确进展，继续无效治疗会延误时机并增加毒性。应停药并考虑二线方案或最佳支持治疗。",
+        "keyPoint": "明确疾病进展时应及时停药，避免无效治疗带来的风险。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "588b2660-a9f2-4476-8c6e-ca4a7ad04346",
+          "split_index": 72,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "原发性肝癌诊疗指南之肝内胆管癌诊疗中国专家共识(2022版)",
+          "source_version": "2022",
+          "source_section": "（三）二线治疗",
+          "source_url": "",
+          "evidence_summary": "指南建议一线进展后推荐二线化疗或针对特定突变的靶向治疗，无效方案不应继续。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-46B8BDDE",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "胆道恶性肿瘤主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "肝内胆管癌的分期与分子决策",
+      "description": "2019年确诊肝内胆管癌，右肝巨大病灶伴卫星结节。"
+    },
+    "overview": {
+      "hero": {
+        "title": "肝内胆管癌的分期与分子决策",
+        "subtitle": "基因变异在不同癌种中的证据适用性，以及短期病情变化与治疗获益判断。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "2019年确诊肝内胆管癌，右肝巨大病灶伴卫星结节。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "EGFR 19号外显子缺失；原文T4分期依据不充分。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "患者拒绝化疗，接受阿法替尼；约1个月后进展，再尝试阿帕替尼。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "基因变异在不同癌种中的证据适用性，以及短期病情变化与治疗获益判断。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2019年2月",
+              "title": "肝内胆管癌诊断",
+              "detail": "肝脏巨大病灶伴多发结节，病理诊断肝内胆管癌；现有资料对主病灶侧别的记载不一致。"
+            },
+            {
+              "date": "治疗前",
+              "title": "有限分子检测与讨论",
+              "detail": "检出EGFR 19号外显子缺失，患者拒绝化疗。"
+            },
+            {
+              "date": "随后",
+              "title": "阿法替尼治疗",
+              "detail": "知情讨论后使用阿法替尼40 mg/d。"
+            },
+            {
+              "date": "约1个月后",
+              "title": "疾病进展",
+              "detail": "疾病进展，后尝试阿帕替尼。"
+            },
+            {
+              "date": "总生存约1.8个月",
+              "title": "死亡",
+              "detail": "因肝功能衰竭死亡。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

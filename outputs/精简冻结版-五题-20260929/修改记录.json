@@ -1,0 +1,129 @@
+{
+  "base": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\outputs\\参考版恢复-五题适配-20260929",
+  "changes": [
+    {
+      "role": "child",
+      "id": "sR35QbYF2xamDQR3",
+      "name": "题目生成-首轮",
+      "field": "systemPrompt",
+      "before_chars": 2581,
+      "after_chars": 2109,
+      "reason": "将历史个案例外归并为通用的事实、证据适用性和唯一答案原则；保留输出契约"
+    },
+    {
+      "role": "child",
+      "id": "v12RevisionGenerator",
+      "name": "题目修订-第二轮",
+      "field": "systemPrompt",
+      "before_chars": 2746,
+      "after_chars": 2200,
+      "reason": "简化最后一轮职责；共用同一出题契约"
+    },
+    {
+      "role": "child",
+      "id": "v12RevisionInput",
+      "name": "第二轮修订输入",
+      "field": "code",
+      "before_chars": 25223,
+      "after_chars": 4402,
+      "reason": "删除重复证据校验、特定药名/病例关键词触发器和重复题目摘要；只传一份病例、草稿、完整证据及预检报告"
+    },
+    {
+      "role": "child",
+      "id": "cmuTcUhJefVm2DC6",
+      "name": "首轮格式预检",
+      "field": "code",
+      "before_chars": 55189,
+      "after_chars": 52433,
+      "reason": "删除已被统一严格解析器替代的旧解析函数；保留当前重复键检查与有限结构归位"
+    },
+    {
+      "role": "child",
+      "id": "v12AssemblyR2",
+      "name": "最终程序检查与引用装配",
+      "field": "code",
+      "before_chars": 55189,
+      "after_chars": 52433,
+      "reason": "删除已被统一严格解析器替代的旧解析函数；保留当前重复键检查与有限结构归位"
+    },
+    {
+      "role": "child",
+      "id": "v12FinalPublicationNormalize",
+      "name": "整理最终输出",
+      "field": "code",
+      "before_chars": 10596,
+      "after_chars": 10236,
+      "reason": "删除已撤回错误分支留下的未调用函数；保留实际错误分类和脱敏"
+    },
+    {
+      "role": "batch",
+      "id": "batchFinal20260909",
+      "name": "批量最终JSON",
+      "field": "code",
+      "before_chars": 8186,
+      "after_chars": 7826,
+      "reason": "删除已撤回错误分支留下的未调用函数；保留实际错误分类和脱敏"
+    },
+    {
+      "role": "outer",
+      "id": "ogy1PAMdD268kXeo",
+      "name": "代码运行",
+      "field": "code",
+      "before_chars": 7800,
+      "after_chars": 7241,
+      "reason": "删除三组并行出题遗留教学侧重，当前单次子应用不使用这些输出"
+    }
+  ],
+  "removed_output_keys": [
+    "learning_points_a",
+    "learning_points_b",
+    "learning_points_c"
+  ],
+  "stats": {
+    "child": {
+      "before": {
+        "nodes": 33,
+        "edges": 52,
+        "code_chars": 234816,
+        "system_prompt_chars": 5686
+      },
+      "after": {
+        "nodes": 33,
+        "edges": 52,
+        "code_chars": 208123,
+        "system_prompt_chars": 4668
+      }
+    },
+    "outer": {
+      "before": {
+        "nodes": 11,
+        "edges": 11,
+        "code_chars": 56953,
+        "system_prompt_chars": 5819
+      },
+      "after": {
+        "nodes": 11,
+        "edges": 11,
+        "code_chars": 56394,
+        "system_prompt_chars": 5819
+      }
+    },
+    "batch": {
+      "before": {
+        "nodes": 8,
+        "edges": 7,
+        "code_chars": 8527,
+        "system_prompt_chars": 0
+      },
+      "after": {
+        "nodes": 8,
+        "edges": 7,
+        "code_chars": 8167,
+        "system_prompt_chars": 0
+      }
+    }
+  },
+  "online_verified": false,
+  "clinical_quality_verified": false,
+  "api_calls": 0
+}

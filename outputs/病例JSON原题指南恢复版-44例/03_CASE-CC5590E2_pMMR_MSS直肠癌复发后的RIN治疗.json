@@ -1,0 +1,252 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-CC5590E2",
+    "cancer_type": "直肠癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "复发诊断阶段",
+        "timepoint": "术后 14 个月",
+        "question": "患者术后 14 个月发现直肠系膜复发肿块，既往接受过新辅助放化疗及根治术。根据 TNM 分期原则，该复发肿瘤的分期前缀应如何标注？",
+        "options": {
+          "A": "使用 y 前缀，表示为 ypTNM 分期",
+          "B": "直接使用 pTNM 分期，无需前缀",
+          "C": "使用 r 前缀，表示为 rTNM 分期",
+          "D": "使用 m 前缀，表示为 mpTNM 分期"
+        },
+        "answer": "C",
+        "answer_text": "使用 r 前缀，表示为 rTNM 分期",
+        "explain": "前缀 y 用于新辅助治疗后的分期；前缀 r 专用于经治疗获得无瘤间期后复发的患者。该患者术后缓解 1 年复发，符合 rTNM 定义。",
+        "keyPoint": "复发肿瘤分期需加 r 前缀，区别于新辅助后的 y 前缀。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "6e90e9ac-4a5f-41cb-b7c6-c761ecbdc5e8",
+          "split_index": 4,
+          "type": "guideline",
+          "authority": "中华医学会肿瘤学分会",
+          "source_title": "中国结直肠癌诊疗规范（2023版）",
+          "source_version": "2023",
+          "source_section": "中国结直肠癌诊疗规范（2023版）",
+          "source_url": "",
+          "evidence_summary": "指南明确前缀 r 用于经治疗获得一段无瘤间期后复发的患者（如 rTNM）。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "分子诊断",
+        "phase": "复发评估阶段",
+        "timepoint": "复发确诊时",
+        "question": "针对该复发转移性直肠癌患者，除已知的 pMMR/MSS 状态外，指南推荐必须检测哪些基因突变以指导后续治疗？",
+        "options": {
+          "A": "检测 HER2 和 NTRK 融合基因",
+          "B": "重复检测 MMR 蛋白表达",
+          "C": "检测 EGFR 和 ALK 基因突变",
+          "D": "检测 KRAS、NRAS 和 BRAF 基因状态"
+        },
+        "answer": "D",
+        "answer_text": "检测 KRAS、NRAS 和 BRAF 基因状态",
+        "explain": "指南推荐对临床确诊为复发或转移性结直肠癌患者进行 KRAS、NRAS 和 BRAF 基因突变检测，以指导肿瘤治疗。HER2/NTRK 为建议检测项目。",
+        "keyPoint": "复发/转移性结直肠癌必须检测 RAS/BRAF 状态指导治疗。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "ba3e5661-e413-4e06-a609-c1c957a2146c",
+          "split_index": 14,
+          "type": "guideline",
+          "authority": "国家卫生健康委员会医政司, 中华医学会肿瘤学分会",
+          "source_title": "国家卫生健康委员会中国结直肠癌诊疗规范（2023版）",
+          "source_version": "2023",
+          "source_section": "（八）病理组织学检查",
+          "source_url": "",
+          "evidence_summary": "指南推荐对临床确诊为复发或转移性结直肠癌患者进行 KRAS、NRAS 和 BRAF 基因突变检测，以指导肿瘤治疗。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "二线治疗选择",
+        "timepoint": "化疗并发坏死性筋膜炎后",
+        "question": "患者因 FOLFOXIRI 并发严重坏死性筋膜炎无法耐受化疗，且为 pMMR/MSS 型。符合指南原则的后续处理是？",
+        "options": {
+          "A": "转换非化疗联合方案并评估局部治疗",
+          "B": "继续原方案化疗并尝试加强支持治疗",
+          "C": "立即行挽救性手术切除复发灶",
+          "D": "单用免疫检查点抑制剂治疗"
+        },
+        "answer": "A",
+        "answer_text": "转换非化疗联合方案并评估局部治疗",
+        "explain": "患者不耐受化疗且 pMMR/MSS 对单药免疫不敏感。在 MDT 讨论下，可考虑超适应症联合方案（如 RIN）及局部放疗，避免再次高强度化疗或盲目单药免疫。",
+        "keyPoint": "化疗不耐受且 pMMR 时需探索非化疗联合策略及局部治疗。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "ba3e5661-e413-4e06-a609-c1c957a2146c",
+          "split_index": 121,
+          "type": "guideline",
+          "authority": "国家卫生健康委员会医政司, 中华医学会肿瘤学分会",
+          "source_title": "国家卫生健康委员会中国结直肠癌诊疗规范（2023版）",
+          "source_version": "2023",
+          "source_section": "（五）内科药物治疗原则",
+          "source_url": "",
+          "evidence_summary": "指南指出初始不可切除复发患者需 MDT 讨论决定放化疗和/或全身系统治疗，治疗后再次评估可切除性。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "疗效复评与局部治疗",
+        "phase": "综合治疗实施阶段",
+        "timepoint": "启动 RIN 方案同期",
+        "question": "对于该局部复发且既往接受过盆腔放疗的患者，在制定局部治疗策略时，关于再程放疗的决策原则正确的是？",
+        "options": {
+          "A": "绝对禁忌再次放疗，只能选择手术",
+          "B": "若既往接受过放疗，应谨慎评估风险，由 MDT 决定",
+          "C": "若既往未接受过放疗，首选术前同步放化疗",
+          "D": "直接给予姑息减症放疗，无需 MDT 讨论"
+        },
+        "answer": "B",
+        "answer_text": "若既往接受过放疗，应谨慎评估风险，由 MDT 决定",
+        "explain": "指南指出局部区域复发直肠癌若既往接受过盆腔放疗，应谨慎评估再程放疗的高风险，建议多学科会诊决定治疗方案。",
+        "keyPoint": "既往放疗史者再程放疗需谨慎评估并经 MDT 决策。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "ba3e5661-e413-4e06-a609-c1c957a2146c",
+          "split_index": 92,
+          "type": "guideline",
+          "authority": "国家卫生健康委员会医政司, 中华医学会肿瘤学分会",
+          "source_title": "国家卫生健康委员会中国结直肠癌诊疗规范（2023版）",
+          "source_version": "2023",
+          "source_section": "（一）放射治疗适应证",
+          "source_url": "",
+          "evidence_summary": "指南建议若既往接受过盆腔放疗，应谨慎评估再程放疗的高风险，建议多学科会诊决定治疗方案。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "治疗决策",
+        "phase": "二线治疗决策",
+        "timepoint": "FOLFOXIRI 并发坏死性筋膜炎后",
+        "question": "针对该 pMMR/MSS 且化疗不耐受患者，下列哪项描述最符合当前的治疗探索现状？",
+        "options": {
+          "A": "常规使用单药 PD-1 抑制剂作为标准二线治疗",
+          "B": "无视严重感染史再次尝试足量 FOLFOXIRI 方案",
+          "C": "尝试瑞戈非尼联合双免疫的超适应症方案（基于个案报道）",
+          "D": "仅行局部放疗而完全放弃全身系统性治疗"
+        },
+        "answer": "C",
+        "answer_text": "尝试瑞戈非尼联合双免疫的超适应症方案（基于个案报道）",
+        "explain": "pMMR 患者对单药免疫不敏感，标准二线受限。本例 RIN 方案属超适应症探索，非指南标准推荐，需明确其个案性质。",
+        "keyPoint": "pMMR 患者化疗不耐受时，靶向联合免疫属探索性策略，非标准推荐。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "f51ad2ef-8e21-42f9-bfd1-f2ed36512587",
+          "split_index": 161,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 病理诊断",
+          "source_version": "2023",
+          "source_section": "（三）免疫组化和特殊染色",
+          "source_url": "",
+          "evidence_summary": "指南指出 pMMR 对免疫单药不敏感，提示需探索联合策略，但未直接推荐 RIN 方案。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-CC5590E2",
+    "cancer_type": "直肠癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "直肠癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "直肠癌术后盆腔复发的决策",
+      "description": "50岁女性，直肠癌新辅助治疗及R0切除后14个月出现盆腔复发。"
+    },
+    "overview": {
+      "hero": {
+        "title": "直肠癌术后盆腔复发的决策",
+        "subtitle": "局部复发范围、严重感染后的治疗耐受性，以及个体化方案与常规证据的区别。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "50岁女性，直肠癌新辅助治疗及R0切除后14个月出现盆腔复发。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "pMMR/MSS；FOLFOXIRI期间发生坏死性筋膜炎，治疗耐受受限。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "感染恢复后采用瑞戈非尼、伊匹木单抗及纳武利尤单抗，并辅以局部放疗。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "局部复发范围、严重感染后的治疗耐受性，以及个体化方案与常规证据的区别。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2021年",
+              "title": "初始诊疗",
+              "detail": "盆腔短程放疗及XELOX后行直肠手术，达到R0。"
+            },
+            {
+              "date": "术后14个月",
+              "title": "局部复发",
+              "detail": "盆腔复发病灶侵犯邻近组织。"
+            },
+            {
+              "date": "复发化疗期间",
+              "title": "严重感染",
+              "detail": "FOLFOXIRI期间坏死性筋膜炎，经清创及ICU治疗恢复。"
+            },
+            {
+              "date": "恢复后",
+              "title": "个体化后线治疗",
+              "detail": "采用个体化RIN方案：瑞戈非尼、伊匹木单抗及纳武利尤单抗。"
+            },
+            {
+              "date": "同期及6个月内",
+              "title": "局部及系统反应",
+              "detail": "局部放疗缓解疼痛及出血；ctDNA、CEA转阴，影像改善。"
+            },
+            {
+              "date": "超过12个月随访",
+              "title": "持续获控",
+              "detail": "原文报告影像及分子学持续获控。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

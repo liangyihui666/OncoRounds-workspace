@@ -1,0 +1,55 @@
+{
+  "workflow": "批量生成-10文件并行-三连原样结果-20260909.json",
+  "passed": 12,
+  "tests": [
+    {
+      "name": "节点与引用结构完整，最大并发10，重试0，无共享结果写入",
+      "status": "passed"
+    },
+    {
+      "name": "保留三连应用、固定指令及正确输入模式，仅当前文件传入",
+      "status": "passed"
+    },
+    {
+      "name": "拒绝空列表、11文件和无效文件项",
+      "status": "passed"
+    },
+    {
+      "name": "1文件分组及最终对象无改写",
+      "status": "passed"
+    },
+    {
+      "name": "3文件分组及最终对象无改写",
+      "status": "passed"
+    },
+    {
+      "name": "10文件分组及最终对象无改写",
+      "status": "passed"
+    },
+    {
+      "name": "实际官方汇总函数：10任务乱序完成后按输入顺序输出，失败位置保留",
+      "status": "passed"
+    },
+    {
+      "name": "insufficient及空detail原样保留",
+      "status": "passed"
+    },
+    {
+      "name": "非法JSON与双重编码不会影响其他结果",
+      "status": "passed"
+    },
+    {
+      "name": "失败诊断不混入公开输出，全部失败保持数量",
+      "status": "passed"
+    },
+    {
+      "name": "容器无结果时标记中断；部分数组长度异常停止而不推测位置",
+      "status": "passed"
+    },
+    {
+      "name": "题量异常返回格式错误，原结果不静默修订",
+      "status": "passed"
+    }
+  ],
+  "scope": "本地真实节点代码、官方并行汇总函数及引用静态检查。未导入FastGPT，未在线执行，未测量实际并发/速度或医学质量。"
+}

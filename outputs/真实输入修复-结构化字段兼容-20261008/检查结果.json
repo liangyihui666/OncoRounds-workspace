@@ -1,0 +1,34 @@
+{
+  "source": "outputs/病例文本数组兼容-20261008/外层完整工作流-病例文本数组兼容.json",
+  "checks": [
+    {
+      "name": "提供的真实失败输入：旧版复现case_timeline报错，新版通过",
+      "pass": true
+    },
+    {
+      "name": "真实病例载荷可进入现有出题子应用，字段类型正确",
+      "pass": true
+    },
+    {
+      "name": "OCR待核对标记、符号、日期和基因原值逐字保留",
+      "pass": true
+    },
+    {
+      "name": "字符串输入结果保持；null/空数组归空，畸形数组仍拒绝",
+      "pass": true
+    },
+    {
+      "name": "附加字段及未知记录结构保留，不猜日期归属或漏字段",
+      "pass": true
+    },
+    {
+      "name": "只改字段映射代码，所有连线、必填输入、模型、应用绑定和其他节点保持",
+      "pass": true
+    }
+  ],
+  "real_input_replayed": true,
+  "child_input_verified": true,
+  "api_calls": 0,
+  "online_verified": false,
+  "medical_review_status": "not_performed"
+}

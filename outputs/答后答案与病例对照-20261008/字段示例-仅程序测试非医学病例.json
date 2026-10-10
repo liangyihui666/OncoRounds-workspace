@@ -1,0 +1,347 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "TEST",
+    "cancer_type": "直肠癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "治疗决策",
+        "phase": "阶段0",
+        "timepoint": "阶段二",
+        "question": "测试条件0下，下列哪项正确？",
+        "options": {
+          "A": "方案甲0",
+          "B": "方案乙0",
+          "C": "方案丙0",
+          "D": "方案丁0"
+        },
+        "answer": "A",
+        "answer_text": "方案甲0",
+        "explain": "A｜正确：该条件下有测试证据支持。\nB｜不正确：需要题干尚未满足的条件。\nC｜不正确：该方案适用其他情境。\nD｜不正确：该措施不符合现有条件。",
+        "keyPoint": "测试原则0",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "testdoc0",
+          "split_index": 0,
+          "type": "guideline",
+          "authority": "测试机构",
+          "source_title": "测试指南0",
+          "source_version": "2026",
+          "source_section": "",
+          "source_url": "",
+          "evidence_summary": "测试记录明确区分条件"
+        },
+        "after_answer": {
+          "schema_version": "1.0",
+          "actual_management": {
+            "status": "not_reported",
+            "field": "",
+            "quote": ""
+          },
+          "actual_outcome": {
+            "status": "not_reported",
+            "field": "",
+            "quote": ""
+          },
+          "comparison": {
+            "status": "unknown",
+            "explanation": "原文未记载本题对应实际处理，无法判断一致性。"
+          },
+          "difference_reason": {
+            "status": "not_reported",
+            "field": "",
+            "quote": ""
+          }
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "治疗决策",
+        "phase": "阶段1",
+        "timepoint": "阶段二",
+        "question": "测试条件1下，下列哪项正确？",
+        "options": {
+          "A": "方案甲1",
+          "B": "方案乙1",
+          "C": "方案丙1",
+          "D": "方案丁1"
+        },
+        "answer": "A",
+        "answer_text": "方案甲1",
+        "explain": "A｜正确：该条件下有测试证据支持。\nB｜不正确：需要题干尚未满足的条件。\nC｜不正确：该方案适用其他情境。\nD｜不正确：该措施不符合现有条件。",
+        "keyPoint": "测试原则1",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "testdoc1",
+          "split_index": 0,
+          "type": "guideline",
+          "authority": "测试机构",
+          "source_title": "测试指南1",
+          "source_version": "2026",
+          "source_section": "",
+          "source_url": "",
+          "evidence_summary": "测试记录明确区分条件"
+        },
+        "after_answer": {
+          "schema_version": "1.0",
+          "actual_management": {
+            "status": "not_reported",
+            "field": "",
+            "quote": ""
+          },
+          "actual_outcome": {
+            "status": "not_reported",
+            "field": "",
+            "quote": ""
+          },
+          "comparison": {
+            "status": "unknown",
+            "explanation": "原文未记载本题对应实际处理，无法判断一致性。"
+          },
+          "difference_reason": {
+            "status": "not_reported",
+            "field": "",
+            "quote": ""
+          }
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "阶段2",
+        "timepoint": "阶段二",
+        "question": "测试条件2下，下列哪项正确？",
+        "options": {
+          "A": "方案甲2",
+          "B": "方案乙2",
+          "C": "方案丙2",
+          "D": "方案丁2"
+        },
+        "answer": "A",
+        "answer_text": "方案甲2",
+        "explain": "A｜正确：该条件下有测试证据支持。\nB｜不正确：需要题干尚未满足的条件。\nC｜不正确：该方案适用其他情境。\nD｜不正确：该措施不符合现有条件。",
+        "keyPoint": "测试原则2",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "testdoc2",
+          "split_index": 0,
+          "type": "guideline",
+          "authority": "测试机构",
+          "source_title": "测试指南2",
+          "source_version": "2026",
+          "source_section": "",
+          "source_url": "",
+          "evidence_summary": "测试记录明确区分条件"
+        },
+        "after_answer": {
+          "schema_version": "1.0",
+          "actual_management": {
+            "status": "not_reported",
+            "field": "",
+            "quote": ""
+          },
+          "actual_outcome": {
+            "status": "not_reported",
+            "field": "",
+            "quote": ""
+          },
+          "comparison": {
+            "status": "unknown",
+            "explanation": "原文未记载本题对应实际处理，无法判断一致性。"
+          },
+          "difference_reason": {
+            "status": "not_reported",
+            "field": "",
+            "quote": ""
+          }
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "治疗决策",
+        "phase": "阶段3",
+        "timepoint": "阶段二",
+        "question": "测试条件3下，下列哪项正确？",
+        "options": {
+          "A": "方案甲3",
+          "B": "方案乙3",
+          "C": "方案丙3",
+          "D": "方案丁3"
+        },
+        "answer": "A",
+        "answer_text": "方案甲3",
+        "explain": "A｜正确：该条件下有测试证据支持。\nB｜不正确：需要题干尚未满足的条件。\nC｜不正确：该方案适用其他情境。\nD｜不正确：该措施不符合现有条件。",
+        "keyPoint": "测试原则3",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "testdoc3",
+          "split_index": 0,
+          "type": "guideline",
+          "authority": "测试机构",
+          "source_title": "测试指南3",
+          "source_version": "2026",
+          "source_section": "",
+          "source_url": "",
+          "evidence_summary": "测试记录明确区分条件"
+        },
+        "after_answer": {
+          "schema_version": "1.0",
+          "actual_management": {
+            "status": "not_reported",
+            "field": "",
+            "quote": ""
+          },
+          "actual_outcome": {
+            "status": "not_reported",
+            "field": "",
+            "quote": ""
+          },
+          "comparison": {
+            "status": "unknown",
+            "explanation": "原文未记载本题对应实际处理，无法判断一致性。"
+          },
+          "difference_reason": {
+            "status": "not_reported",
+            "field": "",
+            "quote": ""
+          }
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "治疗决策",
+        "phase": "阶段4",
+        "timepoint": "阶段二",
+        "question": "测试条件4下，下列哪项正确？",
+        "options": {
+          "A": "方案甲4",
+          "B": "方案乙4",
+          "C": "方案丙4",
+          "D": "方案丁4"
+        },
+        "answer": "A",
+        "answer_text": "方案甲4",
+        "explain": "A｜正确：该条件下有测试证据支持。\nB｜不正确：需要题干尚未满足的条件。\nC｜不正确：该方案适用其他情境。\nD｜不正确：该措施不符合现有条件。",
+        "keyPoint": "测试原则4",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "testdoc4",
+          "split_index": 0,
+          "type": "guideline",
+          "authority": "测试机构",
+          "source_title": "测试指南4",
+          "source_version": "2026",
+          "source_section": "",
+          "source_url": "",
+          "evidence_summary": "测试记录明确区分条件"
+        },
+        "after_answer": {
+          "schema_version": "1.0",
+          "actual_management": {
+            "status": "not_reported",
+            "field": "",
+            "quote": ""
+          },
+          "actual_outcome": {
+            "status": "not_reported",
+            "field": "",
+            "quote": ""
+          },
+          "comparison": {
+            "status": "unknown",
+            "explanation": "原文未记载本题对应实际处理，无法判断一致性。"
+          },
+          "difference_reason": {
+            "status": "not_reported",
+            "field": "",
+            "quote": ""
+          }
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "TEST",
+    "cancer_type": "直肠癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": ""
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "离线结构测试（非医学病例）",
+      "description": "测试患者出现条件甲，另一检查结果乙尚未回报。"
+    },
+    "overview": {
+      "hero": {
+        "title": "离线结构测试（非医学病例）",
+        "subtitle": "测试疾病"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者与就诊背景",
+              "value": "测试患者出现条件甲，另一检查结果乙尚未回报。"
+            },
+            {
+              "order": 2,
+              "label": "疾病与分期",
+              "value": "测试疾病"
+            },
+            {
+              "order": 3,
+              "label": "分子与病理",
+              "value": "标志物丙阳性。"
+            },
+            {
+              "order": 4,
+              "label": "核心教学点",
+              "value": "测试决策"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 1",
+              "detail": "阶段一｜患者接受方案甲。"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 2",
+              "detail": "阶段二｜原文记录患者选择方案乙，原因是患者拒绝方案甲。"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 3",
+              "detail": "阶段三｜复查结果改善。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

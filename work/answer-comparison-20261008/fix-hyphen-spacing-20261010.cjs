@@ -1,0 +1,20 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert/strict');
+const root='outputs/相对时间与不确定病例出题-20261010/';
+const original=JSON.parse(fs.readFileSync(root+'02-五题出题子应用完整工作流.json','utf8')),w=structuredClone(original);
+const old="const hyphenNumber=left==='-'&&/[A-Za-z0-9]/.test(flat[flat.length-2]?.c||'')&&/[0-9]/.test(right||'');";
+const replacement="const hyphenNumber=left==='-'&&/[A-Za-z0-9]/.test(flat[flat.length-2]?.c||'')&&/[A-Za-z0-9]/.test(right||'');";
+for(const id of ['cmuTcUhJefVm2DC6','v12AssemblyR2']){const c=w.nodes.find(n=>n.nodeId===id).inputs.find(i=>i.key==='code');assert(c.value.includes(old));c.value=c.value.replace(old,replacement);new vm.Script(c.value);}
+const input=JSON.parse(fs.readFileSync(__dirname+'/cip-real-input.json','utf8')),candidate=JSON.parse(input.candidate_json);
+const get=workflow=>workflow.nodes.find(n=>n.nodeId==='v12AssemblyR2').inputs.find(i=>i.key==='code').value;
+const functions=workflow=>vm.runInNewContext(get(workflow)+'\n({sourceLayout,verifyCandidateEvidence,main})');
+const before=functions(original),after=functions(w);
+const a=before.verifyCandidateEvidence(candidate,input.evidence_pool,input.case_packet),b=after.verifyCandidateEvidence(candidate,input.evidence_pool,input.case_packet);
+assert.equal(a.errors.length,2);assert.equal(b.errors.length,0);
+const layout=after.sourceLayout;for(const [raw,plain]of[['CTLA- 4','CTLA-4'],['PD- 1','PD-1'],['PD- LI','PD-LI'],['PD- L1','PD-L1'],['HER- 2','HER-2']])assert.equal(layout(raw).text,layout(plain).text);
+assert.notEqual(layout('PD- LI').text,layout('PD-L1').text);assert.notEqual(layout('ALK+').text,layout('ALK-').text);assert.notEqual(layout('10mg').text,layout('≤10mg').text);
+assert.deepEqual(w.edges,original.edges);assert.deepEqual(w.chatConfig,original.chatConfig);
+const restored=structuredClone(w);for(const id of ['cmuTcUhJefVm2DC6','v12AssemblyR2'])restored.nodes.find(n=>n.nodeId===id).inputs.find(i=>i.key==='code').value=original.nodes.find(n=>n.nodeId===id).inputs.find(i=>i.key==='code').value;assert.deepEqual(restored,original);
+const dir='outputs/连字符空格核对修复-20261010';fs.mkdirSync(dir,{recursive:true});
+fs.writeFileSync(dir+'/五题出题子应用-完整工作流.json',JSON.stringify(w,null,2));
+fs.writeFileSync(dir+'/真实输入离线核对.json',JSON.stringify({before_errors:a.errors,after_errors:b.errors,all_five_literal_checks_pass:true,semantic_support:'not_independently_verified',medical_review_performed:false,known_content_issue:'Q3未经标注，将原文未明确的确诊G2、激素治疗和缓解写成实际事实；不得据本次字面核对通过发布。',api_calls:0,attachment_escape_recovery_for_offline_only:true},null,2));
+console.log(JSON.stringify({dir,before_errors:a.errors,after_errors:b.errors,api_calls:0}));

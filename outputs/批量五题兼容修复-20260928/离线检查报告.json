@@ -1,0 +1,45 @@
+{
+  "checks": [
+    {
+      "name": "原版真实五题输出被错误拒绝，修正版原样接受",
+      "pass": true
+    },
+    {
+      "name": "一至四题不能作为成功病例通过",
+      "pass": true
+    },
+    {
+      "name": "十文件混合成功失败保持位置、病例页和重试索引",
+      "pass": true
+    },
+    {
+      "name": "批量中断占位保留，结果数量不一致明确拒绝",
+      "pass": true
+    },
+    {
+      "name": "新展示契约和历史两级癌种均兼容，冲突仍拒绝",
+      "pass": true
+    },
+    {
+      "name": "病例标识、题数、答案及题目ID错误被隔离",
+      "pass": true
+    },
+    {
+      "name": "每个并行任务只绑定自己的单文件数组，不重复传整批",
+      "pass": true
+    },
+    {
+      "name": "文件数量与无效项校验保留",
+      "pass": true
+    },
+    {
+      "name": "代码语法、连线、应用绑定、并发设置及位置保持",
+      "pass": true
+    }
+  ],
+  "check_count": 9,
+  "online_verified": false,
+  "real_output_replay": true,
+  "native_parallel_runtime_executed": false,
+  "called_app_version_verified": false
+}

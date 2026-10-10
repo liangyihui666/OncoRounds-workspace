@@ -1,0 +1,27 @@
+OncoRounds 肿瘤医生大查房 Demo
+版本日期：2026-08-18
+
+一、直接查看 Demo
+打开文件夹：OncoRounds-H5-Offline
+双击：index.html
+
+该版本不依赖服务器，适合直接发给其他人查看。
+
+二、继续修改源码
+打开文件夹：OncoRounds-Source
+
+环境要求：Node.js 20 或更高版本、pnpm。
+
+首次运行：
+1. 在 OncoRounds-Source 文件夹打开终端。
+2. 执行：pnpm install
+3. 执行：pnpm dev
+4. 按终端提示打开本地网址。
+
+测试：pnpm test -- --run
+构建：pnpm build
+
+三、安全说明
+本交付包未包含 node_modules、Git 历史、.env 文件、FastGPT API Key 或其他本地密钥。
+病例及题目为当前 Demo 已发布的脱敏教学内容。
+

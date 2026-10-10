@@ -1,0 +1,216 @@
+function main({ quotes, original_query, initial_studies, guideline_a, guideline_b }) {
+  function clean(value) {
+    return String(value == null ? "" : value)
+      .replace(/<[^>]*>/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  function toRows(value) {
+    if (Array.isArray(value)) return value;
+
+    if (typeof value === "string") {
+      try {
+        const parsed = JSON.parse(value);
+        return Array.isArray(parsed) ? parsed : [];
+      } catch (_) {
+        return value.trim() ? [{ a: value }] : [];
+      }
+    }
+
+    if (value && Array.isArray(value.quoteQA)) {
+      return value.quoteQA;
+    }
+
+    return [];
+  }
+
+  function unique(values) {
+    return Array.from(new Set(values.filter(Boolean)));
+  }
+
+  function publicUrl(value) {
+    const url = clean(value).replace(/[),.;。，；）]+$/g, "");
+
+    if (!/^https?:\/\//i.test(url)) return "";
+    if (/^https?:\/\/(?:localhost|127\.|10\.|192\.168\.|169\.254\.|172\.(?:1[6-9]|2\d|3[01])\.)/i.test(url)) {
+      return "";
+    }
+    if (/[?&](?:token|access_token|api_key|apikey|auth|authorization|credential|signature|sig)=/i.test(url)) {
+      return "";
+    }
+
+    return url;
+  }
+
+  const excluded = new Set([
+    "ALK", "NSCLC", "SCLC", "EGFR", "ROS1", "RET", "KRAS", "BRAF",
+    "NTRK", "MET", "HER2", "PDL1", "TKI", "DFS", "PFS", "EFS", "OS",
+    "ORR", "DCR", "HR", "CI", "CNS", "MPR", "PCR", "NGS", "FISH",
+    "ASCO", "ESMO", "WCLC", "AATS", "AACR", "NEJM", "CTRC", "FDA",
+    "CTDNA", "MRD"
+  ]);
+
+  const rows = [...toRows(quotes), ...[initial_studies,guideline_a,guideline_b].flatMap(rowsFromResult).map(item => ({...item,
+    title:item.title||item.source_title||item.dataSourceName||'',
+    content:item.snippet||item.content||item.text||item.pageContent||''}))];
+  const allStudyNames = [];
+  const allRegistryIds = [];
+  const studyLeads = [];
+  const relatedReading = [];
+  const seenReading = new Set();
+
+  for (const item of rows) {
+    const title = clean(
+      item && (item.title || item.sourceTitle || item.sourceName)
+    );
+    // FastGPT datasetQuote在不同版本中可能把正文放在q或a；sourceName通常只是文件名。
+    // 同时纳入所有正文候选，不能因sourceName存在就忽略q中的研究名称/注册号。
+    const body = [
+      item && item.q,
+      item && item.a,
+      item && item.content,
+      item && item.text,
+      item && item.pageContent
+    ].map(clean).filter(Boolean).join(" ");
+    const combined = `${title} ${body}`;
+    // 标题已经明确给出研究名时只信标题，避免把正文中的国家名、对照研究或延伸讨论误作当前研究。
+    // 标题没有研究身份时，有限扫描正文开头，以识别“综述/访谈标题 + 开头明确介绍主研究”的资料。
+    const rawQ = String((item && item.q) || "");
+    const embeddedTitleMatch = rawQ.match(/标题:\[([^\]]{1,300})\]/);
+    const embeddedTitle = clean(embeddedTitleMatch ? embeddedTitleMatch[1] : "");
+    const titleHasStudyIdentity = /\b[A-Z][A-Z0-9-]{2,24}(?:\s+\d{2,5})?\s*(?=研究|试验|(?:中国)?数据|study\b|trial\b)/i.test(embeddedTitle);
+    const primaryIdentityText = titleHasStudyIdentity
+      ? embeddedTitle
+      : `${embeddedTitle || title} ${body.slice(0, 1000)}`;
+
+    const registryIds = unique([
+      ...((combined.match(/\bNCT\d{8}\b/gi) || []).map((value) => value.toUpperCase())),
+      ...((combined.match(/\b\d{4}-\d{6}-\d{2}\b/g) || []))
+    ]);
+
+    const studyNames = [];
+    const studyPattern = /\b([A-Z][A-Z0-9-]{2,24}(?:\s+\d{2,5})?)\s*(?=研究|试验|(?:中国)?数据|study\b|trial\b)/gi;
+    let match;
+
+    while ((match = studyPattern.exec(primaryIdentityText)) !== null) {
+      const name = String(match[1] || "").replace(/\s+/g, " ").trim().toUpperCase();
+      if (!excluded.has(name) && !/^\d+$/.test(name)) {
+        studyNames.push(name);
+      }
+    }
+
+    // 兼容“Ⅱ期研究（LORIN）”这类研究简称置于括号内的标题写法。
+    const parentheticalStudyPattern = /(?:研究|试验)\s*[（(]\s*([A-Z][A-Z0-9-]{2,24}(?:\s+\d{2,5})?)\s*[）)]/gi;
+    while ((match = parentheticalStudyPattern.exec(primaryIdentityText)) !== null) {
+      const name = String(match[1] || "").replace(/\s+/g, " ").trim().toUpperCase();
+      if (!excluded.has(name) && !/^\d+$/.test(name)) {
+        studyNames.push(name);
+      }
+    }
+
+    const normalizedNames = unique(studyNames).slice(0, 5);
+    const normalizedRegistryIds = registryIds.slice(0, 5);
+
+    allStudyNames.push(...normalizedNames);
+    allRegistryIds.push(...normalizedRegistryIds);
+
+    const directUrl = publicUrl(
+      item && (item.sourceUrl || item.url || item.link || item.sourceLink)
+    );
+    const textUrlMatch = combined.match(/https?:\/\/[^\s<>"']+/i);
+    const leadUrl = directUrl || publicUrl(textUrlMatch ? textUrlMatch[0] : "");
+    const sourceRecordId = clean(item && (item.id || item.sourceId));
+
+    if (normalizedNames.length > 0 || normalizedRegistryIds.length > 0) {
+      studyLeads.push({
+        study_names: normalizedNames,
+        registry_ids: normalizedRegistryIds,
+        article_title: title,
+        lead_url: leadUrl,
+        source_record_id: sourceRecordId,
+        source_kind: "资讯线索，不作主证据"
+      });
+    }
+
+    const readingKey = `${title}|${leadUrl}|${sourceRecordId}`;
+    if (title && !seenReading.has(readingKey)) {
+      seenReading.add(readingKey);
+      relatedReading.push({
+        title,
+        url: leadUrl,
+        source_record_id: sourceRecordId,
+        source_type: "资讯解读"
+      });
+    }
+  }
+
+  const studyNames = unique(allStudyNames).slice(0, 8);
+  const registryIds = unique(allRegistryIds).slice(0, 8);
+  const expandedTerms = [...studyNames, ...registryIds].join(" ");
+  function rowsFromResult(value) {
+    if (Array.isArray(value)) return value;
+    if (value && Array.isArray(value.result)) return value.result;
+    if (typeof value === "string") {
+      try {
+        const parsed = JSON.parse(value);
+        return Array.isArray(parsed) ? parsed : (Array.isArray(parsed?.result) ? parsed.result : []);
+      } catch (_) { return []; }
+    }
+    return [];
+  }
+
+  function recordText(item) {
+    try { return clean(JSON.stringify(item)); } catch (_) { return clean(item); }
+  }
+
+  function clearlyEligibleStudy(item) {
+    const value = recordText(item);
+    const identity = /(?:\bNCT\d{8}\b|\b[A-Z][A-Z0-9-]{2,24}\s*(?:研究|试验|study|trial)|临床试验)/i.test(value);
+    const design = /(?:随机|开放标签|单臂|双盲|前瞻性|回顾性|phase\s*[1-4]|[ⅠⅡⅢⅣIVX]+期)/i.test(value);
+    const population = /(?:入组|纳入|患者|patients?|受试者)/i.test(value);
+    const intervention = /(?:治疗|方案|联合|单药|versus|\bvs\b|接受)/i.test(value);
+    const result = /(?:主要终点|终点|PFS|OS|ORR|DFS|EFS|HR|缓解率|生存期|个月|结果)/i.test(value);
+    return identity && design && population && intervention && result;
+  }
+
+  function eligibleGuidelineCount(value) {
+    const seen = new Set();
+    for (const item of rowsFromResult(value)) {
+      if (String(item?.type || "") !== "guideline" || !clean(item?.authority)) continue;
+      const doc = clean(item?.docId ?? item?.doc_id);
+      const split = item?.splitIndex ?? item?.split_index;
+      if (doc && split !== undefined && split !== null && split !== "") seen.add(`${doc}::${String(split)}`);
+    }
+    return seen.size;
+  }
+
+  const initialStudyRows = rowsFromResult(initial_studies);
+  const initialHasEligibleStudy = initialStudyRows.some(clearlyEligibleStudy);
+  const baseEligiblePool = eligibleGuidelineCount(guideline_a) + eligibleGuidelineCount(guideline_b) + (initialHasEligibleStudy ? 1 : 0);
+  const hasCandidateLeads = expandedTerms.length > 0;
+  const hasLeads = hasCandidateLeads || Boolean(clean(original_query));
+  const baseQuery = String(original_query || "").trim();
+
+  const expandedQuery = hasCandidateLeads ? boundedSupplementQuery(baseQuery, expandedTerms)
+    : (baseQuery ? boundedSupplementQuery(baseQuery, '同病种同治疗阶段 比较方案 疗效与安全性 原始研究') : '');
+
+  return {
+    has_leads: hasLeads,
+    expanded_terms: expandedTerms,
+    expanded_query: expandedQuery,
+    study_leads_json: JSON.stringify(studyLeads.slice(0, 8)),
+    related_reading_json: JSON.stringify(relatedReading.slice(0, 8))
+  };
+}
+
+
+function boundedSupplementQuery(base, terms) {
+  function wholeUnits(text, limit) {
+    const parts=String(text || '').split(/[\n；;。]/).map(s=>s.trim()).filter(Boolean);
+    const kept=[];let length=0;
+    for(const part of parts) if(length+part.length+(kept.length?1:0)<=limit){kept.push(part);length+=part.length+(kept.length>1?1:0);}
+    return kept.join('；');
+  }
+  return ['研究线索：'+wholeUnits(terms,180), wholeUnits(base,240), '仅召回匹配病例人群与治疗阶段、已报告结果的原始临床研究。'].join('\n');
+}

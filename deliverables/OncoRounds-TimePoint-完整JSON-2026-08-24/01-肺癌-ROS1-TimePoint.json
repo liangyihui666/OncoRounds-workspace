@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "case_id": "lung-ros1",
+  "cancer_type": "肺癌",
+  "difficulty": "进阶",
+  "decision_point_count": 5,
+  "timeline_items": [
+    {
+      "date": "2020.12",
+      "title": "一线 ROS1 靶向治疗",
+      "detail": "塞瑞替尼治疗，最佳疗效 PR，PFS 约 10 个月。"
+    },
+    {
+      "date": "2021.09",
+      "title": "颅内进展",
+      "detail": "多发脑转移进展，接受全脑放疗并延续原靶向治疗。"
+    },
+    {
+      "date": "2021.12",
+      "title": "二线临床研究",
+      "detail": "进入 APG-2449 研究，疾病稳定，PFS 约 8 个月。"
+    },
+    {
+      "date": "2022.09",
+      "title": "化疗联合抗血管",
+      "detail": "培美曲塞、卡铂联合贝伐珠单抗，5 个周期后获得 PR。"
+    },
+    {
+      "date": "2023.08",
+      "title": "再活检明确耐药",
+      "detail": "检测到 ROS1 D869Y 与 TP53 改变，为后续精准选择提供依据。"
+    },
+    {
+      "date": "2023.09+",
+      "title": "新一代选择性 ROS1 抑制剂",
+      "detail": "进入 JYP0322 研究并持续获得 PR。"
+    }
+  ],
+  "question_timepoints": [
+    {
+      "order": 1,
+      "question_id": "Q1",
+      "question_type": "治疗决策",
+      "phase": "初始治疗",
+      "timepoint": "2020 年初诊时",
+      "question": "患者确诊 ROS1 融合阳性 IVB 期肺腺癌，伴脑转移，ECOG PS 1 分。综合当前规范，此时最适宜的初始系统治疗策略是？"
+    },
+    {
+      "order": 2,
+      "question_id": "Q2",
+      "question_type": "治疗决策",
+      "phase": "疾病进展管理",
+      "timepoint": "2021 年 9 月 CNS 进展时",
+      "question": "患者在 ROS1 靶向治疗期间出现 CNS 进展，颅外病灶仍相对稳定。下列哪项属于当前正式指南明确列出的 CNS 进展管理路径？"
+    },
+    {
+      "order": 3,
+      "question_id": "Q3",
+      "question_type": "治疗决策",
+      "phase": "后线系统治疗",
+      "timepoint": "2022 年 8 月广泛进展时",
+      "question": "患者经多线 TKI 治疗后出现脑部及肺部广泛进展，再次活检暂不可行且后续 ROS1 抑制剂可及性受限。此时最适宜的系统治疗方案是？"
+    },
+    {
+      "order": 4,
+      "question_id": "Q4",
+      "question_type": "诊断策略",
+      "phase": "分子检测与耐药评估",
+      "timepoint": "2023 年 8 月再次进展时",
+      "question": "患者化疗后再次进展，拟重新评估分子状态以指导后续治疗。关于 ROS1 融合基因检测策略，下列说法正确的是？"
+    },
+    {
+      "order": 5,
+      "question_id": "Q5",
+      "question_type": "治疗决策",
+      "phase": "后线治疗与临床研究",
+      "timepoint": "2023 年 9 月后线治疗时",
+      "question": "患者标准后线治疗选择受限，且有意愿探索新治疗选择。关于此时合理的治疗策略，下列说法正确的是？"
+    }
+  ]
+}

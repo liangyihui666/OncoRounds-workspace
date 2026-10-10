@@ -1,0 +1,249 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-8EB5623E",
+    "cancer_type": "胸部肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "来源鉴别",
+        "timepoint": "十二指肠深部取样后",
+        "question": "十二指肠病灶CK7、GATA3等阳性，ER/PR阴性，有既往乳腺癌史。哪项病理解释最严谨？",
+        "options": {
+          "A": "把专家讨论中的典型CDX2阴性直接补入本例报告",
+          "B": "ER阴性足以排除乳腺来源，不需比较既往标本",
+          "C": "结合形态、标志物组合和既往标本支持乳腺来源，不能由单一阳性直接定性",
+          "D": "GATA3阳性可独立排除全部消化道及其他原发"
+        },
+        "answer": "C",
+        "answer_text": "结合形态、标志物组合和既往标本支持乳腺来源，不能由单一阳性直接定性",
+        "explain": "原文结合病史、形态及免疫组化确诊乳腺转移；其中未报告的CDX2结果不能补造。标志物有重叠，判断应依赖组合及临床定位，而非单个结果。",
+        "keyPoint": "罕见转移来源需综合病理与病史，未检测标志物不得补写。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "",
+          "split_index": null,
+          "type": "journal",
+          "authority": "",
+          "source_title": "Duodenal obstruction secondary to metastatic breast cancer",
+          "source_version": "2025",
+          "source_section": "",
+          "source_url": "https://doi.org/10.4103/jcrt.jcrt_2022_24",
+          "evidence_summary": "罕见转移来源需综合病理与病史，未检测标志物不得补写。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "诊断与分期",
+        "phase": "未获诊断性取样",
+        "timepoint": "常规内镜活检未确诊后",
+        "question": "内镜显示腔外压迫性狭窄和黏膜水肿，表浅活检未获得确诊组织。下一步更合理的是？",
+        "options": {
+          "A": "重新评估病灶层次及可及性，采用EUS引导等方式获取深部样本",
+          "B": "把一次非诊断性活检等同于排除恶性病变",
+          "C": "不再取样，直接把乳腺病史视为肠病灶的组织诊断",
+          "D": "重复相同部位的极浅活检直至影像病灶自行消失"
+        },
+        "answer": "A",
+        "answer_text": "重新评估病灶层次及可及性，采用EUS引导等方式获取深部样本",
+        "explain": "腔外或深层病灶可能使表浅取样不足。本例EUS引导穿刺提供了诊断材料；具体针具和取样方式需依病灶及病理需求选择，不能称为所有肠道病灶的统一首选。",
+        "keyPoint": "非诊断性表浅取样不能排除深部肿瘤，应调整取样策略。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "",
+          "split_index": null,
+          "type": "journal",
+          "authority": "",
+          "source_title": "Duodenal obstruction secondary to metastatic breast cancer",
+          "source_version": "2025",
+          "source_section": "",
+          "source_url": "https://doi.org/10.4103/jcrt.jcrt_2022_24",
+          "evidence_summary": "非诊断性表浅取样不能排除深部肿瘤，应调整取样策略。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "分子诊断",
+        "phase": "受体不一致解释",
+        "timepoint": "ER/PR由阳性变为阴性时",
+        "question": "既往乳腺标本ER/PR阳性，本次转移灶ER/PR阴性、HER2阴性。如何用于后续治疗最妥当？",
+        "options": {
+          "A": "将受体改变直接解释为已证实某个耐药基因突变",
+          "B": "复核样本与检测质量，结合不同部位结果、既往获益及现病情制定方案",
+          "C": "仅凭一次阴性永久否定所有既往HR阳性信息",
+          "D": "直接认定任何受体差异均为检测错误，沿用旧方案"
+        },
+        "answer": "B",
+        "answer_text": "复核样本与检测质量，结合不同部位结果、既往获益及现病情制定方案",
+        "explain": "受体差异可能与演变、异质性或技术因素有关。需争取可靠的复发灶结果，但不能用一个绝对规则解决所有不一致情况，更不能由蛋白表达推定基因机制。",
+        "keyPoint": "受体不一致需综合复核和临床解释，不能简单覆盖或忽略。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESO / ESMO",
+          "source_title": "5th ESO-ESMO international consensus guidelines for advanced breast cancer (ABC 5)",
+          "source_version": "2020",
+          "source_section": "",
+          "source_url": "https://doi.org/10.1016/j.annonc.2020.09.010",
+          "evidence_summary": "受体不一致需综合复核和临床解释，不能简单覆盖或忽略。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "治疗决策",
+        "phase": "梗阻期综合处理",
+        "timepoint": "确诊十二指肠转移后",
+        "question": "患者高位小肠梗阻，经胃管减压部分缓解，病理支持乳腺转移。制定系统治疗时，哪项最关键？",
+        "options": {
+          "A": "只要受体阴性就停用减压措施，等待化疗起效",
+          "B": "仅因肠转移就统一采用相同蒽环联合方案，不核对既往治疗",
+          "C": "先评估梗阻严重度及营养容量状态，并结合既往蒽环暴露、心功能和肿瘤特征选药",
+          "D": "因是转移性疾病而不评估局部解除梗阻的可能性"
+        },
+        "answer": "C",
+        "answer_text": "先评估梗阻严重度及营养容量状态，并结合既往蒽环暴露、心功能和肿瘤特征选药",
+        "explain": "症状性内脏病变需要及时处理，但不能不评估器官功能就直接套用固定化疗。病例所用AC及其缓解只代表个体经过，不能证明全部类似患者均应采用该方案。",
+        "keyPoint": "症状性转移的方案选择需兼顾紧急局部问题、既往治疗和器官功能。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, staging and treatment of patients with metastatic breast cancer",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+          "evidence_summary": "症状性转移的方案选择需兼顾紧急局部问题、既往治疗和器官功能。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "疗效复评与局部治疗",
+        "phase": "系统治疗早期复评",
+        "timepoint": "2周期后梗阻症状改善",
+        "question": "两周期化疗后呕吐腹痛明显缓解。判断后续疗效与是否继续方案，应采用哪种方式？",
+        "options": {
+          "A": "所有患者固定每2周期PET/CT，不考虑方案及临床变化",
+          "B": "结合症状、营养及同类影像复评病灶，按病情安排间隔",
+          "C": "以能恢复进食直接判定影像CR",
+          "D": "只观察肿瘤标志物变化而不比较病灶"
+        },
+        "answer": "B",
+        "answer_text": "结合症状、营养及同类影像复评病灶，按病情安排间隔",
+        "explain": "梗阻缓解是重要临床获益，但不等于全部病灶消失。影像方法和比较基准需一致，复评间隔按方案、疾病速度及症状调整。",
+        "keyPoint": "症状改善与客观影像反应分别记录，复评频率需个体化。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, staging and treatment of patients with metastatic breast cancer",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+          "evidence_summary": "症状改善与客观影像反应分别记录，复评频率需个体化。"
+        }
+      }
+    ],
+    "missing_information": [],
+    "second_cancer_type": "乳腺癌"
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-8EB5623E",
+    "cancer_type": "胸部肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "乳腺癌十二指肠转移致小肠梗阻病例",
+      "description": "53岁女性，2005年乳腺癌术后接受放疗及内分泌治疗，2019年后反复局部及淋巴结复发。2025年初出现恶心、呕吐、腹痛，CT见十二指肠第三段病灶致高位梗阻，胃管减压后部分缓解。常规内镜活检未获诊断，经EUS引导穿刺及病理综合判断为乳腺癌十二指肠转移，本次ER/PR/HER2阴性。给予两周期环磷酰胺加阿霉素后梗阻症状改善。"
+    },
+    "overview": {
+      "hero": {
+        "title": "乳腺癌十二指肠转移致小肠梗阻病例",
+        "subtitle": "来源鉴别；未获诊断性取样；受体不一致解释；梗阻期综合处理；系统治疗早期复评。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者与就诊背景",
+              "value": "53岁女性，2005年乳腺癌术后接受放疗及内分泌治疗，2019年后反复局部及淋巴结复发。2025年初出现恶心、呕吐、腹痛，CT见十二指肠第三段病灶致高位梗阻，胃管减压后部分缓解。常规内镜活检未获诊断，经EUS引导穿刺及病理综合判断为乳腺癌十二指肠转移，本次ER/PR/HER2阴性。给予两周期环磷酰胺加阿霉素后梗阻症状改善。"
+            },
+            {
+              "order": 2,
+              "label": "疾病与分期",
+              "value": "乳腺癌十二指肠转移伴梗阻；分类仍为胸部肿瘤／乳腺癌，不按转移部位改为消化道原发癌。"
+            },
+            {
+              "order": 3,
+              "label": "分子与病理",
+              "value": "2019年相关乳腺标本ER＞95%、PR 60%、HER2经SISH阴性；2024年标本ER约50%、PR阴性。十二指肠穿刺Pankeratin、CK7、E-cadherin、GATA3阳性，ER/PR/HER2阴性、Ki-67约40%。未报告本例CDX2结果，不补写阴性。"
+            },
+            {
+              "order": 4,
+              "label": "核心教学点",
+              "value": "来源鉴别；未获诊断性取样；受体不一致解释；梗阻期综合处理；系统治疗早期复评。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2005年",
+              "title": "早期乳腺癌治疗",
+              "detail": "保乳及前哨淋巴结相关手术，术后放疗与内分泌治疗。"
+            },
+            {
+              "date": "2019—2024年",
+              "title": "多次复发及受体演变",
+              "detail": "局部、腋窝及锁骨上等部位复发；受体结果依取样时间分别记录。"
+            },
+            {
+              "date": "2025年初",
+              "title": "十二指肠梗阻",
+              "detail": "CT提示第三段病灶及高位梗阻，胃管减压部分缓解。"
+            },
+            {
+              "date": "取样阶段",
+              "title": "表浅活检未确诊",
+              "detail": "EUS引导穿刺取得样本，结合病史及病理确认乳腺转移。"
+            },
+            {
+              "date": "2周期AC后",
+              "title": "症状改善",
+              "detail": "环磷酰胺联合阿霉素后梗阻症状缓解，不直接判定影像CR。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    },
+    "second_cancer_type": "乳腺癌"
+  }
+}

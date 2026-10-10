@@ -1,0 +1,2 @@
+This is a non-medical test fixture for the local upload interaction.
+No patient information. The demo reads only this file name.

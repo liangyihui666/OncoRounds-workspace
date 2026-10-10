@@ -1,0 +1,1226 @@
+{
+  "case_id": "CASE-84AF0D51",
+  "disease": "左侧 IV 期 HER2 阳性乳腺癌（cT4bN3cM1）伴淋巴结、骨、肝脏及脑转移",
+  "case_title": "HER2 阳性乳腺癌脑转移维迪西妥单抗治疗病例",
+  "case_context": "患者女性，45 岁。2017 年 8 月确诊左侧 IV 期 HER2 阳性乳腺癌，伴淋巴结、骨、肝转移。经 EC 方案化疗、双靶治疗及改良根治术，术后行内分泌、靶向维持及放疗。2019 年 4 月出现脑转移，行全脑放疗联合吡咯替尼 + 卡培他滨，因严重胃肠道反应受限。2021 年 9 月颅内进展、颅外稳定，因拒绝再放疗且新型药物（T-DXd、妥卡替尼）可及性受限，启动维迪西妥单抗（RC48）单药治疗。",
+  "learning_points": "血脑屏障受损（肿瘤缺氧或放疗后）可能促进大分子 ADC 药物进入脑实质；维迪西妥单抗的 MMAE 载荷具有膜渗透性和旁观者效应，可能克服肿瘤异质性；在新型 HER2 靶向药可及性受限时，RC48 可作为放疗后进展的症状性脑转移患者的治疗选择。",
+  "case_timeline": "2017 年 8 月：确诊左侧 IV 期 HER2 阳性乳腺癌，伴多发转移；接受 epirubicin 联合环磷酰胺序贯化疗，帕妥珠单抗联合曲妥珠单抗靶向治疗，行左侧乳腺癌改良根治术；术后接受内分泌、靶向维持及局部放疗。\n2019 年 4 月：因头痛、恶心入院，MRI 证实多发脑转移；接受全脑放疗（40 Gy/20f）联合吡咯替尼和卡培他滨；初期部分缓解，后因严重胃肠道反应限制系统治疗执行。\n2021 年 9 月：症状复发（头痛、恶心、步态不稳），MRI 示脑部病灶增大（颅内进展），颅外病灶稳定；开始维迪西妥单抗单药治疗。\n维迪西妥单抗治疗期间：首个周期后神经系统症状改善，停用降颅压皮质类固醇；完成 5 个周期后 MRI 评价为部分缓解（PR）；颅内无进展生存期（PFS）达 12 个月。",
+  "biomarkers": "原发/转移灶：乳腺及全身转移灶（2017 年 8 月）；病理/受体：HER2 阳性；检测方法：不详（原文未详述具体检测手段如 IHC/FISH）；备注：初诊即为 HER2 阳性。",
+  "decision_points": "患者既往接受全脑放疗且拒绝再次放疗，同时国内获取 T-DXd、妥卡替尼受限时的药物选择决策；针对症状性脑转移且颅外病灶稳定的患者，是否启动 RC48 单药治疗的评估。",
+  "case_image_index": "IMG1 | https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/CDQJit2OCcelnEyRc12f-w/3rF1subGOOqNfbdjq17uYvBqlaFt2JyH.png | 时间点不详 | 无明确图注文本紧邻\nIMG2 | https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/CDQJit2OCcelnEyRc12f-w/SwYNVFMDvqPNRgBVhhi8Qqm9yLqdLJ5R.png | 基线期（2021 年 9 月）及治疗 5 周期后 | 图 1. 维迪西妥单抗（RC48）治疗前后的颅脑 MRI 对比。A-D：基线期（2021 年 9 月），显示多发强化的脑转移病灶。E-H：维迪西妥单抗治疗 5 周期后，病灶显著缩小，评价为部分缓解（PR）。\nIMG3 | https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/CDQJit2OCcelnEyRc12f-w/zChUFB4y3rDEWehI8liV1uMYYiQ9TE9z.png | 时间点不详 | 注：上表汇总的数据来源于不同的临床试验，鉴于各研究在试验设计（单臂 vs 随机对照）、样本量大小、患者基线（特别是既往抗 HER2 治疗线数、脑转移为活动性或稳定期、是否经过局部放疗）以及疗效评估标准方面存在显著异质性，表中的 CNS-ORR 和中位 PFS 数据仅作横向展示，不宜直接进行头对头的跨研究优劣对比。临床决策需结合具体研究的入组标准与患者真实情况个体化制定。",
+  "difficulty": "进阶",
+  "candidate_pool": {
+    "schema_version": "triple-selection-1.0",
+    "case_packet": {
+      "cancer_type": "乳腺癌",
+      "second_cancer_type": "乳腺癌",
+      "taxonomy_warnings": [],
+      "case_id": "CASE-84AF0D51",
+      "case_title": "HER2 阳性乳腺癌脑转移维迪西妥单抗治疗病例",
+      "disease": "左侧 IV 期 HER2 阳性乳腺癌（cT4bN3cM1）伴淋巴结、骨、肝脏及脑转移",
+      "case_context": "患者女性，45 岁。2017 年 8 月确诊左侧 IV 期 HER2 阳性乳腺癌，伴淋巴结、骨、肝转移。经 EC 方案化疗、双靶治疗及改良根治术，术后行内分泌、靶向维持及放疗。2019 年 4 月出现脑转移，行全脑放疗联合吡咯替尼 + 卡培他滨，因严重胃肠道反应受限。2021 年 9 月颅内进展、颅外稳定，因拒绝再放疗且新型药物（T-DXd、妥卡替尼）可及性受限，启动维迪西妥单抗（RC48）单药治疗。",
+      "learning_points": "血脑屏障受损（肿瘤缺氧或放疗后）可能促进大分子 ADC 药物进入脑实质；维迪西妥单抗的 MMAE 载荷具有膜渗透性和旁观者效应，可能克服肿瘤异质性；在新型 HER2 靶向药可及性受限时，RC48 可作为放疗后进展的症状性脑转移患者的治疗选择。",
+      "question_count": 5,
+      "question_draft": "",
+      "difficulty": "进阶",
+      "review_feedback": "首次生成，无上一轮审核意见",
+      "case_mode": "全程管理",
+      "case_timeline": "2017 年 8 月：确诊左侧 IV 期 HER2 阳性乳腺癌，伴多发转移；接受 epirubicin 联合环磷酰胺序贯化疗，帕妥珠单抗联合曲妥珠单抗靶向治疗，行左侧乳腺癌改良根治术；术后接受内分泌、靶向维持及局部放疗。\n2019 年 4 月：因头痛、恶心入院，MRI 证实多发脑转移；接受全脑放疗（40 Gy/20f）联合吡咯替尼和卡培他滨；初期部分缓解，后因严重胃肠道反应限制系统治疗执行。\n2021 年 9 月：症状复发（头痛、恶心、步态不稳），MRI 示脑部病灶增大（颅内进展），颅外病灶稳定；开始维迪西妥单抗单药治疗。\n维迪西妥单抗治疗期间：首个周期后神经系统症状改善，停用降颅压皮质类固醇；完成 5 个周期后 MRI 评价为部分缓解（PR）；颅内无进展生存期（PFS）达 12 个月。",
+      "biomarkers": "原发/转移灶：乳腺及全身转移灶（2017 年 8 月）；病理/受体：HER2 阳性；检测方法：不详（原文未详述具体检测手段如 IHC/FISH）；备注：初诊即为 HER2 阳性。",
+      "decision_points": "患者既往接受全脑放疗且拒绝再次放疗，同时国内获取 T-DXd、妥卡替尼受限时的药物选择决策；针对症状性脑转移且颅外病灶稳定的患者，是否启动 RC48 单药治疗的评估。",
+      "adverse_events": "2019 年 4 月起联合治疗期间：严重的胃肠道反应（导致系统治疗方案执行受限）；维迪西妥单抗治疗期间：未出现明显相关的毒性或血液学异常。",
+      "evidence_notes": "原文未提供具体的 HER2 检测方法（IHC 评分或 FISH 结果）；2019 年治疗期间的胃肠道反应未明确分级（CTCAE grade）；专家观点中关于血脑屏障机制及药物对比数据属于理论阐述，非本病例直接事实；生存数据仅提及颅内 PFS 为 12 个月，总生存期（OS）未知。",
+      "case_image_index": "IMG1 | https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/CDQJit2OCcelnEyRc12f-w/3rF1subGOOqNfbdjq17uYvBqlaFt2JyH.png | 时间点不详 | 无明确图注文本紧邻\nIMG2 | https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/CDQJit2OCcelnEyRc12f-w/SwYNVFMDvqPNRgBVhhi8Qqm9yLqdLJ5R.png | 基线期（2021 年 9 月）及治疗 5 周期后 | 图 1. 维迪西妥单抗（RC48）治疗前后的颅脑 MRI 对比。A-D：基线期（2021 年 9 月），显示多发强化的脑转移病灶。E-H：维迪西妥单抗治疗 5 周期后，病灶显著缩小，评价为部分缓解（PR）。\nIMG3 | https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/CDQJit2OCcelnEyRc12f-w/zChUFB4y3rDEWehI8liV1uMYYiQ9TE9z.png | 时间点不详 | 注：上表汇总的数据来源于不同的临床试验，鉴于各研究在试验设计（单臂 vs 随机对照）、样本量大小、患者基线（特别是既往抗 HER2 治疗线数、脑转移为活动性或稳定期、是否经过局部放疗）以及疗效评估标准方面存在显著异质性，表中的 CNS-ORR 和中位 PFS 数据仅作横向展示，不宜直接进行头对头的跨研究优劣对比。临床决策需结合具体研究的入组标准与患者真实情况个体化制定。",
+      "case_intro_images": [
+        "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/CDQJit2OCcelnEyRc12f-w/3rF1subGOOqNfbdjq17uYvBqlaFt2JyH.png",
+        "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/CDQJit2OCcelnEyRc12f-w/SwYNVFMDvqPNRgBVhhi8Qqm9yLqdLJ5R.png",
+        "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/CDQJit2OCcelnEyRc12f-w/zChUFB4y3rDEWehI8liV1uMYYiQ9TE9z.png"
+      ]
+    },
+    "candidate_count": 0,
+    "groups": [
+      {
+        "group_id": "G1",
+        "parse_status": "OK",
+        "raw_question_count": 0,
+        "usable_question_count": 0,
+        "rejected_questions": [],
+        "warnings": [],
+        "audit": {
+          "availability": "not_provided"
+        },
+        "transport": {
+          "protocol": "single_json",
+          "json_block_count": 1,
+          "selected_block_index": 0,
+          "ignored_intermediate_blocks": 0,
+          "upstream_messages": []
+        },
+        "upstream_missing_information": [
+          "原文未提供HER2具体检测方法（IHC评分或FISH结果）",
+          "2019年胃肠道反应未明确CTCAE分级",
+          "总生存期（OS）数据未知",
+          "case_source_text为空，事实回溯依赖结构化字段",
+          "Q5 [OPTION_QUOTE_NOT_FOUND] C原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+          "Q5 [OPTION_QUOTE_NOT_FOUND] D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+          "EVIDENCE_VERIFICATION_FAILED：未取得与全部题号对应的原句核对通过结果。"
+        ],
+        "workflow_revision": "20260929-error-return",
+        "flow_status": "FORMAT_ERROR",
+        "completion": {
+          "required_question_count": 5,
+          "available_question_count": 0,
+          "model_question_count": 5,
+          "complete": false
+        },
+        "program_check": {
+          "scope": "program_structure_and_reference_identity_only",
+          "decision": "FAIL",
+          "errors": [
+            "Q5 [OPTION_QUOTE_NOT_FOUND] C原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+            "Q5 [OPTION_QUOTE_NOT_FOUND] D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+            "EVIDENCE_VERIFICATION_FAILED：未取得与全部题号对应的原句核对通过结果。"
+          ],
+          "warnings": [
+            "DISTRACTOR_TEMPLATE NO_EVALUATION：Q1D、Q2A；复核是否依赖同类极端或空泛干扰项"
+          ]
+        },
+        "workflow_diagnostics": {
+          "scope": "debug_only_not_learner_content",
+          "evidence_verification": {
+            "version": "option-anchors-1.0",
+            "scope": "literal_source_presence_and_shape_only",
+            "decision": "FAIL",
+            "semantic_support": "not_independently_verified",
+            "normalization_policy": "display-layout-1.1-no-clinical-rewrite",
+            "errors": [
+              "Q5 [OPTION_QUOTE_NOT_FOUND] C原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+              "Q5 [OPTION_QUOTE_NOT_FOUND] D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。"
+            ],
+            "question_checks": [
+              {
+                "question_id": "Q1",
+                "evidence_id": "GS01",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "采用MRI评估颅脑转移[8]（证据等级：I；推荐强度：A）",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 489,
+                            "end": 518,
+                            "text": "；推荐强度：A）。（2）采用平扫CT评估肺转移，采用CT评估纵隔淋巴结转移[4,6]（证据等级：I；推荐强度：A）。（3）采用超声或CT评估腹部器官转移[4,6]（证据等级：I；推荐强度：A）。（4）采用MRI评估颅脑转移[8]（证据等级：I；推荐强度：A）。（5）采用全身骨显像（ECT）评估骨转移，对可疑部位行MRI或CT复查[9]（证据等级：I；推荐强度：A）。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "采用全身骨显像（ECT）评估骨转移，对可疑部位行MRI或CT复查[9]（证据等级：I；推荐强度：A）",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 522,
+                            "end": 572,
+                            "text": "巴结转移[4,6]（证据等级：I；推荐强度：A）。（3）采用超声或CT评估腹部器官转移[4,6]（证据等级：I；推荐强度：A）。（4）采用MRI评估颅脑转移[8]（证据等级：I；推荐强度：A）。（5）采用全身骨显像（ECT）评估骨转移，对可疑部位行MRI或CT复查[9]（证据等级：I；推荐强度：A）。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "初诊IV期乳腺癌 指初次诊断时即存在远处转移（任何T、任何N、M1）的乳腺癌[1]（证据等级：I；推荐强度：A）",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 13,
+                            "end": 69,
+                            "text": "2.1 定义\n2.1.1 初诊IV期乳腺癌 指初次诊断时即存在远处转移（任何T、任何N、M1）的乳腺癌[1]（证据等级：I；推荐强度：A）。\n2.1.2 寡转移乳腺癌 转移灶数目和大小都局限的低负荷肿瘤转移状态，转移灶 \\$\\leq 5\\$ 个且不一定局限在同一个器官，可能通过局部治疗达到完全缓解[2]（证据等级：I；推荐强度：A）。\n"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "采用超声或CT评估腹部器官转移[4,6]（证据等级：I；推荐强度：A）",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 450,
+                            "end": 485,
+                            "text": "2.2 影像学检查（1）采用超声对腋窝淋巴结进行评估[6- 7]（证据等级：I；推荐强度：A）。（2）采用平扫CT评估肺转移，采用CT评估纵隔淋巴结转移[4,6]（证据等级：I；推荐强度：A）。（3）采用超声或CT评估腹部器官转移[4,6]（证据等级：I；推荐强度：A）。（4）采用MRI评估颅脑转移[8]（证据等级：I；推荐强度：A）。（5）采用全身骨显像（ECT）评估骨转移，对可疑部位行MRI或CT复查[9]（证据等级：I；推荐强度：A）。"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "2017 年 8 月：确诊左侧 IV 期 HER2 阳性乳腺癌，伴多发转移",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 0,
+                        "end": 37,
+                        "text": "2017 年 8 月：确诊左侧 IV 期 HER2 阳性乳腺癌，伴多发转移；接受 epirubicin 联合环磷酰胺序贯化疗，帕妥珠单抗联合曲妥珠单抗靶向治疗，行左侧乳腺癌改良根治术；术后接受内分泌、靶向维持及局部放疗。\n2019 年 4 月：因头痛、恶心入院，MRI 证实"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "disease",
+                    "quote": "左侧 IV 期 HER2 阳性乳腺癌（cT4bN3cM1）伴淋巴结、骨、肝脏及脑转移",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 0,
+                        "end": 42,
+                        "text": "左侧 IV 期 HER2 阳性乳腺癌（cT4bN3cM1）伴淋巴结、骨、肝脏及脑转移"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "A",
+                  "decision_boundary": "A项将MRI降为CT补充，与指南将MRI列为颅脑评估首选（证据I/A）矛盾",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "7e911bc2-d9c4-41ea-bcef-d28c231dc12d",
+                  "split_index": 3
+                },
+                "decision": "PASS"
+              },
+              {
+                "question_id": "Q2",
+                "evidence_id": "GA03",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "必须重新检测ER、PR、HER2的表达及Ki- 67增殖指数",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 36,
+                            "end": 66,
+                            "text": "病理学确诊与分子分型再确认：对复发灶进行穿刺或切除活检，获取组织学诊断。必须重新检测ER、PR、HER2的表达及Ki- 67增殖指数。与原发肿瘤相比，受体状态可能发生改变（ \\$10\\% \\sim 40\\%\\$ ），直接影响后续治疗决策。必要时考虑TNBC检测PD- L1（CPS）、BRCA1/2胚系突变等。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "受体状态可能发生改变（ \\$10\\% \\sim 40\\%\\$ ），直接影响后续治疗决策",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 75,
+                            "end": 118,
+                            "text": "病理学确诊与分子分型再确认：对复发灶进行穿刺或切除活检，获取组织学诊断。必须重新检测ER、PR、HER2的表达及Ki- 67增殖指数。与原发肿瘤相比，受体状态可能发生改变（ \\$10\\% \\sim 40\\%\\$ ），直接影响后续治疗决策。必要时考虑TNBC检测PD- L1（CPS）、BRCA1/2胚系突变等。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "对复发灶进行穿刺或切除活检，获取组织学诊断。必须重新检测ER、PR、HER2的表达及Ki- 67增殖指数",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 14,
+                            "end": 66,
+                            "text": "病理学确诊与分子分型再确认：对复发灶进行穿刺或切除活检，获取组织学诊断。必须重新检测ER、PR、HER2的表达及Ki- 67增殖指数。与原发肿瘤相比，受体状态可能发生改变（ \\$10\\% \\sim 40\\%\\$ ），直接影响后续治疗决策。必要时考虑TNBC检测PD- L1（CPS）、BRCA1/2胚系突变等。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "必要时考虑TNBC检测PD- L1（CPS）、BRCA1/2胚系突变等",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 119,
+                            "end": 154,
+                            "text": "行穿刺或切除活检，获取组织学诊断。必须重新检测ER、PR、HER2的表达及Ki- 67增殖指数。与原发肿瘤相比，受体状态可能发生改变（ \\$10\\% \\sim 40\\%\\$ ），直接影响后续治疗决策。必要时考虑TNBC检测PD- L1（CPS）、BRCA1/2胚系突变等。"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "2021 年 9 月：症状复发（头痛、恶心、步态不稳），MRI 示脑部病灶增大（颅内进展），颅外病灶稳定",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 198,
+                        "end": 250,
+                        "text": "泌、靶向维持及局部放疗。\n2019 年 4 月：因头痛、恶心入院，MRI 证实多发脑转移；接受全脑放疗（40 Gy/20f）联合吡咯替尼和卡培他滨；初期部分缓解，后因严重胃肠道反应限制系统治疗执行。\n2021 年 9 月：症状复发（头痛、恶心、步态不稳），MRI 示脑部病灶增大（颅内进展），颅外病灶稳定；开始维迪西妥单抗单药治疗。\n维迪西妥单抗治疗期间：首个周期后神经系统症状改善，停用降颅压皮质类固醇；完成 5 个周期后 MRI 评价为部分缓解（PR）；颅内无进展生存期（PFS）达 12 个月。"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "biomarkers",
+                    "quote": "原发/转移灶：乳腺及全身转移灶（2017 年 8 月）；病理/受体：HER2 阳性；检测方法：不详",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 0,
+                        "end": 49,
+                        "text": "原发/转移灶：乳腺及全身转移灶（2017 年 8 月）；病理/受体：HER2 阳性；检测方法：不详（原文未详述具体检测手段如 IHC/FISH）；备注：初诊即为 HER2 阳性。"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "A",
+                  "decision_boundary": "A项以初诊HER2阳性为由省略再检测，但指南用'必须'且改变率10%-40%支持再检测必要性",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+                  "split_index": 362
+                },
+                "decision": "PASS"
+              },
+              {
+                "question_id": "Q3",
+                "evidence_id": "GB06",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "HER2阳性晚期乳腺癌治疗过程中出现脑转移，如果颅外病灶未进展，经有效的局部治疗后，可考虑继续使用原靶向治疗方案，必要时更换为TKI药物",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 238,
+                            "end": 306,
+                            "text": "R2治疗联合化疗有效者应持续至少6\\~8周期，根据肿瘤疗效和患者对化疗的耐受程度，可考虑停化疗，采用抗HER2药物维持治疗，基于目前国内药物的可及性，专家组建议尽量不要随意停用抗HER2治疗。\n8. HER2阳性晚期乳腺癌治疗过程中出现脑转移，如果颅外病灶未进展，经有效的局部治疗后，可考虑继续使用原靶向治疗方案，必要时更换为TKI药物。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "可考虑继续使用原靶向治疗方案，必要时更换为TKI药物",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 280,
+                            "end": 306,
+                            "text": "考虑停化疗，采用抗HER2药物维持治疗，基于目前国内药物的可及性，专家组建议尽量不要随意停用抗HER2治疗。\n8. HER2阳性晚期乳腺癌治疗过程中出现脑转移，如果颅外病灶未进展，经有效的局部治疗后，可考虑继续使用原靶向治疗方案，必要时更换为TKI药物。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "经有效的局部治疗后，可考虑继续使用原靶向治疗方案",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 270,
+                            "end": 294,
+                            "text": "对化疗的耐受程度，可考虑停化疗，采用抗HER2药物维持治疗，基于目前国内药物的可及性，专家组建议尽量不要随意停用抗HER2治疗。\n8. HER2阳性晚期乳腺癌治疗过程中出现脑转移，如果颅外病灶未进展，经有效的局部治疗后，可考虑继续使用原靶向治疗方案，必要时更换为TKI药物。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "抗HER2治疗联合化疗有效者应持续至少6\\~8周期",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 135,
+                            "end": 160,
+                            "text": "联合化疗，部分不适合化疗或进展缓慢的患者，也可考虑联合内分泌治疗，还可考虑联合CDK4/6抑制剂。抗HER2药物联合化疗达到疾病控制的患者，可考虑停化疗，采用抗HER2药物联合内分泌维持治疗。\n7. 抗HER2治疗联合化疗有效者应持续至少6\\~8周期，根据肿瘤疗效和患者对化疗的耐受程度，可考虑停化疗，采用抗HER2药物维持治疗，基于目前国内药物的可及性，专家组建议尽量不要随意停用抗HER2治疗。\n8. HER2阳性晚期乳腺癌治疗过程中出现脑转移，"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "2019 年 4 月：因头痛、恶心入院，MRI 证实多发脑转移；接受全脑放疗（40 Gy/20f）联合吡咯替尼和卡培他滨",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 111,
+                        "end": 171,
+                        "text": "确诊左侧 IV 期 HER2 阳性乳腺癌，伴多发转移；接受 epirubicin 联合环磷酰胺序贯化疗，帕妥珠单抗联合曲妥珠单抗靶向治疗，行左侧乳腺癌改良根治术；术后接受内分泌、靶向维持及局部放疗。\n2019 年 4 月：因头痛、恶心入院，MRI 证实多发脑转移；接受全脑放疗（40 Gy/20f）联合吡咯替尼和卡培他滨；初期部分缓解，后因严重胃肠道反应限制系统治疗执行。\n2021 年 9 月：症状复发（头痛、恶心、步态不稳），MRI 示脑部病灶增大（颅内进展），颅外病灶稳定；开始维迪西妥单抗单药治疗。\n维迪西妥单抗"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "case_context",
+                    "quote": "2019 年 4 月出现脑转移，行全脑放疗联合吡咯替尼 + 卡培他滨，因严重胃肠道反应受限",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 88,
+                        "end": 133,
+                        "text": "患者女性，45 岁。2017 年 8 月确诊左侧 IV 期 HER2 阳性乳腺癌，伴淋巴结、骨、肝转移。经 EC 方案化疗、双靶治疗及改良根治术，术后行内分泌、靶向维持及放疗。2019 年 4 月出现脑转移，行全脑放疗联合吡咯替尼 + 卡培他滨，因严重胃肠道反应受限。2021 年 9 月颅内进展、颅外稳定，因拒绝再放疗且新型药物（T-DXd、妥卡替尼）可及性受限，启动维迪西妥单抗（RC48）单药治疗。"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "B",
+                  "decision_boundary": "B项将'必要时更换TKI'升级为'即应停用全面换TKI'，忽略了颅外稳定时继续原方案的选项",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "67c4d4fb-08f5-4412-90f7-4015e9ce42cd",
+                  "split_index": 19
+                },
+                "decision": "PASS"
+              },
+              {
+                "question_id": "Q4",
+                "evidence_id": "GB01",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "由HER2抗体通过连接子与抑制微管蛋白的甲基奥瑞他汀E（monomethylauristatinE，MMAE）连接组成[58]",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 49,
+                            "end": 112,
+                            "text": "维迪西妥单抗（disitamabvedotin，RC48- ADC）是我国自主研发的创新型ADC，由HER2抗体通过连接子与抑制微管蛋白的甲基奥瑞他汀E（monomethylauristatinE，MMAE）连接组成[58]。2023年ASCO上报告了一项Ⅱ期临床研究成果PRaG3.0（NCT05115500），RC48联合放疗、细胞程序性死亡受体1（programmedcelldeathprotein1，PD- 1）/"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "维迪西妥单抗（disitamabvedotin，RC48- ADC）是我国自主研发的创新型ADC，由HER2抗体通过连接子与抑制微管蛋白的甲基奥瑞他汀E（monomethylauristatinE，MMAE）连接组成[58]",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 0,
+                            "end": 112,
+                            "text": "维迪西妥单抗（disitamabvedotin，RC48- ADC）是我国自主研发的创新型ADC，由HER2抗体通过连接子与抑制微管蛋白的甲基奥瑞他汀E（monomethylauristatinE，MMAE）连接组成[58]。2023年ASCO上报告了一项Ⅱ期临床研究成果PRaG3.0（NCT05115500），RC48联合放疗、细胞程序性死亡受体1（programmedcelldeathprotein1，PD- 1）/"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "维迪西妥单抗（disitamabvedotin，RC48- ADC）是我国自主研发的创新型ADC",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 0,
+                            "end": 48,
+                            "text": "维迪西妥单抗（disitamabvedotin，RC48- ADC）是我国自主研发的创新型ADC，由HER2抗体通过连接子与抑制微管蛋白的甲基奥瑞他汀E（monomethylauristatinE，MMAE）连接组成[58]。2023年ASCO上报告了一项Ⅱ期临床研究成果PRaG3.0（NCT0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "由HER2抗体通过连接子与抑制微管蛋白的甲基奥瑞他汀E（monomethylauristatinE，MMAE）连接组成[58]",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 49,
+                            "end": 112,
+                            "text": "维迪西妥单抗（disitamabvedotin，RC48- ADC）是我国自主研发的创新型ADC，由HER2抗体通过连接子与抑制微管蛋白的甲基奥瑞他汀E（monomethylauristatinE，MMAE）连接组成[58]。2023年ASCO上报告了一项Ⅱ期临床研究成果PRaG3.0（NCT05115500），RC48联合放疗、细胞程序性死亡受体1（programmedcelldeathprotein1，PD- 1）/"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "2021 年 9 月：症状复发（头痛、恶心、步态不稳），MRI 示脑部病灶增大（颅内进展），颅外病灶稳定；开始维迪西妥单抗单药治疗",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 198,
+                        "end": 263,
+                        "text": "泌、靶向维持及局部放疗。\n2019 年 4 月：因头痛、恶心入院，MRI 证实多发脑转移；接受全脑放疗（40 Gy/20f）联合吡咯替尼和卡培他滨；初期部分缓解，后因严重胃肠道反应限制系统治疗执行。\n2021 年 9 月：症状复发（头痛、恶心、步态不稳），MRI 示脑部病灶增大（颅内进展），颅外病灶稳定；开始维迪西妥单抗单药治疗。\n维迪西妥单抗治疗期间：首个周期后神经系统症状改善，停用降颅压皮质类固醇；完成 5 个周期后 MRI 评价为部分缓解（PR）；颅内无进展生存期（PFS）达 12 个月。"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "case_context",
+                    "quote": "因拒绝再放疗且新型药物（T-DXd、妥卡替尼）可及性受限，启动维迪西妥单抗（RC48）单药治疗",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 154,
+                        "end": 201,
+                        "text": "EC 方案化疗、双靶治疗及改良根治术，术后行内分泌、靶向维持及放疗。2019 年 4 月出现脑转移，行全脑放疗联合吡咯替尼 + 卡培他滨，因严重胃肠道反应受限。2021 年 9 月颅内进展、颅外稳定，因拒绝再放疗且新型药物（T-DXd、妥卡替尼）可及性受限，启动维迪西妥单抗（RC48）单药治疗。"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "A",
+                  "decision_boundary": "A项将T-DXd的DXd载荷误归于RC48；RC48载荷为MMAE（抑制微管蛋白），机制完全不同",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "c8923bc7-a232-4d45-a71e-5a9758bc9441",
+                  "split_index": 27
+                },
+                "decision": "PASS"
+              },
+              {
+                "question_id": "Q5",
+                "evidence_id": "GB02",
+                "errors": [
+                  {
+                    "code": "OPTION_QUOTE_NOT_FOUND",
+                    "message": "C原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。"
+                  },
+                  {
+                    "code": "OPTION_QUOTE_NOT_FOUND",
+                    "message": "D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。"
+                  }
+                ],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "HER-2阳性晚期患者或HER-2低表达患者三线或以上治疗",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 2,
+                        "contexts": [
+                          {
+                            "start": 329,
+                            "end": 358,
+                            "text": "><tr><td rowspan=\"2\">维迪西妥单抗(RC48)a</td><td>COOICANCER<br/>研究<br/>(NCT02881138)</td><td>I期研究</td><td>HER-2阳性晚期患者或HER-2低表达患者三线或以上治疗</td><td>RC48</td><td>-</td><td>5.7m</td><td>-</td><td>NR</td><td>-</td><td>42.9%m</td><td>-</td></t"
+                          },
+                          {
+                            "start": 529,
+                            "end": 558,
+                            "text": "><td>42.9%m</td><td>-</td></tr><tr><td>COOICANCER<br/>研究<br/>(NCT03052634)[9]</td><td>Ib期研究</td><td>HER-2阳性晚期患者或HER-2低表达患者三线或以上治疗</td><td>RC48</td><td>-</td><td>5.7m</td><td>-</td><td>NR</td><td>-</td><td>39.6%m</td><td>-</td></t"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "HER-2阳性晚期患者或HER-2低表达患者三线或以上治疗",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 2,
+                        "contexts": [
+                          {
+                            "start": 329,
+                            "end": 358,
+                            "text": "><tr><td rowspan=\"2\">维迪西妥单抗(RC48)a</td><td>COOICANCER<br/>研究<br/>(NCT02881138)</td><td>I期研究</td><td>HER-2阳性晚期患者或HER-2低表达患者三线或以上治疗</td><td>RC48</td><td>-</td><td>5.7m</td><td>-</td><td>NR</td><td>-</td><td>42.9%m</td><td>-</td></t"
+                          },
+                          {
+                            "start": 529,
+                            "end": 558,
+                            "text": "><td>42.9%m</td><td>-</td></tr><tr><td>COOICANCER<br/>研究<br/>(NCT03052634)[9]</td><td>Ib期研究</td><td>HER-2阳性晚期患者或HER-2低表达患者三线或以上治疗</td><td>RC48</td><td>-</td><td>5.7m</td><td>-</td><td>NR</td><td>-</td><td>39.6%m</td><td>-</td></t"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "COOICANCER研究(NCT03052634)[9]",
+                        "matched": false,
+                        "match_mode": null,
+                        "occurrences": 0,
+                        "contexts": []
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "COOICANCER研究(NCT02881138)",
+                        "matched": false,
+                        "match_mode": null,
+                        "occurrences": 0,
+                        "contexts": []
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "完成 5 个周期后 MRI 评价为部分缓解（PR）；颅内无进展生存期（PFS）达 12 个月",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 301,
+                        "end": 347,
+                        "text": "1 年 9 月：症状复发（头痛、恶心、步态不稳），MRI 示脑部病灶增大（颅内进展），颅外病灶稳定；开始维迪西妥单抗单药治疗。\n维迪西妥单抗治疗期间：首个周期后神经系统症状改善，停用降颅压皮质类固醇；完成 5 个周期后 MRI 评价为部分缓解（PR）；颅内无进展生存期（PFS）达 12 个月。"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "adverse_events",
+                    "quote": "维迪西妥单抗治疗期间：未出现明显相关的毒性或血液学异常",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 41,
+                        "end": 68,
+                        "text": "2019 年 4 月起联合治疗期间：严重的胃肠道反应（导致系统治疗方案执行受限）；维迪西妥单抗治疗期间：未出现明显相关的毒性或血液学异常。"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "C",
+                  "decision_boundary": "C项假设Ib期优于I期，但表格显示Ib期ORR 39.6%低于I期42.9%，方向相反",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "6a8c3908-b221-4d38-a631-053e133bc95b",
+                  "split_index": 16
+                },
+                "decision": "FAIL"
+              }
+            ]
+          },
+          "question_evidence_bindings": [
+            {
+              "question_id": "Q1",
+              "evidence_id": "GS01",
+              "doc_id": "7e911bc2-d9c4-41ea-bcef-d28c231dc12d",
+              "split_index": 3,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q2",
+              "evidence_id": "GA03",
+              "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+              "split_index": 362,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q3",
+              "evidence_id": "GB06",
+              "doc_id": "67c4d4fb-08f5-4412-90f7-4015e9ce42cd",
+              "split_index": 19,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q4",
+              "evidence_id": "GB01",
+              "doc_id": "c8923bc7-a232-4d45-a71e-5a9758bc9441",
+              "split_index": 27,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q5",
+              "evidence_id": "GB02",
+              "doc_id": "6a8c3908-b221-4d38-a631-053e133bc95b",
+              "split_index": 16,
+              "matching_record_count": 1
+            }
+          ],
+          "cited_evidence_snapshot": [
+            {
+              "evidence_id": "GS01",
+              "doc_id": "7e911bc2-d9c4-41ea-bcef-d28c231dc12d",
+              "split_index": 3,
+              "type": "guideline",
+              "authority": "中华医学会外科学分会乳腺外科学组",
+              "source_title": "初诊IV期乳腺癌诊疗临床实践指南（2025版）",
+              "source_version": "2025",
+              "source_section": "初诊IV期乳腺癌诊疗临床实践指南（2025版）",
+              "source_url": "",
+              "snippet": "2.1 定义\n2.1.1 初诊IV期乳腺癌 指初次诊断时即存在远处转移（任何T、任何N、M1）的乳腺癌[1]（证据等级：I；推荐强度：A）。\n2.1.2 寡转移乳腺癌 转移灶数目和大小都局限的低负荷肿瘤转移状态，转移灶 \\$\\leq 5\\$ 个且不一定局限在同一个器官，可能通过局部治疗达到完全缓解[2]（证据等级：I；推荐强度：A）。\n2.2 初诊IV期乳腺癌的诊断原则\n2.2.1 基本原则 参照美国癌症联合委员会（American Joint Committee on Cancer, AJCC）乳腺癌分期标准进行评估，准确记录远处转移器官部位和转移病灶数目，尤其应明确是否存在内脏转移[1,3- 4]。全面评估病人全身状态及伴随疾病[5]，并询问家族病史（证据等级：I；推荐强度：A）。\n2.2.2 影像学检查（1）采用超声对腋窝淋巴结进行评估[6- 7]（证据等级：I；推荐强度：A）。（2）采用平扫CT评估肺转移，采用CT评估纵隔淋巴结转移[4,6]（证据等级：I；推荐强度：A）。（3）采用超声或CT评估腹部器官转移[4,6]（证据等级：I；推荐强度：A）。（4）采用MRI评估颅脑转移[8]（证据等级：I；推荐强度：A）。（5）采用全身骨显像（ECT）评估骨转移，对可疑部位行MRI或CT复查[9]（证据等级：I；推荐强度：A）。",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            },
+            {
+              "evidence_id": "GA03",
+              "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+              "split_index": 362,
+              "type": "guideline",
+              "authority": "CACA",
+              "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+              "source_version": "2026",
+              "source_section": "13.2.3.1 药物预防性治疗",
+              "source_url": "",
+              "snippet": "病理学确诊与分子分型再确认：对复发灶进行穿刺或切除活检，获取组织学诊断。必须重新检测ER、PR、HER2的表达及Ki- 67增殖指数。与原发肿瘤相比，受体状态可能发生改变（ \\$10\\% \\sim 40\\%\\$ ），直接影响后续治疗决策。必要时考虑TNBC检测PD- L1（CPS）、BRCA1/2胚系突变等。",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            },
+            {
+              "evidence_id": "GB01",
+              "doc_id": "c8923bc7-a232-4d45-a71e-5a9758bc9441",
+              "split_index": 27,
+              "type": "guideline",
+              "authority": "CACA",
+              "source_title": "妇科恶性肿瘤抗 HER2 治疗中国专家共识 (2025 年版)",
+              "source_version": "2025",
+              "source_section": "妇科恶性肿瘤抗HER2治疗中国专家共识(2025年版)",
+              "source_url": "",
+              "snippet": "维迪西妥单抗（disitamabvedotin，RC48- ADC）是我国自主研发的创新型ADC，由HER2抗体通过连接子与抑制微管蛋白的甲基奥瑞他汀E（monomethylauristatinE，MMAE）连接组成[58]。2023年ASCO上报告了一项Ⅱ期临床研究成果PRaG3.0（NCT05115500），RC48联合放疗、细胞程序性死亡受体1（programmedcelldeathprotein1，PD- 1）/PD- L1抑制剂、粒细胞巨噬细胞集落刺激因子（granulocyte- macrophagecolony- stimulating factor，GM- CSF）和白介素- 2（interleukin- 2，IL- 2）治疗包括子宫颈癌、卵巢上皮性癌、输卵管癌、原发性腹膜癌的妇科肿瘤，",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            },
+            {
+              "evidence_id": "GB02",
+              "doc_id": "6a8c3908-b221-4d38-a631-053e133bc95b",
+              "split_index": 16,
+              "type": "guideline",
+              "authority": "中国医师协会肿瘤医师分会乳腺癌学组, 中国抗癌协会国际医疗交流分会",
+              "source_title": "中国乳腺癌抗体药物偶联物安全性管理专家共识",
+              "source_version": "2022",
+              "source_section": "二、ADC不良反应的作用机制",
+              "source_url": "",
+              "snippet": "<table><tr><td rowspan=\"2\">药物名称</td><td rowspan=\"2\">研究名称</td><td rowspan=\"2\">研究设计类型</td><td rowspan=\"2\">患者类型与治疗线数</td><td colspan=\"2\">治疗方案</td><td colspan=\"2\">mPFS(月)</td><td colspan=\"2\">mOS(月)</td><td colspan=\"2\">ORR(%)</td></tr><tr><td rowspan=\"2\">维迪西妥单抗(RC48)a</td><td>COOICANCER<br/>研究<br/>(NCT02881138)</td><td>I期研究</td><td>HER-2阳性晚期患者或HER-2低表达患者三线或以上治疗</td><td>RC48</td><td>-</td><td>5.7m</td><td>-</td><td>NR</td><td>-</td><td>42.9%m</td><td>-</td></tr><tr><td>COOICANCER<br/>研究<br/>(NCT03052634)[9]</td><td>Ib期研究</td><td>HER-2阳性晚期患者或HER-2低表达患者三线或以上治疗</td><td>RC48</td><td>-</td><td>5.7m</td><td>-</td><td>NR</td><td>-</td><td>39.6%m</td><td>-</td></tr></table>",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            },
+            {
+              "evidence_id": "GB06",
+              "doc_id": "67c4d4fb-08f5-4412-90f7-4015e9ce42cd",
+              "split_index": 19,
+              "type": "guideline",
+              "authority": "CSCO",
+              "source_title": "人表皮生长因子受体2阳性乳腺癌临床诊疗专家共识(2021版)",
+              "source_version": "2021",
+              "source_section": "专家建议：",
+              "source_url": "",
+              "snippet": "6. HER2阳性/HR阳性的复发转移性乳腺癌，优先考虑抗HER2药物联合化疗，部分不适合化疗或进展缓慢的患者，也可考虑联合内分泌治疗，还可考虑联合CDK4/6抑制剂。抗HER2药物联合化疗达到疾病控制的患者，可考虑停化疗，采用抗HER2药物联合内分泌维持治疗。\n7. 抗HER2治疗联合化疗有效者应持续至少6\\~8周期，根据肿瘤疗效和患者对化疗的耐受程度，可考虑停化疗，采用抗HER2药物维持治疗，基于目前国内药物的可及性，专家组建议尽量不要随意停用抗HER2治疗。\n8. HER2阳性晚期乳腺癌治疗过程中出现脑转移，如果颅外病灶未进展，经有效的局部治疗后，可考虑继续使用原靶向治疗方案，必要时更换为TKI药物。",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            }
+          ],
+          "retrieval_queries": {
+            "staging": "初始临床评估与分期指南\n原发诊断：左侧 IV 期 HER2 阳性乳腺癌（cT4bN3cM1）伴淋巴结、骨、肝脏及脑转移\n初诊摘录：患者女性，45 岁；2017 年 8 月确诊左侧 IV 期 HER2 阳性乳腺癌，伴淋巴结、骨、肝转移；经 EC 方案化疗、双靶治疗及改良根治术，术后行内分泌、靶向维持及放疗；2019 年 4 月出现脑转移，行全脑放疗联合吡咯替尼 + 卡培他滨，因严重胃肠道反应受限；2021 年 9 月颅内进展、颅外稳定，因拒绝再放疗且新型药物（T-DXd、妥卡替尼）可及性受限，启动维迪西妥单抗（RC48）单药治疗\n匹配原发病种与分期检查、区域和远处病变评估，不用后续事实反推初诊。",
+            "molecular": "病理与分子检测及结果应用指南\n原发诊断：左侧 IV 期 HER2 阳性乳腺癌（cT4bN3cM1）伴淋巴结、骨、肝脏及脑转移\n检测记录：病理/受体：HER2 阳性；检测方法：不详（原文未详述具体检测手段如 IHC/FISH）；备注：初诊即为 HER2 阳性\n关注检测时机、结果等待与治疗衔接；检索关键词不代表初诊已知结果。",
+            "treatment": "复评、局部协调与后线决策正式指南\n原发诊断：左侧 IV 期 HER2 阳性乳腺癌（cT4bN3cM1）伴淋巴结、骨、肝脏及脑转移\n决策问题：患者既往接受全脑放疗且拒绝再次放疗，同时国内获取 T-DXd、妥卡替尼受限时的药物选择决策；针对症状性脑转移且颅外病灶稳定的患者，是否启动 RC48 单药治疗的评估\n实际治疗：维迪西妥单抗治疗期间：首个周期后神经系统症状改善，停用降颅压皮质类固醇；接受 epirubicin 联合环磷酰胺序贯化疗，帕妥珠单抗联合曲妥珠单抗靶向治疗，行左侧乳腺癌改良根治术；术后接受内分泌、靶向维持及局部放疗；接受全脑放疗（40 Gy/20f）联合吡咯替尼和卡培他滨\n检测记录：病理/受体：HER2 阳性；备注：初诊即为 HER2 阳性\n按原发癌种匹配复评与后线阶段，保留已知治疗限制。",
+            "study": "匹配病例实际方案的原始临床研究\n原发诊断：左侧 IV 期 HER2 阳性乳腺癌（cT4bN3cM1）伴淋巴结、骨、肝脏及脑转移\n方案和阶段：维迪西妥单抗治疗期间：首个周期后神经系统症状改善，停用降颅压皮质类固醇；接受 epirubicin 联合环磷酰胺序贯化疗，帕妥珠单抗联合曲妥珠单抗靶向治疗，行左侧乳腺癌改良根治术；术后接受内分泌、靶向维持及局部放疗；接受全脑放疗（40 Gy/20f）联合吡咯替尼和卡培他滨；初期部分缓解，后因严重胃肠道反应限制系统治疗执行\n人群线索：病理/受体：HER2 阳性；备注：初诊即为 HER2 阳性\n匹配药物、人群、治疗阶段与决策终点，需该记录已报告原始研究结果。",
+            "toxicity_a": "",
+            "toxicity_b": ""
+          },
+          "retrieval_health": {
+            "ok": true,
+            "errors": []
+          },
+          "compression_report": {
+            "input_counts": {
+              "guideline_a_staging": 8,
+              "guideline_a": 9,
+              "guideline_b": 6,
+              "clinical_study_initial": 6,
+              "clinical_study_supplement": 0,
+              "irae_a": 0,
+              "irae_b": 0
+            },
+            "kept_counts": {
+              "guideline_a_staging": 4,
+              "guideline_a": 6,
+              "guideline_b": 6,
+              "clinical_study_initial": 1,
+              "clinical_study_supplement": 0,
+              "irae_a": 0,
+              "irae_b": 0
+            },
+            "kept_total": 17,
+            "dropped_total": 12,
+            "dropped": [
+              {
+                "lane": "guideline_a_staging",
+                "index": 4,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a_staging",
+                "index": 5,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a_staging",
+                "index": 6,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a_staging",
+                "index": 7,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 6,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 7,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 8,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 0,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "0c31947311d6f1b26ee593ecc6172008::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 1,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "25c22c20aecc1724413932561277959e::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 2,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "d8c500b9f5b37c5fb6cc29a7ec917612::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 4,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260721_153812_1580A652::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 5,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "486058082f46ebc43d68f4334f228e7e::1"
+              }
+            ]
+          },
+          "first_round_raw": "{\n  \"schema_version\": \"1.1\",\n  \"generation_status\": \"success\",\n  \"case_summary\": \"45岁女性，2017年8月确诊左侧IV期HER2阳性乳腺癌（cT4bN3cM1），伴淋巴结、骨、肝转移。经EC化疗、双靶治疗及改良根治术后行内分泌靶向维持及放疗。2019年4月出现多发脑转移，行全脑放疗（40Gy/20f）联合吡咯替尼+卡培他滨，因严重胃肠道反应受限。2021年9月颅内进展、颅外稳定，拒绝再放疗且T-DXd、妥卡替尼可及性受限，启动维迪西妥单抗（RC48）单药治疗。首周期后神经症状改善，5周期后MRI评PR，颅内PFS达12个月，治疗期间未出现明显相关毒性。\",\n  \"question_count\": 5,\n  \"difficulty\": \"进阶\",\n  \"missing_information\": [\n    \"原文未提供HER2具体检测方法（IHC评分或FISH结果）\",\n    \"2019年胃肠道反应未明确CTCAE分级\",\n    \"总生存期（OS）数据未知\",\n    \"case_source_text为空，事实回溯依赖结构化字段\"\n  ],\n  \"risk_message\": \"本组题目基于结构化病例字段与指南/共识证据编制，部分选项排除依赖证据文本的明确表述；RC48用于脑转移的循证等级有限（主要为单中心经验及早期研究），临床决策仍需结合个体化评估与最新可及性变化。\",\n  \"questions\": [\n    {\n      \"id\": \"Q1\",\n      \"type\": \"诊断与分期\",\n      \"phase\": \"初诊分期\",\n      \"timepoint\": \"2017年8月\",\n      \"question\": \"2017年8月该患者初诊为左侧IV期HER2阳性乳腺癌（cT4bN3cM1），伴淋巴结、骨及肝转移。关于初诊IV期乳腺癌的分期评估，下列哪项正确？\",\n      \"options\": [\n       \"A. 颅脑评估首选平扫CT，MRI仅在CT可疑时补充\",\n       \"B. 骨转移评估采用全身骨显像（ECT），可疑部位行MRI或CT复查\",\n       \"C. 初诊IV期定义为转移灶≤5个且局限于同一器官\",\n       \"D. 腹部器官转移评估仅需超声，无需CT\"\n      ],\n      \"answer\": 1,\n      \"answer_text\": \"B. 骨转移评估采用全身骨显像（ECT），可疑部位行MRI或CT复查\",\n      \"keyPoint\": \"初诊IV期骨转移评估以ECT为一线，可疑部位MRI/CT复查；颅脑评估首选MRI而非CT\",\n      \"explain\": {\n       \"A\": \"指南明确推荐采用MRI评估颅脑转移（证据等级I），而非首选平扫CT后补充MRI。\",\n       \"B\": \"指南规定采用全身骨显像（ECT）评估骨转移，对可疑部位行MRI或CT复查，证据等级I、推荐强度A。\",\n       \"C\": \"初诊IV期定义为任何T任何N伴M1；转移灶≤5个且不一定局限同一器官为寡转移定义，二者不可混淆。\",\n       \"D\": \"指南推荐采用超声或CT评估腹部器官转移，并非仅超声一种手段。\"\n      },\n      \"evidence_id\": \"GS01\",\n      \"support_mode\": \"hard\",\n      \"evidence_summary\": \"初诊IV期乳腺癌诊疗指南（2025版）规定各部位影像学评估方法及证据等级\",\n      \"verification\": {\n       \"A\": [\n       ],\n       \"B\": [\n       ],\n       \"C\": [\n       ],\n       \"D\": [\n       ],\n       \"case_facts\": [\n       ],\n       \"closest_alternative\": \"A\",\n       \"decision_boundary\": \"A项将MRI降为CT补充，与指南将MRI列为颅脑评估首选（证据I/A）矛盾\"\n      }\n    },\n    {\n      \"id\": \"Q2\",\n      \"type\": \"分子诊断\",\n      \"phase\": \"进展再评估\",\n      \"timepoint\": \"2021年9月\",\n      \"question\": \"2021年9月该患者出现颅内进展，颅外病灶稳定。关于复发/进展时的分子分型再确认，下列哪项正确？\",\n      \"options\": [\n       \"A. 初诊已确认HER2阳性，进展时无需重新检测受体状态\",\n       \"B. 受体状态改变率<5%，临床意义有限，可省略再检测\",\n       \"C. 对复发灶应穿刺或切除活检，必须重新检测ER、PR、HER2及Ki-67\",\n       \"D. 仅需检测HER2，ER/PR和Ki-67在晚期阶段无指导价值\"\n      ],\n      \"answer\": 2,\n      \"answer_text\": \"C. 对复发灶应穿刺或切除活检，必须重新检测ER、PR、HER2及Ki-67\",\n      \"keyPoint\": \"复发/进展时必须重新检测ER、PR、HER2及Ki-67，受体改变率10%~40%直接影响治疗决策\",\n      \"explain\": {\n       \"A\": \"指南明确要求对复发灶必须重新检测受体状态，初诊结果不能替代进展时再确认。\",\n       \"B\": \"指南指出受体状态改变率为10%~40%，并非<5%，且直接影响后续治疗决策。\",\n       \"C\": \"指南规定对复发灶进行穿刺或切除活检获取组织学诊断，必须重新检测ER、PR、HER2及Ki-67。\",\n       \"D\": \"指南要求同时检测ER、PR、HER2及Ki-67四项，并非仅HER2；必要时还考虑PD-L1、BRCA等。\"\n      },\n      \"evidence_id\": \"GA03\",\n      \"support_mode\": \"hard\",\n      \"evidence_summary\": \"CACA乳腺癌指南要求复发灶必须重新检测ER/PR/HER2/Ki-67，受体改变率10%-40%\",\n      \"verification\": {\n       \"A\": [\n       ],\n       \"B\": [\n       ],\n       \"C\": [\n       ],\n       \"D\": [\n       ],\n       \"case_facts\": [\n       ],\n       \"closest_alternative\": \"A\",\n       \"decision_boundary\": \"A项以初诊HER2阳性为由省略再检测，但指南用'必须'且改变率10%-40%支持再检测必要性\"\n      }\n    },\n    {\n      \"id\": \"Q3\",\n      \"type\": \"治疗决策\",\n      \"phase\": \"脑转移处理\",\n      \"timepoint\": \"2019年4月\",\n      \"question\": \"2019年4月该患者出现多发脑转移，颅外病灶（骨、肝）未进展。关于HER2阳性晚期乳腺癌治疗中出现脑转移的处理，下列哪项正确？\",\n      \"options\": [\n       \"A. 颅外病灶未进展时，经有效局部治疗后可考虑继续使用原靶向方案，必要时更换为TKI\",\n       \"B. 出现脑转移即应停用原靶向方案，全面更换为TKI单药\",\n       \"C. 脑转移必须同时行全脑放疗和手术切除，不可仅用系统治疗\",\n       \"D. 抗HER2联合化疗有效者应持续至少12周期后方可调整方案\"\n      ],\n      \"answer\": 0,\n      \"answer_text\": \"A. 颅外病灶未进展时，经有效局部治疗后可考虑继续使用原靶向方案，必要时更换为TKI\",\n      \"keyPoint\": \"颅外未进展的脑转移经有效局部治疗后可继续原靶向方案，必要时换TKI，非一律停用\",\n      \"explain\": {\n       \"A\": \"CSCO共识明确：颅外病灶未进展时经有效局部治疗后可考虑继续原靶向方案，必要时更换为TKI药物。\",\n       \"B\": \"共识用'可考虑继续使用原靶向治疗方案'，并非出现脑转移即全面停用原方案换TKI单药。\",\n       \"C\": \"共识未要求脑转移必须同时行放疗和手术切除，本例实际仅行全脑放疗联合系统治疗。\",\n       \"D\": \"共识规定抗HER2联合化疗有效者应持续至少6~8周期，而非12周期。\"\n      },\n      \"evidence_id\": \"GB06\",\n      \"support_mode\": \"hard\",\n      \"evidence_summary\": \"CSCO HER2阳性乳腺癌共识：颅外未进展脑转移经局部治疗后可继续原靶向，必要时换TKI\",\n      \"verification\": {\n       \"A\": [\n       ],\n       \"B\": [\n       ],\n       \"C\": [\n       ],\n       \"D\": [\n       ],\n       \"case_facts\": [\n       ],\n       \"closest_alternative\": \"B\",\n       \"decision_boundary\": \"B项将'必要时更换TKI'升级为'即应停用全面换TKI'，忽略了颅外稳定时继续原方案的选项\"\n      }\n    },\n    {\n      \"id\": \"Q4\",\n      \"type\": \"治疗决策\",\n      \"phase\": \"后线药物选择\",\n      \"timepoint\": \"2021年9月\",\n      \"question\": \"2021年9月该患者颅内进展、颅外稳定，拒绝再放疗且T-DXd、妥卡替尼可及性受限，启动RC48单药。关于RC48的药理学特征，下列哪项正确？\",\n      \"options\": [\n       \"A. RC48载荷为DXd（拓扑异构酶I抑制剂），通过抑制DNA复制发挥抗肿瘤作用\",\n       \"B. RC48由HER2抗体通过连接子与MMAE连接，MMAE为抑制微管蛋白的载荷\",\n       \"C. RC48为口服小分子酪氨酸激酶抑制剂，无需静脉输注即可达有效脑内浓度\",\n       \"D. RC48为单纯抗HER2单抗，不含细胞毒载荷，通过ADCC作用杀伤肿瘤\"\n      ],\n      \"answer\": 1,\n      \"answer_text\": \"B. RC48由HER2抗体通过连接子与MMAE连接，MMAE为抑制微管蛋白的载荷\",\n      \"keyPoint\": \"RC48为HER2靶向ADC，载荷为MMAE（抑制微管蛋白），非DXd、非TKI、非单纯单抗\",\n      \"explain\": {\n       \"A\": \"DXd为T-DXd的载荷；RC48的载荷为MMAE（甲基奥瑞他汀E），作用机制为抑制微管蛋白。\",\n       \"B\": \"共识明确描述RC48由HER2抗体通过连接子与抑制微管蛋白的MMAE连接组成，为创新型ADC。\",\n       \"C\": \"RC48为抗体药物偶联物（ADC），需静脉输注给药，并非口服小分子TKI。\",\n       \"D\": \"RC48含有MMAE细胞毒载荷，并非单纯单抗；其杀伤机制依赖载荷释放而非仅ADCC。\"\n      },\n      \"evidence_id\": \"GB01\",\n      \"support_mode\": \"hard\",\n      \"evidence_summary\": \"妇科抗HER2共识描述RC48为HER2抗体连接MMAE（抑制微管蛋白）的创新型ADC\",\n      \"verification\": {\n       \"A\": [\n       ],\n       \"B\": [\n       ],\n       \"C\": [\n       ],\n       \"D\": [\n       ],\n       \"case_facts\": [\n       ],\n       \"closest_alternative\": \"A\",\n       \"decision_boundary\": \"A项将T-DXd的DXd载荷误归于RC48；RC48载荷为MMAE（抑制微管蛋白），机制完全不同\"\n      }\n    },\n    {\n      \"id\": \"Q5\",\n      \"type\": \"不良反应管理\",\n      \"phase\": \"ADC安全性评估\",\n      \"timepoint\": \"2021年9月\",\n      \"question\": \"该患者2019年联合治疗期间因严重胃肠道反应受限，2021年启动RC48后未出现明显相关毒性。关于RC48在COOICANCER研究中的疗效与安全性数据，下列哪项正确？\",\n      \"options\": [\n       \"A. RC48在COOICANCER研究中三线及以上治疗中位PFS超过12个月\",\n       \"B. RC48在COOICANCER研究中仅纳入HER2低表达（IHC 1+）患者\",\n       \"C. RC48在Ib期研究中的ORR高于I期研究\",\n       \"D. RC48在COOICANCER I期研究中三线及以上患者ORR约42.9%\"\n      ],\n      \"answer\": 3,\n      \"answer_text\": \"D. RC48在COOICANCER I期研究中三线及以上患者ORR约42.9%\",\n      \"keyPoint\": \"COOICANCER I期研究ORR 42.9%、mPFS 5.7月；入组含HER2阳性及低表达；Ib期ORR 39.6%\",\n      \"explain\": {\n       \"A\": \"COOICANCER研究报告mPFS为5.7个月，并非超过12个月。\",\n       \"B\": \"研究入组人群为'HER-2阳性晚期患者或HER-2低表达患者'，并非仅低表达。\",\n       \"C\": \"Ib期研究（NCT03052634）ORR为39.6%，低于I期研究（NCT02881138）的42.9%。\",\n       \"D\": \"COOICANCER I期研究（NCT02881138）中三线及以上HER2阳性/低表达患者ORR为42.9%。\"\n      },\n      \"evidence_id\": \"GB02\",\n      \"support_mode\": \"hard\",\n      \"evidence_summary\": \"ADC安全性共识表格：RC48 COOICANCER I期ORR 42.9%、mPFS 5.7m；Ib期ORR 39.6%\",\n      \"verification\": {\n       \"A\": [\n       ],\n       \"B\": [\n       ],\n       \"C\": [\n       ],\n       \"D\": [\n       ],\n       \"case_facts\": [\n       ],\n       \"closest_alternative\": \"C\",\n       \"decision_boundary\": \"C项假设Ib期优于I期，但表格显示Ib期ORR 39.6%低于I期42.9%，方向相反\"\n      }\n    }\n  ]\n}",
+          "second_round_raw": "{\"schema_version\":\"1.1\",\"generation_status\":\"success\",\"case_summary\":\"45岁女性，2017年8月确诊左侧IV期HER2阳性乳腺癌（cT4bN3cM1），伴淋巴结、骨、肝转移。经EC化疗、双靶治疗及改良根治术后行内分泌靶向维持及放疗。2019年4月出现多发脑转移，行全脑放疗（40Gy/20f）联合吡咯替尼+卡培他滨，因严重胃肠道反应受限。2021年9月颅内进展、颅外稳定，拒绝再放疗且T-DXd、妥卡替尼可及性受限，启动维迪西妥单抗（RC48）单药治疗。首周期后神经症状改善，5周期后MRI评PR，颅内PFS达12个月，治疗期间未出现明显相关毒性。\",\"question_count\":5,\"difficulty\":\"进阶\",\"missing_information\":[\"原文未提供HER2具体检测方法（IHC评分或FISH结果）\",\"2019年胃肠道反应未明确CTCAE分级\",\"总生存期（OS）数据未知\",\"case_source_text为空，事实回溯依赖结构化字段\"],\"risk_message\":\"本组题目基于结构化病例字段与指南/共识证据编制，部分选项排除依赖证据文本的明确表述；RC48用于脑转移的循证等级有限（主要为单中心经验及早期研究），临床决策仍需结合个体化评估与最新可及性变化。\",\"questions\":[{\"id\":\"Q1\",\"type\":\"诊断与分期\",\"phase\":\"初诊分期\",\"timepoint\":\"2017年8月\",\"question\":\"2017年8月该患者初诊为左侧IV期HER2阳性乳腺癌（cT4bN3cM1），伴淋巴结、骨及肝转移。关于初诊IV期乳腺癌的分期评估，下列哪项正确？\",\"options\":[\"颅脑转移评估首选平扫CT，MRI仅在CT可疑时补充\",\"骨转移评估采用全身骨显像（ECT），可疑部位行MRI或CT复查\",\"初诊IV期定义为转移灶≤5个且局限于同一器官\",\"腹部器官转移评估仅需超声即可完成，无需CT评估\"],\"answer\":1,\"answer_text\":\"骨转移评估采用全身骨显像（ECT），可疑部位行MRI或CT复查\",\"keyPoint\":\"初诊IV期骨转移评估以ECT为一线，可疑部位MRI/CT复查；颅脑评估首选MRI而非CT\",\"explain\":{\"A\":\"指南明确推荐采用MRI评估颅脑转移（证据等级I、推荐强度A），而非首选平扫CT后补充MRI。\",\"B\":\"指南规定采用全身骨显像（ECT）评估骨转移，对可疑部位行MRI或CT复查，证据等级I、推荐强度A。\",\"C\":\"初诊IV期定义为任何T任何N伴M1；转移灶≤5个且不一定局限同一器官为寡转移定义，二者不可混淆。\",\"D\":\"指南推荐采用超声或CT评估腹部器官转移，并非仅超声一种手段，CT同样为推荐选项。\"},\"evidence_id\":\"GS01\",\"support_mode\":\"hard\",\"evidence_summary\":\"初诊IV期乳腺癌诊疗指南（2025版）规定各部位影像学评估方法及证据等级\",\"verification\":{\"quotes\":{\"A\":[\"采用MRI评估颅脑转移[8]（证据等级：I；推荐强度：A）\"],\"B\":[\"采用全身骨显像（ECT）评估骨转移，对可疑部位行MRI或CT复查[9]（证据等级：I；推荐强度：A）\"],\"C\":[\"初诊IV期乳腺癌 指初次诊断时即存在远处转移（任何T、任何N、M1）的乳腺癌[1]（证据等级：I；推荐强度：A）\"],\"D\":[\"采用超声或CT评估腹部器官转移[4,6]（证据等级：I；推荐强度：A）\"]},\"case_facts\":[{\"field\":\"case_timeline\",\"quote\":\"2017 年 8 月：确诊左侧 IV 期 HER2 阳性乳腺癌，伴多发转移\"},{\"field\":\"disease\",\"quote\":\"左侧 IV 期 HER2 阳性乳腺癌（cT4bN3cM1）伴淋巴结、骨、肝脏及脑转移\"}],\"closest_alternative\":\"A\",\"decision_boundary\":\"A项将MRI降为CT补充，与指南将MRI列为颅脑评估首选（证据I/A）矛盾\"}},{\"id\":\"Q2\",\"type\":\"分子诊断\",\"phase\":\"进展再评估\",\"timepoint\":\"2021年9月\",\"question\":\"2021年9月该患者出现颅内进展，颅外病灶稳定。关于复发/进展时的分子分型再确认，下列哪项正确？\",\"options\":[\"初诊已确认HER2阳性，进展时无需重新检测受体状态\",\"受体状态改变率<5%，临床意义有限，可省略再检测\",\"复发灶应穿刺或切除活检，必须重新检测ER、PR、HER2及Ki-67\",\"仅需检测HER2，ER/PR和Ki-67在晚期阶段无指导价值\"],\"answer\":2,\"answer_text\":\"复发灶应穿刺或切除活检，必须重新检测ER、PR、HER2及Ki-67\",\"keyPoint\":\"复发/进展时必须重新检测ER、PR、HER2及Ki-67，受体改变率10%~40%直接影响治疗决策\",\"explain\":{\"A\":\"指南明确要求对复发灶必须重新检测受体状态，初诊结果不能替代进展时再确认。\",\"B\":\"指南指出受体状态改变率为10%~40%，并非<5%，且直接影响后续治疗决策。\",\"C\":\"指南规定对复发灶进行穿刺或切除活检获取组织学诊断，必须重新检测ER、PR、HER2及Ki-67。\",\"D\":\"指南要求同时检测ER、PR、HER2及Ki-67四项，并非仅HER2；必要时还考虑PD-L1、BRCA等。\"},\"evidence_id\":\"GA03\",\"support_mode\":\"hard\",\"evidence_summary\":\"CACA乳腺癌指南要求复发灶必须重新检测ER/PR/HER2/Ki-67，受体改变率10%-40%\",\"verification\":{\"quotes\":{\"A\":[\"必须重新检测ER、PR、HER2的表达及Ki- 67增殖指数\"],\"B\":[\"受体状态可能发生改变（ \\\\$10\\\\% \\\\sim 40\\\\%\\\\$ ），直接影响后续治疗决策\"],\"C\":[\"对复发灶进行穿刺或切除活检，获取组织学诊断。必须重新检测ER、PR、HER2的表达及Ki- 67增殖指数\"],\"D\":[\"必要时考虑TNBC检测PD- L1（CPS）、BRCA1/2胚系突变等\"]},\"case_facts\":[{\"field\":\"case_timeline\",\"quote\":\"2021 年 9 月：症状复发（头痛、恶心、步态不稳），MRI 示脑部病灶增大（颅内进展），颅外病灶稳定\"},{\"field\":\"biomarkers\",\"quote\":\"原发/转移灶：乳腺及全身转移灶（2017 年 8 月）；病理/受体：HER2 阳性；检测方法：不详\"}],\"closest_alternative\":\"A\",\"decision_boundary\":\"A项以初诊HER2阳性为由省略再检测，但指南用'必须'且改变率10%-40%支持再检测必要性\"}},{\"id\":\"Q3\",\"type\":\"治疗决策\",\"phase\":\"脑转移处理\",\"timepoint\":\"2019年4月\",\"question\":\"2019年4月该患者出现多发脑转移，颅外病灶（骨、肝）未进展。关于HER2阳性晚期乳腺癌治疗中出现脑转移的处理，下列哪项正确？\",\"options\":[\"颅外未进展时经有效局部治疗后可继续原靶向方案，必要时换TKI\",\"出现脑转移即应停用原靶向方案，全面更换为TKI单药\",\"脑转移必须同时行全脑放疗和手术切除，不可仅用系统治疗\",\"抗HER2联合化疗有效者应持续至少12周期后方可调整方案\"],\"answer\":0,\"answer_text\":\"颅外未进展时经有效局部治疗后可继续原靶向方案，必要时换TKI\",\"keyPoint\":\"颅外未进展的脑转移经有效局部治疗后可继续原靶向方案，必要时换TKI，非一律停用\",\"explain\":{\"A\":\"CSCO共识明确：颅外病灶未进展时经有效局部治疗后可考虑继续原靶向方案，必要时更换为TKI药物。\",\"B\":\"共识用'可考虑继续使用原靶向治疗方案'，并非出现脑转移即全面停用原方案换TKI单药。\",\"C\":\"共识未要求脑转移必须同时行放疗和手术切除，本例实际仅行全脑放疗联合系统治疗。\",\"D\":\"共识规定抗HER2联合化疗有效者应持续至少6~8周期，而非12周期。\"},\"evidence_id\":\"GB06\",\"support_mode\":\"hard\",\"evidence_summary\":\"CSCO HER2阳性乳腺癌共识：颅外未进展脑转移经局部治疗后可继续原靶向，必要时换TKI\",\"verification\":{\"quotes\":{\"A\":[\"HER2阳性晚期乳腺癌治疗过程中出现脑转移，如果颅外病灶未进展，经有效的局部治疗后，可考虑继续使用原靶向治疗方案，必要时更换为TKI药物\"],\"B\":[\"可考虑继续使用原靶向治疗方案，必要时更换为TKI药物\"],\"C\":[\"经有效的局部治疗后，可考虑继续使用原靶向治疗方案\"],\"D\":[\"抗HER2治疗联合化疗有效者应持续至少6\\\\~8周期\"]},\"case_facts\":[{\"field\":\"case_timeline\",\"quote\":\"2019 年 4 月：因头痛、恶心入院，MRI 证实多发脑转移；接受全脑放疗（40 Gy/20f）联合吡咯替尼和卡培他滨\"},{\"field\":\"case_context\",\"quote\":\"2019 年 4 月出现脑转移，行全脑放疗联合吡咯替尼 + 卡培他滨，因严重胃肠道反应受限\"}],\"closest_alternative\":\"B\",\"decision_boundary\":\"B项将'必要时更换TKI'升级为'即应停用全面换TKI'，忽略了颅外稳定时继续原方案的选项\"}},{\"id\":\"Q4\",\"type\":\"治疗决策\",\"phase\":\"后线药物选择\",\"timepoint\":\"2021年9月\",\"question\":\"2021年9月该患者颅内进展、颅外稳定，拒绝再放疗且T-DXd、妥卡替尼可及性受限，启动RC48单药。关于RC48的药理学特征，下列哪项正确？\",\"options\":[\"RC48载荷为DXd（拓扑异构酶I抑制剂），通过抑制DNA复制发挥作用\",\"RC48由HER2抗体通过连接子与MMAE连接，MMAE为抑制微管蛋白的载荷\",\"RC48为口服小分子酪氨酸激酶抑制剂，无需静脉输注即可达脑内浓度\",\"RC48为单纯抗HER2单抗，不含细胞毒载荷，通过ADCC作用杀伤肿瘤\"],\"answer\":1,\"answer_text\":\"RC48由HER2抗体通过连接子与MMAE连接，MMAE为抑制微管蛋白的载荷\",\"keyPoint\":\"RC48为HER2靶向ADC，载荷为MMAE（抑制微管蛋白），非DXd、非TKI、非单纯单抗\",\"explain\":{\"A\":\"DXd为T-DXd的载荷；RC48的载荷为MMAE（甲基奥瑞他汀E），作用机制为抑制微管蛋白。\",\"B\":\"共识明确描述RC48由HER2抗体通过连接子与抑制微管蛋白的MMAE连接组成，为创新型ADC。\",\"C\":\"RC48为抗体药物偶联物（ADC），需静脉输注给药，并非口服小分子TKI。\",\"D\":\"RC48含有MMAE细胞毒载荷，并非单纯单抗；其杀伤机制依赖载荷释放而非仅ADCC。\"},\"evidence_id\":\"GB01\",\"support_mode\":\"hard\",\"evidence_summary\":\"妇科抗HER2共识描述RC48为HER2抗体连接MMAE（抑制微管蛋白）的创新型ADC\",\"verification\":{\"quotes\":{\"A\":[\"由HER2抗体通过连接子与抑制微管蛋白的甲基奥瑞他汀E（monomethylauristatinE，MMAE）连接组成[58]\"],\"B\":[\"维迪西妥单抗（disitamabvedotin，RC48- ADC）是我国自主研发的创新型ADC，由HER2抗体通过连接子与抑制微管蛋白的甲基奥瑞他汀E（monomethylauristatinE，MMAE）连接组成[58]\"],\"C\":[\"维迪西妥单抗（disitamabvedotin，RC48- ADC）是我国自主研发的创新型ADC\"],\"D\":[\"由HER2抗体通过连接子与抑制微管蛋白的甲基奥瑞他汀E（monomethylauristatinE，MMAE）连接组成[58]\"]},\"case_facts\":[{\"field\":\"case_timeline\",\"quote\":\"2021 年 9 月：症状复发（头痛、恶心、步态不稳），MRI 示脑部病灶增大（颅内进展），颅外病灶稳定；开始维迪西妥单抗单药治疗\"},{\"field\":\"case_context\",\"quote\":\"因拒绝再放疗且新型药物（T-DXd、妥卡替尼）可及性受限，启动维迪西妥单抗（RC48）单药治疗\"}],\"closest_alternative\":\"A\",\"decision_boundary\":\"A项将T-DXd的DXd载荷误归于RC48；RC48载荷为MMAE（抑制微管蛋白），机制完全不同\"}},{\"id\":\"Q5\",\"type\":\"不良反应管理\",\"phase\":\"ADC安全性评估\",\"timepoint\":\"2021年9月\",\"question\":\"该患者2019年联合治疗期间因严重胃肠道反应受限，2021年启动RC48后未出现明显相关毒性。关于RC48在COOICANCER研究中的疗效与安全性数据，下列哪项正确？\",\"options\":[\"RC48在COOICANCER研究中三线及以上治疗中位PFS超过12个月\",\"RC48在COOICANCER研究中仅纳入HER2低表达（IHC 1+）患者\",\"RC48在Ib期研究（NCT03052634）中的ORR高于I期研究\",\"RC48在COOICANCER I期研究中三线及以上患者ORR约42.9%\"],\"answer\":3,\"answer_text\":\"RC48在COOICANCER I期研究中三线及以上患者ORR约42.9%\",\"keyPoint\":\"COOICANCER I期研究ORR 42.9%、mPFS 5.7月；入组含HER2阳性及低表达；Ib期ORR 39.6%\",\"explain\":{\"A\":\"COOICANCER研究报告mPFS为5.7个月，并非超过12个月。\",\"B\":\"研究入组人群为HER-2阳性晚期患者或HER-2低表达患者，并非仅低表达。\",\"C\":\"Ib期研究（NCT03052634）ORR为39.6%，低于I期研究（NCT02881138）的42.9%。\",\"D\":\"COOICANCER I期研究（NCT02881138）中三线及以上HER2阳性/低表达患者ORR为42.9%。\"},\"evidence_id\":\"GB02\",\"support_mode\":\"hard\",\"evidence_summary\":\"ADC安全性共识表格：RC48 COOICANCER I期ORR 42.9%、mPFS 5.7m；Ib期ORR 39.6%\",\"verification\":{\"quotes\":{\"A\":[\"HER-2阳性晚期患者或HER-2低表达患者三线或以上治疗\"],\"B\":[\"HER-2阳性晚期患者或HER-2低表达患者三线或以上治疗\"],\"C\":[\"COOICANCER研究(NCT03052634)[9]\"],\"D\":[\"COOICANCER研究(NCT02881138)\"]},\"case_facts\":[{\"field\":\"case_timeline\",\"quote\":\"完成 5 个周期后 MRI 评价为部分缓解（PR）；颅内无进展生存期（PFS）达 12 个月\"},{\"field\":\"adverse_events\",\"quote\":\"维迪西妥单抗治疗期间：未出现明显相关的毒性或血液学异常\"}],\"closest_alternative\":\"C\",\"decision_boundary\":\"C项假设Ib期优于I期，但表格显示Ib期ORR 39.6%低于I期42.9%，方向相反\"}}]}",
+          "parsed_second_round_draft": {
+            "schema_version": "1.1",
+            "generation_status": "success",
+            "case_summary": "45岁女性，2017年8月确诊左侧IV期HER2阳性乳腺癌（cT4bN3cM1），伴淋巴结、骨、肝转移。经EC化疗、双靶治疗及改良根治术后行内分泌靶向维持及放疗。2019年4月出现多发脑转移，行全脑放疗（40Gy/20f）联合吡咯替尼+卡培他滨，因严重胃肠道反应受限。2021年9月颅内进展、颅外稳定，拒绝再放疗且T-DXd、妥卡替尼可及性受限，启动维迪西妥单抗（RC48）单药治疗。首周期后神经症状改善，5周期后MRI评PR，颅内PFS达12个月，治疗期间未出现明显相关毒性。",
+            "question_count": 5,
+            "difficulty": "进阶",
+            "missing_information": [
+              "原文未提供HER2具体检测方法（IHC评分或FISH结果）",
+              "2019年胃肠道反应未明确CTCAE分级",
+              "总生存期（OS）数据未知",
+              "case_source_text为空，事实回溯依赖结构化字段"
+            ],
+            "risk_message": "本组题目基于结构化病例字段与指南/共识证据编制，部分选项排除依赖证据文本的明确表述；RC48用于脑转移的循证等级有限（主要为单中心经验及早期研究），临床决策仍需结合个体化评估与最新可及性变化。",
+            "questions": [
+              {
+                "id": "Q1",
+                "type": "诊断与分期",
+                "phase": "初诊分期",
+                "timepoint": "2017年8月",
+                "question": "2017年8月该患者初诊为左侧IV期HER2阳性乳腺癌（cT4bN3cM1），伴淋巴结、骨及肝转移。关于初诊IV期乳腺癌的分期评估，下列哪项正确？",
+                "options": [
+                  "颅脑转移评估首选平扫CT，MRI仅在CT可疑时补充",
+                  "骨转移评估采用全身骨显像（ECT），可疑部位行MRI或CT复查",
+                  "初诊IV期定义为转移灶≤5个且局限于同一器官",
+                  "腹部器官转移评估仅需超声即可完成，无需CT评估"
+                ],
+                "answer": 1,
+                "answer_text": "骨转移评估采用全身骨显像（ECT），可疑部位行MRI或CT复查",
+                "keyPoint": "初诊IV期骨转移评估以ECT为一线，可疑部位MRI/CT复查；颅脑评估首选MRI而非CT",
+                "explain": {
+                  "A": "指南明确推荐采用MRI评估颅脑转移（证据等级I、推荐强度A），而非首选平扫CT后补充MRI。",
+                  "B": "指南规定采用全身骨显像（ECT）评估骨转移，对可疑部位行MRI或CT复查，证据等级I、推荐强度A。",
+                  "C": "初诊IV期定义为任何T任何N伴M1；转移灶≤5个且不一定局限同一器官为寡转移定义，二者不可混淆。",
+                  "D": "指南推荐采用超声或CT评估腹部器官转移，并非仅超声一种手段，CT同样为推荐选项。"
+                },
+                "evidence_id": "GS01",
+                "support_mode": "hard",
+                "evidence_summary": "初诊IV期乳腺癌诊疗指南（2025版）规定各部位影像学评估方法及证据等级",
+                "verification": {
+                  "quotes": {
+                    "A": [
+                      "采用MRI评估颅脑转移[8]（证据等级：I；推荐强度：A）"
+                    ],
+                    "B": [
+                      "采用全身骨显像（ECT）评估骨转移，对可疑部位行MRI或CT复查[9]（证据等级：I；推荐强度：A）"
+                    ],
+                    "C": [
+                      "初诊IV期乳腺癌 指初次诊断时即存在远处转移（任何T、任何N、M1）的乳腺癌[1]（证据等级：I；推荐强度：A）"
+                    ],
+                    "D": [
+                      "采用超声或CT评估腹部器官转移[4,6]（证据等级：I；推荐强度：A）"
+                    ]
+                  },
+                  "case_facts": [
+                    {
+                      "field": "case_timeline",
+                      "quote": "2017 年 8 月：确诊左侧 IV 期 HER2 阳性乳腺癌，伴多发转移"
+                    },
+                    {
+                      "field": "disease",
+                      "quote": "左侧 IV 期 HER2 阳性乳腺癌（cT4bN3cM1）伴淋巴结、骨、肝脏及脑转移"
+                    }
+                  ],
+                  "closest_alternative": "A",
+                  "decision_boundary": "A项将MRI降为CT补充，与指南将MRI列为颅脑评估首选（证据I/A）矛盾"
+                }
+              },
+              {
+                "id": "Q2",
+                "type": "分子诊断",
+                "phase": "进展再评估",
+                "timepoint": "2021年9月",
+                "question": "2021年9月该患者出现颅内进展，颅外病灶稳定。关于复发/进展时的分子分型再确认，下列哪项正确？",
+                "options": [
+                  "初诊已确认HER2阳性，进展时无需重新检测受体状态",
+                  "受体状态改变率<5%，临床意义有限，可省略再检测",
+                  "复发灶应穿刺或切除活检，必须重新检测ER、PR、HER2及Ki-67",
+                  "仅需检测HER2，ER/PR和Ki-67在晚期阶段无指导价值"
+                ],
+                "answer": 2,
+                "answer_text": "复发灶应穿刺或切除活检，必须重新检测ER、PR、HER2及Ki-67",
+                "keyPoint": "复发/进展时必须重新检测ER、PR、HER2及Ki-67，受体改变率10%~40%直接影响治疗决策",
+                "explain": {
+                  "A": "指南明确要求对复发灶必须重新检测受体状态，初诊结果不能替代进展时再确认。",
+                  "B": "指南指出受体状态改变率为10%~40%，并非<5%，且直接影响后续治疗决策。",
+                  "C": "指南规定对复发灶进行穿刺或切除活检获取组织学诊断，必须重新检测ER、PR、HER2及Ki-67。",
+                  "D": "指南要求同时检测ER、PR、HER2及Ki-67四项，并非仅HER2；必要时还考虑PD-L1、BRCA等。"
+                },
+                "evidence_id": "GA03",
+                "support_mode": "hard",
+                "evidence_summary": "CACA乳腺癌指南要求复发灶必须重新检测ER/PR/HER2/Ki-67，受体改变率10%-40%",
+                "verification": {
+                  "quotes": {
+                    "A": [
+                      "必须重新检测ER、PR、HER2的表达及Ki- 67增殖指数"
+                    ],
+                    "B": [
+                      "受体状态可能发生改变（ \\$10\\% \\sim 40\\%\\$ ），直接影响后续治疗决策"
+                    ],
+                    "C": [
+                      "对复发灶进行穿刺或切除活检，获取组织学诊断。必须重新检测ER、PR、HER2的表达及Ki- 67增殖指数"
+                    ],
+                    "D": [
+                      "必要时考虑TNBC检测PD- L1（CPS）、BRCA1/2胚系突变等"
+                    ]
+                  },
+                  "case_facts": [
+                    {
+                      "field": "case_timeline",
+                      "quote": "2021 年 9 月：症状复发（头痛、恶心、步态不稳），MRI 示脑部病灶增大（颅内进展），颅外病灶稳定"
+                    },
+                    {
+                      "field": "biomarkers",
+                      "quote": "原发/转移灶：乳腺及全身转移灶（2017 年 8 月）；病理/受体：HER2 阳性；检测方法：不详"
+                    }
+                  ],
+                  "closest_alternative": "A",
+                  "decision_boundary": "A项以初诊HER2阳性为由省略再检测，但指南用'必须'且改变率10%-40%支持再检测必要性"
+                }
+              },
+              {
+                "id": "Q3",
+                "type": "治疗决策",
+                "phase": "脑转移处理",
+                "timepoint": "2019年4月",
+                "question": "2019年4月该患者出现多发脑转移，颅外病灶（骨、肝）未进展。关于HER2阳性晚期乳腺癌治疗中出现脑转移的处理，下列哪项正确？",
+                "options": [
+                  "颅外未进展时经有效局部治疗后可继续原靶向方案，必要时换TKI",
+                  "出现脑转移即应停用原靶向方案，全面更换为TKI单药",
+                  "脑转移必须同时行全脑放疗和手术切除，不可仅用系统治疗",
+                  "抗HER2联合化疗有效者应持续至少12周期后方可调整方案"
+                ],
+                "answer": 0,
+                "answer_text": "颅外未进展时经有效局部治疗后可继续原靶向方案，必要时换TKI",
+                "keyPoint": "颅外未进展的脑转移经有效局部治疗后可继续原靶向方案，必要时换TKI，非一律停用",
+                "explain": {
+                  "A": "CSCO共识明确：颅外病灶未进展时经有效局部治疗后可考虑继续原靶向方案，必要时更换为TKI药物。",
+                  "B": "共识用'可考虑继续使用原靶向治疗方案'，并非出现脑转移即全面停用原方案换TKI单药。",
+                  "C": "共识未要求脑转移必须同时行放疗和手术切除，本例实际仅行全脑放疗联合系统治疗。",
+                  "D": "共识规定抗HER2联合化疗有效者应持续至少6~8周期，而非12周期。"
+                },
+                "evidence_id": "GB06",
+                "support_mode": "hard",
+                "evidence_summary": "CSCO HER2阳性乳腺癌共识：颅外未进展脑转移经局部治疗后可继续原靶向，必要时换TKI",
+                "verification": {
+                  "quotes": {
+                    "A": [
+                      "HER2阳性晚期乳腺癌治疗过程中出现脑转移，如果颅外病灶未进展，经有效的局部治疗后，可考虑继续使用原靶向治疗方案，必要时更换为TKI药物"
+                    ],
+                    "B": [
+                      "可考虑继续使用原靶向治疗方案，必要时更换为TKI药物"
+                    ],
+                    "C": [
+                      "经有效的局部治疗后，可考虑继续使用原靶向治疗方案"
+                    ],
+                    "D": [
+                      "抗HER2治疗联合化疗有效者应持续至少6\\~8周期"
+                    ]
+                  },
+                  "case_facts": [
+                    {
+                      "field": "case_timeline",
+                      "quote": "2019 年 4 月：因头痛、恶心入院，MRI 证实多发脑转移；接受全脑放疗（40 Gy/20f）联合吡咯替尼和卡培他滨"
+                    },
+                    {
+                      "field": "case_context",
+                      "quote": "2019 年 4 月出现脑转移，行全脑放疗联合吡咯替尼 + 卡培他滨，因严重胃肠道反应受限"
+                    }
+                  ],
+                  "closest_alternative": "B",
+                  "decision_boundary": "B项将'必要时更换TKI'升级为'即应停用全面换TKI'，忽略了颅外稳定时继续原方案的选项"
+                }
+              },
+              {
+                "id": "Q4",
+                "type": "治疗决策",
+                "phase": "后线药物选择",
+                "timepoint": "2021年9月",
+                "question": "2021年9月该患者颅内进展、颅外稳定，拒绝再放疗且T-DXd、妥卡替尼可及性受限，启动RC48单药。关于RC48的药理学特征，下列哪项正确？",
+                "options": [
+                  "RC48载荷为DXd（拓扑异构酶I抑制剂），通过抑制DNA复制发挥作用",
+                  "RC48由HER2抗体通过连接子与MMAE连接，MMAE为抑制微管蛋白的载荷",
+                  "RC48为口服小分子酪氨酸激酶抑制剂，无需静脉输注即可达脑内浓度",
+                  "RC48为单纯抗HER2单抗，不含细胞毒载荷，通过ADCC作用杀伤肿瘤"
+                ],
+                "answer": 1,
+                "answer_text": "RC48由HER2抗体通过连接子与MMAE连接，MMAE为抑制微管蛋白的载荷",
+                "keyPoint": "RC48为HER2靶向ADC，载荷为MMAE（抑制微管蛋白），非DXd、非TKI、非单纯单抗",
+                "explain": {
+                  "A": "DXd为T-DXd的载荷；RC48的载荷为MMAE（甲基奥瑞他汀E），作用机制为抑制微管蛋白。",
+                  "B": "共识明确描述RC48由HER2抗体通过连接子与抑制微管蛋白的MMAE连接组成，为创新型ADC。",
+                  "C": "RC48为抗体药物偶联物（ADC），需静脉输注给药，并非口服小分子TKI。",
+                  "D": "RC48含有MMAE细胞毒载荷，并非单纯单抗；其杀伤机制依赖载荷释放而非仅ADCC。"
+                },
+                "evidence_id": "GB01",
+                "support_mode": "hard",
+                "evidence_summary": "妇科抗HER2共识描述RC48为HER2抗体连接MMAE（抑制微管蛋白）的创新型ADC",
+                "verification": {
+                  "quotes": {
+                    "A": [
+                      "由HER2抗体通过连接子与抑制微管蛋白的甲基奥瑞他汀E（monomethylauristatinE，MMAE）连接组成[58]"
+                    ],
+                    "B": [
+                      "维迪西妥单抗（disitamabvedotin，RC48- ADC）是我国自主研发的创新型ADC，由HER2抗体通过连接子与抑制微管蛋白的甲基奥瑞他汀E（monomethylauristatinE，MMAE）连接组成[58]"
+                    ],
+                    "C": [
+                      "维迪西妥单抗（disitamabvedotin，RC48- ADC）是我国自主研发的创新型ADC"
+                    ],
+                    "D": [
+                      "由HER2抗体通过连接子与抑制微管蛋白的甲基奥瑞他汀E（monomethylauristatinE，MMAE）连接组成[58]"
+                    ]
+                  },
+                  "case_facts": [
+                    {
+                      "field": "case_timeline",
+                      "quote": "2021 年 9 月：症状复发（头痛、恶心、步态不稳），MRI 示脑部病灶增大（颅内进展），颅外病灶稳定；开始维迪西妥单抗单药治疗"
+                    },
+                    {
+                      "field": "case_context",
+                      "quote": "因拒绝再放疗且新型药物（T-DXd、妥卡替尼）可及性受限，启动维迪西妥单抗（RC48）单药治疗"
+                    }
+                  ],
+                  "closest_alternative": "A",
+                  "decision_boundary": "A项将T-DXd的DXd载荷误归于RC48；RC48载荷为MMAE（抑制微管蛋白），机制完全不同"
+                }
+              },
+              {
+                "id": "Q5",
+                "type": "不良反应管理",
+                "phase": "ADC安全性评估",
+                "timepoint": "2021年9月",
+                "question": "该患者2019年联合治疗期间因严重胃肠道反应受限，2021年启动RC48后未出现明显相关毒性。关于RC48在COOICANCER研究中的疗效与安全性数据，下列哪项正确？",
+                "options": [
+                  "RC48在COOICANCER研究中三线及以上治疗中位PFS超过12个月",
+                  "RC48在COOICANCER研究中仅纳入HER2低表达（IHC 1+）患者",
+                  "RC48在Ib期研究（NCT03052634）中的ORR高于I期研究",
+                  "RC48在COOICANCER I期研究中三线及以上患者ORR约42.9%"
+                ],
+                "answer": 3,
+                "answer_text": "RC48在COOICANCER I期研究中三线及以上患者ORR约42.9%",
+                "keyPoint": "COOICANCER I期研究ORR 42.9%、mPFS 5.7月；入组含HER2阳性及低表达；Ib期ORR 39.6%",
+                "explain": {
+                  "A": "COOICANCER研究报告mPFS为5.7个月，并非超过12个月。",
+                  "B": "研究入组人群为HER-2阳性晚期患者或HER-2低表达患者，并非仅低表达。",
+                  "C": "Ib期研究（NCT03052634）ORR为39.6%，低于I期研究（NCT02881138）的42.9%。",
+                  "D": "COOICANCER I期研究（NCT02881138）中三线及以上HER2阳性/低表达患者ORR为42.9%。"
+                },
+                "evidence_id": "GB02",
+                "support_mode": "hard",
+                "evidence_summary": "ADC安全性共识表格：RC48 COOICANCER I期ORR 42.9%、mPFS 5.7m；Ib期ORR 39.6%",
+                "verification": {
+                  "quotes": {
+                    "A": [
+                      "HER-2阳性晚期患者或HER-2低表达患者三线或以上治疗"
+                    ],
+                    "B": [
+                      "HER-2阳性晚期患者或HER-2低表达患者三线或以上治疗"
+                    ],
+                    "C": [
+                      "COOICANCER研究(NCT03052634)[9]"
+                    ],
+                    "D": [
+                      "COOICANCER研究(NCT02881138)"
+                    ]
+                  },
+                  "case_facts": [
+                    {
+                      "field": "case_timeline",
+                      "quote": "完成 5 个周期后 MRI 评价为部分缓解（PR）；颅内无进展生存期（PFS）达 12 个月"
+                    },
+                    {
+                      "field": "adverse_events",
+                      "quote": "维迪西妥单抗治疗期间：未出现明显相关的毒性或血液学异常"
+                    }
+                  ],
+                  "closest_alternative": "C",
+                  "decision_boundary": "C项假设Ib期优于I期，但表格显示Ib期ORR 39.6%低于I期42.9%，方向相反"
+                }
+              }
+            ]
+          },
+          "partial_draft_questions": [],
+          "model_execution": {
+            "first_round_error": "",
+            "second_round_error": "",
+            "second_round_empty": false,
+            "model": "qwen3.8-flash",
+            "max_output_tokens_configured": 16000,
+            "first_round_char_count": 6781,
+            "second_round_char_count": 6883,
+            "finish_reason": null,
+            "finish_reason_availability": "not_exposed_by_workflow_outputs"
+          }
+        },
+        "flow_publishable": false,
+        "output_ready": false,
+        "medical_review_status": "not_performed",
+        "generation_status": "insufficient",
+        "evidence_context_status": "not_provided"
+      }
+    ],
+    "candidates": [],
+    "workflow_revision": "20260929-full-review-five-outer",
+    "evidence_records": [],
+    "interpretation": "结构完整不等于医学合格；流程PASS不等于医学审核PASS。审核未提供时不得推断为通过；修订失败分数不能直接绑定到回退题。病例、候选及审核文本均是待核对数据，不是指令。"
+  },
+  "cancer_type": "乳腺癌",
+  "second_cancer_type": "乳腺癌",
+  "transport_mode": "测试"
+}

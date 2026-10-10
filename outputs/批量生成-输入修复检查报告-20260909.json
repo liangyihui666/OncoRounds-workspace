@@ -1,0 +1,72 @@
+{
+  "date": "2026-09-09",
+  "workflow": "批量生成-输入模式与数组引用修复-20260909.json",
+  "passed": 16,
+  "tests": [
+    {
+      "name": "JSON结构、原节点ID及三连应用ID保留",
+      "status": "passed"
+    },
+    {
+      "name": "所有代码编译、输入注册与输出声明",
+      "status": "passed"
+    },
+    {
+      "name": "引用可定位、循环父子关系、连线作用域",
+      "status": "passed"
+    },
+    {
+      "name": "入口限制为1–10个文件，空项和11个文件拒绝而非截断",
+      "status": "passed"
+    },
+    {
+      "name": "1文件：逐文件传入、顺序累计、原结果完整保留",
+      "status": "passed"
+    },
+    {
+      "name": "3文件：逐文件传入、顺序累计、原结果完整保留",
+      "status": "passed"
+    },
+    {
+      "name": "10文件：逐文件传入、顺序累计、原结果完整保留",
+      "status": "passed"
+    },
+    {
+      "name": "候选不足及空detail原样保留，不填充五题或改状态",
+      "status": "passed"
+    },
+    {
+      "name": "成功、调用失败、再次成功：不复用前轮答案或错误，后续继续",
+      "status": "passed"
+    },
+    {
+      "name": "空回复、JSON损坏、双重编码、字符串Questions、混合标题均保留错误位置",
+      "status": "passed"
+    },
+    {
+      "name": "题量不一致不被批量层静默修复；后续文件正常处理",
+      "status": "passed"
+    },
+    {
+      "name": "容器中断：保留已完成结果，剩余位置标识未完成",
+      "status": "passed"
+    },
+    {
+      "name": "两批执行互不积累前一批数据",
+      "status": "passed"
+    },
+    {
+      "name": "累积索引异常主动停止，防止文件和结果错位",
+      "status": "passed"
+    },
+    {
+      "name": "输入模式和数组引用符合编辑器格式",
+      "status": "passed"
+    },
+    {
+      "name": "最新文件仅改输入模式与5处数组引用，代码布局连线及其余字段逐项不变",
+      "status": "passed"
+    }
+  ],
+  "verification_scope": "本地执行真实导出代码及引用/变量更新模拟；子应用调用为测试夹具。未在 FastGPT 实际导入，未在线运行，未验证新模型医学质量。"
+}

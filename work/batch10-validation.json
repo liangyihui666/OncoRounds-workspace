@@ -1,0 +1,17 @@
+{
+  "file_count": 10,
+  "question_count": 50,
+  "answer_distribution": {
+    "D": 12,
+    "B": 12,
+    "A": 13,
+    "C": 13
+  },
+  "all_json_parsed": true,
+  "answer_text_consistent": true,
+  "classification_consistent": true,
+  "exact_duplicate_stems": 0,
+  "medical_pass_asserted": false,
+  "workflow_modified": false,
+  "source_sha256": "ade52f342892863d24a62ebc87754505b758bbe1946c1a05456c4d03702c7fd3"
+}

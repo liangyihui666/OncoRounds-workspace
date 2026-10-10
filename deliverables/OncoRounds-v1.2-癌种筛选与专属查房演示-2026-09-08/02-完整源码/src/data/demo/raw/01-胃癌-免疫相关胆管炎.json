@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "case_id": "CASE-66FC4AA7",
+  "cancer_type": "胃癌",
+  "difficulty": "进阶",
+  "decision_point_count": 5,
+  "image": {
+    "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/RLUAPlHaLlg4hx2KkHIZoA/9SJytfzLpj0Y0PNuVgm0Y0xn8I2KdL3q.png",
+    "alt": "图 1. 腹腔镜远端胃切除术后六个月的轴向腹部增强 CT，胰腺前方可见肿大淋巴结（箭头）。"
+  },
+  "home": {
+    "recommendation_label": "今日推荐病例",
+    "display_title": "胃癌免疫治疗后的胆管损伤与随访",
+    "description": "从MSI检测与疗效判定，到胆管炎鉴别、治疗反应及长期随访"
+  },
+  "overview": {
+    "hero": {
+      "title": "胃癌免疫治疗后的胆管损伤与随访",
+      "subtitle": "从MSI检测与疗效判定，到胆管炎鉴别、治疗反应及长期随访"
+    },
+    "tabs": [
+      {
+        "id": "summary",
+        "label": "病例摘要",
+        "order": 1,
+        "summary_items": [
+          {
+            "order": 1,
+            "label": "患者画像",
+            "value": "男性，67岁；胃腺癌术后约6个月出现淋巴结复发，肿瘤标志物未见明显升高。"
+          },
+          {
+            "order": 2,
+            "label": "病理与分子",
+            "value": "材料记载原胃癌T3N3aM0、HER2阴性、MSI-H；分期前缀及MSI检测方法未完整提供，不补写为已证实的临床分期或MMR免疫组化结果。"
+          },
+          {
+            "order": 3,
+            "label": "主要病程",
+            "value": "接受帕博利珠单抗后淋巴结明显缩小；第15疗程后出现黄疸及胆汁淤积型肝胆异常，结合影像、内镜及病理诊断免疫相关硬化性胆管炎。"
+          },
+          {
+            "order": 4,
+            "label": "随访与难点",
+            "value": "激素调整后改善，约8个月随访仍有胆管扩张；需区分肿瘤控制、炎症活动和残留结构异常。"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "label": "病程轴",
+        "order": 2,
+        "timeline_items": [
+          {
+            "date": "初始治疗",
+            "title": "胃癌手术及辅助治疗",
+            "detail": "接受腹腔镜远端胃切除及辅助化疗；材料记录T3N3aM0，未完整列出分期前缀及版本。"
+          },
+          {
+            "date": "术后约6个月",
+            "title": "淋巴结复发",
+            "detail": "发现淋巴结复发，肿瘤标志物正常；病例记载MSI-H、HER2阴性，原始检测方法需核对。"
+          },
+          {
+            "date": "复发后",
+            "title": "开始免疫治疗",
+            "detail": "给予帕博利珠单抗200 mg，每3周一次。"
+          },
+          {
+            "date": "第4疗程后",
+            "title": "影像部分缓解",
+            "detail": "复查显示淋巴结缩小，病例报告部分缓解。"
+          },
+          {
+            "date": "第13疗程后",
+            "title": "淋巴结几乎消失",
+            "detail": "CT描述复发淋巴结几乎完全消失；摘要未提供完整RECIST测量，不据此补写正式完全缓解。"
+          },
+          {
+            "date": "第15疗程后",
+            "title": "胆汁淤积型异常",
+            "detail": "出现乏力、发热、黄疸，ALP/GGT显著升高，转氨酶轻度升高。"
+          },
+          {
+            "date": "肝胆评估阶段",
+            "title": "胆道影像与病理",
+            "detail": "CT及ERCP显示胆道异常，包括胆总管扩张和远端狭窄，未证实明确机械性梗阻；活检见胆管炎症与结构损伤，诊断免疫相关硬化性胆管炎。"
+          },
+          {
+            "date": "确诊后",
+            "title": "激素调整与反应",
+            "detail": "氢化可的松减量后病情反复，调整为泼尼松龙后改善；个案不能区分药物、剂量及减量速度的独立作用。"
+          },
+          {
+            "date": "胆管炎发生约8个月后",
+            "title": "持续随访",
+            "detail": "临床状况良好，激素逐渐减量，肿瘤仍获控制；胆管壁改变减轻，但胆总管扩张仍存在。"
+          }
+        ]
+      }
+    ]
+  }
+}

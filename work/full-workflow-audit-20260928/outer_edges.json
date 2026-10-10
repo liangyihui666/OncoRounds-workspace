@@ -1,0 +1,92 @@
+[
+  {
+    "source": "glGeIMqOVaSRs5jF",
+    "target": "t7eXTzfAM2QUzvvK",
+    "sourceHandle": "glGeIMqOVaSRs5jF-source-right",
+    "targetHandle": "t7eXTzfAM2QUzvvK-target-left"
+  },
+  {
+    "source": "jKqMCN8eJKvkngnI",
+    "target": "bTxgvHEhA8qEPFTa",
+    "sourceHandle": "jKqMCN8eJKvkngnI-source-right",
+    "targetHandle": "bTxgvHEhA8qEPFTa-target-left"
+  },
+  {
+    "source": "t7eXTzfAM2QUzvvK",
+    "target": "d4esByk5Pccmn1gH",
+    "sourceHandle": "t7eXTzfAM2QUzvvK-source-right",
+    "targetHandle": "d4esByk5Pccmn1gH-target-left"
+  },
+  {
+    "source": "d4esByk5Pccmn1gH",
+    "target": "ogy1PAMdD268kXeo",
+    "sourceHandle": "d4esByk5Pccmn1gH-source-right",
+    "targetHandle": "ogy1PAMdD268kXeo-target-left"
+  },
+  {
+    "source": "ogy1PAMdD268kXeo",
+    "target": "ddwhzFImUXV1QTsA",
+    "sourceHandle": "ogy1PAMdD268kXeo-source-right",
+    "targetHandle": "ddwhzFImUXV1QTsA-target-left"
+  },
+  {
+    "source": "ddwhzFImUXV1QTsA",
+    "target": "bJcPjyWI8hiwuVOS",
+    "sourceHandle": "ddwhzFImUXV1QTsA-source-right",
+    "targetHandle": "bJcPjyWI8hiwuVOS-target-left"
+  },
+  {
+    "source": "ltrYX3w0AXTIiF0r",
+    "target": "jKqMCN8eJKvkngnI",
+    "sourceHandle": "ltrYX3w0AXTIiF0r-source-right",
+    "targetHandle": "jKqMCN8eJKvkngnI-target-left"
+  },
+  {
+    "source": "ddwhzFImUXV1QTsA",
+    "target": "bJcPjyWI8hiwuVOS",
+    "sourceHandle": "ddwhzFImUXV1QTsA-source_catch-right",
+    "targetHandle": "bJcPjyWI8hiwuVOS-target-left"
+  },
+  {
+    "source": "ltrYX3w0AXTIiF0r",
+    "target": "jKqMCN8eJKvkngnI",
+    "sourceHandle": "ltrYX3w0AXTIiF0r-source_catch-right",
+    "targetHandle": "jKqMCN8eJKvkngnI-target-left"
+  },
+  {
+    "source": "bJcPjyWI8hiwuVOS",
+    "target": "singleEditorialGate20260917",
+    "sourceHandle": "bJcPjyWI8hiwuVOS-source-right",
+    "targetHandle": "singleEditorialGate20260917-target-left"
+  },
+  {
+    "source": "singleEditorialGate20260917",
+    "target": "ltrYX3w0AXTIiF0r",
+    "sourceHandle": "singleEditorialGate20260917-source-hasCandidates",
+    "targetHandle": "ltrYX3w0AXTIiF0r-target-left"
+  },
+  {
+    "source": "singleEditorialGate20260917",
+    "target": "jKqMCN8eJKvkngnI",
+    "sourceHandle": "singleEditorialGate20260917-source-ELSE",
+    "targetHandle": "jKqMCN8eJKvkngnI-target-left"
+  },
+  {
+    "source": "448745",
+    "target": "vyzKQjoc7z0gMCFM",
+    "sourceHandle": "448745-source-right",
+    "targetHandle": "vyzKQjoc7z0gMCFM-target-left"
+  },
+  {
+    "source": "vyzKQjoc7z0gMCFM",
+    "target": "htmlTextCheck",
+    "sourceHandle": "vyzKQjoc7z0gMCFM-source-right",
+    "targetHandle": "htmlTextCheck-target-left"
+  },
+  {
+    "source": "htmlTextCheck",
+    "target": "glGeIMqOVaSRs5jF",
+    "sourceHandle": "htmlTextCheck-source-right",
+    "targetHandle": "glGeIMqOVaSRs5jF-target-left"
+  }
+]

@@ -1,0 +1,355 @@
+{
+  "case_id": "CASE-1368749D",
+  "question_count": 5,
+  "structure_decision": "FAIL",
+  "structure_errors": [
+    "Q1：学员可见正文或证据摘要含内部证据编号：GB02；须改写成自足理由，不得拼接其他记录",
+    "Q2：学员可见正文或证据摘要含内部证据编号：IR02；须改写成自足理由，不得拼接其他记录",
+    "Q2：解析必须恰好四行，按A/B/C/D逐项解释",
+    "Q2：B解析缺失、格式错误或与答案不一致",
+    "Q2：C解析缺失、格式错误或与答案不一致",
+    "Q2：D解析缺失、格式错误或与答案不一致",
+    "Q2：解析只有证据指代，缺少实际理由",
+    "Q2缺少字段：keyPoint",
+    "Q2的keyPoint必须为非空字符串",
+    "Q3：学员可见正文或证据摘要含内部证据编号：CS01；须改写成自足理由，不得拼接其他记录",
+    "Q4：学员可见正文或证据摘要含内部证据编号：IR01；须改写成自足理由，不得拼接其他记录",
+    "Q4：解析必须恰好四行，按A/B/C/D逐项解释",
+    "Q4：B解析缺失、格式错误或与答案不一致",
+    "Q4：C解析缺失、格式错误或与答案不一致",
+    "Q4：D解析缺失、格式错误或与答案不一致",
+    "Q4缺少字段：keyPoint",
+    "Q4的keyPoint必须为非空字符串",
+    "Q5：学员可见正文或证据摘要含内部证据编号：GB04；须改写成自足理由，不得拼接其他记录"
+  ],
+  "revision_question_checks": [
+    {
+      "question_id": "Q1",
+      "evidence_id": "GB02",
+      "structural_defects": [
+        "学员可见正文或证据摘要含内部证据编号：GB02；须改写成自足理由，不得拼接其他记录"
+      ],
+      "applicability_review_cues": [
+        "TOXICITY_SCOPE_CHECK：本题引用含ICI毒性内容；确认致病药物与条款一致，不能因同名皮疹或同在肿瘤患者中发生而套用。",
+        "QUALIFIER_LOSS_CHECK：证据含可能、可考虑或条件限制；核对答案与所有排除理由是否删去条件或并列备选措施，不将可能处置升级为唯一必做。"
+      ],
+      "option_review": [
+        {
+          "option": "A",
+          "text": "等待基因结果回报后再启动任何全身治疗",
+          "draft_selected": false,
+          "draft_reason": "A｜不正确：患者已行造瘘解除梗阻，IVA期需尽快启动全身治疗；等待基因结果延迟数日无证据支持，且化疗骨架不依赖基因状态。"
+        },
+        {
+          "option": "B",
+          "text": "立即启动mFOLFOX6+贝伐珠单抗，无需等待基因结果",
+          "draft_selected": false,
+          "draft_reason": "B｜不正确：GB02明确西妥昔单抗推荐用于KRAS/NRAS/BRAF野生型；贝伐珠单抗推荐用于右半WT或突变型，直肠癌WT首选抗EGFR，经验性用贝伐将错失最优靶向。"
+        },
+        {
+          "option": "C",
+          "text": "先行mFOLFOX6化疗，待基因确认野生型后加用西妥昔单抗",
+          "draft_selected": true,
+          "draft_reason": "C｜正确：GB02规定FOLFOX/FOLFIRI+西妥昔单抗推荐用于KRAS/NRAS/BRAF野生型；化疗骨架可先行启动，靶向待基因确认后再加，兼顾紧迫性与精准性。"
+        },
+        {
+          "option": "D",
+          "text": "先行mFOLFOX6+西妥昔单抗经验性联合，待结果回报再调整",
+          "draft_selected": false,
+          "draft_reason": "D｜不正确：GB02要求西妥昔单抗须基于RAS/BRAF野生型确认；经验性联合若实际为突变型则无效且增加毒性，证据不支持盲用。"
+        }
+      ],
+      "source_review": {
+        "scope": "review_tasks_not_medical_verdict",
+        "record_found": true,
+        "evidence_scope": {
+          "kind": "literal_terms_not_applicability_verdict",
+          "matched_terms": [
+            "复发",
+            "转移",
+            "可考虑"
+          ],
+          "has_footnote_markers": false,
+          "has_nonrandom_design_terms": false
+        },
+        "tasks": [],
+        "action": "有命中须对照绑定全文核实；无命中仍检查每项。确实错配则整题更换，不能通过改写证据摘要扩大原文适用范围。"
+      },
+      "wording_review": "改为临床情境加下列哪项正确，依据放解析和引用；不改变题意或选项顺序",
+      "fact_review": "逐项核对患者数值、分级、检查、部位和疗程的病例原句；缺少记录不能补成事实",
+      "matching_record_count": 1,
+      "source_locator": {
+        "doc_id": "6e90e9ac-4a5f-41cb-b7c6-c761ecbdc5e8",
+        "split_index": 94
+      },
+      "review_cues": [
+        "野生型",
+        "联合"
+      ]
+    },
+    {
+      "question_id": "Q2",
+      "evidence_id": "IR02",
+      "structural_defects": [
+        "keyPoint缺失或为空：必须撰写完整决策原则",
+        "旧稿解析不完整：现有1行，必须重写四项理由",
+        "学员可见正文或证据摘要含内部证据编号：IR02；须改写成自足理由，不得拼接其他记录"
+      ],
+      "applicability_review_cues": [
+        "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。"
+      ],
+      "option_review": [
+        {
+          "option": "A",
+          "text": "立即停5-FU灌注、降血氨、补液；若DPD缺乏确认则减少后续5-FU用量",
+          "draft_selected": true,
+          "draft_reason": "A｜正确：IR02明确"
+        },
+        {
+          "option": "B",
+          "text": "立即停5-FU灌注并降血氨；首次发作即应永久禁用所有氟尿嘧啶类",
+          "draft_selected": false,
+          "draft_reason": ""
+        },
+        {
+          "option": "C",
+          "text": "暂停5-FU，对症处理后下一周期原剂量继续，无需额外检测",
+          "draft_selected": false,
+          "draft_reason": ""
+        },
+        {
+          "option": "D",
+          "text": "立即停5-FU灌注并降血氨；下次化疗仅减量5-FU即可继续，无需DPD检测",
+          "draft_selected": false,
+          "draft_reason": ""
+        }
+      ],
+      "source_review": {
+        "scope": "review_tasks_not_medical_verdict",
+        "record_found": true,
+        "evidence_scope": {
+          "kind": "literal_terms_not_applicability_verdict",
+          "matched_terms": [
+            "必要时"
+          ],
+          "has_footnote_markers": false,
+          "has_nonrandom_design_terms": false
+        },
+        "tasks": [],
+        "action": "有命中须对照绑定全文核实；无命中仍检查每项。确实错配则整题更换，不能通过改写证据摘要扩大原文适用范围。"
+      },
+      "wording_review": "改为临床情境加下列哪项正确，依据放解析和引用；不改变题意或选项顺序",
+      "fact_review": "逐项核对患者数值、分级、检查、部位和疗程的病例原句；缺少记录不能补成事实",
+      "matching_record_count": 1,
+      "source_locator": {
+        "doc_id": "ea2a8a87-e782-4e9c-b9fc-6c9823c9f851",
+        "split_index": 125
+      },
+      "review_cues": [
+        "永久",
+        "所有",
+        "减量"
+      ]
+    },
+    {
+      "question_id": "Q3",
+      "evidence_id": "CS01",
+      "structural_defects": [
+        "学员可见正文或证据摘要含内部证据编号：CS01；须改写成自足理由，不得拼接其他记录"
+      ],
+      "applicability_review_cues": [
+        "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。"
+      ],
+      "option_review": [
+        {
+          "option": "A",
+          "text": "卡培他滨+西妥昔单抗（口服氟尿嘧啶前体替代静脉5-FU）",
+          "draft_selected": false,
+          "draft_reason": "A｜不正确：卡培他滨为5-FU口服前体，体内转化为5-FU，与静脉5-FU共享氟尿嘧啶代谢通路；病例已明确永久停用氟尿嘧啶类，CS01不支持此替代。"
+        },
+        {
+          "option": "B",
+          "text": "FOLFIRI+西妥昔单抗（伊立替康替代奥沙利铂，保留5-FU/LV）",
+          "draft_selected": false,
+          "draft_reason": "B｜不正确：FOLFIRI方案含5-FU/LV持续泵入，与病例中永久停用氟尿嘧啶类的决策直接矛盾，CS01未涉及含5-FU方案。"
+        },
+        {
+          "option": "C",
+          "text": "雷替曲塞+西妥昔单抗（非氟尿嘧啶类TS抑制剂替代）",
+          "draft_selected": false,
+          "draft_reason": "C｜不正确：CS01仅证实西妥昔单抗单药维持的可行性，未涉及雷替曲塞联合方案；无法从该记录推断雷替曲塞在5-FU代谢性脑病后的安全性。"
+        },
+        {
+          "option": "D",
+          "text": "西妥昔单抗单药±放疗（避免所有氟尿嘧啶类）",
+          "draft_selected": true,
+          "draft_reason": "D｜正确：CS01证实RAS野生型mCRC中西妥昔单抗维持治疗可行，3~4级AE 35%vs57%，OS无劣于连续化疗；避免所有氟尿嘧啶类符合当前证据。"
+        }
+      ],
+      "source_review": {
+        "scope": "review_tasks_not_medical_verdict",
+        "record_found": true,
+        "evidence_scope": {
+          "kind": "literal_terms_not_applicability_verdict",
+          "matched_terms": [],
+          "has_footnote_markers": false,
+          "has_nonrandom_design_terms": false
+        },
+        "tasks": [],
+        "action": "有命中须对照绑定全文核实；无命中仍检查每项。确实错配则整题更换，不能通过改写证据摘要扩大原文适用范围。"
+      },
+      "wording_review": "改为临床情境加下列哪项正确，依据放解析和引用；不改变题意或选项顺序",
+      "fact_review": "逐项核对患者数值、分级、检查、部位和疗程的病例原句；缺少记录不能补成事实",
+      "matching_record_count": 1,
+      "source_locator": {
+        "doc_id": "MEETING_20260730_153537_81FEFCFD",
+        "split_index": 1
+      },
+      "review_cues": [
+        "永久",
+        "野生型",
+        "所有",
+        "维持",
+        "联合",
+        "4级",
+        "无劣"
+      ]
+    },
+    {
+      "question_id": "Q4",
+      "evidence_id": "IR01",
+      "structural_defects": [
+        "keyPoint缺失或为空：必须撰写完整决策原则",
+        "旧稿解析不完整：现有1行，必须重写四项理由",
+        "学员可见正文或证据摘要含内部证据编号：IR01；须改写成自足理由，不得拼接其他记录"
+      ],
+      "applicability_review_cues": [
+        "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。",
+        "CASE_FACT_TRACE：将题干中的指标类型、等级、数值、部位及疗程逐项对照病例原句，不能拿指南阈值或另一指标补成患者事实。",
+        "SEQUENCE_VS_COMBINATION：核对停前药后换线与保留前药加药的区别；序贯后线证据不能自动支持同期联合。"
+      ],
+      "option_review": [
+        {
+          "option": "A",
+          "text": "西妥昔单抗减量继续，予外用激素+抗组胺+抗感染",
+          "draft_selected": false,
+          "draft_reason": "A｜不正确：IR01明确4级皮疹应"
+        },
+        {
+          "option": "B",
+          "text": "中断西妥昔单抗，予异维甲酸+全身激素+抗组胺+抗感染",
+          "draft_selected": true,
+          "draft_reason": ""
+        },
+        {
+          "option": "C",
+          "text": "永久停用西妥昔单抗，予全身激素+抗组胺+抗感染",
+          "draft_selected": false,
+          "draft_reason": ""
+        },
+        {
+          "option": "D",
+          "text": "中断西妥昔单抗，予抗组胺+抗感染，不用异维甲酸及全身激素",
+          "draft_selected": false,
+          "draft_reason": ""
+        }
+      ],
+      "source_review": {
+        "scope": "review_tasks_not_medical_verdict",
+        "record_found": true,
+        "evidence_scope": {
+          "kind": "literal_terms_not_applicability_verdict",
+          "matched_terms": [
+            "复发",
+            "转移"
+          ],
+          "has_footnote_markers": false,
+          "has_nonrandom_design_terms": false
+        },
+        "tasks": [],
+        "action": "有命中须对照绑定全文核实；无命中仍检查每项。确实错配则整题更换，不能通过改写证据摘要扩大原文适用范围。"
+      },
+      "wording_review": "改为临床情境加下列哪项正确，依据放解析和引用；不改变题意或选项顺序",
+      "fact_review": "逐项核对患者数值、分级、检查、部位和疗程的病例原句；缺少记录不能补成事实",
+      "matching_record_count": 1,
+      "source_locator": {
+        "doc_id": "bcb7fcab-4771-4f79-baba-d6727511bf9c",
+        "split_index": 36
+      },
+      "review_cues": [
+        "联合",
+        "4级",
+        "减量",
+        "永久"
+      ]
+    },
+    {
+      "question_id": "Q5",
+      "evidence_id": "GB04",
+      "structural_defects": [
+        "学员可见正文或证据摘要含内部证据编号：GB04；须改写成自足理由，不得拼接其他记录"
+      ],
+      "applicability_review_cues": [
+        "ABSENCE_OR_REVERSE_INFERENCE：某亚组结果、条款未提及或未禁止不能独自证明相反结论或排除竞争方案。",
+        "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。",
+        "QUALIFIER_LOSS_CHECK：证据含可能、可考虑或条件限制；核对答案与所有排除理由是否删去条件或并列备选措施，不将可能处置升级为唯一必做。"
+      ],
+      "option_review": [
+        {
+          "option": "A",
+          "text": "无论RAS状态，直肠癌一线均应联合贝伐珠单抗",
+          "draft_selected": false,
+          "draft_reason": "A｜不正确：GB04明确抗EGFR适用于RAS/BRAF野生型左侧/直肠癌一线；贝伐珠单抗推荐用于右半WT或突变型，直肠癌WT首选抗EGFR而非贝伐。"
+        },
+        {
+          "option": "B",
+          "text": "应优先检测HER2扩增和NTRK融合后再决定靶向方案",
+          "draft_selected": false,
+          "draft_reason": "B｜不正确：GB04未要求RAS/BRAF野生型患者一线前必须完成HER2/NTRK检测；GB04直接给出抗EGFR适用于RAS/BRAF WT直肠癌的推荐，无需额外检测前置。"
+        },
+        {
+          "option": "C",
+          "text": "MSS排除免疫获益，RAS/BRAF野生型支持西妥昔单抗联合化疗",
+          "draft_selected": true,
+          "draft_reason": "C｜正确：GB04规定抗EGFR适用于RAS/BRAF野生型左侧结肠癌和直肠癌一线；MSI-H/dMMR优先PD-1，本例MSS不支持免疫获益；RAS/BRAF野生型直接支持西妥昔单抗联合化疗。"
+        },
+        {
+          "option": "D",
+          "text": "印戒细胞癌组织学亚型决定应选用免疫检查点抑制剂",
+          "draft_selected": false,
+          "draft_reason": "D｜不正确：GB04未将印戒细胞癌组织学亚型作为免疫治疗适应证依据；MSS状态排除免疫获益，组织学类型不改变此判断。"
+        }
+      ],
+      "source_review": {
+        "scope": "review_tasks_not_medical_verdict",
+        "record_found": true,
+        "evidence_scope": {
+          "kind": "literal_terms_not_applicability_verdict",
+          "matched_terms": [
+            "维持治疗",
+            "可考虑"
+          ],
+          "has_footnote_markers": false,
+          "has_nonrandom_design_terms": false
+        },
+        "tasks": [],
+        "action": "有命中须对照绑定全文核实；无命中仍检查每项。确实错配则整题更换，不能通过改写证据摘要扩大原文适用范围。"
+      },
+      "wording_review": "改为临床情境加下列哪项正确，依据放解析和引用；不改变题意或选项顺序",
+      "fact_review": "逐项核对患者数值、分级、检查、部位和疗程的病例原句；缺少记录不能补成事实",
+      "matching_record_count": 1,
+      "source_locator": {
+        "doc_id": "8350da7b-6914-4101-be88-7d4db6c58220",
+        "split_index": 234
+      },
+      "review_cues": [
+        "野生型",
+        "联合",
+        "排除免疫获益",
+        "必须"
+      ]
+    }
+  ],
+  "model_rerun": false,
+  "medical_correctness_verified": false
+}

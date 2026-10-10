@@ -1,0 +1,25 @@
+{
+  "source": "C:/Users/admin/.codex/attachments/c3b39f29-bdf5-444b-92bd-66c9a4b00022/已粘贴的文本.txt",
+  "changes": [
+    "group1引用新题目生成.answerText",
+    "group1_error引用新题目生成.system_error_text",
+    "删除transport_mode输入"
+  ],
+  "checks": [
+    {
+      "name": "新题目生成正常及错误输出引用有效",
+      "pass": true
+    },
+    {
+      "name": "全部节点/全局变量引用及代码语法有效",
+      "pass": true
+    },
+    {
+      "name": "draftData必填、当前应用绑定、连线、模型和其他节点原样保留",
+      "pass": true
+    }
+  ],
+  "api_calls": 0,
+  "online_verified": false,
+  "local_frontend_changed": false
+}

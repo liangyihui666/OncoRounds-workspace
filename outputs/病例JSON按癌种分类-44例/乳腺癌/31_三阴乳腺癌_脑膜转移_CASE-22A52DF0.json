@@ -1,0 +1,252 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-22A52DF0",
+    "cancer_type": "乳腺癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "治疗决策",
+        "phase": "术后辅助治疗阶段",
+        "timepoint": "2024 年 10 月 31 日出院时",
+        "question": "患者术后病理分期 ypT1bN3aMx，初始临床分期ⅢC 期。关于术后放疗指征，下列哪项最符合指南推荐？",
+        "options": {
+          "A": "初始分期为Ⅲ期且术后淋巴结仍阳性，强烈推荐术后区域淋巴结放疗",
+          "B": "因新辅助后肿瘤显著缩小且仅残留微小病灶，可豁免术后放疗",
+          "C": "仅当术后病理证实未达到 pCR 时才考虑放疗，否则可观察",
+          "D": "应先完成辅助化疗，放疗可无限期推迟至化疗结束后数月"
+        },
+        "answer": "A",
+        "answer_text": "初始分期为Ⅲ期且术后淋巴结仍阳性，强烈推荐术后区域淋巴结放疗",
+        "explain": "指南指出，新辅助治疗前初始分期为Ⅲ期及新辅助治疗前后明确淋巴结持续阳性的患者，推荐术后放疗。该患者初始ⅢC 期且术后 N3a，符合强指征。",
+        "keyPoint": "新辅助后放疗决策需综合参考初始分期及术后淋巴结状态，Ⅲ期或淋巴结持续阳性者推荐放疗。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+          "split_index": 208,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+          "source_version": "2026",
+          "source_section": "中国抗癌协会乳腺癌专业委员会，中华医学会肿瘤学分会乳腺肿瘤学组",
+          "source_url": "",
+          "evidence_summary": "CACA 指南推荐初始分期Ⅲ期及新辅助前后淋巴结持续阳性患者行术后放疗。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "诊断与分期",
+        "phase": "复发/转移诊断阶段",
+        "timepoint": "2024 年 11 月 23 日出现神经症状时",
+        "question": "患者术后 1 个月出现恶心、头晕、头痛，疑似中枢转移。针对高危三阴性乳腺癌患者出现神经症状时的影像学评估，下列哪项策略最佳？",
+        "options": {
+          "A": "首选头颅 CT 平扫，因其对急性出血及骨转移敏感性高且速度快",
+          "B": "首选增强 MRI，因其对脑实质微小病灶及脑膜线性强化敏感性优于 CT",
+          "C": "直接行腰穿脑脊液检查，无需影像学定位即可确诊脑膜转移",
+          "D": "暂予对症止吐治疗，若症状持续 2 周后再行影像学检查"
+        },
+        "answer": "B",
+        "answer_text": "首选增强 MRI，因其对脑实质微小病灶及脑膜线性强化敏感性优于 CT",
+        "explain": "传统 CT 对脑膜微小病灶敏感性不足。高危患者出现神经症状应倾向使用 MRI 监测，以发现脑实质及脑膜转移征象。",
+        "keyPoint": "高危乳腺癌患者神经症状评估首选增强 MRI，CT 易漏诊脑膜微小病灶。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "9219353f-8d70-49e8-9329-ddb1105e0b74",
+          "split_index": 39,
+          "type": "guideline",
+          "authority": "中国医药教育协会肿瘤药物临床研究专业委员会",
+          "source_title": "乳腺癌软脑膜转移诊疗中国专家共识（2026 年版）",
+          "source_version": "2026",
+          "source_section": "Chinese expert consensus on the diagnosis and treatment of leptomeningeal metastasis from breast cancer",
+          "source_url": "",
+          "evidence_summary": "专家共识强调诊断需结合临床表现、影像学特征（MRI 优于 CT）与脑脊液检查。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "复发/转移治疗阶段",
+        "timepoint": "2024 年 11 月 25 日确诊脑膜转移后",
+        "question": "患者确诊脑实质及脑膜转移，脑脊液细胞学阳性。关于该情况的综合治疗决策，下列哪项最符合指南推荐？",
+        "options": {
+          "A": "仅行全脑放疗，鞘内化疗因不良反应大且缺乏证据而不推荐常规使用",
+          "B": "首选单纯全身系统治疗，局部放疗仅用于终末期姑息减症",
+          "C": "推荐全脑放疗联合局部加量，并配合鞘内化疗及全身系统治疗",
+          "D": "因预后极差，应放弃积极抗肿瘤治疗，仅给予最佳支持治疗"
+        },
+        "answer": "C",
+        "answer_text": "推荐全脑放疗联合局部加量，并配合鞘内化疗及全身系统治疗",
+        "explain": "指南推荐脑膜转移采取整合治疗原则，放疗为重要局部手段，需配合全身治疗及鞘内注射化疗，尤其脑脊液阳性者。",
+        "keyPoint": "脑膜转移需多学科整合诊疗，推荐放疗联合鞘内化疗及全身治疗。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "28fc8a2a-06be-439a-9037-d1feddf865a6",
+          "split_index": 31,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中枢神经系统转移瘤",
+          "source_version": "2025",
+          "source_section": "3 放疗",
+          "source_url": "",
+          "evidence_summary": "指南推荐脑膜转移行 WBRT+ 同步加量，并配合系统性药物及鞘内注射化疗。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "治疗决策",
+        "phase": "术后辅助治疗阶段",
+        "timepoint": "2024 年 10 月 23 日术后",
+        "question": "该患者新辅助治疗后术后病理分期为 ypT1bN3aMx，初始临床分期为ⅢC 期。关于其术后局部治疗决策，下列哪项最符合当前指南推荐？",
+        "options": {
+          "A": "因新辅助后肿瘤显著缩小且仅残留微小病灶，可豁免术后放疗",
+          "B": "仅当术后病理显示淋巴结完全转阴时才考虑术后放疗",
+          "C": "三阴性乳腺癌对放疗不敏感，术后应优先选择强化化疗而非放疗",
+          "D": "初始分期为Ⅲ期且新辅助后淋巴结仍阳性，强烈推荐术后放疗"
+        },
+        "answer": "D",
+        "answer_text": "初始分期为Ⅲ期且新辅助后淋巴结仍阳性，强烈推荐术后放疗",
+        "explain": "指南明确指出，新辅助治疗前初始分期为Ⅲ期及新辅助治疗前后明确淋巴结持续阳性的患者，推荐术后放疗。该患者初始ⅢC 期且术后淋巴结阳性（N3a），符合强指征。",
+        "keyPoint": "新辅助术后放疗决策需综合初始临床分期与新辅助后病理分期，初始Ⅲ期或淋巴结持续阳性者推荐放疗。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+          "split_index": 208,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+          "source_version": "2026",
+          "source_section": "中国抗癌协会乳腺癌专业委员会，中华医学会肿瘤学分会乳腺肿瘤学组",
+          "source_url": "",
+          "evidence_summary": "CACA 指南指出：新辅助治疗前初始分期为Ⅲ期及新辅助治疗前后明确淋巴结持续阳性的患者，推荐术后放疗。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "诊断与分期",
+        "phase": "复发/转移监测阶段",
+        "timepoint": "2024 年 11 月 23 日出现神经症状时",
+        "question": "患者术后 1 个月出现恶心、头晕、头痛等神经症状。针对高危三阴性乳腺癌患者疑似中枢神经系统转移的评估，下列哪项策略最佳？",
+        "options": {
+          "A": "立即行头颅增强 MRI 检查，必要时加做全脊髓 MRI",
+          "B": "首选头颅 CT 平扫以快速排除出血性卒中",
+          "C": "等待症状加重后再行增强 MRI 检查以节约医疗资源",
+          "D": "仅进行腰椎穿刺脑脊液检查，无需影像学评估"
+        },
+        "answer": "A",
+        "answer_text": "立即行头颅增强 MRI 检查，必要时加做全脊髓 MRI",
+        "explain": "传统 CT 对脑膜微小病灶敏感性不足。高危患者出现神经症状应首选增强 MRI，因其对软脑膜转移的检出率远高于 CT，且能评估脑实质合并病灶。",
+        "keyPoint": "高危乳腺癌患者出现神经症状应首选增强 MRI 而非 CT，以提高脑膜及脑实质转移的检出率。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "9219353f-8d70-49e8-9329-ddb1105e0b74",
+          "split_index": 39,
+          "type": "guideline",
+          "authority": "中国医药教育协会肿瘤药物临床研究专业委员会",
+          "source_title": "乳腺癌软脑膜转移诊疗中国专家共识（2026 年版）",
+          "source_version": "2026",
+          "source_section": "Chinese expert consensus on the diagnosis and treatment of leptomeningeal metastasis from breast cancer",
+          "source_url": "",
+          "evidence_summary": "专家共识强调诊断需结合临床表现、影像学特征（重视 MRI）与脑脊液检查的综合评估体系。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-22A52DF0",
+    "cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "三阴性乳腺癌术后的治疗评估",
+      "description": "54岁女性，局部晚期三阴性乳腺癌，新辅助治疗后PR并接受手术。"
+    },
+    "overview": {
+      "hero": {
+        "title": "三阴性乳腺癌术后的治疗评估",
+        "subtitle": "术后神经症状的定位、脑MRI与脑脊液结果，以及中枢病变的治疗与复评。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "54岁女性，局部晚期三阴性乳腺癌，新辅助治疗后PR并接受手术。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "术后仍有10枚淋巴结转移；约1个月后MRI及脑脊液细胞学支持脑及脑膜转移。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "采用放疗、鞘内甲氨蝶呤及支持治疗。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "术后神经症状的定位、脑MRI与脑脊液结果，以及中枢病变的治疗与复评。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "新辅助治疗前",
+              "title": "局部晚期TNBC",
+              "detail": "乳腺三阴性癌，腋窝及锁骨上淋巴结阳性，cT4bN3cM0。"
+            },
+            {
+              "date": "6周期TA后",
+              "title": "原发缩小",
+              "detail": "白蛋白紫杉醇联合吡柔比星后PR。"
+            },
+            {
+              "date": "2024年10月23日",
+              "title": "改良根治术",
+              "detail": "改良根治术，残留最大7 mm，仍有10枚淋巴结转移。"
+            },
+            {
+              "date": "2024年11月23—25日",
+              "title": "中枢转移确诊",
+              "detail": "神经症状出现，MRI提示脑及脑膜病变，脑脊液细胞学阳性。"
+            },
+            {
+              "date": "确诊后",
+              "title": "综合治疗",
+              "detail": "采用放疗、鞘内甲氨蝶呤及对症支持。"
+            },
+            {
+              "date": "治疗后",
+              "title": "复评改善",
+              "detail": "症状缓解，MRI病灶缩小。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

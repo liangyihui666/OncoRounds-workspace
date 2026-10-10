@@ -1,0 +1,46 @@
+{
+  "source": "outputs/上传版证据范围修复-20260929/01-出题子应用-Flash证据范围修复版.json",
+  "revision": "20260929-option-variety-five",
+  "changed_nodes": [
+    {
+      "id": "sR35QbYF2xamDQR3",
+      "name": "题目生成-首轮"
+    },
+    {
+      "id": "lUxTeIqSf0zHu2BL",
+      "name": "生成输入拼接-首轮"
+    },
+    {
+      "id": "cmuTcUhJefVm2DC6",
+      "name": "首轮格式预检"
+    },
+    {
+      "id": "v12CasePacket",
+      "name": "接收14字段病例JSON"
+    },
+    {
+      "id": "v12RevisionInput",
+      "name": "第二轮修订输入"
+    },
+    {
+      "id": "v12RevisionGenerator",
+      "name": "题目修订-第二轮"
+    },
+    {
+      "id": "v12AssemblyR2",
+      "name": "最终程序检查与引用装配"
+    },
+    {
+      "id": "v12FinalPublicationNormalize",
+      "name": "整理最终输出"
+    }
+  ],
+  "nodes": 33,
+  "edges": 52,
+  "first_draft_answer_plan": true,
+  "program_answer_shuffle": false,
+  "public_schema_changed": false,
+  "models_unchanged": true,
+  "retrieval_unchanged": true,
+  "online_run": false
+}

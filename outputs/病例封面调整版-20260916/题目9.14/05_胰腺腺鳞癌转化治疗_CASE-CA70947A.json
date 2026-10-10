@@ -1,0 +1,335 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-CA70947A",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "胰腺癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "治疗决策",
+        "phase": "新辅助转化治疗",
+        "timepoint": "初诊评估为不可切除后",
+        "question": "胰头肿瘤累及主要血管，初评不可切除且无远处转移。若病理明确、患者可耐受治疗，哪项初始策略更合适？",
+        "options": {
+          "A": "先行手术探查，以术中判断代替治疗前可切除性评估",
+          "B": "以单纯局部放疗作为既定方案，暂不考虑系统治疗",
+          "C": "评估吉西他滨联合白蛋白紫杉醇等系统方案并动态复评",
+          "D": "仅因影像提示不可切除，就转为单纯症状支持治疗"
+        },
+        "answer": "C",
+        "answer_text": "评估吉西他滨联合白蛋白紫杉醇等系统方案并动态复评",
+        "explain": "局部进展期患者可通过系统治疗争取控制和后续切除机会，具体方案取决于体能及器官功能。胰腺腺鳞癌较少见，治疗常参考胰腺癌经验，不能声称该病例证明某方案具有独立最高级别证据。",
+        "keyPoint": "不可切除不等于不能治疗，需评估系统治疗和转化机会。",
+        "guidelineRef": {
+          "evidence_type": "循证资料",
+          "doc_id": "",
+          "split_index": null,
+          "type": "evidence_summary",
+          "authority": "NCI",
+          "source_title": "Pancreatic Cancer Treatment (PDQ), Health Professional Version",
+          "source_version": "在线版本（核查于2026-09-10）",
+          "source_section": "",
+          "source_url": "https://www.cancer.gov/types/pancreatic/hp/pancreatic-treatment-pdq",
+          "evidence_summary": "不可切除不等于不能治疗，需评估系统治疗和转化机会。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "诊断与分期",
+        "phase": "新辅助治疗期间评估",
+        "timepoint": "新辅助化疗 3 个月疗效部分缓解但仍无法切除时",
+        "question": "治疗3个月后肿瘤达到PR，但仍不可切除，尚无远处进展。若毒性可控，下一步更合理的决策是什么？",
+        "options": {
+          "A": "仅因仍不可切除就终止有效方案，改为姑息旁路手术",
+          "B": "无论耐受情况如何，都立即降为吉西他滨单药",
+          "C": "将未获得切除机会等同于PD，改用全部不同的药物",
+          "D": "继续有效方案，并定期结合血管关系和全身情况复评"
+        },
+        "answer": "D",
+        "answer_text": "继续有效方案，并定期结合血管关系和全身情况复评",
+        "explain": "PR提示当前治疗有效，但技术可切除性尚未达到。应在耐受前提下继续评估，既不能把未转化当成进展，也不能忽略累积毒性而无限延长治疗。",
+        "keyPoint": "疗效反应和可切除性是相关但不同的评估维度。",
+        "guidelineRef": {
+          "evidence_type": "循证资料",
+          "doc_id": "",
+          "split_index": null,
+          "type": "evidence_summary",
+          "authority": "NCI",
+          "source_title": "Pancreatic Cancer Treatment (PDQ), Health Professional Version",
+          "source_version": "在线版本（核查于2026-09-10）",
+          "source_section": "",
+          "source_url": "https://www.cancer.gov/types/pancreatic/hp/pancreatic-treatment-pdq",
+          "evidence_summary": "疗效反应和可切除性是相关但不同的评估维度。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "疗效复评与局部治疗",
+        "phase": "新辅助治疗后评估",
+        "timepoint": "新辅助化疗 7 个月评估后",
+        "question": "约7个月治疗后，肿瘤缩小、血管受累改善，未见远处转移且CA19-9下降。此时应如何评估手术机会？",
+        "options": {
+          "A": "继续原方案直到出现进展，再讨论是否局部处理",
+          "B": "由有经验的MDT评估R0可能性及手术风险，再决定探查切除",
+          "C": "仅凭CA19-9下降即可安排手术，无需复核血管关系",
+          "D": "以影像缩小作为根治证据，停止治疗并进入随访"
+        },
+        "answer": "B",
+        "answer_text": "由有经验的MDT评估R0可能性及手术风险，再决定探查切除",
+        "explain": "应综合增强影像、血管重建可能性、体能和营养状况决定手术。病例成功R0切除是结果，不能写成只要缩小即可保证R0。也不能将持续系统治疗至进展作为唯一终点。",
+        "keyPoint": "转化手术需要评估可实现的切除质量与患者风险。",
+        "guidelineRef": {
+          "evidence_type": "循证资料",
+          "doc_id": "",
+          "split_index": null,
+          "type": "evidence_summary",
+          "authority": "NCI",
+          "source_title": "Pancreatic Cancer Treatment (PDQ), Health Professional Version",
+          "source_version": "在线版本（核查于2026-09-10）",
+          "source_section": "",
+          "source_url": "https://www.cancer.gov/types/pancreatic/hp/pancreatic-treatment-pdq",
+          "evidence_summary": "转化手术需要评估可实现的切除质量与患者风险。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "诊断与分期",
+        "phase": "术后病理评估",
+        "timepoint": "胰十二指肠切除术后",
+        "question": "新辅助治疗后完成胰十二指肠切除。病理报告应重点涵盖哪组信息？",
+        "options": {
+          "A": "残余肿瘤范围、治疗反应、切缘及淋巴结状态",
+          "B": "初诊最大径、影像反应及血清标志物变化即可",
+          "C": "以Ki-67为主，并用其变化代替切缘和淋巴结评估",
+          "D": "仅报告是否存在肿瘤，分期沿用治疗前临床结果"
+        },
+        "answer": "A",
+        "answer_text": "残余肿瘤范围、治疗反应、切缘及淋巴结状态",
+        "explain": "新辅助治疗会影响肿瘤形态和残余范围，报告应系统评估治疗反应、浸润、切缘及淋巴结，并采用适当的治疗后分期。单个增殖指标不能代替这些信息。",
+        "keyPoint": "治疗后病理既要评估残余肿瘤，也要评估切除质量。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "CAP",
+          "source_title": "Protocol for the Examination of Specimens From Patients With Carcinoma of the Exocrine Pancreas",
+          "source_version": "2020 / 4.1.0.0",
+          "source_section": "",
+          "source_url": "https://www.cap.org/wp-content/uploads/protocols/cp-gihepatobiliary-pancreasexocrine-20-4100.pdf?download=true",
+          "evidence_summary": "治疗后病理既要评估残余肿瘤，也要评估切除质量。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "治疗决策",
+        "phase": "术后辅助治疗",
+        "timepoint": "胰十二指肠切除术后",
+        "question": "患者术前已接受约7个月化疗，之后获得R0切除。关于术后系统治疗，哪项原则更妥当？",
+        "options": {
+          "A": "R0切除后均不再需要讨论辅助治疗",
+          "B": "无论既往疗程多少，术后均应常规追加放疗",
+          "C": "结合术前暴露、病理和恢复情况，由MDT决定后续治疗",
+          "D": "按固定一年目标延长同一方案，无需考虑累积毒性"
+        },
+        "answer": "C",
+        "answer_text": "结合术前暴露、病理和恢复情况，由MDT决定后续治疗",
+        "explain": "该病例术后采用S-1，但不能由此推导所有充分术前治疗患者都必须继续相同长度的辅助治疗。应综合恢复、残余病理风险及既往毒性，明确证据局限和个体化选择。",
+        "keyPoint": "充分术前治疗后的辅助决策需综合评估，不能机械追加。",
+        "guidelineRef": {
+          "evidence_type": "循证资料",
+          "doc_id": "",
+          "split_index": null,
+          "type": "evidence_summary",
+          "authority": "NCI",
+          "source_title": "Pancreatic Cancer Treatment (PDQ), Health Professional Version",
+          "source_version": "在线版本（核查于2026-09-10）",
+          "source_section": "",
+          "source_url": "https://www.cancer.gov/types/pancreatic/hp/pancreatic-treatment-pdq",
+          "evidence_summary": "充分术前治疗后的辅助决策需综合评估，不能机械追加。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-CA70947A",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "胰腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "胰腺癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "不可切除胰腺腺鳞癌经新辅助化疗后成功行 R0 切除病例",
+      "description": "患者女性，76 岁，主诉上腹部疼痛和恶心。影像学检查显示胰头存在肿瘤，侵犯肝总动脉、左肝动脉和胃十二指肠动脉，并与门静脉接触。初步诊断考虑因肿瘤侵犯主要血管而无法切除。已知生物标志物：初诊时 CA19-9 水平升高（具体数值未详）。"
+    },
+    "overview": {
+      "hero": {
+        "title": "不可切除胰腺腺鳞癌经新辅助化疗后成功行 R0 切除病例",
+        "subtitle": "不可切除局部晚期胰腺癌的转化治疗策略 胰腺腺鳞癌（ASCP）的罕见病理特征与诊疗 新辅助化疗疗效评估与手术时机选择 胰腺癌术后辅助治疗方案的选择 长期随访中肿瘤标志物与影像学的联合监测"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者与就诊背景",
+              "value": "患者女性，76 岁，主诉上腹部疼痛和恶心。影像学检查显示胰头存在肿瘤，侵犯肝总动脉、左肝动脉和胃十二指肠动脉，并与门静脉接触。初步诊断考虑因肿瘤侵犯主要血管而无法切除。已知生物标志物：初诊时 CA19-9 水平升高（具体数值未详）。"
+            },
+            {
+              "order": 2,
+              "label": "疾病与分期",
+              "value": "胰腺腺鳞癌（ASCP），初诊考虑为不可切除胰腺癌"
+            },
+            {
+              "order": 3,
+              "label": "分子与病理",
+              "value": "治疗 7 个月时 | 血液 | 不详 | CA19-9 | 显著下降 | 不详 术后 7 个月随访 | 血液 | 不详 | CA19-9 | 未升高 | 不详 术后 7 个月随访 | 血液 | 不详 | DUPAN2 | 未升高 | 不详 术后 7 个月随访 | 血液 | 不详 | CEA | 未升高 | 不详 术后 7 个月随访 | 血液 | 不详 | SCC 抗原 | 未升高 | 不详 术后 7 个月随访 | 血液 | 不详 | CYFRA | 未升高 | 不详"
+            },
+            {
+              "order": 4,
+              "label": "核心教学点",
+              "value": "不可切除局部晚期胰腺癌的转化治疗策略 胰腺腺鳞癌（ASCP）的罕见病理特征与诊疗 新辅助化疗疗效评估与手术时机选择 胰腺癌术后辅助治疗方案的选择 长期随访中肿瘤标志物与影像学的联合监测"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 1",
+              "detail": "初诊：主诉上腹部疼痛和恶心"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 2",
+              "detail": "影像学检查示胰头肿瘤侵犯肝总动脉、左肝动脉、胃十二指肠动脉并接触门静脉"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 3",
+              "detail": "初步诊断考虑不可切除。"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 4",
+              "detail": "新辅助化疗开始：使用吉西他滨联合白蛋白紫杉醇方案。"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 5",
+              "detail": "治疗 3 个月（三个疗程后）：MDCT 扫描显示肿瘤部分缓解，但仍无法切除"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 6",
+              "detail": "继续原方案治疗。"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 7",
+              "detail": "治疗 7 个月（七个疗程后）：增强 MDCT 和 FDG-PET 显示肿瘤明显缩小，血管受累改善，无远处转移"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 8",
+              "detail": "CA19-9 显著下降"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 9",
+              "detail": "评估为可切除状态。"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 10",
+              "detail": "手术治疗：行胰十二指肠切除术，实现 R0 切除。"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 11",
+              "detail": "术后治疗：口服 S-1 进行辅助化疗。"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 12",
+              "detail": "术后第 28 天：出院，恢复顺利，无重大并发症。"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 13",
+              "detail": "术后 7 个月随访：健康状况良好，影像学未见复发，肿瘤标志物（CA19-9、DUPAN2、CEA、SCC 抗原、CYFRA）均未升高。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/3XJKeMY57V2OZhJvqs1SPA/cem2cf7SCS9sVV1e77NJB4iB5lCvm5hM.png",
+              "timepoint": "转化化疗前后",
+              "caption": "图 1. a–c 转化疗前的增强 MDCT 扫描；d–f 转化疗后的增强 MDCT 扫描。",
+              "alt": "图 1. a–c 转化疗前的增强 MDCT 扫描；d–f 转化疗后的增强 MDCT 扫描。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/3XJKeMY57V2OZhJvqs1SPA/E9lbPgOegSyoRIKtYtC7dqBnzolWPsib.png",
+              "timepoint": "转化化疗前后",
+              "caption": "图 2. a、b 转化疗前的增强 MDCT 扫描；c、d 转化疗后的增强 MDCT 扫描。",
+              "alt": "图 2. a、b 转化疗前的增强 MDCT 扫描；c、d 转化疗后的增强 MDCT 扫描。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/3XJKeMY57V2OZhJvqs1SPA/E8nb9OpAvSQwciJ1XCnUXU50QF5Djvsk.png",
+              "timepoint": "新辅助化疗前后",
+              "caption": "图 3. a、b 新辅助化疗前，FDG-PET 显示胰头标准化摄取最大值为 6.6；c、d 化疗后，FDG-PET 显示肿瘤中积累减少，标准化摄取最大值为 3.6。",
+              "alt": "图 3. a、b 新辅助化疗前，FDG-PET 显示胰头标准化摄取最大值为 6.6；c、d 化疗后，FDG-PET 显示肿瘤中积累减少，标准化摄取最大值为 3.6。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG4",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/3XJKeMY57V2OZhJvqs1SPA/IFoZPqAhu71WzFSIB1siJuwG0cCs85j6.png",
+              "timepoint": "术中",
+              "caption": "图 4.术中图片。a 肿瘤未侵犯肝总动脉或肝左动脉，易于解剖。b 胰头肿瘤未侵犯门静脉，无需切除门静脉即可解剖。c 肝右动脉与腹腔动脉分叉，未见肿瘤侵犯。d 肿瘤未侵犯肠系膜上动脉。",
+              "alt": "图 4.术中图片。a 肿瘤未侵犯肝总动脉或肝左动脉，易于解剖。b 胰头肿瘤未侵犯门静脉，无需切除门静脉即可解剖。c 肝右动脉与腹腔动脉分叉，未见肿瘤侵犯。d 肿瘤未侵犯肠系膜上动脉。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG5",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/3XJKeMY57V2OZhJvqs1SPA/XJJZJVZhhoDSv3AdHWfvmw2tCX3KRFJU.png",
+              "timepoint": "术后病理",
+              "caption": "图 5.胰腺腺鳞癌组织学和免疫组织化学结果。",
+              "alt": "图 5.胰腺腺鳞癌组织学和免疫组织化学结果。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

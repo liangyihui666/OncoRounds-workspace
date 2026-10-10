@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "CASE-DEID-BAD",
+  "cancer_type": "肺癌",
+  "generation_status": "success",
+  "case_summary": "脱敏测试病例",
+  "difficulty": "中等",
+  "question_count": 1,
+  "questions": [
+    {
+      "id": "Q1",
+      "type": "治疗决策",
+      "phase": "初诊",
+      "timepoint": "初诊时",
+      "question": "以下何者正确？",
+      "options": ["以上都是", "观察", "观察", "随访"],
+      "answer": 0,
+      "answer_text": "以上都是",
+      "explain": "正确答案为A，应按标准治疗并永久停药。",
+      "keyPoint": "感染已排除。",
+      "guidelineRef": {"evidence_type": "病例+临床推理", "doc_id": "bad", "split_index": 0, "type": "lyhdoc", "authority": "", "source_title": "病例分享", "source_version": "", "source_section": "", "source_url": "file:///tmp/bad", "evidence_summary": "必须停药。"}
+    }
+  ],
+  "missing_information": [],
+  "risk_message": ""
+}

@@ -1,0 +1,300 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-9236151F",
+    "cancer_type": "消化系统肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "AFP升高的鉴别",
+        "timepoint": "肝脏CT阴性而结肠有肿瘤时",
+        "question": "患者有乙肝史、AFP 212.6 ng/mL，肝脏增强CT未见可疑占位，结肠病理及AFP染色阳性。哪项解释更准确？",
+        "options": {
+          "A": "一次CT未见病灶即可永久排除所有肝脏肿瘤",
+          "B": "AFP升高本身即可诊断肝癌并启动肝癌系统治疗",
+          "C": "AFP并非肝癌特异，结合肝脏评估及结肠病理判断来源，保留肝病随访",
+          "D": "结肠AFP染色阳性可取代全部形态学和分期检查"
+        },
+        "answer": "C",
+        "answer_text": "AFP并非肝癌特异，结合肝脏评估及结肠病理判断来源，保留肝病随访",
+        "explain": "AFP可受非肝癌因素影响，单独用于肝癌诊断不可靠。本例结肠组织结果及术后变化支持其与结肠病灶相关，但不能取消乙肝相关的后续肝脏评估。",
+        "keyPoint": "AFP不具肝癌独占特异性，诊断需结合影像和病理。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "AASLD",
+          "source_title": "AASLD Practice Guidance on prevention, diagnosis, and treatment of hepatocellular carcinoma",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10663390/",
+          "evidence_summary": "AFP不具肝癌独占特异性，诊断需结合影像和病理。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "诊断与分期",
+        "phase": "术后分期复核",
+        "timepoint": "10枚淋巴结转移后",
+        "question": "原文写T3N2b，同时描述“侵及浆膜层”，淋巴结转移10/10。哪种分期复核方法最严谨？",
+        "options": {
+          "A": "原文写T3即可删除所有与浆膜有关的描述",
+          "B": "既然有浆膜一词，就无需原报告直接确定T4b",
+          "C": "N2b依据明确；需复核是否穿透脏层腹膜以区分T3与T4a，不自行改写深度",
+          "D": "10枚淋巴结转移应记为N1，T分期仅由肿瘤大小决定"
+        },
+        "answer": "C",
+        "answer_text": "N2b依据明确；需复核是否穿透脏层腹膜以区分T3与T4a，不自行改写深度",
+        "explain": "结肠癌至少7枚区域淋巴结转移为N2b。T3为穿过固有肌层进入周围组织，T4a涉及脏层腹膜表面；原文表述有待核对，不能为凑选项补造明确深度。",
+        "keyPoint": "T分期与淋巴结分期分别核验，矛盾病理表述需回到原始标本。",
+        "guidelineRef": {
+          "evidence_type": "权威诊疗资料",
+          "doc_id": "",
+          "split_index": null,
+          "type": "reference",
+          "authority": "NCI",
+          "source_title": "Colon Cancer Treatment (PDQ®)–Health Professional Version",
+          "source_version": "",
+          "source_section": "",
+          "source_url": "https://www.cancer.gov/types/colorectal/hp/colon-treatment-pdq",
+          "evidence_summary": "T分期与淋巴结分期分别核验，矛盾病理表述需回到原始标本。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "高危III期辅助治疗",
+        "timepoint": "术后方案及疗程讨论",
+        "question": "患者N2b、pMMR，原文接受CAPOX。依据所引ASCO辅助疗程指南，如何讨论预定疗程最合理？",
+        "options": {
+          "A": "按N2高危讨论6个月含奥沙利铂治疗，并结合毒性和偏好调整",
+          "B": "因HER2染色阳性就统一以抗HER2治疗替代辅助化疗",
+          "C": "因pMMR而认定所有氟嘧啶治疗均无获益",
+          "D": "按低危T1–3N1规则直接确定3个月即可"
+        },
+        "answer": "A",
+        "answer_text": "按N2高危讨论6个月含奥沙利铂治疗，并结合毒性和偏好调整",
+        "explain": "所引ASCO指南将T4和/或N2列为高危，建议提供6个月方案讨论。实际疗程需考虑药物与耐受性；原病例8周期及“4个月”的记录需核对，不能转为普遍标准。",
+        "keyPoint": "N2属于高危III期，辅助疗程应按风险与方案讨论。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ASCO",
+          "source_title": "Duration of Oxaliplatin-Containing Adjuvant Therapy for Stage III Colon Cancer: ASCO Clinical Practice Guideline",
+          "source_version": "2019",
+          "source_section": "",
+          "source_url": "https://ascopubs.org/doi/10.1200/JCO.19.00281",
+          "evidence_summary": "N2属于高危III期，辅助疗程应按风险与方案讨论。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "疗效复评与局部治疗",
+        "phase": "术后监测",
+        "timepoint": "CEA和AFP下降后",
+        "question": "术后一周CEA和AFP恢复正常。用于复发监测时，哪项最妥当？",
+        "options": {
+          "A": "单次AFP正常即可宣布不存在微小残留疾病",
+          "B": "以规范影像、结肠镜及CEA随访为基础，AFP作为本病例的补充趋势指标",
+          "C": "只查AFP即可替代影像及结肠镜",
+          "D": "由一个病例证明AFP联合CEA对所有结肠癌均更敏感"
+        },
+        "answer": "B",
+        "answer_text": "以规范影像、结肠镜及CEA随访为基础，AFP作为本病例的补充趋势指标",
+        "explain": "指标随切除下降提示相关性，但并不证明对所有患者的敏感性或特异性。AFP趋势不能替代结肠癌标准随访，异常也需查明来源。",
+        "keyPoint": "结肠癌术后随访不能由单个肿瘤标志物替代。",
+        "guidelineRef": {
+          "evidence_type": "权威诊疗资料",
+          "doc_id": "",
+          "split_index": null,
+          "type": "reference",
+          "authority": "NCI",
+          "source_title": "Colon Cancer Treatment (PDQ®)–Health Professional Version",
+          "source_version": "",
+          "source_section": "",
+          "source_url": "https://www.cancer.gov/types/colorectal/hp/colon-treatment-pdq",
+          "evidence_summary": "结肠癌术后随访不能由单个肿瘤标志物替代。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "治疗决策",
+        "phase": "原发灶局部问题处理",
+        "timepoint": "肠套叠及腔内占位时",
+        "question": "CT提示肠套叠但未描述肠梗阻，内镜见肿瘤占据管腔，并有便血。决定局部干预紧迫性时，应重点评价什么？",
+        "options": {
+          "A": "仅凭内镜无法通过就补写已发生肠穿孔",
+          "B": "只依据AFP高低决定是否急诊切除",
+          "C": "持续出血、通行受阻程度、缺血或穿孔风险及可切除性",
+          "D": "只要CT当时无梗阻即可不处理持续症状"
+        },
+        "answer": "C",
+        "answer_text": "持续出血、通行受阻程度、缺血或穿孔风险及可切除性",
+        "explain": "原文存在局部机械和出血问题，需结合临床决定手术等干预。不能把梗阻风险、实际梗阻、缺血和穿孔混成一个既定事实。",
+        "keyPoint": "有症状结肠原发灶需评估局部并发症及干预时机。",
+        "guidelineRef": {
+          "evidence_type": "权威诊疗资料",
+          "doc_id": "",
+          "split_index": null,
+          "type": "reference",
+          "authority": "NCI",
+          "source_title": "Colon Cancer Treatment (PDQ®)–Health Professional Version",
+          "source_version": "",
+          "source_section": "",
+          "source_url": "https://www.cancer.gov/types/colorectal/hp/colon-treatment-pdq",
+          "evidence_summary": "有症状结肠原发灶需评估局部并发症及干预时机。"
+        }
+      }
+    ],
+    "missing_information": [],
+    "second_cancer_type": "结肠癌"
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-9236151F",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "结肠癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "AFP升高背后的结肠腺癌",
+      "description": "59岁男性因便血就诊，AFP升高，肝脏影像未见可疑占位。"
+    },
+    "overview": {
+      "hero": {
+        "title": "AFP升高背后的结肠腺癌",
+        "subtitle": "行扩大右半结肠切除，术后CAPOX；原文周期与疗程时长不一致。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "59岁男性因便血就诊，AFP升高，肝脏影像未见可疑占位。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "结肠黏液腺癌，AFP染色阳性、pMMR，10枚淋巴结转移；原文T分期待核对。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "行扩大右半结肠切除，术后CAPOX；原文周期与疗程时长不一致。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "CEA、AFP恢复正常，术后1年CT及肠镜未见复发。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "就诊前2个月",
+              "title": "间断便血",
+              "detail": "间断便血，贫血，AFP及CEA升高。"
+            },
+            {
+              "date": "诊断期",
+              "title": "原发定位及肝脏评估",
+              "detail": "肝脏未见占位，结肠肠套叠及腔内肿瘤，CT未见梗阻。"
+            },
+            {
+              "date": "急诊手术",
+              "title": "扩大右半结肠切除",
+              "detail": "扩大右半结肠切除，术后10枚淋巴结阳性；原文T分期待核对。"
+            },
+            {
+              "date": "术后一周",
+              "title": "标志物下降",
+              "detail": "CEA、AFP恢复正常。"
+            },
+            {
+              "date": "术后CAPOX",
+              "title": "辅助治疗",
+              "detail": "完成CAPOX；原文“8周期”与“4个月”的疗程记录待核对。"
+            },
+            {
+              "date": "术后1年",
+              "title": "随访",
+              "detail": "CT及肠镜未见复发。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/57U1GQSIua7f6pYeFfbosQ/vCDgNKEzVRIPDkZNpVASPI4ejPxXApHv.png",
+              "timepoint": "CT 检查时",
+              "caption": "CT 显示肝曲处肠套叠，套叠部分（箭头所示）在轴位和冠状位图像上均呈现为低密度肿块。",
+              "alt": "CT 显示肝曲处肠套叠，套叠部分（箭头所示）在轴位和冠状位图像上均呈现为低密度肿块。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/57U1GQSIua7f6pYeFfbosQ/ij9pFfBRuKJ7c7NSyjJ6PTzAmV7jCXr0.png",
+              "timepoint": "结肠镜检查时",
+              "caption": "结肠镜检查显示，一个大的易碎肿瘤阻塞了整个管腔。",
+              "alt": "结肠镜检查显示，一个大的易碎肿瘤阻塞了整个管腔。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/57U1GQSIua7f6pYeFfbosQ/Pa2840z73Zyrc7Qsok5dFWwxXY5VrxYJ.png",
+              "timepoint": "病理检查时",
+              "caption": "腺癌伴有成群的肿瘤细胞（黑色箭头）漂浮在黏液池中：(A) H&E 染色；(B) AFP 免疫组织化学染色阳性 (x200)。",
+              "alt": "腺癌伴有成群的肿瘤细胞（黑色箭头）漂浮在黏液池中：(A) H&E 染色；(B) AFP 免疫组织化学染色阳性 (x200)。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG4",
+              "src": "https://bosdev.liangyihui.net/temp/1660012838.png",
+              "timepoint": "",
+              "caption": "无明确图注。",
+              "alt": "无明确图注。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG5",
+              "src": "https://bosdev.liangyihui.net/temp/1660012838.png",
+              "timepoint": "",
+              "caption": "无明确图注。",
+              "alt": "无明确图注。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "结肠癌"
+  }
+}

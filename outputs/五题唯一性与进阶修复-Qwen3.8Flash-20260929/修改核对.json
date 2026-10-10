@@ -1,0 +1,24 @@
+{
+  "source": "outputs/五题唯一性与进阶修复-20260929/01-出题子应用-Qwen3.5Plus质量修复版.json",
+  "destination": "outputs\\五题唯一性与进阶修复-Qwen3.8Flash-20260929\\01-出题子应用-Qwen3.8Flash质量修复版.json",
+  "changes": [
+    {
+      "nodeId": "sR35QbYF2xamDQR3",
+      "name": "题目生成-首轮",
+      "field": "model",
+      "from": "qwen3.5-plus",
+      "to": "qwen3.8-flash"
+    },
+    {
+      "nodeId": "v12RevisionGenerator",
+      "name": "题目修订-第二轮",
+      "field": "model",
+      "from": "qwen3.5-plus",
+      "to": "qwen3.8-flash"
+    }
+  ],
+  "verification": "仅两处模型字段变化，其他字段完全一致；保存后JSON回读一致",
+  "quality_rules_revision": "20260929-unique-advanced-five",
+  "online_run": false,
+  "kb_selection_required": true
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "workflow": "generator",
+    "nodeId": "cmuTcUhJefVm2DC6",
+    "node_name": "候选题装配与硬检-首轮",
+    "input": "second_cancer_type"
+  },
+  {
+    "workflow": "generator",
+    "nodeId": "v11EvidenceRegistry",
+    "node_name": "证据注册与压缩-最终",
+    "input": "guideline_a_staging_system_error"
+  },
+  {
+    "workflow": "generator",
+    "nodeId": "v11EvidenceRegistry",
+    "node_name": "证据注册与压缩-最终",
+    "input": "guideline_a_system_error"
+  },
+  {
+    "workflow": "generator",
+    "nodeId": "v11EvidenceRegistry",
+    "node_name": "证据注册与压缩-最终",
+    "input": "guideline_b_system_error"
+  },
+  {
+    "workflow": "generator",
+    "nodeId": "v11EvidenceRegistry",
+    "node_name": "证据注册与压缩-最终",
+    "input": "clinical_study_initial_system_error"
+  },
+  {
+    "workflow": "generator",
+    "nodeId": "v11EvidenceRegistry",
+    "node_name": "证据注册与压缩-最终",
+    "input": "clinical_study_supplement_system_error"
+  },
+  {
+    "workflow": "generator",
+    "nodeId": "v11EvidenceRegistry",
+    "node_name": "证据注册与压缩-最终",
+    "input": "irae_a_system_error"
+  },
+  {
+    "workflow": "generator",
+    "nodeId": "v11EvidenceRegistry",
+    "node_name": "证据注册与压缩-最终",
+    "input": "irae_b_system_error"
+  },
+  {
+    "workflow": "generator",
+    "nodeId": "v11EvidenceRegistryInitial",
+    "node_name": "证据注册与压缩-初检",
+    "input": "guideline_a_staging_system_error"
+  },
+  {
+    "workflow": "generator",
+    "nodeId": "v11EvidenceRegistryInitial",
+    "node_name": "证据注册与压缩-初检",
+    "input": "guideline_a_system_error"
+  },
+  {
+    "workflow": "generator",
+    "nodeId": "v11EvidenceRegistryInitial",
+    "node_name": "证据注册与压缩-初检",
+    "input": "guideline_b_system_error"
+  },
+  {
+    "workflow": "generator",
+    "nodeId": "v11EvidenceRegistryInitial",
+    "node_name": "证据注册与压缩-初检",
+    "input": "clinical_study_initial_system_error"
+  },
+  {
+    "workflow": "generator",
+    "nodeId": "v11EvidenceRegistryInitial",
+    "node_name": "证据注册与压缩-初检",
+    "input": "irae_a_system_error"
+  },
+  {
+    "workflow": "generator",
+    "nodeId": "v11EvidenceRegistryInitial",
+    "node_name": "证据注册与压缩-初检",
+    "input": "irae_b_system_error"
+  },
+  {
+    "workflow": "generator",
+    "nodeId": "v12CasePacket",
+    "node_name": "病例输入精确去重",
+    "input": "cancer_type"
+  },
+  {
+    "workflow": "generator",
+    "nodeId": "v12CasePacket",
+    "node_name": "病例输入精确去重",
+    "input": "second_cancer_type"
+  },
+  {
+    "workflow": "generator",
+    "nodeId": "v12AssemblyR2",
+    "node_name": "候选题装配与硬检-第二轮",
+    "input": "second_cancer_type"
+  },
+  {
+    "workflow": "generator",
+    "nodeId": "v12FinalPublicationNormalize",
+    "node_name": "最终发布状态归一",
+    "input": "cancer_type"
+  },
+  {
+    "workflow": "generator",
+    "nodeId": "v12FinalPublicationNormalize",
+    "node_name": "最终发布状态归一",
+    "input": "second_cancer_type"
+  },
+  {
+    "workflow": "generator",
+    "nodeId": "v12FinalPublicationNormalize",
+    "node_name": "最终发布状态归一",
+    "input": "r2_patch_decision"
+  },
+  {
+    "workflow": "triple",
+    "nodeId": "jKqMCN8eJKvkngnI",
+    "node_name": "json生成",
+    "input": "cancer_type"
+  },
+  {
+    "workflow": "triple",
+    "nodeId": "jKqMCN8eJKvkngnI",
+    "node_name": "json生成",
+    "input": "second_cancer_type"
+  },
+  {
+    "workflow": "triple",
+    "nodeId": "bJcPjyWI8hiwuVOS",
+    "node_name": "15题候选池拼接",
+    "input": "group1_error"
+  },
+  {
+    "workflow": "triple",
+    "nodeId": "bJcPjyWI8hiwuVOS",
+    "node_name": "15题候选池拼接",
+    "input": "group2_error"
+  },
+  {
+    "workflow": "triple",
+    "nodeId": "bJcPjyWI8hiwuVOS",
+    "node_name": "15题候选池拼接",
+    "input": "group3_error"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "warnings": [],
+  "node_count": 41,
+  "edge_count": 54,
+  "source": "C:\\Users\\admin\\Downloads\\肿瘤大查房小工具 (AI简化) (5).json",
+  "source_sha256": "d1041b5aa05989096da487969bb0d68f085db6be15229f70852a8418521ac37f",
+  "output": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\outputs\\快速稳定五题-v1.1\\OncoRounds-快速稳定五题-v1.1-可直接导入.json",
+  "import_ready": true,
+  "DO_NOT_IMPORT": false,
+  "output_sha256": "0f49cf6c9a584182497aaa271840161a8c56328dd6a3e06ec9a29aebba9d6282"
+}

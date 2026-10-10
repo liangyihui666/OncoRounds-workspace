@@ -1,0 +1,252 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-14D22BE9",
+    "cancer_type": "直肠癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "初诊评估",
+        "timepoint": "就诊时",
+        "question": "患者初诊发现直肠原发灶伴小脑、胰腺、肝脏、骨骼及淋巴结多处转移。依据 AJCC 第八版分期系统，该患者的 M 分期及总体临床分期应如何判定？",
+        "options": {
+          "A": "M1a 期，总体分期为 IV A 期",
+          "B": "M1c 期，总体分期为 IV C 期",
+          "C": "Mx 期，需进一步检查确认分期",
+          "D": "M1b 期，总体分期为 IV B 期"
+        },
+        "answer": "D",
+        "answer_text": "M1b 期，总体分期为 IV B 期",
+        "explain": "患者转移灶涉及小脑、胰腺、肝脏、骨骼及淋巴结，属于两个或以上器官/部位的转移，且无腹膜转移证据，符合 M1b 定义，对应总体分期 IV B 期。",
+        "keyPoint": "结直肠癌 M1b 定义为转移至两个或以上器官或部位，无腹膜转移。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "294e6c72-a798-4b9b-a298-805084b6db8f",
+          "split_index": 39,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "直肠癌",
+          "source_version": "2024",
+          "source_section": "2.5 标本质量控制与病理分期",
+          "source_url": "",
+          "evidence_summary": "AJCC 第八版规定：M1b 为两个或以上器官或部位的转移，无腹膜转移；任何 T 任何 N M1b 对应 IV B 期。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "分子诊断",
+        "phase": "病理确诊",
+        "timepoint": "穿刺活检阶段",
+        "question": "患者胰腺占位性质不明，EUS-TA 穿刺后免疫组化显示 CDX2(+)、SATB2(+)。这些标志物组合在鉴别诊断中的核心价值是什么？",
+        "options": {
+          "A": "支持病灶为结直肠来源的转移性腺癌",
+          "B": "证实病灶为原发性胰腺导管腺癌",
+          "C": "提示病灶为神经内分泌肿瘤",
+          "D": "表明病灶为胃来源的转移性腺癌"
+        },
+        "answer": "A",
+        "answer_text": "支持病灶为结直肠来源的转移性腺癌",
+        "explain": "结直肠来源腺癌典型免疫表型为 CDX2+、SATB2+，而原发性胰腺癌通常 SATB2 阴性。该组合强力支持直肠来源转移，无需依赖未记载的 CK20 结果。",
+        "keyPoint": "CDX2、SATB2 联合阳性是鉴别结直肠来源转移癌的关键免疫组化特征。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "28fc8a2a-06be-439a-9037-d1feddf865a6",
+          "split_index": 9,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中枢神经系统转移瘤",
+          "source_version": "2025",
+          "source_section": "4 病理诊断",
+          "source_url": "",
+          "evidence_summary": "指南推荐检测 CK20、CDX-2、SATB2 等辅助判断结直肠癌脑转移及远处转移来源，肠源性腺癌常呈此表型。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "一线治疗选择",
+        "timepoint": "靶向治疗阶段",
+        "question": "患者术后并发严重感染性假性囊肿及梗阻性胰腺炎，无法耐受细胞毒性化疗。针对 HER2 阳性 (3+)、RAS/BRAF 野生型晚期直肠癌，此时最合理的全身治疗策略是？",
+        "options": {
+          "A": "推迟治疗直至感染控制后行 FOLFOX 化疗",
+          "B": "启动曲妥珠单抗联合帕妥珠单抗双靶向治疗",
+          "C": "单药使用曲妥珠单抗以减少治疗毒性",
+          "D": "改用免疫检查点抑制剂联合治疗方案"
+        },
+        "answer": "B",
+        "answer_text": "启动曲妥珠单抗联合帕妥珠单抗双靶向治疗",
+        "explain": "患者 MSS 型不适合免疫治疗；因严重感染禁忌化疗。HER2 阳性且 RAS/BRAF 野生型，双靶向治疗可作为规避骨髓抑制风险的个体化替代方案，虽非指南标准一线，但在本例情境下合理。",
+        "keyPoint": "高危感染或体能差无法化疗时，HER2 阳性 mCRC 可考虑双靶向治疗作为一线替代策略。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "28fc8a2a-06be-439a-9037-d1feddf865a6",
+          "split_index": 9,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中枢神经系统转移瘤",
+          "source_version": "2025",
+          "source_section": "4 病理诊断",
+          "source_url": "",
+          "evidence_summary": "指南推荐 HER2 阳性且 RAS/BRAF 野生型患者检测 HER2 以指导治疗；本例基于检测推荐结合临床情境推导双靶向应用。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "疗效复评与局部治疗",
+        "phase": "疗效评价",
+        "timepoint": "治疗 4 周期/12 周后",
+        "question": "双靶向治疗 4 周期后，患者 CEA/CA19-9 下降，CT 示胰腺转移灶缩小且假性囊肿改善。对此疗效评价及后续管理，下列哪项描述最准确？",
+        "options": {
+          "A": "达到 CR，应立即行胰腺病灶根治性切除术",
+          "B": "达到 PR，继续原方案治疗并密切监测感染及肿瘤变化",
+          "C": "疾病稳定，建议更换为瑞戈非尼维持治疗",
+          "D": "出现耐药，需立即进行二次穿刺检测 HER2 状态"
+        },
+        "answer": "B",
+        "answer_text": "达到 PR，继续原方案治疗并密切监测感染及肿瘤变化",
+        "explain": "肿瘤标志物下降且病灶缩小符合部分缓解 (PR)。鉴于患者曾有严重感染并发症，且目前治疗有效，应继续当前有效方案并监测，而非立即手术或换药。",
+        "keyPoint": "靶向治疗有效且伴复杂感染史时，首选继续原方案维持并监测，避免激进局部干预。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "294e6c72-a798-4b9b-a298-805084b6db8f",
+          "split_index": 21,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "直肠癌",
+          "source_version": "2024",
+          "source_section": "1 CT",
+          "source_url": "",
+          "evidence_summary": "指南推荐增强 CT 用于判断疗效；结合临床推理，PR 状态下继续有效治疗是标准管理策略。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "诊断与分期",
+        "phase": "穿刺活检阶段",
+        "timepoint": "术后高热伴胰腺占位时",
+        "question": "患者直肠腺癌术后出现胰腺占位伴梗阻性胰腺炎，性质不明。为安全获取深部病灶组织以明确病理诊断，首选的介入手段是什么？",
+        "options": {
+          "A": "经皮穿刺活检，无需影像引导",
+          "B": "仅凭 PET-CT 高代谢直接确诊",
+          "C": "经验性抗感染治疗，暂不获取病理",
+          "D": "EUS-FNA（超声内镜引导细针穿刺）"
+        },
+        "answer": "D",
+        "answer_text": "EUS-FNA（超声内镜引导细针穿刺）",
+        "explain": "胰腺位置深且邻近血管，EUS-FNA 可在实时超声引导下安全穿刺，获取细胞学或组织学标本，是明确胰腺占位性质的首选微创手段。",
+        "keyPoint": "EUS-FNA 是获取胰腺深部病灶病理组织的安全首选方法。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "294e6c72-a798-4b9b-a298-805084b6db8f",
+          "split_index": 21,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "直肠癌",
+          "source_version": "2024",
+          "source_section": "1 CT",
+          "source_url": "",
+          "evidence_summary": "CACA 直肠癌指南推荐增强 CT 评估，对疑难病灶需结合内镜等手段明确性质，EUS-FNA 是获取胰腺组织的高灵敏度方法。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-14D22BE9",
+    "cancer_type": "直肠癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "直肠癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "直肠癌伴神经症状的分阶段决策",
+      "description": "60多岁男性因神经症状确诊HER2阳性直肠癌，伴小脑及胰腺转移。"
+    },
+    "overview": {
+      "hero": {
+        "title": "直肠癌伴神经症状的分阶段决策",
+        "subtitle": "多器官病灶来源、胰腺感染与梗阻，以及感染控制后靶向治疗的疗效评价。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "60多岁男性因神经症状确诊HER2阳性直肠癌，伴小脑及胰腺转移。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "小脑手术后出现梗阻性胰腺炎及感染性假性囊肿；EUS取材支持直肠来源。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "抗感染处理后，使用曲妥珠单抗联合帕妥珠单抗。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "多器官病灶来源、胰腺感染与梗阻，以及感染控制后靶向治疗的疗效评价。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "初诊",
+              "title": "神经及全身检查",
+              "detail": "神经症状及小脑病灶，进一步检查发现直肠病变并活检确诊。"
+            },
+            {
+              "date": "首先局部处理",
+              "title": "小脑手术",
+              "detail": "行小脑转移灶切除。"
+            },
+            {
+              "date": "术后",
+              "title": "感染及胰腺病灶",
+              "detail": "高热，检查提示梗阻性胰腺炎及感染性假性囊肿。"
+            },
+            {
+              "date": "组织获取",
+              "title": "确认胰腺病灶来源",
+              "detail": "EUS取材及免疫组化支持直肠来源胰腺转移。"
+            },
+            {
+              "date": "抗感染改善后",
+              "title": "双HER2治疗",
+              "detail": "抗感染改善后使用曲妥珠单抗联合帕妥珠单抗。"
+            },
+            {
+              "date": "4周期/12周",
+              "title": "复评",
+              "detail": "肿瘤指标下降，胰腺病灶及假性囊肿改善；未提供全身RECIST分级。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

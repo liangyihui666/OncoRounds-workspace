@@ -1,0 +1,4 @@
+interface:
+  display_name: "FastGPT Oncology Grand Rounds"
+  short_description: "Build and audit evidence-backed oncology rounds"
+  default_prompt: "Use $fastgpt-oncology-grand-rounds to continue the current workflow one exact node and field at a time, preserving its five-lane evidence contract and publication gates."

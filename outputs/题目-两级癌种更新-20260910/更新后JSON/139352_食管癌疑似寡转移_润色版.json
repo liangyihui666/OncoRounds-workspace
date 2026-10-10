@@ -1,0 +1,410 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-55BF9202",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "食管癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "肺部新病灶鉴别",
+        "timepoint": "2024年8月29日左肺上叶穿刺活检后",
+        "question": "食管鳞癌术后近3年，患者左肺上叶病灶穿刺显示低分化鳞状细胞癌免疫表型。鉴别食管癌肺转移与新发肺鳞癌，哪项判断最恰当？",
+        "options": {
+          "A": "肺部检出鳞癌即可确定肺原发，食管癌病史不改变判断",
+          "B": "结合既往食管病理、形态及影像分布综合判断病灶来源",
+          "C": "鳞状细胞相关标记阳性即可证明食管来源，无需进一步比较",
+          "D": "左下肺支气管镜未见恶性证据，即可排除左上肺恶性病灶"
+        },
+        "answer": "B",
+        "answer_text": "结合既往食管病理、形态及影像分布综合判断病灶来源",
+        "explain": "鳞状分化的免疫表型不能单独确定肿瘤原发部位，需要与既往肿瘤形态及临床影像综合比较。左下肺支气管镜与左上肺穿刺取材位置不同，阴性结果不能互相替代。本例临床考虑食管癌肺转移，但不能把单项染色写成确定来源的证据。",
+        "keyPoint": "确认鳞癌表型与确认原发来源是两个不同的问题。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "IASLC",
+          "source_title": "Best Practices Recommendations for Diagnostic Immunohistochemistry in Lung Cancer",
+          "source_version": "2019",
+          "source_section": "Distinguishing primary lung cancers from metastatic cancers",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6422775/",
+          "evidence_summary": "IASLC建议以既往病理形态比较和临床背景鉴别原发与转移，缺乏可绝对区分的单一免疫标记。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "诊断与分期",
+        "phase": "复发范围评估",
+        "timepoint": "2024年9月PET-CT后",
+        "question": "PET-CT除左上肺病灶外，还提示胸膜异常及多站可疑淋巴结，同时存在支气管扩张伴感染。此时能否直接认定为单发肺寡转移？",
+        "options": {
+          "A": "可以，只需按已取得恶性病理的病灶数量进行计数",
+          "B": "可以，感染背景下的淋巴结代谢增高可按炎症处理",
+          "C": "暂不能，应结合进一步检查和随访明确可疑病灶性质",
+          "D": "暂不能，PET提示的异常淋巴结均应先按多发转移处理"
+        },
+        "answer": "C",
+        "answer_text": "暂不能，应结合进一步检查和随访明确可疑病灶性质",
+        "explain": "已活检确诊的肺部恶性病灶不能代表全部肿瘤负荷。其他异常既不能一概排除，也不能全部算作转移；应根据其对治疗决策的影响，选择补充检查、可行的取样或动态复评。明确范围后才适合讨论寡转移局部治疗。",
+        "keyPoint": "寡转移判定依赖全身病灶范围，而非只数已活检的病灶。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "OMEC collaborators",
+          "source_title": "European clinical practice guidelines for the definition, diagnosis, and treatment of oligometastatic esophagogastric cancer (OMEC-4)",
+          "source_version": "2024",
+          "source_section": "Recommendations",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/38678762/",
+          "evidence_summary": "OMEC-4要求明确转移分布，并推荐PET-CT用于考虑局部治疗者的分期与复评。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "疗效复评与局部治疗",
+        "phase": "系统治疗后的复评",
+        "timepoint": "MDT拟先行系统治疗时",
+        "question": "MDT拟先行化疗联合抗PD-1治疗，再讨论肺部局部干预。为使后续决策有据可依，复评应重点回答什么问题？",
+        "options": {
+          "A": "全身病灶是否受控、可疑部位是否澄清，以及局部治疗是否可行",
+          "B": "左上肺病灶是否达到CR，以此作为启动局部治疗的必要条件",
+          "C": "肿瘤标志物是否降至正常，以此替代胸膜和淋巴结影像复评",
+          "D": "呼吸道症状是否改善，以此判断感染和肿瘤均已得到控制"
+        },
+        "answer": "A",
+        "answer_text": "全身病灶是否受控、可疑部位是否澄清，以及局部治疗是否可行",
+        "explain": "复评需同时判断疾病分布、治疗反应和局部干预的收益与风险。达到CR不是考虑局部治疗的必要条件，症状或标志物改善也不能替代影像分期。该病例记载的是拟定方案，不能写成已经实施并取得疗效。",
+        "keyPoint": "局部治疗前的复评同时关注肿瘤范围、控制情况与技术可行性。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "OMEC collaborators",
+          "source_title": "European clinical practice guidelines for the definition, diagnosis, and treatment of oligometastatic esophagogastric cancer (OMEC-4)",
+          "source_version": "2024",
+          "source_section": "Recommendations",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/38678762/",
+          "evidence_summary": "OMEC-4强调再分期后评估局部治疗适宜性，而非仅以单个病灶缩小或症状改善决定。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "疗效复评与局部治疗",
+        "phase": "异时性寡转移策略",
+        "timepoint": "讨论系统治疗与局部治疗顺序时",
+        "question": "本例食管原发灶术后控制近3年。若进一步评估确认符合寡转移条件，关于系统治疗与局部治疗的顺序，下列哪项最准确？",
+        "options": {
+          "A": "间隔超过2年说明转移生物学温和，可省略全身再分期",
+          "B": "曾经接受胸部放疗意味着不宜局部干预，应仅用系统治疗",
+          "C": "存在寡转移就应先完整实施系统治疗，再考虑任何局部处理",
+          "D": "较长无病间隔可支持讨论前置局部治疗，具体顺序由MDT决定"
+        },
+        "answer": "D",
+        "answer_text": "较长无病间隔可支持讨论前置局部治疗，具体顺序由MDT决定",
+        "explain": "OMEC-4对无病间隔超过2年的异时性寡转移允许讨论前置局部治疗，并非所有患者都必须采用同一顺序。本例仍有病灶范围和感染等疑点，既往放疗还需纳入安全评估，因此先系统治疗再复评可以是个体化安排。",
+        "keyPoint": "治疗顺序需结合无病间隔、病灶范围、既往治疗与局部风险。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "OMEC collaborators",
+          "source_title": "European clinical practice guidelines for the definition, diagnosis, and treatment of oligometastatic esophagogastric cancer (OMEC-4)",
+          "source_version": "2024",
+          "source_section": "Recommendations",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/38678762/",
+          "evidence_summary": "OMEC-4对无病间隔超过2年的异时性寡转移另有前置局部治疗建议，需结合适宜性评估。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "治疗决策",
+        "phase": "寡转移研究证据解读",
+        "timepoint": "向患者解释联合局部治疗的依据时",
+        "question": "讨论ESO-Shanghai 13研究对本例的参考价值时，下列哪项解释最恰当？",
+        "options": {
+          "A": "研究支持将局部治疗推广到转移范围尚未明确的食管癌患者",
+          "B": "研究支持原发受控、有限转移的筛选人群，但不能直接保证本例获益",
+          "C": "研究证明局部治疗可替代系统治疗，适用于化疗耐受性较差者",
+          "D": "研究已通过Ⅲ期验证，可据此预测本例联合治疗后的治愈概率"
+        },
+        "answer": "B",
+        "answer_text": "研究支持原发受控、有限转移的筛选人群，但不能直接保证本例获益",
+        "explain": "ESO-Shanghai 13是随机Ⅱ期研究，纳入原发灶受控、1～4处转移的食管鳞癌患者，支持在筛选人群中讨论系统联合局部治疗。它既不是局部治疗替代系统治疗的研究，也不能在本例转移范围未澄清时直接套用，更不能据此承诺治愈。",
+        "keyPoint": "应用研究结论前，先比较入组条件与当前病例是否一致。",
+        "guidelineRef": {
+          "evidence_type": "临床研究",
+          "doc_id": "",
+          "split_index": null,
+          "type": "research",
+          "authority": "ESO-Shanghai 13 / Lancet Gastroenterology & Hepatology",
+          "source_title": "Systemic therapy with or without local intervention for oligometastatic oesophageal squamous cell carcinoma (ESO-Shanghai 13)",
+          "source_version": "2024",
+          "source_section": "Methods and Interpretation",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/37980921/",
+          "evidence_summary": "随机Ⅱ期ESO-Shanghai 13研究在原发受控、1～4处转移的食管鳞癌患者中比较系统治疗加或不加局部治疗。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-55BF9202",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "食管癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/JXoMZctjOZRATJiNgaoY0Q/p2GEeeVGzPopGiVpvkg6JXhma2i9tHZQ.png",
+      "alt": "距门齿 22cm"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "食管鳞癌术后 pCR 近三年出现肺转移病例",
+      "description": "患者 69 岁女性，2021 年 5 月确诊食管鳞状细胞癌，临床分期 cT3N2M0。2021 年 8 月至 9 月行同步放化疗（放疗 41.4Gy/23Fx，同步白蛋白紫杉醇 + 卡铂），2021 年 10 月行机器人辅助食管癌根治术，术后病理提示 ypT0N0M0（pCR），术后未行治疗并定期随访。2024 年 8 月起出现咳嗽咳痰，影像学检查提示左肺上……"
+    },
+    "overview": {
+      "hero": {
+        "title": "食管鳞癌术后 pCR 近三年出现肺转移病例",
+        "subtitle": "食管癌同步放化疗后手术达到病理完全缓解（pCR）的长期随访管理 异时性寡转移的诊断鉴别：感染性病变与转移灶的区分 转移灶活检阴性时的诊疗决策与全身治疗启动时机 多学科讨论在寡转移食管癌治疗策略制定中的应用"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者与就诊背景",
+              "value": "患者 69 岁女性，2021 年 5 月确诊食管鳞状细胞癌，临床分期 cT3N2M0。2021 年 8 月至 9 月行同步放化疗（放疗 41.4Gy/23Fx，同步白蛋白紫杉醇 + 卡铂），2021 年 10 月行机器人辅助食管癌根治术，术后病理提示 ypT0N0M0（pCR），术后未行治疗并定期随访。2024 年 8 月起出现咳嗽咳痰，影像学检查提示左肺上叶占位及胸膜增厚，考虑转移可能；支气管镜检查未见恶性证据。目前诊断为肺转移性恶性肿瘤（鳞状细胞癌），计划先行化疗联合抗 PD-1 抗体全身治疗，待评估后考虑局部……"
+            },
+            {
+              "order": 2,
+              "label": "疾病与分期",
+              "value": "食管鳞状细胞癌（cT3N2M0），术后病理完全缓解（ypT0N0M0）；肺转移性恶性肿瘤（低分化鳞形细胞癌）"
+            },
+            {
+              "order": 3,
+              "label": "分子与病理",
+              "value": "2024 年 9 月 11 日 | 支气管镜标本 | 检测方法不详 | 基因检测 | 无殊 | 丰度不详"
+            },
+            {
+              "order": 4,
+              "label": "核心教学点",
+              "value": "食管癌同步放化疗后手术达到病理完全缓解（pCR）的长期随访管理 异时性寡转移的诊断鉴别：感染性病变与转移灶的区分 转移灶活检阴性时的诊疗决策与全身治疗启动时机 多学科讨论在寡转移食管癌治疗策略制定中的应用"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2021",
+              "title": "诊疗节点 1",
+              "detail": "2021 年 5 月：无明显诱因出现进食哽咽感"
+            },
+            {
+              "date": "2021",
+              "title": "诊疗节点 2",
+              "detail": "2021 年 5 月：完善胃镜、食管癌分期 CT、PET-CT、超声胃镜检查，距门齿 22-24cm 见增殖样隆起伴溃疡，病理为鳞状细胞癌"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 3",
+              "detail": "距门齿 27cm 见 0-IIa 样隆起"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 4",
+              "detail": "右侧锁骨上区、上纵隔多发淋巴结代谢增高，考虑肿瘤转移可能"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 5",
+              "detail": "临床分期 cT3N2M0"
+            },
+            {
+              "date": "2021",
+              "title": "诊疗节点 6",
+              "detail": "2021 年 8 月 19 日～9 月 18 日：行食管原发病灶 + 阳性淋巴结放疗 41.4Gy/23Fx，同步每周行白蛋白紫杉醇 65mg+ 卡铂 150mg 化疗"
+            },
+            {
+              "date": "2021",
+              "title": "诊疗节点 7",
+              "detail": "2021 年 10 月 27 日：行机器人辅助食管癌根治术"
+            },
+            {
+              "date": "2021",
+              "title": "诊疗节点 8",
+              "detail": "2021 年 10 月 27 日后：术后病理提示 ypT0N0M0，病理完全缓解（pCR）"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 9",
+              "detail": "术后未行治疗，定期随访复查"
+            },
+            {
+              "date": "2024",
+              "title": "诊疗节点 10",
+              "detail": "2024 年 8 月：自觉咳嗽咳痰反复"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 11",
+              "detail": "外院胸部增强 CT 示左肺上叶占位较前明显增大，考虑转移"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 12",
+              "detail": "左上胸膜局部肥厚粘连，转移待排"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 13",
+              "detail": "两肺支扩合并感染，左侧胸腔少许积液"
+            },
+            {
+              "date": "2024",
+              "title": "诊疗节点 14",
+              "detail": "2024 年 8 月 29 日：行 CT 引导下左肺上叶穿刺活检，示小块纤维间质中见癌细胞团，符合低分化鳞形细胞癌免疫表型"
+            },
+            {
+              "date": "2024",
+              "title": "诊疗节点 15",
+              "detail": "2024 年 9 月 6 日：行 PET-CT 检查，提示左肺上叶前段结节样占位伴邻近胸膜增厚、左肺上叶舌段胸膜局部结节样增厚，考虑转移性病变"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 16",
+              "detail": "食管裂孔旁多发淋巴结考虑肿瘤转移可能"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 17",
+              "detail": "纵隔、双肺门及右侧腋下散在稍大淋巴结转移性病变待排"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 18",
+              "detail": "双肺支气管扩张伴感染，部分支气管内黏液栓塞"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 19",
+              "detail": "双肺间质性炎症改变"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 20",
+              "detail": "左侧少许胸腔积液，双侧胸膜增厚"
+            },
+            {
+              "date": "2024",
+              "title": "诊疗节点 21",
+              "detail": "2024 年 9 月 11 日：行支气管镜检查明确左下肺感染性质，未见异型成分及恶性证据"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 22",
+              "detail": "基因检测无殊"
+            },
+            {
+              "date": "2024",
+              "title": "诊疗节点 23",
+              "detail": "2024 年 9 月 11 日后：经多学科讨论并结合患者意愿，拟先行化疗结合抗 PD-1 抗体全身治疗，待全身治疗结束后重新评估以考虑肺部寡转移病灶治疗"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/JXoMZctjOZRATJiNgaoY0Q/p2GEeeVGzPopGiVpvkg6JXhma2i9tHZQ.png",
+              "timepoint": "2021 年 5 月",
+              "caption": "距门齿 22cm",
+              "alt": "距门齿 22cm",
+              "mapping_status": "matched_by_timepoint",
+              "related_timeline": {
+                "date": "2021",
+                "title": "诊疗节点 1",
+                "detail": "2021 年 5 月：无明显诱因出现进食哽咽感"
+              }
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/JXoMZctjOZRATJiNgaoY0Q/SeOIe7dQrQEeMAF0eDRc6PPxLEzGScgn.png",
+              "timepoint": "2021 年 5 月",
+              "caption": "距门齿 27cm",
+              "alt": "距门齿 27cm",
+              "mapping_status": "matched_by_timepoint",
+              "related_timeline": {
+                "date": "2021",
+                "title": "诊疗节点 1",
+                "detail": "2021 年 5 月：无明显诱因出现进食哽咽感"
+              }
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/JXoMZctjOZRATJiNgaoY0Q/wqswWTCaJ4i1rseoNCFBmlBqQ3MmEcCO.png",
+              "timepoint": "2024 年 8 月",
+              "caption": "左肺上叶转移性病灶",
+              "alt": "左肺上叶转移性病灶",
+              "mapping_status": "matched_by_timepoint",
+              "related_timeline": {
+                "date": "2024",
+                "title": "诊疗节点 10",
+                "detail": "2024 年 8 月：自觉咳嗽咳痰反复"
+              }
+            },
+            {
+              "id": "IMG4",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/JXoMZctjOZRATJiNgaoY0Q/F7T5LFoEpepraif5v0ATQpT2CNEy4MMv.png",
+              "timepoint": "2024 年 8 月",
+              "caption": "左肺下叶炎症性病灶",
+              "alt": "左肺下叶炎症性病灶",
+              "mapping_status": "matched_by_timepoint",
+              "related_timeline": {
+                "date": "2024",
+                "title": "诊疗节点 10",
+                "detail": "2024 年 8 月：自觉咳嗽咳痰反复"
+              }
+            },
+            {
+              "id": "IMG5",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/JXoMZctjOZRATJiNgaoY0Q/j3SuWPaekI5hnI22p5NoVVUJCf5OLLeA.png",
+              "timepoint": "",
+              "caption": "无明确相邻图注文字",
+              "alt": "无明确相邻图注文字",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG6",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/JXoMZctjOZRATJiNgaoY0Q/cEOLiEbXqpWgo7kRswsfa9lArvFjJjX4.png",
+              "timepoint": "",
+              "caption": "无明确相邻图注文字",
+              "alt": "无明确相邻图注文字",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

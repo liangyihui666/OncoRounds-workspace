@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "case_id": "CASE-91549FC",
+  "cancer_type": "乳腺癌",
+  "generation_status": "success",
+  "difficulty": "进阶",
+  "question_count": 5,
+  "questions": [
+    {
+      "id": "Q1",
+      "type": "合并症与治疗风险",
+      "phase": "2021年：术前化疗规划",
+      "timepoint": "当前教学复盘：2021年：术前化疗规划",
+      "question": "50岁女性，右侧炎性乳腺癌，合并夏科－马里－图思病，拟接受含多西他赛的术前治疗。针对原有周围神经病变，最合理的风险管理安排是？",
+      "options": {
+        "A": "按常规剂量先完成全部疗程，再统一评价神经功能",
+        "B": "记录感觉运动功能基线，联诊监测并据功能变化调药",
+        "C": "以预防性镇痛药为主要保护，减轻症状后维持剂量",
+        "D": "以肿瘤缩小幅度判断耐受性，据影像疗效调整监测"
+      },
+      "answer": "B",
+      "answer_text": "记录感觉运动功能基线，联诊监测并据功能变化调药",
+      "explain": "已有遗传性周围神经病变时，应结合治疗获益、神经功能基线及患者意愿评估神经毒性药物的适用性，并动态监测。出现不能耐受的神经症状或功能损害时讨论延迟、减量、替换或停药。本例未出现明显神经不良反应，不能证明同类患者均安全。",
+      "keyPoint": "功能基线与动态变化共同决定神经毒性风险管理。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "",
+        "split_index": null,
+        "type": "guideline",
+        "authority": "ASCO",
+        "source_title": "Prevention and Management of Chemotherapy-Induced Peripheral Neuropathy in Survivors of Adult Cancers: ASCO Guideline Update",
+        "source_version": "2020",
+        "source_section": "",
+        "source_url": "https://ascopubs.org/doi/abs/10.1200/JCO.20.01399",
+        "evidence_summary": "有基础神经病变者应评估神经毒性治疗的风险与获益；治疗中出现不可耐受神经病变或功能损害时应讨论调整化疗。"
+      }
+    },
+    {
+      "id": "Q2",
+      "type": "治疗前条件复核",
+      "phase": "2022年12月：拟用来曲唑联合阿贝西利",
+      "timepoint": "当前教学复盘：2022年12月：拟用来曲唑联合阿贝西利",
+      "question": "本例初诊时为绝经前女性，曾使用他莫昔芬联合LHRH类似物。复发后拟改用来曲唑联合阿贝西利，但摘要未说明卵巢抑制是否继续。此时哪项信息最需要核实？",
+      "options": {
+        "A": "近期肿瘤标志物是否下降，据此确认内分泌治疗条件",
+        "B": "既往化疗是否已完成，据此确认不再需要卵巢抑制",
+        "C": "年龄是否已超过50岁，据此确认已达到永久绝经",
+        "D": "当前卵巢功能与抑制状态，据此确认AI的使用条件"
+      },
+      "answer": "D",
+      "answer_text": "当前卵巢功能与抑制状态，据此确认AI的使用条件",
+      "explain": "初诊绝经前、既往用过LHRH类似物，并不能证明换方案时仍在充分抑制卵巢功能。应核实用药衔接与当前卵巢状态；如功能尚存，需建立相应抑制条件。本题不补写病例未提供的用药记录，也不把本次方案误称为患者总体的一线治疗。",
+      "keyPoint": "既往接受过卵巢抑制，不等于当前仍已满足AI用药条件。",
+      "guidelineRef": {
+        "evidence_type": "官方医学资料",
+        "doc_id": "",
+        "split_index": null,
+        "type": "education",
+        "authority": "NCI",
+        "source_title": "Hormone Therapy for Breast Cancer",
+        "source_version": "在线版；核对2026-09-04",
+        "source_section": "Aromatase inhibitors to block estrogen production",
+        "source_url": "https://www.cancer.gov/types/breast/treatment/hormone-therapy",
+        "evidence_summary": "绝经前应用芳香化酶抑制剂需要卵巢功能抑制；当前使用条件应核实，不能凭年龄或既往短期用药推定。"
+      }
+    },
+    {
+      "id": "Q3",
+      "type": "分子靶向治疗依据",
+      "phase": "2024年3月：PIK3CA结果与方案匹配",
+      "timepoint": "当前教学复盘：2024年3月：PIK3CA结果与方案匹配",
+      "question": "本例此阶段仍为HR阳性、HER2阴性，既往内分泌治疗后进展，NGS检出PIK3CA突变。讨论阿培利司联合氟维司群时，哪项分子与药物对应关系正确？",
+      "options": {
+        "A": "PIK3CA突变支持讨论PI3Kα抑制剂，联合内分泌治疗",
+        "B": "PIK3CA突变支持讨论HER2抑制剂，联合内分泌治疗",
+        "C": "PIK3CA突变支持讨论PARP抑制剂，联合内分泌治疗",
+        "D": "PIK3CA突变支持讨论EGFR抑制剂，联合内分泌治疗"
+      },
+      "answer": "A",
+      "answer_text": "PIK3CA突变支持讨论PI3Kα抑制剂，联合内分泌治疗",
+      "explain": "阿培利司为PI3Kα抑制剂，其标签人群包括内分泌治疗后进展的HR阳性、HER2阴性、PIK3CA突变晚期或转移性乳腺癌，联合氟维司群。本例提供了分子匹配线索，但不能据此忽略卵巢状态、既往治疗、耐受性及试验入组条件。",
+      "keyPoint": "把靶点、药物机制和适用人群逐项对应。",
+      "guidelineRef": {
+        "evidence_type": "药品说明书",
+        "doc_id": "",
+        "split_index": null,
+        "type": "drug_label",
+        "authority": "Novartis；美国处方说明书",
+        "source_title": "PIQRAY (alpelisib) US Prescribing Information",
+        "source_version": "2024-01",
+        "source_section": "1 Indications and Usage; 2.1 Patient Selection",
+        "source_url": "https://www.novartis.com/us-en/sites/novartis_us/files/piqray.pdf",
+        "evidence_summary": "PIK3CA突变及HR阳性、HER2阴性状态是阿培利司联合氟维司群相应标签的关键条件。"
+      }
+    },
+    {
+      "id": "Q4",
+      "type": "靶向药不良反应管理",
+      "phase": "2024年：阿培利司治疗后出现3级皮疹",
+      "timepoint": "当前教学复盘：2024年：阿培利司治疗后出现3级皮疹",
+      "question": "本例接受阿培利司两周期后出现3级皮疹。仅凭这一分级尚不能确定是否属于SJS/TEN等严重皮肤反应。参照该药说明书，当前最合理的处理是什么？",
+      "options": {
+        "A": "继续原剂量并加用抗组胺药，待下一周期再评价皮疹",
+        "B": "先减量并观察皮疹变化，将停药保留至出现黏膜损害",
+        "C": "暂停用药并处理皮疹，同步评估是否存在严重皮肤反应",
+        "D": "按已确诊TEN永久停药，无需再评估皮疹的具体类型"
+      },
+      "answer": "C",
+      "answer_text": "暂停用药并处理皮疹，同步评估是否存在严重皮肤反应",
+      "explain": "按药品说明书，3级皮疹需暂停阿培利司并治疗、评估严重皮肤反应。非SCAR且恢复至不高于1级时可讨论减量恢复；确认SCAR则永久停药。原病例记录停药，未提供SCAR确诊依据，不能补造TEN诊断。",
+      "keyPoint": "区分暂缓用药、减量复用与永久停药的条件。",
+      "guidelineRef": {
+        "evidence_type": "药品说明书",
+        "doc_id": "",
+        "split_index": null,
+        "type": "drug_label",
+        "authority": "Novartis；美国处方说明书",
+        "source_title": "PIQRAY (alpelisib) US Prescribing Information",
+        "source_version": "2024-01",
+        "source_section": "2.3 Table 2; 5.2 Severe Cutaneous Adverse Reactions",
+        "source_url": "https://www.novartis.com/us-en/sites/novartis_us/files/piqray.pdf",
+        "evidence_summary": "皮疹处理需按严重程度并排查SCAR；3级暂停，非SCAR改善后可考虑减量，确认SCAR永久停用。"
+      }
+    },
+    {
+      "id": "Q5",
+      "type": "动态病理与后线选择",
+      "phase": "2024年9—12月：皮肤再次活检后",
+      "timepoint": "当前教学复盘：2024年9—12月：皮肤再次活检后",
+      "question": "后线治疗前皮肤活检由既往HR阳性、HER2 0转为HR阴性、HER2 1+。核对标本及检测可靠性后，关于这一结果的治疗含义，哪项解释最准确？",
+      "options": {
+        "A": "HER2 1+表示HER2阳性转化，可照搬过表达人群方案",
+        "B": "HR阴性表示先前病理不可信，应撤销原有HR阳性诊断",
+        "C": "HER2 1+未达到过表达标准，因此所有ADC均不适用",
+        "D": "需重新评估内分泌获益，HER2低表达可影响ADC选择"
+      },
+      "answer": "D",
+      "answer_text": "需重新评估内分泌获益，HER2低表达可影响ADC选择",
+      "explain": "应对照病史和病理质控理解受体变化，而非把过去的阳性结果自动判错。HER2 1+不等于HER2过表达阳性；特定ADC的适用性还需核对药物、既往治疗及当地标签，不能由评分直接指定全部后线方案。",
+      "keyPoint": "动态复核生物标志物，区分低表达与HER2阳性。",
+      "guidelineRef": {
+        "evidence_type": "官方医学资料",
+        "doc_id": "",
+        "split_index": null,
+        "type": "education",
+        "authority": "NCI",
+        "source_title": "Tests for Breast Cancer Biomarkers",
+        "source_version": "2025",
+        "source_section": "Breast cancer hormone receptor status; Breast cancer HER2 status",
+        "source_url": "https://www.cancer.gov/types/breast/diagnosis/breast-cancer-biomarker-tests",
+        "evidence_summary": "激素受体可随病程变化；HER2低表达不等于HER2阳性，但可影响部分靶向治疗选择。"
+      }
+    }
+  ],
+  "missing_information": []
+}

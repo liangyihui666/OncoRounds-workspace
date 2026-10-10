@@ -1,0 +1,254 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-DB524C69",
+    "cancer_type": "消化系统肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "治疗决策",
+        "phase": "急性出血处理",
+        "timepoint": "肝移植后48个月急诊时",
+        "question": "肝移植后患者突发腹痛、头晕和低血压，CT见肾上腺区巨大血肿及活动性出血。以下处理顺序最合理？",
+        "options": {
+          "A": "先调整免疫抑制方案，观察血肿是否自行吸收",
+          "B": "先完成完整分子检测，再讨论介入或外科处理",
+          "C": "先复苏并紧急评估止血措施，稳定后再规划肿瘤治疗",
+          "D": "先等待AFP复测结果，再决定是否处理活动性出血"
+        },
+        "answer": "C",
+        "answer_text": "先复苏并紧急评估止血措施，稳定后再规划肿瘤治疗",
+        "explain": "活动性出血和循环不稳定是当下优先问题。本例经急诊栓塞止血后接受计划性切除；这一经过支持先处理急症，但不能将某一种止血术式规定为所有出血患者的唯一选择。",
+        "keyPoint": "肿瘤急症中先解决即时生命威胁，再安排完整肿瘤治疗。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "",
+          "split_index": null,
+          "type": "journal",
+          "authority": "",
+          "source_title": "Adrenal metastasis of hepatocellular carcinoma after liver transplantation: Case report and systematic review of literature",
+          "source_version": "2026",
+          "source_section": "",
+          "source_url": "https://www.wjgnet.com/2220-3230/full/v16/i2/116999.htm",
+          "evidence_summary": "原始病例记录急诊栓塞止血后再行肾上腺切除；该资料为病例及病例文献综述，不是随机试验。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "疗效复评与局部治疗",
+        "phase": "转移灶局部治疗",
+        "timepoint": "止血后计划手术时",
+        "question": "出血控制后拟切除肾上腺转移灶。确定该局部治疗适用性时，哪组信息最重要？",
+        "options": {
+          "A": "仅依据AFP显著升高决定扩大切除范围",
+          "B": "仅看病灶位于单侧肾上腺，无需全身复评",
+          "C": "当前病变分布、可切除性、移植物功能和手术耐受性",
+          "D": "仅依据移植前Child-Pugh A级确认当前可以手术"
+        },
+        "answer": "C",
+        "answer_text": "当前病变分布、可切除性、移植物功能和手术耐受性",
+        "explain": "“孤立转移”需由当前检查支持，移植前肝功能也不能直接代表四年后的状态。可切除性、肝功能及其他病变评估共同决定局部治疗价值。",
+        "keyPoint": "移植后局部治疗建立在当前全身评估与器官功能之上。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "",
+          "split_index": null,
+          "type": "journal",
+          "authority": "",
+          "source_title": "Adrenal metastasis of hepatocellular carcinoma after liver transplantation: Case report and systematic review of literature",
+          "source_version": "2026",
+          "source_section": "",
+          "source_url": "https://www.wjgnet.com/2220-3230/full/v16/i2/116999.htm",
+          "evidence_summary": "文献综述将肝功能保留、无其他复发转移及手术耐受性作为考虑切除的重要条件，证据以病例资料为主。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "免疫抑制方案的证据评估",
+        "timepoint": "拟调整为mTOR抑制剂时的教学讨论",
+        "question": "团队讨论mTOR抑制剂是否有助于降低HCC移植后复发风险。对SiLVER随机试验结果，哪项表述最准确？",
+        "options": {
+          "A": "已经证明所有受者长期无复发生存均显著改善",
+          "B": "已经证明依维莫司与西罗莫司抗肿瘤效果相同",
+          "C": "总体长期主要结果未显著改善，早期和亚组信号需审慎解释",
+          "D": "可以据此规定肿瘤复发后从依维莫司换为西罗莫司"
+        },
+        "answer": "C",
+        "answer_text": "总体长期主要结果未显著改善，早期和亚组信号需审慎解释",
+        "explain": "该试验评价含西罗莫司的移植后方案，研究末总体无复发生存差异未达统计学显著。其早期及亚组结果不能证明所有mTOR药物等效，也不直接回答已复发后两种药物之间的换药问题。",
+        "keyPoint": "区分主要终点、亚组信号和研究未覆盖的临床情境。",
+        "guidelineRef": {
+          "evidence_type": "临床研究",
+          "doc_id": "",
+          "split_index": null,
+          "type": "journal",
+          "authority": "",
+          "source_title": "Sirolimus Use in Liver Transplant Recipients With Hepatocellular Carcinoma: A Randomized, Multicenter, Open-Label Phase 3 Trial",
+          "source_version": "2016",
+          "source_section": "",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/26555945/",
+          "evidence_summary": "SiLVER试验总体研究末无复发生存差异未显著；部分早期及亚组分析提示可能获益。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "耐药与后线管理",
+        "phase": "复发后系统治疗评估",
+        "timepoint": "再次复发时的教学讨论",
+        "question": "若该肝移植受者再次复发并需要评估系统治疗，为什么不能直接套用普通HCC患者的免疫检查点抑制剂方案？",
+        "options": {
+          "A": "因为移植后患者不再需要依据肿瘤负荷选择治疗",
+          "B": "因为需特别评估排斥及移植物丢失风险，不能直接外推",
+          "C": "因为肾上腺转移会使所有免疫药物失去抗肿瘤作用",
+          "D": "因为mTOR抑制剂已等同完成PD-1免疫治疗"
+        },
+        "answer": "B",
+        "answer_text": "因为需特别评估排斥及移植物丢失风险，不能直接外推",
+        "explain": "移植受者的免疫状态与普通HCC研究人群不同。AASLD对移植后复发HCC不建议使用ICI，原因包括移植物丢失和死亡风险；mTOR免疫抑制药也不能与免疫检查点抑制剂混称。",
+        "keyPoint": "肝移植史是评估ICI适用性的重要边界。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "AASLD",
+          "source_title": "AASLD Practice Guidance on prevention, diagnosis, and treatment of hepatocellular carcinoma",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10663390/",
+          "evidence_summary": "AASLD不建议在肝移植后复发HCC中使用ICI，理由为移植物丢失及死亡风险增加。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "疗效复评与局部治疗",
+        "phase": "术后持续监测",
+        "timepoint": "再次切除后的随访期",
+        "question": "患者AFP曾明显升高，随后下降至712 ng/mL，而同期检查未发现进一步复发。对AFP与影像结果应如何解释？",
+        "options": {
+          "A": "一次影像阴性即可终止随访，无需追踪AFP异常",
+          "B": "AFP下降即能证明换药有效，无需考虑手术等共同影响",
+          "C": "动态结合影像和临床复评，不能仅凭下降或阴性影像认定治愈",
+          "D": "将移植前AFP阈值对应的复发率直接用于当前患者"
+        },
+        "answer": "C",
+        "answer_text": "动态结合影像和临床复评，不能仅凭下降或阴性影像认定治愈",
+        "explain": "AFP趋势可提示进一步评估需求，但单一指标不能替代影像，也不能独立证明某一药物的疗效。应结合时间线解释不一致结果，不把移植前风险模型直接套到复发后的检测值。",
+        "keyPoint": "肿瘤标志物用于动态辅助判断，不能单独证明疗效或治愈。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "AASLD",
+          "source_title": "AASLD Practice Guidance on prevention, diagnosis, and treatment of hepatocellular carcinoma",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10663390/",
+          "evidence_summary": "肝移植后HCC随访需结合胸腹部影像；肿瘤标志物异常时应考虑进一步复评。"
+        }
+      }
+    ],
+    "missing_information": [],
+    "second_cancer_type": "肝癌"
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-DB524C69",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "肝癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "肝移植后肝癌肾上腺转移出血",
+      "description": "62岁男性，肝癌肝移植约48个月后出现肾上腺巨大血肿及循环异常。"
+    },
+    "overview": {
+      "hero": {
+        "title": "肝移植后肝癌肾上腺转移出血",
+        "subtitle": "先介入止血再手术，调整免疫抑制；约14个月后局部复发再次切除。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "62岁男性，肝癌肝移植约48个月后出现肾上腺巨大血肿及循环异常。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "术后病理证实肝癌肾上腺转移，切缘阴性。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "先介入止血再手术，调整免疫抑制；约14个月后局部复发再次切除。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "后续AFP波动，影像未见明确病灶，继续随访。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2018年",
+              "title": "肝移植",
+              "detail": "因HCV相关肝硬化及肝癌接受肝移植，术后使用免疫抑制药。"
+            },
+            {
+              "date": "移植后约48个月",
+              "title": "肾上腺出血性转移",
+              "detail": "肾上腺巨大血肿、活动性出血，AFP明显升高。"
+            },
+            {
+              "date": "急性处理及手术",
+              "title": "先止血再切除",
+              "detail": "介入止血后切除，病理证实肝癌转移，切缘阴性。"
+            },
+            {
+              "date": "术后",
+              "title": "调整免疫抑制方案",
+              "detail": "调整免疫抑制方案，原文记载使用依维莫司。"
+            },
+            {
+              "date": "约14个月后",
+              "title": "局部复发再切除",
+              "detail": "局部复发再次切除，后续方案涉及西罗莫司。"
+            },
+            {
+              "date": "后续随访",
+              "title": "AFP与影像动态观察",
+              "detail": "AFP升高后下降，影像未见明确病灶，继续随访。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    },
+    "second_cancer_type": "肝癌"
+  }
+}

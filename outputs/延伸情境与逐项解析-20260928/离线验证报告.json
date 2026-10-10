@@ -1,0 +1,41 @@
+{
+  "checks": [
+    {
+      "name": "全部代码节点语法有效",
+      "pass": true
+    },
+    {
+      "name": "四行正误与答案对应",
+      "pass": true
+    },
+    {
+      "name": "缺行、错误字母、多个正确项均拦截",
+      "pass": true
+    },
+    {
+      "name": "延伸标记须有明确假设",
+      "pass": true
+    },
+    {
+      "name": "800字上限",
+      "pass": true
+    },
+    {
+      "name": "两轮结构检查执行延伸题数量约束",
+      "pass": true
+    },
+    {
+      "name": "最终输出保留原选项、答案与四行解析",
+      "pass": true
+    },
+    {
+      "name": "终稿拒绝模型再次改写解析或去掉假设",
+      "pass": true
+    },
+    {
+      "name": "最终状态拒绝格式错误候选而不偷换审核绑定",
+      "pass": true
+    }
+  ],
+  "online_verified": false
+}

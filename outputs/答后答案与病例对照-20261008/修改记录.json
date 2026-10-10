@@ -1,0 +1,20 @@
+{
+  "child_source": "C:/Users/admin/.codex/attachments/ee08e3f4-ba8a-4c91-bab7-23c021a21be7/已粘贴的文本.txt",
+  "outer_source": "outputs/OCR文本清洗-完整工作流-20261008/OCR文本清洗与五题生成-完整工作流.json",
+  "contract_extension": "questions[].after_answer.schema_version=1.0",
+  "child_nodes_changed": [
+    "题目生成-首轮",
+    "题目修订-第二轮",
+    "首轮格式预检",
+    "最终程序检查与引用装配",
+    "整理最终输出"
+  ],
+  "outer_nodes_changed": [
+    "单组候选检查与终稿输入",
+    "json生成"
+  ],
+  "retrieval_model_and_edges_unchanged": true,
+  "online_verified": false,
+  "medical_review_status": "not_performed",
+  "api_calls": 0
+}

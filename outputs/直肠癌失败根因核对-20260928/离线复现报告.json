@@ -1,0 +1,28 @@
+{
+  "case_id": "CASE-1368749D",
+  "pasted_outer_invalid_escapes_preserved": 152,
+  "note": "仅为读取粘贴附件而转义非法反斜杠；原文件未改。candidate_json及second_round_raw可独立直接JSON.parse，未做内容修补。",
+  "structure_errors": [
+    "Q2：解析必须恰好四行，按A/B/C/D逐项解释",
+    "Q2：B解析缺失、格式错误或与答案不一致",
+    "Q2：C解析缺失、格式错误或与答案不一致",
+    "Q2：D解析缺失、格式错误或与答案不一致",
+    "Q2缺少字段：keyPoint",
+    "Q2的keyPoint必须为非空字符串",
+    "Q4：解析必须恰好四行，按A/B/C/D逐项解释",
+    "Q4：B解析缺失、格式错误或与答案不一致",
+    "Q4：C解析缺失、格式错误或与答案不一致",
+    "Q4：D解析缺失、格式错误或与答案不一致",
+    "Q4缺少字段：keyPoint",
+    "Q4的keyPoint必须为非空字符串"
+  ],
+  "question_count": 5,
+  "passed_replay": true,
+  "failed_question_ids": [
+    "Q2",
+    "Q4"
+  ],
+  "missing_content_recoverable_by_formatting": false,
+  "retrieval_record_count": 19,
+  "medical_approval": false
+}

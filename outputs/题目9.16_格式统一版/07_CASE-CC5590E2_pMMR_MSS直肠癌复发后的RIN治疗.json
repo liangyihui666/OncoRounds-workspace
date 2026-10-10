@@ -1,0 +1,264 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-CC5590E2",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "直肠癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "局部复发评估",
+        "timepoint": "术后14个月出现9×7.3 cm盆腔肿块",
+        "question": "肿块侵犯宫颈、阴道及邻近组织。确定复发后的治疗策略前，哪项评估最关键？",
+        "options": {
+          "A": "仅凭CEA水平选择局部手术，不再评估解剖关系",
+          "B": "因复发距肛门较近，直接认定仍可再次R0切除",
+          "C": "沿用初诊cT4bN2M0即可，不再检查远处病灶",
+          "D": "重新评估盆腔侵犯和全身范围，并核对既往手术、放疗及病理资料"
+        },
+        "answer": "D",
+        "answer_text": "重新评估盆腔侵犯和全身范围，并核对既往手术、放疗及病理资料",
+        "explain": "初诊分期描述当时状态，不能替代复发时评估。本例已接受手术和盆腔照射，复发范围、既往治疗及再次局部处理的风险共同影响决策；不把旧分期或单个尺寸当作当前可切除性的证明。",
+        "keyPoint": "复发决策需更新疾病范围，并整合既往局部治疗信息。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "",
+          "split_index": null,
+          "type": "journal",
+          "authority": "",
+          "source_title": "Molecular complete response to the RIN protocol in a patient with advanced recurrent metastatic pMMR/MSS rectal cancer",
+          "source_version": "2026",
+          "source_section": "",
+          "source_url": "https://doi.org/10.1177/17588359261432049",
+          "evidence_summary": "复发决策需更新疾病范围，并整合既往局部治疗信息。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "不良反应管理",
+        "phase": "化疗期间严重感染",
+        "timepoint": "FOLFOXIRI期间发生坏死性筋膜炎",
+        "question": "患者出现坏死性筋膜炎并需ICU救治，此时处理重点是什么？",
+        "options": {
+          "A": "紧急外科评估清创、广谱抗菌及全身支持，暂停进一步抗肿瘤强化",
+          "B": "仅减少下一周期化疗剂量，当前局部病变继续观察",
+          "C": "先按免疫相关皮肤毒性给予激素单药",
+          "D": "先等病原培养明确后再决定是否需要清创"
+        },
+        "answer": "A",
+        "answer_text": "紧急外科评估清创、广谱抗菌及全身支持，暂停进一步抗肿瘤强化",
+        "explain": "坏死性筋膜炎是需紧急感染控制的情况，原文实际进行了多次清创与ICU救治。发生在化疗期间不等于已经证明单一药物因果，更不能套用irAE处理路径。",
+        "keyPoint": "坏死性筋膜炎需及时感染源控制和系统治疗。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "IDSA",
+          "source_title": "Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections: 2014 Update",
+          "source_version": "2014",
+          "source_section": "",
+          "source_url": "https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/",
+          "evidence_summary": "坏死性筋膜炎需及时感染源控制和系统治疗。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "耐药与后线管理",
+        "phase": "RIN方案证据解释",
+        "timepoint": "严重感染恢复后无法继续原化疗",
+        "question": "本例采用瑞戈非尼、伊匹木单抗及纳武利尤单抗。所引RIN研究最能支持哪项判断？",
+        "options": {
+          "A": "研究已证实RIN优于所有MSS结直肠癌后线方案",
+          "B": "Ⅰ期非随机研究显示部分MSS患者有活性，尚不能据此确立所有患者的标准方案",
+          "C": "研究主要入组未经治疗的局限期直肠癌患者",
+          "D": "患者只要MSS，即可预测必然从双免疫治疗获益"
+        },
+        "answer": "B",
+        "answer_text": "Ⅰ期非随机研究显示部分MSS患者有活性，尚不能据此确立所有患者的标准方案",
+        "explain": "该研究主要评价推荐Ⅱ期剂量，并观察到活性，尤其需注意无肝转移人群的结果。不能将本例超适应证选择描述为普遍标准，也不能把不同给药方案视为完全相同。",
+        "keyPoint": "早期研究的活性信号不等于普遍标准治疗。",
+        "guidelineRef": {
+          "evidence_type": "临床研究",
+          "doc_id": "",
+          "split_index": null,
+          "type": "journal",
+          "authority": "",
+          "source_title": "Regorafenib, Ipilimumab, and Nivolumab for Patients With Microsatellite Stable Colorectal Cancer and Disease Progression With Prior Chemotherapy: A Phase 1 Nonrandomized Clinical Trial",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/36892833/",
+          "evidence_summary": "早期研究的活性信号不等于普遍标准治疗。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "疗效复评与局部治疗",
+        "phase": "盆腔再照射",
+        "timepoint": "既往25 Gy/5次，复发后拟再次局部放疗",
+        "question": "本例为缓解疼痛和出血再次照射。制定计划时，哪项最重要？",
+        "options": {
+          "A": "仅因本次也是5次照射，就沿用首次处方",
+          "B": "仅按肿块最大径决定剂量，不考虑既往照射",
+          "C": "既往达到R0切除可视为正常组织耐受重新归零",
+          "D": "复核既往计划与肠道等器官累积剂量，兼顾感染恢复及症状获益"
+        },
+        "answer": "D",
+        "answer_text": "复核既往计划与肠道等器官累积剂量，兼顾感染恢复及症状获益",
+        "explain": "分次数相同不代表剂量和生物效应相同。复发病例的再照射需结合既往空间剂量、正常组织、伤口及治疗目的；原文未给出本次完整处方，不补写。",
+        "keyPoint": "再照射应综合累积剂量与组织状况，不能仅比较分次数。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESTRO / EORTC",
+          "source_title": "ESTRO and EORTC consensus on re-irradiation: definition, reporting, and clinical decision making",
+          "source_version": "2022",
+          "source_section": "",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/36174633/",
+          "evidence_summary": "再照射应综合累积剂量与组织状况，不能仅比较分次数。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "疗效复评与局部治疗",
+        "phase": "分子与影像反应解释",
+        "timepoint": "ctDNA及CEA降至检测下限以下",
+        "question": "本例ctDNA和CEA转阴，影像病灶亦改善。如何据此讨论治疗与随访？",
+        "options": {
+          "A": "将分子学反应直接记为手术标本pCR",
+          "B": "CEA阴性可替代后续所有影像复查",
+          "C": "ctDNA阴性即足以证明全部肿瘤细胞清除",
+          "D": "记录分子及影像反应，继续综合评估，不能仅凭双阴性确定治愈或停药"
+        },
+        "answer": "D",
+        "answer_text": "记录分子及影像反应，继续综合评估，不能仅凭双阴性确定治愈或停药",
+        "explain": "检测下限以下不等于肿瘤不存在，分子反应、影像反应和病理反应是不同证据。所引ESMO建议强调检测局限；本例也没有建立用双阴性指导停药的验证规则。",
+        "keyPoint": "ctDNA及CEA转阴不能独立建立治愈或停药标准。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "ESMO recommendations on the use of circulating tumour DNA assays for patients with cancer",
+          "source_version": "2022",
+          "source_section": "",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/35809752/",
+          "evidence_summary": "ctDNA及CEA转阴不能独立建立治愈或停药标准。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-CC5590E2",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "直肠癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/RJu7VK3cHSGh_R1JaDqUTg/05nS8WJrxYH8Hno8c1Yw0eB2tIWAMzLQ.png",
+      "alt": "图 1. 治疗前后患者的 PET 扫描图像。（a）和（c）显示 2023 年 10 月治疗开始前的盆腔横切片。可见肿大的高代谢后腹膜后淋巴结。（b）和（d）为 2024 年 1 月的影像，显示治疗后后腹膜淋巴结的体积和 FDG 亲近性有所下降。"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "pMMR/MSS直肠癌复发后的RIN治疗",
+      "description": "50岁女性，局部晚期直肠癌经新辅助治疗及R0切除，术后14个月盆腔复发。FOLFOXIRI期间并发坏死性筋膜炎，恢复后采用个体化RIN方案及局部放疗，ctDNA、CEA和影像均改善。"
+    },
+    "overview": {
+      "hero": {
+        "title": "pMMR/MSS直肠癌复发后的RIN治疗",
+        "subtitle": "复发决策需更新疾病范围，并整合既往局部治疗信息；坏死性筋膜炎需及时感染源控制和系统治疗；早期研究的活性信号不等于普遍标准治疗；再照射应综合累积剂量与组织状况，不能仅比较分次数；ctDNA及CEA转阴不能独立建立治愈或停药标准。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者与就诊背景",
+              "value": "50岁女性，局部晚期直肠癌经新辅助治疗及R0切除，术后14个月盆腔复发。FOLFOXIRI期间并发坏死性筋膜炎，恢复后采用个体化RIN方案及局部放疗，ctDNA、CEA和影像均改善。"
+            },
+            {
+              "order": 2,
+              "label": "疾病与分期",
+              "value": "初诊cT4bN2M0、ⅢC期；术后盆腔复发伴邻近组织侵犯，不能继续用初诊M0描述完整复发状态。"
+            },
+            {
+              "order": 3,
+              "label": "分子与病理",
+              "value": "pMMR/MSS；原始论文另报告KRAS G12D。RIN治疗后ctDNA及CEA降至检测下限以下，不能单独等同于全部病灶清除。"
+            },
+            {
+              "order": 4,
+              "label": "核心教学点",
+              "value": "复发决策需更新疾病范围，并整合既往局部治疗信息；坏死性筋膜炎需及时感染源控制和系统治疗；早期研究的活性信号不等于普遍标准治疗；再照射应综合累积剂量与组织状况，不能仅比较分次数；ctDNA及CEA转阴不能独立建立治愈或停药标准。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2021年",
+              "title": "初始诊疗",
+              "detail": "盆腔25 Gy/5次和6周期XELOX，随后直肠手术达到R0。"
+            },
+            {
+              "date": "术后14个月",
+              "title": "局部复发",
+              "detail": "左侧直肠系膜肿块约9×7.3 cm，侵犯宫颈、阴道及邻近组织。"
+            },
+            {
+              "date": "复发化疗期间",
+              "title": "严重感染",
+              "detail": "FOLFOXIRI期间发生坏死性筋膜炎，经多次清创及ICU治疗恢复。"
+            },
+            {
+              "date": "恢复后",
+              "title": "个体化后线治疗",
+              "detail": "因不能耐受进一步化疗采用超适应证RIN：瑞戈非尼、伊匹木单抗及纳武利尤单抗。"
+            },
+            {
+              "date": "同期及6个月内",
+              "title": "局部及系统反应",
+              "detail": "给予5次调强放疗缓解疼痛和出血；ctDNA、CEA转阴，影像改善。"
+            },
+            {
+              "date": "超过12个月随访",
+              "title": "持续获控",
+              "detail": "原文报告持续影像及分子学获控；该结局不能建立统一停药规则。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/RJu7VK3cHSGh_R1JaDqUTg/05nS8WJrxYH8Hno8c1Yw0eB2tIWAMzLQ.png",
+              "timepoint": "2023 年 10 月（治疗前）及 2024 年 1 月（治疗后）",
+              "caption": "图 1. 治疗前后患者的 PET 扫描图像。（a）和（c）显示 2023 年 10 月治疗开始前的盆腔横切片。可见肿大的高代谢后腹膜后淋巴结。（b）和（d）为 2024 年 1 月的影像，显示治疗后后腹膜淋巴结的体积和 FDG 亲近性有所下降。",
+              "alt": "图 1. 治疗前后患者的 PET 扫描图像。（a）和（c）显示 2023 年 10 月治疗开始前的盆腔横切片。可见肿大的高代谢后腹膜后淋巴结。（b）和（d）为 2024 年 1 月的影像，显示治疗后后腹膜淋巴结的体积和 FDG 亲近性有所下降。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

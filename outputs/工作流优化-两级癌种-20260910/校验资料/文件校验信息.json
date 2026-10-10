@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-10",
+  "mode": "offline_test_only",
+  "sources": [
+    {
+      "name": "题目生成 (6).json",
+      "sha256": "7ab1921f5865ba48e6f5f0b35a8ee7ee7169f5b9927c7c1e752ca77cb6e2d7a4",
+      "matches_initial_snapshot": true
+    },
+    {
+      "name": "三连 (5).json",
+      "sha256": "e869850949579cb0bda0c8b75bf0f6a6845b6c830f9f98135c0b724d0a15aef7",
+      "matches_initial_snapshot": true
+    },
+    {
+      "name": "批量生成 (2).json",
+      "sha256": "ea0d2aac13b41cf9841ca4ba240a605b4450b67f45be55a3cf90d070993d6d25",
+      "matches_initial_snapshot": true
+    }
+  ],
+  "deliverables": [
+    {
+      "name": "01-题目生成-两级癌种-测试版.json",
+      "sha256": "191e25c3f35f90bc71e229459d6541765e89aa917c39ef9fd5f8abb16d2acc58",
+      "nodes": 47,
+      "edges": 73
+    },
+    {
+      "name": "02-三连-两级癌种-测试版.json",
+      "sha256": "013383944ed6774194ab8e8e97d978fe7d20bc20171946ee20063ca688cdaf11",
+      "nodes": 13,
+      "edges": 18
+    },
+    {
+      "name": "03-批量生成-两级癌种-测试版.json",
+      "sha256": "e8ffbc8114bc1313c73fd791c0b25ee43918eb97904712c1e5c65d460d92dc07",
+      "nodes": 8,
+      "edges": 7
+    }
+  ]
+}

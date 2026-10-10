@@ -1,0 +1,327 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-37BF6300",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "分子诊断",
+        "phase": "初始受体检测",
+        "timepoint": "一线治疗前",
+        "question": "患者拟启动瑞波西利联合内分泌治疗。为确保HR阳性、HER2阴性的分型可用于选药，最需要核查哪项内容？",
+        "options": {
+          "A": "病理标本处理、检测质控及ER/PR/HER2结果的完整性",
+          "B": "仅核对影像学肿块大小，以此判断是否适合内分泌治疗",
+          "C": "优先依据血清肿瘤标志物，必要时再复核组织学结果",
+          "D": "将JAK2突变作为乳腺癌分型依据，先确定血液病方案"
+        },
+        "answer": "A",
+        "answer_text": "病理标本处理、检测质控及ER/PR/HER2结果的完整性",
+        "explain": "标本固定、肿瘤成分和判读质量影响生物标志物结果。应确认已有检测可靠、完整，不必为形式上的“复核”重复所有取材。影像、血清指标和JAK2结果均不能替代乳腺癌受体检测。",
+        "keyPoint": "可靠的受体检测是制定乳腺癌治疗方案的基础。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "中华医学会病理学分会, CACA, 国家病理质控中心",
+          "source_title": "乳腺癌生物标志物检测临床应用指南",
+          "source_version": "2025",
+          "source_section": "",
+          "source_url": "",
+          "evidence_summary": "可靠的受体检测是制定乳腺癌治疗方案的基础。（原引用书目信息保留；本轮未取得对应原文分块，支持范围待复核。）"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "治疗决策",
+        "phase": "合并症管理",
+        "timepoint": "一线治疗开始",
+        "question": "患者合并JAK2 V617F阳性骨髓增殖性肿瘤，血小板明显升高。制定乳腺癌方案时，如何安排合并症管理更妥当？",
+        "options": {
+          "A": "仅按血小板数值选择抗栓药物，无需进一步评估出血风险",
+          "B": "先等待血液病指标完全正常，再启动乳腺癌系统治疗",
+          "C": "联合血液科评估血栓、出血及骨髓风险，个体化安排治疗",
+          "D": "将血细胞升高视为可抵消骨髓抑制，维持常规监测即可"
+        },
+        "answer": "C",
+        "answer_text": "联合血液科评估血栓、出血及骨髓风险，个体化安排治疗",
+        "explain": "应联合血液科明确疾病类型、血栓和出血风险，兼顾抗肿瘤药物的骨髓毒性及相互作用。病例加用阿司匹林是个体化做法，不能由JAK2阳性或血小板升高直接推出所有患者均应使用。",
+        "keyPoint": "合并MPN时，抗栓与抗肿瘤治疗应共同评估风险。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "全专结合全方位管理乳腺癌伴随疾病中国专家共识(2025版)",
+          "source_version": "2025",
+          "source_section": "",
+          "source_url": "",
+          "evidence_summary": "合并MPN时，抗栓与抗肿瘤治疗应共同评估风险。（原引用书目信息保留；本轮未取得对应原文分块，支持范围待复核。）"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "分子诊断",
+        "phase": "复发/转移性乳腺癌疑似进展时",
+        "timepoint": "治疗 30 个周期后",
+        "question": "骨转移持续稳定期间，乳房出现快速增大的新肿块，影像高度怀疑局部进展。在改变全身治疗前，最有价值的下一步是什么？",
+        "options": {
+          "A": "直接按耐药更换系统方案，再以缩瘤情况验证诊断",
+          "B": "对可及的新肿块取材，先明确性质，再按结果补充检测",
+          "C": "仅复查原发灶存档标本，将新病灶按同一分型处理",
+          "D": "以肿块增长速度判断来源，直接按乳腺癌局部进展处置"
+        },
+        "answer": "B",
+        "answer_text": "对可及的新肿块取材，先明确性质，再按结果补充检测",
+        "explain": "不同部位疗效不一致时，应先确认新病灶是否为乳腺癌。若证实复发，再复评受体。本例最终为韧带样纤维瘤，说明不能把“疑似进展”在病理确认前写成既定事实。",
+        "keyPoint": "可及的新病灶应先明确性质，避免误判耐药。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic breast cancer",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+          "evidence_summary": "可及的新病灶应先明确性质，避免误判耐药。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "诊断与分期",
+        "phase": "新病灶病理鉴别",
+        "timepoint": "术后病理明确时",
+        "question": "术后肿块诊断为韧带样纤维瘤。关于这种病变的生物学行为，哪项理解更准确？",
+        "options": {
+          "A": "属于乳腺癌间质成分，诊断后应按乳腺癌进展处理",
+          "B": "属于良性结节，切除后不需要再关注局部复发风险",
+          "C": "具有远处转移倾向，应沿用软组织肉瘤的分期逻辑",
+          "D": "可呈局部侵袭并复发，但通常不发生远处转移"
+        },
+        "answer": "D",
+        "answer_text": "可呈局部侵袭并复发，但通常不发生远处转移",
+        "explain": "韧带样纤维瘤具有局部侵袭性，不能简单称为无需随访的普通良性肿块；其生物学行为也不同于转移性肉瘤。后续管理需结合症状、部位及动态变化。",
+        "keyPoint": "韧带样纤维瘤的重点是局部侵袭和复发风险。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "Desmoid Tumor Working Group",
+          "source_title": "The management of desmoid tumours: A joint global consensus-based guideline approach",
+          "source_version": "2020",
+          "source_section": "",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/32004793/",
+          "evidence_summary": "韧带样纤维瘤的重点是局部侵袭和复发风险。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "耐药与后线管理",
+        "phase": "术后继续系统治疗决策时",
+        "timepoint": "目前",
+        "question": "新乳房肿块证实为韧带样纤维瘤，乳腺癌其他病灶仍稳定。对原有全身治疗，哪项决策更合理？",
+        "options": {
+          "A": "局部肿块已切除，可停止转移性乳腺癌系统治疗",
+          "B": "重新核实疗效和耐受性，仍获益时可继续原有方案",
+          "C": "因接受了乳房手术，应改为术后辅助治疗模式",
+          "D": "为避免再次出现肿块，应更换为另一种化疗方案"
+        },
+        "answer": "B",
+        "answer_text": "重新核实疗效和耐受性，仍获益时可继续原有方案",
+        "explain": "新病灶并非乳腺癌进展，就不能将其作为原方案失败的依据。仍需结合全身评估、毒性和患者意愿决定是否继续。局部切除没有消除已存在的转移性乳腺癌。",
+        "keyPoint": "换药应基于已确认的进展或耐受问题。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ABC / ESMO",
+          "source_title": "6th and 7th International consensus guidelines for advanced breast cancer",
+          "source_version": "2024",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11231614/",
+          "evidence_summary": "换药应基于已确认的进展或耐受问题。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-37BF6300",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "绝经前女性 HR 阳性 HER2 阴性转移性乳腺癌治疗期间乳房新发肿块误诊为进展后确诊为韧带样纤维瘤病例",
+      "description": "患者为 44 岁绝经前女性，因左乳房外上象限可触及肿块就诊。影像学提示左侧外上象限不规则肿块伴皮肤和乳头回缩，左腋窝淋巴结可疑。核心穿刺活检诊断为非特殊类型浸润性乳腺癌（Luminal A 型）。骨扫描和腰椎活检证实 T2 和 T5 脊柱转移。开始一线姑息性化疗前，全血细胞计数显示白细胞和血小板增多，骨髓检查证实 JAK2 V617F 突变阳性的骨髓增殖性肿……"
+    },
+    "overview": {
+      "hero": {
+        "title": "绝经前女性 HR 阳性 HER2 阴性转移性乳腺癌治疗期间乳房新发肿块误诊为进展后确诊为韧带样纤维瘤病例",
+        "subtitle": "转移性乳腺癌治疗随访中影像学进展与真实疾病进展的鉴别 未行再次穿刺直接手术切除后病理诊断修正的重要性 韧带样纤维瘤在乳腺癌治疗背景下的影像学模拟特征 合并骨髓增殖性肿瘤患者的抗肿瘤治疗管理 长期内分泌联合 CDK4/6 抑制剂治疗期间的局部……"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者与就诊背景",
+              "value": "患者为 44 岁绝经前女性，因左乳房外上象限可触及肿块就诊。影像学提示左侧外上象限不规则肿块伴皮肤和乳头回缩，左腋窝淋巴结可疑。核心穿刺活检诊断为非特殊类型浸润性乳腺癌（Luminal A 型）。骨扫描和腰椎活检证实 T2 和 T5 脊柱转移。开始一线姑息性化疗前，全血细胞计数显示白细胞和血小板增多，骨髓检查证实 JAK2 V617F 突变阳性的骨髓增殖性肿瘤。基线已知生物标志物包括 ER 8、PR 8、C-erbB2 阴性及 JAK2 V617F 突变（49.3%）。"
+            },
+            {
+              "order": 2,
+              "label": "疾病与分期",
+              "value": "非特殊类型浸润性乳腺癌（Luminal A 型，ER 8，PR 8，C-erbB2 阴性），临床分期 T2N1M1；伴骨髓增殖性肿瘤（JAK2 V617F 突变阳性）；术后最终诊断：韧带样纤维瘤（硬纤维瘤，β-连环蛋白和平滑肌肌动蛋白阳性）"
+            },
+            {
+              "order": 3,
+              "label": "分子与病理",
+              "value": "初诊|乳腺肿块核心穿刺标本|免疫组化|ER|8|不详 初诊|乳腺肿块核心穿刺标本|免疫组化|PR|8|不详 初诊|乳腺肿块核心穿刺标本|免疫组化|C-erbB2|阴性|不详 一线治疗前|骨髓标本|基因检测|JAK2 V617F|突变阳性|49.3% 术后|左乳房切除标本|免疫组化|β-连环蛋白|阳性|不详 术后|左乳房切除标本|免疫组化|平滑肌肌动蛋白|阳性|不详 术后|左乳房切除标本|免疫组化|广谱细胞角蛋白|阴性|不详 术后|左乳房切除标本|免疫组化|CD34|阴性|不详 术后|左乳房切除标本|免疫组化|CD3……"
+            },
+            {
+              "order": 4,
+              "label": "核心教学点",
+              "value": "转移性乳腺癌治疗随访中影像学进展与真实疾病进展的鉴别 未行再次穿刺直接手术切除后病理诊断修正的重要性 韧带样纤维瘤在乳腺癌治疗背景下的影像学模拟特征 合并骨髓增殖性肿瘤患者的抗肿瘤治疗管理 长期内分泌联合 CDK4/6 抑制剂治疗期间的局部病灶监测策略"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 1",
+              "detail": "初诊：左侧外上象限可触及肿块，乳腺 X 线示 4.4 cm 高密度肿块伴皮肤回缩，超声及 MRI 示多中心病灶及腋窝淋巴结可疑"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 2",
+              "detail": "初诊：核心穿刺活检诊断为非特殊类型浸润性乳腺癌（Luminal A 型，ER 8，PR 8，C-erbB2 阴性）"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 3",
+              "detail": "初诊：骨扫描和腰椎经皮骨活检证实 T2 和 T5 脊柱转移性癌，临床分期 T2N1M1"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 4",
+              "detail": "一线治疗前：全血细胞计数示白细胞 16,240/μL、血小板 970,000/μL"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 5",
+              "detail": "骨髓检查证实 JAK2 V617F 突变阳性（49.3%）的骨髓增殖性肿瘤"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 6",
+              "detail": "一线治疗开始：启动瑞波西利联合芳香化酶抑制剂联合戈舍瑞林醋酸酯联合地诺单抗治疗，并增加阿司匹林 100 mg/天"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 7",
+              "detail": "治疗 72 周（24 个周期）：胸部 CT 显示左乳房主病灶缩小至 1.3 cm，骨转移病灶稳定"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 8",
+              "detail": "继续治疗 18 周（累计 90 周，30 个周期）：评估示肿瘤标志物和骨转移病灶持续稳定"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 9",
+              "detail": "但左乳房出现环形增强肿块突然增大至 7.6 × 5.0 cm，伴肌肉和皮肤侵犯，影像学高度提示局部复发"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 10",
+              "detail": "治疗 30 个周期后：鉴于病灶快速增大且未进行核心穿刺活检，行改良根治性乳房切除术"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 11",
+              "detail": "术后病理：左乳房肿块 8.5 × 8.0 cm，浸润周围脂肪组织，乳头或皮肤未见癌症成分"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 12",
+              "detail": "淋巴结见反应性淋巴样增生"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 13",
+              "detail": "术后免疫组化：广谱细胞角蛋白、CD34、CD31、S-100、结蛋白阴性"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 14",
+              "detail": "β-连环蛋白、平滑肌肌动蛋白阳性"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 15",
+              "detail": "术后最终诊断：韧带样纤维瘤（硬纤维瘤）"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 16",
+              "detail": "目前：继续第 36 个周期原方案治疗，方案未作更改"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/FBXU41hwmqCKnCQM_7D1DQ/fU9JkL1lstGdnZSDV1mKlxu5FwqCekxS.png",
+              "timepoint": "初诊及治疗 72 周、90 周",
+              "caption": "图 1. 乳腺和转移性病变的影像学表现（A）初始乳腺 X 线片：左侧 UOQ 有一 4.4 × 2.1 cm 的高密度肿块，伴有皮肤回缩，提示皮肤侵犯，左侧腋窝有一增大的淋巴结。（B）初始乳腺超声：左侧 UOQ 的 3.5 × 1.3 × 3.3 cm 不规则低回声肿块经证实为恶性肿瘤。（C）初始 T1 动态减影增强 MRI：证实左乳外侧半部有恶性肿瘤（3.4 × 2.4 × 4.1 cm），伴有皮肤和乳头回缩。（D）初始骨扫描：T5、L2 和双侧坐骨有多发骨转移病灶。（E）接受 24 个周期瑞波西利和芳香化酶抑制剂治疗 72 周后胸部计算机断层扫描（左乳房肿块 1.3 cm）。（F）接受 30 个周期治疗 90 周后 MRI：左乳房可见一个 7.6 × 5.0 cm 的环形增强肿块，形态和边缘不规则。",
+              "alt": "图 1. 乳腺和转移性病变的影像学表现（A）初始乳腺 X 线片：左侧 UOQ 有一 4.4 × 2.1 cm 的高密度肿块，伴有皮肤回缩，提示皮肤侵犯，左侧腋窝有一增大的淋巴结。（B）初始乳腺超声：左侧 UOQ 的 3.5 × 1.3 × 3.3 cm 不规则低回声肿块经证实为恶性肿瘤。（C）初始 T1 动态减影增强 MRI：证实左乳外侧半部有恶性肿瘤（3.4 × 2.4 × 4.1 cm），伴有皮肤和乳头回缩。（D）初始骨扫描：T5、L2 和双侧坐骨有多发骨转移病灶。（E）接受 24 个周期瑞波西利和芳香化酶抑制剂治疗 72 周后胸部计算机断层扫描（左乳房肿块 1.3 cm）。（F）接受 30 个周期治疗 90 周后 MRI：左乳房可见一个 7.6 × 5.0 cm 的环形增强肿块，形态和边缘不规则。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/FBXU41hwmqCKnCQM_7D1DQ/rqNPLHJW5WBF10q9DpBqyhekwJpssy3W.png",
+              "timepoint": "术后",
+              "caption": "图 2. 硬纤维瘤的组织病理学和免疫组织化学特征（A）DTF 的大体外观通常呈肿大的结节状肿块，局部浸润到周围脂肪组织。（B）纤维瘤病浸润到周围乳腺实质。其不规则边界在影像学上可与浸润性癌高度相似。（C）高倍镜下可见长而交错的梭形细胞束，显示轻度异型性。（D）DTF 显示β-连环蛋白在细胞核中呈异常模式。（E）DTF 显示平滑肌肌动蛋白阳性染色，可见无有丝分裂象的梭形细胞。（F）DTF 显示广谱细胞角蛋白阴性染色。（G）DTF 显示 CD34 阴性染色。（H）DTF 显示 CD31 阴性染色。（I）DTF 显示 S-100 阴性染色。（J）DTF 显示结蛋白阴性染色。",
+              "alt": "图 2. 硬纤维瘤的组织病理学和免疫组织化学特征（A）DTF 的大体外观通常呈肿大的结节状肿块，局部浸润到周围脂肪组织。（B）纤维瘤病浸润到周围乳腺实质。其不规则边界在影像学上可与浸润性癌高度相似。（C）高倍镜下可见长而交错的梭形细胞束，显示轻度异型性。（D）DTF 显示β-连环蛋白在细胞核中呈异常模式。（E）DTF 显示平滑肌肌动蛋白阳性染色，可见无有丝分裂象的梭形细胞。（F）DTF 显示广谱细胞角蛋白阴性染色。（G）DTF 显示 CD34 阴性染色。（H）DTF 显示 CD31 阴性染色。（I）DTF 显示 S-100 阴性染色。（J）DTF 显示结蛋白阴性染色。",
+              "mapping_status": "matched_by_timepoint",
+              "related_timeline": {
+                "date": "时间未详",
+                "title": "诊疗节点 11",
+                "detail": "术后病理：左乳房肿块 8.5 × 8.0 cm，浸润周围脂肪组织，乳头或皮肤未见癌症成分"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,432 @@
+[
+  {
+    "case_id": "CASE-41901B16",
+    "title": "乳腺癌19年后罕见髌骨转移的诊断与治疗",
+    "clipboard_escape_repairs": 2,
+    "count": 0,
+    "transport_mode": "__ONCOROUNDS_BATCH_V2__",
+    "status": "FORMAT_ERROR",
+    "completion": {
+      "required_question_count": 5,
+      "available_question_count": 0,
+      "model_question_count": 5,
+      "complete": false
+    },
+    "errors": [
+      "Q3 [OPTION_QUOTE_NOT_FOUND] A原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q3 [OPTION_QUOTE_NOT_FOUND] B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q3 [OPTION_QUOTE_NOT_FOUND] C原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q3 [OPTION_QUOTE_NOT_FOUND] D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q5 [OPTION_QUOTE_NOT_FOUND] C原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q1：学员可见正文或证据摘要含内部证据编号：GB03；须改写成自足理由，不得拼接其他记录",
+      "Q2：学员可见正文或证据摘要含内部证据编号：GB06；须改写成自足理由，不得拼接其他记录",
+      "Q3：学员可见正文或证据摘要含内部证据编号：GA02、GA03；须改写成自足理由，不得拼接其他记录",
+      "Q4：学员可见正文或证据摘要含内部证据编号：GS01；须改写成自足理由，不得拼接其他记录",
+      "Q5：学员可见正文或证据摘要含内部证据编号：GB03；须改写成自足理由，不得拼接其他记录",
+      "EVIDENCE_VERIFICATION_FAILED：未取得与全部题号对应的原句核对通过结果。"
+    ],
+    "missing": [
+      "原文未记载转移灶HER2检测结果，无法确认完整分子分型。",
+      "PET/CT发现的股骨及胫骨结节未行骨窗CT/MRI或活检确认，性质待定。",
+      "原文未记载后续全身治疗方案（内分泌±CDK4/6等）及随访细节。",
+      "原文未提供BRCA/PIK3CA等基因检测结果。",
+      "Q3 [OPTION_QUOTE_NOT_FOUND] A原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q3 [OPTION_QUOTE_NOT_FOUND] B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q3 [OPTION_QUOTE_NOT_FOUND] C原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q3 [OPTION_QUOTE_NOT_FOUND] D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q5 [OPTION_QUOTE_NOT_FOUND] C原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q1：学员可见正文或证据摘要含内部证据编号：GB03；须改写成自足理由，不得拼接其他记录",
+      "Q2：学员可见正文或证据摘要含内部证据编号：GB06；须改写成自足理由，不得拼接其他记录",
+      "Q3：学员可见正文或证据摘要含内部证据编号：GA02、GA03；须改写成自足理由，不得拼接其他记录"
+    ],
+    "quote_errors": [
+      "Q3 [OPTION_QUOTE_NOT_FOUND] A原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q3 [OPTION_QUOTE_NOT_FOUND] B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q3 [OPTION_QUOTE_NOT_FOUND] C原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q3 [OPTION_QUOTE_NOT_FOUND] D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q5 [OPTION_QUOTE_NOT_FOUND] C原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。"
+    ],
+    "diagnostic_keys": [
+      "scope",
+      "evidence_verification",
+      "question_evidence_bindings",
+      "cited_evidence_snapshot",
+      "retrieval_queries",
+      "retrieval_health",
+      "compression_report",
+      "first_round_raw",
+      "second_round_raw",
+      "parsed_second_round_draft",
+      "partial_draft_questions",
+      "model_execution"
+    ],
+    "model": {
+      "model": "qwen3.8-flash",
+      "max_output_tokens_configured": 16000,
+      "first_round_char_count": 696,
+      "second_round_char_count": 6670,
+      "finish_reason": null,
+      "finish_reason_availability": "not_exposed_by_workflow_outputs"
+    },
+    "replay": {
+      "keys": [
+        "selection_report",
+        "selection_report_json",
+        "quality_notice",
+        "final_data",
+        "final_json",
+        "case_page_data",
+        "case_page_json",
+        "execution_report",
+        "response_json",
+        "output_data",
+        "output_json"
+      ],
+      "response_length": 42711,
+      "status": "FORMAT_ERROR"
+    }
+  },
+  {
+    "case_id": "CASE-794E8394",
+    "title": "HER2阴性转移性胃癌CAPOX化疗后持久完全缓解",
+    "clipboard_escape_repairs": 6,
+    "count": 5,
+    "transport_mode": "__ONCOROUNDS_BATCH_V2__",
+    "status": "OUTPUT_READY",
+    "completion": {
+      "required_question_count": 5,
+      "available_question_count": 5,
+      "model_question_count": 5,
+      "complete": true
+    },
+    "errors": [],
+    "missing": [],
+    "quote_errors": [],
+    "diagnostic_keys": [
+      "scope",
+      "evidence_verification",
+      "question_evidence_bindings",
+      "cited_evidence_snapshot",
+      "retrieval_queries",
+      "retrieval_health",
+      "compression_report",
+      "first_round_raw",
+      "second_round_raw",
+      "parsed_second_round_draft",
+      "partial_draft_questions",
+      "model_execution"
+    ],
+    "model": {
+      "model": "qwen3.8-flash",
+      "max_output_tokens_configured": 16000,
+      "first_round_char_count": 5880,
+      "second_round_char_count": 5888,
+      "finish_reason": null,
+      "finish_reason_availability": "not_exposed_by_workflow_outputs"
+    },
+    "replay": {
+      "keys": [
+        "selection_report",
+        "selection_report_json",
+        "quality_notice",
+        "final_data",
+        "final_json",
+        "case_page_data",
+        "case_page_json",
+        "execution_report",
+        "response_json",
+        "output_data",
+        "output_json"
+      ],
+      "response_length": 28806,
+      "status": "OUTPUT_READY"
+    }
+  },
+  {
+    "case_id": "CASE-928DA97A",
+    "title": "三阴性乳腺癌新辅助后超快速脑膜转移的诊治",
+    "clipboard_escape_repairs": 6,
+    "count": 0,
+    "transport_mode": "__ONCOROUNDS_BATCH_V2__",
+    "status": "FORMAT_ERROR",
+    "completion": {
+      "required_question_count": 5,
+      "available_question_count": 0,
+      "model_question_count": 5,
+      "complete": false
+    },
+    "errors": [
+      "Q3 [OPTION_QUOTE_NOT_FOUND] B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q3 [OPTION_QUOTE_NOT_FOUND] D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q4 [OPTION_QUOTE_NOT_FOUND] B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q5 [OPTION_QUOTE_NOT_FOUND] A原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q5 [OPTION_QUOTE_NOT_FOUND] B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q5 [OPTION_QUOTE_NOT_FOUND] C原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "EVIDENCE_VERIFICATION_FAILED：未取得与全部题号对应的原句核对通过结果。"
+    ],
+    "missing": [
+      "证据池无脑膜转移专项放疗剂量研究或鞘内化疗方案指南，Q5聚焦分子检测策略而非具体放疗时序",
+      "证据池无CREATE-X等卡培他滨强化研究原文，Q4仅依据GB01'可考虑辅助强化治疗'的概括推荐，未涉及具体药物选择",
+      "Q3 [OPTION_QUOTE_NOT_FOUND] B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q3 [OPTION_QUOTE_NOT_FOUND] D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q4 [OPTION_QUOTE_NOT_FOUND] B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q5 [OPTION_QUOTE_NOT_FOUND] A原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q5 [OPTION_QUOTE_NOT_FOUND] B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q5 [OPTION_QUOTE_NOT_FOUND] C原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "EVIDENCE_VERIFICATION_FAILED：未取得与全部题号对应的原句核对通过结果。"
+    ],
+    "quote_errors": [
+      "Q3 [OPTION_QUOTE_NOT_FOUND] B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q3 [OPTION_QUOTE_NOT_FOUND] D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q4 [OPTION_QUOTE_NOT_FOUND] B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q5 [OPTION_QUOTE_NOT_FOUND] A原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q5 [OPTION_QUOTE_NOT_FOUND] B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q5 [OPTION_QUOTE_NOT_FOUND] C原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。"
+    ],
+    "diagnostic_keys": [
+      "scope",
+      "evidence_verification",
+      "question_evidence_bindings",
+      "cited_evidence_snapshot",
+      "retrieval_queries",
+      "retrieval_health",
+      "compression_report",
+      "first_round_raw",
+      "second_round_raw",
+      "parsed_second_round_draft",
+      "partial_draft_questions",
+      "model_execution"
+    ],
+    "model": {
+      "model": "qwen3.8-flash",
+      "max_output_tokens_configured": 16000,
+      "first_round_char_count": 615,
+      "second_round_char_count": 6334,
+      "finish_reason": null,
+      "finish_reason_availability": "not_exposed_by_workflow_outputs"
+    },
+    "replay": {
+      "keys": [
+        "selection_report",
+        "selection_report_json",
+        "quality_notice",
+        "final_data",
+        "final_json",
+        "case_page_data",
+        "case_page_json",
+        "execution_report",
+        "response_json",
+        "output_data",
+        "output_json"
+      ],
+      "response_length": 42378,
+      "status": "FORMAT_ERROR"
+    }
+  },
+  {
+    "case_id": "CASE-94E451EE",
+    "title": "AFP阳性横结肠黏液腺癌伴肠套叠的诊治",
+    "clipboard_escape_repairs": 0,
+    "count": 0,
+    "transport_mode": "__ONCOROUNDS_BATCH_V2__",
+    "status": "FORMAT_ERROR",
+    "completion": {
+      "required_question_count": 5,
+      "available_question_count": 0,
+      "model_question_count": 5,
+      "complete": false
+    },
+    "errors": [
+      "Q3选项1超过60字"
+    ],
+    "missing": [
+      "证据池未包含III期结肠癌辅助化疗方案选择（CAPOX疗程与强度）的正式指南条目，无法就Duke C期pMMR辅助化疗决策出题",
+      "证据池未涉及AFP阳性结直肠癌的鉴别诊断路径或术后AFP监测频率的指南/研究条目",
+      "证据池未涉及HER2阳性结肠癌辅助阶段靶向治疗的任何推荐或禁忌",
+      "原文未记载KRAS/NRAS/BRAF检测结果，无法判断该患者是否满足任何RAS/BRAF相关研究的入组前提",
+      "证据池未涉及横结肠巨大肿瘤伴肠套叠的急诊手术时机决策条目",
+      "Q3选项1超过60字"
+    ],
+    "quote_errors": [],
+    "diagnostic_keys": [
+      "scope",
+      "evidence_verification",
+      "question_evidence_bindings",
+      "cited_evidence_snapshot",
+      "retrieval_queries",
+      "retrieval_health",
+      "compression_report",
+      "first_round_raw",
+      "second_round_raw",
+      "parsed_second_round_draft",
+      "partial_draft_questions",
+      "model_execution"
+    ],
+    "model": {
+      "model": "qwen3.8-flash",
+      "max_output_tokens_configured": 16000,
+      "first_round_char_count": 1792,
+      "second_round_char_count": 7238,
+      "finish_reason": null,
+      "finish_reason_availability": "not_exposed_by_workflow_outputs"
+    },
+    "replay": {
+      "keys": [
+        "selection_report",
+        "selection_report_json",
+        "quality_notice",
+        "final_data",
+        "final_json",
+        "case_page_data",
+        "case_page_json",
+        "execution_report",
+        "response_json",
+        "output_data",
+        "output_json"
+      ],
+      "response_length": 46014,
+      "status": "FORMAT_ERROR"
+    }
+  },
+  {
+    "case_id": "CASE-E88F230",
+    "title": "HER2阳性合并MSI-H晚期胃癌转化手术",
+    "clipboard_escape_repairs": 18,
+    "count": 5,
+    "transport_mode": "__ONCOROUNDS_BATCH_V2__",
+    "status": "OUTPUT_READY",
+    "completion": {
+      "required_question_count": 5,
+      "available_question_count": 5,
+      "model_question_count": 5,
+      "complete": true
+    },
+    "errors": [],
+    "missing": [],
+    "quote_errors": [],
+    "diagnostic_keys": [
+      "scope",
+      "evidence_verification",
+      "question_evidence_bindings",
+      "cited_evidence_snapshot",
+      "retrieval_queries",
+      "retrieval_health",
+      "compression_report",
+      "first_round_raw",
+      "second_round_raw",
+      "parsed_second_round_draft",
+      "partial_draft_questions",
+      "model_execution"
+    ],
+    "model": {
+      "model": "qwen3.8-flash",
+      "max_output_tokens_configured": 16000,
+      "first_round_char_count": 5929,
+      "second_round_char_count": 6004,
+      "finish_reason": null,
+      "finish_reason_availability": "not_exposed_by_workflow_outputs"
+    },
+    "replay": {
+      "keys": [
+        "selection_report",
+        "selection_report_json",
+        "quality_notice",
+        "final_data",
+        "final_json",
+        "case_page_data",
+        "case_page_json",
+        "execution_report",
+        "response_json",
+        "output_data",
+        "output_json"
+      ],
+      "response_length": 30702,
+      "status": "OUTPUT_READY"
+    }
+  },
+  {
+    "case_id": "CASE-3665D6A9",
+    "title": "小肠黏液腺癌伴双侧卵巢转移的诊治",
+    "clipboard_escape_repairs": 2,
+    "count": 0,
+    "transport_mode": "__ONCOROUNDS_BATCH_V2__",
+    "status": "FORMAT_ERROR",
+    "completion": {
+      "required_question_count": 5,
+      "available_question_count": 0,
+      "model_question_count": 5,
+      "complete": false
+    },
+    "errors": [
+      "Q3 [OPTION_QUOTE_NOT_FOUND] A原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q3 [OPTION_QUOTE_NOT_FOUND] B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q3 [OPTION_QUOTE_NOT_FOUND] C原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q3 [OPTION_QUOTE_LENGTH] D原句须为8至180字符的非空字符串，不是关键词或整篇复制。",
+      "Q1：学员可见正文或证据摘要含内部证据编号：GS01；须改写成自足理由，不得拼接其他记录",
+      "Q2：学员可见正文或证据摘要含内部证据编号：GS03；须改写成自足理由，不得拼接其他记录",
+      "Q3：学员可见正文或证据摘要含内部证据编号：GB02；须改写成自足理由，不得拼接其他记录",
+      "Q4：学员可见正文或证据摘要含内部证据编号：GA01；须改写成自足理由，不得拼接其他记录",
+      "Q5：学员可见正文或证据摘要含内部证据编号：GA02；须改写成自足理由，不得拼接其他记录",
+      "EVIDENCE_VERIFICATION_FAILED：未取得与全部题号对应的原句核对通过结果。"
+    ],
+    "missing": [
+      "缺少小肠腺癌IV期术后辅助化疗方案（XELOX vs FOLFOX vs 观察）的直接指南推荐正文，现有证据池无相关治疗章节，无法构建化疗方案选择题。",
+      "缺少术中冰冻与术后石蜡病理不一致（交界性vs转移）时的临床处理原则或MDT决策依据的指南正文。",
+      "缺少小肠腺癌免疫组化鉴别诊断（CDX2/SATB2/CK7/CK20/PAX8组合）的特异性判读标准指南正文，GA02仅提供通用判读原则。",
+      "Q3 [OPTION_QUOTE_NOT_FOUND] A原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q3 [OPTION_QUOTE_NOT_FOUND] B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q3 [OPTION_QUOTE_NOT_FOUND] C原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q3 [OPTION_QUOTE_LENGTH] D原句须为8至180字符的非空字符串，不是关键词或整篇复制。",
+      "Q1：学员可见正文或证据摘要含内部证据编号：GS01；须改写成自足理由，不得拼接其他记录",
+      "Q2：学员可见正文或证据摘要含内部证据编号：GS03；须改写成自足理由，不得拼接其他记录",
+      "Q3：学员可见正文或证据摘要含内部证据编号：GB02；须改写成自足理由，不得拼接其他记录",
+      "Q4：学员可见正文或证据摘要含内部证据编号：GA01；须改写成自足理由，不得拼接其他记录",
+      "Q5：学员可见正文或证据摘要含内部证据编号：GA02；须改写成自足理由，不得拼接其他记录"
+    ],
+    "quote_errors": [
+      "Q3 [OPTION_QUOTE_NOT_FOUND] A原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q3 [OPTION_QUOTE_NOT_FOUND] B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q3 [OPTION_QUOTE_NOT_FOUND] C原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q3 [OPTION_QUOTE_LENGTH] D原句须为8至180字符的非空字符串，不是关键词或整篇复制。"
+    ],
+    "diagnostic_keys": [
+      "scope",
+      "evidence_verification",
+      "question_evidence_bindings",
+      "cited_evidence_snapshot",
+      "retrieval_queries",
+      "retrieval_health",
+      "compression_report",
+      "first_round_raw",
+      "second_round_raw",
+      "parsed_second_round_draft",
+      "partial_draft_questions",
+      "model_execution"
+    ],
+    "model": {
+      "model": "qwen3.8-flash",
+      "max_output_tokens_configured": 16000,
+      "first_round_char_count": 1029,
+      "second_round_char_count": 6829,
+      "finish_reason": null,
+      "finish_reason_availability": "not_exposed_by_workflow_outputs"
+    },
+    "replay": {
+      "keys": [
+        "selection_report",
+        "selection_report_json",
+        "quality_notice",
+        "final_data",
+        "final_json",
+        "case_page_data",
+        "case_page_json",
+        "execution_report",
+        "response_json",
+        "output_data",
+        "output_json"
+      ],
+      "response_length": 45349,
+      "status": "FORMAT_ERROR"
+    }
+  }
+]

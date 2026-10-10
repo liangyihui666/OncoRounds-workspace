@@ -1,0 +1,247 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-E07D1504",
+    "cancer_type": "胃癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "初诊",
+        "timepoint": "确诊时",
+        "question": "患者初诊 CT 示原发肿瘤侵袭肝脏 S4 段，无远处器官转移。根据 AJCC 第 8 版分期，该病例为何被定义为 IVA 期？",
+        "options": {
+          "A": "因存在肝门淋巴结转移",
+          "B": "因存在腹膜播散",
+          "C": "因存在远处血行转移",
+          "D": "因肿瘤直接侵犯邻近器官（肝脏）"
+        },
+        "answer": "D",
+        "answer_text": "因肿瘤直接侵犯邻近器官（肝脏）",
+        "explain": "AJCC 第 8 版规定，T4b 指肿瘤侵犯邻近结构（如肝），无论 N 分期如何，只要 M0 即归为 IVA 期。肝门淋巴结属区域淋巴结，非远处转移。",
+        "keyPoint": "T4b 侵犯邻近器官且 M0 定义为 IVA 期，区别于 IVB 期远处转移。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+          "split_index": 208,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026",
+          "source_version": "2026",
+          "source_section": "胃癌AJCC/UICC第8版TNM分期（续）",
+          "source_url": "",
+          "evidence_summary": "指南明确 T4b N0-2 M0 分期为 IVA 期，任何 T 任何 N M1 为 IVB 期。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "分子诊断",
+        "phase": "初诊",
+        "timepoint": "生物标志物检测",
+        "question": "针对该进展期胃腺癌患者，指南推荐必须检测的生物标志物组合是？",
+        "options": {
+          "A": "HER2 及 MMR/MSI 状态均需检测",
+          "B": "仅需检测 HER2 状态",
+          "C": "仅需检测 MMR/MSI 状态",
+          "D": "仅需检测 PD-L1 表达水平"
+        },
+        "answer": "A",
+        "answer_text": "HER2 及 MMR/MSI 状态均需检测",
+        "explain": "指南推荐所有进展期胃腺癌行 HER2 检测，且所有新诊断胃癌推荐评估 MSI/MMR 状态，以指导精准治疗。",
+        "keyPoint": "进展期胃癌规范诊疗需同时明确 HER2 与 MMR/MSI 状态。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+          "split_index": 27,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026",
+          "source_version": "2026",
+          "source_section": "专家组成员（以姓氏汉语拼音为序）（*为执笔人）",
+          "source_url": "",
+          "evidence_summary": "指南 I 级推荐：所有胃腺癌须行 HER2 检测，新诊断胃癌推荐评估 MSI/MMR。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "初始治疗",
+        "timepoint": "转化治疗阶段",
+        "question": "对于该 IVA 期（T4b 侵肝）但无远处转移的患者，首选的治疗策略是？",
+        "options": {
+          "A": "直接行根治性胃切除及肝切除术",
+          "B": "转化治疗后争取手术切除",
+          "C": "以系统治疗为主的姑息治疗，不考虑手术",
+          "D": "单纯局部放疗控制原发灶"
+        },
+        "answer": "B",
+        "answer_text": "转化治疗后争取手术切除",
+        "explain": "CSCO 指南指出，IVA 期（cT4b N0-3 M0）经 MDT 讨论若有转化治疗机会，推荐转化治疗后争取手术，而非直接手术或放弃手术。",
+        "keyPoint": "局部晚期不可切除胃癌若有转化机会，应行转化治疗后争取 R0 切除。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+          "split_index": 46,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026",
+          "source_version": "2026",
+          "source_section": "专家组成员（以姓氏汉语拼音为序）（*为执笔人）",
+          "source_url": "",
+          "evidence_summary": "指南推荐 IVA 期有转化机会者，行转化治疗后争取手术切除。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "不良反应管理",
+        "phase": "术后辅助治疗",
+        "timepoint": "出现严重毒性时",
+        "question": "患者术后辅助化疗出现长时间中性粒细胞减少伴菌血症，此时最恰当的管理措施是？",
+        "options": {
+          "A": "永久停药且不再进行抗感染评估",
+          "B": "维持原剂量化疗并仅使用升白针",
+          "C": "暂停化疗并抗感染，评估后决策",
+          "D": "减少化疗剂量并观察，暂不抗感染"
+        },
+        "answer": "C",
+        "answer_text": "暂停化疗并抗感染，评估后决策",
+        "explain": "严重感染（菌血症）必须立即抗感染治疗，同时暂停化疗。后续需基于风险/获益比评估是否恢复、减量或永久停药。",
+        "keyPoint": "严重毒性需暂停治疗并处理并发症，后续决策基于风险获益评估。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "c9294314-38c0-4a55-92b6-b261f374a7da",
+          "split_index": 60,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 整体支持",
+          "source_version": "2023",
+          "source_section": "（五）不良反应的处理",
+          "source_url": "",
+          "evidence_summary": "指南指出Ⅲ/Ⅳ度毒性需暂停或停药，基于风险/获益比考虑后续处理。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "治疗决策",
+        "phase": "初始治疗",
+        "timepoint": "转化治疗策略制定",
+        "question": "对于该 IVA 期（T4b 侵肝）但无远处转移的胃癌患者，首选的治疗策略是？",
+        "options": {
+          "A": "直接行根治性切除术",
+          "B": "以系统治疗为主姑息",
+          "C": "行姑息性放射治疗",
+          "D": "转化治疗后争取手术"
+        },
+        "answer": "D",
+        "answer_text": "转化治疗后争取手术",
+        "explain": "对于有转化治疗机会的 IVA 期（如 T4b）患者，指南推荐经 MDT 讨论后行转化治疗，若肿瘤退缩则争取 R0 切除。",
+        "keyPoint": "潜在可切除的 IVA 期胃癌首选转化治疗争取手术。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+          "split_index": 46,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026",
+          "source_version": "2026",
+          "source_section": "专家组成员（以姓氏汉语拼音为序）（*为执笔人）",
+          "source_url": "",
+          "evidence_summary": "CSCO 指南推荐 IVA 期有转化机会者行转化治疗后争取手术。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-E07D1504",
+    "cancer_type": "胃癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/gastric-her2.png",
+      "alt": "胃癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "胃癌肝脏受累的分期与治疗",
+      "description": "75岁男性，胃癌直接侵犯邻近肝S4，原文cT4bN1M0。"
+    },
+    "overview": {
+      "hero": {
+        "title": "胃癌肝脏受累的分期与治疗",
+        "subtitle": "直接侵犯与远处转移的区别、HER2与MSI结果，以及转化治疗后毒性和获益的权衡。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "75岁男性，胃癌直接侵犯邻近肝S4，原文cT4bN1M0。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "HER2 3+、MLH1缺失、MSI-H；肝受累为直接侵犯。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "SOX联合曲妥珠单抗3周期后行胃及肝联合切除，达到R0。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "直接侵犯与远处转移的区别、HER2与MSI结果，以及转化治疗后毒性和获益的权衡。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "初诊",
+              "title": "局部晚期及分子检测",
+              "detail": "胃癌直接侵犯肝S4，HER2 3+、MLH1缺失、MSI-H。"
+            },
+            {
+              "date": "3周期治疗后",
+              "title": "缩瘤复评",
+              "detail": "SOX联合曲妥珠单抗后病灶缩小。"
+            },
+            {
+              "date": "转化手术",
+              "title": "胃及肝联合切除",
+              "detail": "胃及肝联合切除达到R0，病理pCR。"
+            },
+            {
+              "date": "术后继续治疗",
+              "title": "中性粒细胞减少及菌血症",
+              "detail": "持续中性粒细胞减少及菌血症，权衡后停止术后方案。"
+            },
+            {
+              "date": "术后7个月",
+              "title": "末次报道随访",
+              "detail": "未见复发。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

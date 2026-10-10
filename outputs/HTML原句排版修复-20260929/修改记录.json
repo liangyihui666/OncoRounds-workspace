@@ -1,0 +1,15 @@
+{
+  "version": "20260929-case-display-layout-1.2",
+  "base": "outputs/HTML与五题联动整改-20260929",
+  "changes": [
+    {
+      "role": "outer",
+      "id": "ogy1PAMdD268kXeo",
+      "name": "代码运行",
+      "field": "code"
+    }
+  ],
+  "online_verified": false,
+  "child_unchanged": true,
+  "batch_unchanged": true
+}

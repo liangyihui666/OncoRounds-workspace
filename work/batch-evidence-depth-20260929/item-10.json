@@ -1,0 +1,1199 @@
+{
+  "record_type": "oncorounds_batch_item",
+  "transport_version": "1.0",
+  "output_data": {
+    "Questions": {
+      "schema_version": "1.0",
+      "case_id": "CASE-7ADE271C",
+      "cancer_type": "消化系统肿瘤",
+      "generation_status": "success",
+      "difficulty": "进阶",
+      "question_count": 5,
+      "questions": [
+        {
+          "id": "Q1",
+          "type": "治疗决策",
+          "phase": "一线进展后转换",
+          "timepoint": "XELOX+贝伐珠单抗3疗程后",
+          "question": "该患者XELOX+贝伐珠单抗3疗程后肝转移灶进展，二代测序确认MSI-H，KRAS G13D突变。以下后续治疗决策正确的是？",
+          "options": {
+            "A": "换用FOLFIRI联合贝伐珠单抗继续化疗",
+            "B": "不论KRAS突变状态，启动帕博利珠单抗免疫治疗",
+            "C": "加用西妥昔单抗靶向治疗KRAS G13D突变",
+            "D": "跳过免疫治疗直接转为瑞戈非尼三线方案"
+          },
+          "answer": "B",
+          "answer_text": "不论KRAS突变状态，启动帕博利珠单抗免疫治疗",
+          "explain": "A｜不正确：患者已确认MSI-H适合免疫治疗，指南明确优先推荐PD-1而非退回化疗\nB｜正确：指南明确不论RAS/BRAF状态，MSI-H/dMMR患者优先推荐帕博利珠单抗\nC｜不正确：指南对MSI-H优先推荐PD-1单抗，抗EGFR非本例优先方案且KRAS突变限制获益\nD｜不正确：瑞戈非尼为三线选择，患者尚未尝试优先推荐的免疫治疗，跳过不合理",
+          "keyPoint": "MSI-H转移性CRC肝转移优先推荐PD-1单抗，RAS/BRAF状态不改变此优先级",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "745fcee1-ab81-490d-96fc-517f2a543f7b",
+            "split_index": 53,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "结肠癌",
+            "source_version": "2024",
+            "source_section": "3 不可切除的结肠癌肝转移",
+            "source_url": "",
+            "evidence_summary": "不论RAS/BRAF基因状态，MSI-H/dMMR患者优先推荐PD-1单抗；不适合免疫治疗者才参考姑息一线"
+          }
+        },
+        {
+          "id": "Q2",
+          "type": "分子诊断",
+          "phase": "一线进展后基因检测",
+          "timepoint": "二代测序回报MSI-H后",
+          "question": "该患者一线化疗进展后，二代测序肿瘤组织DNA检测提示MSI-H。关于该结果能否作为启动免疫治疗的依据，以下哪项正确？",
+          "options": {
+            "A": "必须补充免疫组化MMR检测确认后方可启动免疫治疗",
+            "B": "NGS检测MSI不可靠，必须用PCR毛细管电泳金标准验证",
+            "C": "经NGS检测确认的MSI-H可考虑接受免疫检查点抑制剂治疗",
+            "D": "还需PD-L1表达阳性才能启动免疫检查点抑制剂治疗"
+          },
+          "answer": "C",
+          "answer_text": "经NGS检测确认的MSI-H可考虑接受免疫检查点抑制剂治疗",
+          "explain": "A｜不正确：指南称必要时可互相补充验证，并非每次均须IHC确认后方可启动\nB｜不正确：指南明确将二代测序列为MSI检测的有效方法，并非不可靠\nC｜正确：指南明确通过二代测序检测表明MSI-H的患者均可考虑接受ICI治疗\nD｜不正确：指南以MSI-H/dMMR为启动ICI的依据，未将PD-L1列为必要条件",
+          "keyPoint": "NGS确认的MSI-H即可考虑ICI，IHC/PCR为必要时补充而非强制前置条件",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "0b11b7db-f85e-458c-8dad-bf67831fde09",
+            "split_index": 17,
+            "type": "guideline",
+            "authority": "CSCO",
+            "source_title": "结直肠癌分子病理检测临床实践指南(2025版)",
+            "source_version": "2025",
+            "source_section": "（一）RAS和BRAF检测原则",
+            "source_url": "",
+            "evidence_summary": "通过MSI PCR/二代测序检测表明MSI-H的患者均可考虑接受ICI；IHC与NGS必要时互相补充"
+          }
+        },
+        {
+          "id": "Q3",
+          "type": "疗效复评与局部治疗",
+          "phase": "转化治疗后手术决策",
+          "timepoint": "影像提示肝转移灶CR拟手术前",
+          "question": "该患者接受特瑞普利单抗联合贝伐珠单抗治疗，影像提示肝转移灶可能完全缓解，拟行肝转移灶切除术。关于手术时机，以下处理正确的是？",
+          "options": {
+            "A": "免疫治疗为主，贝伐珠单抗无需停药即可手术",
+            "B": "末次贝伐珠单抗与手术间隔至少2周即可",
+            "C": "末次贝伐珠单抗与手术间隔至少4周即可",
+            "D": "末次贝伐珠单抗与手术间隔至少6周，术后6~8周再恢复"
+          },
+          "answer": "D",
+          "answer_text": "末次贝伐珠单抗与手术间隔至少6周，术后6~8周再恢复",
+          "explain": "A｜不正确：指南明确要求联合贝伐珠单抗时须有间隔，并非无需停药\nB｜不正确：指南规定至少6周，2周不满足最低间隔要求\nC｜不正确：4周为妇科肿瘤指南要求，本例为结直肠癌应遵循6周规定\nD｜正确：指南明确联合贝伐珠单抗时末次治疗与手术间隔至少6周，术后6~8周再开始",
+          "keyPoint": "联合贝伐珠单抗时末次给药至手术须≥6周，术后6~8周方可重启抗血管生成",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "745fcee1-ab81-490d-96fc-517f2a543f7b",
+            "split_index": 50,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "结肠癌",
+            "source_version": "2024",
+            "source_section": "（3）免疫检查点抑制剂治疗",
+            "source_url": "",
+            "evidence_summary": "联合贝伐珠单抗时末次治疗与手术间隔至少6周，术后6~8周再重新开始贝伐珠单抗治疗"
+          }
+        },
+        {
+          "id": "Q4",
+          "type": "疗效复评与局部治疗",
+          "phase": "转化治疗期间影像评估",
+          "timepoint": "评估肝转移灶变化决定手术时机",
+          "question": "该患者转化治疗期间需评估肝转移灶变化以决定手术时机。关于肝脏病灶的影像学评估方法，以下哪项正确？",
+          "options": {
+            "A": "增强MRI和超声造影用于肝脏病灶数量与部位的评估",
+            "B": "PET-CT是评估肝转移灶可切除性的必需检查",
+            "C": "腹部增强CT即可充分评估肝脏病灶数量与部位",
+            "D": "肝脏超声即可满足手术前病灶定位需求"
+          },
+          "answer": "A",
+          "answer_text": "增强MRI和超声造影用于肝脏病灶数量与部位的评估",
+          "explain": "A｜正确：指南明确增强MRI和超声造影用于肝脏病灶数量与部位的评估\nB｜不正确：指南列出的肝脏评估方法为MRI和超声造影，未将PET-CT列为必需\nC｜不正确：指南区分CT用于原发灶及远处转移，肝脏病灶评估推荐MRI和超声造影\nD｜不正确：指南要求超声造影而非普通超声，且需结合增强MRI评估病灶数量与部位",
+          "keyPoint": "肝转移灶数量与部位评估首选增强MRI或超声造影，增强CT用于原发灶及远处转移",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "745fcee1-ab81-490d-96fc-517f2a543f7b",
+            "split_index": 50,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "结肠癌",
+            "source_version": "2024",
+            "source_section": "（3）免疫检查点抑制剂治疗",
+            "source_url": "",
+            "evidence_summary": "增强CT用于原发灶及远处转移检查；增强MRI、超声造影用于肝脏病灶数量与部位评估"
+          }
+        },
+        {
+          "id": "Q5",
+          "type": "分子诊断",
+          "phase": "初诊转移性结直肠癌",
+          "timepoint": "确诊肝转移、KRAS已明确时",
+          "question": "该患者初诊即为转移性结直肠癌伴肝转移，KRAS G13D已明确。关于MMR/MSI检测的时机，以下哪项正确？",
+          "options": {
+            "A": "KRAS突变已明确，无需再行MMR/MSI检测",
+            "B": "仅当化疗失败后才需补充MMR/MSI检测",
+            "C": "转移性结直肠癌患者均应行MMR/MSI检测以指导免疫治疗",
+            "D": "家族史提示遗传性肿瘤，仅需检测遗传性基因即可"
+          },
+          "answer": "C",
+          "answer_text": "转移性结直肠癌患者均应行MMR/MSI检测以指导免疫治疗",
+          "explain": "A｜不正确：KRAS与MSI为独立标志物，指南要求转移性CRC均行MMR/MSI检测\nB｜不正确：指南要求转移性CRC患者行检测以判断免疫获益，非化疗失败后才需\nC｜正确：指南强烈推荐应对转移性结直肠癌患者行MMR/MSI检测以判断免疫治疗获益\nD｜不正确：家族史提示遗传风险不替代肿瘤组织MMR/MSI检测，后者指导治疗决策",
+          "keyPoint": "转移性结直肠癌确诊时即应行MMR/MSI检测，KRAS状态不替代MSI检测需求",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "0b11b7db-f85e-458c-8dad-bf67831fde09",
+            "split_index": 16,
+            "type": "guideline",
+            "authority": "CSCO",
+            "source_title": "结直肠癌分子病理检测临床实践指南(2025版)",
+            "source_version": "2025",
+            "source_section": "（一）RAS和BRAF检测原则",
+            "source_url": "",
+            "evidence_summary": "应对转移性结直肠癌患者行MMR/MSI检测以判断是否可从免疫治疗中获益（强烈推荐）"
+          }
+        }
+      ],
+      "missing_information": []
+    },
+    "detail": {
+      "schema_version": "1.0",
+      "case_id": "CASE-7ADE271C",
+      "cancer_type": "消化系统肿瘤",
+      "difficulty": "进阶",
+      "decision_point_count": 5,
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "home": {
+        "recommendation_label": "今日推荐病例",
+        "display_title": "MSI-H升结肠癌肝转移免疫联合抗血管生成转化治疗",
+        "description": "患者，女，25岁，因妊娠期贫血、产后腹痛3月入院。外院结肠镜活检病理示中低分化腺癌，KRAS G13D突变。入院时血红蛋白77g/L，CEA 344.2 μg/L，CA19-9 2016 U/mL，乳酸脱氢酶973 U/L。腹部增强CT提示升结肠肿块伴弥漫性肝转移。家族史：父亲患结直肠癌，祖父患胃癌，祖母患淋巴瘤。入院后第二天因腹痛加剧怀疑肠穿孔，急诊行姑息……"
+      },
+      "overview": {
+        "hero": {
+          "title": "MSI-H升结肠癌肝转移免疫联合抗血管生成转化治疗",
+          "subtitle": "初始不可切除肝转移的转化治疗策略选择与一线方案制定 一线化疗不敏感且不耐受时的治疗转换时机与评估依据 MSI-H检测时机与免疫治疗启动决策 免疫检查点抑制剂联合抗血管生成药物在MSI-H转移性CRC中的疗效评估 经济因素导致的治疗方案调整（……"
+        },
+        "tabs": [
+          {
+            "id": "summary",
+            "label": "病例摘要",
+            "order": 1,
+            "summary_items": [
+              {
+                "order": 1,
+                "label": "患者与就诊背景",
+                "value": "患者，女，25岁，因妊娠期贫血、产后腹痛3月入院。外院结肠镜活检病理示中低分化腺癌，KRAS G13D突变。入院时血红蛋白77g/L，CEA 344.2 μg/L，CA19-9 2016 U/mL，乳酸脱氢酶973 U/L。腹部增强CT提示升结肠肿块伴弥漫性肝转移。家族史：父亲患结直肠癌，祖父患胃癌，祖母患淋巴瘤。入院后第二天因腹痛加剧怀疑肠穿孔，急诊行姑息性右半结肠切除术和肝活检，术后病理示中低分化腺癌伴神经周围侵犯，淋巴结0/2，2个肿瘤沉积灶，分期pT4aN1cM1a。因肝转移灶初诊为不可切除，术后予以转化治……"
+              },
+              {
+                "order": 2,
+                "label": "疾病与分期",
+                "value": "升结肠中低分化腺癌，术后分期pT4aN1cM1a（肝转移），KRAS G13D突变，MSI-H（二代测序肿瘤组织DNA）"
+              },
+              {
+                "order": 3,
+                "label": "分子与病理",
+                "value": "病理｜外院结肠镜活检｜中低分化腺癌 病理｜术后标本（右半结肠切除+肝活检）｜中低分化腺癌伴神经周围侵犯，淋巴结0/2，2个肿瘤沉积灶，pT4aN1cM1a 分子｜外院结肠镜活检｜KRAS G13D突变（检测方法未记载） 分子｜时间未明确（一线治疗后、二线治疗前）｜二代测序肿瘤组织DNA｜MSI-H 病理｜2020年3月18日肝转移灶切除标本｜大面积凝固性坏死和肉芽肿性炎症，未见明确肿瘤细胞残留，pCR 分子｜未记载｜RAS/BRAF其他位点、PD-L1、TMB等未记载"
+              },
+              {
+                "order": 4,
+                "label": "核心教学点",
+                "value": "初始不可切除肝转移的转化治疗策略选择与一线方案制定 一线化疗不敏感且不耐受时的治疗转换时机与评估依据 MSI-H检测时机与免疫治疗启动决策 免疫检查点抑制剂联合抗血管生成药物在MSI-H转移性CRC中的疗效评估 经济因素导致的治疗方案调整（帕博利珠单抗→特瑞普利单抗）及等效性考量 免疫治疗期间影像学变化（点状高密度影）的解读与手术时机判断 肝转移灶pCR后辅助治疗的决策与疗程选择 随访中淋巴结肿大的鉴别诊断与处理策略"
+              }
+            ]
+          },
+          {
+            "id": "timeline",
+            "label": "病程轴",
+            "order": 2,
+            "timeline_items": [
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 1",
+                "detail": "入院前3月｜妊娠期贫血、产后腹痛｜外院结肠镜活检示中低分化腺癌，KRAS G13D突变"
+              },
+              {
+                "date": "入院时",
+                "title": "实验室检查及影像",
+                "detail": "Hb 77g/L，CEA 344.2 μg/L，CA19-9 2016 U/mL，LDH 973 U/L；腹部增强CT提示升结肠肿块伴弥漫性肝转移"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 3",
+                "detail": "入院后第二天｜急诊手术｜因腹痛加剧怀疑肠穿孔，行姑息性右半结肠切除术和肝活检；术后病理示中低分化腺癌伴神经周围侵犯，淋巴结0/2，2个肿瘤沉积灶，pT4aN1cM1a"
+              },
+              {
+                "date": "术后",
+                "title": "一线治疗",
+                "detail": "XELOX（卡培他滨+奥沙利铂）+贝伐珠单抗3疗程；治疗期间出现背痛，阿片类止痛药无效，肿瘤标志物持续升高，增强CT提示肝转移灶进展；评估为化疗不敏感且不耐受"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 5",
+                "detail": "一线治疗后｜基因检测｜二代测序肿瘤组织DNA提示MSI-H"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 6",
+                "detail": "2018年6月25日后｜二线治疗｜帕博利珠单抗+贝伐珠单抗；2个月后复查增强CT显示肿瘤部分缓解；共11疗程"
+              },
+              {
+                "date": "2018年8月24日",
+                "title": "二线治疗2个疗程后",
+                "detail": "CT显示肝转移灶变化（图4C）"
+              },
+              {
+                "date": "2019年6月13日",
+                "title": "二线治疗约1年后",
+                "detail": "CT显示肝转移灶变化（图4D）"
+              },
+              {
+                "date": "2019年6月",
+                "title": "复查CT",
+                "detail": "肝转移灶周围出现多发点状高密度影"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 10",
+                "detail": "因经济原因｜三线治疗｜改为特瑞普利单抗+贝伐珠单抗14疗程，后特瑞普利单抗单药2疗程，至2020年2月；治疗期间未出现严重不良事件"
+              },
+              {
+                "date": "2020年3月13日",
+                "title": "增强CT",
+                "detail": "肝转移灶可能完全缓解（图4E）"
+              },
+              {
+                "date": "2020年3月14日",
+                "title": "增强MRI",
+                "detail": "肝转移灶可能完全缓解（图4F）"
+              },
+              {
+                "date": "2020年3月18日",
+                "title": "肝转移灶切除术",
+                "detail": "术中探查发现胆囊窝存在多个融合肿瘤，行胆囊切除术；术后病理示大面积凝固性坏死和肉芽肿性炎症，未见明确肿瘤细胞残留，诊断pCR"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 14",
+                "detail": "术后3个月（约2020年6月）｜辅助治疗｜特瑞普利单抗+贝伐珠单抗6疗程"
+              },
+              {
+                "date": "2021年3月",
+                "title": "CT",
+                "detail": "右侧髂外血管旁淋巴结肿大，穿刺活检未见肿瘤细胞"
+              },
+              {
+                "date": "2023年11月",
+                "title": "最后随访",
+                "detail": "未见肿瘤复发或转移，患者存活"
+              }
+            ]
+          },
+          {
+            "id": "images",
+            "label": "病例图片",
+            "order": 3,
+            "image_items": []
+          }
+        ]
+      }
+    }
+  },
+  "execution_report": {
+    "schema_version": "oncorounds-execution-1.0",
+    "workflow_revision": "20260929-full-review-five-outer",
+    "case_id": "CASE-7ADE271C",
+    "status": "OUTPUT_READY",
+    "publishable": false,
+    "medical_review_status": "not_performed",
+    "extraction_check": {
+      "scope": "literal_excerpt_coverage_not_medical_validation",
+      "patient_section_found": true,
+      "matched_count": 0,
+      "retained_excerpts": [],
+      "warnings": []
+    },
+    "source_groups": [
+      {
+        "group_id": "G1",
+        "parse_status": "OK",
+        "raw_question_count": 5,
+        "usable_question_count": 5,
+        "rejected_questions": [],
+        "warnings": [],
+        "audit": {
+          "availability": "not_provided"
+        },
+        "transport": {
+          "protocol": "single_json",
+          "json_block_count": 1,
+          "selected_block_index": 0,
+          "ignored_intermediate_blocks": 0,
+          "upstream_messages": []
+        },
+        "upstream_missing_information": [],
+        "workflow_revision": "20260929-evidence-depth-five",
+        "flow_status": "OUTPUT_READY",
+        "completion": {
+          "required_question_count": 5,
+          "available_question_count": 5,
+          "model_question_count": 5,
+          "complete": true
+        },
+        "program_check": {
+          "scope": "program_structure_and_reference_identity_only",
+          "decision": "PASS",
+          "errors": [],
+          "warnings": [
+            "同一证据定位745fcee1-ab81-490d-96fc-517f2a543f7b::50支持2题：复核是否考查不同真实决策；不设置复用题数配额"
+          ]
+        },
+        "workflow_diagnostics": {
+          "scope": "debug_only_not_learner_content",
+          "evidence_verification": {
+            "version": "option-anchors-1.0",
+            "scope": "literal_source_presence_and_shape_only",
+            "decision": "PASS",
+            "semantic_support": "not_independently_verified",
+            "errors": [],
+            "question_checks": [
+              {
+                "question_id": "Q1",
+                "evidence_id": "GB02",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "不适合免疫治疗者，可参考姑息一线治疗",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 89,
+                            "end": 107,
+                            "text": " \nc）免疫治疗：不论RAS/BRAF基因状态，对MSI- H/dMMR患者均优先推荐PD- 1单抗（帕博利珠单抗）。目前也有证据证实纳武利尤单抗联合伊匹木单抗的双免疗法可获益。不适合免疫治疗者，可参考姑息一线治疗。\nd）维持治疗：适于接受一定时长（通常6\\~8个周期）一线强烈化疗 \\$\\pm\\$ 靶向治疗（即诱导化疗）达到CR/PR/SD，经MDTtoHIM评估不适合局部处理。目前主要支持一线含奥沙利铂双药或"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "不论RAS/BRAF基因状态，对MSI- H/dMMR患者均优先推荐PD- 1单抗（帕博利珠单抗）",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 9,
+                            "end": 58,
+                            "text": " \nc）免疫治疗：不论RAS/BRAF基因状态，对MSI- H/dMMR患者均优先推荐PD- 1单抗（帕博利珠单抗）。目前也有证据证实纳武利尤单抗联合伊匹木单抗的双免疗法可获益。不适合免疫治疗者，可参考姑息一线治疗。\nd）维持治疗：适于接受一定时长（通常6\\~8个周期）一线强烈化疗 \\$\\pm\\$ 靶向治疗（即诱导"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "不论RAS/BRAF基因状态，对MSI- H/dMMR患者均优先推荐PD- 1单抗（帕博利珠单抗）",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 9,
+                            "end": 58,
+                            "text": " \nc）免疫治疗：不论RAS/BRAF基因状态，对MSI- H/dMMR患者均优先推荐PD- 1单抗（帕博利珠单抗）。目前也有证据证实纳武利尤单抗联合伊匹木单抗的双免疗法可获益。不适合免疫治疗者，可参考姑息一线治疗。\nd）维持治疗：适于接受一定时长（通常6\\~8个周期）一线强烈化疗 \\$\\pm\\$ 靶向治疗（即诱导"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "不论RAS/BRAF基因状态，对MSI- H/dMMR患者均优先推荐PD- 1单抗（帕博利珠单抗）",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 9,
+                            "end": 58,
+                            "text": " \nc）免疫治疗：不论RAS/BRAF基因状态，对MSI- H/dMMR患者均优先推荐PD- 1单抗（帕博利珠单抗）。目前也有证据证实纳武利尤单抗联合伊匹木单抗的双免疗法可获益。不适合免疫治疗者，可参考姑息一线治疗。\nd）维持治疗：适于接受一定时长（通常6\\~8个周期）一线强烈化疗 \\$\\pm\\$ 靶向治疗（即诱导"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "XELOX（卡培他滨+奥沙利铂）+贝伐珠单抗3疗程；治疗期间出现背痛，阿片类止痛药无效，肿瘤标志物持续升高，增强CT提示肝转移灶进展；评估为化疗不敏感且不耐受",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 223,
+                        "end": 302,
+                        "text": "伴弥漫性肝转移\n入院后第二天｜急诊手术｜因腹痛加剧怀疑肠穿孔，行姑息性右半结肠切除术和肝活检；术后病理示中低分化腺癌伴神经周围侵犯，淋巴结0/2，2个肿瘤沉积灶，pT4aN1cM1a\n术后｜一线治疗｜XELOX（卡培他滨+奥沙利铂）+贝伐珠单抗3疗程；治疗期间出现背痛，阿片类止痛药无效，肿瘤标志物持续升高，增强CT提示肝转移灶进展；评估为化疗不敏感且不耐受\n一线治疗后｜基因检测｜二代测序肿瘤组织DNA提示MSI-H\n2018年6月25日后｜二线治疗｜帕博利珠单抗+贝伐珠单抗；2个月后复查增强CT显示肿瘤部分缓解；共11疗程\n2018年8月24日｜二线治"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "biomarkers",
+                    "quote": "分子｜时间未明确（一线治疗后、二线治疗前）｜二代测序肿瘤组织DNA｜MSI-H",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 110,
+                        "end": 149,
+                        "text": "｜中低分化腺癌\n病理｜术后标本（右半结肠切除+肝活检）｜中低分化腺癌伴神经周围侵犯，淋巴结0/2，2个肿瘤沉积灶，pT4aN1cM1a\n分子｜外院结肠镜活检｜KRAS G13D突变（检测方法未记载）\n分子｜时间未明确（一线治疗后、二线治疗前）｜二代测序肿瘤组织DNA｜MSI-H\n病理｜2020年3月18日肝转移灶切除标本｜大面积凝固性坏死和肉芽肿性炎症，未见明确肿瘤细胞残留，pCR\n分子｜未记载｜RAS/BRAF其他位点、PD-L1、TMB等未记载"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "biomarkers",
+                    "quote": "分子｜外院结肠镜活检｜KRAS G13D突变（检测方法未记载）",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 78,
+                        "end": 109,
+                        "text": "病理｜外院结肠镜活检｜中低分化腺癌\n病理｜术后标本（右半结肠切除+肝活检）｜中低分化腺癌伴神经周围侵犯，淋巴结0/2，2个肿瘤沉积灶，pT4aN1cM1a\n分子｜外院结肠镜活检｜KRAS G13D突变（检测方法未记载）\n分子｜时间未明确（一线治疗后、二线治疗前）｜二代测序肿瘤组织DNA｜MSI-H\n病理｜2020年3月18日肝转移灶切除标本｜大面积凝固性坏死和肉芽肿性炎症，未见明确肿瘤细胞残留，pCR\n分子｜未记载"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "A",
+                  "decision_boundary": "MSI-H确认后指南将PD-1列为优先推荐，仅不适合免疫治疗者才参考化疗，本例适合故排除继续化疗",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "745fcee1-ab81-490d-96fc-517f2a543f7b",
+                  "split_index": 53
+                },
+                "decision": "PASS"
+              },
+              {
+                "question_id": "Q2",
+                "evidence_id": "GA01",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "MMR免疫组织化学检测和MSI PCR/二代测序检测各有优缺点，必要时可互相补充和验证（强烈推荐）",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 6,
+                            "end": 55,
+                            "text": "推荐意见6：MMR免疫组织化学检测和MSI PCR/二代测序检测各有优缺点，必要时可互相补充和验证（强烈推荐）。对于MMR与MSI结果不一致的情况，建议首先进行复核，排除检测或判读不当导致的结果不一致（强烈推荐）。在确认结果无误后，通过免疫组织化学检测显示为dMMR或通过MSI PCR/二代测序检测表明为MS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "通过MSI PCR/二代测序检测表明为MSI- H的患者均可考虑接受免疫检查点抑制剂治疗",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 134,
+                            "end": 178,
+                            "text": "优缺点，必要时可互相补充和验证（强烈推荐）。对于MMR与MSI结果不一致的情况，建议首先进行复核，排除检测或判读不当导致的结果不一致（强烈推荐）。在确认结果无误后，通过免疫组织化学检测显示为dMMR或通过MSI PCR/二代测序检测表明为MSI- H的患者均可考虑接受免疫检查点抑制剂治疗[53]（可考虑）。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "通过MSI PCR/二代测序检测表明为MSI- H的患者均可考虑接受免疫检查点抑制剂治疗[53]（可考虑）",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 134,
+                            "end": 187,
+                            "text": "优缺点，必要时可互相补充和验证（强烈推荐）。对于MMR与MSI结果不一致的情况，建议首先进行复核，排除检测或判读不当导致的结果不一致（强烈推荐）。在确认结果无误后，通过免疫组织化学检测显示为dMMR或通过MSI PCR/二代测序检测表明为MSI- H的患者均可考虑接受免疫检查点抑制剂治疗[53]（可考虑）。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "通过MSI PCR/二代测序检测表明为MSI- H的患者均可考虑接受免疫检查点抑制剂治疗[53]（可考虑）",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 134,
+                            "end": 187,
+                            "text": "优缺点，必要时可互相补充和验证（强烈推荐）。对于MMR与MSI结果不一致的情况，建议首先进行复核，排除检测或判读不当导致的结果不一致（强烈推荐）。在确认结果无误后，通过免疫组织化学检测显示为dMMR或通过MSI PCR/二代测序检测表明为MSI- H的患者均可考虑接受免疫检查点抑制剂治疗[53]（可考虑）。"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "biomarkers",
+                    "quote": "分子｜时间未明确（一线治疗后、二线治疗前）｜二代测序肿瘤组织DNA｜MSI-H",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 110,
+                        "end": 149,
+                        "text": "｜中低分化腺癌\n病理｜术后标本（右半结肠切除+肝活检）｜中低分化腺癌伴神经周围侵犯，淋巴结0/2，2个肿瘤沉积灶，pT4aN1cM1a\n分子｜外院结肠镜活检｜KRAS G13D突变（检测方法未记载）\n分子｜时间未明确（一线治疗后、二线治疗前）｜二代测序肿瘤组织DNA｜MSI-H\n病理｜2020年3月18日肝转移灶切除标本｜大面积凝固性坏死和肉芽肿性炎症，未见明确肿瘤细胞残留，pCR\n分子｜未记载｜RAS/BRAF其他位点、PD-L1、TMB等未记载"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "case_timeline",
+                    "quote": "一线治疗后｜基因检测｜二代测序肿瘤组织DNA提示MSI-H",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 303,
+                        "end": 332,
+                        "text": "，pT4aN1cM1a\n术后｜一线治疗｜XELOX（卡培他滨+奥沙利铂）+贝伐珠单抗3疗程；治疗期间出现背痛，阿片类止痛药无效，肿瘤标志物持续升高，增强CT提示肝转移灶进展；评估为化疗不敏感且不耐受\n一线治疗后｜基因检测｜二代测序肿瘤组织DNA提示MSI-H\n2018年6月25日后｜二线治疗｜帕博利珠单抗+贝伐珠单抗；2个月后复查增强CT显示肿瘤部分缓解；共11疗程\n2018年8月24日｜二线治疗2个疗程后｜CT显示肝转移灶变化（图4C）\n2019年6月"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "A",
+                  "decision_boundary": "指南用'必要时'限定补充验证，本例NGS结果明确无矛盾，不强制要求IHC前置确认",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "0b11b7db-f85e-458c-8dad-bf67831fde09",
+                  "split_index": 17
+                },
+                "decision": "PASS"
+              },
+              {
+                "question_id": "Q3",
+                "evidence_id": "GB03",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "如联合贝伐珠单抗治疗，则最后一次治疗与手术间隔至少6周，术后6\\~8周再重新开始贝伐珠单抗治疗",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 275,
+                            "end": 322,
+                            "text": "的评估；三维CT与三维数字成像技术等有助于评估残肝体积。  \n（2）疗效评估  \n转化治疗建议6\\~8周行一次影像学评估。RECIST1.1标准评估转化治疗疗效，TRG分级评估转化治疗的病理退缩程度。如联合贝伐珠单抗治疗，则最后一次治疗与手术间隔至少6周，术后6\\~8周再重新开始贝伐珠单抗治疗。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "如联合贝伐珠单抗治疗，则最后一次治疗与手术间隔至少6周，术后6\\~8周再重新开始贝伐珠单抗治疗",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 275,
+                            "end": 322,
+                            "text": "的评估；三维CT与三维数字成像技术等有助于评估残肝体积。  \n（2）疗效评估  \n转化治疗建议6\\~8周行一次影像学评估。RECIST1.1标准评估转化治疗疗效，TRG分级评估转化治疗的病理退缩程度。如联合贝伐珠单抗治疗，则最后一次治疗与手术间隔至少6周，术后6\\~8周再重新开始贝伐珠单抗治疗。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "如联合贝伐珠单抗治疗，则最后一次治疗与手术间隔至少6周，术后6\\~8周再重新开始贝伐珠单抗治疗",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 275,
+                            "end": 322,
+                            "text": "的评估；三维CT与三维数字成像技术等有助于评估残肝体积。  \n（2）疗效评估  \n转化治疗建议6\\~8周行一次影像学评估。RECIST1.1标准评估转化治疗疗效，TRG分级评估转化治疗的病理退缩程度。如联合贝伐珠单抗治疗，则最后一次治疗与手术间隔至少6周，术后6\\~8周再重新开始贝伐珠单抗治疗。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "如联合贝伐珠单抗治疗，则最后一次治疗与手术间隔至少6周，术后6\\~8周再重新开始贝伐珠单抗治疗",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 275,
+                            "end": 322,
+                            "text": "的评估；三维CT与三维数字成像技术等有助于评估残肝体积。  \n（2）疗效评估  \n转化治疗建议6\\~8周行一次影像学评估。RECIST1.1标准评估转化治疗疗效，TRG分级评估转化治疗的病理退缩程度。如联合贝伐珠单抗治疗，则最后一次治疗与手术间隔至少6周，术后6\\~8周再重新开始贝伐珠单抗治疗。"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "特瑞普利单抗+贝伐珠单抗14疗程，后特瑞普利单抗单药2疗程，至2020年2月",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 504,
+                        "end": 542,
+                        "text": "个疗程后｜CT显示肝转移灶变化（图4C）\n2019年6月13日｜二线治疗约1年后｜CT显示肝转移灶变化（图4D）\n2019年6月｜复查CT｜肝转移灶周围出现多发点状高密度影\n因经济原因｜三线治疗｜改为特瑞普利单抗+贝伐珠单抗14疗程，后特瑞普利单抗单药2疗程，至2020年2月；治疗期间未出现严重不良事件\n2020年3月13日｜增强CT｜肝转移灶可能完全缓解（图4E）\n2020年3月14日｜增强MRI｜肝转移灶可能完全缓解（图4F）\n2020年3月18日｜肝转移灶切除术｜术"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "case_timeline",
+                    "quote": "2020年3月18日｜肝转移灶切除术",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 622,
+                        "end": 640,
+                        "text": "特瑞普利单抗单药2疗程，至2020年2月；治疗期间未出现严重不良事件\n2020年3月13日｜增强CT｜肝转移灶可能完全缓解（图4E）\n2020年3月14日｜增强MRI｜肝转移灶可能完全缓解（图4F）\n2020年3月18日｜肝转移灶切除术｜术中探查发现胆囊窝存在多个融合肿瘤，行胆囊切除术；术后病理示大面积凝固性坏死和肉芽肿性炎症，未见明确肿瘤细胞残留，诊断pCR\n术后3个月（约2020年6月）｜辅助治疗｜特瑞普利单抗+贝伐珠单抗6疗程"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "C",
+                  "decision_boundary": "本例为结直肠癌肝转移，适用GB03的6周间隔；4周为妇科肿瘤指南要求，癌种不同不可移用",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "745fcee1-ab81-490d-96fc-517f2a543f7b",
+                  "split_index": 50
+                },
+                "decision": "PASS"
+              },
+              {
+                "question_id": "Q4",
+                "evidence_id": "GB03",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "增强MRI、超声造影用于肝脏病灶数量与部位的评估",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 154,
+                            "end": 178,
+                            "text": "转化治疗的高级别证据，但专家组仍推荐免疫治疗作为MSI- HCC肝转移的方案选择之一。  \n   \n### 2.3 评估  \n（1）潜在可切除的多学科评估  \n增强CT用于CC原发灶及远处转移的检查；增强MRI、超声造影用于肝脏病灶数量与部位的评估；三维CT与三维数字成像技术等有助于评估残肝体积。  \n（2）疗效评估  \n转化治疗建议6\\~8周行一次影像学评估。RECIST1.1标准评估转化治疗疗效，TRG分级评估转化治疗的病理退缩程度。如联合"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "增强CT用于CC原发灶及远处转移的检查；增强MRI、超声造影用于肝脏病灶数量与部位的评估",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 134,
+                            "end": 178,
+                            "text": "益，虽然缺乏免疫检查点抑制剂用于此类患者转化治疗的高级别证据，但专家组仍推荐免疫治疗作为MSI- HCC肝转移的方案选择之一。  \n   \n### 2.3 评估  \n（1）潜在可切除的多学科评估  \n增强CT用于CC原发灶及远处转移的检查；增强MRI、超声造影用于肝脏病灶数量与部位的评估；三维CT与三维数字成像技术等有助于评估残肝体积。  \n（2）疗效评估  \n转化治疗建议6\\~8周行一次影像学评估。RECIST1.1标准评估转化治疗疗效，TRG分级评估转化治疗的病理退缩程度。如联合"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "增强CT用于CC原发灶及远处转移的检查；增强MRI、超声造影用于肝脏病灶数量与部位的评估",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 134,
+                            "end": 178,
+                            "text": "益，虽然缺乏免疫检查点抑制剂用于此类患者转化治疗的高级别证据，但专家组仍推荐免疫治疗作为MSI- HCC肝转移的方案选择之一。  \n   \n### 2.3 评估  \n（1）潜在可切除的多学科评估  \n增强CT用于CC原发灶及远处转移的检查；增强MRI、超声造影用于肝脏病灶数量与部位的评估；三维CT与三维数字成像技术等有助于评估残肝体积。  \n（2）疗效评估  \n转化治疗建议6\\~8周行一次影像学评估。RECIST1.1标准评估转化治疗疗效，TRG分级评估转化治疗的病理退缩程度。如联合"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "增强MRI、超声造影用于肝脏病灶数量与部位的评估；三维CT与三维数字成像技术等有助于评估残肝体积",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 154,
+                            "end": 202,
+                            "text": "转化治疗的高级别证据，但专家组仍推荐免疫治疗作为MSI- HCC肝转移的方案选择之一。  \n   \n### 2.3 评估  \n（1）潜在可切除的多学科评估  \n增强CT用于CC原发灶及远处转移的检查；增强MRI、超声造影用于肝脏病灶数量与部位的评估；三维CT与三维数字成像技术等有助于评估残肝体积。  \n（2）疗效评估  \n转化治疗建议6\\~8周行一次影像学评估。RECIST1.1标准评估转化治疗疗效，TRG分级评估转化治疗的病理退缩程度。如联合贝伐珠单抗治疗，则最后一次治疗与手术间隔至少6周"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "2020年3月13日｜增强CT｜肝转移灶可能完全缓解（图4E）",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 557,
+                        "end": 588,
+                        "text": "4D）\n2019年6月｜复查CT｜肝转移灶周围出现多发点状高密度影\n因经济原因｜三线治疗｜改为特瑞普利单抗+贝伐珠单抗14疗程，后特瑞普利单抗单药2疗程，至2020年2月；治疗期间未出现严重不良事件\n2020年3月13日｜增强CT｜肝转移灶可能完全缓解（图4E）\n2020年3月14日｜增强MRI｜肝转移灶可能完全缓解（图4F）\n2020年3月18日｜肝转移灶切除术｜术中探查发现胆囊窝存在多个融合肿瘤，行胆囊切除术；术后病理示大面积凝固性坏死和肉芽肿性炎症，未"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "case_timeline",
+                    "quote": "2020年3月14日｜增强MRI｜肝转移灶可能完全缓解（图4F）",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 589,
+                        "end": 621,
+                        "text": "影\n因经济原因｜三线治疗｜改为特瑞普利单抗+贝伐珠单抗14疗程，后特瑞普利单抗单药2疗程，至2020年2月；治疗期间未出现严重不良事件\n2020年3月13日｜增强CT｜肝转移灶可能完全缓解（图4E）\n2020年3月14日｜增强MRI｜肝转移灶可能完全缓解（图4F）\n2020年3月18日｜肝转移灶切除术｜术中探查发现胆囊窝存在多个融合肿瘤，行胆囊切除术；术后病理示大面积凝固性坏死和肉芽肿性炎症，未见明确肿瘤细胞残留，诊断pCR\n术后3个月（约2020年6月）｜辅"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "C",
+                  "decision_boundary": "指南将CT定位为原发灶及远处转移检查，肝脏病灶数量与部位评估明确推荐MRI和超声造影",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "745fcee1-ab81-490d-96fc-517f2a543f7b",
+                  "split_index": 50
+                },
+                "decision": "PASS"
+              },
+              {
+                "question_id": "Q5",
+                "evidence_id": "GA06",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "应对转移性结直肠癌患者行MMR/MSI检测，以判断是否可从免疫治疗中获益（强烈推荐）",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 52,
+                            "end": 94,
+                            "text": "推荐意见3：应对II～Ⅲ期结直肠癌患者行MMR/MSI检测，以评估预后和指导化疗方案的选择（强烈推荐）。应对转移性结直肠癌患者行MMR/MSI检测，以判断是否可从免疫治疗中获益（强烈推荐）。应对新诊断的、尚无远处转移（M0）的结直肠癌患者进行MMR/MSI检测，结合器官功能保护需求、手术根治机会，来确定围手术期的免\n疫治疗方案（推荐）。\n推荐意见4：MMR免疫组织化学检测包含4个MMR"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "应对转移性结直肠癌患者行MMR/MSI检测，以判断是否可从免疫治疗中获益（强烈推荐）",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 52,
+                            "end": 94,
+                            "text": "推荐意见3：应对II～Ⅲ期结直肠癌患者行MMR/MSI检测，以评估预后和指导化疗方案的选择（强烈推荐）。应对转移性结直肠癌患者行MMR/MSI检测，以判断是否可从免疫治疗中获益（强烈推荐）。应对新诊断的、尚无远处转移（M0）的结直肠癌患者进行MMR/MSI检测，结合器官功能保护需求、手术根治机会，来确定围手术期的免\n疫治疗方案（推荐）。\n推荐意见4：MMR免疫组织化学检测包含4个MMR"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "应对转移性结直肠癌患者行MMR/MSI检测，以判断是否可从免疫治疗中获益（强烈推荐）",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 52,
+                            "end": 94,
+                            "text": "推荐意见3：应对II～Ⅲ期结直肠癌患者行MMR/MSI检测，以评估预后和指导化疗方案的选择（强烈推荐）。应对转移性结直肠癌患者行MMR/MSI检测，以判断是否可从免疫治疗中获益（强烈推荐）。应对新诊断的、尚无远处转移（M0）的结直肠癌患者进行MMR/MSI检测，结合器官功能保护需求、手术根治机会，来确定围手术期的免\n疫治疗方案（推荐）。\n推荐意见4：MMR免疫组织化学检测包含4个MMR"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "应对转移性结直肠癌患者行MMR/MSI检测，以判断是否可从免疫治疗中获益（强烈推荐）",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 52,
+                            "end": 94,
+                            "text": "推荐意见3：应对II～Ⅲ期结直肠癌患者行MMR/MSI检测，以评估预后和指导化疗方案的选择（强烈推荐）。应对转移性结直肠癌患者行MMR/MSI检测，以判断是否可从免疫治疗中获益（强烈推荐）。应对新诊断的、尚无远处转移（M0）的结直肠癌患者进行MMR/MSI检测，结合器官功能保护需求、手术根治机会，来确定围手术期的免\n疫治疗方案（推荐）。\n推荐意见4：MMR免疫组织化学检测包含4个MMR"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "disease",
+                    "quote": "升结肠中低分化腺癌，术后分期pT4aN1cM1a（肝转移），KRAS G13D突变",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 0,
+                        "end": 41,
+                        "text": "升结肠中低分化腺癌，术后分期pT4aN1cM1a（肝转移），KRAS G13D突变，MSI-H（二代测序肿瘤组织DNA）"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "case_timeline",
+                    "quote": "腹部增强CT提示升结肠肿块伴弥漫性肝转移",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 110,
+                        "end": 130,
+                        "text": "血、产后腹痛｜外院结肠镜活检示中低分化腺癌，KRAS G13D突变\n入院时｜实验室检查及影像｜Hb 77g/L，CEA 344.2 μg/L，CA19-9 2016 U/mL，LDH 973 U/L；腹部增强CT提示升结肠肿块伴弥漫性肝转移\n入院后第二天｜急诊手术｜因腹痛加剧怀疑肠穿孔，行姑息性右半结肠切除术和肝活检；术后病理示中低分化腺癌伴神经周围侵犯，淋巴结0/2，2个肿瘤沉积灶，pT4aN1cM1a\n术后｜一线治疗｜XELOX（卡"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "B",
+                  "decision_boundary": "指南用'应对转移性结直肠癌患者行'表述，为确诊时即需检测，非化疗失败后的补救性检测",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "0b11b7db-f85e-458c-8dad-bf67831fde09",
+                  "split_index": 16
+                },
+                "decision": "PASS"
+              }
+            ]
+          },
+          "question_evidence_bindings": [
+            {
+              "question_id": "Q1",
+              "evidence_id": "GB02",
+              "doc_id": "745fcee1-ab81-490d-96fc-517f2a543f7b",
+              "split_index": 53,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q2",
+              "evidence_id": "GA01",
+              "doc_id": "0b11b7db-f85e-458c-8dad-bf67831fde09",
+              "split_index": 17,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q3",
+              "evidence_id": "GB03",
+              "doc_id": "745fcee1-ab81-490d-96fc-517f2a543f7b",
+              "split_index": 50,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q4",
+              "evidence_id": "GB03",
+              "doc_id": "745fcee1-ab81-490d-96fc-517f2a543f7b",
+              "split_index": 50,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q5",
+              "evidence_id": "GA06",
+              "doc_id": "0b11b7db-f85e-458c-8dad-bf67831fde09",
+              "split_index": 16,
+              "matching_record_count": 1
+            }
+          ],
+          "cited_evidence_snapshot": [
+            {
+              "evidence_id": "GA01",
+              "doc_id": "0b11b7db-f85e-458c-8dad-bf67831fde09",
+              "split_index": 17,
+              "type": "guideline",
+              "authority": "CSCO",
+              "source_title": "结直肠癌分子病理检测临床实践指南(2025版)",
+              "source_version": "2025",
+              "source_section": "（一）RAS和BRAF检测原则",
+              "source_url": "",
+              "snippet": "推荐意见6：MMR免疫组织化学检测和MSI PCR/二代测序检测各有优缺点，必要时可互相补充和验证（强烈推荐）。对于MMR与MSI结果不一致的情况，建议首先进行复核，排除检测或判读不当导致的结果不一致（强烈推荐）。在确认结果无误后，通过免疫组织化学检测显示为dMMR或通过MSI PCR/二代测序检测表明为MSI- H的患者均可考虑接受免疫检查点抑制剂治疗[53]（可考虑）。",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            },
+            {
+              "evidence_id": "GA06",
+              "doc_id": "0b11b7db-f85e-458c-8dad-bf67831fde09",
+              "split_index": 16,
+              "type": "guideline",
+              "authority": "CSCO",
+              "source_title": "结直肠癌分子病理检测临床实践指南(2025版)",
+              "source_version": "2025",
+              "source_section": "（一）RAS和BRAF检测原则",
+              "source_url": "",
+              "snippet": "推荐意见3：应对II～Ⅲ期结直肠癌患者行MMR/MSI检测，以评估预后和指导化疗方案的选择（强烈推荐）。应对转移性结直肠癌患者行MMR/MSI检测，以判断是否可从免疫治疗中获益（强烈推荐）。应对新诊断的、尚无远处转移（M0）的结直肠癌患者进行MMR/MSI检测，结合器官功能保护需求、手术根治机会，来确定围手术期的免\n疫治疗方案（推荐）。\n推荐意见4：MMR免疫组织化学检测包含4个MMR蛋白：MLH1、MSH2、MSH6和PMS2（强烈推荐）。MSI PCR检测可使用NCI工作组推荐位点Bethesda panel（BAT25、BAT26、D5S346、D2S123和D17S250），也可采用单核苷酸重复序列（BAT25，BAT26，NR- 21，NR- 24，MONO- 27/NR- 27）（强烈推荐）。\n推荐意见5：MMR免疫组织化学染色注意事项：接受新辅助治疗后的结直肠癌切除标本中可能会出现免疫组织化学结果异常，建议优先选择新辅助治疗前的结直肠癌标本进行MMR免疫组织化学检测（推荐）。",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            },
+            {
+              "evidence_id": "GB02",
+              "doc_id": "745fcee1-ab81-490d-96fc-517f2a543f7b",
+              "split_index": 53,
+              "type": "guideline",
+              "authority": "CACA",
+              "source_title": "结肠癌",
+              "source_version": "2024",
+              "source_section": "3 不可切除的结肠癌肝转移",
+              "source_url": "",
+              "snippet": " \nc）免疫治疗：不论RAS/BRAF基因状态，对MSI- H/dMMR患者均优先推荐PD- 1单抗（帕博利珠单抗）。目前也有证据证实纳武利尤单抗联合伊匹木单抗的双免疗法可获益。不适合免疫治疗者，可参考姑息一线治疗。\nd）维持治疗：适于接受一定时长（通常6\\~8个周期）一线强烈化疗 \\$\\pm\\$ 靶向治疗（即诱导化疗）达到CR/PR/SD，经MDTtoHIM评估不适合局部处理。目前主要支持一线含奥沙利铂双药或三药化疗后采用维持治疗策略，优先推荐卡培他滨或5- FU \\$\\pm\\$ 贝伐珠单抗方案，如不愿继续接受化疗者可单用贝伐珠单抗。",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            },
+            {
+              "evidence_id": "GB03",
+              "doc_id": "745fcee1-ab81-490d-96fc-517f2a543f7b",
+              "split_index": 50,
+              "type": "guideline",
+              "authority": "CACA",
+              "source_title": "结肠癌",
+              "source_version": "2024",
+              "source_section": "（3）免疫检查点抑制剂治疗",
+              "source_url": "",
+              "snippet": "由于MSI- HCC肝转移发生率低，小样本研究显示手术切除可使患者获益，虽然缺乏免疫检查点抑制剂用于此类患者转化治疗的高级别证据，但专家组仍推荐免疫治疗作为MSI- HCC肝转移的方案选择之一。  \n   \n### 2.3 评估  \n（1）潜在可切除的多学科评估  \n增强CT用于CC原发灶及远处转移的检查；增强MRI、超声造影用于肝脏病灶数量与部位的评估；三维CT与三维数字成像技术等有助于评估残肝体积。  \n（2）疗效评估  \n转化治疗建议6\\~8周行一次影像学评估。RECIST1.1标准评估转化治疗疗效，TRG分级评估转化治疗的病理退缩程度。如联合贝伐珠单抗治疗，则最后一次治疗与手术间隔至少6周，术后6\\~8周再重新开始贝伐珠单抗治疗。",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            }
+          ],
+          "retrieval_queries": {
+            "staging": "初始临床评估与分期指南\n原发诊断：升结肠中低分化腺癌，术后分期pT4aN1cM1a（肝转移），KRAS G13D突变，MSI-H（二代测序肿瘤组织DNA）\n初诊摘录：患者，女，25岁，因妊娠期贫血、产后腹痛3月入院；外院结肠镜活检病理示中低分化腺癌，KRAS G13D突变；入院时血红蛋白77g/L，CEA 344.2 μg/L，CA19-9 2016 U/mL，乳酸脱氢酶973 U/L；腹部增强CT提示升结肠肿块伴弥漫性肝转移；家族史：父亲患结直肠癌，祖父患胃癌，祖母患淋巴瘤；因肝转移灶初诊为不可切除，术后予以转化治疗，Karnofsky评分80分\n匹配原发病种与分期检查、区域和远处病变评估，不用后续事实反推初诊。",
+            "molecular": "病理与分子检测及结果应用指南\n原发诊断：升结肠中低分化腺癌，术后分期pT4aN1cM1a（肝转移），KRAS G13D突变，MSI-H（二代测序肿瘤组织DNA）\n检测记录：分子｜外院结肠镜活检｜KRAS G13D突变（检测方法未记载）；分子｜时间未明确（一线治疗后、二线治疗前）｜二代测序肿瘤组织DNA｜MSI-H；分子｜未记载｜RAS/BRAF其他位点、PD-L1、TMB等未记载\n候选决策：基因检测回报MSI-H｜是否立即启动免疫治疗，是否联合抗血管生成药物\n关注检测时机、结果等待与治疗衔接；检索关键词不代表初诊已知结果。",
+            "treatment": "复评、局部协调与后线决策正式指南\n原发诊断：升结肠中低分化腺癌，术后分期pT4aN1cM1a（肝转移），KRAS G13D突变，MSI-H（二代测序肿瘤组织DNA）\n决策问题：术后｜肝转移灶初诊不可切除，KPS 80分｜选择何种转化治疗方案及是否联合抗血管生成药物；一线3疗程后｜背痛阿片无效，肿瘤标志物持续升高，CT提示肝转移灶进展｜是否继续化疗或转换方案\n实际治疗：因经济原因｜三线治疗｜改为特瑞普利单抗+贝伐珠单抗14疗程，后特瑞普利单抗单药2疗程，至2020年2月；术后｜一线治疗｜XELOX（卡培他滨+奥沙利铂）+贝伐珠单抗3疗程；治疗期间出现背痛，阿片类止痛药无效，肿瘤标志物持续升高，增强CT提示肝转移灶进展；评估为化疗不敏感且不耐受\n检测记录：分子｜外院结肠镜活检｜KRAS G13D突变（检测方法未记载）；分子｜时间未明确（一线治疗后、二线治疗前）｜二代测序肿瘤组织DNA｜MSI-H；分子｜未记载｜RAS/BRAF其他位点、PD-L1、TMB等未记载\n按原发癌种匹配复评与后线阶段，保留已知治疗限制。",
+            "study": "匹配病例实际方案的原始临床研究\n原发诊断：升结肠中低分化腺癌，术后分期pT4aN1cM1a（肝转移），KRAS G13D突变，MSI-H（二代测序肿瘤组织DNA）\n方案和阶段：因经济原因｜三线治疗｜改为特瑞普利单抗+贝伐珠单抗14疗程，后特瑞普利单抗单药2疗程，至2020年2月；术后｜一线治疗｜XELOX（卡培他滨+奥沙利铂）+贝伐珠单抗3疗程；治疗期间出现背痛，阿片类止痛药无效，肿瘤标志物持续升高，增强CT提示肝转移灶进展；评估为化疗不敏感且不耐受；一线治疗后｜基因检测｜二代测序肿瘤组织DNA提示MSI-H\n人群线索：分子｜外院结肠镜活检｜KRAS G13D突变（检测方法未记载）；分子｜时间未明确（一线治疗后、二线治疗前）｜二代测序肿瘤组织DNA｜MSI-H；分子｜未记载｜RAS/BRAF其他位点、PD-L1、TMB等未记载\n匹配药物、人群、治疗阶段与决策终点，需该记录已报告原始研究结果。",
+            "toxicity_a": "XELOX+贝伐珠单抗 背痛 分级未提供 毒性识别 鉴别诊断 暂缓停药 再治疗条件 支持处理 正式指南",
+            "toxicity_b": ""
+          },
+          "retrieval_health": {
+            "ok": true,
+            "errors": []
+          },
+          "compression_report": {
+            "input_counts": {
+              "guideline_a_staging": 9,
+              "guideline_a": 8,
+              "guideline_b": 3,
+              "clinical_study_initial": 7,
+              "clinical_study_supplement": 0,
+              "irae_a": 2,
+              "irae_b": 0
+            },
+            "kept_counts": {
+              "guideline_a_staging": 4,
+              "guideline_a": 6,
+              "guideline_b": 3,
+              "clinical_study_initial": 1,
+              "clinical_study_supplement": 0,
+              "irae_a": 2,
+              "irae_b": 0
+            },
+            "kept_total": 16,
+            "dropped_total": 13,
+            "dropped": [
+              {
+                "lane": "guideline_a_staging",
+                "index": 4,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a_staging",
+                "index": 5,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a_staging",
+                "index": 6,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a_staging",
+                "index": 7,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a_staging",
+                "index": 8,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 6,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 7,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 0,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "dbf2339175a1467ad1709311d9c6ad70::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 2,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260724_135949_903301FC::3"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 3,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "7a8600c2386cc0ac651b22dba2011c77::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 4,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "86318ac1232a2d1e1bc1d87d4b1203b8::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 5,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "650445bd39b5bb256b4c8d89e0c1b8d0::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 6,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "19eff5ec6f28292ec399a5d07025323e::1"
+              }
+            ]
+          },
+          "first_round_raw": "",
+          "second_round_raw": "",
+          "parsed_second_round_draft": null,
+          "partial_draft_questions": [],
+          "model_execution": {
+            "model": "qwen3.8-flash",
+            "max_output_tokens_configured": 16000,
+            "first_round_char_count": 6006,
+            "second_round_char_count": 8776,
+            "finish_reason": null,
+            "finish_reason_availability": "not_exposed_by_workflow_outputs"
+          }
+        },
+        "flow_publishable": false,
+        "output_ready": true,
+        "medical_review_status": "not_performed",
+        "generation_status": "success",
+        "evidence_context_status": "provided"
+      }
+    ],
+    "warnings": []
+  }
+}

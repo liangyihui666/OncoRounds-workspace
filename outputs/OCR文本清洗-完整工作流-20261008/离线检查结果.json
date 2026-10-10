@@ -1,0 +1,33 @@
+{
+  "checks": [
+    {
+      "name": "完整JSON及全部代码语法有效",
+      "pass": true
+    },
+    {
+      "name": "全部边连接和变量引用有效，无文档解析引用残留",
+      "pass": true
+    },
+    {
+      "name": "纯文本及数组/序列化数组依序保留医学字符和日期",
+      "pass": true
+    },
+    {
+      "name": "空输入/错误类型/URL拒绝，不送入AI猜测",
+      "pass": true
+    },
+    {
+      "name": "原有下游字段、出题应用绑定、候选检查及JSON组装代码逐字保持",
+      "pass": true
+    },
+    {
+      "name": "只传文字，不启用模型文件/图片识别；使用附件原模型标识",
+      "pass": true
+    }
+  ],
+  "passed": 6,
+  "failed": 0,
+  "online_verified": false,
+  "medical_review_status": "not_performed",
+  "model_api_calls": 0
+}

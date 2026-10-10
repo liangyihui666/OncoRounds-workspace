@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "case_id": "CASE-9088ED9B",
+  "cancer_type": "胃食管结合部腺癌",
+  "generation_status": "success",
+  "difficulty": "进阶",
+  "question_count": 5,
+  "questions": [
+    {
+      "id": "Q1",
+      "type": "临床分期",
+      "phase": "初始分期：腋窝PET阳性病灶核实",
+      "timepoint": "当前教学复盘：初始分期：腋窝PET阳性病灶核实",
+      "question": "54岁男性，GEJ腺癌初步分期cT3N2M0。PET发现左腋窝淋巴结摄取增高，活检提示与疫苗接种相关的反应性改变。仅针对这一腋窝病灶，下列哪项解释最合理？",
+      "options": {
+        "A": "代谢增高更支持肿瘤转移，应据此按远处转移处理",
+        "B": "现有病理支持反应性改变，不宜仅凭PET判定转移",
+        "C": "反应性改变支持分期降低，可据此撤销区域淋巴结分期",
+        "D": "阴性病理支持免除全身复查，可直接进入局部治疗"
+      },
+      "answer": "B",
+      "answer_text": "现有病理支持反应性改变，不宜仅凭PET判定转移",
+      "explain": "FDG摄取增高并不特异于肿瘤。本例该病灶已有反应性病理解释，不应仅凭PET将其作为转移证据；若影像与取材仍不一致，应复核对应部位及充分性。这一结论只针对腋窝病灶，不能替代其他区域和远处病灶的完整分期。",
+      "keyPoint": "分期应整合影像与病理，且单个病灶的结论不可无限扩大。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "",
+        "split_index": null,
+        "type": "guideline",
+        "authority": "Onkopedia / DGHO",
+        "source_title": "Onkopedia：食管癌指南（2024），诊断与分期＋本例病理事实",
+        "source_version": "2024；存档版本",
+        "source_section": "",
+        "source_url": "https://www.onkopedia-guidelines.info/en/onkopedia/archive/guidelines/esophageal-cancer/version-02122025T174721/%40%40guideline/html/index.html",
+        "evidence_summary": "分期应整合影像与病理，且单个病灶的结论不可无限扩大。"
+      }
+    },
+    {
+      "id": "Q2",
+      "type": "辅助治疗证据",
+      "phase": "新辅助放化疗及手术后：ypT0N0",
+      "timepoint": "当前教学复盘：新辅助放化疗及手术后：ypT0N0",
+      "question": "患者完成新辅助放化疗及手术，切除标本达到pCR（ypT0N0），19枚淋巴结均无肿瘤。若仅依据CheckMate 577决定是否给予辅助纳武利尤单抗，最准确的结论是？",
+      "options": {
+        "A": "基线属局部晚期人群，足以按该研究支持常规辅助",
+        "B": "治疗前存在淋巴结受累，足以按残留病变人群处理",
+        "C": "术前PD-L1呈阳性表达，足以替代残留病变入组要求",
+        "D": "术后未发现残留病变，不在该研究直接验证的人群内"
+      },
+      "answer": "D",
+      "answer_text": "术后未发现残留病变，不在该研究直接验证的人群内",
+      "explain": "CheckMate 577纳入的是新辅助放化疗后R0切除、仍有病理残留的患者，未纳入pCR患者。不能仅依据该研究为ypT0N0患者确立常规辅助纳武利尤单抗的获益；这也不等于证明pCR患者在任何情境下均不能接受免疫治疗。",
+      "keyPoint": "辅助治疗证据的关键边界是术后病理残留，而非基线分期。",
+      "guidelineRef": {
+        "evidence_type": "临床研究",
+        "doc_id": "",
+        "split_index": null,
+        "type": "journal",
+        "authority": "相应研究组",
+        "source_title": "CheckMate 577原始研究，NEJM（2021）",
+        "source_version": "2021",
+        "source_section": "",
+        "source_url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2032125",
+        "evidence_summary": "辅助治疗证据的关键边界是术后病理残留，而非基线分期。"
+      }
+    },
+    {
+      "id": "Q3",
+      "type": "复发后治疗选择",
+      "phase": "术后约10个月：肝活检证实转移性复发",
+      "timepoint": "当前教学复盘：术后约10个月：肝活检证实转移性复发",
+      "question": "患者复发后准备开始转移阶段的一线治疗，HER2阴性、pMMR、PD-L1 CPS为5–9，同时CLDN18.2阳性。依据CheckMate 649，下列哪项最直接支持讨论纳武利尤单抗联合含铂化疗？",
+      "options": {
+        "A": "HER2阴性且CPS≥5，与研究主要疗效分析人群相符",
+        "B": "pMMR且既往达到pCR，提示免疫单药可替代联合化疗",
+        "C": "CLDN18.2表达阳性，提示该研究的免疫疗效更为显著",
+        "D": "复发前无辅助免疫治疗，提示无需再评估化疗适用性"
+      },
+      "answer": "A",
+      "answer_text": "HER2阴性且CPS≥5，与研究主要疗效分析人群相符",
+      "explain": "CheckMate 649在HER2非阳性晚期胃/GEJ/食管腺癌中评估纳武利尤单抗联合化疗，CPS≥5是主要疗效分析人群。本例提供了匹配依据；是否复用既往化疗仍需考虑停药间隔及耐受性。pMMR不排除联合免疫获益，CLDN18.2则属于另一治疗方向的标志物。",
+      "keyPoint": "把药物获益与对应的研究人群匹配，不混用不同靶点。",
+      "guidelineRef": {
+        "evidence_type": "临床研究",
+        "doc_id": "",
+        "split_index": null,
+        "type": "journal",
+        "authority": "相应研究组",
+        "source_title": "CheckMate 649原始研究，Lancet（2021）",
+        "source_version": "2021",
+        "source_section": "",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8436782/",
+        "evidence_summary": "把药物获益与对应的研究人群匹配，不混用不同靶点。"
+      }
+    },
+    {
+      "id": "Q4",
+      "type": "伴随诊断",
+      "phase": "复发后双阳性病例的靶向治疗评估",
+      "timepoint": "当前教学复盘：复发后双阳性病例的靶向治疗评估",
+      "question": "病例摘要仅记载“CLDN18.2阳性细胞比例＞75%”，未列染色强度。若参照SPOTLIGHT及FDA相应标签评估佐妥昔单抗的检测条件，首先应向病理科核实哪项信息？",
+      "options": {
+        "A": "是否存在CLDN18基因扩增，以及拷贝数达到何种阈值",
+        "B": "是否存在CLDN18基因融合，以及融合伴侣属于何种类型",
+        "C": "是否为合规检测的中至强膜染色，以及对应阳性细胞比例",
+        "D": "是否同时存在HER2蛋白高表达，以及两者是否同区域分布"
+      },
+      "answer": "C",
+      "answer_text": "是否为合规检测的中至强膜染色，以及对应阳性细胞比例",
+      "explain": "相应试验及FDA标签将阳性定义为至少75%的肿瘤细胞呈中至强膜染色，并有规定的检测要求。仅有阳性比例不足以确认完整条件；应核对原始报告，而不是假定强度已达标。题目讨论的是研究/标签检测标准，不替代所在地适应证核查。",
+      "keyPoint": "伴随诊断阈值同时包含染色部位、强度、比例和方法。",
+      "guidelineRef": {
+        "evidence_type": "药品说明书",
+        "doc_id": "",
+        "split_index": null,
+        "type": "drug_label",
+        "authority": "FDA",
+        "source_title": "Table of Pharmacogenomic Biomarkers in Drug Labeling — Zolbetuximab-clzb / VYLOY",
+        "source_version": "汇编更新2025-12；所引标签2024-10-18",
+        "source_section": "第341页；2.1 Patient Selection；14 Clinical Studies",
+        "source_url": "https://www.fda.gov/media/124784/download?attachment=",
+        "evidence_summary": "FDA汇编所引VYLOY标签要求至少75%肿瘤细胞呈中至强膜染色，并采用相应获批检测；单有阳性比例不足以确认完整条件。"
+      }
+    },
+    {
+      "id": "Q5",
+      "type": "研究证据比较",
+      "phase": "PD-L1与CLDN18.2双阳性的证据讨论",
+      "timepoint": "当前教学复盘：PD-L1与CLDN18.2双阳性的证据讨论",
+      "question": "MDT讨论本例双阳性患者的治疗证据。若仅比较CheckMate 649与SPOTLIGHT各自公布的风险比，能否据此认定免疫联合化疗或CLDN18.2靶向联合化疗对本例更优？",
+      "options": {
+        "A": "可按两项研究OS风险比的大小，排序两方案的优先级",
+        "B": "不宜直接比较，入组筛选与对照条件不同会影响结果",
+        "C": "可按两项研究PFS风险比的大小，排序两方案的优先级",
+        "D": "可按两项研究治疗组中位生存，排序两方案的优先级"
+      },
+      "answer": "B",
+      "answer_text": "不宜直接比较，入组筛选与对照条件不同会影响结果",
+      "explain": "两项研究并非两方案之间的随机头对头比较，生物标志物筛选、患者构成及研究条件不同。直接比较风险比或中位生存容易混入研究间差异。对本例应分别核对适用证据，再结合毒性、既往治疗、可及性和患者偏好讨论，不能用简单数值排名代替决策。",
+      "keyPoint": "各自优于化疗，不等于两种联合方案之间已分出优劣。",
+      "guidelineRef": {
+        "evidence_type": "临床研究",
+        "doc_id": "",
+        "split_index": null,
+        "type": "journal",
+        "authority": "相应研究组",
+        "source_title": "CheckMate 649：研究设计与入组人群",
+        "source_version": "2021",
+        "source_section": "",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8436782/",
+        "evidence_summary": "各自优于化疗，不等于两种联合方案之间已分出优劣。 补充核对来源：FDA：SPOTLIGHT/GLOW研究概览（https://www.fda.gov/drugs/drug-approvals-and-databases/drug-trials-snapshots-vyloy）。"
+      }
+    }
+  ],
+  "missing_information": []
+}

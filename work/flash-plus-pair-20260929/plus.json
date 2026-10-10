@@ -1,0 +1,1099 @@
+{
+  "selection_report": {
+    "schema_version": "triple-selection-1.0",
+    "candidate_count": 5,
+    "medical_approval_confirmed": false,
+    "source_groups": [
+      {
+        "group_id": "G1",
+        "parse_status": "OK",
+        "raw_question_count": 5,
+        "usable_question_count": 5,
+        "rejected_questions": [],
+        "warnings": [],
+        "audit": {
+          "availability": "not_provided"
+        },
+        "transport": {
+          "protocol": "single_json",
+          "json_block_count": 1,
+          "selected_block_index": 0,
+          "ignored_intermediate_blocks": 0,
+          "upstream_messages": []
+        },
+        "upstream_missing_information": [
+          "未记载胚系 BRCA 及体细胞 NGS 检测结果，可能影响靶向药物选择依据",
+          "2021 年复发灶活检具体取材部位未明确，可能影响代表性评估"
+        ],
+        "flow_status": "OUTPUT_READY",
+        "completion": {
+          "required_question_count": 5,
+          "available_question_count": 5,
+          "model_question_count": 5,
+          "complete": true
+        },
+        "program_check": {
+          "scope": "program_structure_and_reference_identity_only",
+          "decision": "PASS",
+          "errors": [],
+          "warnings": [
+            "同一证据定位4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0::362支持2题：复核是否考查不同真实决策；不设置复用题数配额"
+          ]
+        },
+        "workflow_diagnostics": {
+          "scope": "debug_only_not_learner_content",
+          "question_evidence_bindings": [
+            {
+              "question_id": "Q1",
+              "evidence_id": "GA04",
+              "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+              "split_index": 362,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q2",
+              "evidence_id": "GS03",
+              "doc_id": "b2719254-d290-4ec9-866b-51b36cafd1bc",
+              "split_index": 30,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q3",
+              "evidence_id": "GA06",
+              "doc_id": "f51ad2ef-8e21-42f9-bfd1-f2ed36512587",
+              "split_index": 82,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q4",
+              "evidence_id": "GA04",
+              "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+              "split_index": 362,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q5",
+              "evidence_id": "GA05",
+              "doc_id": "7f8a2463-763c-4669-a370-54fca8039124",
+              "split_index": 37,
+              "matching_record_count": 1
+            }
+          ],
+          "cited_evidence_snapshot": [
+            {
+              "evidence_id": "GS03",
+              "doc_id": "b2719254-d290-4ec9-866b-51b36cafd1bc",
+              "split_index": 30,
+              "type": "guideline",
+              "authority": "CSCO",
+              "source_title": "中国临床肿瘤学会（CSCO）乳腺癌诊疗指南 2026",
+              "source_version": "2026",
+              "source_section": "更新要点",
+              "source_url": "",
+              "snippet": "新增\n \n一、乳腺癌的诊断及检查\n \n（一）早期乳腺癌确诊检查<table><tr><td>部位</td><td>基本原则</td></tr><tr><td>原发肿瘤评估</td><td>1. 体格检查<br/>2. 双侧乳腺X线片<br/>3. 超声<br/>4. 乳腺磁共振¹<br/>5. 空芯针穿刺²</td></tr><tr><td>区域淋巴结评估</td><td>1. 体格检查<br/>2. 超声<br/>3. 可疑病灶空芯针穿刺/细针穿刺³</td></tr><tr><td>远处病灶的评估</td><td>1. 体格检查<br/>2. 胸部CT⁴<br/>3. 腹部±盆腔影像学检查⁵<br/>4. 骨放射性核素扫描⁶<br/>5. PET/CT⁷</td></tr></table>",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            },
+            {
+              "evidence_id": "GA04",
+              "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+              "split_index": 362,
+              "type": "guideline",
+              "authority": "CACA",
+              "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+              "source_version": "2026",
+              "source_section": "13.2.3.1 药物预防性治疗",
+              "source_url": "",
+              "snippet": "病理学确诊与分子分型再确认：对复发灶进行穿刺或切除活检，获取组织学诊断。必须重新检测ER、PR、HER2的表达及Ki- 67增殖指数。与原发肿瘤相比，受体状态可能发生改变（ \\$10\\% \\sim 40\\%\\$ ），直接影响后续治疗决策。必要时考虑TNBC检测PD- L1（CPS）、BRCA1/2胚系突变等。",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            },
+            {
+              "evidence_id": "GA05",
+              "doc_id": "7f8a2463-763c-4669-a370-54fca8039124",
+              "split_index": 37,
+              "type": "guideline",
+              "authority": "中华医学会病理学分会, CACA, 国家病理质控中心",
+              "source_title": "乳腺癌生物标志物检测临床应用指南",
+              "source_version": "2025",
+              "source_section": "六、乳腺癌生物标志物病理检测的质控",
+              "source_url": "",
+              "snippet": "包括二代测序、FISH以及PCR、IHC等在内的多种分子检测方法在乳腺癌生物标志物的检测中发挥着关键作用。这些技术的检测结果直接关联治疗方案制定、预后分层及遗传风险评估，因此检测结果的准确性和可靠性直接影响临床决策和患者预后，严格的质控措施对于确保检测结果的有效性和重复性至关重要。  \n检测前质量控制是确保检测成功的基础环节，组织样本的采集应严格遵循标准，确保离体后 \\$30\\mathrm{min}\\$ 内完成固定。应选用合适固定液，保证适当的固定时间，以避免DNA/RNA片段化或抗原降解。病理医师需评估肿瘤细胞含量，以确保检测结果不受正常细胞干扰。  \n实验室应采用经过充分验证的检测方法，并明确各项检测技术的关键参数，实验室应制定完备的室内质控方案，以保证检测的准确性和可靠性。同时，实验室应定期参加国家病理质控中心、CAP或EMQN等组织的能力验证；未通过项目须启动原因分析和采取纠正措施。准确解读检测结果并保持  \n表6基于BCI检测和CTS5网页工具指导HR+/HER2-乳腺癌患者的辅助治疗决策[28]  \n<table><tr><td>检测对象</td><td>治疗建议</td><td>推荐强度</td></tr><tr><td>接受5年初始内分泌治疗无复发的淋巴结阴性或1~3枚淋巴结阳性乳腺癌患者</td><td>推荐使用BCI检测指导强化内分泌治疗决策</td><td>中</td></tr><tr><td>接受5年初始内分泌治疗无复发的≥4枚淋巴结阳性的乳腺癌患者</td><td>证据尚不充分</td><td>中</td></tr><tr><td>5年辅助内分泌治疗后无复发的绝经后浸润性乳腺癌患者</td><td>CTS5网页工具计算5~10年晚期复发风险，辅助强化内分泌治疗决策</td><td>中</td></tr></table>  \n   \n与临床团队进行有效沟通至关重要。",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            },
+            {
+              "evidence_id": "GA06",
+              "doc_id": "f51ad2ef-8e21-42f9-bfd1-f2ed36512587",
+              "split_index": 82,
+              "type": "guideline",
+              "authority": "CACA",
+              "source_title": "中国肿瘤整合诊治技术指南（CACA） 病理诊断",
+              "source_version": "2023",
+              "source_section": "（五）分子病理诊断",
+              "source_url": "",
+              "snippet": "（五）分子病理诊断（1）乳腺癌分子分型是评估患者预后和指导个体化治疗的重要依据。临床中常用的分子分型替代方法，使用ER、PR、HER2和Ki67四个免疫组化标记物将浸润性乳腺癌分为腔面A型（luminalA）、腔面B型（luminalB）、HER2阳性型（HER2- enriched）和三阴性四个亚型。  \n   \n（2）基于多基因表达谱检测的复发风险评估：包括21基因（Oncotype Dx）、70基因（MammaPrint）、28基因（RecurIndex）、12基因（EndoPredict）和乳腺癌指数（breast cancer index，BCI）等，通过检测乳腺肿瘤组织基因mRNA表达水平为预后评估及疗效预测提供信息。  \n（3）乳腺癌易感基因（breast cancer susceptibility gene，BRCA1/2）包括BRCA1和BRCA2，5%\\~10%乳腺癌患者具有明确遗传基因突变，其中BRCA1/2占15%。BRCA1/2基因突变可导致HRD，其可能与铂类或聚二磷酸腺苷核糖聚合酶（poly ADP-ribose polymerase，PARP）抑制剂等疗效密切相关。目前一般采用NGS技术检测。Sanger测序用于验证BRCA1/2基因点突变和小片段插入/缺失；多重连接依赖性探针扩增（multiplex ligation-dependent probe amplification assay，MLPA）常用于BRCA1/2基因大片段重排的检测。  \n（4）特殊类型乳腺癌的分子病理诊断：分泌性癌常具有ETV6::NTRK3融合基因；腺样囊性癌具有MYB::NFIB融合基因、MYBL1基因重排或MYB基因扩增；黏液表皮样癌常伴有CRTC1::MAML2融合基因，乳腺腺肌上皮性肿瘤常存在HRAS Q61R/K热点突变；伴极性  \n   \n翻转的高细胞癌常存在IDH2 R172热点突变，上述基因改变可使用肿瘤组织标本通过FISH、qPCR或NGS进行检测。",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            }
+          ],
+          "retrieval_queries": {
+            "staging": "初始临床评估与分期指南\n原发诊断：乳腺癌\n初诊摘录：患者女，55岁，有乳腺癌家族史（其母于2007年确诊）；2017年3月因发现左乳肿块就诊，乳腺X线摄影和超声等影像学检查显示双乳可疑病变，活检证实左乳浸润性导管癌和右乳导管原位癌；当时已知信息包括家族史、影像学可疑病变及活检病理结果，尚未进行手术及术后分期评估\n匹配原发病种与分期检查、区域和远处病变评估，不用后续事实反推初诊。",
+            "molecular": "病理与分子检测及结果应用指南\n原发诊断：乳腺癌\n检测记录：2017年5月｜手术标本（左乳）｜免疫组化｜ER阳性（90%），Ki-67 11%，HER2阴性；2021年｜复发病灶活检｜免疫组化｜ER表达降低（30%），HER2维持阴性；未记载｜胚系检测｜未记载是否进行BRCA或其他胚系基因检测；未记载｜体细胞基因检测（如NGS）｜未记载是否进行体细胞基因检测\n关注检测时机、结果等待与治疗衔接；检索关键词不代表初诊已知结果。",
+            "treatment": "初始系统治疗及复评调整正式指南\n原发诊断：乳腺癌\n实际治疗：2022年10月｜停用内分泌治疗｜鉴于疾病进展为ER阴性；2017年5月｜左乳改良根治术及右乳切除术联合前哨淋巴结活检｜病理：左乳IDC（NST，2级，3.5×2.5×2.3 cm），腋窝LN 9/14阳性，前哨LN 2/6阳性；2019年5月｜发现骨转移｜继续内分泌治疗，病情仍出现进展；治疗方案更换为依西美坦联合帕博利珠单抗及戈舍瑞林\n检测记录：2017年5月｜手术标本（左乳）｜免疫组化｜ER阳性（90%），Ki-67 11%，HER2阴性；2021年｜复发病灶活检｜免疫组化｜ER表达降低（30%），HER2维持阴性\n覆盖初始治疗选择、局部与全身协调及毒性后方案调整，核对治疗阶段。",
+            "study": "匹配病例实际方案的原始临床研究\n原发诊断：乳腺癌\n方案和阶段：2022年10月｜停用内分泌治疗｜鉴于疾病进展为ER阴性；2017年5月｜左乳改良根治术及右乳切除术联合前哨淋巴结活检｜病理：左乳IDC（NST，2级，3.5×2.5×2.3 cm），腋窝LN 9/14阳性，前哨LN 2/6阳性；2019年5月｜发现骨转移｜继续内分泌治疗，病情仍出现进展；治疗方案更换为依西美坦联合帕博利珠单抗及戈舍瑞林\n人群线索：2017年5月｜手术标本（左乳）｜免疫组化｜ER阳性（90%），Ki-67 11%，HER2阴性；2021年｜复发病灶活检｜免疫组化｜ER表达降低（30%），HER2维持阴性\n匹配药物、人群、治疗阶段与决策终点，需该记录已报告原始研究结果。",
+            "toxicity_a": "",
+            "toxicity_b": ""
+          },
+          "retrieval_health": {
+            "ok": true,
+            "errors": []
+          },
+          "compression_report": {
+            "input_counts": {
+              "guideline_a_staging": 7,
+              "guideline_a": 9,
+              "guideline_b": 3,
+              "clinical_study_initial": 9,
+              "clinical_study_supplement": 8,
+              "irae_a": 0,
+              "irae_b": 0
+            },
+            "kept_counts": {
+              "guideline_a_staging": 4,
+              "guideline_a": 6,
+              "guideline_b": 2,
+              "clinical_study_initial": 0,
+              "clinical_study_supplement": 1,
+              "irae_a": 0,
+              "irae_b": 0
+            },
+            "kept_total": 13,
+            "dropped_total": 23,
+            "dropped": [
+              {
+                "lane": "guideline_a_staging",
+                "index": 4,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a_staging",
+                "index": 5,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a_staging",
+                "index": 6,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 6,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 7,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 8,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_b",
+                "index": 0,
+                "reason": "DUPLICATE_LOCATOR",
+                "locator": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0::362"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 0,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "15a270fc6ab0b9c555d66cad4a1ecf3a::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 1,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "830c78c0d1ed951af1e73148606560b3::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 2,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "23e9a5f78e3770869de505d188059f1a::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 3,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260804_135030_F7F9AB57::2"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 4,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260730_154039_57DA2048::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 5,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260803_175401_3988B21E::2"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 6,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260803_175401_4484FFFD::2"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 7,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260724_140026_DC64F8C2::2"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 8,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "0dc417dbdf4ef1eaa4271bc1c6c457f9::1"
+              },
+              {
+                "lane": "clinical_study_supplement",
+                "index": 0,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "5d07c6ce01faf33d937e147d7ca5dfda::1"
+              },
+              {
+                "lane": "clinical_study_supplement",
+                "index": 1,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "830c78c0d1ed951af1e73148606560b3::1"
+              },
+              {
+                "lane": "clinical_study_supplement",
+                "index": 3,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260804_135030_F7F9AB57::2"
+              },
+              {
+                "lane": "clinical_study_supplement",
+                "index": 4,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260730_154039_13A2858A::1"
+              },
+              {
+                "lane": "clinical_study_supplement",
+                "index": 5,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "0b77ec104eaaa38c770f04e715b0cf65::2"
+              },
+              {
+                "lane": "clinical_study_supplement",
+                "index": 6,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "cf91bb7d744c7e5ad03d51215637650e::1"
+              },
+              {
+                "lane": "clinical_study_supplement",
+                "index": 7,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260803_175401_4484FFFD::2"
+              }
+            ]
+          },
+          "second_round_raw": "",
+          "partial_draft_questions": []
+        },
+        "flow_publishable": false,
+        "output_ready": true,
+        "medical_review_status": "not_performed",
+        "generation_status": "success",
+        "evidence_context_status": "provided",
+        "workflow_revision": "20260929-unique-advanced-five"
+      }
+    ],
+    "selected": [
+      {
+        "final_id": "Q1",
+        "candidate_id": "G1_Q1",
+        "group_id": "G1",
+        "source_question_id": "Q1",
+        "evidence_status": "located",
+        "evidence_key": "G1_E1",
+        "source_question_audit": null,
+        "audit_scope": "original_candidate",
+        "answer_mapping": {
+          "original": "B",
+          "final": "B",
+          "order_preserved": true
+        }
+      },
+      {
+        "final_id": "Q2",
+        "candidate_id": "G1_Q2",
+        "group_id": "G1",
+        "source_question_id": "Q2",
+        "evidence_status": "located",
+        "evidence_key": "G1_E2",
+        "source_question_audit": null,
+        "audit_scope": "original_candidate",
+        "answer_mapping": {
+          "original": "C",
+          "final": "C",
+          "order_preserved": true
+        }
+      },
+      {
+        "final_id": "Q3",
+        "candidate_id": "G1_Q3",
+        "group_id": "G1",
+        "source_question_id": "Q3",
+        "evidence_status": "located",
+        "evidence_key": "G1_E3",
+        "source_question_audit": null,
+        "audit_scope": "original_candidate",
+        "answer_mapping": {
+          "original": "A",
+          "final": "A",
+          "order_preserved": true
+        }
+      },
+      {
+        "final_id": "Q4",
+        "candidate_id": "G1_Q4",
+        "group_id": "G1",
+        "source_question_id": "Q4",
+        "evidence_status": "located",
+        "evidence_key": "G1_E1",
+        "source_question_audit": null,
+        "audit_scope": "original_candidate",
+        "answer_mapping": {
+          "original": "D",
+          "final": "D",
+          "order_preserved": true
+        }
+      },
+      {
+        "final_id": "Q5",
+        "candidate_id": "G1_Q5",
+        "group_id": "G1",
+        "source_question_id": "Q5",
+        "evidence_status": "located",
+        "evidence_key": "G1_E4",
+        "source_question_audit": null,
+        "audit_scope": "original_candidate",
+        "answer_mapping": {
+          "original": "B",
+          "final": "B",
+          "order_preserved": true
+        }
+      }
+    ],
+    "selection_notes": [],
+    "warnings": [],
+    "notice": "本流程未进行独立医学审核；程序检查仅检查结构及引用定位，不代表医学正确性。",
+    "workflow_revision": "20260928-slim-five-outer",
+    "medical_review_status": "not_performed",
+    "required_question_count": 5,
+    "available_candidate_count": 5,
+    "workflow_status": "OUTPUT_READY",
+    "selection_method": "deterministic_original_order",
+    "editorial": {
+      "scope": "original_candidate_text_preserved",
+      "applied": [],
+      "rejected": []
+    },
+    "selection_status": "success",
+    "option_style_checks": [
+      {
+        "final_id": "Q1",
+        "candidate_id": "G1_Q1",
+        "version": "option-style-1.0",
+        "length_unit": "unicode_chars_excluding_spaces_punctuation_symbols",
+        "option_lengths": [
+          25,
+          25,
+          23,
+          22
+        ],
+        "answer_position": "B",
+        "correct_is_unique_longest": false,
+        "correct_to_distractor_median_ratio": 1.09,
+        "max_min_difference": 3,
+        "max_min_ratio": 1.14,
+        "absolute_phrase_positions": [],
+        "warning_codes": [],
+        "warnings": [],
+        "interpretation": "仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。"
+      },
+      {
+        "final_id": "Q2",
+        "candidate_id": "G1_Q2",
+        "version": "option-style-1.0",
+        "length_unit": "unicode_chars_excluding_spaces_punctuation_symbols",
+        "option_lengths": [
+          22,
+          23,
+          23,
+          22
+        ],
+        "answer_position": "C",
+        "correct_is_unique_longest": false,
+        "correct_to_distractor_median_ratio": 1.05,
+        "max_min_difference": 1,
+        "max_min_ratio": 1.05,
+        "absolute_phrase_positions": [],
+        "warning_codes": [],
+        "warnings": [],
+        "interpretation": "仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。"
+      },
+      {
+        "final_id": "Q3",
+        "candidate_id": "G1_Q3",
+        "version": "option-style-1.0",
+        "length_unit": "unicode_chars_excluding_spaces_punctuation_symbols",
+        "option_lengths": [
+          25,
+          23,
+          22,
+          21
+        ],
+        "answer_position": "A",
+        "correct_is_unique_longest": true,
+        "correct_to_distractor_median_ratio": 1.14,
+        "max_min_difference": 4,
+        "max_min_ratio": 1.19,
+        "absolute_phrase_positions": [],
+        "warning_codes": [],
+        "warnings": [],
+        "interpretation": "仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。"
+      },
+      {
+        "final_id": "Q4",
+        "candidate_id": "G1_Q4",
+        "version": "option-style-1.0",
+        "length_unit": "unicode_chars_excluding_spaces_punctuation_symbols",
+        "option_lengths": [
+          20,
+          20,
+          18,
+          19
+        ],
+        "answer_position": "D",
+        "correct_is_unique_longest": false,
+        "correct_to_distractor_median_ratio": 0.95,
+        "max_min_difference": 2,
+        "max_min_ratio": 1.11,
+        "absolute_phrase_positions": [],
+        "warning_codes": [],
+        "warnings": [],
+        "interpretation": "仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。"
+      },
+      {
+        "final_id": "Q5",
+        "candidate_id": "G1_Q5",
+        "version": "option-style-1.0",
+        "length_unit": "unicode_chars_excluding_spaces_punctuation_symbols",
+        "option_lengths": [
+          20,
+          21,
+          21,
+          20
+        ],
+        "answer_position": "B",
+        "correct_is_unique_longest": false,
+        "correct_to_distractor_median_ratio": 1.05,
+        "max_min_difference": 1,
+        "max_min_ratio": 1.05,
+        "absolute_phrase_positions": [],
+        "warning_codes": [],
+        "warnings": [],
+        "interpretation": "仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。"
+      }
+    ],
+    "answer_distribution": {
+      "A": 1,
+      "B": 2,
+      "C": 1,
+      "D": 1
+    },
+    "taxonomy_warnings": []
+  },
+  "selection_report_json": "{\"schema_version\":\"triple-selection-1.0\",\"candidate_count\":5,\"medical_approval_confirmed\":false,\"source_groups\":[{\"group_id\":\"G1\",\"parse_status\":\"OK\",\"raw_question_count\":5,\"usable_question_count\":5,\"rejected_questions\":[],\"warnings\":[],\"audit\":{\"availability\":\"not_provided\"},\"transport\":{\"protocol\":\"single_json\",\"json_block_count\":1,\"selected_block_index\":0,\"ignored_intermediate_blocks\":0,\"upstream_messages\":[]},\"upstream_missing_information\":[\"未记载胚系 BRCA 及体细胞 NGS 检测结果，可能影响靶向药物选择依据\",\"2021 年复发灶活检具体取材部位未明确，可能影响代表性评估\"],\"flow_status\":\"OUTPUT_READY\",\"completion\":{\"required_question_count\":5,\"available_question_count\":5,\"model_question_count\":5,\"complete\":true},\"program_check\":{\"scope\":\"program_structure_and_reference_identity_only\",\"decision\":\"PASS\",\"errors\":[],\"warnings\":[\"同一证据定位4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0::362支持2题：复核是否考查不同真实决策；不设置复用题数配额\"]},\"workflow_diagnostics\":{\"scope\":\"debug_only_not_learner_content\",\"question_evidence_bindings\":[{\"question_id\":\"Q1\",\"evidence_id\":\"GA04\",\"doc_id\":\"4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0\",\"split_index\":362,\"matching_record_count\":1},{\"question_id\":\"Q2\",\"evidence_id\":\"GS03\",\"doc_id\":\"b2719254-d290-4ec9-866b-51b36cafd1bc\",\"split_index\":30,\"matching_record_count\":1},{\"question_id\":\"Q3\",\"evidence_id\":\"GA06\",\"doc_id\":\"f51ad2ef-8e21-42f9-bfd1-f2ed36512587\",\"split_index\":82,\"matching_record_count\":1},{\"question_id\":\"Q4\",\"evidence_id\":\"GA04\",\"doc_id\":\"4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0\",\"split_index\":362,\"matching_record_count\":1},{\"question_id\":\"Q5\",\"evidence_id\":\"GA05\",\"doc_id\":\"7f8a2463-763c-4669-a370-54fca8039124\",\"split_index\":37,\"matching_record_count\":1}],\"cited_evidence_snapshot\":[{\"evidence_id\":\"GS03\",\"doc_id\":\"b2719254-d290-4ec9-866b-51b36cafd1bc\",\"split_index\":30,\"type\":\"guideline\",\"authority\":\"CSCO\",\"source_title\":\"中国临床肿瘤学会（CSCO）乳腺癌诊疗指南 2026\",\"source_version\":\"2026\",\"source_section\":\"更新要点\",\"source_url\":\"\",\"snippet\":\"新增\\n \\n一、乳腺癌的诊断及检查\\n \\n（一）早期乳腺癌确诊检查<table><tr><td>部位</td><td>基本原则</td></tr><tr><td>原发肿瘤评估</td><td>1. 体格检查<br/>2. 双侧乳腺X线片<br/>3. 超声<br/>4. 乳腺磁共振¹<br/>5. 空芯针穿刺²</td></tr><tr><td>区域淋巴结评估</td><td>1. 体格检查<br/>2. 超声<br/>3. 可疑病灶空芯针穿刺/细针穿刺³</td></tr><tr><td>远处病灶的评估</td><td>1. 体格检查<br/>2. 胸部CT⁴<br/>3. 腹部±盆腔影像学检查⁵<br/>4. 骨放射性核素扫描⁶<br/>5. PET/CT⁷</td></tr></table>\",\"hard_evidence_type\":\"指南\",\"reasoning_eligible\":true},{\"evidence_id\":\"GA04\",\"doc_id\":\"4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0\",\"split_index\":362,\"type\":\"guideline\",\"authority\":\"CACA\",\"source_title\":\"中国抗癌协会乳腺癌诊治指南与规范（2026 年版）\",\"source_version\":\"2026\",\"source_section\":\"13.2.3.1 药物预防性治疗\",\"source_url\":\"\",\"snippet\":\"病理学确诊与分子分型再确认：对复发灶进行穿刺或切除活检，获取组织学诊断。必须重新检测ER、PR、HER2的表达及Ki- 67增殖指数。与原发肿瘤相比，受体状态可能发生改变（ \\\\$10\\\\% \\\\sim 40\\\\%\\\\$ ），直接影响后续治疗决策。必要时考虑TNBC检测PD- L1（CPS）、BRCA1/2胚系突变等。\",\"hard_evidence_type\":\"指南\",\"reasoning_eligible\":true},{\"evidence_id\":\"GA05\",\"doc_id\":\"7f8a2463-763c-4669-a370-54fca8039124\",\"split_index\":37,\"type\":\"guideline\",\"authority\":\"中华医学会病理学分会, CACA, 国家病理质控中心\",\"source_title\":\"乳腺癌生物标志物检测临床应用指南\",\"source_version\":\"2025\",\"source_section\":\"六、乳腺癌生物标志物病理检测的质控\",\"source_url\":\"\",\"snippet\":\"包括二代测序、FISH以及PCR、IHC等在内的多种分子检测方法在乳腺癌生物标志物的检测中发挥着关键作用。这些技术的检测结果直接关联治疗方案制定、预后分层及遗传风险评估，因此检测结果的准确性和可靠性直接影响临床决策和患者预后，严格的质控措施对于确保检测结果的有效性和重复性至关重要。  \\n检测前质量控制是确保检测成功的基础环节，组织样本的采集应严格遵循标准，确保离体后 \\\\$30\\\\mathrm{min}\\\\$ 内完成固定。应选用合适固定液，保证适当的固定时间，以避免DNA/RNA片段化或抗原降解。病理医师需评估肿瘤细胞含量，以确保检测结果不受正常细胞干扰。  \\n实验室应采用经过充分验证的检测方法，并明确各项检测技术的关键参数，实验室应制定完备的室内质控方案，以保证检测的准确性和可靠性。同时，实验室应定期参加国家病理质控中心、CAP或EMQN等组织的能力验证；未通过项目须启动原因分析和采取纠正措施。准确解读检测结果并保持  \\n表6基于BCI检测和CTS5网页工具指导HR+/HER2-乳腺癌患者的辅助治疗决策[28]  \\n<table><tr><td>检测对象</td><td>治疗建议</td><td>推荐强度</td></tr><tr><td>接受5年初始内分泌治疗无复发的淋巴结阴性或1~3枚淋巴结阳性乳腺癌患者</td><td>推荐使用BCI检测指导强化内分泌治疗决策</td><td>中</td></tr><tr><td>接受5年初始内分泌治疗无复发的≥4枚淋巴结阳性的乳腺癌患者</td><td>证据尚不充分</td><td>中</td></tr><tr><td>5年辅助内分泌治疗后无复发的绝经后浸润性乳腺癌患者</td><td>CTS5网页工具计算5~10年晚期复发风险，辅助强化内分泌治疗决策</td><td>中</td></tr></table>  \\n   \\n与临床团队进行有效沟通至关重要。\",\"hard_evidence_type\":\"指南\",\"reasoning_eligible\":true},{\"evidence_id\":\"GA06\",\"doc_id\":\"f51ad2ef-8e21-42f9-bfd1-f2ed36512587\",\"split_index\":82,\"type\":\"guideline\",\"authority\":\"CACA\",\"source_title\":\"中国肿瘤整合诊治技术指南（CACA） 病理诊断\",\"source_version\":\"2023\",\"source_section\":\"（五）分子病理诊断\",\"source_url\":\"\",\"snippet\":\"（五）分子病理诊断（1）乳腺癌分子分型是评估患者预后和指导个体化治疗的重要依据。临床中常用的分子分型替代方法，使用ER、PR、HER2和Ki67四个免疫组化标记物将浸润性乳腺癌分为腔面A型（luminalA）、腔面B型（luminalB）、HER2阳性型（HER2- enriched）和三阴性四个亚型。  \\n   \\n（2）基于多基因表达谱检测的复发风险评估：包括21基因（Oncotype Dx）、70基因（MammaPrint）、28基因（RecurIndex）、12基因（EndoPredict）和乳腺癌指数（breast cancer index，BCI）等，通过检测乳腺肿瘤组织基因mRNA表达水平为预后评估及疗效预测提供信息。  \\n（3）乳腺癌易感基因（breast cancer susceptibility gene，BRCA1/2）包括BRCA1和BRCA2，5%\\\\~10%乳腺癌患者具有明确遗传基因突变，其中BRCA1/2占15%。BRCA1/2基因突变可导致HRD，其可能与铂类或聚二磷酸腺苷核糖聚合酶（poly ADP-ribose polymerase，PARP）抑制剂等疗效密切相关。目前一般采用NGS技术检测。Sanger测序用于验证BRCA1/2基因点突变和小片段插入/缺失；多重连接依赖性探针扩增（multiplex ligation-dependent probe amplification assay，MLPA）常用于BRCA1/2基因大片段重排的检测。  \\n（4）特殊类型乳腺癌的分子病理诊断：分泌性癌常具有ETV6::NTRK3融合基因；腺样囊性癌具有MYB::NFIB融合基因、MYBL1基因重排或MYB基因扩增；黏液表皮样癌常伴有CRTC1::MAML2融合基因，乳腺腺肌上皮性肿瘤常存在HRAS Q61R/K热点突变；伴极性  \\n   \\n翻转的高细胞癌常存在IDH2 R172热点突变，上述基因改变可使用肿瘤组织标本通过FISH、qPCR或NGS进行检测。\",\"hard_evidence_type\":\"指南\",\"reasoning_eligible\":true}],\"retrieval_queries\":{\"staging\":\"初始临床评估与分期指南\\n原发诊断：乳腺癌\\n初诊摘录：患者女，55岁，有乳腺癌家族史（其母于2007年确诊）；2017年3月因发现左乳肿块就诊，乳腺X线摄影和超声等影像学检查显示双乳可疑病变，活检证实左乳浸润性导管癌和右乳导管原位癌；当时已知信息包括家族史、影像学可疑病变及活检病理结果，尚未进行手术及术后分期评估\\n匹配原发病种与分期检查、区域和远处病变评估，不用后续事实反推初诊。\",\"molecular\":\"病理与分子检测及结果应用指南\\n原发诊断：乳腺癌\\n检测记录：2017年5月｜手术标本（左乳）｜免疫组化｜ER阳性（90%），Ki-67 11%，HER2阴性；2021年｜复发病灶活检｜免疫组化｜ER表达降低（30%），HER2维持阴性；未记载｜胚系检测｜未记载是否进行BRCA或其他胚系基因检测；未记载｜体细胞基因检测（如NGS）｜未记载是否进行体细胞基因检测\\n关注检测时机、结果等待与治疗衔接；检索关键词不代表初诊已知结果。\",\"treatment\":\"初始系统治疗及复评调整正式指南\\n原发诊断：乳腺癌\\n实际治疗：2022年10月｜停用内分泌治疗｜鉴于疾病进展为ER阴性；2017年5月｜左乳改良根治术及右乳切除术联合前哨淋巴结活检｜病理：左乳IDC（NST，2级，3.5×2.5×2.3 cm），腋窝LN 9/14阳性，前哨LN 2/6阳性；2019年5月｜发现骨转移｜继续内分泌治疗，病情仍出现进展；治疗方案更换为依西美坦联合帕博利珠单抗及戈舍瑞林\\n检测记录：2017年5月｜手术标本（左乳）｜免疫组化｜ER阳性（90%），Ki-67 11%，HER2阴性；2021年｜复发病灶活检｜免疫组化｜ER表达降低（30%），HER2维持阴性\\n覆盖初始治疗选择、局部与全身协调及毒性后方案调整，核对治疗阶段。\",\"study\":\"匹配病例实际方案的原始临床研究\\n原发诊断：乳腺癌\\n方案和阶段：2022年10月｜停用内分泌治疗｜鉴于疾病进展为ER阴性；2017年5月｜左乳改良根治术及右乳切除术联合前哨淋巴结活检｜病理：左乳IDC（NST，2级，3.5×2.5×2.3 cm），腋窝LN 9/14阳性，前哨LN 2/6阳性；2019年5月｜发现骨转移｜继续内分泌治疗，病情仍出现进展；治疗方案更换为依西美坦联合帕博利珠单抗及戈舍瑞林\\n人群线索：2017年5月｜手术标本（左乳）｜免疫组化｜ER阳性（90%），Ki-67 11%，HER2阴性；2021年｜复发病灶活检｜免疫组化｜ER表达降低（30%），HER2维持阴性\\n匹配药物、人群、治疗阶段与决策终点，需该记录已报告原始研究结果。\",\"toxicity_a\":\"\",\"toxicity_b\":\"\"},\"retrieval_health\":{\"ok\":true,\"errors\":[]},\"compression_report\":{\"input_counts\":{\"guideline_a_staging\":7,\"guideline_a\":9,\"guideline_b\":3,\"clinical_study_initial\":9,\"clinical_study_supplement\":8,\"irae_a\":0,\"irae_b\":0},\"kept_counts\":{\"guideline_a_staging\":4,\"guideline_a\":6,\"guideline_b\":2,\"clinical_study_initial\":0,\"clinical_study_supplement\":1,\"irae_a\":0,\"irae_b\":0},\"kept_total\":13,\"dropped_total\":23,\"dropped\":[{\"lane\":\"guideline_a_staging\",\"index\":4,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"guideline_a_staging\",\"index\":5,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"guideline_a_staging\",\"index\":6,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"guideline_a\",\"index\":6,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"guideline_a\",\"index\":7,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"guideline_a\",\"index\":8,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"guideline_b\",\"index\":0,\"reason\":\"DUPLICATE_LOCATOR\",\"locator\":\"4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0::362\"},{\"lane\":\"clinical_study_initial\",\"index\":0,\"reason\":\"INELIGIBLE_SOURCE\",\"locator\":\"15a270fc6ab0b9c555d66cad4a1ecf3a::1\"},{\"lane\":\"clinical_study_initial\",\"index\":1,\"reason\":\"INELIGIBLE_SOURCE\",\"locator\":\"830c78c0d1ed951af1e73148606560b3::1\"},{\"lane\":\"clinical_study_initial\",\"index\":2,\"reason\":\"INELIGIBLE_SOURCE\",\"locator\":\"23e9a5f78e3770869de505d188059f1a::1\"},{\"lane\":\"clinical_study_initial\",\"index\":3,\"reason\":\"INELIGIBLE_SOURCE\",\"locator\":\"MEETING_20260804_135030_F7F9AB57::2\"},{\"lane\":\"clinical_study_initial\",\"index\":4,\"reason\":\"INELIGIBLE_SOURCE\",\"locator\":\"MEETING_20260730_154039_57DA2048::1\"},{\"lane\":\"clinical_study_initial\",\"index\":5,\"reason\":\"INELIGIBLE_SOURCE\",\"locator\":\"MEETING_20260803_175401_3988B21E::2\"},{\"lane\":\"clinical_study_initial\",\"index\":6,\"reason\":\"INELIGIBLE_SOURCE\",\"locator\":\"MEETING_20260803_175401_4484FFFD::2\"},{\"lane\":\"clinical_study_initial\",\"index\":7,\"reason\":\"INELIGIBLE_SOURCE\",\"locator\":\"MEETING_20260724_140026_DC64F8C2::2\"},{\"lane\":\"clinical_study_initial\",\"index\":8,\"reason\":\"INELIGIBLE_SOURCE\",\"locator\":\"0dc417dbdf4ef1eaa4271bc1c6c457f9::1\"},{\"lane\":\"clinical_study_supplement\",\"index\":0,\"reason\":\"INELIGIBLE_SOURCE\",\"locator\":\"5d07c6ce01faf33d937e147d7ca5dfda::1\"},{\"lane\":\"clinical_study_supplement\",\"index\":1,\"reason\":\"INELIGIBLE_SOURCE\",\"locator\":\"830c78c0d1ed951af1e73148606560b3::1\"},{\"lane\":\"clinical_study_supplement\",\"index\":3,\"reason\":\"INELIGIBLE_SOURCE\",\"locator\":\"MEETING_20260804_135030_F7F9AB57::2\"},{\"lane\":\"clinical_study_supplement\",\"index\":4,\"reason\":\"INELIGIBLE_SOURCE\",\"locator\":\"MEETING_20260730_154039_13A2858A::1\"},{\"lane\":\"clinical_study_supplement\",\"index\":5,\"reason\":\"INELIGIBLE_SOURCE\",\"locator\":\"0b77ec104eaaa38c770f04e715b0cf65::2\"},{\"lane\":\"clinical_study_supplement\",\"index\":6,\"reason\":\"INELIGIBLE_SOURCE\",\"locator\":\"cf91bb7d744c7e5ad03d51215637650e::1\"},{\"lane\":\"clinical_study_supplement\",\"index\":7,\"reason\":\"INELIGIBLE_SOURCE\",\"locator\":\"MEETING_20260803_175401_4484FFFD::2\"}]},\"second_round_raw\":\"\",\"partial_draft_questions\":[]},\"flow_publishable\":false,\"output_ready\":true,\"medical_review_status\":\"not_performed\",\"generation_status\":\"success\",\"evidence_context_status\":\"provided\",\"workflow_revision\":\"20260929-unique-advanced-five\"}],\"selected\":[{\"final_id\":\"Q1\",\"candidate_id\":\"G1_Q1\",\"group_id\":\"G1\",\"source_question_id\":\"Q1\",\"evidence_status\":\"located\",\"evidence_key\":\"G1_E1\",\"source_question_audit\":null,\"audit_scope\":\"original_candidate\",\"answer_mapping\":{\"original\":\"B\",\"final\":\"B\",\"order_preserved\":true}},{\"final_id\":\"Q2\",\"candidate_id\":\"G1_Q2\",\"group_id\":\"G1\",\"source_question_id\":\"Q2\",\"evidence_status\":\"located\",\"evidence_key\":\"G1_E2\",\"source_question_audit\":null,\"audit_scope\":\"original_candidate\",\"answer_mapping\":{\"original\":\"C\",\"final\":\"C\",\"order_preserved\":true}},{\"final_id\":\"Q3\",\"candidate_id\":\"G1_Q3\",\"group_id\":\"G1\",\"source_question_id\":\"Q3\",\"evidence_status\":\"located\",\"evidence_key\":\"G1_E3\",\"source_question_audit\":null,\"audit_scope\":\"original_candidate\",\"answer_mapping\":{\"original\":\"A\",\"final\":\"A\",\"order_preserved\":true}},{\"final_id\":\"Q4\",\"candidate_id\":\"G1_Q4\",\"group_id\":\"G1\",\"source_question_id\":\"Q4\",\"evidence_status\":\"located\",\"evidence_key\":\"G1_E1\",\"source_question_audit\":null,\"audit_scope\":\"original_candidate\",\"answer_mapping\":{\"original\":\"D\",\"final\":\"D\",\"order_preserved\":true}},{\"final_id\":\"Q5\",\"candidate_id\":\"G1_Q5\",\"group_id\":\"G1\",\"source_question_id\":\"Q5\",\"evidence_status\":\"located\",\"evidence_key\":\"G1_E4\",\"source_question_audit\":null,\"audit_scope\":\"original_candidate\",\"answer_mapping\":{\"original\":\"B\",\"final\":\"B\",\"order_preserved\":true}}],\"selection_notes\":[],\"warnings\":[],\"notice\":\"本流程未进行独立医学审核；程序检查仅检查结构及引用定位，不代表医学正确性。\",\"workflow_revision\":\"20260928-slim-five-outer\",\"medical_review_status\":\"not_performed\",\"required_question_count\":5,\"available_candidate_count\":5,\"workflow_status\":\"OUTPUT_READY\",\"selection_method\":\"deterministic_original_order\",\"editorial\":{\"scope\":\"original_candidate_text_preserved\",\"applied\":[],\"rejected\":[]},\"selection_status\":\"success\",\"option_style_checks\":[{\"final_id\":\"Q1\",\"candidate_id\":\"G1_Q1\",\"version\":\"option-style-1.0\",\"length_unit\":\"unicode_chars_excluding_spaces_punctuation_symbols\",\"option_lengths\":[25,25,23,22],\"answer_position\":\"B\",\"correct_is_unique_longest\":false,\"correct_to_distractor_median_ratio\":1.09,\"max_min_difference\":3,\"max_min_ratio\":1.14,\"absolute_phrase_positions\":[],\"warning_codes\":[],\"warnings\":[],\"interpretation\":\"仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。\"},{\"final_id\":\"Q2\",\"candidate_id\":\"G1_Q2\",\"version\":\"option-style-1.0\",\"length_unit\":\"unicode_chars_excluding_spaces_punctuation_symbols\",\"option_lengths\":[22,23,23,22],\"answer_position\":\"C\",\"correct_is_unique_longest\":false,\"correct_to_distractor_median_ratio\":1.05,\"max_min_difference\":1,\"max_min_ratio\":1.05,\"absolute_phrase_positions\":[],\"warning_codes\":[],\"warnings\":[],\"interpretation\":\"仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。\"},{\"final_id\":\"Q3\",\"candidate_id\":\"G1_Q3\",\"version\":\"option-style-1.0\",\"length_unit\":\"unicode_chars_excluding_spaces_punctuation_symbols\",\"option_lengths\":[25,23,22,21],\"answer_position\":\"A\",\"correct_is_unique_longest\":true,\"correct_to_distractor_median_ratio\":1.14,\"max_min_difference\":4,\"max_min_ratio\":1.19,\"absolute_phrase_positions\":[],\"warning_codes\":[],\"warnings\":[],\"interpretation\":\"仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。\"},{\"final_id\":\"Q4\",\"candidate_id\":\"G1_Q4\",\"version\":\"option-style-1.0\",\"length_unit\":\"unicode_chars_excluding_spaces_punctuation_symbols\",\"option_lengths\":[20,20,18,19],\"answer_position\":\"D\",\"correct_is_unique_longest\":false,\"correct_to_distractor_median_ratio\":0.95,\"max_min_difference\":2,\"max_min_ratio\":1.11,\"absolute_phrase_positions\":[],\"warning_codes\":[],\"warnings\":[],\"interpretation\":\"仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。\"},{\"final_id\":\"Q5\",\"candidate_id\":\"G1_Q5\",\"version\":\"option-style-1.0\",\"length_unit\":\"unicode_chars_excluding_spaces_punctuation_symbols\",\"option_lengths\":[20,21,21,20],\"answer_position\":\"B\",\"correct_is_unique_longest\":false,\"correct_to_distractor_median_ratio\":1.05,\"max_min_difference\":1,\"max_min_ratio\":1.05,\"absolute_phrase_positions\":[],\"warning_codes\":[],\"warnings\":[],\"interpretation\":\"仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。\"}],\"answer_distribution\":{\"A\":1,\"B\":2,\"C\":1,\"D\":1},\"taxonomy_warnings\":[]}",
+  "quality_notice": "本流程未进行独立医学审核；程序检查仅检查结构及引用定位，不代表医学正确性。",
+  "final_data": {
+    "schema_version": "1.0",
+    "case_id": "CASE-9FD1CF5",
+    "cancer_type": "乳腺癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "分子诊断",
+        "phase": "复发转移",
+        "timepoint": "2024 年 9 月",
+        "question": "2024 年直肠转移灶活检证实为乳腺癌转移，关于该复发灶生物标志物检测，下列哪项正确？",
+        "options": {
+          "A": "直接沿用 2017 年原发肿瘤免疫组化结果指导后续用药",
+          "B": "必须重新检测 ER、PR、HER2 表达及 Ki-67 增殖指数",
+          "C": "仅需病理形态学确认无需进行分子分型检测指导用药",
+          "D": "仅检测肠道来源标志物排除原发肠癌即可制定方案"
+        },
+        "answer": "B",
+        "answer_text": "必须重新检测 ER、PR、HER2 表达及 Ki-67 增殖指数",
+        "explain": "A｜不正确：受体状态可能发生改变，指南明确不能直接沿用旧结果影响决策\nB｜正确：指南规定复发灶必须重新检测受体及 Ki-67，因状态改变直接影响治疗\nC｜不正确：分子分型直接决定全身治疗方案，仅形态学确认不足以指导用药\nD｜不正确：确认乳腺癌来源后仍需检测乳腺癌相关受体以指导后续全身治疗",
+        "keyPoint": "复发转移灶必须重新检测生物标志物以指导治疗",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+          "split_index": 362,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+          "source_version": "2026",
+          "source_section": "13.2.3.1 药物预防性治疗",
+          "source_url": "",
+          "evidence_summary": "复发灶必须重新检测 ER、PR、HER2 及 Ki-67，受体状态可能改变直接影响决策"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "诊断与分期",
+        "phase": "初诊",
+        "timepoint": "2017 年 3 月",
+        "question": "2017 年确诊早期乳腺癌时，关于初始分期评估检查项目，下列哪项正确？",
+        "options": {
+          "A": "仅需完成双侧乳腺及腋窝影像学检查排除局部病变",
+          "B": "所有患者必须常规进行全身 PET-CT 检查明确分期",
+          "C": "应包含远处病灶评估如胸部 CT 及骨放射性核素扫描",
+          "D": "无症状患者无需进行腹部盆腔影像学检查评估转移"
+        },
+        "answer": "C",
+        "answer_text": "应包含远处病灶评估如胸部 CT 及骨放射性核素扫描",
+        "explain": "A｜不正确：分期评估需涵盖远处病灶，仅乳腺腋窝检查不足以排除远处转移\nB｜不正确：指南未规定所有早期患者必须常规进行全身 PET-CT 检查作为首选\nC｜正确：指南早期乳腺癌确诊检查表明确包含胸部 CT 及骨扫描等远处评估\nD｜不正确：指南建议腹部盆腔影像学检查作为远处病灶评估的一部分，非无需进行",
+        "keyPoint": "早期乳腺癌确诊需完成包括远处病灶在内的全面分期评估",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "b2719254-d290-4ec9-866b-51b36cafd1bc",
+          "split_index": 30,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会（CSCO）乳腺癌诊疗指南 2026",
+          "source_version": "2026",
+          "source_section": "更新要点",
+          "source_url": "",
+          "evidence_summary": "早期乳腺癌确诊检查包括原发肿瘤、区域淋巴结及远处病灶评估如 CT 骨扫描"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "分子诊断",
+        "phase": "复发转移",
+        "timepoint": "2022 年 10 月",
+        "question": "2022 年患者 HR 完全缺失且 HER2 阴性，关于此时分子分型判定，下列哪项正确？",
+        "options": {
+          "A": "依据当前复发灶 ER/PR/HER2/Ki-67 结果划分亚型",
+          "B": "依据 2017 年原发灶免疫组化结果维持原分型不变",
+          "C": "分子分型无需参考 Ki-67 增殖指数仅需受体状态",
+          "D": "仅依据基因检测结果确定分子亚型忽略免疫组化"
+        },
+        "answer": "A",
+        "answer_text": "依据当前复发灶 ER/PR/HER2/Ki-67 结果划分亚型",
+        "explain": "A｜正确：指南指出使用 ER、PR、HER2 和 Ki67 四个标记物将浸润性乳腺癌分为亚型\nB｜不正确：受体状态可能发生改变，应依据当前复发灶结果而非原发灶历史结果\nC｜不正确：Ki-67 增殖指数是分子分型替代方法中的四个关键标记物之一不可缺\nD｜不正确：临床常用分子分型替代方法基于免疫组化标记物而非仅基因检测结果",
+        "keyPoint": "分子分型应基于当前肿瘤组织的免疫组化标记物结果",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "f51ad2ef-8e21-42f9-bfd1-f2ed36512587",
+          "split_index": 82,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 病理诊断",
+          "source_version": "2023",
+          "source_section": "（五）分子病理诊断",
+          "source_url": "",
+          "evidence_summary": "常用分子分型替代方法使用 ER、PR、HER2 和 Ki67 四个免疫组化标记物"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "治疗决策",
+        "phase": "复发转移",
+        "timepoint": "2024 年 8 月",
+        "question": "2024 年 8 月患者出现排便习惯改变及 CT 示直肠壁增厚，下列哪项处理正确？",
+        "options": {
+          "A": "直接行直肠切除术以解除梗阻并获取病理标本",
+          "B": "仅给予对症支持治疗无需进一步明确病变性质",
+          "C": "立即开始全身化疗无需等待病理确诊结果",
+          "D": "行结肠镜检查及活检以明确病变性质及来源"
+        },
+        "answer": "D",
+        "answer_text": "行结肠镜检查及活检以明确病变性质及来源",
+        "explain": "A｜不正确：广泛转移且全身状况差时首选微创确诊，直接手术创伤大且非首选确诊方式\nB｜不正确：明确病变性质对后续治疗决策至关重要，不能仅给予对症支持治疗\nC｜不正确：全身治疗需依据病理确诊及分子分型，未确诊前开始化疗缺乏依据\nD｜正确：指南要求对复发灶进行穿刺或切除活检获取组织学诊断以指导治疗",
+        "keyPoint": "复发灶需经病理活检确诊以指导后续治疗决策",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+          "split_index": 362,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+          "source_version": "2026",
+          "source_section": "13.2.3.1 药物预防性治疗",
+          "source_url": "",
+          "evidence_summary": "对复发灶进行穿刺或切除活检，获取组织学诊断，指导后续治疗决策"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "分子诊断",
+        "phase": "复发转移",
+        "timepoint": "2021 年至 2022 年",
+        "question": "病程中 ER 从 90% 降至 30% 再至完全缺失，关于检测结果管理，下列哪项正确？",
+        "options": {
+          "A": "视为实验室误差直接忽略不计维持原治疗方案",
+          "B": "需确保检测质控并与临床团队有效沟通结果意义",
+          "C": "仅由病理医师单方面解读无需临床提供病史资料",
+          "D": "直接采纳结果无需评估检测质量立即更换药物"
+        },
+        "answer": "B",
+        "answer_text": "需确保检测质控并与临床团队有效沟通结果意义",
+        "explain": "A｜不正确：受体状态改变可能发生，需质控确认而非视为误差忽略，影响决策\nB｜正确：指南强调准确解读检测结果并保持与临床团队进行有效沟通至关重要\nC｜不正确：临床医师需提供完整临床资料，非仅由病理医师单方面解读结果\nD｜不正确：检测结果直接影响临床决策，需评估检测质量而非直接采纳更换药物",
+        "keyPoint": "检测结果准确性依赖质控及临床病理团队的有效沟通",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "7f8a2463-763c-4669-a370-54fca8039124",
+          "split_index": 37,
+          "type": "guideline",
+          "authority": "中华医学会病理学分会, CACA, 国家病理质控中心",
+          "source_title": "乳腺癌生物标志物检测临床应用指南",
+          "source_version": "2025",
+          "source_section": "六、乳腺癌生物标志物病理检测的质控",
+          "source_url": "",
+          "evidence_summary": "准确解读检测结果并保持与临床团队进行有效沟通至关重要，需严格质控"
+        }
+      }
+    ],
+    "missing_information": [
+      "未记载胚系 BRCA 及体细胞 NGS 检测结果，可能影响靶向药物选择依据",
+      "2021 年复发灶活检具体取材部位未明确，可能影响代表性评估"
+    ]
+  },
+  "final_json": "{\"schema_version\":\"1.0\",\"case_id\":\"CASE-9FD1CF5\",\"cancer_type\":\"乳腺癌\",\"generation_status\":\"success\",\"difficulty\":\"进阶\",\"question_count\":5,\"questions\":[{\"id\":\"Q1\",\"type\":\"分子诊断\",\"phase\":\"复发转移\",\"timepoint\":\"2024 年 9 月\",\"question\":\"2024 年直肠转移灶活检证实为乳腺癌转移，关于该复发灶生物标志物检测，下列哪项正确？\",\"options\":{\"A\":\"直接沿用 2017 年原发肿瘤免疫组化结果指导后续用药\",\"B\":\"必须重新检测 ER、PR、HER2 表达及 Ki-67 增殖指数\",\"C\":\"仅需病理形态学确认无需进行分子分型检测指导用药\",\"D\":\"仅检测肠道来源标志物排除原发肠癌即可制定方案\"},\"answer\":\"B\",\"answer_text\":\"必须重新检测 ER、PR、HER2 表达及 Ki-67 增殖指数\",\"explain\":\"A｜不正确：受体状态可能发生改变，指南明确不能直接沿用旧结果影响决策\\nB｜正确：指南规定复发灶必须重新检测受体及 Ki-67，因状态改变直接影响治疗\\nC｜不正确：分子分型直接决定全身治疗方案，仅形态学确认不足以指导用药\\nD｜不正确：确认乳腺癌来源后仍需检测乳腺癌相关受体以指导后续全身治疗\",\"keyPoint\":\"复发转移灶必须重新检测生物标志物以指导治疗\",\"guidelineRef\":{\"evidence_type\":\"指南\",\"doc_id\":\"4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0\",\"split_index\":362,\"type\":\"guideline\",\"authority\":\"CACA\",\"source_title\":\"中国抗癌协会乳腺癌诊治指南与规范（2026 年版）\",\"source_version\":\"2026\",\"source_section\":\"13.2.3.1 药物预防性治疗\",\"source_url\":\"\",\"evidence_summary\":\"复发灶必须重新检测 ER、PR、HER2 及 Ki-67，受体状态可能改变直接影响决策\"}},{\"id\":\"Q2\",\"type\":\"诊断与分期\",\"phase\":\"初诊\",\"timepoint\":\"2017 年 3 月\",\"question\":\"2017 年确诊早期乳腺癌时，关于初始分期评估检查项目，下列哪项正确？\",\"options\":{\"A\":\"仅需完成双侧乳腺及腋窝影像学检查排除局部病变\",\"B\":\"所有患者必须常规进行全身 PET-CT 检查明确分期\",\"C\":\"应包含远处病灶评估如胸部 CT 及骨放射性核素扫描\",\"D\":\"无症状患者无需进行腹部盆腔影像学检查评估转移\"},\"answer\":\"C\",\"answer_text\":\"应包含远处病灶评估如胸部 CT 及骨放射性核素扫描\",\"explain\":\"A｜不正确：分期评估需涵盖远处病灶，仅乳腺腋窝检查不足以排除远处转移\\nB｜不正确：指南未规定所有早期患者必须常规进行全身 PET-CT 检查作为首选\\nC｜正确：指南早期乳腺癌确诊检查表明确包含胸部 CT 及骨扫描等远处评估\\nD｜不正确：指南建议腹部盆腔影像学检查作为远处病灶评估的一部分，非无需进行\",\"keyPoint\":\"早期乳腺癌确诊需完成包括远处病灶在内的全面分期评估\",\"guidelineRef\":{\"evidence_type\":\"指南\",\"doc_id\":\"b2719254-d290-4ec9-866b-51b36cafd1bc\",\"split_index\":30,\"type\":\"guideline\",\"authority\":\"CSCO\",\"source_title\":\"中国临床肿瘤学会（CSCO）乳腺癌诊疗指南 2026\",\"source_version\":\"2026\",\"source_section\":\"更新要点\",\"source_url\":\"\",\"evidence_summary\":\"早期乳腺癌确诊检查包括原发肿瘤、区域淋巴结及远处病灶评估如 CT 骨扫描\"}},{\"id\":\"Q3\",\"type\":\"分子诊断\",\"phase\":\"复发转移\",\"timepoint\":\"2022 年 10 月\",\"question\":\"2022 年患者 HR 完全缺失且 HER2 阴性，关于此时分子分型判定，下列哪项正确？\",\"options\":{\"A\":\"依据当前复发灶 ER/PR/HER2/Ki-67 结果划分亚型\",\"B\":\"依据 2017 年原发灶免疫组化结果维持原分型不变\",\"C\":\"分子分型无需参考 Ki-67 增殖指数仅需受体状态\",\"D\":\"仅依据基因检测结果确定分子亚型忽略免疫组化\"},\"answer\":\"A\",\"answer_text\":\"依据当前复发灶 ER/PR/HER2/Ki-67 结果划分亚型\",\"explain\":\"A｜正确：指南指出使用 ER、PR、HER2 和 Ki67 四个标记物将浸润性乳腺癌分为亚型\\nB｜不正确：受体状态可能发生改变，应依据当前复发灶结果而非原发灶历史结果\\nC｜不正确：Ki-67 增殖指数是分子分型替代方法中的四个关键标记物之一不可缺\\nD｜不正确：临床常用分子分型替代方法基于免疫组化标记物而非仅基因检测结果\",\"keyPoint\":\"分子分型应基于当前肿瘤组织的免疫组化标记物结果\",\"guidelineRef\":{\"evidence_type\":\"指南\",\"doc_id\":\"f51ad2ef-8e21-42f9-bfd1-f2ed36512587\",\"split_index\":82,\"type\":\"guideline\",\"authority\":\"CACA\",\"source_title\":\"中国肿瘤整合诊治技术指南（CACA） 病理诊断\",\"source_version\":\"2023\",\"source_section\":\"（五）分子病理诊断\",\"source_url\":\"\",\"evidence_summary\":\"常用分子分型替代方法使用 ER、PR、HER2 和 Ki67 四个免疫组化标记物\"}},{\"id\":\"Q4\",\"type\":\"治疗决策\",\"phase\":\"复发转移\",\"timepoint\":\"2024 年 8 月\",\"question\":\"2024 年 8 月患者出现排便习惯改变及 CT 示直肠壁增厚，下列哪项处理正确？\",\"options\":{\"A\":\"直接行直肠切除术以解除梗阻并获取病理标本\",\"B\":\"仅给予对症支持治疗无需进一步明确病变性质\",\"C\":\"立即开始全身化疗无需等待病理确诊结果\",\"D\":\"行结肠镜检查及活检以明确病变性质及来源\"},\"answer\":\"D\",\"answer_text\":\"行结肠镜检查及活检以明确病变性质及来源\",\"explain\":\"A｜不正确：广泛转移且全身状况差时首选微创确诊，直接手术创伤大且非首选确诊方式\\nB｜不正确：明确病变性质对后续治疗决策至关重要，不能仅给予对症支持治疗\\nC｜不正确：全身治疗需依据病理确诊及分子分型，未确诊前开始化疗缺乏依据\\nD｜正确：指南要求对复发灶进行穿刺或切除活检获取组织学诊断以指导治疗\",\"keyPoint\":\"复发灶需经病理活检确诊以指导后续治疗决策\",\"guidelineRef\":{\"evidence_type\":\"指南\",\"doc_id\":\"4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0\",\"split_index\":362,\"type\":\"guideline\",\"authority\":\"CACA\",\"source_title\":\"中国抗癌协会乳腺癌诊治指南与规范（2026 年版）\",\"source_version\":\"2026\",\"source_section\":\"13.2.3.1 药物预防性治疗\",\"source_url\":\"\",\"evidence_summary\":\"对复发灶进行穿刺或切除活检，获取组织学诊断，指导后续治疗决策\"}},{\"id\":\"Q5\",\"type\":\"分子诊断\",\"phase\":\"复发转移\",\"timepoint\":\"2021 年至 2022 年\",\"question\":\"病程中 ER 从 90% 降至 30% 再至完全缺失，关于检测结果管理，下列哪项正确？\",\"options\":{\"A\":\"视为实验室误差直接忽略不计维持原治疗方案\",\"B\":\"需确保检测质控并与临床团队有效沟通结果意义\",\"C\":\"仅由病理医师单方面解读无需临床提供病史资料\",\"D\":\"直接采纳结果无需评估检测质量立即更换药物\"},\"answer\":\"B\",\"answer_text\":\"需确保检测质控并与临床团队有效沟通结果意义\",\"explain\":\"A｜不正确：受体状态改变可能发生，需质控确认而非视为误差忽略，影响决策\\nB｜正确：指南强调准确解读检测结果并保持与临床团队进行有效沟通至关重要\\nC｜不正确：临床医师需提供完整临床资料，非仅由病理医师单方面解读结果\\nD｜不正确：检测结果直接影响临床决策，需评估检测质量而非直接采纳更换药物\",\"keyPoint\":\"检测结果准确性依赖质控及临床病理团队的有效沟通\",\"guidelineRef\":{\"evidence_type\":\"指南\",\"doc_id\":\"7f8a2463-763c-4669-a370-54fca8039124\",\"split_index\":37,\"type\":\"guideline\",\"authority\":\"中华医学会病理学分会, CACA, 国家病理质控中心\",\"source_title\":\"乳腺癌生物标志物检测临床应用指南\",\"source_version\":\"2025\",\"source_section\":\"六、乳腺癌生物标志物病理检测的质控\",\"source_url\":\"\",\"evidence_summary\":\"准确解读检测结果并保持与临床团队进行有效沟通至关重要，需严格质控\"}}],\"missing_information\":[\"未记载胚系 BRCA 及体细胞 NGS 检测结果，可能影响靶向药物选择依据\",\"2021 年复发灶活检具体取材部位未明确，可能影响代表性评估\"]}",
+  "case_page_data": {
+    "schema_version": "1.0",
+    "case_id": "CASE-9FD1CF5",
+    "cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": ""
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "双侧乳腺癌术后直肠转移的鉴别与治疗决策",
+      "description": "患者女，55岁，有乳腺癌家族史（其母于2007年确诊）。2017年3月因发现左乳肿块就诊，乳腺X线摄影和超声等影像学检查显示双乳可疑病变，活检证实左乳浸润性导管癌和右乳导管原位癌。当时已知信息包括家族史、影像学可疑病变及活检病理结果，尚未进行手术及术后分期评估。"
+    },
+    "overview": {
+      "hero": {
+        "title": "双侧乳腺癌术后直肠转移的鉴别与治疗决策",
+        "subtitle": "1. 双侧乳腺癌（浸润性导管癌+导管原位癌）的初始手术及辅助治疗策略选择 2. 骨转移后继续内分泌治疗期间病情进展的评估与换药时机 3. 复发灶ER表达从90%降至30%时治疗方案的调整依据 4. 内分泌治疗联合帕博利珠单抗的适应证与循证依……"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者与就诊背景",
+              "value": "患者女，55岁，有乳腺癌家族史（其母于2007年确诊）。2017年3月因发现左乳肿块就诊，乳腺X线摄影和超声等影像学检查显示双乳可疑病变，活检证实左乳浸润性导管癌和右乳导管原位癌。当时已知信息包括家族史、影像学可疑病变及活检病理结果，尚未进行手术及术后分期评估。"
+            },
+            {
+              "order": 2,
+              "label": "疾病与分期",
+              "value": "左乳浸润性导管癌（非特殊类型，2级，3.5 cm×2.5 cm×2.3 cm，腋窝淋巴结9/14阳性，前哨淋巴结2/6阳性），ER阳性（90%），Ki-67 11%，HER2阴性；右乳低级别导管原位癌，切缘阴性。术后分期依据原文病理描述。2019年5月出现骨转移；2021年胸壁及淋巴结转移；2022–2023年胸腔积液及心包积液（细胞学证实转移性乳腺癌，HR完全缺失，Ki-67 60%~80%）；2024年直肠转移（活检证实）。目前广泛全身转移累及骨、淋巴结、胸膜、心包和直肠。"
+            },
+            {
+              "order": 3,
+              "label": "分子与病理",
+              "value": "2017年5月｜手术标本（左乳）｜免疫组化｜ER阳性（90%），Ki-67 11%，HER2阴性 2017年5月｜手术标本（右乳）｜病理｜低级别导管原位癌，切缘阴性 2021年｜复发病灶活检｜免疫组化｜ER表达降低（30%），HER2维持阴性 2022年至2023年间｜胸腔/心包积液细胞学｜细胞学及免疫组化｜转移性乳腺癌，HR表达完全缺失，Ki-67显著升高（60%~80%） 2024年9月12日｜直肠活检｜免疫组化｜P53（突变型表达），CK（+），INSM1（-），Ki-67（50%），Rb（+），CD56（-……"
+            },
+            {
+              "order": 4,
+              "label": "核心教学点",
+              "value": "1. 双侧乳腺癌（浸润性导管癌+导管原位癌）的初始手术及辅助治疗策略选择 2. 骨转移后继续内分泌治疗期间病情进展的评估与换药时机 3. 复发灶ER表达从90%降至30%时治疗方案的调整依据 4. 内分泌治疗联合帕博利珠单抗的适应证与循证依据 5. HR完全缺失后停用内分泌治疗并转为化疗的决策节点 6. 乳腺癌患者出现肠道症状时鉴别原发结直肠肿瘤与转移灶的诊断思路 7. 免疫组化标志物组合（GATA3、CDX2、GCDFP15等）在确认乳腺来源中的关键作用 8. 广泛转移且全身状况差时的姑息治疗与后续方案选择"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2017年3月",
+              "title": "发现左乳肿块就诊",
+              "detail": "乳腺X线摄影和超声显示双乳可疑病变，活检证实左乳浸润性导管癌和右乳导管原位癌"
+            },
+            {
+              "date": "2017年5月",
+              "title": "左乳改良根治术及右乳切除术联合前哨淋巴结活检",
+              "detail": "病理：左乳IDC（NST，2级，3.5×2.5×2.3 cm），腋窝LN 9/14阳性，前哨LN 2/6阳性；右乳低级别DCIS，切缘阴性；IHC：ER+（90%），Ki-67 11%，HER2阴性"
+            },
+            {
+              "date": "术后",
+              "title": "辅助治疗",
+              "detail": "剂量密集型化疗（EC方案序贯紫杉醇）、胸壁放疗及内分泌治疗（阿那曲唑联合戈舍瑞林），病情初期得到控制"
+            },
+            {
+              "date": "2019年5月",
+              "title": "发现骨转移",
+              "detail": "继续内分泌治疗，病情仍出现进展"
+            },
+            {
+              "date": "2021年",
+              "title": "胸壁和淋巴结转移",
+              "detail": "复发病灶活检示ER表达降低（30%），HER2维持阴性；治疗方案更换为依西美坦联合帕博利珠单抗及戈舍瑞林"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 6",
+              "detail": "2022年至2023年间｜胸腔积液和心包积液｜细胞学证实转移性乳腺癌，HR表达完全缺失，Ki-67显著升高（60%~80%）"
+            },
+            {
+              "date": "2022年10月",
+              "title": "停用内分泌治疗",
+              "detail": "鉴于疾病进展为ER阴性；随后接受多西他赛联合卡培他滨挽救性化疗（6个周期）"
+            },
+            {
+              "date": "2023年2月",
+              "title": "卡培他滨维持治疗",
+              "detail": "自2023年2月起接受卡培他滨维持"
+            },
+            {
+              "date": "2024年8月",
+              "title": "排便习惯改变及腹胀",
+              "detail": "CT检查显示直肠壁增厚"
+            },
+            {
+              "date": "2024年9月12日",
+              "title": "结肠镜检查及活检",
+              "detail": "距肛缘12 cm处黏膜改变伴狭窄；活检证实转移性乳腺癌；IHC：P53（突变型），CK（+），INSM1（-），Ki-67（50%），Rb（+），CD56（-），Syn（-），CgA（-），GATA3（+），CDX2（-），ER（-），PR（-），HER2（1+），GCDFP15（-），SSTR2（-）"
+            },
+            {
+              "date": "2024年9月26日",
+              "title": "腹部PET-CT",
+              "detail": "腹主动脉周围、双侧髂血管附近及双侧腹股沟区域多个放射性摄取增高淋巴结，最大短径约1.1 cm，SUVmax 4.3"
+            },
+            {
+              "date": "2024年10月",
+              "title": "心包积液加重",
+              "detail": "引流后呼吸困难略有改善，全身状况仍较差；已置入肠道支架缓解梗阻；门诊建议加强姑息支持治疗；若全身状况改善可考虑厄洛替尼、化疗或抗体药物偶联物；家属要求出院寻求姑息治疗"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  },
+  "case_page_json": "{\n  \"schema_version\": \"1.0\",\n  \"case_id\": \"CASE-9FD1CF5\",\n  \"cancer_type\": \"乳腺癌\",\n  \"difficulty\": \"进阶\",\n  \"decision_point_count\": 5,\n  \"image\": {\n    \"src\": \"\",\n    \"alt\": \"\"\n  },\n  \"home\": {\n    \"recommendation_label\": \"今日推荐病例\",\n    \"display_title\": \"双侧乳腺癌术后直肠转移的鉴别与治疗决策\",\n    \"description\": \"患者女，55岁，有乳腺癌家族史（其母于2007年确诊）。2017年3月因发现左乳肿块就诊，乳腺X线摄影和超声等影像学检查显示双乳可疑病变，活检证实左乳浸润性导管癌和右乳导管原位癌。当时已知信息包括家族史、影像学可疑病变及活检病理结果，尚未进行手术及术后分期评估。\"\n  },\n  \"overview\": {\n    \"hero\": {\n      \"title\": \"双侧乳腺癌术后直肠转移的鉴别与治疗决策\",\n      \"subtitle\": \"1. 双侧乳腺癌（浸润性导管癌+导管原位癌）的初始手术及辅助治疗策略选择 2. 骨转移后继续内分泌治疗期间病情进展的评估与换药时机 3. 复发灶ER表达从90%降至30%时治疗方案的调整依据 4. 内分泌治疗联合帕博利珠单抗的适应证与循证依……\"\n    },\n    \"tabs\": [\n      {\n        \"id\": \"summary\",\n        \"label\": \"病例摘要\",\n        \"order\": 1,\n        \"summary_items\": [\n          {\n            \"order\": 1,\n            \"label\": \"患者与就诊背景\",\n            \"value\": \"患者女，55岁，有乳腺癌家族史（其母于2007年确诊）。2017年3月因发现左乳肿块就诊，乳腺X线摄影和超声等影像学检查显示双乳可疑病变，活检证实左乳浸润性导管癌和右乳导管原位癌。当时已知信息包括家族史、影像学可疑病变及活检病理结果，尚未进行手术及术后分期评估。\"\n          },\n          {\n            \"order\": 2,\n            \"label\": \"疾病与分期\",\n            \"value\": \"左乳浸润性导管癌（非特殊类型，2级，3.5 cm×2.5 cm×2.3 cm，腋窝淋巴结9/14阳性，前哨淋巴结2/6阳性），ER阳性（90%），Ki-67 11%，HER2阴性；右乳低级别导管原位癌，切缘阴性。术后分期依据原文病理描述。2019年5月出现骨转移；2021年胸壁及淋巴结转移；2022–2023年胸腔积液及心包积液（细胞学证实转移性乳腺癌，HR完全缺失，Ki-67 60%~80%）；2024年直肠转移（活检证实）。目前广泛全身转移累及骨、淋巴结、胸膜、心包和直肠。\"\n          },\n          {\n            \"order\": 3,\n            \"label\": \"分子与病理\",\n            \"value\": \"2017年5月｜手术标本（左乳）｜免疫组化｜ER阳性（90%），Ki-67 11%，HER2阴性 2017年5月｜手术标本（右乳）｜病理｜低级别导管原位癌，切缘阴性 2021年｜复发病灶活检｜免疫组化｜ER表达降低（30%），HER2维持阴性 2022年至2023年间｜胸腔/心包积液细胞学｜细胞学及免疫组化｜转移性乳腺癌，HR表达完全缺失，Ki-67显著升高（60%~80%） 2024年9月12日｜直肠活检｜免疫组化｜P53（突变型表达），CK（+），INSM1（-），Ki-67（50%），Rb（+），CD56（-……\"\n          },\n          {\n            \"order\": 4,\n            \"label\": \"核心教学点\",\n            \"value\": \"1. 双侧乳腺癌（浸润性导管癌+导管原位癌）的初始手术及辅助治疗策略选择 2. 骨转移后继续内分泌治疗期间病情进展的评估与换药时机 3. 复发灶ER表达从90%降至30%时治疗方案的调整依据 4. 内分泌治疗联合帕博利珠单抗的适应证与循证依据 5. HR完全缺失后停用内分泌治疗并转为化疗的决策节点 6. 乳腺癌患者出现肠道症状时鉴别原发结直肠肿瘤与转移灶的诊断思路 7. 免疫组化标志物组合（GATA3、CDX2、GCDFP15等）在确认乳腺来源中的关键作用 8. 广泛转移且全身状况差时的姑息治疗与后续方案选择\"\n          }\n        ]\n      },\n      {\n        \"id\": \"timeline\",\n        \"label\": \"病程轴\",\n        \"order\": 2,\n        \"timeline_items\": [\n          {\n            \"date\": \"2017年3月\",\n            \"title\": \"发现左乳肿块就诊\",\n            \"detail\": \"乳腺X线摄影和超声显示双乳可疑病变，活检证实左乳浸润性导管癌和右乳导管原位癌\"\n          },\n          {\n            \"date\": \"2017年5月\",\n            \"title\": \"左乳改良根治术及右乳切除术联合前哨淋巴结活检\",\n            \"detail\": \"病理：左乳IDC（NST，2级，3.5×2.5×2.3 cm），腋窝LN 9/14阳性，前哨LN 2/6阳性；右乳低级别DCIS，切缘阴性；IHC：ER+（90%），Ki-67 11%，HER2阴性\"\n          },\n          {\n            \"date\": \"术后\",\n            \"title\": \"辅助治疗\",\n            \"detail\": \"剂量密集型化疗（EC方案序贯紫杉醇）、胸壁放疗及内分泌治疗（阿那曲唑联合戈舍瑞林），病情初期得到控制\"\n          },\n          {\n            \"date\": \"2019年5月\",\n            \"title\": \"发现骨转移\",\n            \"detail\": \"继续内分泌治疗，病情仍出现进展\"\n          },\n          {\n            \"date\": \"2021年\",\n            \"title\": \"胸壁和淋巴结转移\",\n            \"detail\": \"复发病灶活检示ER表达降低（30%），HER2维持阴性；治疗方案更换为依西美坦联合帕博利珠单抗及戈舍瑞林\"\n          },\n          {\n            \"date\": \"时间未详\",\n            \"title\": \"诊疗节点 6\",\n            \"detail\": \"2022年至2023年间｜胸腔积液和心包积液｜细胞学证实转移性乳腺癌，HR表达完全缺失，Ki-67显著升高（60%~80%）\"\n          },\n          {\n            \"date\": \"2022年10月\",\n            \"title\": \"停用内分泌治疗\",\n            \"detail\": \"鉴于疾病进展为ER阴性；随后接受多西他赛联合卡培他滨挽救性化疗（6个周期）\"\n          },\n          {\n            \"date\": \"2023年2月\",\n            \"title\": \"卡培他滨维持治疗\",\n            \"detail\": \"自2023年2月起接受卡培他滨维持\"\n          },\n          {\n            \"date\": \"2024年8月\",\n            \"title\": \"排便习惯改变及腹胀\",\n            \"detail\": \"CT检查显示直肠壁增厚\"\n          },\n          {\n            \"date\": \"2024年9月12日\",\n            \"title\": \"结肠镜检查及活检\",\n            \"detail\": \"距肛缘12 cm处黏膜改变伴狭窄；活检证实转移性乳腺癌；IHC：P53（突变型），CK（+），INSM1（-），Ki-67（50%），Rb（+），CD56（-），Syn（-），CgA（-），GATA3（+），CDX2（-），ER（-），PR（-），HER2（1+），GCDFP15（-），SSTR2（-）\"\n          },\n          {\n            \"date\": \"2024年9月26日\",\n            \"title\": \"腹部PET-CT\",\n            \"detail\": \"腹主动脉周围、双侧髂血管附近及双侧腹股沟区域多个放射性摄取增高淋巴结，最大短径约1.1 cm，SUVmax 4.3\"\n          },\n          {\n            \"date\": \"2024年10月\",\n            \"title\": \"心包积液加重\",\n            \"detail\": \"引流后呼吸困难略有改善，全身状况仍较差；已置入肠道支架缓解梗阻；门诊建议加强姑息支持治疗；若全身状况改善可考虑厄洛替尼、化疗或抗体药物偶联物；家属要求出院寻求姑息治疗\"\n          }\n        ]\n      },\n      {\n        \"id\": \"images\",\n        \"label\": \"病例图片\",\n        \"order\": 3,\n        \"image_items\": []\n      }\n    ]\n  }\n}",
+  "output_data": {
+    "Questions": {
+      "schema_version": "1.0",
+      "case_id": "CASE-9FD1CF5",
+      "cancer_type": "乳腺癌",
+      "generation_status": "success",
+      "difficulty": "进阶",
+      "question_count": 5,
+      "questions": [
+        {
+          "id": "Q1",
+          "type": "分子诊断",
+          "phase": "复发转移",
+          "timepoint": "2024 年 9 月",
+          "question": "2024 年直肠转移灶活检证实为乳腺癌转移，关于该复发灶生物标志物检测，下列哪项正确？",
+          "options": {
+            "A": "直接沿用 2017 年原发肿瘤免疫组化结果指导后续用药",
+            "B": "必须重新检测 ER、PR、HER2 表达及 Ki-67 增殖指数",
+            "C": "仅需病理形态学确认无需进行分子分型检测指导用药",
+            "D": "仅检测肠道来源标志物排除原发肠癌即可制定方案"
+          },
+          "answer": "B",
+          "answer_text": "必须重新检测 ER、PR、HER2 表达及 Ki-67 增殖指数",
+          "explain": "A｜不正确：受体状态可能发生改变，指南明确不能直接沿用旧结果影响决策\nB｜正确：指南规定复发灶必须重新检测受体及 Ki-67，因状态改变直接影响治疗\nC｜不正确：分子分型直接决定全身治疗方案，仅形态学确认不足以指导用药\nD｜不正确：确认乳腺癌来源后仍需检测乳腺癌相关受体以指导后续全身治疗",
+          "keyPoint": "复发转移灶必须重新检测生物标志物以指导治疗",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+            "split_index": 362,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+            "source_version": "2026",
+            "source_section": "13.2.3.1 药物预防性治疗",
+            "source_url": "",
+            "evidence_summary": "复发灶必须重新检测 ER、PR、HER2 及 Ki-67，受体状态可能改变直接影响决策"
+          }
+        },
+        {
+          "id": "Q2",
+          "type": "诊断与分期",
+          "phase": "初诊",
+          "timepoint": "2017 年 3 月",
+          "question": "2017 年确诊早期乳腺癌时，关于初始分期评估检查项目，下列哪项正确？",
+          "options": {
+            "A": "仅需完成双侧乳腺及腋窝影像学检查排除局部病变",
+            "B": "所有患者必须常规进行全身 PET-CT 检查明确分期",
+            "C": "应包含远处病灶评估如胸部 CT 及骨放射性核素扫描",
+            "D": "无症状患者无需进行腹部盆腔影像学检查评估转移"
+          },
+          "answer": "C",
+          "answer_text": "应包含远处病灶评估如胸部 CT 及骨放射性核素扫描",
+          "explain": "A｜不正确：分期评估需涵盖远处病灶，仅乳腺腋窝检查不足以排除远处转移\nB｜不正确：指南未规定所有早期患者必须常规进行全身 PET-CT 检查作为首选\nC｜正确：指南早期乳腺癌确诊检查表明确包含胸部 CT 及骨扫描等远处评估\nD｜不正确：指南建议腹部盆腔影像学检查作为远处病灶评估的一部分，非无需进行",
+          "keyPoint": "早期乳腺癌确诊需完成包括远处病灶在内的全面分期评估",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "b2719254-d290-4ec9-866b-51b36cafd1bc",
+            "split_index": 30,
+            "type": "guideline",
+            "authority": "CSCO",
+            "source_title": "中国临床肿瘤学会（CSCO）乳腺癌诊疗指南 2026",
+            "source_version": "2026",
+            "source_section": "更新要点",
+            "source_url": "",
+            "evidence_summary": "早期乳腺癌确诊检查包括原发肿瘤、区域淋巴结及远处病灶评估如 CT 骨扫描"
+          }
+        },
+        {
+          "id": "Q3",
+          "type": "分子诊断",
+          "phase": "复发转移",
+          "timepoint": "2022 年 10 月",
+          "question": "2022 年患者 HR 完全缺失且 HER2 阴性，关于此时分子分型判定，下列哪项正确？",
+          "options": {
+            "A": "依据当前复发灶 ER/PR/HER2/Ki-67 结果划分亚型",
+            "B": "依据 2017 年原发灶免疫组化结果维持原分型不变",
+            "C": "分子分型无需参考 Ki-67 增殖指数仅需受体状态",
+            "D": "仅依据基因检测结果确定分子亚型忽略免疫组化"
+          },
+          "answer": "A",
+          "answer_text": "依据当前复发灶 ER/PR/HER2/Ki-67 结果划分亚型",
+          "explain": "A｜正确：指南指出使用 ER、PR、HER2 和 Ki67 四个标记物将浸润性乳腺癌分为亚型\nB｜不正确：受体状态可能发生改变，应依据当前复发灶结果而非原发灶历史结果\nC｜不正确：Ki-67 增殖指数是分子分型替代方法中的四个关键标记物之一不可缺\nD｜不正确：临床常用分子分型替代方法基于免疫组化标记物而非仅基因检测结果",
+          "keyPoint": "分子分型应基于当前肿瘤组织的免疫组化标记物结果",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "f51ad2ef-8e21-42f9-bfd1-f2ed36512587",
+            "split_index": 82,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "中国肿瘤整合诊治技术指南（CACA） 病理诊断",
+            "source_version": "2023",
+            "source_section": "（五）分子病理诊断",
+            "source_url": "",
+            "evidence_summary": "常用分子分型替代方法使用 ER、PR、HER2 和 Ki67 四个免疫组化标记物"
+          }
+        },
+        {
+          "id": "Q4",
+          "type": "治疗决策",
+          "phase": "复发转移",
+          "timepoint": "2024 年 8 月",
+          "question": "2024 年 8 月患者出现排便习惯改变及 CT 示直肠壁增厚，下列哪项处理正确？",
+          "options": {
+            "A": "直接行直肠切除术以解除梗阻并获取病理标本",
+            "B": "仅给予对症支持治疗无需进一步明确病变性质",
+            "C": "立即开始全身化疗无需等待病理确诊结果",
+            "D": "行结肠镜检查及活检以明确病变性质及来源"
+          },
+          "answer": "D",
+          "answer_text": "行结肠镜检查及活检以明确病变性质及来源",
+          "explain": "A｜不正确：广泛转移且全身状况差时首选微创确诊，直接手术创伤大且非首选确诊方式\nB｜不正确：明确病变性质对后续治疗决策至关重要，不能仅给予对症支持治疗\nC｜不正确：全身治疗需依据病理确诊及分子分型，未确诊前开始化疗缺乏依据\nD｜正确：指南要求对复发灶进行穿刺或切除活检获取组织学诊断以指导治疗",
+          "keyPoint": "复发灶需经病理活检确诊以指导后续治疗决策",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+            "split_index": 362,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+            "source_version": "2026",
+            "source_section": "13.2.3.1 药物预防性治疗",
+            "source_url": "",
+            "evidence_summary": "对复发灶进行穿刺或切除活检，获取组织学诊断，指导后续治疗决策"
+          }
+        },
+        {
+          "id": "Q5",
+          "type": "分子诊断",
+          "phase": "复发转移",
+          "timepoint": "2021 年至 2022 年",
+          "question": "病程中 ER 从 90% 降至 30% 再至完全缺失，关于检测结果管理，下列哪项正确？",
+          "options": {
+            "A": "视为实验室误差直接忽略不计维持原治疗方案",
+            "B": "需确保检测质控并与临床团队有效沟通结果意义",
+            "C": "仅由病理医师单方面解读无需临床提供病史资料",
+            "D": "直接采纳结果无需评估检测质量立即更换药物"
+          },
+          "answer": "B",
+          "answer_text": "需确保检测质控并与临床团队有效沟通结果意义",
+          "explain": "A｜不正确：受体状态改变可能发生，需质控确认而非视为误差忽略，影响决策\nB｜正确：指南强调准确解读检测结果并保持与临床团队进行有效沟通至关重要\nC｜不正确：临床医师需提供完整临床资料，非仅由病理医师单方面解读结果\nD｜不正确：检测结果直接影响临床决策，需评估检测质量而非直接采纳更换药物",
+          "keyPoint": "检测结果准确性依赖质控及临床病理团队的有效沟通",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "7f8a2463-763c-4669-a370-54fca8039124",
+            "split_index": 37,
+            "type": "guideline",
+            "authority": "中华医学会病理学分会, CACA, 国家病理质控中心",
+            "source_title": "乳腺癌生物标志物检测临床应用指南",
+            "source_version": "2025",
+            "source_section": "六、乳腺癌生物标志物病理检测的质控",
+            "source_url": "",
+            "evidence_summary": "准确解读检测结果并保持与临床团队进行有效沟通至关重要，需严格质控"
+          }
+        }
+      ],
+      "missing_information": [
+        "未记载胚系 BRCA 及体细胞 NGS 检测结果，可能影响靶向药物选择依据",
+        "2021 年复发灶活检具体取材部位未明确，可能影响代表性评估"
+      ]
+    },
+    "detail": {
+      "schema_version": "1.0",
+      "case_id": "CASE-9FD1CF5",
+      "cancer_type": "乳腺癌",
+      "difficulty": "进阶",
+      "decision_point_count": 5,
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "home": {
+        "recommendation_label": "今日推荐病例",
+        "display_title": "双侧乳腺癌术后直肠转移的鉴别与治疗决策",
+        "description": "患者女，55岁，有乳腺癌家族史（其母于2007年确诊）。2017年3月因发现左乳肿块就诊，乳腺X线摄影和超声等影像学检查显示双乳可疑病变，活检证实左乳浸润性导管癌和右乳导管原位癌。当时已知信息包括家族史、影像学可疑病变及活检病理结果，尚未进行手术及术后分期评估。"
+      },
+      "overview": {
+        "hero": {
+          "title": "双侧乳腺癌术后直肠转移的鉴别与治疗决策",
+          "subtitle": "1. 双侧乳腺癌（浸润性导管癌+导管原位癌）的初始手术及辅助治疗策略选择 2. 骨转移后继续内分泌治疗期间病情进展的评估与换药时机 3. 复发灶ER表达从90%降至30%时治疗方案的调整依据 4. 内分泌治疗联合帕博利珠单抗的适应证与循证依……"
+        },
+        "tabs": [
+          {
+            "id": "summary",
+            "label": "病例摘要",
+            "order": 1,
+            "summary_items": [
+              {
+                "order": 1,
+                "label": "患者与就诊背景",
+                "value": "患者女，55岁，有乳腺癌家族史（其母于2007年确诊）。2017年3月因发现左乳肿块就诊，乳腺X线摄影和超声等影像学检查显示双乳可疑病变，活检证实左乳浸润性导管癌和右乳导管原位癌。当时已知信息包括家族史、影像学可疑病变及活检病理结果，尚未进行手术及术后分期评估。"
+              },
+              {
+                "order": 2,
+                "label": "疾病与分期",
+                "value": "左乳浸润性导管癌（非特殊类型，2级，3.5 cm×2.5 cm×2.3 cm，腋窝淋巴结9/14阳性，前哨淋巴结2/6阳性），ER阳性（90%），Ki-67 11%，HER2阴性；右乳低级别导管原位癌，切缘阴性。术后分期依据原文病理描述。2019年5月出现骨转移；2021年胸壁及淋巴结转移；2022–2023年胸腔积液及心包积液（细胞学证实转移性乳腺癌，HR完全缺失，Ki-67 60%~80%）；2024年直肠转移（活检证实）。目前广泛全身转移累及骨、淋巴结、胸膜、心包和直肠。"
+              },
+              {
+                "order": 3,
+                "label": "分子与病理",
+                "value": "2017年5月｜手术标本（左乳）｜免疫组化｜ER阳性（90%），Ki-67 11%，HER2阴性 2017年5月｜手术标本（右乳）｜病理｜低级别导管原位癌，切缘阴性 2021年｜复发病灶活检｜免疫组化｜ER表达降低（30%），HER2维持阴性 2022年至2023年间｜胸腔/心包积液细胞学｜细胞学及免疫组化｜转移性乳腺癌，HR表达完全缺失，Ki-67显著升高（60%~80%） 2024年9月12日｜直肠活检｜免疫组化｜P53（突变型表达），CK（+），INSM1（-），Ki-67（50%），Rb（+），CD56（-……"
+              },
+              {
+                "order": 4,
+                "label": "核心教学点",
+                "value": "1. 双侧乳腺癌（浸润性导管癌+导管原位癌）的初始手术及辅助治疗策略选择 2. 骨转移后继续内分泌治疗期间病情进展的评估与换药时机 3. 复发灶ER表达从90%降至30%时治疗方案的调整依据 4. 内分泌治疗联合帕博利珠单抗的适应证与循证依据 5. HR完全缺失后停用内分泌治疗并转为化疗的决策节点 6. 乳腺癌患者出现肠道症状时鉴别原发结直肠肿瘤与转移灶的诊断思路 7. 免疫组化标志物组合（GATA3、CDX2、GCDFP15等）在确认乳腺来源中的关键作用 8. 广泛转移且全身状况差时的姑息治疗与后续方案选择"
+              }
+            ]
+          },
+          {
+            "id": "timeline",
+            "label": "病程轴",
+            "order": 2,
+            "timeline_items": [
+              {
+                "date": "2017年3月",
+                "title": "发现左乳肿块就诊",
+                "detail": "乳腺X线摄影和超声显示双乳可疑病变，活检证实左乳浸润性导管癌和右乳导管原位癌"
+              },
+              {
+                "date": "2017年5月",
+                "title": "左乳改良根治术及右乳切除术联合前哨淋巴结活检",
+                "detail": "病理：左乳IDC（NST，2级，3.5×2.5×2.3 cm），腋窝LN 9/14阳性，前哨LN 2/6阳性；右乳低级别DCIS，切缘阴性；IHC：ER+（90%），Ki-67 11%，HER2阴性"
+              },
+              {
+                "date": "术后",
+                "title": "辅助治疗",
+                "detail": "剂量密集型化疗（EC方案序贯紫杉醇）、胸壁放疗及内分泌治疗（阿那曲唑联合戈舍瑞林），病情初期得到控制"
+              },
+              {
+                "date": "2019年5月",
+                "title": "发现骨转移",
+                "detail": "继续内分泌治疗，病情仍出现进展"
+              },
+              {
+                "date": "2021年",
+                "title": "胸壁和淋巴结转移",
+                "detail": "复发病灶活检示ER表达降低（30%），HER2维持阴性；治疗方案更换为依西美坦联合帕博利珠单抗及戈舍瑞林"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 6",
+                "detail": "2022年至2023年间｜胸腔积液和心包积液｜细胞学证实转移性乳腺癌，HR表达完全缺失，Ki-67显著升高（60%~80%）"
+              },
+              {
+                "date": "2022年10月",
+                "title": "停用内分泌治疗",
+                "detail": "鉴于疾病进展为ER阴性；随后接受多西他赛联合卡培他滨挽救性化疗（6个周期）"
+              },
+              {
+                "date": "2023年2月",
+                "title": "卡培他滨维持治疗",
+                "detail": "自2023年2月起接受卡培他滨维持"
+              },
+              {
+                "date": "2024年8月",
+                "title": "排便习惯改变及腹胀",
+                "detail": "CT检查显示直肠壁增厚"
+              },
+              {
+                "date": "2024年9月12日",
+                "title": "结肠镜检查及活检",
+                "detail": "距肛缘12 cm处黏膜改变伴狭窄；活检证实转移性乳腺癌；IHC：P53（突变型），CK（+），INSM1（-），Ki-67（50%），Rb（+），CD56（-），Syn（-），CgA（-），GATA3（+），CDX2（-），ER（-），PR（-），HER2（1+），GCDFP15（-），SSTR2（-）"
+              },
+              {
+                "date": "2024年9月26日",
+                "title": "腹部PET-CT",
+                "detail": "腹主动脉周围、双侧髂血管附近及双侧腹股沟区域多个放射性摄取增高淋巴结，最大短径约1.1 cm，SUVmax 4.3"
+              },
+              {
+                "date": "2024年10月",
+                "title": "心包积液加重",
+                "detail": "引流后呼吸困难略有改善，全身状况仍较差；已置入肠道支架缓解梗阻；门诊建议加强姑息支持治疗；若全身状况改善可考虑厄洛替尼、化疗或抗体药物偶联物；家属要求出院寻求姑息治疗"
+              }
+            ]
+          },
+          {
+            "id": "images",
+            "label": "病例图片",
+            "order": 3,
+            "image_items": []
+          }
+        ]
+      }
+    }
+  },
+  "output_json": "{\n  \"Questions\": {\n    \"schema_version\": \"1.0\",\n    \"case_id\": \"CASE-9FD1CF5\",\n    \"cancer_type\": \"乳腺癌\",\n    \"generation_status\": \"success\",\n    \"difficulty\": \"进阶\",\n    \"question_count\": 5,\n    \"questions\": [\n      {\n        \"id\": \"Q1\",\n        \"type\": \"分子诊断\",\n        \"phase\": \"复发转移\",\n        \"timepoint\": \"2024 年 9 月\",\n        \"question\": \"2024 年直肠转移灶活检证实为乳腺癌转移，关于该复发灶生物标志物检测，下列哪项正确？\",\n        \"options\": {\n          \"A\": \"直接沿用 2017 年原发肿瘤免疫组化结果指导后续用药\",\n          \"B\": \"必须重新检测 ER、PR、HER2 表达及 Ki-67 增殖指数\",\n          \"C\": \"仅需病理形态学确认无需进行分子分型检测指导用药\",\n          \"D\": \"仅检测肠道来源标志物排除原发肠癌即可制定方案\"\n        },\n        \"answer\": \"B\",\n        \"answer_text\": \"必须重新检测 ER、PR、HER2 表达及 Ki-67 增殖指数\",\n        \"explain\": \"A｜不正确：受体状态可能发生改变，指南明确不能直接沿用旧结果影响决策\\nB｜正确：指南规定复发灶必须重新检测受体及 Ki-67，因状态改变直接影响治疗\\nC｜不正确：分子分型直接决定全身治疗方案，仅形态学确认不足以指导用药\\nD｜不正确：确认乳腺癌来源后仍需检测乳腺癌相关受体以指导后续全身治疗\",\n        \"keyPoint\": \"复发转移灶必须重新检测生物标志物以指导治疗\",\n        \"guidelineRef\": {\n          \"evidence_type\": \"指南\",\n          \"doc_id\": \"4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0\",\n          \"split_index\": 362,\n          \"type\": \"guideline\",\n          \"authority\": \"CACA\",\n          \"source_title\": \"中国抗癌协会乳腺癌诊治指南与规范（2026 年版）\",\n          \"source_version\": \"2026\",\n          \"source_section\": \"13.2.3.1 药物预防性治疗\",\n          \"source_url\": \"\",\n          \"evidence_summary\": \"复发灶必须重新检测 ER、PR、HER2 及 Ki-67，受体状态可能改变直接影响决策\"\n        }\n      },\n      {\n        \"id\": \"Q2\",\n        \"type\": \"诊断与分期\",\n        \"phase\": \"初诊\",\n        \"timepoint\": \"2017 年 3 月\",\n        \"question\": \"2017 年确诊早期乳腺癌时，关于初始分期评估检查项目，下列哪项正确？\",\n        \"options\": {\n          \"A\": \"仅需完成双侧乳腺及腋窝影像学检查排除局部病变\",\n          \"B\": \"所有患者必须常规进行全身 PET-CT 检查明确分期\",\n          \"C\": \"应包含远处病灶评估如胸部 CT 及骨放射性核素扫描\",\n          \"D\": \"无症状患者无需进行腹部盆腔影像学检查评估转移\"\n        },\n        \"answer\": \"C\",\n        \"answer_text\": \"应包含远处病灶评估如胸部 CT 及骨放射性核素扫描\",\n        \"explain\": \"A｜不正确：分期评估需涵盖远处病灶，仅乳腺腋窝检查不足以排除远处转移\\nB｜不正确：指南未规定所有早期患者必须常规进行全身 PET-CT 检查作为首选\\nC｜正确：指南早期乳腺癌确诊检查表明确包含胸部 CT 及骨扫描等远处评估\\nD｜不正确：指南建议腹部盆腔影像学检查作为远处病灶评估的一部分，非无需进行\",\n        \"keyPoint\": \"早期乳腺癌确诊需完成包括远处病灶在内的全面分期评估\",\n        \"guidelineRef\": {\n          \"evidence_type\": \"指南\",\n          \"doc_id\": \"b2719254-d290-4ec9-866b-51b36cafd1bc\",\n          \"split_index\": 30,\n          \"type\": \"guideline\",\n          \"authority\": \"CSCO\",\n          \"source_title\": \"中国临床肿瘤学会（CSCO）乳腺癌诊疗指南 2026\",\n          \"source_version\": \"2026\",\n          \"source_section\": \"更新要点\",\n          \"source_url\": \"\",\n          \"evidence_summary\": \"早期乳腺癌确诊检查包括原发肿瘤、区域淋巴结及远处病灶评估如 CT 骨扫描\"\n        }\n      },\n      {\n        \"id\": \"Q3\",\n        \"type\": \"分子诊断\",\n        \"phase\": \"复发转移\",\n        \"timepoint\": \"2022 年 10 月\",\n        \"question\": \"2022 年患者 HR 完全缺失且 HER2 阴性，关于此时分子分型判定，下列哪项正确？\",\n        \"options\": {\n          \"A\": \"依据当前复发灶 ER/PR/HER2/Ki-67 结果划分亚型\",\n          \"B\": \"依据 2017 年原发灶免疫组化结果维持原分型不变\",\n          \"C\": \"分子分型无需参考 Ki-67 增殖指数仅需受体状态\",\n          \"D\": \"仅依据基因检测结果确定分子亚型忽略免疫组化\"\n        },\n        \"answer\": \"A\",\n        \"answer_text\": \"依据当前复发灶 ER/PR/HER2/Ki-67 结果划分亚型\",\n        \"explain\": \"A｜正确：指南指出使用 ER、PR、HER2 和 Ki67 四个标记物将浸润性乳腺癌分为亚型\\nB｜不正确：受体状态可能发生改变，应依据当前复发灶结果而非原发灶历史结果\\nC｜不正确：Ki-67 增殖指数是分子分型替代方法中的四个关键标记物之一不可缺\\nD｜不正确：临床常用分子分型替代方法基于免疫组化标记物而非仅基因检测结果\",\n        \"keyPoint\": \"分子分型应基于当前肿瘤组织的免疫组化标记物结果\",\n        \"guidelineRef\": {\n          \"evidence_type\": \"指南\",\n          \"doc_id\": \"f51ad2ef-8e21-42f9-bfd1-f2ed36512587\",\n          \"split_index\": 82,\n          \"type\": \"guideline\",\n          \"authority\": \"CACA\",\n          \"source_title\": \"中国肿瘤整合诊治技术指南（CACA） 病理诊断\",\n          \"source_version\": \"2023\",\n          \"source_section\": \"（五）分子病理诊断\",\n          \"source_url\": \"\",\n          \"evidence_summary\": \"常用分子分型替代方法使用 ER、PR、HER2 和 Ki67 四个免疫组化标记物\"\n        }\n      },\n      {\n        \"id\": \"Q4\",\n        \"type\": \"治疗决策\",\n        \"phase\": \"复发转移\",\n        \"timepoint\": \"2024 年 8 月\",\n        \"question\": \"2024 年 8 月患者出现排便习惯改变及 CT 示直肠壁增厚，下列哪项处理正确？\",\n        \"options\": {\n          \"A\": \"直接行直肠切除术以解除梗阻并获取病理标本\",\n          \"B\": \"仅给予对症支持治疗无需进一步明确病变性质\",\n          \"C\": \"立即开始全身化疗无需等待病理确诊结果\",\n          \"D\": \"行结肠镜检查及活检以明确病变性质及来源\"\n        },\n        \"answer\": \"D\",\n        \"answer_text\": \"行结肠镜检查及活检以明确病变性质及来源\",\n        \"explain\": \"A｜不正确：广泛转移且全身状况差时首选微创确诊，直接手术创伤大且非首选确诊方式\\nB｜不正确：明确病变性质对后续治疗决策至关重要，不能仅给予对症支持治疗\\nC｜不正确：全身治疗需依据病理确诊及分子分型，未确诊前开始化疗缺乏依据\\nD｜正确：指南要求对复发灶进行穿刺或切除活检获取组织学诊断以指导治疗\",\n        \"keyPoint\": \"复发灶需经病理活检确诊以指导后续治疗决策\",\n        \"guidelineRef\": {\n          \"evidence_type\": \"指南\",\n          \"doc_id\": \"4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0\",\n          \"split_index\": 362,\n          \"type\": \"guideline\",\n          \"authority\": \"CACA\",\n          \"source_title\": \"中国抗癌协会乳腺癌诊治指南与规范（2026 年版）\",\n          \"source_version\": \"2026\",\n          \"source_section\": \"13.2.3.1 药物预防性治疗\",\n          \"source_url\": \"\",\n          \"evidence_summary\": \"对复发灶进行穿刺或切除活检，获取组织学诊断，指导后续治疗决策\"\n        }\n      },\n      {\n        \"id\": \"Q5\",\n        \"type\": \"分子诊断\",\n        \"phase\": \"复发转移\",\n        \"timepoint\": \"2021 年至 2022 年\",\n        \"question\": \"病程中 ER 从 90% 降至 30% 再至完全缺失，关于检测结果管理，下列哪项正确？\",\n        \"options\": {\n          \"A\": \"视为实验室误差直接忽略不计维持原治疗方案\",\n          \"B\": \"需确保检测质控并与临床团队有效沟通结果意义\",\n          \"C\": \"仅由病理医师单方面解读无需临床提供病史资料\",\n          \"D\": \"直接采纳结果无需评估检测质量立即更换药物\"\n        },\n        \"answer\": \"B\",\n        \"answer_text\": \"需确保检测质控并与临床团队有效沟通结果意义\",\n        \"explain\": \"A｜不正确：受体状态改变可能发生，需质控确认而非视为误差忽略，影响决策\\nB｜正确：指南强调准确解读检测结果并保持与临床团队进行有效沟通至关重要\\nC｜不正确：临床医师需提供完整临床资料，非仅由病理医师单方面解读结果\\nD｜不正确：检测结果直接影响临床决策，需评估检测质量而非直接采纳更换药物\",\n        \"keyPoint\": \"检测结果准确性依赖质控及临床病理团队的有效沟通\",\n        \"guidelineRef\": {\n          \"evidence_type\": \"指南\",\n          \"doc_id\": \"7f8a2463-763c-4669-a370-54fca8039124\",\n          \"split_index\": 37,\n          \"type\": \"guideline\",\n          \"authority\": \"中华医学会病理学分会, CACA, 国家病理质控中心\",\n          \"source_title\": \"乳腺癌生物标志物检测临床应用指南\",\n          \"source_version\": \"2025\",\n          \"source_section\": \"六、乳腺癌生物标志物病理检测的质控\",\n          \"source_url\": \"\",\n          \"evidence_summary\": \"准确解读检测结果并保持与临床团队进行有效沟通至关重要，需严格质控\"\n        }\n      }\n    ],\n    \"missing_information\": [\n      \"未记载胚系 BRCA 及体细胞 NGS 检测结果，可能影响靶向药物选择依据\",\n      \"2021 年复发灶活检具体取材部位未明确，可能影响代表性评估\"\n    ]\n  },\n  \"detail\": {\n    \"schema_version\": \"1.0\",\n    \"case_id\": \"CASE-9FD1CF5\",\n    \"cancer_type\": \"乳腺癌\",\n    \"difficulty\": \"进阶\",\n    \"decision_point_count\": 5,\n    \"image\": {\n      \"src\": \"\",\n      \"alt\": \"\"\n    },\n    \"home\": {\n      \"recommendation_label\": \"今日推荐病例\",\n      \"display_title\": \"双侧乳腺癌术后直肠转移的鉴别与治疗决策\",\n      \"description\": \"患者女，55岁，有乳腺癌家族史（其母于2007年确诊）。2017年3月因发现左乳肿块就诊，乳腺X线摄影和超声等影像学检查显示双乳可疑病变，活检证实左乳浸润性导管癌和右乳导管原位癌。当时已知信息包括家族史、影像学可疑病变及活检病理结果，尚未进行手术及术后分期评估。\"\n    },\n    \"overview\": {\n      \"hero\": {\n        \"title\": \"双侧乳腺癌术后直肠转移的鉴别与治疗决策\",\n        \"subtitle\": \"1. 双侧乳腺癌（浸润性导管癌+导管原位癌）的初始手术及辅助治疗策略选择 2. 骨转移后继续内分泌治疗期间病情进展的评估与换药时机 3. 复发灶ER表达从90%降至30%时治疗方案的调整依据 4. 内分泌治疗联合帕博利珠单抗的适应证与循证依……\"\n      },\n      \"tabs\": [\n        {\n          \"id\": \"summary\",\n          \"label\": \"病例摘要\",\n          \"order\": 1,\n          \"summary_items\": [\n            {\n              \"order\": 1,\n              \"label\": \"患者与就诊背景\",\n              \"value\": \"患者女，55岁，有乳腺癌家族史（其母于2007年确诊）。2017年3月因发现左乳肿块就诊，乳腺X线摄影和超声等影像学检查显示双乳可疑病变，活检证实左乳浸润性导管癌和右乳导管原位癌。当时已知信息包括家族史、影像学可疑病变及活检病理结果，尚未进行手术及术后分期评估。\"\n            },\n            {\n              \"order\": 2,\n              \"label\": \"疾病与分期\",\n              \"value\": \"左乳浸润性导管癌（非特殊类型，2级，3.5 cm×2.5 cm×2.3 cm，腋窝淋巴结9/14阳性，前哨淋巴结2/6阳性），ER阳性（90%），Ki-67 11%，HER2阴性；右乳低级别导管原位癌，切缘阴性。术后分期依据原文病理描述。2019年5月出现骨转移；2021年胸壁及淋巴结转移；2022–2023年胸腔积液及心包积液（细胞学证实转移性乳腺癌，HR完全缺失，Ki-67 60%~80%）；2024年直肠转移（活检证实）。目前广泛全身转移累及骨、淋巴结、胸膜、心包和直肠。\"\n            },\n            {\n              \"order\": 3,\n              \"label\": \"分子与病理\",\n              \"value\": \"2017年5月｜手术标本（左乳）｜免疫组化｜ER阳性（90%），Ki-67 11%，HER2阴性 2017年5月｜手术标本（右乳）｜病理｜低级别导管原位癌，切缘阴性 2021年｜复发病灶活检｜免疫组化｜ER表达降低（30%），HER2维持阴性 2022年至2023年间｜胸腔/心包积液细胞学｜细胞学及免疫组化｜转移性乳腺癌，HR表达完全缺失，Ki-67显著升高（60%~80%） 2024年9月12日｜直肠活检｜免疫组化｜P53（突变型表达），CK（+），INSM1（-），Ki-67（50%），Rb（+），CD56（-……\"\n            },\n            {\n              \"order\": 4,\n              \"label\": \"核心教学点\",\n              \"value\": \"1. 双侧乳腺癌（浸润性导管癌+导管原位癌）的初始手术及辅助治疗策略选择 2. 骨转移后继续内分泌治疗期间病情进展的评估与换药时机 3. 复发灶ER表达从90%降至30%时治疗方案的调整依据 4. 内分泌治疗联合帕博利珠单抗的适应证与循证依据 5. HR完全缺失后停用内分泌治疗并转为化疗的决策节点 6. 乳腺癌患者出现肠道症状时鉴别原发结直肠肿瘤与转移灶的诊断思路 7. 免疫组化标志物组合（GATA3、CDX2、GCDFP15等）在确认乳腺来源中的关键作用 8. 广泛转移且全身状况差时的姑息治疗与后续方案选择\"\n            }\n          ]\n        },\n        {\n          \"id\": \"timeline\",\n          \"label\": \"病程轴\",\n          \"order\": 2,\n          \"timeline_items\": [\n            {\n              \"date\": \"2017年3月\",\n              \"title\": \"发现左乳肿块就诊\",\n              \"detail\": \"乳腺X线摄影和超声显示双乳可疑病变，活检证实左乳浸润性导管癌和右乳导管原位癌\"\n            },\n            {\n              \"date\": \"2017年5月\",\n              \"title\": \"左乳改良根治术及右乳切除术联合前哨淋巴结活检\",\n              \"detail\": \"病理：左乳IDC（NST，2级，3.5×2.5×2.3 cm），腋窝LN 9/14阳性，前哨LN 2/6阳性；右乳低级别DCIS，切缘阴性；IHC：ER+（90%），Ki-67 11%，HER2阴性\"\n            },\n            {\n              \"date\": \"术后\",\n              \"title\": \"辅助治疗\",\n              \"detail\": \"剂量密集型化疗（EC方案序贯紫杉醇）、胸壁放疗及内分泌治疗（阿那曲唑联合戈舍瑞林），病情初期得到控制\"\n            },\n            {\n              \"date\": \"2019年5月\",\n              \"title\": \"发现骨转移\",\n              \"detail\": \"继续内分泌治疗，病情仍出现进展\"\n            },\n            {\n              \"date\": \"2021年\",\n              \"title\": \"胸壁和淋巴结转移\",\n              \"detail\": \"复发病灶活检示ER表达降低（30%），HER2维持阴性；治疗方案更换为依西美坦联合帕博利珠单抗及戈舍瑞林\"\n            },\n            {\n              \"date\": \"时间未详\",\n              \"title\": \"诊疗节点 6\",\n              \"detail\": \"2022年至2023年间｜胸腔积液和心包积液｜细胞学证实转移性乳腺癌，HR表达完全缺失，Ki-67显著升高（60%~80%）\"\n            },\n            {\n              \"date\": \"2022年10月\",\n              \"title\": \"停用内分泌治疗\",\n              \"detail\": \"鉴于疾病进展为ER阴性；随后接受多西他赛联合卡培他滨挽救性化疗（6个周期）\"\n            },\n            {\n              \"date\": \"2023年2月\",\n              \"title\": \"卡培他滨维持治疗\",\n              \"detail\": \"自2023年2月起接受卡培他滨维持\"\n            },\n            {\n              \"date\": \"2024年8月\",\n              \"title\": \"排便习惯改变及腹胀\",\n              \"detail\": \"CT检查显示直肠壁增厚\"\n            },\n            {\n              \"date\": \"2024年9月12日\",\n              \"title\": \"结肠镜检查及活检\",\n              \"detail\": \"距肛缘12 cm处黏膜改变伴狭窄；活检证实转移性乳腺癌；IHC：P53（突变型），CK（+），INSM1（-），Ki-67（50%），Rb（+），CD56（-），Syn（-），CgA（-），GATA3（+），CDX2（-），ER（-），PR（-），HER2（1+），GCDFP15（-），SSTR2（-）\"\n            },\n            {\n              \"date\": \"2024年9月26日\",\n              \"title\": \"腹部PET-CT\",\n              \"detail\": \"腹主动脉周围、双侧髂血管附近及双侧腹股沟区域多个放射性摄取增高淋巴结，最大短径约1.1 cm，SUVmax 4.3\"\n            },\n            {\n              \"date\": \"2024年10月\",\n              \"title\": \"心包积液加重\",\n              \"detail\": \"引流后呼吸困难略有改善，全身状况仍较差；已置入肠道支架缓解梗阻；门诊建议加强姑息支持治疗；若全身状况改善可考虑厄洛替尼、化疗或抗体药物偶联物；家属要求出院寻求姑息治疗\"\n            }\n          ]\n        },\n        {\n          \"id\": \"images\",\n          \"label\": \"病例图片\",\n          \"order\": 3,\n          \"image_items\": []\n        }\n      ]\n    }\n  }\n}"
+}

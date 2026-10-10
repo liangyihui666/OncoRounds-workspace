@@ -1,0 +1,44 @@
+{
+  "passed": 15,
+  "tests": [
+    "三份真实日志候选5/15/10不被新字段拦截；按原ID各导出5题",
+    "GEJ分类、字数提示和最终答案映射保留，绝不机械改写原题",
+    "真实食管TEN无G分级：旧版不检索，新版两处都启动且不虚构G3/G4",
+    "TEN与感染并存不因感染丢弃毒性锚点；单纯感染不会生成毒性锚点",
+    "保留真实G4/G2排序；回退模型不能补造G4；疑似TEN不升级",
+    "稀疏FULL只继承明确保留题和未授权原摘要，输出完整五题",
+    "漏修授权题、缺原题、不声明保留、越权修改保留题均仍FAIL",
+    "真实证据更换任务不能靠改题干混过，完全未修订的医学任务仍FAIL",
+    "摘要需修订时不得继承掩盖任务；insufficient缺省风险只补流程说明、不夹带题",
+    "纯配额复核不强制改变标签，但真实HARD_QUOTA仍要求实际修复",
+    "审核任务包剥离无变化义务的QUOTA_CHECK，仍保留真正的医学修复和配额复核",
+    "首轮75分阈值、二轮直出、回退、空池分支行为不变",
+    "R1回退带R1的65分及原文；保留R2运行0分但不绑定给旧题",
+    "R2返回绑定R2原文；同定位不同片段冲突不静默选择；无匹配不借用其他题原文",
+    "代码可编译、BOM根配置和节点连线不变，新增引用可定位；温度不变"
+  ],
+  "replayed": [
+    {
+      "name": "ALK",
+      "candidate_count": 5,
+      "selected_count": 5,
+      "cancer_type": "肺癌",
+      "snippet_available_in_old_logs": false
+    },
+    {
+      "name": "GEJ",
+      "candidate_count": 15,
+      "selected_count": 5,
+      "cancer_type": "胃食管结合部癌",
+      "snippet_available_in_old_logs": false
+    },
+    {
+      "name": "食管",
+      "candidate_count": 10,
+      "selected_count": 5,
+      "cancer_type": "食管癌",
+      "snippet_available_in_old_logs": false
+    }
+  ],
+  "scope": "本地真实日志回放及确定性代码/配置回归。没有调用千问重新生成，没有在线检索或FastGPT导入测试；不证明新题医学合格。"
+}

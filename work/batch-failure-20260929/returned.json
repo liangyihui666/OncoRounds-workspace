@@ -1,0 +1,816 @@
+{
+  "output_data": [
+    {
+      "error": {
+        "file_index": 1,
+        "code": "INVALID_JSON",
+        "message": "三连未返回可解析的单一 JSON 对象。"
+      }
+    },
+    {
+      "error": {
+        "file_index": 2,
+        "code": "INVALID_JSON",
+        "message": "三连未返回可解析的单一 JSON 对象。"
+      }
+    },
+    {
+      "Questions": {
+        "schema_version": "1.0",
+        "case_id": "CASE-9CEE683F",
+        "cancer_type": "消化系统肿瘤",
+        "generation_status": "insufficient",
+        "difficulty": "进阶",
+        "question_count": 0,
+        "questions": [],
+        "missing_information": [
+          "候选为空",
+          "第二轮未返回有效完整题目JSON"
+        ]
+      },
+      "detail": {
+        "schema_version": "1.0",
+        "case_id": "CASE-9CEE683F",
+        "cancer_type": "消化系统肿瘤",
+        "difficulty": "进阶",
+        "decision_point_count": 0,
+        "image": {
+          "src": "",
+          "alt": ""
+        },
+        "home": {
+          "recommendation_label": "今日推荐病例",
+          "display_title": "AFP阳性黏液性结肠腺癌伴肠套叠的诊疗",
+          "description": "患者，男性，59岁，因间断性便血2个月入院。既往有乙肝病史、高血压、高脂血症和冠心病。入院查体生命体征平稳，腹部无压痛及包块，直肠指检可见手套上有血迹。实验室检查显示血红蛋白（Hb）9.4 g/dL，癌胚抗原（CEA）9.0 ng/mL，AFP 212.6 ng/mL。肝脏超声显示轻度实质回声增强，门静脉通畅无血栓。肝脏三期CT未见可疑病灶，但在肝曲处发现可……"
+        },
+        "overview": {
+          "hero": {
+            "title": "AFP阳性黏液性结肠腺癌伴肠套叠的诊疗",
+            "subtitle": "AFP阳性结直肠癌与肝细胞癌的鉴别诊断要点 黏液性结肠腺癌伴AFP表达的病理特征及免疫组化判读 结肠癌引起肠套叠的外科处理策略 Duke C期结肠癌辅助化疗方案选择及疗程 AFP作为结直肠癌随访监测标志物的价值与局限"
+          },
+          "tabs": [
+            {
+              "id": "summary",
+              "label": "病例摘要",
+              "order": 1,
+              "summary_items": [
+                {
+                  "order": 1,
+                  "label": "患者与就诊背景",
+                  "value": "患者，男性，59岁，因间断性便血2个月入院。既往有乙肝病史、高血压、高脂血症和冠心病。入院查体生命体征平稳，腹部无压痛及包块，直肠指检可见手套上有血迹。实验室检查显示血红蛋白（Hb）9.4 g/dL，癌胚抗原（CEA）9.0 ng/mL，AFP 212.6 ng/mL。肝脏超声显示轻度实质回声增强，门静脉通畅无血栓。肝脏三期CT未见可疑病灶，但在肝曲处发现可能肠套叠，套叠部分包含低密度肿块，无肠梗阻表现。结肠镜检查发现横结肠近端有巨大易碎肿瘤阻塞肠腔，活检示中分化腺癌。"
+                },
+                {
+                  "order": 2,
+                  "label": "疾病与分期",
+                  "value": "结肠癌（横结肠近端黏液性腺癌，Duke C期，T3N2b）"
+                },
+                {
+                  "order": 3,
+                  "label": "分子与病理",
+                  "value": "入院时｜血液｜Hb 9.4 g/dL 入院时｜血液｜CEA 9.0 ng/mL 入院时｜血液｜AFP 212.6 ng/mL 术后病理｜手术标本免疫组化｜MLH1/MSH2/MSH6/PMS2阳性（错配修复蛋白正常） 术后病理｜手术标本免疫组化｜HER2阳性 术后病理｜手术标本免疫组化｜AFP阳性 术后一周｜血液｜CEA和AFP降至正常（具体数值未记载）"
+                },
+                {
+                  "order": 4,
+                  "label": "核心教学点",
+                  "value": "AFP阳性结直肠癌与肝细胞癌的鉴别诊断要点 黏液性结肠腺癌伴AFP表达的病理特征及免疫组化判读 结肠癌引起肠套叠的外科处理策略 Duke C期结肠癌辅助化疗方案选择及疗程 AFP作为结直肠癌随访监测标志物的价值与局限"
+                }
+              ]
+            },
+            {
+              "id": "timeline",
+              "label": "病程轴",
+              "order": 2,
+              "timeline_items": [
+                {
+                  "date": "入院时",
+                  "title": "症状与体征",
+                  "detail": "患者，男性，59岁，因间断性便血2个月入院。既往有乙肝病史、高血压、高脂血症和冠心病。入院查体生命体征平稳，腹部无压痛及包块，直肠指检可见手套上有血迹。"
+                },
+                {
+                  "date": "入院时",
+                  "title": "实验室检查",
+                  "detail": "实验室检查显示血红蛋白（Hb）9.4 g/dL，癌胚抗原（CEA）9.0 ng/mL，AFP 212.6 ng/mL。"
+                },
+                {
+                  "date": "入院时",
+                  "title": "影像学检查",
+                  "detail": "肝脏超声显示轻度实质回声增强，门静脉通畅无血栓。肝脏三期CT未见可疑病灶，但在肝曲处发现可能肠套叠，套叠部分包含低密度肿块，无肠梗阻表现（图1）。"
+                },
+                {
+                  "date": "入院时",
+                  "title": "内镜检查",
+                  "detail": "结肠镜检查发现横结肠近端有巨大易碎肿瘤阻塞肠腔，活检示中分化腺癌（图2）。"
+                },
+                {
+                  "date": "入院后",
+                  "title": "手术",
+                  "detail": "患者急诊行扩大右半结肠切除术。术中见横结肠近端肿瘤，中结肠血管周围淋巴结肿大，无腹膜转移，肝脏正常。"
+                },
+                {
+                  "date": "术后",
+                  "title": "病理",
+                  "detail": "病理检查显示肿瘤侵及黏膜层、肌层和浆膜层，淋巴结转移10/10。免疫组化显示肿瘤错配修复蛋白正常（MLH1/MSH2/MSH6/PMS2阳性），HER2阳性，AFP阳性（图3）。最终诊断为 Duke C期（T3N2b）黏液性结肠腺癌，切缘满意。"
+                },
+                {
+                  "date": "术后",
+                  "title": "恢复",
+                  "detail": "术后患者恢复顺利，第4天开始流质饮食，第6天出院。"
+                },
+                {
+                  "date": "术后一周",
+                  "title": "肿瘤标志物复查",
+                  "detail": "术后一周，CEA和AFP降至正常。"
+                },
+                {
+                  "date": "术后一周",
+                  "title": "PET-CT",
+                  "detail": "PET-CT仅见吻合口轻度活性，无远处或局部转移。"
+                },
+                {
+                  "date": "术后",
+                  "title": "辅助化疗",
+                  "detail": "患者完成8个周期（4个月）的卡培他滨和奥沙利铂（CAPOX）辅助化疗。"
+                },
+                {
+                  "date": "术后1年",
+                  "title": "随访",
+                  "detail": "术后1年，复查CT和结肠镜未见复发。"
+                }
+              ]
+            },
+            {
+              "id": "images",
+              "label": "病例图片",
+              "order": 3,
+              "image_items": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "error": {
+        "file_index": 4,
+        "code": "INVALID_JSON",
+        "message": "三连未返回可解析的单一 JSON 对象。"
+      }
+    },
+    {
+      "error": {
+        "file_index": 5,
+        "code": "INVALID_JSON",
+        "message": "三连未返回可解析的单一 JSON 对象。"
+      }
+    },
+    {
+      "error": {
+        "file_index": 6,
+        "code": "INVALID_JSON",
+        "message": "三连未返回可解析的单一 JSON 对象。"
+      }
+    },
+    {
+      "error": {
+        "file_index": 7,
+        "code": "INVALID_JSON",
+        "message": "三连未返回可解析的单一 JSON 对象。"
+      }
+    },
+    {
+      "error": {
+        "file_index": 8,
+        "code": "INVALID_JSON",
+        "message": "三连未返回可解析的单一 JSON 对象。"
+      }
+    },
+    {
+      "Questions": {
+        "schema_version": "1.0",
+        "case_id": "CASE-12B71178",
+        "cancer_type": "乳腺癌",
+        "generation_status": "insufficient",
+        "difficulty": "进阶",
+        "question_count": 0,
+        "questions": [],
+        "missing_information": [
+          "候选为空",
+          "第二轮未返回有效完整题目JSON"
+        ]
+      },
+      "detail": {
+        "schema_version": "1.0",
+        "case_id": "CASE-12B71178",
+        "cancer_type": "乳腺癌",
+        "difficulty": "进阶",
+        "decision_point_count": 0,
+        "image": {
+          "src": "",
+          "alt": ""
+        },
+        "home": {
+          "recommendation_label": "今日推荐病例",
+          "display_title": "三阴性乳腺癌新辅助化疗后短期内脑膜转移",
+          "description": "患者，女性，54岁，自觉左侧乳房无痛性包块2月后就诊。初次影像及穿刺活检提示左乳浸润性导管癌（组织学分级Ⅱ级），免疫组化：ER（-）、PR（-）、HER2（0）、Ki-67约80％，提示高度增殖。左腋窝及锁骨上淋巴结穿刺均查见癌细胞，临床分期为cT4bN3cM0（ⅢC期）。患者无家族遗传病史。患者因经济因素未接受免疫治疗，启动6个周期TA方案（白蛋白紫杉醇＋……"
+        },
+        "overview": {
+          "hero": {
+            "title": "三阴性乳腺癌新辅助化疗后短期内脑膜转移",
+            "subtitle": "三阴性乳腺癌新辅助化疗达PR后短期内发生脑膜转移的机制与风险因素 cT4bN3cM0期三阴性乳腺癌新辅助化疗方案选择及疗效评估 术后分期ypT1bN3aMx中Mx状态对后续监测策略的影响 脑膜转移的早期识别手段（头颅MRI、脑脊液细胞学）及……"
+          },
+          "tabs": [
+            {
+              "id": "summary",
+              "label": "病例摘要",
+              "order": 1,
+              "summary_items": [
+                {
+                  "order": 1,
+                  "label": "患者与就诊背景",
+                  "value": "患者，女性，54岁，自觉左侧乳房无痛性包块2月后就诊。初次影像及穿刺活检提示左乳浸润性导管癌（组织学分级Ⅱ级），免疫组化：ER（-）、PR（-）、HER2（0）、Ki-67约80％，提示高度增殖。左腋窝及锁骨上淋巴结穿刺均查见癌细胞，临床分期为cT4bN3cM0（ⅢC期）。患者无家族遗传病史。患者因经济因素未接受免疫治疗，启动6个周期TA方案（白蛋白紫杉醇＋吡柔比星）新辅助化疗，获部分缓解（PR）。"
+                },
+                {
+                  "order": 2,
+                  "label": "疾病与分期",
+                  "value": "乳腺癌（浸润性导管癌，组织学分级Ⅱ级，三阴性），临床分期cT4bN3cM0（ⅢC期）"
+                },
+                {
+                  "order": 3,
+                  "label": "分子与病理",
+                  "value": "穿刺活检标本（时间未注明）｜ER（-）、PR（-）、HER2（0）、Ki-67约80％ 术后病理标本（2024年10月23日）｜免疫组化同前（即ER（-）、PR（-）、HER2（0）、Ki-67约80％） 脑脊液（2024年11月25日）｜细胞学阳性"
+                },
+                {
+                  "order": 4,
+                  "label": "核心教学点",
+                  "value": "三阴性乳腺癌新辅助化疗达PR后短期内发生脑膜转移的机制与风险因素 cT4bN3cM0期三阴性乳腺癌新辅助化疗方案选择及疗效评估 术后分期ypT1bN3aMx中Mx状态对后续监测策略的影响 脑膜转移的早期识别手段（头颅MRI、脑脊液细胞学）及诊断流程 全脑放疗联合鞘内化疗在乳腺癌脑膜转移中的应用"
+                }
+              ]
+            },
+            {
+              "id": "timeline",
+              "label": "病程轴",
+              "order": 2,
+              "timeline_items": [
+                {
+                  "date": "时间未详",
+                  "title": "诊疗节点 1",
+                  "detail": "未注明日期｜初始诊断｜患者，女性，54岁，自觉左侧乳房无痛性包块2月后就诊。初次影像及穿刺活检提示左乳浸润性导管癌（组织学分级Ⅱ级），免疫组化：ER（-）、PR（-）、HER2（0）、Ki-67约80％，提示高度增殖。左腋窝及锁骨上淋巴结穿刺均查见癌细胞，临床分期为cT4bN3cM0（ⅢC期）。患者无家族遗传病史。"
+                },
+                {
+                  "date": "时间未详",
+                  "title": "诊疗节点 2",
+                  "detail": "未注明日期｜新辅助化疗｜患者因经济因素未接受免疫治疗，启动6个周期TA方案（白蛋白紫杉醇＋吡柔比星）新辅助化疗，获部分缓解（PR）。"
+                },
+                {
+                  "date": "时间未详",
+                  "title": "诊疗节点 3",
+                  "detail": "未注明日期（术前）｜疗效评估｜新辅助治疗后（术前）影像及身体检查显示左侧锁骨上淋巴结未见明显肿大，评估为cT2N2M0（ⅢA期）。"
+                },
+                {
+                  "date": "2024年10月23日",
+                  "title": "手术",
+                  "detail": "2024年10月23日行左侧乳腺癌改良根治术，术后病理：残留癌细胞密度仅5％，最大病灶约7mm，散在于纤维基质中，免疫组化同前，术后分期为ypT1bN3aMx。切缘及皮肤未见残余癌灶，淋巴结13枚（Ⅰ组）、4枚（Ⅱ组）和2枚（Ⅲ组）分别有8、2和0枚转移。"
+                },
+                {
+                  "date": "2024年10月31日",
+                  "title": "出院",
+                  "detail": "患者于2024年10月31日顺利出院，计划行术后放疗。"
+                },
+                {
+                  "date": "2024年11月23日",
+                  "title": "症状出现及影像",
+                  "detail": "2024年11月23日，患者出现恶心、头晕、头痛症状，行头颅MRI平扫及DWI示多发异常信号，考虑脑转移；24日增强扫描示左颞叶最大结节长径约0.7cm，伴脑膜及蛛网膜下腔线样强化影，提示多发脑实质及脑膜转移（图2）。"
+                },
+                {
+                  "date": "2024年11月25日",
+                  "title": "脑脊液确诊",
+                  "detail": "翌日腰穿脑脊液细胞学阳性，确诊脑膜转移。"
+                },
+                {
+                  "date": "时间未详",
+                  "title": "诊疗节点 8",
+                  "detail": "2024年11月25日后｜转移灶治疗｜即刻行全脑放疗（42 Gy/15次）及局部放疗（37.5 Gy/15次），并配合3个周期鞘内甲氨蝶呤化疗，辅以脱颅压及止吐等对症支持治疗。"
+                },
+                {
+                  "date": "时间未详",
+                  "title": "诊疗节点 9",
+                  "detail": "未注明日期｜治疗后评估｜治疗后患者症状显著缓解，复查MRI示病灶缩小（图3），继续定期鞘内化疗及随访。"
+                }
+              ]
+            },
+            {
+              "id": "images",
+              "label": "病例图片",
+              "order": 3,
+              "image_items": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "error": {
+        "file_index": 10,
+        "code": "INVALID_JSON",
+        "message": "三连未返回可解析的单一 JSON 对象。"
+      }
+    }
+  ],
+  "batch_report": {
+    "schema_version": "batch-five-1.1",
+    "workflow_revision": "20260929-full-review-five-batch",
+    "medical_review_status": "not_performed",
+    "scope": "structure_and_completion_only",
+    "expected_count": 10,
+    "complete_count": 0,
+    "incomplete_count": 0,
+    "failed_count": 10,
+    "status": "no_complete_cases",
+    "retry_file_indices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "items": [
+      {
+        "file_index": 1,
+        "status": "failed",
+        "code": "INVALID_JSON",
+        "message": "三连未返回可解析的单一 JSON 对象。"
+      },
+      {
+        "file_index": 2,
+        "status": "failed",
+        "code": "INVALID_JSON",
+        "message": "三连未返回可解析的单一 JSON 对象。"
+      },
+      {
+        "file_index": 3,
+        "status": "failed",
+        "code": "FORMAT_ERROR",
+        "question_count": 0,
+        "execution_report": {
+          "schema_version": "oncorounds-execution-1.0",
+          "workflow_revision": "20260929-html-five-contract-outer",
+          "case_id": "CASE-9CEE683F",
+          "status": "FORMAT_ERROR",
+          "publishable": false,
+          "medical_review_status": "not_performed",
+          "extraction_check": {
+            "scope": "literal_source_trace_not_medical_validation",
+            "status": "PASS",
+            "patient_paragraph_count": 3,
+            "matched_paragraph_count": 3,
+            "semantic_support": "not_independently_verified"
+          },
+          "source_groups": [
+            {
+              "group_id": "G1",
+              "parse_status": "OK",
+              "raw_question_count": 0,
+              "usable_question_count": 0,
+              "rejected_questions": [],
+              "warnings": [],
+              "audit": {
+                "availability": "not_provided"
+              },
+              "transport": {
+                "protocol": "single_json",
+                "json_block_count": 1,
+                "selected_block_index": 0,
+                "ignored_intermediate_blocks": 0,
+                "upstream_messages": []
+              },
+              "upstream_missing_information": [
+                "候选为空",
+                "第二轮未返回有效完整题目JSON"
+              ],
+              "workflow_revision": "20260929-html-five-contract",
+              "flow_status": "FORMAT_ERROR",
+              "completion": {
+                "required_question_count": 5,
+                "available_question_count": 0,
+                "model_question_count": 0,
+                "complete": false
+              },
+              "program_check": {
+                "scope": "program_structure_and_reference_identity_only",
+                "decision": "FAIL",
+                "errors": [
+                  "候选为空",
+                  "第二轮未返回有效完整题目JSON"
+                ],
+                "warnings": []
+              },
+              "workflow_diagnostics": {
+                "scope": "debug_only_not_learner_content",
+                "evidence_verification": {
+                  "version": "option-anchors-1.0",
+                  "scope": "literal_source_presence_and_shape_only",
+                  "decision": "NOT_RUN",
+                  "semantic_support": "not_independently_verified",
+                  "errors": [],
+                  "question_checks": []
+                },
+                "question_evidence_bindings": [],
+                "cited_evidence_snapshot": [],
+                "retrieval_queries": {
+                  "staging": "初始临床评估与分期指南\n原发诊断：结肠癌（横结肠近端黏液性腺癌，Duke C期，T3N2b）\n初诊摘录：患者，男性，59岁，因间断性便血2个月入院；既往有乙肝病史、高血压、高脂血症和冠心病；入院查体生命体征平稳，腹部无压痛及包块，直肠指检可见手套上有血迹；实验室检查显示血红蛋白（Hb）9.4 g/dL，癌胚抗原（CEA）9.0 ng/mL，AFP 212.6 ng/mL；肝脏超声显示轻度实质回声增强，门静脉通畅无血栓；肝脏三期CT未见可疑病灶，但在肝曲处发现可能肠套叠，套叠部分包含低密度肿块，无肠梗阻表现\n匹配原发病种与分期检查、区域和远处病变评估，不用后续事实反推初诊。",
+                  "molecular": "病理与分子检测及结果应用指南\n原发诊断：结肠癌（横结肠近端黏液性腺癌，Duke C期，T3N2b）\n检测记录：术后病理｜手术标本免疫组化｜HER2阳性\n关注检测时机、结果等待与治疗衔接；检索关键词不代表初诊已知结果。",
+                  "treatment": "复评、局部协调与后线决策正式指南\n原发诊断：结肠癌（横结肠近端黏液性腺癌，Duke C期，T3N2b）\n决策问题：pMMR/HER2阳性结肠癌辅助化疗方案是否需调整\n实际治疗：术后｜辅助化疗｜患者完成8个周期（4个月）的卡培他滨和奥沙利铂（CAPOX）辅助化疗\n检测记录：术后病理｜手术标本免疫组化｜HER2阳性\n按原发癌种匹配复评与后线阶段，保留已知治疗限制。",
+                  "study": "匹配病例实际方案的原始临床研究\n原发诊断：结肠癌（横结肠近端黏液性腺癌，Duke C期，T3N2b）\n方案和阶段：术后｜辅助化疗｜患者完成8个周期（4个月）的卡培他滨和奥沙利铂（CAPOX）辅助化疗\n人群线索：术后病理｜手术标本免疫组化｜HER2阳性\n匹配药物、人群、治疗阶段与决策终点，需该记录已报告原始研究结果。",
+                  "toxicity_a": "",
+                  "toxicity_b": ""
+                },
+                "retrieval_health": {
+                  "ok": true,
+                  "errors": []
+                },
+                "compression_report": {
+                  "input_counts": {
+                    "guideline_a_staging": 10,
+                    "guideline_a": 10,
+                    "guideline_b": 5,
+                    "clinical_study_initial": 7,
+                    "clinical_study_supplement": 0,
+                    "irae_a": 0,
+                    "irae_b": 0
+                  },
+                  "kept_counts": {
+                    "guideline_a_staging": 4,
+                    "guideline_a": 6,
+                    "guideline_b": 5,
+                    "clinical_study_initial": 1,
+                    "clinical_study_supplement": 0,
+                    "irae_a": 0,
+                    "irae_b": 0
+                  },
+                  "kept_total": 16,
+                  "dropped_total": 16,
+                  "dropped": [
+                    {
+                      "lane": "guideline_a_staging",
+                      "index": 4,
+                      "reason": "LANE_LIMIT"
+                    },
+                    {
+                      "lane": "guideline_a_staging",
+                      "index": 5,
+                      "reason": "LANE_LIMIT"
+                    },
+                    {
+                      "lane": "guideline_a_staging",
+                      "index": 6,
+                      "reason": "LANE_LIMIT"
+                    },
+                    {
+                      "lane": "guideline_a_staging",
+                      "index": 7,
+                      "reason": "LANE_LIMIT"
+                    },
+                    {
+                      "lane": "guideline_a_staging",
+                      "index": 8,
+                      "reason": "LANE_LIMIT"
+                    },
+                    {
+                      "lane": "guideline_a_staging",
+                      "index": 9,
+                      "reason": "LANE_LIMIT"
+                    },
+                    {
+                      "lane": "guideline_a",
+                      "index": 6,
+                      "reason": "LANE_LIMIT"
+                    },
+                    {
+                      "lane": "guideline_a",
+                      "index": 7,
+                      "reason": "LANE_LIMIT"
+                    },
+                    {
+                      "lane": "guideline_a",
+                      "index": 8,
+                      "reason": "LANE_LIMIT"
+                    },
+                    {
+                      "lane": "guideline_a",
+                      "index": 9,
+                      "reason": "LANE_LIMIT"
+                    },
+                    {
+                      "lane": "clinical_study_initial",
+                      "index": 0,
+                      "reason": "INELIGIBLE_SOURCE",
+                      "locator": "561a1b5a4ecd1be9f744edfa0e1a5c9a::1"
+                    },
+                    {
+                      "lane": "clinical_study_initial",
+                      "index": 1,
+                      "reason": "INELIGIBLE_SOURCE",
+                      "locator": "c1c887d3bfcd71dd11939067a4484c16::1"
+                    },
+                    {
+                      "lane": "clinical_study_initial",
+                      "index": 2,
+                      "reason": "INELIGIBLE_SOURCE",
+                      "locator": "462f1a7c62abb55572c8bff20c2d63d9::1"
+                    },
+                    {
+                      "lane": "clinical_study_initial",
+                      "index": 4,
+                      "reason": "INELIGIBLE_SOURCE",
+                      "locator": "94dd197c7d6bcb7c7f0a47077f4e86eb::1"
+                    },
+                    {
+                      "lane": "clinical_study_initial",
+                      "index": 5,
+                      "reason": "INELIGIBLE_SOURCE",
+                      "locator": "d3a2995b5ef37854ca7020a0ce0fa90a::1"
+                    },
+                    {
+                      "lane": "clinical_study_initial",
+                      "index": 6,
+                      "reason": "INELIGIBLE_SOURCE",
+                      "locator": "MEETING_20260730_153537_121FCCE3::1"
+                    }
+                  ]
+                },
+                "first_round_raw": "{\n  \"schema_version\": \"1.1\",\n  \"generation_status\": \"success\",\n  \"case_summary\": \"59岁男性，间断便血2月入院，既往乙肝、高血压、冠心病。Hb 9.4，CEA 9.0，AFP 212.6。肝脏三期CT未见可疑病灶，肝曲处发现可能肠套叠伴低密度肿块，无肠梗阻。结肠镜示横结肠近端巨大易碎肿瘤，活检中分化腺癌。急诊行扩大右半结肠切除术，术中肝脏正常、无腹膜转移。病理：T3N2b（10/10淋巴结转移），黏液性腺癌，pMMR，HER2阳性，AFP阳性，切缘满意。术后一周CEA和AFP降至正常，PET-CT无转移。完成8周期CAPOX辅助化疗。术后1年CT及结肠镜未见复发。\",\n  \"question_count\": 5,\n  \"difficulty\": \"进阶\",\n  \"missing_information\": [\n    \"CAPOX化疗期间不良反应及处理未记载\",\n    \"AFP降至正常的具体数值未提供\",\n    \"术后1年随访未提及AFP复查结果\",\n    \"病例记载8周期CAPOX为4个月，与q3w方案24周（约5.5个月）存在时间描述不一致\"\n  ],\n  \"risk_message\": \"本组题目基于病例原文与绑定指南正文设计，未进行独立医学审核。病例中CAPOX疗程时间描述存在内部矛盾（8周期q3w应为约24周而非4个月），Q2仅考查指南推荐疗程而非实际执行偏差。延伸情境题（Q5）为假设性后线决策，不代表该患者已发生复发。\",\n  \"questions\": [\n    {\n      \"id\": \"Q1\",\n      \"type\": \"诊断与分期\",\n      \"phase\": \"术前评估\",\n      \"timepoint\": \"入院时\",\n      \"question\": \"59岁男性，乙肝病史，AFP 212.6 ng/mL，肝脏三期CT未见可疑病灶，结肠活检示中分化腺癌。关于AFP升高的临床解读，下列哪项正确？\",\n      \"options\": [\n       \"A. CT未见肝占位、术中肝正常、肿瘤IHC AFP阳性，AFP归因于结肠癌，无需追加肝穿刺\",\n       \"B. 乙肝病史合并AFP>200，应先行肝穿刺活检排除HCC再决定手术\",\n       \"C. AFP显著升高提示隐匿性肝转移，应PET-CT确认后再决定手术方式\",\n       \"D. 活检已证实腺癌，AFP升高不影响当前手术决策\"\n      ],\n      \"answer\": 0,\n      \"answer_text\": \"A. CT未见肝占位、术中肝正常、肿瘤IHC AFP阳性，AFP归因于结肠癌，无需追加肝穿刺\",\n      \"keyPoint\": \"AFP升高需结合影像和病理归因，CT阴性+IHC阳性可确认结肠癌来源\",\n      \"explain\": {\n       \"A\": \"CT排除肝占位、术中肝正常、肿瘤IHC确认AFP来源，归因充分无需有创检查\",\n       \"B\": \"指南推荐增强CT为分期评估手段，CT阴性时不强制肝穿刺，乙肝病史不改变此原则\",\n       \"C\": \"AFP可由原发黏液性结肠癌产生，CT未见转移灶，不能仅凭AFP推断隐匿转移\",\n       \"D\": \"AFP是黏液性结肠癌可表达的肿瘤标志物，IHC阳性证实来源，具有诊断和监测价值\"\n      },\n      \"evidence_id\": \"GS03\",\n      \"support_mode\": \"hard\",\n      \"evidence_summary\": \"推荐增强CT评估分期及随访，含远处器官转移和肠套叠等并发症及其他影响决策的伴随疾病\",\n      \"verification\": {\n       \"A\": [\"是否伴远处器官转移\", \"是否疑有肠梗阻、肠套叠、肠穿孔等并发症或其他可能影响治疗决策的伴随疾病\"],\n       \"B\": [\"推荐胸部/腹部/盆腔增强CT检查，评估肿瘤分期、疗效，及随访\"],\n       \"C\": [\"① 原发肿瘤的位置、侵犯范围及浸润深度\", \"是否伴远处器官转移\"],\n       \"D\": [\"(5) 判断治疗的疗效\"],\n       \"case_facts\": [\n       {\"field\": \"case_source_text\", \"quote\": \"肝脏三期CT未见可疑病灶\"},\n       {\"field\": \"case_source_text\", \"quote\": \"免疫组化显示肿瘤错配修复蛋白正常（MLH1/MSH2/MSH6/PMS2阳性），HER2阳性，AFP阳性\"},\n       {\"field\": \"biomarkers\", \"quote\": \"AFP 212.6 ng/mL\"}\n       ],\n       \"closest_alternative\": \"B\",\n       \"decision_boundary\": \"CT阴性+术中肝正常+IHC AFP阳性已充分归因，指南推荐CT为评估手段而非强制穿刺\"\n      }\n    },\n    {\n      \"id\": \"Q2\",\n      \"type\": \"治疗决策\",\n      \"phase\": \"术后辅助\",\n      \"timepoint\": \"术后\",\n      \"question\": \"该患者术后病理T3N2b（10/10淋巴结转移），pMMR。关于辅助化疗疗程，下列哪项正确？\",\n      \"options\": [\n       \"A. pMMR提示化疗不敏感，3周期CAPOX即可\",\n       \"B. 10枚淋巴结转移属极高危，应延长至12周期CAPOX\",\n       \"C. 合并冠心病应限制奥沙利铂不超过4周期\",\n       \"D. T3N2b属高危Ⅲ期，推荐含奥沙利铂双药化疗6个月；3个月仅适用于T1-3N1低危Ⅲ期\"\n      ],\n      \"answer\": 3,\n      \"answer_text\": \"D. T3N2b属高危Ⅲ期，推荐含奥沙利铂双药化疗6个月；3个月仅适用于T1-3N1低危Ⅲ期\",\n      \"keyPoint\": \"T3N2b为高危Ⅲ期需6个月化疗，3个月方案仅限T1-3N1低危Ⅲ期\",\n      \"explain\": {\n       \"A\": \"pMMR不意味着化疗不敏感，指南对Ⅲ期推荐含奥沙利铂双药化疗，与MMR状态无关\",\n       \"B\": \"指南推荐6个月为含奥沙利铂双药化疗疗程，无证据支持N2b需超6个月\",\n       \"C\": \"指南未将冠心病列为缩短奥沙利铂疗程的依据，不耐受者应换单药而非缩短\",\n       \"D\": \"T3N2b为高危Ⅲ期，指南推荐6个月含奥沙利铂双药化疗；3个月仅限T1-3N1低危Ⅲ期\"\n      },\n      \"evidence_id\": \"GB02\",\n      \"support_mode\": \"hard\",\n      \"evidence_summary\": \"Ⅲ期术后推荐含奥沙利铂双药化疗6个月，低危Ⅲ期T1-3N1可予CapeOx 3个月\",\n      \"verification\": {\n       \"A\": [\"术后推荐含奥沙利铂的双药联合化疗6个月\"],\n       \"B\": [\"术后推荐含奥沙利铂的双药联合化疗6个月\"],\n       \"C\": [\"不耐受奥沙利铂者，推荐单药5-FU/LV持续静脉输注或口服卡培他滨化疗\"],\n       \"D\": [\"术后推荐含奥沙利铂的双药联合化疗6个月\", \"低危Ⅲ期（T1~3N1）可予CapeOx方案辅助化疗3个月\"],\n       \"case_facts\": [\n       {\"field\": \"case_source_text\", \"quote\": \"淋巴结转移10/10\"},\n       {\"field\": \"case_source_text\", \"quote\": \"最终诊断为 Duke C期（T3N2b）黏液性结肠腺癌\"}\n       ],\n       \"closest_alternative\": \"B\",\n       \"decision_boundary\": \"指南明确6个月为推荐疗程，无证据支持N2b需超6个月；3个月仅限T1-3N1\"\n      }\n    },\n    {\n      \"id\": \"Q3\",\n      \"type\": \"治疗决策\",\n      \"phase\": \"术后辅助\",\n      \"timepoint\": \"术后\",\n      \"question\": \"该患者术后病理示HER2阳性、pMMR。关于辅助化疗方案选择，下列哪项正确？\",\n      \"options\": [\n       \"A. HER2阳性应在CAPOX基础上加用曲妥珠单抗\",\n       \"B. 辅助化疗不推荐使用任何靶向药物，HER2阳性不改变标准CAPOX方案\",\n       \"C. pMMR合并HER2阳性应改用免疫检查点抑制剂辅助治疗\",\n       \"D. HER2阳性须先FISH验证，确认后方可决定是否调整辅助方案\"\n      ],\n      \"answer\": 1,\n      \"answer_text\": \"B. 辅助化疗不推荐使用任何靶向药物，HER2阳性不改变标准CAPOX方案\",\n      \"keyPoint\": \"辅助化疗禁用所有靶向药，HER2阳性不改变标准CAPOX方案\",\n      \"explain\": {\n       \"A\": \"指南明确辅助化疗不推荐使用任何靶向药物，曲妥珠单抗不在辅助方案中\",\n       \"B\": \"指南禁止辅助阶段使用所有靶向药和免疫检查点抑制剂，HER2阳性不改变方案\",\n       \"C\": \"pMMR不等同于高TMB，且指南禁止辅助阶段使用免疫检查点抑制剂\",\n       \"D\": \"即使FISH确认HER2扩增，辅助阶段仍禁用靶向药，确认结果不改变方案选择\"\n      },\n      \"evidence_id\": \"GB04\",\n      \"support_mode\": \"hard\",\n      \"evidence_summary\": \"除临床试验外不推荐辅助化疗使用所有靶向药物和免疫检查点抑制剂\",\n      \"verification\": {\n       \"A\": [\"除临床试验外, 不推荐在辅助化疗中使用如下药物: 伊立替康、替吉奥、曲氟尿苷替匹嘧啶(TAS- 102)、所有的靶向药物\"],\n       \"B\": [\"除临床试验外, 不推荐在辅助化疗中使用如下药物: 伊立替康、替吉奥、曲氟尿苷替匹嘧啶(TAS- 102)、所有的靶向药物[包括贝伐珠单抗、抗表皮生长因子受体(epidermal growth factor receptor, EGFR)单抗、帕尼单抗、阿柏西普、瑞戈非尼、呋喹替尼等]和所有的免疫检查点抑制剂(帕博利珠单抗和纳武利尤单抗等)。\"],\n       \"C\": [\"和所有的免疫检查点抑制剂(帕博利珠单抗和纳武利尤单抗等)\"],\n       \"D\": [\"除临床试验外, 不推荐在辅助化疗中使用如下药物: 伊立替康、替吉奥、曲氟尿苷替匹嘧啶(TAS- 102)、所有的靶向药物\"],\n       \"case_facts\": [\n       {\"field\": \"case_source_text\", \"quote\": \"HER2阳性\"},\n       {\"field\": \"case_source_text\", \"quote\": \"免疫组化显示肿瘤错配修复蛋白正常（MLH1/MSH2/MSH6/PMS2阳性），HER2阳性，AFP阳性\"}\n       ],\n       \"closest_alternative\": \"D\",\n       \"decision_boundary\": \"即使FISH确认HER2扩增，辅助阶段仍禁用靶向药，确认结果不改变方案\"\n      }\n    },\n    {\n      \"id\": \"Q4\",\n      \"type\": \"诊断与分期\",\n      \"phase\": \"术后病理\",\n      \"timepoint\": \"术后\",\n      \"question\": \"该患者病理示肿瘤侵透固有肌层至肠周组织，10/10淋巴结转移，无远处转移。关于AJCC第八版分期，下列哪项正确？\",\n      \"options\": [\n       \"A. T3N2bM0对应AJCC第八版ⅢB期\",\n       \"B. 10/10淋巴结转移应归为N1c而非N2b\",\n       \"C. T3N2bM0对应ⅢC期，属高危Ⅲ期，需6个月含奥沙利铂辅助化疗\",\n       \"D. 黏液性腺癌伴AFP表达应上调T分期为T4a\"\n      ],\n      \"answer\": 2,\n      \"answer_text\": \"C. T3N2bM0对应ⅢC期，属高危Ⅲ期，需6个月含奥沙利铂辅助化疗\",\n      \"keyPoint\": \"T3N2bM0按AJCC第八版对应ⅢC期，N2b为≥7枚淋巴结转移\",\n      \"explain\": {\n       \"A\": \"分期表明确T3-4a+N2b+M0对应ⅢC期而非ⅢB期，ⅢB对应T3-4a+N1或T2-3+N2a\",\n       \"B\": \"N1c定义为无淋巴结转移的肿瘤沉积，本例10枚为真实淋巴结转移，应归N2b\",\n       \"C\": \"T3N2bM0按分期表对应ⅢC期，属高危Ⅲ期，需6个月含奥沙利铂辅助化疗\",\n       \"D\": \"T分期依据浸润深度而非组织学类型或标志物表达，黏液性和AFP不改变T分期\"\n      },\n      \"evidence_id\": \"GS02\",\n      \"support_mode\": \"hard\",\n      \"evidence_summary\": \"AJCC第八版分期表：T3-4a+N2b+M0对应ⅢC期；N2b为7个或以上淋巴结转移\",\n      \"verification\": {\n       \"A\": [\"<tr><td>T3-4a</td><td>N2b</td><td>M0</td><td>III C</td></tr>\"],\n       \"B\": [\"N1c：肿瘤沉积于浆膜下、肠系膜或非腹膜被覆的结肠周或直肠周组织，不伴区域淋巴结转移\"],\n       \"C\": [\"N2b：7个或以上区域淋巴结转移\", \"<tr><td>T3-4a</td><td>N2b</td><td>M0</td><td>III C</td></tr>\"],\n       \"D\": [\"T4a：肿瘤浸透脏层腹膜（包括肿瘤导致的肠穿孔，肿瘤炎症区域侵及浆膜）\"],\n       \"case_facts\": [\n       {\"field\": \"case_source_text\", \"quote\": \"肿瘤侵及黏膜层、肌层和浆膜层，淋巴结转移10/10\"},\n       {\"field\": \"case_source_text\", \"quote\": \"最终诊断为 Duke C期（T3N2b）黏液性结肠腺癌，切缘满意\"}\n       ],\n       \"closest_alternative\": \"A\",\n       \"decision_boundary\": \"分期表明确T3-4a+N2b=M0为ⅢC；ⅢB对应T3-4a+N1或T2-3+N2a\"\n      }\n    },\n    {\n      \"id\": \"Q5\",\n      \"type\": \"耐药与后线管理\",\n      \"phase\": \"假设复发后\",\n      \"timepoint\": \"假设术后18个月复发\",\n      \"question\": \"【延伸情境】假设该患者辅助化疗结束后18个月出现肝转移，KRAS/NRAS/BRAF野生型，HER2仍阳性。关于后线治疗，下列哪项正确？\",\n      \"options\": [\n       \"A. 标准治疗失败后可考虑曲妥珠单抗联合帕妥珠单抗或拉帕替尼作为三线治疗\",\n       \"B. 一线转移性治疗即应使用曲妥珠单抗联合CAPOX\",\n       \"C. pMMR提示高TMB，应首选免疫检查点抑制剂\",\n       \"D. 孤立肝转移应直接手术切除，无需全身化疗\"\n      ],\n      \"answer\": 0,\n      \"answer_text\": \"A. 标准治疗失败后可考虑曲妥珠单抗联合帕妥珠单抗或拉帕替尼作为三线治疗\",\n      \"keyPoint\": \"抗HER2治疗定位于三线，一线转移性CRC标准方案不含抗HER2\",\n      \"explain\": {\n       \"A\": \"指南将抗HER2治疗定位于标准治疗失败后的三线，曲妥珠单抗联合帕妥珠单抗或拉帕替尼适用\",\n       \"B\": \"抗HER2治疗为三线选择，一线转移性CRC标准方案不含抗HER2药物\",\n       \"C\": \"pMMR不等同于高TMB，且指南未推荐免疫检查点抑制剂用于此场景\",\n       \"D\": \"指南推荐复发转移性CRC应行全身化疗，孤立肝转移也需MDT评估而非直接手术\"\n      },\n      \"evidence_id\": \"GB03\",\n      \"support_mode\": \"hard\",\n      \"evidence_summary\": \"曲妥珠单抗联合帕妥珠单抗或拉帕替尼可作为HER-2扩增患者的三线治疗\",\n      \"verification\": {\n       \"A\": [\"曲妥珠单抗联合帕妥珠单抗或拉帕替尼可作为HER-2扩增患者的三线治疗\"],\n       \"B\": [\"曲妥珠单抗联合帕妥珠单抗或拉帕替尼可作为HER-2扩增患者的三线治疗\"],\n       \"C\": [\"瑞戈非尼、呋喹替尼、TAS- 102可作为现有标准治疗失败后的三线用药\"],\n       \"D\": [\"一线诱导化疗期间无进展的患者可考虑在二线治疗失败后重新导入初始诱导化疗方案\"],\n       \"case_facts\": [\n       {\"field\": \"case_source_text\", \"quote\": \"HER2阳性\"},\n       {\"field\": \"case_source_text\", \"quote\": \"患者完成8个周期（4个月）的卡培他滨和奥沙利铂（CAPOX）辅助化疗\"}\n       ],\n       \"closest_alternative\": \"B\",\n       \"decision_boundary\": \"指南将抗HER2定位于三线；一线转移性CRC标准方案不含抗HER2\"\n      }\n    }\n  ]\n}",
+                "second_round_raw": "",
+                "partial_draft_questions": [],
+                "model_execution": {
+                  "model": "qwen3.8-flash",
+                  "max_output_tokens_configured": 16000,
+                  "first_round_char_count": 8031,
+                  "second_round_char_count": 0,
+                  "finish_reason": null,
+                  "finish_reason_availability": "not_exposed_by_workflow_outputs"
+                }
+              },
+              "flow_publishable": false,
+              "output_ready": false,
+              "medical_review_status": "not_performed",
+              "generation_status": "insufficient",
+              "evidence_context_status": "not_provided"
+            }
+          ],
+          "warnings": [
+            "候选为空",
+            "第二轮未返回有效完整题目JSON",
+            "为保护位置相关选项语义，本组答案分布未均衡；这不是证据不足，不删除题目。"
+          ]
+        },
+        "missing_information": [
+          "候选为空",
+          "第二轮未返回有效完整题目JSON"
+        ]
+      },
+      {
+        "file_index": 4,
+        "status": "failed",
+        "code": "INVALID_JSON",
+        "message": "三连未返回可解析的单一 JSON 对象。"
+      },
+      {
+        "file_index": 5,
+        "status": "failed",
+        "code": "INVALID_JSON",
+        "message": "三连未返回可解析的单一 JSON 对象。"
+      },
+      {
+        "file_index": 6,
+        "status": "failed",
+        "code": "INVALID_JSON",
+        "message": "三连未返回可解析的单一 JSON 对象。"
+      },
+      {
+        "file_index": 7,
+        "status": "failed",
+        "code": "INVALID_JSON",
+        "message": "三连未返回可解析的单一 JSON 对象。"
+      },
+      {
+        "file_index": 8,
+        "status": "failed",
+        "code": "INVALID_JSON",
+        "message": "三连未返回可解析的单一 JSON 对象。"
+      },
+      {
+        "file_index": 9,
+        "status": "failed",
+        "code": "FORMAT_ERROR",
+        "question_count": 0,
+        "execution_report": {
+          "schema_version": "oncorounds-execution-1.0",
+          "workflow_revision": "20260929-html-five-contract-outer",
+          "case_id": "CASE-12B71178",
+          "status": "FORMAT_ERROR",
+          "publishable": false,
+          "medical_review_status": "not_performed",
+          "extraction_check": {
+            "scope": "literal_source_trace_not_medical_validation",
+            "status": "PASS",
+            "patient_paragraph_count": 5,
+            "matched_paragraph_count": 5,
+            "semantic_support": "not_independently_verified"
+          },
+          "source_groups": [
+            {
+              "group_id": "G1",
+              "parse_status": "OK",
+              "raw_question_count": 0,
+              "usable_question_count": 0,
+              "rejected_questions": [],
+              "warnings": [],
+              "audit": {
+                "availability": "not_provided"
+              },
+              "transport": {
+                "protocol": "single_json",
+                "json_block_count": 1,
+                "selected_block_index": 0,
+                "ignored_intermediate_blocks": 0,
+                "upstream_messages": []
+              },
+              "upstream_missing_information": [
+                "候选为空",
+                "第二轮未返回有效完整题目JSON"
+              ],
+              "workflow_revision": "20260929-html-five-contract",
+              "flow_status": "FORMAT_ERROR",
+              "completion": {
+                "required_question_count": 5,
+                "available_question_count": 0,
+                "model_question_count": 0,
+                "complete": false
+              },
+              "program_check": {
+                "scope": "program_structure_and_reference_identity_only",
+                "decision": "FAIL",
+                "errors": [
+                  "候选为空",
+                  "第二轮未返回有效完整题目JSON"
+                ],
+                "warnings": []
+              },
+              "workflow_diagnostics": {
+                "scope": "debug_only_not_learner_content",
+                "evidence_verification": {
+                  "version": "option-anchors-1.0",
+                  "scope": "literal_source_presence_and_shape_only",
+                  "decision": "NOT_RUN",
+                  "semantic_support": "not_independently_verified",
+                  "errors": [],
+                  "question_checks": []
+                },
+                "question_evidence_bindings": [],
+                "cited_evidence_snapshot": [],
+                "retrieval_queries": {
+                  "staging": "初始临床评估与分期指南\n原发诊断：乳腺癌（浸润性导管癌，组织学分级Ⅱ级，三阴性），临床分期cT4bN3cM0（ⅢC期）\n初诊摘录：患者，女性，54岁，自觉左侧乳房无痛性包块2月后就诊；初次影像及穿刺活检提示左乳浸润性导管癌（组织学分级Ⅱ级），免疫组化：ER（-）、PR（-）、HER2（0）、Ki-67约80％，提示高度增殖；左腋窝及锁骨上淋巴结穿刺均查见癌细胞，临床分期为cT4bN3cM0（ⅢC期）；患者无家族遗传病史；患者因经济因素未接受免疫治疗，启动6个周期TA方案（白蛋白紫杉醇＋吡柔比星）新辅助化疗，获部分缓解（PR）\n匹配原发病种与分期检查、区域和远处病变评估，不用后续事实反推初诊。",
+                  "molecular": "病理与分子检测及结果应用指南\n原发诊断：乳腺癌（浸润性导管癌，组织学分级Ⅱ级，三阴性），临床分期cT4bN3cM0（ⅢC期）\n检测记录：穿刺活检标本（时间未注明）｜ER（-）、PR（-）、HER2（0）、Ki-67约80％；术后病理标本（2024年10月23日）｜免疫组化同前（即ER（-）、PR（-）、HER2（0）、Ki-67约80％）\n关注检测时机、结果等待与治疗衔接；检索关键词不代表初诊已知结果。",
+                  "treatment": "复评、局部协调与后线决策正式指南\n原发诊断：乳腺癌（浸润性导管癌，组织学分级Ⅱ级，三阴性），临床分期cT4bN3cM0（ⅢC期）\n决策问题：脑膜转移确诊后全脑放疗联合鞘内化疗方案的选择\n实际治疗：未注明日期｜新辅助化疗｜患者因经济因素未接受免疫治疗，启动6个周期TA方案（白蛋白紫杉醇＋吡柔比星）新辅助化疗，获部分缓解（PR）；未注明日期（术前）｜疗效评估｜新辅助治疗后（术前）影像及身体检查显示左侧锁骨上淋巴结未见明显肿大，评估为cT2N2M0（ⅢA期）\n检测记录：穿刺活检标本（时间未注明）｜ER（-）、PR（-）、HER2（0）、Ki-67约80％；术后病理标本（2024年10月23日）｜免疫组化同前（即ER（-）、PR（-）、HER2（0）、Ki-67约80％）\n按原发癌种匹配复评与后线阶段，保留已知治疗限制。",
+                  "study": "匹配病例实际方案的原始临床研究\n原发诊断：乳腺癌（浸润性导管癌，组织学分级Ⅱ级，三阴性），临床分期cT4bN3cM0（ⅢC期）\n方案和阶段：未注明日期｜新辅助化疗｜患者因经济因素未接受免疫治疗，启动6个周期TA方案（白蛋白紫杉醇＋吡柔比星）新辅助化疗，获部分缓解（PR）；未注明日期（术前）｜疗效评估｜新辅助治疗后（术前）影像及身体检查显示左侧锁骨上淋巴结未见明显肿大，评估为cT2N2M0（ⅢA期）\n人群线索：穿刺活检标本（时间未注明）｜ER（-）、PR（-）、HER2（0）、Ki-67约80％；术后病理标本（2024年10月23日）｜免疫组化同前（即ER（-）、PR（-）、HER2（0）、Ki-67约80％）\n匹配药物、人群、治疗阶段与决策终点，需该记录已报告原始研究结果。",
+                  "toxicity_a": "",
+                  "toxicity_b": ""
+                },
+                "retrieval_health": {
+                  "ok": true,
+                  "errors": []
+                },
+                "compression_report": {
+                  "input_counts": {
+                    "guideline_a_staging": 6,
+                    "guideline_a": 9,
+                    "guideline_b": 5,
+                    "clinical_study_initial": 7,
+                    "clinical_study_supplement": 0,
+                    "irae_a": 0,
+                    "irae_b": 0
+                  },
+                  "kept_counts": {
+                    "guideline_a_staging": 4,
+                    "guideline_a": 6,
+                    "guideline_b": 4,
+                    "clinical_study_initial": 1,
+                    "clinical_study_supplement": 0,
+                    "irae_a": 0,
+                    "irae_b": 0
+                  },
+                  "kept_total": 15,
+                  "dropped_total": 12,
+                  "dropped": [
+                    {
+                      "lane": "guideline_a_staging",
+                      "index": 4,
+                      "reason": "LANE_LIMIT"
+                    },
+                    {
+                      "lane": "guideline_a_staging",
+                      "index": 5,
+                      "reason": "LANE_LIMIT"
+                    },
+                    {
+                      "lane": "guideline_a",
+                      "index": 6,
+                      "reason": "LANE_LIMIT"
+                    },
+                    {
+                      "lane": "guideline_a",
+                      "index": 7,
+                      "reason": "LANE_LIMIT"
+                    },
+                    {
+                      "lane": "guideline_a",
+                      "index": 8,
+                      "reason": "LANE_LIMIT"
+                    },
+                    {
+                      "lane": "guideline_b",
+                      "index": 4,
+                      "reason": "DUPLICATE_LOCATOR",
+                      "locator": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0::362"
+                    },
+                    {
+                      "lane": "clinical_study_initial",
+                      "index": 0,
+                      "reason": "INELIGIBLE_SOURCE",
+                      "locator": "MEETING_20260730_154039_099E993C::1"
+                    },
+                    {
+                      "lane": "clinical_study_initial",
+                      "index": 2,
+                      "reason": "INELIGIBLE_SOURCE",
+                      "locator": "5ae7d0bb7c59f24ede506d204dc594e9::1"
+                    },
+                    {
+                      "lane": "clinical_study_initial",
+                      "index": 3,
+                      "reason": "INELIGIBLE_SOURCE",
+                      "locator": "ac24875fe7b306e47c09b866bda6308a::1"
+                    },
+                    {
+                      "lane": "clinical_study_initial",
+                      "index": 4,
+                      "reason": "INELIGIBLE_SOURCE",
+                      "locator": "MEETING_20260730_154039_6B9F3FF5::1"
+                    },
+                    {
+                      "lane": "clinical_study_initial",
+                      "index": 5,
+                      "reason": "INELIGIBLE_SOURCE",
+                      "locator": "9d22ad09553c8bbd0f536004af127e50::1"
+                    },
+                    {
+                      "lane": "clinical_study_initial",
+                      "index": 6,
+                      "reason": "INELIGIBLE_SOURCE",
+                      "locator": "MEETING_20260730_154039_B5FB60E2::1"
+                    }
+                  ]
+                },
+                "first_round_raw": "",
+                "second_round_raw": "",
+                "partial_draft_questions": [],
+                "model_execution": {
+                  "model": "qwen3.8-flash",
+                  "max_output_tokens_configured": 16000,
+                  "first_round_char_count": 0,
+                  "second_round_char_count": 0,
+                  "finish_reason": null,
+                  "finish_reason_availability": "not_exposed_by_workflow_outputs"
+                }
+              },
+              "flow_publishable": false,
+              "output_ready": false,
+              "medical_review_status": "not_performed",
+              "generation_status": "insufficient",
+              "evidence_context_status": "not_provided"
+            }
+          ],
+          "warnings": [
+            "候选为空",
+            "第二轮未返回有效完整题目JSON",
+            "为保护位置相关选项语义，本组答案分布未均衡；这不是证据不足，不删除题目。"
+          ]
+        },
+        "missing_information": [
+          "候选为空",
+          "第二轮未返回有效完整题目JSON"
+        ]
+      },
+      {
+        "file_index": 10,
+        "status": "failed",
+        "code": "INVALID_JSON",
+        "message": "三连未返回可解析的单一 JSON 对象。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-C38F9D7E",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "分子诊断",
+        "phase": "晚期一线治疗前",
+        "timepoint": "2021 年 3 月",
+        "question": "患者拒绝新的组织活检，拟评估PIK3CA靶向治疗。关于血浆ctDNA检测，哪项策略更合理？",
+        "options": {
+          "A": "必须获取新鲜组织后才可考虑任何分子检测",
+          "B": "仅能使用初诊标本，血浆结果不具有选药价值",
+          "C": "可用经验证的血浆检测，阴性时在可行条件下补充组织检测",
+          "D": "血浆未检出突变即可永久排除PIK3CA相关治疗"
+        },
+        "answer": "C",
+        "answer_text": "可用经验证的血浆检测，阴性时在可行条件下补充组织检测",
+        "explain": "可靠的血浆阳性结果可用于相应选药；阴性可能受肿瘤DNA释放量和检测灵敏度影响，不能简单排除突变。患者不愿取材时，应沟通局限并结合可获得的组织。",
+        "keyPoint": "血浆阳性可提供选药依据，阴性需考虑假阴性。",
+        "guidelineRef": {
+          "evidence_type": "药品说明书",
+          "doc_id": "",
+          "split_index": null,
+          "type": "drug_label",
+          "authority": "Novartis / 美国处方信息",
+          "source_title": "PIQRAY Prescribing Information",
+          "source_version": "在线版本（核查于2026-09-10）",
+          "source_section": "",
+          "source_url": "https://www.novartis.com/us-en/sites/novartis_us/files/piqray.pdf",
+          "evidence_summary": "血浆阳性可提供选药依据，阴性需考虑假阴性。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "治疗决策",
+        "phase": "晚期二线治疗",
+        "timepoint": "2021 年 3 月",
+        "question": "该患者ER阳性、HER2阴性，既往接受内分泌治疗后进展，ctDNA检出PIK3CA突变。评估阿培利司联合氟维司群时，哪项理解正确？",
+        "options": {
+          "A": "所有PIK3CA位点均有同等证据，无需核对具体变异",
+          "B": "需要同时存在ESR1突变，才能考虑该联合治疗",
+          "C": "出现PIK3CA突变后，可忽略既往用药和代谢风险",
+          "D": "核对可用于选药的变异与既往病程，并评估治疗安全性"
+        },
+        "answer": "D",
+        "answer_text": "核对可用于选药的变异与既往病程，并评估治疗安全性",
+        "explain": "该方案的使用需结合HR/HER2分型、既往内分泌治疗及符合要求的PIK3CA检测。并非任意变异均有同等证据，也不要求同时存在ESR1突变。还需评估血糖、皮肤等安全风险。",
+        "keyPoint": "可靶向突变要与适用人群和治疗风险一起判断。",
+        "guidelineRef": {
+          "evidence_type": "药品说明书",
+          "doc_id": "",
+          "split_index": null,
+          "type": "drug_label",
+          "authority": "Novartis / 美国处方信息",
+          "source_title": "PIQRAY Prescribing Information",
+          "source_version": "在线版本（核查于2026-09-10）",
+          "source_section": "",
+          "source_url": "https://www.novartis.com/us-en/sites/novartis_us/files/piqray.pdf",
+          "evidence_summary": "可靶向突变要与适用人群和治疗风险一起判断。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "分子诊断",
+        "phase": "全程管理",
+        "timepoint": "2021 年 3 月",
+        "question": "ctDNA报告PIK3CA H1047R、R108C及C804R三个位点。对多重突变结果，哪项解释最稳妥？",
+        "options": {
+          "A": "分别核查位点证据，不能仅凭突变数量预测更高疗效",
+          "B": "出现三个位点即说明检测污染，应直接作废报告",
+          "C": "三个突变说明三倍靶点负荷，应相应提高药物剂量",
+          "D": "只有检测到三个突变时，才满足PI3K抑制剂使用条件"
+        },
+        "answer": "A",
+        "answer_text": "分别核查位点证据，不能仅凭突变数量预测更高疗效",
+        "explain": "多位点结果需要结合检测性能、变异致病性和药物证据逐项解释。不能仅由突变数推断顺反式关系、克隆结构或治疗获益大小，也不应据此加量。",
+        "keyPoint": "多重突变数量不能替代位点层面的临床解释。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "中华医学会病理学分会, CSCO, 国家病理质控中心",
+          "source_title": "中国乳腺癌PIK3CA基因突变检测专家共识(2025版)",
+          "source_version": "2025",
+          "source_section": "",
+          "source_url": "",
+          "evidence_summary": "多重突变数量不能替代位点层面的临床解释。（原引用书目信息保留；本轮未取得对应原文分块，支持范围待复核。）"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "不良反应管理",
+        "phase": "靶向治疗毒性处理",
+        "timepoint": "用药 10 天后",
+        "question": "阿培利司治疗后出现皮疹，病例记录减量至250 mg，但未说明分级。规范处理时应如何判断？",
+        "options": {
+          "A": "直接将病例剂量变化等同于3级皮疹，不再补充评估",
+          "B": "评估范围及全身黏膜症状，按分级处理并排查严重皮肤反应",
+          "C": "只需给予抗组胺药，皮疹不影响后续剂量安排",
+          "D": "等待出现继发感染后，再决定是否暂停靶向治疗"
+        },
+        "answer": "B",
+        "answer_text": "评估范围及全身黏膜症状，按分级处理并排查严重皮肤反应",
+        "explain": "普通皮疹与严重皮肤不良反应的处理不同。应先明确分级，疑似严重反应应及时停药评估；确诊严重皮肤反应时不能套用一般减量恢复规则。病例未提供分级，不应补写。",
+        "keyPoint": "皮疹管理先识别严重反应，再按具体等级调整。",
+        "guidelineRef": {
+          "evidence_type": "药品说明书",
+          "doc_id": "",
+          "split_index": null,
+          "type": "drug_label",
+          "authority": "Novartis / 美国处方信息",
+          "source_title": "PIQRAY Prescribing Information",
+          "source_version": "在线版本（核查于2026-09-10）",
+          "source_section": "",
+          "source_url": "https://www.novartis.com/us-en/sites/novartis_us/files/piqray.pdf",
+          "evidence_summary": "皮疹管理先识别严重反应，再按具体等级调整。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "疗效复评与局部治疗",
+        "phase": "靶向治疗维持期",
+        "timepoint": "治疗 18 个月时",
+        "question": "系统治疗获益约18个月后，仅肝脏少数病灶进展。关于继续原方案并联合局部放疗，哪项评价更准确？",
+        "options": {
+          "A": "肝脏出现进展后，即可只保留局部治疗控制全身疾病",
+          "B": "任何少数病灶进展都应立即改为化疗，局部治疗无价值",
+          "C": "原方案有效时间较长，增加阿培利司剂量即可逆转耐药",
+          "D": "可由MDT在确认有限进展后讨论，但不属于普遍适用策略"
+        },
+        "answer": "D",
+        "answer_text": "可由MDT在确认有限进展后讨论，但不属于普遍适用策略",
+        "explain": "需重新评估全身病灶、进展速度、局部技术可行性及耐受性。病例使用局部放疗延续原方案获益，不能证明所有寡进展患者均应如此处理；相关证据仍有局限。",
+        "keyPoint": "寡进展的局部干预需要筛选，不能替代全身复评。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ABC / ESMO",
+          "source_title": "6th and 7th International consensus guidelines for advanced breast cancer",
+          "source_version": "2024",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11231614/",
+          "evidence_summary": "寡进展的局部干预需要筛选，不能替代全身复评。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-C38F9D7E",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/KllwDzW7kTtWvlQoxcS_Wg/2rqoA3IecRwDRuoOZS3uSZkVPDlemM3g.png",
+      "alt": "无明确图注"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "69 岁女性 ER+/HER2-乳腺癌伴 PIK3CA 三重突变靶向治疗病例",
+      "description": "患者 47 岁确诊早期 ER+/HER2-乳腺癌，行保乳手术及辅助放化疗、内分泌治疗。辅助治疗结束 5 年后出现骨转移，接受多线内分泌治疗（细节未知）及卡培他滨化疗。2021 年 1 月影像学提示肝脏疾病进展。2021 年 3 月肝脏病灶明确进展，伴慢性咳嗽加重（归因于已知肺转移）及新发颌下淋巴结肿大。因患者不愿接受有创组织活检，行液体活检发现 ctDNA……"
+    },
+    "overview": {
+      "hero": {
+        "title": "69 岁女性 ER+/HER2-乳腺癌伴 PIK3CA 三重突变靶向治疗病例",
+        "subtitle": "拒绝有创活检时液体活检在发现多重 PIK3CA 突变中的应用 PI3K 抑制剂联合内分泌治疗在多重突变患者中的深度缓解观察 药物性皮疹的剂量调整管理策略 寡进展病灶的局部立体定向放射治疗与全身治疗联合应用 长期靶向治疗后的全身性疾病进展监测"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者与就诊背景",
+              "value": "患者 47 岁确诊早期 ER+/HER2-乳腺癌，行保乳手术及辅助放化疗、内分泌治疗。辅助治疗结束 5 年后出现骨转移，接受多线内分泌治疗（细节未知）及卡培他滨化疗。2021 年 1 月影像学提示肝脏疾病进展。2021 年 3 月肝脏病灶明确进展，伴慢性咳嗽加重（归因于已知肺转移）及新发颌下淋巴结肿大。因患者不愿接受有创组织活检，行液体活检发现 ctDNA 存在三个 PIK3CA 基因位点突变（H1047R、R108C、C804R），其中 H1047R 为明确致病性突变。"
+            },
+            {
+              "order": 2,
+              "label": "疾病与分期",
+              "value": "ER+/HER2-乳腺癌（早期确诊，后出现骨、肝、肺及淋巴结转移）"
+            },
+            {
+              "order": 3,
+              "label": "分子与病理",
+              "value": "2021 年 3 月 | 血液（液体活检）| ctDNA 检测 | PIK3CA | H1047R、R108C、C804R 突变 | H1047R 为明确致病性突变"
+            },
+            {
+              "order": 4,
+              "label": "核心教学点",
+              "value": "拒绝有创活检时液体活检在发现多重 PIK3CA 突变中的应用 PI3K 抑制剂联合内分泌治疗在多重突变患者中的深度缓解观察 药物性皮疹的剂量调整管理策略 寡进展病灶的局部立体定向放射治疗与全身治疗联合应用 长期靶向治疗后的全身性疾病进展监测"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 1",
+              "detail": "47 岁：确诊早期 ER+/HER2-乳腺癌，行保乳手术、辅助化疗、放疗及他莫昔芬辅助内分泌治疗"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 2",
+              "detail": "辅助化疗结束后 5 年：出现骨转移，接受多线内分泌治疗（细节未知）及卡培他滨化疗"
+            },
+            {
+              "date": "2021",
+              "title": "诊疗节点 3",
+              "detail": "2021 年 1 月：影像学检查提示肝脏出现疾病进展"
+            },
+            {
+              "date": "2021",
+              "title": "诊疗节点 4",
+              "detail": "2021 年 3 月：肝脏病灶明确进展，伴有慢性咳嗽加重和新发颌下淋巴结肿大"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 5",
+              "detail": "行液体活检显示 ctDNA 存在三个 PIK3CA 基因位点突变（H1047R、R108C、C804R）"
+            },
+            {
+              "date": "2021",
+              "title": "诊疗节点 6",
+              "detail": "2021 年 3 月：开始接受氟维司群联合 PI3K 抑制剂 Alpelisib 靶向治疗，初始剂量 300mg"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 7",
+              "detail": "用药 10 天后：咳嗽症状明显改善，可触及颌下淋巴结明显缩小"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 8",
+              "detail": "因药物性皮疹将 Alpelisib 减量至 250mg"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 9",
+              "detail": "治疗 4 个月后：首次影像学评估显示肝、肺、淋巴结及骨骼转移灶均达到深度部分缓解（PR）"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 10",
+              "detail": "治疗 18 个月时：出现肝脏有限病灶进展，继续全身靶向治疗同时对进展病灶行立体定向放射治疗，疗效良好"
+            },
+            {
+              "date": "2024",
+              "title": "诊疗节点 11",
+              "detail": "2024 年 3 月：出现明确的全身性疾病进展"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/KllwDzW7kTtWvlQoxcS_Wg/2rqoA3IecRwDRuoOZS3uSZkVPDlemM3g.png",
+              "timepoint": "",
+              "caption": "无明确图注",
+              "alt": "无明确图注",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

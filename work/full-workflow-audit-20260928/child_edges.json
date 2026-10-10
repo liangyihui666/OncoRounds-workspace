@@ -1,0 +1,314 @@
+[
+  {
+    "source": "v12CasePacket",
+    "target": "q0CMNrCkFGt4LYVq",
+    "sourceHandle": "v12CasePacket-source-right",
+    "targetHandle": "q0CMNrCkFGt4LYVq-target-left"
+  },
+  {
+    "source": "q0CMNrCkFGt4LYVq",
+    "target": "rfC50X90Ce6cGaIB",
+    "sourceHandle": "q0CMNrCkFGt4LYVq-source-right",
+    "targetHandle": "rfC50X90Ce6cGaIB-target-left"
+  },
+  {
+    "source": "p3yBjyK1YBhY5m8v",
+    "target": "k2eB90ICRuNwnMYm",
+    "sourceHandle": "p3yBjyK1YBhY5m8v-source-right",
+    "targetHandle": "k2eB90ICRuNwnMYm-target-left"
+  },
+  {
+    "source": "v12CasePacket",
+    "target": "p3yBjyK1YBhY5m8v",
+    "sourceHandle": "v12CasePacket-source-right",
+    "targetHandle": "p3yBjyK1YBhY5m8v-target-left"
+  },
+  {
+    "source": "nWJ1txLnlLszyUU5",
+    "target": "sB1igq1zFijP0xqL",
+    "sourceHandle": "nWJ1txLnlLszyUU5-source-right",
+    "targetHandle": "sB1igq1zFijP0xqL-target-left"
+  },
+  {
+    "source": "v12CasePacket",
+    "target": "nWJ1txLnlLszyUU5",
+    "sourceHandle": "v12CasePacket-source-right",
+    "targetHandle": "nWJ1txLnlLszyUU5-target-left"
+  },
+  {
+    "source": "hujpBVT5Ffp5jWlG",
+    "target": "tVs35q6nFPGaT2Zu",
+    "sourceHandle": "hujpBVT5Ffp5jWlG-source-oFkWvgQdERxefTSr",
+    "targetHandle": "tVs35q6nFPGaT2Zu-target-left"
+  },
+  {
+    "source": "gPykSG7rhtulYFbF",
+    "target": "cmjDyjb1ro4mMLZq",
+    "sourceHandle": "gPykSG7rhtulYFbF-source-nfPFsOMDNKZ3DUDC",
+    "targetHandle": "cmjDyjb1ro4mMLZq-target-left"
+  },
+  {
+    "source": "v12CasePacket",
+    "target": "v11IraeSplitInitial",
+    "sourceHandle": "v12CasePacket-source-right",
+    "targetHandle": "v11IraeSplitInitial-target-left"
+  },
+  {
+    "source": "v11IraeSplitInitial",
+    "target": "v11IraeFallbackIf",
+    "sourceHandle": "v11IraeSplitInitial-source-right",
+    "targetHandle": "v11IraeFallbackIf-target-left"
+  },
+  {
+    "source": "v11IraeFallbackIf",
+    "target": "ieW7kGS63tGSRDEi",
+    "sourceHandle": "v11IraeFallbackIf-source-v11IraeFallbackYes",
+    "targetHandle": "ieW7kGS63tGSRDEi-target-left"
+  },
+  {
+    "source": "v11IraeFallbackIf",
+    "target": "v11IraeSplitFinal",
+    "sourceHandle": "v11IraeFallbackIf-source-ELSE",
+    "targetHandle": "v11IraeSplitFinal-target-left"
+  },
+  {
+    "source": "ieW7kGS63tGSRDEi",
+    "target": "v11IraeSplitFinal",
+    "sourceHandle": "ieW7kGS63tGSRDEi-source-right",
+    "targetHandle": "v11IraeSplitFinal-target-left"
+  },
+  {
+    "source": "v11IraeSplitFinal",
+    "target": "gPykSG7rhtulYFbF",
+    "sourceHandle": "v11IraeSplitFinal-source-right",
+    "targetHandle": "gPykSG7rhtulYFbF-target-left"
+  },
+  {
+    "source": "v11IraeSplitFinal",
+    "target": "hujpBVT5Ffp5jWlG",
+    "sourceHandle": "v11IraeSplitFinal-source-right",
+    "targetHandle": "hujpBVT5Ffp5jWlG-target-left"
+  },
+  {
+    "source": "rfC50X90Ce6cGaIB",
+    "target": "v11EvidenceRegistryInitial",
+    "sourceHandle": "rfC50X90Ce6cGaIB-source-right",
+    "targetHandle": "v11EvidenceRegistryInitial-target-left"
+  },
+  {
+    "source": "sB1igq1zFijP0xqL",
+    "target": "v11EvidenceRegistryInitial",
+    "sourceHandle": "sB1igq1zFijP0xqL-source-right",
+    "targetHandle": "v11EvidenceRegistryInitial-target-left"
+  },
+  {
+    "source": "k2eB90ICRuNwnMYm",
+    "target": "v11EvidenceRegistryInitial",
+    "sourceHandle": "k2eB90ICRuNwnMYm-source-right",
+    "targetHandle": "v11EvidenceRegistryInitial-target-left"
+  },
+  {
+    "source": "cmjDyjb1ro4mMLZq",
+    "target": "v11EvidenceRegistryInitial",
+    "sourceHandle": "cmjDyjb1ro4mMLZq-source-right",
+    "targetHandle": "v11EvidenceRegistryInitial-target-left"
+  },
+  {
+    "source": "tVs35q6nFPGaT2Zu",
+    "target": "v11EvidenceRegistryInitial",
+    "sourceHandle": "tVs35q6nFPGaT2Zu-source-right",
+    "targetHandle": "v11EvidenceRegistryInitial-target-left"
+  },
+  {
+    "source": "gPykSG7rhtulYFbF",
+    "target": "v11EvidenceRegistryInitial",
+    "sourceHandle": "gPykSG7rhtulYFbF-source-ELSE",
+    "targetHandle": "v11EvidenceRegistryInitial-target-left"
+  },
+  {
+    "source": "hujpBVT5Ffp5jWlG",
+    "target": "v11EvidenceRegistryInitial",
+    "sourceHandle": "hujpBVT5Ffp5jWlG-source-ELSE",
+    "targetHandle": "v11EvidenceRegistryInitial-target-left"
+  },
+  {
+    "source": "v11EvidenceRegistryInitial",
+    "target": "v12NeedClinicalSupplement",
+    "sourceHandle": "v11EvidenceRegistryInitial-source-right",
+    "targetHandle": "v12NeedClinicalSupplement-target-left"
+  },
+  {
+    "source": "v12NeedClinicalSupplement",
+    "target": "wP0lzgeUtpvzxSHw",
+    "sourceHandle": "v12NeedClinicalSupplement-source-v12NeedSupplement",
+    "targetHandle": "wP0lzgeUtpvzxSHw-target-left"
+  },
+  {
+    "source": "v12NeedClinicalSupplement",
+    "target": "v11EvidenceRegistry",
+    "sourceHandle": "v12NeedClinicalSupplement-source-ELSE",
+    "targetHandle": "v11EvidenceRegistry-target-left"
+  },
+  {
+    "source": "wP0lzgeUtpvzxSHw",
+    "target": "r8B6DL8OMe8eix63",
+    "sourceHandle": "wP0lzgeUtpvzxSHw-source-right",
+    "targetHandle": "r8B6DL8OMe8eix63-target-left"
+  },
+  {
+    "source": "r8B6DL8OMe8eix63",
+    "target": "q07z3CrCHOj39ViK",
+    "sourceHandle": "r8B6DL8OMe8eix63-source-right",
+    "targetHandle": "q07z3CrCHOj39ViK-target-left"
+  },
+  {
+    "source": "q07z3CrCHOj39ViK",
+    "target": "wYNikERvoe0rtN03",
+    "sourceHandle": "q07z3CrCHOj39ViK-source-v12HasEligibleLeads",
+    "targetHandle": "wYNikERvoe0rtN03-target-left"
+  },
+  {
+    "source": "q07z3CrCHOj39ViK",
+    "target": "v11EvidenceRegistry",
+    "sourceHandle": "q07z3CrCHOj39ViK-source-ELSE",
+    "targetHandle": "v11EvidenceRegistry-target-left"
+  },
+  {
+    "source": "wYNikERvoe0rtN03",
+    "target": "v11EvidenceRegistry",
+    "sourceHandle": "wYNikERvoe0rtN03-source-right",
+    "targetHandle": "v11EvidenceRegistry-target-left"
+  },
+  {
+    "source": "448745",
+    "target": "v12CasePacket",
+    "sourceHandle": "448745-source-right",
+    "targetHandle": "v12CasePacket-target-left"
+  },
+  {
+    "source": "v11EvidenceRegistry",
+    "target": "lUxTeIqSf0zHu2BL",
+    "sourceHandle": "v11EvidenceRegistry-source-right",
+    "targetHandle": "lUxTeIqSf0zHu2BL-target-left"
+  },
+  {
+    "source": "v12CasePacket",
+    "target": "lUxTeIqSf0zHu2BL",
+    "sourceHandle": "v12CasePacket-source-right",
+    "targetHandle": "lUxTeIqSf0zHu2BL-target-left"
+  },
+  {
+    "source": "lUxTeIqSf0zHu2BL",
+    "target": "sR35QbYF2xamDQR3",
+    "sourceHandle": "lUxTeIqSf0zHu2BL-source-right",
+    "targetHandle": "sR35QbYF2xamDQR3-target-left"
+  },
+  {
+    "source": "sR35QbYF2xamDQR3",
+    "target": "cmuTcUhJefVm2DC6",
+    "sourceHandle": "sR35QbYF2xamDQR3-source-right",
+    "targetHandle": "cmuTcUhJefVm2DC6-target-left"
+  },
+  {
+    "source": "v12RevisionInput",
+    "target": "v12RevisionGenerator",
+    "sourceHandle": "v12RevisionInput-source-right",
+    "targetHandle": "v12RevisionGenerator-target-left"
+  },
+  {
+    "source": "c4VtiMJKVkMxJ9O5",
+    "target": "udswa1eViYShgQ58",
+    "sourceHandle": "c4VtiMJKVkMxJ9O5-source-right",
+    "targetHandle": "udswa1eViYShgQ58-target-left"
+  },
+  {
+    "source": "v12CasePacket",
+    "target": "c4VtiMJKVkMxJ9O5",
+    "sourceHandle": "v12CasePacket-source-right",
+    "targetHandle": "c4VtiMJKVkMxJ9O5-target-left"
+  },
+  {
+    "source": "udswa1eViYShgQ58",
+    "target": "v11EvidenceRegistryInitial",
+    "sourceHandle": "udswa1eViYShgQ58-source-right",
+    "targetHandle": "v11EvidenceRegistryInitial-target-left"
+  },
+  {
+    "source": "sR35QbYF2xamDQR3",
+    "target": "cmuTcUhJefVm2DC6",
+    "sourceHandle": "sR35QbYF2xamDQR3-source_catch-right",
+    "targetHandle": "cmuTcUhJefVm2DC6-target-left"
+  },
+  {
+    "source": "udswa1eViYShgQ58",
+    "target": "v11EvidenceRegistryInitial",
+    "sourceHandle": "udswa1eViYShgQ58-source_catch-right",
+    "targetHandle": "v11EvidenceRegistryInitial-target-left"
+  },
+  {
+    "source": "rfC50X90Ce6cGaIB",
+    "target": "v11EvidenceRegistryInitial",
+    "sourceHandle": "rfC50X90Ce6cGaIB-source_catch-right",
+    "targetHandle": "v11EvidenceRegistryInitial-target-left"
+  },
+  {
+    "source": "sB1igq1zFijP0xqL",
+    "target": "v11EvidenceRegistryInitial",
+    "sourceHandle": "sB1igq1zFijP0xqL-source_catch-right",
+    "targetHandle": "v11EvidenceRegistryInitial-target-left"
+  },
+  {
+    "source": "k2eB90ICRuNwnMYm",
+    "target": "v11EvidenceRegistryInitial",
+    "sourceHandle": "k2eB90ICRuNwnMYm-source_catch-right",
+    "targetHandle": "v11EvidenceRegistryInitial-target-left"
+  },
+  {
+    "source": "wYNikERvoe0rtN03",
+    "target": "v11EvidenceRegistry",
+    "sourceHandle": "wYNikERvoe0rtN03-source_catch-right",
+    "targetHandle": "v11EvidenceRegistry-target-left"
+  },
+  {
+    "source": "cmjDyjb1ro4mMLZq",
+    "target": "v11EvidenceRegistryInitial",
+    "sourceHandle": "cmjDyjb1ro4mMLZq-source_catch-right",
+    "targetHandle": "v11EvidenceRegistryInitial-target-left"
+  },
+  {
+    "source": "tVs35q6nFPGaT2Zu",
+    "target": "v11EvidenceRegistryInitial",
+    "sourceHandle": "tVs35q6nFPGaT2Zu-source_catch-right",
+    "targetHandle": "v11EvidenceRegistryInitial-target-left"
+  },
+  {
+    "source": "cmuTcUhJefVm2DC6",
+    "target": "v12RevisionInput",
+    "sourceHandle": "cmuTcUhJefVm2DC6-source-right",
+    "targetHandle": "v12RevisionInput-target-left"
+  },
+  {
+    "source": "v12RevisionGenerator",
+    "target": "v12AssemblyR2",
+    "sourceHandle": "v12RevisionGenerator-source-right",
+    "targetHandle": "v12AssemblyR2-target-left"
+  },
+  {
+    "source": "v12RevisionGenerator",
+    "target": "v12AssemblyR2",
+    "sourceHandle": "v12RevisionGenerator-source_catch-right",
+    "targetHandle": "v12AssemblyR2-target-left"
+  },
+  {
+    "source": "v12AssemblyR2",
+    "target": "v12FinalPublicationNormalize",
+    "sourceHandle": "v12AssemblyR2-source-right",
+    "targetHandle": "v12FinalPublicationNormalize-target-left"
+  },
+  {
+    "source": "v12FinalPublicationNormalize",
+    "target": "yAFis8nTjSwUU5bC",
+    "sourceHandle": "v12FinalPublicationNormalize-source-right",
+    "targetHandle": "yAFis8nTjSwUU5bC-target-left"
+  }
+]

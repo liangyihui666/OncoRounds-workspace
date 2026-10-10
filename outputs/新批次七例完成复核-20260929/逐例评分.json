@@ -1,0 +1,261 @@
+{
+  "source_attachment": "0936f3fe-5488-4102-898b-bd36d782b02c",
+  "scoring": "人工编辑初评分，非医学批准；综合证据边界、事实与答案唯一性、进阶性与病例覆盖、表述；未交付不计医学零分",
+  "complete_count": 7,
+  "expected_count": 10,
+  "question_count": 35,
+  "completion_rate": 0.7,
+  "completed_mean_score": 49.7,
+  "structural_checks": {
+    "four_options": true,
+    "answer_text_match": true,
+    "four_explanation_lines": true,
+    "no_visible_internal_ids": true
+  },
+  "full_evidence_available": false,
+  "model_finish_reason_available": false,
+  "workflow_revision_available": false,
+  "medical_approval": false,
+  "rows": [
+    {
+      "index": 1,
+      "case_id": "CASE-3109000F",
+      "title": "乳腺癌术后19年髌骨转移的诊断与治疗",
+      "question_count": 5,
+      "answers": "BBBBB",
+      "editorial_score": 62,
+      "note": "题组偏基础；Q1已完成局部CT/MRI仍退回初筛流程；Q5为治疗前评估却标为不良反应管理；答案全B。",
+      "missing_information": []
+    },
+    {
+      "index": 2,
+      "case_id": "CASE-C56012C6",
+      "title": "三阴性乳腺癌新辅助术后早期脑膜转移的识别与处理",
+      "question_count": 5,
+      "answers": "BADAC",
+      "editorial_score": 45,
+      "note": "Q4把一般复发灶活检外推到脑膜转移；Q2将推荐完成周期绝对化；核心脑膜诊疗缺口虽披露但未覆盖。",
+      "missing_information": [
+        "证据池缺乏脑膜转移（Leptomeningeal Metastasis）确诊路径（腰穿脑脊液细胞学流程）及治疗（全脑放疗42Gy/15次联合局部放疗37.5Gy/15次、鞘内甲氨蝶呤）的指南或研究证据，无法生成针对本例核心脑膜转移处理的进阶决策题。",
+        "证据池缺乏高危TNBC（N3、Ki-67高表达、皮肤侵犯）术后脑部MRI监测方案选择与时机的指南证据，无法生成术后脑监测决策题。",
+        "证据池缺乏三阴性乳腺癌新辅助后non-pCR辅助强化治疗（如卡培他滨）的指南或研究证据。"
+      ]
+    },
+    {
+      "index": 3,
+      "case_id": "CASE-656D0757",
+      "title": "乳腺癌十二指肠转移致小肠梗阻的诊治",
+      "question_count": 5,
+      "answers": "BACDB",
+      "editorial_score": 55,
+      "note": "Q2/Q4把受体变化断言为生物学演变而非检测误差；Q1使用后续EUS成功解释此前选择；核心梗阻处理未覆盖。",
+      "missing_information": []
+    },
+    {
+      "index": 4,
+      "case_id": "CASE-BF6D9260",
+      "title": "Luminal B型乳腺癌术后多发转移的序贯治疗",
+      "question_count": 0,
+      "answers": "",
+      "editorial_score": null,
+      "note": "格式未完成：Q5解析及证据字段缺失，同时根对象缺字段。公开结果0题，不等于模型实际生成0题。",
+      "missing_information": [
+        "根对象缺少字段：missing_information",
+        "根对象缺少字段：risk_message",
+        "success时必须有1至5题，question_count等于实际长度",
+        "Q5：解析必须恰好四行，按A/B/C/D逐项解释",
+        "Q5：A解析缺失、格式错误或与答案不一致",
+        "Q5：B解析缺失、格式错误或与答案不一致",
+        "Q5：C解析缺失、格式错误或与答案不一致",
+        "Q5：D解析缺失、格式错误或与答案不一致",
+        "Q5缺少字段：evidence_id",
+        "Q5缺少字段：support_mode",
+        "Q5缺少字段：evidence_summary",
+        "Q5的explain必须为非空字符串"
+      ]
+    },
+    {
+      "index": 5,
+      "case_id": "CASE-6CAA200F",
+      "title": "HER2阳性乳腺癌放疗后脑转移进展的RC48单药治疗",
+      "question_count": 0,
+      "answers": "",
+      "editorial_score": null,
+      "note": "格式未完成：Q5解析为空或格式不合格，整组未交付。无原始回复及结束原因，不能确认截断。",
+      "missing_information": [
+        "Q5：解析必须恰好四行，按A/B/C/D逐项解释",
+        "Q5：A解析缺失、格式错误或与答案不一致",
+        "Q5：B解析缺失、格式错误或与答案不一致",
+        "Q5：C解析缺失、格式错误或与答案不一致",
+        "Q5：D解析缺失、格式错误或与答案不一致",
+        "Q5的explain必须为非空字符串",
+        "逐项解析或延伸标记格式错误"
+      ]
+    },
+    {
+      "index": 6,
+      "case_id": "CASE-94E45ACA",
+      "title": "AFP阳性横结肠黏液腺癌伴肠套叠的诊疗",
+      "question_count": 5,
+      "answers": "ACDBC",
+      "editorial_score": 45,
+      "note": "Q3错误地将pMMR等同于排除林奇；Q1/Q2/Q4重复；将不推荐升级为禁止、一般3至4周升级为硬下限。",
+      "missing_information": [
+        "HER2阳性未注明具体IHC评分（1+/2+/3+）及是否行FISH，无法判断是否满足抗HER2治疗的IHC 3+或2+/ISH+标准",
+        "KRAS/NRAS/BRAF基因状态未检测，无法评估复发转移后抗HER2或抗EGFR治疗的适用性",
+        "AFP免疫组化阳性未注明阳性比例或强度，无法量化AFP产生型特征",
+        "本例为单例报告，无对照或随访终点数据，AFP作为术后监测标志物的循证依据有限"
+      ]
+    },
+    {
+      "index": 7,
+      "case_id": "CASE-5FD1CF2A",
+      "title": "HER2阳性合并MSI-H晚期胃癌转化手术全程管理",
+      "question_count": 5,
+      "answers": "BCDBD",
+      "editorial_score": 43,
+      "note": "Q3胃癌引用结肠癌复评证据；Q4用中性粒阈值记忆替代持续毒性和菌血症决策；Q5假设改变MSI状态只为考推荐级别。",
+      "missing_information": []
+    },
+    {
+      "index": 8,
+      "case_id": "CASE-3665D6A9",
+      "title": "小肠黏液腺癌伴双侧卵巢转移的诊治",
+      "question_count": 0,
+      "answers": "",
+      "editorial_score": null,
+      "note": "报告证据不足，未交付；缺全证据池，无法确认确已穷尽可用的五题方向。",
+      "missing_information": [
+        "缺乏小肠腺癌术后辅助化疗方案选择（如XELOX vs FOLFOX）的指南或研究证据",
+        "缺乏小肠腺癌免疫组化谱（CDX-2/SATB2/CK7/CK20/PAX-8）鉴别原发与转移的指南或研究证据",
+        "缺乏术中冰冻病理与术后石蜡病理不一致时的临床处理策略指南",
+        "缺乏小肠腺癌IV期R0切除后是否需联合靶向或免疫治疗的指南或研究证据"
+      ]
+    },
+    {
+      "index": 9,
+      "case_id": "CASE-FA55A17A",
+      "title": "MSI-H结直肠癌肝转移免疫联合抗血管转化治疗",
+      "question_count": 5,
+      "answers": "BACDB",
+      "editorial_score": 58,
+      "note": "Q4把贝伐珠单抗术后恢复时间变成必须使用的适应证；Q5跨线继续用药缺少联合方案边界；Q1解析有绑定摘要以外结论待核。",
+      "missing_information": []
+    },
+    {
+      "index": 10,
+      "case_id": "CASE-6DE99715",
+      "title": "转移性胃癌铂类化疗的疗效与血液学毒性管理",
+      "question_count": 5,
+      "answers": "BACDA",
+      "editorial_score": 40,
+      "note": "Q1据HER2/PD-L1/MMR排除全部靶向联合；Q2/Q4解析拼接多个来源；Q3误用缓解确认规则判断进展。",
+      "missing_information": []
+    }
+  ],
+  "batch_report": {
+    "schema_version": "batch-five-1.0",
+    "scope": "structure_and_completion_only",
+    "expected_count": 10,
+    "complete_count": 7,
+    "incomplete_count": 3,
+    "failed_count": 0,
+    "status": "partial",
+    "retry_file_indices": [
+      4,
+      5,
+      8
+    ],
+    "items": [
+      {
+        "file_index": 1,
+        "status": "complete",
+        "case_id": "CASE-3109000F",
+        "question_count": 5
+      },
+      {
+        "file_index": 2,
+        "status": "complete",
+        "case_id": "CASE-C56012C6",
+        "question_count": 5
+      },
+      {
+        "file_index": 3,
+        "status": "complete",
+        "case_id": "CASE-656D0757",
+        "question_count": 5
+      },
+      {
+        "file_index": 4,
+        "status": "incomplete",
+        "code": "NO_COMPLETE_QUESTION_SET",
+        "question_count": 0,
+        "missing_information": [
+          "根对象缺少字段：missing_information",
+          "根对象缺少字段：risk_message",
+          "success时必须有1至5题，question_count等于实际长度",
+          "Q5：解析必须恰好四行，按A/B/C/D逐项解释",
+          "Q5：A解析缺失、格式错误或与答案不一致",
+          "Q5：B解析缺失、格式错误或与答案不一致",
+          "Q5：C解析缺失、格式错误或与答案不一致",
+          "Q5：D解析缺失、格式错误或与答案不一致",
+          "Q5缺少字段：evidence_id",
+          "Q5缺少字段：support_mode",
+          "Q5缺少字段：evidence_summary",
+          "Q5的explain必须为非空字符串"
+        ]
+      },
+      {
+        "file_index": 5,
+        "status": "incomplete",
+        "code": "NO_COMPLETE_QUESTION_SET",
+        "question_count": 0,
+        "missing_information": [
+          "Q5：解析必须恰好四行，按A/B/C/D逐项解释",
+          "Q5：A解析缺失、格式错误或与答案不一致",
+          "Q5：B解析缺失、格式错误或与答案不一致",
+          "Q5：C解析缺失、格式错误或与答案不一致",
+          "Q5：D解析缺失、格式错误或与答案不一致",
+          "Q5的explain必须为非空字符串",
+          "逐项解析或延伸标记格式错误"
+        ]
+      },
+      {
+        "file_index": 6,
+        "status": "complete",
+        "case_id": "CASE-94E45ACA",
+        "question_count": 5
+      },
+      {
+        "file_index": 7,
+        "status": "complete",
+        "case_id": "CASE-5FD1CF2A",
+        "question_count": 5
+      },
+      {
+        "file_index": 8,
+        "status": "incomplete",
+        "code": "NO_COMPLETE_QUESTION_SET",
+        "question_count": 0,
+        "missing_information": [
+          "缺乏小肠腺癌术后辅助化疗方案选择（如XELOX vs FOLFOX）的指南或研究证据",
+          "缺乏小肠腺癌免疫组化谱（CDX-2/SATB2/CK7/CK20/PAX-8）鉴别原发与转移的指南或研究证据",
+          "缺乏术中冰冻病理与术后石蜡病理不一致时的临床处理策略指南",
+          "缺乏小肠腺癌IV期R0切除后是否需联合靶向或免疫治疗的指南或研究证据"
+        ]
+      },
+      {
+        "file_index": 9,
+        "status": "complete",
+        "case_id": "CASE-FA55A17A",
+        "question_count": 5
+      },
+      {
+        "file_index": 10,
+        "status": "complete",
+        "case_id": "CASE-6DE99715",
+        "question_count": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "case_id": "gastric-her2",
+  "cancer_type": "胃癌",
+  "page_type": "case_timeline",
+  "hero": {
+    "image": "./assets/cases/gastric-her2.png",
+    "difficulty": "进阶",
+    "title": "一例 HER2 过表达进展期胃癌全程治疗管理病例分享",
+    "subtitle": "系统治疗、转化手术与免疫相关不良反应管理"
+  },
+  "tabs": {
+    "active": "timeline",
+    "items": [
+      { "id": "summary", "label": "病例摘要" },
+      { "id": "timeline", "label": "病程轴" }
+    ]
+  },
+  "timeline_items": [
+    {
+      "date": "2022.08",
+      "title": "分子分型与 MDT",
+      "detail": "HER2 过表达、PD-L1 CPS 5；判断为潜在可切除的局限转移。"
+    },
+    {
+      "date": "2022.08–10",
+      "title": "新辅助/转化治疗",
+      "detail": "SOX + 曲妥珠单抗 + 帕博利珠单抗 3 周期，疗效 PR。"
+    },
+    {
+      "date": "2022.10.20",
+      "title": "根治性手术",
+      "detail": "全胃切除联合腹主动脉旁淋巴结清扫。"
+    },
+    {
+      "date": "术后病理",
+      "title": "显著病理缓解",
+      "detail": "TRG 1，0/80 淋巴结转移，ypT1bN0M0，I 期。"
+    },
+    {
+      "date": "2023.01–05",
+      "title": "免疫相关不良反应",
+      "detail": "先后出现免疫相关糖尿病/酮症酸中毒与间质性肺炎，暂停抗肿瘤治疗并处理。"
+    },
+    {
+      "date": "2025.06",
+      "title": "门诊随访",
+      "detail": "增强 CT 未见复发转移，肿瘤标志物未见异常升高。"
+    }
+  ],
+  "primary_action": {
+    "label": "开始模拟查房",
+    "action": "start_round"
+  },
+  "decision_point_count": 5
+}

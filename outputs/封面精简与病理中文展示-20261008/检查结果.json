@@ -1,0 +1,24 @@
+{
+  "checks": [
+    {
+      "name": "嵌套标志物对象改为中文阶段/字段，不输出内部键名或花括号",
+      "pass": true
+    },
+    {
+      "name": "普通中文结果保留，完整对象及混合键对象能转换",
+      "pass": true
+    },
+    {
+      "name": "封面简介不超过50字，详情病理不截断，五题与时间轴完全不变",
+      "pass": true
+    },
+    {
+      "name": "仅json生成代码改变，病例输入、模型、应用绑定、连接及必填配置不变",
+      "pass": true
+    }
+  ],
+  "api_calls": 0,
+  "online_verified": false,
+  "medical_content_changed": false,
+  "local_frontend_changed": false
+}

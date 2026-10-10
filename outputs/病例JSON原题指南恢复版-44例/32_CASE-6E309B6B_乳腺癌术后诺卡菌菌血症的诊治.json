@@ -1,0 +1,252 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-6E309B6B",
+    "cancer_type": "乳腺癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "术后并发症诊断",
+        "timepoint": "术后第 14 天经验性治疗无效后",
+        "question": "患者术后高热伴肺部结节，经验性抗菌治疗无效，血培养提示革兰阳性分支丝状菌。为明确罕见病原体诊断，首选的确诊策略是？",
+        "options": {
+          "A": "仅凭影像特征启动抗真菌治疗",
+          "B": "重复广谱抗生素并观察热型变化",
+          "C": "立即行肺穿刺活检等待肉芽肿结果",
+          "D": "联合形态学观察与质谱技术鉴定"
+        },
+        "answer": "D",
+        "answer_text": "联合形态学观察与质谱技术鉴定",
+        "explain": "诺卡菌形态特殊（革兰阳性、弱抗酸、分支丝状），常规培养易漏检。指南推荐在疑难感染中利用质谱（MALDI-TOF MS）快速鉴定，结合形态学可避免误诊为结核或真菌。",
+        "keyPoint": "免疫低下患者疑似罕见菌感染，应联合形态学与质谱技术快速确诊。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "20671b05-8bf1-405a-8631-281aa5771539",
+          "split_index": 51,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA）——肺脏保护",
+          "source_version": "2023",
+          "source_section": "2.主要病原学检测",
+          "source_url": "",
+          "evidence_summary": "指南指出 mNGS 及质谱技术在疑难、特殊患者少见病原体检测中具有较高敏感性及特异性。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "治疗决策",
+        "phase": "抗感染治疗方案调整",
+        "timepoint": "确诊新诺卡菌且 TMP-SMX 过敏后",
+        "question": "确诊新诺卡菌血症后，患者对首选药 TMP-SMX 出现皮疹过敏。根据药敏及指南推荐，最合理的替代联合治疗方案是？",
+        "options": {
+          "A": "亚胺培南联合阿米卡星或利奈唑胺",
+          "B": "单用利奈唑胺口服维持治疗",
+          "C": "换用头孢曲松联合甲硝唑",
+          "D": "继续使用左氧氟沙星并增加剂量"
+        },
+        "answer": "A",
+        "answer_text": "亚胺培南联合阿米卡星或利奈唑胺",
+        "explain": "TMP-SMX 是诺卡菌首选，过敏时需换用碳青霉烯类（如亚胺培南）联合氨基糖苷类或利奈唑胺。单药治疗易导致耐药或复发，尤其对于播散性感染。",
+        "keyPoint": "诺卡菌治疗需联合用药，磺胺过敏时首选碳青霉烯类联合方案。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "9fbc9e3d-42c7-41c8-9c98-fdc28914c0ec",
+          "split_index": 37,
+          "type": "guideline",
+          "authority": "广东省药学会",
+          "source_title": "临床重症与药学超说明书用药专家共识·2025 版",
+          "source_version": "2025",
+          "source_section": "临床重症与药学超说明书用药专家共识·2025版",
+          "source_url": "",
+          "evidence_summary": "指南推荐诺卡菌感染首选 SMZ-TMP，多器官受累或过敏时可联合亚胺培南、阿米卡星等药物。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "耐药与后线管理",
+        "phase": "复发与长期管理",
+        "timepoint": "出院后因依从性差导致复发",
+        "question": "患者出院后因依从性差导致诺卡菌血症复发并合并 RSV 感染。针对此类长疗程易复发感染，后续管理的关键措施是？",
+        "options": {
+          "A": "缩短静脉用药时间，尽早改为口服单药",
+          "B": "强化患者教育，确保联合用药足疗程（≥6 个月）",
+          "C": "仅针对 RSV 进行抗病毒治疗，暂停抗生素",
+          "D": "每次复发均更换全新类别的抗生素组合"
+        },
+        "answer": "B",
+        "answer_text": "强化患者教育，确保联合用药足疗程（≥6 个月）",
+        "explain": "诺卡菌感染治疗疗程长（通常 6-12 个月），依从性差是复发主因。复发后需重新评估药敏，强调足疗程联合治疗及患者教育，而非频繁更换药物类别。",
+        "keyPoint": "诺卡菌治疗成功关键在于长疗程联合用药及严格的依从性管理。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "9fbc9e3d-42c7-41c8-9c98-fdc28914c0ec",
+          "split_index": 37,
+          "type": "guideline",
+          "authority": "广东省药学会",
+          "source_title": "临床重症与药学超说明书用药专家共识·2025 版",
+          "source_version": "2025",
+          "source_section": "临床重症与药学超说明书用药专家共识·2025版",
+          "source_url": "",
+          "evidence_summary": "指南指出诺卡菌肺炎等严重感染需联合治疗 3-4 周后序贯口服，总疗程达 3-6 个月以上。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "耐药与后线管理",
+        "phase": "复发与合并感染管理",
+        "timepoint": "出院 3 周后复发并合并 RSV 感染",
+        "question": "患者因依从性差导致诺卡菌复发并合并 RSV 感染，后续治疗决策的核心重点是？",
+        "options": {
+          "A": "仅针对 RSV 进行抗病毒治疗，暂停抗生素",
+          "B": "缩短抗生素疗程以减少药物相互作用",
+          "C": "恢复联合抗生素规范治疗并强调长程维持",
+          "D": "改用单一口服抗生素方便患者居家服用"
+        },
+        "answer": "C",
+        "answer_text": "恢复联合抗生素规范治疗并强调长程维持",
+        "explain": "诺卡菌感染疗程长（通常 3-6 个月甚至更长），依从性差易复发。复发后需重新评估并恢复有效的联合方案，同时处理合并的病毒感染，确保持续治疗至彻底清除。",
+        "keyPoint": "诺卡菌治疗需长程，依从性差致复发需重启规范联合。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "9fbc9e3d-42c7-41c8-9c98-fdc28914c0ec",
+          "split_index": 37,
+          "type": "guideline",
+          "authority": "广东省药学会",
+          "source_title": "临床重症与药学超说明书用药专家共识·2025 版",
+          "source_version": "2025",
+          "source_section": "临床重症与药学超说明书用药专家共识·2025版",
+          "source_url": "",
+          "evidence_summary": "诺卡菌肺炎或血行感染需 SMZ-TMP 联合治疗 3-4 周后序贯口服，总疗程 3-6 个月。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "不良反应管理",
+        "phase": "药物不良反应处理",
+        "timepoint": "使用 TMP-SMX 出现皮疹后",
+        "question": "患者在抗诺卡菌治疗中出现皮疹，考虑药物过敏。若皮疹局限且无全身严重症状，下列处理原则正确的是？",
+        "options": {
+          "A": "立即永久停用所有抗感染药物",
+          "B": "减量继续原药治疗并密切观察",
+          "C": "仅外用激素，不停用抗感染药物",
+          "D": "暂停可疑药物，对症处理后换用替代方案"
+        },
+        "answer": "D",
+        "answer_text": "暂停可疑药物，对症处理后换用替代方案",
+        "explain": "出现药物过敏应暂停可疑药物，评估严重程度。若为轻中度可对症处理后换用其他有效抗生素，而非永久停药或强行继续原药。此基于通用药物安全原则，非特定 ICI 指南。",
+        "keyPoint": "药物过敏需暂停并换药，平衡感染控制与安全性。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "e25d8ea3-a792-4bd9-a100-ad206591ac31",
+          "split_index": 121,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 血液保护",
+          "source_version": "2023",
+          "source_section": "2. 感染的治疗",
+          "source_url": "",
+          "evidence_summary": "指南提及经验性治疗需考虑毒副反应小且具安全性，无效或不耐受时需调整药物，支持停药换药原则。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-6E309B6B",
+    "cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "乳腺癌术后发热的病因评估",
+      "description": "54岁女性，HER2阳性乳腺癌新辅助治疗及手术后出现高热、咳嗽。"
+    },
+    "overview": {
+      "hero": {
+        "title": "乳腺癌术后发热的病因评估",
+        "subtitle": "术后发热的病原学评估、抗菌药耐受性，以及复发时的用药依从性和感染范围。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "54岁女性，HER2阳性乳腺癌新辅助治疗及手术后出现高热、咳嗽。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "血培养鉴定新诺卡菌；复发时临床考虑RSV共感染，未获PCR确证。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "按药敏及耐受性调整抗菌药；出院后不规律服药，菌血症复发后再次治疗。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "术后发热的病原学评估、抗菌药耐受性，以及复发时的用药依从性和感染范围。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "术前",
+              "title": "乳腺癌治疗",
+              "detail": "新辅助治疗后行乳腺改良根治术。"
+            },
+            {
+              "date": "术后14天",
+              "title": "高热及肺病灶",
+              "detail": "高热、咳嗽及肺结节，经验性左氧氟沙星无效。"
+            },
+            {
+              "date": "血培养阳性后",
+              "title": "病原确诊",
+              "detail": "血培养鉴定新诺卡菌；脑MRI及脑脊液培养未见异常。"
+            },
+            {
+              "date": "TMP-SMX用药2天后",
+              "title": "皮疹与改药",
+              "detail": "皮疹考虑药物过敏，改亚胺培南/西司他丁，后带利奈唑胺出院。"
+            },
+            {
+              "date": "出院3周后",
+              "title": "感染复发",
+              "detail": "未规律服药后菌血症复发，临床考虑RSV共感染。"
+            },
+            {
+              "date": "再次治疗及随访",
+              "title": "序贯抗感染",
+              "detail": "再次调整联合抗菌治疗并口服序贯，持续治疗至6个月康复。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

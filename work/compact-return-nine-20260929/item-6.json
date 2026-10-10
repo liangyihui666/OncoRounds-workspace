@@ -1,0 +1,794 @@
+{
+  "record_type": "oncorounds_batch_item",
+  "transport_version": "1.0",
+  "output_data": {
+    "Questions": {
+      "schema_version": "1.0",
+      "case_id": "CASE-FA55A17A",
+      "cancer_type": "消化系统肿瘤",
+      "generation_status": "insufficient",
+      "difficulty": "进阶",
+      "question_count": 0,
+      "questions": [],
+      "missing_information": [
+        "success时必须有1至5题，question_count等于实际长度"
+      ]
+    },
+    "detail": {
+      "schema_version": "1.0",
+      "case_id": "CASE-FA55A17A",
+      "cancer_type": "消化系统肿瘤",
+      "difficulty": "进阶",
+      "decision_point_count": 0,
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "home": {
+        "recommendation_label": "今日推荐病例",
+        "display_title": "MSI-H结直肠癌肝转移免疫联合抗血管转化治疗",
+        "description": "25岁女性，因妊娠期贫血、产后腹痛3月入院。外院结肠镜活检示升结肠中低分化腺癌，KRAS G13D突变。家族史：父亲结直肠癌、祖父胃癌、祖母淋巴瘤。入院时血红蛋白77g/L，CEA 344.2μg/L，CA19-9 2016U/mL，LDH 973U/L。腹部增强CT提示升结肠肿块伴弥漫性肝转移，初诊为不可切除。"
+      },
+      "overview": {
+        "hero": {
+          "title": "MSI-H结直肠癌肝转移免疫联合抗血管转化治疗",
+          "subtitle": "1. 初始不可切除肝转移CRC的转化治疗策略选择与评估节点 2. 化疗不敏感且不耐受时的早期识别与方案切换时机 3. MSI-H检测时机对治疗决策的影响（本例一线失败后才完成NGS） 4. ICI联合抗血管生成药物在MSI-H转移性CRC中……"
+        },
+        "tabs": [
+          {
+            "id": "summary",
+            "label": "病例摘要",
+            "order": 1,
+            "summary_items": [
+              {
+                "order": 1,
+                "label": "患者与就诊背景",
+                "value": "25岁女性，因妊娠期贫血、产后腹痛3月入院。外院结肠镜活检示升结肠中低分化腺癌，KRAS G13D突变。家族史：父亲结直肠癌、祖父胃癌、祖母淋巴瘤。入院时血红蛋白77g/L，CEA 344.2μg/L，CA19-9 2016U/mL，LDH 973U/L。腹部增强CT提示升结肠肿块伴弥漫性肝转移，初诊为不可切除。"
+              },
+              {
+                "order": 2,
+                "label": "疾病与分期",
+                "value": "升结肠中低分化腺癌，伴弥漫性肝转移；术后病理分期pT4aN1cM1a（来源：急诊手术病理）；KRAS G13D突变；MSI-H（来源：一线失败后NGS）"
+              },
+              {
+                "order": 3,
+                "label": "分子与病理",
+                "value": "KRAS G13D突变｜取样时间约2018年3月（外院结肠镜活检）｜样本：结肠活检组织｜方法：未明确记载（原文仅述\"病理示…KRAS G13D突变\"）｜结果：突变阳性 MSI-H｜取样时间：一线治疗失败后（约2018年中）｜样本：肿瘤组织DNA｜方法：二代测序（NGS）｜结果：MSI-H CEA｜取样时间：入院时（约2018年3月）｜样本：血清｜方法：未明确｜结果：344.2μg/L CA19-9｜取样时间：入院时（约2018年3月）｜样本：血清｜方法：未明确｜结果：2016U/mL LDH｜取样时间：入院时（约2……"
+              },
+              {
+                "order": 4,
+                "label": "核心教学点",
+                "value": "1. 初始不可切除肝转移CRC的转化治疗策略选择与评估节点 2. 化疗不敏感且不耐受时的早期识别与方案切换时机 3. MSI-H检测时机对治疗决策的影响（本例一线失败后才完成NGS） 4. ICI联合抗血管生成药物在MSI-H转移性CRC中的转化价值与证据局限 5. 经济因素驱动的药物替换（帕博利珠单抗→特瑞普利单抗）对疗效连续性的影响 6. ICI治疗期间影像学异常表现（点状高密度影）的解读与手术时机判断 7. 肝转移灶切除术后pCR的辅助治疗决策与疗程选择 8. 家族史（父亲CRC、祖父胃癌、祖母淋巴瘤）对遗传……"
+              }
+            ]
+          },
+          {
+            "id": "timeline",
+            "label": "病程轴",
+            "order": 2,
+            "timeline_items": [
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 1",
+                "detail": "约2018年3月｜入院及初诊｜25岁女性，妊娠期贫血、产后腹痛3月；外院结肠镜活检示中低分化腺癌，KRAS G13D突变；腹部CT示升结肠肿块伴弥漫性肝转移"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 2",
+                "detail": "入院第二天｜急诊手术｜因腹痛加剧怀疑肠穿孔，行姑息性右半结肠切除术+肝活检；病理示中低分化腺癌伴神经周围侵犯，肠系膜淋巴结0/2，2个肿瘤沉积灶，术后分期pT4aN1cM1a"
+              },
+              {
+                "date": "术后",
+                "title": "一线转化治疗",
+                "detail": "KPS 80分，XELOX（卡培他滨+奥沙利铂）+贝伐珠单抗×3疗程；出现背痛，阿片类止痛药无效，肿瘤标志物持续升高，增强CT示肝转移灶进展，评估为化疗不敏感且不耐受"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 4",
+                "detail": "一线失败后｜基因检测｜二代测序肿瘤组织DNA示MSI-H"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 5",
+                "detail": "二线治疗｜帕博利珠单抗+贝伐珠单抗×11疗程；2个月后复查增强CT示肿瘤部分缓解"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 6",
+                "detail": "三线治疗｜因经济原因改为特瑞普利单抗+贝伐珠单抗×14疗程，后特瑞普利单抗单药×2疗程，至2020年2月；治疗期间未出现严重不良事件"
+              },
+              {
+                "date": "2019年6月",
+                "title": "影像随访",
+                "detail": "CT示肝转移灶周围多发点状高密度影"
+              },
+              {
+                "date": "2020年3月",
+                "title": "影像评估",
+                "detail": "增强CT和MRI示肝转移灶可能完全缓解"
+              },
+              {
+                "date": "2020年3月18日",
+                "title": "肝转移灶切除术",
+                "detail": "术中探查胆囊窝多个融合肿瘤，行肝转移灶切除+胆囊切除；术后病理示大面积凝固性坏死和肉芽肿性炎症，未见明确肿瘤细胞残留，诊断病理完全缓解（pCR）"
+              },
+              {
+                "date": "术后3个月",
+                "title": "辅助治疗",
+                "detail": "特瑞普利单抗+贝伐珠单抗×6疗程"
+              },
+              {
+                "date": "2021年3月",
+                "title": "随访",
+                "detail": "CT示右侧髂外血管旁淋巴结肿大，穿刺活检未见肿瘤细胞"
+              },
+              {
+                "date": "2023年11月",
+                "title": "末次随访",
+                "detail": "患者存活，未见肿瘤复发或转移"
+              }
+            ]
+          },
+          {
+            "id": "images",
+            "label": "病例图片",
+            "order": 3,
+            "image_items": []
+          }
+        ]
+      }
+    }
+  },
+  "execution_report": {
+    "schema_version": "oncorounds-execution-1.0",
+    "workflow_revision": "20260929-full-review-five-outer",
+    "case_id": "CASE-FA55A17A",
+    "status": "FORMAT_ERROR",
+    "publishable": false,
+    "medical_review_status": "not_performed",
+    "extraction_check": {
+      "scope": "literal_excerpt_coverage_not_medical_validation",
+      "patient_section_found": true,
+      "matched_count": 0,
+      "retained_excerpts": [],
+      "warnings": []
+    },
+    "source_groups": [
+      {
+        "group_id": "G1",
+        "parse_status": "OK",
+        "raw_question_count": 0,
+        "usable_question_count": 0,
+        "rejected_questions": [],
+        "warnings": [],
+        "audit": {
+          "availability": "not_provided"
+        },
+        "transport": {
+          "protocol": "single_json",
+          "json_block_count": 1,
+          "selected_block_index": 0,
+          "ignored_intermediate_blocks": 0,
+          "upstream_messages": []
+        },
+        "upstream_missing_information": [
+          "success时必须有1至5题，question_count等于实际长度"
+        ],
+        "workflow_revision": "20260929-evidence-depth-five",
+        "flow_status": "FORMAT_ERROR",
+        "completion": {
+          "required_question_count": 5,
+          "available_question_count": 0,
+          "model_question_count": 1,
+          "complete": false
+        },
+        "program_check": {
+          "scope": "program_structure_and_reference_identity_only",
+          "decision": "FAIL",
+          "errors": [
+            "success时必须有1至5题，question_count等于实际长度"
+          ],
+          "warnings": [
+            "FIVE_QUESTION_GAP：目前1题，仍需补齐4个独立决策；结构通过不代表五题任务完成"
+          ]
+        },
+        "workflow_diagnostics": {
+          "scope": "debug_only_not_learner_content",
+          "evidence_verification": {
+            "version": "option-anchors-1.0",
+            "scope": "literal_source_presence_and_shape_only",
+            "decision": "PASS",
+            "semantic_support": "not_independently_verified",
+            "errors": [],
+            "question_checks": [
+              {
+                "question_id": "Q1",
+                "evidence_id": "GB03",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "RAS/BRAF双野生/MSS型，右半肠癌优先推荐两药化疗联合贝伐珠单抗，左半肠癌优先推荐FOLFOX/FOLFIRI联合西妥昔单抗",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 343,
+                            "end": 409,
+                            "text": "更明显，建议限于PS评分0\\~1分、<70岁、器官功能佳、肿瘤负荷大的患者。如存在严重心脏基础疾病或药物心脏毒性，考虑雷替曲塞替代氟尿嘧啶类。\nb）靶向药物：根据基因状态、原发灶部位选择最佳靶向治疗。RAS/BRAF双野生/MSS型，右半肠癌优先推荐两药化疗联合贝伐珠单抗，左半肠癌优先推荐FOLFOX/FOLFIRI联合西妥昔单抗；RAS突变、BRAF野生/MSS型或不能耐受三药化疗的BRAFV600E突变/MSS，优先推荐FOLFOX/CapeOx/FOLFIRI联合贝伐珠单抗；年轻、体力状况好、肿瘤负荷大或生长迅速或BRA"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "RAS突变、BRAF野生/MSS型或不能耐受三药化疗的BRAFV600E突变/MSS，优先推荐FOLFOX/CapeOx/FOLFIRI联合贝伐珠单抗",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 410,
+                            "end": 485,
+                            "text": "嘧啶类。\nb）靶向药物：根据基因状态、原发灶部位选择最佳靶向治疗。RAS/BRAF双野生/MSS型，右半肠癌优先推荐两药化疗联合贝伐珠单抗，左半肠癌优先推荐FOLFOX/FOLFIRI联合西妥昔单抗；RAS突变、BRAF野生/MSS型或不能耐受三药化疗的BRAFV600E突变/MSS，优先推荐FOLFOX/CapeOx/FOLFIRI联合贝伐珠单抗；年轻、体力状况好、肿瘤负荷大或生长迅速或BRAFV600E突变患者可选择FOLFOXIRI联合贝伐珠单抗。\n "
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "RAS突变、BRAF野生/MSS型或不能耐受三药化疗的BRAFV600E突变/MSS，优先推荐FOLFOX/CapeOx/FOLFIRI联合贝伐珠单抗",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 410,
+                            "end": 485,
+                            "text": "嘧啶类。\nb）靶向药物：根据基因状态、原发灶部位选择最佳靶向治疗。RAS/BRAF双野生/MSS型，右半肠癌优先推荐两药化疗联合贝伐珠单抗，左半肠癌优先推荐FOLFOX/FOLFIRI联合西妥昔单抗；RAS突变、BRAF野生/MSS型或不能耐受三药化疗的BRAFV600E突变/MSS，优先推荐FOLFOX/CapeOx/FOLFIRI联合贝伐珠单抗；年轻、体力状况好、肿瘤负荷大或生长迅速或BRAFV600E突变患者可选择FOLFOXIRI联合贝伐珠单抗。\n "
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "RAS突变、BRAF野生/MSS型或不能耐受三药化疗的BRAFV600E突变/MSS，优先推荐FOLFOX/CapeOx/FOLFIRI联合贝伐珠单抗",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 410,
+                            "end": 485,
+                            "text": "嘧啶类。\nb）靶向药物：根据基因状态、原发灶部位选择最佳靶向治疗。RAS/BRAF双野生/MSS型，右半肠癌优先推荐两药化疗联合贝伐珠单抗，左半肠癌优先推荐FOLFOX/FOLFIRI联合西妥昔单抗；RAS突变、BRAF野生/MSS型或不能耐受三药化疗的BRAFV600E突变/MSS，优先推荐FOLFOX/CapeOx/FOLFIRI联合贝伐珠单抗；年轻、体力状况好、肿瘤负荷大或生长迅速或BRAFV600E突变患者可选择FOLFOXIRI联合贝伐珠单抗。\n "
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "biomarkers",
+                    "quote": "KRAS G13D突变",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 2,
+                    "contexts": [
+                      {
+                        "start": 0,
+                        "end": 11,
+                        "text": "KRAS G13D突变｜取样时间约2018年3月（外院结肠镜活检）｜样本：结肠活检组织｜方法：未明确记载（原文仅述\"病理示…KRAS G13D突变\"）｜结果：突变阳性\nMSI-H｜取样时间：一线治疗失败后（约2018年中）"
+                      },
+                      {
+                        "start": 62,
+                        "end": 73,
+                        "text": "KRAS G13D突变｜取样时间约2018年3月（外院结肠镜活检）｜样本：结肠活检组织｜方法：未明确记载（原文仅述\"病理示…KRAS G13D突变\"）｜结果：突变阳性\nMSI-H｜取样时间：一线治疗失败后（约2018年中）｜样本：肿瘤组织DNA｜方法：二代测序（NGS）｜结果：MSI-H\nCEA｜取样时间：入院时（约2018年3月）｜样本：血清"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "case_context",
+                    "quote": "腹部增强CT提示升结肠肿块伴弥漫性肝转移，初诊为不可切除",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 128,
+                        "end": 156,
+                        "text": "检示升结肠中低分化腺癌，KRAS G13D突变。家族史：父亲结直肠癌、祖父胃癌、祖母淋巴瘤。入院时血红蛋白77g/L，CEA 344.2μg/L，CA19-9 2016U/mL，LDH 973U/L。腹部增强CT提示升结肠肿块伴弥漫性肝转移，初诊为不可切除。"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "A",
+                  "decision_boundary": "KRAS突变排除抗EGFR治疗；西妥昔单抗仅适用于RAS/BRAF双野生型，本例G13D突变不适用",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "745fcee1-ab81-490d-96fc-517f2a543f7b",
+                  "split_index": 52
+                },
+                "decision": "PASS"
+              }
+            ]
+          },
+          "question_evidence_bindings": [
+            {
+              "question_id": "Q1",
+              "evidence_id": "GB03",
+              "doc_id": "745fcee1-ab81-490d-96fc-517f2a543f7b",
+              "split_index": 52,
+              "matching_record_count": 1
+            }
+          ],
+          "cited_evidence_snapshot": [
+            {
+              "evidence_id": "GB03",
+              "doc_id": "745fcee1-ab81-490d-96fc-517f2a543f7b",
+              "split_index": 52,
+              "type": "guideline",
+              "authority": "CACA",
+              "source_title": "结肠癌",
+              "source_version": "2024",
+              "source_section": "3 不可切除的结肠癌肝转移",
+              "source_url": "",
+              "snippet": "### 3.2 内科治疗\n（1）姑息一线治疗\n首选化疗联合靶向治疗，对有望较长时间肿瘤控制（PFS4\\~6个月）的患者，推荐采用诱导化疗-维持治疗策略。\n1）治疗前推荐常规检测肿瘤组织KRAS、NRAS、BRAF基因和微卫星状态。\n2）对适合强烈治疗的患者：\na）化疗方案：根据患者年龄、体力状况、器官功能和肿瘤负荷选择双药或三药化疗。FOLFOX、CapeOx及FOLFIRI疗效相近，毒性反应存在差异。三药FOLFOXIRI的客观有效率、PFS优于双药化疗，但不良反应尤其骨髓毒抑制更明显，建议限于PS评分0\\~1分、<70岁、器官功能佳、肿瘤负荷大的患者。如存在严重心脏基础疾病或药物心脏毒性，考虑雷替曲塞替代氟尿嘧啶类。\nb）靶向药物：根据基因状态、原发灶部位选择最佳靶向治疗。RAS/BRAF双野生/MSS型，右半肠癌优先推荐两药化疗联合贝伐珠单抗，左半肠癌优先推荐FOLFOX/FOLFIRI联合西妥昔单抗；RAS突变、BRAF野生/MSS型或不能耐受三药化疗的BRAFV600E突变/MSS，优先推荐FOLFOX/CapeOx/FOLFIRI联合贝伐珠单抗；年轻、体力状况好、肿瘤负荷大或生长迅速或BRAFV600E突变患者可选择FOLFOXIRI联合贝伐珠单抗。\n ",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            }
+          ],
+          "retrieval_queries": {
+            "staging": "初始临床评估与分期指南\n原发诊断：升结肠中低分化腺癌，伴弥漫性肝转移；术后病理分期pT4aN1cM1a（来源：急诊手术病理）；KRAS G13D突变；MSI-H（来源：一线失败后NGS）\n初诊摘录：25岁女性，因妊娠期贫血、产后腹痛3月入院；外院结肠镜活检示升结肠中低分化腺癌，KRAS G13D突变；家族史：父亲结直肠癌、祖父胃癌、祖母淋巴瘤；入院时血红蛋白77g/L，CEA 344.2μg/L，CA19-9 2016U/mL，LDH 973U/L；腹部增强CT提示升结肠肿块伴弥漫性肝转移，初诊为不可切除\n匹配原发病种与分期检查、区域和远处病变评估，不用后续事实反推初诊。",
+            "molecular": "病理与分子检测及结果应用指南\n原发诊断：升结肠中低分化腺癌，伴弥漫性肝转移；术后病理分期pT4aN1cM1a（来源：急诊手术病理）；KRAS G13D突变；MSI-H（来源：一线失败后NGS）\n检测记录：KRAS G13D突变｜取样时间约2018年3月（外院结肠镜活检）｜样本：结肠活检组织｜方法：未明确记载（原文仅述\"病理示…KRAS G13D突变\"）｜结果：突变阳性；MSI-H｜取样时间：一线治疗失败后（约2018年中）｜样本：肿瘤组织DNA｜方法：二代测序（NGS）｜结果：MSI-H\n候选决策：一线失败后｜尚未行MSI/NGS检测｜是否先完善分子检测再决定二线方案\n关注检测时机、结果等待与治疗衔接；检索关键词不代表初诊已知结果。",
+            "treatment": "复评、局部协调与后线决策正式指南\n原发诊断：升结肠中低分化腺癌，伴弥漫性肝转移；术后病理分期pT4aN1cM1a（来源：急诊手术病理）；KRAS G13D突变；MSI-H（来源：一线失败后NGS）\n决策问题：约2018年3月｜怀疑肠穿孔、弥漫性肝转移不可切除｜急诊手术范围与目的（姑息性切除vs.仅活检）；术后｜肝转移不可切除、KPS 80分｜一线化疗方案选择及是否联合抗血管生成\n实际治疗：三线治疗｜因经济原因改为特瑞普利单抗+贝伐珠单抗×14疗程，后特瑞普利单抗单药×2疗程，至2020年2月；术后｜一线转化治疗｜KPS 80分，XELOX（卡培他滨+奥沙利铂）+贝伐珠单抗×3疗程；二线治疗｜帕博利珠单抗+贝伐珠单抗×11疗程；治疗期间未出现严重不良事件\n检测记录：KRAS G13D突变｜取样时间约2018年3月（外院结肠镜活检）｜样本：结肠活检组织｜方法：未明确记载（原文仅述\"病理示…KRAS G13D突变\"）｜结果：突变阳性\n按原发癌种匹配复评与后线阶段，保留已知治疗限制。",
+            "study": "匹配病例实际方案的原始临床研究\n原发诊断：升结肠中低分化腺癌，伴弥漫性肝转移；术后病理分期pT4aN1cM1a（来源：急诊手术病理）；KRAS G13D突变；MSI-H（来源：一线失败后NGS）\n方案和阶段：三线治疗｜因经济原因改为特瑞普利单抗+贝伐珠单抗×14疗程，后特瑞普利单抗单药×2疗程，至2020年2月；术后｜一线转化治疗｜KPS 80分，XELOX（卡培他滨+奥沙利铂）+贝伐珠单抗×3疗程；出现背痛，阿片类止痛药无效，肿瘤标志物持续升高，增强CT示肝转移灶进展，评估为化疗不敏感且不耐受；二线治疗｜帕博利珠单抗+贝伐珠单抗×11疗程\n人群线索：KRAS G13D突变｜取样时间约2018年3月（外院结肠镜活检）｜样本：结肠活检组织｜方法：未明确记载（原文仅述\"病理示…KRAS G13D突变\"）｜结果：突变阳性\n匹配药物、人群、治疗阶段与决策终点，需该记录已报告原始研究结果。",
+            "toxicity_a": "XELOX+贝伐珠单抗 背痛 分级未提供 毒性识别 鉴别诊断 暂缓停药 再治疗条件 支持处理 正式指南",
+            "toxicity_b": ""
+          },
+          "retrieval_health": {
+            "ok": true,
+            "errors": []
+          },
+          "compression_report": {
+            "input_counts": {
+              "guideline_a_staging": 9,
+              "guideline_a": 12,
+              "guideline_b": 3,
+              "clinical_study_initial": 6,
+              "clinical_study_supplement": 0,
+              "irae_a": 2,
+              "irae_b": 0
+            },
+            "kept_counts": {
+              "guideline_a_staging": 4,
+              "guideline_a": 6,
+              "guideline_b": 3,
+              "clinical_study_initial": 0,
+              "clinical_study_supplement": 0,
+              "irae_a": 2,
+              "irae_b": 0
+            },
+            "kept_total": 15,
+            "dropped_total": 17,
+            "dropped": [
+              {
+                "lane": "guideline_a_staging",
+                "index": 4,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a_staging",
+                "index": 5,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a_staging",
+                "index": 6,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a_staging",
+                "index": 7,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a_staging",
+                "index": 8,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 6,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 7,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 8,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 9,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 10,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 11,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 0,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "19eff5ec6f28292ec399a5d07025323e::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 1,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "1abc44ef69e83e1206f2aaa89c3ff7ea::4"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 2,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "30ce49a33a84cccc1de7d9fb5464647c::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 3,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "9742adc25033d7caa7da2c8ad4eff948::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 4,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260730_152940_9C3CAB45::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 5,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260730_152639_677A163A::1"
+              }
+            ]
+          },
+          "first_round_raw": "{\n  \"schema_version\": \"1.1\",\n  \"generation_status\": \"success\",\n  \"case_summary\": \"25岁女性，升结肠中低分化腺癌伴弥漫性肝转移，急诊手术病理pT4aN1cM1a，KRAS G13D突变。一线XELOX+贝伐珠单抗×3疗程进展且不耐受，一线失败后NGS确认MSI-H。二线帕博利珠单抗+贝伐珠单抗×11疗程部分缓解，三线因经济原因换特瑞普利单抗+贝伐珠单抗×14疗程。2020年3月肝转移灶切除示pCR，术后辅助特瑞普利单抗+贝伐珠单抗×6疗程，2023年11月存活无复发。\",\n  \"question_count\": 5,\n  \"difficulty\": \"进阶\",\n  \"missing_information\": [],\n  \"risk_message\": \"\",\n  \"questions\": [\n    {\n      \"id\": \"Q1\",\n      \"type\": \"治疗决策\",\n      \"phase\": \"一线转化治疗\",\n      \"timepoint\": \"术后一线治疗前\",\n      \"question\": \"25岁女性，升结肠中低分化腺癌伴弥漫性肝转移（初诊不可切除），KRAS G13D突变，MSI状态未检测，KPS 80分。术后一线转化治疗，下列哪项方案选择正确？\",\n      \"options\": [\n       \"FOLFOXIRI联合贝伐珠单抗，因患者年轻且肿瘤负荷大\",\n       \"帕博利珠单抗单药，因右半结肠癌免疫治疗获益更大\",\n       \"卡培他滨联合奥沙利铂单药化疗，避免抗血管生成药物毒性\",\n       \"卡培他滨联合奥沙利铂加贝伐珠单抗，因RAS突变右半结肠癌优先推荐化疗联合贝伐珠单抗\"\n      ],\n      \"answer\": 3,\n      \"answer_text\": \"卡培他滨联合奥沙利铂加贝伐珠单抗，因RAS突变右半结肠癌优先推荐化疗联合贝伐珠单抗\",\n      \"keyPoint\": \"RAS突变右半结肠癌一线优先化疗联合贝伐珠单抗；三药化疗严格限于PS 0~1分\",\n      \"explain\": {\n       \"A\": \"FOLFOXIRI建议限于PS 0~1分且器官功能佳者，KPS 80分约对应PS 1~2分，不满足三药化疗适用条件\",\n       \"B\": \"MSI状态尚未检测，无法确认免疫治疗适应证；指南要求治疗前完成微卫星检测再决定方案\",\n       \"C\": \"RAS突变右半结肠癌指南优先推荐化疗联合贝伐珠单抗，单纯化疗非首选方案\",\n       \"D\": \"RAS突变、右半结肠癌，指南优先推荐CapeOx联合贝伐珠单抗，本例条件完全符合\"\n      },\n      \"evidence_id\": \"GB03\",\n      \"support_mode\": \"hard\",\n      \"evidence_summary\": \"GB03：RAS突变右半结肠癌优先CapeOx+Bev；FOLFOXIRI限PS 0~1分、器官功能佳\",\n      \"verification\": {\n       \"quotes\": {\n\"A\": [\"三药FOLFOXIRI的客观有效率、PFS优于双药化疗，但不良反应尤其骨髓毒抑制更明显，建议限于PS评分0~1分、<70岁、器官功能佳、肿瘤负荷大的患者\"],\n\"B\": [\"治疗前推荐常规检测肿瘤组织KRAS、NRAS、BRAF基因和微卫星状态。\"],\n\"C\": [\"RAS突变、BRAF野生/MSS型或不能耐受三药化疗的BRAFV600E突变/MSS，优先推荐FOLFOX/CapeOx/FOLFIRI联合贝伐珠单抗\"],\n\"D\": [\"RAS突变、BRAF野生/MSS型或不能耐受三药化疗的BRAFV600E突变/MSS，优先推荐FOLFOX/CapeOx/FOLFIRI联合贝伐珠单抗\"]\n       },\n       \"case_facts\": [\n{\"field\": \"biomarkers\", \"quote\": \"KRAS G13D突变\"},\n{\"field\": \"case_timeline\", \"quote\": \"KPS 80分\"},\n{\"field\": \"case_context\", \"quote\": \"腹部增强CT提示升结肠肿块伴弥漫性肝转移，初诊为不可切除\"}\n       ],\n       \"closest_alternative\": \"A\",\n       \"decision_boundary\": \"KPS 80分约对应PS 1~2分，不满足FOLFOXIRI限PS 0~1分的适用条件\"\n      }\n    },\n    {\n      \"id\": \"Q2\",\n      \"type\": \"治疗决策\",\n      \"phase\": \"二线治疗\",\n      \"timepoint\": \"一线失败后MSI-H确认\",\n      \"question\": \"一线XELOX+贝伐珠单抗×3疗程后评估进展，二代测序确认MSI-H，KRAS G13D突变。二线治疗，下列哪项正确？\",\n      \"options\": [\n       \"更换化疗骨架为FOLFIRI联合贝伐珠单抗继续转化治疗\",\n       \"加用西妥昔单抗靶向治疗，因KRAS G13D为可靶向突变\",\n       \"不论KRAS突变状态，优先推荐PD-1单抗（帕博利珠单抗）治疗\",\n       \"因KRAS突变提示免疫治疗无效，应继续化疗联合贝伐珠单抗\"\n      ],\n      \"answer\": 2,\n      \"answer_text\": \"不论KRAS突变状态，优先推荐PD-1单抗（帕博利珠单抗）治疗\",\n      \"keyPoint\": \"MSI-H/dMMR是免疫治疗获益标志，不受RAS/BRAF突变状态限制\",\n      \"explain\": {\n       \"A\": \"MSI-H确认后治疗优先级转为免疫治疗，继续化疗骨架不符合二线推荐方向\",\n       \"B\": \"KRAS突变是抗EGFR治疗的禁忌，西妥昔单抗不适用于RAS突变型结直肠癌\",\n       \"C\": \"指南明确不论RAS/BRAF基因状态，MSI-H/dMMR均优先推荐PD-1单抗\",\n       \"D\": \"KRAS突变不排斥免疫治疗，MSI-H是免疫获益标志而非化疗指征\"\n      },\n      \"evidence_id\": \"GB02\",\n      \"support_mode\": \"hard\",\n      \"evidence_summary\": \"GB02：不论RAS/BRAF状态，MSI-H/dMMR优先推荐PD-1单抗（帕博利珠单抗）\",\n      \"verification\": {\n       \"quotes\": {\n\"A\": [\"不论RAS/BRAF基因状态，对MSI-H/dMMR患者均优先推荐PD-1单抗（帕博利珠单抗）。\"],\n\"B\": [\"不适合免疫治疗者，可参考姑息一线治疗。\"],\n\"C\": [\"不论RAS/BRAF基因状态，对MSI-H/dMMR患者均优先推荐PD-1单抗（帕博利珠单抗）。\"],\n\"D\": [\"不论RAS/BRAF基因状态，对MSI-H/dMMR患者均优先推荐PD-1单抗（帕博利珠单抗）。\"]\n       },\n       \"case_facts\": [\n{\"field\": \"case_timeline\", \"quote\": \"二代测序肿瘤组织DNA示MSI-H\"},\n{\"field\": \"biomarkers\", \"quote\": \"KRAS G13D突变\"},\n{\"field\": \"case_timeline\", \"quote\": \"XELOX（卡培他滨+奥沙利铂）+贝伐珠单抗×3疗程；出现背痛，阿片类止痛药无效，肿瘤标志物持续升高，增强CT示肝转移灶进展，评估为化疗不敏感且不耐受\"}\n       ],\n       \"closest_alternative\": \"A\",\n       \"decision_boundary\": \"MSI-H确认后指南将PD-1列为优先推荐，化疗骨架不再是一线失败后的首选方向\"\n      }\n    },\n    {\n      \"id\": \"Q3\",\n      \"type\": \"分子诊断\",\n      \"phase\": \"初诊/一线治疗前\",\n      \"timepoint\": \"入院时分子检测决策\",\n      \"question\": \"该患者初诊时仅知KRAS G13D突变，MSI状态未检测，一线化疗失败后才完成NGS发现MSI-H。关于分子检测时机与范围，下列哪项正确？\",\n      \"options\": [\n       \"初诊时仅检测KRAS即可指导一线方案，MSI可待化疗失败后再检测\",\n       \"结直肠癌肝转移患者应在治疗前完成KRAS/NRAS/BRAF及MSI/MMR检测\",\n       \"KRAS突变者免疫治疗均无效，无需检测MSI状态\",\n       \"应同时检测NTRK融合，因所有MSI-H患者均需排除NTRK融合\"\n      ],\n      \"answer\": 1,\n      \"answer_text\": \"结直肠癌肝转移患者应在治疗前完成KRAS/NRAS/BRAF及MSI/MMR检测\",\n      \"keyPoint\": \"结直肠癌肝转移分子检测应在治疗前完成，延迟检测影响免疫治疗时机\",\n      \"explain\": {\n       \"A\": \"指南要求治疗前常规检测微卫星状态，延迟检测错失一线免疫治疗机会\",\n       \"B\": \"指南推荐所有结直肠癌肝转移患者治疗前完成分子检测，包括MSI/MMR\",\n       \"C\": \"指南明确不论RAS/BRAF状态MSI-H均优先推荐PD-1，KRAS不排斥免疫治疗\",\n       \"D\": \"NTRK融合检测主要用于RAS/BRAF野生型dMMR/MSI-H患者，本例RAS突变不适用\"\n      },\n      \"evidence_id\": \"GA04\",\n      \"support_mode\": \"hard\",\n      \"evidence_summary\": \"GA04：推荐所有结直肠癌肝转移患者进行分子病理学检测以筛选靶向和免疫获益人群\",\n      \"verification\": {\n       \"quotes\": {\n\"A\": [\"推荐所有结直肠癌肝转移患者进行组织病理学及分子病理学检测，以明确诊断及筛选可能从靶向治疗和免疫治疗中获益的人群。\"],\n\"B\": [\"推荐所有结直肠癌肝转移患者进行组织病理学及分子病理学检测，以明确诊断及筛选可能从靶向治疗和免疫治疗中获益的人群。\"],\n\"C\": [\"初治患者的分子病理学检测首选转移癌组织。\"],\n\"D\": [\"推荐所有结直肠癌肝转移患者进行组织病理学及分子病理学检测，以明确诊断及筛选可能从靶向治疗和免疫治疗中获益的人群。\"]\n       },\n       \"case_facts\": [\n{\"field\": \"case_timeline\", \"quote\": \"二代测序肿瘤组织DNA示MSI-H\"},\n{\"field\": \"biomarkers\", \"quote\": \"KRAS G13D突变｜取样时间约2018年3月（外院结肠镜活检）\"},\n{\"field\": \"case_context\", \"quote\": \"腹部增强CT提示升结肠肿块伴弥漫性肝转移，初诊为不可切除\"}\n       ],\n       \"closest_alternative\": \"A\",\n       \"decision_boundary\": \"指南要求治疗前完成MSI检测；本例延迟至一线失败后才检测，错失早期免疫治疗窗口\"\n      }\n    },\n    {\n      \"id\": \"Q4\",\n      \"type\": \"治疗决策\",\n      \"phase\": \"术前准备\",\n      \"timepoint\": \"2020年3月肝转移灶切除术前\",\n      \"question\": \"患者2020年2月完成特瑞普利单抗+贝伐珠单抗末次治疗，2020年3月18日行肝转移灶切除术。关于贝伐珠单抗围手术期管理，下列哪项正确？\",\n      \"options\": [\n       \"择期手术前应暂停贝伐珠单抗至少4周\",\n       \"贝伐珠单抗半衰期短，术前1周停药即可\",\n       \"手术切除肿瘤后应永久停用贝伐珠单抗\",\n       \"贝伐珠单抗不影响伤口愈合，无需围手术期调整\"\n      ],\n      \"answer\": 0,\n      \"answer_text\": \"择期手术前应暂停贝伐珠单抗至少4周\",\n      \"keyPoint\": \"贝伐珠单抗围手术期管理为暂停而非永久停用，择期手术前至少4周\",\n      \"explain\": {\n       \"A\": \"贝伐珠单抗暂停指征明确为择期手术前至少4周，本例末次用药至手术约4~6周符合\",\n       \"B\": \"指南要求至少4周，1周不足以完成药物清除和伤口愈合准备\",\n       \"C\": \"永久停用指征为穿孔、重度出血等严重事件，择期手术仅需暂停而非永久停用\",\n       \"D\": \"贝伐珠单抗抗血管生成机制影响伤口愈合，指南明确要求术前暂停\"\n      },\n      \"evidence_id\": \"IR01\",\n      \"support_mode\": \"hard\",\n      \"evidence_summary\": \"IR01：贝伐珠单抗暂停指征为择期手术前至少4周；永久停用限于穿孔等严重事件\",\n      \"verification\": {\n       \"quotes\": {\n\"A\": [\"暂停使用贝伐珠单抗指征：择期手术前至少4周\"],\n\"B\": [\"暂停使用贝伐珠单抗指征：择期手术前至少4周\"],\n\"C\": [\"停止使用贝伐珠单抗指征主要包括：胃肠道穿孔（包括胃肠道穿孔、胃肠道瘘形成、腹腔脓肿），内脏瘘；需要干预治疗的切口裂开以及切口愈合并发症；重度出血（如需要干预治疗）；重度动脉血栓事件\"],\n\"D\": [\"暂停使用贝伐珠单抗指征：择期手术前至少4周\"]\n       },\n       \"case_facts\": [\n{\"field\": \"case_timeline\", \"quote\": \"后特瑞普利单抗单药×2疗程，至2020年2月\"},\n{\"field\": \"case_timeline\", \"quote\": \"2020年3月18日｜肝转移灶切除术\"}\n       ],\n       \"closest_alternative\": \"C\",\n       \"decision_boundary\": \"择期手术仅需暂停贝伐珠单抗≥4周；永久停用限于穿孔、重度出血等严重不良事件\"\n      }\n    },\n    {\n      \"id\": \"Q5\",\n      \"type\": \"疗效复评与局部治疗\",\n      \"phase\": \"肝转移灶切除术后\",\n      \"timepoint\": \"2020年3月术后病理评估\",\n      \"question\": \"肝转移灶切除术后病理示大面积凝固性坏死和肉芽肿性炎症，未见明确肿瘤细胞残留，诊断pCR。关于该转移灶的分期标注，下列哪项正确？\",\n      \"options\": [\n       \"转移灶切除标本分期沿用初始pT4aN1cM1a，因原发灶病理不变\",\n       \"接受术前系统治疗后病理完全缓解，该转移灶分期标注为ypT0N0cM0\",\n       \"转移灶pCR后整体分期仍为IV期，因初始诊断时已存在远处转移\",\n       \"转移灶pCR意味着原发灶也应为ypT0N0cM0，整体降为0期\"\n      ],\n      \"answer\": 1,\n      \"answer_text\": \"接受术前系统治疗后病理完全缓解，该转移灶分期标注为ypT0N0cM0\",\n      \"keyPoint\": \"术前系统治疗后切除标本用yp前缀；pCR分期为ypT0N0cM0\",\n      \"explain\": {\n       \"A\": \"接受术前系统治疗后的切除标本应使用yp前缀，不沿用初始pTNM标注\",\n       \"B\": \"指南规定接受新辅助治疗后pCR的分期为ypT0N0cM0，适用于本例转移灶\",\n       \"C\": \"pCR后分期标注为ypT0N0cM0，反映当前无残留肿瘤状态，非沿用初始IV期\",\n       \"D\": \"原发灶在系统治疗前已切除为pT4aN1c；y前缀仅适用于术前治疗后切除的标本\"\n      },\n      \"evidence_id\": \"GS04\",\n      \"support_mode\": \"hard\",\n      \"evidence_summary\": \"GS04：接受新辅助（术前）治疗后pCR的患者分期为ypT0N0cM0\",\n      \"verification\": {\n       \"quotes\": {\n\"A\": [\"前级 y 用于接受新辅助（术前）治疗后的肿瘤分期（如 ypTNM），病理学完全缓解的患者分期为 ypT0N0cM0\"],\n\"B\": [\"前级 y 用于接受新辅助（术前）治疗后的肿瘤分期（如 ypTNM），病理学完全缓解的患者分期为 ypT0N0cM0\"],\n\"C\": [\"前级 y 用于接受新辅助（术前）治疗后的肿瘤分期（如 ypTNM），病理学完全缓解的患者分期为 ypT0N0cM0\"],\n\"D\": [\"前级 y 用于接受新辅助（术前）治疗后的肿瘤分期（如 ypTNM），病理学完全缓解的患者分期为 ypT0N0cM0\"]\n       },\n       \"case_facts\": [\n{\"field\": \"case_timeline\", \"quote\": \"术后病理示大面积凝固性坏死和肉芽肿性炎症，未见明确肿瘤细胞残留，诊断病理完全缓解（pCR）\"},\n{\"field\": \"case_timeline\", \"quote\": \"行肝转移灶切除+胆囊切除\"},\n{\"field\": \"case_timeline\", \"quote\": \"病理示中低分化腺癌伴神经周围侵犯，肠系膜淋巴结0/2，2个肿瘤沉积灶，术后分期pT4aN1cM1a\"}\n       ],\n       \"closest_alternative\": \"C\",\n       \"decision_boundary\": \"yp前缀反映术前治疗后切除标本的当前状态；原发灶在系统治疗前已切除，不适用y前缀\"\n      }\n    }\n  ]\n}",
+          "second_round_raw": "{\"schema_version\":\"1.1\",\"generation_status\":\"success\",\"case_summary\":\"25岁女性，升结肠中低分化腺癌伴弥漫性肝转移，急诊手术病理pT4aN1cM1a，KRAS G13D突变。一线XELOX+贝伐珠单抗×3疗程进展且不耐受，一线失败后NGS确认MSI-H。二线帕博利珠单抗+贝伐珠单抗×11疗程部分缓解，三线因经济原因换特瑞普利单抗+贝伐珠单抗×14疗程。2020年3月肝转移灶切除示pCR，术后辅助特瑞普利单抗+贝伐珠单抗×6疗程，2023年11月存活无复发。\",\"question_count\":5,\"difficulty\":\"进阶\",\"missing_information\":[],\"risk_message\":\"\",\"questions\":[{\"id\":\"Q1\",\"type\":\"治疗决策\",\"phase\":\"一线转化治疗\",\"timepoint\":\"术后一线治疗前\",\"question\":\"25岁女性，升结肠中低分化腺癌伴弥漫性肝转移（初诊不可切除），KRAS G13D突变，MSI状态未检测，KPS 80分。术后一线转化治疗，关于靶向药物联合方案，下列哪项正确？\",\"options\":[\"联合西妥昔单抗，因KRAS G13D为可靶向的RAS突变位点\",\"联合贝伐珠单抗，因RAS突变型优先推荐化疗联合贝伐珠单抗\",\"不联合任何靶向药物，因初诊不可切除肝转移禁用抗血管生成\",\"联合贝伐珠单抗加西妥昔单抗，因右半结肠癌需双重靶向阻断\"],\"answer\":1,\"answer_text\":\"联合贝伐珠单抗，因RAS突变型优先推荐化疗联合贝伐珠单抗\",\"keyPoint\":\"RAS突变型结直肠癌一线靶向选择为贝伐珠单抗，抗EGFR仅适用于RAS/BRAF双野生型\",\"explain\":{\"A\":\"指南明确西妥昔单抗适用于RAS/BRAF双野生型左半结肠癌，KRAS突变是抗EGFR治疗的禁忌\",\"B\":\"指南对RAS突变型优先推荐FOLFOX/CapeOx/FOLFIRI联合贝伐珠单抗，本例完全符合\",\"C\":\"指南对RAS突变型明确推荐联合贝伐珠单抗，不可切除肝转移并非抗血管生成的禁忌\",\"D\":\"指南推荐RAS突变型联合贝伐珠单抗为单一靶向方案，且西妥昔单抗因KRAS突变不适用\"},\"evidence_id\":\"GB03\",\"support_mode\":\"hard\",\"evidence_summary\":\"RAS突变型优先推荐化疗联合贝伐珠单抗；西妥昔单抗限于RAS/BRAF双野生型左半结肠癌\",\"verification\":{\"quotes\":{\"A\":[\"RAS/BRAF双野生/MSS型，右半肠癌优先推荐两药化疗联合贝伐珠单抗，左半肠癌优先推荐FOLFOX/FOLFIRI联合西妥昔单抗\"],\"B\":[\"RAS突变、BRAF野生/MSS型或不能耐受三药化疗的BRAFV600E突变/MSS，优先推荐FOLFOX/CapeOx/FOLFIRI联合贝伐珠单抗\"],\"C\":[\"RAS突变、BRAF野生/MSS型或不能耐受三药化疗的BRAFV600E突变/MSS，优先推荐FOLFOX/CapeOx/FOLFIRI联合贝伐珠单抗\"],\"D\":[\"RAS突变、BRAF野生/MSS型或不能耐受三药化疗的BRAFV600E突变/MSS，优先推荐FOLFOX/CapeOx/FOLFIRI联合贝伐珠单抗\"]},\"case_facts\":[{\"field\":\"biomarkers\",\"quote\":\"KRAS G13D突变\"},{\"field\":\"case_context\",\"quote\":\"腹部增强CT提示升结肠肿块伴弥漫性肝转移，初诊为不可切除\"}],\"closest_alternative\":\"A\",\"decision_boundary\":\"KRAS突变排除抗EGFR治疗；西妥昔单抗仅适用于RAS/BRAF双野生型，本例G13D突变不适用\"}}]\n  ,\n  \"Q2\":{\"id\":\"Q2\",\"type\":\"治疗决策\",\"phase\":\"二线治疗\",\"timepoint\":\"一线失败后MSI-H确认\",\"question\":\"一线XELOX+贝伐珠单抗×3疗程后评估进展，二代测序确认MSI-H，KRAS G13D突变。关于二线治疗方向，下列哪项正确？\",\"options\":[\"更换化疗骨架为FOLFIRI联合贝伐珠单抗继续转化\",\"加用西妥昔单抗靶向KRAS G13D突变位点\",\"不论KRAS突变状态，优先推荐PD-1单抗治疗\",\"因KRAS突变提示免疫治疗无效，继续化疗联合贝伐珠单抗\"],\"answer\":2,\"answer_text\":\"不论KRAS突变状态，优先推荐PD-1单抗治疗\",\"keyPoint\":\"MSI-H/dMMR是免疫治疗获益标志，指南明确不论RAS/BRAF状态均优先推荐PD-1单抗\",\"explain\":{\"A\":\"指南对MSI-H优先推荐PD-1单抗，不适合免疫治疗者才参考姑息一线化疗方案\",\"B\":\"指南推荐MSI-H患者优先PD-1单抗，西妥昔单抗属不适合免疫治疗时的姑息一线选项\",\"C\":\"指南明确不论RAS/BRAF基因状态，对MSI-H/dMMR均优先推荐PD-1单抗\",\"D\":\"指南原文'不论RAS/BRAF基因状态'直接否定KRAS突变排斥免疫治疗的说法\"},\"evidence_id\":\"GB02\",\"support_mode\":\"hard\",\"evidence_summary\":\"不论RAS/BRAF基因状态，MSI-H/dMMR优先推荐PD-1单抗；不适合免疫治疗者方参考姑息一线\",\"verification\":{\"quotes\":{\"A\":[\"不适合免疫治疗者，可参考姑息一线治疗。\"],\"B\":[\"不适合免疫治疗者，可参考姑息一线治疗。\"],\"C\":[\"不论RAS/BRAF基因状态，对MSI- H/dMMR患者均优先推荐PD- 1单抗（帕博利珠单抗）。\"],\"D\":[\"不论RAS/BRAF基因状态，对MSI- H/dMMR患者均优先推荐PD- 1单抗（帕博利珠单抗）。\"]},\"case_facts\":[{\"field\":\"case_timeline\",\"quote\":\"二代测序肿瘤组织DNA示MSI-H\"},{\"field\":\"biomarkers\",\"quote\":\"KRAS G13D突变\"},{\"field\":\"case_timeline\",\"quote\":\"XELOX（卡培他滨+奥沙利铂）+贝伐珠单抗×3疗程；出现背痛，阿片类止痛药无效，肿瘤标志物持续升高，增强CT示肝转移灶进展，评估为化疗不敏感且不耐受\"}],\"closest_alternative\":\"A\",\"decision_boundary\":\"MSI-H确认后指南将PD-1列为优先推荐；化疗骨架仅适用于不适合免疫治疗者\"}}\n  ,\n  \"Q3\":{\"id\":\"Q3\",\"type\":\"分子诊断\",\"phase\":\"初诊/一线治疗前\",\"timepoint\":\"入院时分子检测决策\",\"question\":\"该患者初诊时仅知KRAS G13D突变，MSI状态未检测，一线化疗失败后才完成NGS发现MSI-H。关于分子检测时机与范围，下列哪项正确？\",\"options\":[\"初诊时仅检测KRAS即可指导一线方案，MSI可待化疗失败后再检测\",\"结直肠癌肝转移患者应在治疗前完成分子病理学检测以筛选靶向和免疫获益人群\",\"KRAS突变者免疫治疗均无效，无需检测MSI状态\",\"应同时检测NTRK融合，因所有MSI-H患者均需排除NTRK融合\"],\"answer\":1,\"answer_text\":\"结直肠癌肝转移患者应在治疗前完成分子病理学检测以筛选靶向和免疫获益人群\",\"keyPoint\":\"结直肠癌肝转移推荐治疗前完成分子检测，延迟MSI检测错失早期免疫治疗窗口\",\"explain\":{\"A\":\"共识推荐所有结直肠癌肝转移患者进行分子检测以筛选免疫获益人群，延迟检测影响治疗决策\",\"B\":\"共识明确推荐所有结直肠癌肝转移患者治疗前完成分子病理学检测，本例延迟至一线失败后\",\"C\":\"共识推荐检测目的包含筛选免疫治疗获益人群，KRAS突变不排斥MSI检测\",\"D\":\"共识推荐检测以筛选获益人群，NTRK融合检测主要用于RAS/BRAF野生型dMMR/MSI-H患者\"},\"evidence_id\":\"GA04\",\"support_mode\":\"hard\",\"evidence_summary\":\"推荐所有结直肠癌肝转移患者进行分子病理学检测以筛选靶向和免疫治疗获益人群\",\"verification\":{\"quotes\":{\"A\":[\"推荐所有结直肠癌肝转移患者进行组织病理学及分子病理学检测，以明确诊断及筛选可能从靶向治疗和免疫治疗中获益的人群。\"],\"B\":[\"推荐所有结直肠癌肝转移患者进行组织病理学及分子病理学检测，以明确诊断及筛选可能从靶向治疗和免疫治疗中获益的人群。\"],\"C\":[\"推荐所有结直肠癌肝转移患者进行组织病理学及分子病理学检测，以明确诊断及筛选可能从靶向治疗和免疫治疗中获益的人群。\"],\"D\":[\"初治患者的分子病理学检测首选转移癌组织。\"]},\"case_facts\":[{\"field\":\"case_timeline\",\"quote\":\"二代测序肿瘤组织DNA示MSI-H\"},{\"field\":\"biomarkers\",\"quote\":\"KRAS G13D突变｜取样时间约2018年3月（外院结肠镜活检）\"},{\"field\":\"case_context\",\"quote\":\"腹部增强CT提示升结肠肿块伴弥漫性肝转移，初诊为不可切除\"}],\"closest_alternative\":\"A\",\"decision_boundary\":\"共识要求治疗前完成分子检测；本例延迟至一线失败后才检测，错失早期免疫治疗窗口\"}}\n  ,\n  \"Q4\":{\"id\":\"Q4\",\"type\":\"不良反应管理\",\"phase\":\"术前准备\",\"timepoint\":\"2020年3月肝转移灶切除术前\",\"question\":\"患者2020年2月完成特瑞普利单抗+贝伐珠单抗末次治疗，2020年3月18日行肝转移灶切除术。关于贝伐珠单抗围手术期管理，下列哪项正确？\",\"options\":[\"择期手术前应暂停贝伐珠单抗至少4周\",\"贝伐珠单抗半衰期短，术前1周停药即可\",\"手术切除肿瘤后应永久停用贝伐珠单抗\",\"贝伐珠单抗不影响伤口愈合，无需围手术期调整\"],\"answer\":0,\"answer_text\":\"择期手术前应暂停贝伐珠单抗至少4周\",\"keyPoint\":\"贝伐珠单抗围手术期管理为暂停而非永久停用，择期手术前至少4周\",\"explain\":{\"A\":\"指南明确暂停指征为择期手术前至少4周，本例末次用药至手术约4至6周符合\",\"B\":\"指南要求至少4周，1周不足以完成药物清除和伤口愈合准备\",\"C\":\"永久停用限于穿孔、重度出血等严重事件，择期手术仅需暂停而非永久停用\",\"D\":\"指南将择期手术列为暂停指征，说明抗血管生成机制影响伤口愈合需围手术期调整\"},\"evidence_id\":\"IR01\",\"support_mode\":\"hard\",\"evidence_summary\":\"贝伐珠单抗暂停指征为择期手术前至少4周；永久停用限于穿孔等严重事件\",\"verification\":{\"quotes\":{\"A\":[\"暂停使用贝伐珠单抗指征：择期手术前至少4周\"],\"B\":[\"暂停使用贝伐珠单抗指征：择期手术前至少4周\"],\"C\":[\"停止使用贝伐珠单抗指征主要包括：胃肠道穿孔（包括胃肠道穿孔、胃肠道瘘形成、腹腔脓肿），内脏瘘；需要干预治疗的切口裂开以及切口愈合并发症；重度出血（如需要干预治疗）；重度动脉血栓事件\"],\"D\":[\"暂停使用贝伐珠单抗指征：择期手术前至少4周\"]},\"case_facts\":[{\"field\":\"case_timeline\",\"quote\":\"后特瑞普利单抗单药×2疗程，至2020年2月\"},{\"field\":\"case_timeline\",\"quote\":\"2020年3月18日｜肝转移灶切除术\"}],\"closest_alternative\":\"C\",\"decision_boundary\":\"择期手术仅需暂停贝伐珠单抗≥4周；永久停用限于穿孔、重度出血等严重不良事件\"}}\n  ,\n  \"Q5\":{\"id\":\"Q5\",\"type\":\"疗效复评与局部治疗\",\"phase\":\"肝转移灶切除术后\",\"timepoint\":\"2020年3月术后病理评估\",\"question\":\"肝转移灶切除术后病理示大面积凝固性坏死和肉芽肿性炎症，未见明确肿瘤细胞残留，诊断pCR。关于该转移灶切除标本的分期标注，下列哪项正确？\",\"options\":[\"转移灶切除标本沿用初始pT4aN1cM1a，因原发灶病理不变\",\"接受术前系统治疗后切除的标本应使用y前缀标注当前病理状态\",\"转移灶pCR后整体分期仍为IVA期，因初始诊断时已存在远处转移\",\"转移灶pCR意味着原发灶也应为y前缀，整体降为0期\"],\"answer\":1,\"answer_text\":\"接受术前系统治疗后切除的标本应使用y前缀标注当前病理状态\",\"keyPoint\":\"术前系统治疗后切除标本用yp前缀反映当前状态；原发灶治疗前已切除不适用y前缀\",\"explain\":{\"A\":\"接受术前系统治疗后的切除标本应使用y前缀标注，不沿用初始pTNM\",\"B\":\"诊疗规范规定前级y用于接受新辅助治疗后的肿瘤分期，本例转移灶切除符合此条件\",\"C\":\"y前缀反映切除标本的当前病理状态；初始IVA期是诊断时分期，不覆盖术后标本标注\",\"D\":\"原发灶在系统治疗前已切除为pT4aN1c，y前缀仅适用于术前治疗后切除的标本\"},\"evidence_id\":\"GS03\",\"support_mode\":\"hard\",\"evidence_summary\":\"病理报告表含y(新辅助治疗后)分期前缀选项，适用于术前治疗后切除标本\",\"verification\":{\"quotes\":{\"A\":[\"口y(新辅助治疗后)\"],\"B\":[\"口y(新辅助治疗后)\"],\"C\":[\"口y(新辅助治疗后)\"],\"D\":[\"口y(新辅助治疗后)\"]},\"case_facts\":[{\"field\":\"case_timeline\",\"quote\":\"术后病理示大面积凝固性坏死和肉芽肿性炎症，未见明确肿瘤细胞残留，诊断病理完全缓解（pCR）\"},{\"field\":\"case_timeline\",\"quote\":\"行肝转移灶切除+胆囊切除\"},{\"field\":\"case_timeline\",\"quote\":\"病理示中低分化腺癌伴神经周围侵犯，肠系膜淋巴结0/2，2个肿瘤沉积灶，术后分期pT4aN1cM1a\"}],\"closest_alternative\":\"C\",\"decision_boundary\":\"y前缀反映术前治疗后切除标本的当前状态；原发灶在系统治疗前已切除不适用y前缀\"}}\n  }",
+          "parsed_second_round_draft": {
+            "schema_version": "1.1",
+            "generation_status": "success",
+            "case_summary": "25岁女性，升结肠中低分化腺癌伴弥漫性肝转移，急诊手术病理pT4aN1cM1a，KRAS G13D突变。一线XELOX+贝伐珠单抗×3疗程进展且不耐受，一线失败后NGS确认MSI-H。二线帕博利珠单抗+贝伐珠单抗×11疗程部分缓解，三线因经济原因换特瑞普利单抗+贝伐珠单抗×14疗程。2020年3月肝转移灶切除示pCR，术后辅助特瑞普利单抗+贝伐珠单抗×6疗程，2023年11月存活无复发。",
+            "question_count": 5,
+            "difficulty": "进阶",
+            "missing_information": [],
+            "risk_message": "",
+            "questions": [
+              {
+                "id": "Q1",
+                "type": "治疗决策",
+                "phase": "一线转化治疗",
+                "timepoint": "术后一线治疗前",
+                "question": "25岁女性，升结肠中低分化腺癌伴弥漫性肝转移（初诊不可切除），KRAS G13D突变，MSI状态未检测，KPS 80分。术后一线转化治疗，关于靶向药物联合方案，下列哪项正确？",
+                "options": [
+                  "联合西妥昔单抗，因KRAS G13D为可靶向的RAS突变位点",
+                  "联合贝伐珠单抗，因RAS突变型优先推荐化疗联合贝伐珠单抗",
+                  "不联合任何靶向药物，因初诊不可切除肝转移禁用抗血管生成",
+                  "联合贝伐珠单抗加西妥昔单抗，因右半结肠癌需双重靶向阻断"
+                ],
+                "answer": 1,
+                "answer_text": "联合贝伐珠单抗，因RAS突变型优先推荐化疗联合贝伐珠单抗",
+                "keyPoint": "RAS突变型结直肠癌一线靶向选择为贝伐珠单抗，抗EGFR仅适用于RAS/BRAF双野生型",
+                "explain": {
+                  "A": "指南明确西妥昔单抗适用于RAS/BRAF双野生型左半结肠癌，KRAS突变是抗EGFR治疗的禁忌",
+                  "B": "指南对RAS突变型优先推荐FOLFOX/CapeOx/FOLFIRI联合贝伐珠单抗，本例完全符合",
+                  "C": "指南对RAS突变型明确推荐联合贝伐珠单抗，不可切除肝转移并非抗血管生成的禁忌",
+                  "D": "指南推荐RAS突变型联合贝伐珠单抗为单一靶向方案，且西妥昔单抗因KRAS突变不适用"
+                },
+                "evidence_id": "GB03",
+                "support_mode": "hard",
+                "evidence_summary": "RAS突变型优先推荐化疗联合贝伐珠单抗；西妥昔单抗限于RAS/BRAF双野生型左半结肠癌",
+                "verification": {
+                  "quotes": {
+                    "A": [
+                      "RAS/BRAF双野生/MSS型，右半肠癌优先推荐两药化疗联合贝伐珠单抗，左半肠癌优先推荐FOLFOX/FOLFIRI联合西妥昔单抗"
+                    ],
+                    "B": [
+                      "RAS突变、BRAF野生/MSS型或不能耐受三药化疗的BRAFV600E突变/MSS，优先推荐FOLFOX/CapeOx/FOLFIRI联合贝伐珠单抗"
+                    ],
+                    "C": [
+                      "RAS突变、BRAF野生/MSS型或不能耐受三药化疗的BRAFV600E突变/MSS，优先推荐FOLFOX/CapeOx/FOLFIRI联合贝伐珠单抗"
+                    ],
+                    "D": [
+                      "RAS突变、BRAF野生/MSS型或不能耐受三药化疗的BRAFV600E突变/MSS，优先推荐FOLFOX/CapeOx/FOLFIRI联合贝伐珠单抗"
+                    ]
+                  },
+                  "case_facts": [
+                    {
+                      "field": "biomarkers",
+                      "quote": "KRAS G13D突变"
+                    },
+                    {
+                      "field": "case_context",
+                      "quote": "腹部增强CT提示升结肠肿块伴弥漫性肝转移，初诊为不可切除"
+                    }
+                  ],
+                  "closest_alternative": "A",
+                  "decision_boundary": "KRAS突变排除抗EGFR治疗；西妥昔单抗仅适用于RAS/BRAF双野生型，本例G13D突变不适用"
+                }
+              }
+            ],
+            "Q2": {
+              "id": "Q2",
+              "type": "治疗决策",
+              "phase": "二线治疗",
+              "timepoint": "一线失败后MSI-H确认",
+              "question": "一线XELOX+贝伐珠单抗×3疗程后评估进展，二代测序确认MSI-H，KRAS G13D突变。关于二线治疗方向，下列哪项正确？",
+              "options": [
+                "更换化疗骨架为FOLFIRI联合贝伐珠单抗继续转化",
+                "加用西妥昔单抗靶向KRAS G13D突变位点",
+                "不论KRAS突变状态，优先推荐PD-1单抗治疗",
+                "因KRAS突变提示免疫治疗无效，继续化疗联合贝伐珠单抗"
+              ],
+              "answer": 2,
+              "answer_text": "不论KRAS突变状态，优先推荐PD-1单抗治疗",
+              "keyPoint": "MSI-H/dMMR是免疫治疗获益标志，指南明确不论RAS/BRAF状态均优先推荐PD-1单抗",
+              "explain": {
+                "A": "指南对MSI-H优先推荐PD-1单抗，不适合免疫治疗者才参考姑息一线化疗方案",
+                "B": "指南推荐MSI-H患者优先PD-1单抗，西妥昔单抗属不适合免疫治疗时的姑息一线选项",
+                "C": "指南明确不论RAS/BRAF基因状态，对MSI-H/dMMR均优先推荐PD-1单抗",
+                "D": "指南原文'不论RAS/BRAF基因状态'直接否定KRAS突变排斥免疫治疗的说法"
+              },
+              "evidence_id": "GB02",
+              "support_mode": "hard",
+              "evidence_summary": "不论RAS/BRAF基因状态，MSI-H/dMMR优先推荐PD-1单抗；不适合免疫治疗者方参考姑息一线",
+              "verification": {
+                "quotes": {
+                  "A": [
+                    "不适合免疫治疗者，可参考姑息一线治疗。"
+                  ],
+                  "B": [
+                    "不适合免疫治疗者，可参考姑息一线治疗。"
+                  ],
+                  "C": [
+                    "不论RAS/BRAF基因状态，对MSI- H/dMMR患者均优先推荐PD- 1单抗（帕博利珠单抗）。"
+                  ],
+                  "D": [
+                    "不论RAS/BRAF基因状态，对MSI- H/dMMR患者均优先推荐PD- 1单抗（帕博利珠单抗）。"
+                  ]
+                },
+                "case_facts": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "二代测序肿瘤组织DNA示MSI-H"
+                  },
+                  {
+                    "field": "biomarkers",
+                    "quote": "KRAS G13D突变"
+                  },
+                  {
+                    "field": "case_timeline",
+                    "quote": "XELOX（卡培他滨+奥沙利铂）+贝伐珠单抗×3疗程；出现背痛，阿片类止痛药无效，肿瘤标志物持续升高，增强CT示肝转移灶进展，评估为化疗不敏感且不耐受"
+                  }
+                ],
+                "closest_alternative": "A",
+                "decision_boundary": "MSI-H确认后指南将PD-1列为优先推荐；化疗骨架仅适用于不适合免疫治疗者"
+              }
+            },
+            "Q3": {
+              "id": "Q3",
+              "type": "分子诊断",
+              "phase": "初诊/一线治疗前",
+              "timepoint": "入院时分子检测决策",
+              "question": "该患者初诊时仅知KRAS G13D突变，MSI状态未检测，一线化疗失败后才完成NGS发现MSI-H。关于分子检测时机与范围，下列哪项正确？",
+              "options": [
+                "初诊时仅检测KRAS即可指导一线方案，MSI可待化疗失败后再检测",
+                "结直肠癌肝转移患者应在治疗前完成分子病理学检测以筛选靶向和免疫获益人群",
+                "KRAS突变者免疫治疗均无效，无需检测MSI状态",
+                "应同时检测NTRK融合，因所有MSI-H患者均需排除NTRK融合"
+              ],
+              "answer": 1,
+              "answer_text": "结直肠癌肝转移患者应在治疗前完成分子病理学检测以筛选靶向和免疫获益人群",
+              "keyPoint": "结直肠癌肝转移推荐治疗前完成分子检测，延迟MSI检测错失早期免疫治疗窗口",
+              "explain": {
+                "A": "共识推荐所有结直肠癌肝转移患者进行分子检测以筛选免疫获益人群，延迟检测影响治疗决策",
+                "B": "共识明确推荐所有结直肠癌肝转移患者治疗前完成分子病理学检测，本例延迟至一线失败后",
+                "C": "共识推荐检测目的包含筛选免疫治疗获益人群，KRAS突变不排斥MSI检测",
+                "D": "共识推荐检测以筛选获益人群，NTRK融合检测主要用于RAS/BRAF野生型dMMR/MSI-H患者"
+              },
+              "evidence_id": "GA04",
+              "support_mode": "hard",
+              "evidence_summary": "推荐所有结直肠癌肝转移患者进行分子病理学检测以筛选靶向和免疫治疗获益人群",
+              "verification": {
+                "quotes": {
+                  "A": [
+                    "推荐所有结直肠癌肝转移患者进行组织病理学及分子病理学检测，以明确诊断及筛选可能从靶向治疗和免疫治疗中获益的人群。"
+                  ],
+                  "B": [
+                    "推荐所有结直肠癌肝转移患者进行组织病理学及分子病理学检测，以明确诊断及筛选可能从靶向治疗和免疫治疗中获益的人群。"
+                  ],
+                  "C": [
+                    "推荐所有结直肠癌肝转移患者进行组织病理学及分子病理学检测，以明确诊断及筛选可能从靶向治疗和免疫治疗中获益的人群。"
+                  ],
+                  "D": [
+                    "初治患者的分子病理学检测首选转移癌组织。"
+                  ]
+                },
+                "case_facts": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "二代测序肿瘤组织DNA示MSI-H"
+                  },
+                  {
+                    "field": "biomarkers",
+                    "quote": "KRAS G13D突变｜取样时间约2018年3月（外院结肠镜活检）"
+                  },
+                  {
+                    "field": "case_context",
+                    "quote": "腹部增强CT提示升结肠肿块伴弥漫性肝转移，初诊为不可切除"
+                  }
+                ],
+                "closest_alternative": "A",
+                "decision_boundary": "共识要求治疗前完成分子检测；本例延迟至一线失败后才检测，错失早期免疫治疗窗口"
+              }
+            },
+            "Q4": {
+              "id": "Q4",
+              "type": "不良反应管理",
+              "phase": "术前准备",
+              "timepoint": "2020年3月肝转移灶切除术前",
+              "question": "患者2020年2月完成特瑞普利单抗+贝伐珠单抗末次治疗，2020年3月18日行肝转移灶切除术。关于贝伐珠单抗围手术期管理，下列哪项正确？",
+              "options": [
+                "择期手术前应暂停贝伐珠单抗至少4周",
+                "贝伐珠单抗半衰期短，术前1周停药即可",
+                "手术切除肿瘤后应永久停用贝伐珠单抗",
+                "贝伐珠单抗不影响伤口愈合，无需围手术期调整"
+              ],
+              "answer": 0,
+              "answer_text": "择期手术前应暂停贝伐珠单抗至少4周",
+              "keyPoint": "贝伐珠单抗围手术期管理为暂停而非永久停用，择期手术前至少4周",
+              "explain": {
+                "A": "指南明确暂停指征为择期手术前至少4周，本例末次用药至手术约4至6周符合",
+                "B": "指南要求至少4周，1周不足以完成药物清除和伤口愈合准备",
+                "C": "永久停用限于穿孔、重度出血等严重事件，择期手术仅需暂停而非永久停用",
+                "D": "指南将择期手术列为暂停指征，说明抗血管生成机制影响伤口愈合需围手术期调整"
+              },
+              "evidence_id": "IR01",
+              "support_mode": "hard",
+              "evidence_summary": "贝伐珠单抗暂停指征为择期手术前至少4周；永久停用限于穿孔等严重事件",
+              "verification": {
+                "quotes": {
+                  "A": [
+                    "暂停使用贝伐珠单抗指征：择期手术前至少4周"
+                  ],
+                  "B": [
+                    "暂停使用贝伐珠单抗指征：择期手术前至少4周"
+                  ],
+                  "C": [
+                    "停止使用贝伐珠单抗指征主要包括：胃肠道穿孔（包括胃肠道穿孔、胃肠道瘘形成、腹腔脓肿），内脏瘘；需要干预治疗的切口裂开以及切口愈合并发症；重度出血（如需要干预治疗）；重度动脉血栓事件"
+                  ],
+                  "D": [
+                    "暂停使用贝伐珠单抗指征：择期手术前至少4周"
+                  ]
+                },
+                "case_facts": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "后特瑞普利单抗单药×2疗程，至2020年2月"
+                  },
+                  {
+                    "field": "case_timeline",
+                    "quote": "2020年3月18日｜肝转移灶切除术"
+                  }
+                ],
+                "closest_alternative": "C",
+                "decision_boundary": "择期手术仅需暂停贝伐珠单抗≥4周；永久停用限于穿孔、重度出血等严重不良事件"
+              }
+            },
+            "Q5": {
+              "id": "Q5",
+              "type": "疗效复评与局部治疗",
+              "phase": "肝转移灶切除术后",
+              "timepoint": "2020年3月术后病理评估",
+              "question": "肝转移灶切除术后病理示大面积凝固性坏死和肉芽肿性炎症，未见明确肿瘤细胞残留，诊断pCR。关于该转移灶切除标本的分期标注，下列哪项正确？",
+              "options": [
+                "转移灶切除标本沿用初始pT4aN1cM1a，因原发灶病理不变",
+                "接受术前系统治疗后切除的标本应使用y前缀标注当前病理状态",
+                "转移灶pCR后整体分期仍为IVA期，因初始诊断时已存在远处转移",
+                "转移灶pCR意味着原发灶也应为y前缀，整体降为0期"
+              ],
+              "answer": 1,
+              "answer_text": "接受术前系统治疗后切除的标本应使用y前缀标注当前病理状态",
+              "keyPoint": "术前系统治疗后切除标本用yp前缀反映当前状态；原发灶治疗前已切除不适用y前缀",
+              "explain": {
+                "A": "接受术前系统治疗后的切除标本应使用y前缀标注，不沿用初始pTNM",
+                "B": "诊疗规范规定前级y用于接受新辅助治疗后的肿瘤分期，本例转移灶切除符合此条件",
+                "C": "y前缀反映切除标本的当前病理状态；初始IVA期是诊断时分期，不覆盖术后标本标注",
+                "D": "原发灶在系统治疗前已切除为pT4aN1c，y前缀仅适用于术前治疗后切除的标本"
+              },
+              "evidence_id": "GS03",
+              "support_mode": "hard",
+              "evidence_summary": "病理报告表含y(新辅助治疗后)分期前缀选项，适用于术前治疗后切除标本",
+              "verification": {
+                "quotes": {
+                  "A": [
+                    "口y(新辅助治疗后)"
+                  ],
+                  "B": [
+                    "口y(新辅助治疗后)"
+                  ],
+                  "C": [
+                    "口y(新辅助治疗后)"
+                  ],
+                  "D": [
+                    "口y(新辅助治疗后)"
+                  ]
+                },
+                "case_facts": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "术后病理示大面积凝固性坏死和肉芽肿性炎症，未见明确肿瘤细胞残留，诊断病理完全缓解（pCR）"
+                  },
+                  {
+                    "field": "case_timeline",
+                    "quote": "行肝转移灶切除+胆囊切除"
+                  },
+                  {
+                    "field": "case_timeline",
+                    "quote": "病理示中低分化腺癌伴神经周围侵犯，肠系膜淋巴结0/2，2个肿瘤沉积灶，术后分期pT4aN1cM1a"
+                  }
+                ],
+                "closest_alternative": "C",
+                "decision_boundary": "y前缀反映术前治疗后切除标本的当前状态；原发灶在系统治疗前已切除不适用y前缀"
+              }
+            }
+          },
+          "partial_draft_questions": [],
+          "model_execution": {
+            "model": "qwen3.8-flash",
+            "max_output_tokens_configured": 16000,
+            "first_round_char_count": 7980,
+            "second_round_char_count": 6344,
+            "finish_reason": null,
+            "finish_reason_availability": "not_exposed_by_workflow_outputs"
+          }
+        },
+        "flow_publishable": false,
+        "output_ready": false,
+        "medical_review_status": "not_performed",
+        "generation_status": "insufficient",
+        "evidence_context_status": "not_provided"
+      }
+    ],
+    "warnings": [
+      "success时必须有1至5题，question_count等于实际长度",
+      "为保护位置相关选项语义，本组答案分布未均衡；这不是证据不足，不删除题目。"
+    ]
+  }
+}

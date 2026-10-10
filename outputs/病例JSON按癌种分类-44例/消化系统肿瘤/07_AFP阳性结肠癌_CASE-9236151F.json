@@ -1,0 +1,252 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-9236151F",
+    "cancer_type": "消化系统肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "初始诊断",
+        "timepoint": "入院时",
+        "question": "患者 AFP 显著升高且有乙肝病史，但肝脏 CT 未见占位，结肠镜发现肿瘤。关于 AFP 在此时的临床意义及鉴别诊断，下列哪项最符合指南推荐？",
+        "options": {
+          "A": "AFP 升高仅提示原发性肝癌，必须反复影像检查直至发现病灶",
+          "B": "AFP 是肝癌特异标志物，但排除肝癌后需警惕消化道肿瘤分泌",
+          "C": "AFP 升高由乙肝活动引起，与肿瘤无关，无需特殊处理",
+          "D": "AFP 阳性确诊为肝样腺癌，应立即按肝癌方案全身治疗"
+        },
+        "answer": "B",
+        "answer_text": "AFP 是肝癌特异标志物，但排除肝癌后需警惕消化道肿瘤分泌",
+        "explain": "指南指出 AFP 阳性需排除慢性肝炎、生殖系肿瘤及消化道肿瘤等方可高度怀疑肝癌。本例影像学排除肝癌，病理证实结肠癌且肿瘤 AFP 阳性，符合罕见亚型特征。",
+        "keyPoint": "AFP 升高非肝癌绝对特异，排除常见原因后应考虑消化道来源。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "81c18c6b-4e36-4e9e-83b6-de1a70935128",
+          "split_index": 16,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会(CSCO)原发性肝癌诊疗指南2024",
+          "source_version": "2024",
+          "source_section": "中国临床肿瘤学会(CSC0)原发性肝癌诊疗指南2024",
+          "source_url": "",
+          "evidence_summary": "CSCO 肝癌指南指出 AFP 阳性需排除慢性肝炎、生殖系肿瘤及消化道肿瘤等方可高度怀疑肝癌。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "诊断与分期",
+        "phase": "术后病理分期",
+        "timepoint": "术后病理报告",
+        "question": "患者术后病理显示肿瘤侵透固有肌层至肠周组织（T3），区域淋巴结转移 10 枚。依据 AJCC 第八版分期系统，该患者的病理分期应为？",
+        "options": {
+          "A": "IIIB 期（T3N2a）",
+          "B": "IVA 期（任何 T 任何 N M1a）",
+          "C": "IIIC 期（T3N2b）",
+          "D": "IIIC 期（T4aN2b）"
+        },
+        "answer": "C",
+        "answer_text": "IIIC 期（T3N2b）",
+        "explain": "淋巴结转移≥7 枚定义为 N2b。T3N2bM0 对应 AJCC 第八版分期中的 IIIC 期。将 T 分期误判为 T4a 的选项不符合病理报告中肿瘤仅侵透固有肌层的描述。",
+        "keyPoint": "淋巴结转移≥7 枚为 N2b，T3N2b 组合属于 IIIC 期。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "745fcee1-ab81-490d-96fc-517f2a543f7b",
+          "split_index": 37,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "结肠癌",
+          "source_version": "2024",
+          "source_section": "（6）遗传性结肠癌",
+          "source_url": "",
+          "evidence_summary": "CACA 结肠癌指南明确 N2b 为≥7 个淋巴结转移，T3-4a N2b M0 分期为 IIIC 期。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "辅助治疗",
+        "timepoint": "术后恢复期",
+        "question": "患者为 III 期结肠癌（T3N2b），MMR 蛋白表达正常（pMMR），术后体能状态良好。依据诊疗规范，首选的辅助化疗方案是？",
+        "options": {
+          "A": "单药卡培他滨口服治疗六个月",
+          "B": "观察等待，因 MMR 正常预后较好无需化疗",
+          "C": "联合抗 HER2 靶向药物加化疗方案",
+          "D": "含奥沙利铂双药方案治疗三至六月"
+        },
+        "answer": "D",
+        "answer_text": "含奥沙利铂双药方案治疗三至六月",
+        "explain": "III 期结肠癌术后标准辅助治疗为含奥沙利铂的双药方案。pMMR 患者不从单药氟尿嘧啶中获益更多，且高危因素支持双药治疗。目前辅助阶段抗 HER2 治疗缺乏高级别证据支持。",
+        "keyPoint": "III 期结肠癌术后标准辅助治疗为含奥沙利铂的双药方案。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "745fcee1-ab81-490d-96fc-517f2a543f7b",
+          "split_index": 46,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "结肠癌",
+          "source_version": "2024",
+          "source_section": "2.1 治疗原则",
+          "source_url": "",
+          "evidence_summary": "指南建议根治性切除患者完成围术期总共半年治疗以降低复发风险，高危患者推荐含奥沙利铂方案。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "疗效复评与局部治疗",
+        "phase": "随访监测",
+        "timepoint": "术后 1 年",
+        "question": "该患者为罕见的 AFP 阳性结肠癌，术后 AFP 已降至正常。关于其随访策略，下列哪项最具特异性价值？",
+        "options": {
+          "A": "仅监测 CEA，因为 AFP 已转阴不再具有参考意义",
+          "B": "定期监测 AFP 水平，作为该亚型肿瘤复发监测的有效指标",
+          "C": "每 3 个月进行一次全身 PET-CT 扫描以早期发现微小病灶",
+          "D": "无需特殊随访，AFP 阳性结肠癌预后极差，监测无益"
+        },
+        "answer": "B",
+        "answer_text": "定期监测 AFP 水平，作为该亚型肿瘤复发监测的有效指标",
+        "explain": "病例显示术后 AFP 随肿瘤切除降至正常，提示其可作为疗效及复发监测指标。对于此类罕见亚型，联合监测 CEA 和 AFP 比单一指标更敏感。",
+        "keyPoint": "AFP 阳性结肠癌患者应将 AFP 纳入常规随访监测指标。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "35845557-6b83-42d7-a326-79aae4a49772",
+          "split_index": 20,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "多原发和不明原发肿瘤",
+          "source_version": "2024",
+          "source_section": "第五节 肿瘤标志物谱",
+          "source_url": "",
+          "evidence_summary": "指南指出特定肿瘤标志物含量升降与疗效及复发监测有良好相关性，应完善临床诊疗监测。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "治疗决策",
+        "phase": "手术治疗",
+        "timepoint": "入院当日",
+        "question": "患者结肠镜提示巨大易碎肿瘤阻塞肠腔，伴肠套叠。针对该原发灶的处理策略，下列哪项最符合指南原则？",
+        "options": {
+          "A": "先行全身化疗，待肿瘤缩小后再评估手术",
+          "B": "因存在梗阻风险，应优先处理原发灶（如切除或造口）",
+          "C": "仅行支架置入解除梗阻，不进行肿瘤切除",
+          "D": "直接行姑息性放疗，避免手术创伤"
+        },
+        "answer": "B",
+        "answer_text": "因存在梗阻风险，应优先处理原发灶（如切除或造口）",
+        "explain": "指南明确原发灶有出血、梗阻症状或穿孔时，应先处理原发灶（切除、短路或造口），继而再考虑全身治疗，本例急诊手术符合此原则。",
+        "keyPoint": "伴梗阻/出血的原发灶应优先外科干预，而非首选化疗。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "745fcee1-ab81-490d-96fc-517f2a543f7b",
+          "split_index": 51,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "结肠癌",
+          "source_version": "2024",
+          "source_section": "3 不可切除的结肠癌肝转移",
+          "source_url": "",
+          "evidence_summary": "原发灶有出血、梗阻或穿孔时，应先处理原发灶，继而全身治疗。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-9236151F",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "结肠癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "便血与AFP升高的诊疗评估",
+      "description": "59岁男性因便血就诊，AFP升高，肝脏影像未见可疑占位。"
+    },
+    "overview": {
+      "hero": {
+        "title": "便血与AFP升高的诊疗评估",
+        "subtitle": "AFP升高与原发部位的判断、术后病理分期，以及辅助治疗记录的一致性。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "59岁男性因便血就诊，AFP升高，肝脏影像未见可疑占位。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "结肠黏液腺癌，AFP染色阳性、pMMR，10枚淋巴结转移；原文T分期待核对。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "行扩大右半结肠切除，术后CAPOX；原文周期与疗程时长不一致。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "AFP升高与原发部位的判断、术后病理分期，以及辅助治疗记录的一致性。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "就诊前2个月",
+              "title": "间断便血",
+              "detail": "间断便血，贫血，AFP及CEA升高。"
+            },
+            {
+              "date": "诊断期",
+              "title": "原发定位及肝脏评估",
+              "detail": "肝脏未见占位，结肠肠套叠及腔内肿瘤，CT未见梗阻。"
+            },
+            {
+              "date": "急诊手术",
+              "title": "扩大右半结肠切除",
+              "detail": "扩大右半结肠切除，术后10枚淋巴结阳性；原文T分期待核对。"
+            },
+            {
+              "date": "术后一周",
+              "title": "标志物下降",
+              "detail": "CEA、AFP恢复正常。"
+            },
+            {
+              "date": "术后CAPOX",
+              "title": "辅助治疗",
+              "detail": "完成CAPOX；原文“8周期”与“4个月”的疗程记录待核对。"
+            },
+            {
+              "date": "术后1年",
+              "title": "随访",
+              "detail": "CT及肠镜未见复发。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

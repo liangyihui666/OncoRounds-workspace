@@ -1,0 +1,66 @@
+{
+  "status": "offline_pass",
+  "online_verified": false,
+  "checks": [
+    {
+      "name": "14字段逐字保留，跨字段相同段落及待核实说明保留",
+      "pass": true
+    },
+    {
+      "name": "支持JSON代码块",
+      "pass": true
+    },
+    {
+      "name": "拒绝普通聊天文本和错误JSON",
+      "pass": true
+    },
+    {
+      "name": "拒绝多个病例数组",
+      "pass": true
+    },
+    {
+      "name": "必填缺失拦截",
+      "pass": true
+    },
+    {
+      "name": "错误字段类型拦截",
+      "pass": true
+    },
+    {
+      "name": "全程管理缺时间线拦截",
+      "pass": true
+    },
+    {
+      "name": "单时间点允许无时间线",
+      "pass": true
+    },
+    {
+      "name": "上游失败对象不得当作病例",
+      "pass": true
+    },
+    {
+      "name": "不再显示全局变量表单",
+      "pass": true
+    },
+    {
+      "name": "所有入口先经过字段检查",
+      "pass": true
+    },
+    {
+      "name": "模型配置与医学提示词不变",
+      "pass": true
+    },
+    {
+      "name": "工具配置不变",
+      "pass": true
+    },
+    {
+      "name": "字段引用输出存在",
+      "pass": true
+    },
+    {
+      "name": "图无环、节点与连线数未增加",
+      "pass": true
+    }
+  ]
+}

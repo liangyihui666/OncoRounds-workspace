@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "case_id": "gastric-her2",
+  "cancer_type": "胃癌",
+  "page_type": "home",
+  "recommendation_label": "今日推荐病例",
+  "display_title": "HER2 过表达胃癌",
+  "difficulty": "进阶",
+  "description": "系统治疗、转化手术与免疫相关不良反应管理",
+  "image": {
+    "src": "./assets/cases/gastric-her2.png",
+    "alt": "HER2 过表达胃癌病例主题图"
+  },
+  "primary_action": {
+    "label": "开始查房",
+    "action": "open_case"
+  },
+  "learning_disclaimer": [
+    "基于典型病例 · 训练临床决策",
+    "内容仅用于医学学习"
+  ]
+}

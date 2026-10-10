@@ -1,0 +1,212 @@
+[
+  {
+    "index": 1,
+    "case_id": "CASE-B295D586",
+    "title": "Luminal B乳腺癌罕见肾上腺及脑转移全程管理",
+    "outer_keys": [
+      "response_json"
+    ],
+    "clipboard_repairs": 0,
+    "record_type": "oncorounds_batch_item",
+    "count": 0,
+    "status": "FORMAT_ERROR",
+    "revision": "20260929-evidence-depth-five",
+    "model_count": 0,
+    "errors": [
+      "候选根对象存在重复键：questions",
+      "第二轮未返回有效完整题目JSON"
+    ],
+    "quote_status": "NOT_RUN",
+    "quote_count": 0,
+    "quote_match_count": 0,
+    "same_questions_as_previous": null,
+    "same_diagnostics_as_previous": null
+  },
+  {
+    "index": 2,
+    "case_id": "CASE-65A26C92",
+    "title": "HER2阳性乳腺癌脑转移放疗后进展的ADC治疗",
+    "outer_keys": [
+      "response_json"
+    ],
+    "clipboard_repairs": 0,
+    "record_type": "oncorounds_batch_item",
+    "count": 0,
+    "status": "FORMAT_ERROR",
+    "revision": "20260929-evidence-depth-five",
+    "model_count": 1,
+    "errors": [
+      "success时必须有1至5题，question_count等于实际长度"
+    ],
+    "quote_status": "PASS",
+    "quote_count": 4,
+    "quote_match_count": 4,
+    "same_questions_as_previous": null,
+    "same_diagnostics_as_previous": null
+  },
+  {
+    "index": 3,
+    "case_id": "CASE-B63B19C7",
+    "title": "AFP阳性黏液性结肠腺癌伴肠套叠的诊疗",
+    "outer_keys": [
+      "response_json"
+    ],
+    "clipboard_repairs": 158,
+    "record_type": "oncorounds_batch_item",
+    "count": 5,
+    "status": "OUTPUT_READY",
+    "revision": "20260929-evidence-depth-five",
+    "model_count": 5,
+    "errors": [],
+    "quote_status": "PASS",
+    "quote_count": 22,
+    "quote_match_count": 22,
+    "same_questions_as_previous": null,
+    "same_diagnostics_as_previous": null,
+    "audit": {
+      "exit": 1,
+      "log": "ERROR: duplicate primary evidence locator: 745fcee1-ab81-490d-96fc-517f2a543f7b / 21\r\nAUDIT FAIL: 1 error(s), 0 warning(s)\r\n"
+    }
+  },
+  {
+    "index": 4,
+    "case_id": "CASE-E8A5908",
+    "title": "HER2阳性合并MSI-H晚期胃癌转化治疗",
+    "outer_keys": [
+      "response_json"
+    ],
+    "clipboard_repairs": 18,
+    "record_type": "oncorounds_batch_item",
+    "count": 5,
+    "status": "OUTPUT_READY",
+    "revision": "20260929-evidence-depth-five",
+    "model_count": 5,
+    "errors": [],
+    "quote_status": "PASS",
+    "quote_count": 25,
+    "quote_match_count": 25,
+    "same_questions_as_previous": null,
+    "same_diagnostics_as_previous": null,
+    "audit": {
+      "exit": 0,
+      "log": "AUDIT PASS: 0 errors, 0 warning(s)\r\nManual semantic review of case facts and snippet support is still required.\r\n"
+    }
+  },
+  {
+    "index": 5,
+    "case_id": "CASE-FF0BA24C",
+    "title": "小肠黏液腺癌伴双侧卵巢转移的诊断与手术决策",
+    "outer_keys": [
+      "response_json"
+    ],
+    "clipboard_repairs": 54,
+    "record_type": "oncorounds_batch_item",
+    "count": 0,
+    "status": "FORMAT_ERROR",
+    "revision": "20260929-evidence-depth-five",
+    "model_count": 5,
+    "errors": [
+      "Q2 [CASE_FACT_NOT_FOUND] 病例原句未在case_timeline中找到；不得用候选决策、指南阈值或模型记忆补成患者事实。",
+      "Q3 [OPTION_QUOTE_NOT_FOUND] A原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q3 [OPTION_QUOTE_NOT_FOUND] D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "EVIDENCE_VERIFICATION_FAILED：未取得与全部题号对应的原句核对通过结果。"
+    ],
+    "quote_status": "FAIL",
+    "quote_count": 22,
+    "quote_match_count": 20,
+    "same_questions_as_previous": null,
+    "same_diagnostics_as_previous": null
+  },
+  {
+    "index": 6,
+    "case_id": "CASE-FA55A17A",
+    "title": "MSI-H结直肠癌肝转移免疫联合抗血管转化治疗",
+    "outer_keys": [
+      "response_json"
+    ],
+    "clipboard_repairs": 0,
+    "record_type": "oncorounds_batch_item",
+    "count": 0,
+    "status": "FORMAT_ERROR",
+    "revision": "20260929-evidence-depth-five",
+    "model_count": 1,
+    "errors": [
+      "success时必须有1至5题，question_count等于实际长度"
+    ],
+    "quote_status": "PASS",
+    "quote_count": 4,
+    "quote_match_count": 4,
+    "same_questions_as_previous": null,
+    "same_diagnostics_as_previous": null
+  },
+  {
+    "index": 7,
+    "case_id": "CASE-592272A8",
+    "title": "转移性胃癌CAPOX化疗后持久完全缓解",
+    "outer_keys": [
+      "response_json"
+    ],
+    "clipboard_repairs": 82,
+    "record_type": "oncorounds_batch_item",
+    "count": 0,
+    "status": "FORMAT_ERROR",
+    "revision": "20260929-evidence-depth-five",
+    "model_count": 1,
+    "errors": [
+      "success时必须有1至5题，question_count等于实际长度"
+    ],
+    "quote_status": "PASS",
+    "quote_count": 4,
+    "quote_match_count": 4,
+    "same_questions_as_previous": null,
+    "same_diagnostics_as_previous": null
+  },
+  {
+    "index": 8,
+    "case_id": "CASE-AF6D0CD4",
+    "title": "乳腺癌髌骨转移的诊断与局部处理",
+    "outer_keys": [
+      "response_json"
+    ],
+    "clipboard_repairs": 12,
+    "record_type": "oncorounds_batch_item",
+    "count": 5,
+    "status": "OUTPUT_READY",
+    "revision": "20260929-evidence-depth-five",
+    "model_count": 5,
+    "errors": [],
+    "quote_status": "PASS",
+    "quote_count": 20,
+    "quote_match_count": 20,
+    "same_questions_as_previous": null,
+    "same_diagnostics_as_previous": null,
+    "audit": {
+      "exit": 1,
+      "log": "ERROR: successful developer handoff requires missing_information=[]\r\nERROR: duplicate primary evidence locator: fea9ac8e-8f06-46c0-9a57-2bf3069f1a01 / 32\r\nAUDIT FAIL: 2 error(s), 0 warning(s)\r\n"
+    }
+  },
+  {
+    "index": 9,
+    "case_id": "CASE-656D0757",
+    "title": "乳腺癌十二指肠转移致小肠梗阻的诊治",
+    "outer_keys": [
+      "response_json"
+    ],
+    "clipboard_repairs": 6,
+    "record_type": "oncorounds_batch_item",
+    "count": 0,
+    "status": "FORMAT_ERROR",
+    "revision": "20260929-evidence-depth-five",
+    "model_count": 5,
+    "errors": [
+      "Q2 [OPTION_QUOTE_NOT_FOUND] B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q2 [OPTION_QUOTE_NOT_FOUND] D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "EVIDENCE_VERIFICATION_FAILED：未取得与全部题号对应的原句核对通过结果。"
+    ],
+    "quote_status": "FAIL",
+    "quote_count": 20,
+    "quote_match_count": 18,
+    "same_questions_as_previous": false,
+    "same_diagnostics_as_previous": false
+  }
+]

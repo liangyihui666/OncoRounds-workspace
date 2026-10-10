@@ -1,0 +1,295 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-A8792225",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "直肠癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "分子诊断",
+        "phase": "基线分子评估",
+        "timepoint": "直肠原发灶切除后",
+        "question": "患者直肠癌伴多发肝转移，已有原发灶切除标本。为评估抗EGFR治疗的分子条件，关于RAS检测取材，下列哪项最合理？",
+        "options": {
+          "A": "优先评估现有原发灶标本质量，合格原发灶或转移灶均可检测",
+          "B": "先行肝穿刺获取转移组织，原发灶结果不足以用于选药",
+          "C": "以BRAF V600E阴性替代RAS检测，减少分子检测项目",
+          "D": "只检测KRAS外显子2，结果野生型即可完成RAS评估"
+        },
+        "answer": "A",
+        "answer_text": "优先评估现有原发灶标本质量，合格原发灶或转移灶均可检测",
+        "explain": "RAS检测可使用质量合格的原发灶或转移灶组织，不必仅为选用转移标本而增加侵入性操作。完整RAS评估涉及KRAS和NRAS相应外显子，BRAF阴性不能代替RAS结果。还应补齐MMR/MSI等影响整体治疗选择的信息。",
+        "keyPoint": "标本质量与检测覆盖范围，比“必须取转移灶”更关键。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic colorectal cancer",
+          "source_version": "2023",
+          "source_section": "Diagnosis, pathology and molecular biology; Treatment",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10220270/",
+          "evidence_summary": "ESMO推荐抗EGFR治疗前检测RAS；可使用原发灶或转移灶，并开展MMR/MSI等基线评估。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "治疗决策",
+        "phase": "初始系统治疗",
+        "timepoint": "术后启动转化治疗前",
+        "question": "患者直肠癌伴初始不可切除肝转移，RAS野生型、BRAF V600E阴性。若综合评估后选择“化疗联合西妥昔单抗”进行转化治疗，下列哪种化疗骨架最符合常用证据？",
+        "options": {
+          "A": "卡培他滨单药，依据原发灶已切除而降低转化治疗强度",
+          "B": "氟尿嘧啶单药，依据RAS野生型预期已足以获得肝转化",
+          "C": "FOLFOX或FOLFIRI，按器官功能及既往毒性选择骨架",
+          "D": "FOLFOXIRI，依据肝转移多发即常规叠加西妥昔单抗"
+        },
+        "answer": "C",
+        "answer_text": "FOLFOX或FOLFIRI，按器官功能及既往毒性选择骨架",
+        "explain": "对拟采用抗EGFR治疗的左侧原发、RAS野生型患者，FOLFOX或FOLFIRI是常用联合骨架，具体选择需兼顾耐受性。并非肝转移多发就应常规采用三药化疗联合抗EGFR。病例未提供MMR/MSI，本题预设该治疗路径，不将RAS结果当作完成全部一线决策的依据。",
+        "keyPoint": "转化治疗在追求缩瘤的同时，需要选择有证据且可耐受的联合骨架。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic colorectal cancer",
+          "source_version": "2023",
+          "source_section": "Diagnosis, pathology and molecular biology; Treatment",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10220270/",
+          "evidence_summary": "ESMO支持适宜的左侧RAS/BRAF野生型患者采用双药化疗联合抗EGFR；完整一线决策还需分子与临床评估。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "不良反应管理",
+        "phase": "转化治疗毒性处理",
+        "timepoint": "出现3级皮疹和2级神经病变时",
+        "question": "含铂化疗联合西妥昔单抗期间，患者出现3级皮疹和2级神经病变。关于后续处理，下列哪项更合理？",
+        "options": {
+          "A": "维持西妥昔单抗原计划，仅因神经病变降低铂类剂量",
+          "B": "按皮疹严重程度暂缓西妥昔单抗，并分别评估神经毒性",
+          "C": "将两种毒性均归于西妥昔单抗，恢复后仅减少该药剂量",
+          "D": "将皮疹视为疗效较好的标志，局部处理后维持全部剂量"
+        },
+        "answer": "B",
+        "answer_text": "按皮疹严重程度暂缓西妥昔单抗，并分别评估神经毒性",
+        "explain": "3级皮肤毒性需要按说明书暂缓西妥昔单抗并给予相应处理，是否恢复及如何调整取决于改善情况和复发次数。神经病变应另行评估与铂类等药物的关系。皮疹可能与药物暴露相关，但不能据此忽略严重毒性或继续原强度。",
+        "keyPoint": "联合方案出现多种毒性时，分别归因、分级和调整。",
+        "guidelineRef": {
+          "evidence_type": "药品说明书",
+          "doc_id": "",
+          "split_index": null,
+          "type": "drug_label",
+          "authority": "DailyMed / 美国处方信息",
+          "source_title": "ERBITUX (cetuximab) Prescribing Information",
+          "source_version": "在线版本（核查于2026-09-09）",
+          "source_section": "Dosage Modifications for Adverse Reactions",
+          "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8bc6397e-4bd8-4d37-a007-a327e4da34d9",
+          "evidence_summary": "西妥昔单抗说明书对3～4级皮肤毒性规定延期及分次调整策略，而非不加区分地继续原剂量。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "疗效复评与局部治疗",
+        "phase": "转化治疗再评估",
+        "timepoint": "初始治疗约3个月、肝转移灶PR但仍不可切除时",
+        "question": "治疗约3个月后，患者肝转移灶达到PR，但仍不可切除，且已有皮疹与神经毒性。下一步最合适的策略是什么？",
+        "options": {
+          "A": "依据PR直接安排肝切除，术后再处理可能残留的病灶",
+          "B": "维持含铂方案原强度，等影像CR后再讨论外科介入",
+          "C": "以暂不可切除判定转化失败，尽快更换全部抗肿瘤药物",
+          "D": "结合毒性调整有效方案，并由肝脏外科参与反复评估"
+        },
+        "answer": "D",
+        "answer_text": "结合毒性调整有效方案，并由肝脏外科参与反复评估",
+        "explain": "PR说明治疗有效，却不等于已达到安全完整切除的条件。应兼顾毒性调整方案，并动态评估可切除性，避免错过手术机会。病例在继续治疗后于2017年9月进一步缓解并接受肝转移灶切除，不能把该时点误写为仍不可切除。",
+        "keyPoint": "转化治疗的目标是获得可切除机会，不能只追求影像CR。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic colorectal cancer",
+          "source_version": "2023",
+          "source_section": "Diagnosis, pathology and molecular biology; Treatment",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10220270/",
+          "evidence_summary": "ESMO强调转移性结直肠癌的多学科管理和动态可切除性评估；具体手术时点来自本病例。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "不良反应管理",
+        "phase": "后线治疗安全管理",
+        "timepoint": "FOLFOX治疗期间发生过敏反应后",
+        "question": "患者后续接受FOLFOX时发生过敏反应，原文未交代责任药物及严重程度。对这一事件最恰当的处理原则是什么？",
+        "options": {
+          "A": "急性期停止可疑输注并处理，随后评估责任药物及再暴露风险",
+          "B": "按奥沙利铂累积毒性处理，下次将全部药物等比例减量",
+          "C": "以既往能够耐受FOLFOX为据，下一周期按原方案继续",
+          "D": "先更换为卡铂联合氟尿嘧啶，以避免再次暴露奥沙利铂"
+        },
+        "answer": "A",
+        "answer_text": "急性期停止可疑输注并处理，随后评估责任药物及再暴露风险",
+        "explain": "应先处理急性过敏并明确可能责任药物、反应严重程度及后续风险。若确认奥沙利铂过敏，说明书要求停用，不能仅靠减量或直接换另一铂类规避风险。原文只记载FOLFOX期间过敏，不能补写为已确诊的某级奥沙利铂过敏。",
+        "keyPoint": "过敏反应的处理不同于剂量依赖毒性，不能以简单减量代替风险评估。",
+        "guidelineRef": {
+          "evidence_type": "药品说明书",
+          "doc_id": "",
+          "split_index": null,
+          "type": "drug_label",
+          "authority": "DailyMed / 美国处方信息",
+          "source_title": "Oxaliplatin injection Prescribing Information",
+          "source_version": "在线版本（核查于2026-09-09）",
+          "source_section": "Hypersensitivity Reactions",
+          "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=86f6c19d-30d1-42e3-8d46-5e3f45776e85",
+          "evidence_summary": "奥沙利铂说明书警示严重超敏反应，确认相关过敏时需停用；本例责任药物和分级未详。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-A8792225",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "直肠癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "直肠癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "转移性直肠癌的多线治疗与再活检",
+      "description": "38岁女性，2016年确诊阻塞性直肠癌伴多发肝转移。"
+    },
+    "overview": {
+      "hero": {
+        "title": "转移性直肠癌的多线治疗与再活检",
+        "subtitle": "原发切除后多线系统治疗，两次肝转移切除，后对骨及脑转移实施局部治疗。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "38岁女性，2016年确诊阻塞性直肠癌伴多发肝转移。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "初诊RAS野生型、BRAF V600E阴性；后期液体活检检出KRAS等变异。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "原发切除后多线系统治疗，两次肝转移切除，后对骨及脑转移实施局部治疗。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "后期病情恶化转入姑息照护，约2个月后去世。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2016年",
+              "title": "原发切除与系统治疗",
+              "detail": "阻塞性直肠癌伴肝转移，切除原发后用化疗联合西妥昔单抗。"
+            },
+            {
+              "date": "2017至2018年",
+              "title": "两次肝转化手术",
+              "detail": "肝病灶缓解后切除；复发再治疗后行第二次肝切除，后用CAPOX。"
+            },
+            {
+              "date": "2019至2020年",
+              "title": "后线与再挑战",
+              "detail": "FOLFIRI联合阿柏西普获控10个月；再检测后尝试西妥昔单抗。"
+            },
+            {
+              "date": "后续进展",
+              "title": "骨转移处理",
+              "detail": "距骨活检证实转移，行放疗并调整全身治疗。"
+            },
+            {
+              "date": "2021年及后续",
+              "title": "脑转移与照护调整",
+              "detail": "后线治疗后出现脑转移并手术，液体活检检出KRAS等变异；病情恶化后转姑息照护并去世。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/6T9x2EGd7TnNfACgFdiFNA/hdK072LJfLvs1qRkkDUgF0frvMEnvBLv.png",
+              "timepoint": "2016 年",
+              "caption": "图 1.基线 MRI 显示浸润性直肠肿瘤，长度超过 8.5 厘米，狭窄，超过浆膜并浸润直肠周围空间、子宫后上部和道格拉斯陷凹的腹膜。",
+              "alt": "图 1.基线 MRI 显示浸润性直肠肿瘤，长度超过 8.5 厘米，狭窄，超过浆膜并浸润直肠周围空间、子宫后上部和道格拉斯陷凹的腹膜。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/6T9x2EGd7TnNfACgFdiFNA/RgW6nFRC2FMdfI8uHfoU3cHaOL0y9hOt.png",
+              "timepoint": "2016 年",
+              "caption": "图 2.基线 MRI 显示多个肝转移瘤，边界相对较好，大小在 2-3 毫米至 3 厘米之间，弥漫分布于肝实质的所有部分。",
+              "alt": "图 2.基线 MRI 显示多个肝转移瘤，边界相对较好，大小在 2-3 毫米至 3 厘米之间，弥漫分布于肝实质的所有部分。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/6T9x2EGd7TnNfACgFdiFNA/77f7dVKU3ypse5o3X4RATlQ4NS6MIbs9.png",
+              "timepoint": "治疗后三个月",
+              "caption": "图 3. MRI 显示肝转移瘤的大小和数量减少（部分反应）。",
+              "alt": "图 3. MRI 显示肝转移瘤的大小和数量减少（部分反应）。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG4",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/6T9x2EGd7TnNfACgFdiFNA/vHsdVNkaA9306WlwFqrm5fWBWxmKxsrw.png",
+              "timepoint": "2020 年",
+              "caption": "图 4.MRI 显示左距骨转移，大小为 33/31/23 毫米。",
+              "alt": "图 4.MRI 显示左距骨转移，大小为 33/31/23 毫米。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG5",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/6T9x2EGd7TnNfACgFdiFNA/tYmDWAkRTOeUeWUxODSGiODYdm3npnQ9.png",
+              "timepoint": "",
+              "caption": "图 5.患者接受的多模式治疗的时间线。",
+              "alt": "图 5.患者接受的多模式治疗的时间线。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

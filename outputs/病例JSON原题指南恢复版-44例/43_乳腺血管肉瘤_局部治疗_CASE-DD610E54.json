@@ -1,0 +1,247 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-DD610E54",
+    "cancer_type": "胸部肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "初诊评估",
+        "timepoint": "就诊时",
+        "question": "针对该例原发性乳腺血管肉瘤患者，关于其临床分期与淋巴结评估策略，下列哪项描述最符合当前诊疗规范？",
+        "options": {
+          "A": "鉴于淋巴转移极低，可省略所有淋巴结评估",
+          "B": "临床淋巴结阴性者可考虑前哨淋巴结活检评估",
+          "C": "应常规行腋窝淋巴结清扫以明确病理分期",
+          "D": "必须先行新辅助化疗后再评估淋巴结状态"
+        },
+        "answer": "B",
+        "answer_text": "临床淋巴结阴性者可考虑前哨淋巴结活检评估",
+        "explain": "虽然血管肉瘤主要血行转移，但乳腺原发灶仍有淋巴结转移风险。证据指出分期需评估 N 状态，本病例实际行前哨活检符合规范，而非直接清扫或完全忽略。",
+        "keyPoint": "乳腺血管肉瘤需评估淋巴结，临床阴性首选前哨活检。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "3e2d3321-05a1-480f-b5e9-8498456c08eb",
+          "split_index": 23,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会 (CSCO) 骨与软组织肿瘤诊疗指南 2026",
+          "source_version": "2026",
+          "source_section": "更新要点",
+          "source_url": "",
+          "evidence_summary": "肉瘤分期需结合 TNM 系统，评估淋巴结状况以制定治疗计划。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "治疗决策",
+        "phase": "术后辅助治疗决策",
+        "timepoint": "术后讨论",
+        "question": "基于 TNM 分期系统原则，该患者术后制定个体化治疗计划（如是否辅助放疗）的首要依据是什么？",
+        "options": {
+          "A": "仅依据肿瘤大小决定，与切缘状态无关",
+          "B": "必须依据新辅助治疗后的病理反应决定",
+          "C": "依据切除状态、分期及组织学分级综合评估",
+          "D": "仅依据患者哺乳期状态决定，忽略肿瘤特征"
+        },
+        "answer": "C",
+        "answer_text": "依据切除状态、分期及组织学分级综合评估",
+        "explain": "证据指出肉瘤分期需结合肿瘤大小、淋巴结、远处转移及组织学分级。术后治疗计划应基于完整的分期信息和切除状态（如切缘）进行个体化权衡，而非单一因素。",
+        "keyPoint": "肉瘤术后治疗决策需基于完整分期、分级及切除状态综合制定。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "3e2d3321-05a1-480f-b5e9-8498456c08eb",
+          "split_index": 23,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会 (CSCO) 骨与软组织肿瘤诊疗指南 2026",
+          "source_version": "2026",
+          "source_section": "更新要点",
+          "source_url": "",
+          "evidence_summary": "肉瘤通用分期结合肿瘤大小、淋巴结、远处转移及分级，利于制订治疗计划。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "疗效复评与局部治疗",
+        "phase": "术后随访",
+        "timepoint": "术后 6 个月",
+        "question": "患者术后随访发现术区结构改变，对于影像学提示可疑复发的病灶，首选的确诊手段是？",
+        "options": {
+          "A": "仅凭超声血流丰富特征直接诊断为复发，无需病理证实",
+          "B": "立即行全身 PET/CT 扫描，若代谢增高即确诊局部复发",
+          "C": "先行观察三个月，若病灶持续增大再行活检明确性质",
+          "D": "对可疑病灶进行穿刺或切除活检，获取组织学诊断"
+        },
+        "answer": "D",
+        "answer_text": "对可疑病灶进行穿刺或切除活检，获取组织学诊断",
+        "explain": "影像学提示可疑复发时，必须通过活检获取组织学诊断以明确性质，避免误诊为瘢痕或炎症。",
+        "keyPoint": "影像可疑复发必须经活检病理确诊，不可仅凭影像判断。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "dc50d064-e119-490d-b6e9-d5701acfb054",
+          "split_index": 267,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "乳腺肿瘤整形与乳房重建专家共识（2022年版）",
+          "source_version": "2022",
+          "source_section": "10.2.3 乳房重建术后局部复发的随访及诊断",
+          "source_url": "",
+          "evidence_summary": "乳房重建术后监测复发，对影像学可疑者可行活检以明确病理诊断。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "分子诊断",
+        "phase": "初诊病理确诊",
+        "timepoint": "粗针穿刺及术后病理",
+        "question": "患者为哺乳期女性，右乳肿块伴皮肤蓝紫色变色，病理提示血管源性肿瘤。为确诊原发性乳腺血管肉瘤，下列哪组免疫组化标志物组合最具特异性支持该诊断？",
+        "options": {
+          "A": "CD34 阳性，ERG 阳性",
+          "B": "ER 阳性，PR 阳性",
+          "C": "HER2 过表达，Ki-67 高",
+          "D": "S-100 阳性，HMB-45 阳性"
+        },
+        "answer": "A",
+        "answer_text": "CD34 阳性，ERG 阳性",
+        "explain": "乳腺血管肉瘤是内皮细胞来源的恶性肿瘤，CD34 和 ERG 是敏感且特异的血管内皮标记物。ER/PR/HER2 用于乳腺癌分型，S-100/HMB-45 用于黑色素瘤诊断。",
+        "keyPoint": "血管肉瘤诊断依赖血管内皮标记物（CD34, ERG），需与乳腺癌及黑色素瘤鉴别。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "f51ad2ef-8e21-42f9-bfd1-f2ed36512587",
+          "split_index": 225,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 病理诊断",
+          "source_version": "2023",
+          "source_section": "（三）免疫组化检测",
+          "source_url": "",
+          "evidence_summary": "软组织肿瘤诊断需采用 CD34 等一线标记协助明确诊断，兼顾鉴别非软组织肿瘤。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "疗效复评与局部治疗",
+        "phase": "术后随访监测",
+        "timepoint": "术后 6 个月复查",
+        "question": "患者术后 6 个月复查发现术区结构改变，因资源限制未行 MRI。在无法进行乳腺 MRI 的情况下，下列哪种随访策略最符合当前病例的评估原则？",
+        "options": {
+          "A": "仅依靠患者自我触诊，无需影像学检查直至出现明显症状",
+          "B": "联合定期查体、乳腺超声及必要时对可疑病灶进行穿刺活检",
+          "C": "必须等待资源允许行 MRI 后才能进行任何评估与随访",
+          "D": "直接行全身 PET/CT 扫描替代所有局部影像学检查手段"
+        },
+        "answer": "B",
+        "answer_text": "联合定期查体、乳腺超声及必要时对可疑病灶进行穿刺活检",
+        "explain": "鉴于原发性乳腺血管肉瘤罕见，目前缺乏特异性随访指南，临床常参照乳腺癌重建术后监测共识（如 GB03）执行。推荐结合查体、超声监测，对可疑者行活检。MRI 虽佳但非唯一，不可因缺 MRI 而停滞评估。",
+        "keyPoint": "乳房重建或术后随访可结合查体、超声及活检，无需拘泥于单一影像手段。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "dc50d064-e119-490d-b6e9-d5701acfb054",
+          "split_index": 267,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "乳腺肿瘤整形与乳房重建专家共识（2022年版）",
+          "source_version": "2022",
+          "source_section": "10.2.3 乳房重建术后局部复发的随访及诊断",
+          "source_url": "",
+          "evidence_summary": "乳房重建术后局部复发监测应结合定期查体、乳腺超声，对可疑者可行活检。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-DD610E54",
+    "cancer_type": "胸部肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺肉瘤主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "哺乳期乳房肿块的病理与局部决策",
+      "description": "32岁哺乳期女性，乳房肿块持续约6个月，近1个月增长加快。"
+    },
+    "overview": {
+      "hero": {
+        "title": "哺乳期乳房肿块的病理与局部决策",
+        "subtitle": "哺乳期快速增大肿块的病理判断、切除范围，以及术后局部异常的随访评估。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "32岁哺乳期女性，乳房肿块持续约6个月，近1个月增长加快。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "病理及CD34、ERG等检查支持原发性乳腺血管肉瘤。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "行局部切除及整形，原文还记载前哨淋巴结相关手术；未行放疗。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "哺乳期快速增大肿块的病理判断、切除范围，以及术后局部异常的随访评估。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "就诊前约6个月",
+              "title": "出现乳腺肿块",
+              "detail": "哺乳期出现肿块，近1个月增长加快。"
+            },
+            {
+              "date": "就诊评估",
+              "title": "影像与组织学诊断",
+              "detail": "影像、组织学及免疫组化支持乳腺血管肉瘤。"
+            },
+            {
+              "date": "手术期",
+              "title": "局部切除及乳腺整形",
+              "detail": "行局部切除、Batwing整形及原文记载的前哨淋巴结相关手术。"
+            },
+            {
+              "date": "术后",
+              "title": "未接受放疗",
+              "detail": "原文未行放疗。"
+            },
+            {
+              "date": "术后6个月",
+              "title": "瘢痕处复评",
+              "detail": "瘢痕处异常活检为良性。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

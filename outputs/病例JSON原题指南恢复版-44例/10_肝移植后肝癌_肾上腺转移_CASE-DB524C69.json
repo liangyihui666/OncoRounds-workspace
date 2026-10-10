@@ -1,0 +1,252 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-DB524C69",
+    "cancer_type": "消化系统肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "移植后复发诊断阶段",
+        "timepoint": "移植后 48 个月急诊入院时",
+        "question": "患者肝移植术后 48 个月出现肾上腺转移伴破裂出血，根据中国肝癌分期（CNLC）系统，该患者此时的临床分期应判定为？",
+        "options": {
+          "A": "CNLC IIIa 期，因存在血管侵犯风险",
+          "B": "CNLC IIIb 期，因存在肝外转移",
+          "C": "CNLC IV 期，因出现休克及急症表现",
+          "D": "CNLC IIb 期，因原发灶已切除仅存孤立转移"
+        },
+        "answer": "B",
+        "answer_text": "CNLC IIIb 期，因存在肝外转移",
+        "explain": "根据 CNLC 分期标准，不论肿瘤大小及数目，只要存在肝外转移且 PS 评分 0-2 分、肝功能 Child-Pugh A/B 级，即归为 IIIb 期。患者虽有急症但肝功能 A 级，且明确肾上腺转移，故为 IIIb 期。",
+        "keyPoint": "CNLC 分期中肝外转移是界定 IIIb 期的关键因素，与急症表现无直接分期对应关系。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "81c18c6b-4e36-4e9e-83b6-de1a70935128",
+          "split_index": 30,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会(CSCO)原发性肝癌诊疗指南2024",
+          "source_version": "2024",
+          "source_section": "中国临床肿瘤学会(CSC0)原发性肝癌诊疗指南2024",
+          "source_url": "",
+          "evidence_summary": "CSCO 指南定义 CNLC IIIb 期为：不论肿瘤情况，有肝外转移，PS 0-2 分，肝功能 Child-Pugh A/B 级。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "治疗决策",
+        "phase": "复发转移灶处理阶段",
+        "timepoint": "移植后 48 个月急诊止血后",
+        "question": "针对该患者肝移植后出现的孤立性肾上腺转移伴破裂出血，在急诊栓塞止血且患者一般状况允许的情况下，后续首选的治疗策略是？",
+        "options": {
+          "A": "立即启动系统性免疫检查点抑制剂治疗",
+          "B": "仅行放射治疗以控制局部病灶",
+          "C": "首选手术切除转移灶，并调整免疫抑制方案",
+          "D": "放弃局部治疗，直接改为最佳支持治疗"
+        },
+        "answer": "C",
+        "answer_text": "首选手术切除转移灶，并调整免疫抑制方案",
+        "explain": "指南推荐对于肝移植术后可切除的复发转移灶，首选手术切除。同时，鉴于 mTOR 抑制剂具有抗肿瘤潜能，常建议调整免疫抑制方案（如转换为依维莫司）。",
+        "keyPoint": "移植后孤立性可切除复发灶首选手术，联合免疫抑制方案调整（如 mTOR 抑制剂）是标准策略。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "5796dbee-acb6-48c8-8191-0d7f59564a9d",
+          "split_index": 26,
+          "type": "guideline",
+          "authority": "中国医师协会器官移植医师分会",
+          "source_title": "中国肝癌肝移植临床实践指南（2021版）",
+          "source_version": "2021",
+          "source_section": "五、肝癌肝移植后肿瘤复发的防治（表6）",
+          "source_url": "",
+          "evidence_summary": "中国肝癌肝移植临床实践指南建议：对于术后可切除的复发转移灶，首选手术切除治疗；超标准者可采用依维莫司方案。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "术后辅助与免疫抑制调整阶段",
+        "timepoint": "肾上腺切除术后",
+        "question": "患者术后将免疫抑制方案从他克莫司单药调整为依维莫司，其主要理论依据是？",
+        "options": {
+          "A": "依维莫司可完全替代抗病毒治疗，清除 HCV",
+          "B": "钙调磷酸酶抑制剂会导致肾上腺功能衰竭",
+          "C": "依维莫司能迅速提升血小板计数以纠正出血",
+          "D": "mTOR 抑制剂具有直接抗肿瘤活性，可降低复发风险"
+        },
+        "answer": "D",
+        "answer_text": "mTOR 抑制剂具有直接抗肿瘤活性，可降低复发风险",
+        "explain": "mTOR 信号通路在细胞增殖中起关键作用。研究及共识表明，肝移植后使用 mTOR 抑制剂（如依维莫司、西罗莫司）替代或减少钙调磷酸酶抑制剂，有助于降低 HCC 复发率并延长生存。",
+        "keyPoint": "肝移植后 HCC 复发防治中，转换为 mTOR 抑制剂免疫抑制方案是利用其抗肿瘤特性的关键策略。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "486988cf-080d-4230-ac91-0335fdaf5a42",
+          "split_index": 46,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "肝细胞癌术后辅助治疗专家共识（2026 版）",
+          "source_version": "2026",
+          "source_section": "关键词",
+          "source_url": "",
+          "evidence_summary": "专家共识推荐：肝癌肝移植术后使用 mTOR 抑制剂为主的免疫抑制方案，有助于减少肿瘤复发率，延长患者 OS。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "疗效复评与局部治疗",
+        "phase": "复发后再次干预阶段",
+        "timepoint": "依维莫司治疗 14 个月后",
+        "question": "患者在依维莫司治疗 14 个月后出现局部复发，再次行手术切除并将药物更换为西罗莫司。关于此类复发后的管理，下列描述最准确的是？",
+        "options": {
+          "A": "局限性复发可再次手术切除并调整 mTOR 抑制剂",
+          "B": "复发即预示预后极差，不应再进行任何积极局部治疗",
+          "C": "复发后必须立即使用免疫检查点抑制剂",
+          "D": "复发后仅推荐姑息性放疗，禁止手术治疗"
+        },
+        "answer": "A",
+        "answer_text": "局限性复发可再次手术切除并调整 mTOR 抑制剂",
+        "explain": "尽管移植后复发预后较差，但指南指出在 MDT 基础上，采取再次手术切除、变更免疫抑制方案等综合手段，可能延长生存。本例患者再次手术及换药后 AFP 下降且无新发，证实了该策略的可行性。",
+        "keyPoint": "移植后复发并非绝对禁忌再次局部根治性治疗，综合治疗（手术 + 药物调整）可争取长期生存。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "ea2a8a87-e782-4e9c-b9fc-6c9823c9f851",
+          "split_index": 90,
+          "type": "guideline",
+          "authority": "中华医学会肿瘤学分会",
+          "source_title": "原发性肝癌诊疗指南（2026 年版）",
+          "source_version": "2026",
+          "source_section": "原发性肝癌诊疗指南（2026年版）",
+          "source_url": "",
+          "evidence_summary": "诊疗指南指出：在 MDT 基础上，采取变更免疫抑制方案、再次手术切除等综合治疗手段，可能延长患者生存时间。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "分子诊断",
+        "phase": "全程监测期",
+        "timepoint": "移植前至复发后",
+        "question": "该患者 AFP 从移植前 29 ng/mL 升至复发时 42115 ng/mL，术后又波动。关于 AFP 在肝移植 HCC 患者中的预后评估价值，下列说法正确的是？",
+        "options": {
+          "A": "AFP 水平仅用于诊断，与移植后复发风险无统计学相关性",
+          "B": "AFP>1000 ng/mL 患者移植后 5 年复发率显著高于 AFP≤100 ng/mL 者",
+          "C": "只要术后 AFP 降至正常，无论移植前水平如何，复发风险均相同",
+          "D": "AFP-L3 亚型检测已被所有指南列为移植前必查项目，优于总 AFP"
+        },
+        "answer": "B",
+        "answer_text": "AFP>1000 ng/mL 患者移植后 5 年复发率显著高于 AFP≤100 ng/mL 者",
+        "explain": "研究显示，移植前 AFP>1000 ng/mL 人群 5 年复发率（35.0%）显著高于 AFP≤100 ng/mL 人群（7.2%）。AFP 是重要的预后指标，术后未复常者复发风险也增高。",
+        "keyPoint": "移植前高 AFP 水平（>1000 ng/mL）是肝移植后 HCC 复发的强预测因子。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "d7d4313a-b426-4b79-82c5-90695d63f129",
+          "split_index": 13,
+          "type": "guideline",
+          "authority": "中华医学会肝病学分会",
+          "source_title": "原发性肝癌三级预防共识(2022年版)",
+          "source_version": "2022",
+          "source_section": "（二）HCC血清生物标志物水平",
+          "source_url": "",
+          "evidence_summary": "肝移植前 AFP>1000 ng/mL 人群 5 年 HCC 复发率为 35.0%，显著高于 AFP≤100 ng/mL 人群的 7.2%。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-DB524C69",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "肝癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "肝移植后突发腹痛与肾上腺病灶",
+      "description": "62岁男性，肝癌肝移植约48个月后出现肾上腺巨大血肿及循环异常。"
+    },
+    "overview": {
+      "hero": {
+        "title": "肝移植后突发腹痛与肾上腺病灶",
+        "subtitle": "移植后出血性肾上腺病变的来源判断，以及肿瘤复发、免疫抑制和随访指标。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "62岁男性，肝癌肝移植约48个月后出现肾上腺巨大血肿及循环异常。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "术后病理证实肝癌肾上腺转移，切缘阴性。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "先介入止血再手术，调整免疫抑制；约14个月后局部复发再次切除。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "移植后出血性肾上腺病变的来源判断，以及肿瘤复发、免疫抑制和随访指标。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2018年",
+              "title": "肝移植",
+              "detail": "因HCV相关肝硬化及肝癌接受肝移植，术后使用免疫抑制药。"
+            },
+            {
+              "date": "移植后约48个月",
+              "title": "肾上腺出血性转移",
+              "detail": "肾上腺巨大血肿、活动性出血，AFP明显升高。"
+            },
+            {
+              "date": "急性处理及手术",
+              "title": "先止血再切除",
+              "detail": "介入止血后切除，病理证实肝癌转移，切缘阴性。"
+            },
+            {
+              "date": "术后",
+              "title": "调整免疫抑制方案",
+              "detail": "调整免疫抑制方案，原文记载使用依维莫司。"
+            },
+            {
+              "date": "约14个月后",
+              "title": "局部复发再切除",
+              "detail": "局部复发再次切除，后续方案涉及西罗莫司。"
+            },
+            {
+              "date": "后续随访",
+              "title": "AFP与影像动态观察",
+              "detail": "AFP升高后下降，影像未见明确病灶，继续随访。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

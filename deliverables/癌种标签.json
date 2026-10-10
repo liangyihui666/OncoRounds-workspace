@@ -1,0 +1,7 @@
+[
+  { "id": "lung", "label": "肺癌" },
+  { "id": "gastric", "label": "胃癌" },
+  { "id": "breast", "label": "乳腺癌" },
+  { "id": "esophageal", "label": "食管癌" },
+  { "id": "gej", "label": "GEJ腺癌" }
+]

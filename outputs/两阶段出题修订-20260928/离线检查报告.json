@@ -1,0 +1,50 @@
+{
+  "checks": [
+    {
+      "name": "全部代码节点语法有效",
+      "pass": true
+    },
+    {
+      "name": "连线及变量引用均存在，未引用删除节点",
+      "pass": true
+    },
+    {
+      "name": "每条出题路径必须经过第二轮且只有一个最终回复",
+      "pass": true
+    },
+    {
+      "name": "检索和模型配置保持不变，仅两个出题模型",
+      "pass": true
+    },
+    {
+      "name": "修订输入保留完整证据限制且支持空首轮草稿",
+      "pass": true
+    },
+    {
+      "name": "修订后整题输出，保留答案解析与引用，不伪造医审",
+      "pass": true
+    },
+    {
+      "name": "空第二轮或非法JSON不会回退首轮",
+      "pass": true
+    },
+    {
+      "name": "答案错配、缺解析、伪造引用与重复前缀被拦截",
+      "pass": true
+    },
+    {
+      "name": "两道延伸题允许，三道拒绝",
+      "pass": true
+    },
+    {
+      "name": "明确的零题与技术失败分别输出",
+      "pass": true
+    },
+    {
+      "name": "外层兼容解析且不会宣称医学审核通过",
+      "pass": true
+    }
+  ],
+  "online_verified": false,
+  "medical_correctness_verified": false
+}

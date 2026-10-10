@@ -1,0 +1,277 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-351D64C1",
+    "cancer_type": "消化系统肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "分子诊断",
+        "phase": "免疫治疗证据匹配",
+        "timepoint": "HER2阴性、MSS，PD-L1 CPS≥70",
+        "question": "本例MSS胃癌的PD-L1 CPS≥70。讨论一线免疫联合化疗时，哪项解释最准确？",
+        "options": {
+          "A": "MSS即证明PD-L1检测无临床意义，应忽略CPS",
+          "B": "高CPS可直接预测本例必然达到病理完全缓解",
+          "C": "MSS不自动排除免疫联合获益，仍需结合PD-L1和相应研究人群",
+          "D": "CPS≥70表示至少70%的肿瘤细胞染色阳性，与TPS相同"
+        },
+        "answer": "C",
+        "answer_text": "MSS不自动排除免疫联合获益，仍需结合PD-L1和相应研究人群",
+        "explain": "PD-L1 CPS与MSI反映不同维度。CPS不是TPS，也不以百分号表达；CheckMate 649中CPS≥5人群是主要疗效分析人群，但群体获益不能保证个体pCR。",
+        "keyPoint": "结合多个标志物及试验条件解释获益，不混用CPS与TPS。",
+        "guidelineRef": {
+          "evidence_type": "临床研究",
+          "doc_id": "",
+          "split_index": null,
+          "type": "journal",
+          "authority": "",
+          "source_title": "First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649)",
+          "source_version": "2021",
+          "source_section": "",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/34102137/",
+          "evidence_summary": "结合多个标志物及试验条件解释获益，不混用CPS与TPS。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "治疗决策",
+        "phase": "研究方案与病例方案比较",
+        "timepoint": "原病例采用SOX联合纳武利尤单抗",
+        "question": "用CheckMate 649解释本例治疗时，哪项必须区分？",
+        "options": {
+          "A": "只要含奥沙利铂，SOX和FOLFOX的药物组成便完全相同",
+          "B": "CheckMate 649专门研究转化手术后的辅助治疗",
+          "C": "试验的FOLFOX或XELOX骨架与本例SOX不同，不能写成完全复现试验方案",
+          "D": "该研究全部纳入MSS且CPS≥70患者，与本例完全一致"
+        },
+        "answer": "C",
+        "answer_text": "试验的FOLFOX或XELOX骨架与本例SOX不同，不能写成完全复现试验方案",
+        "explain": "该试验评价晚期一线治疗，化疗骨架为FOLFOX或XELOX。本例SOX是实际经过；引用研究可以解释相关治疗方向，但不能将其化疗组成、人群阈值和手术终点改写成病例方案。",
+        "keyPoint": "引用研究时要匹配药物组成、治疗阶段和终点。",
+        "guidelineRef": {
+          "evidence_type": "临床研究",
+          "doc_id": "",
+          "split_index": null,
+          "type": "journal",
+          "authority": "",
+          "source_title": "First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649)",
+          "source_version": "2021",
+          "source_section": "",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/34102137/",
+          "evidence_summary": "引用研究时要匹配药物组成、治疗阶段和终点。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "疗效复评与局部治疗",
+        "phase": "系统治疗后的转化评估",
+        "timepoint": "4周期后原发、肝转移及淋巴结缩小",
+        "question": "本例初诊有单个较大肝转移及巨块淋巴结。治疗缩小后讨论切除，最重要的前提是什么？",
+        "options": {
+          "A": "肝病灶只有一个即可证明手术一定优于继续系统治疗",
+          "B": "全身复评分布、全部病灶R0可行性和手术风险，由MDT综合判断",
+          "C": "只要胃镜见瘢痕，就按局限期胃癌直接安排手术",
+          "D": "CEA恢复正常即可不再评估肝转移残留范围"
+        },
+        "answer": "B",
+        "answer_text": "全身复评分布、全部病灶R0可行性和手术风险，由MDT综合判断",
+        "explain": "胃癌转移灶切除并非普遍推荐，需严格选择。原病例接受胃及肝脏切除是个体化转化决策；缩小、标志物正常与可实现全部病灶R0不是同一条件。",
+        "keyPoint": "转化切除需评估全身病情与R0可行性，不能仅凭缩瘤。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with gastric cancer",
+          "source_version": "2024",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10937212/",
+          "evidence_summary": "转化切除需评估全身病情与R0可行性，不能仅凭缩瘤。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "疗效复评与局部治疗",
+        "phase": "术后病理结果解读",
+        "timepoint": "切除标本未见存活肿瘤",
+        "question": "胃、淋巴结及肝切除标本达到pCR。对后续管理的推论，哪项最严谨？",
+        "options": {
+          "A": "pCR意味着原始Ⅳ期分期无效，应更改为从未转移",
+          "B": "记录pCR及随访结局，不能据单例确定所有类似患者均可省略术后治疗",
+          "C": "达到pCR后可停止全部影像和临床随访",
+          "D": "pCR已证明SOX中任何一种药物均可在后续病例中去除"
+        },
+        "answer": "B",
+        "answer_text": "记录pCR及随访结局，不能据单例确定所有类似患者均可省略术后治疗",
+        "explain": "原文记录未接受含免疫药物的术后辅助化疗，不能扩写成已确认“所有术后治疗均未使用”。良好结局也不能单独确立统一减疗规则，术后方案需结合适用证据与个体情况。",
+        "keyPoint": "pCR是重要结果，但不是自动省略治疗或随访的通用标准。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "",
+          "split_index": null,
+          "type": "journal",
+          "authority": "",
+          "source_title": "Pathological complete response in microsatellite-stable gastric cancer with liver and bulky lymph node metastases after nivolumab-based chemotherapy and surgery: a case report",
+          "source_version": "2026",
+          "source_section": "",
+          "source_url": "https://doi.org/10.3389/fimmu.2026.1750532",
+          "evidence_summary": "pCR是重要结果，但不是自动省略治疗或随访的通用标准。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "分子诊断",
+        "phase": "胚系变异解释",
+        "timepoint": "报告胚系TP53 p.R106C",
+        "question": "原始论文报告TP53 p.R106C为胚系变异，并指出其临床意义存在争议。最恰当的解释是？",
+        "options": {
+          "A": "将所有TP53变异统一认定为致病，并据此确诊遗传综合征",
+          "B": "因胃癌并不常见该变异，将报告直接改成体细胞突变",
+          "C": "保留胚系记录并核对变异分类，不能据此证明免疫获益机制或遗传综合征",
+          "D": "因患者获得pCR，反向将该变异归为免疫敏感标志物"
+        },
+        "answer": "C",
+        "answer_text": "保留胚系记录并核对变异分类，不能据此证明免疫获益机制或遗传综合征",
+        "explain": "原论文明确胚系属性，但指出变异临床意义存在冲突解释。胚系来源、致病性及预测治疗作用是三个不同问题；本例不能建立TP53与免疫疗效的因果关系。",
+        "keyPoint": "变异来源、致病性与预测价值应分别解释。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "",
+          "split_index": null,
+          "type": "journal",
+          "authority": "",
+          "source_title": "Pathological complete response in microsatellite-stable gastric cancer with liver and bulky lymph node metastases after nivolumab-based chemotherapy and surgery: a case report",
+          "source_version": "2026",
+          "source_section": "",
+          "source_url": "https://doi.org/10.3389/fimmu.2026.1750532",
+          "evidence_summary": "变异来源、致病性与预测价值应分别解释。"
+        }
+      }
+    ],
+    "missing_information": [],
+    "second_cancer_type": "胃癌"
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-351D64C1",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/gastric-her2.png",
+      "alt": "胃癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "MSS胃癌转化治疗后病理完全缓解",
+      "description": "64岁男性，胃窦中分化腺癌伴肝S6单个约6 cm转移及巨块淋巴结。SOX联合纳武利尤单抗4周期后缩小，接受胃及肝脏切除，标本达到pCR；原文随访无复发超过3年3个月。"
+    },
+    "overview": {
+      "hero": {
+        "title": "MSS胃癌转化治疗后病理完全缓解",
+        "subtitle": "结合多个标志物及试验条件解释获益，不混用CPS与TPS；引用研究时要匹配药物组成、治疗阶段和终点；转化切除需评估全身病情与R0可行性，不能仅凭缩瘤；pCR是重要结果，但不是自动省略治疗或随访的通用标准；变异来源、致病性与预测价值应分别解释。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者与就诊背景",
+              "value": "64岁男性，胃窦中分化腺癌伴肝S6单个约6 cm转移及巨块淋巴结。SOX联合纳武利尤单抗4周期后缩小，接受胃及肝脏切除，标本达到pCR；原文随访无复发超过3年3个月。"
+            },
+            {
+              "order": 2,
+              "label": "疾病与分期",
+              "value": "胃腺癌伴肝转移，初始为转移性疾病；术后pCR不抹除原始转移史。"
+            },
+            {
+              "order": 3,
+              "label": "分子与病理",
+              "value": "MSS、EBV阴性、HER2阴性，TMB 7.8 mut/Mb，PD-L1 CPS≥70（无百分号）；原始论文报告胚系TP53 p.R106C，临床意义存在争议。"
+            },
+            {
+              "order": 4,
+              "label": "核心教学点",
+              "value": "结合多个标志物及试验条件解释获益，不混用CPS与TPS；引用研究时要匹配药物组成、治疗阶段和终点；转化切除需评估全身病情与R0可行性，不能仅凭缩瘤；pCR是重要结果，但不是自动省略治疗或随访的通用标准；变异来源、致病性与预测价值应分别解释。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "初诊",
+              "title": "分期及检测",
+              "detail": "胃原发病灶约5 cm，肝S6约6 cm转移及巨块淋巴结；完成相应标志物检测。"
+            },
+            {
+              "date": "系统治疗阶段",
+              "title": "免疫联合化疗",
+              "detail": "SOX加纳武利尤单抗4周期。"
+            },
+            {
+              "date": "4周期后",
+              "title": "转化评估",
+              "detail": "CEA恢复正常，原发及转移病灶缩小。"
+            },
+            {
+              "date": "手术阶段",
+              "title": "胃及肝脏切除",
+              "detail": "远端胃切除、D2清扫及肝部分切除，原文报告切除标本pCR。"
+            },
+            {
+              "date": "术后及随访",
+              "title": "观察结局",
+              "detail": "原文记载未行含免疫药物的术后辅助化疗，无复发随访超过3年3个月；不扩写为所有术后药物均未使用。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/34KJYRO-mfAiPzq9YKAXJA/TDwk7aGbzwIZi7k4sRvAGmRrWGWLVJ8U.png",
+              "timepoint": "化疗前",
+              "caption": "(A) 内镜示胃窦小弯侧 5cm II 型病变；(B) CT 示肝 S6 段 6cm 转移灶；(C) 胃周肿大淋巴结。",
+              "alt": "(A) 内镜示胃窦小弯侧 5cm II 型病变；(B) CT 示肝 S6 段 6cm 转移灶；(C) 胃周肿大淋巴结。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/34KJYRO-mfAiPzq9YKAXJA/A67nvD9kijPSiPHjwBBlUUUenMZn51bq.png",
+              "timepoint": "免疫组化检测时",
+              "caption": "(A) CD8 染色示高密度浸润淋巴细胞；(B) PD-L1 染色示 CPS≥70%。",
+              "alt": "(A) CD8 染色示高密度浸润淋巴细胞；(B) PD-L1 染色示 CPS≥70%。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://bosdev.liangyihui.net/temp/1659944452.png",
+              "timepoint": "时间点不详",
+              "caption": "解析结果未提供链接及图注信息。",
+              "alt": "解析结果未提供链接及图注信息。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "胃癌"
+  }
+}

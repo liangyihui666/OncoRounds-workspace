@@ -1,0 +1,155 @@
+{
+  "generation_status": "success",
+  "case_summary": "65岁男性，HER2阳性、PD-L1 CPS 5、MSS/pMMR的Borrmann IV型胃低分化腺癌，初诊cT4N3M1、IV期，No.16a2/16b1腹主动脉旁淋巴结影像学疑转移。接受SOX联合曲妥珠单抗和帕博利珠单抗3周期后影像学PR/cPR，行全胃切除、D2淋巴结清扫及腹主动脉旁淋巴结清扫。术后病理示TRG 1、ypT1bN0M0、清扫淋巴结0/80。术后继续原方案1周期后出现G4免疫检查点抑制剂相关1型糖尿病并糖尿病酮症酸中毒，以及G3免疫检查点抑制剂相关间质性肺炎；支气管肺泡灌洗液/灌洗液涂片曾见革兰阴性杆菌，感染不能排除。停止抗肿瘤治疗，长期随访未见明确复发。",
+  "question_count": 5,
+  "difficulty": "进阶",
+  "questions": [
+    {
+      "id": "Q1",
+      "type": "治疗",
+      "phase": "不良反应管理",
+      "timepoint": "当前教学复盘：术后继续原方案1周期后出现G4 ICI相关1型糖尿病并DKA时",
+      "question": "当前教学复盘：该患者术后继续SOX联合曲妥珠单抗和帕博利珠单抗1周期后，出现G4免疫检查点抑制剂相关1型糖尿病并糖尿病酮症酸中毒，表现为严重高血糖、酸中毒、酮体阳性、C肽极低。此时下列哪项处理最符合指南？",
+      "options": [
+        "暂停帕博利珠单抗，住院，完成DKA评估，在内分泌团队指导下给予静脉液体、补钾和胰岛素治疗",
+        "继续帕博利珠单抗，门诊口服二甲双胍并定期监测血糖",
+        "立即给予大剂量糖皮质激素以逆转胰岛β细胞损伤",
+        "继续抗肿瘤治疗，门诊皮下注射胰岛素并在下一次给药时复查血糖"
+      ],
+      "answer": 0,
+      "answer_text": "暂停帕博利珠单抗，住院，完成DKA评估，在内分泌团队指导下给予静脉液体、补钾和胰岛素治疗",
+      "explain": "该患者为G4免疫检查点抑制剂相关1型糖尿病并DKA，C肽极低提示严重胰岛素缺乏。NCCN毒性管理指南明确指出，DKA需要住院并暂停免疫治疗，管理应包括静脉液体伴或不伴补钾、静脉胰岛素，并动态监测血糖、血酮、pH和阴离子间隙；糖皮质激素不推荐用于逆转ICI相关1型糖尿病。门诊口服降糖药、继续ICI及单用皮下胰岛素均不符合DKA急症管理原则。",
+      "keyPoint": "G4 ICI相关1型糖尿病并DKA属于内分泌急症，核心处理是暂停ICI、住院、DKA评估与胰岛素治疗，不能用糖皮质激素逆转胰岛素缺乏。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "7ba9cbc8-7452-462e-8b32-63b3c19da4c7",
+        "split_index": 178,
+        "type": "guideline",
+        "authority": "NCCN",
+        "source_title": "NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®) Management of Immune Checkpoint Inhibitor-Related Toxicities",
+        "source_version": "2026",
+        "source_section": "Hyperglycemia/Diabetes",
+        "source_url": "",
+        "evidence_summary": "DKA requires hospitalization and immunotherapy hold; management may include IV fluids with or without potassium supplementation, IV insulin, and hourly testing of glucose, serum ketones, blood pH, and anion gap. Corticosteroid therapy is not recommended for treating T1DM."
+      }
+    },
+    {
+      "id": "Q2",
+      "type": "治疗",
+      "phase": "不良反应管理",
+      "timepoint": "当前教学复盘：DKA纠正、血糖稳定且同期存在G3 ICI相关间质性肺炎时",
+      "question": "当前教学复盘：该患者G4免疫检查点抑制剂相关1型糖尿病所致DKA经胰岛素治疗后酸中毒已纠正、血糖稳定；但同期仍存在G3免疫检查点抑制剂相关间质性肺炎。关于后续帕博利珠单抗再挑战，下列哪项最符合指南？",
+      "options": [
+        "可立即重启ICI，因为DKA已纠正且血糖稳定",
+        "永不考虑重启ICI，因为存在G3~4免疫相关性肺炎",
+        "可将帕博利珠单抗减量后重启",
+        "待肺炎完全消退且停用糖皮质激素后即可重启"
+      ],
+      "answer": 1,
+      "answer_text": "永不考虑重启ICI，因为存在G3~4免疫相关性肺炎",
+      "explain": "该题需要综合两种irAE的再挑战边界。CSCO毒性管理指南注释显示，1型糖尿病伴酮症酸中毒者在酸中毒纠正、血糖稳定后可以重启ICI；但肺部出现严重或危及生命的肺炎（G3~4）时，永不考虑重启ICI。该患者虽然DKA已纠正，但同时存在G3免疫相关性肺炎，因此整体上不能重启。选项D描述的是G2肺炎消退至≤G1且已停用糖皮质激素或仅用泼尼松≤10 mg时的情形，不适用于G3~4肺炎。",
+      "keyPoint": "ICI再挑战必须综合所有irAE判断；单一内分泌毒性恢复不能覆盖同期G3~4免疫相关性肺炎的永久停用规则。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "1a5c4240-bad9-4448-ab64-9b705a3ad087",
+        "split_index": 208,
+        "type": "guideline",
+        "authority": "CSCO",
+        "source_title": "中国临床肿瘤学会（CSCO）免疫检查点抑制剂相关的毒性管理指南 2023",
+        "source_version": "2023",
+        "source_section": "",
+        "source_url": "",
+        "evidence_summary": "注释显示：1型糖尿病伴酮症酸中毒者，在酸中毒得以纠正且血糖恢复稳定后，可以重启ICIs治疗；肺部出现严重或危及生命的肺炎（G3~4），永不考虑重启ICIs治疗。"
+      }
+    },
+    {
+      "id": "Q3",
+      "type": "不良反应",
+      "phase": "不良反应管理",
+      "timepoint": "当前教学复盘：确诊G4 ICI相关1型糖尿病并DKA后",
+      "question": "当前教学复盘：该患者出现G4免疫检查点抑制剂相关1型糖尿病并DKA，C肽极低。关于该糖尿病的性质和后续长期管理，以下哪项正确？",
+      "options": [
+        "属于短暂性高血糖，停用ICI后胰岛功能可完全恢复",
+        "属于几乎不可逆的胰岛素缺乏，需长期胰岛素替代，糖皮质激素不能逆转胰岛β细胞损伤",
+        "应首选大剂量糖皮质激素以恢复胰岛功能",
+        "因自身抗体阴性者可排除ICI相关1型糖尿病"
+      ],
+      "answer": 1,
+      "answer_text": "属于几乎不可逆的胰岛素缺乏，需长期胰岛素替代，糖皮质激素不能逆转胰岛β细胞损伤",
+      "explain": "该患者C肽极低并发生DKA，符合ICI诱导糖尿病的典型特征。CACA内分泌保护指南指出，ICI诱导的糖尿病表现为严重且持续的胰岛素缺乏，多数患者起病时C肽水平低或检测不出，几乎无残存胰岛功能，需要依赖胰岛素治疗；疾病几乎不可逆，且糖皮质激素不能逆转细胞功能障碍。虽然49%患者存在胰岛自身抗体，但抗体阳性并非诊断必需，因此不能因自身抗体阴性排除。",
+      "keyPoint": "ICI相关1型糖尿病几乎不可逆，需长期胰岛素替代，糖皮质激素无效；诊断不依赖胰岛自身抗体阳性。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "a0ceb1ac-d0eb-45fa-b51a-ab92d462333c",
+        "split_index": 38,
+        "type": "guideline",
+        "authority": "CACA",
+        "source_title": "中国肿瘤整合诊治技术指南（CACA） 内分泌保护",
+        "source_version": "2023",
+        "source_section": "6.免疫治疗相关性高血糖",
+        "source_url": "",
+        "evidence_summary": "免疫检查点抑制剂诱导的糖尿病表现为严重且持续的胰岛素缺乏；多数患者起病时C肽水平低或检测不出，几乎无残存胰岛功能，需要依赖胰岛素治疗；几乎不可逆且类固醇激素治疗不能逆转细胞功能障碍；49%存在胰岛自身抗体阳性。"
+      }
+    },
+    {
+      "id": "Q4",
+      "type": "疗效评估",
+      "phase": "疗效评估",
+      "timepoint": "完成3周期联合治疗后、术前疗效评估时",
+      "question": "该患者完成3周期SOX联合曲妥珠单抗和帕博利珠单抗后，增强CT提示原发灶及淋巴结明显缩小，疗效评价为PR/cPR。此时下列哪项结论最准确？",
+      "options": [
+        "已可确认达到病理完全缓解（pCR）",
+        "已可确认术后病理为ypT1bN0M0",
+        "影像学显示明显退缩，但尚无术后病理结果，不能据此判断pCR",
+        "已可确认No.16a2/16b1腹主动脉旁淋巴结转移完全消失"
+      ],
+      "answer": 2,
+      "answer_text": "影像学显示明显退缩，但尚无术后病理结果，不能据此判断pCR",
+      "explain": "该时间点为完成3周期联合治疗后、手术前，仅能获得增强CT的PR/cPR结果。手术尚未进行，术后病理尚不存在，因此不能确认pCR、ypT1bN0M0或No.16a2/16b1淋巴结病理状态。影像学缓解提示肿瘤负荷明显退缩，但不能替代术后病理学评估。",
+      "keyPoint": "疗效评估应严格遵守时间顺序，区分影像学缓解与病理学缓解，不能以术后病理倒推术前判断。",
+      "guidelineRef": {
+        "evidence_type": "病例事实",
+        "doc_id": "",
+        "split_index": null,
+        "type": "",
+        "authority": "",
+        "source_title": "HER2过表达晚期胃癌转化治疗、根治手术与重度免疫毒性的全程管理",
+        "source_version": "",
+        "source_section": "",
+        "source_url": "",
+        "evidence_summary": "病例时间线显示：患者完成SOX联合曲妥珠单抗和帕博利珠单抗3周期后，增强CT提示原发灶及淋巴结明显缩小，评价PR/cPR；此时手术尚未进行，无术后病理结果。"
+      }
+    },
+    {
+      "id": "Q5",
+      "type": "病理评估",
+      "phase": "手术病理",
+      "timepoint": "术后病理报告后",
+      "question": "该患者行全胃切除、D2淋巴结清扫及腹主动脉旁淋巴结清扫后，术后病理示TRG 1、ypT1bN0M0，清扫淋巴结0/80。关于初诊时No.16a2/16b1腹主动脉旁淋巴结影像学疑转移与术后病理结果的关系，下列哪项最恰当？",
+      "options": [
+        "0/80淋巴结阴性可以证明初诊时No.16a2/16b1一定不是转移",
+        "初诊时No.16a2/16b1为影像学疑转移，术后0/80并不能将其改写为病理证实或排除",
+        "0/80淋巴结阴性等同于No.16a2/16b1病理完全缓解",
+        "术后ypT1bN0M0可倒推初诊分期为I期"
+      ],
+      "answer": 1,
+      "answer_text": "初诊时No.16a2/16b1为影像学疑转移，术后0/80并不能将其改写为病理证实或排除",
+      "explain": "病例资料明确记录初诊时No.16a2/16b1仅为影像学疑转移，并非病理证实转移。术后0/80淋巴结未见癌转移是术后病理结果，但未提供腹主动脉旁阳性淋巴结具体站点及其与初诊可疑淋巴结的对应关系，因此不能用其追溯将初诊影像学疑转移改写为病理证实或排除。选项A、C属于过度推断，选项D以术后病理倒推初诊分期不符合时间顺序。",
+      "keyPoint": "影像学疑转移与病理学淋巴结状态是不同层面的证据，不能用后续清扫淋巴结阴性倒推改写初诊影像学疑转移。",
+      "guidelineRef": {
+        "evidence_type": "病例事实",
+        "doc_id": "",
+        "split_index": null,
+        "type": "",
+        "authority": "",
+        "source_title": "HER2过表达晚期胃癌转化治疗、根治手术与重度免疫毒性的全程管理",
+        "source_version": "",
+        "source_section": "",
+        "source_url": "",
+        "evidence_summary": "病例资料显示：初诊No.16a2/16b1为影像学疑转移；术后病理示TRG 1、ypT1bN0M0，清扫淋巴结0/80未见癌转移，未提供初诊可疑淋巴结站点与术后病理的对应关系。"
+      }
+    }
+  ],
+  "missing_information": [],
+  "risk_message": ""
+}

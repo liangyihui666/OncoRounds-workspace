@@ -1,0 +1,247 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-B5FF3EFE",
+    "cancer_type": "乳腺癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "分子诊断",
+        "phase": "复发转移评估",
+        "timepoint": "疾病进展",
+        "question": "该患者在新辅助治疗后辅助治疗期间出现转移，淋巴结和骨活检分子亚型发生两次转变。针对复发转移性乳腺癌，关于生物标志物检测的临床应用原则，下列哪项描述最准确？",
+        "options": {
+          "A": "仅需在初诊时检测一次分子标志物指导全程治疗",
+          "B": "原发灶与转移灶结果不一致时以原发灶结果为准",
+          "C": "复发转移时应积极二次活检重新评估受体状态",
+          "D": "细胞学检测结果不可靠必须等待组织病理结果"
+        },
+        "answer": "C",
+        "answer_text": "复发转移时应积极二次活检重新评估受体状态",
+        "explain": "指南指出经影像学提示复发转移时，应鼓励对复发或转移部位进行二次活检及免疫组化检测，以明确诊断和重新评估受体状态。",
+        "keyPoint": "复发转移时应二次活检重新评估受体状态以指导治疗。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+          "split_index": 362,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+          "source_version": "2026",
+          "source_section": "13.2.3.1 药物预防性治疗",
+          "source_url": "",
+          "evidence_summary": "指南强调对复发灶必须重新检测 ER、PR、HER2 表达，受体状态可能改变直接影响后续治疗决策。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "诊断与分期",
+        "phase": "危急症状鉴别诊断",
+        "timepoint": "就诊当日",
+        "question": "患者 CDK4/6 抑制剂治疗期间突发呼吸困难、心悸及下肢水肿。在明确心包填塞前，鉴别诊断首要考虑？",
+        "options": {
+          "A": "仅考虑肿瘤进展导致的恶性心包积液",
+          "B": "仅考虑药物引起的心肌炎或心包炎",
+          "C": "直接按感染性心包炎启动经验性抗感染",
+          "D": "鉴别肿瘤进展、药物毒性及预存心血管病"
+        },
+        "answer": "D",
+        "answer_text": "鉴别肿瘤进展、药物毒性及预存心血管病",
+        "explain": "共识强调非特异心血管症状需鉴别肿瘤本身、治疗毒性及预存疾病，不可单一归因。",
+        "keyPoint": "复杂心血管症状需多维鉴别而非单一归因",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "164cd842-d200-4180-9d87-58dcc871ea75",
+          "split_index": 70,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国肿瘤共病防治专家共识（2025版）",
+          "source_version": "2025",
+          "source_section": "物可能引起的不良反应。推荐对ILD进行分级管理，见表10。",
+          "source_url": "",
+          "evidence_summary": "共识指出呼吸困难等症状需鉴别心源性、肺源性、贫血、体能下降或药物副作用等多种病因。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "诊断与分期",
+        "phase": "复发转移初诊",
+        "timepoint": "就诊第二天",
+        "question": "患者转移后淋巴结活检示三阴型，骨活检示 LuminalB1 型，现心包积液细胞学再次提示三阴型。在无法获取新组织病理且原发灶与多处转移灶受体状态不一致时，后续全身治疗方案决策应依据哪一原则？",
+        "options": {
+          "A": "依据初诊原发灶 LuminalB1 型结果制定方案",
+          "B": "等待骨转移灶再次穿刺获取组织病理",
+          "C": "依据最近一次心包积液细胞学三阴型结果决策",
+          "D": "综合三次结果取多数一致的类型决策"
+        },
+        "answer": "C",
+        "answer_text": "依据最近一次心包积液细胞学三阴型结果决策",
+        "explain": "指南明确建议原发灶与转移灶检测结果不同时，按最近一次受体情况治疗。细胞学检测在无法获得组织时可作为替代依据。",
+        "keyPoint": "转移灶受体状态改变时，以最近一次检测结果指导治疗。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "972f14ef-1ff3-4500-af63-64507eb3e652",
+          "split_index": 9,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国晚期三阴性乳腺癌临床诊疗指南(2024版)",
+          "source_version": "2024",
+          "source_section": "（二）病理学检查",
+          "source_url": "",
+          "evidence_summary": "指南指出原发灶与转移灶结果不同未定论，建议按最近一次受体情况治疗；无法获组织时可选细胞学检测。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "治疗决策",
+        "phase": "晚期三线治疗",
+        "timepoint": "2024 年 2 月",
+        "question": "患者确诊 HER2 低表达（IHC 2+/FISH-）晚期乳腺癌，既往接受过化疗及内分泌治疗。当前证据支持的首选三线治疗方案是？",
+        "options": {
+          "A": "德曲妥珠单抗（T-DXd）单药治疗",
+          "B": "继续单药内分泌治疗联合 CDK4/6 抑制剂",
+          "C": "紫杉类联合抗 HER2 双靶治疗",
+          "D": "高剂量顺铂联合免疫检查点抑制剂"
+        },
+        "answer": "A",
+        "answer_text": "德曲妥珠单抗（T-DXd）单药治疗",
+        "explain": "DESTINY-Breast04 研究证实 T-DXd 在 HER2 低表达既往治疗患者中显著获益，是标准三线选择。",
+        "keyPoint": "HER2 低表达晚期乳腺癌三线首选 T-DXd",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "d7fe2f2b-3790-4028-aab7-6d152ef56d97",
+          "split_index": 9,
+          "type": "guideline",
+          "authority": "德曲妥珠单抗临床管理路径及不良反应处理共识专家组",
+          "source_title": "德曲妥珠单抗临床管理路径及不良反应处理中国专家共识（2024 版）",
+          "source_version": "2024",
+          "source_section": "德曲妥珠单抗临床管理路径及不良反应处理中国专家共识(2024版)",
+          "source_url": "",
+          "evidence_summary": "共识引用 DESTINY-Breast04 研究，支持 T-DXd 用于 HER2 低表达既往治疗患者的三线治疗。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "不良反应管理",
+        "phase": "治疗期间监测",
+        "timepoint": "2024 年 2 月",
+        "question": "患者既往有恶性心包积液及呼吸衰竭病史，现拟接受德曲妥珠单抗治疗。治疗前及治疗过程中，针对潜在的心肺毒性风险，最关键的监测策略是？",
+        "options": {
+          "A": "仅监测血常规和肝肾功能即可安全用药",
+          "B": "建立系统性心血管监测体系并强化鉴别诊断",
+          "C": "预防性使用大剂量糖皮质激素防止肺炎",
+          "D": "出现症状后再行心脏超声和心肌标志物检查"
+        },
+        "answer": "B",
+        "answer_text": "建立系统性心血管监测体系并强化鉴别诊断",
+        "explain": "共识强调对具心血管毒性风险的治疗，应建立贯穿全过程的监测体系，治疗前基线评估，治疗中动态复查，并及时鉴别症状病因。",
+        "keyPoint": "抗肿瘤治疗全程需建立系统性心血管监测与鉴别诊断。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "164cd842-d200-4180-9d87-58dcc871ea75",
+          "split_index": 71,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国肿瘤共病防治专家共识（2025版）",
+          "source_version": "2025",
+          "source_section": "物可能引起的不良反应。推荐对ILD进行分级管理，见表10。",
+          "source_url": "",
+          "evidence_summary": "共识推荐对拟接受心血管毒性风险治疗者，建立贯穿全过程的系统性心血管监测体系，治疗前基线评估，治疗中动态复查。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-B5FF3EFE",
+    "cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "乳腺癌复发与急症处理",
+      "description": "33岁女性，转移性乳腺癌多线治疗后出现严重气促、大量胸腔及心包积液。"
+    },
+    "overview": {
+      "hero": {
+        "title": "乳腺癌复发与急症处理",
+        "subtitle": "胸腔与心包病变的区分、急性循环异常的评估，以及积液细胞学和受体变化。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "33岁女性，转移性乳腺癌多线治疗后出现严重气促、大量胸腔及心包积液。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "积液检出乳腺来源恶性细胞；ER/PR阴性，HER2 IHC 2+、FISH阴性。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "先行胸腔及紧急心包引流，稳定后使用德曲妥珠单抗。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "胸腔与心包病变的区分、急性循环异常的评估，以及积液细胞学和受体变化。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "早期病程",
+              "title": "乳腺癌初始治疗",
+              "detail": "新辅助化疗、手术及术后内分泌治疗，后出现淋巴结和骨转移。"
+            },
+            {
+              "date": "转移后",
+              "title": "多次活检及调整",
+              "detail": "淋巴结呈三阴性，后骨活检HR阳性；接受相应系统治疗。"
+            },
+            {
+              "date": "2024年初",
+              "title": "心包填塞急救",
+              "detail": "大量胸腔积液引流后仍恶化，紧急心包引流，症状及肝功能改善。"
+            },
+            {
+              "date": "积液检查",
+              "title": "确认当前受体",
+              "detail": "乳腺来源恶性细胞，ER/PR阴性、HER2 IHC 2+且FISH阴性。"
+            },
+            {
+              "date": "2024年2月及后续",
+              "title": "T-DXd治疗与复评",
+              "detail": "使用德曲妥珠单抗后持续PR，骨病灶稳定，胸腔及心包积液控制良好。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-F5CEC3E2",
+    "cancer_type": "乳腺癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "随访监测阶段",
+        "timepoint": "2022 年 3 月",
+        "question": "患者 2021 年 CT 提示肾上腺疑似转移，2022 年 PET-CT 证实高代谢病灶。关于 PET-CT 在此类情况下的应用价值，描述正确的是？",
+        "options": {
+          "A": "仅适用于初诊分期，随访期间肿瘤标志物正常时严禁使用",
+          "B": "肾上腺病灶必须通过 PET-CT 确诊，穿刺活检已不再需要",
+          "C": "适用于常规检查难以分期、可疑复发或转移患者的评估",
+          "D": "PET-CT 对骨转移特异性高，但对软组织转移如肾上腺无价值"
+        },
+        "answer": "C",
+        "answer_text": "适用于常规检查难以分期、可疑复发或转移患者的评估",
+        "explain": "指南指出 PET-CT 适用于影像学检查可疑、常规检查难以分期或随访中可疑复发转移的评估，有助于明确病灶性质。",
+        "keyPoint": "PET-CT 是解决疑难分期及可疑复发转移的重要影像学手段。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "c7f4613d-29bb-4096-9ad6-cb8d7314a425",
+          "split_index": 6,
+          "type": "guideline",
+          "authority": "中国医师协会放射肿瘤治疗医师分会",
+          "source_title": "乳腺癌放射治疗指南（中国医师协会2020版）",
+          "source_version": "2020",
+          "source_section": "乳腺癌放射治疗指南（中国医师协会2020版）",
+          "source_url": "",
+          "evidence_summary": "指南明确 PET-CT 适用于随访中出现可疑复发或转移患者的评估，以明确病灶性质。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "诊断与分期",
+        "phase": "复发转移诊断阶段",
+        "timepoint": "2021 年 12 月至 2022 年 3 月",
+        "question": "患者随访中发现右侧肾上腺疑似新转移灶，关于该部位病变的定性诊断与分期检查策略，下列哪项最符合指南推荐？",
+        "options": {
+          "A": "肾上腺转移罕见，应直接行穿刺活检以确诊，避免影像学误判",
+          "B": "骨扫描特异性高，是诊断肾上腺转移的首选初筛方法",
+          "C": "所有复发转移患者必须强制进行二次活检，否则无法启动任何治疗",
+          "D": "PET-CT 适用于常规检查难以分期或可疑复发转移的评估，可辅助定性"
+        },
+        "answer": "D",
+        "answer_text": "PET-CT 适用于常规检查难以分期或可疑复发转移的评估，可辅助定性",
+        "explain": "指南指出 PET-CT 适用于随访中可疑复发或转移患者的评估，尤其当常规检查难以定性时。肾上腺转移虽需警惕，但非必须立即活检，且骨扫描主要用于骨转移初筛。",
+        "keyPoint": "PET-CT 在可疑复发转移及难定性病灶的分期评估中具有重要价值。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "c7f4613d-29bb-4096-9ad6-cb8d7314a425",
+          "split_index": 6,
+          "type": "guideline",
+          "authority": "中国医师协会放射肿瘤治疗医师分会",
+          "source_title": "乳腺癌放射治疗指南（中国医师协会2020版）",
+          "source_version": "2020",
+          "source_section": "乳腺癌放射治疗指南（中国医师协会2020版）",
+          "source_url": "",
+          "evidence_summary": "PET-CT 适用于随访过程中出现肿瘤标记物异常升高、可疑复发或转移患者的评估。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "分子诊断",
+        "phase": "复发/转移治疗决策前",
+        "timepoint": "2022 年 4 月启动二线治疗前",
+        "question": "患者原发灶为 HR+/HER2-，现出现多发转移。关于转移灶分子标志物检测的必要性，下列叙述正确的是？",
+        "options": {
+          "A": "转移灶受体状态可能改变，指南推荐再次活检重新检测",
+          "B": "原发灶结果可靠，转移灶无需检测，直接沿用原方案",
+          "C": "仅当原发灶为三阴性时才需检测转移灶，Luminal 型无需检测",
+          "D": "血液 ctDNA 检测可完全替代组织活检，无需穿刺转移灶"
+        },
+        "answer": "A",
+        "answer_text": "转移灶受体状态可能改变，指南推荐再次活检重新检测",
+        "explain": "指南指出复发转移灶受体状态可能与原发灶不一致（10%-40%），直接影响治疗决策，推荐对复发灶进行二次活检及免疫组化检测。",
+        "keyPoint": "复发转移灶存在分子异质性，指南推荐再次活检以重新评估受体状态指导治疗。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+          "split_index": 362,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+          "source_version": "2026",
+          "source_section": "13.2.3.1 药物预防性治疗",
+          "source_url": "",
+          "evidence_summary": "对复发灶应穿刺活检重新检测 ER、PR、HER2 及 Ki-67，因受体状态可能发生改变直接影响决策。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "诊断与分期",
+        "phase": "复发/转移诊断阶段",
+        "timepoint": "2021 年 12 月至 2022 年 3 月",
+        "question": "患者随访中发现右侧肾上腺新发病灶，CT 提示疑似转移。关于该病灶的定性诊断及分期检查策略，下列哪项最符合指南推荐？",
+        "options": {
+          "A": "直接认定为 IV 期并开始全身治疗，无需进一步影像确认",
+          "B": "首选 PET-CT 评估全身代谢情况，必要时穿刺活检明确病理",
+          "C": "仅凭 CT 形态学特征即可确诊转移，无需 PET-CT 或活检",
+          "D": "肾上腺为良性腺瘤高发区，应直接手术切除而非影像评估"
+        },
+        "answer": "B",
+        "answer_text": "首选 PET-CT 评估全身代谢情况，必要时穿刺活检明确病理",
+        "explain": "指南推荐对于可疑复发或转移，PET-CT 适用于常规检查难以分期的情况；病理活检是确诊金标准，尤其受体状态可能改变时。",
+        "keyPoint": "可疑转移灶需多模态影像评估，病理活检是确诊及指导治疗的金标准。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "c7f4613d-29bb-4096-9ad6-cb8d7314a425",
+          "split_index": 6,
+          "type": "guideline",
+          "authority": "中国医师协会放射肿瘤治疗医师分会",
+          "source_title": "乳腺癌放射治疗指南（中国医师协会2020版）",
+          "source_version": "2020",
+          "source_section": "乳腺癌放射治疗指南（中国医师协会2020版）",
+          "source_url": "",
+          "evidence_summary": "PET-CT 适用于随访中可疑复发或转移患者的评估；穿刺活检是乳腺癌确诊及分期检查的金标准。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "分子诊断",
+        "phase": "复发转移治疗决策前",
+        "timepoint": "2022 年 4 月",
+        "question": "本例患者多发转移后未行二次活检，直接沿用原发灶 Luminal B 型结果指导治疗。关于复发转移灶受体检测的原则，下列说法正确的是？",
+        "options": {
+          "A": "转移灶受体状态改变概率极低，无需重新检测，原发灶结果永远可靠",
+          "B": "仅当原发灶为三阴性乳腺癌时，才需要对转移灶进行二次活检",
+          "C": "指南推荐对复发灶进行活检并重新检测受体，因存在 10%-40% 改变可能",
+          "D": "若无法获取转移灶组织，必须终止全身治疗，不能参考原发灶结果"
+        },
+        "answer": "C",
+        "answer_text": "指南推荐对复发灶进行活检并重新检测受体，因存在 10%-40% 改变可能",
+        "explain": "指南强调复发转移时应争取二次活检，因受体状态可能发生 10%-40% 的改变。但若无法获取，可参考原发灶，而非必须终止治疗。",
+        "keyPoint": "复发转移灶受体状态可能存在异质性，推荐二次活检确认，但非绝对禁忌。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+          "split_index": 362,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+          "source_version": "2026",
+          "source_section": "13.2.3.1 药物预防性治疗",
+          "source_url": "",
+          "evidence_summary": "对复发灶进行穿刺或切除活检，重新检测 ER、PR、HER2，因受体状态可能发生改变（10%~40%）。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-F5CEC3E2",
+    "cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "乳腺癌随访中的新发病灶",
+      "description": "52岁绝经女性，乳腺癌术后先后出现骨、肾上腺及小脑病灶。"
+    },
+    "overview": {
+      "hero": {
+        "title": "乳腺癌随访中的新发病灶",
+        "subtitle": "新发肾上腺与脑病灶的评估、局部与系统治疗衔接，以及不同部位疗效的区分。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "52岁绝经女性，乳腺癌术后先后出现骨、肾上腺及小脑病灶。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "原发ER/PR阳性、HER2 0；转移病灶未提供病理受体复测结果。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "使用阿贝西利、氟维司群及骨改良治疗，并行头部放疗。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "新发肾上腺与脑病灶的评估、局部与系统治疗衔接，以及不同部位疗效的区分。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2020年6月及术后",
+              "title": "原发乳腺癌治疗",
+              "detail": "乳腺术后接受FEC，后阿那曲唑及骨健康相关治疗。"
+            },
+            {
+              "date": "随后随访",
+              "title": "肋骨病变进展",
+              "detail": "肋骨病变进展，接受化疗及局部放疗，化疗药物未详。"
+            },
+            {
+              "date": "2021年12月",
+              "title": "疑肾上腺转移",
+              "detail": "CT发现右肾上腺新病灶，疑似转移。"
+            },
+            {
+              "date": "2022年3—4月",
+              "title": "影像复评及新脑病灶",
+              "detail": "PET/CT支持肾上腺转移判断，MRI后发现小脑病灶。"
+            },
+            {
+              "date": "后续治疗",
+              "title": "系统联合局部策略",
+              "detail": "使用阿贝西利、氟维司群、唑来膦酸，并行头部放疗。"
+            },
+            {
+              "date": "2023年2月",
+              "title": "影像改善",
+              "detail": "肾上腺缩小，原文报告PR；脑部反应未单独明确。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

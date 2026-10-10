@@ -1,0 +1,28 @@
+{
+  "checks": [
+    {
+      "name": "原字符串病例逐字段输出不变",
+      "pass": true
+    },
+    {
+      "name": "learning_points文本数组按原序合并，生产字段及JSON载荷一致",
+      "pass": true
+    },
+    {
+      "name": "决策点、时间轴和标志物文本数组保留日期、数值与否定",
+      "pass": true
+    },
+    {
+      "name": "空数组/null归空，不补病例事实；错误对象/混合数组仍拒绝",
+      "pass": true
+    },
+    {
+      "name": "仅病例映射代码改变，所有模型、引用、必填变量和连接不变",
+      "pass": true
+    }
+  ],
+  "api_calls": 0,
+  "online_verified": false,
+  "real_failed_input_available": false,
+  "medical_review_status": "not_performed"
+}

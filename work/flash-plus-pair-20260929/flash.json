@@ -1,0 +1,1023 @@
+{
+  "selection_report": {
+    "schema_version": "triple-selection-1.0",
+    "candidate_count": 5,
+    "medical_approval_confirmed": false,
+    "source_groups": [
+      {
+        "group_id": "G1",
+        "parse_status": "OK",
+        "raw_question_count": 5,
+        "usable_question_count": 5,
+        "rejected_questions": [],
+        "warnings": [],
+        "audit": {
+          "availability": "not_provided"
+        },
+        "transport": {
+          "protocol": "single_json",
+          "json_block_count": 1,
+          "selected_block_index": 0,
+          "ignored_intermediate_blocks": 0,
+          "upstream_messages": []
+        },
+        "upstream_missing_information": [],
+        "flow_status": "OUTPUT_READY",
+        "completion": {
+          "required_question_count": 5,
+          "available_question_count": 5,
+          "model_question_count": 5,
+          "complete": true
+        },
+        "program_check": {
+          "scope": "program_structure_and_reference_identity_only",
+          "decision": "PASS",
+          "errors": [],
+          "warnings": [
+            "OPTION_STYLE Q4：四项有效字符数=41/40/37/39，正确项=A；干扰项含绝对化或极端措辞：需复核是否构成无需医学推理的排除线索，不能仅凭关键词判错。",
+            "ANSWER_POSITION_CONCENTRATION：答案位置少于3种；新写或重写题时分散，不机械调换合格题选项"
+          ]
+        },
+        "workflow_diagnostics": {
+          "scope": "debug_only_not_learner_content",
+          "question_evidence_bindings": [
+            {
+              "question_id": "Q1",
+              "evidence_id": "GS01",
+              "doc_id": "7e911bc2-d9c4-41ea-bcef-d28c231dc12d",
+              "split_index": 3,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q2",
+              "evidence_id": "IR01",
+              "doc_id": "b85fd9d2-9933-4cf3-912b-0ce3a43b3b3d",
+              "split_index": 32,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q3",
+              "evidence_id": "GB03",
+              "doc_id": "67c4d4fb-08f5-4412-90f7-4015e9ce42cd",
+              "split_index": 19,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q4",
+              "evidence_id": "CS01",
+              "doc_id": "6e2caad03ab62f3396186fd219069693",
+              "split_index": 1,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q5",
+              "evidence_id": "GS02",
+              "doc_id": "b2719254-d290-4ec9-866b-51b36cafd1bc",
+              "split_index": 56,
+              "matching_record_count": 1
+            }
+          ],
+          "cited_evidence_snapshot": [
+            {
+              "evidence_id": "GS01",
+              "doc_id": "7e911bc2-d9c4-41ea-bcef-d28c231dc12d",
+              "split_index": 3,
+              "type": "guideline",
+              "authority": "中华医学会外科学分会乳腺外科学组",
+              "source_title": "初诊IV期乳腺癌诊疗临床实践指南（2025版）",
+              "source_version": "2025",
+              "source_section": "初诊IV期乳腺癌诊疗临床实践指南（2025版）",
+              "source_url": "",
+              "snippet": "2.1 定义\n2.1.1 初诊IV期乳腺癌 指初次诊断时即存在远处转移（任何T、任何N、M1）的乳腺癌[1]（证据等级：I；推荐强度：A）。\n2.1.2 寡转移乳腺癌 转移灶数目和大小都局限的低负荷肿瘤转移状态，转移灶 \\$\\leq 5\\$ 个且不一定局限在同一个器官，可能通过局部治疗达到完全缓解[2]（证据等级：I；推荐强度：A）。\n2.2 初诊IV期乳腺癌的诊断原则\n2.2.1 基本原则 参照美国癌症联合委员会（American Joint Committee on Cancer, AJCC）乳腺癌分期标准进行评估，准确记录远处转移器官部位和转移病灶数目，尤其应明确是否存在内脏转移[1,3- 4]。全面评估病人全身状态及伴随疾病[5]，并询问家族病史（证据等级：I；推荐强度：A）。\n2.2.2 影像学检查（1）采用超声对腋窝淋巴结进行评估[6- 7]（证据等级：I；推荐强度：A）。（2）采用平扫CT评估肺转移，采用CT评估纵隔淋巴结转移[4,6]（证据等级：I；推荐强度：A）。（3）采用超声或CT评估腹部器官转移[4,6]（证据等级：I；推荐强度：A）。（4）采用MRI评估颅脑转移[8]（证据等级：I；推荐强度：A）。（5）采用全身骨显像（ECT）评估骨转移，对可疑部位行MRI或CT复查[9]（证据等级：I；推荐强度：A）。",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            },
+            {
+              "evidence_id": "GS02",
+              "doc_id": "b2719254-d290-4ec9-866b-51b36cafd1bc",
+              "split_index": 56,
+              "type": "guideline",
+              "authority": "CSCO",
+              "source_title": "中国临床肿瘤学会（CSCO）乳腺癌诊疗指南 2026",
+              "source_version": "2026",
+              "source_section": "【注释】",
+              "source_url": "",
+              "snippet": "1. 新辅助治疗是指在手术前进行全身药物治疗。治疗前充分评估患者局部肿瘤和全身情况，对制订科学、合理的治疗方案至关重要。  \n2. 肿瘤临床分期参考美国癌症联合委员会（American Joint Committee on Cancer, AJCC）编写的《AJCC癌症分期手册》（第8版）。对初诊患者，应合理选用检查手段进行TNM分期，包括肿块数目、位置、大小，区域淋巴结状况及远处病灶等，原发肿瘤的诊断详见“一、乳腺癌的诊断及检查”相关内容。  \n3. 淋巴结分期是决定患者后续治疗的重要步骤。腋窝淋巴结临床阴性患者，新辅助治疗前后均可进行前哨淋巴结活检，但建议在新辅助治疗前完成前哨淋巴结活检；腋窝淋巴结临床阳性患者，建议行穿刺活检明确诊断；新辅助治疗后腋窝淋巴结转阴的患者，前哨淋巴结活检具有一定的假阴性率，其临床应用目前尚存在争议。  \n4. 在新辅助治疗前，建议对原发灶进行瘤床定位，可在肿瘤内放置标记物或对肿瘤表面皮肤进行标记，为后续确定手术范围提供依据；术前穿刺阳性的腋窝淋巴结，也可考虑放置标记物进行标记。  \n5. 选用合理的检查手段进行肿瘤评价，原则上每周期都应进行肿瘤评估，如查体和超声评价肿瘤大小，必要时可以每2周期通过乳腺MRI进行肿瘤评估，根据通行的评价标准【参考实体瘤疗效评价标准（RECIST）1.1版本】，原则上应连续使用同一检查方法进行评价。  \n ",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            },
+            {
+              "evidence_id": "GB03",
+              "doc_id": "67c4d4fb-08f5-4412-90f7-4015e9ce42cd",
+              "split_index": 19,
+              "type": "guideline",
+              "authority": "CSCO",
+              "source_title": "人表皮生长因子受体2阳性乳腺癌临床诊疗专家共识(2021版)",
+              "source_version": "2021",
+              "source_section": "专家建议：",
+              "source_url": "",
+              "snippet": "6. HER2阳性/HR阳性的复发转移性乳腺癌，优先考虑抗HER2药物联合化疗，部分不适合化疗或进展缓慢的患者，也可考虑联合内分泌治疗，还可考虑联合CDK4/6抑制剂。抗HER2药物联合化疗达到疾病控制的患者，可考虑停化疗，采用抗HER2药物联合内分泌维持治疗。\n7. 抗HER2治疗联合化疗有效者应持续至少6\\~8周期，根据肿瘤疗效和患者对化疗的耐受程度，可考虑停化疗，采用抗HER2药物维持治疗，基于目前国内药物的可及性，专家组建议尽量不要随意停用抗HER2治疗。\n8. HER2阳性晚期乳腺癌治疗过程中出现脑转移，如果颅外病灶未进展，经有效的局部治疗后，可考虑继续使用原靶向治疗方案，必要时更换为TKI药物。",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            },
+            {
+              "evidence_id": "CS01",
+              "doc_id": "6e2caad03ab62f3396186fd219069693",
+              "split_index": 1,
+              "type": "meeting",
+              "authority": "ESMO",
+              "source_title": "397P - Efficacy and safety of the recombinant humanized anti-HER2 monoclonal antibody-MMAE conjugate RC48-ADC in patients with HER2-positive or HER2-low expressing, locally advanced or metastatic breast cancer: A single-arm phase II study",
+              "source_version": "2023",
+              "source_section": "397P - Efficacy and safety of the recombinant humanized anti-HER2 monoclonal antibody-MMAE conjugate RC48-ADC in patients with HER2-positive or HER2-low expressing, locally advanced or metastatic breast cancer: A single-arm phase II study",
+              "source_url": "https://cslide.ctimeetingtech.com/esmo2023/attendee/confcal_2/presentation",
+              "snippet": "Background\nCurrent treatment options for HER2-positive (IHC 3+, or IHC 2+/FISH+) metastatic breast cancer (MBC) at third-line and above have shown limited clinical benefit. There is no recommended HER2-targeting treatment for HER2-low expressing (IHC 2+/FISH-, or IHC 1+) population. Here, we report the efficacy and safety of RC48-ADC in patients with MBC.\nMethods\nPatients with HER2-positive or HER2-low expressing MBC were eligible and received RC48 2.5 mg/kg every two weeks alone or combined with drugs with different anti-tumor mechanisms, such as immune checkpoint inhibitors (ICIs), tyrosine kinase inhibitors (TKIs) and antiangiogenic compounds. The primary endpoint was the objective response rate (ORR). Secondary endpoints included progression-free survival (PFS), overall survival (OS), disease control rate (DCR) and safety.\nResults\n76 female MBC patients were enrolled and treated with RC48. 58 patients (76.3%) were HER2-positive and 18 patients (23.7%) were HER2-low expressing. At baseline, 35 patients (46.0%) had liver metastases, 27 patients (35.5%) had brain metastases, and 67 patients (88.1%) had received ≥3 prior chemotherapy regimens. In the overall population, the ORR was 31.6%. The median PFS was 5.7 months. The DCR was 57.9%. In the HER2-positive subgroup, the ORR and mPFS were 34.5% and 6.3 months. In the HER2-low expressing subgroup, the ORR and mPFS were 22.2% and 3.6 months. In addition, the mPFS in the dual drug combination-treated group was longer than that in the single drug treatment group, with mPFS of 7.1 months and 4.6 months, respectively. The most frequently reported adverse events were increased AST (62.4%), increased ALT (61.9%), decreased white blood cell count (42.4%), and fatigue (30.4%), most were grade 1-2 in severity.\nConclusions\nRC48-ADC showed consistent efficacy in HER2-positive and HER2-low expressing subgroups. No new safety signals were observed. Coadministration with ICIs, TKIs and antiangiogenic compounds demonstrated substantially enhanced efficacy and could be a future direction of ADC.\nLegal entity responsible for the study\nThe authors.\nFunding\nHas not received any funding.\nDisclosure\nAll authors have declared no conflicts of interest.",
+              "hard_evidence_type": "临床研究",
+              "reasoning_eligible": true
+            },
+            {
+              "evidence_id": "IR01",
+              "doc_id": "b85fd9d2-9933-4cf3-912b-0ce3a43b3b3d",
+              "split_index": 32,
+              "type": "guideline",
+              "authority": "CACA",
+              "source_title": "HER-2变异晚期非小细胞肺癌诊疗专家共识(2025版)",
+              "source_version": "2025",
+              "source_section": "六、展望",
+              "source_url": "",
+              "snippet": "<table><tr><td>药物类型</td><td>常见不良反应</td><td>总体不良反应发生率(%)</td><td>≥3级不良反应发生率(%)</td><td>剂量调整建议</td></tr><tr><td>腹泻</td><td>86.4</td><td>25</td></tr><tr><td>皮疹</td><td>42.3</td><td>0</td></tr><tr><td>甲沟炎</td><td>25</td><td>0</td></tr><tr><td>恶心</td><td>25</td><td>2.3</td></tr><tr><td>呕吐</td><td>20.5</td><td>4.5</td></tr><tr><td rowspan=\"6\">Pan-HER TKI<br/>吡咯替尼、阿法替尼等[38-39,45]</td><td>痤疮</td><td>18.2</td><td>0</td><td rowspan=\"6\">腹泻：(1)1～2级无需调整剂量；(2)初次发生3级腹泻，直至腹泻缓解至≤1级，以原剂量开始治疗；(3)若再次发生3级腹泻，暂停TKI治疗，直至腹泻缓解至≤1级以低剂量重新开始治疗[41]肝功能异常：(1)1级无需调整剂量；(2)基线正常但发生2级事件，暂停治疗直至恢复后考虑继续治疗；(3)出现3级异常暂停治疗[46]皮肤不良反应：(1)1～2级无需调整剂量；(2)3级按照说明书减剂量；(3)4级停药[40]</td></tr><tr><td>胃炎</td><td>18.2</td><td>2.3</td></tr><tr><td>腹泻</td><td>85.9～91.7</td><td>16.0～20</td></tr><tr><td>疲劳</td><td>57.5</td><td>1.3</td></tr><tr><td>血肌酐升高</td><td>24.4～30.0</td><td>0</td></tr><tr><td rowspan=\"6\"></td><td>手足综合征</td><td>32.1</td><td>0</td><td rowspan=\"6\"></td></tr><tr><td>白细胞减少</td><td>17.4</td><td>4.3</td></tr><tr><td>淋巴细胞减少</td><td>13</td><td>4.3</td></tr><tr><td>肝功能异常</td><td>15.0～21.8</td><td>0～1.7</td></tr></table>",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            }
+          ],
+          "retrieval_queries": {
+            "staging": "初始临床评估与分期指南\n原发诊断：左侧IV期HER2阳性乳腺癌（cT4bN3cM1），初始诊断时伴淋巴结、骨和肝脏多发转移；2019年4月出现多发脑转移；2021年9月颅内病灶进展\n初诊摘录：45岁女性，2017年8月确诊左侧IV期HER2阳性乳腺癌（cT4bN3cM1），初始诊断时已伴有淋巴结、骨和肝脏多发转移；初始治疗接受epirubicin联合环磷酰胺序贯化疗，随后采用帕妥珠单抗联合曲妥珠单抗靶向治疗，并行左侧乳腺癌改良根治术；术后接受内分泌治疗、靶向维持治疗及局部放疗\n匹配原发病种与分期检查、区域和远处病变评估，不用后续事实反推初诊。",
+            "molecular": "病理与分子检测及结果应用指南\n原发诊断：左侧IV期HER2阳性乳腺癌（cT4bN3cM1），初始诊断时伴淋巴结、骨和肝脏多发转移；2019年4月出现多发脑转移；2021年9月颅内病灶进展\n检测记录：HER2状态：阳性（2017年8月确诊时，原文未记载具体检测方法如IHC/FISH及评分）；其他分子标志物：未记载\n关注检测时机、结果等待与治疗衔接；检索关键词不代表初诊已知结果。",
+            "treatment": "初始系统治疗及复评调整正式指南\n原发诊断：左侧IV期HER2阳性乳腺癌（cT4bN3cM1），初始诊断时伴淋巴结、骨和肝脏多发转移；2019年4月出现多发脑转移；2021年9月颅内病灶进展\n实际治疗：2017年8月后｜初始治疗｜epirubicin联合环磷酰胺序贯化疗→帕妥珠单抗联合曲妥珠单抗靶向治疗→左侧乳腺癌改良根治术→术后内分泌治疗、靶向维持治疗及局部放疗；2019年4月后｜脑转移治疗｜全脑放疗（WBRT，40 Gy/20f）联合吡咯替尼和卡培他滨系统治疗；RC48单药治疗期间｜疗效与安全性｜颅内病灶PFS达12个月\n检测记录：HER2状态：阳性（2017年8月确诊时，原文未记载具体检测方法如IHC/FISH及评分）\n覆盖初始治疗选择、局部与全身协调及毒性后方案调整，核对治疗阶段。",
+            "study": "匹配病例实际方案的原始临床研究\n原发诊断：左侧IV期HER2阳性乳腺癌（cT4bN3cM1），初始诊断时伴淋巴结、骨和肝脏多发转移；2019年4月出现多发脑转移；2021年9月颅内病灶进展\n方案和阶段：2017年8月后｜初始治疗｜epirubicin联合环磷酰胺序贯化疗→帕妥珠单抗联合曲妥珠单抗靶向治疗→左侧乳腺癌改良根治术→术后内分泌治疗、靶向维持治疗及局部放疗；2019年4月后｜脑转移治疗｜全脑放疗（WBRT，40 Gy/20f）联合吡咯替尼和卡培他滨系统治疗；RC48单药治疗期间｜疗效与安全性｜颅内病灶PFS达12个月\n人群线索：HER2状态：阳性（2017年8月确诊时，原文未记载具体检测方法如IHC/FISH及评分）\n匹配药物、人群、治疗阶段与决策终点，需该记录已报告原始研究结果。",
+            "toxicity_a": "吡咯替尼+卡培他滨 严重胃肠道反应 分级未提供 毒性识别 鉴别诊断 暂缓停药 再治疗条件 支持处理 正式指南",
+            "toxicity_b": ""
+          },
+          "retrieval_health": {
+            "ok": true,
+            "errors": []
+          },
+          "compression_report": {
+            "input_counts": {
+              "guideline_a_staging": 7,
+              "guideline_a": 10,
+              "guideline_b": 4,
+              "clinical_study_initial": 7,
+              "clinical_study_supplement": 0,
+              "irae_a": 2,
+              "irae_b": 0
+            },
+            "kept_counts": {
+              "guideline_a_staging": 4,
+              "guideline_a": 6,
+              "guideline_b": 4,
+              "clinical_study_initial": 1,
+              "clinical_study_supplement": 0,
+              "irae_a": 2,
+              "irae_b": 0
+            },
+            "kept_total": 17,
+            "dropped_total": 13,
+            "dropped": [
+              {
+                "lane": "guideline_a_staging",
+                "index": 4,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a_staging",
+                "index": 5,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a_staging",
+                "index": 6,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 6,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 7,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 8,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 9,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 0,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "3ebef9b68ec0acac30354bbf0a9a87dd::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 1,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "243e31595ff6035376a255d6fd683f56::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 2,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "0c31947311d6f1b26ee593ecc6172008::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 3,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "28473b773a663ff4cdcc257ca9e410d6::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 4,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "1e7718321a223435040a4117ddefb273::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 6,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "7acdbdf26f9b346d219c50f163046df2::1"
+              }
+            ]
+          },
+          "second_round_raw": "",
+          "partial_draft_questions": []
+        },
+        "flow_publishable": false,
+        "output_ready": true,
+        "medical_review_status": "not_performed",
+        "generation_status": "success",
+        "evidence_context_status": "provided",
+        "workflow_revision": "20260929-unique-advanced-five"
+      }
+    ],
+    "selected": [
+      {
+        "final_id": "Q1",
+        "candidate_id": "G1_Q1",
+        "group_id": "G1",
+        "source_question_id": "Q1",
+        "evidence_status": "located",
+        "evidence_key": "G1_E1",
+        "source_question_audit": null,
+        "audit_scope": "original_candidate",
+        "answer_mapping": {
+          "original": "A",
+          "final": "A",
+          "order_preserved": true
+        }
+      },
+      {
+        "final_id": "Q2",
+        "candidate_id": "G1_Q2",
+        "group_id": "G1",
+        "source_question_id": "Q2",
+        "evidence_status": "located",
+        "evidence_key": "G1_E2",
+        "source_question_audit": null,
+        "audit_scope": "original_candidate",
+        "answer_mapping": {
+          "original": "A",
+          "final": "A",
+          "order_preserved": true
+        }
+      },
+      {
+        "final_id": "Q3",
+        "candidate_id": "G1_Q3",
+        "group_id": "G1",
+        "source_question_id": "Q3",
+        "evidence_status": "located",
+        "evidence_key": "G1_E3",
+        "source_question_audit": null,
+        "audit_scope": "original_candidate",
+        "answer_mapping": {
+          "original": "A",
+          "final": "A",
+          "order_preserved": true
+        }
+      },
+      {
+        "final_id": "Q4",
+        "candidate_id": "G1_Q4",
+        "group_id": "G1",
+        "source_question_id": "Q4",
+        "evidence_status": "located",
+        "evidence_key": "G1_E4",
+        "source_question_audit": null,
+        "audit_scope": "original_candidate",
+        "answer_mapping": {
+          "original": "A",
+          "final": "A",
+          "order_preserved": true
+        }
+      },
+      {
+        "final_id": "Q5",
+        "candidate_id": "G1_Q5",
+        "group_id": "G1",
+        "source_question_id": "Q5",
+        "evidence_status": "located",
+        "evidence_key": "G1_E5",
+        "source_question_audit": null,
+        "audit_scope": "original_candidate",
+        "answer_mapping": {
+          "original": "A",
+          "final": "A",
+          "order_preserved": true
+        }
+      }
+    ],
+    "selection_notes": [],
+    "warnings": [
+      "Q4（G1_Q4）选项表达待复核：41/40/37/39字；干扰项含绝对化或极端措辞：需复核是否构成无需医学推理的排除线索，不能仅凭关键词判错。",
+      "为保护位置相关选项语义，本组答案分布未均衡；这不是证据不足，不删除题目。"
+    ],
+    "notice": "本流程未进行独立医学审核；程序检查仅检查结构及引用定位，不代表医学正确性。",
+    "workflow_revision": "20260928-slim-five-outer",
+    "medical_review_status": "not_performed",
+    "required_question_count": 5,
+    "available_candidate_count": 5,
+    "workflow_status": "OUTPUT_READY",
+    "selection_method": "deterministic_original_order",
+    "editorial": {
+      "scope": "original_candidate_text_preserved",
+      "applied": [],
+      "rejected": []
+    },
+    "selection_status": "success",
+    "option_style_checks": [
+      {
+        "final_id": "Q1",
+        "candidate_id": "G1_Q1",
+        "version": "option-style-1.0",
+        "length_unit": "unicode_chars_excluding_spaces_punctuation_symbols",
+        "option_lengths": [
+          32,
+          32,
+          31,
+          31
+        ],
+        "answer_position": "A",
+        "correct_is_unique_longest": false,
+        "correct_to_distractor_median_ratio": 1.03,
+        "max_min_difference": 1,
+        "max_min_ratio": 1.03,
+        "absolute_phrase_positions": [],
+        "warning_codes": [],
+        "warnings": [],
+        "interpretation": "仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。"
+      },
+      {
+        "final_id": "Q2",
+        "candidate_id": "G1_Q2",
+        "version": "option-style-1.0",
+        "length_unit": "unicode_chars_excluding_spaces_punctuation_symbols",
+        "option_lengths": [
+          32,
+          33,
+          33,
+          33
+        ],
+        "answer_position": "A",
+        "correct_is_unique_longest": false,
+        "correct_to_distractor_median_ratio": 0.97,
+        "max_min_difference": 1,
+        "max_min_ratio": 1.03,
+        "absolute_phrase_positions": [],
+        "warning_codes": [],
+        "warnings": [],
+        "interpretation": "仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。"
+      },
+      {
+        "final_id": "Q3",
+        "candidate_id": "G1_Q3",
+        "version": "option-style-1.0",
+        "length_unit": "unicode_chars_excluding_spaces_punctuation_symbols",
+        "option_lengths": [
+          34,
+          33,
+          32,
+          36
+        ],
+        "answer_position": "A",
+        "correct_is_unique_longest": false,
+        "correct_to_distractor_median_ratio": 1.03,
+        "max_min_difference": 4,
+        "max_min_ratio": 1.13,
+        "absolute_phrase_positions": [],
+        "warning_codes": [],
+        "warnings": [],
+        "interpretation": "仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。"
+      },
+      {
+        "final_id": "Q4",
+        "candidate_id": "G1_Q4",
+        "version": "option-style-1.0",
+        "length_unit": "unicode_chars_excluding_spaces_punctuation_symbols",
+        "option_lengths": [
+          41,
+          40,
+          37,
+          39
+        ],
+        "answer_position": "A",
+        "correct_is_unique_longest": true,
+        "correct_to_distractor_median_ratio": 1.05,
+        "max_min_difference": 4,
+        "max_min_ratio": 1.11,
+        "absolute_phrase_positions": [
+          "B"
+        ],
+        "warning_codes": [
+          "DISTRACTOR_ABSOLUTE_CUE"
+        ],
+        "warnings": [
+          "干扰项含绝对化或极端措辞：需复核是否构成无需医学推理的排除线索，不能仅凭关键词判错。"
+        ],
+        "interpretation": "仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。"
+      },
+      {
+        "final_id": "Q5",
+        "candidate_id": "G1_Q5",
+        "version": "option-style-1.0",
+        "length_unit": "unicode_chars_excluding_spaces_punctuation_symbols",
+        "option_lengths": [
+          33,
+          29,
+          34,
+          36
+        ],
+        "answer_position": "A",
+        "correct_is_unique_longest": false,
+        "correct_to_distractor_median_ratio": 0.97,
+        "max_min_difference": 7,
+        "max_min_ratio": 1.24,
+        "absolute_phrase_positions": [],
+        "warning_codes": [],
+        "warnings": [],
+        "interpretation": "仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。"
+      }
+    ],
+    "answer_distribution": {
+      "A": 5,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "taxonomy_warnings": []
+  },
+  "selection_report_json": "{\"schema_version\":\"triple-selection-1.0\",\"candidate_count\":5,\"medical_approval_confirmed\":false,\"source_groups\":[{\"group_id\":\"G1\",\"parse_status\":\"OK\",\"raw_question_count\":5,\"usable_question_count\":5,\"rejected_questions\":[],\"warnings\":[],\"audit\":{\"availability\":\"not_provided\"},\"transport\":{\"protocol\":\"single_json\",\"json_block_count\":1,\"selected_block_index\":0,\"ignored_intermediate_blocks\":0,\"upstream_messages\":[]},\"upstream_missing_information\":[],\"flow_status\":\"OUTPUT_READY\",\"completion\":{\"required_question_count\":5,\"available_question_count\":5,\"model_question_count\":5,\"complete\":true},\"program_check\":{\"scope\":\"program_structure_and_reference_identity_only\",\"decision\":\"PASS\",\"errors\":[],\"warnings\":[\"OPTION_STYLE Q4：四项有效字符数=41/40/37/39，正确项=A；干扰项含绝对化或极端措辞：需复核是否构成无需医学推理的排除线索，不能仅凭关键词判错。\",\"ANSWER_POSITION_CONCENTRATION：答案位置少于3种；新写或重写题时分散，不机械调换合格题选项\"]},\"workflow_diagnostics\":{\"scope\":\"debug_only_not_learner_content\",\"question_evidence_bindings\":[{\"question_id\":\"Q1\",\"evidence_id\":\"GS01\",\"doc_id\":\"7e911bc2-d9c4-41ea-bcef-d28c231dc12d\",\"split_index\":3,\"matching_record_count\":1},{\"question_id\":\"Q2\",\"evidence_id\":\"IR01\",\"doc_id\":\"b85fd9d2-9933-4cf3-912b-0ce3a43b3b3d\",\"split_index\":32,\"matching_record_count\":1},{\"question_id\":\"Q3\",\"evidence_id\":\"GB03\",\"doc_id\":\"67c4d4fb-08f5-4412-90f7-4015e9ce42cd\",\"split_index\":19,\"matching_record_count\":1},{\"question_id\":\"Q4\",\"evidence_id\":\"CS01\",\"doc_id\":\"6e2caad03ab62f3396186fd219069693\",\"split_index\":1,\"matching_record_count\":1},{\"question_id\":\"Q5\",\"evidence_id\":\"GS02\",\"doc_id\":\"b2719254-d290-4ec9-866b-51b36cafd1bc\",\"split_index\":56,\"matching_record_count\":1}],\"cited_evidence_snapshot\":[{\"evidence_id\":\"GS01\",\"doc_id\":\"7e911bc2-d9c4-41ea-bcef-d28c231dc12d\",\"split_index\":3,\"type\":\"guideline\",\"authority\":\"中华医学会外科学分会乳腺外科学组\",\"source_title\":\"初诊IV期乳腺癌诊疗临床实践指南（2025版）\",\"source_version\":\"2025\",\"source_section\":\"初诊IV期乳腺癌诊疗临床实践指南（2025版）\",\"source_url\":\"\",\"snippet\":\"2.1 定义\\n2.1.1 初诊IV期乳腺癌 指初次诊断时即存在远处转移（任何T、任何N、M1）的乳腺癌[1]（证据等级：I；推荐强度：A）。\\n2.1.2 寡转移乳腺癌 转移灶数目和大小都局限的低负荷肿瘤转移状态，转移灶 \\\\$\\\\leq 5\\\\$ 个且不一定局限在同一个器官，可能通过局部治疗达到完全缓解[2]（证据等级：I；推荐强度：A）。\\n2.2 初诊IV期乳腺癌的诊断原则\\n2.2.1 基本原则 参照美国癌症联合委员会（American Joint Committee on Cancer, AJCC）乳腺癌分期标准进行评估，准确记录远处转移器官部位和转移病灶数目，尤其应明确是否存在内脏转移[1,3- 4]。全面评估病人全身状态及伴随疾病[5]，并询问家族病史（证据等级：I；推荐强度：A）。\\n2.2.2 影像学检查（1）采用超声对腋窝淋巴结进行评估[6- 7]（证据等级：I；推荐强度：A）。（2）采用平扫CT评估肺转移，采用CT评估纵隔淋巴结转移[4,6]（证据等级：I；推荐强度：A）。（3）采用超声或CT评估腹部器官转移[4,6]（证据等级：I；推荐强度：A）。（4）采用MRI评估颅脑转移[8]（证据等级：I；推荐强度：A）。（5）采用全身骨显像（ECT）评估骨转移，对可疑部位行MRI或CT复查[9]（证据等级：I；推荐强度：A）。\",\"hard_evidence_type\":\"指南\",\"reasoning_eligible\":true},{\"evidence_id\":\"GS02\",\"doc_id\":\"b2719254-d290-4ec9-866b-51b36cafd1bc\",\"split_index\":56,\"type\":\"guideline\",\"authority\":\"CSCO\",\"source_title\":\"中国临床肿瘤学会（CSCO）乳腺癌诊疗指南 2026\",\"source_version\":\"2026\",\"source_section\":\"【注释】\",\"source_url\":\"\",\"snippet\":\"1. 新辅助治疗是指在手术前进行全身药物治疗。治疗前充分评估患者局部肿瘤和全身情况，对制订科学、合理的治疗方案至关重要。  \\n2. 肿瘤临床分期参考美国癌症联合委员会（American Joint Committee on Cancer, AJCC）编写的《AJCC癌症分期手册》（第8版）。对初诊患者，应合理选用检查手段进行TNM分期，包括肿块数目、位置、大小，区域淋巴结状况及远处病灶等，原发肿瘤的诊断详见“一、乳腺癌的诊断及检查”相关内容。  \\n3. 淋巴结分期是决定患者后续治疗的重要步骤。腋窝淋巴结临床阴性患者，新辅助治疗前后均可进行前哨淋巴结活检，但建议在新辅助治疗前完成前哨淋巴结活检；腋窝淋巴结临床阳性患者，建议行穿刺活检明确诊断；新辅助治疗后腋窝淋巴结转阴的患者，前哨淋巴结活检具有一定的假阴性率，其临床应用目前尚存在争议。  \\n4. 在新辅助治疗前，建议对原发灶进行瘤床定位，可在肿瘤内放置标记物或对肿瘤表面皮肤进行标记，为后续确定手术范围提供依据；术前穿刺阳性的腋窝淋巴结，也可考虑放置标记物进行标记。  \\n5. 选用合理的检查手段进行肿瘤评价，原则上每周期都应进行肿瘤评估，如查体和超声评价肿瘤大小，必要时可以每2周期通过乳腺MRI进行肿瘤评估，根据通行的评价标准【参考实体瘤疗效评价标准（RECIST）1.1版本】，原则上应连续使用同一检查方法进行评价。  \\n \",\"hard_evidence_type\":\"指南\",\"reasoning_eligible\":true},{\"evidence_id\":\"GB03\",\"doc_id\":\"67c4d4fb-08f5-4412-90f7-4015e9ce42cd\",\"split_index\":19,\"type\":\"guideline\",\"authority\":\"CSCO\",\"source_title\":\"人表皮生长因子受体2阳性乳腺癌临床诊疗专家共识(2021版)\",\"source_version\":\"2021\",\"source_section\":\"专家建议：\",\"source_url\":\"\",\"snippet\":\"6. HER2阳性/HR阳性的复发转移性乳腺癌，优先考虑抗HER2药物联合化疗，部分不适合化疗或进展缓慢的患者，也可考虑联合内分泌治疗，还可考虑联合CDK4/6抑制剂。抗HER2药物联合化疗达到疾病控制的患者，可考虑停化疗，采用抗HER2药物联合内分泌维持治疗。\\n7. 抗HER2治疗联合化疗有效者应持续至少6\\\\~8周期，根据肿瘤疗效和患者对化疗的耐受程度，可考虑停化疗，采用抗HER2药物维持治疗，基于目前国内药物的可及性，专家组建议尽量不要随意停用抗HER2治疗。\\n8. HER2阳性晚期乳腺癌治疗过程中出现脑转移，如果颅外病灶未进展，经有效的局部治疗后，可考虑继续使用原靶向治疗方案，必要时更换为TKI药物。\",\"hard_evidence_type\":\"指南\",\"reasoning_eligible\":true},{\"evidence_id\":\"CS01\",\"doc_id\":\"6e2caad03ab62f3396186fd219069693\",\"split_index\":1,\"type\":\"meeting\",\"authority\":\"ESMO\",\"source_title\":\"397P - Efficacy and safety of the recombinant humanized anti-HER2 monoclonal antibody-MMAE conjugate RC48-ADC in patients with HER2-positive or HER2-low expressing, locally advanced or metastatic breast cancer: A single-arm phase II study\",\"source_version\":\"2023\",\"source_section\":\"397P - Efficacy and safety of the recombinant humanized anti-HER2 monoclonal antibody-MMAE conjugate RC48-ADC in patients with HER2-positive or HER2-low expressing, locally advanced or metastatic breast cancer: A single-arm phase II study\",\"source_url\":\"https://cslide.ctimeetingtech.com/esmo2023/attendee/confcal_2/presentation\",\"snippet\":\"Background\\nCurrent treatment options for HER2-positive (IHC 3+, or IHC 2+/FISH+) metastatic breast cancer (MBC) at third-line and above have shown limited clinical benefit. There is no recommended HER2-targeting treatment for HER2-low expressing (IHC 2+/FISH-, or IHC 1+) population. Here, we report the efficacy and safety of RC48-ADC in patients with MBC.\\nMethods\\nPatients with HER2-positive or HER2-low expressing MBC were eligible and received RC48 2.5 mg/kg every two weeks alone or combined with drugs with different anti-tumor mechanisms, such as immune checkpoint inhibitors (ICIs), tyrosine kinase inhibitors (TKIs) and antiangiogenic compounds. The primary endpoint was the objective response rate (ORR). Secondary endpoints included progression-free survival (PFS), overall survival (OS), disease control rate (DCR) and safety.\\nResults\\n76 female MBC patients were enrolled and treated with RC48. 58 patients (76.3%) were HER2-positive and 18 patients (23.7%) were HER2-low expressing. At baseline, 35 patients (46.0%) had liver metastases, 27 patients (35.5%) had brain metastases, and 67 patients (88.1%) had received ≥3 prior chemotherapy regimens. In the overall population, the ORR was 31.6%. The median PFS was 5.7 months. The DCR was 57.9%. In the HER2-positive subgroup, the ORR and mPFS were 34.5% and 6.3 months. In the HER2-low expressing subgroup, the ORR and mPFS were 22.2% and 3.6 months. In addition, the mPFS in the dual drug combination-treated group was longer than that in the single drug treatment group, with mPFS of 7.1 months and 4.6 months, respectively. The most frequently reported adverse events were increased AST (62.4%), increased ALT (61.9%), decreased white blood cell count (42.4%), and fatigue (30.4%), most were grade 1-2 in severity.\\nConclusions\\nRC48-ADC showed consistent efficacy in HER2-positive and HER2-low expressing subgroups. No new safety signals were observed. Coadministration with ICIs, TKIs and antiangiogenic compounds demonstrated substantially enhanced efficacy and could be a future direction of ADC.\\nLegal entity responsible for the study\\nThe authors.\\nFunding\\nHas not received any funding.\\nDisclosure\\nAll authors have declared no conflicts of interest.\",\"hard_evidence_type\":\"临床研究\",\"reasoning_eligible\":true},{\"evidence_id\":\"IR01\",\"doc_id\":\"b85fd9d2-9933-4cf3-912b-0ce3a43b3b3d\",\"split_index\":32,\"type\":\"guideline\",\"authority\":\"CACA\",\"source_title\":\"HER-2变异晚期非小细胞肺癌诊疗专家共识(2025版)\",\"source_version\":\"2025\",\"source_section\":\"六、展望\",\"source_url\":\"\",\"snippet\":\"<table><tr><td>药物类型</td><td>常见不良反应</td><td>总体不良反应发生率(%)</td><td>≥3级不良反应发生率(%)</td><td>剂量调整建议</td></tr><tr><td>腹泻</td><td>86.4</td><td>25</td></tr><tr><td>皮疹</td><td>42.3</td><td>0</td></tr><tr><td>甲沟炎</td><td>25</td><td>0</td></tr><tr><td>恶心</td><td>25</td><td>2.3</td></tr><tr><td>呕吐</td><td>20.5</td><td>4.5</td></tr><tr><td rowspan=\\\"6\\\">Pan-HER TKI<br/>吡咯替尼、阿法替尼等[38-39,45]</td><td>痤疮</td><td>18.2</td><td>0</td><td rowspan=\\\"6\\\">腹泻：(1)1～2级无需调整剂量；(2)初次发生3级腹泻，直至腹泻缓解至≤1级，以原剂量开始治疗；(3)若再次发生3级腹泻，暂停TKI治疗，直至腹泻缓解至≤1级以低剂量重新开始治疗[41]肝功能异常：(1)1级无需调整剂量；(2)基线正常但发生2级事件，暂停治疗直至恢复后考虑继续治疗；(3)出现3级异常暂停治疗[46]皮肤不良反应：(1)1～2级无需调整剂量；(2)3级按照说明书减剂量；(3)4级停药[40]</td></tr><tr><td>胃炎</td><td>18.2</td><td>2.3</td></tr><tr><td>腹泻</td><td>85.9～91.7</td><td>16.0～20</td></tr><tr><td>疲劳</td><td>57.5</td><td>1.3</td></tr><tr><td>血肌酐升高</td><td>24.4～30.0</td><td>0</td></tr><tr><td rowspan=\\\"6\\\"></td><td>手足综合征</td><td>32.1</td><td>0</td><td rowspan=\\\"6\\\"></td></tr><tr><td>白细胞减少</td><td>17.4</td><td>4.3</td></tr><tr><td>淋巴细胞减少</td><td>13</td><td>4.3</td></tr><tr><td>肝功能异常</td><td>15.0～21.8</td><td>0～1.7</td></tr></table>\",\"hard_evidence_type\":\"指南\",\"reasoning_eligible\":true}],\"retrieval_queries\":{\"staging\":\"初始临床评估与分期指南\\n原发诊断：左侧IV期HER2阳性乳腺癌（cT4bN3cM1），初始诊断时伴淋巴结、骨和肝脏多发转移；2019年4月出现多发脑转移；2021年9月颅内病灶进展\\n初诊摘录：45岁女性，2017年8月确诊左侧IV期HER2阳性乳腺癌（cT4bN3cM1），初始诊断时已伴有淋巴结、骨和肝脏多发转移；初始治疗接受epirubicin联合环磷酰胺序贯化疗，随后采用帕妥珠单抗联合曲妥珠单抗靶向治疗，并行左侧乳腺癌改良根治术；术后接受内分泌治疗、靶向维持治疗及局部放疗\\n匹配原发病种与分期检查、区域和远处病变评估，不用后续事实反推初诊。\",\"molecular\":\"病理与分子检测及结果应用指南\\n原发诊断：左侧IV期HER2阳性乳腺癌（cT4bN3cM1），初始诊断时伴淋巴结、骨和肝脏多发转移；2019年4月出现多发脑转移；2021年9月颅内病灶进展\\n检测记录：HER2状态：阳性（2017年8月确诊时，原文未记载具体检测方法如IHC/FISH及评分）；其他分子标志物：未记载\\n关注检测时机、结果等待与治疗衔接；检索关键词不代表初诊已知结果。\",\"treatment\":\"初始系统治疗及复评调整正式指南\\n原发诊断：左侧IV期HER2阳性乳腺癌（cT4bN3cM1），初始诊断时伴淋巴结、骨和肝脏多发转移；2019年4月出现多发脑转移；2021年9月颅内病灶进展\\n实际治疗：2017年8月后｜初始治疗｜epirubicin联合环磷酰胺序贯化疗→帕妥珠单抗联合曲妥珠单抗靶向治疗→左侧乳腺癌改良根治术→术后内分泌治疗、靶向维持治疗及局部放疗；2019年4月后｜脑转移治疗｜全脑放疗（WBRT，40 Gy/20f）联合吡咯替尼和卡培他滨系统治疗；RC48单药治疗期间｜疗效与安全性｜颅内病灶PFS达12个月\\n检测记录：HER2状态：阳性（2017年8月确诊时，原文未记载具体检测方法如IHC/FISH及评分）\\n覆盖初始治疗选择、局部与全身协调及毒性后方案调整，核对治疗阶段。\",\"study\":\"匹配病例实际方案的原始临床研究\\n原发诊断：左侧IV期HER2阳性乳腺癌（cT4bN3cM1），初始诊断时伴淋巴结、骨和肝脏多发转移；2019年4月出现多发脑转移；2021年9月颅内病灶进展\\n方案和阶段：2017年8月后｜初始治疗｜epirubicin联合环磷酰胺序贯化疗→帕妥珠单抗联合曲妥珠单抗靶向治疗→左侧乳腺癌改良根治术→术后内分泌治疗、靶向维持治疗及局部放疗；2019年4月后｜脑转移治疗｜全脑放疗（WBRT，40 Gy/20f）联合吡咯替尼和卡培他滨系统治疗；RC48单药治疗期间｜疗效与安全性｜颅内病灶PFS达12个月\\n人群线索：HER2状态：阳性（2017年8月确诊时，原文未记载具体检测方法如IHC/FISH及评分）\\n匹配药物、人群、治疗阶段与决策终点，需该记录已报告原始研究结果。\",\"toxicity_a\":\"吡咯替尼+卡培他滨 严重胃肠道反应 分级未提供 毒性识别 鉴别诊断 暂缓停药 再治疗条件 支持处理 正式指南\",\"toxicity_b\":\"\"},\"retrieval_health\":{\"ok\":true,\"errors\":[]},\"compression_report\":{\"input_counts\":{\"guideline_a_staging\":7,\"guideline_a\":10,\"guideline_b\":4,\"clinical_study_initial\":7,\"clinical_study_supplement\":0,\"irae_a\":2,\"irae_b\":0},\"kept_counts\":{\"guideline_a_staging\":4,\"guideline_a\":6,\"guideline_b\":4,\"clinical_study_initial\":1,\"clinical_study_supplement\":0,\"irae_a\":2,\"irae_b\":0},\"kept_total\":17,\"dropped_total\":13,\"dropped\":[{\"lane\":\"guideline_a_staging\",\"index\":4,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"guideline_a_staging\",\"index\":5,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"guideline_a_staging\",\"index\":6,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"guideline_a\",\"index\":6,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"guideline_a\",\"index\":7,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"guideline_a\",\"index\":8,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"guideline_a\",\"index\":9,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"clinical_study_initial\",\"index\":0,\"reason\":\"INELIGIBLE_SOURCE\",\"locator\":\"3ebef9b68ec0acac30354bbf0a9a87dd::1\"},{\"lane\":\"clinical_study_initial\",\"index\":1,\"reason\":\"INELIGIBLE_SOURCE\",\"locator\":\"243e31595ff6035376a255d6fd683f56::1\"},{\"lane\":\"clinical_study_initial\",\"index\":2,\"reason\":\"INELIGIBLE_SOURCE\",\"locator\":\"0c31947311d6f1b26ee593ecc6172008::1\"},{\"lane\":\"clinical_study_initial\",\"index\":3,\"reason\":\"INELIGIBLE_SOURCE\",\"locator\":\"28473b773a663ff4cdcc257ca9e410d6::1\"},{\"lane\":\"clinical_study_initial\",\"index\":4,\"reason\":\"INELIGIBLE_SOURCE\",\"locator\":\"1e7718321a223435040a4117ddefb273::1\"},{\"lane\":\"clinical_study_initial\",\"index\":6,\"reason\":\"INELIGIBLE_SOURCE\",\"locator\":\"7acdbdf26f9b346d219c50f163046df2::1\"}]},\"second_round_raw\":\"\",\"partial_draft_questions\":[]},\"flow_publishable\":false,\"output_ready\":true,\"medical_review_status\":\"not_performed\",\"generation_status\":\"success\",\"evidence_context_status\":\"provided\",\"workflow_revision\":\"20260929-unique-advanced-five\"}],\"selected\":[{\"final_id\":\"Q1\",\"candidate_id\":\"G1_Q1\",\"group_id\":\"G1\",\"source_question_id\":\"Q1\",\"evidence_status\":\"located\",\"evidence_key\":\"G1_E1\",\"source_question_audit\":null,\"audit_scope\":\"original_candidate\",\"answer_mapping\":{\"original\":\"A\",\"final\":\"A\",\"order_preserved\":true}},{\"final_id\":\"Q2\",\"candidate_id\":\"G1_Q2\",\"group_id\":\"G1\",\"source_question_id\":\"Q2\",\"evidence_status\":\"located\",\"evidence_key\":\"G1_E2\",\"source_question_audit\":null,\"audit_scope\":\"original_candidate\",\"answer_mapping\":{\"original\":\"A\",\"final\":\"A\",\"order_preserved\":true}},{\"final_id\":\"Q3\",\"candidate_id\":\"G1_Q3\",\"group_id\":\"G1\",\"source_question_id\":\"Q3\",\"evidence_status\":\"located\",\"evidence_key\":\"G1_E3\",\"source_question_audit\":null,\"audit_scope\":\"original_candidate\",\"answer_mapping\":{\"original\":\"A\",\"final\":\"A\",\"order_preserved\":true}},{\"final_id\":\"Q4\",\"candidate_id\":\"G1_Q4\",\"group_id\":\"G1\",\"source_question_id\":\"Q4\",\"evidence_status\":\"located\",\"evidence_key\":\"G1_E4\",\"source_question_audit\":null,\"audit_scope\":\"original_candidate\",\"answer_mapping\":{\"original\":\"A\",\"final\":\"A\",\"order_preserved\":true}},{\"final_id\":\"Q5\",\"candidate_id\":\"G1_Q5\",\"group_id\":\"G1\",\"source_question_id\":\"Q5\",\"evidence_status\":\"located\",\"evidence_key\":\"G1_E5\",\"source_question_audit\":null,\"audit_scope\":\"original_candidate\",\"answer_mapping\":{\"original\":\"A\",\"final\":\"A\",\"order_preserved\":true}}],\"selection_notes\":[],\"warnings\":[\"Q4（G1_Q4）选项表达待复核：41/40/37/39字；干扰项含绝对化或极端措辞：需复核是否构成无需医学推理的排除线索，不能仅凭关键词判错。\",\"为保护位置相关选项语义，本组答案分布未均衡；这不是证据不足，不删除题目。\"],\"notice\":\"本流程未进行独立医学审核；程序检查仅检查结构及引用定位，不代表医学正确性。\",\"workflow_revision\":\"20260928-slim-five-outer\",\"medical_review_status\":\"not_performed\",\"required_question_count\":5,\"available_candidate_count\":5,\"workflow_status\":\"OUTPUT_READY\",\"selection_method\":\"deterministic_original_order\",\"editorial\":{\"scope\":\"original_candidate_text_preserved\",\"applied\":[],\"rejected\":[]},\"selection_status\":\"success\",\"option_style_checks\":[{\"final_id\":\"Q1\",\"candidate_id\":\"G1_Q1\",\"version\":\"option-style-1.0\",\"length_unit\":\"unicode_chars_excluding_spaces_punctuation_symbols\",\"option_lengths\":[32,32,31,31],\"answer_position\":\"A\",\"correct_is_unique_longest\":false,\"correct_to_distractor_median_ratio\":1.03,\"max_min_difference\":1,\"max_min_ratio\":1.03,\"absolute_phrase_positions\":[],\"warning_codes\":[],\"warnings\":[],\"interpretation\":\"仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。\"},{\"final_id\":\"Q2\",\"candidate_id\":\"G1_Q2\",\"version\":\"option-style-1.0\",\"length_unit\":\"unicode_chars_excluding_spaces_punctuation_symbols\",\"option_lengths\":[32,33,33,33],\"answer_position\":\"A\",\"correct_is_unique_longest\":false,\"correct_to_distractor_median_ratio\":0.97,\"max_min_difference\":1,\"max_min_ratio\":1.03,\"absolute_phrase_positions\":[],\"warning_codes\":[],\"warnings\":[],\"interpretation\":\"仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。\"},{\"final_id\":\"Q3\",\"candidate_id\":\"G1_Q3\",\"version\":\"option-style-1.0\",\"length_unit\":\"unicode_chars_excluding_spaces_punctuation_symbols\",\"option_lengths\":[34,33,32,36],\"answer_position\":\"A\",\"correct_is_unique_longest\":false,\"correct_to_distractor_median_ratio\":1.03,\"max_min_difference\":4,\"max_min_ratio\":1.13,\"absolute_phrase_positions\":[],\"warning_codes\":[],\"warnings\":[],\"interpretation\":\"仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。\"},{\"final_id\":\"Q4\",\"candidate_id\":\"G1_Q4\",\"version\":\"option-style-1.0\",\"length_unit\":\"unicode_chars_excluding_spaces_punctuation_symbols\",\"option_lengths\":[41,40,37,39],\"answer_position\":\"A\",\"correct_is_unique_longest\":true,\"correct_to_distractor_median_ratio\":1.05,\"max_min_difference\":4,\"max_min_ratio\":1.11,\"absolute_phrase_positions\":[\"B\"],\"warning_codes\":[\"DISTRACTOR_ABSOLUTE_CUE\"],\"warnings\":[\"干扰项含绝对化或极端措辞：需复核是否构成无需医学推理的排除线索，不能仅凭关键词判错。\"],\"interpretation\":\"仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。\"},{\"final_id\":\"Q5\",\"candidate_id\":\"G1_Q5\",\"version\":\"option-style-1.0\",\"length_unit\":\"unicode_chars_excluding_spaces_punctuation_symbols\",\"option_lengths\":[33,29,34,36],\"answer_position\":\"A\",\"correct_is_unique_longest\":false,\"correct_to_distractor_median_ratio\":0.97,\"max_min_difference\":7,\"max_min_ratio\":1.24,\"absolute_phrase_positions\":[],\"warning_codes\":[],\"warnings\":[],\"interpretation\":\"仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。\"}],\"answer_distribution\":{\"A\":5,\"B\":0,\"C\":0,\"D\":0},\"taxonomy_warnings\":[]}",
+  "quality_notice": "本流程未进行独立医学审核；程序检查仅检查结构及引用定位，不代表医学正确性。\nQ4（G1_Q4）选项表达待复核：41/40/37/39字；干扰项含绝对化或极端措辞：需复核是否构成无需医学推理的排除线索，不能仅凭关键词判错。\n为保护位置相关选项语义，本组答案分布未均衡；这不是证据不足，不删除题目。",
+  "final_data": {
+    "schema_version": "1.0",
+    "case_id": "CASE-79CA83DD",
+    "cancer_type": "乳腺癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "初始诊断",
+        "timepoint": "2017年8月",
+        "question": "患者初诊时伴淋巴结、骨和肝脏多发转移。依据初诊IV期乳腺癌诊疗指南，关于其基线评估与分期记录，下列哪项正确？",
+        "options": {
+          "A": "准确记录远处转移器官部位和转移病灶数目，尤其应明确是否存在内脏转移",
+          "B": "因已行改良根治术，术后病理TNM分期可直接替代初诊临床分期作为基线",
+          "C": "仅需通过全身骨显像评估骨转移，无需对肝脏等腹部器官进行影像学评估",
+          "D": "初诊IV期乳腺癌首选原发灶局部外科处理，全身系统治疗应在术后启动"
+        },
+        "answer": "A",
+        "answer_text": "准确记录远处转移器官部位和转移病灶数目，尤其应明确是否存在内脏转移",
+        "explain": "A｜正确：指南明确要求参照AJCC标准评估，准确记录远处转移器官部位和转移病灶数目，尤其应明确是否存在内脏转移。\nB｜不正确：初诊IV期应参照AJCC标准进行临床分期评估，术后病理不能替代初诊基线临床分期。\nC｜不正确：指南推荐采用超声或CT评估腹部器官转移，骨显像不能替代腹部影像学评估。\nD｜不正确：指南指出初诊IV期乳腺癌首选全身系统治疗理念已获共识，而非首选局部外科处理。",
+        "keyPoint": "初诊IV期乳腺癌基线评估须准确记录转移部位与数目，明确内脏转移状态。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "7e911bc2-d9c4-41ea-bcef-d28c231dc12d",
+          "split_index": 3,
+          "type": "guideline",
+          "authority": "中华医学会外科学分会乳腺外科学组",
+          "source_title": "初诊IV期乳腺癌诊疗临床实践指南（2025版）",
+          "source_version": "2025",
+          "source_section": "初诊IV期乳腺癌诊疗临床实践指南（2025版）",
+          "source_url": "",
+          "evidence_summary": "初诊IV期乳腺癌应参照AJCC标准评估，准确记录远处转移器官部位和转移病灶数目，尤其应明确是否存在内脏转移。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "不良反应管理",
+        "phase": "脑转移系统治疗",
+        "timepoint": "2019年4月后",
+        "question": "患者使用吡咯替尼联合卡培他滨期间出现严重胃肠道反应致治疗受限。关于TKI相关性腹泻的管理，以下处理正确的是？",
+        "options": {
+          "A": "初次发生3级腹泻时，暂停吡咯替尼直至缓解至≤1级，以原剂量重新开始治疗",
+          "B": "若再次发生3级腹泻，应永久停用吡咯替尼并更换为其他非TKI类靶向药物",
+          "C": "发生3-4级腹泻导致暂停吡咯替尼后，再次恢复治疗时无需预防性使用止泻药",
+          "D": "1至2级腹泻提示药物不耐受，应立即减量或暂停吡咯替尼以避免进展为3级"
+        },
+        "answer": "A",
+        "answer_text": "初次发生3级腹泻时，暂停吡咯替尼直至缓解至≤1级，以原剂量重新开始治疗",
+        "explain": "A｜正确：指南规定初次发生3级腹泻，直至缓解至≤1级，以原剂量开始治疗，符合本例管理原则。\nB｜不正确：再次发生3级腹泻应暂停治疗，缓解至≤1级以低剂量重新开始，而非永久停药。\nC｜不正确：PANDORA研究提示，因3-4级腹泻暂停后再次恢复吡咯替尼时，建议使用洛哌丁胺预防。\nD｜不正确：1至2级腹泻无需调整剂量，应尽早进行腹泻防治和管理，而非立即减量或暂停。",
+        "keyPoint": "TKI初次3级腹泻暂停至≤1级后原剂量恢复，再次3级腹泻才减量重启。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "b85fd9d2-9933-4cf3-912b-0ce3a43b3b3d",
+          "split_index": 32,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "HER-2变异晚期非小细胞肺癌诊疗专家共识(2025版)",
+          "source_version": "2025",
+          "source_section": "六、展望",
+          "source_url": "",
+          "evidence_summary": "吡咯替尼等TKI腹泻管理：初次3级暂停至≤1级原剂量恢复；再次3级暂停至≤1级低剂量恢复；1-2级无需调整剂量。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "颅内进展",
+        "timepoint": "2021年9月",
+        "question": "患者颅内病灶进展而颅外病灶保持稳定。依据HER2阳性乳腺癌诊疗专家共识，此时系统治疗方案调整的原则是？",
+        "options": {
+          "A": "经有效的局部治疗后，可考虑继续使用原靶向治疗方案，必要时更换为TKI药物",
+          "B": "颅内进展即代表全身耐药，必须立即停用所有抗HER2药物并转为单纯化疗",
+          "C": "颅外稳定说明原方案完全有效，无论颅内情况如何均不应调整任何系统治疗",
+          "D": "脑转移进展后应优先选择大分子单抗联合化疗，因TKI和ADC无法透过血脑屏障"
+        },
+        "answer": "A",
+        "answer_text": "经有效的局部治疗后，可考虑继续使用原靶向治疗方案，必要时更换为TKI药物",
+        "explain": "A｜正确：共识明确HER2阳性晚期脑转移若颅外未进展，有效局部治疗后可考虑续用原靶向或换TKI。\nB｜不正确：颅外稳定提示原方案对颅外病灶仍有效，不应立即停用所有抗HER2药物转为单纯化疗。\nC｜不正确：颅内进展提示原方案对颅内控制不佳，必要时需更换为TKI等药物，而非完全不调整。\nD｜不正确：共识指出TKI类药物和ADC可优先选择，认为TKI和ADC无法透过血脑屏障与指南相悖。",
+        "keyPoint": "HER2阳性脑转移颅外未进展时，局部治疗后可续用原靶向或换TKI，非绝对全身耐药。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "67c4d4fb-08f5-4412-90f7-4015e9ce42cd",
+          "split_index": 19,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "人表皮生长因子受体2阳性乳腺癌临床诊疗专家共识(2021版)",
+          "source_version": "2021",
+          "source_section": "专家建议：",
+          "source_url": "",
+          "evidence_summary": "HER2阳性晚期乳腺癌脑转移若颅外未进展，有效局部治疗后可考虑续用原靶向方案，必要时更换为TKI药物。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "耐药与后线管理",
+        "phase": "ADC单药治疗",
+        "timepoint": "2021年9月后",
+        "question": "患者启动RC48单药治疗。依据RC48-ADC治疗HER2阳性晚期乳腺癌的II期研究，关于该研究的入组人群与疗效特征，下列哪项正确？",
+        "options": {
+          "A": "入组患者中88.1%既往接受过≥3线化疗，HER2阳性亚组ORR为34.5%、mPFS为6.3个月",
+          "B": "该研究证明RC48单药在所有入组人群中均优于联合ICIs或TKIs的双药治疗方案",
+          "C": "研究入组患者均为初治IV期HER2阳性乳腺癌，未接受过任何既往化疗或靶向治疗",
+          "D": "RC48-ADC在HER2低表达亚组的ORR和mPFS均显著高于HER2阳性亚组"
+        },
+        "answer": "A",
+        "answer_text": "入组患者中88.1%既往接受过≥3线化疗，HER2阳性亚组ORR为34.5%、mPFS为6.3个月",
+        "explain": "A｜正确：研究结果显示88.1%患者既往接受≥3线化疗，HER2阳性亚组ORR 34.5%、mPFS 6.3个月。\nB｜不正确：研究提示双药联合组mPFS长于单药组，并未证明单药在所有人群中优于联合方案。\nC｜不正确：入组患者为局部晚期或转移性乳腺癌且多线经治，并非初治IV期未接受过任何治疗。\nD｜不正确：HER2低表达亚组ORR 22.2%、mPFS 3.6个月，均低于HER2阳性亚组，并非显著高于。",
+        "keyPoint": "RC48-ADC II期研究入组多为≥3线化疗经治患者，HER2阳性亚组ORR 34.5%、mPFS 6.3个月。",
+        "guidelineRef": {
+          "evidence_type": "临床研究",
+          "doc_id": "6e2caad03ab62f3396186fd219069693",
+          "split_index": 1,
+          "type": "meeting",
+          "authority": "ESMO",
+          "source_title": "397P - Efficacy and safety of the recombinant humanized anti-HER2 monoclonal antibody-MMAE conjugate RC48-ADC in patients with HER2-positive or HER2-low expressing, locally advanced or metastatic breast cancer: A single-arm phase II study",
+          "source_version": "2023",
+          "source_section": "397P - Efficacy and safety of the recombinant humanized anti-HER2 monoclonal antibody-MMAE conjugate RC48-ADC in patients with HER2-positive or HER2-low expressing, locally advanced or metastatic breast cancer: A single-arm phase II study",
+          "source_url": "https://cslide.ctimeetingtech.com/esmo2023/attendee/confcal_2/presentation",
+          "evidence_summary": "RC48-ADC II期研究：88.1%患者≥3线化疗；HER2阳性亚组ORR 34.5%、mPFS 6.3个月；双药联合mPFS优于单药。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "疗效复评与局部治疗",
+        "phase": "RC48治疗期间",
+        "timepoint": "首个周期后",
+        "question": "患者RC48治疗首个周期后神经系统症状迅速改善。关于后续疗效评估与影像学随访，下列哪项正确？",
+        "options": {
+          "A": "原则上每周期都应进行肿瘤评估，必要时可每2周期通过MRI进行肿瘤评估",
+          "B": "症状改善即可作为疗效评价终点，无需再进行影像学客观缓解率评估",
+          "C": "疗效评估应交替使用CT和MRI，以全面覆盖颅内外病灶并避免单一方法偏差",
+          "D": "RC48治疗期间仅需在5个周期结束时进行一次颅脑MRI评估，无需每周期查体"
+        },
+        "answer": "A",
+        "answer_text": "原则上每周期都应进行肿瘤评估，必要时可每2周期通过MRI进行肿瘤评估",
+        "explain": "A｜正确：指南规定原则上每周期都应进行肿瘤评估，必要时可每2周期通过乳腺MRI进行肿瘤评估。\nB｜不正确：症状改善不能替代影像学客观缓解率评估，疗效评价须依据通行的实体瘤疗效评价标准。\nC｜不正确：指南强调原则上应连续使用同一检查方法进行评价，交替使用CT和MRI不符合评估原则。\nD｜不正确：仅5周期后评估一次不符合每周期评估的原则，且查体和影像学评估应贯穿治疗全程。",
+        "keyPoint": "抗肿瘤治疗疗效评估原则上每周期进行，必要时每2周期MRI评估，且应连续使用同一方法。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "b2719254-d290-4ec9-866b-51b36cafd1bc",
+          "split_index": 56,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会（CSCO）乳腺癌诊疗指南 2026",
+          "source_version": "2026",
+          "source_section": "【注释】",
+          "source_url": "",
+          "evidence_summary": "新辅助/系统治疗评价原则上每周期进行，必要时每2周期MRI评估，应连续使用同一检查方法，参考RECIST 1.1。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "final_json": "{\"schema_version\":\"1.0\",\"case_id\":\"CASE-79CA83DD\",\"cancer_type\":\"乳腺癌\",\"generation_status\":\"success\",\"difficulty\":\"进阶\",\"question_count\":5,\"questions\":[{\"id\":\"Q1\",\"type\":\"诊断与分期\",\"phase\":\"初始诊断\",\"timepoint\":\"2017年8月\",\"question\":\"患者初诊时伴淋巴结、骨和肝脏多发转移。依据初诊IV期乳腺癌诊疗指南，关于其基线评估与分期记录，下列哪项正确？\",\"options\":{\"A\":\"准确记录远处转移器官部位和转移病灶数目，尤其应明确是否存在内脏转移\",\"B\":\"因已行改良根治术，术后病理TNM分期可直接替代初诊临床分期作为基线\",\"C\":\"仅需通过全身骨显像评估骨转移，无需对肝脏等腹部器官进行影像学评估\",\"D\":\"初诊IV期乳腺癌首选原发灶局部外科处理，全身系统治疗应在术后启动\"},\"answer\":\"A\",\"answer_text\":\"准确记录远处转移器官部位和转移病灶数目，尤其应明确是否存在内脏转移\",\"explain\":\"A｜正确：指南明确要求参照AJCC标准评估，准确记录远处转移器官部位和转移病灶数目，尤其应明确是否存在内脏转移。\\nB｜不正确：初诊IV期应参照AJCC标准进行临床分期评估，术后病理不能替代初诊基线临床分期。\\nC｜不正确：指南推荐采用超声或CT评估腹部器官转移，骨显像不能替代腹部影像学评估。\\nD｜不正确：指南指出初诊IV期乳腺癌首选全身系统治疗理念已获共识，而非首选局部外科处理。\",\"keyPoint\":\"初诊IV期乳腺癌基线评估须准确记录转移部位与数目，明确内脏转移状态。\",\"guidelineRef\":{\"evidence_type\":\"指南\",\"doc_id\":\"7e911bc2-d9c4-41ea-bcef-d28c231dc12d\",\"split_index\":3,\"type\":\"guideline\",\"authority\":\"中华医学会外科学分会乳腺外科学组\",\"source_title\":\"初诊IV期乳腺癌诊疗临床实践指南（2025版）\",\"source_version\":\"2025\",\"source_section\":\"初诊IV期乳腺癌诊疗临床实践指南（2025版）\",\"source_url\":\"\",\"evidence_summary\":\"初诊IV期乳腺癌应参照AJCC标准评估，准确记录远处转移器官部位和转移病灶数目，尤其应明确是否存在内脏转移。\"}},{\"id\":\"Q2\",\"type\":\"不良反应管理\",\"phase\":\"脑转移系统治疗\",\"timepoint\":\"2019年4月后\",\"question\":\"患者使用吡咯替尼联合卡培他滨期间出现严重胃肠道反应致治疗受限。关于TKI相关性腹泻的管理，以下处理正确的是？\",\"options\":{\"A\":\"初次发生3级腹泻时，暂停吡咯替尼直至缓解至≤1级，以原剂量重新开始治疗\",\"B\":\"若再次发生3级腹泻，应永久停用吡咯替尼并更换为其他非TKI类靶向药物\",\"C\":\"发生3-4级腹泻导致暂停吡咯替尼后，再次恢复治疗时无需预防性使用止泻药\",\"D\":\"1至2级腹泻提示药物不耐受，应立即减量或暂停吡咯替尼以避免进展为3级\"},\"answer\":\"A\",\"answer_text\":\"初次发生3级腹泻时，暂停吡咯替尼直至缓解至≤1级，以原剂量重新开始治疗\",\"explain\":\"A｜正确：指南规定初次发生3级腹泻，直至缓解至≤1级，以原剂量开始治疗，符合本例管理原则。\\nB｜不正确：再次发生3级腹泻应暂停治疗，缓解至≤1级以低剂量重新开始，而非永久停药。\\nC｜不正确：PANDORA研究提示，因3-4级腹泻暂停后再次恢复吡咯替尼时，建议使用洛哌丁胺预防。\\nD｜不正确：1至2级腹泻无需调整剂量，应尽早进行腹泻防治和管理，而非立即减量或暂停。\",\"keyPoint\":\"TKI初次3级腹泻暂停至≤1级后原剂量恢复，再次3级腹泻才减量重启。\",\"guidelineRef\":{\"evidence_type\":\"指南\",\"doc_id\":\"b85fd9d2-9933-4cf3-912b-0ce3a43b3b3d\",\"split_index\":32,\"type\":\"guideline\",\"authority\":\"CACA\",\"source_title\":\"HER-2变异晚期非小细胞肺癌诊疗专家共识(2025版)\",\"source_version\":\"2025\",\"source_section\":\"六、展望\",\"source_url\":\"\",\"evidence_summary\":\"吡咯替尼等TKI腹泻管理：初次3级暂停至≤1级原剂量恢复；再次3级暂停至≤1级低剂量恢复；1-2级无需调整剂量。\"}},{\"id\":\"Q3\",\"type\":\"治疗决策\",\"phase\":\"颅内进展\",\"timepoint\":\"2021年9月\",\"question\":\"患者颅内病灶进展而颅外病灶保持稳定。依据HER2阳性乳腺癌诊疗专家共识，此时系统治疗方案调整的原则是？\",\"options\":{\"A\":\"经有效的局部治疗后，可考虑继续使用原靶向治疗方案，必要时更换为TKI药物\",\"B\":\"颅内进展即代表全身耐药，必须立即停用所有抗HER2药物并转为单纯化疗\",\"C\":\"颅外稳定说明原方案完全有效，无论颅内情况如何均不应调整任何系统治疗\",\"D\":\"脑转移进展后应优先选择大分子单抗联合化疗，因TKI和ADC无法透过血脑屏障\"},\"answer\":\"A\",\"answer_text\":\"经有效的局部治疗后，可考虑继续使用原靶向治疗方案，必要时更换为TKI药物\",\"explain\":\"A｜正确：共识明确HER2阳性晚期脑转移若颅外未进展，有效局部治疗后可考虑续用原靶向或换TKI。\\nB｜不正确：颅外稳定提示原方案对颅外病灶仍有效，不应立即停用所有抗HER2药物转为单纯化疗。\\nC｜不正确：颅内进展提示原方案对颅内控制不佳，必要时需更换为TKI等药物，而非完全不调整。\\nD｜不正确：共识指出TKI类药物和ADC可优先选择，认为TKI和ADC无法透过血脑屏障与指南相悖。\",\"keyPoint\":\"HER2阳性脑转移颅外未进展时，局部治疗后可续用原靶向或换TKI，非绝对全身耐药。\",\"guidelineRef\":{\"evidence_type\":\"指南\",\"doc_id\":\"67c4d4fb-08f5-4412-90f7-4015e9ce42cd\",\"split_index\":19,\"type\":\"guideline\",\"authority\":\"CSCO\",\"source_title\":\"人表皮生长因子受体2阳性乳腺癌临床诊疗专家共识(2021版)\",\"source_version\":\"2021\",\"source_section\":\"专家建议：\",\"source_url\":\"\",\"evidence_summary\":\"HER2阳性晚期乳腺癌脑转移若颅外未进展，有效局部治疗后可考虑续用原靶向方案，必要时更换为TKI药物。\"}},{\"id\":\"Q4\",\"type\":\"耐药与后线管理\",\"phase\":\"ADC单药治疗\",\"timepoint\":\"2021年9月后\",\"question\":\"患者启动RC48单药治疗。依据RC48-ADC治疗HER2阳性晚期乳腺癌的II期研究，关于该研究的入组人群与疗效特征，下列哪项正确？\",\"options\":{\"A\":\"入组患者中88.1%既往接受过≥3线化疗，HER2阳性亚组ORR为34.5%、mPFS为6.3个月\",\"B\":\"该研究证明RC48单药在所有入组人群中均优于联合ICIs或TKIs的双药治疗方案\",\"C\":\"研究入组患者均为初治IV期HER2阳性乳腺癌，未接受过任何既往化疗或靶向治疗\",\"D\":\"RC48-ADC在HER2低表达亚组的ORR和mPFS均显著高于HER2阳性亚组\"},\"answer\":\"A\",\"answer_text\":\"入组患者中88.1%既往接受过≥3线化疗，HER2阳性亚组ORR为34.5%、mPFS为6.3个月\",\"explain\":\"A｜正确：研究结果显示88.1%患者既往接受≥3线化疗，HER2阳性亚组ORR 34.5%、mPFS 6.3个月。\\nB｜不正确：研究提示双药联合组mPFS长于单药组，并未证明单药在所有人群中优于联合方案。\\nC｜不正确：入组患者为局部晚期或转移性乳腺癌且多线经治，并非初治IV期未接受过任何治疗。\\nD｜不正确：HER2低表达亚组ORR 22.2%、mPFS 3.6个月，均低于HER2阳性亚组，并非显著高于。\",\"keyPoint\":\"RC48-ADC II期研究入组多为≥3线化疗经治患者，HER2阳性亚组ORR 34.5%、mPFS 6.3个月。\",\"guidelineRef\":{\"evidence_type\":\"临床研究\",\"doc_id\":\"6e2caad03ab62f3396186fd219069693\",\"split_index\":1,\"type\":\"meeting\",\"authority\":\"ESMO\",\"source_title\":\"397P - Efficacy and safety of the recombinant humanized anti-HER2 monoclonal antibody-MMAE conjugate RC48-ADC in patients with HER2-positive or HER2-low expressing, locally advanced or metastatic breast cancer: A single-arm phase II study\",\"source_version\":\"2023\",\"source_section\":\"397P - Efficacy and safety of the recombinant humanized anti-HER2 monoclonal antibody-MMAE conjugate RC48-ADC in patients with HER2-positive or HER2-low expressing, locally advanced or metastatic breast cancer: A single-arm phase II study\",\"source_url\":\"https://cslide.ctimeetingtech.com/esmo2023/attendee/confcal_2/presentation\",\"evidence_summary\":\"RC48-ADC II期研究：88.1%患者≥3线化疗；HER2阳性亚组ORR 34.5%、mPFS 6.3个月；双药联合mPFS优于单药。\"}},{\"id\":\"Q5\",\"type\":\"疗效复评与局部治疗\",\"phase\":\"RC48治疗期间\",\"timepoint\":\"首个周期后\",\"question\":\"患者RC48治疗首个周期后神经系统症状迅速改善。关于后续疗效评估与影像学随访，下列哪项正确？\",\"options\":{\"A\":\"原则上每周期都应进行肿瘤评估，必要时可每2周期通过MRI进行肿瘤评估\",\"B\":\"症状改善即可作为疗效评价终点，无需再进行影像学客观缓解率评估\",\"C\":\"疗效评估应交替使用CT和MRI，以全面覆盖颅内外病灶并避免单一方法偏差\",\"D\":\"RC48治疗期间仅需在5个周期结束时进行一次颅脑MRI评估，无需每周期查体\"},\"answer\":\"A\",\"answer_text\":\"原则上每周期都应进行肿瘤评估，必要时可每2周期通过MRI进行肿瘤评估\",\"explain\":\"A｜正确：指南规定原则上每周期都应进行肿瘤评估，必要时可每2周期通过乳腺MRI进行肿瘤评估。\\nB｜不正确：症状改善不能替代影像学客观缓解率评估，疗效评价须依据通行的实体瘤疗效评价标准。\\nC｜不正确：指南强调原则上应连续使用同一检查方法进行评价，交替使用CT和MRI不符合评估原则。\\nD｜不正确：仅5周期后评估一次不符合每周期评估的原则，且查体和影像学评估应贯穿治疗全程。\",\"keyPoint\":\"抗肿瘤治疗疗效评估原则上每周期进行，必要时每2周期MRI评估，且应连续使用同一方法。\",\"guidelineRef\":{\"evidence_type\":\"指南\",\"doc_id\":\"b2719254-d290-4ec9-866b-51b36cafd1bc\",\"split_index\":56,\"type\":\"guideline\",\"authority\":\"CSCO\",\"source_title\":\"中国临床肿瘤学会（CSCO）乳腺癌诊疗指南 2026\",\"source_version\":\"2026\",\"source_section\":\"【注释】\",\"source_url\":\"\",\"evidence_summary\":\"新辅助/系统治疗评价原则上每周期进行，必要时每2周期MRI评估，应连续使用同一检查方法，参考RECIST 1.1。\"}}],\"missing_information\":[]}",
+  "case_page_data": {
+    "schema_version": "1.0",
+    "case_id": "CASE-79CA83DD",
+    "cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": ""
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "HER2阳性乳腺癌脑转移进展后ADC单药治疗",
+      "description": "45岁女性，2017年8月确诊左侧IV期HER2阳性乳腺癌（cT4bN3cM1），初始诊断时已伴有淋巴结、骨和肝脏多发转移。初始治疗接受epirubicin联合环磷酰胺序贯化疗，随后采用帕妥珠单抗联合曲妥珠单抗靶向治疗，并行左侧乳腺癌改良根治术。术后接受内分泌治疗、靶向维持治疗及局部放疗。"
+    },
+    "overview": {
+      "hero": {
+        "title": "HER2阳性乳腺癌脑转移进展后ADC单药治疗",
+        "subtitle": "1. IV期HER2阳性乳腺癌伴多发转移的初始系统治疗顺序与手术时机安排 2. 脑转移确诊后局部放疗与系统治疗的联合策略选择 3. 系统治疗因胃肠道毒性受限时方案调整与依从性管理 4. 颅内进展而颅外稳定时的治疗决策与方案更换依据 5. A……"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者与就诊背景",
+              "value": "45岁女性，2017年8月确诊左侧IV期HER2阳性乳腺癌（cT4bN3cM1），初始诊断时已伴有淋巴结、骨和肝脏多发转移。初始治疗接受epirubicin联合环磷酰胺序贯化疗，随后采用帕妥珠单抗联合曲妥珠单抗靶向治疗，并行左侧乳腺癌改良根治术。术后接受内分泌治疗、靶向维持治疗及局部放疗。"
+            },
+            {
+              "order": 2,
+              "label": "疾病与分期",
+              "value": "左侧IV期HER2阳性乳腺癌（cT4bN3cM1），初始诊断时伴淋巴结、骨和肝脏多发转移；2019年4月出现多发脑转移；2021年9月颅内病灶进展"
+            },
+            {
+              "order": 3,
+              "label": "分子与病理",
+              "value": "HER2状态：阳性（2017年8月确诊时，原文未记载具体检测方法如IHC/FISH及评分） HR状态：未记载 其他分子标志物：未记载"
+            },
+            {
+              "order": 4,
+              "label": "核心教学点",
+              "value": "1. IV期HER2阳性乳腺癌伴多发转移的初始系统治疗顺序与手术时机安排 2. 脑转移确诊后局部放疗与系统治疗的联合策略选择 3. 系统治疗因胃肠道毒性受限时方案调整与依从性管理 4. 颅内进展而颅外稳定时的治疗决策与方案更换依据 5. ADC药物在放疗后症状性脑转移中的应用时机与循证依据 6. 新方案启动后疗效评估节奏与影像学随访安排 7. 脑转移相关皮质类固醇减停的时机判断"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2017年8月",
+              "title": "确诊",
+              "detail": "左侧IV期HER2阳性乳腺癌（cT4bN3cM1），伴淋巴结、骨和肝脏多发转移"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 2",
+              "detail": "2017年8月后｜初始治疗｜epirubicin联合环磷酰胺序贯化疗→帕妥珠单抗联合曲妥珠单抗靶向治疗→左侧乳腺癌改良根治术→术后内分泌治疗、靶向维持治疗及局部放疗"
+            },
+            {
+              "date": "2019年4月",
+              "title": "脑转移确诊",
+              "detail": "因头痛、恶心入院，颅脑MRI证实多发脑转移"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 4",
+              "detail": "2019年4月后｜脑转移治疗｜全脑放疗（WBRT，40 Gy/20f）联合吡咯替尼和卡培他滨系统治疗；局部放疗初期获部分缓解，但患者因无法耐受严重胃肠道反应，系统治疗方案执行受限"
+            },
+            {
+              "date": "2021年9月",
+              "title": "颅内进展",
+              "detail": "再次出现头痛、恶心及步态不稳，复查MRI显示脑部病灶较前增大，提示颅内病情进展，颅外病灶保持稳定"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 6",
+              "detail": "2021年9月后｜启动RC48｜经临床团队评估，决定启动维迪西妥单抗（RC48）单药治疗"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 7",
+              "detail": "首个周期后｜症状改善｜头痛、呕吐及步态不稳等神经系统症状迅速改善，逐步停用降颅压皮质类固醇"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 8",
+              "detail": "完成5个周期后｜影像评估｜颅脑MRI显示多发脑转移结节显著缩小，评价为部分缓解（PR）"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 9",
+              "detail": "RC48单药治疗期间｜疗效与安全性｜颅内病灶PFS达12个月；未出现明显相关毒性或血液学异常"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  },
+  "case_page_json": "{\n  \"schema_version\": \"1.0\",\n  \"case_id\": \"CASE-79CA83DD\",\n  \"cancer_type\": \"乳腺癌\",\n  \"difficulty\": \"进阶\",\n  \"decision_point_count\": 5,\n  \"image\": {\n    \"src\": \"\",\n    \"alt\": \"\"\n  },\n  \"home\": {\n    \"recommendation_label\": \"今日推荐病例\",\n    \"display_title\": \"HER2阳性乳腺癌脑转移进展后ADC单药治疗\",\n    \"description\": \"45岁女性，2017年8月确诊左侧IV期HER2阳性乳腺癌（cT4bN3cM1），初始诊断时已伴有淋巴结、骨和肝脏多发转移。初始治疗接受epirubicin联合环磷酰胺序贯化疗，随后采用帕妥珠单抗联合曲妥珠单抗靶向治疗，并行左侧乳腺癌改良根治术。术后接受内分泌治疗、靶向维持治疗及局部放疗。\"\n  },\n  \"overview\": {\n    \"hero\": {\n      \"title\": \"HER2阳性乳腺癌脑转移进展后ADC单药治疗\",\n      \"subtitle\": \"1. IV期HER2阳性乳腺癌伴多发转移的初始系统治疗顺序与手术时机安排 2. 脑转移确诊后局部放疗与系统治疗的联合策略选择 3. 系统治疗因胃肠道毒性受限时方案调整与依从性管理 4. 颅内进展而颅外稳定时的治疗决策与方案更换依据 5. A……\"\n    },\n    \"tabs\": [\n      {\n        \"id\": \"summary\",\n        \"label\": \"病例摘要\",\n        \"order\": 1,\n        \"summary_items\": [\n          {\n            \"order\": 1,\n            \"label\": \"患者与就诊背景\",\n            \"value\": \"45岁女性，2017年8月确诊左侧IV期HER2阳性乳腺癌（cT4bN3cM1），初始诊断时已伴有淋巴结、骨和肝脏多发转移。初始治疗接受epirubicin联合环磷酰胺序贯化疗，随后采用帕妥珠单抗联合曲妥珠单抗靶向治疗，并行左侧乳腺癌改良根治术。术后接受内分泌治疗、靶向维持治疗及局部放疗。\"\n          },\n          {\n            \"order\": 2,\n            \"label\": \"疾病与分期\",\n            \"value\": \"左侧IV期HER2阳性乳腺癌（cT4bN3cM1），初始诊断时伴淋巴结、骨和肝脏多发转移；2019年4月出现多发脑转移；2021年9月颅内病灶进展\"\n          },\n          {\n            \"order\": 3,\n            \"label\": \"分子与病理\",\n            \"value\": \"HER2状态：阳性（2017年8月确诊时，原文未记载具体检测方法如IHC/FISH及评分） HR状态：未记载 其他分子标志物：未记载\"\n          },\n          {\n            \"order\": 4,\n            \"label\": \"核心教学点\",\n            \"value\": \"1. IV期HER2阳性乳腺癌伴多发转移的初始系统治疗顺序与手术时机安排 2. 脑转移确诊后局部放疗与系统治疗的联合策略选择 3. 系统治疗因胃肠道毒性受限时方案调整与依从性管理 4. 颅内进展而颅外稳定时的治疗决策与方案更换依据 5. ADC药物在放疗后症状性脑转移中的应用时机与循证依据 6. 新方案启动后疗效评估节奏与影像学随访安排 7. 脑转移相关皮质类固醇减停的时机判断\"\n          }\n        ]\n      },\n      {\n        \"id\": \"timeline\",\n        \"label\": \"病程轴\",\n        \"order\": 2,\n        \"timeline_items\": [\n          {\n            \"date\": \"2017年8月\",\n            \"title\": \"确诊\",\n            \"detail\": \"左侧IV期HER2阳性乳腺癌（cT4bN3cM1），伴淋巴结、骨和肝脏多发转移\"\n          },\n          {\n            \"date\": \"时间未详\",\n            \"title\": \"诊疗节点 2\",\n            \"detail\": \"2017年8月后｜初始治疗｜epirubicin联合环磷酰胺序贯化疗→帕妥珠单抗联合曲妥珠单抗靶向治疗→左侧乳腺癌改良根治术→术后内分泌治疗、靶向维持治疗及局部放疗\"\n          },\n          {\n            \"date\": \"2019年4月\",\n            \"title\": \"脑转移确诊\",\n            \"detail\": \"因头痛、恶心入院，颅脑MRI证实多发脑转移\"\n          },\n          {\n            \"date\": \"时间未详\",\n            \"title\": \"诊疗节点 4\",\n            \"detail\": \"2019年4月后｜脑转移治疗｜全脑放疗（WBRT，40 Gy/20f）联合吡咯替尼和卡培他滨系统治疗；局部放疗初期获部分缓解，但患者因无法耐受严重胃肠道反应，系统治疗方案执行受限\"\n          },\n          {\n            \"date\": \"2021年9月\",\n            \"title\": \"颅内进展\",\n            \"detail\": \"再次出现头痛、恶心及步态不稳，复查MRI显示脑部病灶较前增大，提示颅内病情进展，颅外病灶保持稳定\"\n          },\n          {\n            \"date\": \"时间未详\",\n            \"title\": \"诊疗节点 6\",\n            \"detail\": \"2021年9月后｜启动RC48｜经临床团队评估，决定启动维迪西妥单抗（RC48）单药治疗\"\n          },\n          {\n            \"date\": \"时间未详\",\n            \"title\": \"诊疗节点 7\",\n            \"detail\": \"首个周期后｜症状改善｜头痛、呕吐及步态不稳等神经系统症状迅速改善，逐步停用降颅压皮质类固醇\"\n          },\n          {\n            \"date\": \"时间未详\",\n            \"title\": \"诊疗节点 8\",\n            \"detail\": \"完成5个周期后｜影像评估｜颅脑MRI显示多发脑转移结节显著缩小，评价为部分缓解（PR）\"\n          },\n          {\n            \"date\": \"时间未详\",\n            \"title\": \"诊疗节点 9\",\n            \"detail\": \"RC48单药治疗期间｜疗效与安全性｜颅内病灶PFS达12个月；未出现明显相关毒性或血液学异常\"\n          }\n        ]\n      },\n      {\n        \"id\": \"images\",\n        \"label\": \"病例图片\",\n        \"order\": 3,\n        \"image_items\": []\n      }\n    ]\n  }\n}",
+  "output_data": {
+    "Questions": {
+      "schema_version": "1.0",
+      "case_id": "CASE-79CA83DD",
+      "cancer_type": "乳腺癌",
+      "generation_status": "success",
+      "difficulty": "进阶",
+      "question_count": 5,
+      "questions": [
+        {
+          "id": "Q1",
+          "type": "诊断与分期",
+          "phase": "初始诊断",
+          "timepoint": "2017年8月",
+          "question": "患者初诊时伴淋巴结、骨和肝脏多发转移。依据初诊IV期乳腺癌诊疗指南，关于其基线评估与分期记录，下列哪项正确？",
+          "options": {
+            "A": "准确记录远处转移器官部位和转移病灶数目，尤其应明确是否存在内脏转移",
+            "B": "因已行改良根治术，术后病理TNM分期可直接替代初诊临床分期作为基线",
+            "C": "仅需通过全身骨显像评估骨转移，无需对肝脏等腹部器官进行影像学评估",
+            "D": "初诊IV期乳腺癌首选原发灶局部外科处理，全身系统治疗应在术后启动"
+          },
+          "answer": "A",
+          "answer_text": "准确记录远处转移器官部位和转移病灶数目，尤其应明确是否存在内脏转移",
+          "explain": "A｜正确：指南明确要求参照AJCC标准评估，准确记录远处转移器官部位和转移病灶数目，尤其应明确是否存在内脏转移。\nB｜不正确：初诊IV期应参照AJCC标准进行临床分期评估，术后病理不能替代初诊基线临床分期。\nC｜不正确：指南推荐采用超声或CT评估腹部器官转移，骨显像不能替代腹部影像学评估。\nD｜不正确：指南指出初诊IV期乳腺癌首选全身系统治疗理念已获共识，而非首选局部外科处理。",
+          "keyPoint": "初诊IV期乳腺癌基线评估须准确记录转移部位与数目，明确内脏转移状态。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "7e911bc2-d9c4-41ea-bcef-d28c231dc12d",
+            "split_index": 3,
+            "type": "guideline",
+            "authority": "中华医学会外科学分会乳腺外科学组",
+            "source_title": "初诊IV期乳腺癌诊疗临床实践指南（2025版）",
+            "source_version": "2025",
+            "source_section": "初诊IV期乳腺癌诊疗临床实践指南（2025版）",
+            "source_url": "",
+            "evidence_summary": "初诊IV期乳腺癌应参照AJCC标准评估，准确记录远处转移器官部位和转移病灶数目，尤其应明确是否存在内脏转移。"
+          }
+        },
+        {
+          "id": "Q2",
+          "type": "不良反应管理",
+          "phase": "脑转移系统治疗",
+          "timepoint": "2019年4月后",
+          "question": "患者使用吡咯替尼联合卡培他滨期间出现严重胃肠道反应致治疗受限。关于TKI相关性腹泻的管理，以下处理正确的是？",
+          "options": {
+            "A": "初次发生3级腹泻时，暂停吡咯替尼直至缓解至≤1级，以原剂量重新开始治疗",
+            "B": "若再次发生3级腹泻，应永久停用吡咯替尼并更换为其他非TKI类靶向药物",
+            "C": "发生3-4级腹泻导致暂停吡咯替尼后，再次恢复治疗时无需预防性使用止泻药",
+            "D": "1至2级腹泻提示药物不耐受，应立即减量或暂停吡咯替尼以避免进展为3级"
+          },
+          "answer": "A",
+          "answer_text": "初次发生3级腹泻时，暂停吡咯替尼直至缓解至≤1级，以原剂量重新开始治疗",
+          "explain": "A｜正确：指南规定初次发生3级腹泻，直至缓解至≤1级，以原剂量开始治疗，符合本例管理原则。\nB｜不正确：再次发生3级腹泻应暂停治疗，缓解至≤1级以低剂量重新开始，而非永久停药。\nC｜不正确：PANDORA研究提示，因3-4级腹泻暂停后再次恢复吡咯替尼时，建议使用洛哌丁胺预防。\nD｜不正确：1至2级腹泻无需调整剂量，应尽早进行腹泻防治和管理，而非立即减量或暂停。",
+          "keyPoint": "TKI初次3级腹泻暂停至≤1级后原剂量恢复，再次3级腹泻才减量重启。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "b85fd9d2-9933-4cf3-912b-0ce3a43b3b3d",
+            "split_index": 32,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "HER-2变异晚期非小细胞肺癌诊疗专家共识(2025版)",
+            "source_version": "2025",
+            "source_section": "六、展望",
+            "source_url": "",
+            "evidence_summary": "吡咯替尼等TKI腹泻管理：初次3级暂停至≤1级原剂量恢复；再次3级暂停至≤1级低剂量恢复；1-2级无需调整剂量。"
+          }
+        },
+        {
+          "id": "Q3",
+          "type": "治疗决策",
+          "phase": "颅内进展",
+          "timepoint": "2021年9月",
+          "question": "患者颅内病灶进展而颅外病灶保持稳定。依据HER2阳性乳腺癌诊疗专家共识，此时系统治疗方案调整的原则是？",
+          "options": {
+            "A": "经有效的局部治疗后，可考虑继续使用原靶向治疗方案，必要时更换为TKI药物",
+            "B": "颅内进展即代表全身耐药，必须立即停用所有抗HER2药物并转为单纯化疗",
+            "C": "颅外稳定说明原方案完全有效，无论颅内情况如何均不应调整任何系统治疗",
+            "D": "脑转移进展后应优先选择大分子单抗联合化疗，因TKI和ADC无法透过血脑屏障"
+          },
+          "answer": "A",
+          "answer_text": "经有效的局部治疗后，可考虑继续使用原靶向治疗方案，必要时更换为TKI药物",
+          "explain": "A｜正确：共识明确HER2阳性晚期脑转移若颅外未进展，有效局部治疗后可考虑续用原靶向或换TKI。\nB｜不正确：颅外稳定提示原方案对颅外病灶仍有效，不应立即停用所有抗HER2药物转为单纯化疗。\nC｜不正确：颅内进展提示原方案对颅内控制不佳，必要时需更换为TKI等药物，而非完全不调整。\nD｜不正确：共识指出TKI类药物和ADC可优先选择，认为TKI和ADC无法透过血脑屏障与指南相悖。",
+          "keyPoint": "HER2阳性脑转移颅外未进展时，局部治疗后可续用原靶向或换TKI，非绝对全身耐药。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "67c4d4fb-08f5-4412-90f7-4015e9ce42cd",
+            "split_index": 19,
+            "type": "guideline",
+            "authority": "CSCO",
+            "source_title": "人表皮生长因子受体2阳性乳腺癌临床诊疗专家共识(2021版)",
+            "source_version": "2021",
+            "source_section": "专家建议：",
+            "source_url": "",
+            "evidence_summary": "HER2阳性晚期乳腺癌脑转移若颅外未进展，有效局部治疗后可考虑续用原靶向方案，必要时更换为TKI药物。"
+          }
+        },
+        {
+          "id": "Q4",
+          "type": "耐药与后线管理",
+          "phase": "ADC单药治疗",
+          "timepoint": "2021年9月后",
+          "question": "患者启动RC48单药治疗。依据RC48-ADC治疗HER2阳性晚期乳腺癌的II期研究，关于该研究的入组人群与疗效特征，下列哪项正确？",
+          "options": {
+            "A": "入组患者中88.1%既往接受过≥3线化疗，HER2阳性亚组ORR为34.5%、mPFS为6.3个月",
+            "B": "该研究证明RC48单药在所有入组人群中均优于联合ICIs或TKIs的双药治疗方案",
+            "C": "研究入组患者均为初治IV期HER2阳性乳腺癌，未接受过任何既往化疗或靶向治疗",
+            "D": "RC48-ADC在HER2低表达亚组的ORR和mPFS均显著高于HER2阳性亚组"
+          },
+          "answer": "A",
+          "answer_text": "入组患者中88.1%既往接受过≥3线化疗，HER2阳性亚组ORR为34.5%、mPFS为6.3个月",
+          "explain": "A｜正确：研究结果显示88.1%患者既往接受≥3线化疗，HER2阳性亚组ORR 34.5%、mPFS 6.3个月。\nB｜不正确：研究提示双药联合组mPFS长于单药组，并未证明单药在所有人群中优于联合方案。\nC｜不正确：入组患者为局部晚期或转移性乳腺癌且多线经治，并非初治IV期未接受过任何治疗。\nD｜不正确：HER2低表达亚组ORR 22.2%、mPFS 3.6个月，均低于HER2阳性亚组，并非显著高于。",
+          "keyPoint": "RC48-ADC II期研究入组多为≥3线化疗经治患者，HER2阳性亚组ORR 34.5%、mPFS 6.3个月。",
+          "guidelineRef": {
+            "evidence_type": "临床研究",
+            "doc_id": "6e2caad03ab62f3396186fd219069693",
+            "split_index": 1,
+            "type": "meeting",
+            "authority": "ESMO",
+            "source_title": "397P - Efficacy and safety of the recombinant humanized anti-HER2 monoclonal antibody-MMAE conjugate RC48-ADC in patients with HER2-positive or HER2-low expressing, locally advanced or metastatic breast cancer: A single-arm phase II study",
+            "source_version": "2023",
+            "source_section": "397P - Efficacy and safety of the recombinant humanized anti-HER2 monoclonal antibody-MMAE conjugate RC48-ADC in patients with HER2-positive or HER2-low expressing, locally advanced or metastatic breast cancer: A single-arm phase II study",
+            "source_url": "https://cslide.ctimeetingtech.com/esmo2023/attendee/confcal_2/presentation",
+            "evidence_summary": "RC48-ADC II期研究：88.1%患者≥3线化疗；HER2阳性亚组ORR 34.5%、mPFS 6.3个月；双药联合mPFS优于单药。"
+          }
+        },
+        {
+          "id": "Q5",
+          "type": "疗效复评与局部治疗",
+          "phase": "RC48治疗期间",
+          "timepoint": "首个周期后",
+          "question": "患者RC48治疗首个周期后神经系统症状迅速改善。关于后续疗效评估与影像学随访，下列哪项正确？",
+          "options": {
+            "A": "原则上每周期都应进行肿瘤评估，必要时可每2周期通过MRI进行肿瘤评估",
+            "B": "症状改善即可作为疗效评价终点，无需再进行影像学客观缓解率评估",
+            "C": "疗效评估应交替使用CT和MRI，以全面覆盖颅内外病灶并避免单一方法偏差",
+            "D": "RC48治疗期间仅需在5个周期结束时进行一次颅脑MRI评估，无需每周期查体"
+          },
+          "answer": "A",
+          "answer_text": "原则上每周期都应进行肿瘤评估，必要时可每2周期通过MRI进行肿瘤评估",
+          "explain": "A｜正确：指南规定原则上每周期都应进行肿瘤评估，必要时可每2周期通过乳腺MRI进行肿瘤评估。\nB｜不正确：症状改善不能替代影像学客观缓解率评估，疗效评价须依据通行的实体瘤疗效评价标准。\nC｜不正确：指南强调原则上应连续使用同一检查方法进行评价，交替使用CT和MRI不符合评估原则。\nD｜不正确：仅5周期后评估一次不符合每周期评估的原则，且查体和影像学评估应贯穿治疗全程。",
+          "keyPoint": "抗肿瘤治疗疗效评估原则上每周期进行，必要时每2周期MRI评估，且应连续使用同一方法。",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "b2719254-d290-4ec9-866b-51b36cafd1bc",
+            "split_index": 56,
+            "type": "guideline",
+            "authority": "CSCO",
+            "source_title": "中国临床肿瘤学会（CSCO）乳腺癌诊疗指南 2026",
+            "source_version": "2026",
+            "source_section": "【注释】",
+            "source_url": "",
+            "evidence_summary": "新辅助/系统治疗评价原则上每周期进行，必要时每2周期MRI评估，应连续使用同一检查方法，参考RECIST 1.1。"
+          }
+        }
+      ],
+      "missing_information": []
+    },
+    "detail": {
+      "schema_version": "1.0",
+      "case_id": "CASE-79CA83DD",
+      "cancer_type": "乳腺癌",
+      "difficulty": "进阶",
+      "decision_point_count": 5,
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "home": {
+        "recommendation_label": "今日推荐病例",
+        "display_title": "HER2阳性乳腺癌脑转移进展后ADC单药治疗",
+        "description": "45岁女性，2017年8月确诊左侧IV期HER2阳性乳腺癌（cT4bN3cM1），初始诊断时已伴有淋巴结、骨和肝脏多发转移。初始治疗接受epirubicin联合环磷酰胺序贯化疗，随后采用帕妥珠单抗联合曲妥珠单抗靶向治疗，并行左侧乳腺癌改良根治术。术后接受内分泌治疗、靶向维持治疗及局部放疗。"
+      },
+      "overview": {
+        "hero": {
+          "title": "HER2阳性乳腺癌脑转移进展后ADC单药治疗",
+          "subtitle": "1. IV期HER2阳性乳腺癌伴多发转移的初始系统治疗顺序与手术时机安排 2. 脑转移确诊后局部放疗与系统治疗的联合策略选择 3. 系统治疗因胃肠道毒性受限时方案调整与依从性管理 4. 颅内进展而颅外稳定时的治疗决策与方案更换依据 5. A……"
+        },
+        "tabs": [
+          {
+            "id": "summary",
+            "label": "病例摘要",
+            "order": 1,
+            "summary_items": [
+              {
+                "order": 1,
+                "label": "患者与就诊背景",
+                "value": "45岁女性，2017年8月确诊左侧IV期HER2阳性乳腺癌（cT4bN3cM1），初始诊断时已伴有淋巴结、骨和肝脏多发转移。初始治疗接受epirubicin联合环磷酰胺序贯化疗，随后采用帕妥珠单抗联合曲妥珠单抗靶向治疗，并行左侧乳腺癌改良根治术。术后接受内分泌治疗、靶向维持治疗及局部放疗。"
+              },
+              {
+                "order": 2,
+                "label": "疾病与分期",
+                "value": "左侧IV期HER2阳性乳腺癌（cT4bN3cM1），初始诊断时伴淋巴结、骨和肝脏多发转移；2019年4月出现多发脑转移；2021年9月颅内病灶进展"
+              },
+              {
+                "order": 3,
+                "label": "分子与病理",
+                "value": "HER2状态：阳性（2017年8月确诊时，原文未记载具体检测方法如IHC/FISH及评分） HR状态：未记载 其他分子标志物：未记载"
+              },
+              {
+                "order": 4,
+                "label": "核心教学点",
+                "value": "1. IV期HER2阳性乳腺癌伴多发转移的初始系统治疗顺序与手术时机安排 2. 脑转移确诊后局部放疗与系统治疗的联合策略选择 3. 系统治疗因胃肠道毒性受限时方案调整与依从性管理 4. 颅内进展而颅外稳定时的治疗决策与方案更换依据 5. ADC药物在放疗后症状性脑转移中的应用时机与循证依据 6. 新方案启动后疗效评估节奏与影像学随访安排 7. 脑转移相关皮质类固醇减停的时机判断"
+              }
+            ]
+          },
+          {
+            "id": "timeline",
+            "label": "病程轴",
+            "order": 2,
+            "timeline_items": [
+              {
+                "date": "2017年8月",
+                "title": "确诊",
+                "detail": "左侧IV期HER2阳性乳腺癌（cT4bN3cM1），伴淋巴结、骨和肝脏多发转移"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 2",
+                "detail": "2017年8月后｜初始治疗｜epirubicin联合环磷酰胺序贯化疗→帕妥珠单抗联合曲妥珠单抗靶向治疗→左侧乳腺癌改良根治术→术后内分泌治疗、靶向维持治疗及局部放疗"
+              },
+              {
+                "date": "2019年4月",
+                "title": "脑转移确诊",
+                "detail": "因头痛、恶心入院，颅脑MRI证实多发脑转移"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 4",
+                "detail": "2019年4月后｜脑转移治疗｜全脑放疗（WBRT，40 Gy/20f）联合吡咯替尼和卡培他滨系统治疗；局部放疗初期获部分缓解，但患者因无法耐受严重胃肠道反应，系统治疗方案执行受限"
+              },
+              {
+                "date": "2021年9月",
+                "title": "颅内进展",
+                "detail": "再次出现头痛、恶心及步态不稳，复查MRI显示脑部病灶较前增大，提示颅内病情进展，颅外病灶保持稳定"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 6",
+                "detail": "2021年9月后｜启动RC48｜经临床团队评估，决定启动维迪西妥单抗（RC48）单药治疗"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 7",
+                "detail": "首个周期后｜症状改善｜头痛、呕吐及步态不稳等神经系统症状迅速改善，逐步停用降颅压皮质类固醇"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 8",
+                "detail": "完成5个周期后｜影像评估｜颅脑MRI显示多发脑转移结节显著缩小，评价为部分缓解（PR）"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 9",
+                "detail": "RC48单药治疗期间｜疗效与安全性｜颅内病灶PFS达12个月；未出现明显相关毒性或血液学异常"
+              }
+            ]
+          },
+          {
+            "id": "images",
+            "label": "病例图片",
+            "order": 3,
+            "image_items": []
+          }
+        ]
+      }
+    }
+  },
+  "output_json": "{\n  \"Questions\": {\n    \"schema_version\": \"1.0\",\n    \"case_id\": \"CASE-79CA83DD\",\n    \"cancer_type\": \"乳腺癌\",\n    \"generation_status\": \"success\",\n    \"difficulty\": \"进阶\",\n    \"question_count\": 5,\n    \"questions\": [\n      {\n        \"id\": \"Q1\",\n        \"type\": \"诊断与分期\",\n        \"phase\": \"初始诊断\",\n        \"timepoint\": \"2017年8月\",\n        \"question\": \"患者初诊时伴淋巴结、骨和肝脏多发转移。依据初诊IV期乳腺癌诊疗指南，关于其基线评估与分期记录，下列哪项正确？\",\n        \"options\": {\n          \"A\": \"准确记录远处转移器官部位和转移病灶数目，尤其应明确是否存在内脏转移\",\n          \"B\": \"因已行改良根治术，术后病理TNM分期可直接替代初诊临床分期作为基线\",\n          \"C\": \"仅需通过全身骨显像评估骨转移，无需对肝脏等腹部器官进行影像学评估\",\n          \"D\": \"初诊IV期乳腺癌首选原发灶局部外科处理，全身系统治疗应在术后启动\"\n        },\n        \"answer\": \"A\",\n        \"answer_text\": \"准确记录远处转移器官部位和转移病灶数目，尤其应明确是否存在内脏转移\",\n        \"explain\": \"A｜正确：指南明确要求参照AJCC标准评估，准确记录远处转移器官部位和转移病灶数目，尤其应明确是否存在内脏转移。\\nB｜不正确：初诊IV期应参照AJCC标准进行临床分期评估，术后病理不能替代初诊基线临床分期。\\nC｜不正确：指南推荐采用超声或CT评估腹部器官转移，骨显像不能替代腹部影像学评估。\\nD｜不正确：指南指出初诊IV期乳腺癌首选全身系统治疗理念已获共识，而非首选局部外科处理。\",\n        \"keyPoint\": \"初诊IV期乳腺癌基线评估须准确记录转移部位与数目，明确内脏转移状态。\",\n        \"guidelineRef\": {\n          \"evidence_type\": \"指南\",\n          \"doc_id\": \"7e911bc2-d9c4-41ea-bcef-d28c231dc12d\",\n          \"split_index\": 3,\n          \"type\": \"guideline\",\n          \"authority\": \"中华医学会外科学分会乳腺外科学组\",\n          \"source_title\": \"初诊IV期乳腺癌诊疗临床实践指南（2025版）\",\n          \"source_version\": \"2025\",\n          \"source_section\": \"初诊IV期乳腺癌诊疗临床实践指南（2025版）\",\n          \"source_url\": \"\",\n          \"evidence_summary\": \"初诊IV期乳腺癌应参照AJCC标准评估，准确记录远处转移器官部位和转移病灶数目，尤其应明确是否存在内脏转移。\"\n        }\n      },\n      {\n        \"id\": \"Q2\",\n        \"type\": \"不良反应管理\",\n        \"phase\": \"脑转移系统治疗\",\n        \"timepoint\": \"2019年4月后\",\n        \"question\": \"患者使用吡咯替尼联合卡培他滨期间出现严重胃肠道反应致治疗受限。关于TKI相关性腹泻的管理，以下处理正确的是？\",\n        \"options\": {\n          \"A\": \"初次发生3级腹泻时，暂停吡咯替尼直至缓解至≤1级，以原剂量重新开始治疗\",\n          \"B\": \"若再次发生3级腹泻，应永久停用吡咯替尼并更换为其他非TKI类靶向药物\",\n          \"C\": \"发生3-4级腹泻导致暂停吡咯替尼后，再次恢复治疗时无需预防性使用止泻药\",\n          \"D\": \"1至2级腹泻提示药物不耐受，应立即减量或暂停吡咯替尼以避免进展为3级\"\n        },\n        \"answer\": \"A\",\n        \"answer_text\": \"初次发生3级腹泻时，暂停吡咯替尼直至缓解至≤1级，以原剂量重新开始治疗\",\n        \"explain\": \"A｜正确：指南规定初次发生3级腹泻，直至缓解至≤1级，以原剂量开始治疗，符合本例管理原则。\\nB｜不正确：再次发生3级腹泻应暂停治疗，缓解至≤1级以低剂量重新开始，而非永久停药。\\nC｜不正确：PANDORA研究提示，因3-4级腹泻暂停后再次恢复吡咯替尼时，建议使用洛哌丁胺预防。\\nD｜不正确：1至2级腹泻无需调整剂量，应尽早进行腹泻防治和管理，而非立即减量或暂停。\",\n        \"keyPoint\": \"TKI初次3级腹泻暂停至≤1级后原剂量恢复，再次3级腹泻才减量重启。\",\n        \"guidelineRef\": {\n          \"evidence_type\": \"指南\",\n          \"doc_id\": \"b85fd9d2-9933-4cf3-912b-0ce3a43b3b3d\",\n          \"split_index\": 32,\n          \"type\": \"guideline\",\n          \"authority\": \"CACA\",\n          \"source_title\": \"HER-2变异晚期非小细胞肺癌诊疗专家共识(2025版)\",\n          \"source_version\": \"2025\",\n          \"source_section\": \"六、展望\",\n          \"source_url\": \"\",\n          \"evidence_summary\": \"吡咯替尼等TKI腹泻管理：初次3级暂停至≤1级原剂量恢复；再次3级暂停至≤1级低剂量恢复；1-2级无需调整剂量。\"\n        }\n      },\n      {\n        \"id\": \"Q3\",\n        \"type\": \"治疗决策\",\n        \"phase\": \"颅内进展\",\n        \"timepoint\": \"2021年9月\",\n        \"question\": \"患者颅内病灶进展而颅外病灶保持稳定。依据HER2阳性乳腺癌诊疗专家共识，此时系统治疗方案调整的原则是？\",\n        \"options\": {\n          \"A\": \"经有效的局部治疗后，可考虑继续使用原靶向治疗方案，必要时更换为TKI药物\",\n          \"B\": \"颅内进展即代表全身耐药，必须立即停用所有抗HER2药物并转为单纯化疗\",\n          \"C\": \"颅外稳定说明原方案完全有效，无论颅内情况如何均不应调整任何系统治疗\",\n          \"D\": \"脑转移进展后应优先选择大分子单抗联合化疗，因TKI和ADC无法透过血脑屏障\"\n        },\n        \"answer\": \"A\",\n        \"answer_text\": \"经有效的局部治疗后，可考虑继续使用原靶向治疗方案，必要时更换为TKI药物\",\n        \"explain\": \"A｜正确：共识明确HER2阳性晚期脑转移若颅外未进展，有效局部治疗后可考虑续用原靶向或换TKI。\\nB｜不正确：颅外稳定提示原方案对颅外病灶仍有效，不应立即停用所有抗HER2药物转为单纯化疗。\\nC｜不正确：颅内进展提示原方案对颅内控制不佳，必要时需更换为TKI等药物，而非完全不调整。\\nD｜不正确：共识指出TKI类药物和ADC可优先选择，认为TKI和ADC无法透过血脑屏障与指南相悖。\",\n        \"keyPoint\": \"HER2阳性脑转移颅外未进展时，局部治疗后可续用原靶向或换TKI，非绝对全身耐药。\",\n        \"guidelineRef\": {\n          \"evidence_type\": \"指南\",\n          \"doc_id\": \"67c4d4fb-08f5-4412-90f7-4015e9ce42cd\",\n          \"split_index\": 19,\n          \"type\": \"guideline\",\n          \"authority\": \"CSCO\",\n          \"source_title\": \"人表皮生长因子受体2阳性乳腺癌临床诊疗专家共识(2021版)\",\n          \"source_version\": \"2021\",\n          \"source_section\": \"专家建议：\",\n          \"source_url\": \"\",\n          \"evidence_summary\": \"HER2阳性晚期乳腺癌脑转移若颅外未进展，有效局部治疗后可考虑续用原靶向方案，必要时更换为TKI药物。\"\n        }\n      },\n      {\n        \"id\": \"Q4\",\n        \"type\": \"耐药与后线管理\",\n        \"phase\": \"ADC单药治疗\",\n        \"timepoint\": \"2021年9月后\",\n        \"question\": \"患者启动RC48单药治疗。依据RC48-ADC治疗HER2阳性晚期乳腺癌的II期研究，关于该研究的入组人群与疗效特征，下列哪项正确？\",\n        \"options\": {\n          \"A\": \"入组患者中88.1%既往接受过≥3线化疗，HER2阳性亚组ORR为34.5%、mPFS为6.3个月\",\n          \"B\": \"该研究证明RC48单药在所有入组人群中均优于联合ICIs或TKIs的双药治疗方案\",\n          \"C\": \"研究入组患者均为初治IV期HER2阳性乳腺癌，未接受过任何既往化疗或靶向治疗\",\n          \"D\": \"RC48-ADC在HER2低表达亚组的ORR和mPFS均显著高于HER2阳性亚组\"\n        },\n        \"answer\": \"A\",\n        \"answer_text\": \"入组患者中88.1%既往接受过≥3线化疗，HER2阳性亚组ORR为34.5%、mPFS为6.3个月\",\n        \"explain\": \"A｜正确：研究结果显示88.1%患者既往接受≥3线化疗，HER2阳性亚组ORR 34.5%、mPFS 6.3个月。\\nB｜不正确：研究提示双药联合组mPFS长于单药组，并未证明单药在所有人群中优于联合方案。\\nC｜不正确：入组患者为局部晚期或转移性乳腺癌且多线经治，并非初治IV期未接受过任何治疗。\\nD｜不正确：HER2低表达亚组ORR 22.2%、mPFS 3.6个月，均低于HER2阳性亚组，并非显著高于。\",\n        \"keyPoint\": \"RC48-ADC II期研究入组多为≥3线化疗经治患者，HER2阳性亚组ORR 34.5%、mPFS 6.3个月。\",\n        \"guidelineRef\": {\n          \"evidence_type\": \"临床研究\",\n          \"doc_id\": \"6e2caad03ab62f3396186fd219069693\",\n          \"split_index\": 1,\n          \"type\": \"meeting\",\n          \"authority\": \"ESMO\",\n          \"source_title\": \"397P - Efficacy and safety of the recombinant humanized anti-HER2 monoclonal antibody-MMAE conjugate RC48-ADC in patients with HER2-positive or HER2-low expressing, locally advanced or metastatic breast cancer: A single-arm phase II study\",\n          \"source_version\": \"2023\",\n          \"source_section\": \"397P - Efficacy and safety of the recombinant humanized anti-HER2 monoclonal antibody-MMAE conjugate RC48-ADC in patients with HER2-positive or HER2-low expressing, locally advanced or metastatic breast cancer: A single-arm phase II study\",\n          \"source_url\": \"https://cslide.ctimeetingtech.com/esmo2023/attendee/confcal_2/presentation\",\n          \"evidence_summary\": \"RC48-ADC II期研究：88.1%患者≥3线化疗；HER2阳性亚组ORR 34.5%、mPFS 6.3个月；双药联合mPFS优于单药。\"\n        }\n      },\n      {\n        \"id\": \"Q5\",\n        \"type\": \"疗效复评与局部治疗\",\n        \"phase\": \"RC48治疗期间\",\n        \"timepoint\": \"首个周期后\",\n        \"question\": \"患者RC48治疗首个周期后神经系统症状迅速改善。关于后续疗效评估与影像学随访，下列哪项正确？\",\n        \"options\": {\n          \"A\": \"原则上每周期都应进行肿瘤评估，必要时可每2周期通过MRI进行肿瘤评估\",\n          \"B\": \"症状改善即可作为疗效评价终点，无需再进行影像学客观缓解率评估\",\n          \"C\": \"疗效评估应交替使用CT和MRI，以全面覆盖颅内外病灶并避免单一方法偏差\",\n          \"D\": \"RC48治疗期间仅需在5个周期结束时进行一次颅脑MRI评估，无需每周期查体\"\n        },\n        \"answer\": \"A\",\n        \"answer_text\": \"原则上每周期都应进行肿瘤评估，必要时可每2周期通过MRI进行肿瘤评估\",\n        \"explain\": \"A｜正确：指南规定原则上每周期都应进行肿瘤评估，必要时可每2周期通过乳腺MRI进行肿瘤评估。\\nB｜不正确：症状改善不能替代影像学客观缓解率评估，疗效评价须依据通行的实体瘤疗效评价标准。\\nC｜不正确：指南强调原则上应连续使用同一检查方法进行评价，交替使用CT和MRI不符合评估原则。\\nD｜不正确：仅5周期后评估一次不符合每周期评估的原则，且查体和影像学评估应贯穿治疗全程。\",\n        \"keyPoint\": \"抗肿瘤治疗疗效评估原则上每周期进行，必要时每2周期MRI评估，且应连续使用同一方法。\",\n        \"guidelineRef\": {\n          \"evidence_type\": \"指南\",\n          \"doc_id\": \"b2719254-d290-4ec9-866b-51b36cafd1bc\",\n          \"split_index\": 56,\n          \"type\": \"guideline\",\n          \"authority\": \"CSCO\",\n          \"source_title\": \"中国临床肿瘤学会（CSCO）乳腺癌诊疗指南 2026\",\n          \"source_version\": \"2026\",\n          \"source_section\": \"【注释】\",\n          \"source_url\": \"\",\n          \"evidence_summary\": \"新辅助/系统治疗评价原则上每周期进行，必要时每2周期MRI评估，应连续使用同一检查方法，参考RECIST 1.1。\"\n        }\n      }\n    ],\n    \"missing_information\": []\n  },\n  \"detail\": {\n    \"schema_version\": \"1.0\",\n    \"case_id\": \"CASE-79CA83DD\",\n    \"cancer_type\": \"乳腺癌\",\n    \"difficulty\": \"进阶\",\n    \"decision_point_count\": 5,\n    \"image\": {\n      \"src\": \"\",\n      \"alt\": \"\"\n    },\n    \"home\": {\n      \"recommendation_label\": \"今日推荐病例\",\n      \"display_title\": \"HER2阳性乳腺癌脑转移进展后ADC单药治疗\",\n      \"description\": \"45岁女性，2017年8月确诊左侧IV期HER2阳性乳腺癌（cT4bN3cM1），初始诊断时已伴有淋巴结、骨和肝脏多发转移。初始治疗接受epirubicin联合环磷酰胺序贯化疗，随后采用帕妥珠单抗联合曲妥珠单抗靶向治疗，并行左侧乳腺癌改良根治术。术后接受内分泌治疗、靶向维持治疗及局部放疗。\"\n    },\n    \"overview\": {\n      \"hero\": {\n        \"title\": \"HER2阳性乳腺癌脑转移进展后ADC单药治疗\",\n        \"subtitle\": \"1. IV期HER2阳性乳腺癌伴多发转移的初始系统治疗顺序与手术时机安排 2. 脑转移确诊后局部放疗与系统治疗的联合策略选择 3. 系统治疗因胃肠道毒性受限时方案调整与依从性管理 4. 颅内进展而颅外稳定时的治疗决策与方案更换依据 5. A……\"\n      },\n      \"tabs\": [\n        {\n          \"id\": \"summary\",\n          \"label\": \"病例摘要\",\n          \"order\": 1,\n          \"summary_items\": [\n            {\n              \"order\": 1,\n              \"label\": \"患者与就诊背景\",\n              \"value\": \"45岁女性，2017年8月确诊左侧IV期HER2阳性乳腺癌（cT4bN3cM1），初始诊断时已伴有淋巴结、骨和肝脏多发转移。初始治疗接受epirubicin联合环磷酰胺序贯化疗，随后采用帕妥珠单抗联合曲妥珠单抗靶向治疗，并行左侧乳腺癌改良根治术。术后接受内分泌治疗、靶向维持治疗及局部放疗。\"\n            },\n            {\n              \"order\": 2,\n              \"label\": \"疾病与分期\",\n              \"value\": \"左侧IV期HER2阳性乳腺癌（cT4bN3cM1），初始诊断时伴淋巴结、骨和肝脏多发转移；2019年4月出现多发脑转移；2021年9月颅内病灶进展\"\n            },\n            {\n              \"order\": 3,\n              \"label\": \"分子与病理\",\n              \"value\": \"HER2状态：阳性（2017年8月确诊时，原文未记载具体检测方法如IHC/FISH及评分） HR状态：未记载 其他分子标志物：未记载\"\n            },\n            {\n              \"order\": 4,\n              \"label\": \"核心教学点\",\n              \"value\": \"1. IV期HER2阳性乳腺癌伴多发转移的初始系统治疗顺序与手术时机安排 2. 脑转移确诊后局部放疗与系统治疗的联合策略选择 3. 系统治疗因胃肠道毒性受限时方案调整与依从性管理 4. 颅内进展而颅外稳定时的治疗决策与方案更换依据 5. ADC药物在放疗后症状性脑转移中的应用时机与循证依据 6. 新方案启动后疗效评估节奏与影像学随访安排 7. 脑转移相关皮质类固醇减停的时机判断\"\n            }\n          ]\n        },\n        {\n          \"id\": \"timeline\",\n          \"label\": \"病程轴\",\n          \"order\": 2,\n          \"timeline_items\": [\n            {\n              \"date\": \"2017年8月\",\n              \"title\": \"确诊\",\n              \"detail\": \"左侧IV期HER2阳性乳腺癌（cT4bN3cM1），伴淋巴结、骨和肝脏多发转移\"\n            },\n            {\n              \"date\": \"时间未详\",\n              \"title\": \"诊疗节点 2\",\n              \"detail\": \"2017年8月后｜初始治疗｜epirubicin联合环磷酰胺序贯化疗→帕妥珠单抗联合曲妥珠单抗靶向治疗→左侧乳腺癌改良根治术→术后内分泌治疗、靶向维持治疗及局部放疗\"\n            },\n            {\n              \"date\": \"2019年4月\",\n              \"title\": \"脑转移确诊\",\n              \"detail\": \"因头痛、恶心入院，颅脑MRI证实多发脑转移\"\n            },\n            {\n              \"date\": \"时间未详\",\n              \"title\": \"诊疗节点 4\",\n              \"detail\": \"2019年4月后｜脑转移治疗｜全脑放疗（WBRT，40 Gy/20f）联合吡咯替尼和卡培他滨系统治疗；局部放疗初期获部分缓解，但患者因无法耐受严重胃肠道反应，系统治疗方案执行受限\"\n            },\n            {\n              \"date\": \"2021年9月\",\n              \"title\": \"颅内进展\",\n              \"detail\": \"再次出现头痛、恶心及步态不稳，复查MRI显示脑部病灶较前增大，提示颅内病情进展，颅外病灶保持稳定\"\n            },\n            {\n              \"date\": \"时间未详\",\n              \"title\": \"诊疗节点 6\",\n              \"detail\": \"2021年9月后｜启动RC48｜经临床团队评估，决定启动维迪西妥单抗（RC48）单药治疗\"\n            },\n            {\n              \"date\": \"时间未详\",\n              \"title\": \"诊疗节点 7\",\n              \"detail\": \"首个周期后｜症状改善｜头痛、呕吐及步态不稳等神经系统症状迅速改善，逐步停用降颅压皮质类固醇\"\n            },\n            {\n              \"date\": \"时间未详\",\n              \"title\": \"诊疗节点 8\",\n              \"detail\": \"完成5个周期后｜影像评估｜颅脑MRI显示多发脑转移结节显著缩小，评价为部分缓解（PR）\"\n            },\n            {\n              \"date\": \"时间未详\",\n              \"title\": \"诊疗节点 9\",\n              \"detail\": \"RC48单药治疗期间｜疗效与安全性｜颅内病灶PFS达12个月；未出现明显相关毒性或血液学异常\"\n            }\n          ]\n        },\n        {\n          \"id\": \"images\",\n          \"label\": \"病例图片\",\n          \"order\": 3,\n          \"image_items\": []\n        }\n      ]\n    }\n  }\n}"
+}

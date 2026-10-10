@@ -1,0 +1,304 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-4FDC8196",
+    "cancer_type": "消化系统肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "原发部位确认",
+        "timepoint": "初诊时",
+        "question": "患者有十二指肠肿块及多发肝肿块，十二指肠和肝脏活检均提示腺癌。确定原发部位时，哪种判断最可靠？",
+        "options": {
+          "A": "以CA19-9升高为由，直接归为胆管原发",
+          "B": "结合内镜原发灶、两处病理及免疫表型综合判断",
+          "C": "以肝内病灶数目最多为由，直接归为原发性肝癌",
+          "D": "以肿块邻近胰腺为由，直接归为胰腺原发"
+        },
+        "answer": "B",
+        "answer_text": "结合内镜原发灶、两处病理及免疫表型综合判断",
+        "explain": "原发部位判断需要内镜、影像和组织学相互印证，不能由转移负荷或非特异性标志物决定。本例原文已明确诊断十二指肠原发伴肝转移，不应因肝脏病灶显著而改成肝癌。",
+        "keyPoint": "癌种分类依据原发诊断，不能被显著的转移部位带偏。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "NCCN",
+          "source_title": "Small Bowel Adenocarcinoma, Version 1.2020, NCCN Clinical Practice Guidelines in Oncology",
+          "source_version": "1.2020",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10191182/",
+          "evidence_summary": "小肠腺癌诊断评估结合原发灶检查、影像及病理，以确定部位和病变范围。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "分子诊断",
+        "phase": "分子报告解读",
+        "timepoint": "初诊病理评估后",
+        "question": "摘要写有“MSI、HER2、PD-1阴性”，并称未见错配修复缺陷。用于后续治疗决策前，最应采取哪种处理？",
+        "options": {
+          "A": "将MSI阴性视为所有潜在靶点均阴性",
+          "B": "将PD-1阴性直接改写为PD-L1 CPS＜1",
+          "C": "将未见错配修复缺陷写成已排除全部遗传易感性",
+          "D": "核对原报告的检测项目、方法及MMR/MSI标准表述"
+        },
+        "answer": "D",
+        "answer_text": "核对原报告的检测项目、方法及MMR/MSI标准表述",
+        "explain": "不同标志物不能互换，“PD-1阴性”尤其需要回到原报告核对。小肠腺癌重视MMR/MSI评估，但有限的阴性结果不等于完成所有分子检测，也不能单独排除全部遗传风险。",
+        "keyPoint": "保留原始检测项目，避免把模糊摘要升级为明确分子结论。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "NCCN",
+          "source_title": "Small Bowel Adenocarcinoma, Version 1.2020, NCCN Clinical Practice Guidelines in Oncology",
+          "source_version": "1.2020",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10191182/",
+          "evidence_summary": "小肠腺癌推荐MMR/MSI评估，分子结果需按实际检测内容用于决策。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "转移性疾病初始治疗",
+        "timepoint": "全身治疗计划制定时",
+        "question": "患者确诊十二指肠腺癌伴肝转移，原文采用FOLFOX。以下哪项最准确地表述这一阶段的治疗目标？",
+        "options": {
+          "A": "优先等待分子结果转阳，暂缓所有症状控制",
+          "B": "以全身疾病控制为主，结合耐受性和症状安排综合治疗",
+          "C": "以单纯局部切除替代全身评估，默认获得根治",
+          "D": "将一线化疗视为术后辅助治疗，无需描述转移状态"
+        },
+        "answer": "B",
+        "answer_text": "以全身疾病控制为主，结合耐受性和症状安排综合治疗",
+        "explain": "已有肝转移时需按转移性小肠腺癌评估。FOLFOX是公开NCCN小肠腺癌指南中的全身方案之一；治疗强度、并发症及姑息支持需同时考虑，不能预先承诺根治或套用术后辅助语境。",
+        "keyPoint": "先明确转移性治疗目的，再讨论方案与耐受性。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "NCCN",
+          "source_title": "Small Bowel Adenocarcinoma, Version 1.2020, NCCN Clinical Practice Guidelines in Oncology",
+          "source_version": "1.2020",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10191182/",
+          "evidence_summary": "公开NCCN小肠腺癌指南列有FOLFOX等转移性疾病全身方案，治疗选择结合患者状况。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "不良反应管理",
+        "phase": "肿瘤相关血栓处理",
+        "timepoint": "化疗期间出现肺栓塞时",
+        "question": "患者在FOLFOX期间发生肺栓塞，原发灶位于消化道。讨论抗凝方案时，哪项评估最关键？",
+        "options": {
+          "A": "因肿瘤位于消化道而一律不予抗凝治疗",
+          "B": "仅按口服给药便利性选择抗凝药，不核对出血风险",
+          "C": "同时评估出血风险、血小板、肾功能及药物相互作用",
+          "D": "因血栓发生于化疗期而认定无需持续抗凝评估"
+        },
+        "answer": "C",
+        "answer_text": "同时评估出血风险、血小板、肾功能及药物相互作用",
+        "explain": "肿瘤相关血栓需平衡复发与出血风险。ASH指南允许在合适患者中选择DOAC或低分子肝素，但消化道病变及其他临床因素会影响选择；本例缺少这些细节，不能直接指定唯一药物与剂量。",
+        "keyPoint": "消化道肿瘤合并VTE时，抗凝方案需个体化权衡。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ASH",
+          "source_title": "American Society of Hematology 2021 guidelines for management of venous thromboembolism: prevention and treatment in patients with cancer",
+          "source_version": "2021",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7903232/",
+          "evidence_summary": "肿瘤相关VTE治疗选择需考虑出血风险、肾功能和相互作用，DOAC在消化道癌中应谨慎使用。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "不良反应管理",
+        "phase": "神经症状评估",
+        "timepoint": "FOLFOX治疗期间",
+        "question": "原文仅记载化疗中出现神经系统症状，未给出分级和功能受损程度。决定是否调整奥沙利铂前，最恰当的是？",
+        "options": {
+          "A": "把神经症状直接归为2级，并固定减量比例",
+          "B": "只给予维生素治疗，维持所有原剂量直至疗程结束",
+          "C": "评估症状类型、功能影响及其他病因，再决定调整方式",
+          "D": "只依据累计化疗次数，忽略症状对日常活动的影响"
+        },
+        "answer": "C",
+        "answer_text": "评估症状类型、功能影响及其他病因，再决定调整方式",
+        "explain": "应先确认是否为CIPN及其严重程度，不能把所有神经症状都归因于化疗。ASCO建议出现不可耐受症状或功能损害时，讨论延迟、减量、替换或停用相关化疗药物。",
+        "keyPoint": "神经毒性处理以症状和功能评估为基础，不补造分级。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ASCO",
+          "source_title": "Prevention and Management of Chemotherapy-Induced Peripheral Neuropathy in Survivors of Adult Cancers: ASCO Guideline Update",
+          "source_version": "2020",
+          "source_section": "",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/32663120/",
+          "evidence_summary": "不可耐受神经病变或功能损害时，应评估延迟、减量、替换或停止化疗的适宜性。"
+        }
+      }
+    ],
+    "missing_information": [],
+    "second_cancer_type": "小肠癌"
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-4FDC8196",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "小肠癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "53 岁女性原发性十二指肠腺癌伴肝转移及肺栓塞病例",
+      "description": "53岁女性因腹痛、黄疸等就诊，检查发现十二指肠第三段肿块及肝脏病灶，两处活检结合临床支持十二指肠中分化腺癌伴肝转移，肺结节性质未完全确定。原文报告MSI、HER2及“PD-1”相关结果为阴性，但需核对检测方法和原始项目，不能改写成明确的PD-L1 CPS。患者接受FOLFOX治疗，期间出现肺栓塞和神经症状，接受抗凝及支持照护；未提供足以确定神经毒性等级的功能受损资料。"
+    },
+    "overview": {
+      "hero": {
+        "title": "53 岁女性原发性十二指肠腺癌伴肝转移及肺栓塞病例",
+        "subtitle": "原发部位确认；分子报告解读；转移性疾病初始治疗；肿瘤相关血栓处理；神经症状评估。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者与就诊背景",
+              "value": "53岁女性因腹痛、黄疸等就诊，检查发现十二指肠第三段肿块及肝脏病灶，两处活检结合临床支持十二指肠中分化腺癌伴肝转移，肺结节性质未完全确定。原文报告MSI、HER2及“PD-1”相关结果为阴性，但需核对检测方法和原始项目，不能改写成明确的PD-L1 CPS。患者接受FOLFOX治疗，期间出现肺栓塞和神经症状，接受抗凝及支持照护；未提供足以确定神经毒性等级的功能受损资料。"
+            },
+            {
+              "order": 2,
+              "label": "疾病与分期",
+              "value": "十二指肠腺癌伴肝转移；展示归类为消化系统肿瘤，字典二级名称为小肠癌。肺结节不自动视为已证实肺转移。"
+            },
+            {
+              "order": 3,
+              "label": "分子与病理",
+              "value": "原发与肝脏病灶活检为中分化腺癌，原文记载脉管侵犯。MSI、HER2及“PD-1”结果需结合原始检测报告解释；不能据此补写全部分子检测阴性或胚系检测结果。"
+            },
+            {
+              "order": 4,
+              "label": "核心教学点",
+              "value": "原发部位确认；分子报告解读；转移性疾病初始治疗；肿瘤相关血栓处理；神经症状评估。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "就诊前约3周",
+              "title": "出现腹部症状",
+              "detail": "腹痛、黄疸等促使进一步检查。"
+            },
+            {
+              "date": "诊断期",
+              "title": "确认十二指肠原发及肝转移",
+              "detail": "内镜发现第三段病灶，结合两处活检诊断；肺结节仍需区别可疑与确诊。"
+            },
+            {
+              "date": "系统治疗期",
+              "title": "FOLFOX治疗",
+              "detail": "治疗目的依据转移性疾病讨论，不能称为已根治后的辅助治疗。"
+            },
+            {
+              "date": "治疗期间",
+              "title": "肺栓塞及神经症状",
+              "detail": "实施抗凝和支持处理；神经症状未提供明确毒性等级。"
+            },
+            {
+              "date": "后续照护",
+              "title": "持续症状与治疗评估",
+              "detail": "结合疾病控制、并发症、耐受性及患者意愿安排后续管理。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/r7Xbujb3l5N0jfnc_BThyg/uoAdviF0YIkDtpGmzFWTkb6kecmhLVK8.png",
+              "timepoint": "诊断初期",
+              "caption": "腹部和骨盆 CT 静脉造影、动脉期、轴向视图。红色箭头表示左上象限中央肠系膜内、胰腺下方的软组织肿块。邻近的突出淋巴结也清晰可见，表明可能存在淋巴结受累。",
+              "alt": "腹部和骨盆 CT 静脉造影、动脉期、轴向视图。红色箭头表示左上象限中央肠系膜内、胰腺下方的软组织肿块。邻近的突出淋巴结也清晰可见，表明可能存在淋巴结受累。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/r7Xbujb3l5N0jfnc_BThyg/8Bt0zPg8WcwZ0QfYO5Tu4L5YYfbkGPVw.png",
+              "timepoint": "诊断初期",
+              "caption": "十二指肠内窥镜图像，黑色箭头表示十二指肠肿块。肿块呈不规则凸起病变，位于十二指肠第三部分，与活检证实的腺癌相符。",
+              "alt": "十二指肠内窥镜图像，黑色箭头表示十二指肠肿块。肿块呈不规则凸起病变，位于十二指肠第三部分，与活检证实的腺癌相符。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/r7Xbujb3l5N0jfnc_BThyg/FnTLPgw9SinTzuKHyPgfkB5plOpSb01D.png",
+              "timepoint": "诊断初期",
+              "caption": "超声引导下穿刺活检，蓝色箭头表示活检针，绿色箭头指向肝肿块。",
+              "alt": "超声引导下穿刺活检，蓝色箭头表示活检针，绿色箭头指向肝肿块。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG4",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/r7Xbujb3l5N0jfnc_BThyg/8NxEVXeEjCjBJPq0zSl4OeQSeSg8uRT4.png",
+              "timepoint": "病理检查",
+              "caption": "HE 染色（20x），红色星号表示腺癌区域；蓝色星号表示 Lieberkühn 隐窝。",
+              "alt": "HE 染色（20x），红色星号表示腺癌区域；蓝色星号表示 Lieberkühn 隐窝。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG5",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/r7Xbujb3l5N0jfnc_BThyg/wxFGFhSG8SwNes2pNBXXYV6moFL0M5zt.png",
+              "timepoint": "病理检查",
+              "caption": "HE 染色（20x），蓝色箭头表示淋巴血管侵袭区域；黄色箭头指向粘蛋白；红色箭头表示小肠（十二指肠）的良性隐窝。",
+              "alt": "HE 染色（20x），蓝色箭头表示淋巴血管侵袭区域；黄色箭头指向粘蛋白；红色箭头表示小肠（十二指肠）的良性隐窝。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG6",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/r7Xbujb3l5N0jfnc_BThyg/c6aym4BrsLlGt8aUDAD0HNhLHmVZgzzK.png",
+              "timepoint": "病理检查",
+              "caption": "HE 染色（20x），橙色箭头表示胆汁背景，黄色箭头表示含有粘蛋白的区域，红色星号表示肝脏内的腺癌区域。",
+              "alt": "HE 染色（20x），橙色箭头表示胆汁背景，黄色箭头表示含有粘蛋白的区域，红色星号表示肝脏内的腺癌区域。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "小肠癌"
+  }
+}

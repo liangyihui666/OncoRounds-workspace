@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "case_id": "lung-ros1",
+  "cancer_type": "肺癌",
+  "page_type": "case_timeline",
+  "hero": {
+    "image": "./assets/cases/lung-ros1-home.png",
+    "difficulty": "进阶",
+    "title": "一例 ROS1 融合肺癌精准治疗临床病例分享",
+    "subtitle": "从靶向耐药、再活检到新一代 ROS1 抑制剂"
+  },
+  "tabs": {
+    "active": "timeline",
+    "items": [
+      { "id": "summary", "label": "病例摘要" },
+      { "id": "timeline", "label": "病程轴" }
+    ]
+  },
+  "timeline_items": [
+    {
+      "date": "2020.12",
+      "title": "一线 ROS1 靶向治疗",
+      "detail": "塞瑞替尼治疗，最佳疗效 PR，PFS 约 10 个月。"
+    },
+    {
+      "date": "2021.09",
+      "title": "颅内进展",
+      "detail": "多发脑转移进展，接受全脑放疗并延续原靶向治疗。"
+    },
+    {
+      "date": "2021.12",
+      "title": "二线临床研究",
+      "detail": "进入 APG-2449 研究，疾病稳定，PFS 约 8 个月。"
+    },
+    {
+      "date": "2022.09",
+      "title": "化疗联合抗血管",
+      "detail": "培美曲塞、卡铂联合贝伐珠单抗，5 个周期后获得 PR。"
+    },
+    {
+      "date": "2023.08",
+      "title": "再活检明确耐药",
+      "detail": "检测到 ROS1 D869Y 与 TP53 改变，为后续精准选择提供依据。"
+    },
+    {
+      "date": "2023.09+",
+      "title": "新一代选择性 ROS1 抑制剂",
+      "detail": "进入 JYP0322 研究并持续获得 PR。"
+    }
+  ],
+  "primary_action": {
+    "label": "开始模拟查房",
+    "action": "start_round"
+  },
+  "decision_point_count": 5
+}

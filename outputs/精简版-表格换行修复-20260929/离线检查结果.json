@@ -1,0 +1,88 @@
+{
+  "checks": [
+    {
+      "name": "全部代码语法和节点/输出引用有效",
+      "pass": true
+    },
+    {
+      "name": "真实附件1：重复questions仍拒绝，不能覆盖",
+      "pass": true
+    },
+    {
+      "name": "真实附件2：真缺四题不自动补造",
+      "pass": true
+    },
+    {
+      "name": "真实附件6：五题错位归位且内容逐字不变",
+      "pass": true
+    },
+    {
+      "name": "真实附件7：五题错位归位且内容逐字不变",
+      "pass": true
+    },
+    {
+      "name": "重复嵌套答案键也拒绝",
+      "pass": true
+    },
+    {
+      "name": "错位冲突/题号不符/不完整归位都拒绝",
+      "pass": true
+    },
+    {
+      "name": "中文断行和br显示换行可匹配，英文边界、表格边界仍保留",
+      "pass": true
+    },
+    {
+      "name": "公式排版等价支持，不改变不等号/小数/否定",
+      "pass": true
+    },
+    {
+      "name": "五题通过全部程序检查、四行解析、不泄露内部核对字段",
+      "pass": true
+    },
+    {
+      "name": "结构归位后仍完整核对五题，错误引文不得放行",
+      "pass": true
+    },
+    {
+      "name": "未完成、错计数、错答案、重复选项、错引用、检索失败仍拦截",
+      "pass": true
+    },
+    {
+      "name": "1至4题草稿不当完成，零题保留不足状态",
+      "pass": true
+    },
+    {
+      "name": "伪造病例/否定/数值/跨记录/拼接原句仍拦截",
+      "pass": true
+    },
+    {
+      "name": "第二轮看到归位后全套题及明确完整替换要求，重复键不静默丢失",
+      "pass": true
+    },
+    {
+      "name": "真实Q5修复前仅C/D引文不匹配；修复后两轮检查器均匹配，题目与证据不改写",
+      "pass": true
+    },
+    {
+      "name": "只消除涉及中文的HTML显示换行；不吞并英文单词/数字/表格单元格/临床符号",
+      "pass": true
+    },
+    {
+      "name": "错研究编号和跨单元格拼接引文仍拒绝",
+      "pass": true
+    },
+    {
+      "name": "除两个节点的显示匹配代码外，模型/提示词/检索/拓扑/HTML与批量工作流逐字不变",
+      "pass": true
+    }
+  ],
+  "passed": 19,
+  "failed": 0,
+  "actual_case_id": "CASE-84AF0D51",
+  "scope": "literal_source_presence_only",
+  "semantic_support": "not_verified",
+  "medical_review_status": "not_performed",
+  "online_verified": false,
+  "api_calls": 0
+}

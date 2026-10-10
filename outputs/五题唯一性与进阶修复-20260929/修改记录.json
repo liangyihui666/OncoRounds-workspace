@@ -1,0 +1,35 @@
+{
+  "revision": "20260929-unique-advanced-five",
+  "base": "outputs/Qwen3.5Plus对照试跑-20260929/01-出题子应用-Qwen3.5Plus对照版.json",
+  "changed_nodes": [
+    {
+      "id": "sR35QbYF2xamDQR3",
+      "name": "题目生成-首轮"
+    },
+    {
+      "id": "v12RevisionInput",
+      "name": "第二轮修订输入"
+    },
+    {
+      "id": "v12RevisionGenerator",
+      "name": "题目修订-第二轮"
+    },
+    {
+      "id": "v12FinalPublicationNormalize",
+      "name": "整理最终输出"
+    }
+  ],
+  "node_count": 33,
+  "edge_count": 52,
+  "core_generation_calls": 2,
+  "public_schema_changed": false,
+  "retrieval_unchanged": true,
+  "online_verified": false,
+  "medical_correctness_verified": false,
+  "prompt_lengths": {
+    "first_before": 3254,
+    "first_after": 3403,
+    "revision_before": 3817,
+    "revision_after": 3816
+  }
+}

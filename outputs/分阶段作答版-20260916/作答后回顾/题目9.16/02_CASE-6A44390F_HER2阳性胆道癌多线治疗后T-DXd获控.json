@@ -1,0 +1,254 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-6A44390F",
+    "cancer_type": "消化系统肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "分子诊断",
+        "phase": "多线进展后的靶点评估",
+        "timepoint": "HER2免疫组化阳性、FISH提示扩增",
+        "question": "拟参考HERB研究考虑T-DXd时，现有报告只写“HER2免疫组化阳性、FISH扩增”。最应补核对哪项？",
+        "options": {
+          "A": "将“免疫组化阳性”统一改记为IHC 3+",
+          "B": "IHC具体评分、ISH判定及标本来源，核对研究的HER2入组定义",
+          "C": "将FISH扩增直接改记为HER2激活突变",
+          "D": "仅核对CA19-9是否升高，替代组织HER2判断"
+        },
+        "answer": "B",
+        "answer_text": "IHC具体评分、ISH判定及标本来源，核对研究的HER2入组定义",
+        "explain": "HERB的HER2阳性组采用IHC 3+或IHC 2+/ISH阳性等明确标准。“阳性”不足以补写强度；蛋白表达、基因扩增与序列突变也不是同一检测结果。",
+        "keyPoint": "引用HER2研究前应核对具体检测定义，不补造IHC评分。",
+        "guidelineRef": {
+          "evidence_type": "临床研究",
+          "doc_id": "",
+          "split_index": null,
+          "type": "journal",
+          "authority": "",
+          "source_title": "Trastuzumab Deruxtecan in Human Epidermal Growth Factor Receptor 2-Expressing Biliary Tract Cancer (HERB; NCCH1805): A Multicenter, Single-Arm, Phase II Trial",
+          "source_version": "2024",
+          "source_section": "",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/39102634/",
+          "evidence_summary": "引用HER2研究前应核对具体检测定义，不补造IHC评分。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "治疗决策",
+        "phase": "后线证据选择",
+        "timepoint": "多线胆道癌治疗进展后",
+        "question": "HERB研究提示T-DXd对部分HER2阳性胆道癌有活性。用于解释本例后线选择时，哪项表述最准确？",
+        "options": {
+          "A": "HER2阳性组全部缓解，因此可预测本例必然获益",
+          "B": "研究已随机比较T-DXd与仑伐替尼，证明联合更优",
+          "C": "研究证实所有IHC 1+胆道癌均适合相同治疗",
+          "D": "单臂Ⅱ期结果支持活性信号，但不能证明优于所有其他后线方案"
+        },
+        "answer": "D",
+        "answer_text": "单臂Ⅱ期结果支持活性信号，但不能证明优于所有其他后线方案",
+        "explain": "HERB为单臂Ⅱ期研究，HER2阳性组22例中观察到客观缓解，未设随机对照。需匹配既往治疗、标志物和器官功能，同时考虑ILD等风险；它没有验证本例后续T-DXd联合仑伐替尼的增益。",
+        "keyPoint": "单臂研究可支持治疗活性，不能代替随机比较或联合方案证据。",
+        "guidelineRef": {
+          "evidence_type": "临床研究",
+          "doc_id": "",
+          "split_index": null,
+          "type": "journal",
+          "authority": "",
+          "source_title": "Trastuzumab Deruxtecan in Human Epidermal Growth Factor Receptor 2-Expressing Biliary Tract Cancer (HERB; NCCH1805): A Multicenter, Single-Arm, Phase II Trial",
+          "source_version": "2024",
+          "source_section": "",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/39102634/",
+          "evidence_summary": "单臂研究可支持治疗活性，不能代替随机比较或联合方案证据。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "疗效复评与局部治疗",
+        "phase": "疑似进展复核",
+        "timepoint": "CA19-9回升且PET仍有代谢活性",
+        "question": "T-DXd治疗约4个月，CA19-9由低点回升，PET提示仍有肿瘤代谢活性，但未给出可比病灶尺寸或明确新灶。更合适的下一步是？",
+        "options": {
+          "A": "结合症状和可比影像复核是否进展，再讨论调整方案",
+          "B": "只要此前曾缩小，就忽略这次指标与影像变化",
+          "C": "以PET仍有摄取直接证明HER2靶点已经丢失",
+          "D": "按CA19-9回升直接判定RECIST进展并加药"
+        },
+        "answer": "A",
+        "answer_text": "结合症状和可比影像复核是否进展，再讨论调整方案",
+        "explain": "残留活性不等于相对既往进展，肿瘤标志物也不能独立给出RECIST分类。本例实际加用仑伐替尼后获控，但个案先后变化不能证明已明确耐药机制或“克服耐药”。",
+        "keyPoint": "调整治疗前要区分残留病灶、可疑变化与确证进展。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "RECIST Working Group",
+          "source_title": "New response evaluation criteria in solid tumours: revised RECIST guideline (version 1.1)",
+          "source_version": "2009",
+          "source_section": "",
+          "source_url": "https://project.eortc.org/recist/wp-content/uploads/sites/4/2015/03/RECISTGuidelines.pdf",
+          "evidence_summary": "调整治疗前要区分残留病灶、可疑变化与确证进展。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "不良反应管理",
+        "phase": "血液学毒性复评",
+        "timepoint": "原文报告2级白细胞减少及贫血",
+        "question": "T-DXd治疗后，病例报告2级白细胞减少和贫血，但未提供当前ANC、血小板计数及是否发热。决定下一次给药及是否使用升白支持前，应首先核对什么？",
+        "options": {
+          "A": "把白细胞减少等同于发热性中性粒细胞减少",
+          "B": "仅凭2级白细胞减少即永久停用T-DXd",
+          "C": "无论ANC和感染情况如何，固定常规使用G-CSF",
+          "D": "ANC、血红蛋白、发热感染及恢复趋势，按具体毒性调整"
+        },
+        "answer": "D",
+        "answer_text": "ANC、血红蛋白、发热感染及恢复趋势，按具体毒性调整",
+        "explain": "白细胞总数不能替代ANC，贫血也需独立评价。说明书的中断和减量要求针对具体毒性与等级；本例支持治疗后继续用药的经过，不构成所有2级血液学异常统一停药或升白的规则。",
+        "keyPoint": "血液学毒性处理应依据具体指标，而非笼统的“骨髓抑制”。",
+        "guidelineRef": {
+          "evidence_type": "药品说明书",
+          "doc_id": "",
+          "split_index": null,
+          "type": "drug_label",
+          "authority": "DailyMed",
+          "source_title": "ENHERTU (fam-trastuzumab deruxtecan-nxki) prescribing information",
+          "source_version": "",
+          "source_section": "",
+          "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6",
+          "evidence_summary": "血液学毒性处理应依据具体指标，而非笼统的“骨髓抑制”。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "不良反应管理",
+        "phase": "T-DXd治疗监测",
+        "timepoint": "制定后续随访及患者教育时",
+        "question": "拟制定T-DXd治疗期间的呼吸系统风险预案，当前未记录ILD。哪项安排最恰当？",
+        "options": {
+          "A": "新发咳嗽或呼吸困难及时评估并暂停疑似相关用药；确诊症状性ILD需永久停药",
+          "B": "仅在血氧显著下降时检查，轻度咳嗽不影响用药",
+          "C": "症状性ILD缓解后均按原剂量恢复T-DXd",
+          "D": "出现任何咳嗽均直接诊断ILD，不排查感染与肿瘤进展"
+        },
+        "answer": "A",
+        "answer_text": "新发咳嗽或呼吸困难及时评估并暂停疑似相关用药；确诊症状性ILD需永久停药",
+        "explain": "这是风险预案，不是本例已发生事件。T-DXd说明书要求及时检查疑似ILD，症状性ILD（≥2级）永久停药并尽早处理；需同步鉴别感染及其他原因，不能仅凭咳嗽确诊。",
+        "keyPoint": "T-DXd相关ILD需早识别，症状性ILD与无症状影像异常的处理不同。",
+        "guidelineRef": {
+          "evidence_type": "药品说明书",
+          "doc_id": "",
+          "split_index": null,
+          "type": "drug_label",
+          "authority": "DailyMed",
+          "source_title": "ENHERTU (fam-trastuzumab deruxtecan-nxki) prescribing information",
+          "source_version": "",
+          "source_section": "",
+          "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6",
+          "evidence_summary": "T-DXd相关ILD需早识别，症状性ILD与无症状影像异常的处理不同。"
+        }
+      }
+    ],
+    "missing_information": [],
+    "second_cancer_type": "胆道恶性肿瘤"
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-6A44390F",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "胆道恶性肿瘤主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "HER2阳性胆道癌的后线治疗",
+      "description": "57岁男性，胆总管腺癌术后复发，经再次手术及多线系统治疗。"
+    },
+    "overview": {
+      "hero": {
+        "title": "HER2阳性胆道癌的后线治疗",
+        "subtitle": "治疗后病灶缩小、CA19-9下降；约4个月后指标回升，随后加用仑伐替尼。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "57岁男性，胆总管腺癌术后复发，经再次手术及多线系统治疗。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "HER2扩增；进展后采用德曲妥珠单抗。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "治疗后病灶缩小、CA19-9下降；约4个月后指标回升，随后加用仑伐替尼。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "原文报告后续疾病获控，治疗中有血液学及肝功能异常。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "初诊",
+              "title": "手术及病理",
+              "detail": "胆管切除及胆肠吻合，病理为胆总管腺癌。"
+            },
+            {
+              "date": "2021年12月至2022年",
+              "title": "复发后再治疗",
+              "detail": "复发后二次手术，继以吉西他滨、顺铂及贝伐珠单抗。"
+            },
+            {
+              "date": "2023年6月起",
+              "title": "再次进展后治疗",
+              "detail": "度伐利尤单抗、白蛋白紫杉醇、卡铂及腹部放疗，后免疫维持。"
+            },
+            {
+              "date": "2024年4至5月",
+              "title": "后线调整",
+              "detail": "调整为卡度尼利单抗、奥沙利铂及卡培他滨，因严重手足反应停止。"
+            },
+            {
+              "date": "2024年6至7月",
+              "title": "T-DXd治疗",
+              "detail": "T-DXd后病灶缩小、CA19-9下降，出现血液学及肝功能异常。"
+            },
+            {
+              "date": "约4个月后及后续",
+              "title": "个体化联合",
+              "detail": "CA19-9回升、PET仍有活性，后加仑伐替尼，原文记录获控。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    },
+    "second_cancer_type": "胆道恶性肿瘤"
+  }
+}

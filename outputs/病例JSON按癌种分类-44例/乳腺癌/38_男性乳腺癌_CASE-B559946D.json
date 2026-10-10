@@ -1,0 +1,247 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-B559946D",
+    "cancer_type": "乳腺癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "治疗决策",
+        "phase": "晚期一线治疗",
+        "timepoint": "初诊时",
+        "question": "患者确诊 HR+/HER2-转移性乳腺癌伴广泛肝转移及肝功能异常（肝危机），在无明确内分泌耐药史前提下，当前规范推荐的首选全身治疗策略是？",
+        "options": {
+          "A": "优先选择含紫杉类药物的化疗方案快速控制病情",
+          "B": "立即启动 CDK4/6 抑制剂联合芳香化酶抑制剂治疗",
+          "C": "单药内分泌治疗联合骨改良药物观察疗效",
+          "D": "直接采用双靶联合化疗方案进行转化治疗"
+        },
+        "answer": "A",
+        "answer_text": "优先选择含紫杉类药物的化疗方案快速控制病情",
+        "explain": "肝危机属内脏危象，需快速缓解症状及恢复器官功能，指南推荐首选化疗而非内分泌治疗。CDK4/6 联合内分泌虽为一线标准，但不适用于需快速起效的内脏危象。",
+        "keyPoint": "内脏危象定义及化疗优先原则",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "fea9ac8e-8f06-46c0-9a57-2bf3069f1a01",
+          "split_index": 38,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "乳腺癌多学科诊疗标准与规范（2023年版）",
+          "source_version": "2023",
+          "source_section": "9 《乳腺癌多学科诊疗标准与规范（2023年版）》的具体要求",
+          "source_url": "",
+          "evidence_summary": "指南指出部分内分泌治疗耐药或肿瘤进展较快患者可选择化疗，肝危机属需快速控制病情场景。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "疗效复评与局部治疗",
+        "phase": "二线治疗",
+        "timepoint": "一线治疗 4 周期后",
+        "question": "患者一线白蛋白紫杉醇治疗 4 周期后，肝病灶轻微缩小但评估为疾病稳定（SD），且仍有进一步缩小趋势。此时最合理的决策是？",
+        "options": {
+          "A": "立即转换为二线卡培他滨单药治疗",
+          "B": "暂停治疗观察等待肿瘤自然消退",
+          "C": "继续原化疗方案直至疾病明确进展",
+          "D": "联合局部消融治疗以增强疗效"
+        },
+        "answer": "C",
+        "answer_text": "继续原化疗方案直至疾病明确进展",
+        "explain": "患者对一线化疗有反应（病灶缩小），虽评估为 SD 但未进展，且无不可耐受毒性，应继续原方案治疗直至疾病进展或毒性不可耐受。",
+        "keyPoint": "化疗获益（病灶缩小）时应继续原方案，不因 SD 过早换药。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "fea9ac8e-8f06-46c0-9a57-2bf3069f1a01",
+          "split_index": 38,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "乳腺癌多学科诊疗标准与规范（2023年版）",
+          "source_version": "2023",
+          "source_section": "9 《乳腺癌多学科诊疗标准与规范（2023年版）》的具体要求",
+          "source_url": "",
+          "evidence_summary": "指南强调晚期一线治疗选择需结合疾病严重程度及患者情况，全身治疗后可采取局部治疗，但未进展不应随意换药。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "耐药与后线管理",
+        "phase": "后线治疗",
+        "timepoint": "二线治疗 7 周期后",
+        "question": "患者在化疗及内分泌治疗后疾病进展，拟启动 CDK4/6 抑制剂联合内分泌治疗。为优化后续治疗决策及耐药管理，此时最应关注的分子检测项目是？",
+        "options": {
+          "A": "常规检测 PIK3CA 基因突变状态指导用药",
+          "B": "常规检测 ESR1 基因突变状态指导用药",
+          "C": "常规检测 BRCA1/2 胚系突变状态指导用药",
+          "D": "常规检测 PD-L1 表达水平指导用药"
+        },
+        "answer": "B",
+        "answer_text": "常规检测 ESR1 基因突变状态指导用药",
+        "explain": "指南推荐在接受内分泌治疗期间或治疗后发生复发/进展的 HR+/HER2-转移性乳腺癌患者，常规进行 ESR1 基因突变检测，因其与治疗耐药及后续方案选择相关。",
+        "keyPoint": "ESR1 突变检测在后线治疗中的指征",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "7f8a2463-763c-4669-a370-54fca8039124",
+          "split_index": 7,
+          "type": "guideline",
+          "authority": "中华医学会病理学分会, CACA, 国家病理质控中心",
+          "source_title": "乳腺癌生物标志物检测临床应用指南",
+          "source_version": "2025",
+          "source_section": "二、乳腺癌治疗靶点检测及临床意义",
+          "source_url": "",
+          "evidence_summary": "指南明确推荐对内分泌治疗期间或治疗后进展患者常规进行 ESR1 基因突变检测。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "耐药与后线管理",
+        "phase": "三线治疗",
+        "timepoint": "二线治疗 7 周期后",
+        "question": "患者二线卡培他滨治疗 7 周期后确认疾病进展（PD），既往未使用过 CDK4/6 抑制剂。此时三线治疗的最佳选择是？",
+        "options": {
+          "A": "继续卡培他滨联合抗血管生成药物",
+          "B": "再次使用紫杉类化疗药物进行挑战",
+          "C": "仅使用最佳支持治疗放弃抗肿瘤治疗",
+          "D": "启动 CDK4/6 抑制剂联合内分泌治疗"
+        },
+        "answer": "D",
+        "answer_text": "启动 CDK4/6 抑制剂联合内分泌治疗",
+        "explain": "HR+/HER2- 晚期乳腺癌患者在化疗进展后，若未使用过 CDK4/6 抑制剂，指南推荐将其联合内分泌治疗作为标准方案，可显著延长生存。",
+        "keyPoint": "化疗进展后，CDK4/6 抑制剂联合内分泌治疗是标准三线选择。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "c143e713-178f-43fd-abcb-bd0af0435ae4",
+          "split_index": 55,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "CDK4/6抑制剂治疗激素受体阳性人表皮生长因子受体2阴性乳腺癌临床应用专家共识(2023版)",
+          "source_version": "2023",
+          "source_section": "三、结语",
+          "source_url": "",
+          "evidence_summary": "共识明确 CDK4/6 抑制剂联合内分泌治疗已成为 HR+/HER2- 晚期乳腺癌患者的标准治疗方案，可改善生存及生活质量。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "不良反应管理",
+        "phase": "三线治疗期间",
+        "timepoint": "三线治疗 3 个月后",
+        "question": "患者使用 CDK4/6 抑制剂联合内分泌治疗出现严重潮热，导致暂停戈舍瑞林并更换来曲唑。针对此类不良反应的管理原则，下列描述正确的是？",
+        "options": {
+          "A": "所有三级不良反应均需永久停药不得再挑战",
+          "B": "依据分级暂停用药，评估风险获益后考虑恢复或减量",
+          "C": "仅通过对症处理无需调整抗肿瘤治疗方案",
+          "D": "立即更换为另一种作用机制完全不同的化疗药物"
+        },
+        "answer": "B",
+        "answer_text": "依据分级暂停用药，评估风险获益后考虑恢复或减量",
+        "explain": "指南建议根据不良反应严重程度分级处理，三级事件通常需暂停用药，待恢复后基于风险获益比考虑是否恢复治疗或减量，而非一律永久停药。",
+        "keyPoint": "不良反应分级管理与再挑战原则",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "c9294314-38c0-4a55-92b6-b261f374a7da",
+          "split_index": 60,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 整体支持",
+          "source_version": "2023",
+          "source_section": "（五）不良反应的处理",
+          "source_url": "",
+          "evidence_summary": "指南指出三级不良事件需暂停用药，基于风险获益比考虑是否恢复药物治疗或减量处理。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-B559946D",
+    "cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "男性乳腺癌的综合治疗决策",
+      "description": "61岁男性，初诊乳腺癌伴肝、骨转移，后经多线治疗。"
+    },
+    "overview": {
+      "hero": {
+        "title": "男性乳腺癌的综合治疗决策",
+        "subtitle": "男性患者的内分泌治疗背景、去势相关症状，以及疗效与治疗耐受性的权衡。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "61岁男性，初诊乳腺癌伴肝、骨转移，后经多线治疗。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "浸润性导管癌，ER/PR阳性，HER2 IHC 1+、FISH阴性。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "化疗后进展，改达尔西利联合内分泌治疗；潮热影响去势治疗，后调整方案。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "男性患者的内分泌治疗背景、去势相关症状，以及疗效与治疗耐受性的权衡。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "初诊",
+              "title": "明确分型及转移",
+              "detail": "HR阳性、HER2阴性乳腺癌，伴肝、骨转移。"
+            },
+            {
+              "date": "一线及二线",
+              "title": "化疗后进展",
+              "detail": "白蛋白紫杉醇后SD；改卡培他滨，7周期后出现进展。"
+            },
+            {
+              "date": "三线开始",
+              "title": "内分泌联合治疗",
+              "detail": "使用达尔西利、戈舍瑞林及来曲唑，继续唑来膦酸。"
+            },
+            {
+              "date": "治疗3个月后",
+              "title": "缓解及耐受性调整",
+              "detail": "肝病灶达PR；严重潮热后暂停戈舍瑞林，来曲唑改他莫昔芬。"
+            },
+            {
+              "date": "2025年4月及后续",
+              "title": "随访与治疗意愿",
+              "detail": "肝病灶继续缩小，患者同意恢复去势治疗；最近随访为SD。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

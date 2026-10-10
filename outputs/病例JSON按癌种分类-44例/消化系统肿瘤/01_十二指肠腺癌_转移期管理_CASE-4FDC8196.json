@@ -1,0 +1,247 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-4FDC8196",
+    "cancer_type": "消化系统肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "初诊评估",
+        "timepoint": "确诊时",
+        "question": "该患者确诊为原发性十二指肠腺癌伴肝转移。关于其临床分期（cTNM）的判定原则，下列哪项描述最准确？",
+        "options": {
+          "A": "基于治疗前体检、影像及活检资料确定，不随后续治疗改变",
+          "B": "应依据治疗后的影像学缓解情况修正初始临床分期",
+          "C": "仅依据手术切除后的病理结果确定最终分期，无需临床分期",
+          "D": "若出现新发肺栓塞，需立即将分期升级为更晚期别"
+        },
+        "answer": "A",
+        "answer_text": "基于治疗前体检、影像及活检资料确定，不随后续治疗改变",
+        "explain": "临床分期（cTNM）依据首次治疗前资料确定，用于指导初始治疗，一旦决定不再治疗或开始治疗，该分期即终止，不应根据随后所得资料（如疗效或并发症）改动。",
+        "keyPoint": "临床分期基于初诊资料锁定，不随治疗过程或并发症动态修正。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "b7b8c6fe-f9e7-4b55-addd-bb56d5453ec7",
+          "split_index": 154,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 整体评估",
+          "source_version": "2023",
+          "source_section": "一、肿瘤分期",
+          "source_url": "",
+          "evidence_summary": "临床分期依据首次治疗前资料明确，用于初步指导治疗，不应根据随后所得资料改动。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "分子诊断",
+        "phase": "初始诊断",
+        "timepoint": "病理确诊后",
+        "question": "患者分子检测显示 MSI、HER2、PD-1 均为阴性。针对该十二指肠腺癌患者的分子病理检测策略，下列哪项符合规范？",
+        "options": {
+          "A": "因 HER2 阴性，无需再进行任何基因检测",
+          "B": "参考结直肠癌原则，检测 KRAS/BRAF 等热点基因",
+          "C": "MSI 阴性可完全排除林奇综合征，无需遗传咨询",
+          "D": "必须常规进行 NTRK 融合检测作为一线决策依据"
+        },
+        "answer": "B",
+        "answer_text": "参考结直肠癌原则，检测 KRAS/BRAF 等热点基因",
+        "explain": "十二指肠癌缺乏特异性指南，常参考结直肠癌或胆道癌通用原则检测 KRAS/BRAF 等热点基因以指导治疗或临床研究；MSI 阴性非绝对排除林奇综合征；NTRK 非常规一线必测。",
+        "keyPoint": "十二指肠癌分子检测常参考消化道通用原则，关注热点基因。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "f51ad2ef-8e21-42f9-bfd1-f2ed36512587",
+          "split_index": 139,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 病理诊断",
+          "source_version": "2023",
+          "source_section": "三、整合诊断技术和展望",
+          "source_url": "",
+          "evidence_summary": "胆囊癌及肝外胆管癌可检测 KRAS、BRAF 等热点基因，十二指肠癌常参考此通用原则。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "不良反应管理",
+        "phase": "并发症阶段",
+        "timepoint": "化疗过程中",
+        "question": "患者在 FOLFOX 化疗期间出现多发性肺栓塞。关于肿瘤相关静脉血栓栓塞症（VTE）的诊断与评估，下列哪项正确？",
+        "options": {
+          "A": "应依据 D-二聚体检测结果，若正常即可排除肺栓塞",
+          "B": "应首选 CTPA 等影像学手段，因 D-二聚体特异性低",
+          "C": "应仅依据临床症状判断，无需进行影像学确认",
+          "D": "应立即行下腔静脉滤器植入术作为首选诊断措施"
+        },
+        "answer": "B",
+        "answer_text": "应首选 CTPA 等影像学手段，因 D-二聚体特异性低",
+        "explain": "肿瘤患者 D-二聚体基线常升高，特异性低，不推荐仅依据其诊断急性肺栓塞；指南推荐首选 CTPA 等影像学检查确诊，除非存在禁忌证。",
+        "keyPoint": "肿瘤患者 VTE 诊断不依赖 D-二聚体，首选影像学检查。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "01005469-68ed-4427-bc4e-899296d93405",
+          "split_index": 72,
+          "type": "guideline",
+          "authority": "中华医学会心血管病学分会",
+          "source_title": "急性肺栓塞诊断和治疗指南2025",
+          "source_version": "2025",
+          "source_section": "二、急性肺栓塞与肿瘤",
+          "source_url": "",
+          "evidence_summary": "恶性肿瘤患者 D-二聚体水平较高，不推荐依据其诊断，应首选 CTPA 等影像学手段。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "不良反应管理",
+        "phase": "并发症阶段",
+        "timepoint": "出现神经毒性时",
+        "question": "患者化疗中出现神经系统症状，评估为化疗诱导的周围神经病变（CIPN）。若症状达到 2 级（伴运动无力），下列哪项管理策略最适宜？",
+        "options": {
+          "A": "维持原剂量化疗，仅加用预防性神经保护剂",
+          "B": "暂停抗肿瘤治疗，永久停用该化疗药物",
+          "C": "立即行血浆置换以清除神经毒性药物",
+          "D": "调整抗肿瘤治疗（如减量），同时启动神经对症治疗"
+        },
+        "answer": "D",
+        "answer_text": "调整抗肿瘤治疗（如减量），同时启动神经对症治疗",
+        "explain": "对于中风险（2 级）神经毒性，建议调整抗肿瘤治疗（如减量、延迟），同时启动神经对症治疗（如止痛、维生素补充）；暂停或永久停药通常用于更高级别。",
+        "keyPoint": "2 级神经毒性需调整化疗剂量并对症处理，而非直接停药或维持原量。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "164cd842-d200-4180-9d87-58dcc871ea75",
+          "split_index": 139,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国肿瘤共病防治专家共识（2025版）",
+          "source_version": "2025",
+          "source_section": "5 肿瘤共病诊疗管理",
+          "source_url": "",
+          "evidence_summary": "中风险神经毒性应调整抗肿瘤治疗（如化疗减量），同时启动神经对症治疗。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "诊断与分期",
+        "phase": "初诊阶段",
+        "timepoint": "确诊时",
+        "question": "该患者确诊为原发性十二指肠腺癌伴肝转移。根据 AJCC 小肠腺癌 TNM 分期系统（第 8 版），其临床分期应判定为？",
+        "options": {
+          "A": "IV 期",
+          "B": "II B 期",
+          "C": "III A 期",
+          "D": "III B 期"
+        },
+        "answer": "A",
+        "answer_text": "IV 期",
+        "explain": "根据 AJCC 第 8 版分期，任何 T、任何 N 伴远处转移（M1）均定义为 IV 期。该患者存在肝转移，故分期为 IV 期。",
+        "keyPoint": "小肠腺癌伴远处转移直接归为 IV 期，不论原发灶浸润深度或淋巴结状态。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "6397a576-7b39-41f1-9852-48b0489a42c5",
+          "split_index": 13,
+          "type": "guideline",
+          "authority": "中国医师协会结直肠肿瘤专业委员会",
+          "source_title": "原发性小肠肿瘤多学科综合治疗中国专家共识（2025版）",
+          "source_version": "2025",
+          "source_section": "（二）小肠癌的病理诊断",
+          "source_url": "",
+          "evidence_summary": "AJCC 小肠腺癌 TNM 分期规定：任何 T 任何 N M1 为 IV 期。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-4FDC8196",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "小肠癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "十二指肠与肝脏病变的诊疗",
+      "description": "53岁女性因腹痛、黄疸就诊，发现十二指肠第三段肿块及肝病灶。"
+    },
+    "overview": {
+      "hero": {
+        "title": "十二指肠与肝脏病变的诊疗",
+        "subtitle": "原发与转移部位的病理确认，以及系统治疗期间血栓风险、神经症状和支持照护。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "53岁女性因腹痛、黄疸就诊，发现十二指肠第三段肿块及肝病灶。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "两处活检支持十二指肠腺癌伴肝转移；肺结节性质未完全确定。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "接受FOLFOX，期间发生肺栓塞及神经症状，予抗凝及支持治疗。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "原发与转移部位的病理确认，以及系统治疗期间血栓风险、神经症状和支持照护。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "就诊前约3周",
+              "title": "出现腹部症状",
+              "detail": "出现腹痛、黄疸等症状。"
+            },
+            {
+              "date": "诊断期",
+              "title": "确认十二指肠原发及肝转移",
+              "detail": "十二指肠及肝活检支持原发与转移；肺结节性质未明确。"
+            },
+            {
+              "date": "系统治疗期",
+              "title": "FOLFOX治疗",
+              "detail": "针对转移性疾病使用FOLFOX。"
+            },
+            {
+              "date": "治疗期间",
+              "title": "肺栓塞及神经症状",
+              "detail": "发生肺栓塞及神经症状，予抗凝和支持治疗。"
+            },
+            {
+              "date": "后续照护",
+              "title": "持续症状与治疗评估",
+              "detail": "结合疾病控制及耐受性继续管理，长期结局未提供。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

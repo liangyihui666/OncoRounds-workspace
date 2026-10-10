@@ -1,0 +1,54 @@
+{
+  "revision": "20260929-evidence-depth-five",
+  "sourceDir": "outputs/全流程复核优化-20260929",
+  "bases": {
+    "child": "01-出题子应用-全流程优化版.json",
+    "outer": "02-HTML单例外层-全流程优化版.json",
+    "batch": "03-批量生成-全流程优化版.json"
+  },
+  "files": {
+    "child": "01-出题子应用-证据与进阶加强版.json",
+    "outer": "02-HTML单例外层-配套版.json",
+    "batch": "03-批量生成-配套版.json"
+  },
+  "changes": [
+    {
+      "role": "child",
+      "id": "sR35QbYF2xamDQR3",
+      "name": "题目生成-首轮"
+    },
+    {
+      "role": "child",
+      "id": "cmuTcUhJefVm2DC6",
+      "name": "首轮格式预检"
+    },
+    {
+      "role": "child",
+      "id": "v12RevisionInput",
+      "name": "第二轮修订输入"
+    },
+    {
+      "role": "child",
+      "id": "v12RevisionGenerator",
+      "name": "题目修订-第二轮"
+    },
+    {
+      "role": "child",
+      "id": "v12AssemblyR2",
+      "name": "最终程序检查与引用装配"
+    },
+    {
+      "role": "child",
+      "id": "v12FinalPublicationNormalize",
+      "name": "整理最终输出"
+    }
+  ],
+  "internal_question_fields": 14,
+  "public_contract_unchanged": true,
+  "models_unchanged": true,
+  "graph_unchanged": true,
+  "retrieval_unchanged": true,
+  "outer_and_batch_unchanged": true,
+  "online_run": false,
+  "quote_presence_is_not_semantic_support": true
+}

@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "case_id": "CASE-9088ED9B",
+  "cancer_type": "胃食管结合部腺癌",
+  "difficulty": "进阶",
+  "decision_point_count": 5,
+  "image": {
+    "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/jyfnUj5CplBd6QLSNVlr5Q/sbmGXu7yTHCLDpQZIAfzMwzHpxBFyPsJ.png",
+    "alt": "表 1. NGS：患者胃食管交界处活检样本中检测到的体细胞变异"
+  },
+  "home": {
+    "recommendation_label": "今日推荐病例",
+    "display_title": "GEJ腺癌pCR后复发与双阳性标志物决策",
+    "description": "分期病灶核实、pCR后辅助证据、复发后PD-L1与CLDN18.2治疗依据"
+  },
+  "overview": {
+    "hero": {
+      "title": "GEJ腺癌pCR后复发与双阳性标志物决策",
+      "subtitle": "分期病灶核实、pCR后辅助证据、复发后PD-L1与CLDN18.2治疗依据"
+    },
+    "tabs": [
+      {
+        "id": "summary",
+        "label": "病例摘要",
+        "order": 1,
+        "summary_items": [
+          {
+            "order": 1,
+            "label": "患者画像",
+            "value": "男性，54岁，ECOG PS 0；因进行性固体食物吞咽困难约3个月就诊。"
+          },
+          {
+            "order": 2,
+            "label": "初始诊断",
+            "value": "胃食管结合部中分化腺癌，材料分期cT3N2M0、III期；左腋窝PET异常经活检支持疫苗相关反应性改变。"
+          },
+          {
+            "order": 3,
+            "label": "病理与分子",
+            "value": "HER2阴性、pMMR，PD-L1 CPS 5–9，CLDN18.2阳性细胞比例＞75%；染色强度及检测平台未完整提供。"
+          },
+          {
+            "order": 4,
+            "label": "治疗与复发",
+            "value": "FOLFOX诱导后接受放化疗及手术，达到ypT0N0；约10个月后肝活检证实复发，接受FOLFOX联合纳武利尤单抗后部分缓解。"
+          },
+          {
+            "order": 5,
+            "label": "核心难点",
+            "value": "区分病理残留与pCR人群的辅助证据，核实伴随诊断完整条件，避免跨试验直接排名。"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "label": "病程轴",
+        "order": 2,
+        "timeline_items": [
+          {
+            "date": "初诊",
+            "title": "原发灶与病理",
+            "detail": "内镜发现近梗阻性GEJ病灶，向近端延伸约5 cm；病理为中分化腺癌。"
+          },
+          {
+            "date": "初始分期",
+            "title": "腋窝异常病灶核实",
+            "detail": "CT、超声内镜及PET用于分期；左腋窝高摄取病灶活检提示疫苗相关反应性改变，原病例记录cT3N2M0。"
+          },
+          {
+            "date": "治疗前",
+            "title": "生物标志物评估",
+            "detail": "HER2阴性、pMMR，PD-L1 CPS 5–9、CLDN18.2阳性比例＞75%；摘要未记载膜染色强度。"
+          },
+          {
+            "date": "术前治疗",
+            "title": "诱导化疗及放化疗",
+            "detail": "接受3周期FOLFOX诱导化疗，再接受以FOLFOX为基础的同步放化疗；PET报告代谢完全缓解。"
+          },
+          {
+            "date": "手术后",
+            "title": "病理完全缓解",
+            "detail": "接受微创食管切除术，切除标本ypT0N0，19枚淋巴结均无肿瘤。"
+          },
+          {
+            "date": "术后观察",
+            "title": "未给予辅助纳武利尤单抗",
+            "detail": "病例采用随访；CheckMate 577针对术后病理残留人群，不能直接据其为本例pCR确立常规辅助获益。"
+          },
+          {
+            "date": "术后约10个月",
+            "title": "转移性复发确认",
+            "detail": "发现肺部多发结节及肝脏新病灶，肝活检证实GEJ腺癌转移；复核CLDN18.2比例及PD-L1 CPS，NGS检出ERBB3、PIK3CA改变。"
+          },
+          {
+            "date": "复发治疗5周期后",
+            "title": "联合治疗获益",
+            "detail": "FOLFOX联合纳武利尤单抗后部分缓解，生活质量及工作状态良好；摘要未提供更长期结局。"
+          }
+        ]
+      }
+    ]
+  }
+}

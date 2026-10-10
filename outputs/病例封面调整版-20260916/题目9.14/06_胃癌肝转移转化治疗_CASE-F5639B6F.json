@@ -1,0 +1,351 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-F5639B6F",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "胃癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "分子诊断",
+        "phase": "PD-L1证据解释",
+        "timepoint": "初始系统治疗评估时",
+        "question": "HER2阴性胃癌伴肝转移，病例PD-L1 CPS为8并采用XELOX联合替雷利珠单抗。解释PD-L1证据时，哪项说法更准确？",
+        "options": {
+          "A": "CPS为8即可直接换算为TAP≥5%，两种评分可以互换",
+          "B": "应核对方案对应的检测方法，CPS不能直接换算为TAP",
+          "C": "HER2阴性即可省略PD-L1评估，评分不影响证据解释",
+          "D": "PD-L1阳性说明可省略化疗，直接采用免疫单药"
+        },
+        "answer": "B",
+        "answer_text": "应核对方案对应的检测方法，CPS不能直接换算为TAP",
+        "explain": "替雷利珠单抗相关研究采用TAP评分评估PD-L1，不能将病例CPS数值直接替换为TAP阈值。评估具体方案需结合研究、适应证及完整分子信息，不能仅凭阳性就决定免疫单药。",
+        "keyPoint": "PD-L1评分体系与阈值必须对应具体研究和药物。",
+        "guidelineRef": {
+          "evidence_type": "药品说明书",
+          "doc_id": "",
+          "split_index": null,
+          "type": "drug_label",
+          "authority": "DailyMed / 美国处方信息",
+          "source_title": "TEVIMBRA Prescribing Information: RATIONALE-305",
+          "source_version": "在线版本（核查于2026-09-10）",
+          "source_section": "",
+          "source_url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=08ef1e3e-496f-4b0b-94ee-fbba3cc1985a&type=display",
+          "evidence_summary": "PD-L1评分体系与阈值必须对应具体研究和药物。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "疗效复评与局部治疗",
+        "phase": "转化治疗评估",
+        "timepoint": "第 5 疗程后",
+        "question": "治疗后肝转移灶影像消失，拟评估胃部转化手术。除影像外，哪项检查有助于识别隐匿腹膜转移？",
+        "options": {
+          "A": "根据风险进行分期腹腔镜，必要时同步腹腔灌洗细胞学",
+          "B": "直接开腹切除胃原发灶，以术后病理完成全部分期",
+          "C": "以PET阴性排除微小腹膜病灶，不再考虑进一步评估",
+          "D": "仅用CA19-9和CEA正常作为腹膜无转移的依据"
+        },
+        "answer": "A",
+        "answer_text": "根据风险进行分期腹腔镜，必要时同步腹腔灌洗细胞学",
+        "explain": "腹腔镜可直接观察腹膜，灌洗细胞学可补充评估隐匿播散。病例只记载腹腔镜未见明显转移，不应补写为灌洗阴性；影像消失也不等于既往转移已被病理清除。",
+        "keyPoint": "转化手术前需评估影像可能漏检的腹膜播散。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for gastric cancer",
+          "source_version": "2024",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10937212/",
+          "evidence_summary": "转化手术前需评估影像可能漏检的腹膜播散。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "术后辅助治疗",
+        "timepoint": "术后恢复期",
+        "question": "患者原为IV期胃癌，转化切除后原发灶达到pCR。关于术后继续化疗和免疫治疗，哪项解释最妥当？",
+        "options": {
+          "A": "原发灶pCR意味着全身根治，可以停止所有复评",
+          "B": "应等到出现影像复发，再讨论是否恢复系统治疗",
+          "C": "所有患者都必须在术后第4周开始固定免疫疗程",
+          "D": "结合术前治疗、恢复及风险个体化决定，不能套用统一时间表"
+        },
+        "answer": "D",
+        "answer_text": "结合术前治疗、恢复及风险个体化决定，不能套用统一时间表",
+        "explain": "该病例术后继续治疗属于其管理经过。IV期转化切除与初始可切除胃癌的围手术期情境不同，不能机械套用统一的4～6周免疫启动时间；也不能将胃部pCR推断为全身微转移清除。",
+        "keyPoint": "转化手术后治疗不能由原发灶pCR或固定时间窗单独决定。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for gastric cancer",
+          "source_version": "2024",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10937212/",
+          "evidence_summary": "转化手术后治疗不能由原发灶pCR或固定时间窗单独决定。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "分子诊断",
+        "phase": "初诊评估",
+        "timepoint": "诊断时",
+        "question": "IV期胃癌启动系统治疗前，哪种检测安排更能支持选药？",
+        "options": {
+          "A": "仅检测HER2，其余项目待首次进展后再考虑",
+          "B": "只做常规病理，待手术大标本再补齐所有分子信息",
+          "C": "完善HER2、PD-L1、MMR/MSI等与可用方案相关的检测",
+          "D": "根据肝转移数量选择药物，无需区分分子分型"
+        },
+        "answer": "C",
+        "answer_text": "完善HER2、PD-L1、MMR/MSI等与可用方案相关的检测",
+        "explain": "应结合可及药物和检测条件完成相关标志物评估，避免遗漏靶向或免疫治疗线索。本题列举核心项目，并不声称已覆盖所有可用靶点；不能等待不确定的手术机会才开展基线检测。",
+        "keyPoint": "晚期胃癌的分子评估应服务于当前系统治疗选择。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for gastric cancer",
+          "source_version": "2024",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10937212/",
+          "evidence_summary": "晚期胃癌的分子评估应服务于当前系统治疗选择。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "诊断与分期",
+        "phase": "病理诊断",
+        "timepoint": "检查时",
+        "question": "小活检提示低分化腺癌，可能伴神经内分泌分化。下一步病理评估哪项更合适？",
+        "options": {
+          "A": "结合形态补充Syn、CgA、Ki-67等，并评估取样局限",
+          "B": "单凭低分化形态即诊断神经内分泌癌并更改方案",
+          "C": "发现任一神经内分泌标记阳性即可确诊混合性肿瘤",
+          "D": "以PET代谢高低取代补充免疫组化及形态学复核"
+        },
+        "answer": "A",
+        "answer_text": "结合形态补充Syn、CgA、Ki-67等，并评估取样局限",
+        "explain": "补充标记有助于鉴别，但局灶表达不能单独等同于神经内分泌癌或混合性肿瘤。需综合形态、增殖和成分情况；有限小标本可能无法完整评价各成分比例。",
+        "keyPoint": "神经内分泌分化需形态与标记结合，不能凭单项阳性定型。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 病理诊断",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "",
+          "evidence_summary": "神经内分泌分化需形态与标记结合，不能凭单项阳性定型。（原引用书目信息保留；本轮未取得对应原文分块，支持范围待复核。）"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-F5639B6F",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "胃癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/gastric-her2.png",
+      "alt": "胃癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "晚期胃癌伴肝转移患者经 XELOX 联合替雷利珠单抗治疗后获病理完全缓解病例",
+      "description": "患者女，66 岁，因吞咽困难就诊。ECOG 体能状态评分为 1。食管胃十二指肠镜检查显示胃底、贲门及食管下段可见一巨大溃疡形成。溃疡部位活检组织病理学检查提示低分化腺癌，可能伴有神经内分泌分化。PET-CT 检查结果显示存在多发肝转移灶。免疫组化结果显示 HER2 阴性，PD-L1 表达阳性，联合阳性评分（CPS）为 8。诊断为 IV 期不可切除胃癌（cTx……"
+    },
+    "overview": {
+      "hero": {
+        "title": "晚期胃癌伴肝转移患者经 XELOX 联合替雷利珠单抗治疗后获病理完全缓解病例",
+        "subtitle": "晚期胃癌伴肝转移的初始评估与分期诊断 PD-L1 阳性晚期胃癌的一线免疫联合化疗策略选择 转化治疗后的疗效复评与手术时机判断 新辅助治疗后病理完全缓解（pCR）的评估与意义 术后辅助治疗的决策与管理"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者与就诊背景",
+              "value": "患者女，66 岁，因吞咽困难就诊。ECOG 体能状态评分为 1。食管胃十二指肠镜检查显示胃底、贲门及食管下段可见一巨大溃疡形成。溃疡部位活检组织病理学检查提示低分化腺癌，可能伴有神经内分泌分化。PET-CT 检查结果显示存在多发肝转移灶。免疫组化结果显示 HER2 阴性，PD-L1 表达阳性，联合阳性评分（CPS）为 8。诊断为 IV 期不可切除胃癌（cTxN+M1），伴多发性肝转移。"
+            },
+            {
+              "order": 2,
+              "label": "疾病与分期",
+              "value": "IV 期不可切除胃癌（cTxN+M1），低分化腺癌，可能伴有神经内分泌分化，HER2 阴性，PD-L1 表达阳性（CPS 8）"
+            },
+            {
+              "order": 3,
+              "label": "分子与病理",
+              "value": "时间不详 | 溃疡部位活检组织 | 免疫组化 | HER2 | 阴性 | 不详 时间不详 | 溃疡部位活检组织 | 免疫组化 | PD-L1 CPS | 阳性（8 分）| 不详"
+            },
+            {
+              "order": 4,
+              "label": "核心教学点",
+              "value": "晚期胃癌伴肝转移的初始评估与分期诊断 PD-L1 阳性晚期胃癌的一线免疫联合化疗策略选择 转化治疗后的疗效复评与手术时机判断 新辅助治疗后病理完全缓解（pCR）的评估与意义 术后辅助治疗的决策与管理"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 1",
+              "detail": "就诊时：因吞咽困难就诊，ECOG 体能状态评分为 1"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 2",
+              "detail": "检查时：行食管胃十二指肠镜检查，结果显示胃底、贲门及食管下段可见一巨大溃疡形成"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 3",
+              "detail": "检查时：溃疡部位活检组织病理学检查提示低分化腺癌，可能伴有神经内分泌分化"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 4",
+              "detail": "检查时：行 PET-CT 检查，结果显示存在多发肝转移灶"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 5",
+              "detail": "诊断时：诊断为 IV 期不可切除胃癌（cTxN+M1），伴多发性肝转移"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 6",
+              "detail": "免疫组化结果显示 HER2 阴性，PD-L1 表达阳性，联合阳性评分（CPS）为 8"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 7",
+              "detail": "治疗开始：接受 5 个疗程的 XELOX 方案（卡培他滨 1000 mg/m²第 1-14 天，奥沙利铂 130 mg/m²第 1 天，每 21 天重复一次）联合替雷利珠单抗治疗"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 8",
+              "detail": "第 5 疗程后：增强 CT 显示肝转移灶完全消失，原发肿瘤明显缩小"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 9",
+              "detail": "第 5 疗程后：腹腔镜探查显示原发肿瘤呈回缩样反应，未见明显腹腔转移"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 10",
+              "detail": "随后：接受根治性全胃切除术"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 11",
+              "detail": "术后病理：显示无残留肿瘤细胞，达到 pCR（肿瘤消退级别为 0 级）"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 12",
+              "detail": "术后 6 周：PET-CT 检查未发现转移灶"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 13",
+              "detail": "目前：正在接受辅助化疗和免疫治疗，以控制潜在的转移复发"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/sw5VJtbzTRUanx1MLxwxKA/FMLlQWWCkaUuBEGog57izIrHOnPXfsfv.jpg",
+              "timepoint": "就诊时",
+              "caption": "图 1.食管胃十二指肠镜检查显示贲门附近可见一巨大溃疡。",
+              "alt": "图 1.食管胃十二指肠镜检查显示贲门附近可见一巨大溃疡。",
+              "mapping_status": "matched_by_timepoint",
+              "related_timeline": {
+                "date": "时间未详",
+                "title": "诊疗节点 1",
+                "detail": "就诊时：因吞咽困难就诊，ECOG 体能状态评分为 1"
+              }
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/sw5VJtbzTRUanx1MLxwxKA/JtpNkQSfSTyatGBwJkUiDlYlKLXNWy2P.jpg",
+              "timepoint": "检查时",
+              "caption": "图 2.活检标本的组织病理学分析显示为低分化癌。标尺，100 μm。",
+              "alt": "图 2.活检标本的组织病理学分析显示为低分化癌。标尺，100 μm。",
+              "mapping_status": "matched_by_timepoint",
+              "related_timeline": {
+                "date": "时间未详",
+                "title": "诊疗节点 2",
+                "detail": "检查时：行食管胃十二指肠镜检查，结果显示胃底、贲门及食管下段可见一巨大溃疡形成"
+              }
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/sw5VJtbzTRUanx1MLxwxKA/kj6Kug9mrUvADnazDd10kZZ2xvIuej37.jpg",
+              "timepoint": "检查时/术后 6 周",
+              "caption": "图 3. PET-CT 图像。(a) 多发性肝转移。(b) 无多发性肝转移。",
+              "alt": "图 3. PET-CT 图像。(a) 多发性肝转移。(b) 无多发性肝转移。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG4",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/sw5VJtbzTRUanx1MLxwxKA/zaShzKLgB638M6WwM5c8P0JEfj4ukGDi.jpg",
+              "timepoint": "检查时",
+              "caption": "图 4. PD-L1 免疫组织化学染色。标尺，50 μm。",
+              "alt": "图 4. PD-L1 免疫组织化学染色。标尺，50 μm。",
+              "mapping_status": "matched_by_timepoint",
+              "related_timeline": {
+                "date": "时间未详",
+                "title": "诊疗节点 2",
+                "detail": "检查时：行食管胃十二指肠镜检查，结果显示胃底、贲门及食管下段可见一巨大溃疡形成"
+              }
+            },
+            {
+              "id": "IMG5",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/sw5VJtbzTRUanx1MLxwxKA/dlipYLLnd2x4TvTsI9fgl7WmuNoVBX7I.jpg",
+              "timepoint": "术后病理",
+              "caption": "图 5.手术标本分析。未检测到肿瘤细胞。标尺，50 μm。",
+              "alt": "图 5.手术标本分析。未检测到肿瘤细胞。标尺，50 μm。",
+              "mapping_status": "matched_by_timepoint",
+              "related_timeline": {
+                "date": "时间未详",
+                "title": "诊疗节点 11",
+                "detail": "术后病理：显示无残留肿瘤细胞，达到 pCR（肿瘤消退级别为 0 级）"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

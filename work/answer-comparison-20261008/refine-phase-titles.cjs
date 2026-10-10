@@ -1,0 +1,13 @@
+const fs=require('fs'),assert=require('assert/strict'),vm=require('vm');
+const source='outputs/病程事件标题与答案展示-20261008/外层完整工作流-具体事件标题.json';
+const original=JSON.parse(fs.readFileSync(source,'utf8')),w=structuredClone(original);
+const p=w.nodes.find(n=>n.nodeId==='t7eXTzfAM2QUzvvK').inputs.find(i=>i.key==='systemPrompt');
+const old='采用字符串，每行固定为“原文日期或阶段｜具体事件短标题｜原文支持的事实”。标题概括该行真实事件，如“胸部CT检查”“病理活检”“启动新辅助治疗”，不能写“诊疗节点1”“诊疗记录”等编号或泛化标题。日期只保留原文精度；没有日期写“时间未详”，不能补日期。';
+assert(p.value.includes(old));
+p.value=p.value.replace(old,'采用字符串，每行固定为“原文日期或相对时间｜病程阶段或关键事件短标题｜原文支持的经过与结果”。标题优先概括临床病程阶段，例如“初始诊疗”“局部复发”“新辅助治疗”“疗效复评”“后线治疗”“随访结果”；只有原文确有对应事件时才使用，不套用固定阶段。检查是该阶段的事实依据，正文简述关键检查、治疗与结局，不把标题全部写成检查名称；独立重要检查可以单列。原文明确严重感染、持续获益等事件时可以据实作为标题，疑似感染、疑似转移或疗效未知不得升级为确定事件。标题通常4—12字，不能写“诊疗节点1”“诊疗记录”等编号或泛化标题。正文优先1—2句，保留关键事实、方案、剂量、单位和不确定性，不机械截断；同一时间或同一明确阶段可合并，不能跨时间或省略既往治疗。病程节点数量由原文决定，不强制等于五道题。日期只保留原文精度；相对时间照录，没有时间写“时间未详”，不能补日期。');
+const restored=structuredClone(w);restored.nodes.find(n=>n.nodeId==='t7eXTzfAM2QUzvvK').inputs.find(i=>i.key==='systemPrompt').value=original.nodes.find(n=>n.nodeId==='t7eXTzfAM2QUzvvK').inputs.find(i=>i.key==='systemPrompt').value;assert.deepEqual(restored,original);
+for(const n of w.nodes)for(const i of n.inputs)if(i.key==='code')new vm.Script(i.value);
+const dir='outputs/参考旧版病程阶段标题-20261008';fs.mkdirSync(dir,{recursive:true});
+fs.writeFileSync(dir+'/外层完整工作流-病程阶段标题.json',JSON.stringify(w,null,2));
+fs.writeFileSync(dir+'/检查结果.json',JSON.stringify({only_changed:'病例结构化提取/systemPrompt/时间轴格式',schema_unchanged:true,code_syntax_valid:true,api_calls:0,online_verified:false},null,2));
+console.log(dir+'/外层完整工作流-病程阶段标题.json');

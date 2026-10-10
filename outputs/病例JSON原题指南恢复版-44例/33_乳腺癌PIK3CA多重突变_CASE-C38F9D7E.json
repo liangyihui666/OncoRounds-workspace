@@ -1,0 +1,252 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-C38F9D7E",
+    "cancer_type": "乳腺癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "分子诊断",
+        "phase": "晚期一线治疗前",
+        "timepoint": "2021 年 3 月",
+        "question": "患者拒绝有创组织活检，此时为指导 PI3K 抑制剂治疗，关于 PIK3CA 突变检测样本选择的最佳策略是？",
+        "options": {
+          "A": "必须等待获取组织样本后方可启动靶向治疗",
+          "B": "仅能通过原发灶存档组织进行回顾性检测",
+          "C": "优先选择血浆 ctDNA 作为补充样本进行检测",
+          "D": "放弃分子检测直接经验性使用 PI3K 抑制剂"
+        },
+        "answer": "C",
+        "answer_text": "优先选择血浆 ctDNA 作为补充样本进行检测",
+        "explain": "指南明确当肿瘤组织样本不可及时，血浆 ctDNA 可作为强推荐的补充样本来源，且 SOLAR-1 研究证实 ctDNA 检测突变者同样获益。",
+        "keyPoint": "组织不可及是 ctDNA 检测的强适应证",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "2d6948b4-606c-4a7a-9125-03326b315873",
+          "split_index": 12,
+          "type": "guideline",
+          "authority": "中华医学会病理学分会, CSCO, 国家病理质控中心",
+          "source_title": "中国乳腺癌PIK3CA基因突变检测专家共识(2025版)",
+          "source_version": "2025",
+          "source_section": "三、乳腺癌患者PIK3CA基因突变的检测样本",
+          "source_url": "",
+          "evidence_summary": "指南推荐组织不可及时考虑血浆 ctDNA 作为补充，证据质量强。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "治疗决策",
+        "phase": "晚期二线治疗",
+        "timepoint": "2021 年 3 月",
+        "question": "基于液体活检发现的 PIK3CA 突变，该患者启动氟维司群联合 Alpelisib 治疗的循证依据主要来源于？",
+        "options": {
+          "A": "仅适用于组织样本检测阳性的晚期患者",
+          "B": "必须同时存在 ESR1 突变才能使用联合方案",
+          "C": "仅限内脏危象患者使用联合治疗方案",
+          "D": "血浆或组织检测突变者均可从联合治疗中获益"
+        },
+        "answer": "D",
+        "answer_text": "血浆或组织检测突变者均可从联合治疗中获益",
+        "explain": "SOLAR-1 研究显示，无论是血浆 ctDNA 还是肿瘤组织检测的 PIK3CA 突变患者，均可从 Alpelisib 联合氟维司群治疗中取得明显获益。",
+        "keyPoint": "检测样本类型不影响联合治疗获益",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "cc32cc88-d9d8-4947-a5ae-f95c65910948",
+          "split_index": 65,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "PI3K/AKT/mTOR 信号通路抑制剂治疗乳腺癌临床应用专家共识",
+          "source_version": "2022",
+          "source_section": "（八）PIK3CA基因检测规范",
+          "source_url": "",
+          "evidence_summary": "SOLAR-1 研究证实血浆或组织检测突变者均获益。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "分子诊断",
+        "phase": "全程管理",
+        "timepoint": "2021 年 3 月",
+        "question": "针对该患者多重 PIK3CA 突变检测结果，关于检测规范与临床意义的理解，下列哪项最为准确？",
+        "options": {
+          "A": "检测旨在规范流程以指导精准靶向治疗",
+          "B": "多重突变提示检测误差需立即重新采样",
+          "C": "仅 H1047R 突变有临床意义其他可忽略",
+          "D": "液体活检结果不能用于指导任何药物治疗"
+        },
+        "answer": "A",
+        "answer_text": "检测旨在规范流程以指导精准靶向治疗",
+        "explain": "专家共识旨在规范检测工作流程，形成推荐意见以提供循证依据，指导乳腺癌患者精准治疗，多重突变亦属检测覆盖范围。",
+        "keyPoint": "检测规范化是为了指导精准治疗决策",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "2d6948b4-606c-4a7a-9125-03326b315873",
+          "split_index": 3,
+          "type": "guideline",
+          "authority": "中华医学会病理学分会, CSCO, 国家病理质控中心",
+          "source_title": "中国乳腺癌PIK3CA基因突变检测专家共识(2025版)",
+          "source_version": "2025",
+          "source_section": "中国乳腺癌PIK3CA基因突变检测专家共识(2025版)",
+          "source_url": "",
+          "evidence_summary": "共识旨在规范检测流程，为精准治疗提供循证依据。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "不良反应管理",
+        "phase": "靶向治疗毒性处理",
+        "timepoint": "用药 10 天后",
+        "question": "患者出现药物性皮疹后，关于 Alpelisib 剂量调整与管理原则，下列哪项最符合规范？",
+        "options": {
+          "A": "任何程度皮疹均需永久停止药物治疗",
+          "B": "根据皮疹分级决定是否中断或减量治疗",
+          "C": "仅当出现全身性感染时才调整药物剂量",
+          "D": "皮疹发生时立即增加糖皮质激素至大剂量"
+        },
+        "answer": "B",
+        "answer_text": "根据皮疹分级决定是否中断或减量治疗",
+        "explain": "共识指出皮疹管理需分级处理，3 级需中断治疗，改善后恢复或减量；4 级才永久停药，并非所有皮疹均停药。",
+        "keyPoint": "皮疹管理遵循分级中断、减量或停药原则",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "cc32cc88-d9d8-4947-a5ae-f95c65910948",
+          "split_index": 45,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "PI3K/AKT/mTOR 信号通路抑制剂治疗乳腺癌临床应用专家共识",
+          "source_version": "2022",
+          "source_section": "1.PI3K抑制剂（Alpelisib）",
+          "source_url": "",
+          "evidence_summary": "指南详述了不同分级皮疹对应的剂量调整及处理建议。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "疗效复评与局部治疗",
+        "phase": "靶向治疗维持期",
+        "timepoint": "治疗 18 个月时",
+        "question": "患者全身治疗 18 个月出现肝脏寡转移，既往对全身治疗反应良好。此时最合理的综合管理策略是？",
+        "options": {
+          "A": "立即停止全身靶向治疗，仅依靠局部放疗控制病灶",
+          "B": "更换全身化疗方案，暂缓局部治疗直至全身进展",
+          "C": "单纯增加 PI3K 抑制剂剂量以覆盖寡进展病灶",
+          "D": "继续全身靶向治疗，同时对进展病灶行局部放疗"
+        },
+        "answer": "D",
+        "answer_text": "继续全身靶向治疗，同时对进展病灶行局部放疗",
+        "explain": "病例事实显示该策略疗效良好。临床推理支持在全身控制尚可仅少数病灶进展时，联合局部治疗以延长全身方案获益时间。",
+        "keyPoint": "寡进展时局部治疗联合全身治疗",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "cc32cc88-d9d8-4947-a5ae-f95c65910948",
+          "split_index": 65,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "PI3K/AKT/mTOR 信号通路抑制剂治疗乳腺癌临床应用专家共识",
+          "source_version": "2022",
+          "source_section": "（八）PIK3CA基因检测规范",
+          "source_url": "",
+          "evidence_summary": "证据支持 PIK3CA 突变患者可从联合治疗获益，结合病例事实推导寡进展时局部联合全身治疗的合理性。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-C38F9D7E",
+    "cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "乳腺癌进展后的检测与选药",
+      "description": "47岁确诊ER阳性、HER2阴性乳腺癌，后出现骨、肝、肺及淋巴结转移。"
+    },
+    "overview": {
+      "hero": {
+        "title": "乳腺癌进展后的检测与选药",
+        "subtitle": "多线治疗后的分子检测、靶向治疗耐受性，以及局限进展与全身进展的区分。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "47岁确诊ER阳性、HER2阴性乳腺癌，后出现骨、肝、肺及淋巴结转移。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "液体活检检出PIK3CA H1047R、R108C及C804R变异。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "阿培利司联合氟维司群后获PR；皮疹后减量，肝局限进展时加局部放疗。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "多线治疗后的分子检测、靶向治疗耐受性，以及局限进展与全身进展的区分。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "初诊及复发后",
+              "title": "既往治疗",
+              "detail": "保乳及辅助治疗后发生骨转移，接受多线内分泌治疗及卡培他滨。"
+            },
+            {
+              "date": "2021年3月",
+              "title": "进展与分子检测",
+              "detail": "肝病灶进展，液体活检检出三个PIK3CA变异，开始阿培利司联合氟维司群。"
+            },
+            {
+              "date": "早期治疗",
+              "title": "症状改善并减量",
+              "detail": "咳嗽及淋巴结肿大改善；因皮疹，阿培利司由300 mg减至250 mg。"
+            },
+            {
+              "date": "治疗4个月",
+              "title": "影像缓解",
+              "detail": "肝、肺、淋巴结及骨病灶获深度PR。"
+            },
+            {
+              "date": "治疗18个月",
+              "title": "局限进展处理",
+              "detail": "肝有限病灶进展，继续系统治疗并加立体定向放疗。"
+            },
+            {
+              "date": "2024年3月",
+              "title": "全身进展",
+              "detail": "原文记录明确全身性疾病进展。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

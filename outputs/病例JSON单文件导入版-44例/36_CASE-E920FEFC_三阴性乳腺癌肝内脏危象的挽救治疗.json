@@ -1,0 +1,208 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-E920FEFC",
+    "cancer_type": "胸部肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "治疗决策",
+        "phase": "肝转移伴器官功能恶化",
+        "timepoint": "胆红素快速升至40.6 μmol/L",
+        "question": "患者肝弥漫转移伴胆红素迅速升高，原文称超过正常上限1.5倍。判断肝内脏危象还应重点核对什么？",
+        "options": {
+          "A": "仅用CA15-3高低决定是否属于内脏危象",
+          "B": "以既往体能良好排除这次急性器官功能恶化",
+          "C": "只要影像有多个肝转移，无需功能指标即可确认危象",
+          "D": "变化速度、实验室上限和器官功能，并排查胆道梗阻等替代原因"
+        },
+        "answer": "D",
+        "answer_text": "变化速度、实验室上限和器官功能，并排查胆道梗阻等替代原因",
+        "explain": "内脏危象强调严重器官功能损害及紧迫性，不能等同于内脏转移。ABC 5的肝危象示例包含快速升高的胆红素及排除梗阻等条件；本例虽被作者归为危象，教学仍应说明判断所需信息。",
+        "keyPoint": "肝内脏危象的判断依赖功能损害和动态变化。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESO / ESMO",
+          "source_title": "5th ESO-ESMO international consensus guidelines for advanced breast cancer (ABC 5)",
+          "source_version": "2020",
+          "source_section": "",
+          "source_url": "https://doi.org/10.1016/j.annonc.2020.09.010",
+          "evidence_summary": "肝内脏危象的判断依赖功能损害和动态变化。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "分子诊断",
+        "phase": "肝转移活检复核",
+        "timepoint": "ER、PR、HER2阴性，BRCA1/2结果阴性",
+        "question": "肝活检确认三阴性表型，资料只写“BRCA1/2阴性”。据此讨论后续治疗，哪项记录方式正确？",
+        "options": {
+          "A": "把三阴性表型当作已完成全部遗传检测的证明",
+          "B": "因肝活检再次为三阴性，不再核对任何检测方法",
+          "C": "将其直接写为胚系及体细胞BRCA均阴性",
+          "D": "保留阴性结果并核对样本及检测范围，不自行补写胚系检测阴性"
+        },
+        "answer": "D",
+        "answer_text": "保留阴性结果并核对样本及检测范围，不自行补写胚系检测阴性",
+        "explain": "受体免疫组化与基因检测不同；“BRCA阴性”未说明标本、方法和覆盖范围时，不能扩大结论。原病例已完成肝活检，不需为相同目的机械重复穿刺。",
+        "keyPoint": "分子阴性结果应限定在实际检测的样本和范围内。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, staging and treatment of patients with metastatic breast cancer",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+          "evidence_summary": "分子阴性结果应限定在实际检测的样本和范围内。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "SG挽救治疗的证据边界",
+        "timepoint": "多线治疗后合并胆红素明显升高",
+        "question": "本例SG联合帕博利珠单抗后肝病灶缩小。将该经验用于另一例同样肝功能受损患者时，最关键的限制是什么？",
+        "options": {
+          "A": "联合方案的一线适应证可直接覆盖多线后肝危象救治",
+          "B": "已有一个成功个案即可按常规剂量用于所有肝危象患者",
+          "C": "SG在中重度肝功能损害中的安全性未确立，需独立评估风险及证据适用性",
+          "D": "SG靶向Trop-2，因此不需要评估肝功能与骨髓耐受"
+        },
+        "answer": "C",
+        "answer_text": "SG在中重度肝功能损害中的安全性未确立，需独立评估风险及证据适用性",
+        "explain": "所引说明书指出总胆红素＞1.5倍正常上限的中重度肝损害人群安全性未确立。2026年一线联合适应证也不能直接替代本例多线、既往免疫暴露及器官损害场景的证据。实际获益不等于可普遍推广。",
+        "keyPoint": "器官功能与治疗线次是判断ADC证据能否外推的重要条件。",
+        "guidelineRef": {
+          "evidence_type": "药品说明书",
+          "doc_id": "",
+          "split_index": null,
+          "type": "drug_label",
+          "authority": "DailyMed",
+          "source_title": "TRODELVY (sacituzumab govitecan) prescribing information",
+          "source_version": "2026-06",
+          "source_section": "",
+          "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d",
+          "evidence_summary": "器官功能与治疗线次是判断ADC证据能否外推的重要条件。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "不良反应管理",
+        "phase": "尿路症状伴肾功能异常",
+        "timepoint": "出现尿频、尿急、尿痛及肌酐升高",
+        "question": "帕博利珠单抗相关治疗期间出现尿路刺激症状及肌酐升高，团队怀疑免疫介导性膀胱炎。进一步处理最应遵循哪项原则？",
+        "options": {
+          "A": "评估感染、梗阻及肾脏损伤，核对尿检和肌酐基线，再决定免疫毒性处理",
+          "B": "将肌酐升高全部归于膀胱症状，无需评估肾脏",
+          "C": "只凭尿频尿痛即可确认膀胱炎为免疫相关",
+          "D": "直接恢复帕博利珠单抗，以再次发病来验证病因"
+        },
+        "answer": "A",
+        "answer_text": "评估感染、梗阻及肾脏损伤，核对尿检和肌酐基线，再决定免疫毒性处理",
+        "explain": "原病例是临床怀疑并停用帕博利珠单抗，未提供完整排除检查，不应改成病理确诊。引用SITC的肾损伤评估原则，不把它当作专门的膀胱炎分级或固定激素剂量依据。",
+        "keyPoint": "免疫相关病因需鉴别，尿路症状不能解释全部肾功能异常。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "SITC",
+          "source_title": "Society for Immunotherapy of Cancer (SITC) clinical practice guideline on immune checkpoint inhibitor-related adverse events",
+          "source_version": "2021",
+          "source_section": "",
+          "source_url": "https://jitc.bmj.com/content/9/6/e002435",
+          "evidence_summary": "免疫相关病因需鉴别，尿路症状不能解释全部肾功能异常。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "耐药与后线管理",
+        "phase": "治疗可及性与后期进展",
+        "timepoint": "因费用延长SG间隔，之后出现进展",
+        "question": "原文记载患者因费用减少给药频率，之后疾病进展并死亡。哪项复盘最准确？",
+        "options": {
+          "A": "将费用障碍纳入治疗计划，但不能由时间先后证明它是耐药和死亡的唯一原因",
+          "B": "认定只要保持原间隔即可保证长期不进展",
+          "C": "以单例进展证明所有延迟给药都会导致肿瘤破裂",
+          "D": "将经济因素从病历中删除，因为它不影响方案执行"
+        },
+        "answer": "A",
+        "answer_text": "将费用障碍纳入治疗计划，但不能由时间先后证明它是耐药和死亡的唯一原因",
+        "explain": "可及性和依从性影响治疗实施，应尽早讨论援助、可持续替代方案及支持照护。原文记录的进展和出血结局需保留，但缺少对照，不能建立唯一因果归因。",
+        "keyPoint": "真实世界结局复盘应记录可及性，同时避免单一因果推断。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "",
+          "split_index": null,
+          "type": "journal",
+          "authority": "",
+          "source_title": "Efficacy of sacituzumab govitecan in triple-negative breast cancer with hepatic visceral crisis: a case report",
+          "source_version": "2026",
+          "source_section": "",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/41836242/",
+          "evidence_summary": "真实世界结局复盘应记录可及性，同时避免单一因果推断。"
+        }
+      }
+    ],
+    "missing_information": [],
+    "second_cancer_type": "乳腺癌"
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-E920FEFC",
+    "cancer_type": "胸部肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "三阴性乳腺癌的器官功能与选药",
+      "description": "43岁女性，有三阴性乳腺癌多线治疗史，现见弥漫肝病灶并伴胆红素快速升高。"
+    },
+    "overview": {
+      "hero": {
+        "title": "三阴性乳腺癌的器官功能与选药",
+        "subtitle": "根据当前已知资料作出判断，完成整组后查看解析与实际经过。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "初始资料",
+              "value": "43岁女性，有三阴性乳腺癌多线治疗史，现见弥漫肝病灶并伴胆红素快速升高。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": []
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    },
+    "second_cancer_type": "乳腺癌"
+  }
+}

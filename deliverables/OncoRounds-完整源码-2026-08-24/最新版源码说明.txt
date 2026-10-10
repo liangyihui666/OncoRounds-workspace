@@ -1,0 +1,29 @@
+OncoRounds 最新完整源码
+版本日期：2026-08-24
+
+一、开发运行
+1. 在本目录打开终端。
+2. 执行：pnpm install --frozen-lockfile
+3. 执行：pnpm dev
+
+二、生产构建
+1. 执行：pnpm build
+2. 构建结果位于 dist 文件夹。
+3. 本地预览执行：pnpm preview
+
+三、本版已同步的最终 Demo 功能
+- 首页三病例卡片滑动与点击切换。
+- ROS1 病例“疗效影像评估”卡片及图片。
+- 答题页“回顾病例资料”按钮。
+- 病例摘要/病程轴回顾弹层。
+- 最新导航、总结页循环和三套5题题库。
+
+四、不可删除的增强源码资产
+- public/assets/lung-treatment-response.css
+- public/assets/lung-treatment-response.js
+- public/assets/cases/lung-treatment-response.png
+- index.html 和 vite.index.html 中对应的 CSS/JS 引用
+
+五、安全说明
+- 本源码不包含 node_modules、FastGPT API Key、GitHub 凭据或本地环境密钥。
+- 医生端读取已审核通过的静态题库，不会在答题时实时调用 FastGPT。

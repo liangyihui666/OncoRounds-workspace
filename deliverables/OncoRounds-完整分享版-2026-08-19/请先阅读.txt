@@ -1,0 +1,20 @@
+OncoRounds 完整项目分享版
+版本日期：2026-08-19
+
+【直接查看 Demo】
+1. 必须先把整个 ZIP 压缩包解压。
+2. 打开文件夹：01-直接打开Demo-OncoRounds-H5-Offline-2026-08-14
+3. 双击其中的：index.html
+
+请不要在压缩包预览窗口中直接打开 index.html，也不要只单独复制 index.html。
+index.html 必须和 assets 文件夹保持在同一级目录，否则病例图片和 LOGO 无法显示。
+
+【继续开发】
+完整 React/TypeScript 源码位于：02-完整源码
+源码目录中的 index.html 不能直接双击预览，需要安装依赖后运行：
+pnpm install
+pnpm dev
+
+【安全说明】
+本分享包未包含 node_modules、.env、FastGPT API Key、GitHub 凭据或 Git 历史。
+

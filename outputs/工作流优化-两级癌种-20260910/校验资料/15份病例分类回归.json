@@ -1,0 +1,92 @@
+[
+  {
+    "file": "01_乳腺癌合并MPN及韧带样纤维瘤_CASE-37BF6300.json",
+    "case_id": "CASE-37BF6300",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌"
+  },
+  {
+    "file": "02_乳腺癌肾上腺转移_CASE-DE70CBF4.json",
+    "case_id": "CASE-DE70CBF4",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌"
+  },
+  {
+    "file": "03_BRCA2变异胰腺癌_CASE-7D7C02B3.json",
+    "case_id": "CASE-7D7C02B3",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "胰腺癌"
+  },
+  {
+    "file": "04_乳腺癌PIK3CA多重突变_CASE-C38F9D7E.json",
+    "case_id": "CASE-C38F9D7E",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌"
+  },
+  {
+    "file": "05_胰腺腺鳞癌转化治疗_CASE-CA70947A.json",
+    "case_id": "CASE-CA70947A",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "胰腺癌"
+  },
+  {
+    "file": "06_胃癌肝转移转化治疗_CASE-F5639B6F.json",
+    "case_id": "CASE-F5639B6F",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "胃癌"
+  },
+  {
+    "file": "07_男性乳腺癌_CASE-B559946D.json",
+    "case_id": "CASE-B559946D",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌"
+  },
+  {
+    "file": "08_胰腺神经内分泌肿瘤_CASE-761970EB.json",
+    "case_id": "CASE-761970EB",
+    "cancer_type": "神经内分泌肿瘤",
+    "second_cancer_type": "胰腺神经内分泌肿瘤"
+  },
+  {
+    "file": "09_结直肠癌肝转移多次复发_CASE-BE8833A9.json",
+    "case_id": "CASE-BE8833A9",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "直肠癌"
+  },
+  {
+    "file": "10_HER2阳性乳腺癌皮肤及脑转移_CASE-51D1DA57.json",
+    "case_id": "CASE-51D1DA57",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌"
+  },
+  {
+    "file": "135868_HER2阳性胃癌_润色版.json",
+    "case_id": "CASE-8C6E34E9",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "胃癌"
+  },
+  {
+    "file": "137559_转移性直肠癌_润色版.json",
+    "case_id": "CASE-A8792225",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "直肠癌"
+  },
+  {
+    "file": "139352_食管癌疑似寡转移_润色版.json",
+    "case_id": "CASE-55BF9202",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "食管癌"
+  },
+  {
+    "file": "141249_乳腺癌心包填塞_润色版.json",
+    "case_id": "CASE-B5FF3EFE",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌"
+  },
+  {
+    "file": "154097_乳腺癌受体演变_润色版.json",
+    "case_id": "CASE-902F741C",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌"
+  }
+]

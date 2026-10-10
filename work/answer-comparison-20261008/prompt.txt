@@ -1,0 +1,7 @@
+
+答后病例对照（after_answer，协议1.0）
+每题新增after_answer，恰好5键：schema_version("1.0")、actual_management、actual_outcome、comparison、difference_reason。
+actual_management与actual_outcome分别是该题真实时点/决策对应的原病例实际处理和后续结局，各恰好3键：status、field、quote。status="documented"时，field仅取case_source_text、case_timeline、case_context；quote为病例输入中1至600字的连续原句，不摘要、不改写、不拼接、不从指南或研究队列借用。优先引用case_source_text；有原文时摘要引用也必须能在原文找到。只记录患者实际已做/已发生事项；拟讨论、组内建议、引用研究与专家推测不能记作实际处理或结局。未记载或无法对应本题时status="not_reported"，field=""，quote=""；这不构成必须停止出题的信息缺口。无对应结局就保留未知，不以未记录推定无效、未做或死亡。后续结局只用于答后展示，不能反过来证明前期决策或提前写进题干。
+comparison恰好2键：status、explanation。status取consistent（核心处理一致）、different（核心处理不同）、not_comparable（假设延伸、研究适用性等无法直接对照）、unknown（实际处理或判断条件未记载/不可靠）。explanation为1至300字：对照本题参考答案及其绑定证据与上述病例原句，说明一致点、具体差异或无法比较的边界。不默认原病例符合指南；个案获益不能证明普遍推荐，病例未做某方案不能证明它错误。较晚证据作为当前教学参考，不能冒充历史团队当时依据。延伸题一律not_comparable，不编造假设患者的实际结局。
+difference_reason恰好3键status、field、quote。仅comparison.status="different"且病例明确记载造成差异的原因时，status="documented"并引用病例原句；其余status="not_reported"，field=""，quote=""。原文没有说明原因时，comparison.explanation必须明确“原文未说明差异原因”，不能自行归因为药物可及性、费用、患者意愿、历史指南、MDT等。可以说明证据适用边界，但不能写成治疗团队的实际原因。不用实际结局证明参考答案错误。
+本题参考答案仍由answer、answer_text、explain、keyPoint和guidelineRef提供，不能混入原病例实际经过。after_answer仅供提交答案后展示，不进入题干、选项或评分；原句匹配是事实溯源检查，不是医学比较审核。

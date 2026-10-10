@@ -1,0 +1,277 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-51D1DA57",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "皮肤异常鉴别",
+        "timepoint": "皮肤病变反复时",
+        "question": "胸壁及上肢丹毒样皮肤病变反复，患者有乳腺癌病史。皮肤活检最重要的临床价值是什么？",
+        "options": {
+          "A": "只验证是否感染，受体状态始终沿用原发灶结果",
+          "B": "仅比较Ki-67高低，以其变化作为复发的独立诊断依据",
+          "C": "抗生素曾使症状缓解，因此无需进一步区分肿瘤因素",
+          "D": "明确病灶性质和来源，并重新评估可影响选药的受体状态"
+        },
+        "answer": "D",
+        "answer_text": "明确病灶性质和来源，并重新评估可影响选药的受体状态",
+        "explain": "肿瘤皮肤受累可与感染表现相似，短暂缓解不能排除肿瘤。活检既有助于确认性质，也可获取当前受体信息；Ki-67升高不能单独证明药物耐药或决定治疗线次。",
+        "keyPoint": "反复丹毒样病变需警惕肿瘤受累，不能只依赖外观。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic breast cancer",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+          "evidence_summary": "反复丹毒样病变需警惕肿瘤受累，不能只依赖外观。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "治疗决策",
+        "phase": "复发转移二线治疗阶段",
+        "timepoint": "2024 年 6 月 30 日",
+        "question": "患者既往接受辅助抗HER2治疗，现出现远处复发。决定是否再次采用抗HER2单抗为基础的方案时，最需要补齐什么信息？",
+        "options": {
+          "A": "仅需确认既往用过曲妥珠单抗，即应排除全部单抗方案",
+          "B": "核对末次辅助用药时间、既往疗效毒性及本次复发范围",
+          "C": "仅以首次手术日期计算间隔，无需知道靶向治疗结束时间",
+          "D": "只要有脑转移，即无需讨论既往抗HER2治疗经过"
+        },
+        "answer": "B",
+        "answer_text": "核对末次辅助用药时间、既往疗效毒性及本次复发范围",
+        "explain": "治疗结束到复发的间隔与既往暴露是选药依据，手术日期不能替代末次用药日期。当前资料未明确结束时间，不能把“停药超过一年”写成已知事实。还需结合心功能和脑、颅外病灶情况。",
+        "keyPoint": "复发选药应核实实际治疗结束时间，不能由手术日期推算。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic breast cancer",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+          "evidence_summary": "复发选药应核实实际治疗结束时间，不能由手术日期推算。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "疗效复评与局部治疗",
+        "phase": "脑转移管理",
+        "timepoint": "2024 年 5 月",
+        "question": "HER2阳性乳腺癌伴脑及颅外转移，已接受全脑放疗。筛选后续系统方案时，哪项依据最有价值？",
+        "options": {
+          "A": "优先比较具体方案的颅内和全身临床证据，并结合既往用药",
+          "B": "按分子体积由小到大排序，即可预测所有药物的颅内疗效",
+          "C": "完成全脑放疗后，颅外病灶可等待脑病灶完全消失再治疗",
+          "D": "只依据血脑屏障穿透的理论推测，不需要核对临床研究"
+        },
+        "answer": "A",
+        "answer_text": "优先比较具体方案的颅内和全身临床证据，并结合既往用药",
+        "explain": "应选择有相应临床证据的HER2治疗方案并兼顾颅外控制。TKI与ADC不能仅凭药物类别或分子大小概括为同等入脑、同等有效。局部治疗也不替代对全身病情的管理。",
+        "keyPoint": "脑转移选药应以具体方案的临床证据为依据。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ABC / ESMO",
+          "source_title": "6th and 7th International consensus guidelines for advanced breast cancer",
+          "source_version": "2024",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11231614/",
+          "evidence_summary": "脑转移选药应以具体方案的临床证据为依据。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "治疗决策",
+        "phase": "复发转移治疗",
+        "timepoint": "2024 年 6 月 30 日",
+        "question": "患者采用曲妥珠单抗、吡咯替尼及卡培他滨治疗。将其中“双药研究”用于解释三药方案时，哪项表述最严谨？",
+        "options": {
+          "A": "吡咯替尼加卡培他滨有效，即可认为加单抗后三药证据完全相同",
+          "B": "曾接受辅助曲妥珠单抗，就自动满足所有晚期二线研究条件",
+          "C": "应分别核对组合、线次及脑转移人群，不能直接把双药证据移用于三药",
+          "D": "只要三种药都具有抗肿瘤活性，组合的临床证据即可视为充分"
+        },
+        "answer": "C",
+        "answer_text": "应分别核对组合、线次及脑转移人群，不能直接把双药证据移用于三药",
+        "explain": "治疗组合、既往用药和复发间隔会影响证据适用性。不能将“曾用辅助治疗”等同于晚期一线失败，也不能自行补入“无T-DXd适应证”。病例三药疗效是观察结果，需要相应组合证据解释。",
+        "keyPoint": "研究证据必须匹配实际组合、人群与治疗阶段。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ABC / ESMO",
+          "source_title": "6th and 7th International consensus guidelines for advanced breast cancer",
+          "source_version": "2024",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11231614/",
+          "evidence_summary": "研究证据必须匹配实际组合、人群与治疗阶段。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "疗效复评与局部治疗",
+        "phase": "疗效监测",
+        "timepoint": "2024 年 7 月 30 日",
+        "question": "放疗及三药系统治疗后，皮肤病变改善，脑MRI病灶缩小。下一步管理哪项更妥当？",
+        "options": {
+          "A": "脑病灶未消失即可认定方案失败，立即追加手术",
+          "B": "将颅内缩小完全归功于三药，忽略此前全脑放疗影响",
+          "C": "只随访肿瘤标志物，达到下降即可取消影像复评",
+          "D": "综合颅内外疗效和毒性，仍获益时继续治疗并规律复评"
+        },
+        "answer": "D",
+        "answer_text": "综合颅内外疗效和毒性，仍获益时继续治疗并规律复评",
+        "explain": "可在获益和耐受前提下继续方案，但需区分放疗与系统治疗的共同影响。原文报告PR可作为病例记录保留；仅凭单个最大病灶尺寸或“缩小46%”不能独立重算完整疗效标准。",
+        "keyPoint": "疗效判断应综合颅内外病灶、症状及既往局部治疗。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ABC / ESMO",
+          "source_title": "6th and 7th International consensus guidelines for advanced breast cancer",
+          "source_version": "2024",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11231614/",
+          "evidence_summary": "疗效判断应综合颅内外病灶、症状及既往局部治疗。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-51D1DA57",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "乳腺癌皮肤及脑转移的识别与治疗",
+      "description": "51岁女性，HER2阳性乳腺癌术后出现反复红斑、水肿及神经症状。"
+    },
+    "overview": {
+      "hero": {
+        "title": "乳腺癌皮肤及脑转移的识别与治疗",
+        "subtitle": "接受全脑放疗，后用曲妥珠单抗、吡咯替尼及卡培他滨。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "51岁女性，HER2阳性乳腺癌术后出现反复红斑、水肿及神经症状。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "皮肤活检证实转移，ER/PR阴性、HER2 3+；MRI提示多发脑转移。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "接受全脑放疗，后用曲妥珠单抗、吡咯替尼及卡培他滨。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "1周期后皮肤及脑病灶改善，原文评为PR；2024年9月仍稳定。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2021年",
+              "title": "初始综合治疗",
+              "detail": "改良根治术后接受多西他赛、卡铂及曲妥珠单抗、帕妥珠单抗。"
+            },
+            {
+              "date": "2024年4至5月",
+              "title": "红斑及神经症状",
+              "detail": "红斑水肿初按丹毒处理，随后发现多发脑转移并接受全脑放疗。"
+            },
+            {
+              "date": "2024年6月",
+              "title": "皮肤活检",
+              "detail": "胸壁皮肤病理证实乳腺癌转移，ER/PR阴性、HER2 3+。"
+            },
+            {
+              "date": "2024年6月30日",
+              "title": "系统治疗",
+              "detail": "启动曲妥珠单抗、吡咯替尼及卡培他滨。"
+            },
+            {
+              "date": "1周期后至9月",
+              "title": "疗效复评",
+              "detail": "皮肤病灶及脑转移缩小，原文评为PR；后续病情稳定。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/UnJ1ig_go-ySWtfZEqwBUA/97V2QzEIDfU61cOYYyldwDAMkCMIFgsT.png",
+              "timepoint": "",
+              "caption": "图 1 治疗干预时间表",
+              "alt": "图 1 治疗干预时间表",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/UnJ1ig_go-ySWtfZEqwBUA/0ydypsVwoXT49bUGn76hJGamfIQF9G0j.png",
+              "timepoint": "2024 年 4 月 12 日 -2024 年 4 月 18 日",
+              "caption": "图 2 左上肢病变",
+              "alt": "图 2 左上肢病变",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/UnJ1ig_go-ySWtfZEqwBUA/96FSVMHTrIJ1OUu1lerm79YkjgmcA4gs.png",
+              "timepoint": "2024 年 6 月 3 日 -2024 年 7 月 30 日",
+              "caption": "图 3 头颅 MRI 显示治疗前后的转移灶变化",
+              "alt": "图 3 头颅 MRI 显示治疗前后的转移灶变化",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

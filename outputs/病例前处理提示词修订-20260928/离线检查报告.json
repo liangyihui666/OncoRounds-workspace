@@ -1,0 +1,10 @@
+{
+  "changed_prompts": [
+    "正文清洗（HTML/PDF）",
+    "病例结构化提取"
+  ],
+  "all_other_configuration_unchanged": true,
+  "model": "qwen3.8-flash",
+  "deepseek_model_id_verified": false,
+  "online_verified": false
+}

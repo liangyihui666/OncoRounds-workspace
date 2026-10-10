@@ -1,0 +1,286 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-BD2810E1",
+    "cancer_type": "神经内分泌肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "病理与临床分型",
+        "timepoint": "初诊时",
+        "question": "患者胃NET病理分级为G1，同时有自身免疫性萎缩性胃炎、高胃泌素血症及恶性贫血。对“G1”和“1型”的理解，哪项正确？",
+        "options": {
+          "A": "G1表示局限期，1型表示肿瘤位于胃窦",
+          "B": "G1表示无淋巴结转移，1型表示单发病灶",
+          "C": "G1与1型均由Ki-67决定，可相互替代",
+          "D": "G1反映增殖分级，1型反映相关背景及临床分型"
+        },
+        "answer": "D",
+        "answer_text": "G1反映增殖分级，1型反映相关背景及临床分型",
+        "explain": "两者回答不同问题：增殖活性用于分级，背景黏膜病变及胃泌素状态用于临床分型。本例的萎缩性胃炎与高胃泌素支持1型，不能将G1当作TNM分期或无转移的证明。",
+        "keyPoint": "胃NET的分级、临床分型和解剖分期必须分开表述。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ENETS",
+          "source_title": "European Neuroendocrine Tumor Society (ENETS) 2023 guidance paper for gastroduodenal neuroendocrine tumours (NETs) G1–G3",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://onlinelibrary.wiley.com/doi/10.1111/jne.13306",
+          "evidence_summary": "胃NET分型结合背景黏膜及胃泌素；分级评价增殖活性。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "诊断与分期",
+        "phase": "恶性贫血病因评估",
+        "timepoint": "初诊时",
+        "question": "患者大细胞性贫血、维生素B12显著降低，内因子及壁细胞抗体阳性。确认胃部相关病因和伴发肿瘤时，哪种评估最有价值？",
+        "options": {
+          "A": "胃镜检查并分部位取样，结合抗体和营养指标",
+          "B": "用单次血清CgA测定替代内镜与病理评估",
+          "C": "仅检查胃窦结节，不再取背景黏膜标本",
+          "D": "贫血改善后再决定是否需要任何胃部检查"
+        },
+        "answer": "A",
+        "answer_text": "胃镜检查并分部位取样，结合抗体和营养指标",
+        "explain": "血清学线索不能替代胃黏膜病理。分部位取样有助于明确萎缩分布，并同时评估伴发肿瘤；正常CgA也不能推翻已经获得的组织学诊断。",
+        "keyPoint": "恶性贫血相关胃病评估要把血清学、内镜和背景黏膜病理结合。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "AGA",
+          "source_title": "AGA Clinical Practice Update on the Diagnosis and Management of Atrophic Gastritis: Expert Review",
+          "source_version": "2021",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8740554/",
+          "evidence_summary": "新诊断恶性贫血且近期未行胃镜者，应以胃镜及分部位活检评估萎缩性胃炎和胃部肿瘤。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "局部治疗决策",
+        "timepoint": "初诊治疗计划制定时",
+        "question": "原文仅称胃NET“小且单发、G1”，没有记录确切直径和浸润深度。复核“仅随访、不切除”的依据时，最应补齐什么？",
+        "options": {
+          "A": "仅依据胸腹盆CT阴性，确认无需局部处理",
+          "B": "将“小”换算为＜1 cm，以G1排除深部浸润",
+          "C": "病灶实际尺寸和局部风险特征，必要时补充EUS",
+          "D": "仅复测血清胃泌素，以其高低决定切除范围"
+        },
+        "answer": "C",
+        "answer_text": "病灶实际尺寸和局部风险特征，必要时补充EUS",
+        "explain": "尺寸和局部侵犯情况会影响观察、内镜切除或外科治疗的选择。原文没有给出的阈值不能由模型补齐；是否需要EUS应结合实际尺寸与风险特征决定。",
+        "keyPoint": "描述“小病灶”不等于已经满足某一指南尺寸阈值。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ENETS",
+          "source_title": "European Neuroendocrine Tumor Society (ENETS) 2023 guidance paper for gastroduodenal neuroendocrine tumours (NETs) G1–G3",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://onlinelibrary.wiley.com/doi/10.1111/jne.13306",
+          "evidence_summary": "1型胃NET的处理依据尺寸、增殖分级和浸润风险；较大或高风险病灶需进一步局部评估。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "疗效复评与局部治疗",
+        "phase": "长期随访",
+        "timepoint": "随访3个月及6个月时",
+        "question": "维生素B12治疗后血红蛋白恢复正常，但胃NET未被切除。后续随访应如何安排？",
+        "options": {
+          "A": "继续按胃NET局部风险安排内镜随访，并监测基础疾病",
+          "B": "以血红蛋白作为替代指标，正常后停止胃镜",
+          "C": "改为常规全身PET检查，不再观察胃黏膜病变",
+          "D": "以血清CgA替代胃镜，每次正常即可延后检查"
+        },
+        "answer": "A",
+        "answer_text": "继续按胃NET局部风险安排内镜随访，并监测基础疾病",
+        "explain": "贫血缓解仅说明相关血液学指标改善，不证明胃NET消失。仍需依据病灶风险及内镜变化制定随访，不能把未切除病灶的观察方案与切除后的随访期限混用。",
+        "keyPoint": "血液学疗效不能替代胃NET的局部随访。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ENETS",
+          "source_title": "European Neuroendocrine Tumor Society (ENETS) 2023 guidance paper for gastroduodenal neuroendocrine tumours (NETs) G1–G3",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://onlinelibrary.wiley.com/doi/10.1111/jne.13306",
+          "evidence_summary": "观察管理中的1型胃NET需要内镜随访；随访间隔结合局部风险和病灶变化确定。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "治疗决策",
+        "phase": "维生素B12维持治疗",
+        "timepoint": "贫血改善后",
+        "question": "患者恶性贫血与自身免疫性萎缩性胃炎相关，替代治疗后症状和血红蛋白恢复。关于维生素B12后续处理，哪项最恰当？",
+        "options": {
+          "A": "改为短程饮食补充，无需关注吸收障碍",
+          "B": "每月重复抗内因子抗体，以转阴作为停药条件",
+          "C": "指标正常即停药，仅在贫血复发时重新治疗",
+          "D": "继续长期替代，并按病因、症状和方案复评"
+        },
+        "answer": "D",
+        "answer_text": "继续长期替代，并按病因、症状和方案复评",
+        "explain": "血红蛋白恢复并不代表引起B12吸收障碍的病因消失。NICE对自身免疫性胃炎所致B12缺乏推荐终身肌注替代；具体制剂和给药安排应按当地方案执行，不能把个案剂量表作为唯一标准。",
+        "keyPoint": "不可逆吸收障碍所致B12缺乏，需要持续替代而非见效即停。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "NICE",
+          "source_title": "Vitamin B12 deficiency in over 16s: diagnosis and management (NG239)",
+          "source_version": "2024",
+          "source_section": "",
+          "source_url": "https://www.nice.org.uk/guidance/ng239/chapter/Recommendations",
+          "evidence_summary": "自身免疫性胃炎为已确诊或疑似病因时，推荐终身肌注维生素B12替代。"
+        }
+      }
+    ],
+    "missing_information": [],
+    "second_cancer_type": "胃神经内分泌肿瘤"
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-BD2810E1",
+    "cancer_type": "神经内分泌肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/9xVP7yEYN6eGg4mf00H-SA/IXt2FYh07lq59q5SHw3YV3BlrQAoQTG4.jpg",
+      "alt": "图 1.上消化道内镜检查结果。"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "恶性贫血合并 1 型胃神经内分泌肿瘤病例",
+      "description": "39岁男性因乏力、疲倦和食欲下降就诊，血红蛋白6.2 g/dL、MCV 115 fL、维生素B12＜50 pg/mL，内因子及壁细胞抗体阳性，诊断恶性贫血。胃镜发现胃窦结节，病理结合萎缩性胃炎背景及胃泌素升高，原文诊断1型胃神经内分泌肿瘤、WHO G1级。CT未见转移。病例选择维生素B12替代和定期随访，未行内镜切除。原文称病灶小且单发，但未提供可核验的具体直径和完整浸润深度。3个月、6个月血液指标恢复正常，不等于已证明肿瘤消失。"
+    },
+    "overview": {
+      "hero": {
+        "title": "恶性贫血合并 1 型胃神经内分泌肿瘤病例",
+        "subtitle": "病理与临床分型；恶性贫血病因评估；局部治疗决策；长期随访；维生素B12维持治疗。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者与就诊背景",
+              "value": "39岁男性因乏力、疲倦和食欲下降就诊，血红蛋白6.2 g/dL、MCV 115 fL、维生素B12＜50 pg/mL，内因子及壁细胞抗体阳性，诊断恶性贫血。胃镜发现胃窦结节，病理结合萎缩性胃炎背景及胃泌素升高，原文诊断1型胃神经内分泌肿瘤、WHO G1级。CT未见转移。病例选择维生素B12替代和定期随访，未行内镜切除。原文称病灶小且单发，但未提供可核验的具体直径和完整浸润深度。3个月、6个月血液指标恢复正常，不等于已证明肿瘤消失。"
+            },
+            {
+              "order": 2,
+              "label": "疾病与分期",
+              "value": "1型胃神经内分泌肿瘤，WHO G1级，伴自身免疫性萎缩性胃炎及恶性贫血。1型、G1和TNM分期为不同概念；CT未见转移不等于完整病理分期。"
+            },
+            {
+              "order": 3,
+              "label": "分子与病理",
+              "value": "结节嗜铬粒蛋白A免疫组化阳性，Ki-67＜3%，核分裂象＜2个/mm²。胃泌素228 pg/mL；血清嗜铬粒蛋白A255 ng/mL，原文判为正常。维生素B12＜50 pg/mL、甲基丙二酸9945 nmol/L，内因子及壁细胞抗体阳性。"
+            },
+            {
+              "order": 4,
+              "label": "核心教学点",
+              "value": "病理与临床分型；恶性贫血病因评估；局部治疗决策；长期随访；维生素B12维持治疗。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "就诊前两周",
+              "title": "出现症状",
+              "detail": "乏力、疲倦、食欲下降，伴一次非血性呕吐。"
+            },
+            {
+              "date": "入院检查",
+              "title": "发现恶性贫血",
+              "detail": "大细胞性贫血、维生素B12显著降低，自身抗体阳性。"
+            },
+            {
+              "date": "胃镜及活检",
+              "title": "诊断胃NET",
+              "detail": "发现胃窦结节，病理及背景检查支持原文诊断的1型G1胃NET；CT未见转移。"
+            },
+            {
+              "date": "治疗及出院",
+              "title": "替代治疗与随访安排",
+              "detail": "给予肌内维生素B12并安排长期替代，未行内镜切除，建议定期随访。"
+            },
+            {
+              "date": "出院后3个月及6个月",
+              "title": "血液指标改善",
+              "detail": "血红蛋白等指标恢复并维持正常；未据此认定胃NET已消失。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/9xVP7yEYN6eGg4mf00H-SA/IXt2FYh07lq59q5SHw3YV3BlrQAoQTG4.jpg",
+              "timepoint": "就诊时胃镜检查阶段",
+              "caption": "图 1.上消化道内镜检查结果。",
+              "alt": "图 1.上消化道内镜检查结果。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/9xVP7yEYN6eGg4mf00H-SA/zeKcegsDJRIz90LZibV00zLAUREFtLTU.jpg",
+              "timepoint": "病理诊断阶段",
+              "caption": "图 2.胃窦部结节活检切片显示嗜铬粒蛋白 A 阳性。",
+              "alt": "图 2.胃窦部结节活检切片显示嗜铬粒蛋白 A 阳性。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/9xVP7yEYN6eGg4mf00H-SA/E5uFWaahaMjk3sehKu0XARL6ASuBVBPY.jpg",
+              "timepoint": "病理诊断阶段",
+              "caption": "图 3.胃窦部结节活检切片显示 Ki-67 增殖指数低于 3%，核分裂象少于 2 个/mm²。",
+              "alt": "图 3.胃窦部结节活检切片显示 Ki-67 增殖指数低于 3%，核分裂象少于 2 个/mm²。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG4",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/9xVP7yEYN6eGg4mf00H-SA/B9KoHCkZtOIo01djNypAzSdblu0WJIW4.png",
+              "timepoint": "资料展示",
+              "caption": "表 1.三种类型的 G-NET 及其各自的特点。",
+              "alt": "表 1.三种类型的 G-NET 及其各自的特点。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "胃神经内分泌肿瘤"
+  }
+}

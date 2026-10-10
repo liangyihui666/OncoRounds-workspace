@@ -1,0 +1,363 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-B559946D",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "治疗决策",
+        "phase": "晚期一线治疗",
+        "timepoint": "初诊时",
+        "question": "男性HR阳性、HER2阴性乳腺癌伴广泛肝转移，病例称存在肝危机。决定是否按内脏危象处理时，哪项原则最重要？",
+        "options": {
+          "A": "核实器官功能受损程度和变化速度，选择能及时控制病情的方案",
+          "B": "只要存在多发肝转移，就应认定所有内分泌方案均禁用",
+          "C": "仅以最大肝病灶直径，决定是否必须采用紫杉类化疗",
+          "D": "根据ER表达较高，直接排除快速进展导致内脏危象的可能"
+        },
+        "answer": "A",
+        "answer_text": "核实器官功能受损程度和变化速度，选择能及时控制病情的方案",
+        "explain": "内脏危象强调严重且迅速恶化的器官功能，不等同于内脏转移。应核实胆红素等指标、排除梗阻等原因，综合选择有效且可耐受的治疗。不能将“肝转移”直接等同于必须使用某种化疗。",
+        "keyPoint": "内脏危象的核心是器官功能危急，而非转移部位本身。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ABC / ESMO",
+          "source_title": "6th and 7th International consensus guidelines for advanced breast cancer",
+          "source_version": "2024",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11231614/",
+          "evidence_summary": "内脏危象的核心是器官功能危急，而非转移部位本身。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "疗效复评与局部治疗",
+        "phase": "二线治疗",
+        "timepoint": "一线治疗 4 周期后",
+        "question": "白蛋白紫杉醇治疗4周期后肝病灶略有缩小，评价为SD。复盘下一步选择时，哪项原则更合理？",
+        "options": {
+          "A": "将SD直接视为耐药，立即转换二线药物",
+          "B": "仅因未达到PR，就结束全部抗肿瘤治疗",
+          "C": "结合症状、肝功能和毒性判断，仍获益时可考虑继续",
+          "D": "按原方案持续至影像PD，不必考虑器官功能和耐受性"
+        },
+        "answer": "C",
+        "answer_text": "结合症状、肝功能和毒性判断，仍获益时可考虑继续",
+        "explain": "SD可能具有临床获益，是否继续需结合症状、功能和毒性。病例实际换用了卡培他滨，但资料不足以断言当时换药必然错误，也不能规定只能持续至PD。",
+        "keyPoint": "SD并非治疗失败，继续或换药需结合整体获益。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ABC / ESMO",
+          "source_title": "6th and 7th International consensus guidelines for advanced breast cancer",
+          "source_version": "2024",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11231614/",
+          "evidence_summary": "SD并非治疗失败，继续或换药需结合整体获益。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "分子诊断",
+        "phase": "遗传风险评估",
+        "timepoint": "完善胚系检测时",
+        "question": "这名男性乳腺癌患者拟完善遗传风险评估。哪项检测及配套措施具有明确价值？",
+        "options": {
+          "A": "仅检测PIK3CA，并以阴性结果排除家族遗传风险",
+          "B": "结合遗传咨询提供胚系易感基因检测，包括BRCA1/2",
+          "C": "只检测ESR1，因其可以解释男性发生乳腺癌的遗传原因",
+          "D": "只检测PD-L1，并以其表达判断家属是否需要筛查"
+        },
+        "answer": "B",
+        "answer_text": "结合遗传咨询提供胚系易感基因检测，包括BRCA1/2",
+        "explain": "男性乳腺癌患者应获得遗传咨询和胚系检测机会；结果可影响本人及家族管理。ESR1主要涉及肿瘤内分泌耐药，不能替代遗传评估。原题把病例未记载的既往内分泌进展写成前提，已去除。",
+        "keyPoint": "男性乳腺癌应关注胚系遗传风险，而非以耐药检测替代。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ASCO",
+          "source_title": "Management of Male Breast Cancer: ASCO Guideline",
+          "source_version": "2020",
+          "source_section": "",
+          "source_url": "https://ascopubs.org/doi/10.1200/JCO.19.03120",
+          "evidence_summary": "男性乳腺癌应关注胚系遗传风险，而非以耐药检测替代。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "耐药与后线管理",
+        "phase": "三线治疗",
+        "timepoint": "二线治疗 7 周期后",
+        "question": "卡培他滨后进展，患者既往未使用CDK4/6抑制剂。若当前器官功能允许、无迫切危象，如何评估内分泌联合治疗？",
+        "options": {
+          "A": "因已接受两线化疗，后续不再可能从内分泌治疗获益",
+          "B": "只根据既往药物数量，直接安排同类化疗再挑战",
+          "C": "把内分泌治疗单药视为男性患者唯一可用选择",
+          "D": "结合HR状态与既往暴露，讨论CDK4/6抑制剂联合内分泌"
+        },
+        "answer": "D",
+        "answer_text": "结合HR状态与既往暴露，讨论CDK4/6抑制剂联合内分泌",
+        "explain": "未使用过相关药物且仍符合治疗条件时，可以讨论这一治疗路径。具体药物、内分泌骨架和男性激素抑制安排须核对相应证据，不能把该病例的达尔西利联合方案自动视作所有患者的固定标准。",
+        "keyPoint": "化疗后仍需重新评估未使用过的内分泌联合路径。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ASCO",
+          "source_title": "Management of Male Breast Cancer: ASCO Guideline",
+          "source_version": "2020",
+          "source_section": "",
+          "source_url": "https://ascopubs.org/doi/10.1200/JCO.19.03120",
+          "evidence_summary": "化疗后仍需重新评估未使用过的内分泌联合路径。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "不良反应管理",
+        "phase": "三线治疗期间",
+        "timepoint": "三线治疗 3 个月后",
+        "question": "患者因严重潮热暂停戈舍瑞林，并更换内分泌骨架。对男性患者使用芳香化酶抑制剂的方案复核，哪项最重要？",
+        "options": {
+          "A": "只要继续CDK4/6抑制剂，即可维持芳香化酶抑制剂单用",
+          "B": "兼顾症状管理与方案完整性，复核是否需要GnRH联合抑制",
+          "C": "把主诉“严重”直接记录为CTCAE 3级并统一减量",
+          "D": "任何潮热都提示内分泌治疗禁忌，应改用细胞毒化疗"
+        },
+        "answer": "B",
+        "answer_text": "兼顾症状管理与方案完整性，复核是否需要GnRH联合抑制",
+        "explain": "男性使用芳香化酶抑制剂时需关注GnRH抑制配套，不能自行停药后不再评估。潮热应根据影响程度、偏好及相互作用管理；病例未给出正式分级，不应补造。更换骨架后还须核对与具体靶向药的组合依据。",
+        "keyPoint": "处理潮热时，同时维护男性内分泌方案的合理性。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ASCO",
+          "source_title": "Management of Male Breast Cancer: ASCO Guideline",
+          "source_version": "2020",
+          "source_section": "",
+          "source_url": "https://ascopubs.org/doi/10.1200/JCO.19.03120",
+          "evidence_summary": "处理潮热时，同时维护男性内分泌方案的合理性。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-B559946D",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "男性 HR+/HER2−转移性乳腺癌伴肝危机病例",
+      "description": "男，61 岁。发现左侧乳房肿块 2 年，最初为花生大小，后因自发溃疡出现轻微表面红斑和结痂，无疼痛感，肿块大小保持稳定。体格检查示左侧乳头下方有一个硬质、不规则的 2.0×1.5cm 肿块，表面有红斑和结痂，无压痛或分泌物，未发现腋窝淋巴结肿大。影像学显示乳腺低回声肿块（BI-RADS 4C），腹部 MRI 提示多个肝脏病灶（最大 68×45×70mm）及门……"
+    },
+    "overview": {
+      "hero": {
+        "title": "男性 HR+/HER2−转移性乳腺癌伴肝危机病例",
+        "subtitle": "男性乳腺癌伴内脏危机的初始治疗策略选择 一线化疗疗效评估与二线方案转换时机 CDK4/6 抑制剂联合内分泌治疗在化疗失败后的应用 严重潮热不良反应的药物调整与替代方案管理 长期随访中的疗效维持与治疗依从性"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者与就诊背景",
+              "value": "男，61 岁。发现左侧乳房肿块 2 年，最初为花生大小，后因自发溃疡出现轻微表面红斑和结痂，无疼痛感，肿块大小保持稳定。体格检查示左侧乳头下方有一个硬质、不规则的 2.0×1.5cm 肿块，表面有红斑和结痂，无压痛或分泌物，未发现腋窝淋巴结肿大。影像学显示乳腺低回声肿块（BI-RADS 4C），腹部 MRI 提示多个肝脏病灶（最大 68×45×70mm）及门脉区、腹膜后肿大淋巴结，骨扫描显示多发性骨转移。病理证实为高级别侵袭性导管癌，ER 90%（2+）、PR 90%（3+）、AR 70%（2+）、HER2（1+）……"
+            },
+            {
+              "order": 2,
+              "label": "疾病与分期",
+              "value": "原发性 IV 期 HR+/HER2−乳腺癌（符合肝危机诊断标准），伴有肝脏和骨骼转移"
+            },
+            {
+              "order": 3,
+              "label": "分子与病理",
+              "value": "初诊时 | 左侧乳腺肿块及左侧锁骨上淋巴结穿刺组织 | 免疫组化 | ER | 90%（2+） | 初诊时 | 左侧乳腺肿块及左侧锁骨上淋巴结穿刺组织 | 免疫组化 | PR | 90%（3+） | 初诊时 | 左侧乳腺肿块及左侧锁骨上淋巴结穿刺组织 | 免疫组化 | AR | 70%（2+） | 初诊时 | 左侧乳腺肿块及左侧锁骨上淋巴结穿刺组织 | 免疫组化 | HER2 | 1+ | 初诊时 | 左侧乳腺肿块及左侧锁骨上淋巴结穿刺组织 | 免疫组化 | Ki-67 | 50% | 初诊时 | 组织标本 | F……"
+            },
+            {
+              "order": 4,
+              "label": "核心教学点",
+              "value": "男性乳腺癌伴内脏危机的初始治疗策略选择 一线化疗疗效评估与二线方案转换时机 CDK4/6 抑制剂联合内分泌治疗在化疗失败后的应用 严重潮热不良反应的药物调整与替代方案管理 长期随访中的疗效维持与治疗依从性"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 1",
+              "detail": "就诊前 2 年：发现左侧乳房肿块，最初为花生大小，后因自发溃疡出现轻微表面红斑和结痂，无疼痛感。"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 2",
+              "detail": "初诊时：体格检查示左侧乳头下方硬质不规则肿块（2.0×1.5cm），表面红斑结痂"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 3",
+              "detail": "乳腺超声示 29×28×25mm 低回声肿块（BI-RADS 4C）"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 4",
+              "detail": "钼靶示高密度分叶状肿块伴微钙化"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 5",
+              "detail": "腹部 MRI 示多个肝脏病灶（最大 68×45×70mm）及淋巴结肿大"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 6",
+              "detail": "骨扫描示多发性骨转移。"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 7",
+              "detail": "初诊时病理：左侧乳腺肿块及左侧锁骨上淋巴结穿刺活检示高级别侵袭性导管癌"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 8",
+              "detail": "IHC：ER 90%（2+）、PR 90%（3+）、AR 70%（2+）、HER2（1+）、Ki-67 50%"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 9",
+              "detail": "肝脏及锁骨上淋巴结活检证实转移"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 10",
+              "detail": "HER2 FISH 阴性。"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 11",
+              "detail": "一线治疗开始：给予白蛋白结合型紫杉醇（200mg，第 1、8 天，每 21 天）联合唑来膦酸。"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 12",
+              "detail": "一线治疗 2 周期后：MRI 显示肝病灶略有缩小，疗效评价为疾病稳定（SD）。"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 13",
+              "detail": "一线治疗 4 周期后：MRI 显示肝病灶轻微进一步缩小，疗效评价仍为 SD。"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 14",
+              "detail": "二线治疗开始：改为卡培他滨（1g bid，第 1-14 天，每 21 天）。"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 15",
+              "detail": "二线治疗 7 周期后：MRI 显示肝脏病灶混合反应，部分肿大"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 16",
+              "detail": "PET-CT 证实肝脏转移灶代谢活跃（SUVmax=8.4），伴多发骨成骨性病灶及左腋窝淋巴结 FDG 摄取，符合进展性疾病（PD）。"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 17",
+              "detail": "三线治疗开始：改为达尔西利（150mg qd，第 1-21 天，每 28 天）+ 戈舍瑞林（3.6mg，每 28 天）+ 来曲唑（2.5mg qd），继续唑来膦酸。"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 18",
+              "detail": "三线治疗 3 个月后：MRI 显示肝转移灶显著缩小，符合部分缓解（PR）。"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 19",
+              "detail": "不良反应处理：患者报告严重潮热反应，暂停戈舍瑞林"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 20",
+              "detail": "来曲唑替换为他莫昔芬（10mg bid），继续使用达尔西利。"
+            },
+            {
+              "date": "2025",
+              "title": "诊疗节点 21",
+              "detail": "2025 年 4 月 10 日：MRI 显示肝转移病灶进一步缩小，维持 PR 状态"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 22",
+              "detail": "患者同意恢复药物去势治疗。"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 23",
+              "detail": "最近随访：MRI 显示肝转移病灶稳定（SD），肝功恢复尚可"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 24",
+              "detail": "目前接受达尔西利、他莫昔芬和唑来膦酸治疗。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/BU7bEqNOjb7R3YiQTFvgmg/T0M1XQhkXg1KMNrV6rKHPRBxoY5qAZ5a.png",
+              "timepoint": "",
+              "caption": "图 1.原发性乳腺肿瘤与肝转移灶的组织病理学及治疗时间线（A）原发性乳腺病灶的代表性苏木素 - 伊红（H&E）染色结果，低倍镜（40×，左侧）及高倍镜（100×，右侧）下所示。（B）肝转移灶的代表性苏木素 - 伊红（H&E）染色结果，低倍镜（40×，左侧）及高倍镜（100×，右侧）下所示。（C）临床病程及治疗时间线。",
+              "alt": "图 1.原发性乳腺肿瘤与肝转移灶的组织病理学及治疗时间线（A）原发性乳腺病灶的代表性苏木素 - 伊红（H&E）染色结果，低倍镜（40×，左侧）及高倍镜（100×，右侧）下所示。（B）肝转移灶的代表性苏木素 - 伊红（H&E）染色结果，低倍镜（40×，左侧）及高倍镜（100×，右侧）下所示。（C）临床病程及治疗时间线。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/BU7bEqNOjb7R3YiQTFvgmg/HTtUQwqAlGlnrjRDYTDykr0e8eacYs0B.png",
+              "timepoint": "",
+              "caption": "图 2.肝转移灶的纵向放射学评估及临床反应；（A）不同时间点采集的代表性腹部轴位 MRI 图像，红色箭头指示肝转移灶。（B）热图显示靶病灶大小随时间的变化，包括肿瘤最大长度（上图）和最大宽度（下图）。（C）全身治疗的示意图时间线及根据放射学评估得出的最佳总体反应。",
+              "alt": "图 2.肝转移灶的纵向放射学评估及临床反应；（A）不同时间点采集的代表性腹部轴位 MRI 图像，红色箭头指示肝转移灶。（B）热图显示靶病灶大小随时间的变化，包括肿瘤最大长度（上图）和最大宽度（下图）。（C）全身治疗的示意图时间线及根据放射学评估得出的最佳总体反应。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

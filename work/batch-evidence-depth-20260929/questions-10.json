@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "case_id": "CASE-7ADE271C",
+  "cancer_type": "消化系统肿瘤",
+  "generation_status": "success",
+  "difficulty": "进阶",
+  "question_count": 5,
+  "questions": [
+    {
+      "id": "Q1",
+      "type": "治疗决策",
+      "phase": "一线进展后转换",
+      "timepoint": "XELOX+贝伐珠单抗3疗程后",
+      "question": "该患者XELOX+贝伐珠单抗3疗程后肝转移灶进展，二代测序确认MSI-H，KRAS G13D突变。以下后续治疗决策正确的是？",
+      "options": {
+        "A": "换用FOLFIRI联合贝伐珠单抗继续化疗",
+        "B": "不论KRAS突变状态，启动帕博利珠单抗免疫治疗",
+        "C": "加用西妥昔单抗靶向治疗KRAS G13D突变",
+        "D": "跳过免疫治疗直接转为瑞戈非尼三线方案"
+      },
+      "answer": "B",
+      "answer_text": "不论KRAS突变状态，启动帕博利珠单抗免疫治疗",
+      "explain": "A｜不正确：患者已确认MSI-H适合免疫治疗，指南明确优先推荐PD-1而非退回化疗\nB｜正确：指南明确不论RAS/BRAF状态，MSI-H/dMMR患者优先推荐帕博利珠单抗\nC｜不正确：指南对MSI-H优先推荐PD-1单抗，抗EGFR非本例优先方案且KRAS突变限制获益\nD｜不正确：瑞戈非尼为三线选择，患者尚未尝试优先推荐的免疫治疗，跳过不合理",
+      "keyPoint": "MSI-H转移性CRC肝转移优先推荐PD-1单抗，RAS/BRAF状态不改变此优先级",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "745fcee1-ab81-490d-96fc-517f2a543f7b",
+        "split_index": 53,
+        "type": "guideline",
+        "authority": "CACA",
+        "source_title": "结肠癌",
+        "source_version": "2024",
+        "source_section": "3 不可切除的结肠癌肝转移",
+        "source_url": "",
+        "evidence_summary": "不论RAS/BRAF基因状态，MSI-H/dMMR患者优先推荐PD-1单抗；不适合免疫治疗者才参考姑息一线"
+      }
+    },
+    {
+      "id": "Q2",
+      "type": "分子诊断",
+      "phase": "一线进展后基因检测",
+      "timepoint": "二代测序回报MSI-H后",
+      "question": "该患者一线化疗进展后，二代测序肿瘤组织DNA检测提示MSI-H。关于该结果能否作为启动免疫治疗的依据，以下哪项正确？",
+      "options": {
+        "A": "必须补充免疫组化MMR检测确认后方可启动免疫治疗",
+        "B": "NGS检测MSI不可靠，必须用PCR毛细管电泳金标准验证",
+        "C": "经NGS检测确认的MSI-H可考虑接受免疫检查点抑制剂治疗",
+        "D": "还需PD-L1表达阳性才能启动免疫检查点抑制剂治疗"
+      },
+      "answer": "C",
+      "answer_text": "经NGS检测确认的MSI-H可考虑接受免疫检查点抑制剂治疗",
+      "explain": "A｜不正确：指南称必要时可互相补充验证，并非每次均须IHC确认后方可启动\nB｜不正确：指南明确将二代测序列为MSI检测的有效方法，并非不可靠\nC｜正确：指南明确通过二代测序检测表明MSI-H的患者均可考虑接受ICI治疗\nD｜不正确：指南以MSI-H/dMMR为启动ICI的依据，未将PD-L1列为必要条件",
+      "keyPoint": "NGS确认的MSI-H即可考虑ICI，IHC/PCR为必要时补充而非强制前置条件",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "0b11b7db-f85e-458c-8dad-bf67831fde09",
+        "split_index": 17,
+        "type": "guideline",
+        "authority": "CSCO",
+        "source_title": "结直肠癌分子病理检测临床实践指南(2025版)",
+        "source_version": "2025",
+        "source_section": "（一）RAS和BRAF检测原则",
+        "source_url": "",
+        "evidence_summary": "通过MSI PCR/二代测序检测表明MSI-H的患者均可考虑接受ICI；IHC与NGS必要时互相补充"
+      }
+    },
+    {
+      "id": "Q3",
+      "type": "疗效复评与局部治疗",
+      "phase": "转化治疗后手术决策",
+      "timepoint": "影像提示肝转移灶CR拟手术前",
+      "question": "该患者接受特瑞普利单抗联合贝伐珠单抗治疗，影像提示肝转移灶可能完全缓解，拟行肝转移灶切除术。关于手术时机，以下处理正确的是？",
+      "options": {
+        "A": "免疫治疗为主，贝伐珠单抗无需停药即可手术",
+        "B": "末次贝伐珠单抗与手术间隔至少2周即可",
+        "C": "末次贝伐珠单抗与手术间隔至少4周即可",
+        "D": "末次贝伐珠单抗与手术间隔至少6周，术后6~8周再恢复"
+      },
+      "answer": "D",
+      "answer_text": "末次贝伐珠单抗与手术间隔至少6周，术后6~8周再恢复",
+      "explain": "A｜不正确：指南明确要求联合贝伐珠单抗时须有间隔，并非无需停药\nB｜不正确：指南规定至少6周，2周不满足最低间隔要求\nC｜不正确：4周为妇科肿瘤指南要求，本例为结直肠癌应遵循6周规定\nD｜正确：指南明确联合贝伐珠单抗时末次治疗与手术间隔至少6周，术后6~8周再开始",
+      "keyPoint": "联合贝伐珠单抗时末次给药至手术须≥6周，术后6~8周方可重启抗血管生成",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "745fcee1-ab81-490d-96fc-517f2a543f7b",
+        "split_index": 50,
+        "type": "guideline",
+        "authority": "CACA",
+        "source_title": "结肠癌",
+        "source_version": "2024",
+        "source_section": "（3）免疫检查点抑制剂治疗",
+        "source_url": "",
+        "evidence_summary": "联合贝伐珠单抗时末次治疗与手术间隔至少6周，术后6~8周再重新开始贝伐珠单抗治疗"
+      }
+    },
+    {
+      "id": "Q4",
+      "type": "疗效复评与局部治疗",
+      "phase": "转化治疗期间影像评估",
+      "timepoint": "评估肝转移灶变化决定手术时机",
+      "question": "该患者转化治疗期间需评估肝转移灶变化以决定手术时机。关于肝脏病灶的影像学评估方法，以下哪项正确？",
+      "options": {
+        "A": "增强MRI和超声造影用于肝脏病灶数量与部位的评估",
+        "B": "PET-CT是评估肝转移灶可切除性的必需检查",
+        "C": "腹部增强CT即可充分评估肝脏病灶数量与部位",
+        "D": "肝脏超声即可满足手术前病灶定位需求"
+      },
+      "answer": "A",
+      "answer_text": "增强MRI和超声造影用于肝脏病灶数量与部位的评估",
+      "explain": "A｜正确：指南明确增强MRI和超声造影用于肝脏病灶数量与部位的评估\nB｜不正确：指南列出的肝脏评估方法为MRI和超声造影，未将PET-CT列为必需\nC｜不正确：指南区分CT用于原发灶及远处转移，肝脏病灶评估推荐MRI和超声造影\nD｜不正确：指南要求超声造影而非普通超声，且需结合增强MRI评估病灶数量与部位",
+      "keyPoint": "肝转移灶数量与部位评估首选增强MRI或超声造影，增强CT用于原发灶及远处转移",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "745fcee1-ab81-490d-96fc-517f2a543f7b",
+        "split_index": 50,
+        "type": "guideline",
+        "authority": "CACA",
+        "source_title": "结肠癌",
+        "source_version": "2024",
+        "source_section": "（3）免疫检查点抑制剂治疗",
+        "source_url": "",
+        "evidence_summary": "增强CT用于原发灶及远处转移检查；增强MRI、超声造影用于肝脏病灶数量与部位评估"
+      }
+    },
+    {
+      "id": "Q5",
+      "type": "分子诊断",
+      "phase": "初诊转移性结直肠癌",
+      "timepoint": "确诊肝转移、KRAS已明确时",
+      "question": "该患者初诊即为转移性结直肠癌伴肝转移，KRAS G13D已明确。关于MMR/MSI检测的时机，以下哪项正确？",
+      "options": {
+        "A": "KRAS突变已明确，无需再行MMR/MSI检测",
+        "B": "仅当化疗失败后才需补充MMR/MSI检测",
+        "C": "转移性结直肠癌患者均应行MMR/MSI检测以指导免疫治疗",
+        "D": "家族史提示遗传性肿瘤，仅需检测遗传性基因即可"
+      },
+      "answer": "C",
+      "answer_text": "转移性结直肠癌患者均应行MMR/MSI检测以指导免疫治疗",
+      "explain": "A｜不正确：KRAS与MSI为独立标志物，指南要求转移性CRC均行MMR/MSI检测\nB｜不正确：指南要求转移性CRC患者行检测以判断免疫获益，非化疗失败后才需\nC｜正确：指南强烈推荐应对转移性结直肠癌患者行MMR/MSI检测以判断免疫治疗获益\nD｜不正确：家族史提示遗传风险不替代肿瘤组织MMR/MSI检测，后者指导治疗决策",
+      "keyPoint": "转移性结直肠癌确诊时即应行MMR/MSI检测，KRAS状态不替代MSI检测需求",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "0b11b7db-f85e-458c-8dad-bf67831fde09",
+        "split_index": 16,
+        "type": "guideline",
+        "authority": "CSCO",
+        "source_title": "结直肠癌分子病理检测临床实践指南(2025版)",
+        "source_version": "2025",
+        "source_section": "（一）RAS和BRAF检测原则",
+        "source_url": "",
+        "evidence_summary": "应对转移性结直肠癌患者行MMR/MSI检测以判断是否可从免疫治疗中获益（强烈推荐）"
+      }
+    }
+  ],
+  "missing_information": []
+}

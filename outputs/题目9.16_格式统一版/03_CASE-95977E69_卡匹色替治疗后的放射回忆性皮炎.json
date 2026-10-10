@@ -1,0 +1,282 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-95977E69",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "分子诊断",
+        "phase": "内分泌治疗进展后",
+        "timepoint": "HR阳性、HER2阴性且检出PIK3CA突变",
+        "question": "本例依据PIK3CA改变考虑卡匹色替联合氟维司群。关于药物与标志物的对应关系，哪项正确？",
+        "options": {
+          "A": "卡匹色替是PI3Kα抑制剂，可与阿培利司视为同药替换",
+          "B": "卡匹色替抑制AKT，相关乳腺癌适用人群需核对PIK3CA/AKT1/PTEN改变等条件",
+          "C": "HER2 1+等同HER2扩增，是选择卡匹色替的直接依据",
+          "D": "只要ER阳性，无需核对既往内分泌治疗及分子结果"
+        },
+        "answer": "B",
+        "answer_text": "卡匹色替抑制AKT，相关乳腺癌适用人群需核对PIK3CA/AKT1/PTEN改变等条件",
+        "explain": "卡匹色替的靶点是AKT，阿培利司主要抑制PI3Kα，不能把通路相连写成药物类别相同。本例有PIK3CA改变，仍需结合HR/HER2、既往治疗和安全性判断。",
+        "keyPoint": "区分通路位置、具体药物靶点与适用标志物。",
+        "guidelineRef": {
+          "evidence_type": "药品说明书",
+          "doc_id": "",
+          "split_index": null,
+          "type": "drug_label",
+          "authority": "DailyMed",
+          "source_title": "TRUQAP (capivasertib) prescribing information",
+          "source_version": "",
+          "source_section": "",
+          "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d698c106-2322-401e-b738-cbd83c843ecf",
+          "evidence_summary": "区分通路位置、具体药物靶点与适用标志物。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "不良反应管理",
+        "phase": "口服药用药核查",
+        "timepoint": "皮疹发生后回顾服药记录",
+        "question": "医嘱为卡匹色替400 mg每日两次、连续4天后停3天，患者在两个停药日多服了4剂。哪项是此次用药复盘的关键？",
+        "options": {
+          "A": "把4天用药3天停药改成连续7天，以减少记忆负担",
+          "B": "将多服剂量平均到全周，认定总剂量没有变化",
+          "C": "仅调整氟维司群频次，不再核对口服药记录",
+          "D": "核实额外暴露并纠正服药日历，结合皮疹严重程度处理，不能直接恢复原计划"
+        },
+        "answer": "D",
+        "answer_text": "核实额外暴露并纠正服药日历，结合皮疹严重程度处理，不能直接恢复原计划",
+        "explain": "原文确有停药日误服，这是重要的安全信息，但不能据此认定它是皮炎的唯一原因。停药间歇是方案的一部分；出现大疱和泛发皮疹需先评估，不能仅纠正日历后继续服药。",
+        "keyPoint": "间歇口服方案的停药日同样属于处方，额外服药必须纳入毒性评估。",
+        "guidelineRef": {
+          "evidence_type": "药品说明书",
+          "doc_id": "",
+          "split_index": null,
+          "type": "drug_label",
+          "authority": "DailyMed",
+          "source_title": "TRUQAP (capivasertib) prescribing information",
+          "source_version": "",
+          "source_section": "",
+          "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d698c106-2322-401e-b738-cbd83c843ecf",
+          "evidence_summary": "间歇口服方案的停药日同样属于处方，额外服药必须纳入毒性评估。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "不良反应管理",
+        "phase": "大疱及泛发皮疹评估",
+        "timepoint": "放疗区域起疹后扩展至躯干和双臂",
+        "question": "皮疹与既往照射野部分吻合，但已伴大疱并向野外扩展。此时最合适的处理方向是？",
+        "options": {
+          "A": "仅按局部放射回忆反应外用药，维持卡匹色替",
+          "B": "因肿瘤标志物下降，先完成本周期再评估皮肤",
+          "C": "暂停卡匹色替并请皮肤科评估严重药疹、黏膜及器官受累和继发感染",
+          "D": "以背部界面性皮炎活检直接认定所有皮损均为感染"
+        },
+        "answer": "C",
+        "answer_text": "暂停卡匹色替并请皮肤科评估严重药疹、黏膜及器官受累和继发感染",
+        "explain": "照射野分布支持放射回忆反应的考虑，但不能遮蔽泛发药疹或严重皮肤反应。原文未给出完整CTCAE等级，不补写3级或4级；后续再用药也应受严重程度及复发情况约束。",
+        "keyPoint": "放射回忆反应的线索不能替代严重药疹排查。",
+        "guidelineRef": {
+          "evidence_type": "药品说明书",
+          "doc_id": "",
+          "split_index": null,
+          "type": "drug_label",
+          "authority": "DailyMed",
+          "source_title": "TRUQAP (capivasertib) prescribing information",
+          "source_version": "",
+          "source_section": "",
+          "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d698c106-2322-401e-b738-cbd83c843ecf",
+          "evidence_summary": "放射回忆反应的线索不能替代严重药疹排查。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "疗效复评与局部治疗",
+        "phase": "再照射风险评估",
+        "timepoint": "拟对部分既往照射区域再次放疗时",
+        "question": "右下肢新照射野与既往30 Gy/10次区域部分重叠。制定再照射计划时，最关键的评估是什么？",
+        "options": {
+          "A": "复核历次剂量分布、重叠区域、正常组织累积剂量与同期药物",
+          "B": "按新出现的疼痛范围直接扩大照射野而无需融合旧计划",
+          "C": "仅核对本次总剂量，既往剂量因间隔数月不再计入",
+          "D": "因既往放疗曾止痛，直接复制原处方即可"
+        },
+        "answer": "A",
+        "answer_text": "复核历次剂量分布、重叠区域、正常组织累积剂量与同期药物",
+        "explain": "再照射需评估空间重叠与累积生物效应，并结合组织恢复、治疗目的和系统用药。不能给卡匹色替与放疗编造一个已证实安全的统一间隔。",
+        "keyPoint": "再照射风险来自累积剂量与组织条件，不只取决于单次处方。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESTRO / EORTC",
+          "source_title": "ESTRO and EORTC consensus on re-irradiation: definition, reporting, and clinical decision making",
+          "source_version": "2022",
+          "source_section": "",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/36174633/",
+          "evidence_summary": "再照射风险来自累积剂量与组织条件，不只取决于单次处方。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "不良反应管理",
+        "phase": "皮炎恢复后的替代治疗",
+        "timepoint": "卡匹色替再暴露后皮疹复发，随后改阿培利司",
+        "question": "本例改用阿培利司后耐受良好。对类似患者考虑该药时，哪项评估仍不可省略？",
+        "options": {
+          "A": "因同属一条信号通路，认定两药毒性与剂量可互换",
+          "B": "将阿培利司按卡匹色替的4天用药3天停药方式开具",
+          "C": "重新核对适应条件及血糖、HbA1c和皮肤风险，不能由本例推定替换后无毒性",
+          "D": "因已耐受卡匹色替初始数日，免除血糖监测"
+        },
+        "answer": "C",
+        "answer_text": "重新核对适应条件及血糖、HbA1c和皮肤风险，不能由本例推定替换后无毒性",
+        "explain": "原病例改药成功只反映个体经过。阿培利司自身可导致严重高血糖及皮肤反应，需按其说明书评估和监测；本题不把它写成卡匹色替皮炎后的统一替代标准。",
+        "keyPoint": "更换通路药物后仍需独立评估适应条件和药物特异性风险。",
+        "guidelineRef": {
+          "evidence_type": "药品说明书",
+          "doc_id": "",
+          "split_index": null,
+          "type": "drug_label",
+          "authority": "DailyMed",
+          "source_title": "PIQRAY (alpelisib) prescribing information",
+          "source_version": "",
+          "source_section": "",
+          "source_url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b20b4e18-7a4b-4500-a08f-06c6dab0ee5b",
+          "evidence_summary": "更换通路药物后仍需独立评估适应条件和药物特异性风险。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-95977E69",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/W5eo1iW1xft-K-SZ9XaQfw/s6VRC4npwRmb4TODNCNbRLdoJEaRNuiB.png",
+      "alt": "放射治疗剂量分布及右下肢皮疹图像（前视图和后视图）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "卡匹色替治疗后的放射回忆性皮炎",
+      "description": "56岁女性，既往乳腺癌治疗后出现肺及骨转移。内分泌联合CDK4/6治疗后进展，接受再次骨病灶放疗及卡匹色替。停药日曾误服，后出现照射区域大疱及泛发皮疹；再暴露后复发，最终改用阿培利司。"
+    },
+    "overview": {
+      "hero": {
+        "title": "卡匹色替治疗后的放射回忆性皮炎",
+        "subtitle": "区分通路位置、具体药物靶点与适用标志物；间歇口服方案的停药日同样属于处方，额外服药必须纳入毒性评估；放射回忆反应的线索不能替代严重药疹排查；再照射风险来自累积剂量与组织条件，不只取决于单次处方；更换通路药物后仍需独立评估适应条件和药物特异性风险。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者与就诊背景",
+              "value": "56岁女性，既往乳腺癌治疗后出现肺及骨转移。内分泌联合CDK4/6治疗后进展，接受再次骨病灶放疗及卡匹色替。停药日曾误服，后出现照射区域大疱及泛发皮疹；再暴露后复发，最终改用阿培利司。"
+            },
+            {
+              "order": 2,
+              "label": "疾病与分期",
+              "value": "乳腺癌复发伴肺、骨转移；2005年原始ⅡA期为历史分期，不能与当前转移状态混写。"
+            },
+            {
+              "order": 3,
+              "label": "分子与病理",
+              "value": "肺转移ER阳性、PR阴性、HER2阴性；骨转移GATA3阳性、ER阳性、PR阴性、HER2 1+；PIK3CA突变。背部皮疹活检为界面性皮炎，并非照射野皮肤活检。"
+            },
+            {
+              "order": 4,
+              "label": "核心教学点",
+              "value": "区分通路位置、具体药物靶点与适用标志物；间歇口服方案的停药日同样属于处方，额外服药必须纳入毒性评估；放射回忆反应的线索不能替代严重药疹排查；再照射风险来自累积剂量与组织条件，不只取决于单次处方；更换通路药物后仍需独立评估适应条件和药物特异性风险。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2005年及其后",
+              "title": "初始治疗",
+              "detail": "乳腺手术、化疗、放疗及10年他莫昔芬治疗。"
+            },
+            {
+              "date": "2023年",
+              "title": "发现转移",
+              "detail": "肺及右胫骨活检证实乳腺来源；采用来曲唑、瑞波西利及唑来膦酸，骨病灶固定并放疗。"
+            },
+            {
+              "date": "骨放疗约7个月后",
+              "title": "进展及再照射",
+              "detail": "骨病灶进展，再次手术和放疗；新旧照射区域部分重叠，内分泌改为氟维司群。"
+            },
+            {
+              "date": "再次放疗后7天起",
+              "title": "卡匹色替及皮疹",
+              "detail": "开始卡匹色替400 mg每日两次、服4天停3天；停药日多服4剂，随后出现大疱及泛发皮疹。"
+            },
+            {
+              "date": "住院期间",
+              "title": "停药及皮肤处理",
+              "detail": "背部皮疹活检；给予糖皮质激素、局部处理，因考虑继发感染应用抗菌药，后改善出院。"
+            },
+            {
+              "date": "再暴露及后续",
+              "title": "再次停药并换药",
+              "detail": "原文尝试低频再用卡匹色替，一剂后腹部皮疹复发，停药后消退；后用阿培利司，报道耐受良好。该再用法不作为推荐剂量。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/W5eo1iW1xft-K-SZ9XaQfw/s6VRC4npwRmb4TODNCNbRLdoJEaRNuiB.png",
+              "timepoint": "首次急诊就诊时",
+              "caption": "放射治疗剂量分布及右下肢皮疹图像（前视图和后视图）",
+              "alt": "放射治疗剂量分布及右下肢皮疹图像（前视图和后视图）",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/W5eo1iW1xft-K-SZ9XaQfw/DVpTGNBvUtUCuXEFj6J3LRq79zWNn5gf.png",
+              "timepoint": "入院期间",
+              "caption": "背部泛发性皮疹穿刺活检 HE 染色（10 倍和 20 倍放大）",
+              "alt": "背部泛发性皮疹穿刺活检 HE 染色（10 倍和 20 倍放大）",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/W5eo1iW1xft-K-SZ9XaQfw/iyQ9vXnZ2lOMOL7e6kmviEucb2WuvRKD.png",
+              "timepoint": "治疗及随访期间",
+              "caption": "经类固醇和抗生素治疗后右下肢皮疹消退情况及事件时间线",
+              "alt": "经类固醇和抗生素治疗后右下肢皮疹消退情况及事件时间线",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

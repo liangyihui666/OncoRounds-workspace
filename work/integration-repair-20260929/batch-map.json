@@ -1,0 +1,313 @@
+[
+  {
+    "id": "448745",
+    "name": "流程开始",
+    "type": "workflowStart",
+    "inputs": [
+      {
+        "key": "userChatInput"
+      }
+    ],
+    "outputs": [
+      {
+        "id": "userChatInput",
+        "key": "userChatInput",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "id": "iW8Qg5stNA8T2Qp9",
+    "name": "三连",
+    "type": "appModule",
+    "inputs": [
+      {
+        "key": "system_forbid_stream",
+        "value": true
+      },
+      {
+        "key": "history",
+        "value": 0
+      },
+      {
+        "key": "fileUrlList",
+        "value": [
+          [
+            "kWC4W3Kz5lNbIlo8",
+            "loopStartInput"
+          ]
+        ]
+      },
+      {
+        "key": "userChatInput",
+        "value": "__ONCOROUNDS_BATCH_V2__"
+      }
+    ],
+    "outputs": [
+      {
+        "id": "history",
+        "key": "history",
+        "type": "chatHistory"
+      },
+      {
+        "id": "answerText",
+        "key": "answerText",
+        "type": "string"
+      },
+      {
+        "id": "system_error_text",
+        "key": "system_error_text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "id": "rv8pvsOmvinDpzaN",
+    "name": "并行执行（最多10文件）",
+    "type": "parallelRun",
+    "inputs": [
+      {
+        "key": "loopInputArray",
+        "value": [
+          [
+            "batchPrep20260909",
+            "file_batches"
+          ]
+        ]
+      },
+      {
+        "key": "parallelRunMaxConcurrency",
+        "value": 10
+      },
+      {
+        "key": "parallelRunMaxRetryTimes",
+        "value": 0
+      },
+      {
+        "key": "childrenNodeIdList",
+        "value": [
+          "iW8Qg5stNA8T2Qp9",
+          "kWC4W3Kz5lNbIlo8",
+          "batchParallelEnd20260909"
+        ]
+      },
+      {
+        "key": "nodeWidth",
+        "value": 2330
+      },
+      {
+        "key": "nodeHeight",
+        "value": 1389
+      },
+      {
+        "key": "loopNodeInputHeight",
+        "value": 260
+      }
+    ],
+    "outputs": [
+      {
+        "id": "parallelSuccessResults",
+        "key": "parallelSuccessResults",
+        "type": "arrayString"
+      },
+      {
+        "id": "parallelFullResults",
+        "key": "parallelFullResults",
+        "type": "arrayObject"
+      },
+      {
+        "id": "parallelStatus",
+        "key": "parallelStatus",
+        "type": "string"
+      },
+      {
+        "id": "system_error_text",
+        "key": "system_error_text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "id": "kWC4W3Kz5lNbIlo8",
+    "name": "并行开始",
+    "type": "loopStart",
+    "inputs": [
+      {
+        "key": "loopStartInput",
+        "value": ""
+      },
+      {
+        "key": "loopStartIndex"
+      }
+    ],
+    "outputs": [
+      {
+        "id": "loopStartIndex",
+        "key": "loopStartIndex",
+        "type": "number"
+      },
+      {
+        "id": "loopStartInput",
+        "key": "loopStartInput",
+        "type": "any"
+      }
+    ]
+  },
+  {
+    "id": "batchPrep20260909",
+    "name": "批量文件校验与初始化",
+    "type": "code",
+    "inputs": [
+      {
+        "key": "system_addInputParam"
+      },
+      {
+        "key": "codeType",
+        "value": "js"
+      },
+      {
+        "key": "code",
+        "value": "function main({files}) {\n  if (!Array.isArray(files) || files.length < 1 || files.length > 10) {\n    throw new Error('请在病例文件上传框选择 1–10 个文件；超过 10 个请分批提交。');\n  }\n  if (files.some(f => typeof f !== 'string' || !f.trim())) {\n    throw new Error('文件列表包含无效项，请重新选择文件。');\n  }\n  return {file_batches:files.map(f=>[f]), expected_count:files.length};\n}"
+      },
+      {
+        "key": "files",
+        "value": [
+          [
+            "VARIABLE_NODE_ID",
+            "d5inu1nZ"
+          ]
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "id": "system_rawResponse",
+        "key": "system_rawResponse",
+        "type": "object"
+      },
+      {
+        "id": "error",
+        "key": "error",
+        "type": "string"
+      },
+      {
+        "id": "system_addOutputParam",
+        "key": "system_addOutputParam",
+        "type": "dynamic"
+      },
+      {
+        "id": "file_batches",
+        "key": "file_batches",
+        "type": "arrayAny"
+      },
+      {
+        "id": "expected_count",
+        "key": "expected_count",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "id": "batchFinal20260909",
+    "name": "批量最终JSON",
+    "type": "code",
+    "inputs": [
+      {
+        "key": "system_addInputParam"
+      },
+      {
+        "key": "codeType",
+        "value": "js"
+      },
+      {
+        "key": "code",
+        "value": "FILE"
+      },
+      {
+        "key": "results",
+        "value": [
+          [
+            "rv8pvsOmvinDpzaN",
+            "parallelFullResults"
+          ]
+        ]
+      },
+      {
+        "key": "expected_count",
+        "value": [
+          "batchPrep20260909",
+          "expected_count"
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "id": "system_rawResponse",
+        "key": "system_rawResponse",
+        "type": "object"
+      },
+      {
+        "id": "error",
+        "key": "error",
+        "type": "string"
+      },
+      {
+        "id": "system_addOutputParam",
+        "key": "system_addOutputParam",
+        "type": "dynamic"
+      },
+      {
+        "id": "output_data",
+        "key": "output_data",
+        "type": "arrayObject"
+      },
+      {
+        "id": "output_json",
+        "key": "output_json",
+        "type": "string"
+      },
+      {
+        "id": "batch_report",
+        "key": "batch_report",
+        "type": "object"
+      },
+      {
+        "id": "batch_report_json",
+        "key": "batch_report_json",
+        "type": "string"
+      },
+      {
+        "id": "response_json",
+        "key": "response_json",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "id": "batchAnswer20260909",
+    "name": "批量JSON输出",
+    "type": "answerNode",
+    "inputs": [
+      {
+        "key": "text",
+        "value": "{{$batchFinal20260909.response_json$}}"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "id": "batchParallelEnd20260909",
+    "name": "并行结束",
+    "type": "loopEnd",
+    "inputs": [
+      {
+        "key": "loopEndInput",
+        "value": [
+          "iW8Qg5stNA8T2Qp9",
+          "answerText"
+        ]
+      }
+    ],
+    "outputs": []
+  }
+]

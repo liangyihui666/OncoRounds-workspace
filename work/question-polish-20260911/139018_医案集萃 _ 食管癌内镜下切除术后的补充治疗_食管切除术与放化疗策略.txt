@@ -1,0 +1,43 @@
+来源：上海瑞金医院胸外科
+患者男性，54岁，2月前无明显诱因出现进食哽噎感伴有嗳气、打嗝、腹痛、黑便等不适。查胃镜示
+食管距门齿30-39cm黏膜病变
+。完善相关检查排除禁忌后行
+食管癌内镜黏膜下剥离术（ESD）
+。
+ESD术后病理提示多灶散在黏膜病变，病变范围约4.5*3.2cm，中-低分化鳞状细胞癌，浸
+润至黏膜肌层（Muscularis Mucosae, MM），pT1a，可见脉管瘤栓
+，垂直切缘VM（-），
+肿瘤距最近水平切缘＜1mm
+。
+患者遂完善食管癌分期CT，示食管中下段管壁
+环形增厚强化
+，壁结构欠清，气管隆突前及隆突下稍大淋巴结显示。完善相关检查后行
+颈胸腹三切口食管癌根治术
+。
+讨论
+一. 早期食管癌的治疗策略
+要确定食管 0 期或 I 期癌的治疗策略，首先应通过
+上消化道内镜检查、颈胸腹部 CT 以及等方式确认疾病的临床分期
+。然后，必须
+评估肿瘤的侵犯深度
+，以便从内镜治疗、手术和放化疗中选择最合适的治疗方法。对于计划接受内镜切除的临床 0 期患者，应评估病变的周缘范围，以确定进行内镜切除后狭窄的风险。当切除术后溃疡预计超过食管周径的 3/4 时，应考虑采取预防狭窄的措施，因为此类病变与切除术后狭窄的高风险相关。对于Ⅰ期（T1b）患者，应在评估患者的手术耐受性后，在手术和放化疗(CRT)之间做出选择。内镜切除后的病理评估对于确定是否需要补充治疗以确保根治至关重要。
+二. 内镜切除术后的病理评估
+内镜术后病理评估中，对于被归类为pT1a-EP/LPM（侵犯黏膜上皮及固有层）的患者，若脉管侵犯阴性，可安排随访；对被归类为pT1a-MM（侵犯黏膜肌层）的患者，应行全方位评估判断是否需要补充治疗。另一方面，
+对于被诊断为 pTla-MM/pT1b-SM（侵犯黏膜肌层或粘膜下层） 的患者，应考虑进行补充治疗（手术或CRT）
+。
+三. 内镜切除术后手术与放化疗的选择
+有证据表明，对于经内镜治疗后确定为具有脉管侵犯阳性的 pT1a-MM 病灶或 pT1b-SM 病灶的浅表食管癌患者，建议采用食管切除术或CRT作为补充治疗方法，但目前尚无足够证据明确推荐其中一种方法。
+首先，在 JCOG0508 研究中，侵犯深度有限的 cT1bN0 食管癌被认为可在内镜下切除，因而采用内镜治疗，而病理证实完全切除的 pT1a 且血管侵犯阳性或 pT1b 患者则接受补充的CRT。通过这种治疗，这些患者的 3 年生存率达到了 90.7%，表明这种策略是有效的且可与手术相当。
+另一项研究回顾性分析108例非根治性内镜切除(垂直边缘阳性、淋巴管浸润或浸润粘膜下层或更深层)术后患者资料，比较食管切除术及CRT的短期和长期疗效。虽然结果显示内镜切除后行食管癌切除术组/CRT组的OS和DSS无显著统计学差异，但随访期间食管切除术组无复发，CRT组有2例患者死于复发。
+此外，Koterazawa等报道，在SM2浸润深度或脉管侵犯的患者中，非治愈性内镜切除后行食管切除术比CRT更有利于疾病控制。Tanaka等也报道了只在CRT组观察到疾病复发。
+食管癌内镜下治疗的患者术后应进行严密的病理学评估，从而决定患者后续走向随访还是补充手术/放化疗。目前虽然没有随机对照研究或前瞻性研究直接比较手术和CRT作为内镜下切除术后的附加治疗，但在 pT1a-MM 和 pT1b 病例中，手术和CRT的治疗反应（总体生存率）似乎相当。然而，在 pT1b（尤其是 SM2-3）、pT1a-MM 或 pT1b SM1 病例中，有研究显示脉管侵犯阳性的患者接受CRT后的预后往往比手术后更差，这表明手术可能是这些高危患者的最佳附加治疗方案。
+参考文献
+1. Kitagawa Y, et. al. Esophageal cancer practice guidelines 2022 edited by the Japan esophageal society: part 1. Esophagus. 2023 Jul;20(3):343-372.
+2. Minashi K,et. al. Efficacy of Endoscopic Resection and Selective Chemoradiotherapy for Stage I Esophageal Squamous Cell Carcinoma. Gastroenterology. 2019 Aug;157(2):382-390.e3.
+3. Kanie Y ,et. al. Additional Treatment Following Noncurative Endoscopic Resection for Esophageal Squamous Cell Carcinoma: A Comparison of Outcomes between Esophagectomy and Chemoradiotherapy. Ann Surg Oncol. 2021 Dec;28(13):8428-8435.
+4. Koterazawa Y, et. al. A comparison of the clinical outcomes of esophagectomy and chemoradiotherapy after noncurative endoscopic submucosal dissection for esophageal squamous cell carcinoma. Surg Today. 2018 Aug;48(8):783-789.
+5. Tanaka T, et. al. Comparison of long-term outcomes between esophagectomy and chemoradiotherapy after endoscopic resection of submucosal esophageal squamous cell carcinoma. Dis Esophagus. 2019 Dec 31;32(12):doz023.
+6. Tanaka I, et. al. Risk factors and pattern of metastatic recurrence after endoscopic resection with additional treatment for esophageal cancer. Dis Esophagus. 2024 Jun 13:doae048.
+7. National Comprehensive Cancer Network. "NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®) for Esophageal and Esophagogastric Junction Cancers." National Comprehensive Cancer Network (2024).
+责任编辑：Kingsley
+排版编辑：Kingsley

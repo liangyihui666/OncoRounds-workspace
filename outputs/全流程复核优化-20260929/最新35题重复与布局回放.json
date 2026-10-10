@@ -1,0 +1,655 @@
+{
+  "model_rerun": false,
+  "original_answers_changed": false,
+  "scope": "lexical_diagnostics_and_predraft_plan_only",
+  "report": [
+    {
+      "index": 1,
+      "title": "乳腺癌术后19年髌骨转移的诊断与治疗",
+      "original_question_count": 5,
+      "plan": {
+        "scope": "initial_drafting_layout_not_answer_shuffle",
+        "assignments": [
+          {
+            "id": "Q1",
+            "answer": 3,
+            "letter": "D"
+          },
+          {
+            "id": "Q2",
+            "answer": 1,
+            "letter": "B"
+          },
+          {
+            "id": "Q3",
+            "answer": 2,
+            "letter": "C"
+          },
+          {
+            "id": "Q4",
+            "answer": 0,
+            "letter": "A"
+          },
+          {
+            "id": "Q5",
+            "answer": 3,
+            "letter": "D"
+          }
+        ],
+        "instruction": "首轮首次构思时按此位置写正确项及其余三个有临床迷惑性的选项，再写对应解析；第二轮保留内容合格题顺序，仅重写/补写时参考空缺位置。位置计划不代表医学答案，禁止改变事实或扭曲正确性去凑位置。"
+      },
+      "review": {
+        "scope": "lexical_review_not_medical_verdict",
+        "answer_counts": [
+          0,
+          5,
+          0,
+          0
+        ],
+        "concentrated": true,
+        "similar_pair_count": 0,
+        "similar_option_pairs": [],
+        "repeated_correct_pairs": [],
+        "recurring_templates": [
+          {
+            "code": "NO_EVALUATION",
+            "total_occurrences": 3,
+            "occurrences": [
+              {
+                "question_id": "Q1",
+                "option": "C",
+                "text": "仅依赖MRI信号特征即可确诊骨转移，无需其他检查"
+              },
+              {
+                "question_id": "Q1",
+                "option": "D",
+                "text": "行下肢静脉彩超排除血栓，无需评估骨病灶性质"
+              },
+              {
+                "question_id": "Q2",
+                "option": "D",
+                "text": "因ER/PR强阳性，无需检测HER2，直接启动内分泌治疗"
+              }
+            ]
+          }
+        ],
+        "instruction": "近似文本和模板命中只用于定位，不代表选项错误；相同药名/术语可以复用，否定词、剂量和时点差异必须保留。若两题凭同一决策即可作答，换掉较浅题；重写空泛干扰项为同一决策的真实竞争措施，依据明确时才排除。不要仅换同义词，不自动调换合格题顺序。"
+      }
+    },
+    {
+      "index": 2,
+      "title": "三阴性乳腺癌新辅助术后早期脑膜转移的识别与处理",
+      "original_question_count": 5,
+      "plan": {
+        "scope": "initial_drafting_layout_not_answer_shuffle",
+        "assignments": [
+          {
+            "id": "Q1",
+            "answer": 2,
+            "letter": "C"
+          },
+          {
+            "id": "Q2",
+            "answer": 1,
+            "letter": "B"
+          },
+          {
+            "id": "Q3",
+            "answer": 0,
+            "letter": "A"
+          },
+          {
+            "id": "Q4",
+            "answer": 3,
+            "letter": "D"
+          },
+          {
+            "id": "Q5",
+            "answer": 2,
+            "letter": "C"
+          }
+        ],
+        "instruction": "首轮首次构思时按此位置写正确项及其余三个有临床迷惑性的选项，再写对应解析；第二轮保留内容合格题顺序，仅重写/补写时参考空缺位置。位置计划不代表医学答案，禁止改变事实或扭曲正确性去凑位置。"
+      },
+      "review": {
+        "scope": "lexical_review_not_medical_verdict",
+        "answer_counts": [
+          2,
+          1,
+          1,
+          1
+        ],
+        "concentrated": false,
+        "similar_pair_count": 0,
+        "similar_option_pairs": [],
+        "repeated_correct_pairs": [],
+        "recurring_templates": [
+          {
+            "code": "NO_EVALUATION",
+            "total_occurrences": 4,
+            "occurrences": [
+              {
+                "question_id": "Q1",
+                "option": "A",
+                "text": "仅在第6周期结束后统一评估疗效，期间无需影像学复查"
+              },
+              {
+                "question_id": "Q3",
+                "option": "A",
+                "text": "仅需确认切缘阴性和淋巴结转移数目，无需重新评估分子特征"
+              },
+              {
+                "question_id": "Q4",
+                "option": "B",
+                "text": "脑脊液细胞学已确认转移，无需再行组织活检或分子检测"
+              },
+              {
+                "question_id": "Q4",
+                "option": "D",
+                "text": "受体状态改变概率仅10%，对已确诊TNBC无需重复检测"
+              }
+            ]
+          }
+        ],
+        "instruction": "近似文本和模板命中只用于定位，不代表选项错误；相同药名/术语可以复用，否定词、剂量和时点差异必须保留。若两题凭同一决策即可作答，换掉较浅题；重写空泛干扰项为同一决策的真实竞争措施，依据明确时才排除。不要仅换同义词，不自动调换合格题顺序。"
+      }
+    },
+    {
+      "index": 3,
+      "title": "乳腺癌十二指肠转移致小肠梗阻的诊治",
+      "original_question_count": 5,
+      "plan": {
+        "scope": "initial_drafting_layout_not_answer_shuffle",
+        "assignments": [
+          {
+            "id": "Q1",
+            "answer": 1,
+            "letter": "B"
+          },
+          {
+            "id": "Q2",
+            "answer": 2,
+            "letter": "C"
+          },
+          {
+            "id": "Q3",
+            "answer": 0,
+            "letter": "A"
+          },
+          {
+            "id": "Q4",
+            "answer": 3,
+            "letter": "D"
+          },
+          {
+            "id": "Q5",
+            "answer": 1,
+            "letter": "B"
+          }
+        ],
+        "instruction": "首轮首次构思时按此位置写正确项及其余三个有临床迷惑性的选项，再写对应解析；第二轮保留内容合格题顺序，仅重写/补写时参考空缺位置。位置计划不代表医学答案，禁止改变事实或扭曲正确性去凑位置。"
+      },
+      "review": {
+        "scope": "lexical_review_not_medical_verdict",
+        "answer_counts": [
+          1,
+          2,
+          1,
+          1
+        ],
+        "concentrated": false,
+        "similar_pair_count": 0,
+        "similar_option_pairs": [],
+        "repeated_correct_pairs": [],
+        "recurring_templates": [
+          {
+            "code": "NO_EVALUATION",
+            "total_occurrences": 2,
+            "occurrences": [
+              {
+                "question_id": "Q2",
+                "option": "C",
+                "text": "因2019年SISH已确认HER2阴性，本次活检无需再次检测HER2状态"
+              },
+              {
+                "question_id": "Q5",
+                "option": "C",
+                "text": "PET/CT已显示FDG高摄取，可直接完成M分期无需其他影像学评估"
+              }
+            ]
+          },
+          {
+            "code": "IGNORE_INFORMATION",
+            "total_occurrences": 2,
+            "occurrences": [
+              {
+                "question_id": "Q2",
+                "option": "D",
+                "text": "受体变化在检测误差范围内，应以2019年原发灶结果为准指导治疗"
+              },
+              {
+                "question_id": "Q4",
+                "option": "C",
+                "text": "受体状态改变属检测误差，应以2019年原发灶受体状态为准指导治疗"
+              }
+            ]
+          }
+        ],
+        "instruction": "近似文本和模板命中只用于定位，不代表选项错误；相同药名/术语可以复用，否定词、剂量和时点差异必须保留。若两题凭同一决策即可作答，换掉较浅题；重写空泛干扰项为同一决策的真实竞争措施，依据明确时才排除。不要仅换同义词，不自动调换合格题顺序。"
+      }
+    },
+    {
+      "index": 4,
+      "title": "Luminal B型乳腺癌术后多发转移的序贯治疗",
+      "original_question_count": 0,
+      "plan": {
+        "scope": "initial_drafting_layout_not_answer_shuffle",
+        "assignments": [
+          {
+            "id": "Q1",
+            "answer": 0,
+            "letter": "A"
+          },
+          {
+            "id": "Q2",
+            "answer": 2,
+            "letter": "C"
+          },
+          {
+            "id": "Q3",
+            "answer": 1,
+            "letter": "B"
+          },
+          {
+            "id": "Q4",
+            "answer": 3,
+            "letter": "D"
+          },
+          {
+            "id": "Q5",
+            "answer": 1,
+            "letter": "B"
+          }
+        ],
+        "instruction": "首轮首次构思时按此位置写正确项及其余三个有临床迷惑性的选项，再写对应解析；第二轮保留内容合格题顺序，仅重写/补写时参考空缺位置。位置计划不代表医学答案，禁止改变事实或扭曲正确性去凑位置。"
+      },
+      "review": {
+        "scope": "lexical_review_not_medical_verdict",
+        "answer_counts": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "concentrated": false,
+        "similar_pair_count": 0,
+        "similar_option_pairs": [],
+        "repeated_correct_pairs": [],
+        "recurring_templates": [],
+        "instruction": "近似文本和模板命中只用于定位，不代表选项错误；相同药名/术语可以复用，否定词、剂量和时点差异必须保留。若两题凭同一决策即可作答，换掉较浅题；重写空泛干扰项为同一决策的真实竞争措施，依据明确时才排除。不要仅换同义词，不自动调换合格题顺序。"
+      }
+    },
+    {
+      "index": 5,
+      "title": "HER2阳性乳腺癌放疗后脑转移进展的RC48单药治疗",
+      "original_question_count": 0,
+      "plan": {
+        "scope": "initial_drafting_layout_not_answer_shuffle",
+        "assignments": [
+          {
+            "id": "Q1",
+            "answer": 0,
+            "letter": "A"
+          },
+          {
+            "id": "Q2",
+            "answer": 3,
+            "letter": "D"
+          },
+          {
+            "id": "Q3",
+            "answer": 2,
+            "letter": "C"
+          },
+          {
+            "id": "Q4",
+            "answer": 1,
+            "letter": "B"
+          },
+          {
+            "id": "Q5",
+            "answer": 2,
+            "letter": "C"
+          }
+        ],
+        "instruction": "首轮首次构思时按此位置写正确项及其余三个有临床迷惑性的选项，再写对应解析；第二轮保留内容合格题顺序，仅重写/补写时参考空缺位置。位置计划不代表医学答案，禁止改变事实或扭曲正确性去凑位置。"
+      },
+      "review": {
+        "scope": "lexical_review_not_medical_verdict",
+        "answer_counts": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "concentrated": false,
+        "similar_pair_count": 0,
+        "similar_option_pairs": [],
+        "repeated_correct_pairs": [],
+        "recurring_templates": [],
+        "instruction": "近似文本和模板命中只用于定位，不代表选项错误；相同药名/术语可以复用，否定词、剂量和时点差异必须保留。若两题凭同一决策即可作答，换掉较浅题；重写空泛干扰项为同一决策的真实竞争措施，依据明确时才排除。不要仅换同义词，不自动调换合格题顺序。"
+      }
+    },
+    {
+      "index": 6,
+      "title": "AFP阳性横结肠黏液腺癌伴肠套叠的诊疗",
+      "original_question_count": 5,
+      "plan": {
+        "scope": "initial_drafting_layout_not_answer_shuffle",
+        "assignments": [
+          {
+            "id": "Q1",
+            "answer": 3,
+            "letter": "D"
+          },
+          {
+            "id": "Q2",
+            "answer": 1,
+            "letter": "B"
+          },
+          {
+            "id": "Q3",
+            "answer": 2,
+            "letter": "C"
+          },
+          {
+            "id": "Q4",
+            "answer": 0,
+            "letter": "A"
+          },
+          {
+            "id": "Q5",
+            "answer": 1,
+            "letter": "B"
+          }
+        ],
+        "instruction": "首轮首次构思时按此位置写正确项及其余三个有临床迷惑性的选项，再写对应解析；第二轮保留内容合格题顺序，仅重写/补写时参考空缺位置。位置计划不代表医学答案，禁止改变事实或扭曲正确性去凑位置。"
+      },
+      "review": {
+        "scope": "lexical_review_not_medical_verdict",
+        "answer_counts": [
+          1,
+          1,
+          2,
+          1
+        ],
+        "concentrated": false,
+        "similar_pair_count": 1,
+        "similar_option_pairs": [
+          {
+            "left": {
+              "question_id": "Q1",
+              "option": "B",
+              "text": "因HER2阳性，应在CAPOX基础上加用曲妥珠单抗",
+              "selected": false
+            },
+            "right": {
+              "question_id": "Q2",
+              "option": "A",
+              "text": "应在CAPOX基础上加用曲妥珠单抗，因HER2阳性提示预后不良",
+              "selected": false
+            },
+            "match": "similar_text",
+            "similarity": 0.85
+          }
+        ],
+        "repeated_correct_pairs": [],
+        "recurring_templates": [],
+        "instruction": "近似文本和模板命中只用于定位，不代表选项错误；相同药名/术语可以复用，否定词、剂量和时点差异必须保留。若两题凭同一决策即可作答，换掉较浅题；重写空泛干扰项为同一决策的真实竞争措施，依据明确时才排除。不要仅换同义词，不自动调换合格题顺序。"
+      }
+    },
+    {
+      "index": 7,
+      "title": "HER2阳性合并MSI-H晚期胃癌转化手术全程管理",
+      "original_question_count": 5,
+      "plan": {
+        "scope": "initial_drafting_layout_not_answer_shuffle",
+        "assignments": [
+          {
+            "id": "Q1",
+            "answer": 0,
+            "letter": "A"
+          },
+          {
+            "id": "Q2",
+            "answer": 3,
+            "letter": "D"
+          },
+          {
+            "id": "Q3",
+            "answer": 1,
+            "letter": "B"
+          },
+          {
+            "id": "Q4",
+            "answer": 2,
+            "letter": "C"
+          },
+          {
+            "id": "Q5",
+            "answer": 3,
+            "letter": "D"
+          }
+        ],
+        "instruction": "首轮首次构思时按此位置写正确项及其余三个有临床迷惑性的选项，再写对应解析；第二轮保留内容合格题顺序，仅重写/补写时参考空缺位置。位置计划不代表医学答案，禁止改变事实或扭曲正确性去凑位置。"
+      },
+      "review": {
+        "scope": "lexical_review_not_medical_verdict",
+        "answer_counts": [
+          0,
+          2,
+          1,
+          2
+        ],
+        "concentrated": false,
+        "similar_pair_count": 0,
+        "similar_option_pairs": [],
+        "repeated_correct_pairs": [],
+        "recurring_templates": [],
+        "instruction": "近似文本和模板命中只用于定位，不代表选项错误；相同药名/术语可以复用，否定词、剂量和时点差异必须保留。若两题凭同一决策即可作答，换掉较浅题；重写空泛干扰项为同一决策的真实竞争措施，依据明确时才排除。不要仅换同义词，不自动调换合格题顺序。"
+      }
+    },
+    {
+      "index": 8,
+      "title": "小肠黏液腺癌伴双侧卵巢转移的诊治",
+      "original_question_count": 0,
+      "plan": {
+        "scope": "initial_drafting_layout_not_answer_shuffle",
+        "assignments": [
+          {
+            "id": "Q1",
+            "answer": 1,
+            "letter": "B"
+          },
+          {
+            "id": "Q2",
+            "answer": 0,
+            "letter": "A"
+          },
+          {
+            "id": "Q3",
+            "answer": 2,
+            "letter": "C"
+          },
+          {
+            "id": "Q4",
+            "answer": 3,
+            "letter": "D"
+          },
+          {
+            "id": "Q5",
+            "answer": 0,
+            "letter": "A"
+          }
+        ],
+        "instruction": "首轮首次构思时按此位置写正确项及其余三个有临床迷惑性的选项，再写对应解析；第二轮保留内容合格题顺序，仅重写/补写时参考空缺位置。位置计划不代表医学答案，禁止改变事实或扭曲正确性去凑位置。"
+      },
+      "review": {
+        "scope": "lexical_review_not_medical_verdict",
+        "answer_counts": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "concentrated": false,
+        "similar_pair_count": 0,
+        "similar_option_pairs": [],
+        "repeated_correct_pairs": [],
+        "recurring_templates": [],
+        "instruction": "近似文本和模板命中只用于定位，不代表选项错误；相同药名/术语可以复用，否定词、剂量和时点差异必须保留。若两题凭同一决策即可作答，换掉较浅题；重写空泛干扰项为同一决策的真实竞争措施，依据明确时才排除。不要仅换同义词，不自动调换合格题顺序。"
+      }
+    },
+    {
+      "index": 9,
+      "title": "MSI-H结直肠癌肝转移免疫联合抗血管转化治疗",
+      "original_question_count": 5,
+      "plan": {
+        "scope": "initial_drafting_layout_not_answer_shuffle",
+        "assignments": [
+          {
+            "id": "Q1",
+            "answer": 0,
+            "letter": "A"
+          },
+          {
+            "id": "Q2",
+            "answer": 1,
+            "letter": "B"
+          },
+          {
+            "id": "Q3",
+            "answer": 3,
+            "letter": "D"
+          },
+          {
+            "id": "Q4",
+            "answer": 2,
+            "letter": "C"
+          },
+          {
+            "id": "Q5",
+            "answer": 0,
+            "letter": "A"
+          }
+        ],
+        "instruction": "首轮首次构思时按此位置写正确项及其余三个有临床迷惑性的选项，再写对应解析；第二轮保留内容合格题顺序，仅重写/补写时参考空缺位置。位置计划不代表医学答案，禁止改变事实或扭曲正确性去凑位置。"
+      },
+      "review": {
+        "scope": "lexical_review_not_medical_verdict",
+        "answer_counts": [
+          1,
+          2,
+          1,
+          1
+        ],
+        "concentrated": false,
+        "similar_pair_count": 0,
+        "similar_option_pairs": [],
+        "repeated_correct_pairs": [],
+        "recurring_templates": [
+          {
+            "code": "EXTREME_ACTION",
+            "total_occurrences": 3,
+            "occurrences": [
+              {
+                "question_id": "Q1",
+                "option": "C",
+                "text": "MSI-H患者无论RAS状态如何，均绝对禁忌使用抗EGFR靶向药"
+              },
+              {
+                "question_id": "Q5",
+                "option": "A",
+                "text": "一线使用贝伐珠单抗进展后，二线绝对禁忌跨线使用贝伐珠单抗"
+              },
+              {
+                "question_id": "Q5",
+                "option": "D",
+                "text": "一线XELOX进展后，二线只能选择最佳支持治疗"
+              }
+            ]
+          }
+        ],
+        "instruction": "近似文本和模板命中只用于定位，不代表选项错误；相同药名/术语可以复用，否定词、剂量和时点差异必须保留。若两题凭同一决策即可作答，换掉较浅题；重写空泛干扰项为同一决策的真实竞争措施，依据明确时才排除。不要仅换同义词，不自动调换合格题顺序。"
+      }
+    },
+    {
+      "index": 10,
+      "title": "转移性胃癌铂类化疗的疗效与血液学毒性管理",
+      "original_question_count": 5,
+      "plan": {
+        "scope": "initial_drafting_layout_not_answer_shuffle",
+        "assignments": [
+          {
+            "id": "Q1",
+            "answer": 3,
+            "letter": "D"
+          },
+          {
+            "id": "Q2",
+            "answer": 2,
+            "letter": "C"
+          },
+          {
+            "id": "Q3",
+            "answer": 1,
+            "letter": "B"
+          },
+          {
+            "id": "Q4",
+            "answer": 0,
+            "letter": "A"
+          },
+          {
+            "id": "Q5",
+            "answer": 2,
+            "letter": "C"
+          }
+        ],
+        "instruction": "首轮首次构思时按此位置写正确项及其余三个有临床迷惑性的选项，再写对应解析；第二轮保留内容合格题顺序，仅重写/补写时参考空缺位置。位置计划不代表医学答案，禁止改变事实或扭曲正确性去凑位置。"
+      },
+      "review": {
+        "scope": "lexical_review_not_medical_verdict",
+        "answer_counts": [
+          2,
+          1,
+          1,
+          1
+        ],
+        "concentrated": false,
+        "similar_pair_count": 0,
+        "similar_option_pairs": [],
+        "repeated_correct_pairs": [],
+        "recurring_templates": [
+          {
+            "code": "EXTREME_ACTION",
+            "total_occurrences": 2,
+            "occurrences": [
+              {
+                "question_id": "Q1",
+                "option": "A",
+                "text": "所有HER2阴性晚期胃癌一线均应加用免疫检查点抑制剂，PD-L1 CPS<1不影响该推荐"
+              },
+              {
+                "question_id": "Q2",
+                "option": "B",
+                "text": "骨髓毒性出现后应立即永久停用所有化疗药物，不应尝试减量后继续"
+              }
+            ]
+          }
+        ],
+        "instruction": "近似文本和模板命中只用于定位，不代表选项错误；相同药名/术语可以复用，否定词、剂量和时点差异必须保留。若两题凭同一决策即可作答，换掉较浅题；重写空泛干扰项为同一决策的真实竞争措施，依据明确时才排除。不要仅换同义词，不自动调换合格题顺序。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "outer_escape_repairs": [
+    {
+      "position": 13574,
+      "escape": "\\$"
+    },
+    {
+      "position": 13601,
+      "escape": "\\$"
+    },
+    {
+      "position": 13925,
+      "escape": "\\$"
+    },
+    {
+      "position": 13952,
+      "escape": "\\$"
+    },
+    {
+      "position": 14077,
+      "escape": "\\$"
+    },
+    {
+      "position": 14104,
+      "escape": "\\$"
+    },
+    {
+      "position": 14323,
+      "escape": "\\$"
+    },
+    {
+      "position": 14350,
+      "escape": "\\$"
+    },
+    {
+      "position": 14686,
+      "escape": "\\$"
+    },
+    {
+      "position": 14713,
+      "escape": "\\$"
+    },
+    {
+      "position": 25267,
+      "escape": "\\$"
+    },
+    {
+      "position": 25294,
+      "escape": "\\$"
+    },
+    {
+      "position": 50475,
+      "escape": "\\$"
+    },
+    {
+      "position": 50502,
+      "escape": "\\$"
+    },
+    {
+      "position": 50721,
+      "escape": "\\$"
+    },
+    {
+      "position": 50748,
+      "escape": "\\$"
+    },
+    {
+      "position": 51084,
+      "escape": "\\$"
+    },
+    {
+      "position": 51111,
+      "escape": "\\$"
+    },
+    {
+      "position": 51469,
+      "escape": "\\$"
+    },
+    {
+      "position": 51496,
+      "escape": "\\$"
+    },
+    {
+      "position": 51823,
+      "escape": "\\$"
+    },
+    {
+      "position": 51850,
+      "escape": "\\$"
+    },
+    {
+      "position": 57588,
+      "escape": "\\$"
+    },
+    {
+      "position": 57615,
+      "escape": "\\$"
+    },
+    {
+      "position": 109498,
+      "escape": "\\$"
+    },
+    {
+      "position": 109508,
+      "escape": "\\$"
+    },
+    {
+      "position": 109931,
+      "escape": "\\$"
+    },
+    {
+      "position": 109941,
+      "escape": "\\$"
+    },
+    {
+      "position": 110315,
+      "escape": "\\$"
+    },
+    {
+      "position": 110325,
+      "escape": "\\$"
+    },
+    {
+      "position": 110699,
+      "escape": "\\$"
+    },
+    {
+      "position": 110709,
+      "escape": "\\$"
+    },
+    {
+      "position": 126406,
+      "escape": "\\$"
+    },
+    {
+      "position": 126416,
+      "escape": "\\$"
+    },
+    {
+      "position": 126507,
+      "escape": "\\$"
+    },
+    {
+      "position": 126517,
+      "escape": "\\$"
+    }
+  ],
+  "items": [
+    {
+      "index": 1,
+      "empty": true
+    },
+    {
+      "index": 2,
+      "empty": true
+    },
+    {
+      "index": 3,
+      "empty": true
+    },
+    {
+      "index": 4,
+      "inner_escape_repairs": [],
+      "type": "oncorounds_batch_item",
+      "case_id": "CASE-656D0757",
+      "title": "乳腺癌十二指肠转移致小肠梗阻的诊治",
+      "count": 5,
+      "status": "OUTPUT_READY",
+      "revision": "20260929-evidence-depth-five",
+      "errors": [],
+      "quote_status": "PASS",
+      "quote_errors": [],
+      "has_verification": true,
+      "rawchars": {
+        "model": "qwen3.8-flash",
+        "max_output_tokens_configured": 16000,
+        "first_round_char_count": 6256,
+        "second_round_char_count": 6238,
+        "finish_reason": null,
+        "finish_reason_availability": "not_exposed_by_workflow_outputs"
+      },
+      "pool": 14,
+      "missing": []
+    },
+    {
+      "index": 5,
+      "inner_escape_repairs": [],
+      "type": "oncorounds_batch_item",
+      "case_id": "CASE-FCAC0B7D",
+      "title": "Luminal B型乳腺癌术后罕见肾上腺及脑转移的诊治",
+      "count": 5,
+      "status": "OUTPUT_READY",
+      "revision": "20260929-evidence-depth-five",
+      "errors": [],
+      "quote_status": "PASS",
+      "quote_errors": [],
+      "has_verification": true,
+      "rawchars": {
+        "model": "qwen3.8-flash",
+        "max_output_tokens_configured": 16000,
+        "first_round_char_count": 6478,
+        "second_round_char_count": 6321,
+        "finish_reason": null,
+        "finish_reason_availability": "not_exposed_by_workflow_outputs"
+      },
+      "pool": 14,
+      "missing": []
+    },
+    {
+      "index": 6,
+      "inner_escape_repairs": [],
+      "type": "oncorounds_batch_item",
+      "case_id": "CASE-CDE79729",
+      "title": "HER2阳性乳腺癌脑转移经放疗后进展的靶向治疗决策",
+      "count": 5,
+      "status": "OUTPUT_READY",
+      "revision": "20260929-evidence-depth-five",
+      "errors": [],
+      "quote_status": "PASS",
+      "quote_errors": [],
+      "has_verification": true,
+      "rawchars": {
+        "model": "qwen3.8-flash",
+        "max_output_tokens_configured": 16000,
+        "first_round_char_count": 7061,
+        "second_round_char_count": 7184,
+        "finish_reason": null,
+        "finish_reason_availability": "not_exposed_by_workflow_outputs"
+      },
+      "pool": 19,
+      "missing": []
+    },
+    {
+      "index": 7,
+      "empty": true
+    },
+    {
+      "index": 8,
+      "empty": true
+    },
+    {
+      "index": 9,
+      "empty": true
+    },
+    {
+      "index": 10,
+      "inner_escape_repairs": [],
+      "type": "oncorounds_batch_item",
+      "case_id": "CASE-7ADE271C",
+      "title": "MSI-H升结肠癌肝转移免疫联合抗血管生成转化治疗",
+      "count": 5,
+      "status": "OUTPUT_READY",
+      "revision": "20260929-evidence-depth-five",
+      "errors": [],
+      "quote_status": "PASS",
+      "quote_errors": [],
+      "has_verification": true,
+      "rawchars": {
+        "model": "qwen3.8-flash",
+        "max_output_tokens_configured": 16000,
+        "first_round_char_count": 6006,
+        "second_round_char_count": 8776,
+        "finish_reason": null,
+        "finish_reason_availability": "not_exposed_by_workflow_outputs"
+      },
+      "pool": 16,
+      "missing": []
+    }
+  ]
+}

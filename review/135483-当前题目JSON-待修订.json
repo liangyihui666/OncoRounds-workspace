@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "case_id": "",
+  "cancer_type": "肺癌",
+  "generation_status": "success",
+  "difficulty": "进阶",
+  "question_count": 5,
+  "questions": [
+    {
+      "id": "Q1",
+      "type": "分子诊断",
+      "phase": "诊断与分期",
+      "timepoint": "当前教学复盘：2021 年 11 月病理确诊时",
+      "question": "患者病理诊断为肺浸润性腺癌，关于 BRAF 基因检测的策略与方法，以下哪项符合临床实践指南推荐？",
+      "options": {
+        "A": "推荐进行二代测序或 RT-PCR 检测，IHC 可作为补充筛查",
+        "B": "仅需进行 IHC 检测，因成本低且速度快",
+        "C": "无需检测 BRAF 基因，因肺腺癌中突变率极低",
+        "D": "仅当化疗失败后才进行 BRAF 基因检测"
+      },
+      "answer": "A",
+      "answer_text": "推荐进行二代测序或 RT-PCR 检测，IHC 可作为补充筛查",
+      "explain": "根据《非小细胞肺癌分子病理检测临床实践指南 (2024 版)》，当和其他基因一起检测时，推荐进行二代测序或 RT-PCR 检测。IHC 检测 BRAF V600E 蛋白表达可用于初筛，但阳性病例需经过测序技术平台进行验证。肺腺癌患者需进行包括 BRAF 基因在内的分子检测以指导治疗，不应仅在化疗失败后检测。",
+      "keyPoint": "肺腺癌患者应常规进行 BRAF 基因检测，推荐 NGS 或 RT-PCR，IHC 可初筛但需验证。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "590fd2e7-5cd4-448a-8fb7-433c6bc0773f",
+        "split_index": 37,
+        "type": "guideline",
+        "authority": "中华医学会病理学分会",
+        "source_title": "非小细胞肺癌分子病理检测临床实践指南 (2024 版)",
+        "source_version": "2024",
+        "source_section": "（五）BRAF 基因变异",
+        "source_url": "",
+        "evidence_summary": "推荐意见 21：当和其他基因一起检测时，推荐进行二代测序或 RT-PCR 检测。推荐意见 22：IHC 检测 BRAF V600E 蛋白表达用于初筛，阳性病例需经过测序技术平台进行验证。"
+      }
+    },
+    {
+      "id": "Q2",
+      "type": "治疗决策",
+      "phase": "初始治疗",
+      "timepoint": "当前教学复盘：2021 年 12 月初诊时",
+      "question": "患者确诊为 BRAF V600E 突变晚期肺腺癌，体能状态良好。综合当前诊疗规范，关于初始系统治疗策略的选择，下列说法最恰当的是？",
+      "options": {
+        "A": "首选含铂双药化疗，因化疗是所有晚期 NSCLC 的标准一线方案",
+        "B": "首选免疫检查点抑制剂单药治疗，因突变型患者免疫获益更佳",
+        "C": "首选 BRAF 抑制剂联合 MEK 抑制剂双靶治疗，因指南推荐为优选方案",
+        "D": "首选局部放疗，因患者为 T4 病变需优先控制原发灶"
+      },
+      "answer": "C",
+      "answer_text": "首选 BRAF 抑制剂联合 MEK 抑制剂双靶治疗，因指南推荐为优选方案",
+      "explain": "根据《中国晚期非小细胞肺癌 BRAF 突变诊疗专家共识》，国内外指南均推荐达拉非尼联合曲美替尼的双靶方案为 BRAF V600 突变 NSCLC 患者的优选治疗方案。虽然化疗是晚期 NSCLC 的常规手段，但对于 BRAF 突变患者，化疗获益有限，双靶治疗疗效突出且安全可控。免疫单药在驱动基因阳性患者中通常不作为首选。局部放疗不能替代全身治疗。",
+      "keyPoint": "BRAF V600 突变晚期 NSCLC 患者初始治疗优选双靶方案（达拉非尼 + 曲美替尼）。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "fc3f40d7-ebf7-49f4-920e-12bea861f3f3",
+        "split_index": 43,
+        "type": "guideline",
+        "authority": "CACA",
+        "source_title": "中国晚期非小细胞肺癌 BRAF 突变诊疗专家共识",
+        "source_version": "2023",
+        "source_section": "六、总结与展望",
+        "source_url": "",
+        "evidence_summary": "国内外指南均推荐达拉非尼联合曲美替尼的双靶方案为 BRAF V600 突变 NSCLC 患者的优选治疗方案。"
+      }
+    },
+    {
+      "id": "Q3",
+      "type": "不良反应管理",
+      "phase": "治疗实施与监测",
+      "timepoint": "当前教学复盘：2022 年 4 月化疗期间出现骨髓抑制时",
+      "question": "患者在二线化疗期间出现 III-IV°骨髓抑制。依据肿瘤治疗相关骨髓抑制分级标准，以下哪项描述正确？",
+      "options": {
+        "A": "血红蛋白≥90g/L 为 4 级",
+        "B": "中性粒细胞计数≥1.5×10^9/L 为 3 级",
+        "C": "血小板计数≥50 且<75×10^9/L 为 2 级",
+        "D": "中性粒细胞计数≥0.5 且<1.0×10^9/L 为 3 级"
+      },
+      "answer": "D",
+      "answer_text": "中性粒细胞计数≥0.5 且<1.0×10^9/L 为 3 级",
+      "explain": "根据《肿瘤治疗相关骨髓抑制院外管理专家共识（2025 版）》分级标准，3 级中性粒细胞减少定义为≥0.5 且<1.0×10^9/L（选项 D）。2 级血小板减少为≥50 且<75×10^9/L（选项 C 描述正确但题目问的是 III-IV°骨髓抑制的分级特征，通常关注中性粒细胞或血小板的严重下降，选项 D 准确描述了 3 级中性粒细胞减少标准）。选项 A 为 1 级贫血，选项 B 为 1 级中性粒细胞减少。",
+      "keyPoint": "掌握骨髓抑制的分级标准，3 级中性粒细胞减少为 0.5-1.0×10^9/L。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "4daa8084-7880-408a-be73-bb33e93fb06b",
+        "split_index": 9,
+        "type": "guideline",
+        "authority": "CACA",
+        "source_title": "肿瘤治疗相关骨髓抑制院外管理专家共识（2025 版）",
+        "source_version": "2025",
+        "source_section": "（二）流行病学",
+        "source_url": "",
+        "evidence_summary": "表 3 肿瘤治疗相关骨髓抑制的分级标准：3 级中性粒细胞计数≥0.5 且<1.0×10^9/L；2 级血小板计数≥50 且<75×10^9/L。"
+      }
+    },
+    {
+      "id": "Q4",
+      "type": "不良反应管理",
+      "phase": "治疗实施与监测",
+      "timepoint": "当前教学复盘：2022 年 4 月处理 III-IV°骨髓抑制时",
+      "question": "针对该患者出现的 III-IV°骨髓抑制，除药物治疗外，以下哪项管理措施最符合指南推荐？",
+      "options": {
+        "A": "无需特殊隔离，常规护理即可",
+        "B": "立即永久停用所有抗肿瘤药物，不再挑战",
+        "C": "根据情况选择保护性隔离，并密切监测血小板计数",
+        "D": "仅口服升白药物，无需静脉用药或生长因子"
+      },
+      "answer": "C",
+      "answer_text": "根据情况选择保护性隔离，并密切监测血小板计数",
+      "explain": "根据《中国肿瘤整合诊治技术指南（CACA）整合护理》，Ⅲ、IV 级骨髓抑制除用药处理外，还应根据情况选择保护性隔离。使用促血小板生长因子时，应密切监测血小板计数，以防过度升高引发血栓。永久停药并非唯一选择，需评估恢复情况后决定。",
+      "keyPoint": "III-IV 级骨髓抑制需保护性隔离及密切监测，防止感染及血栓风险。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "9030d4ea-c2b5-4bf6-aa23-c8b7fddf65d1",
+        "split_index": 118,
+        "type": "guideline",
+        "authority": "CACA",
+        "source_title": "中国肿瘤整合诊治技术指南（CACA）整合护理",
+        "source_version": "2023",
+        "source_section": "（五）血液系统毒性反应",
+        "source_url": "",
+        "evidence_summary": "Ⅲ、IV 级骨髓抑制除用药处理外，还应根据情况选择保护性隔离。使用促血小板生长因子时，应密切监测血小板计数。"
+      }
+    },
+    {
+      "id": "Q5",
+      "type": "耐药与后线管理",
+      "phase": "后线治疗",
+      "timepoint": "当前教学复盘：2023 年 4 月多线治疗进展后",
+      "question": "患者经多线化疗、免疫及抗血管生成治疗后进展，BRAF V600E 突变状态未变。关于此时化疗的作用，下列评估正确的是？",
+      "options": {
+        "A": "化疗仍是首选方案，因患者已耐受多线治疗",
+        "B": "化疗获益有限，尤其是紫杉烷类药物，PFS 较短",
+        "C": "化疗疗效优于靶向治疗，应优先再次挑战",
+        "D": "化疗对 BRAF 突变患者无毒性，可大剂量使用"
+      },
+      "answer": "B",
+      "answer_text": "化疗获益有限，尤其是紫杉烷类药物，PFS 较短",
+      "explain": "根据《中国晚期非小细胞肺癌 BRAF 突变诊疗专家共识》，国外前瞻性队列研究显示，BRAF 突变患者使用紫杉烷类作为一线化疗方案的 PFS 为 4.2 个月，提示化疗（尤其是紫杉烷类药物) 对于 BRAF 基因突变的 NSCLC 患者获益有限。因此多线进展后应优先考虑靶向治疗而非再次化疗。",
+      "keyPoint": "BRAF 突变 NSCLC 患者化疗获益有限，多线进展后优选靶向治疗。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "fc3f40d7-ebf7-49f4-920e-12bea861f3f3",
+        "split_index": 14,
+        "type": "guideline",
+        "authority": "CACA",
+        "source_title": "中国晚期非小细胞肺癌 BRAF 突变诊疗专家共识",
+        "source_version": "2023",
+        "source_section": "（一）BRAF V600 突变 NSCLC 患者的治疗",
+        "source_url": "",
+        "evidence_summary": "83 例 BRAF 突变患者使用紫杉烷类作为一线化疗方案的 PFS 为 4.2 个月，提示化疗（尤其是紫杉烷类药物) 对于 BRAF 基因突变的 NSCLC 患者获益有限。"
+      }
+    }
+  ],
+  "missing_information": []
+}

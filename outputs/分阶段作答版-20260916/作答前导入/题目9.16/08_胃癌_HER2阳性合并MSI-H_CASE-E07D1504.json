@@ -1,0 +1,208 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-E07D1504",
+    "cancer_type": "消化系统肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "邻近器官侵犯判断",
+        "timepoint": "初诊CT提示肝S4直接受侵",
+        "question": "原文记载cT4bN1M0及临床IVA期，肿瘤与肝脏直接相连受侵。最需避免哪种分期混淆？",
+        "options": {
+          "A": "在转化治疗后重新评估切除可能性",
+          "B": "把T4b理解为邻近器官侵犯",
+          "C": "把M0理解为当前未证实远处转移",
+          "D": "把邻近肝脏直接侵犯当作独立远处肝转移，或混用临床与病理分期表"
+        },
+        "answer": "D",
+        "answer_text": "把邻近肝脏直接侵犯当作独立远处肝转移，或混用临床与病理分期表",
+        "explain": "直接侵犯邻近肝脏属于T描述，不能仅因涉及肝脏就改为M1。原文的临床分期标签应与相应版本和表格一起理解，不能推广成所有病理T4bM0均为IVA。",
+        "keyPoint": "胃癌邻近结构直接侵犯与远处转移须区分。",
+        "guidelineRef": {
+          "evidence_type": "权威诊疗资料",
+          "doc_id": "",
+          "split_index": null,
+          "type": "reference",
+          "authority": "NCI",
+          "source_title": "Gastric Cancer Treatment (PDQ®)–Health Professional Version",
+          "source_version": "",
+          "source_section": "",
+          "source_url": "https://www.cancer.gov/types/stomach/hp/stomach-treatment-pdq",
+          "evidence_summary": "胃癌邻近结构直接侵犯与远处转移须区分。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "分子诊断",
+        "phase": "双标志物解读",
+        "timepoint": "HER2 3+及MSI-H回报时",
+        "question": "胃癌标本HER2 3+，MLH1缺失且MSI检测为MSI-H。哪项解释正确？",
+        "options": {
+          "A": "HER2阳性即可将MSI-H改判为实验误差",
+          "B": "由MSI-H直接证明所有含氟嘧啶方案必然无效",
+          "C": "MLH1缺失本身足以确诊胚系Lynch综合征",
+          "D": "两项结果分别关联治疗证据，罕见共存不能被当作互相否定"
+        },
+        "answer": "D",
+        "answer_text": "两项结果分别关联治疗证据，罕见共存不能被当作互相否定",
+        "explain": "应核对检测质量并保留两项结果。标志物的预测作用需按疾病阶段及方案解释；蛋白缺失不等于胚系变异，个案反应也不能建立通用耐药或敏感机制。",
+        "keyPoint": "HER2和MMR/MSI分别评价，不能因罕见共存而互相覆盖。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with gastric cancer",
+          "source_version": "2024",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10937212/",
+          "evidence_summary": "HER2和MMR/MSI分别评价，不能因罕见共存而互相覆盖。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "转化治疗可切除性评估",
+        "timepoint": "SOX联合曲妥珠单抗缩瘤后",
+        "question": "初始广泛肝脏直接侵犯，治疗后原发与邻近病变缩小。决定是否进行联合切除最关键的是？",
+        "options": {
+          "A": "因曾用转化治疗而自动按已治愈安排手术",
+          "B": "重新分期并评估R0可能性、手术代价、器官功能及患者意愿",
+          "C": "只要标志物正常就无需核对残余病变范围",
+          "D": "只要影像缩小就认定所有患者均必须马上手术"
+        },
+        "answer": "B",
+        "answer_text": "重新分期并评估R0可能性、手术代价、器官功能及患者意愿",
+        "explain": "缩瘤提供重新评估机会，不等于已确定可安全完整切除。本例后续R0及pCR属于术后结果，不应写进术前决策前提。",
+        "keyPoint": "局部晚期胃癌治疗后手术需重新评价完整切除与手术风险。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with gastric cancer",
+          "source_version": "2024",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10937212/",
+          "evidence_summary": "局部晚期胃癌治疗后手术需重新评价完整切除与手术风险。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "不良反应管理",
+        "phase": "术后中性粒细胞减少与感染",
+        "timepoint": "继续治疗后出现菌血症",
+        "question": "术后继续方案时出现持续中性粒细胞减少及菌血症。此时应如何处理？",
+        "options": {
+          "A": "因已pCR而无需处理菌血症，直接进入随访",
+          "B": "只用升白治疗代替感染评估和抗菌处理",
+          "C": "暂停细胞毒治疗，及时抗感染并评估严重度，恢复后再讨论后续收益与风险",
+          "D": "维持原化疗以预防复发，仅在下一周期复查培养"
+        },
+        "answer": "C",
+        "answer_text": "暂停细胞毒治疗，及时抗感染并评估严重度，恢复后再讨论后续收益与风险",
+        "explain": "感染和持续中性粒细胞减少需要及时处理，不能等待肿瘤随访。未提供具体计数、发热和器官指标时不补写毒性等级或脓毒症诊断；后续停药决策应另行评估。",
+        "keyPoint": "中性粒细胞减少伴感染需及时抗感染及风险评估。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "IDSA",
+          "source_title": "Clinical Practice Guideline for the Use of Antimicrobial Agents in Neutropenic Patients with Cancer: 2010 Update",
+          "source_version": "2010 update",
+          "source_section": "",
+          "source_url": "https://www.idsociety.org/practice-guideline/neutropenic-patients-with-cancer/",
+          "evidence_summary": "中性粒细胞减少伴感染需及时抗感染及风险评估。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "耐药与后线管理",
+        "phase": "个案与研究结论区分",
+        "timepoint": "术后病理pCR的复盘",
+        "question": "病例经SOX加曲妥珠单抗后达到pCR。该结果能支持哪种结论？",
+        "options": {
+          "A": "说明此患者获得深度缓解，不能证明HER2克服了MSI-H耐药或确定最优联合方案",
+          "B": "证明单独曲妥珠单抗即可复制本例联合治疗效果",
+          "C": "证明所有HER2阳性/MSI-H胃癌都应排除免疫方案",
+          "D": "证明MSI-H与化疗敏感性在所有治疗阶段完全相同"
+        },
+        "answer": "A",
+        "answer_text": "说明此患者获得深度缓解，不能证明HER2克服了MSI-H耐药或确定最优联合方案",
+        "explain": "多药联合和单例观察无法拆分各药贡献或证明机制，也没有直接比较免疫等其他策略。应将pCR作为病理结果，而非普遍用药结论。",
+        "keyPoint": "单例联合治疗pCR不能确定机制、单药贡献或方案优效。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "",
+          "split_index": null,
+          "type": "journal",
+          "authority": "",
+          "source_title": "Management of HER2-positive and microsatellite instability-high advanced gastric cancer: a case report",
+          "source_version": "2024",
+          "source_section": "",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/39398918/",
+          "evidence_summary": "单例联合治疗pCR不能确定机制、单药贡献或方案优效。"
+        }
+      }
+    ],
+    "missing_information": [],
+    "second_cancer_type": "胃癌"
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-E07D1504",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/gastric-her2.png",
+      "alt": "胃癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "胃癌肝脏受累的分期与治疗",
+      "description": "75岁男性，胃部肿瘤与邻近肝脏受累区域相连，需结合影像、病理及分子检测制定方案。"
+    },
+    "overview": {
+      "hero": {
+        "title": "胃癌肝脏受累的分期与治疗",
+        "subtitle": "根据当前已知资料作出判断，完成整组后查看解析与实际经过。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "初始资料",
+              "value": "75岁男性，胃部肿瘤与邻近肝脏受累区域相连，需结合影像、病理及分子检测制定方案。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": []
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    },
+    "second_cancer_type": "胃癌"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "case_id": "141821",
+  "cancer_type": "肺癌",
+  "generation_status": "success",
+  "difficulty": "进阶",
+  "question_count": 5,
+  "questions": [
+    {
+      "id": "Q1",
+      "type": "分子诊断",
+      "phase": "检测指征评估",
+      "timepoint": "当前教学复盘：初诊分子检测指征判断时",
+      "question": "根据 BRAF 突变诊疗共识，对于非小细胞肺癌患者，关于 BRAF 基因检测的推荐人群，下列说法正确的是？",
+      "options": {
+        "A": "所有经病理学诊断为肺浸润性腺癌及晚期 NSCLC 患者均建议检测",
+        "B": "仅推荐肺鳞癌患者进行检测",
+        "C": "仅在化疗失败后才需要进行检测",
+        "D": "因突变率低，不推荐常规检测"
+      },
+      "answer": "A",
+      "answer_text": "所有经病理学诊断为肺浸润性腺癌及晚期 NSCLC 患者均建议检测",
+      "explain": "根据《中国晚期非小细胞肺癌 BRAF 突变诊疗专家共识》，推荐所有经病理学诊断为肺浸润性腺癌（包括含腺癌成分）的患者均应进行 BRAF 基因突变检测。对于晚期 NSCLC 患者，BRAF 基因检测能够有效筛选获益人群。",
+      "keyPoint": "肺浸润性腺癌及晚期 NSCLC 患者均建议进行 BRAF 基因检测。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "fc3f40d7-ebf7-49f4-920e-12bea861f3f3",
+        "split_index": 9,
+        "type": "guideline",
+        "authority": "CACA",
+        "source_title": "中国晚期非小细胞肺癌 BRAF 突变诊疗专家共识",
+        "source_version": "2023",
+        "source_section": "三、BRAF 基因突变肺癌的检测",
+        "source_url": "",
+        "evidence_summary": "推荐所有经病理学诊断为肺浸润性腺癌的患者均应进行 BRAF 基因突变检测。建议诊断为晚期 NSCLC 的患者均进行 BRAF 基因检测。"
+      }
+    },
+    {
+      "id": "Q2",
+      "type": "分子诊断",
+      "phase": "诊断与分期",
+      "timepoint": "当前教学复盘：分子检测策略制定时",
+      "question": "针对该患者 BRAF 基因突变的检测，关于检测方法的选择，下列说法最符合当前实践指南的是？",
+      "options": {
+        "A": "免疫组化检测阳性即可确诊，无需验证",
+        "B": "仅推荐采用液体活检进行检测",
+        "C": "推荐进行二代测序或 RT-PCR 检测，免疫组化可作为初筛",
+        "D": "Sanger 测序是首选的高通量检测方法"
+      },
+      "answer": "C",
+      "answer_text": "推荐进行二代测序或 RT-PCR 检测，免疫组化可作为初筛",
+      "explain": "根据《非小细胞肺癌分子病理检测临床实践指南（2024 版）》，当和其他基因一起检测时，推荐进行二代测序或 RT-PCR 检测。免疫组化检测 BRAF V600E 蛋白表达可用于初筛，但阳性病例需经过测序技术平台进行验证。液体活检仅在组织样本不可获得时考虑。",
+      "keyPoint": "BRAF 突变检测首选 NGS 或 RT-PCR，IHC 仅作为初筛且需验证。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "590fd2e7-5cd4-448a-8fb7-433c6bc0773f",
+        "split_index": 37,
+        "type": "guideline",
+        "authority": "中华医学会病理学分会",
+        "source_title": "非小细胞肺癌分子病理检测临床实践指南（2024 版）",
+        "source_version": "2024",
+        "source_section": "（五）BRAF 基因变异",
+        "source_url": "",
+        "evidence_summary": "推荐进行二代测序或 RT-PCR 检测。IHC 检测 BRAF V600E 蛋白表达用于初筛，阳性病例需经过测序技术平台进行验证。"
+      }
+    },
+    {
+      "id": "Q3",
+      "type": "治疗决策",
+      "phase": "初始治疗",
+      "timepoint": "当前教学复盘：初始治疗决策时",
+      "question": "患者确诊为 BRAF V600E 突变晚期非小细胞肺癌，综合当前指南推荐，此时最适宜的初始系统治疗策略是？",
+      "options": {
+        "A": "达拉非尼联合曲美替尼双靶治疗",
+        "B": "含铂双药化疗联合免疫检查点抑制剂",
+        "C": "单药免疫检查点抑制剂治疗",
+        "D": "含铂双药化疗联合抗血管生成药物"
+      },
+      "answer": "A",
+      "answer_text": "达拉非尼联合曲美替尼双靶治疗",
+      "explain": "根据《中国晚期非小细胞肺癌 BRAF 突变诊疗专家共识》，国内外指南均推荐达拉非尼联合曲美替尼的双靶方案为 BRAF V600 突变 NSCLC 患者的优选治疗方案。虽然病例当时（2021 年）该方案尚未在国内获批肺癌适应证，但当前教学复盘应依据现行规范选择优选方案。",
+      "keyPoint": "BRAF V600 突变晚期 NSCLC 优选达拉非尼联合曲美替尼双靶治疗。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "fc3f40d7-ebf7-49f4-920e-12bea861f3f3",
+        "split_index": 43,
+        "type": "guideline",
+        "authority": "CACA",
+        "source_title": "中国晚期非小细胞肺癌 BRAF 突变诊疗专家共识",
+        "source_version": "2023",
+        "source_section": "六、总结与展望",
+        "source_url": "",
+        "evidence_summary": "国内外指南均推荐达拉非尼联合曲美替尼的双靶方案为 BRAF V600 突变 NSCLC 患者的优选治疗方案。"
+      }
+    },
+    {
+      "id": "Q4",
+      "type": "治疗决策",
+      "phase": "二线治疗选择",
+      "timepoint": "当前教学复盘：二线治疗方案评估时",
+      "question": "关于免疫检查点抑制剂在 BRAF V600 突变晚期 NSCLC 患者中的应用，下列说法正确的是？",
+      "options": {
+        "A": "疗效确切，应作为驱动基因阳性患者的首选一线治疗",
+        "B": "疗效优于靶向治疗，推荐优先使用",
+        "C": "疗效尚存争议，目前尚无大样本前瞻性研究支持其获益",
+        "D": "绝对禁忌，任何情况下均不得使用"
+      },
+      "answer": "C",
+      "answer_text": "疗效尚存争议，目前尚无大样本前瞻性研究支持其获益",
+      "explain": "根据《中国晚期非小细胞肺癌 BRAF 突变诊疗专家共识》，对于 BRAF V600 突变的 NSCLC，免疫治疗目前尚无大样本、前瞻性的临床研究支持，疗效尚存争议。",
+      "keyPoint": "BRAF 突变 NSCLC 患者免疫治疗疗效尚存争议，缺乏大样本前瞻性研究支持。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "fc3f40d7-ebf7-49f4-920e-12bea861f3f3",
+        "split_index": 15,
+        "type": "guideline",
+        "authority": "CACA",
+        "source_title": "中国晚期非小细胞肺癌 BRAF 突变诊疗专家共识",
+        "source_version": "2023",
+        "source_section": "（一）BRAF V600 突变 NSCLC 患者的治疗",
+        "source_url": "",
+        "evidence_summary": "对于 BRAF V600 突变的 NSCLC，免疫治疗目前尚无大样本、前瞻性的临床研究，疗效尚存争议。"
+      }
+    },
+    {
+      "id": "Q5",
+      "type": "不良反应管理",
+      "phase": "治疗实施与监测",
+      "timepoint": "当前教学复盘：二线化疗期间出现严重骨髓抑制时",
+      "question": "患者在二线化疗期间出现Ⅲ-Ⅳ°骨髓抑制，根据肿瘤整合诊治支持指南，此时最合理的处理措施是？",
+      "options": {
+        "A": "维持原剂量继续用药，同时给予升白支持",
+        "B": "暂停用药，恢复后基于风险/获益比考虑减量或恢复",
+        "C": "立即永久停用所有抗肿瘤药物，不再挑战",
+        "D": "直接更换为免疫检查点抑制剂单药治疗"
+      },
+      "answer": "B",
+      "answer_text": "暂停用药，恢复后基于风险/获益比考虑减量或恢复",
+      "explain": "根据《中国肿瘤整合诊治技术指南（CACA）整体支持》，Ⅲ度不良反应需停药后基于风险/获益比考虑是否恢复药物治疗或减量处理，Ⅳ度可能需永久停药。对于骨髓抑制等剂量限制性毒性，可减量。病例中患者暂停化疗符合指南原则。",
+      "keyPoint": "Ⅲ度不良反应应暂停用药，评估后考虑减量或恢复；Ⅳ度可能需永久停药。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "c9294314-38c0-4a55-92b6-b261f374a7da",
+        "split_index": 60,
+        "type": "guideline",
+        "authority": "CACA",
+        "source_title": "中国肿瘤整合诊治技术指南（CACA）整体支持",
+        "source_version": "2023",
+        "source_section": "（五）不良反应的处理",
+        "source_url": "",
+        "evidence_summary": "Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理，Ⅳ度可能需永久停药。对剂量限制性毒性可减量。"
+      }
+    }
+  ],
+  "missing_information": []
+}

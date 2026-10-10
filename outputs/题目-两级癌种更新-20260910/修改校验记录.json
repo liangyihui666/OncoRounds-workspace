@@ -1,0 +1,152 @@
+[
+  {
+    "file": "01_乳腺癌合并MPN及韧带样纤维瘤_CASE-37BF6300.json",
+    "case_id": "CASE-37BF6300",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌",
+    "question_count": 5,
+    "source_sha256": "3a62a7ced29853f648149169b2128d592146b9de2ad2130c2cdf2e5d645ef56f",
+    "output_sha256": "1016e8d270fcdc2167cf6829650a5b99601d34fe68a33decab8744181aed27d2",
+    "only_classification_changed": true
+  },
+  {
+    "file": "02_乳腺癌肾上腺转移_CASE-DE70CBF4.json",
+    "case_id": "CASE-DE70CBF4",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌",
+    "question_count": 5,
+    "source_sha256": "90f3c3fb2b257904000cb75fe63b1aac829891d69430af3bb4c1373a81beab10",
+    "output_sha256": "b2c5756b42205348914d8f5d9c3eab80d20dc06bcd6db730a64c71890e3aa3df",
+    "only_classification_changed": true
+  },
+  {
+    "file": "03_BRCA2变异胰腺癌_CASE-7D7C02B3.json",
+    "case_id": "CASE-7D7C02B3",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "胰腺癌",
+    "question_count": 5,
+    "source_sha256": "b4b3e6c2b9c344b2eccf7913730a57e1635e02d9f1278830b0534a0e0cc1144b",
+    "output_sha256": "c0dc73261f12bc9feac477147d9836ab933d3a84cf6ed44275ca59311ca68937",
+    "only_classification_changed": true
+  },
+  {
+    "file": "04_乳腺癌PIK3CA多重突变_CASE-C38F9D7E.json",
+    "case_id": "CASE-C38F9D7E",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌",
+    "question_count": 5,
+    "source_sha256": "f4bc2720482102d00057e7653daa98367418b051ffa16c6ff9d4f58eaf5a675f",
+    "output_sha256": "6cdeb86076f752f71c915c33e92036aeed309c8cc2ce6e377551394e4e02df43",
+    "only_classification_changed": true
+  },
+  {
+    "file": "05_胰腺腺鳞癌转化治疗_CASE-CA70947A.json",
+    "case_id": "CASE-CA70947A",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "胰腺癌",
+    "question_count": 5,
+    "source_sha256": "fb217f6bd9b0bff78ee69e054aa89a4e4aea8e3ca51fc44a0bee3c10f941a706",
+    "output_sha256": "678dad19b3067751dfaa041b4562295af39a9f35d034d6bc3dc1b2b06d643555",
+    "only_classification_changed": true
+  },
+  {
+    "file": "06_胃癌肝转移转化治疗_CASE-F5639B6F.json",
+    "case_id": "CASE-F5639B6F",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "胃癌",
+    "question_count": 5,
+    "source_sha256": "65193bc3a547abb6cd0ebd5833fb39901abf3fc2cd05febec81e59d855bc6b2c",
+    "output_sha256": "ba104b94f218204468274468488303d7269eb724e0b7849b6d1774de97d16171",
+    "only_classification_changed": true
+  },
+  {
+    "file": "07_男性乳腺癌_CASE-B559946D.json",
+    "case_id": "CASE-B559946D",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌",
+    "question_count": 5,
+    "source_sha256": "b3a9c9d2ef71da350441947f123d28a815eee006ec09bd729449e193a0a48522",
+    "output_sha256": "6707a27f8c382051825ce3707ffd082d8b53efd1fec1ad727d9ce68bdd9c8674",
+    "only_classification_changed": true
+  },
+  {
+    "file": "08_胰腺神经内分泌肿瘤_CASE-761970EB.json",
+    "case_id": "CASE-761970EB",
+    "cancer_type": "神经内分泌肿瘤",
+    "second_cancer_type": "胰腺神经内分泌肿瘤",
+    "question_count": 5,
+    "source_sha256": "6b0ac189cdff8cf234f6cff521d9cc8d6132ac52b9abece263d012fea06c151c",
+    "output_sha256": "cebab4f643c383e820993424e60f39a8c3165a23cdc0ad136e2ae8ef2e05bd3c",
+    "only_classification_changed": true
+  },
+  {
+    "file": "09_结直肠癌肝转移多次复发_CASE-BE8833A9.json",
+    "case_id": "CASE-BE8833A9",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "直肠癌",
+    "question_count": 5,
+    "source_sha256": "a446ae3309674b74488405c16174b9c4e1731b6c5b1f2226779a58e6d61860f8",
+    "output_sha256": "e6cd4a885cd4c473c701b9c39182e8eaa73182e414bfac3a938cf6cdf1f1d59e",
+    "only_classification_changed": true
+  },
+  {
+    "file": "10_HER2阳性乳腺癌皮肤及脑转移_CASE-51D1DA57.json",
+    "case_id": "CASE-51D1DA57",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌",
+    "question_count": 5,
+    "source_sha256": "f5e04610484b907069463f7b9f350e1683a2bd313470d43a3fad7f48c79ec474",
+    "output_sha256": "75f61a6be4c66f1264d7508bde98b0dd6c5fc68ac8487f9c7ba3ff6e31260db9",
+    "only_classification_changed": true
+  },
+  {
+    "file": "135868_HER2阳性胃癌_润色版.json",
+    "case_id": "CASE-8C6E34E9",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "胃癌",
+    "question_count": 5,
+    "source_sha256": "f4155b4a73644510b044b14d2d4f0b7514131ffe573d3e91ce3f33b8a174ef8c",
+    "output_sha256": "d501686afabc472d194880f0f8cda9eb0bedfa2697205b3e0a41ac7f27dbfe2e",
+    "only_classification_changed": true
+  },
+  {
+    "file": "137559_转移性直肠癌_润色版.json",
+    "case_id": "CASE-A8792225",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "直肠癌",
+    "question_count": 5,
+    "source_sha256": "050fb13a0625f880823a6c4ebff6254b4e53ef92eaecd682d3e2426cda2eadbf",
+    "output_sha256": "ad39fa63ce1d043089f3d6d9045bea53c10e1d420c29ed7b3509b0a568532aa8",
+    "only_classification_changed": true
+  },
+  {
+    "file": "139352_食管癌疑似寡转移_润色版.json",
+    "case_id": "CASE-55BF9202",
+    "cancer_type": "消化系统肿瘤",
+    "second_cancer_type": "食管癌",
+    "question_count": 5,
+    "source_sha256": "23627e067d6ac3ad3817eb07145f77b2c9c4ebca180c524222b0c175a8b9ad6c",
+    "output_sha256": "1999d35f28bc06318d43f852881eff93500aaab721d81802be664a1de33af988",
+    "only_classification_changed": true
+  },
+  {
+    "file": "141249_乳腺癌心包填塞_润色版.json",
+    "case_id": "CASE-B5FF3EFE",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌",
+    "question_count": 5,
+    "source_sha256": "688c8d34f3fbd37639fb6e6c9780a703e0c99656c9792f8a7a5cddfe9d2d19ec",
+    "output_sha256": "a1d026e0ec3c4fd09ab797319a2c62c9f07e76d50ca989c73df337e1968c6184",
+    "only_classification_changed": true
+  },
+  {
+    "file": "154097_乳腺癌受体演变_润色版.json",
+    "case_id": "CASE-902F741C",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌",
+    "question_count": 5,
+    "source_sha256": "84665181f3609f583d97041454efc36b53abe4f1d99cc287eb5aa1b72c4be2b5",
+    "output_sha256": "2aa3d316ce4206dfae52d29b174c2a18f258f5bb0745b75188505288817cade4",
+    "only_classification_changed": true
+  }
+]

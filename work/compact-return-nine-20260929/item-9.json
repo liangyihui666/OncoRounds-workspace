@@ -1,0 +1,1307 @@
+{
+  "record_type": "oncorounds_batch_item",
+  "transport_version": "1.0",
+  "output_data": {
+    "Questions": {
+      "schema_version": "1.0",
+      "case_id": "CASE-656D0757",
+      "cancer_type": "乳腺癌",
+      "generation_status": "insufficient",
+      "difficulty": "进阶",
+      "question_count": 0,
+      "questions": [],
+      "missing_information": [
+        "Q2 [OPTION_QUOTE_NOT_FOUND] B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+        "Q2 [OPTION_QUOTE_NOT_FOUND] D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+        "EVIDENCE_VERIFICATION_FAILED：未取得与全部题号对应的原句核对通过结果。"
+      ]
+    },
+    "detail": {
+      "schema_version": "1.0",
+      "case_id": "CASE-656D0757",
+      "cancer_type": "乳腺癌",
+      "difficulty": "进阶",
+      "decision_point_count": 0,
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "home": {
+        "recommendation_label": "今日推荐病例",
+        "display_title": "乳腺癌十二指肠转移致小肠梗阻的诊治",
+        "description": "患者女，53岁，因\"恶心、呕吐及腹痛持续三周\"于2025年初就诊于消化内科。既往无胃肠病史，无其他基础疾病。有乳腺癌病史：2005年确诊早期乳腺癌，行乳房局部切除术及前哨淋巴结活检，术后辅以放疗及激素治疗；2019年局部复发诊断为晚期乳腺癌，病理ER阳性>95%，PR阳性60%，HER2经SISH确认阴性，Ki67 10%-30%；2020年左腋窝淋巴结清扫……"
+      },
+      "overview": {
+        "hero": {
+          "title": "乳腺癌十二指肠转移致小肠梗阻的诊治",
+          "subtitle": "1. 乳腺癌患者出现消化道症状时需考虑胃肠道转移可能，小肠转移虽罕见但易被忽视或误诊 2. 内镜活检失败时EUS-FNAB作为替代诊断手段的价值与操作要点 3. 乳腺癌转移灶受体状态随时间改变（ER从>95%降至50%，PR从阳性转为阴性）……"
+        },
+        "tabs": [
+          {
+            "id": "summary",
+            "label": "病例摘要",
+            "order": 1,
+            "summary_items": [
+              {
+                "order": 1,
+                "label": "患者与就诊背景",
+                "value": "患者女，53岁，因\"恶心、呕吐及腹痛持续三周\"于2025年初就诊于消化内科。既往无胃肠病史，无其他基础疾病。有乳腺癌病史：2005年确诊早期乳腺癌，行乳房局部切除术及前哨淋巴结活检，术后辅以放疗及激素治疗；2019年局部复发诊断为晚期乳腺癌，病理ER阳性>95%，PR阳性60%，HER2经SISH确认阴性，Ki67 10%-30%；2020年左腋窝淋巴结清扫术，12枚淋巴结中2枚转移，后续继续化疗与激素治疗；2021年左腋窝转移；2024年转移灶累及左锁骨上淋巴结及臂丛神经区域，最新病理ER阳性降至50%，PR阴性……"
+              },
+              {
+                "order": 2,
+                "label": "疾病与分期",
+                "value": "原发：乳腺癌（2005年确诊早期，2019年局部复发诊断为晚期）。病理：2019年ER阳性>95%，PR阳性60%，HER2经SISH确认阴性，Ki67 10%-30%；2024年ER阳性降至50%，PR阴性，Ki67升高，E-cadherin局灶性弱表达，HER2阴性。转移：2025年初确诊乳腺癌转移至十二指肠，造成小肠梗阻。原文未给出明确TNM分期。"
+              },
+              {
+                "order": 3,
+                "label": "分子与病理",
+                "value": "2019年｜病理｜ER阳性>95%，PR阳性60%，HER2可疑表达经SISH确认阴性，Ki67 10%-30% 2024年｜病理活检｜ER阳性降至50%，PR阴性，Ki67升高，E-cadherin局灶性弱表达，HER2阴性 2025年初｜EUS-FNAB样本｜免疫组化：Pankeratin阳性，CK7阳性，E-cadherin阳性，GATA3阳性；PAX5阴性，CD3阴性，CK30阴性，SOX10阴性，ER阴性，PR阴性，HER2阴性；Ki67 40%"
+              },
+              {
+                "order": 4,
+                "label": "核心教学点",
+                "value": "1. 乳腺癌患者出现消化道症状时需考虑胃肠道转移可能，小肠转移虽罕见但易被忽视或误诊 2. 内镜活检失败时EUS-FNAB作为替代诊断手段的价值与操作要点 3. 乳腺癌转移灶受体状态随时间改变（ER从>95%降至50%，PR从阳性转为阴性）对治疗决策的影响 4. PET/CT在鉴别转移灶与原发灶中的辅助作用及其不确定性 5. 小肠梗阻急性期处理策略：手术解除梗阻vs全身化疗的选择依据 6. 免疫组化组合（GATA3、CK7、E-cadherin）在确定转移灶来源中的关键作用 7. 既往乳腺癌病史对当前诊断思路的引导……"
+              }
+            ]
+          },
+          {
+            "id": "timeline",
+            "label": "病程轴",
+            "order": 2,
+            "timeline_items": [
+              {
+                "date": "2005年",
+                "title": "确诊早期乳腺癌",
+                "detail": "行乳房局部切除术及前哨淋巴结活检，术后辅以放疗及激素治疗"
+              },
+              {
+                "date": "2019年",
+                "title": "局部复发，诊断为晚期乳腺癌",
+                "detail": "病理：ER阳性>95%，PR阳性60%，HER2可疑表达经SISH确认阴性，Ki67 10%-30%"
+              },
+              {
+                "date": "2020年",
+                "title": "左腋窝淋巴结清扫术",
+                "detail": "12枚淋巴结中2枚转移，淋巴结周围软组织中发现癌灶，后续继续化疗与激素治疗"
+              },
+              {
+                "date": "2021年",
+                "title": "左腋窝转移",
+                "detail": "原文未详述具体处理"
+              },
+              {
+                "date": "2024年",
+                "title": "转移灶累及左锁骨上淋巴结及臂丛神经区域",
+                "detail": "最新病理：ER阳性降至50%，PR阴性，Ki67升高，E-cadherin局灶性弱表达，HER2阴性"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 6",
+                "detail": "2025年初｜因恶心、呕吐及腹痛持续三周就诊消化内科｜腹部压痛，无反跳痛或腹肌紧张"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 7",
+                "detail": "2025年初｜腹部增强CT｜十二指肠第三段不规则强化低密度肿块约59×31×41mm，致管腔明显狭窄，第二段扩张，符合高位小肠梗阻；另见左侧腰大肌及左肾两个结节影"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 8",
+                "detail": "2025年初｜18F-FDG PET/CT｜原左锁骨上及腋窝转移灶代谢已清除；十二指肠处FDG高度摄取肿块，伴多个腹膜后结节影；提示极可能为乳腺癌转移灶，亦不排除同步原发肿瘤可能"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 9",
+                "detail": "2025年初｜胃镜｜十二指肠第三段无法通过，严重腔外压迫性狭窄，黏膜水肿显著；组织活检未能获得确诊性组织"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 10",
+                "detail": "2025年初｜内镜超声（EUS）｜十二指肠第二段边界模糊低回声肿块约55×40mm；经细针穿刺活检（FNAB）成功获取组织样本"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 11",
+                "detail": "2025年初｜病理与免疫组化｜中等至大型恶性细胞，高度异型性、单核仁、胞质含空泡；Pankeratin、CK7、E-cadherin、GATA3阳性；PAX5、CD3、CK30、SOX10、ER、PR、HER2阴性，Ki67 40%"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 12",
+                "detail": "2025年初｜确诊｜乳腺癌转移至十二指肠，造成小肠梗阻"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 13",
+                "detail": "2025年初｜治疗｜鉴于转移负荷尚可、全身情况允许，采用化疗；给予两周期环磷酰胺联合阿霉素后，梗阻症状明显缓解，无需进一步介入治疗"
+              }
+            ]
+          },
+          {
+            "id": "images",
+            "label": "病例图片",
+            "order": 3,
+            "image_items": []
+          }
+        ]
+      }
+    }
+  },
+  "execution_report": {
+    "schema_version": "oncorounds-execution-1.0",
+    "workflow_revision": "20260929-full-review-five-outer",
+    "case_id": "CASE-656D0757",
+    "status": "FORMAT_ERROR",
+    "publishable": false,
+    "medical_review_status": "not_performed",
+    "extraction_check": {
+      "scope": "literal_excerpt_coverage_not_medical_validation",
+      "patient_section_found": true,
+      "matched_count": 0,
+      "retained_excerpts": [],
+      "warnings": []
+    },
+    "source_groups": [
+      {
+        "group_id": "G1",
+        "parse_status": "OK",
+        "raw_question_count": 0,
+        "usable_question_count": 0,
+        "rejected_questions": [],
+        "warnings": [],
+        "audit": {
+          "availability": "not_provided"
+        },
+        "transport": {
+          "protocol": "single_json",
+          "json_block_count": 1,
+          "selected_block_index": 0,
+          "ignored_intermediate_blocks": 0,
+          "upstream_messages": []
+        },
+        "upstream_missing_information": [
+          "Q2 [OPTION_QUOTE_NOT_FOUND] B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+          "Q2 [OPTION_QUOTE_NOT_FOUND] D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+          "EVIDENCE_VERIFICATION_FAILED：未取得与全部题号对应的原句核对通过结果。"
+        ],
+        "workflow_revision": "20260929-evidence-depth-five",
+        "flow_status": "FORMAT_ERROR",
+        "completion": {
+          "required_question_count": 5,
+          "available_question_count": 0,
+          "model_question_count": 5,
+          "complete": false
+        },
+        "program_check": {
+          "scope": "program_structure_and_reference_identity_only",
+          "decision": "FAIL",
+          "errors": [
+            "Q2 [OPTION_QUOTE_NOT_FOUND] B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+            "Q2 [OPTION_QUOTE_NOT_FOUND] D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+            "EVIDENCE_VERIFICATION_FAILED：未取得与全部题号对应的原句核对通过结果。"
+          ],
+          "warnings": [
+            "DISTRACTOR_TEMPLATE NO_EVALUATION：Q2D、Q4B、Q5A；复核是否依赖同类极端或空泛干扰项",
+            "OPTION_STYLE Q5：四项有效字符数=28/35/31/29，正确项=B；干扰项含绝对化或极端措辞：需复核是否构成无需医学推理的排除线索，不能仅凭关键词判错。",
+            "同一证据定位fea9ac8e-8f06-46c0-9a57-2bf3069f1a01::32支持2题：复核是否考查不同真实决策；不设置复用题数配额"
+          ]
+        },
+        "workflow_diagnostics": {
+          "scope": "debug_only_not_learner_content",
+          "evidence_verification": {
+            "version": "option-anchors-1.0",
+            "scope": "literal_source_presence_and_shape_only",
+            "decision": "FAIL",
+            "semantic_support": "not_independently_verified",
+            "errors": [
+              "Q2 [OPTION_QUOTE_NOT_FOUND] B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+              "Q2 [OPTION_QUOTE_NOT_FOUND] D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。"
+            ],
+            "question_checks": [
+              {
+                "question_id": "Q1",
+                "evidence_id": "GB01",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "对于晚期乳腺癌，机体状态和转移部位是主要考虑因素",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 33,
+                            "end": 57,
+                            "text": "复发／转移性乳腺癌治疗是一个复杂的过程，治疗期间必须考虑各种因素。对于晚期乳腺癌，机体状态和转移部位是主要考虑因素［30］。病理科医师提供的病理学信息在复发／转移的情况下也起着关键作用［31]，建议结合临床实际，通过病理学活检明确疾病类型、分子分型、肿瘤标志物表达状态及靶向基因改变情况，以精准指导一线及后线药物选"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "对于晚期乳腺癌，机体状态和转移部位是主要考虑因素",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 33,
+                            "end": 57,
+                            "text": "复发／转移性乳腺癌治疗是一个复杂的过程，治疗期间必须考虑各种因素。对于晚期乳腺癌，机体状态和转移部位是主要考虑因素［30］。病理科医师提供的病理学信息在复发／转移的情况下也起着关键作用［31]，建议结合临床实际，通过病理学活检明确疾病类型、分子分型、肿瘤标志物表达状态及靶向基因改变情况，以精准指导一线及后线药物选"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "对于晚期乳腺癌，机体状态和转移部位是主要考虑因素",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 33,
+                            "end": 57,
+                            "text": "复发／转移性乳腺癌治疗是一个复杂的过程，治疗期间必须考虑各种因素。对于晚期乳腺癌，机体状态和转移部位是主要考虑因素［30］。病理科医师提供的病理学信息在复发／转移的情况下也起着关键作用［31]，建议结合临床实际，通过病理学活检明确疾病类型、分子分型、肿瘤标志物表达状态及靶向基因改变情况，以精准指导一线及后线药物选"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "对于晚期乳腺癌，机体状态和转移部位是主要考虑因素",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 33,
+                            "end": 57,
+                            "text": "复发／转移性乳腺癌治疗是一个复杂的过程，治疗期间必须考虑各种因素。对于晚期乳腺癌，机体状态和转移部位是主要考虑因素［30］。病理科医师提供的病理学信息在复发／转移的情况下也起着关键作用［31]，建议结合临床实际，通过病理学活检明确疾病类型、分子分型、肿瘤标志物表达状态及靶向基因改变情况，以精准指导一线及后线药物选"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "鉴于转移负荷尚可、全身情况允许，采用化疗；给予两周期环磷酰胺联合阿霉素后，梗阻症状明显缓解，无需进一步介入治疗",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 753,
+                        "end": 808,
+                        "text": "、E-cadherin、GATA3阳性；PAX5、CD3、CK30、SOX10、ER、PR、HER2阴性，Ki67 40%\n2025年初｜确诊｜乳腺癌转移至十二指肠，造成小肠梗阻\n2025年初｜治疗｜鉴于转移负荷尚可、全身情况允许，采用化疗；给予两周期环磷酰胺联合阿霉素后，梗阻症状明显缓解，无需进一步介入治疗"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "A",
+                  "decision_boundary": "本例为不完全梗阻且全身情况允许，机体状态支持全身治疗；若为完全梗阻或穿孔则手术优先",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "fea9ac8e-8f06-46c0-9a57-2bf3069f1a01",
+                  "split_index": 32
+                },
+                "decision": "PASS"
+              },
+              {
+                "question_id": "Q2",
+                "evidence_id": "GA05",
+                "errors": [
+                  {
+                    "code": "OPTION_QUOTE_NOT_FOUND",
+                    "message": "B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。"
+                  },
+                  {
+                    "code": "OPTION_QUOTE_NOT_FOUND",
+                    "message": "D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。"
+                  }
+                ],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "必须重新检测ER、PR、HER2的表达及Ki- 67增殖指数",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 36,
+                            "end": 66,
+                            "text": "病理学确诊与分子分型再确认：对复发灶进行穿刺或切除活检，获取组织学诊断。必须重新检测ER、PR、HER2的表达及Ki- 67增殖指数。与原发肿瘤相比，受体状态可能发生改变（ \\$10\\% \\sim 40\\%\\$ ），直接影响后续治疗决策。必要时考虑TNBC检测PD- L1（CPS）、BRCA1/2胚系突变等。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "必须重新检测ER、PR、HER2的表达及Ki- 67增殖指数。与原发肿瘤相比，受体状态可能发生改变（ 10% ~ 40% ），直接影响后续治疗决策",
+                        "matched": false,
+                        "match_mode": null,
+                        "occurrences": 0,
+                        "contexts": []
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "必须重新检测ER、PR、HER2的表达及Ki- 67增殖指数",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 36,
+                            "end": 66,
+                            "text": "病理学确诊与分子分型再确认：对复发灶进行穿刺或切除活检，获取组织学诊断。必须重新检测ER、PR、HER2的表达及Ki- 67增殖指数。与原发肿瘤相比，受体状态可能发生改变（ \\$10\\% \\sim 40\\%\\$ ），直接影响后续治疗决策。必要时考虑TNBC检测PD- L1（CPS）、BRCA1/2胚系突变等。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "与原发肿瘤相比，受体状态可能发生改变（ 10% ~ 40% ），直接影响后续治疗决策",
+                        "matched": false,
+                        "match_mode": null,
+                        "occurrences": 0,
+                        "contexts": []
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "biomarkers",
+                    "quote": "2025年初｜EUS-FNAB样本｜免疫组化：Pankeratin阳性，CK7阳性，E-cadherin阳性，GATA3阳性；PAX5阴性，CD3阴性，CK30阴性，SOX10阴性，ER阴性，PR阴性，HER2阴性；Ki67 40%",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 114,
+                        "end": 230,
+                        "text": "95%，PR阳性60%，HER2可疑表达经SISH确认阴性，Ki67 10%-30%\n2024年｜病理活检｜ER阳性降至50%，PR阴性，Ki67升高，E-cadherin局灶性弱表达，HER2阴性\n2025年初｜EUS-FNAB样本｜免疫组化：Pankeratin阳性，CK7阳性，E-cadherin阳性，GATA3阳性；PAX5阴性，CD3阴性，CK30阴性，SOX10阴性，ER阴性，PR阴性，HER2阴性；Ki67 40%"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "biomarkers",
+                    "quote": "2019年｜病理｜ER阳性>95%，PR阳性60%，HER2可疑表达经SISH确认阴性，Ki67 10%-30%",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 0,
+                        "end": 56,
+                        "text": "2019年｜病理｜ER阳性>95%，PR阳性60%，HER2可疑表达经SISH确认阴性，Ki67 10%-30%\n2024年｜病理活检｜ER阳性降至50%，PR阴性，Ki67升高，E-cadherin局灶性弱表达，HER2阴性\n2025年初｜EUS-FNAB样本｜免疫组化：Pankeratin阳性，CK7阳性，"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "A",
+                  "decision_boundary": "受体改变率10%-40%为已知生物学现象，新活检结果有效；若为同一标本重复检测不一致则需考虑技术误差",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+                  "split_index": 362
+                },
+                "decision": "FAIL"
+              },
+              {
+                "question_id": "Q3",
+                "evidence_id": "GA06",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "乳腺癌肿瘤标记物表达存在时间和空间异质性，表现为不同方法平台间、原发灶与转移灶、穿刺标本与手术切除标本检测结果可能存在不一致",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 55,
+                            "end": 117,
+                            "text": "乳腺癌诊治相关标志物检测所依托的检测平台和技术方法多样，如IHC、FISH、qPCR及NGS各具优势及局限性。乳腺癌肿瘤标记物表达存在时间和空间异质性，表现为不同方法平台间、原发灶与转移灶、穿刺标本与手术切除标本检测结果可能存在不一致。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "乳腺癌肿瘤标记物表达存在时间和空间异质性，表现为不同方法平台间、原发灶与转移灶、穿刺标本与手术切除标本检测结果可能存在不一致",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 55,
+                            "end": 117,
+                            "text": "乳腺癌诊治相关标志物检测所依托的检测平台和技术方法多样，如IHC、FISH、qPCR及NGS各具优势及局限性。乳腺癌肿瘤标记物表达存在时间和空间异质性，表现为不同方法平台间、原发灶与转移灶、穿刺标本与手术切除标本检测结果可能存在不一致。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "乳腺癌肿瘤标记物表达存在时间和空间异质性，表现为不同方法平台间、原发灶与转移灶、穿刺标本与手术切除标本检测结果可能存在不一致",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 55,
+                            "end": 117,
+                            "text": "乳腺癌诊治相关标志物检测所依托的检测平台和技术方法多样，如IHC、FISH、qPCR及NGS各具优势及局限性。乳腺癌肿瘤标记物表达存在时间和空间异质性，表现为不同方法平台间、原发灶与转移灶、穿刺标本与手术切除标本检测结果可能存在不一致。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "乳腺癌肿瘤标记物表达存在时间和空间异质性，表现为不同方法平台间、原发灶与转移灶、穿刺标本与手术切除标本检测结果可能存在不一致",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 55,
+                            "end": 117,
+                            "text": "乳腺癌诊治相关标志物检测所依托的检测平台和技术方法多样，如IHC、FISH、qPCR及NGS各具优势及局限性。乳腺癌肿瘤标记物表达存在时间和空间异质性，表现为不同方法平台间、原发灶与转移灶、穿刺标本与手术切除标本检测结果可能存在不一致。"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "biomarkers",
+                    "quote": "2024年｜病理活检｜ER阳性降至50%，PR阴性，Ki67升高，E-cadherin局灶性弱表达，HER2阴性",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 57,
+                        "end": 113,
+                        "text": "2019年｜病理｜ER阳性>95%，PR阳性60%，HER2可疑表达经SISH确认阴性，Ki67 10%-30%\n2024年｜病理活检｜ER阳性降至50%，PR阴性，Ki67升高，E-cadherin局灶性弱表达，HER2阴性\n2025年初｜EUS-FNAB样本｜免疫组化：Pankeratin阳性，CK7阳性，E-cadherin阳性，GATA3阳性；PAX5阴性，CD3阴性，CK30阴性，SOX10阴性，ER阴性，PR阴"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "biomarkers",
+                    "quote": "2025年初｜EUS-FNAB样本｜免疫组化：Pankeratin阳性，CK7阳性，E-cadherin阳性，GATA3阳性；PAX5阴性，CD3阴性，CK30阴性，SOX10阴性，ER阴性，PR阴性，HER2阴性；Ki67 40%",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 114,
+                        "end": 230,
+                        "text": "95%，PR阳性60%，HER2可疑表达经SISH确认阴性，Ki67 10%-30%\n2024年｜病理活检｜ER阳性降至50%，PR阴性，Ki67升高，E-cadherin局灶性弱表达，HER2阴性\n2025年初｜EUS-FNAB样本｜免疫组化：Pankeratin阳性，CK7阳性，E-cadherin阳性，GATA3阳性；PAX5阴性，CD3阴性，CK30阴性，SOX10阴性，ER阴性，PR阴性，HER2阴性；Ki67 40%"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "B",
+                  "decision_boundary": "异质性意味着不同部位结果均有效且反映不同克隆；若为同一部位同一标本重复检测不一致则需考虑技术误差",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "f51ad2ef-8e21-42f9-bfd1-f2ed36512587",
+                  "split_index": 83
+                },
+                "decision": "PASS"
+              },
+              {
+                "question_id": "Q4",
+                "evidence_id": "GA03",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "针对疑难病例（如形态学不典型或分子检测结果与临床表现不符的病例）需进行重点讨论。通过多学科协作，为患者制定循证、个体化的诊疗方案",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 168,
+                            "end": 232,
+                            "text": "队（MDT），并制定标准化的运行机制。建立结构化的分子检测报告体系，病理医师需说明检测方法的敏感性、特异性及结果判读的临床意义；临床医师则需提供完整的临床资料，包括患者治疗史、家族史等关键信息。其次，针对疑难病例（如形态学不典型或分子检测结果与临床表现不符的病例）需进行重点讨论。通过多学科协作，为患者制定循证、个体化的诊疗方案。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "针对疑难病例（如形态学不典型或分子检测结果与临床表现不符的病例）需进行重点讨论",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 168,
+                            "end": 207,
+                            "text": "队（MDT），并制定标准化的运行机制。建立结构化的分子检测报告体系，病理医师需说明检测方法的敏感性、特异性及结果判读的临床意义；临床医师则需提供完整的临床资料，包括患者治疗史、家族史等关键信息。其次，针对疑难病例（如形态学不典型或分子检测结果与临床表现不符的病例）需进行重点讨论。通过多学科协作，为患者制定循证、个体化的诊疗方案。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "针对疑难病例（如形态学不典型或分子检测结果与临床表现不符的病例）需进行重点讨论",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 168,
+                            "end": 207,
+                            "text": "队（MDT），并制定标准化的运行机制。建立结构化的分子检测报告体系，病理医师需说明检测方法的敏感性、特异性及结果判读的临床意义；临床医师则需提供完整的临床资料，包括患者治疗史、家族史等关键信息。其次，针对疑难病例（如形态学不典型或分子检测结果与临床表现不符的病例）需进行重点讨论。通过多学科协作，为患者制定循证、个体化的诊疗方案。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "针对疑难病例（如形态学不典型或分子检测结果与临床表现不符的病例）需进行重点讨论",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 168,
+                            "end": 207,
+                            "text": "队（MDT），并制定标准化的运行机制。建立结构化的分子检测报告体系，病理医师需说明检测方法的敏感性、特异性及结果判读的临床意义；临床医师则需提供完整的临床资料，包括患者治疗史、家族史等关键信息。其次，针对疑难病例（如形态学不典型或分子检测结果与临床表现不符的病例）需进行重点讨论。通过多学科协作，为患者制定循证、个体化的诊疗方案。"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "18F-FDG PET/CT｜原左锁骨上及腋窝转移灶代谢已清除；十二指肠处FDG高度摄取肿块，伴多个腹膜后结节影；提示极可能为乳腺癌转移灶，亦不排除同步原发肿瘤可能",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 398,
+                        "end": 480,
+                        "text": "，无反跳痛或腹肌紧张\n2025年初｜腹部增强CT｜十二指肠第三段不规则强化低密度肿块约59×31×41mm，致管腔明显狭窄，第二段扩张，符合高位小肠梗阻；另见左侧腰大肌及左肾两个结节影\n2025年初｜18F-FDG PET/CT｜原左锁骨上及腋窝转移灶代谢已清除；十二指肠处FDG高度摄取肿块，伴多个腹膜后结节影；提示极可能为乳腺癌转移灶，亦不排除同步原发肿瘤可能\n2025年初｜胃镜｜十二指肠第三段无法通过，严重腔外压迫性狭窄，黏膜水肿显著；组织活检未能获得确诊性组织\n2025年初｜内镜超声（EUS）｜十二指肠第二段边界模糊低回声肿块约55×40mm；经细针穿"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "case_timeline",
+                    "quote": "胃镜｜十二指肠第三段无法通过，严重腔外压迫性狭窄，黏膜水肿显著；组织活检未能获得确诊性组织",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 488,
+                        "end": 533,
+                        "text": "节影\n2025年初｜18F-FDG PET/CT｜原左锁骨上及腋窝转移灶代谢已清除；十二指肠处FDG高度摄取肿块，伴多个腹膜后结节影；提示极可能为乳腺癌转移灶，亦不排除同步原发肿瘤可能\n2025年初｜胃镜｜十二指肠第三段无法通过，严重腔外压迫性狭窄，黏膜水肿显著；组织活检未能获得确诊性组织\n2025年初｜内镜超声（EUS）｜十二指肠第二段边界模糊低回声肿块约55×40mm；经细针穿刺活检（FNAB）成功获取组织样本\n2025年初｜病理与免疫组化｜中等至大型恶性细胞，高度异型性、单核仁、"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "B",
+                  "decision_boundary": "PET/CT明确写有'亦不排除同步原发'且活检失败，诊断未确立；若PET/CT结论确定且活检已确诊则无需MDT讨论",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "7f8a2463-763c-4669-a370-54fca8039124",
+                  "split_index": 38
+                },
+                "decision": "PASS"
+              },
+              {
+                "question_id": "Q5",
+                "evidence_id": "GB01",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "建议无论治疗决策如何，都应按计划的周期通过临床和影像学检查（包括CT、骨扫描或PET/CT）评估转移性疾病患者的治疗反应",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 185,
+                            "end": 245,
+                            "text": "也起着关键作用［31]，建议结合临床实际，通过病理学活检明确疾病类型、分子分型、肿瘤标志物表达状态及靶向基因改变情况，以精准指导一线及后线药物选择（表8）。\n乳腺癌的影像学检查贯穿MDT的疾病全过程，建议无论治疗决策如何，都应按计划的周期通过临床和影像学检查（包括CT、骨扫描或PET/CT）评估转移性疾病患者的治疗反应，反应评估间隔还应基于疾病进展速度、转移部位／范围、治疗模式进行调整，可相应缩短或延长［32］。\n表6 早期乳腺癌患者手术方案-MDT模式基本要求"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "建议无论治疗决策如何，都应按计划的周期通过临床和影像学检查（包括CT、骨扫描或PET/CT）评估转移性疾病患者的治疗反应",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 185,
+                            "end": 245,
+                            "text": "也起着关键作用［31]，建议结合临床实际，通过病理学活检明确疾病类型、分子分型、肿瘤标志物表达状态及靶向基因改变情况，以精准指导一线及后线药物选择（表8）。\n乳腺癌的影像学检查贯穿MDT的疾病全过程，建议无论治疗决策如何，都应按计划的周期通过临床和影像学检查（包括CT、骨扫描或PET/CT）评估转移性疾病患者的治疗反应，反应评估间隔还应基于疾病进展速度、转移部位／范围、治疗模式进行调整，可相应缩短或延长［32］。\n表6 早期乳腺癌患者手术方案-MDT模式基本要求"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "建议无论治疗决策如何，都应按计划的周期通过临床和影像学检查（包括CT、骨扫描或PET/CT）评估转移性疾病患者的治疗反应",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 185,
+                            "end": 245,
+                            "text": "也起着关键作用［31]，建议结合临床实际，通过病理学活检明确疾病类型、分子分型、肿瘤标志物表达状态及靶向基因改变情况，以精准指导一线及后线药物选择（表8）。\n乳腺癌的影像学检查贯穿MDT的疾病全过程，建议无论治疗决策如何，都应按计划的周期通过临床和影像学检查（包括CT、骨扫描或PET/CT）评估转移性疾病患者的治疗反应，反应评估间隔还应基于疾病进展速度、转移部位／范围、治疗模式进行调整，可相应缩短或延长［32］。\n表6 早期乳腺癌患者手术方案-MDT模式基本要求"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "建议无论治疗决策如何，都应按计划的周期通过临床和影像学检查（包括CT、骨扫描或PET/CT）评估转移性疾病患者的治疗反应",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 185,
+                            "end": 245,
+                            "text": "也起着关键作用［31]，建议结合临床实际，通过病理学活检明确疾病类型、分子分型、肿瘤标志物表达状态及靶向基因改变情况，以精准指导一线及后线药物选择（表8）。\n乳腺癌的影像学检查贯穿MDT的疾病全过程，建议无论治疗决策如何，都应按计划的周期通过临床和影像学检查（包括CT、骨扫描或PET/CT）评估转移性疾病患者的治疗反应，反应评估间隔还应基于疾病进展速度、转移部位／范围、治疗模式进行调整，可相应缩短或延长［32］。\n表6 早期乳腺癌患者手术方案-MDT模式基本要求"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "鉴于转移负荷尚可、全身情况允许，采用化疗；给予两周期环磷酰胺联合阿霉素后，梗阻症状明显缓解，无需进一步介入治疗",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 753,
+                        "end": 808,
+                        "text": "、E-cadherin、GATA3阳性；PAX5、CD3、CK30、SOX10、ER、PR、HER2阴性，Ki67 40%\n2025年初｜确诊｜乳腺癌转移至十二指肠，造成小肠梗阻\n2025年初｜治疗｜鉴于转移负荷尚可、全身情况允许，采用化疗；给予两周期环磷酰胺联合阿霉素后，梗阻症状明显缓解，无需进一步介入治疗"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "case_timeline",
+                    "quote": "18F-FDG PET/CT｜原左锁骨上及腋窝转移灶代谢已清除；十二指肠处FDG高度摄取肿块",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 398,
+                        "end": 444,
+                        "text": "，无反跳痛或腹肌紧张\n2025年初｜腹部增强CT｜十二指肠第三段不规则强化低密度肿块约59×31×41mm，致管腔明显狭窄，第二段扩张，符合高位小肠梗阻；另见左侧腰大肌及左肾两个结节影\n2025年初｜18F-FDG PET/CT｜原左锁骨上及腋窝转移灶代谢已清除；十二指肠处FDG高度摄取肿块，伴多个腹膜后结节影；提示极可能为乳腺癌转移灶，亦不排除同步原发肿瘤可能\n2025年初｜胃镜｜十二指肠第三段无法通过，严重腔外压迫性狭窄，黏膜水肿显著；组织活检未能获得确诊性组织\n2025年初｜内镜超"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "C",
+                  "decision_boundary": "本例梗阻已缓解且无残留症状，姑息放疗无适应证；若化疗后仍有残留梗阻或局部进展则放疗可考虑",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "fea9ac8e-8f06-46c0-9a57-2bf3069f1a01",
+                  "split_index": 32
+                },
+                "decision": "PASS"
+              }
+            ]
+          },
+          "question_evidence_bindings": [
+            {
+              "question_id": "Q1",
+              "evidence_id": "GB01",
+              "doc_id": "fea9ac8e-8f06-46c0-9a57-2bf3069f1a01",
+              "split_index": 32,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q2",
+              "evidence_id": "GA05",
+              "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+              "split_index": 362,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q3",
+              "evidence_id": "GA06",
+              "doc_id": "f51ad2ef-8e21-42f9-bfd1-f2ed36512587",
+              "split_index": 83,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q4",
+              "evidence_id": "GA03",
+              "doc_id": "7f8a2463-763c-4669-a370-54fca8039124",
+              "split_index": 38,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q5",
+              "evidence_id": "GB01",
+              "doc_id": "fea9ac8e-8f06-46c0-9a57-2bf3069f1a01",
+              "split_index": 32,
+              "matching_record_count": 1
+            }
+          ],
+          "cited_evidence_snapshot": [
+            {
+              "evidence_id": "GA03",
+              "doc_id": "7f8a2463-763c-4669-a370-54fca8039124",
+              "split_index": 38,
+              "type": "guideline",
+              "authority": "中华医学会病理学分会, CACA, 国家病理质控中心",
+              "source_title": "乳腺癌生物标志物检测临床应用指南",
+              "source_version": "2025",
+              "source_section": "七、临床与病理沟通",
+              "source_url": "",
+              "snippet": "为保障乳腺癌生物标志物检测的规范化和临床实用性，应建立由临床医师、病理医师、遗传咨询人员、分子检测专家及生物信息分析师组成的多学科诊疗团队（MDT），并制定标准化的运行机制。建立结构化的分子检测报告体系，病理医师需说明检测方法的敏感性、特异性及结果判读的临床意义；临床医师则需提供完整的临床资料，包括患者治疗史、家族史等关键信息。其次，针对疑难病例（如形态学不典型或分子检测结果与临床表现不符的病例）需进行重点讨论。通过多学科协作，为患者制定循证、个体化的诊疗方案。",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            },
+            {
+              "evidence_id": "GA05",
+              "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+              "split_index": 362,
+              "type": "guideline",
+              "authority": "CACA",
+              "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+              "source_version": "2026",
+              "source_section": "13.2.3.1 药物预防性治疗",
+              "source_url": "",
+              "snippet": "病理学确诊与分子分型再确认：对复发灶进行穿刺或切除活检，获取组织学诊断。必须重新检测ER、PR、HER2的表达及Ki- 67增殖指数。与原发肿瘤相比，受体状态可能发生改变（ \\$10\\% \\sim 40\\%\\$ ），直接影响后续治疗决策。必要时考虑TNBC检测PD- L1（CPS）、BRCA1/2胚系突变等。",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            },
+            {
+              "evidence_id": "GA06",
+              "doc_id": "f51ad2ef-8e21-42f9-bfd1-f2ed36512587",
+              "split_index": 83,
+              "type": "guideline",
+              "authority": "CACA",
+              "source_title": "中国肿瘤整合诊治技术指南（CACA） 病理诊断",
+              "source_version": "2023",
+              "source_section": "二、病理技术局限性",
+              "source_url": "",
+              "snippet": "乳腺癌诊治相关标志物检测所依托的检测平台和技术方法多样，如IHC、FISH、qPCR及NGS各具优势及局限性。乳腺癌肿瘤标记物表达存在时间和空间异质性，表现为不同方法平台间、原发灶与转移灶、穿刺标本与手术切除标本检测结果可能存在不一致。",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            },
+            {
+              "evidence_id": "GB01",
+              "doc_id": "fea9ac8e-8f06-46c0-9a57-2bf3069f1a01",
+              "split_index": 32,
+              "type": "guideline",
+              "authority": "CACA",
+              "source_title": "乳腺癌多学科诊疗标准与规范（2023年版）",
+              "source_version": "2023",
+              "source_section": "9 《乳腺癌多学科诊疗标准与规范（2023年版）》的具体要求",
+              "source_url": "",
+              "snippet": "复发／转移性乳腺癌治疗是一个复杂的过程，治疗期间必须考虑各种因素。对于晚期乳腺癌，机体状态和转移部位是主要考虑因素［30］。病理科医师提供的病理学信息在复发／转移的情况下也起着关键作用［31]，建议结合临床实际，通过病理学活检明确疾病类型、分子分型、肿瘤标志物表达状态及靶向基因改变情况，以精准指导一线及后线药物选择（表8）。\n乳腺癌的影像学检查贯穿MDT的疾病全过程，建议无论治疗决策如何，都应按计划的周期通过临床和影像学检查（包括CT、骨扫描或PET/CT）评估转移性疾病患者的治疗反应，反应评估间隔还应基于疾病进展速度、转移部位／范围、治疗模式进行调整，可相应缩短或延长［32］。\n表6 早期乳腺癌患者手术方案-MDT模式基本要求",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            }
+          ],
+          "retrieval_queries": {
+            "staging": "初始临床评估与分期指南\n原发诊断：乳腺癌\n初诊摘录：患者女，53岁，因\"恶心、呕吐及腹痛持续三周\"于2025年初就诊于消化内科；既往无胃肠病史，无其他基础疾病；有乳腺癌病史：2005年确诊早期乳腺癌，行乳房局部切除术及前哨淋巴结活检，术后辅以放疗及激素治疗；2019年局部复发诊断为晚期乳腺癌，病理ER阳性>95%，PR阳性60%，HER2经SISH确认阴性，Ki67 10%-30%；2020年左腋窝淋巴结清扫术，12枚淋巴结中2枚转移，后续继续化疗与激素治疗；2021年左腋窝转移\n匹配原发病种与分期检查、区域和远处病变评估，不用后续事实反推初诊。",
+            "molecular": "病理与分子检测及结果应用指南\n原发诊断：乳腺癌\n检测记录：2019年｜病理｜ER阳性>95%，PR阳性60%，HER2可疑表达经SISH确认阴性，Ki67 10%-30%；2024年｜病理活检｜ER阳性降至50%，PR阴性，Ki67升高，E-cadherin局灶性弱表达，HER2阴性；PAX5阴性，CD3阴性，CK30阴性，SOX10阴性，ER阴性，PR阴性，HER2阴性\n候选决策：2025年初｜EUS-FNAB病理及免疫组化结果回报，GATA3/CK7阳性支持乳腺来源｜确诊转移后治疗策略选择：手术解除梗阻vs全身化疗\n关注检测时机、结果等待与治疗衔接；检索关键词不代表初诊已知结果。",
+            "treatment": "复评、局部协调与后线决策正式指南\n原发诊断：乳腺癌\n决策问题：2025年初｜患者有乳腺癌病史，出现小肠梗阻症状，CT提示十二指肠肿块｜需鉴别乳腺癌转移vs同步原发消化道肿瘤；2025年初｜转移负荷尚可、全身情况允许｜是否可直接化疗而不行手术干预\n实际治疗：2005年｜确诊早期乳腺癌｜行乳房局部切除术及前哨淋巴结活检，术后辅以放疗及激素治疗；2020年｜左腋窝淋巴结清扫术｜12枚淋巴结中2枚转移，淋巴结周围软组织中发现癌灶，后续继续化疗与激素治疗；2025年初｜治疗｜鉴于转移负荷尚可、全身情况允许，采用化疗\n检测记录：2019年｜病理｜ER阳性>95%，PR阳性60%，HER2可疑表达经SISH确认阴性，Ki67 10%-30%；2024年｜病理活检｜ER阳性降至50%，PR阴性，Ki67升高，E-cadherin局灶性弱表达，HER2阴性\n按原发癌种匹配复评与后线阶段，保留已知治疗限制。",
+            "study": "匹配病例实际方案的原始临床研究\n原发诊断：乳腺癌\n方案和阶段：2005年｜确诊早期乳腺癌｜行乳房局部切除术及前哨淋巴结活检，术后辅以放疗及激素治疗；2020年｜左腋窝淋巴结清扫术｜12枚淋巴结中2枚转移，淋巴结周围软组织中发现癌灶，后续继续化疗与激素治疗；2025年初｜治疗｜鉴于转移负荷尚可、全身情况允许，采用化疗；给予两周期环磷酰胺联合阿霉素后，梗阻症状明显缓解，无需进一步介入治疗\n人群线索：2019年｜病理｜ER阳性>95%，PR阳性60%，HER2可疑表达经SISH确认阴性，Ki67 10%-30%；2024年｜病理活检｜ER阳性降至50%，PR阴性，Ki67升高，E-cadherin局灶性弱表达，HER2阴性\n匹配药物、人群、治疗阶段与决策终点，需该记录已报告原始研究结果。",
+            "toxicity_a": "",
+            "toxicity_b": ""
+          },
+          "retrieval_health": {
+            "ok": true,
+            "errors": []
+          },
+          "compression_report": {
+            "input_counts": {
+              "guideline_a_staging": 8,
+              "guideline_a": 8,
+              "guideline_b": 2,
+              "clinical_study_initial": 7,
+              "clinical_study_supplement": 0,
+              "irae_a": 0,
+              "irae_b": 0
+            },
+            "kept_counts": {
+              "guideline_a_staging": 4,
+              "guideline_a": 6,
+              "guideline_b": 1,
+              "clinical_study_initial": 0,
+              "clinical_study_supplement": 0,
+              "irae_a": 0,
+              "irae_b": 0
+            },
+            "kept_total": 11,
+            "dropped_total": 14,
+            "dropped": [
+              {
+                "lane": "guideline_a_staging",
+                "index": 4,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a_staging",
+                "index": 5,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a_staging",
+                "index": 6,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a_staging",
+                "index": 7,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 6,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 7,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_b",
+                "index": 1,
+                "reason": "DUPLICATE_LOCATOR",
+                "locator": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0::362"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 0,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "f34655f7c80c703c699706ddcae906e4::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 1,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "15a270fc6ab0b9c555d66cad4a1ecf3a::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 2,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260804_135030_60518EAA::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 3,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260730_154039_CDC16D1D::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 4,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "feae01d296ee51544f24b5eb21d9478a::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 5,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260803_175401_4484FFFD::2"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 6,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260730_152639_CF829152::1"
+              }
+            ]
+          },
+          "first_round_raw": "{\"schema_version\":\"1.1\",\"generation_status\":\"success\",\"case_summary\":\"53岁女性，2005年确诊早期乳腺癌，2019年局部复发诊断晚期（ER>95%、PR 60%、HER2阴性、Ki67 10%-30%），2020年腋窝清扫，2024年锁骨上及臂丛转移（ER降至50%、PR阴性、Ki67升高、HER2阴性）。2025年初因恶心呕吐腹痛三周就诊，CT示十二指肠第三段59×31×41mm肿块致高位小肠梗阻；PET/CT示原转移灶代谢清除、十二指肠FDG高摄取但不排除同步原发；胃镜活检失败后经EUS-FNAB确诊乳腺癌十二指肠转移（ER/PR/HER2均阴性、Ki67 40%、GATA3/CK7/E-cadherin阳性）。因转移负荷尚可、全身情况允许，予两周期AC化疗后梗阻缓解，未行手术或介入。\",\"question_count\":5,\"difficulty\":\"进阶\",\"missing_information\":[],\"risk_message\":\"本例证据池仅含指南，无原始研究；十二指肠转移致梗阻的全身化疗vs手术决策缺乏高级别RCT证据，题目依据为指南原则性推荐结合病例具体条件。\",\"questions\":[{\"id\":\"Q1\",\"type\":\"治疗决策\",\"phase\":\"转移性乳腺癌初始治疗\",\"timepoint\":\"2025年初确诊十二指肠转移伴梗阻后\",\"question\":\"乳腺癌十二指肠转移致不完全性小肠梗阻，转移负荷尚可、全身情况允许，以下处理正确的是？\",\"options\":[\"立即行十二指肠节段切除术解除梗阻，术后根据原发灶受体状态制定全身方案\",\"先行姑息性放疗缩小十二指肠肿块，待梗阻缓解后再评估全身治疗\",\"仅予禁食、胃肠减压等支持治疗，待梗阻自行缓解后再考虑抗肿瘤治疗\",\"鉴于转移负荷尚可且全身状况允许，优先启动全身化疗，梗阻多可随之缓解\"],\"answer\":3,\"answer_text\":\"鉴于转移负荷尚可且全身状况允许，优先启动全身化疗，梗阻多可随之缓解\",\"keyPoint\":\"晚期乳腺癌治疗决策以机体状态和转移部位为核心考量，负荷可控且PS允许时全身治疗兼顾局部与系统控制\",\"explain\":{\"A\":\"完全性梗阻或穿孔风险时手术合理，但本例为不完全梗阻且全身情况允许，手术非首选\",\"B\":\"姑息放疗起效慢，对需快速解除梗阻且合并全身转移者非一线策略\",\"C\":\"仅支持治疗不针对肿瘤本身，延误全身控制且梗阻难以自行缓解\",\"D\":\"机体状态和转移部位是主要考虑因素，负荷尚可时全身化疗可同时解决梗阻与系统病灶\"},\"evidence_id\":\"GB01\",\"support_mode\":\"hard\",\"evidence_summary\":\"晚期乳腺癌治疗以机体状态和转移部位为主要考虑因素，病理信息精准指导一线及后线药物选择\",\"verification\":{\"quotes\":{\"A\":[\"对于晚期乳腺癌，机体状态和转移部位是主要考虑因素\"],\"B\":[\"以精准指导一线及后线药物选择\"],\"C\":[\"建议结合临床实际，通过病理学活检明确疾病类型、分子分型、肿瘤标志物表达状态及靶向基因改变情况，以精准指导一线及后线药物选择\"],\"D\":[\"对于晚期乳腺癌，机体状态和转移部位是主要考虑因素\"]},\"case_facts\":[{\"field\":\"case_timeline\",\"quote\":\"鉴于转移负荷尚可、全身情况允许，采用化疗；给予两周期环磷酰胺联合阿霉素后，梗阻症状明显缓解，无需进一步介入治疗\"}],\"closest_alternative\":\"A\",\"decision_boundary\":\"本例为不完全梗阻且全身情况允许，机体状态支持全身治疗；若为完全梗阻或穿孔则手术优先\"}}]\n}",
+          "second_round_raw": "{\"schema_version\":\"1.1\",\"generation_status\":\"success\",\"case_summary\":\"53岁女性，2005年确诊早期乳腺癌（局部切除+前哨活检+放疗+激素），2019年局部复发诊断晚期（ER>95%、PR 60%、HER2阴性、Ki67 10%-30%），2020年腋窝清扫（2/12阳性），2024年锁骨上及臂丛转移（ER降至50%、PR阴性、Ki67升高、HER2阴性）。2025年初因恶心呕吐腹痛三周就诊，CT示十二指肠第三段59×31×41mm肿块致高位小肠梗阻；PET/CT示原转移灶代谢清除、十二指肠FDG高摄取但不排除同步原发；胃镜活检失败后经EUS-FNAB确诊乳腺癌十二指肠转移（ER/PR/HER2均阴性、Ki67 40%、GATA3/CK7/E-cadherin阳性）。因转移负荷尚可、全身情况允许，予两周期AC化疗后梗阻缓解，未行手术或介入。\",\"question_count\":5,\"difficulty\":\"进阶\",\"missing_information\":[],\"risk_message\":\"本例证据池仅含指南，无原始研究；十二指肠转移致梗阻的全身化疗vs手术决策缺乏高级别RCT证据，题目依据为指南原则性推荐结合病例具体条件。\",\"questions\":[{\"id\":\"Q1\",\"type\":\"治疗决策\",\"phase\":\"转移性乳腺癌急性并发症处理\",\"timepoint\":\"2025年初确诊十二指肠转移伴不完全性小肠梗阻后\",\"question\":\"乳腺癌十二指肠转移致不完全性小肠梗阻，转移负荷尚可、全身情况允许，以下处理正确的是？\",\"options\":[\"立即行十二指肠节段切除术解除梗阻，术后根据原发灶受体状态制定全身方案\",\"先行姑息性放疗缩小十二指肠肿块，待梗阻缓解后再评估全身治疗\",\"仅予禁食、胃肠减压等支持治疗，待梗阻自行缓解后再考虑抗肿瘤治疗\",\"鉴于转移负荷尚可且全身状况允许，优先启动全身化疗，梗阻多可随之缓解\"],\"answer\":3,\"answer_text\":\"鉴于转移负荷尚可且全身状况允许，优先启动全身化疗，梗阻多可随之缓解\",\"keyPoint\":\"晚期乳腺癌伴可耐受的不完全梗阻时，机体状态和转移部位决定以全身治疗兼顾局部与系统控制\",\"explain\":{\"A\":\"完全性梗阻或穿孔风险时手术合理，但本例为不完全梗阻且全身情况允许，手术非首选\",\"B\":\"姑息放疗起效慢，对需快速解除梗阻且合并全身转移者非一线策略\",\"C\":\"仅支持治疗不针对肿瘤本身，延误全身控制且梗阻难以自行缓解\",\"D\":\"机体状态和转移部位是主要考虑因素，负荷尚可时全身化疗可同时解决梗阻与系统病灶\"},\"evidence_id\":\"GB01\",\"support_mode\":\"hard\",\"evidence_summary\":\"晚期乳腺癌治疗以机体状态和转移部位为主要考虑因素，病理信息精准指导一线及后线药物选择\",\"verification\":{\"quotes\":{\"A\":[\"对于晚期乳腺癌，机体状态和转移部位是主要考虑因素\"],\"B\":[\"对于晚期乳腺癌，机体状态和转移部位是主要考虑因素\"],\"C\":[\"对于晚期乳腺癌，机体状态和转移部位是主要考虑因素\"],\"D\":[\"对于晚期乳腺癌，机体状态和转移部位是主要考虑因素\"]},\"case_facts\":[{\"field\":\"case_timeline\",\"quote\":\"鉴于转移负荷尚可、全身情况允许，采用化疗；给予两周期环磷酰胺联合阿霉素后，梗阻症状明显缓解，无需进一步介入治疗\"}],\"closest_alternative\":\"A\",\"decision_boundary\":\"本例为不完全梗阻且全身情况允许，机体状态支持全身治疗；若为完全梗阻或穿孔则手术优先\"}},{\"id\":\"Q2\",\"type\":\"分子诊断\",\"phase\":\"转移灶再评估\",\"timepoint\":\"2025年初EUS-FNAB获取十二指肠转移灶组织后\",\"question\":\"乳腺癌十二指肠转移灶EUS-FNAB病理示ER阴性、PR阴性、HER2阴性、Ki67 40%，与原发灶ER>95%显著不同。以下处理正确的是？\",\"options\":[\"十二指肠转移灶ER阴性提示检测误差，应放弃该结果并沿用原发灶ER>95%指导治疗\",\"必须重新检测ER、PR、HER2及Ki67，受体状态改变直接影响后续治疗决策\",\"受体状态改变仅见于讨论部分，患者正文未明确组织学亚型，故无需据此调整方案\",\"ER从>95%降至阴性属正常波动，无需额外检测，继续原内分泌治疗方案即可\"],\"answer\":1,\"answer_text\":\"必须重新检测ER、PR、HER2及Ki67，受体状态改变直接影响后续治疗决策\",\"keyPoint\":\"复发或转移灶必须重新活检检测受体，10%-40%的受体改变率直接影响后续治疗决策\",\"explain\":{\"A\":\"受体状态改变是真实生物学现象而非检测误差，不能因与原发灶不同而否定新结果\",\"B\":\"指南明确要求对复发灶重新检测ER/PR/HER2/Ki67，受体改变直接影响治疗决策\",\"C\":\"组织学亚型信息缺失不影响受体检测的必要性，ER/PR/HER2检测是独立要求\",\"D\":\"ER从>95%降至阴性远超正常波动范围，属受体状态改变，必须据此调整方案\"},\"evidence_id\":\"GA05\",\"support_mode\":\"hard\",\"evidence_summary\":\"复发灶必须重新检测ER/PR/HER2/Ki67，受体状态改变率10%-40%，直接影响后续治疗决策\",\"verification\":{\"quotes\":{\"A\":[\"必须重新检测ER、PR、HER2的表达及Ki- 67增殖指数\"],\"B\":[\"必须重新检测ER、PR、HER2的表达及Ki- 67增殖指数。与原发肿瘤相比，受体状态可能发生改变（ 10% ~ 40% ），直接影响后续治疗决策\"],\"C\":[\"必须重新检测ER、PR、HER2的表达及Ki- 67增殖指数\"],\"D\":[\"与原发肿瘤相比，受体状态可能发生改变（ 10% ~ 40% ），直接影响后续治疗决策\"]},\"case_facts\":[{\"field\":\"biomarkers\",\"quote\":\"2025年初｜EUS-FNAB样本｜免疫组化：Pankeratin阳性，CK7阳性，E-cadherin阳性，GATA3阳性；PAX5阴性，CD3阴性，CK30阴性，SOX10阴性，ER阴性，PR阴性，HER2阴性；Ki67 40%\"},{\"field\":\"biomarkers\",\"quote\":\"2019年｜病理｜ER阳性>95%，PR阳性60%，HER2可疑表达经SISH确认阴性，Ki67 10%-30%\"}],\"closest_alternative\":\"A\",\"decision_boundary\":\"受体改变率10%-40%为已知生物学现象，新活检结果有效；若为同一标本重复检测不一致则需考虑技术误差\"}},{\"id\":\"Q3\",\"type\":\"分子诊断\",\"phase\":\"转移灶受体异质性判读\",\"timepoint\":\"2025年初十二指肠转移灶确诊后，回顾2024年锁骨上活检结果\",\"question\":\"2024年锁骨上活检ER阳性50%，2025年十二指肠EUS-FNAB ER阴性。关于两处结果不一致的判读，以下哪项正确？\",\"options\":[\"两处结果矛盾说明至少一次检测存在技术失误，应重新活检取第三处验证\",\"ER从50%降至阴性提示肿瘤去分化，锁骨上结果已失效，仅以十二指肠结果为准\",\"乳腺癌标志物存在时间和空间异质性，原发灶与转移灶结果不一致是已知现象\",\"两处结果均有效，应取平均值ER 25%作为当前分子分型依据指导治疗\"],\"answer\":2,\"answer_text\":\"乳腺癌标志物存在时间和空间异质性，原发灶与转移灶结果不一致是已知现象\",\"keyPoint\":\"肿瘤标志物存在时间和空间异质性，不同部位检测结果不一致是已知生物学现象而非矛盾\",\"explain\":{\"A\":\"异质性是已知生物学现象，两处结果不一致不等同于技术失误，无需第三处验证\",\"B\":\"锁骨上结果并非失效，异质性意味着不同部位可反映不同克隆，两者均有生物学意义\",\"C\":\"指南明确乳腺癌标志物存在时间和空间异质性，原发灶与转移灶结果可不一致\",\"D\":\"取平均值无生物学依据，异质性意味着不同部位代表不同克隆而非同一数值的测量误差\"},\"evidence_id\":\"GA06\",\"support_mode\":\"hard\",\"evidence_summary\":\"乳腺癌标志物存在时间和空间异质性，原发灶与转移灶、不同标本间检测结果可能不一致\",\"verification\":{\"quotes\":{\"A\":[\"乳腺癌肿瘤标记物表达存在时间和空间异质性，表现为不同方法平台间、原发灶与转移灶、穿刺标本与手术切除标本检测结果可能存在不一致\"],\"B\":[\"乳腺癌肿瘤标记物表达存在时间和空间异质性，表现为不同方法平台间、原发灶与转移灶、穿刺标本与手术切除标本检测结果可能存在不一致\"],\"C\":[\"乳腺癌肿瘤标记物表达存在时间和空间异质性，表现为不同方法平台间、原发灶与转移灶、穿刺标本与手术切除标本检测结果可能存在不一致\"],\"D\":[\"乳腺癌肿瘤标记物表达存在时间和空间异质性，表现为不同方法平台间、原发灶与转移灶、穿刺标本与手术切除标本检测结果可能存在不一致\"]},\"case_facts\":[{\"field\":\"biomarkers\",\"quote\":\"2024年｜病理活检｜ER阳性降至50%，PR阴性，Ki67升高，E-cadherin局灶性弱表达，HER2阴性\"},{\"field\":\"biomarkers\",\"quote\":\"2025年初｜EUS-FNAB样本｜免疫组化：Pankeratin阳性，CK7阳性，E-cadherin阳性，GATA3阳性；PAX5阴性，CD3阴性，CK30阴性，SOX10阴性，ER阴性，PR阴性，HER2阴性；Ki67 40%\"}],\"closest_alternative\":\"B\",\"decision_boundary\":\"异质性意味着不同部位结果均有效且反映不同克隆；若为同一部位同一标本重复检测不一致则需考虑技术误差\"}},{\"id\":\"Q4\",\"type\":\"诊断与分期\",\"phase\":\"转移灶来源鉴别\",\"timepoint\":\"2025年初PET/CT提示十二指肠FDG高摄取但不排除同步原发、胃镜活检失败后\",\"question\":\"PET/CT示十二指肠FDG高摄取肿块但提示不排除同步原发肿瘤，胃镜活检未获确诊组织。以下处理正确的是？\",\"options\":[\"针对分子检测结果与临床表现不符的疑难情况，应通过MDT重点讨论制定个体化方案\",\"PET/CT已高度提示转移，无需进一步活检，直接按乳腺癌转移启动全身化疗\",\"胃镜活检失败即终止有创检查，改为经验性抗酸治疗观察两周后复查影像\",\"十二指肠肿块FDG摄取高即确诊为原发消化道肿瘤，按胃肠癌方案治疗\"],\"answer\":0,\"answer_text\":\"针对分子检测结果与临床表现不符的疑难情况，应通过MDT重点讨论制定个体化方案\",\"keyPoint\":\"形态学不典型或分子结果与临床不符的疑难病例需MDT重点讨论，制定循证个体化方案\",\"explain\":{\"A\":\"PET/CT不确定且活检失败属疑难情况，指南要求对此类病例进行MDT重点讨论\",\"B\":\"PET/CT明确提示不排除同步原发，不能跳过组织学确诊直接按转移治疗\",\"C\":\"活检失败不等于终止诊断，EUS-FNAB等替代手段可获取组织，不应仅经验性观察\",\"D\":\"FDG高摄取非特异，原发消化道肿瘤与转移均可高摄取，不能仅凭PET定性\"},\"evidence_id\":\"GA03\",\"support_mode\":\"hard\",\"evidence_summary\":\"疑难病例如形态学不典型或分子结果与临床不符需MDT重点讨论，制定循证个体化方案\",\"verification\":{\"quotes\":{\"A\":[\"针对疑难病例（如形态学不典型或分子检测结果与临床表现不符的病例）需进行重点讨论。通过多学科协作，为患者制定循证、个体化的诊疗方案\"],\"B\":[\"针对疑难病例（如形态学不典型或分子检测结果与临床表现不符的病例）需进行重点讨论\"],\"C\":[\"针对疑难病例（如形态学不典型或分子检测结果与临床表现不符的病例）需进行重点讨论\"],\"D\":[\"针对疑难病例（如形态学不典型或分子检测结果与临床表现不符的病例）需进行重点讨论\"]},\"case_facts\":[{\"field\":\"case_timeline\",\"quote\":\"18F-FDG PET/CT｜原左锁骨上及腋窝转移灶代谢已清除；十二指肠处FDG高度摄取肿块，伴多个腹膜后结节影；提示极可能为乳腺癌转移灶，亦不排除同步原发肿瘤可能\"},{\"field\":\"case_timeline\",\"quote\":\"胃镜｜十二指肠第三段无法通过，严重腔外压迫性狭窄，黏膜水肿显著；组织活检未能获得确诊性组织\"}],\"closest_alternative\":\"B\",\"decision_boundary\":\"PET/CT明确写有'亦不排除同步原发'且活检失败，诊断未确立；若PET/CT结论确定且活检已确诊则无需MDT讨论\"}},{\"id\":\"Q5\",\"type\":\"疗效复评与局部治疗\",\"phase\":\"全身治疗后局部残留评估\",\"timepoint\":\"2025年初两周期AC化疗后梗阻症状明显缓解\",\"question\":\"乳腺癌十二指肠转移经两周期AC化疗后梗阻明显缓解，PET/CT示原转移灶代谢清除。以下后续处理正确的是？\",\"options\":[\"梗阻缓解即视为完全缓解，无需任何影像学复查即可进入观察随访\",\"无论治疗决策如何，应按计划周期通过临床和影像学检查评估转移性疾病治疗反应\",\"梗阻缓解后必须追加十二指肠姑息性放疗以巩固局部控制，否则必然复发\",\"化疗两周期后梗阻缓解即达到治疗终点，应永久停用所有抗肿瘤治疗\"],\"answer\":1,\"answer_text\":\"无论治疗决策如何，应按计划周期通过临床和影像学检查评估转移性疾病治疗反应\",\"keyPoint\":\"影像学评估贯穿MDT全过程，无论治疗决策如何均应按计划周期评估转移灶治疗反应\",\"explain\":{\"A\":\"梗阻缓解不等于影像学完全缓解，指南要求无论决策如何均应按周期评估治疗反应\",\"B\":\"指南明确建议无论治疗决策如何都应按计划周期通过临床和影像学检查评估反应\",\"C\":\"姑息放疗适用于有症状残留病灶，本例梗阻已缓解且无残留症状，非必须追加\",\"D\":\"转移性乳腺癌需持续全身治疗控制，两周期缓解远非治疗终点，不应永久停药\"},\"evidence_id\":\"GB01\",\"support_mode\":\"hard\",\"evidence_summary\":\"影像学检查贯穿MDT全过程，无论治疗决策如何均应按计划周期评估转移性疾病治疗反应\",\"verification\":{\"quotes\":{\"A\":[\"建议无论治疗决策如何，都应按计划的周期通过临床和影像学检查（包括CT、骨扫描或PET/CT）评估转移性疾病患者的治疗反应\"],\"B\":[\"建议无论治疗决策如何，都应按计划的周期通过临床和影像学检查（包括CT、骨扫描或PET/CT）评估转移性疾病患者的治疗反应\"],\"C\":[\"建议无论治疗决策如何，都应按计划的周期通过临床和影像学检查（包括CT、骨扫描或PET/CT）评估转移性疾病患者的治疗反应\"],\"D\":[\"建议无论治疗决策如何，都应按计划的周期通过临床和影像学检查（包括CT、骨扫描或PET/CT）评估转移性疾病患者的治疗反应\"]},\"case_facts\":[{\"field\":\"case_timeline\",\"quote\":\"鉴于转移负荷尚可、全身情况允许，采用化疗；给予两周期环磷酰胺联合阿霉素后，梗阻症状明显缓解，无需进一步介入治疗\"},{\"field\":\"case_timeline\",\"quote\":\"18F-FDG PET/CT｜原左锁骨上及腋窝转移灶代谢已清除；十二指肠处FDG高度摄取肿块\"}],\"closest_alternative\":\"C\",\"decision_boundary\":\"本例梗阻已缓解且无残留症状，姑息放疗无适应证；若化疗后仍有残留梗阻或局部进展则放疗可考虑\"}}]}",
+          "parsed_second_round_draft": {
+            "schema_version": "1.1",
+            "generation_status": "success",
+            "case_summary": "53岁女性，2005年确诊早期乳腺癌（局部切除+前哨活检+放疗+激素），2019年局部复发诊断晚期（ER>95%、PR 60%、HER2阴性、Ki67 10%-30%），2020年腋窝清扫（2/12阳性），2024年锁骨上及臂丛转移（ER降至50%、PR阴性、Ki67升高、HER2阴性）。2025年初因恶心呕吐腹痛三周就诊，CT示十二指肠第三段59×31×41mm肿块致高位小肠梗阻；PET/CT示原转移灶代谢清除、十二指肠FDG高摄取但不排除同步原发；胃镜活检失败后经EUS-FNAB确诊乳腺癌十二指肠转移（ER/PR/HER2均阴性、Ki67 40%、GATA3/CK7/E-cadherin阳性）。因转移负荷尚可、全身情况允许，予两周期AC化疗后梗阻缓解，未行手术或介入。",
+            "question_count": 5,
+            "difficulty": "进阶",
+            "missing_information": [],
+            "risk_message": "本例证据池仅含指南，无原始研究；十二指肠转移致梗阻的全身化疗vs手术决策缺乏高级别RCT证据，题目依据为指南原则性推荐结合病例具体条件。",
+            "questions": [
+              {
+                "id": "Q1",
+                "type": "治疗决策",
+                "phase": "转移性乳腺癌急性并发症处理",
+                "timepoint": "2025年初确诊十二指肠转移伴不完全性小肠梗阻后",
+                "question": "乳腺癌十二指肠转移致不完全性小肠梗阻，转移负荷尚可、全身情况允许，以下处理正确的是？",
+                "options": [
+                  "立即行十二指肠节段切除术解除梗阻，术后根据原发灶受体状态制定全身方案",
+                  "先行姑息性放疗缩小十二指肠肿块，待梗阻缓解后再评估全身治疗",
+                  "仅予禁食、胃肠减压等支持治疗，待梗阻自行缓解后再考虑抗肿瘤治疗",
+                  "鉴于转移负荷尚可且全身状况允许，优先启动全身化疗，梗阻多可随之缓解"
+                ],
+                "answer": 3,
+                "answer_text": "鉴于转移负荷尚可且全身状况允许，优先启动全身化疗，梗阻多可随之缓解",
+                "keyPoint": "晚期乳腺癌伴可耐受的不完全梗阻时，机体状态和转移部位决定以全身治疗兼顾局部与系统控制",
+                "explain": {
+                  "A": "完全性梗阻或穿孔风险时手术合理，但本例为不完全梗阻且全身情况允许，手术非首选",
+                  "B": "姑息放疗起效慢，对需快速解除梗阻且合并全身转移者非一线策略",
+                  "C": "仅支持治疗不针对肿瘤本身，延误全身控制且梗阻难以自行缓解",
+                  "D": "机体状态和转移部位是主要考虑因素，负荷尚可时全身化疗可同时解决梗阻与系统病灶"
+                },
+                "evidence_id": "GB01",
+                "support_mode": "hard",
+                "evidence_summary": "晚期乳腺癌治疗以机体状态和转移部位为主要考虑因素，病理信息精准指导一线及后线药物选择",
+                "verification": {
+                  "quotes": {
+                    "A": [
+                      "对于晚期乳腺癌，机体状态和转移部位是主要考虑因素"
+                    ],
+                    "B": [
+                      "对于晚期乳腺癌，机体状态和转移部位是主要考虑因素"
+                    ],
+                    "C": [
+                      "对于晚期乳腺癌，机体状态和转移部位是主要考虑因素"
+                    ],
+                    "D": [
+                      "对于晚期乳腺癌，机体状态和转移部位是主要考虑因素"
+                    ]
+                  },
+                  "case_facts": [
+                    {
+                      "field": "case_timeline",
+                      "quote": "鉴于转移负荷尚可、全身情况允许，采用化疗；给予两周期环磷酰胺联合阿霉素后，梗阻症状明显缓解，无需进一步介入治疗"
+                    }
+                  ],
+                  "closest_alternative": "A",
+                  "decision_boundary": "本例为不完全梗阻且全身情况允许，机体状态支持全身治疗；若为完全梗阻或穿孔则手术优先"
+                }
+              },
+              {
+                "id": "Q2",
+                "type": "分子诊断",
+                "phase": "转移灶再评估",
+                "timepoint": "2025年初EUS-FNAB获取十二指肠转移灶组织后",
+                "question": "乳腺癌十二指肠转移灶EUS-FNAB病理示ER阴性、PR阴性、HER2阴性、Ki67 40%，与原发灶ER>95%显著不同。以下处理正确的是？",
+                "options": [
+                  "十二指肠转移灶ER阴性提示检测误差，应放弃该结果并沿用原发灶ER>95%指导治疗",
+                  "必须重新检测ER、PR、HER2及Ki67，受体状态改变直接影响后续治疗决策",
+                  "受体状态改变仅见于讨论部分，患者正文未明确组织学亚型，故无需据此调整方案",
+                  "ER从>95%降至阴性属正常波动，无需额外检测，继续原内分泌治疗方案即可"
+                ],
+                "answer": 1,
+                "answer_text": "必须重新检测ER、PR、HER2及Ki67，受体状态改变直接影响后续治疗决策",
+                "keyPoint": "复发或转移灶必须重新活检检测受体，10%-40%的受体改变率直接影响后续治疗决策",
+                "explain": {
+                  "A": "受体状态改变是真实生物学现象而非检测误差，不能因与原发灶不同而否定新结果",
+                  "B": "指南明确要求对复发灶重新检测ER/PR/HER2/Ki67，受体改变直接影响治疗决策",
+                  "C": "组织学亚型信息缺失不影响受体检测的必要性，ER/PR/HER2检测是独立要求",
+                  "D": "ER从>95%降至阴性远超正常波动范围，属受体状态改变，必须据此调整方案"
+                },
+                "evidence_id": "GA05",
+                "support_mode": "hard",
+                "evidence_summary": "复发灶必须重新检测ER/PR/HER2/Ki67，受体状态改变率10%-40%，直接影响后续治疗决策",
+                "verification": {
+                  "quotes": {
+                    "A": [
+                      "必须重新检测ER、PR、HER2的表达及Ki- 67增殖指数"
+                    ],
+                    "B": [
+                      "必须重新检测ER、PR、HER2的表达及Ki- 67增殖指数。与原发肿瘤相比，受体状态可能发生改变（ 10% ~ 40% ），直接影响后续治疗决策"
+                    ],
+                    "C": [
+                      "必须重新检测ER、PR、HER2的表达及Ki- 67增殖指数"
+                    ],
+                    "D": [
+                      "与原发肿瘤相比，受体状态可能发生改变（ 10% ~ 40% ），直接影响后续治疗决策"
+                    ]
+                  },
+                  "case_facts": [
+                    {
+                      "field": "biomarkers",
+                      "quote": "2025年初｜EUS-FNAB样本｜免疫组化：Pankeratin阳性，CK7阳性，E-cadherin阳性，GATA3阳性；PAX5阴性，CD3阴性，CK30阴性，SOX10阴性，ER阴性，PR阴性，HER2阴性；Ki67 40%"
+                    },
+                    {
+                      "field": "biomarkers",
+                      "quote": "2019年｜病理｜ER阳性>95%，PR阳性60%，HER2可疑表达经SISH确认阴性，Ki67 10%-30%"
+                    }
+                  ],
+                  "closest_alternative": "A",
+                  "decision_boundary": "受体改变率10%-40%为已知生物学现象，新活检结果有效；若为同一标本重复检测不一致则需考虑技术误差"
+                }
+              },
+              {
+                "id": "Q3",
+                "type": "分子诊断",
+                "phase": "转移灶受体异质性判读",
+                "timepoint": "2025年初十二指肠转移灶确诊后，回顾2024年锁骨上活检结果",
+                "question": "2024年锁骨上活检ER阳性50%，2025年十二指肠EUS-FNAB ER阴性。关于两处结果不一致的判读，以下哪项正确？",
+                "options": [
+                  "两处结果矛盾说明至少一次检测存在技术失误，应重新活检取第三处验证",
+                  "ER从50%降至阴性提示肿瘤去分化，锁骨上结果已失效，仅以十二指肠结果为准",
+                  "乳腺癌标志物存在时间和空间异质性，原发灶与转移灶结果不一致是已知现象",
+                  "两处结果均有效，应取平均值ER 25%作为当前分子分型依据指导治疗"
+                ],
+                "answer": 2,
+                "answer_text": "乳腺癌标志物存在时间和空间异质性，原发灶与转移灶结果不一致是已知现象",
+                "keyPoint": "肿瘤标志物存在时间和空间异质性，不同部位检测结果不一致是已知生物学现象而非矛盾",
+                "explain": {
+                  "A": "异质性是已知生物学现象，两处结果不一致不等同于技术失误，无需第三处验证",
+                  "B": "锁骨上结果并非失效，异质性意味着不同部位可反映不同克隆，两者均有生物学意义",
+                  "C": "指南明确乳腺癌标志物存在时间和空间异质性，原发灶与转移灶结果可不一致",
+                  "D": "取平均值无生物学依据，异质性意味着不同部位代表不同克隆而非同一数值的测量误差"
+                },
+                "evidence_id": "GA06",
+                "support_mode": "hard",
+                "evidence_summary": "乳腺癌标志物存在时间和空间异质性，原发灶与转移灶、不同标本间检测结果可能不一致",
+                "verification": {
+                  "quotes": {
+                    "A": [
+                      "乳腺癌肿瘤标记物表达存在时间和空间异质性，表现为不同方法平台间、原发灶与转移灶、穿刺标本与手术切除标本检测结果可能存在不一致"
+                    ],
+                    "B": [
+                      "乳腺癌肿瘤标记物表达存在时间和空间异质性，表现为不同方法平台间、原发灶与转移灶、穿刺标本与手术切除标本检测结果可能存在不一致"
+                    ],
+                    "C": [
+                      "乳腺癌肿瘤标记物表达存在时间和空间异质性，表现为不同方法平台间、原发灶与转移灶、穿刺标本与手术切除标本检测结果可能存在不一致"
+                    ],
+                    "D": [
+                      "乳腺癌肿瘤标记物表达存在时间和空间异质性，表现为不同方法平台间、原发灶与转移灶、穿刺标本与手术切除标本检测结果可能存在不一致"
+                    ]
+                  },
+                  "case_facts": [
+                    {
+                      "field": "biomarkers",
+                      "quote": "2024年｜病理活检｜ER阳性降至50%，PR阴性，Ki67升高，E-cadherin局灶性弱表达，HER2阴性"
+                    },
+                    {
+                      "field": "biomarkers",
+                      "quote": "2025年初｜EUS-FNAB样本｜免疫组化：Pankeratin阳性，CK7阳性，E-cadherin阳性，GATA3阳性；PAX5阴性，CD3阴性，CK30阴性，SOX10阴性，ER阴性，PR阴性，HER2阴性；Ki67 40%"
+                    }
+                  ],
+                  "closest_alternative": "B",
+                  "decision_boundary": "异质性意味着不同部位结果均有效且反映不同克隆；若为同一部位同一标本重复检测不一致则需考虑技术误差"
+                }
+              },
+              {
+                "id": "Q4",
+                "type": "诊断与分期",
+                "phase": "转移灶来源鉴别",
+                "timepoint": "2025年初PET/CT提示十二指肠FDG高摄取但不排除同步原发、胃镜活检失败后",
+                "question": "PET/CT示十二指肠FDG高摄取肿块但提示不排除同步原发肿瘤，胃镜活检未获确诊组织。以下处理正确的是？",
+                "options": [
+                  "针对分子检测结果与临床表现不符的疑难情况，应通过MDT重点讨论制定个体化方案",
+                  "PET/CT已高度提示转移，无需进一步活检，直接按乳腺癌转移启动全身化疗",
+                  "胃镜活检失败即终止有创检查，改为经验性抗酸治疗观察两周后复查影像",
+                  "十二指肠肿块FDG摄取高即确诊为原发消化道肿瘤，按胃肠癌方案治疗"
+                ],
+                "answer": 0,
+                "answer_text": "针对分子检测结果与临床表现不符的疑难情况，应通过MDT重点讨论制定个体化方案",
+                "keyPoint": "形态学不典型或分子结果与临床不符的疑难病例需MDT重点讨论，制定循证个体化方案",
+                "explain": {
+                  "A": "PET/CT不确定且活检失败属疑难情况，指南要求对此类病例进行MDT重点讨论",
+                  "B": "PET/CT明确提示不排除同步原发，不能跳过组织学确诊直接按转移治疗",
+                  "C": "活检失败不等于终止诊断，EUS-FNAB等替代手段可获取组织，不应仅经验性观察",
+                  "D": "FDG高摄取非特异，原发消化道肿瘤与转移均可高摄取，不能仅凭PET定性"
+                },
+                "evidence_id": "GA03",
+                "support_mode": "hard",
+                "evidence_summary": "疑难病例如形态学不典型或分子结果与临床不符需MDT重点讨论，制定循证个体化方案",
+                "verification": {
+                  "quotes": {
+                    "A": [
+                      "针对疑难病例（如形态学不典型或分子检测结果与临床表现不符的病例）需进行重点讨论。通过多学科协作，为患者制定循证、个体化的诊疗方案"
+                    ],
+                    "B": [
+                      "针对疑难病例（如形态学不典型或分子检测结果与临床表现不符的病例）需进行重点讨论"
+                    ],
+                    "C": [
+                      "针对疑难病例（如形态学不典型或分子检测结果与临床表现不符的病例）需进行重点讨论"
+                    ],
+                    "D": [
+                      "针对疑难病例（如形态学不典型或分子检测结果与临床表现不符的病例）需进行重点讨论"
+                    ]
+                  },
+                  "case_facts": [
+                    {
+                      "field": "case_timeline",
+                      "quote": "18F-FDG PET/CT｜原左锁骨上及腋窝转移灶代谢已清除；十二指肠处FDG高度摄取肿块，伴多个腹膜后结节影；提示极可能为乳腺癌转移灶，亦不排除同步原发肿瘤可能"
+                    },
+                    {
+                      "field": "case_timeline",
+                      "quote": "胃镜｜十二指肠第三段无法通过，严重腔外压迫性狭窄，黏膜水肿显著；组织活检未能获得确诊性组织"
+                    }
+                  ],
+                  "closest_alternative": "B",
+                  "decision_boundary": "PET/CT明确写有'亦不排除同步原发'且活检失败，诊断未确立；若PET/CT结论确定且活检已确诊则无需MDT讨论"
+                }
+              },
+              {
+                "id": "Q5",
+                "type": "疗效复评与局部治疗",
+                "phase": "全身治疗后局部残留评估",
+                "timepoint": "2025年初两周期AC化疗后梗阻症状明显缓解",
+                "question": "乳腺癌十二指肠转移经两周期AC化疗后梗阻明显缓解，PET/CT示原转移灶代谢清除。以下后续处理正确的是？",
+                "options": [
+                  "梗阻缓解即视为完全缓解，无需任何影像学复查即可进入观察随访",
+                  "无论治疗决策如何，应按计划周期通过临床和影像学检查评估转移性疾病治疗反应",
+                  "梗阻缓解后必须追加十二指肠姑息性放疗以巩固局部控制，否则必然复发",
+                  "化疗两周期后梗阻缓解即达到治疗终点，应永久停用所有抗肿瘤治疗"
+                ],
+                "answer": 1,
+                "answer_text": "无论治疗决策如何，应按计划周期通过临床和影像学检查评估转移性疾病治疗反应",
+                "keyPoint": "影像学评估贯穿MDT全过程，无论治疗决策如何均应按计划周期评估转移灶治疗反应",
+                "explain": {
+                  "A": "梗阻缓解不等于影像学完全缓解，指南要求无论决策如何均应按周期评估治疗反应",
+                  "B": "指南明确建议无论治疗决策如何都应按计划周期通过临床和影像学检查评估反应",
+                  "C": "姑息放疗适用于有症状残留病灶，本例梗阻已缓解且无残留症状，非必须追加",
+                  "D": "转移性乳腺癌需持续全身治疗控制，两周期缓解远非治疗终点，不应永久停药"
+                },
+                "evidence_id": "GB01",
+                "support_mode": "hard",
+                "evidence_summary": "影像学检查贯穿MDT全过程，无论治疗决策如何均应按计划周期评估转移性疾病治疗反应",
+                "verification": {
+                  "quotes": {
+                    "A": [
+                      "建议无论治疗决策如何，都应按计划的周期通过临床和影像学检查（包括CT、骨扫描或PET/CT）评估转移性疾病患者的治疗反应"
+                    ],
+                    "B": [
+                      "建议无论治疗决策如何，都应按计划的周期通过临床和影像学检查（包括CT、骨扫描或PET/CT）评估转移性疾病患者的治疗反应"
+                    ],
+                    "C": [
+                      "建议无论治疗决策如何，都应按计划的周期通过临床和影像学检查（包括CT、骨扫描或PET/CT）评估转移性疾病患者的治疗反应"
+                    ],
+                    "D": [
+                      "建议无论治疗决策如何，都应按计划的周期通过临床和影像学检查（包括CT、骨扫描或PET/CT）评估转移性疾病患者的治疗反应"
+                    ]
+                  },
+                  "case_facts": [
+                    {
+                      "field": "case_timeline",
+                      "quote": "鉴于转移负荷尚可、全身情况允许，采用化疗；给予两周期环磷酰胺联合阿霉素后，梗阻症状明显缓解，无需进一步介入治疗"
+                    },
+                    {
+                      "field": "case_timeline",
+                      "quote": "18F-FDG PET/CT｜原左锁骨上及腋窝转移灶代谢已清除；十二指肠处FDG高度摄取肿块"
+                    }
+                  ],
+                  "closest_alternative": "C",
+                  "decision_boundary": "本例梗阻已缓解且无残留症状，姑息放疗无适应证；若化疗后仍有残留梗阻或局部进展则放疗可考虑"
+                }
+              }
+            ]
+          },
+          "partial_draft_questions": [],
+          "model_execution": {
+            "model": "qwen3.8-flash",
+            "max_output_tokens_configured": 16000,
+            "first_round_char_count": 1624,
+            "second_round_char_count": 6980,
+            "finish_reason": null,
+            "finish_reason_availability": "not_exposed_by_workflow_outputs"
+          }
+        },
+        "flow_publishable": false,
+        "output_ready": false,
+        "medical_review_status": "not_performed",
+        "generation_status": "insufficient",
+        "evidence_context_status": "not_provided"
+      }
+    ],
+    "warnings": [
+      "Q2 [OPTION_QUOTE_NOT_FOUND] B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q2 [OPTION_QUOTE_NOT_FOUND] D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "EVIDENCE_VERIFICATION_FAILED：未取得与全部题号对应的原句核对通过结果。",
+      "为保护位置相关选项语义，本组答案分布未均衡；这不是证据不足，不删除题目。"
+    ]
+  }
+}

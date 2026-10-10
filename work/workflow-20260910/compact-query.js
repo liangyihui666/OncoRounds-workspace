@@ -1,0 +1,40 @@
+// Only retrieval excerpts are reduced. Original case and review evidence stay intact.
+function main(inputs) {
+  const config = __QUERY_CONFIG__;
+  const source = inputs || {};
+  const report = {version:'query-500-1', max_length:480, omitted_segments:{}};
+  function clean(value) { return typeof value === 'string' ? value.replace(/\s+/g,' ').trim() : ''; }
+  function excerpt(value, budget, key) {
+    const text = clean(value);
+    if (text.length <= budget) return text;
+    // Keep complete source clauses, including negations and numerical thresholds.
+    // Do not cut a long sentence into a new clinical assertion.
+    const parts = text.split(/[；;。\n]/).map(s=>s.trim()).filter(Boolean);
+    const kept=[]; let length=0, omitted=0;
+    for(const part of parts) {
+      if(length + part.length + (kept.length ? 1 : 0) <= budget) {
+        kept.push(part); length += part.length + (kept.length > 1 ? 1 : 0);
+      } else omitted++;
+    }
+    report.omitted_segments[key]=omitted;
+    return kept.join('；');
+  }
+  let disease=clean(source.disease);
+  if(disease.length>130) {
+    disease=clean(source.second_cancer_type);
+    report.disease_fallback='具体疾病字段过长，检索采用已确定的二级原发癌种；完整诊断仍保留在病例包';
+  }
+  if(disease.length>130) { disease=''; report.disease_fallback='疾病名称超过预算，未截断名称'; }
+  const lines=[config.purpose];
+  if(disease) lines.push('原发诊断：'+disease);
+  for(const field of config.fields) {
+    const text=excerpt(source[field.key],field.budget,field.key);
+    if(text) lines.push(field.label+'：'+text);
+  }
+  lines.push(config.scope);
+  const query=lines.join('\n');
+  // Budgets include a margin below the tool's 500-character limit.
+  if(query.length>480) throw new Error('检索词配置超过480字符预算');
+  report.query_length=query.length;
+  return {system_text:query,query_report:report};
+}

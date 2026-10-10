@@ -1,0 +1,4182 @@
+[
+  {
+    "case_id": "CASE-4FDC8196",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "NCCN",
+      "source_title": "Small Bowel Adenocarcinoma, Version 1.2020, NCCN Clinical Practice Guidelines in Oncology",
+      "source_version": "1.2020",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10191182/",
+      "evidence_summary": "小肠腺癌诊断评估结合原发灶检查、影像及病理，以确定部位和病变范围。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-4FDC8196",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "NCCN",
+      "source_title": "Small Bowel Adenocarcinoma, Version 1.2020, NCCN Clinical Practice Guidelines in Oncology",
+      "source_version": "1.2020",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10191182/",
+      "evidence_summary": "小肠腺癌推荐MMR/MSI评估，分子结果需按实际检测内容用于决策。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-4FDC8196",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "NCCN",
+      "source_title": "Small Bowel Adenocarcinoma, Version 1.2020, NCCN Clinical Practice Guidelines in Oncology",
+      "source_version": "1.2020",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10191182/",
+      "evidence_summary": "公开NCCN小肠腺癌指南列有FOLFOX等转移性疾病全身方案，治疗选择结合患者状况。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-4FDC8196",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ASH",
+      "source_title": "American Society of Hematology 2021 guidelines for management of venous thromboembolism: prevention and treatment in patients with cancer",
+      "source_version": "2021",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7903232/",
+      "evidence_summary": "肿瘤相关VTE治疗选择需考虑出血风险、肾功能和相互作用，DOAC在消化道癌中应谨慎使用。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-4FDC8196",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ASCO",
+      "source_title": "Prevention and Management of Chemotherapy-Induced Peripheral Neuropathy in Survivors of Adult Cancers: ASCO Guideline Update",
+      "source_version": "2020",
+      "source_section": "",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/32663120/",
+      "evidence_summary": "不可耐受神经病变或功能损害时，应评估延迟、减量、替换或停止化疗的适宜性。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-E9E45955",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "临床研究",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "The utility of PAX8 and SATB2 immunohistochemical stains in distinguishing ovarian mucinous neoplasms from colonic and appendiceal mucinous neoplasm",
+      "source_version": "2019",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6880435/",
+      "evidence_summary": "PAX8阴性不是排除卵巢黏液性原发癌的充分条件。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-E9E45955",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "NCCN",
+      "source_title": "Small Bowel Adenocarcinoma, Version 1.2020, NCCN Clinical Practice Guidelines in Oncology",
+      "source_version": "1.2020",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10191182/",
+      "evidence_summary": "小肠与结肠N分期阈值不同，M1决定小肠腺癌IV期。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-E9E45955",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "NCCN",
+      "source_title": "Small Bowel Adenocarcinoma, Version 1.2020, NCCN Clinical Practice Guidelines in Oncology",
+      "source_version": "1.2020",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10191182/",
+      "evidence_summary": "转移性小肠癌术后治疗不能直接等同非转移III期辅助治疗。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-E9E45955",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "NCCN",
+      "source_title": "Small Bowel Adenocarcinoma, Version 1.2020, NCCN Clinical Practice Guidelines in Oncology",
+      "source_version": "1.2020",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10191182/",
+      "evidence_summary": "小肠腺癌的MMR/MSI评估有助治疗选择及遗传风险筛查。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-E9E45955",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "NCCN",
+      "source_title": "Small Bowel Adenocarcinoma, Version 1.2020, NCCN Clinical Practice Guidelines in Oncology",
+      "source_version": "1.2020",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10191182/",
+      "evidence_summary": "小肠癌复评需临床、影像与相关标志物结合。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-CC5590E2",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "病例+临床推理",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "Molecular complete response to the RIN protocol in a patient with advanced recurrent metastatic pMMR/MSS rectal cancer",
+      "source_version": "2026",
+      "source_section": "",
+      "source_url": "https://doi.org/10.1177/17588359261432049",
+      "evidence_summary": "复发决策需更新疾病范围，并整合既往局部治疗信息。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-CC5590E2",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "IDSA",
+      "source_title": "Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections: 2014 Update",
+      "source_version": "2014",
+      "source_section": "",
+      "source_url": "https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/",
+      "evidence_summary": "坏死性筋膜炎需及时感染源控制和系统治疗。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-CC5590E2",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "临床研究",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "Regorafenib, Ipilimumab, and Nivolumab for Patients With Microsatellite Stable Colorectal Cancer and Disease Progression With Prior Chemotherapy: A Phase 1 Nonrandomized Clinical Trial",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/36892833/",
+      "evidence_summary": "早期研究的活性信号不等于普遍标准治疗。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-CC5590E2",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESTRO / EORTC",
+      "source_title": "ESTRO and EORTC consensus on re-irradiation: definition, reporting, and clinical decision making",
+      "source_version": "2022",
+      "source_section": "",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/36174633/",
+      "evidence_summary": "再照射应综合累积剂量与组织状况，不能仅比较分次数。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-CC5590E2",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "ESMO recommendations on the use of circulating tumour DNA assays for patients with cancer",
+      "source_version": "2022",
+      "source_section": "",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/35809752/",
+      "evidence_summary": "ctDNA及CEA转阴不能独立建立治愈或停药标准。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-14D22BE9",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ASCO / SNO / ASTRO",
+      "source_title": "Treatment for Brain Metastases: ASCO-SNO-ASTRO Guideline",
+      "source_version": "2022",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8917399/",
+      "evidence_summary": "症状性脑转移的局部处理不应仅等待系统疗效。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-14D22BE9",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "病例+临床推理",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "HER2-positive rectal adenocarcinoma metastatic to the pancreas complicated by obstructive pancreatitis and an infected pseudocyst: a case report",
+      "source_version": "2026",
+      "source_section": "",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42455446/",
+      "evidence_summary": "罕见转移需将组织形态、免疫表型与临床病史共同解释。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-14D22BE9",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "病例+临床推理",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "HER2-positive rectal adenocarcinoma metastatic to the pancreas complicated by obstructive pancreatitis and an infected pseudocyst: a case report",
+      "source_version": "2026",
+      "source_section": "",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42455446/",
+      "evidence_summary": "降低骨髓抑制风险不能替代对持续感染的处理。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-14D22BE9",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "临床研究",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "Pertuzumab plus trastuzumab for HER2-amplified metastatic colorectal cancer (MyPathway): an updated report from a multicentre, open-label, phase 2a, multiple basket study",
+      "source_version": "2019",
+      "source_section": "",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/30857956/",
+      "evidence_summary": "靶点相同仍需核对线次、扩增定义与合并症条件。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-14D22BE9",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "RECIST Working Group",
+      "source_title": "New response evaluation criteria in solid tumours: revised RECIST guideline (version 1.1)",
+      "source_version": "2009",
+      "source_section": "",
+      "source_url": "https://project.eortc.org/recist/wp-content/uploads/sites/4/2015/03/RECISTGuidelines.pdf",
+      "evidence_summary": "局部缩小和标志物下降不能独立完成全身疗效分级。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-BE8833A9",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic colorectal cancer",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10220270/",
+      "evidence_summary": "转化机会出现时及时评估，影像消失不代表病灶已清除。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-BE8833A9",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "药品说明书",
+      "doc_id": "",
+      "split_index": null,
+      "type": "drug_label",
+      "authority": "Genentech / 美国处方信息",
+      "source_title": "AVASTIN Prescribing Information",
+      "source_version": "在线版本（核查于2026-09-10）",
+      "source_section": "",
+      "source_url": "https://www.gene.com/download/pdf/avastin_prescribing.pdf",
+      "evidence_summary": "贝伐珠单抗围手术期管理需兼顾停药时间与实际愈合情况。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-BE8833A9",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "CACA",
+      "source_title": "中国肿瘤整合诊治技术指南（CACA） 整体支持",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "",
+      "evidence_summary": "深溃疡需评估安全风险，有限阴性病理不能终止后续鉴别。（原引用书目信息保留；本轮未取得对应原文分块，支持范围待复核。）"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-BE8833A9",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic colorectal cancer",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10220270/",
+      "evidence_summary": "后线检测应围绕实际选药问题，补齐而非机械重复。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-BE8833A9",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic colorectal cancer",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10220270/",
+      "evidence_summary": "后线药物选择同时考虑既往使用情况与当前风险。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-A8792225",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic colorectal cancer",
+      "source_version": "2023",
+      "source_section": "Diagnosis, pathology and molecular biology; Treatment",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10220270/",
+      "evidence_summary": "ESMO推荐抗EGFR治疗前检测RAS；可使用原发灶或转移灶，并开展MMR/MSI等基线评估。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-A8792225",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic colorectal cancer",
+      "source_version": "2023",
+      "source_section": "Diagnosis, pathology and molecular biology; Treatment",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10220270/",
+      "evidence_summary": "ESMO支持适宜的左侧RAS/BRAF野生型患者采用双药化疗联合抗EGFR；完整一线决策还需分子与临床评估。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-A8792225",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "药品说明书",
+      "doc_id": "",
+      "split_index": null,
+      "type": "drug_label",
+      "authority": "DailyMed / 美国处方信息",
+      "source_title": "ERBITUX (cetuximab) Prescribing Information",
+      "source_version": "在线版本（核查于2026-09-09）",
+      "source_section": "Dosage Modifications for Adverse Reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8bc6397e-4bd8-4d37-a007-a327e4da34d9",
+      "evidence_summary": "西妥昔单抗说明书对3～4级皮肤毒性规定延期及分次调整策略，而非不加区分地继续原剂量。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-A8792225",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic colorectal cancer",
+      "source_version": "2023",
+      "source_section": "Diagnosis, pathology and molecular biology; Treatment",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10220270/",
+      "evidence_summary": "ESMO强调转移性结直肠癌的多学科管理和动态可切除性评估；具体手术时点来自本病例。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-A8792225",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "药品说明书",
+      "doc_id": "",
+      "split_index": null,
+      "type": "drug_label",
+      "authority": "DailyMed / 美国处方信息",
+      "source_title": "Oxaliplatin injection Prescribing Information",
+      "source_version": "在线版本（核查于2026-09-09）",
+      "source_section": "Hypersensitivity Reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=86f6c19d-30d1-42e3-8d46-5e3f45776e85",
+      "evidence_summary": "奥沙利铂说明书警示严重超敏反应，确认相关过敏时需停用；本例责任药物和分级未详。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-9236151F",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "AASLD",
+      "source_title": "AASLD Practice Guidance on prevention, diagnosis, and treatment of hepatocellular carcinoma",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10663390/",
+      "evidence_summary": "AFP不具肝癌独占特异性，诊断需结合影像和病理。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-9236151F",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "权威诊疗资料",
+      "doc_id": "",
+      "split_index": null,
+      "type": "reference",
+      "authority": "NCI",
+      "source_title": "Colon Cancer Treatment (PDQ®)–Health Professional Version",
+      "source_version": "",
+      "source_section": "",
+      "source_url": "https://www.cancer.gov/types/colorectal/hp/colon-treatment-pdq",
+      "evidence_summary": "T分期与淋巴结分期分别核验，矛盾病理表述需回到原始标本。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-9236151F",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ASCO",
+      "source_title": "Duration of Oxaliplatin-Containing Adjuvant Therapy for Stage III Colon Cancer: ASCO Clinical Practice Guideline",
+      "source_version": "2019",
+      "source_section": "",
+      "source_url": "https://ascopubs.org/doi/10.1200/JCO.19.00281",
+      "evidence_summary": "N2属于高危III期，辅助疗程应按风险与方案讨论。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-9236151F",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "权威诊疗资料",
+      "doc_id": "",
+      "split_index": null,
+      "type": "reference",
+      "authority": "NCI",
+      "source_title": "Colon Cancer Treatment (PDQ®)–Health Professional Version",
+      "source_version": "",
+      "source_section": "",
+      "source_url": "https://www.cancer.gov/types/colorectal/hp/colon-treatment-pdq",
+      "evidence_summary": "结肠癌术后随访不能由单个肿瘤标志物替代。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-9236151F",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "权威诊疗资料",
+      "doc_id": "",
+      "split_index": null,
+      "type": "reference",
+      "authority": "NCI",
+      "source_title": "Colon Cancer Treatment (PDQ®)–Health Professional Version",
+      "source_version": "",
+      "source_section": "",
+      "source_url": "https://www.cancer.gov/types/colorectal/hp/colon-treatment-pdq",
+      "evidence_summary": "有症状结肠原发灶需评估局部并发症及干预时机。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-6E841405",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "权威诊疗资料",
+      "doc_id": "",
+      "split_index": null,
+      "type": "reference",
+      "authority": "NCI",
+      "source_title": "Colon Cancer Treatment (PDQ®)–Health Professional Version",
+      "source_version": "",
+      "source_section": "",
+      "source_url": "https://www.cancer.gov/types/colorectal/hp/colon-treatment-pdq",
+      "evidence_summary": "结肠癌无区域淋巴结转移而有合格肿瘤沉积灶时为N1c。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-6E841405",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "权威诊疗资料",
+      "doc_id": "",
+      "split_index": null,
+      "type": "reference",
+      "authority": "NCI",
+      "source_title": "Genetics of Colorectal Cancer (PDQ®)–Health Professional Version",
+      "source_version": "",
+      "source_section": "",
+      "source_url": "https://www.cancer.gov/types/colorectal/hp/colorectal-genetics-pdq",
+      "evidence_summary": "MSI-H不等于Lynch确诊，年轻发病及家族史需进一步遗传评估。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-6E841405",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ASCO",
+      "source_title": "Treatment of Metastatic Colorectal Cancer: ASCO Guideline",
+      "source_version": "2022",
+      "source_section": "",
+      "source_url": "https://ascopubs.org/doi/10.1200/JCO.22.01690",
+      "evidence_summary": "MSI-H的免疫治疗证据不能自动扩展至未经验证的联合方案。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-6E841405",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ASCO",
+      "source_title": "Treatment of Metastatic Colorectal Cancer: ASCO Guideline",
+      "source_version": "2022",
+      "source_section": "",
+      "source_url": "https://ascopubs.org/doi/10.1200/JCO.22.01690",
+      "evidence_summary": "结直肠肝转移手术以可切除性和潜在获益为依据，不能仅为确认pCR。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-6E841405",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "病例+临床推理",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "Efficacy of Combined PD-1 Inhibitor and Bevacizumab in Unresectable Liver Metastasis of MSI-H Colorectal Cancer: A Case Report",
+      "source_version": "2025",
+      "source_section": "",
+      "source_url": "https://doi.org/10.12659/AJCR.946757",
+      "evidence_summary": "单例多阶段治疗不能分离药物贡献或建立普遍疗程标准。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-FCB62584",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "药品说明书",
+      "doc_id": "",
+      "split_index": null,
+      "type": "drug_label",
+      "authority": "Eisai",
+      "source_title": "LENVIMA (lenvatinib) Prescribing Information",
+      "source_version": "01/2025",
+      "source_section": "",
+      "source_url": "https://www.lenvima.com/-/media/Files/Lenvima/PDF/prescribing-information.pdf?hash=3333af56-2b35-4a0a-9bf2-4d61ce49f88b",
+      "evidence_summary": "尿试纸蛋白≥2+时应获取24小时尿蛋白；用药调整依据严重程度。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-FCB62584",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "药品说明书",
+      "doc_id": "",
+      "split_index": null,
+      "type": "drug_label",
+      "authority": "Eisai",
+      "source_title": "LENVIMA (lenvatinib) Prescribing Information",
+      "source_version": "01/2025",
+      "source_section": "",
+      "source_url": "https://www.lenvima.com/-/media/Files/Lenvima/PDF/prescribing-information.pdf?hash=3333af56-2b35-4a0a-9bf2-4d61ce49f88b",
+      "evidence_summary": "仑伐替尼说明书规定发生肾病综合征时永久停药。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-FCB62584",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "药品说明书",
+      "doc_id": "",
+      "split_index": null,
+      "type": "drug_label",
+      "authority": "Eisai",
+      "source_title": "LENVIMA (lenvatinib) Prescribing Information",
+      "source_version": "01/2025",
+      "source_section": "",
+      "source_url": "https://www.lenvima.com/-/media/Files/Lenvima/PDF/prescribing-information.pdf?hash=3333af56-2b35-4a0a-9bf2-4d61ce49f88b",
+      "evidence_summary": "说明书要求监测蛋白尿及肾功能，并依据肾脏不良事件的严重程度处理。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-FCB62584",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "AASLD",
+      "source_title": "AASLD Practice Guidance on prevention, diagnosis, and treatment of hepatocellular carcinoma",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10663390/",
+      "evidence_summary": "HCC后线治疗推荐按具体药物、既往治疗与肝功能等条件区分，不能作整类药物的无条件外推。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-FCB62584",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "AASLD",
+      "source_title": "AASLD Practice Guidance on prevention, diagnosis, and treatment of hepatocellular carcinoma",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10663390/",
+      "evidence_summary": "局部消融需评估肿瘤大小、位置、肝功能及整体疾病状态。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-DB524C69",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "病例+临床推理",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "Adrenal metastasis of hepatocellular carcinoma after liver transplantation: Case report and systematic review of literature",
+      "source_version": "2026",
+      "source_section": "",
+      "source_url": "https://www.wjgnet.com/2220-3230/full/v16/i2/116999.htm",
+      "evidence_summary": "原始病例记录急诊栓塞止血后再行肾上腺切除；该资料为病例及病例文献综述，不是随机试验。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-DB524C69",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "病例+临床推理",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "Adrenal metastasis of hepatocellular carcinoma after liver transplantation: Case report and systematic review of literature",
+      "source_version": "2026",
+      "source_section": "",
+      "source_url": "https://www.wjgnet.com/2220-3230/full/v16/i2/116999.htm",
+      "evidence_summary": "文献综述将肝功能保留、无其他复发转移及手术耐受性作为考虑切除的重要条件，证据以病例资料为主。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-DB524C69",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "临床研究",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "Sirolimus Use in Liver Transplant Recipients With Hepatocellular Carcinoma: A Randomized, Multicenter, Open-Label Phase 3 Trial",
+      "source_version": "2016",
+      "source_section": "",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26555945/",
+      "evidence_summary": "SiLVER试验总体研究末无复发生存差异未显著；部分早期及亚组分析提示可能获益。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-DB524C69",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "AASLD",
+      "source_title": "AASLD Practice Guidance on prevention, diagnosis, and treatment of hepatocellular carcinoma",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10663390/",
+      "evidence_summary": "AASLD不建议在肝移植后复发HCC中使用ICI，理由为移植物丢失及死亡风险增加。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-DB524C69",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "AASLD",
+      "source_title": "AASLD Practice Guidance on prevention, diagnosis, and treatment of hepatocellular carcinoma",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10663390/",
+      "evidence_summary": "肝移植后HCC随访需结合胸腹部影像；肿瘤标志物异常时应考虑进一步复评。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-E251EF18",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "AASLD",
+      "source_title": "AASLD Practice Guidance on prevention, diagnosis, and treatment of hepatocellular carcinoma",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10663390/",
+      "evidence_summary": "肝功能与出血风险是独立评估维度，替代方案也有自身风险。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-E251EF18",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "SITC",
+      "source_title": "Society for Immunotherapy of Cancer (SITC) clinical practice guideline on immune checkpoint inhibitor-related adverse events",
+      "source_version": "2021",
+      "source_section": "",
+      "source_url": "https://jitc.bmj.com/content/9/6/e002435",
+      "evidence_summary": "疑似免疫相关肾损伤需结合基线、尿检和替代病因。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-E251EF18",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "病例+临床推理",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "Durable Response to Combined Nivolumab, Lenvatinib, and Radiation Therapy Against Oligometastatic Hepatocellular Carcinoma",
+      "source_version": "2024",
+      "source_section": "",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39669840/",
+      "evidence_summary": "局部放疗需按器官、病灶与正常组织风险个体化制定。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-E251EF18",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "AASLD",
+      "source_title": "AASLD Practice Guidance on prevention, diagnosis, and treatment of hepatocellular carcinoma",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10663390/",
+      "evidence_summary": "AFP是辅助监测信息，不能独立确定完全缓解。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-E251EF18",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "病例+临床推理",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "Durable Response to Combined Nivolumab, Lenvatinib, and Radiation Therapy Against Oligometastatic Hepatocellular Carcinoma",
+      "source_version": "2024",
+      "source_section": "",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39669840/",
+      "evidence_summary": "长期个案获控不等于验证了统一停药或联合增效规则。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-29CA171F",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with gastric cancer",
+      "source_version": "2024",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10937212/",
+      "evidence_summary": "胃癌预测性标志物应按具体检测和相应治疗证据解释。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-29CA171F",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "eviQ / Cancer Institute NSW",
+      "source_title": "Gastric and gastroesophageal metastatic CAPOX (XELOX) and nivolumab (ID 4045)",
+      "source_version": "",
+      "source_section": "",
+      "source_url": "https://www.eviq.org.au/medical-oncology/upper-gastrointestinal/gastric-and-oesophageal-metastatic/4045-gastric-and-gastroesophageal-metastatic-capox",
+      "evidence_summary": "CAPOX剂量调整需依据血象及临床恢复，不能以疗效替代安全性评估。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-29CA171F",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "病例+临床推理",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "Durable Complete Remission of Metastatic Gastric Cancer Following Platinum-Based Chemotherapy: A Case Report",
+      "source_version": "2024",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11760335/",
+      "evidence_summary": "个案停药后的良好结局不能反向证明固定停药策略。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-29CA171F",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "RECIST Working Group",
+      "source_title": "New response evaluation criteria in solid tumours: revised RECIST guideline (version 1.1)",
+      "source_version": "2009",
+      "source_section": "",
+      "source_url": "https://project.eortc.org/recist/wp-content/uploads/sites/4/2015/03/RECISTGuidelines.pdf",
+      "evidence_summary": "影像完全缓解与病理完全缓解不是同一终点。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-29CA171F",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with gastric cancer",
+      "source_version": "2024",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10937212/",
+      "evidence_summary": "胃癌随访应结合个体病情及分期安排，不由单项结果决定。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-351D64C1",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "临床研究",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649)",
+      "source_version": "2021",
+      "source_section": "",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/34102137/",
+      "evidence_summary": "结合多个标志物及试验条件解释获益，不混用CPS与TPS。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-351D64C1",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "临床研究",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649)",
+      "source_version": "2021",
+      "source_section": "",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/34102137/",
+      "evidence_summary": "引用研究时要匹配药物组成、治疗阶段和终点。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-351D64C1",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with gastric cancer",
+      "source_version": "2024",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10937212/",
+      "evidence_summary": "转化切除需评估全身病情与R0可行性，不能仅凭缩瘤。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-351D64C1",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "病例+临床推理",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "Pathological complete response in microsatellite-stable gastric cancer with liver and bulky lymph node metastases after nivolumab-based chemotherapy and surgery: a case report",
+      "source_version": "2026",
+      "source_section": "",
+      "source_url": "https://doi.org/10.3389/fimmu.2026.1750532",
+      "evidence_summary": "pCR是重要结果，但不是自动省略治疗或随访的通用标准。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-351D64C1",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "病例+临床推理",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "Pathological complete response in microsatellite-stable gastric cancer with liver and bulky lymph node metastases after nivolumab-based chemotherapy and surgery: a case report",
+      "source_version": "2026",
+      "source_section": "",
+      "source_url": "https://doi.org/10.3389/fimmu.2026.1750532",
+      "evidence_summary": "变异来源、致病性与预测价值应分别解释。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-F5639B6F",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for gastric cancer",
+      "source_version": "2024",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10937212/",
+      "evidence_summary": "晚期胃癌的分子评估应服务于当前系统治疗选择。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-F5639B6F",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "病例+临床推理",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "CACA",
+      "source_title": "中国肿瘤整合诊治技术指南（CACA） 病理诊断",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "",
+      "evidence_summary": "神经内分泌分化需形态与标记结合，不能凭单项阳性定型。（原引用书目信息保留；本轮未取得对应原文分块，支持范围待复核。）"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-F5639B6F",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "药品说明书",
+      "doc_id": "",
+      "split_index": null,
+      "type": "drug_label",
+      "authority": "DailyMed / 美国处方信息",
+      "source_title": "TEVIMBRA Prescribing Information: RATIONALE-305",
+      "source_version": "在线版本（核查于2026-09-10）",
+      "source_section": "",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=08ef1e3e-496f-4b0b-94ee-fbba3cc1985a&type=display",
+      "evidence_summary": "PD-L1评分体系与阈值必须对应具体研究和药物。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-F5639B6F",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for gastric cancer",
+      "source_version": "2024",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10937212/",
+      "evidence_summary": "转化手术前需评估影像可能漏检的腹膜播散。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-F5639B6F",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for gastric cancer",
+      "source_version": "2024",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10937212/",
+      "evidence_summary": "转化手术后治疗不能由原发灶pCR或固定时间窗单独决定。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-E07D1504",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "权威诊疗资料",
+      "doc_id": "",
+      "split_index": null,
+      "type": "reference",
+      "authority": "NCI",
+      "source_title": "Gastric Cancer Treatment (PDQ®)–Health Professional Version",
+      "source_version": "",
+      "source_section": "",
+      "source_url": "https://www.cancer.gov/types/stomach/hp/stomach-treatment-pdq",
+      "evidence_summary": "胃癌邻近结构直接侵犯与远处转移须区分。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-E07D1504",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with gastric cancer",
+      "source_version": "2024",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10937212/",
+      "evidence_summary": "HER2和MMR/MSI分别评价，不能因罕见共存而互相覆盖。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-E07D1504",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with gastric cancer",
+      "source_version": "2024",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10937212/",
+      "evidence_summary": "局部晚期胃癌治疗后手术需重新评价完整切除与手术风险。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-E07D1504",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "IDSA",
+      "source_title": "Clinical Practice Guideline for the Use of Antimicrobial Agents in Neutropenic Patients with Cancer: 2010 Update",
+      "source_version": "2010 update",
+      "source_section": "",
+      "source_url": "https://www.idsociety.org/practice-guideline/neutropenic-patients-with-cancer/",
+      "evidence_summary": "中性粒细胞减少伴感染需及时抗感染及风险评估。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-E07D1504",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "病例+临床推理",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "Management of HER2-positive and microsatellite instability-high advanced gastric cancer: a case report",
+      "source_version": "2024",
+      "source_section": "",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39398918/",
+      "evidence_summary": "单例联合治疗pCR不能确定机制、单药贡献或方案优效。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-8C6E34E9",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "CAP/ASCP/ASCO",
+      "source_title": "HER2 Testing and Clinical Decision Making in Gastroesophageal Adenocarcinoma: CAP/ASCP/ASCO Guideline",
+      "source_version": "2016",
+      "source_section": "HER2 testing and specimen handling",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6272805/",
+      "evidence_summary": "胃食管腺癌HER2检测须重视标本处理、肿瘤异质性及专用判读标准。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-8C6E34E9",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "临床研究",
+      "doc_id": "",
+      "split_index": null,
+      "type": "research",
+      "authority": "WJOG / Journal of Clinical Oncology",
+      "source_title": "Randomized, Phase II Study of Trastuzumab Beyond Progression: WJOG7112G (T-ACT Study)",
+      "source_version": "2020",
+      "source_section": "Results and Conclusion",
+      "source_url": "https://ascopubs.org/doi/abs/10.1200/JCO.19.03077",
+      "evidence_summary": "T-ACT随机Ⅱ期研究未显示曲妥珠单抗跨线联合紫杉醇改善PFS。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-8C6E34E9",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "临床研究",
+      "doc_id": "",
+      "split_index": null,
+      "type": "research",
+      "authority": "DESTINY-Gastric01 / NEJM",
+      "source_title": "Trastuzumab Deruxtecan in Previously Treated HER2-Positive Gastric Cancer",
+      "source_version": "2020",
+      "source_section": "Methods and Results",
+      "source_url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2004413",
+      "evidence_summary": "该研究纳入既往接受至少两种方案、包括曲妥珠单抗的HER2阳性胃癌患者，支持德曲妥珠单抗的后线活性。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-8C6E34E9",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "临床研究",
+      "doc_id": "",
+      "split_index": null,
+      "type": "research",
+      "authority": "WJOG / Journal of Clinical Oncology",
+      "source_title": "Randomized, Phase II Study of Trastuzumab Beyond Progression: WJOG7112G (T-ACT Study)",
+      "source_version": "2020",
+      "source_section": "Results and Conclusion",
+      "source_url": "https://ascopubs.org/doi/abs/10.1200/JCO.19.03077",
+      "evidence_summary": "T-ACT探索性分析观察到部分治疗后肿瘤组织HER2阳性丢失；该观察不能替代本例检测。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-8C6E34E9",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "药品说明书",
+      "doc_id": "",
+      "split_index": null,
+      "type": "drug_label",
+      "authority": "DailyMed / 美国处方信息",
+      "source_title": "ENHERTU (fam-trastuzumab deruxtecan-nxki) Prescribing Information",
+      "source_version": "2026（网页版本）",
+      "source_section": "Dosage and Administration; Warnings and Precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6",
+      "evidence_summary": "说明书按持续获益与耐受情况管理疗程，治疗通常持续至进展或不可接受毒性。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-6A44390F",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "临床研究",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "Trastuzumab Deruxtecan in Human Epidermal Growth Factor Receptor 2-Expressing Biliary Tract Cancer (HERB; NCCH1805): A Multicenter, Single-Arm, Phase II Trial",
+      "source_version": "2024",
+      "source_section": "",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39102634/",
+      "evidence_summary": "引用HER2研究前应核对具体检测定义，不补造IHC评分。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-6A44390F",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "临床研究",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "Trastuzumab Deruxtecan in Human Epidermal Growth Factor Receptor 2-Expressing Biliary Tract Cancer (HERB; NCCH1805): A Multicenter, Single-Arm, Phase II Trial",
+      "source_version": "2024",
+      "source_section": "",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39102634/",
+      "evidence_summary": "单臂研究可支持治疗活性，不能代替随机比较或联合方案证据。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-6A44390F",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "RECIST Working Group",
+      "source_title": "New response evaluation criteria in solid tumours: revised RECIST guideline (version 1.1)",
+      "source_version": "2009",
+      "source_section": "",
+      "source_url": "https://project.eortc.org/recist/wp-content/uploads/sites/4/2015/03/RECISTGuidelines.pdf",
+      "evidence_summary": "调整治疗前要区分残留病灶、可疑变化与确证进展。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-6A44390F",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "药品说明书",
+      "doc_id": "",
+      "split_index": null,
+      "type": "drug_label",
+      "authority": "DailyMed",
+      "source_title": "ENHERTU (fam-trastuzumab deruxtecan-nxki) prescribing information",
+      "source_version": "",
+      "source_section": "",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6",
+      "evidence_summary": "血液学毒性处理应依据具体指标，而非笼统的“骨髓抑制”。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-6A44390F",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "药品说明书",
+      "doc_id": "",
+      "split_index": null,
+      "type": "drug_label",
+      "authority": "DailyMed",
+      "source_title": "ENHERTU (fam-trastuzumab deruxtecan-nxki) prescribing information",
+      "source_version": "",
+      "source_section": "",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6",
+      "evidence_summary": "T-DXd相关ILD需早识别，症状性ILD与无症状影像异常的处理不同。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-46B8BDDE",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "权威诊疗资料",
+      "doc_id": "",
+      "split_index": null,
+      "type": "reference",
+      "authority": "NCI",
+      "source_title": "Bile Duct Cancer (Cholangiocarcinoma) Treatment (PDQ®)–Health Professional Version",
+      "source_version": "",
+      "source_section": "",
+      "source_url": "https://www.cancer.gov/types/liver/hp/bile-duct-treatment-pdq",
+      "evidence_summary": "AJCC第8版肝内胆管癌T4为直接侵犯局部肝外结构；肝内多灶本身不能证明T4。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-46B8BDDE",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "ESMO Clinical Practice Guideline interim update on the management of biliary tract cancer",
+      "source_version": "2024",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11846563/",
+      "evidence_summary": "晚期胆道癌推荐分子谱检测，以覆盖本病种具有治疗意义的改变。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-46B8BDDE",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "ESMO Clinical Practice Guideline interim update on the management of biliary tract cancer",
+      "source_version": "2024",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11846563/",
+      "evidence_summary": "ESMO胆道癌靶向治疗推荐对应具体分子改变、药物及病种证据，不能整体套用肺癌推荐。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-46B8BDDE",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "RECIST Working Group",
+      "source_title": "New response evaluation criteria in solid tumours: revised RECIST guideline (version 1.1)",
+      "source_version": "2009",
+      "source_section": "",
+      "source_url": "https://project.eortc.org/recist/wp-content/uploads/sites/4/2015/03/RECISTGuidelines.pdf",
+      "evidence_summary": "靶病灶PD要求径线总和较最小值增加≥20%且绝对增加≥5 mm；需综合新病灶及非靶病灶。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-46B8BDDE",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "ESMO Clinical Practice Guideline interim update on the management of biliary tract cancer",
+      "source_version": "2024",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11846563/",
+      "evidence_summary": "晚期胆道癌后续治疗需结合分子检测、患者状况及治疗可行性选择。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-8DC486E7",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "权威诊疗资料",
+      "doc_id": "",
+      "split_index": null,
+      "type": "reference",
+      "authority": "NCI",
+      "source_title": "Bile Duct Cancer (Cholangiocarcinoma) Treatment (PDQ®)–Health Professional Version",
+      "source_version": "",
+      "source_section": "",
+      "source_url": "https://www.cancer.gov/types/liver/hp/bile-duct-treatment-pdq",
+      "evidence_summary": "胆道癌分期需按具体原发部位和实际远处转移证据确定，M1不能由非特异性表现代替。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-8DC486E7",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "ESMO Clinical Practice Guideline interim update on the management of biliary tract cancer",
+      "source_version": "2024",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11846563/",
+      "evidence_summary": "晚期胆道癌在系统治疗开始时推荐分子谱检测，结果用于匹配治疗选择。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-8DC486E7",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "eviQ / Cancer Institute NSW",
+      "source_title": "Prevention of tumour lysis syndrome (ID 108)",
+      "source_version": "",
+      "source_section": "",
+      "source_url": "https://www.eviq.org.au/clinical-resources/side-effect-and-toxicity-management/prophylaxis-and-treatment/108-prevention-of-tumour-lysis-syndrome",
+      "evidence_summary": "TLS风险评估关注肿瘤负荷和肾功能；治疗前已存在实验室或临床TLS者也需处理。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-8DC486E7",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "eviQ / Cancer Institute NSW",
+      "source_title": "Prevention of tumour lysis syndrome (ID 108)",
+      "source_version": "",
+      "source_section": "",
+      "source_url": "https://www.eviq.org.au/clinical-resources/side-effect-and-toxicity-management/prophylaxis-and-treatment/108-prevention-of-tumour-lysis-syndrome",
+      "evidence_summary": "别嘌醇不清除既有尿酸；已有TLS、肾损伤或高尿酸时可考虑拉布立酶，并关注G6PD缺乏。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-8DC486E7",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "权威诊疗资料",
+      "doc_id": "",
+      "split_index": null,
+      "type": "reference",
+      "authority": "NCI",
+      "source_title": "Bile Duct Cancer (Cholangiocarcinoma) Treatment (PDQ®)–Health Professional Version",
+      "source_version": "",
+      "source_section": "",
+      "source_url": "https://www.cancer.gov/types/liver/hp/bile-duct-treatment-pdq",
+      "evidence_summary": "晚期胆道癌治疗需重视患者状况与症状缓解，支持及姑息治疗是管理的重要组成部分。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-7D7C02B3",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "病例+临床推理",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "CACA",
+      "source_title": "中国肿瘤整合诊治技术指南（CACA） 整体支持",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "",
+      "evidence_summary": "药物再暴露风险不能仅由皮疹级别或减量幅度推断。（原引用书目信息保留；本轮未取得对应原文分块，支持范围待复核。）"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-7D7C02B3",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "循证资料",
+      "doc_id": "",
+      "split_index": null,
+      "type": "evidence_summary",
+      "authority": "NCI",
+      "source_title": "Pancreatic Cancer Treatment (PDQ), Health Professional Version",
+      "source_version": "在线版本（核查于2026-09-10）",
+      "source_section": "",
+      "source_url": "https://www.cancer.gov/types/pancreatic/hp/pancreatic-treatment-pdq",
+      "evidence_summary": "微小但已证实的肝转移仍属于远处转移。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-7D7C02B3",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "临床研究",
+      "doc_id": "",
+      "split_index": null,
+      "type": "research",
+      "authority": "POLO / NEJM",
+      "source_title": "Maintenance Olaparib for Germline BRCA-Mutated Metastatic Pancreatic Cancer",
+      "source_version": "2019",
+      "source_section": "",
+      "source_url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1903387",
+      "evidence_summary": "POLO的适用范围受变异类型、疾病阶段和既往治疗限定。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-7D7C02B3",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "循证资料",
+      "doc_id": "",
+      "split_index": null,
+      "type": "evidence_summary",
+      "authority": "NCI",
+      "source_title": "Pancreatic Cancer Treatment (PDQ), Health Professional Version",
+      "source_version": "在线版本（核查于2026-09-10）",
+      "source_section": "",
+      "source_url": "https://www.cancer.gov/types/pancreatic/hp/pancreatic-treatment-pdq",
+      "evidence_summary": "转移性胰腺癌个案手术获益不等于通用手术指征。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-7D7C02B3",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ASCO",
+      "source_title": "Metastatic Pancreatic Cancer: ASCO Guideline Update",
+      "source_version": "2020",
+      "source_section": "",
+      "source_url": "https://ascopubs.org/doi/abs/10.1200/JCO.20.01364",
+      "evidence_summary": "核实BRCA报告属性，避免把组织变异等同于遗传诊断。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-CA70947A",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "循证资料",
+      "doc_id": "",
+      "split_index": null,
+      "type": "evidence_summary",
+      "authority": "NCI",
+      "source_title": "Pancreatic Cancer Treatment (PDQ), Health Professional Version",
+      "source_version": "在线版本（核查于2026-09-10）",
+      "source_section": "",
+      "source_url": "https://www.cancer.gov/types/pancreatic/hp/pancreatic-treatment-pdq",
+      "evidence_summary": "不可切除不等于不能治疗，需评估系统治疗和转化机会。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-CA70947A",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "循证资料",
+      "doc_id": "",
+      "split_index": null,
+      "type": "evidence_summary",
+      "authority": "NCI",
+      "source_title": "Pancreatic Cancer Treatment (PDQ), Health Professional Version",
+      "source_version": "在线版本（核查于2026-09-10）",
+      "source_section": "",
+      "source_url": "https://www.cancer.gov/types/pancreatic/hp/pancreatic-treatment-pdq",
+      "evidence_summary": "疗效反应和可切除性是相关但不同的评估维度。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-CA70947A",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "循证资料",
+      "doc_id": "",
+      "split_index": null,
+      "type": "evidence_summary",
+      "authority": "NCI",
+      "source_title": "Pancreatic Cancer Treatment (PDQ), Health Professional Version",
+      "source_version": "在线版本（核查于2026-09-10）",
+      "source_section": "",
+      "source_url": "https://www.cancer.gov/types/pancreatic/hp/pancreatic-treatment-pdq",
+      "evidence_summary": "转化手术需要评估可实现的切除质量与患者风险。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-CA70947A",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "CAP",
+      "source_title": "Protocol for the Examination of Specimens From Patients With Carcinoma of the Exocrine Pancreas",
+      "source_version": "2020 / 4.1.0.0",
+      "source_section": "",
+      "source_url": "https://www.cap.org/wp-content/uploads/protocols/cp-gihepatobiliary-pancreasexocrine-20-4100.pdf?download=true",
+      "evidence_summary": "治疗后病理既要评估残余肿瘤，也要评估切除质量。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-CA70947A",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "循证资料",
+      "doc_id": "",
+      "split_index": null,
+      "type": "evidence_summary",
+      "authority": "NCI",
+      "source_title": "Pancreatic Cancer Treatment (PDQ), Health Professional Version",
+      "source_version": "在线版本（核查于2026-09-10）",
+      "source_section": "",
+      "source_url": "https://www.cancer.gov/types/pancreatic/hp/pancreatic-treatment-pdq",
+      "evidence_summary": "充分术前治疗后的辅助决策需综合评估，不能机械追加。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-E3A31C4F",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "Japan Esophageal Society",
+      "source_title": "Esophageal cancer practice guidelines 2022 edited by the Japan esophageal society: part 1",
+      "source_version": "2022",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10024303/",
+      "evidence_summary": "pT1a-MM伴脉管侵犯的患者需考虑追加手术或放化疗。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-E3A31C4F",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "Japan Esophageal Society",
+      "source_title": "Esophageal cancer practice guidelines 2022 edited by the Japan esophageal society: part 1",
+      "source_version": "2022",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10024303/",
+      "evidence_summary": "早期食管癌治疗选择需进行临床分期并评估区域淋巴结，不能以单一局部因素代替整体评估。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-E3A31C4F",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "Korean Society of Gastrointestinal Endoscopy",
+      "source_title": "Clinical practice guideline for endoscopic resection of early gastrointestinal cancer",
+      "source_version": "2020",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8100377/",
+      "evidence_summary": "内镜切除后的风险评价分别考虑水平/垂直切缘和脉管侵犯等病理因素。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-E3A31C4F",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "Japan Esophageal Society",
+      "source_title": "Esophageal cancer practice guidelines 2022 edited by the Japan esophageal society: part 1",
+      "source_version": "2022",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10024303/",
+      "evidence_summary": "内镜切除后高危病理患者可讨论食管切除或放化疗，方案选择需个体化评估。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-E3A31C4F",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "临床研究",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "Final Analysis of Diagnostic Endoscopic Resection Followed by Selective Chemoradiotherapy for Stage I Esophageal Cancer: JCOG0508",
+      "source_version": "",
+      "source_section": "",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/36240951/",
+      "evidence_summary": "JCOG0508评价诊断性内镜切除后选择性放化疗策略，不是与食管切除术的随机头对头试验。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-55BF9202",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "IASLC",
+      "source_title": "Best Practices Recommendations for Diagnostic Immunohistochemistry in Lung Cancer",
+      "source_version": "2019",
+      "source_section": "Distinguishing primary lung cancers from metastatic cancers",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6422775/",
+      "evidence_summary": "IASLC建议以既往病理形态比较和临床背景鉴别原发与转移，缺乏可绝对区分的单一免疫标记。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-55BF9202",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "OMEC collaborators",
+      "source_title": "European clinical practice guidelines for the definition, diagnosis, and treatment of oligometastatic esophagogastric cancer (OMEC-4)",
+      "source_version": "2024",
+      "source_section": "Recommendations",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38678762/",
+      "evidence_summary": "OMEC-4要求明确转移分布，并推荐PET-CT用于考虑局部治疗者的分期与复评。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-55BF9202",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "OMEC collaborators",
+      "source_title": "European clinical practice guidelines for the definition, diagnosis, and treatment of oligometastatic esophagogastric cancer (OMEC-4)",
+      "source_version": "2024",
+      "source_section": "Recommendations",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38678762/",
+      "evidence_summary": "OMEC-4强调再分期后评估局部治疗适宜性，而非仅以单个病灶缩小或症状改善决定。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-55BF9202",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "OMEC collaborators",
+      "source_title": "European clinical practice guidelines for the definition, diagnosis, and treatment of oligometastatic esophagogastric cancer (OMEC-4)",
+      "source_version": "2024",
+      "source_section": "Recommendations",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38678762/",
+      "evidence_summary": "OMEC-4对无病间隔超过2年的异时性寡转移另有前置局部治疗建议，需结合适宜性评估。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-55BF9202",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "临床研究",
+      "doc_id": "",
+      "split_index": null,
+      "type": "research",
+      "authority": "ESO-Shanghai 13 / Lancet Gastroenterology & Hepatology",
+      "source_title": "Systemic therapy with or without local intervention for oligometastatic oesophageal squamous cell carcinoma (ESO-Shanghai 13)",
+      "source_version": "2024",
+      "source_section": "Methods and Interpretation",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37980921/",
+      "evidence_summary": "随机Ⅱ期ESO-Shanghai 13研究在原发受控、1～4处转移的食管鳞癌患者中比较系统治疗加或不加局部治疗。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-BD2810E1",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "AGA",
+      "source_title": "AGA Clinical Practice Update on the Diagnosis and Management of Atrophic Gastritis: Expert Review",
+      "source_version": "2021",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8740554/",
+      "evidence_summary": "新诊断恶性贫血且近期未行胃镜者，应以胃镜及分部位活检评估萎缩性胃炎和胃部肿瘤。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-BD2810E1",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ENETS",
+      "source_title": "European Neuroendocrine Tumor Society (ENETS) 2023 guidance paper for gastroduodenal neuroendocrine tumours (NETs) G1–G3",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://onlinelibrary.wiley.com/doi/10.1111/jne.13306",
+      "evidence_summary": "胃NET分型结合背景黏膜及胃泌素；分级评价增殖活性。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-BD2810E1",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ENETS",
+      "source_title": "European Neuroendocrine Tumor Society (ENETS) 2023 guidance paper for gastroduodenal neuroendocrine tumours (NETs) G1–G3",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://onlinelibrary.wiley.com/doi/10.1111/jne.13306",
+      "evidence_summary": "1型胃NET的处理依据尺寸、增殖分级和浸润风险；较大或高风险病灶需进一步局部评估。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-BD2810E1",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "NICE",
+      "source_title": "Vitamin B12 deficiency in over 16s: diagnosis and management (NG239)",
+      "source_version": "2024",
+      "source_section": "",
+      "source_url": "https://www.nice.org.uk/guidance/ng239/chapter/Recommendations",
+      "evidence_summary": "自身免疫性胃炎为已确诊或疑似病因时，推荐终身肌注维生素B12替代。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-BD2810E1",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ENETS",
+      "source_title": "European Neuroendocrine Tumor Society (ENETS) 2023 guidance paper for gastroduodenal neuroendocrine tumours (NETs) G1–G3",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://onlinelibrary.wiley.com/doi/10.1111/jne.13306",
+      "evidence_summary": "观察管理中的1型胃NET需要内镜随访；随访间隔结合局部风险和病灶变化确定。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-761970EB",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "中华医学会外科学分会胰腺外科学组",
+      "source_title": "中国胰腺神经内分泌肿瘤诊疗指南(2020)",
+      "source_version": "2020",
+      "source_section": "",
+      "source_url": "",
+      "evidence_summary": "神经内分泌肿瘤的分化与增殖分级需要分别评估。（原引用书目信息保留；本轮未取得对应原文分块，支持范围待复核。）"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-761970EB",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "循证资料",
+      "doc_id": "",
+      "split_index": null,
+      "type": "evidence_summary",
+      "authority": "NCI",
+      "source_title": "Pancreatic Neuroendocrine Tumors Treatment (PDQ), Health Professional Version",
+      "source_version": "在线版本（核查于2026-09-10）",
+      "source_section": "",
+      "source_url": "https://www.cancer.gov/types/pancreatic/hp/pnet-treatment-pdq",
+      "evidence_summary": "非功能型NET仍可讨论SSA，但需完整评估适宜性。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-761970EB",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "病例+临床推理",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "CSCO",
+      "source_title": "中国肿瘤共病防治专家共识（2025版）",
+      "source_version": "2025",
+      "source_section": "",
+      "source_url": "",
+      "evidence_summary": "非特异症状先明确原因，再决定是否调整抗肿瘤治疗。（原引用书目信息保留；本轮未取得对应原文分块，支持范围待复核。）"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-761970EB",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "循证资料",
+      "doc_id": "",
+      "split_index": null,
+      "type": "evidence_summary",
+      "authority": "NCI",
+      "source_title": "Pancreatic Neuroendocrine Tumors Treatment (PDQ), Health Professional Version",
+      "source_version": "在线版本（核查于2026-09-10）",
+      "source_section": "",
+      "source_url": "https://www.cancer.gov/types/pancreatic/hp/pnet-treatment-pdq",
+      "evidence_summary": "无法重取材时仍需决策，同时保留当前分级的不确定性。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-761970EB",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "循证资料",
+      "doc_id": "",
+      "split_index": null,
+      "type": "evidence_summary",
+      "authority": "NCI",
+      "source_title": "Pancreatic Neuroendocrine Tumors Treatment (PDQ), Health Professional Version",
+      "source_version": "在线版本（核查于2026-09-10）",
+      "source_section": "",
+      "source_url": "https://www.cancer.gov/types/pancreatic/hp/pnet-treatment-pdq",
+      "evidence_summary": "肝局部治疗的获益取决于病灶分布与器官安全条件。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-82A82F9C",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "权威诊疗资料",
+      "doc_id": "",
+      "split_index": null,
+      "type": "reference",
+      "authority": "NCI",
+      "source_title": "Breast Cancer Treatment During Pregnancy (PDQ®)–Health Professional Version",
+      "source_version": "",
+      "source_section": "",
+      "source_url": "https://www.cancer.gov/types/breast/hp/pregnancy-breast-treatment-pdq",
+      "evidence_summary": "可疑妊娠期乳腺肿块应及时获得病理依据。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-82A82F9C",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "病例+临床推理",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "Case Report: Breast cancer in pregnancy with placental metastasis",
+      "source_version": "2025",
+      "source_section": "",
+      "source_url": "https://doi.org/10.3389/fonc.2025.1573915",
+      "evidence_summary": "胎盘转移不能自动等同于胎儿转移。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-82A82F9C",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "权威诊疗资料",
+      "doc_id": "",
+      "split_index": null,
+      "type": "reference",
+      "authority": "NCI",
+      "source_title": "Breast Cancer Treatment During Pregnancy (PDQ®)–Health Professional Version",
+      "source_version": "",
+      "source_section": "",
+      "source_url": "https://www.cancer.gov/types/breast/hp/pregnancy-breast-treatment-pdq",
+      "evidence_summary": "孕期抗HER2用药限制与分娩时机应由多学科分别评估。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-82A82F9C",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, staging and treatment of patients with metastatic breast cancer",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+      "evidence_summary": "抗HER2治疗前应评估当前心功能并安排动态监测。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-82A82F9C",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESO / ESMO",
+      "source_title": "5th ESO-ESMO international consensus guidelines for advanced breast cancer (ABC 5)",
+      "source_version": "2020",
+      "source_section": "",
+      "source_url": "https://doi.org/10.1016/j.annonc.2020.09.010",
+      "evidence_summary": "Ⅳ期乳腺癌局部治疗需明确目标，不能由单次稳定自动决定。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-37BF6300",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "中华医学会病理学分会, CACA, 国家病理质控中心",
+      "source_title": "乳腺癌生物标志物检测临床应用指南",
+      "source_version": "2025",
+      "source_section": "",
+      "source_url": "",
+      "evidence_summary": "可靠的受体检测是制定乳腺癌治疗方案的基础。（原引用书目信息保留；本轮未取得对应原文分块，支持范围待复核。）"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-37BF6300",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "病例+临床推理",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "CACA",
+      "source_title": "全专结合全方位管理乳腺癌伴随疾病中国专家共识(2025版)",
+      "source_version": "2025",
+      "source_section": "",
+      "source_url": "",
+      "evidence_summary": "合并MPN时，抗栓与抗肿瘤治疗应共同评估风险。（原引用书目信息保留；本轮未取得对应原文分块，支持范围待复核。）"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-37BF6300",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic breast cancer",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+      "evidence_summary": "可及的新病灶应先明确性质，避免误判耐药。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-37BF6300",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "Desmoid Tumor Working Group",
+      "source_title": "The management of desmoid tumours: A joint global consensus-based guideline approach",
+      "source_version": "2020",
+      "source_section": "",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/32004793/",
+      "evidence_summary": "韧带样纤维瘤的重点是局部侵袭和复发风险。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-37BF6300",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ABC / ESMO",
+      "source_title": "6th and 7th International consensus guidelines for advanced breast cancer",
+      "source_version": "2024",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11231614/",
+      "evidence_summary": "换药应基于已确认的进展或耐受问题。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-C54DD4A4",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESO / ESMO",
+      "source_title": "5th ESO-ESMO international consensus guidelines for advanced breast cancer (ABC 5)",
+      "source_version": "2020",
+      "source_section": "",
+      "source_url": "https://doi.org/10.1016/j.annonc.2020.09.010",
+      "evidence_summary": "可疑首次转移应尽量获得组织学依据，同时完成分期评估。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-C54DD4A4",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESO / ESMO",
+      "source_title": "5th ESO-ESMO international consensus guidelines for advanced breast cancer (ABC 5)",
+      "source_version": "2020",
+      "source_section": "",
+      "source_url": "https://doi.org/10.1016/j.annonc.2020.09.010",
+      "evidence_summary": "转移性乳腺癌应复核HR/HER2，骨标本需关注技术限制。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-C54DD4A4",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, staging and treatment of patients with metastatic breast cancer",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+      "evidence_summary": "局部治疗决策需建立在完整转移范围评估上。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-C54DD4A4",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, staging and treatment of patients with metastatic breast cancer",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+      "evidence_summary": "骨转移局部治疗应兼顾机械稳定、疼痛及整体获益。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-C54DD4A4",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, staging and treatment of patients with metastatic breast cancer",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+      "evidence_summary": "骨改良治疗不能替代抗肿瘤治疗，须进行相应安全性评估。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-DE70CBF4",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESE/ENSAT",
+      "source_title": "European Society of Endocrinology clinical practice guidelines on the management of adrenal incidentalomas",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://academic.oup.com/ejendo/article/189/1/G1/7198474",
+      "evidence_summary": "肾上腺取材前须完成安全评估并明确临床价值。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-DE70CBF4",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic breast cancer",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+      "evidence_summary": "远期复发仍应关注当前病灶的受体状态。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-DE70CBF4",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic breast cancer",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+      "evidence_summary": "控制内分泌合并症后，按肿瘤分型与整体状态选药。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-DE70CBF4",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "Endocrine Society",
+      "source_title": "Diagnosis and Treatment of Primary Adrenal Insufficiency",
+      "source_version": "2016",
+      "source_section": "",
+      "source_url": "https://www.endocrine.org/clinical-practice-guidelines/primary-adrenal-insufficiency",
+      "evidence_summary": "肾上腺功能不全管理包括基础替代与应激预案。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-DE70CBF4",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "药品说明书",
+      "doc_id": "",
+      "split_index": null,
+      "type": "drug_label",
+      "authority": "Novartis / 美国处方信息",
+      "source_title": "KISQALI Prescribing Information",
+      "source_version": "在线版本（核查于2026-09-10）",
+      "source_section": "",
+      "source_url": "https://www.novartis.com/us-en/sites/novartis_us/files/kisqali.pdf",
+      "evidence_summary": "中性粒细胞减少的恢复剂量取决于分级、发热及复发情况。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-95977E69",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESTRO / EORTC",
+      "source_title": "ESTRO and EORTC consensus on re-irradiation: definition, reporting, and clinical decision making",
+      "source_version": "2022",
+      "source_section": "",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/36174633/",
+      "evidence_summary": "再照射风险来自累积剂量与组织条件，不只取决于单次处方。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-95977E69",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "药品说明书",
+      "doc_id": "",
+      "split_index": null,
+      "type": "drug_label",
+      "authority": "DailyMed",
+      "source_title": "TRUQAP (capivasertib) prescribing information",
+      "source_version": "",
+      "source_section": "",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d698c106-2322-401e-b738-cbd83c843ecf",
+      "evidence_summary": "区分通路位置、具体药物靶点与适用标志物。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-95977E69",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "药品说明书",
+      "doc_id": "",
+      "split_index": null,
+      "type": "drug_label",
+      "authority": "DailyMed",
+      "source_title": "TRUQAP (capivasertib) prescribing information",
+      "source_version": "",
+      "source_section": "",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d698c106-2322-401e-b738-cbd83c843ecf",
+      "evidence_summary": "间歇口服方案的停药日同样属于处方，额外服药必须纳入毒性评估。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-95977E69",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "药品说明书",
+      "doc_id": "",
+      "split_index": null,
+      "type": "drug_label",
+      "authority": "DailyMed",
+      "source_title": "TRUQAP (capivasertib) prescribing information",
+      "source_version": "",
+      "source_section": "",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d698c106-2322-401e-b738-cbd83c843ecf",
+      "evidence_summary": "放射回忆反应的线索不能替代严重药疹排查。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-95977E69",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "药品说明书",
+      "doc_id": "",
+      "split_index": null,
+      "type": "drug_label",
+      "authority": "DailyMed",
+      "source_title": "PIQRAY (alpelisib) prescribing information",
+      "source_version": "",
+      "source_section": "",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b20b4e18-7a4b-4500-a08f-06c6dab0ee5b",
+      "evidence_summary": "更换通路药物后仍需独立评估适应条件和药物特异性风险。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-22A52DF0",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ASTRO / ASCO / SSO",
+      "source_title": "Postmastectomy Radiation Therapy: An ASTRO-ASCO-SSO Clinical Practice Guideline",
+      "source_version": "2025",
+      "source_section": "",
+      "source_url": "https://ascopubs.org/doi/10.1200/JCO-25-01747",
+      "evidence_summary": "局部晚期或新辅助后残留淋巴结阳性支持乳房切除后放疗。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-22A52DF0",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "EANO / ESMO",
+      "source_title": "Leptomeningeal metastasis from solid tumours: EANO–ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10619142/",
+      "evidence_summary": "疑脑膜转移需结合神经系统影像、临床表现和CSF检查。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-22A52DF0",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "EANO / ESMO",
+      "source_title": "Leptomeningeal metastasis from solid tumours: EANO–ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10619142/",
+      "evidence_summary": "阳性CSF细胞学与MRI分布应分别用于确诊和病变范围评估。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-22A52DF0",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "EANO / ESMO",
+      "source_title": "Leptomeningeal metastasis from solid tumours: EANO–ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10619142/",
+      "evidence_summary": "鞘内治疗前需评价CSF流动，存在阻断时不能直接常规给药。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-22A52DF0",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "EANO / ESMO",
+      "source_title": "Leptomeningeal metastasis from solid tumours: EANO–ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10619142/",
+      "evidence_summary": "脑膜转移放疗应按病情选择，不能将全脑放疗普遍标准化。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-6E309B6B",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "病例+临床推理",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "Nocardia Nova bacteremia and viral pneumonia in a breast cancer patient post modified radical mastectomy: a case report",
+      "source_version": "2025",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12541933/",
+      "evidence_summary": "机会性感染需重视病原学，不能由正常炎症指标排除。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-6E309B6B",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "临床研究",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "Clinical and Radiological Characterization of Central Nervous System Involvement in Nocardiosis: A 20-Year Experience",
+      "source_version": "2024",
+      "source_section": "",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38406155/",
+      "evidence_summary": "诺卡菌播散评估不能仅依赖神经系统症状。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-6E309B6B",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "AAAAI / ACAAI",
+      "source_title": "Drug Allergy: A 2022 Practice Parameter Update",
+      "source_version": "2022",
+      "source_section": "",
+      "source_url": "https://www.aaaai.org/Aaaai/media/Media-Library-PDFs/Allergist%20Resources/Statements%20and%20Practice%20Parameters/Drug-Allergy-PP-9-2022.pdf",
+      "evidence_summary": "药敏敏感不等于患者可安全再暴露，先明确过敏表型。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-6E309B6B",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "病例+临床推理",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "Nocardia Nova bacteremia and viral pneumonia in a breast cancer patient post modified radical mastectomy: a case report",
+      "source_version": "2025",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12541933/",
+      "evidence_summary": "复发评估同时关注感染本身与疗程执行，避免把个案疗程固定化。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-6E309B6B",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "权威诊疗资料",
+      "doc_id": "",
+      "split_index": null,
+      "type": "reference",
+      "authority": "CDC",
+      "source_title": "Diagnostic Testing for RSV",
+      "source_version": "2026-02-24",
+      "source_section": "",
+      "source_url": "https://www.cdc.gov/rsv/hcp/clinical-overview/diagnostic-testing.html",
+      "evidence_summary": "共感染判断需区分血清学线索与呼吸道直接病原检测。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-C38F9D7E",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "药品说明书",
+      "doc_id": "",
+      "split_index": null,
+      "type": "drug_label",
+      "authority": "Novartis / 美国处方信息",
+      "source_title": "PIQRAY Prescribing Information",
+      "source_version": "在线版本（核查于2026-09-10）",
+      "source_section": "",
+      "source_url": "https://www.novartis.com/us-en/sites/novartis_us/files/piqray.pdf",
+      "evidence_summary": "血浆阳性可提供选药依据，阴性需考虑假阴性。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-C38F9D7E",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "药品说明书",
+      "doc_id": "",
+      "split_index": null,
+      "type": "drug_label",
+      "authority": "Novartis / 美国处方信息",
+      "source_title": "PIQRAY Prescribing Information",
+      "source_version": "在线版本（核查于2026-09-10）",
+      "source_section": "",
+      "source_url": "https://www.novartis.com/us-en/sites/novartis_us/files/piqray.pdf",
+      "evidence_summary": "可靶向突变要与适用人群和治疗风险一起判断。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-C38F9D7E",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "病例+临床推理",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "中华医学会病理学分会, CSCO, 国家病理质控中心",
+      "source_title": "中国乳腺癌PIK3CA基因突变检测专家共识(2025版)",
+      "source_version": "2025",
+      "source_section": "",
+      "source_url": "",
+      "evidence_summary": "多重突变数量不能替代位点层面的临床解释。（原引用书目信息保留；本轮未取得对应原文分块，支持范围待复核。）"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-C38F9D7E",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "药品说明书",
+      "doc_id": "",
+      "split_index": null,
+      "type": "drug_label",
+      "authority": "Novartis / 美国处方信息",
+      "source_title": "PIQRAY Prescribing Information",
+      "source_version": "在线版本（核查于2026-09-10）",
+      "source_section": "",
+      "source_url": "https://www.novartis.com/us-en/sites/novartis_us/files/piqray.pdf",
+      "evidence_summary": "皮疹管理先识别严重反应，再按具体等级调整。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-C38F9D7E",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ABC / ESMO",
+      "source_title": "6th and 7th International consensus guidelines for advanced breast cancer",
+      "source_version": "2024",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11231614/",
+      "evidence_summary": "寡进展的局部干预需要筛选，不能替代全身复评。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-8EB5623E",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "病例+临床推理",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "Duodenal obstruction secondary to metastatic breast cancer",
+      "source_version": "2025",
+      "source_section": "",
+      "source_url": "https://doi.org/10.4103/jcrt.jcrt_2022_24",
+      "evidence_summary": "非诊断性表浅取样不能排除深部肿瘤，应调整取样策略。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-8EB5623E",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "病例+临床推理",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "Duodenal obstruction secondary to metastatic breast cancer",
+      "source_version": "2025",
+      "source_section": "",
+      "source_url": "https://doi.org/10.4103/jcrt.jcrt_2022_24",
+      "evidence_summary": "罕见转移来源需综合病理与病史，未检测标志物不得补写。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-8EB5623E",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESO / ESMO",
+      "source_title": "5th ESO-ESMO international consensus guidelines for advanced breast cancer (ABC 5)",
+      "source_version": "2020",
+      "source_section": "",
+      "source_url": "https://doi.org/10.1016/j.annonc.2020.09.010",
+      "evidence_summary": "受体不一致需综合复核和临床解释，不能简单覆盖或忽略。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-8EB5623E",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, staging and treatment of patients with metastatic breast cancer",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+      "evidence_summary": "症状性转移的方案选择需兼顾紧急局部问题、既往治疗和器官功能。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-8EB5623E",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, staging and treatment of patients with metastatic breast cancer",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+      "evidence_summary": "症状改善与客观影像反应分别记录，复评频率需个体化。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-F5CEC3E2",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, staging and treatment of patients with metastatic breast cancer",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+      "evidence_summary": "PET/CT辅助复发评估，不能代替病理来源判断。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-F5CEC3E2",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESO / ESMO",
+      "source_title": "5th ESO-ESMO international consensus guidelines for advanced breast cancer (ABC 5)",
+      "source_version": "2020",
+      "source_section": "",
+      "source_url": "https://doi.org/10.1016/j.annonc.2020.09.010",
+      "evidence_summary": "转移受体未复核时应明确缺失，不默认已检测。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-F5CEC3E2",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, staging and treatment of patients with metastatic breast cancer",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+      "evidence_summary": "内分泌联合靶向治疗需结合既往暴露及当前临床紧迫性。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-F5CEC3E2",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ASCO / SNO / ASTRO",
+      "source_title": "Treatment for Brain Metastases: ASCO-SNO-ASTRO Guideline",
+      "source_version": "2022",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8917399/",
+      "evidence_summary": "脑转移局部和系统策略需按症状及病灶条件衔接。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-F5CEC3E2",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "RECIST Working Group",
+      "source_title": "New response evaluation criteria in solid tumours: revised RECIST guideline (version 1.1)",
+      "source_version": "2009",
+      "source_section": "",
+      "source_url": "https://project.eortc.org/recist/wp-content/uploads/sites/4/2015/03/RECISTGuidelines.pdf",
+      "evidence_summary": "总体反应需综合靶病灶、非靶病灶和新病灶。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-E920FEFC",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESO / ESMO",
+      "source_title": "5th ESO-ESMO international consensus guidelines for advanced breast cancer (ABC 5)",
+      "source_version": "2020",
+      "source_section": "",
+      "source_url": "https://doi.org/10.1016/j.annonc.2020.09.010",
+      "evidence_summary": "肝内脏危象的判断依赖功能损害和动态变化。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-E920FEFC",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, staging and treatment of patients with metastatic breast cancer",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+      "evidence_summary": "分子阴性结果应限定在实际检测的样本和范围内。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-E920FEFC",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "药品说明书",
+      "doc_id": "",
+      "split_index": null,
+      "type": "drug_label",
+      "authority": "DailyMed",
+      "source_title": "TRODELVY (sacituzumab govitecan) prescribing information",
+      "source_version": "2026-06",
+      "source_section": "",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d",
+      "evidence_summary": "器官功能与治疗线次是判断ADC证据能否外推的重要条件。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-E920FEFC",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "SITC",
+      "source_title": "Society for Immunotherapy of Cancer (SITC) clinical practice guideline on immune checkpoint inhibitor-related adverse events",
+      "source_version": "2021",
+      "source_section": "",
+      "source_url": "https://jitc.bmj.com/content/9/6/e002435",
+      "evidence_summary": "免疫相关病因需鉴别，尿路症状不能解释全部肾功能异常。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-E920FEFC",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "病例+临床推理",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "Efficacy of sacituzumab govitecan in triple-negative breast cancer with hepatic visceral crisis: a case report",
+      "source_version": "2026",
+      "source_section": "",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41836242/",
+      "evidence_summary": "真实世界结局复盘应记录可及性，同时避免单一因果推断。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-8B47BE60",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESO / ESMO",
+      "source_title": "5th ESO-ESMO international consensus guidelines for advanced breast cancer (ABC 5)",
+      "source_version": "2020",
+      "source_section": "",
+      "source_url": "https://doi.org/10.1016/j.annonc.2020.09.010",
+      "evidence_summary": "受体复核应兼顾可及性，既往阳性不等于本次已检测。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-8B47BE60",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ASCO / SNO / ASTRO",
+      "source_title": "Treatment for Brain Metastases: ASCO-SNO-ASTRO Guideline",
+      "source_version": "2022",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8917399/",
+      "evidence_summary": "症状性脑转移应评估局部控制，不能仅以系统药物替代判断。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-8B47BE60",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "病例+临床推理",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "Efficacy of disitamab vedotin (RC48) for previously treated human epidermal growth factor receptor 2-positive breast cancer with symptomatic brain metastases: a case report and review of the literature",
+      "source_version": "2025",
+      "source_section": "",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40063535/",
+      "evidence_summary": "个案颅内获益不能建立药物间优效或通用首选顺序。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-8B47BE60",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "病例+临床推理",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "Efficacy of disitamab vedotin (RC48) for previously treated human epidermal growth factor receptor 2-positive breast cancer with symptomatic brain metastases: a case report and review of the literature",
+      "source_version": "2025",
+      "source_section": "",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40063535/",
+      "evidence_summary": "症状反应、影像反应及随访终点需分别报告。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-8B47BE60",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "病例+临床推理",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "Efficacy of disitamab vedotin (RC48) for previously treated human epidermal growth factor receptor 2-positive breast cancer with symptomatic brain metastases: a case report and review of the literature",
+      "source_version": "2025",
+      "source_section": "",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40063535/",
+      "evidence_summary": "个案疗效不能替代血脑屏障通透性或药代机制验证。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-B559946D",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ASCO",
+      "source_title": "Management of Male Breast Cancer: ASCO Guideline",
+      "source_version": "2020",
+      "source_section": "",
+      "source_url": "https://ascopubs.org/doi/10.1200/JCO.19.03120",
+      "evidence_summary": "男性乳腺癌应关注胚系遗传风险，而非以耐药检测替代。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-B559946D",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ABC / ESMO",
+      "source_title": "6th and 7th International consensus guidelines for advanced breast cancer",
+      "source_version": "2024",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11231614/",
+      "evidence_summary": "内脏危象的核心是器官功能危急，而非转移部位本身。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-B559946D",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ABC / ESMO",
+      "source_title": "6th and 7th International consensus guidelines for advanced breast cancer",
+      "source_version": "2024",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11231614/",
+      "evidence_summary": "SD并非治疗失败，继续或换药需结合整体获益。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-B559946D",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ASCO",
+      "source_title": "Management of Male Breast Cancer: ASCO Guideline",
+      "source_version": "2020",
+      "source_section": "",
+      "source_url": "https://ascopubs.org/doi/10.1200/JCO.19.03120",
+      "evidence_summary": "化疗后仍需重新评估未使用过的内分泌联合路径。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-B559946D",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ASCO",
+      "source_title": "Management of Male Breast Cancer: ASCO Guideline",
+      "source_version": "2020",
+      "source_section": "",
+      "source_url": "https://ascopubs.org/doi/10.1200/JCO.19.03120",
+      "evidence_summary": "处理潮热时，同时维护男性内分泌方案的合理性。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-10436F33",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "病例+临床推理",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "Gastric metastasis and peritoneal carcinosis revealing primary breast cancer: an unusual presentation",
+      "source_version": "2024",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11185184/",
+      "evidence_summary": "症状与病理线索持续不一致时，应重新评估而非机械依赖首次阴性。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-10436F33",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "病例+临床推理",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "Gastric metastasis and peritoneal carcinosis revealing primary breast cancer: an unusual presentation",
+      "source_version": "2024",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11185184/",
+      "evidence_summary": "来源鉴别需要成组证据，单个受体结果不足以定论。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-10436F33",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESO / ESMO",
+      "source_title": "5th ESO-ESMO international consensus guidelines for advanced breast cancer (ABC 5)",
+      "source_version": "2020",
+      "source_section": "",
+      "source_url": "https://doi.org/10.1016/j.annonc.2020.09.010",
+      "evidence_summary": "系统治疗选择应关注器官功能与治疗可实施性，而非转移部位标签。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-10436F33",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, staging and treatment of patients with metastatic breast cancer",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+      "evidence_summary": "进展后应重新评估疾病和可用证据，不能机械延续原方案。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-10436F33",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "病例+临床推理",
+      "doc_id": "",
+      "split_index": null,
+      "type": "journal",
+      "authority": "",
+      "source_title": "Gastric metastasis and peritoneal carcinosis revealing primary breast cancer: an unusual presentation",
+      "source_version": "2024",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11185184/",
+      "evidence_summary": "转移部位的局部处理需明确症状目标，不能套用原发癌根治路径。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-51D1DA57",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic breast cancer",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+      "evidence_summary": "反复丹毒样病变需警惕肿瘤受累，不能只依赖外观。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-51D1DA57",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic breast cancer",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+      "evidence_summary": "复发选药应核实实际治疗结束时间，不能由手术日期推算。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-51D1DA57",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ABC / ESMO",
+      "source_title": "6th and 7th International consensus guidelines for advanced breast cancer",
+      "source_version": "2024",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11231614/",
+      "evidence_summary": "脑转移选药应以具体方案的临床证据为依据。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-51D1DA57",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ABC / ESMO",
+      "source_title": "6th and 7th International consensus guidelines for advanced breast cancer",
+      "source_version": "2024",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11231614/",
+      "evidence_summary": "研究证据必须匹配实际组合、人群与治疗阶段。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-51D1DA57",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ABC / ESMO",
+      "source_title": "6th and 7th International consensus guidelines for advanced breast cancer",
+      "source_version": "2024",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11231614/",
+      "evidence_summary": "疗效判断应综合颅内外病灶、症状及既往局部治疗。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-B5FF3EFE",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic breast cancer",
+      "source_version": "2023",
+      "source_section": "Diagnosis, staging and risk assessment",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+      "evidence_summary": "ESMO推荐复发或新诊断转移性乳腺癌进行活检，确认组织学并评估ER、PR和HER2。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-B5FF3EFE",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESC",
+      "source_title": "2015 ESC Guidelines for the diagnosis and management of pericardial diseases",
+      "source_version": "2015",
+      "source_section": "Cardiac tamponade",
+      "source_url": "https://academic.oup.com/eurheartj/article/36/42/2921/2293375",
+      "evidence_summary": "ESC指出心包填塞需引流，不稳定患者应立即处理，优先在影像引导下进行心包穿刺。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-B5FF3EFE",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "临床研究",
+      "doc_id": "",
+      "split_index": null,
+      "type": "research",
+      "authority": "DESTINY-Breast04 / NEJM",
+      "source_title": "Trastuzumab Deruxtecan in Previously Treated HER2-Low Advanced Breast Cancer",
+      "source_version": "2022",
+      "source_section": "Methods and Results",
+      "source_url": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2203690",
+      "evidence_summary": "DESTINY-Breast04将HER2低表达定义为IHC 1+或IHC 2+/ISH阴性；本例受体结果来自提供的病例。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-B5FF3EFE",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "临床研究",
+      "doc_id": "",
+      "split_index": null,
+      "type": "research",
+      "authority": "DESTINY-Breast04 / NEJM",
+      "source_title": "Trastuzumab Deruxtecan in Previously Treated HER2-Low Advanced Breast Cancer",
+      "source_version": "2022",
+      "source_section": "Methods and Results",
+      "source_url": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2203690",
+      "evidence_summary": "DESTINY-Breast04支持既往经治HER2低表达晚期乳腺癌的疗效；不能直接外推至急症ECOG 3～4分人群。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-B5FF3EFE",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "药品说明书",
+      "doc_id": "",
+      "split_index": null,
+      "type": "drug_label",
+      "authority": "DailyMed / 美国处方信息",
+      "source_title": "ENHERTU (fam-trastuzumab deruxtecan-nxki) Prescribing Information",
+      "source_version": "2026（网页版本）",
+      "source_section": "Dosage and Administration; Warnings and Precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6",
+      "evidence_summary": "ENHERTU说明书要求监测ILD/肺炎及左室功能，出现疑似肺毒性时及时评估和处理。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-902F741C",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic breast cancer",
+      "source_version": "2023",
+      "source_section": "Diagnosis, staging and risk assessment",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+      "evidence_summary": "ESMO支持对可及的复发病灶进行病理及受体再评估；本例局部表现与活检结果来自病例原文。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-902F741C",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic breast cancer",
+      "source_version": "2023",
+      "source_section": "Diagnosis, staging and risk assessment",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+      "evidence_summary": "ESMO建议在复发时重新评估受体，并在重要差异时据复发组织信息调整管理；差异机制需结合具体标本判断。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-902F741C",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "临床研究",
+      "doc_id": "",
+      "split_index": null,
+      "type": "research",
+      "authority": "KEYNOTE-355 / The Lancet",
+      "source_title": "Pembrolizumab plus chemotherapy versus placebo plus chemotherapy for previously untreated locally recurrent inoperable or metastatic triple-negative breast cancer (KEYNOTE-355)",
+      "source_version": "2020",
+      "source_section": "Methods and Interpretation",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33278935/",
+      "evidence_summary": "KEYNOTE-355研究对象为不可手术局部复发或转移性TNBC，CPS≥10亚组获益，不能直接覆盖所有局部复发情境。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-902F741C",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic breast cancer",
+      "source_version": "2023",
+      "source_section": "Diagnosis, staging and risk assessment",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+      "evidence_summary": "ESMO支持以经确认的复发病灶受体信息指导治疗，并综合既往用药与临床状态。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-902F741C",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "ESMO",
+      "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic breast cancer",
+      "source_version": "2023",
+      "source_section": "Diagnosis, staging and risk assessment",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+      "evidence_summary": "复发治疗需可靠的病理和受体依据；本例细胞量不足及PR/HER2缺失是病例中明确的限制。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-DD610E54",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "British Sarcoma Group",
+      "source_title": "UK guidelines for the management of soft tissue sarcomas",
+      "source_version": "",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11724041/",
+      "evidence_summary": "乳腺肉瘤应转诊专科团队进行病理复核和多学科讨论。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-DD610E54",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "British Sarcoma Group",
+      "source_title": "UK guidelines for the management of soft tissue sarcomas",
+      "source_version": "",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11724041/",
+      "evidence_summary": "乳腺肉瘤不要求常规以前哨活检完成腋窝分期；血管肉瘤仍需关注区域淋巴结。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-DD610E54",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "British Sarcoma Group",
+      "source_title": "UK guidelines for the management of soft tissue sarcomas",
+      "source_version": "",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11724041/",
+      "evidence_summary": "乳腺肉瘤标准局部手术为取得阴性切缘的广泛切除，术式根据具体情况选择。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-DD610E54",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "British Sarcoma Group",
+      "source_title": "UK guidelines for the management of soft tissue sarcomas",
+      "source_version": "",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11724041/",
+      "evidence_summary": "乳腺肉瘤术后放疗可结合高级别、较大肿瘤和切缘等局部复发风险讨论。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-DD610E54",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "British Sarcoma Group",
+      "source_title": "UK guidelines for the management of soft tissue sarcomas",
+      "source_version": "",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11724041/",
+      "evidence_summary": "软组织肉瘤随访关注局部复发、肺部转移和治疗晚期影响，影像检查结合临床怀疑安排。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-776A405",
+    "question_id": "Q1",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "GEIS",
+      "source_title": "2023 GEIS Guidelines for gastrointestinal stromal tumors",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10467260/",
+      "evidence_summary": "GIST诊断可使用KIT、DOG1等免疫表型；分子检测与风险评估服务于后续治疗选择。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-776A405",
+    "question_id": "Q2",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "GEIS",
+      "source_title": "2023 GEIS Guidelines for gastrointestinal stromal tumors",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10467260/",
+      "evidence_summary": "局限性GIST手术以完整切除和避免破裂为原则，切除范围应兼顾器官功能。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-776A405",
+    "question_id": "Q3",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "GEIS",
+      "source_title": "2023 GEIS Guidelines for gastrointestinal stromal tumors",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10467260/",
+      "evidence_summary": "GIST风险评估考虑肿瘤部位、大小、核分裂活性和破裂，计数需注意面积标准。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-776A405",
+    "question_id": "Q4",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "GEIS",
+      "source_title": "2023 GEIS Guidelines for gastrointestinal stromal tumors",
+      "source_version": "2023",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10467260/",
+      "evidence_summary": "辅助伊马替尼推荐与高复发风险及敏感基因型相关，不因KIT免疫组化阳性自动适用。"
+    },
+    "after": {}
+  },
+  {
+    "case_id": "CASE-776A405",
+    "question_id": "Q5",
+    "action": "cleared_untraceable_or_added_reference",
+    "source": "",
+    "before": {
+      "evidence_type": "指南",
+      "doc_id": "",
+      "split_index": null,
+      "type": "guideline",
+      "authority": "British Sarcoma Group",
+      "source_title": "Gastrointestinal stromal tumour (GIST): British Sarcoma Group clinical practice guidelines",
+      "source_version": "",
+      "source_section": "",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11723931/",
+      "evidence_summary": "低风险GIST随访获益及最优频率证据有限，若随访通常采用腹部CT或MRI等并按风险安排。"
+    },
+    "after": {}
+  }
+]

@@ -1,0 +1,84 @@
+{
+  "case_count": 10,
+  "question_count": 50,
+  "answer_distribution": {
+    "D": 12,
+    "B": 12,
+    "C": 13,
+    "A": 13
+  },
+  "checks": [
+    "10个病例ID保留",
+    "每例5题且计数一致",
+    "50个题干无完全重复",
+    "A-D四选项唯一",
+    "答案字母与文本一致",
+    "两级癌种在Questions/detail一致",
+    "外层契约及题型枚举保留",
+    "图片URL保留",
+    "UTF-8 JSON往返解析"
+  ],
+  "scope": "离线结构与内容核对，不代表专业医生审核通过，也未进行前端导入或工作流试跑",
+  "cases": [
+    {
+      "case_id": "CASE-82A82F9C",
+      "file": "01_CASE-82A82F9C_妊娠期HER2阳性乳腺癌伴胎盘转移.json",
+      "question_count": 5,
+      "notes": "胎盘转移不等于胎儿转移；未补写当前LVEF、毒性等级或已实施乳腺手术。"
+    },
+    {
+      "case_id": "CASE-6A44390F",
+      "file": "02_CASE-6A44390F_HER2阳性胆道癌多线治疗后T-DXd获控.json",
+      "question_count": 5,
+      "notes": "未把残余代谢活性独立认定为RECIST进展；联合后获控不能证明耐药机制或联合增益。"
+    },
+    {
+      "case_id": "CASE-95977E69",
+      "file": "03_CASE-95977E69_卡匹色替治疗后的放射回忆性皮炎.json",
+      "question_count": 5,
+      "notes": "卡匹色替为AKT抑制剂；阿培利司为PI3Kα抑制剂。保留误服及再暴露复发经过，不补造皮疹等级。"
+    },
+    {
+      "case_id": "CASE-6E309B6B",
+      "file": "04_CASE-6E309B6B_乳腺癌术后诺卡菌菌血症的诊治.json",
+      "question_count": 5,
+      "notes": "纠正TCbHP缩写引入未记录药物的问题；不把RSV IgM写成PCR阳性，不把感染归类为irAE。"
+    },
+    {
+      "case_id": "CASE-351D64C1",
+      "file": "05_CASE-351D64C1_MSS胃癌转化治疗后病理完全缓解.json",
+      "question_count": 5,
+      "notes": "区分CPS与TPS、SOX与CheckMate 649骨架；不以pCR建立通用术后停药规则。"
+    },
+    {
+      "case_id": "CASE-E920FEFC",
+      "file": "06_CASE-E920FEFC_三阴性乳腺癌肝内脏危象的挽救治疗.json",
+      "question_count": 5,
+      "notes": "保留真实后期结局；不将中重度肝损害用药经验或因经济减药后的结局作普遍因果结论。"
+    },
+    {
+      "case_id": "CASE-CC5590E2",
+      "file": "07_CASE-CC5590E2_pMMR_MSS直肠癌复发后的RIN治疗.json",
+      "question_count": 5,
+      "notes": "纠正肿块尺寸连写；区分严重感染与irAE、分子学反应与pCR，RIN不写成通用标准。"
+    },
+    {
+      "case_id": "CASE-14D22BE9",
+      "file": "08_CASE-14D22BE9_直肠癌胰腺转移伴感染性假性囊肿.json",
+      "question_count": 5,
+      "notes": "图注中的直肠“切除”文字与正文不一致，保留图片但不以此推断已行直肠根治术。"
+    },
+    {
+      "case_id": "CASE-10436F33",
+      "file": "09_CASE-10436F33_腹水与胃部病变揭示乳腺小叶癌转移.json",
+      "question_count": 5,
+      "notes": "药物名称按原始论文纠正；不以ER单项或ACR4直接确诊，不补造后线疗效。"
+    },
+    {
+      "case_id": "CASE-E251EF18",
+      "file": "10_CASE-E251EF18_寡转移肝癌系统治疗及SBRT后长期获控.json",
+      "question_count": 5,
+      "notes": "修正放疗剂量被误当年份、椎体同步加量相加等风险；不从个案推定统一停药或增效。"
+    }
+  ]
+}

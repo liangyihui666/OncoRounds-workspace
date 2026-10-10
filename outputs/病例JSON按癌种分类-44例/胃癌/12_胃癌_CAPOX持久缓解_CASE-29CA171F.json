@@ -1,0 +1,252 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-29CA171F",
+    "cancer_type": "胃癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "分子诊断",
+        "phase": "初始诊断",
+        "timepoint": "2016 年 12 月治疗前",
+        "question": "针对该转移性胃腺癌患者，在启动一线全身治疗前，下列哪项生物标志物检测策略最符合当前规范且对治疗决策具有直接指导意义？",
+        "options": {
+          "A": "常规检测 HER-2、MMR 蛋白及 PD-L1 CPS 评分",
+          "B": "仅检测 HER-2 状态，阴性则直接化疗",
+          "C": "必须行 NGS 检测寻找罕见靶点如 NTRK 融合",
+          "D": "优先检测胚系 CDH1 突变以排除遗传性胃癌"
+        },
+        "answer": "A",
+        "answer_text": "常规检测 HER-2、MMR 蛋白及 PD-L1 CPS 评分",
+        "explain": "指南推荐进展期胃癌常规检测 HER-2、MMR 及 PD-L1，结果直接决定能否使用靶向或免疫治疗。NGS 和胚系检测非一线必查，仅在特定情况下考虑。",
+        "keyPoint": "转移性胃癌一线治疗前必须完成 HER-2、MMR/PD-L1 等核心标志物检测。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "d12bbbca-4dc0-47d4-9365-b84a4a465117",
+          "split_index": 74,
+          "type": "guideline",
+          "authority": "国家卫生健康委",
+          "source_title": "肿瘤专业质量控制指标 (2023年版)",
+          "source_version": "2023",
+          "source_section": "计算公式：",
+          "source_url": "",
+          "evidence_summary": "晚期胃癌首次治疗前需完成 HER-2、MMR、PD-L1 等病理生物标志物诊断以指导策略。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "不良反应管理",
+        "phase": "一线化疗期间",
+        "timepoint": "第 5 周期出现骨髓毒性时",
+        "question": "患者在接受 CAPOX 方案第 5 周期时出现骨髓毒性，但影像学评估显示肿瘤明显缩小。此时最合理的处理措施是？",
+        "options": {
+          "A": "立即永久停用奥沙利铂，单药维持卡培他滨",
+          "B": "暂停化疗直至毒性恢复，后续周期酌情减量",
+          "C": "维持原剂量不变，同时预防性使用 G-CSF",
+          "D": "直接终止所有抗肿瘤治疗，转为最佳支持治疗"
+        },
+        "answer": "B",
+        "answer_text": "暂停化疗直至毒性恢复，后续周期酌情减量",
+        "explain": "对于剂量限制性毒性（如骨髓抑制），指南建议暂停用药至恢复，随后可考虑减量继续治疗，以平衡疗效与安全性，尤其患者正获深度缓解。",
+        "keyPoint": "化疗致骨髓毒性应暂停用药，恢复后根据风险获益比考虑减量而非直接停药。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "c9294314-38c0-4a55-92b6-b261f374a7da",
+          "split_index": 60,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 整体支持",
+          "source_version": "2023",
+          "source_section": "（五）不良反应的处理",
+          "source_url": "",
+          "evidence_summary": "剂量限制性毒性如骨髓抑制可暂停用药，恢复后基于风险获益考虑减量处理。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "一线化疗后期",
+        "timepoint": "第 9 周期后",
+        "question": "该患者在完成 9 个周期 CAPOX 治疗后因持续血液学毒性不得不停药，此时影像学显示病情稳定趋近 CR。关于后续管理，下列哪项最恰当？",
+        "options": {
+          "A": "立即切换为二线紫杉醇方案以防复发",
+          "B": "强行继续原方案化疗直至满 12 个周期",
+          "C": "进入密切随访观察，暂不启动新方案或维持治疗",
+          "D": "加用免疫检查点抑制剂进行维持治疗"
+        },
+        "answer": "C",
+        "answer_text": "进入密切随访观察，暂不启动新方案或维持治疗",
+        "explain": "患者因毒性无法耐受进一步化疗且已达深度缓解，指南支持在达到规范疗程或毒性不可耐受时停止治疗，进行观察，而非强行换药或加药。",
+        "keyPoint": "因毒性终止有效化疗且达深度缓解者，可选择观察随访而非强行维持或换药。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "8350da7b-6914-4101-be88-7d4db6c58220",
+          "split_index": 66,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 化学治疗",
+          "source_version": "2023",
+          "source_section": "（七）疗效评价及方案更改",
+          "source_url": "",
+          "evidence_summary": "身体状况不能耐受进一步治疗患者应中止或暂缓治疗，辅助或部分姑息治疗达规范疗程可停药。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "疗效复评与局部治疗",
+        "phase": "治疗后随访",
+        "timepoint": "2021 年 8 月（停药 3 年后）",
+        "question": "该患者停药后维持完全缓解超 3 年，关于此阶段的长期随访监测策略，下列哪项最符合规范？",
+        "options": {
+          "A": "每 3 个月必须行全身 PET-CT 以排除微小残留",
+          "B": "仅依靠患者主诉症状出现后再行针对性检查",
+          "C": "常规行预防性胃切除术以杜绝局部复发风险",
+          "D": "定期复查体格检查、肿瘤标志物及必要影像学"
+        },
+        "answer": "D",
+        "answer_text": "定期复查体格检查、肿瘤标志物及必要影像学",
+        "explain": "指南推荐治疗结束后定期随访，项目包括体格检查、肿瘤标志物及必要的影像学检查。PET-CT 非例行首选，无症状等待或预防性手术均不符合规范。",
+        "keyPoint": "胃癌治疗后长期随访应依据指南进行体格、标志物及影像学的定期综合评估。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "6a99df2d-14ee-4cb4-b88d-0b8d4d7b3517",
+          "split_index": 36,
+          "type": "guideline",
+          "authority": "中国医学装备协会放射治疗装备技术分会",
+          "source_title": "国产创新一体化放射治疗设备基层医院临床诊疗指南",
+          "source_version": "2025",
+          "source_section": "国产创新一体化放射治疗设备基层医院临床诊疗指南",
+          "source_url": "",
+          "evidence_summary": "随访复查通常包括体格检查、肿瘤标志物及必要的影像学检查，疗效评价采用 RECIST 标准。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "分子诊断",
+        "phase": "初诊评估",
+        "timepoint": "2016 年 12 月确诊时",
+        "question": "针对该晚期胃腺癌患者，初诊时必须完成的生物标志物检测组合不包括以下哪项？",
+        "options": {
+          "A": "常规进行全外显子测序寻找胚系突变",
+          "B": "HER2 免疫组化检测",
+          "C": "错配修复蛋白（MMR）或 MSI 检测",
+          "D": "PD-L1 CPS 评分检测"
+        },
+        "answer": "A",
+        "answer_text": "常规进行全外显子测序寻找胚系突变",
+        "explain": "晚期胃癌标准检测包括 HER2、MMR/MSI 和 PD-L1。除非有强烈家族史提示遗传性胃癌，否则不常规推荐对所有患者进行全外显子测序筛查胚系突变。",
+        "keyPoint": "晚期胃癌常规必检标志物为 HER2、MMR 和 PD-L1，胚系检测需特定指征。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "d12bbbca-4dc0-47d4-9365-b84a4a465117",
+          "split_index": 74,
+          "type": "guideline",
+          "authority": "国家卫生健康委",
+          "source_title": "肿瘤专业质量控制指标 (2023年版)",
+          "source_version": "2023",
+          "source_section": "计算公式：",
+          "source_url": "",
+          "evidence_summary": "质控指标要求晚期胃癌首次治疗前完成 HER2、MMR、EBV 及 PD-L1 等病理生物标志物诊断。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-29CA171F",
+    "cancer_type": "胃癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/gastric-her2.png",
+      "alt": "胃癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "胃癌治疗耐受与疗效复评",
+      "description": "59岁男性，胃窦腺癌伴多发肝转移，2016年开始CAPOX治疗。"
+    },
+    "overview": {
+      "hero": {
+        "title": "胃癌治疗耐受与疗效复评",
+        "subtitle": "停药时与后续随访时的疗效区分、累积毒性，以及持久缓解的证据边界。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "59岁男性，胃窦腺癌伴多发肝转移，2016年开始CAPOX治疗。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "HER2阴性、PD-L1 CPS＜1、pMMR。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "完成9周期后因持续血液学毒性停药，之后影像逐渐改善。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "停药时与后续随访时的疗效区分、累积毒性，以及持久缓解的证据边界。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2016年12月",
+              "title": "开始CAPOX",
+              "detail": "胃癌伴多发肝转移，开始CAPOX。"
+            },
+            {
+              "date": "约4个月后及第5周期起",
+              "title": "缩瘤与血液学毒性",
+              "detail": "影像缩小；第5周期起因骨髓毒性减量。"
+            },
+            {
+              "date": "完成9周期后",
+              "title": "因持续毒性停药",
+              "detail": "因持续血液学毒性停药，当时影像尚未达CR。"
+            },
+            {
+              "date": "2018年5月",
+              "title": "影像完全缓解",
+              "detail": "原文记录影像CR。"
+            },
+            {
+              "date": "2021年8月",
+              "title": "胃镜复评",
+              "detail": "胃镜活检未见肿瘤细胞。"
+            },
+            {
+              "date": "2023年12月",
+              "title": "末次报道随访",
+              "detail": "原文记录仍维持缓解。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-10436F33",
+    "cancer_type": "胸部肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "不明原发腹膜病变",
+        "timepoint": "首次胃肠镜未明确病因，腹膜活检提示单细胞浸润",
+        "question": "患者持续上腹痛、腹水，首次内镜未明确病因。腹膜取材提示单细胞浸润。下一步最合理的是？",
+        "options": {
+          "A": "直接按卵巢来源腹膜癌治疗，不再追查组织来源",
+          "B": "首次胃镜阴性即排除胃部受累，终止相关检查",
+          "C": "结合病理线索重新评估胃部并取材，同时寻找可能的原发来源",
+          "D": "单细胞浸润即可确诊胃原发印戒细胞癌"
+        },
+        "answer": "C",
+        "answer_text": "结合病理线索重新评估胃部并取材，同时寻找可能的原发来源",
+        "explain": "原病例再次胃镜发现病灶，后经乳腺检查确诊小叶癌。首次阴性检查不代表以后或取样之外没有病变；“单细胞”是形态线索，不能直接改成某一种原发癌诊断。",
+        "keyPoint": "症状与病理线索持续不一致时，应重新评估而非机械依赖首次阴性。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "",
+          "split_index": null,
+          "type": "journal",
+          "authority": "",
+          "source_title": "Gastric metastasis and peritoneal carcinosis revealing primary breast cancer: an unusual presentation",
+          "source_version": "2024",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11185184/",
+          "evidence_summary": "症状与病理线索持续不一致时，应重新评估而非机械依赖首次阴性。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "分子诊断",
+        "phase": "胃病灶原发来源判断",
+        "timepoint": "胃活检单列浸润且ER阳性",
+        "question": "胃活检见单列排列肿瘤细胞且ER阳性。确认乳腺小叶癌胃转移时，哪项证据组合更可靠？",
+        "options": {
+          "A": "仅以ER阳性作为乳腺来源的充分条件",
+          "B": "结合成组免疫染色、乳腺影像及乳腺组织病理比对",
+          "C": "仅以HER2阴性排除原发胃癌",
+          "D": "仅以双侧乳腺ACR4影像代替乳腺病理"
+        },
+        "answer": "B",
+        "answer_text": "结合成组免疫染色、乳腺影像及乳腺组织病理比对",
+        "explain": "原病例后来获得乳腺结节病理，支持小叶癌来源。ER和HER2都不能单独确定原发部位；题目提出的进一步比对是诊断原则，不代表本例已完成所有可能的免疫组化项目。",
+        "keyPoint": "来源鉴别需要成组证据，单个受体结果不足以定论。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "",
+          "split_index": null,
+          "type": "journal",
+          "authority": "",
+          "source_title": "Gastric metastasis and peritoneal carcinosis revealing primary breast cancer: an unusual presentation",
+          "source_version": "2024",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11185184/",
+          "evidence_summary": "来源鉴别需要成组证据，单个受体结果不足以定论。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "晚期HR阳性乳腺癌初始方案",
+        "timepoint": "已知胃、腹膜及骨转移",
+        "question": "本例采用来曲唑联合瑞波西利。判断类似患者是否适合这一方向，最需核对哪项？",
+        "options": {
+          "A": "只要存在胃转移就必须放弃内分泌联合治疗",
+          "B": "内脏危象或紧迫器官威胁、口服可行性及HR/HER2与既往治疗",
+          "C": "只要血压稳定便可排除全部内脏危象",
+          "D": "仅以乳腺结节较小推定系统治疗无需尽快开始"
+        },
+        "answer": "B",
+        "answer_text": "内脏危象或紧迫器官威胁、口服可行性及HR/HER2与既往治疗",
+        "explain": "HR阳性、HER2阴性晚期乳腺癌可考虑内分泌联合CDK4/6抑制剂，但危象、症状及药物可实施性影响选择。现有摘要不足以仅靠“无休克”断言无器官威胁。",
+        "keyPoint": "系统治疗选择应关注器官功能与治疗可实施性，而非转移部位标签。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESO / ESMO",
+          "source_title": "5th ESO-ESMO international consensus guidelines for advanced breast cancer (ABC 5)",
+          "source_version": "2020",
+          "source_section": "",
+          "source_url": "https://doi.org/10.1016/j.annonc.2020.09.010",
+          "evidence_summary": "系统治疗选择应关注器官功能与治疗可实施性，而非转移部位标签。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "耐药与后线管理",
+        "phase": "一线治疗后较早进展",
+        "timepoint": "来曲唑加瑞波西利约5个月后进展",
+        "question": "本例约5个月后按RECIST评估进展。确定后续方案时，哪项评估最有意义？",
+        "options": {
+          "A": "只因疗程不足半年，就将影像进展视为假性进展",
+          "B": "复核进展范围、症状与器官功能、用药执行及可改变治疗的标志物",
+          "C": "未经评估直接增加原CDK4/6抑制剂剂量",
+          "D": "仅凭ER阳性固定继续原方案，不考虑新的病情"
+        },
+        "answer": "B",
+        "answer_text": "复核进展范围、症状与器官功能、用药执行及可改变治疗的标志物",
+        "explain": "早期进展需重新判断疾病紧迫性及后续可用方案。原始论文记录改用表柔比星加环磷酰胺；这属于实际经过，不等于所有类似患者的唯一后线选择，也不补造新的受体或基因结果。",
+        "keyPoint": "进展后应重新评估疾病和可用证据，不能机械延续原方案。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, staging and treatment of patients with metastatic breast cancer",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+          "evidence_summary": "进展后应重新评估疾病和可用证据，不能机械延续原方案。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "疗效复评与局部治疗",
+        "phase": "胃部症状与局部治疗",
+        "timepoint": "已明确全身转移后",
+        "question": "已明确胃、腹膜及骨转移，讨论是否胃切除时，哪项判断更合适？",
+        "options": {
+          "A": "胃切除可据单例报告保证提高长期生存",
+          "B": "胃部是最先出现症状的部位，应按原发胃癌根治切除",
+          "C": "以系统治疗为基础，遇出血或梗阻等问题再按具体情况选择局部干预",
+          "D": "有腹膜转移便不再需要处理任何胃部并发症"
+        },
+        "answer": "C",
+        "answer_text": "以系统治疗为基础，遇出血或梗阻等问题再按具体情况选择局部干预",
+        "explain": "胃转移是系统性疾病的一部分，局部干预主要取决于并发症和获益目标。本例未记载胃切除，不能把讨论中的处理写成实际发生的手术。",
+        "keyPoint": "转移部位的局部处理需明确症状目标，不能套用原发癌根治路径。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "",
+          "split_index": null,
+          "type": "journal",
+          "authority": "",
+          "source_title": "Gastric metastasis and peritoneal carcinosis revealing primary breast cancer: an unusual presentation",
+          "source_version": "2024",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11185184/",
+          "evidence_summary": "转移部位的局部处理需明确症状目标，不能套用原发癌根治路径。"
+        }
+      }
+    ],
+    "missing_information": [],
+    "second_cancer_type": "乳腺癌"
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-10436F33",
+    "cancer_type": "胸部肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "病例思考封面"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "腹水伴胃部症状的来源鉴别",
+      "description": "53岁女性因腹胀、上腹痛及腹水就诊，首次内镜未明确病因，需继续寻找病因及病变来源。"
+    },
+    "overview": {
+      "hero": {
+        "title": "腹水伴胃部症状的来源鉴别",
+        "subtitle": "根据当前已知资料作出判断，完成整组后查看解析与实际经过。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "初始资料",
+              "value": "53岁女性因腹胀、上腹痛及腹水就诊，首次内镜未明确病因，需继续寻找病因及病变来源。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": []
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    },
+    "second_cancer_type": "乳腺癌"
+  }
+}

@@ -1,0 +1,424 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-902F741C",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "局部复发确认",
+        "timepoint": "手术瘢痕附近皮肤改变、抗生素治疗无效时",
+        "question": "患者乳腺癌治疗后，手术瘢痕附近出现红斑、皮肤增厚和色素沉着，抗生素治疗无效。下一步最合适的评估是什么？",
+        "options": {
+          "A": "对可疑病灶取材确认性质，并重新检测ER、PR及HER2",
+          "B": "延长抗生素疗程，以排除感染后再讨论是否进行活检",
+          "C": "依据既往ER阳性直接更换内分泌药物，以疗效验证复发",
+          "D": "先按放疗后纤维化处理，待出现远处病灶后再获取组织"
+        },
+        "answer": "A",
+        "answer_text": "对可疑病灶取材确认性质，并重新检测ER、PR及HER2",
+        "explain": "持续的局部皮肤异常需要病理确认，不能仅凭外观区分复发与治疗后改变。复发组织的受体结果还可影响后续选药。本例该次活检发现与初诊不同的受体表型，因此既往ER阳性不能替代本次评估。",
+        "keyPoint": "疑似复发应先明确病灶性质，再据新的病理信息制定治疗。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic breast cancer",
+          "source_version": "2023",
+          "source_section": "Diagnosis, staging and risk assessment",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+          "evidence_summary": "ESMO支持对可及的复发病灶进行病理及受体再评估；本例局部表现与活检结果来自病例原文。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "分子诊断",
+        "phase": "受体结果变化解读",
+        "timepoint": "局部复发灶报告三阴性、HER2 IHC 1+时",
+        "question": "初诊肿瘤ER强阳性，局部复发灶却报告ER/PR阴性、HER2 IHC 1+且FISH阴性。面对这一变化，哪项解释最稳妥？",
+        "options": {
+          "A": "受体变化足以证明已出现第二原发乳腺癌，应重新建立诊断",
+          "B": "低表达HER2说明转为HER2阳性，可直接沿用扩增型治疗",
+          "C": "结合检测质量及肿瘤异质性解释变化，不能仅归因于单一因素",
+          "D": "既往内分泌治疗使ER检测失去意义，应优先采纳初诊结果"
+        },
+        "answer": "C",
+        "answer_text": "结合检测质量及肿瘤异质性解释变化，不能仅归因于单一因素",
+        "explain": "受体差异可能涉及真实的生物学变化、肿瘤异质性及取样检测因素，应在质量复核后综合解释。仅凭差异不能诊断第二原发，也不能将HER2低表达等同于HER2阳性。本例资料不足以确定某一种机制就是变化的原因。",
+        "keyPoint": "承认受体演变的可能，同时保留取样与检测因素的解释空间。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic breast cancer",
+          "source_version": "2023",
+          "source_section": "Diagnosis, staging and risk assessment",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+          "evidence_summary": "ESMO建议在复发时重新评估受体，并在重要差异时据复发组织信息调整管理；差异机制需结合具体标本判断。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "免疫治疗证据适用范围",
+        "timepoint": "局部复发灶PD-L1 CPS为10时",
+        "question": "本例局部复发灶为三阴性，PD-L1 CPS为10，随后接受帕博利珠单抗联合化疗并再次手术。引用KEYNOTE-355解释这一选择时，应特别注意什么？",
+        "options": {
+          "A": "CPS达到10已足以将所有局部复发患者纳入该研究适用范围",
+          "B": "只要之后实施了手术，就可认为本例完全符合该研究入组条件",
+          "C": "该研究验证的是所有三阴性乳腺癌患者的围手术期免疫治疗",
+          "D": "需核对是否不可手术局部复发或转移，不能仅凭CPS套用该研究"
+        },
+        "answer": "D",
+        "answer_text": "需核对是否不可手术局部复发或转移，不能仅凭CPS套用该研究",
+        "explain": "KEYNOTE-355针对既往未接受晚期阶段化疗的不可手术局部复发或转移性三阴性乳腺癌。原文未明确本例该次局部复发时是否不可手术，因此不能仅凭CPS 10把病例中的治疗写成该研究直接验证的围手术期标准。应区分病例做法与研究证据的适用范围。",
+        "keyPoint": "生物标志物阈值只是适用条件之一，疾病阶段同样关键。",
+        "guidelineRef": {
+          "evidence_type": "临床研究",
+          "doc_id": "",
+          "split_index": null,
+          "type": "research",
+          "authority": "KEYNOTE-355 / The Lancet",
+          "source_title": "Pembrolizumab plus chemotherapy versus placebo plus chemotherapy for previously untreated locally recurrent inoperable or metastatic triple-negative breast cancer (KEYNOTE-355)",
+          "source_version": "2020",
+          "source_section": "Methods and Interpretation",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/33278935/",
+          "evidence_summary": "KEYNOTE-355研究对象为不可手术局部复发或转移性TNBC，CPS≥10亚组获益，不能直接覆盖所有局部复发情境。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "治疗决策",
+        "phase": "远处转移后重新选药",
+        "timepoint": "初诊约6年后纵隔淋巴结活检ER重新阳性时",
+        "question": "纵隔淋巴结活检显示ER>80%、PR阴性、HER2 IHC 0，与此前局部复发灶不同。若样本质量可靠，下一步选药应如何考虑？",
+        "options": {
+          "A": "继续按既往三阴性分型选药，因为受体变化不影响后线策略",
+          "B": "重新评估内分泌联合靶向治疗的适宜性，并结合既往暴露和病情",
+          "C": "将ER重新阳性视为内分泌敏感已恢复，直接重复既往芳香化酶抑制剂",
+          "D": "将纵隔病灶按第二原发肿瘤处理，因为其ER状态与前次结果不一致"
+        },
+        "answer": "B",
+        "answer_text": "重新评估内分泌联合靶向治疗的适宜性，并结合既往暴露和病情",
+        "explain": "可靠的新活检显示ER重新表达，为重新考虑内分泌治疗路径提供了依据，但方案仍需结合既往治疗、耐药情况及疾病紧迫性。不能简单等同于重新获得全部内分泌敏感性。本例使用氟维司群联合瑞波西利后稳定约一年，属于病例观察结果。",
+        "keyPoint": "新的受体证据可以改变治疗路径，但不能替代耐药与临床状态评估。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic breast cancer",
+          "source_version": "2023",
+          "source_section": "Diagnosis, staging and risk assessment",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+          "evidence_summary": "ESMO支持以经确认的复发病灶受体信息指导治疗，并综合既往用药与临床状态。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "分子诊断",
+        "phase": "有限细胞学标本的证据边界",
+        "timepoint": "初诊约7年后胸腔积液检查时",
+        "question": "胸水中仅见少量非典型细胞，GATA3阳性、ER阴性，因细胞不足未完成PR和HER2检测。关于此次结果，下列哪项最准确？",
+        "options": {
+          "A": "提示乳腺来源的可能，但不足以完整确认三阴性，必要时补充取材",
+          "B": "GATA3阳性联合ER阴性即可确定三阴性转移，无需再检测其他受体",
+          "C": "以此前HER2 IHC 0补齐本次结果，即可将当前胸水归为完整三阴性",
+          "D": "其他部位影像没有进展，说明胸水更可能良性，可停止病理评估"
+        },
+        "answer": "A",
+        "answer_text": "提示乳腺来源的可能，但不足以完整确认三阴性，必要时补充取材",
+        "explain": "GATA3与既往病史支持乳腺来源的考虑，但有限细胞学并未提供完整分型，缺失的PR和HER2不能用历史结果直接填补。若会影响治疗且取材可行，可补充合格标本；同时根据症状处理积液。原文基于假定表型选择戈沙妥珠单抗，不能改写为已充分证实三阴性后用药。",
+        "keyPoint": "缺失的受体检测就是证据缺口，不能用推定结果替代。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic breast cancer",
+          "source_version": "2023",
+          "source_section": "Diagnosis, staging and risk assessment",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+          "evidence_summary": "复发治疗需可靠的病理和受体依据；本例细胞量不足及PR/HER2缺失是病例中明确的限制。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-902F741C",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/Z6BGyjUbydPbAALFxSC_Fw/hUzZwwYv5sbfk1C4skBr3Zdt6X2FGdhX.png",
+      "alt": "表 1 活检部位受体表达状态的几次转变和相应治疗方案的调整"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "局部晚期乳腺癌复发伴受体状态演变及戈沙妥珠单抗治疗病例",
+      "description": "患者女，52 岁，因左乳房压痛性肿块伴皮肤变化就诊。初诊影像学显示巨大不规则肿瘤伴乳头回缩和广泛皮肤增厚。活检证实为高级别浸润性导管癌，ER 阳性（>90%）、PR<5%（原文记为阴性，未提供确切阳性比例）、HER2 IHC 0/FISH 阴性，PD-L1 CPS 1，Ki-67>20%。腋窝淋巴结活检示转移性腺癌。临床分期 cT4N1M0（原文分期分组存在矛盾，保留cTNM，未据此重分期）。既往接受新辅助化疗（AC……"
+    },
+    "overview": {
+      "hero": {
+        "title": "局部晚期乳腺癌复发伴受体状态演变及戈沙妥珠单抗治疗病例",
+        "subtitle": "乳腺癌复发过程中受体状态（ER/HER2/PD-L1）的动态演变与重复活检的重要性 局部晚期乳腺癌新辅助治疗后手术切缘阳性及淋巴结残留的处理策略 免疫检查点抑制剂联合化疗在转化治疗后复发病例中的应用与毒性管理 基于有限细胞学证据（ER 缺失……"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者与就诊背景",
+              "value": "患者女，52 岁，因左乳房压痛性肿块伴皮肤变化就诊。初诊影像学显示巨大不规则肿瘤伴乳头回缩和广泛皮肤增厚。活检证实为高级别浸润性导管癌，ER 阳性（>90%）、PR<5%（原文记为阴性，未提供确切阳性比例）、HER2 IHC 0/FISH 阴性，PD-L1 CPS 1，Ki-67>20%。腋窝淋巴结活检示转移性腺癌。临床分期 cT4N1M0（原文分期分组存在矛盾，保留cTNM，未据此重分期）。既往接受新辅助化疗（AC 序贯紫杉醇）、双侧乳房切除术伴假体植入及放疗。术后病理 ypT3 pN1a。曾服用阿那曲唑 3 年因关节疼痛停药，改用来曲唑完成共 4 年内分泌治疗。"
+            },
+            {
+              "order": 2,
+              "label": "疾病与分期",
+              "value": "浸润性导管癌（初诊 ER 阳性/PR 阴性/HER2 阴性，cT4N1M0，IIIa 期；复发后转为三阴性乳腺癌，HER2 低表达；再次转移后 ER 重新表达阳性；终末期胸腔积液细胞学 ER 阴性）"
+            },
+            {
+              "order": 3,
+              "label": "分子与病理",
+              "value": "初诊 | 乳腺肿块活检组织 | 免疫组化/FISH | ER | 阳性（>90%） | 不详 初诊 | 乳腺肿块活检组织 | 免疫组化 | PR | <5%（原文记为阴性，确切比例未详） | 不详 初诊 | 乳腺肿块活检组织 | 免疫组化/FISH | HER2 | IHC 0，FISH 阴性 | 不详 初诊 | 乳腺肿块活检组织 | 免疫组化 | PD-L1 CPS | 1 | 不详 初诊 | 乳腺肿块活检组织 | 免疫组化 | Ki-67 | >20% | 不详 复发事件 1 | 手术疤痕附近病灶穿刺组织 | 免疫组化/FISH |……"
+            },
+            {
+              "order": 4,
+              "label": "核心教学点",
+              "value": "乳腺癌复发过程中受体状态（ER/HER2/PD-L1）的动态演变与重复活检的重要性 局部晚期乳腺癌新辅助治疗后手术切缘阳性及淋巴结残留的处理策略 免疫检查点抑制剂联合化疗在转化治疗后复发病例中的应用与毒性管理 基于有限细胞学证据（ER 缺失）假定表型选择抗体 - 药物偶联物（戈沙妥珠单抗）的决策过程 内分泌治疗耐药后 CDK4/6 抑制剂联合氟维司群的疗效观察"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 1",
+              "detail": "初诊：自行触诊发现左乳房压痛性肿块伴皮肤变化"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 2",
+              "detail": "影像学示巨大不规则肿瘤、乳头回缩、皮肤增厚"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 3",
+              "detail": "活检证实高级别浸润性导管癌，ER 阳性（>90%）、PR<5%（原文记为阴性，未提供确切阳性比例）、HER2 阴性、PD-L1 CPS 1、Ki-67>20%"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 4",
+              "detail": "腋窝淋巴结活检示转移性腺癌"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 5",
+              "detail": "诊断 cT4N1M0（原文分期分组存在矛盾，保留cTNM，未据此重分期）"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 6",
+              "detail": "治疗阶段 1：接受新辅助化疗（阿霉素 + 环磷酰胺，随后每周紫杉醇）"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 7",
+              "detail": "治疗阶段 2：行双侧乳房切除术并直接植入假体，随后进行放疗"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 8",
+              "detail": "术后评估：最终病理示左乳 9.2 cm 高级别浸润性导管癌，淋巴管浸润，切缘阴性"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 9",
+              "detail": "11 个淋巴结中 3 个受累"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 10",
+              "detail": "分期 ypT3 pN1a"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 11",
+              "detail": "受体状态维持 ER 阳性、PR 阴性、HER2 阴性"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 12",
+              "detail": "内分泌治疗 1：服用阿那曲唑 3 年，因严重关节疼痛停药"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 13",
+              "detail": "内分泌治疗 2：改用来曲唑，完成共计 4 年的内分泌治疗"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 14",
+              "detail": "复发事件 1：手术疤痕附近出现红斑、皮肤增厚和色素沉着"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 15",
+              "detail": "抗生素治疗无效"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 16",
+              "detail": "穿刺活检证实肿瘤转变为三阴性乳腺癌，HER2 低表达（IHC 1+，FISH 阴性），PD-L1 CPS 10"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 17",
+              "detail": "治疗阶段 3：帕博利珠单抗联合每周卡铂和紫杉醇新辅助治疗 3 个月"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 18",
+              "detail": "治疗阶段 4：行左侧乳房假体移除，切除覆盖皮肤及腋窝淋巴结"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 19",
+              "detail": "病理示 8 cm 3 级浸润性导管癌，伴真皮/皮下受累、溃疡、表皮内扩散及淋巴管浸润"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 20",
+              "detail": "上切缘阳性，内侧/下侧切缘接近，外侧切缘阴性"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 21",
+              "detail": "左腋窝发现 1.5 cm 肿块（3 级浸润性导管癌），距染墨切缘<1 mm，无明确淋巴结"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 22",
+              "detail": "辅助治疗 1：完成左侧胸壁辅助放疗"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 23",
+              "detail": "辅助治疗 2：帕博利珠单抗持续使用，加入卡培他滨"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 24",
+              "detail": "完成 7 个周期（计划 8 个），因口腔黏膜炎毒性停药"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 25",
+              "detail": "帕博利珠单抗继续使用"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 26",
+              "detail": "随访节点 1（初诊 6 年后，帕博利珠单抗治疗 2 年后）：病情稳定后出现纵隔淋巴结肿大"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 27",
+              "detail": "影像示双侧小致密肺结节及稳定肝脏低密度灶"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 28",
+              "detail": "EBUS 证实纵隔淋巴结（第 7、4R 站）癌细胞，ER 重新表达阳性（>80%），PR 阴性，HER2 IHC 0"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 29",
+              "detail": "治疗阶段 5：调整为氟维司群联合瑞波西利，病情稳定一年"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 30",
+              "detail": "随访节点 2（初诊 7 年后，激素治疗一年后）：出现两周无痰咳嗽和呼吸急促"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 31",
+              "detail": "胸片示双侧胸腔积液（左侧明显）"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 32",
+              "detail": "检查与评估：行左侧胸腔穿刺，细胞学示非典型细胞，怀疑乳腺原发灶转移"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 33",
+              "detail": "积液分析 GATA3 阳性，ER 阴性"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 34",
+              "detail": "因细胞数量稀少无法获得其他标记物"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 35",
+              "detail": "脑部 MRI 排除 CNS 转移"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 36",
+              "detail": "胸腹盆腔 CT 证实其他部位无进展"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 37",
+              "detail": "治疗阶段 6：基于假定三阴性表型，选择戈沙妥珠单抗（SG）治疗"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 38",
+              "detail": "疗效评估：三个月后随访影像和临床评估显示至少部分缓解"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/Z6BGyjUbydPbAALFxSC_Fw/hUzZwwYv5sbfk1C4skBr3Zdt6X2FGdhX.png",
+              "timepoint": "",
+              "caption": "表 1 活检部位受体表达状态的几次转变和相应治疗方案的调整",
+              "alt": "表 1 活检部位受体表达状态的几次转变和相应治疗方案的调整",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

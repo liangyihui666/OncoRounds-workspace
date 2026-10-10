@@ -1,0 +1,247 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-776A405",
+    "cancer_type": "骨与软组织肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "初诊评估",
+        "timepoint": "就诊时",
+        "question": "患者胃体上部发现 3cm 黏膜下肿瘤，影像学未见远处转移。根据 AJCC 第 8 版 TNM 分期系统，该原发肿瘤（T）的分期应为？",
+        "options": {
+          "A": "T1（肿瘤≤2cm）",
+          "B": "T3（肿瘤>5cm 且≤10cm）",
+          "C": "T4（肿瘤>10cm）",
+          "D": "T2（肿瘤>2cm 且≤5cm）"
+        },
+        "answer": "D",
+        "answer_text": "T2（肿瘤>2cm 且≤5cm）",
+        "explain": "患者肿瘤直径约 3cm，依据 AJCC 第 8 版分期标准，大于 2cm 但不超过 5cm 的原发 GIST 定义为 T2 期。T1 为≤2cm，T3 为>5cm。",
+        "keyPoint": "GIST 的 T 分期主要依据肿瘤最大径，2cm 和 5cm 是关键分界点。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "03033a1d-4c4b-479b-b233-5248463156a4",
+          "split_index": 33,
+          "type": "guideline",
+          "authority": "NCCN",
+          "source_title": "NCCN Clinical Practice Guidelines in Oncology: Gastrointestinal Stromal Tumors Version 1.2026",
+          "source_version": "2026",
+          "source_section": "American Joint Committee on Cancer (AJCC) Staging System for Gastrointestinal Stromal Tumor (8th ed, 2017)",
+          "source_url": "",
+          "evidence_summary": "NCCN 指南定义 T2 为肿瘤大于 2cm 但不超过 5cm。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "分子诊断",
+        "phase": "病理确诊",
+        "timepoint": "活检后",
+        "question": "该患者免疫组化显示 KIT 阳性、CD34 阳性、DOG1 阳性。关于 GIST 的免疫表型特征，下列描述正确的是？",
+        "options": {
+          "A": "DOG1 阳性对诊断 KIT 阴性 GIST 具有补充价值",
+          "B": "KIT 阴性但 DOG1 阳性可完全排除 GIST 诊断",
+          "C": "S-100 阳性是确诊 GIST 的特异性指标",
+          "D": "α-SMA 阳性即可确诊为平滑肌肉瘤而非 GIST"
+        },
+        "answer": "A",
+        "answer_text": "DOG1 阳性对诊断 KIT 阴性 GIST 具有补充价值",
+        "explain": "KIT 是 GIST 最特异标记，但约 5% 病例 KIT 阴性。此时若 DOG1 阳性，仍高度提示 GIST，需结合分子检测。S-100 阳性多见于神经鞘瘤，α-SMA 可见于部分 GIST 但不具排他性。",
+        "keyPoint": "DOG1 是诊断 KIT 阴性 GIST 的重要补充标记，两者共表达率高。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "5b9f5b48-fa95-4253-98a0-01ad5c458352",
+          "split_index": 109,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "胃肠间质瘤",
+          "source_version": "2024",
+          "source_section": "3 病理科",
+          "source_url": "",
+          "evidence_summary": "指南指出 DOG1 常与 KIT 共表达，对诊断 KIT 阴性 GIST 尤其有用。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "手术治疗",
+        "timepoint": "治疗阶段",
+        "question": "针对该患者靠近贲门的 3cm 胃 GIST，选择改良 CLEAN-NET 手术的主要考量是？",
+        "options": {
+          "A": "传统楔形切除是该部位首选，因操作简便且复发率低",
+          "B": "避免传统楔形切除导致贲门功能受损或狭窄",
+          "C": "该术式主要适用于肿瘤直径大于 5cm 的患者",
+          "D": "对于未接受新辅助治疗的患者，应优先选择全胃切除"
+        },
+        "answer": "B",
+        "answer_text": "避免传统楔形切除导致贲门功能受损或狭窄",
+        "explain": "肿瘤位于贲门附近，传统楔形切除可能损伤贲门功能或造成狭窄。CLEAN-NET 技术通过浆膜肌层切口完整剥离肿瘤，保护黏膜和器官功能，适合关键部位小肿瘤。",
+        "keyPoint": "特殊部位 GIST 手术需平衡根治性与器官功能保留，CLEAN-NET 是优选。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "5b9f5b48-fa95-4253-98a0-01ad5c458352",
+          "split_index": 113,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "胃肠间质瘤",
+          "source_version": "2024",
+          "source_section": "1 原发局限性 GIST",
+          "source_url": "",
+          "evidence_summary": "指南建议特殊部位 GIST 需多学科讨论，权衡手术方式以保留功能。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "疗效复评与局部治疗",
+        "phase": "术后随访",
+        "timepoint": "术后三个月",
+        "question": "患者术后病理评估为低风险 GIST，切缘阴性。关于其术后随访策略，下列建议最合理的是？",
+        "options": {
+          "A": "低风险患者无需随访，因复发概率为零",
+          "B": "仅需每年进行一次胸部 X 线检查即可",
+          "C": "建议术后 5 年内每 6-12 个月行腹盆腔 CT 随访",
+          "D": "必须立即开始伊马替尼辅助治疗以防复发"
+        },
+        "answer": "C",
+        "answer_text": "建议术后 5 年内每 6-12 个月行腹盆腔 CT 随访",
+        "explain": "低风险 GIST 复发风险较低，但仍需规律随访。指南推荐低风险患者术后 5 年内每 6-12 个月进行 CT 检查。无需常规辅助治疗，且随访不仅限于胸部。",
+        "keyPoint": "低风险 GIST 术后需长期随访，频率依据风险分级个体化制定。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "6f0296e6-000f-4496-9150-586d3dc650e0",
+          "split_index": 32,
+          "type": "guideline",
+          "authority": "中华医学会消化内镜学分会",
+          "source_title": "中国胃肠间质瘤内镜下诊治专家共识(2020,北京)",
+          "source_version": "2020",
+          "source_section": "七、治疗后的随访策略",
+          "source_url": "",
+          "evidence_summary": "共识建议低风险患者术后 5 年内 CT 扫描每 6-12 个月进行一次。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "治疗决策",
+        "phase": "手术治疗",
+        "timepoint": "术中决策",
+        "question": "针对该近贲门的 3cm 胃 GIST，选择改良 CLEAN-NET 手术而非传统楔形切除的主要考量是？",
+        "options": {
+          "A": "彻底清扫区域淋巴结以防转移",
+          "B": "缩短手术时间以减少麻醉风险",
+          "C": "便于术后立即开始伊马替尼辅助治疗",
+          "D": "避免肿瘤破裂并最大限度保留贲门功能"
+        },
+        "answer": "D",
+        "answer_text": "避免肿瘤破裂并最大限度保留贲门功能",
+        "explain": "近贲门部位传统切除易损伤括约肌致反流或需全胃切除。CLEAN-NET 技术通过浆膜肌层切口剥离肿瘤，保护黏膜完整性，避免破裂并保留器官功能。GIST 极少淋巴转移，无需常规清扫。",
+        "keyPoint": "特殊部位 GIST 手术需平衡 R0 切除与器官功能保留，避免肿瘤破裂是关键原则。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "d3126d85-b559-44b1-b291-6c2c829d0c25",
+          "split_index": 35,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会胃肠间质瘤诊疗指南 2025",
+          "source_version": "2025",
+          "source_section": "【注释】",
+          "source_url": "",
+          "evidence_summary": "指南强调 GIST 手术需遵循无瘤原则避免破裂，且通常无须淋巴结清扫。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-776A405",
+    "cancer_type": "骨与软组织肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/gastric-her2.png",
+      "alt": "胃肠道间质瘤主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "近贲门胃部肿瘤的局部治疗",
+      "description": "43岁女性，胃贲门附近后壁约3 cm胃肠道间质瘤。"
+    },
+    "overview": {
+      "hero": {
+        "title": "近贲门胃部肿瘤的局部治疗",
+        "subtitle": "贲门附近病灶的切除与功能保护、完整病理风险评估，以及术后随访。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "43岁女性，胃贲门附近后壁约3 cm胃肠道间质瘤。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "KIT、CD34及DOG1染色阳性，CT未见播散；原文评为低风险。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "接受改良CLEAN-NET切除，切缘阴性，术后第9天出院。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "贲门附近病灶的切除与功能保护、完整病理风险评估，以及术后随访。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "术前",
+              "title": "定位及诊断",
+              "detail": "贲门附近胃后壁约3 cm GIST，CT未见明确播散。"
+            },
+            {
+              "date": "手术期",
+              "title": "改良CLEAN-NET切除",
+              "detail": "改良CLEAN-NET切除，兼顾贲门功能。"
+            },
+            {
+              "date": "术后病理",
+              "title": "切缘阴性",
+              "detail": "切缘阴性，原文评为低风险；完整核分裂计数未提供。"
+            },
+            {
+              "date": "术后第9天",
+              "title": "出院",
+              "detail": "恢复后出院。"
+            },
+            {
+              "date": "术后3个月",
+              "title": "随访",
+              "detail": "未见复发，继续随访。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

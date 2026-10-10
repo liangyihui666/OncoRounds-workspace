@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "warnings": [],
+  "node_count": 41,
+  "edge_count": 54,
+  "topology_unchanged": true,
+  "chat_config_and_global_variables_unchanged": true,
+  "source": "C:\\Users\\admin\\Downloads\\题目生成 (1).json",
+  "source_sha256": "59132a6e2b913a9281c728dbba1fbadf35a7cf5bfbcc2d9d2a2d3e488b64167d",
+  "output": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\outputs\\快速稳定五题-v1.1\\题目生成-v1.1-FixE-数组引用形状修复-可导入.json",
+  "import_ready": true,
+  "output_sha256": "4b9120611678e92dd8b54499f7fb72d81a40b17ab6fa483c91b27fadba4d0819"
+}

@@ -1,0 +1,14 @@
+{
+  "updated_at": "2026-09-10",
+  "source": "用户确认的产品分类映射",
+  "csv_first_type_to_cancer_type": {
+    "脑部肿瘤": "头颈部肿瘤",
+    "乳腺肿瘤": "胸部肿瘤"
+  },
+  "second_cancer_type_to_cancer_type": {
+    "前列腺癌": "泌尿系肿瘤",
+    "睾丸癌": "泌尿系肿瘤",
+    "阴茎癌": "泌尿系肿瘤"
+  },
+  "matching_priority": ["second_cancer_type_to_cancer_type", "csv_first_type_to_cancer_type"]
+}

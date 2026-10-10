@@ -1,0 +1,155 @@
+{
+  "generation_status": "success",
+  "case_summary": "50 岁女性，无吸烟史。2020 年确诊右肺肺腺癌，伴脑及多发淋巴结转移，临床分期 IVB 期。初始分子检测 CD74-ROS1 融合阳性。2020 年 12 月起接受塞瑞替尼治疗，PFS 约 10 个月。2021 年 9 月出现多发脑转移进展，颅外病灶稳定，接受全脑放疗并延续原靶向治疗。2021 年 12 月进入 APG-2449 临床研究，PFS 约 8 个月。2022 年 8 月脑部及肺部病灶广泛进展，拒绝再次活检，接受培美曲塞联合卡铂及贝伐珠单抗治疗，获 PR 后维持。2023 年再次进展，重新活检检出 ROS1 D869Y 及 TP53 改变。2023 年 9 月后参加 JYP0322 新一代 ROS1 抑制剂 I 期临床研究。",
+  "question_count": 5,
+  "difficulty": "进阶",
+  "questions": [
+    {
+      "id": "Q1",
+      "type": "治疗决策",
+      "phase": "初始治疗",
+      "timepoint": "2020 年初诊时",
+      "question": "患者确诊 ROS1 融合阳性 IVB 期肺腺癌，伴脑转移，ECOG PS 1 分。综合当前规范，此时最适宜的初始系统治疗策略是？",
+      "options": [
+        "含铂双药化疗联合贝伐珠单抗",
+        "免疫检查点抑制剂联合化疗",
+        "ROS1 酪氨酸激酶抑制剂（如克唑替尼）",
+        "全脑放疗联合最佳支持治疗"
+      ],
+      "answer": 2,
+      "answer_text": "ROS1 酪氨酸激酶抑制剂（如克唑替尼）",
+      "explain": "根据 CSCO 非小细胞肺癌诊疗指南 2026，目前 ROS1 融合基因阳性 IV 期 NSCLC 一线治疗 I 级推荐应用克唑替尼，含铂双药化疗±贝伐珠单抗可作为 ROS1 融合阳性非鳞癌患者一线治疗的Ⅱ级推荐。",
+      "keyPoint": "ROS1 融合阳性 IV 期 NSCLC 一线治疗 I 级推荐应用克唑替尼。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "065ff4dc-ec1b-442e-8381-e8d820673576",
+        "split_index": 196,
+        "type": "guideline",
+        "authority": "CSCO",
+        "source_title": "中国临床肿瘤学会（CSCO）非小细胞肺癌诊疗指南 2026",
+        "source_version": "2026",
+        "source_section": "【注释】",
+        "source_url": "",
+        "evidence_summary": "目前 ROS1 融合基因阳性 IV 期 NSCLC 一线治疗 I 级推荐应用克唑替尼，含铂双药化疗±贝伐珠单抗可作为 ROS1 融合阳性非鳞癌患者一线治疗的Ⅱ级推荐。"
+      }
+    },
+    {
+      "id": "Q2",
+      "type": "治疗决策",
+      "phase": "疾病进展管理",
+      "timepoint": "2021 年 9 月 CNS 进展时",
+      "question": "患者在 ROS1 靶向治疗期间出现 CNS 进展，颅外病灶仍相对稳定。下列哪项属于当前正式指南明确列出的 CNS 进展管理路径？",
+      "options": [
+        "立即停用靶向药，更换为含铂双药化疗",
+        "克唑替尼或克唑替尼联合局部治疗",
+        "单纯增加原靶向药物剂量",
+        "暂停所有抗肿瘤治疗，仅行最佳支持治疗"
+      ],
+      "answer": 1,
+      "answer_text": "克唑替尼或克唑替尼联合局部治疗",
+      "explain": "根据肺癌中西医结合诊疗指南 2024，ROS1 融合 NSCLC 二线治疗中，对于 CNS 进展，Ⅰ级推荐克唑替尼或克唑替尼 + 局部治疗（限 CNS/寡进展）。",
+      "keyPoint": "ROS1 融合 NSCLC 发生 CNS 进展时，指南列出克唑替尼或克唑替尼联合局部治疗。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "c2dca4fe-a78d-4265-a981-75684823baad",
+        "split_index": 77,
+        "type": "guideline",
+        "authority": "中国中西医结合学会",
+        "source_title": "肺癌中西医结合诊疗指南",
+        "source_version": "2024",
+        "source_section": "表 10ROS1 融合 NSCLC 治疗推荐",
+        "source_url": "",
+        "evidence_summary": "ROS1 融合 NSCLC 二线治疗，寡进展或 CNS 进展：Ⅰ级推荐克唑替尼或克唑替尼 + 局部治疗（限 CNS/寡进展）。"
+      }
+    },
+    {
+      "id": "Q3",
+      "type": "治疗决策",
+      "phase": "后线系统治疗",
+      "timepoint": "2022 年 8 月广泛进展时",
+      "question": "患者经多线 TKI 治疗后出现脑部及肺部广泛进展，再次活检暂不可行且后续 ROS1 抑制剂可及性受限。此时最适宜的系统治疗方案是？",
+      "options": [
+        "单药免疫治疗",
+        "含铂双药化疗联合或不联合贝伐珠单抗",
+        "继续原 TKI 治疗",
+        "单纯局部放疗"
+      ],
+      "answer": 1,
+      "answer_text": "含铂双药化疗联合或不联合贝伐珠单抗",
+      "explain": "根据 CACA 肺癌指南 2024，ROS1 阳性一线治疗后广泛进展，推荐含铂双药化疗 + 局部治疗或含铂双药化疗 + 贝伐珠单抗（非鳞癌）。在 TKI 耐药且无其他靶向药可用时，含铂双药化疗±贝伐珠单抗是标准后线选择。",
+      "keyPoint": "TKI 耐药广泛进展后，含铂化疗±贝伐珠单抗是标准后线治疗。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "fd357ad4-e149-4a6f-b624-009a1351acad",
+        "split_index": 77,
+        "type": "guideline",
+        "authority": "CACA",
+        "source_title": "肺癌",
+        "source_version": "2024",
+        "source_section": "2 晚期 LC 内科治疗",
+        "source_url": "",
+        "evidence_summary": "ROS1 阳性后线治疗：一线治疗后广泛进展，推荐含铂双药化疗 + 局部治疗或含铂双药化疗 + 贝伐珠单抗（非鳞癌）。"
+      }
+    },
+    {
+      "id": "Q4",
+      "type": "诊断策略",
+      "phase": "分子检测与耐药评估",
+      "timepoint": "2023 年 8 月再次进展时",
+      "question": "患者化疗后再次进展，拟重新评估分子状态以指导后续治疗。关于 ROS1 融合基因检测策略，下列说法正确的是？",
+      "options": [
+        "IHC 检测是 ROS1 融合确诊的金标准，无需其他验证",
+        "仅推荐进行血液 NGS 检测，无需组织活检",
+        "推荐采用 FISH、qRT-PCR 或 NGS 方法进行检测",
+        "ROS1 融合发生率极低，无需常规检测"
+      ],
+      "answer": 2,
+      "answer_text": "推荐采用 FISH、qRT-PCR 或 NGS 方法进行检测",
+      "explain": "根据 CACA 肺癌指南 2024，ROS1 融合基因检测方法包括 FISH、qRT-PCR 和 NGS 方法。其中 qRT-PCR 和 NGS 法获 NMPA 注册证用于肿瘤组织 ROS1 融合基因检测。IHC 仅用于初筛，阳性需验证。ROS1 融合发生率 1%-2%，需规范检测。",
+      "keyPoint": "ROS1 融合检测推荐 FISH、qRT-PCR 或 NGS，IHC 仅用于初筛。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "fd357ad4-e149-4a6f-b624-009a1351acad",
+        "split_index": 23,
+        "type": "guideline",
+        "authority": "CACA",
+        "source_title": "肺癌",
+        "source_version": "2024",
+        "source_section": "3 分子病理",
+        "source_url": "",
+        "evidence_summary": "ROS1 融合基因检测方法包括：FISH、qRT-PCR 和 NGS 方法。其中 qRT-PCR 和 NGS 法获 NMPA 注册证用于肿瘤组织 ROS1 融合基因检测的试剂盒。"
+      }
+    },
+    {
+      "id": "Q5",
+      "type": "治疗决策",
+      "phase": "后线治疗与临床研究",
+      "timepoint": "2023 年 9 月后线治疗时",
+      "question": "患者标准后线治疗选择受限，且有意愿探索新治疗选择。关于此时合理的治疗策略，下列说法正确的是？",
+      "options": [
+        "仅能接受最佳支持治疗，无其他选择",
+        "参加 ROS1 抑制剂临床研究是合理选择之一",
+        "必须继续使用原化疗方案，不得更改",
+        "仅推荐局部放疗，不考虑系统治疗"
+      ],
+      "answer": 1,
+      "answer_text": "参加 ROS1 抑制剂临床研究是合理选择之一",
+      "explain": "根据 CSCO 非小细胞肺癌诊疗指南 2026，IV 期 ROS1 融合 NSCLC 三线治疗（PS0-2 分）Ⅱ级推荐包括单药化疗 + 贝伐珠单抗（非鳞癌）及参加 ROS1 抑制剂临床研究。在标准治疗受限或患者有意愿探索新治疗时，参加临床研究是合理选择。",
+      "keyPoint": "ROS1 融合 NSCLC 后线治疗中，参加 ROS1 抑制剂临床研究是指南推荐的合理选择之一。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "065ff4dc-ec1b-442e-8381-e8d820673576",
+        "split_index": 195,
+        "type": "guideline",
+        "authority": "CSCO",
+        "source_title": "中国临床肿瘤学会（CSCO）非小细胞肺癌诊疗指南 2026",
+        "source_version": "2026",
+        "source_section": "【注释】",
+        "source_url": "",
+        "evidence_summary": "IV 期 ROS1 融合 NSCLC 三线治疗，PS0-2 分：Ⅰ级推荐单药化疗；Ⅱ级推荐单药化疗 + 贝伐珠单抗（非鳞癌）、参加 ROS1 抑制剂临床研究。"
+      }
+    }
+  ],
+  "missing_information": [],
+  "risk_message": ""
+}

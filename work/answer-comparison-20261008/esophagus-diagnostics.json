@@ -1,0 +1,597 @@
+{
+  "evidence_verification": {
+    "version": "option-anchors-1.0",
+    "scope": "literal_source_presence_and_shape_only",
+    "decision": "FAIL",
+    "semantic_support": "not_independently_verified",
+    "normalization_policy": "display-layout-1.2-html-cjk-break-no-clinical-rewrite",
+    "errors": [
+      "Q1 [OPTION_QUOTE_NOT_FOUND] A原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q2 [OPTION_QUOTE_NOT_FOUND] A原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q2 [OPTION_QUOTE_NOT_FOUND] B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q2 [OPTION_QUOTE_NOT_FOUND] C原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q2 [OPTION_QUOTE_NOT_FOUND] D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q3 [OPTION_QUOTE_NOT_FOUND] A原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q3 [OPTION_QUOTE_NOT_FOUND] B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q3 [OPTION_QUOTE_NOT_FOUND] C原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q3 [OPTION_QUOTE_NOT_FOUND] D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q4 [OPTION_QUOTE_LENGTH] A原句须为8至180字符的非空字符串，不是关键词或整篇复制。",
+      "Q4 [OPTION_QUOTE_NOT_FOUND] D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q5 [OPTION_QUOTE_NOT_FOUND] B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+      "Q5 [OPTION_QUOTE_NOT_FOUND] D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。"
+    ],
+    "question_checks": [
+      {
+        "question_id": "Q1",
+        "evidence_id": "GB01",
+        "errors": [
+          {
+            "code": "OPTION_QUOTE_NOT_FOUND",
+            "message": "A原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。"
+          }
+        ],
+        "option_checks": [
+          {
+            "option": "A",
+            "quotes": [
+              {
+                "quote": "这类不可切除的局部晚期食管癌患者预后极差，推荐行根治性放化疗或化疗，2年或3年的生存率在20%~30%之间。",
+                "matched": false,
+                "match_mode": null,
+                "occurrences": 0,
+                "contexts": []
+              }
+            ]
+          },
+          {
+            "option": "B",
+            "quotes": [
+              {
+                "quote": "转化治疗被定义为对因邻近器官受侵犯或远处转移无法切除的肿瘤进行治疗干预后可以行根治性手术或放化疗。",
+                "matched": true,
+                "match_mode": "exact",
+                "occurrences": 1,
+                "contexts": [
+                  {
+                    "start": 225,
+                    "end": 274,
+                    "text": "气管或主动脉等时，通常认为不能切除，但未发现明确的cT4表现，则肿瘤归类为cT3br（cT3 Borderline resectable），即边缘可切除食管癌，我们将这类型划分到转化治疗的范畴。 \n转化治疗被定义为对因邻近器官受侵犯或远处转移无法切除的肿瘤进行治疗干预后可以行根治性手术或放化疗。转化手术定义为一种初始因技术和/或肿瘤原因原本无法切除或边缘切除的肿瘤在诱导治疗后可行R0切除的手术治疗，是转化治疗中最重要的一环。若手术作为根治放化疗后的转化治疗时，也称为挽救性手术。在无法切除或边"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "option": "C",
+            "quotes": [
+              {
+                "quote": "当肿瘤可疑侵犯靶器官为气管、支气管或主动脉等时，通常认为不能切除，但未发现明确的cT4表现，则肿瘤归类为cT3br（cT3 Borderline resectable），即边缘可切除食管癌，我们将这类型划分到转化治疗的范畴。",
+                "matched": true,
+                "match_mode": "exact",
+                "occurrences": 1,
+                "contexts": [
+                  {
+                    "start": 110,
+                    "end": 222,
+                    "text": "巴结侵犯主动脉、心脏、肺实质或椎体等其他邻近结构定义为cT4b期。这类不可切除的局部晚期食管癌患者预后极差，推荐行根治性放化疗或化疗，2年或3年的生存率在 $20\\% \\sim 30\\%$ 之间。当肿瘤可疑侵犯靶器官为气管、支气管或主动脉等时，通常认为不能切除，但未发现明确的cT4表现，则肿瘤归类为cT3br（cT3 Borderline resectable），即边缘可切除食管癌，我们将这类型划分到转化治疗的范畴。 \n转化治疗被定义为对因邻近器官受侵犯或远处转移无法切除的肿瘤进行治疗干预后可以行根治性手术或放化疗。转化手术定义为一种初始因技术和/或肿瘤原因原本无法切除或边缘切除的肿瘤在诱导治疗后可行R0切除的"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "option": "D",
+            "quotes": [
+              {
+                "quote": "转化手术定义为一种初始因技术和/或肿瘤原因原本无法切除或边缘切除的肿瘤在诱导治疗后可行R0切除的手术治疗，是转化治疗中最重要的一环。",
+                "matched": true,
+                "match_mode": "exact",
+                "occurrences": 1,
+                "contexts": [
+                  {
+                    "start": 274,
+                    "end": 340,
+                    "text": "rderline resectable），即边缘可切除食管癌，我们将这类型划分到转化治疗的范畴。 \n转化治疗被定义为对因邻近器官受侵犯或远处转移无法切除的肿瘤进行治疗干预后可以行根治性手术或放化疗。转化手术定义为一种初始因技术和/或肿瘤原因原本无法切除或边缘切除的肿瘤在诱导治疗后可行R0切除的手术治疗，是转化治疗中最重要的一环。若手术作为根治放化疗后的转化治疗时，也称为挽救性手术。在无法切除或边缘可切除的食管癌中，转化治疗的经验较少，其最佳治疗方案在国内外仍有争议。"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "case_fact_checks": [
+          {
+            "field": "case_timeline",
+            "quote": "2021-02-03｜初始诊疗｜胃镜及CT确诊食管中下段鳞状细胞癌，分期cT4bN0M1 IVB期。",
+            "matched": true,
+            "match_mode": "exact",
+            "occurrences": 1,
+            "contexts": [
+              {
+                "start": 0,
+                "end": 50,
+                "text": "2021-02-03｜初始诊疗｜胃镜及CT确诊食管中下段鳞状细胞癌，分期cT4bN0M1 IVB期。\n2021-02-26起｜转化治疗｜予白蛋白紫杉醇+卡铂+卡瑞利珠单抗2周期，疗效评价PR，评估可手术。\n2021-05-25｜根治性手术｜行胸腹腔镜联合食管癌切除术+淋巴结清扫，术后病理pT3N0M"
+              }
+            ]
+          },
+          {
+            "field": "case_timeline",
+            "quote": "2021-02-26起｜转化治疗｜予白蛋白紫杉醇+卡铂+卡瑞利珠单抗2周期，疗效评价PR，评估可手术。",
+            "matched": true,
+            "match_mode": "exact",
+            "occurrences": 1,
+            "contexts": [
+              {
+                "start": 51,
+                "end": 102,
+                "text": "2021-02-03｜初始诊疗｜胃镜及CT确诊食管中下段鳞状细胞癌，分期cT4bN0M1 IVB期。\n2021-02-26起｜转化治疗｜予白蛋白紫杉醇+卡铂+卡瑞利珠单抗2周期，疗效评价PR，评估可手术。\n2021-05-25｜根治性手术｜行胸腹腔镜联合食管癌切除术+淋巴结清扫，术后病理pT3N0M0，R0切除。\n2021-06至2022-10｜术后辅助治疗｜参加个体化新抗原疫苗联合帕博利珠单抗临床研"
+              }
+            ]
+          }
+        ],
+        "decision_design": {
+          "closest_alternative": "A",
+          "decision_boundary": "指南推荐cT4b行根治性放化疗，但本例合并锁骨上LN属远处转移，转化治疗定义覆盖此情形；若为单纯cT4b无M1则CRT为I级推荐",
+          "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+        },
+        "source_locator": {
+          "doc_id": "65dca43b-7ca8-48fc-a336-b4ab88dbd5e2",
+          "split_index": 314
+        },
+        "decision": "FAIL"
+      },
+      {
+        "question_id": "Q2",
+        "evidence_id": "GB02",
+        "errors": [
+          {
+            "code": "OPTION_QUOTE_NOT_FOUND",
+            "message": "A原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。"
+          },
+          {
+            "code": "OPTION_QUOTE_NOT_FOUND",
+            "message": "B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。"
+          },
+          {
+            "code": "OPTION_QUOTE_NOT_FOUND",
+            "message": "C原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。"
+          },
+          {
+            "code": "OPTION_QUOTE_NOT_FOUND",
+            "message": "D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。"
+          }
+        ],
+        "option_checks": [
+          {
+            "option": "A",
+            "quotes": [
+              {
+                "quote": "局部区域复发可手术切除复发部位未接受过放疗根治性手术a, b[2A类]",
+                "matched": false,
+                "match_mode": null,
+                "occurrences": 0,
+                "contexts": []
+              }
+            ]
+          },
+          {
+            "option": "B",
+            "quotes": [
+              {
+                "quote": "局部区域复发可手术切除复发部位未接受过放疗根治性手术a, b[2A类]同步放化疗c, d (拒绝手术或有手术禁忌) [2B类]",
+                "matched": false,
+                "match_mode": null,
+                "occurrences": 0,
+                "contexts": []
+              }
+            ]
+          },
+          {
+            "option": "C",
+            "quotes": [
+              {
+                "quote": "局部区域复发不可手术切除复发部位未接受过放疗同步放化疗c, d [2B类]系统性药物治疗c+放疗 (不能耐受同步放化疗) [2B类]",
+                "matched": false,
+                "match_mode": null,
+                "occurrences": 0,
+                "contexts": []
+              }
+            ]
+          },
+          {
+            "option": "D",
+            "quotes": [
+              {
+                "quote": "局部区域复发可手术切除复发部位未接受过放疗根治性手术a, b[2A类]",
+                "matched": false,
+                "match_mode": null,
+                "occurrences": 0,
+                "contexts": []
+              }
+            ]
+          }
+        ],
+        "case_fact_checks": [
+          {
+            "field": "case_timeline",
+            "quote": "2022-10-20｜首次进展｜发现上纵隔及锁骨上淋巴结转移。",
+            "matched": true,
+            "match_mode": "exact",
+            "occurrences": 1,
+            "contexts": [
+              {
+                "start": 244,
+                "end": 275,
+                "text": "pT3N0M0，R0切除。\n2021-06至2022-10｜术后辅助治疗｜参加个体化新抗原疫苗联合帕博利珠单抗临床研究，期间DFS达17.1个月；基线CT曾提示甲状腺右侧叶软组织肿块考虑转移淋巴结。\n2022-10-20｜首次进展｜发现上纵隔及锁骨上淋巴结转移。\n2022-11-23至2022-12-30｜挽救治疗｜局部放疗（DT=5600cGy/28f）联合原方案维持，疗效评价PR，PFS1为6.2个月。\n2023-05-29｜再次进展｜疾病再次进展。\n2"
+              }
+            ]
+          },
+          {
+            "field": "case_timeline",
+            "quote": "2022-11-23至2022-12-30｜挽救治疗｜局部放疗（DT=5600cGy/28f）联合原方案维持，疗效评价PR，PFS1为6.2个月。",
+            "matched": true,
+            "match_mode": "exact",
+            "occurrences": 1,
+            "contexts": [
+              {
+                "start": 276,
+                "end": 349,
+                "text": "辅助治疗｜参加个体化新抗原疫苗联合帕博利珠单抗临床研究，期间DFS达17.1个月；基线CT曾提示甲状腺右侧叶软组织肿块考虑转移淋巴结。\n2022-10-20｜首次进展｜发现上纵隔及锁骨上淋巴结转移。\n2022-11-23至2022-12-30｜挽救治疗｜局部放疗（DT=5600cGy/28f）联合原方案维持，疗效评价PR，PFS1为6.2个月。\n2023-05-29｜再次进展｜疾病再次进展。\n2023-06-14｜病理复核｜右锁骨上窝淋巴结穿刺活检提示“鳞状细胞癌伴神经内分泌转化”，免疫组化Syn/CgA少量阳性，Ki-67约85%。\n20"
+              }
+            ]
+          }
+        ],
+        "decision_design": {
+          "closest_alternative": "B",
+          "decision_boundary": "未接受过放疗且可切除时手术为I级，但本例需先确认可切除性；若评估为不可切除则同步放化疗或系统治疗+放疗为II级",
+          "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+        },
+        "source_locator": {
+          "doc_id": "1f2a5a56-78cc-4461-bf80-9c54c600de20",
+          "split_index": 114
+        },
+        "decision": "FAIL"
+      },
+      {
+        "question_id": "Q3",
+        "evidence_id": "GA04",
+        "errors": [
+          {
+            "code": "OPTION_QUOTE_NOT_FOUND",
+            "message": "A原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。"
+          },
+          {
+            "code": "OPTION_QUOTE_NOT_FOUND",
+            "message": "B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。"
+          },
+          {
+            "code": "OPTION_QUOTE_NOT_FOUND",
+            "message": "C原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。"
+          },
+          {
+            "code": "OPTION_QUOTE_NOT_FOUND",
+            "message": "D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。"
+          }
+        ],
+        "option_checks": [
+          {
+            "option": "A",
+            "quotes": [
+              {
+                "quote": "食管鳞状细胞癌典型的免疫表型为CK5&6+ p40+/p63+",
+                "matched": false,
+                "match_mode": null,
+                "occurrences": 0,
+                "contexts": []
+              }
+            ]
+          },
+          {
+            "option": "B",
+            "quotes": [
+              {
+                "quote": "食管鳞状细胞癌典型的免疫表型为CK5&6+ p40+/p63+，食管小细胞癌典型的免疫表型为Syn+ CgA+/CK5&6-/p40-/p63-",
+                "matched": false,
+                "match_mode": null,
+                "occurrences": 0,
+                "contexts": []
+              }
+            ]
+          },
+          {
+            "option": "C",
+            "quotes": [
+              {
+                "quote": "食管小细胞癌典型的免疫表型为Syn+ CgA+/CK5&6-/p40-/p63-",
+                "matched": false,
+                "match_mode": null,
+                "occurrences": 0,
+                "contexts": []
+              }
+            ]
+          },
+          {
+            "option": "D",
+            "quotes": [
+              {
+                "quote": "根据鉴别目标选取标记物，食管鳞状细胞癌典型的免疫表型为CK5&6+ p40+/p63+",
+                "matched": false,
+                "match_mode": null,
+                "occurrences": 0,
+                "contexts": []
+              }
+            ]
+          }
+        ],
+        "case_fact_checks": [
+          {
+            "field": "case_timeline",
+            "quote": "2023-06-14｜病理复核｜右锁骨上窝淋巴结穿刺活检提示",
+            "matched": true,
+            "match_mode": "exact",
+            "occurrences": 1,
+            "contexts": [
+              {
+                "start": 374,
+                "end": 404,
+                "text": "。\n2022-11-23至2022-12-30｜挽救治疗｜局部放疗（DT=5600cGy/28f）联合原方案维持，疗效评价PR，PFS1为6.2个月。\n2023-05-29｜再次进展｜疾病再次进展。\n2023-06-14｜病理复核｜右锁骨上窝淋巴结穿刺活检提示“鳞状细胞癌伴神经内分泌转化”，免疫组化Syn/CgA少量阳性，Ki-67约85%。\n2023-07-10｜二线治疗｜改行EP方案化疗1周期，出现重度骨髓抑制，全身状况恶化，疾病爆发性进展(PD)，E"
+              }
+            ]
+          },
+          {
+            "field": "biomarkers",
+            "quote": "复发灶活检（2023-06-14）：鳞状细胞癌伴神经内分泌转化；免疫组化：p40(+), p53(+), Syn(少量+), CgA(少量+), CD56(部分+), Ki-67(+, 约85%)。",
+            "matched": true,
+            "match_mode": "exact",
+            "occurrences": 1,
+            "contexts": [
+              {
+                "start": 28,
+                "end": 127,
+                "text": "初诊病理：鳞状细胞癌。术后病理：鳞状细胞癌，G2中分化。复发灶活检（2023-06-14）：鳞状细胞癌伴神经内分泌转化；免疫组化：p40(+), p53(+), Syn(少量+), CgA(少量+), CD56(部分+), Ki-67(+, 约85%)。肿瘤微环境mIHC（术后）：CD8+T细胞密度下降，PD-1、TIGIT、TIM-3高表达。"
+              }
+            ]
+          }
+        ],
+        "decision_design": {
+          "closest_alternative": "C",
+          "decision_boundary": "纯NEC要求p40-/p63-；本例p40(+)排除纯NEC；若p40阴性且Syn/CgA弥漫强阳性则考虑NEC",
+          "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+        },
+        "source_locator": {
+          "doc_id": "f51ad2ef-8e21-42f9-bfd1-f2ed36512587",
+          "split_index": 88
+        },
+        "decision": "FAIL"
+      },
+      {
+        "question_id": "Q4",
+        "evidence_id": "CS02",
+        "errors": [
+          {
+            "code": "OPTION_QUOTE_LENGTH",
+            "message": "A原句须为8至180字符的非空字符串，不是关键词或整篇复制。"
+          },
+          {
+            "code": "OPTION_QUOTE_NOT_FOUND",
+            "message": "D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。"
+          }
+        ],
+        "option_checks": [
+          {
+            "option": "A",
+            "quotes": [
+              {
+                "quote": "The R0 resection rate was 84.0% in the intention-to-treat (ITT) population and 91.3% in the surgical cohort (21/25 and 21/23, respectively), exceeding the prespecified threshold of 65%.",
+                "matched": false
+              }
+            ]
+          },
+          {
+            "option": "B",
+            "quotes": [
+              {
+                "quote": "5 achieved complete response (CR), 16 achieved partial response (PR), and 4 had stable disease (SD), resulting in an ORR of 84.0% (21/25).",
+                "matched": true,
+                "match_mode": "exact",
+                "occurrences": 1,
+                "contexts": [
+                  {
+                    "start": 1445,
+                    "end": 1583,
+                    "text": " supraclavicular lymph node metastasis). As of May 9, 2025, all 25 pts were evaluable for efficacy: 5 achieved complete response (CR), 16 achieved partial response (PR), and 4 had stable disease (SD), resulting in an ORR of 84.0% (21/25). Surgery was performed on 23 pts, with R0 resection achieved in 21 pts. The R0 resection rate was 84"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "option": "C",
+            "quotes": [
+              {
+                "quote": "Interim results from this phase II trial demonstrate that iRT combined with iCT followed by surgery is feasible and safe for patients with LAPBR-ESCC.",
+                "matched": true,
+                "match_mode": "exact",
+                "occurrences": 1,
+                "contexts": [
+                  {
+                    "start": 2468,
+                    "end": 2618,
+                    "text": "ing in 40.0% of pts (10/25). No grade 5 events or perioperative deaths were observed.\nConclusions: Interim results from this phase II trial demonstrate that iRT combined with iCT followed by surgery is feasible and safe for patients with LAPBR-ESCC."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "option": "D",
+            "quotes": [
+              {
+                "quote": "17 pts (68.0%) had at least one grade 3/4 TRAE. The most common grade ≥3 TRAEs were leukopenia and neutropenia, each occurring in 40.0% of pts (10/25).",
+                "matched": false,
+                "match_mode": null,
+                "occurrences": 0,
+                "contexts": []
+              }
+            ]
+          }
+        ],
+        "case_fact_checks": [
+          {
+            "field": "case_timeline",
+            "quote": "2021-02-26起｜转化治疗｜予白蛋白紫杉醇+卡铂+卡瑞利珠单抗2周期，疗效评价PR，评估可手术。",
+            "matched": true,
+            "match_mode": "exact",
+            "occurrences": 1,
+            "contexts": [
+              {
+                "start": 51,
+                "end": 102,
+                "text": "2021-02-03｜初始诊疗｜胃镜及CT确诊食管中下段鳞状细胞癌，分期cT4bN0M1 IVB期。\n2021-02-26起｜转化治疗｜予白蛋白紫杉醇+卡铂+卡瑞利珠单抗2周期，疗效评价PR，评估可手术。\n2021-05-25｜根治性手术｜行胸腹腔镜联合食管癌切除术+淋巴结清扫，术后病理pT3N0M0，R0切除。\n2021-06至2022-10｜术后辅助治疗｜参加个体化新抗原疫苗联合帕博利珠单抗临床研"
+              }
+            ]
+          },
+          {
+            "field": "case_timeline",
+            "quote": "2021-02-03｜初始诊疗｜胃镜及CT确诊食管中下段鳞状细胞癌，分期cT4bN0M1 IVB期。",
+            "matched": true,
+            "match_mode": "exact",
+            "occurrences": 1,
+            "contexts": [
+              {
+                "start": 0,
+                "end": 50,
+                "text": "2021-02-03｜初始诊疗｜胃镜及CT确诊食管中下段鳞状细胞癌，分期cT4bN0M1 IVB期。\n2021-02-26起｜转化治疗｜予白蛋白紫杉醇+卡铂+卡瑞利珠单抗2周期，疗效评价PR，评估可手术。\n2021-05-25｜根治性手术｜行胸腹腔镜联合食管癌切除术+淋巴结清扫，术后病理pT3N0M"
+              }
+            ]
+          }
+        ],
+        "decision_design": {
+          "closest_alternative": "B",
+          "decision_boundary": "CR率20%为次要终点且非主要获益指标；R0切除率为预设主要终点，本例需评估的是转化后能否R0切除而非CR",
+          "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+        },
+        "source_locator": {
+          "doc_id": "MEETING_20260721_153812_611BF8B1",
+          "split_index": 1
+        },
+        "decision": "FAIL"
+      },
+      {
+        "question_id": "Q5",
+        "evidence_id": "GB03",
+        "errors": [
+          {
+            "code": "OPTION_QUOTE_NOT_FOUND",
+            "message": "B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。"
+          },
+          {
+            "code": "OPTION_QUOTE_NOT_FOUND",
+            "message": "D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。"
+          }
+        ],
+        "option_checks": [
+          {
+            "option": "A",
+            "quotes": [
+              {
+                "quote": "如今免疫诱导治疗的加入是否会带来更好的疗效也待进一步研究证实。",
+                "matched": true,
+                "match_mode": "exact",
+                "occurrences": 1,
+                "contexts": [
+                  {
+                    "start": 148,
+                    "end": 179,
+                    "text": "到提高患者生活质量和延长生存的目的。但不同研究中心所报道的治疗效果差别较大，尚有很多问题等待解决，如与持续全身治疗相比，转化治疗是否改善了预后，诱导治疗的方案及周期选择，转化手术中淋巴结的清扫范围等，如今免疫诱导治疗的加入是否会带来更好的疗效也待进一步研究证实。\n我国的BRES- 1研究卡瑞利珠单抗联合化疗治疗边缘可切除食管鳞状细胞癌显示出良好的转化率，其功效和安全性将在以后的试验中进一步研究。\n日本一项COSMOSⅡ期临床试验，局部晚期不可切除的食管癌的D"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "option": "B",
+            "quotes": [
+              {
+                "quote": "我国的BRES-1研究卡瑞利珠单抗联合化疗治疗边缘可切除食管鳞状细胞癌显示出良好的转化率，其功效和安全性将在以后的试验中进一步研究。",
+                "matched": false,
+                "match_mode": null,
+                "occurrences": 0,
+                "contexts": []
+              }
+            ]
+          },
+          {
+            "option": "C",
+            "quotes": [
+              {
+                "quote": "但不同研究中心所报道的治疗效果差别较大，尚有很多问题等待解决，如与持续全身治疗相比，转化治疗是否改善了预后，诱导治疗的方案及周期选择，转化手术中淋巴结的清扫范围等",
+                "matched": true,
+                "match_mode": "exact",
+                "occurrences": 1,
+                "contexts": [
+                  {
+                    "start": 66,
+                    "end": 147,
+                    "text": "转化治疗及转化手术概念的提出及应用，使不可切除局部晚期食管鳞癌经诱导治疗后转化为可根治性切除以达到提高患者生活质量和延长生存的目的。但不同研究中心所报道的治疗效果差别较大，尚有很多问题等待解决，如与持续全身治疗相比，转化治疗是否改善了预后，诱导治疗的方案及周期选择，转化手术中淋巴结的清扫范围等，如今免疫诱导治疗的加入是否会带来更好的疗效也待进一步研究证实。\n我国的BRES- 1研究卡瑞利珠单抗联合化疗治疗边缘可切除食管鳞状细胞癌显示出良好的转化率，其功效和安全性将在以后的试验中进一步研究。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "option": "D",
+            "quotes": [
+              {
+                "quote": "我国的BRES-1研究卡瑞利珠单抗联合化疗治疗边缘可切除食管鳞状细胞癌显示出良好的转化率，其功效和安全性将在以后的试验中进一步研究。",
+                "matched": false,
+                "match_mode": null,
+                "occurrences": 0,
+                "contexts": []
+              }
+            ]
+          }
+        ],
+        "case_fact_checks": [
+          {
+            "field": "case_timeline",
+            "quote": "2021-02-26起｜转化治疗｜予白蛋白紫杉醇+卡铂+卡瑞利珠单抗2周期，疗效评价PR，评估可手术。",
+            "matched": true,
+            "match_mode": "exact",
+            "occurrences": 1,
+            "contexts": [
+              {
+                "start": 51,
+                "end": 102,
+                "text": "2021-02-03｜初始诊疗｜胃镜及CT确诊食管中下段鳞状细胞癌，分期cT4bN0M1 IVB期。\n2021-02-26起｜转化治疗｜予白蛋白紫杉醇+卡铂+卡瑞利珠单抗2周期，疗效评价PR，评估可手术。\n2021-05-25｜根治性手术｜行胸腹腔镜联合食管癌切除术+淋巴结清扫，术后病理pT3N0M0，R0切除。\n2021-06至2022-10｜术后辅助治疗｜参加个体化新抗原疫苗联合帕博利珠单抗临床研"
+              }
+            ]
+          },
+          {
+            "field": "case_context",
+            "quote": "经TC方案化疗联合卡瑞利珠单抗转化治疗达PR后行根治性手术（R0切除，pT3N0）。",
+            "matched": true,
+            "match_mode": "exact",
+            "occurrences": 1,
+            "contexts": [
+              {
+                "start": 49,
+                "end": 91,
+                "text": "男性60岁，无吸烟饮酒史。进行性吞咽梗阻3月余。初诊食管中下段鳞癌伴锁骨上淋巴结转移（IVB期）。经TC方案化疗联合卡瑞利珠单抗转化治疗达PR后行根治性手术（R0切除，pT3N0）。术后参加个体化新抗原疫苗联合帕博利珠单抗辅助治疗临床研究，DFS 17.1个月。首次进展于纵隔及锁骨上淋巴结，放疗联合原方案维持获PR。再次进展活检提示鳞癌伴神经内分泌转化（Ki-67 85%），改行"
+              }
+            ]
+          }
+        ],
+        "decision_design": {
+          "closest_alternative": "B",
+          "decision_boundary": "BRES-1显示良好转化率但未证实优于单纯化疗；若后续III期RCT证实免疫联合优于化疗则B成立",
+          "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+        },
+        "source_locator": {
+          "doc_id": "65dca43b-7ca8-48fc-a336-b4ab88dbd5e2",
+          "split_index": 316
+        },
+        "decision": "FAIL"
+      }
+    ]
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-95977E69",
+    "cancer_type": "乳腺癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "分子诊断",
+        "phase": "复发/转移治疗阶段",
+        "timepoint": "2023 年内分泌治疗进展后",
+        "question": "患者 HR+/HER2-转移性乳腺癌在 AI 及 CDK4/6 抑制剂治疗后进展，拟启用卡匹色替联合氟维司群。启动该方案前必须确认的关键分子标志物及检测样本首选是什么？",
+        "options": {
+          "A": "BRCA1/2 胚系突变，首选外周血样本",
+          "B": "ESR1 突变状态，首选血浆 ctDNA",
+          "C": "PIK3CA 突变状态，首选肿瘤组织样本",
+          "D": "HER2 低表达状态，首选原发灶存档蜡块"
+        },
+        "answer": "C",
+        "answer_text": "PIK3CA 突变状态，首选肿瘤组织样本",
+        "explain": "指南推荐优先选择组织样本检测 PIK3CA 突变以指导用药；仅在组织样本不可获得时，才考虑采用血浆 ctDNA 作为补充检测手段。",
+        "keyPoint": "PI3K 抑制剂使用前须确认 PIK3CA 突变，组织样本为检测首选，ctDNA 仅作补充。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "7f8a2463-763c-4669-a370-54fca8039124",
+          "split_index": 9,
+          "type": "guideline",
+          "authority": "中华医学会病理学分会, CACA, 国家病理质控中心",
+          "source_title": "乳腺癌生物标志物检测临床应用指南",
+          "source_version": "2025",
+          "source_section": "二、乳腺癌治疗靶点检测及临床意义",
+          "source_url": "",
+          "evidence_summary": "指南明确卡匹色替适用于伴 PIK3CA 等改变患者，优先选组织样本检测，组织不可及时可选 ctDNA。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "不良反应管理",
+        "phase": "靶向治疗期间",
+        "timepoint": "卡匹色替服药第 8 天出现重度皮疹",
+        "question": "患者服用卡匹色替后出现泛发大疱性皮疹伴界面性皮炎病理改变，诊断为重度放射性回忆性皮炎。此时最恰当的药物管理策略是？",
+        "options": {
+          "A": "立即永久停用卡匹色替，不再尝试同类药物",
+          "B": "维持原剂量，仅加强外用激素及抗组胺药对症",
+          "C": "直接更换为 Alpelisib，无需等待皮疹完全消退",
+          "D": "暂停用药，给予系统激素治疗，恢复后尝试减量重启"
+        },
+        "answer": "D",
+        "answer_text": "暂停用药，给予系统激素治疗，恢复后尝试减量重启",
+        "explain": "对于重度皮肤毒性，指南建议暂停致病药物并使用系统激素。待毒性恢复至轻度后，可尝试减量重启；若再次发生严重反应则永久停药或换药。",
+        "keyPoint": "重度靶向药皮疹需暂停用药并系统治疗，缓解后可尝试减量重启评估耐受性。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "aa30e019-576b-410b-9d2b-bf53a07d4de8",
+          "split_index": 216,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "皮肤、黏膜保护 中国肿瘤整合诊治技术指南（CACA）",
+          "source_version": "2023",
+          "source_section": "2. 治疗",
+          "source_url": "",
+          "evidence_summary": "指南指出Ⅲ级黏膜/皮肤损伤需暂停控瘤药物并联合糖皮质激素，恢复至Ⅰ级后可低剂量重新启动，若再发则永久停用。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "复发/转移治疗阶段",
+        "timepoint": "2023 年骨转移进展时",
+        "question": "患者在接受来曲唑 + 瑞波西利治疗期间出现骨转移进展，且既往同一区域曾接受过放疗。此时全身及局部治疗调整的最佳策略是？",
+        "options": {
+          "A": "更换内分泌药物为氟维司群，并对进展病灶行再放疗",
+          "B": "继续原内分泌方案，仅对新增骨病灶行姑息放疗",
+          "C": "立即启动化疗，避免对既往放疗区域再次照射",
+          "D": "单用卡匹色替，暂停所有局部治疗直至全身控制"
+        },
+        "answer": "A",
+        "answer_text": "更换内分泌药物为氟维司群，并对进展病灶行再放疗",
+        "explain": "AI 治疗进展后标准二线方案为氟维司群。对于寡进展或症状性骨转移，联合局部再放疗可控制局部症状，需评估既往放疗剂量与范围。",
+        "keyPoint": "内分泌治疗进展后应更换机制不同的药物，并可联合局部放疗控制寡进展病灶。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+          "split_index": 364,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+          "source_version": "2026",
+          "source_section": "13.2.3.1 药物预防性治疗",
+          "source_url": "",
+          "evidence_summary": "指南强调复发治疗需回顾既往放疗详情，根据复发病灶与放射野关系决定局部治疗，同时系统治疗需随进展调整。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "耐药与后线管理",
+        "phase": "靶向治疗不耐受后",
+        "timepoint": "卡匹色替减量重启失败后",
+        "question": "患者因卡匹色替致严重放射性回忆性皮炎，减量重启后仍出现皮疹。在 PIK3CA 突变阳性且需继续靶向治疗的前提下，后续合理选择是？",
+        "options": {
+          "A": "永久停用所有 PI3K/AKT 通路抑制剂，直接转为单纯化疗",
+          "B": "换用结构不同的同类药物 Alpelisib，并密切监测皮肤毒性",
+          "C": "增加激素预防剂量，强行维持卡匹色替原剂量继续治疗",
+          "D": "改用免疫检查点抑制剂联合内分泌治疗以规避皮疹风险"
+        },
+        "answer": "B",
+        "answer_text": "换用结构不同的同类药物 Alpelisib，并密切监测皮肤毒性",
+        "explain": "病例显示患者换用 Alpelisib 后耐受良好。不同 PI3K 抑制剂化学结构及副作用谱存在差异，对一种药物不耐受时，可尝试换用同类其他药物。",
+        "keyPoint": "对特定 PI3K 抑制剂不耐受时，可考虑换用同类不同结构药物以维持靶向治疗。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "7f8a2463-763c-4669-a370-54fca8039124",
+          "split_index": 9,
+          "type": "guideline",
+          "authority": "中华医学会病理学分会, CACA, 国家病理质控中心",
+          "source_title": "乳腺癌生物标志物检测临床应用指南",
+          "source_version": "2025",
+          "source_section": "二、乳腺癌治疗靶点检测及临床意义",
+          "source_url": "",
+          "evidence_summary": "指南支持 PIK3CA 突变患者使用 PI3K 抑制剂；本例依据病例事实推导换药可行性，属个体化临床推理。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "分子诊断",
+        "phase": "复发转移后治疗决策前",
+        "timepoint": "2023 年氟维司群治疗期间",
+        "question": "该患者在氟维司群治疗进展后，加用卡匹色替（Capivasertib）的关键分子依据是什么？",
+        "options": {
+          "A": "骨转移灶 HER2 表达为 1+",
+          "B": "检测到 PIK3CA 基因突变",
+          "C": "原发灶 ER 阳性且 PR 阴性",
+          "D": "血清 CA15-3 水平显著升高"
+        },
+        "answer": "B",
+        "answer_text": "检测到 PIK3CA 基因突变",
+        "explain": "CAPItello-291 研究及指南推荐卡匹色替联合氟维司群用于携带 PIK3CA/AKT1/PTEN 改变的 HR+/HER2-晚期乳腺癌患者。本例明确检出 PIK3CA 突变，是启动该靶向治疗的核心依据。",
+        "keyPoint": "PIK3CA 突变是 AKT 抑制剂联合内分泌治疗的优势人群标志物。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "7f8a2463-763c-4669-a370-54fca8039124",
+          "split_index": 9,
+          "type": "guideline",
+          "authority": "中华医学会病理学分会, CACA, 国家病理质控中心",
+          "source_title": "乳腺癌生物标志物检测临床应用指南",
+          "source_version": "2025",
+          "source_section": "二、乳腺癌治疗靶点检测及临床意义",
+          "source_url": "",
+          "evidence_summary": "指南指出 AKT 抑制剂卡匹色替联合氟维司群获批用于伴有 PIK3CA/AKT1/PTEN 改变的 HR+/HER2-转移性乳腺癌。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-95977E69",
+    "cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "乳腺癌治疗中的照射与用药安全",
+      "description": "56岁女性，转移性乳腺癌再次骨放疗后开始卡匹色替。"
+    },
+    "overview": {
+      "hero": {
+        "title": "乳腺癌治疗中的照射与用药安全",
+        "subtitle": "皮疹与既往照射区域、服药节律及再暴露的关系，以及后续治疗耐受性。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "56岁女性，转移性乳腺癌再次骨放疗后开始卡匹色替。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "随后出现照射区域大疱及泛发皮疹，期间存在停药日误服。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "暂停用药并给予激素及局部处理；再暴露后皮疹复发，再次停药。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "皮疹与既往照射区域、服药节律及再暴露的关系，以及后续治疗耐受性。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2005年及其后",
+              "title": "初始治疗",
+              "detail": "乳腺手术、化疗、放疗及长期他莫昔芬治疗。"
+            },
+            {
+              "date": "2023年",
+              "title": "发现转移",
+              "detail": "肺及胫骨活检证实转移，接受内分泌联合CDK4/6治疗及骨局部治疗。"
+            },
+            {
+              "date": "骨放疗约7个月后",
+              "title": "进展及再照射",
+              "detail": "骨病灶进展后再次手术、放疗，内分泌改氟维司群。"
+            },
+            {
+              "date": "再次放疗后7天起",
+              "title": "卡匹色替及皮疹",
+              "detail": "开始卡匹色替，停药日误服4剂，随后出现大疱及泛发皮疹。"
+            },
+            {
+              "date": "住院期间",
+              "title": "停药及皮肤处理",
+              "detail": "停药，给予激素、局部处理及抗菌药后改善。"
+            },
+            {
+              "date": "再暴露及后续",
+              "title": "再次停药并换药",
+              "detail": "再用一剂后皮疹复发，停药后消退；改阿培利司，报道耐受良好。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

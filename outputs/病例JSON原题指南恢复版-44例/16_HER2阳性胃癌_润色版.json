@@ -1,0 +1,247 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-8C6E34E9",
+    "cancer_type": "胃癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "分子诊断",
+        "phase": "初始诊断与病理检测",
+        "timepoint": "术后病理检测时",
+        "question": "针对该患者术后病理标本，关于 HER2 检测的规范建议及潜在局限性，下列哪项描述最准确？",
+        "options": {
+          "A": "仅早期胃癌需要行 HER2 检测，进展期无需常规检测",
+          "B": "HER2 检测结果不受标本固定时间影响，无需特殊质控",
+          "C": "所有进展期胃腺癌应行 HER2 检测，标本固定不当可能导致假阴性",
+          "D": "液体活检已完全替代组织检测成为 HER2 判定金标准"
+        },
+        "answer": "C",
+        "answer_text": "所有进展期胃腺癌应行 HER2 检测，标本固定不当可能导致假阴性",
+        "explain": "指南推荐所有进展期胃腺癌检测 HER2，并指出标本固定不充分可导致假阴性。",
+        "keyPoint": "进展期胃癌需规范检测 HER2，并注意标本处理对结果的影响。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "f51ad2ef-8e21-42f9-bfd1-f2ed36512587",
+          "split_index": 111,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 病理诊断",
+          "source_version": "2023",
+          "source_section": "二、病理技术局限性",
+          "source_url": "",
+          "evidence_summary": "指南指出进展期胃腺癌应行 HER2 检测，且标本固定不当会导致假阴性。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "治疗决策",
+        "phase": "二线治疗",
+        "timepoint": "一线治疗进展后",
+        "question": "患者一线含铂及抗 HER2 治疗后进展。针对 HER2 阳性胃癌二线治疗，下列哪项符合当前高级别证据支持的原则？",
+        "options": {
+          "A": "曲妥珠单抗跨线联合化疗作为标准推荐",
+          "B": "优先推荐德曲妥珠单抗或参加临床研究",
+          "C": "必须使用小分子酪氨酸激酶抑制剂替代",
+          "D": "所有患者均应直接转为免疫单药治疗"
+        },
+        "answer": "B",
+        "answer_text": "优先推荐德曲妥珠单抗或参加临床研究",
+        "explain": "指南指出曲妥珠单抗跨线治疗缺乏高级别依据，而 HER2-ADC 药物（如德曲妥珠单抗）被证明可使这类人群获益，推荐作为二线治疗。",
+        "keyPoint": "曲妥珠单抗失败后，ADC 药物优于跨线使用曲妥珠单抗。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "8350da7b-6914-4101-be88-7d4db6c58220",
+          "split_index": 224,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 化学治疗",
+          "source_version": "2023",
+          "source_section": "2. 二线治疗",
+          "source_url": "",
+          "evidence_summary": "指南指出曲妥珠单抗跨线缺乏依据，推荐 HER2-ADC 药物用于二线治疗。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "晚期复发多线治疗",
+        "timepoint": "六线治疗启动前",
+        "question": "患者 HER2 阳性胃癌经五线治疗均进展，体能状态尚可。依据现行指南，六线治疗的最佳策略是？",
+        "options": {
+          "A": "启用德曲妥珠单抗单药进行治疗",
+          "B": "继续原方案加量以突破耐药瓶颈",
+          "C": "联合两种不同机制免疫检查点抑制剂",
+          "D": "立即转为最佳支持治疗放弃抗肿瘤"
+        },
+        "answer": "A",
+        "answer_text": "启用德曲妥珠单抗单药进行治疗",
+        "explain": "CSCO 指南明确推荐德曲妥珠单抗用于 HER2 阳性胃癌三线及以上治疗（1B 类）。患者已历经五线治疗失败，符合后线治疗指征，该药是标准选择。",
+        "keyPoint": "德曲妥珠单抗是 HER2 阳性胃癌后线治疗的标准推荐。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+          "split_index": 115,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026",
+          "source_version": "2026",
+          "source_section": "专家组成员（以姓氏汉语拼音为序）（\\*为执笔人）",
+          "source_url": "",
+          "evidence_summary": "CSCO 指南推荐德曲妥珠单抗用于 HER2 高表达胃癌三线及以上治疗，证据级别 1B 类。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "分子诊断",
+        "phase": "疗效评估与生物标志物",
+        "timepoint": "六线治疗期间",
+        "question": "在 DESTINY-Gastric04 等研究背景下，关于 HER2 状态检测对德曲妥珠单抗疗效预测的价值，下列哪项理解正确？",
+        "options": {
+          "A": "HER2 检测结果不一致不影响德曲妥珠单抗的临床疗效",
+          "B": "仅凭临床症状改善即可使用德曲妥珠单抗，无需检测 HER2",
+          "C": "局部检测与中心检测结果差异巨大，临床不可采信任何结果",
+          "D": "准确判定 HER2 阳性状态是确保德曲妥珠单抗获益的关键前提"
+        },
+        "answer": "D",
+        "answer_text": "准确判定 HER2 阳性状态是确保德曲妥珠单抗获益的关键前提",
+        "explain": "研究强调准确测定 HER2 状态对可靠选择获益人群至关重要，局部与中心检测结果需一致性评估。",
+        "keyPoint": "HER2 状态准确判定是德曲妥珠单抗治疗获益的基础。",
+        "guidelineRef": {
+          "evidence_type": "临床研究",
+          "doc_id": "MEETING_20260721_153812_121915DF",
+          "split_index": 1,
+          "type": "meeting",
+          "authority": "ASCO GI 2026",
+          "source_title": "Exploratory analysis of HER2 status based on central and local testing results from the DESTINY-Gastric04 study.",
+          "source_version": "2026",
+          "source_section": "Exploratory analysis of HER2 status based on central and local testing results from the DESTINY-Gastric04 study.",
+          "source_url": "https://meetings.asco.org/abstracts-presentations/255815",
+          "evidence_summary": "研究结论支持使用现有检测手段准确选择 HER2 阳性患者以获得生存获益。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "治疗决策",
+        "phase": "晚期复发多线治疗",
+        "timepoint": "六线治疗评估时",
+        "question": "该患者六线德曲妥珠单抗治疗达临床完全缓解（CR）并维持超 2 年，关于后续管理策略，下列哪项最合理？",
+        "options": {
+          "A": "立即行根治性手术切除以巩固目前的临床完全缓解",
+          "B": "继续定期随访监测，暂不需进一步抗肿瘤治疗干预",
+          "C": "强制增加放疗剂量以清除可能残留的微小病灶",
+          "D": "停止所有监测等待肿瘤标志物升高后再启动治疗"
+        },
+        "answer": "B",
+        "answer_text": "继续定期随访监测，暂不需进一步抗肿瘤治疗干预",
+        "explain": "病例显示患者维持临床 CR 超 2 年且无需进一步治疗，符合深度缓解后的观察策略，避免过度治疗。",
+        "keyPoint": "深度缓解且长期稳定者，可采取密切随访而非过度干预。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+          "split_index": 114,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026",
+          "source_version": "2026",
+          "source_section": "专家组成员（以姓氏汉语拼音为序）（\\*为执笔人）",
+          "source_url": "",
+          "evidence_summary": "基于病例长期 CR 事实及指南对治疗反应后的个体化管理原则推导。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-8C6E34E9",
+    "cancer_type": "胃癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/gastric-her2.png",
+      "alt": "胃癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "胃癌复发后的靶点与治疗评估",
+      "description": "70岁男性，胃癌根治术后1年7个月出现腹主动脉旁淋巴结复发。"
+    },
+    "overview": {
+      "hero": {
+        "title": "胃癌复发后的靶点与治疗评估",
+        "subtitle": "多线抗HER2治疗后的方案评估、治疗安全性，以及深度缓解后的管理边界。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "70岁男性，胃癌根治术后1年7个月出现腹主动脉旁淋巴结复发。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "胃腺癌HER2 3+，多线治疗后进展并出现肺转移。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "历经五线治疗后使用德曲妥珠单抗，4个月达PR，1年4个月达临床CR。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "多线抗HER2治疗后的方案评估、治疗安全性，以及深度缓解后的管理边界。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "初始治疗",
+              "title": "胃癌手术",
+              "detail": "远端胃切除及D2清扫，HER2 3+；因既往不良反应拒绝辅助化疗。"
+            },
+            {
+              "date": "术后1年7个月",
+              "title": "淋巴结复发",
+              "detail": "发现腹主动脉旁淋巴结复发，开始系统治疗。"
+            },
+            {
+              "date": "一至五线",
+              "title": "多线后进展",
+              "detail": "含曲妥珠单抗、雷莫芦单抗、伊立替康、纳武利尤单抗及CAPOX等方案后进展。"
+            },
+            {
+              "date": "六线治疗4个月",
+              "title": "T-DXd获PR",
+              "detail": "使用德曲妥珠单抗后病灶明显缩小。"
+            },
+            {
+              "date": "治疗1年4个月及后续",
+              "title": "临床CR",
+              "detail": "达到临床CR，原文报告维持超过2年，后续未再治疗。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

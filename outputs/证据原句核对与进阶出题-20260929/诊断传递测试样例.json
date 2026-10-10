@@ -1,0 +1,1754 @@
+{
+  "synthetic": true,
+  "not_medical_content": true,
+  "batch_report": {
+    "schema_version": "batch-five-1.1",
+    "workflow_revision": "20260929-full-review-five-batch",
+    "medical_review_status": "not_performed",
+    "scope": "structure_and_completion_only",
+    "expected_count": 2,
+    "complete_count": 1,
+    "incomplete_count": 0,
+    "failed_count": 1,
+    "status": "partial",
+    "retry_file_indices": [
+      2
+    ],
+    "items": [
+      {
+        "file_index": 1,
+        "status": "complete",
+        "case_id": "TEST",
+        "question_count": 5,
+        "execution_report": {
+          "schema_version": "oncorounds-execution-1.0",
+          "workflow_revision": "20260929-full-review-five-outer",
+          "case_id": "TEST",
+          "status": "OUTPUT_READY",
+          "publishable": false,
+          "medical_review_status": "not_performed",
+          "extraction_check": null,
+          "source_groups": [
+            {
+              "group_id": "G1",
+              "parse_status": "OK",
+              "raw_question_count": 5,
+              "usable_question_count": 5,
+              "rejected_questions": [],
+              "warnings": [],
+              "audit": {
+                "availability": "not_provided"
+              },
+              "transport": {
+                "protocol": "single_json",
+                "json_block_count": 1,
+                "selected_block_index": 0,
+                "ignored_intermediate_blocks": 0,
+                "upstream_messages": []
+              },
+              "upstream_missing_information": [],
+              "workflow_revision": "20260929-evidence-depth-five",
+              "flow_status": "OUTPUT_READY",
+              "completion": {
+                "required_question_count": 5,
+                "available_question_count": 5,
+                "model_question_count": 5,
+                "complete": true
+              },
+              "program_check": {
+                "scope": "program_structure_and_reference_identity_only",
+                "decision": "PASS",
+                "errors": [],
+                "warnings": [
+                  "ANSWER_POSITION_CONCENTRATION：答案位置少于3种；新写或重写题时分散，不机械调换合格题选项"
+                ]
+              },
+              "workflow_diagnostics": {
+                "scope": "debug_only_not_learner_content",
+                "evidence_verification": {
+                  "version": "option-anchors-1.0",
+                  "scope": "literal_source_presence_and_shape_only",
+                  "decision": "PASS",
+                  "semantic_support": "not_independently_verified",
+                  "errors": [],
+                  "question_checks": [
+                    {
+                      "question_id": "Q1",
+                      "evidence_id": "E1",
+                      "errors": [],
+                      "option_checks": [
+                        {
+                          "option": "A",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "option": "B",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "option": "C",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "option": "D",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "case_fact_checks": [
+                        {
+                          "field": "case_context",
+                          "quote": "另一检查结果乙尚未回报",
+                          "matched": true,
+                          "match_mode": "exact",
+                          "occurrences": 1,
+                          "contexts": [
+                            {
+                              "start": 10,
+                              "end": 21,
+                              "text": "测试患者出现条件甲，另一检查结果乙尚未回报。"
+                            }
+                          ]
+                        }
+                      ],
+                      "decision_design": {
+                        "closest_alternative": "B",
+                        "decision_boundary": "测试中乙尚未回报，不能默认已满足；条件改变时须重新匹配条款。",
+                        "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                      },
+                      "source_locator": {
+                        "doc_id": "testdoc0",
+                        "split_index": 0
+                      },
+                      "decision": "PASS"
+                    },
+                    {
+                      "question_id": "Q2",
+                      "evidence_id": "E2",
+                      "errors": [],
+                      "option_checks": [
+                        {
+                          "option": "A",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "option": "B",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "option": "C",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "option": "D",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "case_fact_checks": [
+                        {
+                          "field": "case_context",
+                          "quote": "另一检查结果乙尚未回报",
+                          "matched": true,
+                          "match_mode": "exact",
+                          "occurrences": 1,
+                          "contexts": [
+                            {
+                              "start": 10,
+                              "end": 21,
+                              "text": "测试患者出现条件甲，另一检查结果乙尚未回报。"
+                            }
+                          ]
+                        }
+                      ],
+                      "decision_design": {
+                        "closest_alternative": "B",
+                        "decision_boundary": "测试中乙尚未回报，不能默认已满足；条件改变时须重新匹配条款。",
+                        "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                      },
+                      "source_locator": {
+                        "doc_id": "testdoc1",
+                        "split_index": 0
+                      },
+                      "decision": "PASS"
+                    },
+                    {
+                      "question_id": "Q3",
+                      "evidence_id": "E3",
+                      "errors": [],
+                      "option_checks": [
+                        {
+                          "option": "A",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "option": "B",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "option": "C",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "option": "D",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "case_fact_checks": [
+                        {
+                          "field": "case_context",
+                          "quote": "另一检查结果乙尚未回报",
+                          "matched": true,
+                          "match_mode": "exact",
+                          "occurrences": 1,
+                          "contexts": [
+                            {
+                              "start": 10,
+                              "end": 21,
+                              "text": "测试患者出现条件甲，另一检查结果乙尚未回报。"
+                            }
+                          ]
+                        }
+                      ],
+                      "decision_design": {
+                        "closest_alternative": "B",
+                        "decision_boundary": "测试中乙尚未回报，不能默认已满足；条件改变时须重新匹配条款。",
+                        "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                      },
+                      "source_locator": {
+                        "doc_id": "testdoc2",
+                        "split_index": 0
+                      },
+                      "decision": "PASS"
+                    },
+                    {
+                      "question_id": "Q4",
+                      "evidence_id": "E4",
+                      "errors": [],
+                      "option_checks": [
+                        {
+                          "option": "A",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "option": "B",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "option": "C",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "option": "D",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "case_fact_checks": [
+                        {
+                          "field": "case_context",
+                          "quote": "另一检查结果乙尚未回报",
+                          "matched": true,
+                          "match_mode": "exact",
+                          "occurrences": 1,
+                          "contexts": [
+                            {
+                              "start": 10,
+                              "end": 21,
+                              "text": "测试患者出现条件甲，另一检查结果乙尚未回报。"
+                            }
+                          ]
+                        }
+                      ],
+                      "decision_design": {
+                        "closest_alternative": "B",
+                        "decision_boundary": "测试中乙尚未回报，不能默认已满足；条件改变时须重新匹配条款。",
+                        "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                      },
+                      "source_locator": {
+                        "doc_id": "testdoc3",
+                        "split_index": 0
+                      },
+                      "decision": "PASS"
+                    },
+                    {
+                      "question_id": "Q5",
+                      "evidence_id": "E5",
+                      "errors": [],
+                      "option_checks": [
+                        {
+                          "option": "A",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "option": "B",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "option": "C",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "option": "D",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "case_fact_checks": [
+                        {
+                          "field": "case_context",
+                          "quote": "另一检查结果乙尚未回报",
+                          "matched": true,
+                          "match_mode": "exact",
+                          "occurrences": 1,
+                          "contexts": [
+                            {
+                              "start": 10,
+                              "end": 21,
+                              "text": "测试患者出现条件甲，另一检查结果乙尚未回报。"
+                            }
+                          ]
+                        }
+                      ],
+                      "decision_design": {
+                        "closest_alternative": "B",
+                        "decision_boundary": "测试中乙尚未回报，不能默认已满足；条件改变时须重新匹配条款。",
+                        "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                      },
+                      "source_locator": {
+                        "doc_id": "testdoc4",
+                        "split_index": 0
+                      },
+                      "decision": "PASS"
+                    }
+                  ]
+                },
+                "question_evidence_bindings": [
+                  {
+                    "question_id": "Q1",
+                    "evidence_id": "E1",
+                    "doc_id": "testdoc0",
+                    "split_index": 0,
+                    "matching_record_count": 1
+                  },
+                  {
+                    "question_id": "Q2",
+                    "evidence_id": "E2",
+                    "doc_id": "testdoc1",
+                    "split_index": 0,
+                    "matching_record_count": 1
+                  },
+                  {
+                    "question_id": "Q3",
+                    "evidence_id": "E3",
+                    "doc_id": "testdoc2",
+                    "split_index": 0,
+                    "matching_record_count": 1
+                  },
+                  {
+                    "question_id": "Q4",
+                    "evidence_id": "E4",
+                    "doc_id": "testdoc3",
+                    "split_index": 0,
+                    "matching_record_count": 1
+                  },
+                  {
+                    "question_id": "Q5",
+                    "evidence_id": "E5",
+                    "doc_id": "testdoc4",
+                    "split_index": 0,
+                    "matching_record_count": 1
+                  }
+                ],
+                "cited_evidence_snapshot": [
+                  {
+                    "evidence_id": "E1",
+                    "doc_id": "testdoc0",
+                    "split_index": 0,
+                    "type": "guideline",
+                    "authority": "测试机构",
+                    "source_title": "测试指南0",
+                    "source_version": "2026",
+                    "source_section": "",
+                    "source_url": "",
+                    "snippet": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。",
+                    "hard_evidence_type": "指南",
+                    "reasoning_eligible": true
+                  },
+                  {
+                    "evidence_id": "E2",
+                    "doc_id": "testdoc1",
+                    "split_index": 0,
+                    "type": "guideline",
+                    "authority": "测试机构",
+                    "source_title": "测试指南1",
+                    "source_version": "2026",
+                    "source_section": "",
+                    "source_url": "",
+                    "snippet": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。",
+                    "hard_evidence_type": "指南",
+                    "reasoning_eligible": true
+                  },
+                  {
+                    "evidence_id": "E3",
+                    "doc_id": "testdoc2",
+                    "split_index": 0,
+                    "type": "guideline",
+                    "authority": "测试机构",
+                    "source_title": "测试指南2",
+                    "source_version": "2026",
+                    "source_section": "",
+                    "source_url": "",
+                    "snippet": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。",
+                    "hard_evidence_type": "指南",
+                    "reasoning_eligible": true
+                  },
+                  {
+                    "evidence_id": "E4",
+                    "doc_id": "testdoc3",
+                    "split_index": 0,
+                    "type": "guideline",
+                    "authority": "测试机构",
+                    "source_title": "测试指南3",
+                    "source_version": "2026",
+                    "source_section": "",
+                    "source_url": "",
+                    "snippet": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。",
+                    "hard_evidence_type": "指南",
+                    "reasoning_eligible": true
+                  },
+                  {
+                    "evidence_id": "E5",
+                    "doc_id": "testdoc4",
+                    "split_index": 0,
+                    "type": "guideline",
+                    "authority": "测试机构",
+                    "source_title": "测试指南4",
+                    "source_version": "2026",
+                    "source_section": "",
+                    "source_url": "",
+                    "snippet": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。",
+                    "hard_evidence_type": "指南",
+                    "reasoning_eligible": true
+                  }
+                ],
+                "retrieval_queries": {
+                  "staging": "",
+                  "molecular": "",
+                  "treatment": "",
+                  "study": "",
+                  "toxicity_a": "",
+                  "toxicity_b": ""
+                },
+                "retrieval_health": {
+                  "ok": true,
+                  "errors": []
+                },
+                "compression_report": {
+                  "kept_total": 5
+                },
+                "first_round_raw": "",
+                "second_round_raw": "",
+                "parsed_second_round_draft": null,
+                "partial_draft_questions": [],
+                "model_execution": {
+                  "model": "qwen3.8-flash",
+                  "max_output_tokens_configured": 16000,
+                  "first_round_char_count": 4,
+                  "second_round_char_count": 3270,
+                  "finish_reason": null,
+                  "finish_reason_availability": "not_exposed_by_workflow_outputs"
+                }
+              },
+              "flow_publishable": false,
+              "output_ready": true,
+              "medical_review_status": "not_performed",
+              "generation_status": "success",
+              "evidence_context_status": "provided"
+            }
+          ],
+          "warnings": [
+            "为保护位置相关选项语义，本组答案分布未均衡；这不是证据不足，不删除题目。"
+          ]
+        }
+      },
+      {
+        "file_index": 2,
+        "status": "failed",
+        "code": "FORMAT_ERROR",
+        "question_count": 0,
+        "execution_report": {
+          "schema_version": "oncorounds-execution-1.0",
+          "workflow_revision": "20260929-full-review-five-outer",
+          "case_id": "TEST",
+          "status": "FORMAT_ERROR",
+          "publishable": false,
+          "medical_review_status": "not_performed",
+          "extraction_check": null,
+          "source_groups": [
+            {
+              "group_id": "G1",
+              "parse_status": "OK",
+              "raw_question_count": 0,
+              "usable_question_count": 0,
+              "rejected_questions": [],
+              "warnings": [],
+              "audit": {
+                "availability": "not_provided"
+              },
+              "transport": {
+                "protocol": "single_json",
+                "json_block_count": 1,
+                "selected_block_index": 0,
+                "ignored_intermediate_blocks": 0,
+                "upstream_messages": []
+              },
+              "upstream_missing_information": [
+                "Q5 [OPTION_QUOTE_NOT_FOUND] D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+                "EVIDENCE_VERIFICATION_FAILED：未取得与全部题号对应的原句核对通过结果。"
+              ],
+              "workflow_revision": "20260929-evidence-depth-five",
+              "flow_status": "FORMAT_ERROR",
+              "completion": {
+                "required_question_count": 5,
+                "available_question_count": 0,
+                "model_question_count": 5,
+                "complete": false
+              },
+              "program_check": {
+                "scope": "program_structure_and_reference_identity_only",
+                "decision": "FAIL",
+                "errors": [
+                  "Q5 [OPTION_QUOTE_NOT_FOUND] D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+                  "EVIDENCE_VERIFICATION_FAILED：未取得与全部题号对应的原句核对通过结果。"
+                ],
+                "warnings": [
+                  "ANSWER_POSITION_CONCENTRATION：答案位置少于3种；新写或重写题时分散，不机械调换合格题选项"
+                ]
+              },
+              "workflow_diagnostics": {
+                "scope": "debug_only_not_learner_content",
+                "evidence_verification": {
+                  "version": "option-anchors-1.0",
+                  "scope": "literal_source_presence_and_shape_only",
+                  "decision": "FAIL",
+                  "semantic_support": "not_independently_verified",
+                  "errors": [
+                    "Q5 [OPTION_QUOTE_NOT_FOUND] D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。"
+                  ],
+                  "question_checks": [
+                    {
+                      "question_id": "Q1",
+                      "evidence_id": "E1",
+                      "errors": [],
+                      "option_checks": [
+                        {
+                          "option": "A",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "option": "B",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "option": "C",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "option": "D",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "case_fact_checks": [
+                        {
+                          "field": "case_context",
+                          "quote": "另一检查结果乙尚未回报",
+                          "matched": true,
+                          "match_mode": "exact",
+                          "occurrences": 1,
+                          "contexts": [
+                            {
+                              "start": 10,
+                              "end": 21,
+                              "text": "测试患者出现条件甲，另一检查结果乙尚未回报。"
+                            }
+                          ]
+                        }
+                      ],
+                      "decision_design": {
+                        "closest_alternative": "B",
+                        "decision_boundary": "测试中乙尚未回报，不能默认已满足；条件改变时须重新匹配条款。",
+                        "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                      },
+                      "source_locator": {
+                        "doc_id": "testdoc0",
+                        "split_index": 0
+                      },
+                      "decision": "PASS"
+                    },
+                    {
+                      "question_id": "Q2",
+                      "evidence_id": "E2",
+                      "errors": [],
+                      "option_checks": [
+                        {
+                          "option": "A",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "option": "B",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "option": "C",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "option": "D",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "case_fact_checks": [
+                        {
+                          "field": "case_context",
+                          "quote": "另一检查结果乙尚未回报",
+                          "matched": true,
+                          "match_mode": "exact",
+                          "occurrences": 1,
+                          "contexts": [
+                            {
+                              "start": 10,
+                              "end": 21,
+                              "text": "测试患者出现条件甲，另一检查结果乙尚未回报。"
+                            }
+                          ]
+                        }
+                      ],
+                      "decision_design": {
+                        "closest_alternative": "B",
+                        "decision_boundary": "测试中乙尚未回报，不能默认已满足；条件改变时须重新匹配条款。",
+                        "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                      },
+                      "source_locator": {
+                        "doc_id": "testdoc1",
+                        "split_index": 0
+                      },
+                      "decision": "PASS"
+                    },
+                    {
+                      "question_id": "Q3",
+                      "evidence_id": "E3",
+                      "errors": [],
+                      "option_checks": [
+                        {
+                          "option": "A",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "option": "B",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "option": "C",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "option": "D",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "case_fact_checks": [
+                        {
+                          "field": "case_context",
+                          "quote": "另一检查结果乙尚未回报",
+                          "matched": true,
+                          "match_mode": "exact",
+                          "occurrences": 1,
+                          "contexts": [
+                            {
+                              "start": 10,
+                              "end": 21,
+                              "text": "测试患者出现条件甲，另一检查结果乙尚未回报。"
+                            }
+                          ]
+                        }
+                      ],
+                      "decision_design": {
+                        "closest_alternative": "B",
+                        "decision_boundary": "测试中乙尚未回报，不能默认已满足；条件改变时须重新匹配条款。",
+                        "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                      },
+                      "source_locator": {
+                        "doc_id": "testdoc2",
+                        "split_index": 0
+                      },
+                      "decision": "PASS"
+                    },
+                    {
+                      "question_id": "Q4",
+                      "evidence_id": "E4",
+                      "errors": [],
+                      "option_checks": [
+                        {
+                          "option": "A",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "option": "B",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "option": "C",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "option": "D",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "case_fact_checks": [
+                        {
+                          "field": "case_context",
+                          "quote": "另一检查结果乙尚未回报",
+                          "matched": true,
+                          "match_mode": "exact",
+                          "occurrences": 1,
+                          "contexts": [
+                            {
+                              "start": 10,
+                              "end": 21,
+                              "text": "测试患者出现条件甲，另一检查结果乙尚未回报。"
+                            }
+                          ]
+                        }
+                      ],
+                      "decision_design": {
+                        "closest_alternative": "B",
+                        "decision_boundary": "测试中乙尚未回报，不能默认已满足；条件改变时须重新匹配条款。",
+                        "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                      },
+                      "source_locator": {
+                        "doc_id": "testdoc3",
+                        "split_index": 0
+                      },
+                      "decision": "PASS"
+                    },
+                    {
+                      "question_id": "Q5",
+                      "evidence_id": "E5",
+                      "errors": [
+                        {
+                          "code": "OPTION_QUOTE_NOT_FOUND",
+                          "message": "D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。"
+                        }
+                      ],
+                      "option_checks": [
+                        {
+                          "option": "A",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "option": "B",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "option": "C",
+                          "quotes": [
+                            {
+                              "quote": "条件甲且满足乙时可考虑方案甲",
+                              "matched": true,
+                              "match_mode": "exact",
+                              "occurrences": 1,
+                              "contexts": [
+                                {
+                                  "start": 16,
+                                  "end": 30,
+                                  "text": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "option": "D",
+                          "quotes": [
+                            {
+                              "quote": "模型编造的一条完全不存在的原句",
+                              "matched": false,
+                              "match_mode": null,
+                              "occurrences": 0,
+                              "contexts": []
+                            }
+                          ]
+                        }
+                      ],
+                      "case_fact_checks": [
+                        {
+                          "field": "case_context",
+                          "quote": "另一检查结果乙尚未回报",
+                          "matched": true,
+                          "match_mode": "exact",
+                          "occurrences": 1,
+                          "contexts": [
+                            {
+                              "start": 10,
+                              "end": 21,
+                              "text": "测试患者出现条件甲，另一检查结果乙尚未回报。"
+                            }
+                          ]
+                        }
+                      ],
+                      "decision_design": {
+                        "closest_alternative": "B",
+                        "decision_boundary": "测试中乙尚未回报，不能默认已满足；条件改变时须重新匹配条款。",
+                        "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                      },
+                      "source_locator": {
+                        "doc_id": "testdoc4",
+                        "split_index": 0
+                      },
+                      "decision": "FAIL"
+                    }
+                  ]
+                },
+                "question_evidence_bindings": [
+                  {
+                    "question_id": "Q1",
+                    "evidence_id": "E1",
+                    "doc_id": "testdoc0",
+                    "split_index": 0,
+                    "matching_record_count": 1
+                  },
+                  {
+                    "question_id": "Q2",
+                    "evidence_id": "E2",
+                    "doc_id": "testdoc1",
+                    "split_index": 0,
+                    "matching_record_count": 1
+                  },
+                  {
+                    "question_id": "Q3",
+                    "evidence_id": "E3",
+                    "doc_id": "testdoc2",
+                    "split_index": 0,
+                    "matching_record_count": 1
+                  },
+                  {
+                    "question_id": "Q4",
+                    "evidence_id": "E4",
+                    "doc_id": "testdoc3",
+                    "split_index": 0,
+                    "matching_record_count": 1
+                  },
+                  {
+                    "question_id": "Q5",
+                    "evidence_id": "E5",
+                    "doc_id": "testdoc4",
+                    "split_index": 0,
+                    "matching_record_count": 1
+                  }
+                ],
+                "cited_evidence_snapshot": [
+                  {
+                    "evidence_id": "E1",
+                    "doc_id": "testdoc0",
+                    "split_index": 0,
+                    "type": "guideline",
+                    "authority": "测试机构",
+                    "source_title": "测试指南0",
+                    "source_version": "2026",
+                    "source_section": "",
+                    "source_url": "",
+                    "snippet": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。",
+                    "hard_evidence_type": "指南",
+                    "reasoning_eligible": true
+                  },
+                  {
+                    "evidence_id": "E2",
+                    "doc_id": "testdoc1",
+                    "split_index": 0,
+                    "type": "guideline",
+                    "authority": "测试机构",
+                    "source_title": "测试指南1",
+                    "source_version": "2026",
+                    "source_section": "",
+                    "source_url": "",
+                    "snippet": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。",
+                    "hard_evidence_type": "指南",
+                    "reasoning_eligible": true
+                  },
+                  {
+                    "evidence_id": "E3",
+                    "doc_id": "testdoc2",
+                    "split_index": 0,
+                    "type": "guideline",
+                    "authority": "测试机构",
+                    "source_title": "测试指南2",
+                    "source_version": "2026",
+                    "source_section": "",
+                    "source_url": "",
+                    "snippet": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。",
+                    "hard_evidence_type": "指南",
+                    "reasoning_eligible": true
+                  },
+                  {
+                    "evidence_id": "E4",
+                    "doc_id": "testdoc3",
+                    "split_index": 0,
+                    "type": "guideline",
+                    "authority": "测试机构",
+                    "source_title": "测试指南3",
+                    "source_version": "2026",
+                    "source_section": "",
+                    "source_url": "",
+                    "snippet": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。",
+                    "hard_evidence_type": "指南",
+                    "reasoning_eligible": true
+                  },
+                  {
+                    "evidence_id": "E5",
+                    "doc_id": "testdoc4",
+                    "split_index": 0,
+                    "type": "guideline",
+                    "authority": "测试机构",
+                    "source_title": "测试指南4",
+                    "source_version": "2026",
+                    "source_section": "",
+                    "source_url": "",
+                    "snippet": "【仅用于程序测试，不是医学依据】条件甲且满足乙时可考虑方案甲；尚未满足乙时继续评估，不直接实施该方案。方案乙适用于条件丙。基线至少1个病灶，数值为0.5，不可改成5。",
+                    "hard_evidence_type": "指南",
+                    "reasoning_eligible": true
+                  }
+                ],
+                "retrieval_queries": {
+                  "staging": "",
+                  "molecular": "",
+                  "treatment": "",
+                  "study": "",
+                  "toxicity_a": "",
+                  "toxicity_b": ""
+                },
+                "retrieval_health": {
+                  "ok": true,
+                  "errors": []
+                },
+                "compression_report": {
+                  "kept_total": 5
+                },
+                "first_round_raw": "首轮测试",
+                "second_round_raw": "{\"schema_version\":\"1.1\",\"generation_status\":\"success\",\"case_summary\":\"仅用于程序契约测试\",\"question_count\":5,\"difficulty\":\"进阶\",\"missing_information\":[],\"risk_message\":\"\",\"questions\":[{\"id\":\"Q1\",\"type\":\"治疗决策\",\"phase\":\"阶段0\",\"timepoint\":\"阶段二\",\"question\":\"在测试条件0下，下列哪项正确？\",\"options\":[\"方案甲0\",\"方案乙0\",\"方案丙0\",\"方案丁0\"],\"answer\":0,\"answer_text\":\"方案甲0\",\"keyPoint\":\"测试条件限定原则0\",\"explain\":{\"A\":\"测试记录支持在该条件下采用此方案。\",\"B\":\"该方案需要题干尚未满足的条件。\",\"C\":\"该方案适用的情境与此时点不同。\",\"D\":\"该方案不满足题干已知的条件。\"},\"evidence_id\":\"E1\",\"support_mode\":\"hard\",\"evidence_summary\":\"测试记录明确区分适用条件\",\"verification\":{\"quotes\":{\"A\":[\"条件甲且满足乙时可考虑方案甲\"],\"B\":[\"条件甲且满足乙时可考虑方案甲\"],\"C\":[\"条件甲且满足乙时可考虑方案甲\"],\"D\":[\"条件甲且满足乙时可考虑方案甲\"]},\"case_facts\":[{\"field\":\"case_context\",\"quote\":\"另一检查结果乙尚未回报\"}],\"closest_alternative\":\"B\",\"decision_boundary\":\"测试中乙尚未回报，不能默认已满足；条件改变时须重新匹配条款。\"}},{\"id\":\"Q2\",\"type\":\"治疗决策\",\"phase\":\"阶段1\",\"timepoint\":\"阶段二\",\"question\":\"在测试条件1下，下列哪项正确？\",\"options\":[\"方案甲1\",\"方案乙1\",\"方案丙1\",\"方案丁1\"],\"answer\":0,\"answer_text\":\"方案甲1\",\"keyPoint\":\"测试条件限定原则1\",\"explain\":{\"A\":\"测试记录支持在该条件下采用此方案。\",\"B\":\"该方案需要题干尚未满足的条件。\",\"C\":\"该方案适用的情境与此时点不同。\",\"D\":\"该方案不满足题干已知的条件。\"},\"evidence_id\":\"E2\",\"support_mode\":\"hard\",\"evidence_summary\":\"测试记录明确区分适用条件\",\"verification\":{\"quotes\":{\"A\":[\"条件甲且满足乙时可考虑方案甲\"],\"B\":[\"条件甲且满足乙时可考虑方案甲\"],\"C\":[\"条件甲且满足乙时可考虑方案甲\"],\"D\":[\"条件甲且满足乙时可考虑方案甲\"]},\"case_facts\":[{\"field\":\"case_context\",\"quote\":\"另一检查结果乙尚未回报\"}],\"closest_alternative\":\"B\",\"decision_boundary\":\"测试中乙尚未回报，不能默认已满足；条件改变时须重新匹配条款。\"}},{\"id\":\"Q3\",\"type\":\"治疗决策\",\"phase\":\"阶段2\",\"timepoint\":\"阶段二\",\"question\":\"在测试条件2下，下列哪项正确？\",\"options\":[\"方案甲2\",\"方案乙2\",\"方案丙2\",\"方案丁2\"],\"answer\":0,\"answer_text\":\"方案甲2\",\"keyPoint\":\"测试条件限定原则2\",\"explain\":{\"A\":\"测试记录支持在该条件下采用此方案。\",\"B\":\"该方案需要题干尚未满足的条件。\",\"C\":\"该方案适用的情境与此时点不同。\",\"D\":\"该方案不满足题干已知的条件。\"},\"evidence_id\":\"E3\",\"support_mode\":\"hard\",\"evidence_summary\":\"测试记录明确区分适用条件\",\"verification\":{\"quotes\":{\"A\":[\"条件甲且满足乙时可考虑方案甲\"],\"B\":[\"条件甲且满足乙时可考虑方案甲\"],\"C\":[\"条件甲且满足乙时可考虑方案甲\"],\"D\":[\"条件甲且满足乙时可考虑方案甲\"]},\"case_facts\":[{\"field\":\"case_context\",\"quote\":\"另一检查结果乙尚未回报\"}],\"closest_alternative\":\"B\",\"decision_boundary\":\"测试中乙尚未回报，不能默认已满足；条件改变时须重新匹配条款。\"}},{\"id\":\"Q4\",\"type\":\"治疗决策\",\"phase\":\"阶段3\",\"timepoint\":\"阶段二\",\"question\":\"在测试条件3下，下列哪项正确？\",\"options\":[\"方案甲3\",\"方案乙3\",\"方案丙3\",\"方案丁3\"],\"answer\":0,\"answer_text\":\"方案甲3\",\"keyPoint\":\"测试条件限定原则3\",\"explain\":{\"A\":\"测试记录支持在该条件下采用此方案。\",\"B\":\"该方案需要题干尚未满足的条件。\",\"C\":\"该方案适用的情境与此时点不同。\",\"D\":\"该方案不满足题干已知的条件。\"},\"evidence_id\":\"E4\",\"support_mode\":\"hard\",\"evidence_summary\":\"测试记录明确区分适用条件\",\"verification\":{\"quotes\":{\"A\":[\"条件甲且满足乙时可考虑方案甲\"],\"B\":[\"条件甲且满足乙时可考虑方案甲\"],\"C\":[\"条件甲且满足乙时可考虑方案甲\"],\"D\":[\"条件甲且满足乙时可考虑方案甲\"]},\"case_facts\":[{\"field\":\"case_context\",\"quote\":\"另一检查结果乙尚未回报\"}],\"closest_alternative\":\"B\",\"decision_boundary\":\"测试中乙尚未回报，不能默认已满足；条件改变时须重新匹配条款。\"}},{\"id\":\"Q5\",\"type\":\"治疗决策\",\"phase\":\"阶段4\",\"timepoint\":\"阶段二\",\"question\":\"在测试条件4下，下列哪项正确？\",\"options\":[\"方案甲4\",\"方案乙4\",\"方案丙4\",\"方案丁4\"],\"answer\":0,\"answer_text\":\"方案甲4\",\"keyPoint\":\"测试条件限定原则4\",\"explain\":{\"A\":\"测试记录支持在该条件下采用此方案。\",\"B\":\"该方案需要题干尚未满足的条件。\",\"C\":\"该方案适用的情境与此时点不同。\",\"D\":\"该方案不满足题干已知的条件。\"},\"evidence_id\":\"E5\",\"support_mode\":\"hard\",\"evidence_summary\":\"测试记录明确区分适用条件\",\"verification\":{\"quotes\":{\"A\":[\"条件甲且满足乙时可考虑方案甲\"],\"B\":[\"条件甲且满足乙时可考虑方案甲\"],\"C\":[\"条件甲且满足乙时可考虑方案甲\"],\"D\":[\"模型编造的一条完全不存在的原句\"]},\"case_facts\":[{\"field\":\"case_context\",\"quote\":\"另一检查结果乙尚未回报\"}],\"closest_alternative\":\"B\",\"decision_boundary\":\"测试中乙尚未回报，不能默认已满足；条件改变时须重新匹配条款。\"}}]}",
+                "parsed_second_round_draft": {
+                  "schema_version": "1.1",
+                  "generation_status": "success",
+                  "case_summary": "仅用于程序契约测试",
+                  "question_count": 5,
+                  "difficulty": "进阶",
+                  "missing_information": [],
+                  "risk_message": "",
+                  "questions": [
+                    {
+                      "id": "Q1",
+                      "type": "治疗决策",
+                      "phase": "阶段0",
+                      "timepoint": "阶段二",
+                      "question": "在测试条件0下，下列哪项正确？",
+                      "options": [
+                        "方案甲0",
+                        "方案乙0",
+                        "方案丙0",
+                        "方案丁0"
+                      ],
+                      "answer": 0,
+                      "answer_text": "方案甲0",
+                      "keyPoint": "测试条件限定原则0",
+                      "explain": {
+                        "A": "测试记录支持在该条件下采用此方案。",
+                        "B": "该方案需要题干尚未满足的条件。",
+                        "C": "该方案适用的情境与此时点不同。",
+                        "D": "该方案不满足题干已知的条件。"
+                      },
+                      "evidence_id": "E1",
+                      "support_mode": "hard",
+                      "evidence_summary": "测试记录明确区分适用条件",
+                      "verification": {
+                        "quotes": {
+                          "A": [
+                            "条件甲且满足乙时可考虑方案甲"
+                          ],
+                          "B": [
+                            "条件甲且满足乙时可考虑方案甲"
+                          ],
+                          "C": [
+                            "条件甲且满足乙时可考虑方案甲"
+                          ],
+                          "D": [
+                            "条件甲且满足乙时可考虑方案甲"
+                          ]
+                        },
+                        "case_facts": [
+                          {
+                            "field": "case_context",
+                            "quote": "另一检查结果乙尚未回报"
+                          }
+                        ],
+                        "closest_alternative": "B",
+                        "decision_boundary": "测试中乙尚未回报，不能默认已满足；条件改变时须重新匹配条款。"
+                      }
+                    },
+                    {
+                      "id": "Q2",
+                      "type": "治疗决策",
+                      "phase": "阶段1",
+                      "timepoint": "阶段二",
+                      "question": "在测试条件1下，下列哪项正确？",
+                      "options": [
+                        "方案甲1",
+                        "方案乙1",
+                        "方案丙1",
+                        "方案丁1"
+                      ],
+                      "answer": 0,
+                      "answer_text": "方案甲1",
+                      "keyPoint": "测试条件限定原则1",
+                      "explain": {
+                        "A": "测试记录支持在该条件下采用此方案。",
+                        "B": "该方案需要题干尚未满足的条件。",
+                        "C": "该方案适用的情境与此时点不同。",
+                        "D": "该方案不满足题干已知的条件。"
+                      },
+                      "evidence_id": "E2",
+                      "support_mode": "hard",
+                      "evidence_summary": "测试记录明确区分适用条件",
+                      "verification": {
+                        "quotes": {
+                          "A": [
+                            "条件甲且满足乙时可考虑方案甲"
+                          ],
+                          "B": [
+                            "条件甲且满足乙时可考虑方案甲"
+                          ],
+                          "C": [
+                            "条件甲且满足乙时可考虑方案甲"
+                          ],
+                          "D": [
+                            "条件甲且满足乙时可考虑方案甲"
+                          ]
+                        },
+                        "case_facts": [
+                          {
+                            "field": "case_context",
+                            "quote": "另一检查结果乙尚未回报"
+                          }
+                        ],
+                        "closest_alternative": "B",
+                        "decision_boundary": "测试中乙尚未回报，不能默认已满足；条件改变时须重新匹配条款。"
+                      }
+                    },
+                    {
+                      "id": "Q3",
+                      "type": "治疗决策",
+                      "phase": "阶段2",
+                      "timepoint": "阶段二",
+                      "question": "在测试条件2下，下列哪项正确？",
+                      "options": [
+                        "方案甲2",
+                        "方案乙2",
+                        "方案丙2",
+                        "方案丁2"
+                      ],
+                      "answer": 0,
+                      "answer_text": "方案甲2",
+                      "keyPoint": "测试条件限定原则2",
+                      "explain": {
+                        "A": "测试记录支持在该条件下采用此方案。",
+                        "B": "该方案需要题干尚未满足的条件。",
+                        "C": "该方案适用的情境与此时点不同。",
+                        "D": "该方案不满足题干已知的条件。"
+                      },
+                      "evidence_id": "E3",
+                      "support_mode": "hard",
+                      "evidence_summary": "测试记录明确区分适用条件",
+                      "verification": {
+                        "quotes": {
+                          "A": [
+                            "条件甲且满足乙时可考虑方案甲"
+                          ],
+                          "B": [
+                            "条件甲且满足乙时可考虑方案甲"
+                          ],
+                          "C": [
+                            "条件甲且满足乙时可考虑方案甲"
+                          ],
+                          "D": [
+                            "条件甲且满足乙时可考虑方案甲"
+                          ]
+                        },
+                        "case_facts": [
+                          {
+                            "field": "case_context",
+                            "quote": "另一检查结果乙尚未回报"
+                          }
+                        ],
+                        "closest_alternative": "B",
+                        "decision_boundary": "测试中乙尚未回报，不能默认已满足；条件改变时须重新匹配条款。"
+                      }
+                    },
+                    {
+                      "id": "Q4",
+                      "type": "治疗决策",
+                      "phase": "阶段3",
+                      "timepoint": "阶段二",
+                      "question": "在测试条件3下，下列哪项正确？",
+                      "options": [
+                        "方案甲3",
+                        "方案乙3",
+                        "方案丙3",
+                        "方案丁3"
+                      ],
+                      "answer": 0,
+                      "answer_text": "方案甲3",
+                      "keyPoint": "测试条件限定原则3",
+                      "explain": {
+                        "A": "测试记录支持在该条件下采用此方案。",
+                        "B": "该方案需要题干尚未满足的条件。",
+                        "C": "该方案适用的情境与此时点不同。",
+                        "D": "该方案不满足题干已知的条件。"
+                      },
+                      "evidence_id": "E4",
+                      "support_mode": "hard",
+                      "evidence_summary": "测试记录明确区分适用条件",
+                      "verification": {
+                        "quotes": {
+                          "A": [
+                            "条件甲且满足乙时可考虑方案甲"
+                          ],
+                          "B": [
+                            "条件甲且满足乙时可考虑方案甲"
+                          ],
+                          "C": [
+                            "条件甲且满足乙时可考虑方案甲"
+                          ],
+                          "D": [
+                            "条件甲且满足乙时可考虑方案甲"
+                          ]
+                        },
+                        "case_facts": [
+                          {
+                            "field": "case_context",
+                            "quote": "另一检查结果乙尚未回报"
+                          }
+                        ],
+                        "closest_alternative": "B",
+                        "decision_boundary": "测试中乙尚未回报，不能默认已满足；条件改变时须重新匹配条款。"
+                      }
+                    },
+                    {
+                      "id": "Q5",
+                      "type": "治疗决策",
+                      "phase": "阶段4",
+                      "timepoint": "阶段二",
+                      "question": "在测试条件4下，下列哪项正确？",
+                      "options": [
+                        "方案甲4",
+                        "方案乙4",
+                        "方案丙4",
+                        "方案丁4"
+                      ],
+                      "answer": 0,
+                      "answer_text": "方案甲4",
+                      "keyPoint": "测试条件限定原则4",
+                      "explain": {
+                        "A": "测试记录支持在该条件下采用此方案。",
+                        "B": "该方案需要题干尚未满足的条件。",
+                        "C": "该方案适用的情境与此时点不同。",
+                        "D": "该方案不满足题干已知的条件。"
+                      },
+                      "evidence_id": "E5",
+                      "support_mode": "hard",
+                      "evidence_summary": "测试记录明确区分适用条件",
+                      "verification": {
+                        "quotes": {
+                          "A": [
+                            "条件甲且满足乙时可考虑方案甲"
+                          ],
+                          "B": [
+                            "条件甲且满足乙时可考虑方案甲"
+                          ],
+                          "C": [
+                            "条件甲且满足乙时可考虑方案甲"
+                          ],
+                          "D": [
+                            "模型编造的一条完全不存在的原句"
+                          ]
+                        },
+                        "case_facts": [
+                          {
+                            "field": "case_context",
+                            "quote": "另一检查结果乙尚未回报"
+                          }
+                        ],
+                        "closest_alternative": "B",
+                        "decision_boundary": "测试中乙尚未回报，不能默认已满足；条件改变时须重新匹配条款。"
+                      }
+                    }
+                  ]
+                },
+                "partial_draft_questions": [],
+                "model_execution": {
+                  "model": "qwen3.8-flash",
+                  "max_output_tokens_configured": 16000,
+                  "first_round_char_count": 4,
+                  "second_round_char_count": 3271,
+                  "finish_reason": null,
+                  "finish_reason_availability": "not_exposed_by_workflow_outputs"
+                }
+              },
+              "flow_publishable": false,
+              "output_ready": false,
+              "medical_review_status": "not_performed",
+              "generation_status": "insufficient",
+              "evidence_context_status": "not_provided"
+            }
+          ],
+          "warnings": [
+            "Q5 [OPTION_QUOTE_NOT_FOUND] D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+            "EVIDENCE_VERIFICATION_FAILED：未取得与全部题号对应的原句核对通过结果。",
+            "为保护位置相关选项语义，本组答案分布未均衡；这不是证据不足，不删除题目。"
+          ]
+        },
+        "missing_information": [
+          "Q5 [OPTION_QUOTE_NOT_FOUND] D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+          "EVIDENCE_VERIFICATION_FAILED：未取得与全部题号对应的原句核对通过结果。"
+        ]
+      }
+    ]
+  }
+}

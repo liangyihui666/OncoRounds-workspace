@@ -1,0 +1,23 @@
+{
+  "文本拼接": {
+    "query_length": 286,
+    "specific_context": true,
+    "contains_regimen": false,
+    "contains_cetuximab": false,
+    "contains_RAS": true
+  },
+  "当前病种指南检索词B": {
+    "query_length": 366,
+    "specific_context": true,
+    "contains_regimen": true,
+    "contains_cetuximab": true,
+    "contains_RAS": true
+  },
+  "临床研究检索词拼接": {
+    "query_length": 367,
+    "specific_context": true,
+    "contains_regimen": true,
+    "contains_cetuximab": true,
+    "contains_RAS": true
+  }
+}

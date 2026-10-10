@@ -1,0 +1,155 @@
+{
+  "generation_status": "success",
+  "case_summary": "65 岁男性，HER2 阳性（IHC 3+，FISH 扩增）、PD-L1 CPS 5、MSS/pMMR 的 IV 期胃低分化腺癌，cT4N3M1，No.16a2/16b1 腹主动脉旁淋巴结影像学疑转移。接受 SOX 联合曲妥珠单抗和帕博利珠单抗转化治疗 3 周期后评价 PR，经 MDT 评估后行全胃切除+D2+ 腹主动脉旁淋巴结清扫，术后病理 TRG 1，ypT1bN0M0。术后继续原方案 1 周期后出现 G4 ICI 相关 1 型糖尿病并 DKA 及 G3 ICI 相关间质性肺炎，BAL 曾见革兰阴性杆菌，感染不能排除。停止抗肿瘤治疗后长期随访未见明确复发。",
+  "question_count": 5,
+  "difficulty": "进阶",
+  "questions": [
+    {
+      "id": "Q1",
+      "type": "治疗决策",
+      "phase": "初始治疗",
+      "timepoint": "当前教学复盘：初始治疗决策时",
+      "question": "65 岁男性，IV 期胃低分化腺癌，HER2 IHC 3+ 且 FISH 扩增，PD-L1 CPS 5，MSS/pMMR，ECOG PS 1。按当前指南进行教学复盘，此时最适宜的一线系统治疗策略是？",
+      "options": [
+        "帕博利珠单抗联合曲妥珠单抗及含氟尿嘧啶类和铂类化疗",
+        "曲妥珠单抗联合含氟尿嘧啶类和铂类化疗",
+        "含氟尿嘧啶类和铂类化疗单药",
+        "帕博利珠单抗单药治疗"
+      ],
+      "answer": 0,
+      "answer_text": "帕博利珠单抗联合曲妥珠单抗及含氟尿嘧啶类和铂类化疗",
+      "explain": "Ⅲ期研究 KEYNOTE-811 最终分析结果显示，一线曲妥珠单抗联合化疗中加入帕博利珠单抗显著改善 PD-L1 CPS ≥1 人群的 PFS 和 OS，上述“靶免化”模式获批用于治疗 HER2 高表达和 PD-L1 CPS ≥1 的不可切除或转移性食管胃结合部或胃腺癌患者。本病例 HER2 阳性且 CPS 5，符合该治疗人群。",
+      "keyPoint": "HER2 高表达且 PD-L1 CPS ≥1 的不可切除或转移性胃腺癌患者，一线推荐帕博利珠单抗联合曲妥珠单抗及化疗。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+        "split_index": 119,
+        "type": "guideline",
+        "authority": "CSCO",
+        "source_title": "中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026",
+        "source_version": "2026",
+        "source_section": "",
+        "source_url": "",
+        "evidence_summary": "Ⅲ期研究 KEYNOTE-811 最终分析结果显示，一线曲妥珠单抗联合化疗中加入帕博利珠单抗显著改善 PD-L1 CPS ≥1 人群的 PFS 和 OS，上述“靶免化”模式获批用于治疗 HER2 高表达和 PD-L1 CPS ≥1 的不可切除或转移性食管胃结合部或胃腺癌患者。"
+      }
+    },
+    {
+      "id": "Q2",
+      "type": "诊断策略",
+      "phase": "初始诊断",
+      "timepoint": "当前教学复盘：初诊时",
+      "question": "对于初诊 IV 期胃癌患者，为指导精准治疗分层，按当前共识进行教学复盘，初诊时推荐完善哪些关键分子检测？",
+      "options": [
+        "PD-L1 蛋白表达（CPS）、MMR/MSI、HER2、Claudin 18.2、EB 病毒等免疫组化及基因检测",
+        "仅检测 HER2 状态和 MMR/MSI 状态",
+        "仅检测 PD-L1 蛋白表达和 HER2 状态",
+        "无需分子检测，直接开始含氟尿嘧啶类和铂类化疗"
+      ],
+      "answer": 0,
+      "answer_text": "PD-L1 蛋白表达（CPS）、MMR/MSI、HER2、Claudin 18.2、EB 病毒等免疫组化及基因检测",
+      "explain": "IV 期胃癌患者初诊时，推荐完善活检组织的相关免疫组织化学及基因检测，包括 PD-L1 蛋白表达水平、MMR/MSI、HER2、Claudin 18.2、EB 病毒等，以指导精准转化治疗。",
+      "keyPoint": "IV 期胃癌初诊应进行全面分子病理学评估，包括 PD-L1 CPS、MMR/MSI、HER2、Claudin 18.2、EB 病毒等。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "4569a34f-9f0f-44e5-8b93-5f298ef949e7",
+        "split_index": 18,
+        "type": "guideline",
+        "authority": "中华医学会外科学分会腹腔镜与内镜外科学组，中国抗癌协会胃癌专业委员会，中国抗癌协会腔镜与机器人外科分会，《中华消化外科杂志》编辑委员会",
+        "source_title": "精准外科胃癌转化治疗专家共识（2025 版）",
+        "source_version": "2025",
+        "source_section": "",
+        "source_url": "",
+        "evidence_summary": "推荐意见 7：IV 期胃癌患者初诊时，推荐完善活检组织的相关免疫组织化学及基因检测（PD-L1 蛋白表达水平、MMR/MSI、HER2、Claudin 18.2、EB 病毒等）。"
+      }
+    },
+    {
+      "id": "Q3",
+      "type": "治疗决策",
+      "phase": "转化治疗后评估",
+      "timepoint": "当前教学复盘：转化治疗 3 周期后评估 PR 时",
+      "question": "患者接受 SOX 联合曲妥珠单抗和帕博利珠单抗治疗 3 周期后，增强 CT 提示原发灶及淋巴结明显缩小，评价 PR。依据当前共识进行教学复盘，此时关于手术决策的说法正确的是？",
+      "options": [
+        "不能仅凭影像学缓解直接手术，应重新进入 MDT 评估经综合治疗后是否可能实施根治性手术切除",
+        "影像学评价 PR 后即可直接进行手术切除，无需再次评估",
+        "必须继续原方案治疗至 6 周期后才可评估手术机会",
+        "IV 期胃癌无论治疗反应如何均不应考虑手术，直接改为姑息治疗"
+      ],
+      "answer": 0,
+      "answer_text": "不能仅凭影像学缓解直接手术，应重新进入 MDT 评估经综合治疗后是否可能实施根治性手术切除",
+      "explain": "对于初诊评估为 cIV 期胃癌患者，经过 MDT 讨论，认为经综合治疗后有可能实施根治性手术切除者，可实施转化治疗。影像学缓解不等同于适合手术，需 MDT 综合评估转移范围、治疗反应、体能状态、手术风险和 R0 切除可能性后决策。",
+      "keyPoint": "cIV 期胃癌转化治疗后需经 MDT 综合评估制订后续治疗方案，判断是否可能实施根治性手术切除，而非仅凭影像学缓解直接决策。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "4569a34f-9f0f-44e5-8b93-5f298ef949e7",
+        "split_index": 9,
+        "type": "guideline",
+        "authority": "中华医学会外科学分会腹腔镜与内镜外科学组，中国抗癌协会胃癌专业委员会，中国抗癌协会腔镜与机器人外科分会，《中华消化外科杂志》编辑委员会",
+        "source_title": "精准外科胃癌转化治疗专家共识（2025 版）",
+        "source_version": "2025",
+        "source_section": "",
+        "source_url": "",
+        "evidence_summary": "推荐意见 2：对于初诊评估为 cⅣ期胃癌患者，经过 MDT 讨论，认为经综合治疗后有可能实施根治性手术切除者，可实施转化治疗。"
+      }
+    },
+    {
+      "id": "Q4",
+      "type": "不良反应管理",
+      "phase": "不良反应处理",
+      "timepoint": "出现 G4 ICI 相关 1 型糖尿病并 DKA 时",
+      "question": "患者出现 G4 免疫检查点抑制剂相关 1 型糖尿病并糖尿病酮症酸中毒，血糖>27.8mmol/L，酮体阳性。按当前指南进行教学复盘，此时最恰当的处理是？",
+      "options": [
+        "暂停免疫检查点抑制剂治疗，住院治疗，请内分泌科会诊，起始胰岛素治疗并按 DKA 管理",
+        "暂停免疫治疗，口服降糖药控制血糖",
+        "继续免疫治疗，同时使用胰岛素",
+        "暂停免疫治疗，使用大剂量糖皮质激素治疗糖尿病"
+      ],
+      "answer": 0,
+      "answer_text": "暂停免疫检查点抑制剂治疗，住院治疗，请内分泌科会诊，起始胰岛素治疗并按 DKA 管理",
+      "explain": "患者出现严重高血糖或 DKA 时应住院，免疫检查点抑制剂应暂停直至 DKA 解决，并起始胰岛素治疗。G4 DKA 需胰岛素而非口服降糖药；G4 毒性需暂停 ICI 而非继续。",
+      "keyPoint": "G4 ICI 相关高血糖并 DKA 需暂停 ICI、住院、内分泌会诊、起始胰岛素治疗并按 DKA 规范管理。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "e14f6ad5-719e-496a-b21e-3fa3e293a209",
+        "split_index": 57,
+        "type": "guideline",
+        "authority": "SITC",
+        "source_title": "Society for Immunotherapy of Cancer (SITC) clinical practice guideline on immune checkpoint inhibitor-related adverse events",
+        "source_version": "2021",
+        "source_section": "",
+        "source_url": "",
+        "evidence_summary": "Patients with new-onset diabetes (type I) should be tested for hemoglobin A1c, C-peptide, autoantibodies and counseled on diabetes management, including diet and lifestyle changes, glucose monitoring, and insulin treatment. If patients experience severe hyperglycemia or DKA on ICIs, they should be hospitalized. Patients with hyperglycemia should be evaluated for DKA and ICIs should be held until DKA is resolved."
+      }
+    },
+    {
+      "id": "Q5",
+      "type": "不良反应管理",
+      "phase": "不良反应处理",
+      "timepoint": "依据当前 2026 版共识进行教学复盘：出现 G3 ICI 相关间质性肺炎，感染不能排除时",
+      "question": "患者出现 G3 免疫检查点抑制剂相关间质性肺炎，伴高热和低氧。支气管肺泡灌洗液涂片曾见革兰阴性杆菌，感染不能排除。此时最恰当的处理是？",
+      "options": [
+        "暂停免疫检查点抑制剂，加强监护，给予甲泼尼龙 500-1000mg/d，同步完善抗感染与并发症处置，由 MDT 共同决策",
+        "暂停免疫治疗，给予甲泼尼龙治疗，无需抗感染",
+        "继续免疫治疗，同时给予抗感染和激素治疗",
+        "永久停用免疫检查点抑制剂，无需激素治疗"
+      ],
+      "answer": 0,
+      "answer_text": "暂停免疫检查点抑制剂，加强监护，给予甲泼尼龙 500-1000mg/d，同步完善抗感染与并发症处置，由 MDT 共同决策",
+      "explain": "评估为 G3 免疫相关性肺炎时，需暂停 ICI 并加强监护，甲强龙 500~1000mg/d，并同步完善抗感染与并发症处置；整个过程建议由外科、肿瘤内科、呼吸科与影像等 MDT 共同决策，既避免将免疫毒性误判为感染而延误激素治疗，也避免在活动性感染未排除时过早使用免疫抑制剂。本病例感染不能排除，需同时考虑常规感染和免疫相关性肺炎两种可能，积极进行鉴别诊断和并行处理。",
+      "keyPoint": "G3 ICI 相关肺炎需暂停 ICI、激素治疗、同步抗感染与并发症处置，感染不能排除时需并行鉴别和处理，由 MDT 共同决策。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "2b5b1e25-7a79-4a0e-8e67-c7ae2c3eaf45",
+        "split_index": 44,
+        "type": "guideline",
+        "authority": "CACA",
+        "source_title": "消化道肿瘤围手术期免疫治疗相关不良事件管理专家共识（2026 版）",
+        "source_version": "2026",
+        "source_section": "",
+        "source_url": "",
+        "evidence_summary": "评估为 G3 免疫相关性肺炎时，需暂停 ICI 并加强监护，甲强龙 500~1000mg/d，并同步完善抗感染与并发症处置；整个过程建议由外科、肿瘤内科、呼吸科与影像等 MDT 共同决策，既避免将免疫毒性误判为感染而延误激素治疗，也避免在活动性感染未排除时过早使用免疫抑制剂。"
+      }
+    }
+  ],
+  "missing_information": [],
+  "risk_message": ""
+}

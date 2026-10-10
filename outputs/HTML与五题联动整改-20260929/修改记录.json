@@ -1,0 +1,91 @@
+{
+  "version": "20260929-html-five-contract",
+  "base": "outputs/完整工作流-Flash五题-20260929",
+  "files": {
+    "child": "01-出题子应用.json",
+    "outer": "02-HTML单例外层.json",
+    "batch": "03-批量生成.json"
+  },
+  "changes": [
+    {
+      "role": "child",
+      "id": "sR35QbYF2xamDQR3",
+      "name": "题目生成-首轮"
+    },
+    {
+      "role": "child",
+      "id": "lUxTeIqSf0zHu2BL",
+      "name": "生成输入拼接-首轮"
+    },
+    {
+      "role": "child",
+      "id": "cmuTcUhJefVm2DC6",
+      "name": "首轮格式预检"
+    },
+    {
+      "role": "child",
+      "id": "v12CasePacket",
+      "name": "接收14字段病例JSON"
+    },
+    {
+      "role": "child",
+      "id": "v12RevisionInput",
+      "name": "第二轮修订输入"
+    },
+    {
+      "role": "child",
+      "id": "v12RevisionGenerator",
+      "name": "题目修订-第二轮"
+    },
+    {
+      "role": "child",
+      "id": "v12AssemblyR2",
+      "name": "最终程序检查与引用装配"
+    },
+    {
+      "role": "child",
+      "id": "v12FinalPublicationNormalize",
+      "name": "整理最终输出"
+    },
+    {
+      "role": "outer",
+      "id": "glGeIMqOVaSRs5jF",
+      "name": "正文清洗（HTML/PDF）"
+    },
+    {
+      "role": "outer",
+      "id": "t7eXTzfAM2QUzvvK",
+      "name": "病例结构化提取"
+    },
+    {
+      "role": "outer",
+      "id": "ogy1PAMdD268kXeo",
+      "name": "代码运行"
+    },
+    {
+      "role": "outer",
+      "id": "jKqMCN8eJKvkngnI",
+      "name": "json生成"
+    },
+    {
+      "role": "outer",
+      "id": "d4esByk5Pccmn1gH",
+      "name": "JSON格式修复"
+    },
+    {
+      "role": "outer",
+      "id": "htmlTextCheck",
+      "name": "HTML正文检查"
+    }
+  ],
+  "online_verified": false,
+  "retrieval_unchanged": true,
+  "batch_unchanged": true,
+  "public_contract_unchanged": true,
+  "internal_case_source_added": true,
+  "prompt_chars": {
+    "first_before": 4436,
+    "first_after": 2581,
+    "second_after": 2746
+  }
+}

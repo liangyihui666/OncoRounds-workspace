@@ -1,0 +1,64 @@
+{
+  "checks": [
+    {
+      "name": "参考版上传、读取、清洗、提取、病例映射逐节点保持",
+      "pass": true
+    },
+    {
+      "name": "无整段原文硬拦截及新集中错误路由，外层无额外终稿模型",
+      "pass": true
+    },
+    {
+      "name": "尾部只返回response_json，公开回复变量确实指向它",
+      "pass": true
+    },
+    {
+      "name": "格式修复保留原文日期及推算限定，不擅自改为时间不详",
+      "pass": true
+    },
+    {
+      "name": "参考字段映射结果可被现有五题子应用接收；不依赖新增原文变量",
+      "pass": true
+    },
+    {
+      "name": "真实历史json生成输入可回传完整结果 CASE-3665D6A9.json",
+      "pass": true
+    },
+    {
+      "name": "真实历史json生成输入可回传完整结果 CASE-41901B16.json",
+      "pass": true
+    },
+    {
+      "name": "真实历史json生成输入可回传完整结果 CASE-794E8394.json",
+      "pass": true
+    },
+    {
+      "name": "真实历史json生成输入可回传完整结果 CASE-928DA97A.json",
+      "pass": true
+    },
+    {
+      "name": "真实历史json生成输入可回传完整结果 CASE-94E451EE.json",
+      "pass": true
+    },
+    {
+      "name": "真实历史json生成输入可回传完整结果 CASE-E88F230.json",
+      "pass": true
+    },
+    {
+      "name": "上游模型返回为空时，已到达尾部的流程明确返回失败诊断",
+      "pass": true
+    },
+    {
+      "name": "最新实际十条空返回仍保留位置且不标成JSON损坏",
+      "pass": true
+    },
+    {
+      "name": "正常和空HTML按参考版本处理",
+      "pass": true
+    }
+  ],
+  "passed": 14,
+  "failed": 0,
+  "online_verified": false,
+  "clinical_quality_verified": false
+}

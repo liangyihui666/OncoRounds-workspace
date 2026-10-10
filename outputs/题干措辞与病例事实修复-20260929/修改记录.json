@@ -1,0 +1,36 @@
+{
+  "revision": "20260929-wording-facts-five",
+  "changed_nodes": [
+    {
+      "id": "sR35QbYF2xamDQR3",
+      "name": "题目生成-首轮"
+    },
+    {
+      "id": "cmuTcUhJefVm2DC6",
+      "name": "首轮格式预检"
+    },
+    {
+      "id": "v12RevisionInput",
+      "name": "第二轮修订输入"
+    },
+    {
+      "id": "v12RevisionGenerator",
+      "name": "题目修订-第二轮"
+    },
+    {
+      "id": "v12AssemblyR2",
+      "name": "最终程序检查与引用装配"
+    },
+    {
+      "id": "v12FinalPublicationNormalize",
+      "name": "整理最终输出"
+    }
+  ],
+  "node_count": 33,
+  "edge_count": 52,
+  "model_calls": 2,
+  "public_schema_changed": false,
+  "retrieval_unchanged": true,
+  "online_verified": false,
+  "medical_correctness_verified": false
+}

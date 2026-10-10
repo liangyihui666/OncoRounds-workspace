@@ -1,0 +1,12 @@
+{
+  "appId": "6a7948ebb419697f6005c33f",
+  "stream": false,
+  "detail": true,
+  "variables": {{production_variables}},
+  "messages": [
+    {
+      "role": "user",
+      "content": "请开始生成并独立校验已确认病例的五道肿瘤大查房题目。"
+    }
+  ]
+}

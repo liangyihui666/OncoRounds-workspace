@@ -1,0 +1,335 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-DE70CBF4",
+    "cancer_type": "乳腺癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "鉴别诊断",
+        "timepoint": "首次随访",
+        "question": "乳腺癌术后患者出现性质未明的双侧肾上腺病灶，拟通过取材指导治疗。何时适合考虑肾上腺活检？",
+        "options": {
+          "A": "PET高摄取后即可安排穿刺，无需再做内分泌评估",
+          "B": "只要有乳腺癌病史，就应以穿刺作为首项检查",
+          "C": "排除嗜铬细胞瘤等功能性风险，且组织结果将改变治疗时",
+          "D": "影像不能确诊时即切除双侧肾上腺，以避免取材误差"
+        },
+        "answer": "C",
+        "answer_text": "排除嗜铬细胞瘤等功能性风险，且组织结果将改变治疗时",
+        "explain": "活检前应特别排除嗜铬细胞瘤，并评估病灶是否已能由影像判定为良性、取材可行性和结果对治疗的影响。“无法手术”不是所有此类患者的唯一活检条件。",
+        "keyPoint": "肾上腺取材前须完成安全评估并明确临床价值。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESE/ENSAT",
+          "source_title": "European Society of Endocrinology clinical practice guidelines on the management of adrenal incidentalomas",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://academic.oup.com/ejendo/article/189/1/G1/7198474",
+          "evidence_summary": "肾上腺取材前须完成安全评估并明确临床价值。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "分子诊断",
+        "phase": "复发转移确诊阶段",
+        "timepoint": "病理确诊阶段",
+        "question": "乳腺癌术后约14年出现疑似肾上腺转移。若已安全取得足量组织，重新检测ER、PR及HER2的主要目的是什么？",
+        "options": {
+          "A": "因超过固定年限，原发灶结果在技术上已失效",
+          "B": "识别可能的受体变化，为当前转移阶段重新选药",
+          "C": "证明肾上腺转移必然具有不同于原发灶的分型",
+          "D": "仅评估Ki-67变化，以此决定能否继续内分泌治疗"
+        },
+        "answer": "B",
+        "answer_text": "识别可能的受体变化，为当前转移阶段重新选药",
+        "explain": "受体可能随疾病演变或取样部位不同而出现差异，可靠的转移灶检测可影响选药。并非所有患者一定转型，也不存在本题所称的统一“结果有效期”。",
+        "keyPoint": "远期复发仍应关注当前病灶的受体状态。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic breast cancer",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+          "evidence_summary": "远期复发仍应关注当前病灶的受体状态。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "系统治疗启动",
+        "timepoint": "治疗启动",
+        "question": "转移灶确认为HR阳性、HER2阴性，患者已开始肾上腺激素替代。若无内脏危象且适合联合治疗，哪项方案可合理考虑？",
+        "options": {
+          "A": "评估瑞波西利联合来曲唑，并继续必要的激素替代",
+          "B": "仅因肾上腺是转移部位，就改用内分泌单药治疗",
+          "C": "先切除双侧肾上腺，以此作为系统治疗的前提",
+          "D": "等待肾上腺功能自行恢复，再决定是否抗肿瘤治疗"
+        },
+        "answer": "A",
+        "answer_text": "评估瑞波西利联合来曲唑，并继续必要的激素替代",
+        "explain": "CDK4/6抑制剂联合内分泌治疗是适宜HR阳性、HER2阴性晚期患者的治疗路径之一。需确认绝经或卵巢抑制状态、器官功能及相互作用；肾上腺功能不全本身不意味着必须放弃联合治疗。",
+        "keyPoint": "控制内分泌合并症后，按肿瘤分型与整体状态选药。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic breast cancer",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+          "evidence_summary": "控制内分泌合并症后，按肿瘤分型与整体状态选药。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "治疗决策",
+        "phase": "综合管理",
+        "timepoint": "治疗启动",
+        "question": "原发性肾上腺皮质功能不全患者接受抗肿瘤治疗期间，除日常氢化可的松替代外，还应重点落实哪项管理？",
+        "options": {
+          "A": "仅随访肿瘤缩小程度，据此决定是否停止激素",
+          "B": "监测血压电解质，评估盐皮质激素需求并制定应激用药计划",
+          "C": "感染或手术时维持原替代量，以减少激素相关风险",
+          "D": "出现恶心呕吐时先停用替代药物，等待消化道症状缓解"
+        },
+        "answer": "B",
+        "answer_text": "监测血压电解质，评估盐皮质激素需求并制定应激用药计划",
+        "explain": "应评估是否合并醛固酮缺乏，并教育患者在发热、手术或不能口服时及时按计划处理。原发性功能不全与一般“肾上腺负担”不同，不能自行停用替代治疗；疑似危象需要立即处理。",
+        "keyPoint": "肾上腺功能不全管理包括基础替代与应激预案。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "Endocrine Society",
+          "source_title": "Diagnosis and Treatment of Primary Adrenal Insufficiency",
+          "source_version": "2016",
+          "source_section": "",
+          "source_url": "https://www.endocrine.org/clinical-practice-guidelines/primary-adrenal-insufficiency",
+          "evidence_summary": "肾上腺功能不全管理包括基础替代与应激预案。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "不良反应管理",
+        "phase": "毒性管理阶段",
+        "timepoint": "治疗 2 周后",
+        "question": "瑞波西利联合来曲唑治疗2周后出现严重中性粒细胞减少，原文未给出ANC及是否发热。下一步最合理的原则是什么？",
+        "options": {
+          "A": "直接认定为4级毒性，永久停止所有内分泌治疗",
+          "B": "维持瑞波西利剂量，用预防性升白治疗替代剂量管理",
+          "C": "不复查血象即降至最低剂量，按原日程继续服用",
+          "D": "暂缓瑞波西利，明确分级及感染风险后决定恢复剂量"
+        },
+        "answer": "D",
+        "answer_text": "暂缓瑞波西利，明确分级及感染风险后决定恢复剂量",
+        "explain": "需根据ANC、发热及复发情况处理。首次无并发症3级与发热性、复发性3级或4级的恢复规则不同，不能将“严重”自动换算为某一级。病例确实减量恢复，但并非所有首次3级事件均需减量。",
+        "keyPoint": "中性粒细胞减少的恢复剂量取决于分级、发热及复发情况。",
+        "guidelineRef": {
+          "evidence_type": "药品说明书",
+          "doc_id": "",
+          "split_index": null,
+          "type": "drug_label",
+          "authority": "Novartis / 美国处方信息",
+          "source_title": "KISQALI Prescribing Information",
+          "source_version": "在线版本（核查于2026-09-10）",
+          "source_section": "",
+          "source_url": "https://www.novartis.com/us-en/sites/novartis_us/files/kisqali.pdf",
+          "evidence_summary": "中性粒细胞减少的恢复剂量取决于分级、发热及复发情况。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-DE70CBF4",
+    "cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/uV5J-na17vZLo1PLtJtuHw/HSYUvb0mHwewpyHoR1Cj6f6knurb09ZS.png",
+      "alt": "图 1 腹部增强 CT"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "乳腺癌术后 14 年双侧肾上腺转移伴原发性肾上腺皮质功能不全病例",
+      "description": "患者女，64 岁，因“腹部隐痛 2 个月”就诊。既往 2011 年确诊左乳浸润性小叶腺癌，行手术、化疗、放疗及内分泌治疗（2016 年自行停用）。现病史示腹部隐痛呈酸痛感，无库欣综合征等激素分泌异常表现，有骨量减少史。初始检查排除肾上腺激素分泌异常。动态监测发现双侧肾上腺新发增厚及结节，PET-CT 示高摄取。激素复查提示 ACTH 升高、DHEA-S 降低……"
+    },
+    "overview": {
+      "hero": {
+        "title": "乳腺癌术后 14 年双侧肾上腺转移伴原发性肾上腺皮质功能不全病例",
+        "subtitle": "乳腺癌超晚期复发（术后 14 年）的识别与诊断 双侧肾上腺占位的鉴别诊断：原发肿瘤 vs 转移瘤 肿瘤相关原发性肾上腺皮质功能不全的诊断线索与管理 靶向联合内分泌治疗严重中性粒细胞减少的剂量调整策略 影像学动态监测在肾上腺转移诊断中的价值"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者与就诊背景",
+              "value": "患者女，64 岁，因“腹部隐痛 2 个月”就诊。既往 2011 年确诊左乳浸润性小叶腺癌，行手术、化疗、放疗及内分泌治疗（2016 年自行停用）。现病史示腹部隐痛呈酸痛感，无库欣综合征等激素分泌异常表现，有骨量减少史。初始检查排除肾上腺激素分泌异常。动态监测发现双侧肾上腺新发增厚及结节，PET-CT 示高摄取。激素复查提示 ACTH 升高、DHEA-S 降低，CST 试验确诊原发性肾上腺皮质功能不全。病理活检证实为乳腺癌转移。基线明确后拟启动系统治疗。"
+            },
+            {
+              "order": 2,
+              "label": "疾病与分期",
+              "value": "左乳浸润性小叶腺癌（T2N1Mx，ER+/PR+/HER2-）术后双侧肾上腺转移（腺癌，ER+/PR+/HER2-，GATA3+/CK7+）"
+            },
+            {
+              "order": 3,
+              "label": "分子与病理",
+              "value": "2011 年 | 乳腺组织 | 免疫组化 | ER | 阳性 | 不详 2011 年 | 乳腺组织 | 免疫组化 | PR | 阳性 | 不详 2011 年 | 乳腺组织 | 免疫组化 | HER2 | 阴性 | 不详 病理确诊时 | 肾上腺/腹主动脉旁淋巴结 | 免疫组化 | ER | 阳性 | 不详 病理确诊时 | 肾上腺/腹主动脉旁淋巴结 | 免疫组化 | PR | 阳性 | 不详 病理确诊时 | 肾上腺/腹主动脉旁淋巴结 | 免疫组化 | HER2 | 阴性 | 不详 病理确诊时 | 肾上腺/腹主动脉旁淋巴……"
+            },
+            {
+              "order": 4,
+              "label": "核心教学点",
+              "value": "乳腺癌超晚期复发（术后 14 年）的识别与诊断 双侧肾上腺占位的鉴别诊断：原发肿瘤 vs 转移瘤 肿瘤相关原发性肾上腺皮质功能不全的诊断线索与管理 靶向联合内分泌治疗严重中性粒细胞减少的剂量调整策略 影像学动态监测在肾上腺转移诊断中的价值"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2011",
+              "title": "诊疗节点 1",
+              "detail": "2011 年：确诊左乳浸润性小叶腺癌（T2N1Mx），行左乳切除术 + 多西他赛联合环磷酰胺化疗 + 放疗"
+            },
+            {
+              "date": "2011",
+              "title": "诊疗节点 2",
+              "detail": "2011 年 -2015 年：术后内分泌治疗 4 年（初始他莫昔芬 6 个月，后戈舍瑞林 + 芳香化酶抑制剂）"
+            },
+            {
+              "date": "2014",
+              "title": "诊疗节点 3",
+              "detail": "2014 年：停用戈舍瑞林"
+            },
+            {
+              "date": "2016",
+              "title": "诊疗节点 4",
+              "detail": "2016 年：自行停用芳香化酶抑制剂"
+            },
+            {
+              "date": "2011",
+              "title": "诊疗节点 5",
+              "detail": "2011 年 -2025 年：术后规律随访近 14 年，无明确复发迹象"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 6",
+              "detail": "就诊时（腹部隐痛 2 个月）：腹部增强 CT 偶然发现左侧肾上腺弥漫性增厚"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 7",
+              "detail": "激素检查排除肾上腺激素分泌异常"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 8",
+              "detail": "首次随访（5-6 个月后）：腹部增强 CT 示右侧肾上腺外侧肢新发增厚，左侧肾上腺下极出现 0.9cm 结节（平扫 CT 值 36HU，绝对洗脱率 48%，相对洗脱率 21%）"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 9",
+              "detail": "再次随访（3 个月后）：双侧肾上腺结节进一步增大，右侧可见两个优势结节（1.1cm、1.0cm，平扫 CT 值 34HU/52HU，绝对洗脱率约 65%）"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 10",
+              "detail": "左侧结节大小稳定"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 11",
+              "detail": "PET-CT 示双侧肾上腺及腹主动脉旁淋巴结 FDG 高摄取"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 12",
+              "detail": "病理确诊阶段：激素复查示 ACTH 升高，DHEA-S 降低，CST 试验确诊原发性肾上腺皮质功能不全"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 13",
+              "detail": "血管内超声引导下经静脉肾上腺及腹主动脉旁淋巴结活检示腺癌（ER+/PR+/HER2-，GATA3+/CK7+），符合乳腺癌转移"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 14",
+              "detail": "治疗启动：予氢化可的松替代治疗"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 15",
+              "detail": "启动瑞波西利联合来曲唑治疗"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 16",
+              "detail": "治疗 2 周后：出现严重中性粒细胞减少"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 17",
+              "detail": "后续处理：暂停 1 周期后减量恢复治疗"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 18",
+              "detail": "目前仍在随访中"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/uV5J-na17vZLo1PLtJtuHw/HSYUvb0mHwewpyHoR1Cj6f6knurb09ZS.png",
+              "timepoint": "就诊时",
+              "caption": "图 1 腹部增强 CT",
+              "alt": "图 1 腹部增强 CT",
+              "mapping_status": "matched_by_timepoint",
+              "related_timeline": {
+                "date": "时间未详",
+                "title": "诊疗节点 6",
+                "detail": "就诊时（腹部隐痛 2 个月）：腹部增强 CT 偶然发现左侧肾上腺弥漫性增厚"
+              }
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/uV5J-na17vZLo1PLtJtuHw/i7R2Iijm2R1bYBMR8Osaq4icW3auACCt.png",
+              "timepoint": "随访期间",
+              "caption": "图 2 随访腹部 CT 示双侧肾上腺结节样增大进展，PET/CT 示 FDG 摄取增高",
+              "alt": "图 2 随访腹部 CT 示双侧肾上腺结节样增大进展，PET/CT 示 FDG 摄取增高",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

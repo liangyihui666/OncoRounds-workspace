@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "case_id": "lung-ros1",
+  "cancer_type": "肺癌",
+  "page_type": "home",
+  "recommendation_label": "今日推荐病例",
+  "display_title": "ROS1 融合肺癌精准治疗",
+  "difficulty": "进阶",
+  "description": "一例 ROS1 融合阳性肺腺癌患者的诊断思路、耐药再活检与靶向治疗决策。",
+  "image": {
+    "src": "./assets/cases/lung-ros1-home.png",
+    "alt": "ROS1 融合肺癌病例主题图"
+  },
+  "primary_action": {
+    "label": "开始查房",
+    "action": "open_case"
+  },
+  "learning_disclaimer": [
+    "基于典型病例 · 训练临床决策",
+    "内容仅用于医学学习"
+  ]
+}

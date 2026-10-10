@@ -1,0 +1,252 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-82A82F9C",
+    "cancer_type": "乳腺癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "产后初诊评估",
+        "timepoint": "产后",
+        "question": "患者产后评估发现肝、骨及多处淋巴结转移，结合孕期确诊的乳腺原发灶，关于其分期及诊断原则，下列描述正确的是？",
+        "options": {
+          "A": "属于复发转移性乳腺癌，因孕期仅发现局部病灶",
+          "B": "属于初诊 IV 期乳腺癌，定义为首诊时即存在远处转移",
+          "C": "属于寡转移乳腺癌，因转移灶数目少于 5 个",
+          "D": "属于局部晚期乳腺癌，因原发灶未行根治手术"
+        },
+        "answer": "B",
+        "answer_text": "属于初诊 IV 期乳腺癌，定义为首诊时即存在远处转移",
+        "explain": "初诊 IV 期乳腺癌指初次诊断时即存在远处转移。该患者产后全面评估才发现远处转移，符合初诊 IV 期定义，而非治疗后复发。",
+        "keyPoint": "初诊 IV 期指首次确诊即伴远处转移，需全面评估明确分期。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "7e911bc2-d9c4-41ea-bcef-d28c231dc12d",
+          "split_index": 3,
+          "type": "guideline",
+          "authority": "中华医学会外科学分会乳腺外科学组",
+          "source_title": "初诊IV期乳腺癌诊疗临床实践指南（2025版）",
+          "source_version": "2025",
+          "source_section": "初诊IV期乳腺癌诊疗临床实践指南（2025版）",
+          "source_url": "",
+          "evidence_summary": "指南定义初诊 IV 期乳腺癌为初次诊断时即存在远处转移（任何 T、任何 N、M1）。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "分子诊断",
+        "phase": "病理确诊与转移灶评估",
+        "timepoint": "孕 35 周及产后",
+        "question": "该患者原发灶与胎盘转移灶的分子标志物检测结果显示 HER2 均为 3+，ER/PR 弱阳。关于此类晚期乳腺癌分子检测原则，正确的是？",
+        "options": {
+          "A": "原发灶检测准确即可，转移灶无需再次进行免疫组化",
+          "B": "胎盘转移罕见，其分子结果不能代表全身转移灶特征",
+          "C": "复发或转移灶受体状态可能改变，原则上应重新检测",
+          "D": "仅当原发灶 HER2 为 2+ 时，才需对转移灶进行 FISH 检测"
+        },
+        "answer": "C",
+        "answer_text": "复发或转移灶受体状态可能改变，原则上应重新检测",
+        "explain": "指南指出复发/转移灶受体状态可能发生转变（10%-40%），直接影响治疗决策。虽证据章节涉及预防性治疗背景，但明确强调了复发灶需重新检测 ER、PR、HER2 及 Ki-67 的原则。",
+        "keyPoint": "转移灶分子分型可能改变，需重新活检检测以指导治疗。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+          "split_index": 362,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+          "source_version": "2026",
+          "source_section": "13.2.3.1 药物预防性治疗",
+          "source_url": "",
+          "evidence_summary": "指南在相关章节强调：对复发灶必须重新检测 ER、PR、HER2 表达及 Ki-67，因受体状态可能发生改变。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "疗效复评与局部治疗",
+        "phase": "疗效评估与后续策略",
+        "timepoint": "治疗 8 周期后",
+        "question": "患者一线治疗 8 周期后评价为 SD（疾病稳定），随访 4 个月仍维持 SD。关于此时局部治疗（如手术或放疗）的考量，正确的是？",
+        "options": {
+          "A": "只要原发灶存在，无论全身病灶如何，均应立即行乳房切除术",
+          "B": "疾病稳定即代表耐药，应立即更换二线方案并放弃局部治疗",
+          "C": "胎盘转移已切除，全身病灶稳定，应常规行预防性全脑放疗",
+          "D": "初诊 IV 期患者局部治疗价值未明，通常需全身治疗有效后再评估"
+        },
+        "answer": "D",
+        "answer_text": "初诊 IV 期患者局部治疗价值未明，通常需全身治疗有效后再评估",
+        "explain": "初诊 IV 期乳腺癌首选全身治疗，局部治疗价值尚不明确。仅在全身治疗取得较好疗效时，才考虑姑息性局部治疗以巩固疗效。",
+        "keyPoint": "初诊 IV 期以全身治疗为主，局部治疗需在全身控制良好时谨慎评估。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+          "split_index": 259,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+          "source_version": "2026",
+          "source_section": "中国抗癌协会乳腺癌专业委员会，中华医学会肿瘤学分会乳腺肿瘤学组",
+          "source_url": "",
+          "evidence_summary": "指南指出初诊 IV 期乳腺癌局部治疗价值不明确，仅当全身药物治疗疗效较好时可考虑姑息性局部治疗。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "治疗决策",
+        "phase": "一线系统治疗",
+        "timepoint": "产后治疗开始",
+        "question": "针对该 HER2 阳性晚期乳腺癌患者，产后一线选择 THPy 方案（含吡咯替尼）的主要考量依据是什么？",
+        "options": {
+          "A": "HER2 阳性晚期患者优先选择含抗 HER2 靶向药物的联合方案",
+          "B": "吡咯替尼仅适用于新辅助治疗，晚期一线缺乏证据支持",
+          "C": "因患者有先天性心脏病，应避免使用任何抗 HER2 药物",
+          "D": "胎盘转移提示预后极差，应直接选择最佳支持治疗"
+        },
+        "answer": "A",
+        "answer_text": "HER2 阳性晚期患者优先选择含抗 HER2 靶向药物的联合方案",
+        "explain": "HER2 阳性晚期乳腺癌治疗原则是以全身治疗为主，抗 HER2 靶向治疗是核心。指南推荐根据分子分型制定方案，HER2 阳性患者从抗 HER2 治疗中获益显著。",
+        "keyPoint": "HER2 阳性晚期乳腺癌一线治疗应包含抗 HER2 靶向药物。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "2c622f44-2a67-43b9-a4da-a13278793a7b",
+          "split_index": 31,
+          "type": "guideline",
+          "authority": "国家肿瘤质控中心乳腺癌专家委员会",
+          "source_title": "中国县域乳腺癌防治管理路径与质量控制指南(2023版)",
+          "source_version": "2023",
+          "source_section": "（二）晚期乳腺癌的治疗路径",
+          "source_url": "",
+          "evidence_summary": "指南指出 HER2 阳性患者更多从抗 HER2 治疗中获益，应制定全面抗肿瘤方案。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "分子诊断",
+        "phase": "病理确诊阶段",
+        "timepoint": "孕 35 周及产后",
+        "question": "该患者原发灶与胎盘转移灶的分子标志物检测结果显示 Ki-67 指数差异显著（40% vs 70%）。对此现象的临床解读正确的是？",
+        "options": {
+          "A": "说明检测误差，应以原发灶结果为准制定治疗方案",
+          "B": "提示肿瘤异质性，转移灶增殖活性更高，需密切监测疗效",
+          "C": "表明胎盘转移灶已发生去分化，必须更换化疗方案",
+          "D": "反映妊娠期激素影响，产后 Ki-67 会自动恢复正常"
+        },
+        "answer": "B",
+        "answer_text": "提示肿瘤异质性，转移灶增殖活性更高，需密切监测疗效",
+        "explain": "原发与转移灶分子特征可能存在差异（异质性），Ki-67 升高提示转移灶增殖更活跃，这不影响 HER2 阳性这一核心治疗靶点，但提示需严密评估治疗反应。",
+        "keyPoint": "原发与转移灶分子特征可能不同，体现肿瘤异质性，需关注生物学行为变化。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+          "split_index": 362,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+          "source_version": "2026",
+          "source_section": "13.2.3.1 药物预防性治疗",
+          "source_url": "",
+          "evidence_summary": "指南指出复发灶需重新检测标志物，受体状态及 Ki-67 可能发生改变，直接影响后续治疗决策。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-82A82F9C",
+    "cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "妊娠期乳腺病变的诊疗决策",
+      "description": "35岁女性孕31周发现乳房肿块，孕35周穿刺确诊，孕37周剖宫产。"
+    },
+    "overview": {
+      "hero": {
+        "title": "妊娠期乳腺病变的诊疗决策",
+        "subtitle": "妊娠阶段与检查治疗时机、胎盘病理意义，以及产后分期和母婴随访。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "35岁女性孕31周发现乳房肿块，孕35周穿刺确诊，孕37周剖宫产。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "HER2阳性乳腺癌；胎盘病理证实转移，产后另见肝、骨及淋巴结转移。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "产后接受白蛋白紫杉醇、曲妥珠单抗及吡咯替尼，后调整含卡培他滨方案。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "妊娠阶段与检查治疗时机、胎盘病理意义，以及产后分期和母婴随访。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "孕31周",
+              "title": "发现肿块",
+              "detail": "发现右乳不规则肿块。"
+            },
+            {
+              "date": "孕35周",
+              "title": "穿刺确诊",
+              "detail": "乳腺及腋窝病变穿刺，确诊乳腺癌。"
+            },
+            {
+              "date": "孕37周",
+              "title": "分娩及胎盘检查",
+              "detail": "剖宫产，胎盘病理证实乳腺癌转移。"
+            },
+            {
+              "date": "产后",
+              "title": "全身评估与治疗",
+              "detail": "发现肝、骨及淋巴结转移，使用白蛋白紫杉醇、曲妥珠单抗及吡咯替尼。"
+            },
+            {
+              "date": "治疗4至8周期",
+              "title": "疗效复评",
+              "detail": "原文记录4周期后PR、8周期后SD。"
+            },
+            {
+              "date": "后续随访",
+              "title": "维持治疗",
+              "detail": "后用吡咯替尼、卡培他滨及曲妥珠单抗，随访4个月为SD；婴儿未发现肿瘤受累。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

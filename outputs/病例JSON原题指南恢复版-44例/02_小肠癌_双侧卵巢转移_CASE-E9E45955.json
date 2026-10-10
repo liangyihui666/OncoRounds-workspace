@@ -1,0 +1,247 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-E9E45955",
+    "cancer_type": "消化系统肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "分子诊断",
+        "phase": "初诊病理评估",
+        "timepoint": "术后病理确诊时",
+        "question": "患者双侧卵巢发现转移性黏液腺癌，免疫组化显示 CK7(-)、CK20(+)、CDX-2(+)、PAX-8(-)。依据 CACA 病理诊断指南，该免疫表型最支持的诊断是？",
+        "options": {
+          "A": "转移性小肠腺癌",
+          "B": "原发性卵巢黏液性癌",
+          "C": "原发性腹膜间皮瘤",
+          "D": "转移性乳腺黏液癌"
+        },
+        "answer": "A",
+        "answer_text": "转移性小肠腺癌",
+        "explain": "CK7(-)/CK20(+)/CDX-2(+) 是典型的胃肠道来源特征，PAX-8(-) 排除了妇科原发（如卵巢癌）。CACA 指南指出鉴别原发或转移性黏液腺癌需结合此免疫组化组合。",
+        "keyPoint": "CK7-/CK20+/CDX-2+ 提示胃肠道来源，PAX-8 阴性排除妇科原发。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "f51ad2ef-8e21-42f9-bfd1-f2ed36512587",
+          "split_index": 199,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 病理诊断",
+          "source_version": "2023",
+          "source_section": "（三）免疫组织化学应用及特殊染色应用",
+          "source_url": "",
+          "evidence_summary": "CACA 指南指出鉴别原发或转移性黏液腺癌需借助 CK7、CK20、PAX8、CDX-2 等标志物。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "诊断与分期",
+        "phase": "术后病理分期",
+        "timepoint": "右半结肠癌根治术 + 盆腔肿物切除术后",
+        "question": "患者术后病理示小肠肿瘤侵透浆膜层，淋巴结转移 3/19，双侧卵巢转移。依据 AJCC 小肠腺癌 TNM 分期（2017 第八版），该患者分期为？",
+        "options": {
+          "A": "III B 期",
+          "B": "IV 期",
+          "C": "III A 期",
+          "D": "II B 期"
+        },
+        "answer": "B",
+        "answer_text": "IV 期",
+        "explain": "患者存在远处转移（双侧卵巢转移，M1），无论 T 和 N 状态如何，只要有 M1 即为 IV 期。淋巴结转移 3 个属 N2，原发灶侵透浆膜属 T4，但 M1 决定最终分期。",
+        "keyPoint": "小肠腺癌伴远处转移（M1）直接定义为 IV 期。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "6397a576-7b39-41f1-9852-48b0489a42c5",
+          "split_index": 13,
+          "type": "guideline",
+          "authority": "中国医师协会结直肠肿瘤专业委员会",
+          "source_title": "原发性小肠肿瘤多学科综合治疗中国专家共识（2025版）",
+          "source_version": "2025",
+          "source_section": "（二）小肠癌的病理诊断",
+          "source_url": "",
+          "evidence_summary": "AJCC 分期规定任何 T 任何 N 伴 M1（远处转移）均为 IV 期。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "术后辅助治疗",
+        "timepoint": "术后恢复后开始化疗",
+        "question": "针对该 IV 期小肠黏液腺癌术后患者，已行根治性手术切除可见病灶。依据专家共识及临床实践，术后首选的全身治疗策略是？",
+        "options": {
+          "A": "单纯观察随访",
+          "B": "盆腔放射治疗",
+          "C": "XELOX 方案辅助化疗",
+          "D": "免疫检查点抑制剂单药治疗"
+        },
+        "answer": "C",
+        "answer_text": "XELOX 方案辅助化疗",
+        "explain": "小肠癌治疗参考结直肠癌模式，对于高危或转移性术后患者，含奥沙利铂的联合化疗（如 XELOX）是标准辅助治疗方案，旨在降低复发风险。",
+        "keyPoint": "小肠癌术后辅助治疗参考结直肠癌方案，推荐含奥沙利铂联合化疗。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "6397a576-7b39-41f1-9852-48b0489a42c5",
+          "split_index": 33,
+          "type": "guideline",
+          "authority": "中国医师协会结直肠肿瘤专业委员会",
+          "source_title": "原发性小肠肿瘤多学科综合治疗中国专家共识（2025版）",
+          "source_version": "2025",
+          "source_section": "五、小肠肿瘤的随访策略",
+          "source_url": "",
+          "evidence_summary": "共识建议小肠癌随访及治疗模式通常遵循与肠癌术后类似模式，支持化疗应用。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "诊断与分期",
+        "phase": "初始诊断评估",
+        "timepoint": "入院完善检查阶段",
+        "question": "患者以阴道出血和腹痛起病，初诊发现盆腔占位。在怀疑消化道肿瘤伴卵巢转移时，关于肿瘤标志物的检测意义，下列描述正确的是？",
+        "options": {
+          "A": "CA125 升高特异性指向卵巢原发癌，可排除肠道来源",
+          "B": "CEA 和 CA19-9 正常可完全排除小肠恶性肿瘤",
+          "C": "CA724 和 CEA 升高可辅助提示消化道来源，但需结合影像与病理",
+          "D": "HPV 阳性是诊断小肠癌伴卵巢转移的金标准"
+        },
+        "answer": "C",
+        "answer_text": "CA724 和 CEA 升高可辅助提示消化道来源，但需结合影像与病理",
+        "explain": "CA125 在腹膜或卵巢受累时均可升高，非卵巢原发特异；CEA 和 CA724 升高更倾向消化道肿瘤，但确诊必须依赖影像定位及病理免疫组化。",
+        "keyPoint": "肿瘤标志物仅具辅助提示作用，消化道肿瘤伴卵巢转移时 CA125 亦可升高，确诊靠病理。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "6397a576-7b39-41f1-9852-48b0489a42c5",
+          "split_index": 36,
+          "type": "guideline",
+          "authority": "中国医师协会结直肠肿瘤专业委员会",
+          "source_title": "原发性小肠肿瘤多学科综合治疗中国专家共识（2025版）",
+          "source_version": "2025",
+          "source_section": "3.随访内容",
+          "source_url": "",
+          "evidence_summary": "指南建议监测 CEA 和 CA19-9 作为复发敏感指标，但未提及单一标志物可确诊原发灶。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "疗效复评与局部治疗",
+        "phase": "随访监测",
+        "timepoint": "术后治疗期间",
+        "question": "该患者术后接受化疗，关于随访监测策略，下列哪项最符合当前专家共识推荐？",
+        "options": {
+          "A": "仅需监测腹部症状，无需常规影像学检查",
+          "B": "建议定期行胸腹盆增强 CT，并监测 CEA 和 CA19-9",
+          "C": "必须每 3 个月行 PET-CT 检查以早期发现复发",
+          "D": "仅需监测妇科超声，因主要风险为卵巢复发"
+        },
+        "answer": "B",
+        "answer_text": "建议定期行胸腹盆增强 CT，并监测 CEA 和 CA19-9",
+        "explain": "共识建议随访包括临床评估、胸腹盆增强 CT 以评估复发转移，以及监测 CEA 和 CA19-9 等肿瘤标志物。PET-CT 仅在特定情况下增加，非常规。",
+        "keyPoint": "小肠癌随访推荐胸腹盆 CT 及 CEA/CA19-9 监测，参照肠癌模式。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "6397a576-7b39-41f1-9852-48b0489a42c5",
+          "split_index": 36,
+          "type": "guideline",
+          "authority": "中国医师协会结直肠肿瘤专业委员会",
+          "source_title": "原发性小肠肿瘤多学科综合治疗中国专家共识（2025版）",
+          "source_version": "2025",
+          "source_section": "3.随访内容",
+          "source_url": "",
+          "evidence_summary": "随访建议行胸腹盆 CT 增强扫描，监测 CEA 和 CA19-9 等肿瘤复发敏感指标。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-E9E45955",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "小肠癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "小肠与盆腔肿块的来源判断",
+      "description": "55岁女性因阴道出血及下腹痛就诊，发现盆腔及小肠肿块。"
+    },
+    "overview": {
+      "hero": {
+        "title": "小肠与盆腔肿块的来源判断",
+        "subtitle": "小肠与卵巢病变的来源关系、病理分期信息，以及术后治疗与随访。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "55岁女性因阴道出血及下腹痛就诊，发现盆腔及小肠肿块。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "小肠黏液腺癌伴双侧卵巢转移，3/19枚区域淋巴结阳性；原文N分期待核对。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "切除肠道及盆腔病变，术后接受XELOX。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "小肠与卵巢病变的来源关系、病理分期信息，以及术后治疗与随访。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "就诊前10天",
+              "title": "症状出现",
+              "detail": "阴道出血及下腹痛，后疼痛加重。"
+            },
+            {
+              "date": "检查阶段",
+              "title": "小肠及盆腔病变",
+              "detail": "发现小肠及盆腔肿块，活检小肠黏液腺癌。"
+            },
+            {
+              "date": "手术",
+              "title": "肠道及盆腔肿物切除",
+              "detail": "接受肠道及盆腔肿物切除。"
+            },
+            {
+              "date": "最终病理",
+              "title": "确认卵巢转移",
+              "detail": "双侧卵巢转移、3/19枚淋巴结阳性；原文N分期待核对。"
+            },
+            {
+              "date": "术后",
+              "title": "XELOX系统治疗",
+              "detail": "接受XELOX，报道时恢复良好，长期结局未提供。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

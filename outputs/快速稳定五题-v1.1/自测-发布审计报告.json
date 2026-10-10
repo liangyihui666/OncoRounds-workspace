@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "errors": [],
+  "warnings": [
+    "结构审计不能替代独立医学审核：仍需人工核对病例事实、时序、适用人群及单条 snippet 的直接支持。"
+  ],
+  "stats": {
+    "question_count": 5,
+    "hard_evidence_count": 3,
+    "clinical_reasoning_count": 2,
+    "evidence_type_counts": {
+      "临床研究": 1,
+      "指南": 2,
+      "病例+临床推理": 2
+    }
+  }
+}

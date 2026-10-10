@@ -1,0 +1,1334 @@
+{
+  "case_id": "CASE-41901B16",
+  "disease": "原发：乳腺癌（19年前诊断，具体病理类型及分期原文未记载）；转移灶病理：转移性腺癌，来源与乳腺癌一致；最终诊断：乳腺癌髌骨转移。PET/CT另见左侧股骨上段及右侧胫骨近端放射性摄取增高结节，提示多发骨转移可能，原文未给出明确TNM分期。",
+  "case_title": "乳腺癌19年后罕见髌骨转移的诊断与治疗",
+  "case_context": "患者为63岁中国女性，因右膝疼痛不适半年就诊。19年前被诊断为乳腺癌，接受了手术、放疗和化疗，此后未能坚持定期随访复查。就诊时体格检查发现步态跛行，右侧髌骨有明显压痛。当时已知信息限于乳腺癌病史及当前膝关节症状，尚未进行影像学或病理检查。",
+  "learning_points": "1. 乳腺癌病史患者出现非典型部位骨痛时的鉴别诊断思路，避免误判为退行性病变\n2. 多模态影像学（X线、CT、MRI、PET/CT）在骨转移诊断中的互补价值与检查顺序\n3. 长期未规范随访的乳腺癌患者远期转移的识别与警惕\n4. 髌骨转移瘤的外科处理策略（刮除+骨水泥填充）的适应证与操作要点\n5. 骨转移灶局部治疗（手术+放疗）与全身治疗的协调时机\n6. 穿刺活检病理在影像学提示恶性时的确诊作用及取材必要性\n7. 免疫组化结果（ER/PR强阳性、Ki-67低）对后续全身治疗选择的指导意义\n8. PET/CT发现多发骨结节时对全身分期及后续治疗决策的影响",
+  "case_timeline": "19年前｜确诊乳腺癌｜接受手术、放疗和化疗，此后未能坚持定期随访复查\n就诊前半年｜右膝疼痛不适｜持续半年\n就诊时｜体格检查｜步态跛行，右侧髌骨有明显压痛\n就诊时｜X线检查｜右侧髌骨存在边界清晰的不规则低密度区域\n就诊时｜CT扫描｜髌骨内溶骨性破坏，后方皮质边缘模糊不清\n就诊时｜MRI｜T1加权像上病灶呈现不规则的稍低信号；T2加权像上为稍高和混杂的异常信号，后内侧皮质连续性中断\n就诊时｜PET/CT显像｜右侧髌骨骨质被破坏，多个片状低密度影，放射性摄取显著增高（SUVmax高达6.3）；左侧股骨上段和右侧胫骨近端发现放射性摄取增高的结节\n就诊时｜穿刺活检病理｜转移性腺癌，来源与乳腺癌一致；免疫组化：ER和PR均为强阳性，Ki-67增殖指数低于5%\n就诊时｜最终诊断｜乳腺癌髌骨转移\n就诊后｜治疗｜右侧髌骨病灶刮除、骨水泥填充术及后续放疗\n术后随访｜疗效｜右膝疼痛显著缓解，关节活动度改善",
+  "biomarkers": "病理｜取样时间：就诊时（具体日期未记载）｜样本：穿刺活检组织｜方法：组织病理学｜结果：转移性腺癌，来源与乳腺癌一致\n免疫组化｜取样时间：就诊时（具体日期未记载）｜样本：穿刺活检组织｜方法：免疫组织化学｜结果：ER强阳性，PR强阳性，Ki-67增殖指数低于5%\n分子/基因检测｜未记载（原文未提及BRCA、PIK3CA等基因检测结果）",
+  "decision_points": "就诊时｜右膝疼痛半年，有乳腺癌病史但19年未随访，体检髌骨压痛｜是否考虑骨转移而非退行性骨关节炎，是否需进一步影像学检查\n影像学检查后｜X线/CT/MRI提示溶骨性破坏，PET/CT显示高代谢及多发骨结节｜是否需穿刺活检确诊，是否需全身评估以明确分期\n病理确诊后｜转移性腺癌来源与乳腺癌一致，ER/PR强阳性，Ki-67<5%，PET/CT另见股骨及胫骨结节｜局部手术与全身治疗的优先级和协调方案\n术后｜局部治疗（刮除+骨水泥+放疗）完成｜后续全身治疗方案选择（内分泌治疗等）及随访计划",
+  "case_image_index": "IMG1 | https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/EZ0fLTF3NHuoYzh5azEGpw/Tq7SL0szaxcgWcQepXmvaprGoXQtPD87.jpeg | 未注明 | 无明确图注文字（位于导语段落后）\nIMG2 | https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/EZ0fLTF3NHuoYzh5azEGpw/vbfDmIX9yUcPkwLjUPhZ3xxJrIzo35FI.jpeg | 未注明 | 紧邻X线检查结果描述，归属患者正文（图注）\nIMG3 | https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/EZ0fLTF3NHuoYzh5azEGpw/CJEOWz7V8yLfNDCN2TFHWypAdYgqNoCb.jpeg | 未注明 | 紧邻MRI结果描述，归属患者正文（图注）\nIMG4 | https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/EZ0fLTF3NHuoYzh5azEGpw/95v09XJWEGYGO2jrticMMlKhuJrf2ZJ1.jpeg | 未注明 | 紧邻PET/CT结果描述，归属患者正文（图注）\nIMG5 | https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/EZ0fLTF3NHuoYzh5azEGpw/4i3NDsyJWwkWQZ7gv7dNViTtfeOl2Efn.jpeg | 未注明 | 紧邻穿刺活检病理结果描述，归属患者正文（图注）",
+  "difficulty": "进阶",
+  "candidate_pool": {
+    "schema_version": "triple-selection-1.0",
+    "case_packet": {
+      "cancer_type": "乳腺癌",
+      "second_cancer_type": "乳腺癌",
+      "taxonomy_warnings": [],
+      "case_id": "CASE-41901B16",
+      "case_title": "乳腺癌19年后罕见髌骨转移的诊断与治疗",
+      "disease": "原发：乳腺癌（19年前诊断，具体病理类型及分期原文未记载）；转移灶病理：转移性腺癌，来源与乳腺癌一致；最终诊断：乳腺癌髌骨转移。PET/CT另见左侧股骨上段及右侧胫骨近端放射性摄取增高结节，提示多发骨转移可能，原文未给出明确TNM分期。",
+      "case_context": "患者为63岁中国女性，因右膝疼痛不适半年就诊。19年前被诊断为乳腺癌，接受了手术、放疗和化疗，此后未能坚持定期随访复查。就诊时体格检查发现步态跛行，右侧髌骨有明显压痛。当时已知信息限于乳腺癌病史及当前膝关节症状，尚未进行影像学或病理检查。",
+      "learning_points": "1. 乳腺癌病史患者出现非典型部位骨痛时的鉴别诊断思路，避免误判为退行性病变\n2. 多模态影像学（X线、CT、MRI、PET/CT）在骨转移诊断中的互补价值与检查顺序\n3. 长期未规范随访的乳腺癌患者远期转移的识别与警惕\n4. 髌骨转移瘤的外科处理策略（刮除+骨水泥填充）的适应证与操作要点\n5. 骨转移灶局部治疗（手术+放疗）与全身治疗的协调时机\n6. 穿刺活检病理在影像学提示恶性时的确诊作用及取材必要性\n7. 免疫组化结果（ER/PR强阳性、Ki-67低）对后续全身治疗选择的指导意义\n8. PET/CT发现多发骨结节时对全身分期及后续治疗决策的影响",
+      "question_count": 5,
+      "difficulty": "进阶",
+      "case_mode": "全程管理",
+      "case_timeline": "19年前｜确诊乳腺癌｜接受手术、放疗和化疗，此后未能坚持定期随访复查\n就诊前半年｜右膝疼痛不适｜持续半年\n就诊时｜体格检查｜步态跛行，右侧髌骨有明显压痛\n就诊时｜X线检查｜右侧髌骨存在边界清晰的不规则低密度区域\n就诊时｜CT扫描｜髌骨内溶骨性破坏，后方皮质边缘模糊不清\n就诊时｜MRI｜T1加权像上病灶呈现不规则的稍低信号；T2加权像上为稍高和混杂的异常信号，后内侧皮质连续性中断\n就诊时｜PET/CT显像｜右侧髌骨骨质被破坏，多个片状低密度影，放射性摄取显著增高（SUVmax高达6.3）；左侧股骨上段和右侧胫骨近端发现放射性摄取增高的结节\n就诊时｜穿刺活检病理｜转移性腺癌，来源与乳腺癌一致；免疫组化：ER和PR均为强阳性，Ki-67增殖指数低于5%\n就诊时｜最终诊断｜乳腺癌髌骨转移\n就诊后｜治疗｜右侧髌骨病灶刮除、骨水泥填充术及后续放疗\n术后随访｜疗效｜右膝疼痛显著缓解，关节活动度改善",
+      "biomarkers": "病理｜取样时间：就诊时（具体日期未记载）｜样本：穿刺活检组织｜方法：组织病理学｜结果：转移性腺癌，来源与乳腺癌一致\n免疫组化｜取样时间：就诊时（具体日期未记载）｜样本：穿刺活检组织｜方法：免疫组织化学｜结果：ER强阳性，PR强阳性，Ki-67增殖指数低于5%\n分子/基因检测｜未记载（原文未提及BRCA、PIK3CA等基因检测结果）",
+      "decision_points": "就诊时｜右膝疼痛半年，有乳腺癌病史但19年未随访，体检髌骨压痛｜是否考虑骨转移而非退行性骨关节炎，是否需进一步影像学检查\n影像学检查后｜X线/CT/MRI提示溶骨性破坏，PET/CT显示高代谢及多发骨结节｜是否需穿刺活检确诊，是否需全身评估以明确分期\n病理确诊后｜转移性腺癌来源与乳腺癌一致，ER/PR强阳性，Ki-67<5%，PET/CT另见股骨及胫骨结节｜局部手术与全身治疗的优先级和协调方案\n术后｜局部治疗（刮除+骨水泥+放疗）完成｜后续全身治疗方案选择（内分泌治疗等）及随访计划",
+      "adverse_events": "",
+      "evidence_notes": "原文未提供具体日期，时间线以相对时间描述（19年前、就诊前半年、就诊时）；原文未给出乳腺癌原发TNM分期；原文未记载后续全身治疗方案及随访细节；原文未记载基因检测结果；导语及专家观点中的\"占比约2%\"等为二次资料，不作为患者事实录入；PET/CT发现的左侧股骨上段及右侧胫骨近端结节原文未进一步活检确认，性质待明确。",
+      "case_image_index": "IMG1 | https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/EZ0fLTF3NHuoYzh5azEGpw/Tq7SL0szaxcgWcQepXmvaprGoXQtPD87.jpeg | 未注明 | 无明确图注文字（位于导语段落后）\nIMG2 | https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/EZ0fLTF3NHuoYzh5azEGpw/vbfDmIX9yUcPkwLjUPhZ3xxJrIzo35FI.jpeg | 未注明 | 紧邻X线检查结果描述，归属患者正文（图注）\nIMG3 | https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/EZ0fLTF3NHuoYzh5azEGpw/CJEOWz7V8yLfNDCN2TFHWypAdYgqNoCb.jpeg | 未注明 | 紧邻MRI结果描述，归属患者正文（图注）\nIMG4 | https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/EZ0fLTF3NHuoYzh5azEGpw/95v09XJWEGYGO2jrticMMlKhuJrf2ZJ1.jpeg | 未注明 | 紧邻PET/CT结果描述，归属患者正文（图注）\nIMG5 | https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/EZ0fLTF3NHuoYzh5azEGpw/4i3NDsyJWwkWQZ7gv7dNViTtfeOl2Efn.jpeg | 未注明 | 紧邻穿刺活检病理结果描述，归属患者正文（图注）",
+      "case_intro_images": [
+        "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/EZ0fLTF3NHuoYzh5azEGpw/Tq7SL0szaxcgWcQepXmvaprGoXQtPD87.jpeg",
+        "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/EZ0fLTF3NHuoYzh5azEGpw/vbfDmIX9yUcPkwLjUPhZ3xxJrIzo35FI.jpeg",
+        "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/EZ0fLTF3NHuoYzh5azEGpw/CJEOWz7V8yLfNDCN2TFHWypAdYgqNoCb.jpeg",
+        "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/EZ0fLTF3NHuoYzh5azEGpw/95v09XJWEGYGO2jrticMMlKhuJrf2ZJ1.jpeg",
+        "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/EZ0fLTF3NHuoYzh5azEGpw/4i3NDsyJWwkWQZ7gv7dNViTtfeOl2Efn.jpeg"
+      ]
+    },
+    "candidate_count": 0,
+    "groups": [
+      {
+        "group_id": "G1",
+        "parse_status": "OK",
+        "raw_question_count": 0,
+        "usable_question_count": 0,
+        "rejected_questions": [],
+        "warnings": [],
+        "audit": {
+          "availability": "not_provided"
+        },
+        "transport": {
+          "protocol": "single_json",
+          "json_block_count": 1,
+          "selected_block_index": 0,
+          "ignored_intermediate_blocks": 0,
+          "upstream_messages": []
+        },
+        "upstream_missing_information": [
+          "原文未记载转移灶HER2检测结果，无法确认完整分子分型。",
+          "PET/CT发现的股骨及胫骨结节未行骨窗CT/MRI或活检确认，性质待定。",
+          "原文未记载后续全身治疗方案（内分泌±CDK4/6等）及随访细节。",
+          "原文未提供BRCA/PIK3CA等基因检测结果。",
+          "Q3 [OPTION_QUOTE_NOT_FOUND] A原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+          "Q3 [OPTION_QUOTE_NOT_FOUND] B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+          "Q3 [OPTION_QUOTE_NOT_FOUND] C原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+          "Q3 [OPTION_QUOTE_NOT_FOUND] D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+          "Q5 [OPTION_QUOTE_NOT_FOUND] C原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+          "Q1：学员可见正文或证据摘要含内部证据编号：GB03；须改写成自足理由，不得拼接其他记录",
+          "Q2：学员可见正文或证据摘要含内部证据编号：GB06；须改写成自足理由，不得拼接其他记录",
+          "Q3：学员可见正文或证据摘要含内部证据编号：GA02、GA03；须改写成自足理由，不得拼接其他记录"
+        ],
+        "workflow_revision": "20260929-evidence-depth-five",
+        "flow_status": "FORMAT_ERROR",
+        "completion": {
+          "required_question_count": 5,
+          "available_question_count": 0,
+          "model_question_count": 5,
+          "complete": false
+        },
+        "program_check": {
+          "scope": "program_structure_and_reference_identity_only",
+          "decision": "FAIL",
+          "errors": [
+            "Q3 [OPTION_QUOTE_NOT_FOUND] A原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+            "Q3 [OPTION_QUOTE_NOT_FOUND] B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+            "Q3 [OPTION_QUOTE_NOT_FOUND] C原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+            "Q3 [OPTION_QUOTE_NOT_FOUND] D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+            "Q5 [OPTION_QUOTE_NOT_FOUND] C原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+            "Q1：学员可见正文或证据摘要含内部证据编号：GB03；须改写成自足理由，不得拼接其他记录",
+            "Q2：学员可见正文或证据摘要含内部证据编号：GB06；须改写成自足理由，不得拼接其他记录",
+            "Q3：学员可见正文或证据摘要含内部证据编号：GA02、GA03；须改写成自足理由，不得拼接其他记录",
+            "Q4：学员可见正文或证据摘要含内部证据编号：GS01；须改写成自足理由，不得拼接其他记录",
+            "Q5：学员可见正文或证据摘要含内部证据编号：GB03；须改写成自足理由，不得拼接其他记录",
+            "EVIDENCE_VERIFICATION_FAILED：未取得与全部题号对应的原句核对通过结果。"
+          ],
+          "warnings": [
+            "DISTRACTOR_TEMPLATE NO_EVALUATION：Q2A、Q3B；复核是否依赖同类极端或空泛干扰项",
+            "OPTION_STYLE Q1：四项有效字符数=40/32/28/25，正确项=A；正确项独自较长：应复核是否只有正确项包含条件、理由或多个动作。 四项长度差异较大：应统一表达层次，不得机械补字或截断。",
+            "OPTION_STYLE Q2：四项有效字符数=26/35/27/23，正确项=B；四项长度差异较大：应统一表达层次，不得机械补字或截断。",
+            "OPTION_STYLE Q3：四项有效字符数=35/29/36/28，正确项=C；干扰项含绝对化或极端措辞：需复核是否构成无需医学推理的排除线索，不能仅凭关键词判错。",
+            "OPTION_STYLE Q5：四项有效字符数=26/23/37/29，正确项=C；正确项独自较长：应复核是否只有正确项包含条件、理由或多个动作。 四项长度差异较大：应统一表达层次，不得机械补字或截断。",
+            "同一证据定位b2719254-d290-4ec9-866b-51b36cafd1bc::196支持2题：复核是否考查不同真实决策；不设置复用题数配额"
+          ]
+        },
+        "workflow_diagnostics": {
+          "scope": "debug_only_not_learner_content",
+          "evidence_verification": {
+            "version": "option-anchors-1.0",
+            "scope": "literal_source_presence_and_shape_only",
+            "decision": "FAIL",
+            "semantic_support": "not_independently_verified",
+            "errors": [
+              "Q3 [OPTION_QUOTE_NOT_FOUND] A原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+              "Q3 [OPTION_QUOTE_NOT_FOUND] B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+              "Q3 [OPTION_QUOTE_NOT_FOUND] C原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+              "Q3 [OPTION_QUOTE_NOT_FOUND] D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+              "Q5 [OPTION_QUOTE_NOT_FOUND] C原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。"
+            ],
+            "question_checks": [
+              {
+                "question_id": "Q1",
+                "evidence_id": "GB03",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "仅ECT检查异常，或仅碱性磷酸酶或乳酸脱氢酶水平升高，MRI、骨窗CT或X线未发现异常者，不能诊断骨转移。建议3个月内复查骨窗CT、MRI等，以明确是否诊断骨转移",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 107,
+                            "end": 188,
+                            "text": "效评价注意事项包括：乳腺癌骨转移多为溶骨性病变，有些患者在溶骨病变治疗后的修复，可以在影像学中表现为过度钙化而被误诊为成骨性转移，对这部分患者应追溯其首诊时的影像片（X线或骨窗CT）是否有溶骨性改变。仅ECT检查异常，或仅碱性磷酸酶或乳酸脱氢酶水平升高，MRI、骨窗CT或X线未发现异常者，不能诊断骨转移。建议3个月内复查骨窗CT、MRI等，以明确是否诊断骨转移，并进一步随访密切观察。骨转移的疗效评价需要结合患者症状、肿瘤标志物和影像学改变综合"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "仅ECT检查异常，或仅碱性磷酸酶或乳酸脱氢酶水平升高，MRI、骨窗CT或X线未发现异常者，不能诊断骨转移",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 107,
+                            "end": 159,
+                            "text": "效评价注意事项包括：乳腺癌骨转移多为溶骨性病变，有些患者在溶骨病变治疗后的修复，可以在影像学中表现为过度钙化而被误诊为成骨性转移，对这部分患者应追溯其首诊时的影像片（X线或骨窗CT）是否有溶骨性改变。仅ECT检查异常，或仅碱性磷酸酶或乳酸脱氢酶水平升高，MRI、骨窗CT或X线未发现异常者，不能诊断骨转移。建议3个月内复查骨窗CT、MRI等，以明确是否诊断骨转移，并进一步随访密切观察。骨转移的疗效评价需要结合患者症状、肿瘤标志物和影像学改变综合"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "建议3个月内复查骨窗CT、MRI等，以明确是否诊断骨转移，并进一步随访密切观察",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 160,
+                            "end": 199,
+                            "text": "化而被误诊为成骨性转移，对这部分患者应追溯其首诊时的影像片（X线或骨窗CT）是否有溶骨性改变。仅ECT检查异常，或仅碱性磷酸酶或乳酸脱氢酶水平升高，MRI、骨窗CT或X线未发现异常者，不能诊断骨转移。建议3个月内复查骨窗CT、MRI等，以明确是否诊断骨转移，并进一步随访密切观察。骨转移的疗效评价需要结合患者症状、肿瘤标志物和影像学改变综合"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "建议3个月内复查骨窗CT、MRI等，以明确是否诊断骨转移，并进一步随访密切观察",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 160,
+                            "end": 199,
+                            "text": "化而被误诊为成骨性转移，对这部分患者应追溯其首诊时的影像片（X线或骨窗CT）是否有溶骨性改变。仅ECT检查异常，或仅碱性磷酸酶或乳酸脱氢酶水平升高，MRI、骨窗CT或X线未发现异常者，不能诊断骨转移。建议3个月内复查骨窗CT、MRI等，以明确是否诊断骨转移，并进一步随访密切观察。骨转移的疗效评价需要结合患者症状、肿瘤标志物和影像学改变综合"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "左侧股骨上段和右侧胫骨近端发现放射性摄取增高的结节",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 246,
+                        "end": 271,
+                        "text": "权像上病灶呈现不规则的稍低信号；T2加权像上为稍高和混杂的异常信号，后内侧皮质连续性中断\n就诊时｜PET/CT显像｜右侧髌骨骨质被破坏，多个片状低密度影，放射性摄取显著增高（SUVmax高达6.3）；左侧股骨上段和右侧胫骨近端发现放射性摄取增高的结节\n就诊时｜穿刺活检病理｜转移性腺癌，来源与乳腺癌一致；免疫组化：ER和PR均为强阳性，Ki-67增殖指数低于5%\n就诊时｜最终诊断｜乳腺癌髌骨转移\n就诊后｜治疗｜右侧髌骨病灶刮除、骨水泥填充术及后续放"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "evidence_notes",
+                    "quote": "PET/CT发现的左侧股骨上段及右侧胫骨近端结节原文未进一步活检确认，性质待明确",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 117,
+                        "end": 157,
+                        "text": "间描述（19年前、就诊前半年、就诊时）；原文未给出乳腺癌原发TNM分期；原文未记载后续全身治疗方案及随访细节；原文未记载基因检测结果；导语及专家观点中的\"占比约2%\"等为二次资料，不作为患者事实录入；PET/CT发现的左侧股骨上段及右侧胫骨近端结节原文未进一步活检确认，性质待明确。"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "B",
+                  "decision_boundary": "GB03要求代谢异常须有骨窗CT/MRI结构确认方可诊断；本例股骨胫骨结节仅有PET代谢增高，无专用结构影像证实",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "b2719254-d290-4ec9-866b-51b36cafd1bc",
+                  "split_index": 196
+                },
+                "decision": "PASS"
+              },
+              {
+                "question_id": "Q2",
+                "evidence_id": "GB06",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "对于单纯骨受累，特别是当病变较少或影像学检查不明确时，可对转移性疾病进行组织学确认",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 38,
+                            "end": 79,
+                            "text": "病理学是诊断乳腺癌骨转移的金标准，但不是所有的骨转移瘤患者均需要骨穿刺活检。对于单纯骨受累，特别是当病变较少或影像学检查不明确时，可对转移性疾病进行组织学确认[28]。穿刺活检的优势在于明确转移、提供转移灶的分子分型，以指导后续治疗。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "穿刺活检的优势在于明确转移、提供转移灶的分子分型，以指导后续治疗",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 84,
+                            "end": 116,
+                            "text": "病理学是诊断乳腺癌骨转移的金标准，但不是所有的骨转移瘤患者均需要骨穿刺活检。对于单纯骨受累，特别是当病变较少或影像学检查不明确时，可对转移性疾病进行组织学确认[28]。穿刺活检的优势在于明确转移、提供转移灶的分子分型，以指导后续治疗。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "病理学是诊断乳腺癌骨转移的金标准，但不是所有的骨转移瘤患者均需要骨穿刺活检。对于单纯骨受累，特别是当病变较少或影像学检查不明确时，可对转移性疾病进行组织学确认",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 0,
+                            "end": 79,
+                            "text": "病理学是诊断乳腺癌骨转移的金标准，但不是所有的骨转移瘤患者均需要骨穿刺活检。对于单纯骨受累，特别是当病变较少或影像学检查不明确时，可对转移性疾病进行组织学确认[28]。穿刺活检的优势在于明确转移、提供转移灶的分子分型，以指导后续治疗。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "穿刺活检的优势在于明确转移、提供转移灶的分子分型，以指导后续治疗",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 84,
+                            "end": 116,
+                            "text": "病理学是诊断乳腺癌骨转移的金标准，但不是所有的骨转移瘤患者均需要骨穿刺活检。对于单纯骨受累，特别是当病变较少或影像学检查不明确时，可对转移性疾病进行组织学确认[28]。穿刺活检的优势在于明确转移、提供转移灶的分子分型，以指导后续治疗。"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "case_context",
+                    "quote": "19年前被诊断为乳腺癌，接受了手术、放疗和化疗，此后未能坚持定期随访复查",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 23,
+                        "end": 59,
+                        "text": "患者为63岁中国女性，因右膝疼痛不适半年就诊。19年前被诊断为乳腺癌，接受了手术、放疗和化疗，此后未能坚持定期随访复查。就诊时体格检查发现步态跛行，右侧髌骨有明显压痛。当时已知信息限于乳腺癌病史及当前膝关节症状，尚未进行影像学或病理检查。"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "case_timeline",
+                    "quote": "穿刺活检病理｜转移性腺癌，来源与乳腺癌一致；免疫组化：ER和PR均为强阳性，Ki-67增殖指数低于5%",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 276,
+                        "end": 327,
+                        "text": "常信号，后内侧皮质连续性中断\n就诊时｜PET/CT显像｜右侧髌骨骨质被破坏，多个片状低密度影，放射性摄取显著增高（SUVmax高达6.3）；左侧股骨上段和右侧胫骨近端发现放射性摄取增高的结节\n就诊时｜穿刺活检病理｜转移性腺癌，来源与乳腺癌一致；免疫组化：ER和PR均为强阳性，Ki-67增殖指数低于5%\n就诊时｜最终诊断｜乳腺癌髌骨转移\n就诊后｜治疗｜右侧髌骨病灶刮除、骨水泥填充术及后续放疗\n术后随访｜疗效｜右膝疼痛显著缓解，关节活动度改善"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "A",
+                  "decision_boundary": "GB06规定影像学不明确时需组织学确认；本例髌骨为罕见转移部位且间隔19年，影像不能排除其他原发或良性病变",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "bafc2ade-7b85-4ccb-bdc4-c6bd2069a9ca",
+                  "split_index": 32
+                },
+                "decision": "PASS"
+              },
+              {
+                "question_id": "Q3",
+                "evidence_id": "GA02",
+                "errors": [
+                  {
+                    "code": "OPTION_QUOTE_NOT_FOUND",
+                    "message": "A原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。"
+                  },
+                  {
+                    "code": "OPTION_QUOTE_NOT_FOUND",
+                    "message": "B原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。"
+                  },
+                  {
+                    "code": "OPTION_QUOTE_NOT_FOUND",
+                    "message": "C原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。"
+                  },
+                  {
+                    "code": "OPTION_QUOTE_NOT_FOUND",
+                    "message": "D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。"
+                  }
+                ],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "必须重新检测ER、PR、HER2的表达及Ki-67增殖指数",
+                        "matched": false,
+                        "match_mode": null,
+                        "occurrences": 0,
+                        "contexts": []
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "与原发肿瘤相比，受体状态可能发生改变（10%~40%），直接影响后续治疗决策",
+                        "matched": false,
+                        "match_mode": null,
+                        "occurrences": 0,
+                        "contexts": []
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "必须重新检测ER、PR、HER2的表达及Ki-67增殖指数。与原发肿瘤相比，受体状态可能发生改变（10%~40%），直接影响后续治疗决策",
+                        "matched": false,
+                        "match_mode": null,
+                        "occurrences": 0,
+                        "contexts": []
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "必须重新检测ER、PR、HER2的表达及Ki-67增殖指数",
+                        "matched": false,
+                        "match_mode": null,
+                        "occurrences": 0,
+                        "contexts": []
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "biomarkers",
+                    "quote": "免疫组化｜取样时间：就诊时（具体日期未记载）｜样本：穿刺活检组织｜方法：免疫组织化学｜结果：ER强阳性，PR强阳性，Ki-67增殖指数低于5%",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 58,
+                        "end": 129,
+                        "text": "病理｜取样时间：就诊时（具体日期未记载）｜样本：穿刺活检组织｜方法：组织病理学｜结果：转移性腺癌，来源与乳腺癌一致\n免疫组化｜取样时间：就诊时（具体日期未记载）｜样本：穿刺活检组织｜方法：免疫组织化学｜结果：ER强阳性，PR强阳性，Ki-67增殖指数低于5%\n分子/基因检测｜未记载（原文未提及BRCA、PIK3CA等基因检测结果）"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "biomarkers",
+                    "quote": "分子/基因检测｜未记载（原文未提及BRCA、PIK3CA等基因检测结果）",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 130,
+                        "end": 166,
+                        "text": "｜方法：组织病理学｜结果：转移性腺癌，来源与乳腺癌一致\n免疫组化｜取样时间：就诊时（具体日期未记载）｜样本：穿刺活检组织｜方法：免疫组织化学｜结果：ER强阳性，PR强阳性，Ki-67增殖指数低于5%\n分子/基因检测｜未记载（原文未提及BRCA、PIK3CA等基因检测结果）"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "A",
+                  "decision_boundary": "GA02用'必须'限定四项检测无例外；本例ER/PR阳性不能替代HER2检测，HER2状态决定是否联合抗HER2方案",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+                  "split_index": 362
+                },
+                "decision": "FAIL"
+              },
+              {
+                "question_id": "Q4",
+                "evidence_id": "GS01",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "PET- CT可检测远处转移和区域淋巴结受累情况,适用于局部晚期、有转移灶症状、影像学检查可疑或常规检查难以分期的情况",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 147,
+                            "end": 206,
+                            "text": "一步行X线摄片、CT、增强MRI和/或PET- CT检查来进一步明确骨病灶的性质。对于临床分期Ⅲ、期以上、或有骨痛症状、或碱性磷酸酶升高或高钙血症患者,均应常规推荐骨扫描检查。\n3.6PET- CT:PET- CT可检测远处转移和区域淋巴结受累情况,适用于局部晚期、有转移灶症状、影像学检查可疑或常规检查难以分期的情况,也可用于随访过程中出现肿瘤标记物异常升高、可疑复发或转移患者的评估。\n3.7穿刺活检:穿刺活检获取病理诊断是乳腺癌确诊的金标准,所有初诊患者均应接受。病理诊断也是分期检查的金标准,尤其适用于转移灶性"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "PET- CT可检测远处转移和区域淋巴结受累情况,适用于局部晚期、有转移灶症状、影像学检查可疑或常规检查难以分期的情况",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 147,
+                            "end": 206,
+                            "text": "一步行X线摄片、CT、增强MRI和/或PET- CT检查来进一步明确骨病灶的性质。对于临床分期Ⅲ、期以上、或有骨痛症状、或碱性磷酸酶升高或高钙血症患者,均应常规推荐骨扫描检查。\n3.6PET- CT:PET- CT可检测远处转移和区域淋巴结受累情况,适用于局部晚期、有转移灶症状、影像学检查可疑或常规检查难以分期的情况,也可用于随访过程中出现肿瘤标记物异常升高、可疑复发或转移患者的评估。\n3.7穿刺活检:穿刺活检获取病理诊断是乳腺癌确诊的金标准,所有初诊患者均应接受。病理诊断也是分期检查的金标准,尤其适用于转移灶性"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "对于临床分期Ⅲ、期以上、或有骨痛症状、或碱性磷酸酶升高或高钙血症患者,均应常规推荐骨扫描检查",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 88,
+                            "end": 134,
+                            "text": "3.5骨扫描:骨扫描为骨转移的初筛检查,敏感性高,特异性较低。对于骨扫描检查阳性的患者,应该进一步行X线摄片、CT、增强MRI和/或PET- CT检查来进一步明确骨病灶的性质。对于临床分期Ⅲ、期以上、或有骨痛症状、或碱性磷酸酶升高或高钙血症患者,均应常规推荐骨扫描检查。\n3.6PET- CT:PET- CT可检测远处转移和区域淋巴结受累情况,适用于局部晚期、有转移灶症状、影像学检查可疑或常规检查难以分期的情况,也可用于随访过程中出现肿瘤标记物异常升高、可疑复发或转"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "PET- CT可检测远处转移和区域淋巴结受累情况,适用于局部晚期、有转移灶症状、影像学检查可疑或常规检查难以分期的情况,也可用于随访过程中出现肿瘤标记物异常升高、可疑复发或转移患者的评估",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 147,
+                            "end": 240,
+                            "text": "一步行X线摄片、CT、增强MRI和/或PET- CT检查来进一步明确骨病灶的性质。对于临床分期Ⅲ、期以上、或有骨痛症状、或碱性磷酸酶升高或高钙血症患者,均应常规推荐骨扫描检查。\n3.6PET- CT:PET- CT可检测远处转移和区域淋巴结受累情况,适用于局部晚期、有转移灶症状、影像学检查可疑或常规检查难以分期的情况,也可用于随访过程中出现肿瘤标记物异常升高、可疑复发或转移患者的评估。\n3.7穿刺活检:穿刺活检获取病理诊断是乳腺癌确诊的金标准,所有初诊患者均应接受。病理诊断也是分期检查的金标准,尤其适用于转移灶性质难以确定时。穿刺活检可以获取组织学结果,有助于判断肿瘤病理类型和分"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "CT扫描｜髌骨内溶骨性破坏，后方皮质边缘模糊不清",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 110,
+                        "end": 134,
+                        "text": "｜接受手术、放疗和化疗，此后未能坚持定期随访复查\n就诊前半年｜右膝疼痛不适｜持续半年\n就诊时｜体格检查｜步态跛行，右侧髌骨有明显压痛\n就诊时｜X线检查｜右侧髌骨存在边界清晰的不规则低密度区域\n就诊时｜CT扫描｜髌骨内溶骨性破坏，后方皮质边缘模糊不清\n就诊时｜MRI｜T1加权像上病灶呈现不规则的稍低信号；T2加权像上为稍高和混杂的异常信号，后内侧皮质连续性中断\n就诊时｜PET/CT显像｜右侧髌骨骨质被破坏，多个片状低密度影，放射性摄取显著增高（S"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "case_context",
+                    "quote": "因右膝疼痛不适半年就诊",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 11,
+                        "end": 22,
+                        "text": "患者为63岁中国女性，因右膝疼痛不适半年就诊。19年前被诊断为乳腺癌，接受了手术、放疗和化疗，此后未能坚持定期随访复查。就诊时体格检查发现步态跛行，右侧髌骨有明显压痛。当时已知信息限于乳腺癌病史及当前膝关节症状，尚未进行影像学或病理检查。"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "A",
+                  "decision_boundary": "GS01明确PET/CT适用于有转移灶症状及常规检查难以分期者；本例局部影像仅确认髌骨病灶，无法排除股骨胫骨等其他部位隐匿转移",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "c7f4613d-29bb-4096-9ad6-cb8d7314a425",
+                  "split_index": 6
+                },
+                "decision": "PASS"
+              },
+              {
+                "question_id": "Q5",
+                "evidence_id": "GB03",
+                "errors": [
+                  {
+                    "code": "OPTION_QUOTE_NOT_FOUND",
+                    "message": "C原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。"
+                  }
+                ],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "乳腺癌骨转移多为溶骨性病变，有些患者在溶骨病变治疗后的修复，可以在影像学中表现为过度钙化而被误诊为成骨性转移",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 17,
+                            "end": 71,
+                            "text": "1.1标准，疗效评价注意事项包括：乳腺癌骨转移多为溶骨性病变，有些患者在溶骨病变治疗后的修复，可以在影像学中表现为过度钙化而被误诊为成骨性转移，对这部分患者应追溯其首诊时的影像片（X线或骨窗CT）是否有溶骨性改变。仅ECT检查异常，或仅碱性磷酸酶或乳酸脱氢酶水平升高，MRI、骨窗CT或X线未发现异常者，不能诊断骨转移。建议3个月内复查骨窗C"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "对这部分患者应追溯其首诊时的影像片（X线或骨窗CT）是否有溶骨性改变",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 72,
+                            "end": 106,
+                            "text": "1.1标准，疗效评价注意事项包括：乳腺癌骨转移多为溶骨性病变，有些患者在溶骨病变治疗后的修复，可以在影像学中表现为过度钙化而被误诊为成骨性转移，对这部分患者应追溯其首诊时的影像片（X线或骨窗CT）是否有溶骨性改变。仅ECT检查异常，或仅碱性磷酸酶或乳酸脱氢酶水平升高，MRI、骨窗CT或X线未发现异常者，不能诊断骨转移。建议3个月内复查骨窗CT、MRI等，以明确是否诊断骨转移，并进一步随访密切观察。骨转移的疗效"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "对这部分患者应追溯其首诊时的影像片（X线或骨窗CT）是否有溶骨性改变。骨转移的疗效评价需要结合患者症状、肿瘤标志物和影像学改变综合",
+                        "matched": false,
+                        "match_mode": null,
+                        "occurrences": 0,
+                        "contexts": []
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "骨转移的疗效评价需要结合患者症状、肿瘤标志物和影像学改变综合",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 200,
+                            "end": 230,
+                            "text": "有溶骨性改变。仅ECT检查异常，或仅碱性磷酸酶或乳酸脱氢酶水平升高，MRI、骨窗CT或X线未发现异常者，不能诊断骨转移。建议3个月内复查骨窗CT、MRI等，以明确是否诊断骨转移，并进一步随访密切观察。骨转移的疗效评价需要结合患者症状、肿瘤标志物和影像学改变综合"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "治疗｜右侧髌骨病灶刮除、骨水泥填充术及后续放疗",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 349,
+                        "end": 372,
+                        "text": "骨上段和右侧胫骨近端发现放射性摄取增高的结节\n就诊时｜穿刺活检病理｜转移性腺癌，来源与乳腺癌一致；免疫组化：ER和PR均为强阳性，Ki-67增殖指数低于5%\n就诊时｜最终诊断｜乳腺癌髌骨转移\n就诊后｜治疗｜右侧髌骨病灶刮除、骨水泥填充术及后续放疗\n术后随访｜疗效｜右膝疼痛显著缓解，关节活动度改善"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "case_timeline",
+                    "quote": "CT扫描｜髌骨内溶骨性破坏，后方皮质边缘模糊不清",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 110,
+                        "end": 134,
+                        "text": "｜接受手术、放疗和化疗，此后未能坚持定期随访复查\n就诊前半年｜右膝疼痛不适｜持续半年\n就诊时｜体格检查｜步态跛行，右侧髌骨有明显压痛\n就诊时｜X线检查｜右侧髌骨存在边界清晰的不规则低密度区域\n就诊时｜CT扫描｜髌骨内溶骨性破坏，后方皮质边缘模糊不清\n就诊时｜MRI｜T1加权像上病灶呈现不规则的稍低信号；T2加权像上为稍高和混杂的异常信号，后内侧皮质连续性中断\n就诊时｜PET/CT显像｜右侧髌骨骨质被破坏，多个片状低密度影，放射性摄取显著增高（S"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "A",
+                  "decision_boundary": "GB03指出溶骨病变治疗后修复可过度钙化被误判为成骨转移；本例首诊CT已证实为溶骨性破坏，钙化应首先考虑修复而非进展",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "b2719254-d290-4ec9-866b-51b36cafd1bc",
+                  "split_index": 196
+                },
+                "decision": "FAIL"
+              }
+            ]
+          },
+          "question_evidence_bindings": [
+            {
+              "question_id": "Q1",
+              "evidence_id": "GB03",
+              "doc_id": "b2719254-d290-4ec9-866b-51b36cafd1bc",
+              "split_index": 196,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q2",
+              "evidence_id": "GB06",
+              "doc_id": "bafc2ade-7b85-4ccb-bdc4-c6bd2069a9ca",
+              "split_index": 32,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q3",
+              "evidence_id": "GA02",
+              "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+              "split_index": 362,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q4",
+              "evidence_id": "GS01",
+              "doc_id": "c7f4613d-29bb-4096-9ad6-cb8d7314a425",
+              "split_index": 6,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q5",
+              "evidence_id": "GB03",
+              "doc_id": "b2719254-d290-4ec9-866b-51b36cafd1bc",
+              "split_index": 196,
+              "matching_record_count": 1
+            }
+          ],
+          "cited_evidence_snapshot": [
+            {
+              "evidence_id": "GS01",
+              "doc_id": "c7f4613d-29bb-4096-9ad6-cb8d7314a425",
+              "split_index": 6,
+              "type": "guideline",
+              "authority": "中国医师协会放射肿瘤治疗医师分会",
+              "source_title": "乳腺癌放射治疗指南（中国医师协会2020版）",
+              "source_version": "2020",
+              "source_section": "乳腺癌放射治疗指南（中国医师协会2020版）",
+              "source_url": "",
+              "snippet": "3.5骨扫描:骨扫描为骨转移的初筛检查,敏感性高,特异性较低。对于骨扫描检查阳性的患者,应该进一步行X线摄片、CT、增强MRI和/或PET- CT检查来进一步明确骨病灶的性质。对于临床分期Ⅲ、期以上、或有骨痛症状、或碱性磷酸酶升高或高钙血症患者,均应常规推荐骨扫描检查。\n3.6PET- CT:PET- CT可检测远处转移和区域淋巴结受累情况,适用于局部晚期、有转移灶症状、影像学检查可疑或常规检查难以分期的情况,也可用于随访过程中出现肿瘤标记物异常升高、可疑复发或转移患者的评估。\n3.7穿刺活检:穿刺活检获取病理诊断是乳腺癌确诊的金标准,所有初诊患者均应接受。病理诊断也是分期检查的金标准,尤其适用于转移灶性质难以确定时。穿刺活检可以获取组织学结果,有助于判断肿瘤病理类型和分子分型,指导临床治疗。缺点是有创。\n3.8乳腺癌常见病理组织学类型:乳腺癌的病理组织学依据癌细胞对周围组织的侵犯程度和远处转移可能性的大小,大体分为非浸润性癌、微小浸润性癌、浸润性癌。",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            },
+            {
+              "evidence_id": "GA02",
+              "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+              "split_index": 362,
+              "type": "guideline",
+              "authority": "CACA",
+              "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+              "source_version": "2026",
+              "source_section": "13.2.3.1 药物预防性治疗",
+              "source_url": "",
+              "snippet": "病理学确诊与分子分型再确认：对复发灶进行穿刺或切除活检，获取组织学诊断。必须重新检测ER、PR、HER2的表达及Ki- 67增殖指数。与原发肿瘤相比，受体状态可能发生改变（ \\$10\\% \\sim 40\\%\\$ ），直接影响后续治疗决策。必要时考虑TNBC检测PD- L1（CPS）、BRCA1/2胚系突变等。",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            },
+            {
+              "evidence_id": "GB03",
+              "doc_id": "b2719254-d290-4ec9-866b-51b36cafd1bc",
+              "split_index": 196,
+              "type": "guideline",
+              "authority": "CSCO",
+              "source_title": "中国临床肿瘤学会（CSCO）乳腺癌诊疗指南 2026",
+              "source_version": "2026",
+              "source_section": "绝经前乳腺癌患者辅助内分泌治疗策略",
+              "source_url": "",
+              "snippet": "1.1标准，疗效评价注意事项包括：乳腺癌骨转移多为溶骨性病变，有些患者在溶骨病变治疗后的修复，可以在影像学中表现为过度钙化而被误诊为成骨性转移，对这部分患者应追溯其首诊时的影像片（X线或骨窗CT）是否有溶骨性改变。仅ECT检查异常，或仅碱性磷酸酶或乳酸脱氢酶水平升高，MRI、骨窗CT或X线未发现异常者，不能诊断骨转移。建议3个月内复查骨窗CT、MRI等，以明确是否诊断骨转移，并进一步随访密切观察。骨转移的疗效评价需要结合患者症状、肿瘤标志物和影像学改变综合",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            },
+            {
+              "evidence_id": "GB06",
+              "doc_id": "bafc2ade-7b85-4ccb-bdc4-c6bd2069a9ca",
+              "split_index": 32,
+              "type": "guideline",
+              "authority": "国家肿瘤质控中心乳腺癌专家委员会",
+              "source_title": "乳腺癌骨健康全周期管理规范",
+              "source_version": "2023",
+              "source_section": "（六）骨活检",
+              "source_url": "",
+              "snippet": "病理学是诊断乳腺癌骨转移的金标准，但不是所有的骨转移瘤患者均需要骨穿刺活检。对于单纯骨受累，特别是当病变较少或影像学检查不明确时，可对转移性疾病进行组织学确认[28]。穿刺活检的优势在于明确转移、提供转移灶的分子分型，以指导后续治疗。",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            }
+          ],
+          "retrieval_queries": {
+            "staging": "初始临床评估与分期指南\n原发诊断：原发：乳腺癌（19年前诊断，具体病理类型及分期原文未记载）；转移灶病理：转移性腺癌，来源与乳腺癌一致；最终诊断：乳腺癌髌骨转移。PET/CT另见左侧股骨上段及右侧胫骨近端放射性摄取增高结节，提示多发骨转移可能，原文未给出明确TNM分期。\n初诊摘录：患者为63岁中国女性，因右膝疼痛不适半年就诊；19年前被诊断为乳腺癌，接受了手术、放疗和化疗，此后未能坚持定期随访复查；就诊时体格检查发现步态跛行，右侧髌骨有明显压痛；当时已知信息限于乳腺癌病史及当前膝关节症状，尚未进行影像学或病理检查\n匹配原发病种与分期检查、区域和远处病变评估，不用后续事实反推初诊。",
+            "molecular": "病理与分子检测及结果应用指南\n原发诊断：原发：乳腺癌（19年前诊断，具体病理类型及分期原文未记载）；转移灶病理：转移性腺癌，来源与乳腺癌一致；最终诊断：乳腺癌髌骨转移。PET/CT另见左侧股骨上段及右侧胫骨近端放射性摄取增高结节，提示多发骨转移可能，原文未给出明确TNM分期。\n检测记录：分子/基因检测｜未记载（原文未提及BRCA、PIK3CA等基因检测结果）\n关注检测时机、结果等待与治疗衔接；检索关键词不代表初诊已知结果。",
+            "treatment": "复评、局部协调与后线决策正式指南\n原发诊断：原发：乳腺癌（19年前诊断，具体病理类型及分期原文未记载）；转移灶病理：转移性腺癌，来源与乳腺癌一致；最终诊断：乳腺癌髌骨转移。PET/CT另见左侧股骨上段及右侧胫骨近端放射性摄取增高结节，提示多发骨转移可能，原文未给出明确TNM分期。\n决策问题：就诊时｜右膝疼痛半年，有乳腺癌病史但19年未随访，体检髌骨压痛｜是否考虑骨转移而非退行性骨关节炎，是否需进一步影像学检查\n实际治疗：19年前｜确诊乳腺癌｜接受手术、放疗和化疗，此后未能坚持定期随访复查；就诊后｜治疗｜右侧髌骨病灶刮除、骨水泥填充术及后续放疗\n检测记录：分子/基因检测｜未记载（原文未提及BRCA、PIK3CA等基因检测结果）\n按原发癌种匹配复评与后线阶段，保留已知治疗限制。",
+            "study": "匹配病例实际方案的原始临床研究\n原发诊断：原发：乳腺癌（19年前诊断，具体病理类型及分期原文未记载）；转移灶病理：转移性腺癌，来源与乳腺癌一致；最终诊断：乳腺癌髌骨转移。PET/CT另见左侧股骨上段及右侧胫骨近端放射性摄取增高结节，提示多发骨转移可能，原文未给出明确TNM分期。\n方案和阶段：19年前｜确诊乳腺癌｜接受手术、放疗和化疗，此后未能坚持定期随访复查；就诊后｜治疗｜右侧髌骨病灶刮除、骨水泥填充术及后续放疗\n人群线索：分子/基因检测｜未记载（原文未提及BRCA、PIK3CA等基因检测结果）\n匹配药物、人群、治疗阶段与决策终点，需该记录已报告原始研究结果。",
+            "toxicity_a": "",
+            "toxicity_b": ""
+          },
+          "retrieval_health": {
+            "ok": true,
+            "errors": []
+          },
+          "compression_report": {
+            "input_counts": {
+              "guideline_a_staging": 7,
+              "guideline_a": 11,
+              "guideline_b": 6,
+              "clinical_study_initial": 10,
+              "clinical_study_supplement": 13,
+              "irae_a": 0,
+              "irae_b": 0
+            },
+            "kept_counts": {
+              "guideline_a_staging": 4,
+              "guideline_a": 6,
+              "guideline_b": 6,
+              "clinical_study_initial": 0,
+              "clinical_study_supplement": 0,
+              "irae_a": 0,
+              "irae_b": 0
+            },
+            "kept_total": 16,
+            "dropped_total": 31,
+            "dropped": [
+              {
+                "lane": "guideline_a_staging",
+                "index": 4,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a_staging",
+                "index": 5,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a_staging",
+                "index": 6,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 6,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 7,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 8,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 9,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 10,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 0,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "0dca5da0e51f18a6f40d92cd983ec54d::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 1,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260724_135949_F76E142B::4"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 2,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "1a17001ff994ad9f84fe9067ee54fe4a::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 3,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260723_134607_A36F109E::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 4,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "0a5f3df78b7710d7231c342bf40761b9::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 5,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260723_105810_F840F19A::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 6,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "22d66a114aa6c8947fda6c16e6280165::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 7,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260724_135949_CFD47BD8::2"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 8,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "1ea2a60cf7b099dcdc1ad45cb10f3c34::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 9,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260723_105810_763A8ABA::1"
+              },
+              {
+                "lane": "clinical_study_supplement",
+                "index": 0,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260803_175401_E32C0800::2"
+              },
+              {
+                "lane": "clinical_study_supplement",
+                "index": 1,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260724_135949_F76E142B::4"
+              },
+              {
+                "lane": "clinical_study_supplement",
+                "index": 2,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "f013d50b933df5a0bcbbfad1976d3342::1"
+              },
+              {
+                "lane": "clinical_study_supplement",
+                "index": 3,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "0dca5da0e51f18a6f40d92cd983ec54d::1"
+              },
+              {
+                "lane": "clinical_study_supplement",
+                "index": 4,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260804_172043_C9B64E01::3"
+              },
+              {
+                "lane": "clinical_study_supplement",
+                "index": 5,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260730_152638_30716FC2::1"
+              },
+              {
+                "lane": "clinical_study_supplement",
+                "index": 6,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "a790c7ea81465224d20b8d6dc2ffe0a1::1"
+              },
+              {
+                "lane": "clinical_study_supplement",
+                "index": 7,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "d54dab834214fa03d2c78e54cf68cc1a::1"
+              },
+              {
+                "lane": "clinical_study_supplement",
+                "index": 8,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260804_135057_6C07F2D0::2"
+              },
+              {
+                "lane": "clinical_study_supplement",
+                "index": 9,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260724_135949_CFD47BD8::2"
+              },
+              {
+                "lane": "clinical_study_supplement",
+                "index": 10,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260804_172043_A0621F16::3"
+              },
+              {
+                "lane": "clinical_study_supplement",
+                "index": 11,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "22d66a114aa6c8947fda6c16e6280165::1"
+              },
+              {
+                "lane": "clinical_study_supplement",
+                "index": 12,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "b5a16861970d1b4039670207a6585dc5::1"
+              }
+            ]
+          },
+          "first_round_raw": "{\n  \"schema_version\": \"1.1\",\n  \"generation_status\": \"insufficient\",\n  \"case_summary\": \"63岁女性，19年前乳腺癌病史，未规范随访。因右膝痛半年就诊，影像学提示右侧髌骨溶骨性破坏及高代谢，PET/CT另见左股骨及右胫骨结节。穿刺活检确诊乳腺癌髌骨转移，ER/PR强阳性，Ki-67<5%。行局部刮除+骨水泥+放疗，疼痛缓解。\",\n  \"question_count\": 0,\n  \"difficulty\": \"进阶\",\n  \"missing_information\": [\n    \"缺少关于乳腺癌骨转移全身治疗（内分泌联合CDK4/6抑制剂等）具体方案及适应证的指南或研究证据。\",\n    \"缺少关于骨转移局部治疗（手术/放疗）与全身治疗协调时机、优先级的具体指南推荐。\",\n    \"缺少关于寡转移（Oligometastatic）乳腺癌局部治疗获益及标准定义的详细研究数据或指南全文（GS02仅提及定义，未涉及治疗决策细节）。\",\n    \"缺少关于ER/PR阳性、Ki-67低表达乳腺癌骨转移患者预后评估及后续随访策略的具体证据。\"\n  ],\n  \"risk_message\": \"当前证据池主要集中于诊断分期、活检指征及骨健康基础管理，缺乏针对该病例核心决策点（即确诊后全身治疗方案选择、局部与全身治疗协调时机、寡转移治疗策略）的高质量指南或研究证据。强行出题将导致选项缺乏依据或依赖通用常识，不符合进阶题“基于病例条件与证据边界的方案取舍”的要求。\",\n  \"questions\": []\n}",
+          "second_round_raw": "{\"schema_version\":\"1.1\",\"generation_status\":\"success\",\"case_summary\":\"63岁女性，19年前乳腺癌术后未规范随访。因右膝痛半年就诊，X线/CT/MRI示右侧髌骨溶骨性破坏，PET/CT示髌骨高代谢（SUVmax 6.3）及左股骨、右胫骨摄取增高结节（未进一步确认）。穿刺活检：转移性腺癌来源与乳腺癌一致，ER/PR强阳性，Ki-67<5%，HER2未提及。行刮除+骨水泥+放疗，疼痛缓解。\",\"question_count\":5,\"difficulty\":\"进阶\",\"missing_information\":[\"原文未记载转移灶HER2检测结果，无法确认完整分子分型。\",\"PET/CT发现的股骨及胫骨结节未行骨窗CT/MRI或活检确认，性质待定。\",\"原文未记载后续全身治疗方案（内分泌±CDK4/6等）及随访细节。\",\"原文未提供BRCA/PIK3CA等基因检测结果。\"],\"risk_message\":\"本病例核心决策（局部与全身治疗协调时机、寡转移定义下的治疗强度选择）在现有证据池中缺乏明确指南条文支持，Q4和Q5侧重诊断分期与疗效判读；全身治疗方案选择因证据不足未单独设题。\",\"questions\":[{\"id\":\"Q1\",\"type\":\"诊断与分期\",\"phase\":\"初诊分期\",\"timepoint\":\"PET/CT完成后\",\"question\":\"该患者PET/CT发现左侧股骨上段及右侧胫骨近端放射性摄取增高结节，但未经骨窗CT或MRI进一步确认。关于全身分期，以下处理正确的是？\",\"options\":[\"仅凭PET/CT代谢增高不能确诊骨转移，应3个月内复查骨窗CT或MRI明确后再定分期\",\"PET/CT高代谢即可确诊多发骨转移，直接按多发骨转移进行分期和治疗\",\"应忽略PET/CT发现，仅按已活检确认的髌骨单发转移进行分期\",\"应直接对股骨和胫骨结节行穿刺活检以确认是否为骨转移\"],\"answer\":0,\"answer_text\":\"仅凭PET/CT代谢增高不能确诊骨转移，应3个月内复查骨窗CT或MRI明确后再定分期\",\"keyPoint\":\"骨转移诊断需代谢与结构影像双重确认，单一功能影像异常不能替代解剖学证据\",\"explain\":{\"A\":\"GB03明确仅代谢异常无骨窗CT/MRI/X线结构确认不能诊断骨转移，应3个月内复查\",\"B\":\"PET/CT代谢增高不等于结构确认，GB03要求骨窗CT或MRI证实后方可诊断\",\"C\":\"GB03建议复查而非忽略，未确认结节需随访观察，不能直接排除\",\"D\":\"GB03推荐先影像复查明确性质，非直接穿刺；活检适用于影像仍不明确时\"},\"evidence_id\":\"GB03\",\"support_mode\":\"hard\",\"evidence_summary\":\"仅代谢异常无结构影像确认不能诊断骨转移，建议3个月内复查骨窗CT/MRI\",\"verification\":{\"quotes\":{\"A\":[\"仅ECT检查异常，或仅碱性磷酸酶或乳酸脱氢酶水平升高，MRI、骨窗CT或X线未发现异常者，不能诊断骨转移。建议3个月内复查骨窗CT、MRI等，以明确是否诊断骨转移\"],\"B\":[\"仅ECT检查异常，或仅碱性磷酸酶或乳酸脱氢酶水平升高，MRI、骨窗CT或X线未发现异常者，不能诊断骨转移\"],\"C\":[\"建议3个月内复查骨窗CT、MRI等，以明确是否诊断骨转移，并进一步随访密切观察\"],\"D\":[\"建议3个月内复查骨窗CT、MRI等，以明确是否诊断骨转移，并进一步随访密切观察\"]},\"case_facts\":[{\"field\":\"case_timeline\",\"quote\":\"左侧股骨上段和右侧胫骨近端发现放射性摄取增高的结节\"},{\"field\":\"evidence_notes\",\"quote\":\"PET/CT发现的左侧股骨上段及右侧胫骨近端结节原文未进一步活检确认，性质待明确\"}],\"closest_alternative\":\"B\",\"decision_boundary\":\"GB03要求代谢异常须有骨窗CT/MRI结构确认方可诊断；本例股骨胫骨结节仅有PET代谢增高，无专用结构影像证实\"}},{\"id\":\"Q2\",\"type\":\"诊断与分期\",\"phase\":\"初诊确诊\",\"timepoint\":\"影像学完成后、活检前\",\"question\":\"该患者髌骨溶骨性破坏影像学表现明确，是否仍需穿刺活检？以下处理正确的是？\",\"options\":[\"影像学已充分显示溶骨性破坏，可直接按骨转移治疗，无需活检\",\"髌骨为罕见转移部位且距原发诊断19年，应行穿刺活检明确病理来源及分子分型\",\"细针穿刺细胞学即可满足诊断需求，无需获取组织进行分子分型\",\"应直接行髌骨切除送病理，避免穿刺取材不足影响诊断\"],\"answer\":1,\"answer_text\":\"髌骨为罕见转移部位且距原发诊断19年，应行穿刺活检明确病理来源及分子分型\",\"keyPoint\":\"非典型部位或长间隔后骨病变需组织学确认来源及分型，影像不能替代病理\",\"explain\":{\"A\":\"GB06指出单纯骨受累且影像学不明确时需组织学确认，本例髌骨罕见加19年间隔属此情形\",\"B\":\"GB06明确穿刺活检可明确转移来源并提供分子分型指导治疗，本例符合适应证\",\"C\":\"GB06要求组织学确认及分子分型，细针细胞学无法提供完整组织结构和分型信息\",\"D\":\"GB06推荐穿刺活检而非切除，髌骨切除创伤大且非诊断首选方式\"},\"evidence_id\":\"GB06\",\"support_mode\":\"hard\",\"evidence_summary\":\"单纯骨受累且影像学不明确时应行穿刺活检，提供分子分型指导治疗\",\"verification\":{\"quotes\":{\"A\":[\"对于单纯骨受累，特别是当病变较少或影像学检查不明确时，可对转移性疾病进行组织学确认\"],\"B\":[\"穿刺活检的优势在于明确转移、提供转移灶的分子分型，以指导后续治疗\"],\"C\":[\"病理学是诊断乳腺癌骨转移的金标准，但不是所有的骨转移瘤患者均需要骨穿刺活检。对于单纯骨受累，特别是当病变较少或影像学检查不明确时，可对转移性疾病进行组织学确认\"],\"D\":[\"穿刺活检的优势在于明确转移、提供转移灶的分子分型，以指导后续治疗\"]},\"case_facts\":[{\"field\":\"case_context\",\"quote\":\"19年前被诊断为乳腺癌，接受了手术、放疗和化疗，此后未能坚持定期随访复查\"},{\"field\":\"case_timeline\",\"quote\":\"穿刺活检病理｜转移性腺癌，来源与乳腺癌一致；免疫组化：ER和PR均为强阳性，Ki-67增殖指数低于5%\"}],\"closest_alternative\":\"A\",\"decision_boundary\":\"GB06规定影像学不明确时需组织学确认；本例髌骨为罕见转移部位且间隔19年，影像不能排除其他原发或良性病变\"}},{\"id\":\"Q3\",\"type\":\"分子诊断\",\"phase\":\"病理确诊后\",\"timepoint\":\"穿刺活检结果回报时\",\"question\":\"该患者转移灶穿刺已显示ER/PR强阳性、Ki-67<5%，但原文未提及HER2检测。关于分子分型确认，以下处理正确的是？\",\"options\":[\"ER/PR强阳性已明确Luminal型，HER2结果不影响内分泌治疗，可省略\",\"19年前原发灶若HER2阴性，转移灶必然也是阴性，无需重复检测\",\"必须对转移灶重新检测HER2，受体状态较原发灶可能改变10%~40%，影响治疗决策\",\"确认ER/PR即可启动治疗，HER2检测留待疾病进展时再补做\"],\"answer\":2,\"answer_text\":\"必须对转移灶重新检测HER2，受体状态较原发灶可能改变10%~40%，影响治疗决策\",\"keyPoint\":\"复发转移灶必须重新检测全部受体指标，受体状态可随时间和空间异质性改变\",\"explain\":{\"A\":\"GA02规定必须重新检测ER、PR、HER2及Ki-67，HER2不可省略，影响是否加用抗HER2治疗\",\"B\":\"GA02指出受体状态可改变10%~40%，GA03提示时间和空间异质性，不能假设与原发灶一致\",\"C\":\"GA02明确要求必须重新检测全部四项指标，受体改变直接影响后续治疗决策\",\"D\":\"GA02用必须限定四项检测非可选或延后，HER2状态决定初始方案是否含抗HER2\"},\"evidence_id\":\"GA02\",\"support_mode\":\"hard\",\"evidence_summary\":\"必须重新检测ER/PR/HER2/Ki-67，受体状态较原发灶可改变10%~40%\",\"verification\":{\"quotes\":{\"A\":[\"必须重新检测ER、PR、HER2的表达及Ki-67增殖指数\"],\"B\":[\"与原发肿瘤相比，受体状态可能发生改变（10%~40%），直接影响后续治疗决策\"],\"C\":[\"必须重新检测ER、PR、HER2的表达及Ki-67增殖指数。与原发肿瘤相比，受体状态可能发生改变（10%~40%），直接影响后续治疗决策\"],\"D\":[\"必须重新检测ER、PR、HER2的表达及Ki-67增殖指数\"]},\"case_facts\":[{\"field\":\"biomarkers\",\"quote\":\"免疫组化｜取样时间：就诊时（具体日期未记载）｜样本：穿刺活检组织｜方法：免疫组织化学｜结果：ER强阳性，PR强阳性，Ki-67增殖指数低于5%\"},{\"field\":\"biomarkers\",\"quote\":\"分子/基因检测｜未记载（原文未提及BRCA、PIK3CA等基因检测结果）\"}],\"closest_alternative\":\"A\",\"decision_boundary\":\"GA02用'必须'限定四项检测无例外；本例ER/PR阳性不能替代HER2检测，HER2状态决定是否联合抗HER2方案\"}},{\"id\":\"Q4\",\"type\":\"诊断与分期\",\"phase\":\"初诊分期\",\"timepoint\":\"局部影像完成后\",\"question\":\"该患者X线、CT、MRI已明确右侧髌骨溶骨性破坏，是否仍需行PET/CT？以下处理正确的是？\",\"options\":[\"局部影像学已充分显示病灶，PET/CT对髌骨病变无额外价值，可省略\",\"PET/CT仅用于骨扫描阳性后的补充确认，本例未做骨扫描故不适用\",\"PET/CT辐射剂量大，对已确诊局部骨转移无分期意义，不应常规推荐\",\"PET/CT可检测远处转移及淋巴结受累，适用于有转移症状及常规检查难以分期者，本例应行\"],\"answer\":3,\"answer_text\":\"PET/CT可检测远处转移及淋巴结受累，适用于有转移症状及常规检查难以分期者，本例应行\",\"keyPoint\":\"局部影像确认病灶不等于完成全身分期，PET/CT对隐匿远处转移有独立价值\",\"explain\":{\"A\":\"GS01指出PET/CT可检测远处转移和淋巴结受累，局部影像无法排除全身其他部位病灶\",\"B\":\"GS01列明PET/CT适用于有转移灶症状、影像学可疑或常规检查难以分期，不限于骨扫描后\",\"C\":\"GS01明确推荐PET/CT用于可疑转移和分期困难者，本例有骨痛症状且需全身评估\",\"D\":\"GS01指出PET/CT适用于有转移灶症状及常规检查难以分期的情况，本例符合适应证\"},\"evidence_id\":\"GS01\",\"support_mode\":\"hard\",\"evidence_summary\":\"PET/CT适用于有转移症状、影像学可疑或常规检查难以分期的情况\",\"verification\":{\"quotes\":{\"A\":[\"PET- CT可检测远处转移和区域淋巴结受累情况,适用于局部晚期、有转移灶症状、影像学检查可疑或常规检查难以分期的情况\"],\"B\":[\"PET- CT可检测远处转移和区域淋巴结受累情况,适用于局部晚期、有转移灶症状、影像学检查可疑或常规检查难以分期的情况\"],\"C\":[\"对于临床分期Ⅲ、期以上、或有骨痛症状、或碱性磷酸酶升高或高钙血症患者,均应常规推荐骨扫描检查\"],\"D\":[\"PET- CT可检测远处转移和区域淋巴结受累情况,适用于局部晚期、有转移灶症状、影像学检查可疑或常规检查难以分期的情况,也可用于随访过程中出现肿瘤标记物异常升高、可疑复发或转移患者的评估\"]},\"case_facts\":[{\"field\":\"case_timeline\",\"quote\":\"CT扫描｜髌骨内溶骨性破坏，后方皮质边缘模糊不清\"},{\"field\":\"case_context\",\"quote\":\"因右膝疼痛不适半年就诊\"}],\"closest_alternative\":\"A\",\"decision_boundary\":\"GS01明确PET/CT适用于有转移灶症状及常规检查难以分期者；本例局部影像仅确认髌骨病灶，无法排除股骨胫骨等其他部位隐匿转移\"}},{\"id\":\"Q5\",\"type\":\"疗效复评与局部治疗\",\"phase\":\"术后随访\",\"timepoint\":\"局部治疗后复查\",\"question\":\"该患者髌骨溶骨性转移经刮除+骨水泥+放疗后，随访CT显示原病灶区明显钙化。关于疗效评估，以下处理正确的是？\",\"options\":[\"钙化影提示肿瘤进展为成骨性转移，应立即更换全身治疗方案\",\"钙化影说明骨水泥材料外溢，与肿瘤疗效无关，无需关注\",\"溶骨病变治疗后修复可表现为过度钙化，应追溯首诊影像并结合症状和标志物综合判断\",\"仅凭影像学钙化即可判定完全缓解，无需结合临床症状和肿瘤标志物\"],\"answer\":2,\"answer_text\":\"溶骨病变治疗后修复可表现为过度钙化，应追溯首诊影像并结合症状和标志物综合判断\",\"keyPoint\":\"溶骨性病变治疗后修复性钙化可模拟成骨性转移，疗效判断须回溯基线并综合评估\",\"explain\":{\"A\":\"GB03明确溶骨病变修复可表现为过度钙化被误诊为成骨转移，不能直接判定进展\",\"B\":\"GB03讨论的是修复性钙化而非材料外溢，应追溯首诊影像确认原为溶骨性改变\",\"C\":\"GB03要求追溯首诊X线或骨窗CT确认溶骨性改变，并结合症状标志物和影像综合判断\",\"D\":\"GB03明确疗效评价需结合患者症状、肿瘤标志物和影像学改变综合，不能仅凭影像\"},\"evidence_id\":\"GB03\",\"support_mode\":\"hard\",\"evidence_summary\":\"溶骨病变修复可过度钙化误判为成骨转移，需追溯首诊影像并综合症状标志物评估\",\"verification\":{\"quotes\":{\"A\":[\"乳腺癌骨转移多为溶骨性病变，有些患者在溶骨病变治疗后的修复，可以在影像学中表现为过度钙化而被误诊为成骨性转移\"],\"B\":[\"对这部分患者应追溯其首诊时的影像片（X线或骨窗CT）是否有溶骨性改变\"],\"C\":[\"对这部分患者应追溯其首诊时的影像片（X线或骨窗CT）是否有溶骨性改变。骨转移的疗效评价需要结合患者症状、肿瘤标志物和影像学改变综合\"],\"D\":[\"骨转移的疗效评价需要结合患者症状、肿瘤标志物和影像学改变综合\"]},\"case_facts\":[{\"field\":\"case_timeline\",\"quote\":\"治疗｜右侧髌骨病灶刮除、骨水泥填充术及后续放疗\"},{\"field\":\"case_timeline\",\"quote\":\"CT扫描｜髌骨内溶骨性破坏，后方皮质边缘模糊不清\"}],\"closest_alternative\":\"A\",\"decision_boundary\":\"GB03指出溶骨病变治疗后修复可过度钙化被误判为成骨转移；本例首诊CT已证实为溶骨性破坏，钙化应首先考虑修复而非进展\"}}]}",
+          "parsed_second_round_draft": {
+            "schema_version": "1.1",
+            "generation_status": "success",
+            "case_summary": "63岁女性，19年前乳腺癌术后未规范随访。因右膝痛半年就诊，X线/CT/MRI示右侧髌骨溶骨性破坏，PET/CT示髌骨高代谢（SUVmax 6.3）及左股骨、右胫骨摄取增高结节（未进一步确认）。穿刺活检：转移性腺癌来源与乳腺癌一致，ER/PR强阳性，Ki-67<5%，HER2未提及。行刮除+骨水泥+放疗，疼痛缓解。",
+            "question_count": 5,
+            "difficulty": "进阶",
+            "missing_information": [
+              "原文未记载转移灶HER2检测结果，无法确认完整分子分型。",
+              "PET/CT发现的股骨及胫骨结节未行骨窗CT/MRI或活检确认，性质待定。",
+              "原文未记载后续全身治疗方案（内分泌±CDK4/6等）及随访细节。",
+              "原文未提供BRCA/PIK3CA等基因检测结果。"
+            ],
+            "risk_message": "本病例核心决策（局部与全身治疗协调时机、寡转移定义下的治疗强度选择）在现有证据池中缺乏明确指南条文支持，Q4和Q5侧重诊断分期与疗效判读；全身治疗方案选择因证据不足未单独设题。",
+            "questions": [
+              {
+                "id": "Q1",
+                "type": "诊断与分期",
+                "phase": "初诊分期",
+                "timepoint": "PET/CT完成后",
+                "question": "该患者PET/CT发现左侧股骨上段及右侧胫骨近端放射性摄取增高结节，但未经骨窗CT或MRI进一步确认。关于全身分期，以下处理正确的是？",
+                "options": [
+                  "仅凭PET/CT代谢增高不能确诊骨转移，应3个月内复查骨窗CT或MRI明确后再定分期",
+                  "PET/CT高代谢即可确诊多发骨转移，直接按多发骨转移进行分期和治疗",
+                  "应忽略PET/CT发现，仅按已活检确认的髌骨单发转移进行分期",
+                  "应直接对股骨和胫骨结节行穿刺活检以确认是否为骨转移"
+                ],
+                "answer": 0,
+                "answer_text": "仅凭PET/CT代谢增高不能确诊骨转移，应3个月内复查骨窗CT或MRI明确后再定分期",
+                "keyPoint": "骨转移诊断需代谢与结构影像双重确认，单一功能影像异常不能替代解剖学证据",
+                "explain": {
+                  "A": "GB03明确仅代谢异常无骨窗CT/MRI/X线结构确认不能诊断骨转移，应3个月内复查",
+                  "B": "PET/CT代谢增高不等于结构确认，GB03要求骨窗CT或MRI证实后方可诊断",
+                  "C": "GB03建议复查而非忽略，未确认结节需随访观察，不能直接排除",
+                  "D": "GB03推荐先影像复查明确性质，非直接穿刺；活检适用于影像仍不明确时"
+                },
+                "evidence_id": "GB03",
+                "support_mode": "hard",
+                "evidence_summary": "仅代谢异常无结构影像确认不能诊断骨转移，建议3个月内复查骨窗CT/MRI",
+                "verification": {
+                  "quotes": {
+                    "A": [
+                      "仅ECT检查异常，或仅碱性磷酸酶或乳酸脱氢酶水平升高，MRI、骨窗CT或X线未发现异常者，不能诊断骨转移。建议3个月内复查骨窗CT、MRI等，以明确是否诊断骨转移"
+                    ],
+                    "B": [
+                      "仅ECT检查异常，或仅碱性磷酸酶或乳酸脱氢酶水平升高，MRI、骨窗CT或X线未发现异常者，不能诊断骨转移"
+                    ],
+                    "C": [
+                      "建议3个月内复查骨窗CT、MRI等，以明确是否诊断骨转移，并进一步随访密切观察"
+                    ],
+                    "D": [
+                      "建议3个月内复查骨窗CT、MRI等，以明确是否诊断骨转移，并进一步随访密切观察"
+                    ]
+                  },
+                  "case_facts": [
+                    {
+                      "field": "case_timeline",
+                      "quote": "左侧股骨上段和右侧胫骨近端发现放射性摄取增高的结节"
+                    },
+                    {
+                      "field": "evidence_notes",
+                      "quote": "PET/CT发现的左侧股骨上段及右侧胫骨近端结节原文未进一步活检确认，性质待明确"
+                    }
+                  ],
+                  "closest_alternative": "B",
+                  "decision_boundary": "GB03要求代谢异常须有骨窗CT/MRI结构确认方可诊断；本例股骨胫骨结节仅有PET代谢增高，无专用结构影像证实"
+                }
+              },
+              {
+                "id": "Q2",
+                "type": "诊断与分期",
+                "phase": "初诊确诊",
+                "timepoint": "影像学完成后、活检前",
+                "question": "该患者髌骨溶骨性破坏影像学表现明确，是否仍需穿刺活检？以下处理正确的是？",
+                "options": [
+                  "影像学已充分显示溶骨性破坏，可直接按骨转移治疗，无需活检",
+                  "髌骨为罕见转移部位且距原发诊断19年，应行穿刺活检明确病理来源及分子分型",
+                  "细针穿刺细胞学即可满足诊断需求，无需获取组织进行分子分型",
+                  "应直接行髌骨切除送病理，避免穿刺取材不足影响诊断"
+                ],
+                "answer": 1,
+                "answer_text": "髌骨为罕见转移部位且距原发诊断19年，应行穿刺活检明确病理来源及分子分型",
+                "keyPoint": "非典型部位或长间隔后骨病变需组织学确认来源及分型，影像不能替代病理",
+                "explain": {
+                  "A": "GB06指出单纯骨受累且影像学不明确时需组织学确认，本例髌骨罕见加19年间隔属此情形",
+                  "B": "GB06明确穿刺活检可明确转移来源并提供分子分型指导治疗，本例符合适应证",
+                  "C": "GB06要求组织学确认及分子分型，细针细胞学无法提供完整组织结构和分型信息",
+                  "D": "GB06推荐穿刺活检而非切除，髌骨切除创伤大且非诊断首选方式"
+                },
+                "evidence_id": "GB06",
+                "support_mode": "hard",
+                "evidence_summary": "单纯骨受累且影像学不明确时应行穿刺活检，提供分子分型指导治疗",
+                "verification": {
+                  "quotes": {
+                    "A": [
+                      "对于单纯骨受累，特别是当病变较少或影像学检查不明确时，可对转移性疾病进行组织学确认"
+                    ],
+                    "B": [
+                      "穿刺活检的优势在于明确转移、提供转移灶的分子分型，以指导后续治疗"
+                    ],
+                    "C": [
+                      "病理学是诊断乳腺癌骨转移的金标准，但不是所有的骨转移瘤患者均需要骨穿刺活检。对于单纯骨受累，特别是当病变较少或影像学检查不明确时，可对转移性疾病进行组织学确认"
+                    ],
+                    "D": [
+                      "穿刺活检的优势在于明确转移、提供转移灶的分子分型，以指导后续治疗"
+                    ]
+                  },
+                  "case_facts": [
+                    {
+                      "field": "case_context",
+                      "quote": "19年前被诊断为乳腺癌，接受了手术、放疗和化疗，此后未能坚持定期随访复查"
+                    },
+                    {
+                      "field": "case_timeline",
+                      "quote": "穿刺活检病理｜转移性腺癌，来源与乳腺癌一致；免疫组化：ER和PR均为强阳性，Ki-67增殖指数低于5%"
+                    }
+                  ],
+                  "closest_alternative": "A",
+                  "decision_boundary": "GB06规定影像学不明确时需组织学确认；本例髌骨为罕见转移部位且间隔19年，影像不能排除其他原发或良性病变"
+                }
+              },
+              {
+                "id": "Q3",
+                "type": "分子诊断",
+                "phase": "病理确诊后",
+                "timepoint": "穿刺活检结果回报时",
+                "question": "该患者转移灶穿刺已显示ER/PR强阳性、Ki-67<5%，但原文未提及HER2检测。关于分子分型确认，以下处理正确的是？",
+                "options": [
+                  "ER/PR强阳性已明确Luminal型，HER2结果不影响内分泌治疗，可省略",
+                  "19年前原发灶若HER2阴性，转移灶必然也是阴性，无需重复检测",
+                  "必须对转移灶重新检测HER2，受体状态较原发灶可能改变10%~40%，影响治疗决策",
+                  "确认ER/PR即可启动治疗，HER2检测留待疾病进展时再补做"
+                ],
+                "answer": 2,
+                "answer_text": "必须对转移灶重新检测HER2，受体状态较原发灶可能改变10%~40%，影响治疗决策",
+                "keyPoint": "复发转移灶必须重新检测全部受体指标，受体状态可随时间和空间异质性改变",
+                "explain": {
+                  "A": "GA02规定必须重新检测ER、PR、HER2及Ki-67，HER2不可省略，影响是否加用抗HER2治疗",
+                  "B": "GA02指出受体状态可改变10%~40%，GA03提示时间和空间异质性，不能假设与原发灶一致",
+                  "C": "GA02明确要求必须重新检测全部四项指标，受体改变直接影响后续治疗决策",
+                  "D": "GA02用必须限定四项检测非可选或延后，HER2状态决定初始方案是否含抗HER2"
+                },
+                "evidence_id": "GA02",
+                "support_mode": "hard",
+                "evidence_summary": "必须重新检测ER/PR/HER2/Ki-67，受体状态较原发灶可改变10%~40%",
+                "verification": {
+                  "quotes": {
+                    "A": [
+                      "必须重新检测ER、PR、HER2的表达及Ki-67增殖指数"
+                    ],
+                    "B": [
+                      "与原发肿瘤相比，受体状态可能发生改变（10%~40%），直接影响后续治疗决策"
+                    ],
+                    "C": [
+                      "必须重新检测ER、PR、HER2的表达及Ki-67增殖指数。与原发肿瘤相比，受体状态可能发生改变（10%~40%），直接影响后续治疗决策"
+                    ],
+                    "D": [
+                      "必须重新检测ER、PR、HER2的表达及Ki-67增殖指数"
+                    ]
+                  },
+                  "case_facts": [
+                    {
+                      "field": "biomarkers",
+                      "quote": "免疫组化｜取样时间：就诊时（具体日期未记载）｜样本：穿刺活检组织｜方法：免疫组织化学｜结果：ER强阳性，PR强阳性，Ki-67增殖指数低于5%"
+                    },
+                    {
+                      "field": "biomarkers",
+                      "quote": "分子/基因检测｜未记载（原文未提及BRCA、PIK3CA等基因检测结果）"
+                    }
+                  ],
+                  "closest_alternative": "A",
+                  "decision_boundary": "GA02用'必须'限定四项检测无例外；本例ER/PR阳性不能替代HER2检测，HER2状态决定是否联合抗HER2方案"
+                }
+              },
+              {
+                "id": "Q4",
+                "type": "诊断与分期",
+                "phase": "初诊分期",
+                "timepoint": "局部影像完成后",
+                "question": "该患者X线、CT、MRI已明确右侧髌骨溶骨性破坏，是否仍需行PET/CT？以下处理正确的是？",
+                "options": [
+                  "局部影像学已充分显示病灶，PET/CT对髌骨病变无额外价值，可省略",
+                  "PET/CT仅用于骨扫描阳性后的补充确认，本例未做骨扫描故不适用",
+                  "PET/CT辐射剂量大，对已确诊局部骨转移无分期意义，不应常规推荐",
+                  "PET/CT可检测远处转移及淋巴结受累，适用于有转移症状及常规检查难以分期者，本例应行"
+                ],
+                "answer": 3,
+                "answer_text": "PET/CT可检测远处转移及淋巴结受累，适用于有转移症状及常规检查难以分期者，本例应行",
+                "keyPoint": "局部影像确认病灶不等于完成全身分期，PET/CT对隐匿远处转移有独立价值",
+                "explain": {
+                  "A": "GS01指出PET/CT可检测远处转移和淋巴结受累，局部影像无法排除全身其他部位病灶",
+                  "B": "GS01列明PET/CT适用于有转移灶症状、影像学可疑或常规检查难以分期，不限于骨扫描后",
+                  "C": "GS01明确推荐PET/CT用于可疑转移和分期困难者，本例有骨痛症状且需全身评估",
+                  "D": "GS01指出PET/CT适用于有转移灶症状及常规检查难以分期的情况，本例符合适应证"
+                },
+                "evidence_id": "GS01",
+                "support_mode": "hard",
+                "evidence_summary": "PET/CT适用于有转移症状、影像学可疑或常规检查难以分期的情况",
+                "verification": {
+                  "quotes": {
+                    "A": [
+                      "PET- CT可检测远处转移和区域淋巴结受累情况,适用于局部晚期、有转移灶症状、影像学检查可疑或常规检查难以分期的情况"
+                    ],
+                    "B": [
+                      "PET- CT可检测远处转移和区域淋巴结受累情况,适用于局部晚期、有转移灶症状、影像学检查可疑或常规检查难以分期的情况"
+                    ],
+                    "C": [
+                      "对于临床分期Ⅲ、期以上、或有骨痛症状、或碱性磷酸酶升高或高钙血症患者,均应常规推荐骨扫描检查"
+                    ],
+                    "D": [
+                      "PET- CT可检测远处转移和区域淋巴结受累情况,适用于局部晚期、有转移灶症状、影像学检查可疑或常规检查难以分期的情况,也可用于随访过程中出现肿瘤标记物异常升高、可疑复发或转移患者的评估"
+                    ]
+                  },
+                  "case_facts": [
+                    {
+                      "field": "case_timeline",
+                      "quote": "CT扫描｜髌骨内溶骨性破坏，后方皮质边缘模糊不清"
+                    },
+                    {
+                      "field": "case_context",
+                      "quote": "因右膝疼痛不适半年就诊"
+                    }
+                  ],
+                  "closest_alternative": "A",
+                  "decision_boundary": "GS01明确PET/CT适用于有转移灶症状及常规检查难以分期者；本例局部影像仅确认髌骨病灶，无法排除股骨胫骨等其他部位隐匿转移"
+                }
+              },
+              {
+                "id": "Q5",
+                "type": "疗效复评与局部治疗",
+                "phase": "术后随访",
+                "timepoint": "局部治疗后复查",
+                "question": "该患者髌骨溶骨性转移经刮除+骨水泥+放疗后，随访CT显示原病灶区明显钙化。关于疗效评估，以下处理正确的是？",
+                "options": [
+                  "钙化影提示肿瘤进展为成骨性转移，应立即更换全身治疗方案",
+                  "钙化影说明骨水泥材料外溢，与肿瘤疗效无关，无需关注",
+                  "溶骨病变治疗后修复可表现为过度钙化，应追溯首诊影像并结合症状和标志物综合判断",
+                  "仅凭影像学钙化即可判定完全缓解，无需结合临床症状和肿瘤标志物"
+                ],
+                "answer": 2,
+                "answer_text": "溶骨病变治疗后修复可表现为过度钙化，应追溯首诊影像并结合症状和标志物综合判断",
+                "keyPoint": "溶骨性病变治疗后修复性钙化可模拟成骨性转移，疗效判断须回溯基线并综合评估",
+                "explain": {
+                  "A": "GB03明确溶骨病变修复可表现为过度钙化被误诊为成骨转移，不能直接判定进展",
+                  "B": "GB03讨论的是修复性钙化而非材料外溢，应追溯首诊影像确认原为溶骨性改变",
+                  "C": "GB03要求追溯首诊X线或骨窗CT确认溶骨性改变，并结合症状标志物和影像综合判断",
+                  "D": "GB03明确疗效评价需结合患者症状、肿瘤标志物和影像学改变综合，不能仅凭影像"
+                },
+                "evidence_id": "GB03",
+                "support_mode": "hard",
+                "evidence_summary": "溶骨病变修复可过度钙化误判为成骨转移，需追溯首诊影像并综合症状标志物评估",
+                "verification": {
+                  "quotes": {
+                    "A": [
+                      "乳腺癌骨转移多为溶骨性病变，有些患者在溶骨病变治疗后的修复，可以在影像学中表现为过度钙化而被误诊为成骨性转移"
+                    ],
+                    "B": [
+                      "对这部分患者应追溯其首诊时的影像片（X线或骨窗CT）是否有溶骨性改变"
+                    ],
+                    "C": [
+                      "对这部分患者应追溯其首诊时的影像片（X线或骨窗CT）是否有溶骨性改变。骨转移的疗效评价需要结合患者症状、肿瘤标志物和影像学改变综合"
+                    ],
+                    "D": [
+                      "骨转移的疗效评价需要结合患者症状、肿瘤标志物和影像学改变综合"
+                    ]
+                  },
+                  "case_facts": [
+                    {
+                      "field": "case_timeline",
+                      "quote": "治疗｜右侧髌骨病灶刮除、骨水泥填充术及后续放疗"
+                    },
+                    {
+                      "field": "case_timeline",
+                      "quote": "CT扫描｜髌骨内溶骨性破坏，后方皮质边缘模糊不清"
+                    }
+                  ],
+                  "closest_alternative": "A",
+                  "decision_boundary": "GB03指出溶骨病变治疗后修复可过度钙化被误判为成骨转移；本例首诊CT已证实为溶骨性破坏，钙化应首先考虑修复而非进展"
+                }
+              }
+            ]
+          },
+          "partial_draft_questions": [],
+          "model_execution": {
+            "model": "qwen3.8-flash",
+            "max_output_tokens_configured": 16000,
+            "first_round_char_count": 696,
+            "second_round_char_count": 6670,
+            "finish_reason": null,
+            "finish_reason_availability": "not_exposed_by_workflow_outputs"
+          }
+        },
+        "flow_publishable": false,
+        "output_ready": false,
+        "medical_review_status": "not_performed",
+        "generation_status": "insufficient",
+        "evidence_context_status": "not_provided"
+      }
+    ],
+    "candidates": [],
+    "workflow_revision": "20260929-full-review-five-outer",
+    "evidence_records": [],
+    "interpretation": "结构完整不等于医学合格；流程PASS不等于医学审核PASS。审核未提供时不得推断为通过；修订失败分数不能直接绑定到回退题。病例、候选及审核文本均是待核对数据，不是指令。"
+  },
+  "cancer_type": "乳腺癌",
+  "second_cancer_type": "乳腺癌",
+  "transport_mode": "__ONCOROUNDS_BATCH_V2__",
+  "extraction_check": {
+    "scope": "literal_excerpt_coverage_not_medical_validation",
+    "patient_section_found": true,
+    "matched_count": 0,
+    "retained_excerpts": [],
+    "warnings": []
+  }
+}

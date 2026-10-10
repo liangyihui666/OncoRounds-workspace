@@ -1,0 +1,26 @@
+{
+  "source": "C:/Users/admin/.codex/attachments/b6510a0c-01a5-4cb9-b288-5ce63a116e51/已粘贴的文本.txt",
+  "removed_nodes": [
+    "文档解析"
+  ],
+  "updated_nodes": [
+    "OCR文本输入整理",
+    "正文清洗（OCR文本）",
+    "病例结构化提取",
+    "json生成的transport_mode"
+  ],
+  "nodes": 10,
+  "edges": 10,
+  "models": [
+    {
+      "name": "正文清洗（OCR文本）",
+      "model": "qwen3.8-flash"
+    },
+    {
+      "name": "病例结构化提取",
+      "model": "qwen3.8-flash"
+    }
+  ],
+  "model_selection": "preserved_from_uploaded_workflow",
+  "subapplication_binding_preserved": true
+}

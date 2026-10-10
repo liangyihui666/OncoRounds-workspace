@@ -1,0 +1,25 @@
+{
+  "checks": [
+    {
+      "name": "仅两轮提示词改变，模型/检索/程序/图/外层保持原版本",
+      "pass": true
+    },
+    {
+      "name": "内部仍为14字段，公开输出没有新增字段",
+      "pass": true
+    },
+    {
+      "name": "病例对照加多句解析完整保留到最终五题字母答案输出",
+      "pass": true
+    },
+    {
+      "name": "正常解析无需病例对照，错误答案/重复选项/假引文仍拦截",
+      "pass": true
+    }
+  ],
+  "passed": 4,
+  "failed": 0,
+  "api_calls": 0,
+  "online_verified": false,
+  "medical_review_status": "not_performed"
+}

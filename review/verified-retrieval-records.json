@@ -1,0 +1,48 @@
+{
+  "result": [
+    {
+      "docId": "bedf23cb-6970-47de-85ff-77c15fd0a977",
+      "splitIndex": 19,
+      "type": "guideline",
+      "authority": "CACA",
+      "dataSourceName": "免疫检查点抑制剂用于进展期胃癌围手术期治疗的中国专家共识(2024版)",
+      "year": "2024",
+      "title": "（一）新辅助治疗人群选择",
+      "link": "",
+      "snippet": "推荐意见1：对于可切除的影像学分期为Ⅲ~IVa期HER2阴性GC/GEJC患者，可在临床研究的背景下，考虑使用新辅助化疗联合免疫治疗。"
+    },
+    {
+      "docId": "bedf23cb-6970-47de-85ff-77c15fd0a977",
+      "splitIndex": 35,
+      "type": "guideline",
+      "authority": "CACA",
+      "dataSourceName": "免疫检查点抑制剂用于进展期胃癌围手术期治疗的中国专家共识(2024版)",
+      "year": "2024",
+      "title": "3.死亡",
+      "link": "",
+      "snippet": "应重点关注围手术期患者的营养状态、治疗相关不良事件发生情况，及时对症处理，并结合多学科讨论制订合理手术方案；建议经验丰富的外科团队开展此类手术。"
+    },
+    {
+      "docId": "5318f5f1-c827-4976-805c-b577d3953b2d",
+      "splitIndex": 38,
+      "type": "guideline",
+      "authority": "ASCO",
+      "dataSourceName": "Management of Immune-Related Adverse Events in Patients Treated With Immune Checkpoint Inhibitor Therapy: ASCO Guideline Update",
+      "year": "2021",
+      "title": "TABLE 4. Endocrine Toxicities (continued), 4.4. Diabetes",
+      "link": "",
+      "snippet": "ASCO指南指出，G3至G4免疫检查点抑制剂相关糖尿病或DKA应暂停ICPi，直至血糖得到控制且毒性降至不高于G1；患者应住院接受DKA管理、容量和电解质复苏及胰岛素治疗，并进行内分泌专科会诊。"
+    },
+    {
+      "docId": "1a5c4240-bad9-4448-ab64-9b705a3ad087",
+      "splitIndex": 208,
+      "type": "guideline",
+      "authority": "CSCO",
+      "dataSourceName": "中国临床肿瘤学会（CSCO）免疫检查点抑制剂相关的毒性管理指南 2023",
+      "year": "2023",
+      "title": "【注释】",
+      "link": "",
+      "snippet": "肺部出现严重或危及生命的肺炎（G3至G4），永不考虑重启ICIs治疗。"
+    }
+  ]
+}

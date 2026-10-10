@@ -1,0 +1,252 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-8B47BE60",
+    "cancer_type": "乳腺癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "分子诊断",
+        "phase": "复发/转移治疗决策前",
+        "timepoint": "2021 年 9 月",
+        "question": "该患者 2017 年确诊 HER2 阳性，2021 年颅内进展拟调整系统治疗方案。关于此时 HER2 状态的评估，下列哪项最符合指南推荐原则？",
+        "options": {
+          "A": "默认延续初诊 HER2 阳性状态，无需再次检测直接启动抗 HER2 治疗",
+          "B": "仅当临床表现为 Triple Negative 特征时才需重新检测 HER2",
+          "C": "脑转移灶难以获取组织，应仅依据液体活检结果决定治疗",
+          "D": "建议对复发或转移灶进行再检测，以确认 HER2 状态是否发生改变"
+        },
+        "answer": "D",
+        "answer_text": "建议对复发或转移灶进行再检测，以确认 HER2 状态是否发生改变",
+        "explain": "指南推荐只要有可能获取肿瘤组织，应对复发或转移灶进行 HER2 再检测，因为受体状态可能发生 10%-40% 的改变，直接影响治疗决策。",
+        "keyPoint": "复发转移性乳腺癌应尽量再检测生物标志物，避免沿用初诊结果导致误治。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "67c4d4fb-08f5-4412-90f7-4015e9ce42cd",
+          "split_index": 5,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "人表皮生长因子受体2阳性乳腺癌临床诊疗专家共识(2021版)",
+          "source_version": "2021",
+          "source_section": "一、HER2标准化检测和结果判定[3]",
+          "source_url": "",
+          "evidence_summary": "CSCO 共识指出复发转移性乳腺癌患者应尽量再检测 HER2，特别是病情发展不符合原状态特点时。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "分子诊断",
+        "phase": "复发/转移治疗决策前",
+        "timepoint": "2021 年 9 月",
+        "question": "患者 2017 年确诊 HER2 阳性，2021 年颅内进展拟调整系统治疗方案。关于此时 HER2 状态的评估，下列哪项最符合诊疗规范？",
+        "options": {
+          "A": "只要有可能获取肿瘤组织，建议对复发灶或转移灶重新检测 HER2 状态",
+          "B": "默认延续初诊 HER2 阳性状态，无需再次检测直接启动抗 HER2 治疗",
+          "C": "仅当临床表现为 HER2 阴性特征时才需重新检测，否则维持原诊断",
+          "D": "脑转移灶血脑屏障特殊，免疫组化结果不可靠，应仅依赖液体活检"
+        },
+        "answer": "A",
+        "answer_text": "只要有可能获取肿瘤组织，建议对复发灶或转移灶重新检测 HER2 状态",
+        "explain": "指南建议复发转移性乳腺癌患者应尽量再检测 HER2，以明确复发转移灶的 HER2 状态，特别是病情发展不符合原状态特点时。虽本例默认延续阳性，但规范操作是建议复检。",
+        "keyPoint": "复发转移灶生物学特征可能改变，指南建议尽可能复检 HER2 以指导精准治疗。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "67c4d4fb-08f5-4412-90f7-4015e9ce42cd",
+          "split_index": 5,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "人表皮生长因子受体2阳性乳腺癌临床诊疗专家共识(2021版)",
+          "source_version": "2021",
+          "source_section": "一、HER2标准化检测和结果判定[3]",
+          "source_url": "",
+          "evidence_summary": "CSCO 共识指出：只要有可能获取肿瘤组织，建议对复发灶或转移灶进行 HER2 检测。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "分子诊断",
+        "phase": "复发/转移治疗阶段",
+        "timepoint": "2021 年 9 月颅内进展时",
+        "question": "该患者 2017 年初诊为 HER2 阳性，2021 年出现颅内进展准备调整系统治疗方案时，关于 HER2 状态评估的最佳处理原则是？",
+        "options": {
+          "A": "直接沿用 2017 年结果，无需再次检测",
+          "B": "只要有可能获取组织，建议对复发或转移灶重新检测 HER2",
+          "C": "仅当临床表型完全不符合 HER2 特征时才需重测",
+          "D": "脑转移灶无法穿刺，故默认维持原诊断不检测"
+        },
+        "answer": "B",
+        "answer_text": "只要有可能获取组织，建议对复发或转移灶重新检测 HER2",
+        "explain": "指南建议复发转移性乳腺癌应尽量再检测 HER2 以明确状态，特别是病情发展不符合原特征时。虽本例默认延续阳性，但原则上应争取重测以指导精准治疗。",
+        "keyPoint": "复发转移灶 HER2 状态可能改变，指南推荐尽可能重新检测。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "67c4d4fb-08f5-4412-90f7-4015e9ce42cd",
+          "split_index": 5,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "人表皮生长因子受体2阳性乳腺癌临床诊疗专家共识(2021版)",
+          "source_version": "2021",
+          "source_section": "一、HER2标准化检测和结果判定[3]",
+          "source_url": "",
+          "evidence_summary": "复发转移性乳腺癌患者应尽量再检测 HER2，以明确复发转移灶的 HER2 状态。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "治疗决策",
+        "phase": "脑转移治疗阶段",
+        "timepoint": "2021 年 9 月颅内进展时",
+        "question": "患者颅外病灶稳定但颅内进展，且已接受过全脑放疗，拒绝再次放疗。此时全身治疗策略的优先考量是？",
+        "options": {
+          "A": "立即停止所有全身治疗，仅行最佳支持治疗",
+          "B": "必须再次进行全脑放疗否则无法控制病情",
+          "C": "优先选择具有中枢神经系统活性的抗 HER2 药物",
+          "D": "仅针对颅外病灶更换方案，颅内病灶忽略不计"
+        },
+        "answer": "C",
+        "answer_text": "优先选择具有中枢神经系统活性的抗 HER2 药物",
+        "explain": "对于 HER2 阳性脑转移患者，若颅外稳定，经评估后应优先考虑更换为针对脑转移更有效的靶向药物或具有中枢活性的药物，以控制颅内病灶。",
+        "keyPoint": "HER2 阳性脑转移进展时，优先选用具中枢活性的系统药物。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "b2719254-d290-4ec9-866b-51b36cafd1bc",
+          "split_index": 210,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会（CSCO）乳腺癌诊疗指南 2026",
+          "source_version": "2026",
+          "source_section": "绝经前乳腺癌患者辅助内分泌治疗策略",
+          "source_url": "",
+          "evidence_summary": "对于局部症状可控的 HER-2 阳性患者，优先考虑使用具有中枢活性的抗 HER-2 药物治疗。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "耐药与后线管理",
+        "phase": "后线治疗阶段",
+        "timepoint": "2021 年 9 月及后续随访",
+        "question": "该患者在多线治疗失败且对 TKI 耐受性差的情况下，使用 RC48 单药治疗获得颅内部分缓解。这体现了 ADC 药物治疗脑转移的何种潜在优势？",
+        "options": {
+          "A": "ADC 药物分子量小，极易透过完整血脑屏障",
+          "B": "ADC 药物完全依赖放疗增敏才能进入脑部",
+          "C": "ADC 药物仅对颅外病灶有效，颅内缓解属偶然",
+          "D": "大分子 ADC 在血脑屏障受损时可进入脑实质发挥作用"
+        },
+        "answer": "D",
+        "answer_text": "大分子 ADC 在血脑屏障受损时可进入脑实质发挥作用",
+        "explain": "虽然大分子药物通常难透过完整血脑屏障，但在脑转移病灶处血脑屏障往往受损，使得 ADC 药物能进入脑实质发挥抗肿瘤作用，本例 RC48 疗效证实了这一点。",
+        "keyPoint": "血脑屏障受损时，大分子 ADC 药物可进入脑实质发挥疗效。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "4c3e980d-b839-40be-9fa7-4bbd4f416d1a",
+          "split_index": 218,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 靶向治疗",
+          "source_version": "2023",
+          "source_section": "2.抗体偶联药物",
+          "source_url": "",
+          "evidence_summary": "维迪西妥单抗用于 HER2 阳性晚期后线治疗，结合病例显示其颅内活性。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-8B47BE60",
+    "cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "乳腺癌脑病灶进展后的决策",
+      "description": "45岁女性，HER2阳性乳腺癌多线治疗及全脑放疗后，出现症状性颅内进展。"
+    },
+    "overview": {
+      "hero": {
+        "title": "乳腺癌脑病灶进展后的决策",
+        "subtitle": "症状性颅内进展与颅外病情、既往放疗和用药耐受性，以及后线疗效的评估。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "45岁女性，HER2阳性乳腺癌多线治疗及全脑放疗后，出现症状性颅内进展。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "2021年9月颅内进展时，原文明确颅外病灶稳定。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "结合既往治疗、患者意愿及当时药物可及性，采用维迪西妥单抗。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "症状性颅内进展与颅外病情、既往放疗和用药耐受性，以及后线疗效的评估。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2017年8月",
+              "title": "初诊转移性乳腺癌",
+              "detail": "HER2阳性乳腺癌伴多处转移，原文cT4bN3cM1。"
+            },
+            {
+              "date": "初始多阶段治疗",
+              "title": "综合治疗",
+              "detail": "接受化疗、抗HER2治疗、手术及后续维持。"
+            },
+            {
+              "date": "2019年4月",
+              "title": "脑转移治疗",
+              "detail": "脑转移后全脑放疗，使用吡咯替尼及卡培他滨，胃肠反应影响用药。"
+            },
+            {
+              "date": "2021年9月",
+              "title": "症状性颅内进展",
+              "detail": "症状性颅内进展、颅外稳定，综合评估后选择RC48。"
+            },
+            {
+              "date": "RC48首周期及5周期后",
+              "title": "症状与MRI反应",
+              "detail": "首周期症状改善，5周期MRI为PR。"
+            },
+            {
+              "date": "后续报道",
+              "title": "颅内控制",
+              "detail": "原文记录颅内控制约12个月。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

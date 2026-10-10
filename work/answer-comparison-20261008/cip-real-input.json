@@ -1,0 +1,589 @@
+{
+  "candidate_json": "{\n  \"schema_version\": \"1.1\",\n  \"generation_status\": \"success\",\n  \"case_summary\": \"59岁女性，左下肺鳞癌IV期伴锁骨上淋巴结及肝转移。含铂双药联合PD-1×4周期达PR后改PD-1单药维持。发病前5天出现发热38.6℃、干咳、活动后气短，SpO2 92%，HRCT示双肺胸膜下及周边散在磨玻璃影及细网格影，PCT 0.08 ng/mL，病毒核酸初筛阴性，痰培养待回报。临床诊断疑似CIP，入院时暂缓免疫治疗、低流量吸氧及经验性抗感染。\",\n  \"question_count\": 5,\n  \"difficulty\": \"进阶\",\n  \"missing_information\": [\n    \"痰培养及血培养最终结果未回报，CIP与感染鉴别尚未完成\",\n    \"未行支气管镜BAL，病原学证据不完整\",\n    \"CIP最终确诊分级（G2 vs G3）存在边界不确定性\",\n    \"激素是否已启动及具体剂量在病例中未记载\",\n    \"患者吸烟史未记载，影响鳞癌分子检测适应证判断\"\n  ],\n  \"risk_message\": \"本例CIP诊断仍为疑似，感染未完全排除；分级存在G2/G3边界不确定性；所有治疗决策需结合后续病原学结果及影像动态变化综合判断。\",\n  \"questions\": [\n    {\n      \"id\": \"Q1\",\n      \"type\": \"不良反应管理\",\n      \"phase\": \"维持治疗期\",\n      \"timepoint\": \"入院当日\",\n      \"question\": \"该患者SpO2 92%（空气），HRCT示双肺胸膜下及周边散在磨玻璃影及细网格影，伴发热、干咳、活动后气短，无脓痰，无既往ILD及胸部放疗史。按CTCAE分级最符合CIP 2级。入院当日最恰当的初始处理是？\",\n      \"options\": [\n       \"暂缓免疫治疗，密切监测血氧，2~3周后复查CT，暂不使用糖皮质激素\",\n       \"暂缓免疫治疗，给予口服或静脉糖皮质激素1mg/kg，症状缓解后2~3周复查CT\",\n       \"住院给予糖皮质激素2~4mg/kg，同时经验性抗感染，并考虑永久停用免疫治疗\",\n       \"等待痰培养及血培养结果回报后再决定是否启动糖皮质激素\"\n      ],\n      \"answer\": 1,\n      \"answer_text\": \"暂缓免疫治疗，给予口服或静脉糖皮质激素1mg/kg，症状缓解后2~3周复查CT\",\n      \"keyPoint\": \"CIP 2级初始处理为暂停免疫+激素1mg/kg，非G1观察亦非G3-4大剂量方案\",\n      \"explain\": {\n       \"A\": \"该选项为G1处理（仅观察复查）。本例有发热、干咳、气短等症状且双肺多叶受累，不符合G1无症状、单叶或<25%的定义，应归为G2。\",\n       \"B\": \"原病例入院时已暂缓免疫并予低流量吸氧及经验性抗感染；本题依据所引证据，G2标准处理为暂停免疫+口服或静脉激素1mg/kg，缓解后2~3周复查CT，6周内减停。\",\n       \"C\": \"该选项为G3~G4处理（2~4mg/kg+永久停药）。本例症状为轻度、CT示散在磨玻璃影（非>50%或所有肺叶），不满足G3严重症状及广泛受累标准。\",\n       \"D\": \"G2方案不要求等待培养结果再启动激素；延迟治疗可能使病情进展至G3。经验性抗感染可同步进行，但不应作为启动激素的前置条件。\"\n      },\n      \"evidence_id\": \"GB02\",\n      \"support_mode\": \"hard\",\n      \"evidence_summary\": \"CACA肺脏保护指南按CTCAE分级规定G2 CIP予暂停免疫+激素1mg/kg，48~72h无改善按G3~G4处理。\",\n      \"verification\": {\n       \"quotes\": {\n\"A\": [\"G1患者，暂缓免疫治疗，密切监测血氧饱和度，观察有无新发相关症状，并在2\\\\~3周后复查胸部CT。\", \"1级（G1）：无症状，病变局限于单个肺叶或 \\\\$< 25\\\\%\\\\$ 的肺实质。\"],\n\"B\": [\"对G2患者，暂缓免疫治疗，给予口服或静脉糖皮质激素（ \\\\$1\\\\mathrm{mg / kg}\\\\$ ）。如果症状缓解，2\\\\~3周后复查胸部CT，糖皮质激素可在6周内减停。\", \"2级（G2）：有轻度症状，病变累及多个肺叶，且达 \\\\$25\\\\% \\\\sim 50\\\\%\\\\$ 肺实质。\"],\n\"C\": [\"对G3\\\\~G4患者，需考虑永久停用免疫检查点抑制剂治疗，并住院接受糖皮质激素（ \\\\$2\\\\sim 4\\\\mathrm{mg / kg}\\\\$ ），同时予经验性抗感染治疗。\", \"3级（G3）：有严重症状，自理能力受限，病变累及所有肺叶或 \\\\$>50\\\\%\\\\$ 肺实质，需吸氧。\"],\n\"D\": [\"对G2患者，暂缓免疫治疗，给予口服或静脉糖皮质激素（ \\\\$1\\\\mathrm{mg / kg}\\\\$ ）。如果症状缓解，2\\\\~3周后复查胸部CT，糖皮质激素可在6周内减停。\"]\n       },\n       \"case_facts\": [\n{\"field\": \"case_source_text\", \"quote\": \"入院时血氧饱和度92%（空气），呼吸频率22次/分\"},\n{\"field\": \"case_source_text\", \"quote\": \"双肺胸膜下及周边散在磨玻璃影、细网格影\"},\n{\"field\": \"case_source_text\", \"quote\": \"5天前无明显诱因出现发热，最高体温38.6℃，伴干咳、活动后气短，无脓痰及胸痛\"}\n       ],\n       \"closest_alternative\": \"C\",\n       \"decision_boundary\": \"本例症状轻度、CT散在磨玻璃影未达>50%肺实质，符合G2而非G3；若出现严重症状、自理受限或>50%受累则适用C。\"\n      }\n    },\n    {\n      \"id\": \"Q2\",\n      \"type\": \"不良反应管理\",\n      \"phase\": \"维持治疗期\",\n      \"timepoint\": \"入院当日\",\n      \"question\": \"该患者疑似CIP需鉴别感染，呼吸道病毒核酸初筛阴性，痰培养待回报，PCT 0.08 ng/mL。关于进一步病原学检测策略，下列哪项正确？\",\n      \"options\": [\n       \"病毒核酸初筛阴性即可排除感染性病因，无需进一步病原学检测\",\n       \"血清学检查简单快速，可作为该患者早期鉴别感染的首选依据\",\n       \"mNGS对免疫抑制患者少见病原体或混合感染检测有较好临床价值，可用于弥漫病变中感染与非感染因素鉴别\",\n       \"常规痰培养敏感性高且不受抗菌药物使用影响，等待培养结果即可明确诊断\"\n      ],\n      \"answer\": 2,\n      \"answer_text\": \"mNGS对免疫抑制患者少见病原体或混合感染检测有较好临床价值，可用于弥漫病变中感染与非感染因素鉴别\",\n      \"keyPoint\": \"mNGS适用于免疫抑制患者少见/混合感染及弥漫病变感染与非感染鉴别，优于单一常规检测\",\n      \"explain\": {\n       \"A\": \"病毒核酸仅覆盖常见呼吸道病毒，不能排除细菌、真菌、非典型病原体及少见感染。PCT 0.08虽提示细菌感染可能性低，但非绝对排除依据。\",\n       \"B\": \"血清学需急性期与恢复期双份血清4倍变化才有临床价值，且抗体产生受宿主免疫状态影响，明确不作为早诊依据。\",\n       \"C\": \"原病例已留取痰培养及血培养但尚未回报；本题依据所引证据，mNGS在免疫抑制患者中可无偏倚检测少见病原体或混合感染，并辅助弥漫病变中感染与非感染因素鉴别。\",\n       \"D\": \"常规培养耗时长、受抗菌药物使用及标本送检时机影响，不能保证明确诊断；且该患者已启动经验性抗感染，培养阳性率可能进一步降低。\"\n      },\n      \"evidence_id\": \"GA06\",\n      \"support_mode\": \"hard\",\n      \"evidence_summary\": \"CACA肺脏保护指南指出mNGS适用于免疫抑制患者少见/混合感染及弥漫病变感染与非感染鉴别。\",\n      \"verification\": {\n       \"quotes\": {\n\"A\": [\"mNGS技术检测敏感性及特异性高、无偏倚，在疑难、危重、特殊患者中有较好临床价值，尤其适用免疫抑制患者少见病原体或混合感染的检测，也用于肺部弥漫病变中感染与非感染因素的鉴别。\"],\n\"B\": [\"血清学检查。简单快速，廉价；需急性期与恢复期双份血清标本呈现4倍及以上变化才具临床价值，且抗体产生受宿主免疫状态影响，不作为早诊依据。\"],\n\"C\": [\"mNGS技术检测敏感性及特异性高、无偏倚，在疑难、危重、特殊患者中有较好临床价值，尤其适用免疫抑制患者少见病原体或混合感染的检测，也用于肺部弥漫病变中感染与非感染因素的鉴别。\"],\n\"D\": [\"涂片、培养、药敏。直观可靠，敏感性及特异性高。药敏结果可指导抗菌药物使用；但耗时长，技术要求高，受培养方法、抗菌药物使用、标本送检时机等影响。\"]\n       },\n       \"case_facts\": [\n{\"field\": \"case_source_text\", \"quote\": \"呼吸道病毒核酸初筛阴性；痰培养待回报；血培养已留取\"},\n{\"field\": \"case_source_text\", \"quote\": \"免疫检查点抑制剂相关性肺炎（疑似）\"}\n       ],\n       \"closest_alternative\": \"D\",\n       \"decision_boundary\": \"本例已启动经验性抗感染且为免疫抑制状态，常规培养受药物及送检时机影响；mNGS无偏倚且适用免疫抑制患者，故C优于D。\"\n      }\n    },\n    {\n      \"id\": \"Q3\",\n      \"type\": \"治疗决策\",\n      \"phase\": \"CIP后管理\",\n      \"timepoint\": \"CIP缓解后\",\n      \"question\": \"该患者确诊CIP 2级，经激素治疗后症状缓解、影像学改善。关于后续能否重启PD-1抑制剂维持治疗，下列哪项正确？\",\n      \"options\": [\n       \"任何级别CIP发生后均须永久停用所有免疫检查点抑制剂\",\n       \"症状消失后即可立即恢复PD-1抑制剂，无需考虑激素减量情况\",\n       \"肺功能恢复至1级且激素减量至10mg泼尼松当量时可重新启用免疫治疗\",\n       \"应改用CTLA-4抑制剂替代PD-1抑制剂继续免疫治疗\"\n      ],\n      \"answer\": 2,\n      \"answer_text\": \"肺功能恢复至1级且激素减量至10mg泼尼松当量时可重新启用免疫治疗\",\n      \"keyPoint\": \"G2 CIP重启免疫需同时满足恢复至G1及激素≤10mg泼尼松当量两个条件\",\n      \"explain\": {\n       \"A\": \"G1可继续免疫治疗，G2恢复后可重启；仅G3~4需永久停用且重启尚存争议。并非任何级别均须永久停药。\",\n       \"B\": \"重启需同时满足肺功能恢复至1级且激素减量至10mg泼尼松当量两个条件，仅症状消失不足以判定可重启。\",\n       \"C\": \"原病例入院时已暂缓下一周期免疫治疗；本题依据所引证据，G2 CIP缓解后需肺功能恢复至G1且激素≤10mg泼尼松当量方可重新启用PD-1。\",\n       \"D\": \"指南指出若原用CTLA-4抑制剂可改用PD-1/PD-L1，而非PD-1换用CTLA-4。本例原用PD-1，无证据支持换用CTLA-4。\"\n      },\n      \"evidence_id\": \"GB01\",\n      \"support_mode\": \"hard\",\n      \"evidence_summary\": \"CACA中医治疗指南规定G2 CIP恢复至G1且激素≤10mg泼尼松当量时可重启免疫治疗。\",\n      \"verification\": {\n       \"quotes\": {\n\"A\": [\"1级肺毒性可继续免疫治疗；2级肺毒性需暂停免疫治疗并开始激素治疗，待肺功能恢复至1级且激素减量至 \\\\$10\\\\mathrm{mg}\\\\$ 泼尼松当量时可重新启用免疫治疗；3\\\\~4级肺毒性需永久停用免疫治疗并启用较强激素治疗，是否可重启免疫治疗尚存争议。\"],\n\"B\": [\"2级肺毒性需暂停免疫治疗并开始激素治疗，待肺功能恢复至1级且激素减量至 \\\\$10\\\\mathrm{mg}\\\\$ 泼尼松当量时可重新启用免疫治疗\"],\n\"C\": [\"2级肺毒性需暂停免疫治疗并开始激素治疗，待肺功能恢复至1级且激素减量至 \\\\$10\\\\mathrm{mg}\\\\$ 泼尼松当量时可重新启用免疫治疗\"],\n\"D\": [\"如是CTLA-4抑制剂，可改用PD-1或PD-LI抑制剂。\"]\n       },\n       \"case_facts\": [\n{\"field\": \"case_source_text\", \"quote\": \"2024年5月起改为PD-1抑制剂单药维持治疗\"},\n{\"field\": \"case_source_text\", \"quote\": \"暂缓下一周期免疫治疗\"}\n       ],\n       \"closest_alternative\": \"B\",\n       \"decision_boundary\": \"本例为G2 CIP，重启需同时满足恢复至G1且激素≤10mg两个条件；仅症状消失不满足重启标准。\"\n      }\n    },\n    {\n      \"id\": \"Q4\",\n      \"type\": \"分子诊断\",\n      \"phase\": \"初始诊断\",\n      \"timepoint\": \"2024年1月确诊时\",\n      \"question\": \"该患者2024年1月确诊IV期左下肺纯鳞状细胞癌，病历未记载吸烟史。关于初始诊断时是否应常规进行EGFR/ALK等驱动基因检测，下列哪项正确？\",\n      \"options\": [\n       \"所有IV期NSCLC无论组织学类型均须常规进行全套驱动基因检测\",\n       \"纯鳞状细胞癌在任何情况下均不需要进行分子病理检测\",\n       \"不吸烟的鳞癌患者或小的组织标本诊断时，应常规进行驱动基因及PD-L1检测\",\n       \"仅需检测PD-L1表达以指导免疫治疗，无需进行驱动基因检测\"\n      ],\n      \"answer\": 2,\n      \"answer_text\": \"不吸烟的鳞癌患者或小的组织标本诊断时，应常规进行驱动基因及PD-L1检测\",\n      \"keyPoint\": \"IV期鳞癌常规分子检测限于不吸烟者或小标本；吸烟状态未明时应先明确再决定\",\n      \"explain\": {\n       \"A\": \"指南限定常规检测人群为肺腺癌、含腺癌成分NSCLC、小标本或不吸烟鳞癌，并非所有IV期NSCLC不论组织学均须检测。\",\n       \"B\": \"指南明确将不吸烟鳞癌及小标本诊断的鳞癌纳入常规检测适应证，并非任何情况均不需检测。\",\n       \"C\": \"原病例个人史未记载，吸烟状态不明；本题依据所引证据，不吸烟鳞癌或小标本诊断时须常规进行EGFR、ALK、ROS1、RET、MET、BRAF、NTRK、KRAS、HER-2及PD-L1等检测（1类推荐）。\",\n       \"D\": \"指南对适应人群要求同时检测驱动基因及PD-L1，并非仅PD-L1；且驱动基因阳性可能改变治疗策略。\"\n      },\n      \"evidence_id\": \"GA03\",\n      \"support_mode\": \"hard\",\n      \"evidence_summary\": \"IV期肺癌指南2024版规定不吸烟鳞癌或小标本诊断时常规进行驱动基因及PD-L1检测（1类推荐）。\",\n      \"verification\": {\n       \"quotes\": {\n\"A\": [\"对于IV期NSCLC中的肺腺癌、含腺癌成分的其他类型肺癌、小的组织标本诊断或不吸烟的鳞癌患者，应在诊断的同时常规进行EGFR基因突变、ALK融合基因、ROS1基因、RET融合基因、MET基因14号外显子跳跃突变、BRAF基因V600E突变、NTRK融合基因、KRAS基因突变\"],\n\"B\": [\"对于IV期NSCLC中的肺腺癌、含腺癌成分的其他类型肺癌、小的组织标本诊断或不吸烟的鳞癌患者，应在诊断的同时常规进行\"],\n\"C\": [\"对于IV期NSCLC中的肺腺癌、含腺癌成分的其他类型肺癌、小的组织标本诊断或不吸烟的鳞癌患者，应在诊断的同时常规进行EGFR基因突变、ALK融合基因、ROS1基因、RET融合基因、MET基因14号外显子跳跃突变、BRAF基因V600E突变、NTRK融合基因、KRAS基因突变\", \"PD-L1蛋白表达、HER-2蛋白表达等分子检测（1类推荐）。\"],\n\"D\": [\"对于IV期NSCLC中的肺腺癌、含腺癌成分的其他类型肺癌、小的组织标本诊断或不吸烟的鳞癌患者，应在诊断的同时常规进行EGFR基因突变、ALK融合基因、ROS1基因、RET融合基因、MET基因14号外显子跳跃突变、BRAF基因V600E突变、NTRK融合基因、KRAS基因突变\"]\n       },\n       \"case_facts\": [\n{\"field\": \"case_source_text\", \"quote\": \"左下肺鳞状细胞癌，伴锁骨上淋巴结及肝转移\"},\n{\"field\": \"case_source_text\", \"quote\": \"女性，59岁。职业、婚姻状态、籍贯未详。\"}\n       ],\n       \"closest_alternative\": \"A\",\n       \"decision_boundary\": \"本例为纯鳞癌且吸烟史未记载；指南仅将不吸烟鳞癌或小标本纳入常规检测，非所有NSCLC均须检测。\"\n      }\n    },\n    {\n      \"id\": \"Q5\",\n      \"type\": \"不良反应管理\",\n      \"phase\": \"CIP治疗期\",\n      \"timepoint\": \"激素治疗48~72h后\",\n      \"question\": \"该患者按CIP 2级给予糖皮质激素1mg/kg治疗，48~72h后发热、气短无改善，SpO2降至88%。下一步最恰当的处理是？\",\n      \"options\": [\n       \"维持1mg/kg糖皮质激素不变，延长观察至2周后再评估疗效\",\n       \"按G3~G4方案处理，住院给予糖皮质激素2~4mg/kg并经验性抗感染\",\n       \"在现有激素剂量基础上直接加用英夫利昔单抗作为二线免疫抑制\",\n       \"立即恢复PD-1抑制剂并减量至原剂量一半继续维持治疗\"\n      ],\n      \"answer\": 1,\n      \"answer_text\": \"按G3~G4方案处理，住院给予糖皮质激素2~4mg/kg并经验性抗感染\",\n      \"keyPoint\": \"G2 CIP激素治疗48~72h无改善应升级至G3~G4方案（2~4mg/kg+住院+抗感染）\",\n      \"explain\": {\n       \"A\": \"指南明确48~72h为G2疗效评估窗口，无改善即按G3~G4处理；延长至2周不符合升级时机要求。\",\n       \"B\": \"原病例入院时已予低流量吸氧及经验性抗感染；本题依据所引证据，G2治疗48~72h无改善应升级至G3~G4方案，即住院、激素2~4mg/kg并经验性抗感染。\",\n       \"C\": \"升级第一步为增加激素剂量至2~4mg/kg，而非在1mg/kg基础上直接加用英夫利昔单抗；后者为激素无效后的进一步选择。\",\n       \"D\": \"CIP活动期且症状加重时恢复免疫治疗为禁忌；G3~4需考虑永久停用免疫检查点抑制剂。\"\n      },\n      \"evidence_id\": \"GB02\",\n      \"support_mode\": \"hard\",\n      \"evidence_summary\": \"CACA肺脏保护指南规定G2 CIP激素治疗48~72h无改善按G3~G4处理（2~4mg/kg+住院+抗感染）。\",\n      \"verification\": {\n       \"quotes\": {\n\"A\": [\"如治疗 \\\\$48\\\\sim 72\\\\mathrm{h}\\\\$ 后，症状无改善，按G3\\\\~G4治疗。\"],\n\"B\": [\"如治疗 \\\\$48\\\\sim 72\\\\mathrm{h}\\\\$ 后，症状无改善，按G3\\\\~G4治疗。\", \"对G3\\\\~G4患者，需考虑永久停用免疫检查点抑制剂治疗，并住院接受糖皮质激素（ \\\\$2\\\\sim 4\\\\mathrm{mg / kg}\\\\$ ），同时予经验性抗感染治疗。\"],\n\"C\": [\"对G3\\\\~G4患者，需考虑永久停用免疫检查点抑制剂治疗，并住院接受糖皮质激素（ \\\\$2\\\\sim 4\\\\mathrm{mg / kg}\\\\$ ），同时予经验性抗感染治疗。\"],\n\"D\": [\"对G3\\\\~G4患者，需考虑永久停用免疫检查点抑制剂治疗，并住院接受糖皮质激素（ \\\\$2\\\\sim 4\\\\mathrm{mg / kg}\\\\$ ），同时予经验性抗感染治疗。\"]\n       },\n       \"case_facts\": [\n{\"field\": \"case_source_text\", \"quote\": \"暂缓下一周期免疫治疗；给予低流量吸氧；启动经验性抗感染治疗\"},\n{\"field\": \"case_source_text\", \"quote\": \"入院时血氧饱和度92%（空气），呼吸频率22次/分\"}\n       ],\n       \"closest_alternative\": \"A\",\n       \"decision_boundary\": \"本例48~72h后症状无改善且SpO2降至88%，符合升级条件；若症状在48~72h内缓解则维持G2方案继续观察。\"\n      }\n    }\n  ]\n}",
+  "evidence_pool": {
+    "contract_version": "1.2",
+    "publication_schema_version": "1.1",
+    "limits": {
+      "guideline_a_staging": 4,
+      "guideline_a": 6,
+      "guideline_b": 6,
+      "clinical_study_initial": 5,
+      "clinical_study_supplement": 3,
+      "irae_a": 4,
+      "irae_b": 4
+    },
+    "records": [
+      {
+        "evidence_id": "GA01",
+        "lane": "guideline_a",
+        "doc_id": "a269d933-64b1-43b4-a7d5-912020bfa4b0",
+        "split_index": 26,
+        "type": "guideline",
+        "authority": "中国医师协会肿瘤医师分会",
+        "source_title": "IV期原发性肺癌中国治疗指南(2024版)",
+        "source_version": "2024",
+        "source_section": "（六）分子病理检测",
+        "source_url": "",
+        "snippet": "甲醛固定液，避免使用酸性及含有重金属离子的固定液。\n活检组织标本一般固定 \\$6\\sim 24\\mathrm{h}\\$ ，手术切除标本需固定 \\$12\\sim 48\\mathrm{h}\\$ 。\n肿瘤组织切片应由病理医师审阅复核，评估肿瘤细胞含量，必要时在显微镜下定位标出肿瘤组织区域，进行人工切割刮取组织，以保证有足量的肿瘤细胞提取DNA。\n对于肿瘤细胞数量不达标的样本应重新采集。\n进行分子病理检测时，肿瘤组织标本的处理和质量控制均应由有经验的病理科医师负责，所有标本均应在尽量短的时间内进行检测，在进行切片时应有措施避免不同患者病理组织间的交叉污染。\n检测报告单应包括患者的基本个人信息、病历号、病理诊断、标本类型、肿瘤细胞含量（如肿瘤细胞数量或百分比）、检测方法和检测结果，同时标明标本接收日期和报",
+        "raw_snippet": "甲醛固定液，避免使用酸性及含有重金属离子的固定液。活检组织标本一般固定 \\$6\\sim 24\\mathrm{h}\\$ ，手术切除标本需固定 \\$12\\sim 48\\mathrm{h}\\$ 。肿瘤组织切片应由病理医师审阅复核，评估肿瘤细胞含量，必要时在显微镜下定位标出肿瘤组织区域，进行人工切割刮取组织，以保证有足量的肿瘤细胞提取DNA。对于肿瘤细胞数量不达标的样本应重新采集。进行分子病理检测时，肿瘤组织标本的处理和质量控制均应由有经验的病理科医师负责，所有标本均应在尽量短的时间内进行检测，在进行切片时应有措施避免不同患者病理组织间的交叉污染。检测报告单应包括患者的基本个人信息、病历号、病理诊断、标本类型、肿瘤细胞含量（如肿瘤细胞数量或百分比）、检测方法和检测结果，同时标明标本接收日期和报",
+        "hard_evidence_type": "指南",
+        "reasoning_eligible": true,
+        "eligibility_class": "hard",
+        "scope_index": {
+          "kind": "literal_terms_not_applicability_verdict",
+          "matched_terms": [
+            "必要时"
+          ],
+          "has_footnote_markers": false,
+          "has_nonrandom_design_terms": false
+        }
+      },
+      {
+        "evidence_id": "GA02",
+        "lane": "guideline_a",
+        "doc_id": "f51ad2ef-8e21-42f9-bfd1-f2ed36512587",
+        "split_index": 219,
+        "type": "guideline",
+        "authority": "CACA",
+        "source_title": "中国肿瘤整合诊治技术指南（CACA） 病理诊断",
+        "source_version": "2023",
+        "source_section": "二、病理技术局限性",
+        "source_url": "",
+        "snippet": "在形态分析基础上，正确判断何种细胞成分表达何种抗原，需熟悉各种抗体的反应谱系和适用范围，避免片面或错误解读阳性结果。\n分子病理检测技术方法和平台的多样性会影响淋巴瘤相关分子检测的结果，如NGS、qPCR、FISH、IHC等各检测平台均存在假阳性率和假阴性率，需要通过检测策略优化，结合形态学，免疫表型，分子遗传学改变（必要时）和临床表现进行综合分析与判断。",
+        "raw_snippet": "在形态分析基础上，正确判断何种细胞成分表达何种抗原，需熟悉各种抗体的反应谱系和适用范围，避免片面或错误解读阳性结果。分子病理检测技术方法和平台的多样性会影响淋巴瘤相关分子检测的结果，如NGS、qPCR、FISH、IHC等各检测平台均存在假阳性率和假阴性率，需要通过检测策略优化，结合形态学，免疫表型，分子遗传学改变（必要时）和临床表现进行综合分析与判断。",
+        "hard_evidence_type": "指南",
+        "reasoning_eligible": true,
+        "eligibility_class": "hard",
+        "scope_index": {
+          "kind": "literal_terms_not_applicability_verdict",
+          "matched_terms": [
+            "必要时"
+          ],
+          "has_footnote_markers": false,
+          "has_nonrandom_design_terms": false
+        }
+      },
+      {
+        "evidence_id": "GA03",
+        "lane": "guideline_a",
+        "doc_id": "a269d933-64b1-43b4-a7d5-912020bfa4b0",
+        "split_index": 25,
+        "type": "guideline",
+        "authority": "中国医师协会肿瘤医师分会",
+        "source_title": "IV期原发性肺癌中国治疗指南(2024版)",
+        "source_version": "2024",
+        "source_section": "（六）分子病理检测",
+        "source_url": "",
+        "snippet": "对于IV期NSCLC中的肺腺癌、含腺癌成分的其他类型肺癌、小的组织标本诊断或不吸烟的鳞癌患者，应在诊断的同时常规进行EGFR基因突变、ALK融合基因、ROS1基因、RET融合基因、MET基因14号外显子跳跃突变、BRAF基因V600E突变、NTRK融合基因、KRAS基因突变、人表皮生长因子受体2（human epidermal growth factor receptor- 2，HER- 2）基因突变、MET基因扩增、PD- L1蛋白表达、HER- 2蛋白表达等分子检测（1类推荐）。\n有条件的患者建议进行二代基因测序（next generation sequencing，NGS）检测，NGS技术可以一次性进行多个基因变异的同时检测。\n手术切除和活检的组织标本是常见的用于基因变异检测的标本类型，建议优先选择组织标本进行检测，规范处理的组织标本可以满足检测要求。\n原发灶和转移灶的组织标本均可用于基因变异检测，细胞学标本也可以用于基因变异检测。\n无论采用哪种标本类型，均应保证足够的肿瘤细胞数量，尽量排除非肿瘤组织和细胞。\n石蜡组织切片厚度一般为 \\$(5\\pm 1)\\mu \\mathrm{m}\\$ 。\n应规范不同标本的处理方法，组织标本的固定应使用 \\$4\\%\\$ 甲醛固定液，避免使用酸性及含有重金属离子的固定液。\n活检组织标本一般固定 \\$6\\sim 24\\mathrm{h}\\$ ，手术切除标本需固定 \\$12\\sim 48\\mathrm{h}\\$",
+        "raw_snippet": "对于IV期NSCLC中的肺腺癌、含腺癌成分的其他类型肺癌、小的组织标本诊断或不吸烟的鳞癌患者，应在诊断的同时常规进行EGFR基因突变、ALK融合基因、ROS1基因、RET融合基因、MET基因14号外显子跳跃突变、BRAF基因V600E突变、NTRK融合基因、KRAS基因突变、人表皮生长因子受体2（human epidermal growth factor receptor- 2，HER- 2）基因突变、MET基因扩增、PD- L1蛋白表达、HER- 2蛋白表达等分子检测（1类推荐）。有条件的患者建议进行二代基因测序（next generation sequencing，NGS）检测，NGS技术可以一次性进行多个基因变异的同时检测。手术切除和活检的组织标本是常见的用于基因变异检测的标本类型，建议优先选择组织标本进行检测，规范处理的组织标本可以满足检测要求。原发灶和转移灶的组织标本均可用于基因变异检测，细胞学标本也可以用于基因变异检测。无论采用哪种标本类型，均应保证足够的肿瘤细胞数量，尽量排除非肿瘤组织和细胞。石蜡组织切片厚度一般为 \\$(5\\pm 1)\\mu \\mathrm{m}\\$ 。应规范不同标本的处理方法，组织标本的固定应使用 \\$4\\%\\$ 甲醛固定液，避免使用酸性及含有重金属离子的固定液。活检组织标本一般固定 \\$6\\sim 24\\mathrm{h}\\$ ，手术切除标本需固定 \\$12\\sim 48\\mathrm{h}\\$",
+        "hard_evidence_type": "指南",
+        "reasoning_eligible": true,
+        "eligibility_class": "hard",
+        "scope_index": {
+          "kind": "literal_terms_not_applicability_verdict",
+          "matched_terms": [
+            "转移"
+          ],
+          "has_footnote_markers": false,
+          "has_nonrandom_design_terms": false
+        }
+      },
+      {
+        "evidence_id": "GA04",
+        "lane": "guideline_a",
+        "doc_id": "0e599051-2541-4dd3-bb73-c21689397c9a",
+        "split_index": 49,
+        "type": "guideline",
+        "authority": "中华医学会肿瘤学分会",
+        "source_title": "中华医学会肺癌临床诊疗指南(2025版)",
+        "source_version": "2025",
+        "source_section": "（一）病理学评估",
+        "source_url": "",
+        "snippet": "病理学评估的目的在于明确病变性质并为临床病理分期提供相关信息，同时还包括分子检测标本的质量控制。\n病理学评估标本类型包括细胞学标本、活检标本、手术切除标本及拟进行分子检测的其他标本[63]。\n1. 细胞学标本或活检标本：（1）依据2021年版\nWHO分类诊断[64- 65]，病理诊断同时尽可能保留足够标本进行分子生物学和免疫治疗相关检测（1类推荐证据）。\n（2）治疗后疾病进展的患者再次活检时，在明确组织类型前提下，根据诊治需求做相应的分子病理检测和免疫治疗相关检测（2A类推荐证据）。\n（3）争取明确组织亚型，当标本无明显分化或表型特征时才可诊断非小细胞癌非特指型（non- small cell carcinoma- not otherwise specified，NSCC- NOS；\n2A类推荐证据）。\n（4）对于细胞学标本，尽可能同时制作细胞蜡块（2B类推荐证据）",
+        "raw_snippet": "病理学评估的目的在于明确病变性质并为临床病理分期提供相关信息，同时还包括分子检测标本的质量控制。病理学评估标本类型包括细胞学标本、活检标本、手术切除标本及拟进行分子检测的其他标本[63]。\n1. 细胞学标本或活检标本：（1）依据2021年版\n \nWHO分类诊断[64- 65]，病理诊断同时尽可能保留足够标本进行分子生物学和免疫治疗相关检测（1类推荐证据）。（2）治疗后疾病进展的患者再次活检时，在明确组织类型前提下，根据诊治需求做相应的分子病理检测和免疫治疗相关检测（2A类推荐证据）。（3）争取明确组织亚型，当标本无明显分化或表型特征时才可诊断非小细胞癌非特指型（non- small cell carcinoma- not otherwise specified，NSCC- NOS；2A类推荐证据）。（4）对于细胞学标本，尽可能同时制作细胞蜡块（2B类推荐证据）",
+        "hard_evidence_type": "指南",
+        "reasoning_eligible": true,
+        "eligibility_class": "hard",
+        "scope_index": {
+          "kind": "literal_terms_not_applicability_verdict",
+          "matched_terms": [
+            "再次"
+          ],
+          "has_footnote_markers": false,
+          "has_nonrandom_design_terms": false
+        }
+      },
+      {
+        "evidence_id": "GA05",
+        "lane": "guideline_a",
+        "doc_id": "2fe10ce2-1058-4e82-a610-24e151ef01eb",
+        "split_index": 48,
+        "type": "guideline",
+        "authority": "中华医学会肿瘤学分会",
+        "source_title": "中华医学会肿瘤学分会肺癌临床诊疗指南（2026 版）",
+        "source_version": "2026",
+        "source_section": "中华医学会肿瘤学分会肺癌临床诊疗指南（2026版）",
+        "source_url": "",
+        "snippet": "病理学评估的目的在于明确病变性质，并为临床病理分期提供相关信息。\n同时，应对分子检测标\n本进行质量控制。\n病理学评估标本类型包括细胞学标本、活检标本、手术切除标本及拟进行分子检测的其他标本。\n1. 细胞学标本或活检标本：（1）依据2021年版WHO分类诊断标准，病理诊断同时尽可能保留足够标本进行分子生物学和免疫治疗相关检测（1类推荐证据）。\n（2）治疗后疾病进展的患者再次活检时，在明确组织类型前提下，根据诊治需求做相应的分子病理检测和免疫治疗相关检测（2A类推荐证据）。\n（3）应尽可能明确组织学亚型，当标本无明显分化或表型特征时才可诊断非小细胞癌非特指型（non-small cell carcinoma-not otherwise specified，NSCC-NOS；\n2A类推荐证据）。\n（4）对于细胞学标本，尽可能同时制作细胞蜡块（2B类推荐证据）。",
+        "raw_snippet": "病理学评估的目的在于明确病变性质，并为临床病理分期提供相关信息。同时，应对分子检测标\n本进行质量控制。病理学评估标本类型包括细胞学标本、活检标本、手术切除标本及拟进行分子检测的其他标本。\n1. 细胞学标本或活检标本：（1）依据2021年版WHO分类诊断标准，病理诊断同时尽可能保留足够标本进行分子生物学和免疫治疗相关检测（1类推荐证据）。（2）治疗后疾病进展的患者再次活检时，在明确组织类型前提下，根据诊治需求做相应的分子病理检测和免疫治疗相关检测（2A类推荐证据）。（3）应尽可能明确组织学亚型，当标本无明显分化或表型特征时才可诊断非小细胞癌非特指型（non-small cell carcinoma-not otherwise specified，NSCC-NOS；2A类推荐证据）。（4）对于细胞学标本，尽可能同时制作细胞蜡块（2B类推荐证据）。",
+        "hard_evidence_type": "指南",
+        "reasoning_eligible": true,
+        "eligibility_class": "hard",
+        "scope_index": {
+          "kind": "literal_terms_not_applicability_verdict",
+          "matched_terms": [
+            "再次"
+          ],
+          "has_footnote_markers": false,
+          "has_nonrandom_design_terms": false
+        }
+      },
+      {
+        "evidence_id": "GA06",
+        "lane": "guideline_a",
+        "doc_id": "20671b05-8bf1-405a-8631-281aa5771539",
+        "split_index": 51,
+        "type": "guideline",
+        "authority": "CACA",
+        "source_title": "中国肿瘤整合诊治技术指南（CACA）——肺脏保护",
+        "source_version": "2023",
+        "source_section": "2.主要病原学检测",
+        "source_url": "",
+        "snippet": "（1）涂片、培养、药敏。\n直观可靠，敏感性及特异性高。\n药敏结果可指导抗菌药物使用；\n但耗时长，技术要求高，受培养方法、抗菌药物使用、标本送检时机等影响。\n（2）血清学检查。\n简单快速，廉价；\n需急性期与恢复期双份血清标本呈现4倍及以上变化才具临床价值，且抗体产生受宿主免疫状态影响，不作为早诊依据。\n（3）分子诊断技术。\nPCR技术、宏基因组二代测序技术（mNGS）、基因芯片技术。\nmNGS技术检测敏感性及特异性高、无偏倚，在疑难、危重、特殊患者中有较好临床价值，尤其适用免疫抑制患者少见病原体或混合\n感染的检测，也用于肺部弥漫病变中感染与非感染因素的鉴别。",
+        "raw_snippet": "（1）涂片、培养、药敏。直观可靠，敏感性及特异性高。药敏结果可指导抗菌药物使用；但耗时长，技术要求高，受培养方法、抗菌药物使用、标本送检时机等影响。  \n（2）血清学检查。简单快速，廉价；需急性期与恢复期双份血清标本呈现4倍及以上变化才具临床价值，且抗体产生受宿主免疫状态影响，不作为早诊依据。  \n（3）分子诊断技术。PCR技术、宏基因组二代测序技术（mNGS）、基因芯片技术。mNGS技术检测敏感性及特异性高、无偏倚，在疑难、危重、特殊患者中有较好临床价值，尤其适用免疫抑制患者少见病原体或混合  \n   \n感染的检测，也用于肺部弥漫病变中感染与非感染因素的鉴别。",
+        "hard_evidence_type": "指南",
+        "reasoning_eligible": true,
+        "eligibility_class": "hard",
+        "scope_index": {
+          "kind": "literal_terms_not_applicability_verdict",
+          "matched_terms": [],
+          "has_footnote_markers": false,
+          "has_nonrandom_design_terms": false
+        }
+      },
+      {
+        "evidence_id": "GB01",
+        "lane": "guideline_b",
+        "doc_id": "7b7a49e7-2340-4990-b42a-509a0dcde1ee",
+        "split_index": 159,
+        "type": "guideline",
+        "authority": "CACA",
+        "source_title": "中国肿瘤整合诊治技术指南（CACA） 中医治疗",
+        "source_version": "2023",
+        "source_section": "（二）扶——免疫相关性肺炎的控症治疗",
+        "source_url": "",
+        "snippet": "CIP治疗包括停止免疫治疗和药物干预，具体措施需根据肺毒性程度分级而定。\n1级肺毒性可继续免疫治疗；\n2级肺毒性需暂停免疫治疗并开始激素治疗，待肺功能恢复至1级且激素减量至 \\$10\\mathrm{mg}\\$ 泼尼松当量时可重新启用免疫治疗；\n3\\~4级肺毒性需永久停用免疫治疗并启用较强激素治疗，是否可重启免疫治疗尚存争议。\n如是CTLA- 4抑制剂，可改用PD- 1或PD- LI抑制剂。",
+        "raw_snippet": "CIP治疗包括停止免疫治疗和药物干预，具体措施需根据肺毒性程度分级而定。1级肺毒性可继续免疫治疗；2级肺毒性需暂停免疫治疗并开始激素治疗，待肺功能恢复至1级且激素减量至 \\$10\\mathrm{mg}\\$ 泼尼松当量时可重新启用免疫治疗；3\\~4级肺毒性需永久停用免疫治疗并启用较强激素治疗，是否可重启免疫治疗尚存争议。如是CTLA- 4抑制剂，可改用PD- 1或PD- LI抑制剂。",
+        "hard_evidence_type": "指南",
+        "reasoning_eligible": true,
+        "eligibility_class": "hard",
+        "scope_index": {
+          "kind": "literal_terms_not_applicability_verdict",
+          "matched_terms": [],
+          "has_footnote_markers": false,
+          "has_nonrandom_design_terms": false
+        }
+      },
+      {
+        "evidence_id": "GB02",
+        "lane": "guideline_b",
+        "doc_id": "20671b05-8bf1-405a-8631-281aa5771539",
+        "split_index": 188,
+        "type": "guideline",
+        "authority": "CACA",
+        "source_title": "中国肿瘤整合诊治技术指南（CACA）——肺脏保护",
+        "source_version": "2023",
+        "source_section": "（五）免疫治疗相关肺损伤的治疗",
+        "source_url": "",
+        "snippet": "CIP的治疗主要依据CTCAE（Common Terminology Criteria for Adverse Events）分级。\n1级（G1）：无症状，病变局限于单个肺叶或 \\$ 50\\%\\$ 肺实质，需吸氧。\n4级（G4）：危及生命的呼吸衰竭，病变累及所有肺\n叶或 \\$>50\\%\\$ 肺实质。\n5级（G5）：所有与呼吸相关的死亡。\nG1患者，暂缓免疫治疗，密切监测血氧饱和度，观察有无新发相关症状，并在2\\~3周后复查胸部CT。\n如影像学缓解，可恢复免疫治疗，同时密切随访。\n如出现新发呼吸系统症状或影像学进展，则开始糖皮质激素治疗。\n如复查影像学无改变，可考虑继续治疗并密切随访直至出现新症状。\n对G2患者，暂缓免疫治疗，给予口服或静脉糖皮质激素（ \\$1\\mathrm{mg / kg}\\$ ）。\n如果症状缓解，2\\~3周后复查胸部CT，糖皮质激素可在6周内减停。\n治疗后CIP若缓解至G1，可继续免疫治疗。\n如治疗 \\$48\\sim 72\\mathrm{h}\\$ 后，症状无改善，按G3\\~G4治疗。\n对G3\\~G4患者，需考虑永久停用免疫检查点抑制剂治疗，并住院接受糖皮质激素（ \\$2\\sim 4\\mathrm{mg / kg}\\$ ），同时予经验性抗感染治疗。\n对治疗 \\$48\\sim 72\\mathrm{h}\\$ 后，症状逐渐缓解者，糖皮质激素可减量至 \\$1\\mathrm{mg / kg}\\$ ，后续规律减量，8周内可减停激素，减量速度要根据患者临床症状和影像学变化，以及是否出现其他系统irAE等情况而定。\n如治疗 \\$48\\sim 72\\mathrm{h}\\$ 后，症状无改善，可考虑用以下\n药物。",
+        "raw_snippet": "CIP的治疗主要依据CTCAE（Common Terminology Criteria for Adverse Events）分级。  \n1级（G1）：无症状，病变局限于单个肺叶或 \\$< 25\\%\\$ 的肺实质。  \n2级（G2）：有轻度症状，病变累及多个肺叶，且达 \\$25\\% \\sim 50\\%\\$ 肺实质。  \n3级（G3）：有严重症状，自理能力受限，病变累及所有肺叶或 \\$>50\\%\\$ 肺实质，需吸氧。  \n4级（G4）：危及生命的呼吸衰竭，病变累及所有肺  \n   \n叶或 \\$>50\\%\\$ 肺实质。  \n5级（G5）：所有与呼吸相关的死亡。  \nG1患者，暂缓免疫治疗，密切监测血氧饱和度，观察有无新发相关症状，并在2\\~3周后复查胸部CT。如影像学缓解，可恢复免疫治疗，同时密切随访。如出现新发呼吸系统症状或影像学进展，则开始糖皮质激素治疗。如复查影像学无改变，可考虑继续治疗并密切随访直至出现新症状。  \n对G2患者，暂缓免疫治疗，给予口服或静脉糖皮质激素（ \\$1\\mathrm{mg / kg}\\$ ）。如果症状缓解，2\\~3周后复查胸部CT，糖皮质激素可在6周内减停。治疗后CIP若缓解至G1，可继续免疫治疗。如治疗 \\$48\\sim 72\\mathrm{h}\\$ 后，症状无改善，按G3\\~G4治疗。  \n对G3\\~G4患者，需考虑永久停用免疫检查点抑制剂治疗，并住院接受糖皮质激素（ \\$2\\sim 4\\mathrm{mg / kg}\\$ ），同时予经验性抗感染治疗。对治疗 \\$48\\sim 72\\mathrm{h}\\$ 后，症状逐渐缓解者，糖皮质激素可减量至 \\$1\\mathrm{mg / kg}\\$ ，后续规律减量，8周内可减停激素，减量速度要根据患者临床症状和影像学变化，以及是否出现其他系统irAE等情况而定。  \n如治疗 \\$48\\sim 72\\mathrm{h}\\$ 后，症状无改善，可考虑用以下  \n   \n药物。",
+        "hard_evidence_type": "指南",
+        "reasoning_eligible": true,
+        "eligibility_class": "hard",
+        "scope_index": {
+          "kind": "literal_terms_not_applicability_verdict",
+          "matched_terms": [
+            "可考虑"
+          ],
+          "has_footnote_markers": false,
+          "has_nonrandom_design_terms": false
+        }
+      },
+      {
+        "evidence_id": "GB03",
+        "lane": "guideline_b",
+        "doc_id": "c85901dd-d5df-42b9-b6c0-6c73dcf424e3",
+        "split_index": 24,
+        "type": "guideline",
+        "authority": "CSCO",
+        "source_title": "肝细胞癌免疫联合治疗多学科中国专家共识(2023版)",
+        "source_version": "2023",
+        "source_section": "（二）免疫治疗二线及后线方案",
+        "source_url": "",
+        "snippet": "推荐意见3：各肝癌指南对于二线以后的治疗策略仍缺乏明确推荐，需区别对待疾病进展方式、一线和二线具体方案构成，在MDT模式下按照肝癌不同治疗方式的协同机制合理选择后线治疗策略（专家共识度 \\$100\\%\\$ ）。",
+        "raw_snippet": "推荐意见3：各肝癌指南对于二线以后的治疗策略仍缺乏明确推荐，需区别对待疾病进展方式、一线和二线具体方案构成，在MDT模式下按照肝癌不同治疗方式的协同机制合理选择后线治疗策略（专家共识度 \\$100\\%\\$ ）。",
+        "hard_evidence_type": "指南",
+        "reasoning_eligible": true,
+        "eligibility_class": "hard",
+        "scope_index": {
+          "kind": "literal_terms_not_applicability_verdict",
+          "matched_terms": [],
+          "has_footnote_markers": false,
+          "has_nonrandom_design_terms": false
+        }
+      },
+      {
+        "evidence_id": "GB04",
+        "lane": "guideline_b",
+        "doc_id": "c85901dd-d5df-42b9-b6c0-6c73dcf424e3",
+        "split_index": 21,
+        "type": "guideline",
+        "authority": "CSCO",
+        "source_title": "肝细胞癌免疫联合治疗多学科中国专家共识(2023版)",
+        "source_version": "2023",
+        "source_section": "（二）免疫治疗二线及后线方案",
+        "source_url": "",
+        "snippet": "注：CTLA-4为细胞毒性T淋巴细胞相关抗原4；\nN为纳武利尤单克隆抗体；\nI为伊匹木单克隆抗体；\nNR为未达到；\n“-”为此项无；\nPD-1为程序性死亡蛋白-1；\nPD-L1为程序性死亡蛋白配体-1；\nRECIST1.1为实体肿瘤疗效评估标准1.1；\nmRECIST为改良实体肿瘤疗效评估标准\n的疗效甚至出现超进展的情况，对于这部分患者，应调整治疗思路，但超进展患者后续应避免ICIs治疗，更换其他方案。\n既往接受ICIs联合TKI方案的患者可考虑选择系统化疗；\n既往接受ICIs联合抗血管生成治疗药物的患者可考虑使用仑伐替尼或瑞戈非尼。\n对于缓慢进展的病例，建议根据治疗后进展的方式区别对待：（1)肝外病灶稳定，仅肝内病灶进展，建议针对肝内病灶行局部治疗，如TACE、HAIC、射频消融等。\n（2)肝内出现新病灶或肝外病",
+        "raw_snippet": "注：CTLA-4为细胞毒性T淋巴细胞相关抗原4；N为纳武利尤单克隆抗体；I为伊匹木单克隆抗体；NR为未达到；“-”为此项无；PD-1为程序性死亡蛋白-1；PD-L1为程序性死亡蛋白配体-1；RECIST1.1为实体肿瘤疗效评估标准1.1；mRECIST为改良实体肿瘤疗效评估标准\n的疗效甚至出现超进展的情况，对于这部分患者，应调整治疗思路，但超进展患者后续应避免ICIs治疗，更换其他方案。既往接受ICIs联合TKI方案的患者可考虑选择系统化疗；既往接受ICIs联合抗血管生成治疗药物的患者可考虑使用仑伐替尼或瑞戈非尼。对于缓慢进展的病例，建议根据治疗后进展的方式区别对待：（1)肝外病灶稳定，仅肝内病灶进展，建议针对肝内病灶行局部治疗，如TACE、HAIC、射频消融等。（2)肝内出现新病灶或肝外病",
+        "hard_evidence_type": "指南",
+        "reasoning_eligible": true,
+        "eligibility_class": "hard",
+        "scope_index": {
+          "kind": "literal_terms_not_applicability_verdict",
+          "matched_terms": [
+            "可考虑"
+          ],
+          "has_footnote_markers": false,
+          "has_nonrandom_design_terms": false
+        }
+      },
+      {
+        "evidence_id": "IR01",
+        "lane": "irae_a",
+        "doc_id": "5e95c35f-c592-49c9-9989-155ad4df7a36",
+        "split_index": 33,
+        "type": "guideline",
+        "authority": "中华医学会呼吸病学分会",
+        "source_title": "老年肺炎临床诊断与治疗专家共识(2024年版)",
+        "source_version": "2024",
+        "source_section": "三、治疗",
+        "source_url": "",
+        "snippet": "注：CAP：社区获得性肺炎；\nHAP：医院获得性肺炎；\nMDR：多重耐药；\nXDR：广泛耐药；\n氨基糖苷类药物仅用于联合治疗；\n头孢菌素类：第二代（头孢呋辛、头孢克洛、头孢丙烯等），第三代（头孢曲松、头孢噻、头孢他啶、头孢地尼、头孢克、头孢吡、第四代（头孢吡、头孢噻利等）；\nβ- 内酰胺类/酶抑制剂合剂：哌拉西林/他唑巴坦、阿莫西林/克拉维酸、氨苄西林/舒巴坦、头孢哌酮/舒巴坦、头孢他啶/阿维巴坦等；\n非典型β-",
+        "raw_snippet": "注：CAP：社区获得性肺炎；HAP：医院获得性肺炎；MDR：多重耐药；XDR：广泛耐药；氨基糖苷类药物仅用于联合治疗；头孢菌素类：第二代（头孢呋辛、头孢克洛、头孢丙烯等），第三代（头孢曲松、头孢噻、头孢他啶、头孢地尼、头孢克、头孢吡、第四代（头孢吡、头孢噻利等）；β- 内酰胺类/酶抑制剂合剂：哌拉西林/他唑巴坦、阿莫西林/克拉维酸、氨苄西林/舒巴坦、头孢哌酮/舒巴坦、头孢他啶/阿维巴坦等；非典型β-",
+        "hard_evidence_type": "指南",
+        "reasoning_eligible": true,
+        "eligibility_class": "hard",
+        "scope_index": {
+          "kind": "literal_terms_not_applicability_verdict",
+          "matched_terms": [],
+          "has_footnote_markers": false,
+          "has_nonrandom_design_terms": false
+        }
+      },
+      {
+        "evidence_id": "IR02",
+        "lane": "irae_a",
+        "doc_id": "3764e742-b756-4f35-8a4d-4597459dea9c",
+        "split_index": 7,
+        "type": "guideline",
+        "authority": "中华医学会儿科学分会呼吸学组",
+        "source_title": "儿童社区获得性肺炎管理指南(2024修订)",
+        "source_version": "2024",
+        "source_section": "三、临床特征",
+        "source_url": "",
+        "snippet": "证据质量等级 证据来源 描述 高(A) 多项RCT 证据来源于多项设计良好，且采用终点指标的RCT，多项RCT没有任何严重局限性，且针对拟推荐人群能提供一致的研究结果 大量的，没有明显局限性或偏倚的高质量研究 两项及以上样本量足够大的临床试验提供的高质量证据，或一项没有任何偏倚，样本量足够大的高质量RCT研究 中(B) 有多项具有严重局限性的RCT 证据来源于患者样本量有限的RCT，RCT的亚组分析或事后分析，或基于RCT的Meta分析 有限的证据 几乎没有RCT或有一些存在明显的重大缺陷的RCT，如方法学错误、样本量小、持续时间短、研究人群与拟推荐目标人群不一致，或不同研究的结果间存在不一致 低(C) 非随机试验或观察性研究 证据来源于未设立对照或非实施随机化的临床试验或观察性研究 极低(D) 专家小组共识 专家一致认为有价值，但阐述这一问题的临床研究文献并不充分；\n基于临床经验或知识达成的小组共识，但这些共识缺乏满足上述标准的证据",
+        "raw_snippet": "<table><tr><td>证据质量等级</td><td>证据来源</td><td>描述</td></tr><tr><td>高(A)</td><td>多项RCT</td><td>证据来源于多项设计良好，且采用终点指标的RCT，多项RCT没有任何严重局限性，且针对拟推荐人群能提供一致的研究结果</td></tr><tr><td></td><td>大量的，没有明显局限性或偏倚的高质量研究</td><td>两项及以上样本量足够大的临床试验提供的高质量证据，或一项没有任何偏倚，样本量足够大的高质量RCT研究</td></tr><tr><td>中(B)</td><td>有多项具有严重局限性的RCT</td><td>证据来源于患者样本量有限的RCT，RCT的亚组分析或事后分析，或基于RCT的Meta分析</td></tr><tr><td></td><td>有限的证据</td><td>几乎没有RCT或有一些存在明显的重大缺陷的RCT，如方法学错误、样本量小、持续时间短、研究人群与拟推荐目标人群不一致，或不同研究的结果间存在不一致</td></tr><tr><td>低(C)</td><td>非随机试验或观察性研究</td><td>证据来源于未设立对照或非实施随机化的临床试验或观察性研究</td></tr><tr><td>极低(D)</td><td>专家小组共识</td><td>专家一致认为有价值，但阐述这一问题的临床研究文献并不充分；基于临床经验或知识达成的小组共识，但这些共识缺乏满足上述标准的证据</td></tr></table>",
+        "hard_evidence_type": "指南",
+        "reasoning_eligible": true,
+        "eligibility_class": "hard",
+        "scope_index": {
+          "kind": "literal_terms_not_applicability_verdict",
+          "matched_terms": [],
+          "has_footnote_markers": false,
+          "has_nonrandom_design_terms": false
+        }
+      },
+      {
+        "evidence_id": "IR03",
+        "lane": "irae_a",
+        "doc_id": "5e95c35f-c592-49c9-9989-155ad4df7a36",
+        "split_index": 58,
+        "type": "guideline",
+        "authority": "中华医学会呼吸病学分会",
+        "source_title": "老年肺炎临床诊断与治疗专家共识(2024年版)",
+        "source_version": "2024",
+        "source_section": "参考文献",
+        "source_url": "",
+        "snippet": "中华结核和呼吸杂志, 2018, 41(4): 255- 280. DOI: 10.3760/cma.j.issn.1001- 0939.2018.04.006. [73] Sharifzadeh S, Mohammadpour AH, Tavanaee A, et al. Antibacterial antibiotic- induced drug reaction with eosinophilia and systemic symptoms (DRESS) syndrome: a literature review[J]. Eur J Clin Pharmacol, 2021, 77(3): 275- 289. DOI: 10.1007/s00228- 020- 03005- 9. [74] 中国康复医学会重症康复专业委员会呼吸重症康复学组, 中国老年保健医学研究会老龄健康服务与标准化分会, 中国老年保健医学》杂志编辑委员会, 等. 中国呼吸重症康复治疗技术专家共识[J]. 中国老年保健医学, 2018, 16(5):",
+        "raw_snippet": "中华结核和呼吸杂志, 2018, 41(4): 255- 280. DOI: 10.3760/cma.j.issn.1001- 0939.2018.04.006. [73] Sharifzadeh S, Mohammadpour AH, Tavanaee A, et al. Antibacterial antibiotic- induced drug reaction with eosinophilia and systemic symptoms (DRESS) syndrome: a literature review[J]. Eur J Clin Pharmacol, 2021, 77(3): 275- 289. DOI: 10.1007/s00228- 020- 03005- 9. [74] 中国康复医学会重症康复专业委员会呼吸重症康复学组, 中国老年保健医学研究会老龄健康服务与标准化分会, 中国老年保健医学》杂志编辑委员会, 等. 中国呼吸重症康复治疗技术专家共识[J]. 中国老年保健医学, 2018, 16(5):",
+        "hard_evidence_type": "指南",
+        "reasoning_eligible": true,
+        "eligibility_class": "hard",
+        "scope_index": {
+          "kind": "literal_terms_not_applicability_verdict",
+          "matched_terms": [],
+          "has_footnote_markers": false,
+          "has_nonrandom_design_terms": false
+        }
+      },
+      {
+        "evidence_id": "IR04",
+        "lane": "irae_b",
+        "doc_id": "41fb7310-fdcc-4104-a57d-dd8ca4da9794",
+        "split_index": 29,
+        "type": "guideline",
+        "authority": "CSCO",
+        "source_title": "影像引导下肿瘤热消融治疗镇痛专家共识（2022年版）",
+        "source_version": "2022",
+        "source_section": "（一）低氧血症处理",
+        "source_url": "",
+        "snippet": "无论是麻醉下消融过程中还是在PACU患者均容易发生低氧血症，需紧急处理[43- 44]。\n常见处理包括：（1）气管插管人工通气，迅速纠正存在的低氧状态；\n（2）大多数患者低氧血症的同时存在严重的高碳酸血症，应该在过度通气的同时，行血气分析\n和电解质检测，及时纠正可能存在的酸碱失衡和电解质紊乱；\n（3）适时进行脑复苏处理：缺氧后脑损伤是非常严重的并发症，无论是低氧血症、高碳酸血症还是低血压休克或者循环骤停，均可以引起脑损伤。\n所以，一旦出现低氧血症，应该紧急使用糖皮质激素如醋酸泼尼松龙或者地塞米松注射液迅速稳定受损的细胞膜，防止脑水肿；\n查看瞳孔是否正常，必要时给予甘露醇脱水治疗。",
+        "raw_snippet": "无论是麻醉下消融过程中还是在PACU患者均容易发生低氧血症，需紧急处理[43- 44]。常见处理包括：（1）气管插管人工通气，迅速纠正存在的低氧状态；（2）大多数患者低氧血症的同时存在严重的高碳酸血症，应该在过度通气的同时，行血气分析  \n和电解质检测，及时纠正可能存在的酸碱失衡和电解质紊乱；（3）适时进行脑复苏处理：缺氧后脑损伤是非常严重的并发症，无论是低氧血症、高碳酸血症还是低血压休克或者循环骤停，均可以引起脑损伤。所以，一旦出现低氧血症，应该紧急使用糖皮质激素如醋酸泼尼松龙或者地塞米松注射液迅速稳定受损的细胞膜，防止脑水肿；查看瞳孔是否正常，必要时给予甘露醇脱水治疗。",
+        "hard_evidence_type": "指南",
+        "reasoning_eligible": true,
+        "eligibility_class": "hard",
+        "scope_index": {
+          "kind": "literal_terms_not_applicability_verdict",
+          "matched_terms": [
+            "必要时"
+          ],
+          "has_footnote_markers": false,
+          "has_nonrandom_design_terms": false
+        }
+      },
+      {
+        "evidence_id": "IR05",
+        "lane": "irae_b",
+        "doc_id": "a9b09bbb-e233-45fc-9bed-e6216e3ea0d0",
+        "split_index": 1029,
+        "type": "guideline",
+        "authority": "中华医学会儿科学分会罕见病学组",
+        "source_title": "86 个罕见病病种诊疗指南 (2025 年版)",
+        "source_version": "2025",
+        "source_section": "1.严重程度评估",
+        "source_url": "",
+        "snippet": "（1）低氧血症严重程度氧合指数(oxygenation index, OI)用于评估低氧血症严重程度，这可反映右向左分流程度。\nOI可指导采取干预措施的时机，如吸入一氧化氮（iNO)或ECMO支持。\nOI根据吸入氧分数(fraction of inspired oxygen, \\$\\mathrm{FiO_2}\\$ )、平均气道压(meanairway pressure, MAP)和动脉血氧分压(arterial partial pressure of oxygen, \\$\\mathrm{PaO_2}\\$ )计算。\n公式 \\$\\mathrm{OI} = [\\mathrm{MAP}\\times \\mathrm{FiO_2}\\div \\mathrm{PaO_2}]\\times 100\\$\n根据OI可将低氧血症严重程度分为如下几类：\n1)轻度： \\$\\mathrm{OI}< 15\\$\n2)中度： \\$15\\leq \\mathrm{OI}< 25\\$\n3)重度： \\$25\\leq \\mathrm{OI}< 40\\$\n4)极重度： \\$\\mathrm{OI}\\geq 40\\$\n(2）肺动脉高压严重程度除OI外，还可根据超声心动图检查结果评估PPHN严重程度。\n根据估测右室收缩压力（rightventricularpressure，RVp)相对于体循环血压的水平，PPHN的严重程度分类如下：\n1）轻至中度PPHN：估测RVp介于体循环血压的 \\$1 / 2\\sim 3 / 4\\$\n2）中至重度PPHN：估测RVp高于体循环血压的 \\$3 / 4\\$ ，但低于体循环血压；\n3）重度PPHN：估测RVp高于体循环血压；\n2. 具体治疗措施\n（1）呼吸支持\n被确诊PPHN的患儿一般均需要机械通气呼吸支持。\n因为患儿烦躁不安和人机不同步会升高PVR，加重低氧血症。\n此时关键要给予充分镇静，大多数情况下，阿片类镇痛药单用或联合苯二氮草类药物能够提供充分镇静；\n偶尔按需给予神经肌肉阻滞。\n1)气体交换目标",
+        "raw_snippet": "（1）低氧血症严重程度氧合指数(oxygenation index, OI)用于评估低氧血症严重程度，这可反映右向左分流程度。OI可指导采取干预措施的时机，如吸入一氧化氮（iNO)或ECMO支持。OI根据吸入氧分数(fraction of inspired oxygen, \\$\\mathrm{FiO_2}\\$ )、平均气道压(meanairway pressure, MAP)和动脉血氧分压(arterial partial pressure of oxygen, \\$\\mathrm{PaO_2}\\$ )计算。公式 \\$\\mathrm{OI} = [\\mathrm{MAP}\\times \\mathrm{FiO_2}\\div \\mathrm{PaO_2}]\\times 100\\$\n根据OI可将低氧血症严重程度分为如下几类：\n1)轻度： \\$\\mathrm{OI}< 15\\$\n2)中度： \\$15\\leq \\mathrm{OI}< 25\\$\n3)重度： \\$25\\leq \\mathrm{OI}< 40\\$\n4)极重度： \\$\\mathrm{OI}\\geq 40\\$\n(2）肺动脉高压严重程度除OI外，还可根据超声心动图检查结果评估PPHN严重程度。根据估测右室收缩压力（rightventricularpressure，RVp)相对于体循环血压的水平，PPHN的严重程度分类如下：\n1）轻至中度PPHN：估测RVp介于体循环血压的 \\$1 / 2\\sim 3 / 4\\$\n2）中至重度PPHN：估测RVp高于体循环血压的 \\$3 / 4\\$ ，但低于体循环血压；\n3）重度PPHN：估测RVp高于体循环血压；\n2. 具体治疗措施\n（1）呼吸支持\n被确诊PPHN的患儿一般均需要机械通气呼吸支持。因为患儿烦躁不安和人机不同步会升高PVR，加重低氧血症。此时关键要给予充分镇静，大多数情况下，阿片类镇痛药单用或联合苯二氮草类药物能够提供充分镇静；偶尔按需给予神经肌肉阻滞。\n1)气体交换目标",
+        "hard_evidence_type": "指南",
+        "reasoning_eligible": true,
+        "eligibility_class": "hard",
+        "scope_index": {
+          "kind": "literal_terms_not_applicability_verdict",
+          "matched_terms": [],
+          "has_footnote_markers": false,
+          "has_nonrandom_design_terms": false
+        }
+      },
+      {
+        "evidence_id": "IR06",
+        "lane": "irae_b",
+        "doc_id": "bdf5c2e6-5547-4ed7-8ddf-c112b649c74c",
+        "split_index": 17,
+        "type": "guideline",
+        "authority": "重庆市护理学会",
+        "source_title": "高原成人低氧血症患者氧气吸入疗法护理专家共识",
+        "source_version": "",
+        "source_section": "高原成人低氧血症患者氧气吸入疗法护理专家共识",
+        "source_url": "",
+        "snippet": "建议采用动态调整、逐步降低氧浓度的方法停止氧疗，避免骤然停氧导致缺氧- 再给氧损伤（GPS，A级推荐）。\n停止氧疗前，护士应评估患者的氧疗效果，当患者同时满足以下条件时，可考虑停止氧疗。\n\\$①\\$ 静息未吸氧状态下， \\$\\mathrm{SpO}_2\\geqslant 90\\%\\$ （海拔 \\$\\leqslant 4000\\mathrm{m}\\$ 或 \\$\\geqslant 85\\%\\$ （海拔 \\$>4000\\mathrm{m}\\$ ）且持续6h以上[23,39]（1d级，B级推荐）。\n\\$(2)\\$ 在排除其他可能影响呼吸频率及心率的因素后，每分钟呼吸频率 \\$\\leqslant 20\\$ 次，每分钟心率 \\$\\leqslant\\$ 100次[23,39]（1d级，B级推荐）。\n\\$(3)\\$ 运动（如6min步行试验）后无明显缺氧症状，日常生活能力良好[36]（3e级，B级推荐）。\n\\$(\\widehat{\\Delta})\\$ 头痛、呼吸困难、恶心等急性高原反应症状消失超过 \\$24\\mathrm{h}\\$ ；\n高原肺水肿患者的肺部湿啰音消失，胸片显示 \\$70\\%\\$ 以上的双肺渗出被吸收；\n高原脑水肿患者意识清醒，无共济失调或神经功能缺损[10]（5b级，B级推荐）。",
+        "raw_snippet": "建议采用动态调整、逐步降低氧浓度的方法停止氧疗，避免骤然停氧导致缺氧- 再给氧损伤（GPS，A级推荐）。停止氧疗前，护士应评估患者的氧疗效果，当患者同时满足以下条件时，可考虑停止氧疗。  \n\\$①\\$ 静息未吸氧状态下， \\$\\mathrm{SpO}_2\\geqslant 90\\%\\$ （海拔 \\$\\leqslant 4000\\mathrm{m}\\$ 或 \\$\\geqslant 85\\%\\$ （海拔 \\$>4000\\mathrm{m}\\$ ）且持续6h以上[23,39]（1d级，B级推荐）。 \\$(2)\\$ 在排除其他可能影响呼吸频率及心率的因素后，每分钟呼吸频率 \\$\\leqslant 20\\$ 次，每分钟心率 \\$\\leqslant\\$ 100次[23,39]（1d级，B级推荐）。 \\$(3)\\$ 运动（如6min步行试验）后无明显缺氧症状，日常生活能力良好[36]（3e级，B级推荐）。 \\$(\\widehat{\\Delta})\\$ 头痛、呼吸困难、恶心等急性高原反应症状消失超过 \\$24\\mathrm{h}\\$ ；高原肺水肿患者的肺部湿啰音消失，胸片显示 \\$70\\%\\$ 以上的双肺渗出被吸收；高原脑水肿患者意识清醒，无共济失调或神经功能缺损[10]（5b级，B级推荐）。",
+        "hard_evidence_type": "指南",
+        "reasoning_eligible": true,
+        "eligibility_class": "hard",
+        "scope_index": {
+          "kind": "literal_terms_not_applicability_verdict",
+          "matched_terms": [
+            "可考虑"
+          ],
+          "has_footnote_markers": false,
+          "has_nonrandom_design_terms": false
+        }
+      }
+    ],
+    "lanes": {
+      "guideline_a_staging": [],
+      "guideline_a": [
+        "GA01",
+        "GA02",
+        "GA03",
+        "GA04",
+        "GA05",
+        "GA06"
+      ],
+      "guideline_b": [
+        "GB01",
+        "GB02",
+        "GB03",
+        "GB04"
+      ],
+      "clinical_study_initial": [],
+      "clinical_study_supplement": [],
+      "irae_a": [
+        "IR01",
+        "IR02",
+        "IR03"
+      ],
+      "irae_b": [
+        "IR04",
+        "IR05",
+        "IR06"
+      ]
+    },
+    "retrieval_health": {
+      "ok": true,
+      "errors": []
+    },
+    "capacity_report": {
+      "interpretation": "仅用于触发补检的粗略估计，不是题量上限；同一域内可能有不同决策，正文适用性需逐题核对",
+      "hard_candidate_count": 16,
+      "eligible_candidate_count": 16,
+      "decision_domain_count": 6,
+      "decision_domains": [
+        "diagnosis_staging",
+        "molecular_testing",
+        "local_operative",
+        "systemic_treatment",
+        "progression_later_line",
+        "toxicity"
+      ],
+      "estimated_question_capacity": 5,
+      "evidence_pool_insufficient_for_five": false,
+      "identifiable_initial_study_count": 0,
+      "identifiable_supplement_study_count": 0
+    },
+    "compression_report": {
+      "input_counts": {
+        "guideline_a_staging": 7,
+        "guideline_a": 10,
+        "guideline_b": 4,
+        "clinical_study_initial": 5,
+        "clinical_study_supplement": 0,
+        "irae_a": 3,
+        "irae_b": 3
+      },
+      "kept_counts": {
+        "guideline_a_staging": 0,
+        "guideline_a": 6,
+        "guideline_b": 4,
+        "clinical_study_initial": 0,
+        "clinical_study_supplement": 0,
+        "irae_a": 3,
+        "irae_b": 3
+      },
+      "kept_total": 16,
+      "dropped_total": 16,
+      "dropped": [
+        {
+          "lane": "guideline_a_staging",
+          "index": 0,
+          "reason": "LANE_CONTENT_MISMATCH",
+          "locator": "451338ed-584a-4336-9b4f-fcb9eaf3f8aa::31"
+        },
+        {
+          "lane": "guideline_a_staging",
+          "index": 1,
+          "reason": "LANE_CONTENT_MISMATCH",
+          "locator": "1a5c4240-bad9-4448-ab64-9b705a3ad087::113"
+        },
+        {
+          "lane": "guideline_a_staging",
+          "index": 2,
+          "reason": "LANE_CONTENT_MISMATCH",
+          "locator": "7b7a49e7-2340-4990-b42a-509a0dcde1ee::154"
+        },
+        {
+          "lane": "guideline_a_staging",
+          "index": 3,
+          "reason": "LANE_CONTENT_MISMATCH",
+          "locator": "fa09b2f0-5dd1-46d6-b909-3ad19925eacc::112"
+        },
+        {
+          "lane": "guideline_a_staging",
+          "index": 4,
+          "reason": "LANE_CONTENT_MISMATCH",
+          "locator": "c85901dd-d5df-42b9-b6c0-6c73dcf424e3::52"
+        },
+        {
+          "lane": "guideline_a_staging",
+          "index": 5,
+          "reason": "LANE_CONTENT_MISMATCH",
+          "locator": "452f5190-ef9f-421a-a2ce-39bf25d797bf::8"
+        },
+        {
+          "lane": "guideline_a_staging",
+          "index": 6,
+          "reason": "LANE_CONTENT_MISMATCH",
+          "locator": "20671b05-8bf1-405a-8631-281aa5771539::187"
+        },
+        {
+          "lane": "guideline_a",
+          "index": 6,
+          "reason": "LANE_LIMIT"
+        },
+        {
+          "lane": "guideline_a",
+          "index": 7,
+          "reason": "LANE_LIMIT"
+        },
+        {
+          "lane": "guideline_a",
+          "index": 8,
+          "reason": "LANE_LIMIT"
+        },
+        {
+          "lane": "guideline_a",
+          "index": 9,
+          "reason": "LANE_LIMIT"
+        },
+        {
+          "lane": "clinical_study_initial",
+          "index": 0,
+          "reason": "INELIGIBLE_SOURCE",
+          "locator": "MEETING_20260804_172043_892D9DAE::4"
+        },
+        {
+          "lane": "clinical_study_initial",
+          "index": 1,
+          "reason": "INELIGIBLE_SOURCE",
+          "locator": "MEETING_20260804_172043_892D9DAE::2"
+        },
+        {
+          "lane": "clinical_study_initial",
+          "index": 2,
+          "reason": "INELIGIBLE_SOURCE",
+          "locator": "MEETING_20260804_172043_892D9DAE::3"
+        },
+        {
+          "lane": "clinical_study_initial",
+          "index": 3,
+          "reason": "INELIGIBLE_SOURCE",
+          "locator": "fefd86510bcffccf3666aad53ca1e115::1"
+        },
+        {
+          "lane": "clinical_study_initial",
+          "index": 4,
+          "reason": "INELIGIBLE_SOURCE",
+          "locator": "b12d904d23016ce4e0e142c3a312dd5f::1"
+        }
+      ]
+    }
+  },
+  "second_cancer_type": "肺癌",
+  "case_packet": {
+    "case_id": "CASE-A27EFEE7",
+    "case_title": "左下肺鳞癌伴肝转移患者免疫治疗后疑似肺炎",
+    "disease": "左下肺鳞状细胞癌（IV期）伴锁骨上淋巴结及肝转移",
+    "case_context": "女性，59岁。2024年1月确诊左下肺鳞状细胞癌（IV期），伴锁骨上淋巴结及肝转移。经含铂双药联合PD-1抑制剂治疗4周期达部分缓解后，改为PD-1单药维持。近期出现发热、干咳、活动后气短，胸部CT示双肺磨玻璃影，临床诊断疑似免疫检查点抑制剂相关性肺炎（CIP），需鉴别肺部感染。",
+    "learning_points": "免疫检查点抑制剂相关性肺炎（CIP）与机会性感染的鉴别诊断策略\n在感染未完全排除情况下启动糖皮质激素治疗的时机与风险评估\nCIP发生后重启免疫治疗的可行性及条件",
+    "case_mode": "全程管理",
+    "case_timeline": "2024年1月｜初始诊疗｜确诊左下肺鳞状细胞癌，伴锁骨上淋巴结及肝转移。\n2024年2月至4月｜一线治疗｜接受含铂双药化疗联合PD-1抑制剂共4周期，疗效评估为部分缓解（PR）。\n2024年5月起｜维持治疗｜改为PD-1抑制剂单药维持，近期CT示病灶缩小。\n发病前5天｜症状出现｜无明显诱因出现发热（最高38.6℃）、干咳、活动后气短；同住家属有上呼吸道感染史。\n入院当日｜急诊处理｜血氧饱和度92%，呼吸频率22次/分；血常规白细胞轻度升高，CRP升高，PCT 0.08 ng/mL；胸部HRCT示双肺胸膜下及周边散在磨玻璃影、细网格影，原发肿瘤较前缩小；呼吸道病毒核酸初筛阴性，痰培养待回报。暂缓下一周期免疫治疗，给予低流量吸氧及经验性抗感染治疗。",
+    "biomarkers": "病理类型：左下肺鳞状细胞癌\n分期：IV期\n转移部位：锁骨上淋巴结、肝脏\n病原学检测：呼吸道病毒核酸初筛阴性；痰培养待回报；血培养已留取",
+    "decision_points": "是否立即行支气管镜灌洗（BAL）以明确病原学\n若高度怀疑CIP且感染证据不足，是否启动经验性激素治疗及其剂量选择\n确认CIP后后续抗肿瘤治疗方案调整（暂停、永久停药或重启免疫治疗）",
+    "adverse_events": "疑似免疫检查点抑制剂相关性肺炎（表现为发热、干咳、气短、SpO2下降、CT磨玻璃影）；低氧血症",
+    "evidence_notes": "1. CIP诊断为“疑似”，最终病因（CIP vs 感染）尚待痰培养及进一步检查确认。\n2. 专家观点中的讨论问题（如BAL、激素使用、重启免疫）仅为拟讨论方案，非已实施事实。\n3. 既往史中无胸部放疗史，无间质性肺病史。\n4. PCT 0.08 ng/mL提示细菌感染可能性较低，但非绝对排除依据。\n【输入一致性提示，仅为程序线索】决策点含永久或全类别停药表述，它是候选问题而非已证实医嘱；不能扩大病例原始停用范围",
+    "case_intro_images": [],
+    "cancer_type": "肺癌",
+    "second_cancer_type": "肺癌",
+    "case_source_text": "**患者信息**\n女性，59岁。职业、婚姻状态、籍贯未详。\n\n**主诉**\n免疫联合治疗后发热、干咳和活动后气短5天。\n\n**病史描述**\n*   **现病史**：患者于2024年1月确诊左下肺鳞状细胞癌，伴锁骨上淋巴结及肝转移。2024年2月至4月接受含铂双药联合PD-1抑制剂治疗4周期，疗效评估为部分缓解。2024年5月起改为PD-1抑制剂单药维持治疗，近期CT示病灶缩小。5天前无明显诱因出现发热，最高体温38.6℃，伴干咳、活动后气短，无脓痰及胸痛。同住家属1周前有上呼吸道感染史。入院时血氧饱和度92%（空气），呼吸频率22次/分。\n*   **既往史**：既往无间质性肺病史。近1个月未接受胸部放疗。无其他特殊记载。\n*   **个人史**：未记载\n*   **婚育史**：未记载\n*   **家族史**：未记载\n\n**相关检查**\n*   **体格检查**：呼吸频率22次/分，SpO2 92%（吸空气）。\n*   **辅助检查**：\n    *   血常规：白细胞轻度升高，中性粒细胞比例增高。\n    *   炎症指标：CRP升高，PCT 0.08 ng/mL。\n    *   胸部高分辨CT：双肺胸膜下及周边散在磨玻璃影、细网格影；原发肿瘤较前缩小；未见明显肺栓塞征象。\n    *   病原学：呼吸道病毒核酸初筛阴性；痰培养待回报；血培养已留取。\n\n**临床诊断**\n*   **主要诊断**：左下肺鳞状细胞癌（IV期）伴肝、淋巴结转移；免疫检查点抑制剂相关性肺炎（疑似）。\n*   **其它诊断**：肺部感染（待排除）；低氧血症。\n\n**治疗经过**\n*   **[2024年1月 - 4月] 一线治疗方案**\n    *   措施：含铂双药化疗联合PD-1抑制剂，共4周期。\n    *   效果：最佳疗效达部分缓解（PR）。\n*   **[2024年5月 - 发病前] 维持治疗方案**\n    *   措施：PD-1抑制剂单药维持。\n    *   检查：CT显示原发灶及转移灶继续缩小。\n*   **[入院当日] 急诊处理与调整**\n    *   措施：暂缓下一周期免疫治疗；给予低流量吸氧；启动经验性抗感染治疗。\n    *   计划：完善病原学检测、肺功能评估及影像随访。\n    *   现状：等待痰培养及血培养结果，鉴别感染与免疫性肺炎。"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "scope": "离线模拟平台响应；未对用户的签名链接发出请求，未验证部署版本和线上解析服务",
+  "passed": 15,
+  "checks": [
+    {
+      "name": "平台短链接不按token后缀拦截",
+      "result": "PASS"
+    },
+    {
+      "name": "Markdown包装的链接被正确取出",
+      "result": "PASS"
+    },
+    {
+      "name": "普通PDF HTML 图片仍正确分流",
+      "result": "PASS"
+    },
+    {
+      "name": "filename查询参数可识别",
+      "result": "PASS"
+    },
+    {
+      "name": "不支持格式仍明确报错",
+      "result": "PASS"
+    },
+    {
+      "name": "PDF短链接解析成功后不进入OCR",
+      "result": "PASS"
+    },
+    {
+      "name": "平台过滤的图片短链接进入OCR",
+      "result": "PASS"
+    },
+    {
+      "name": "PDF和图片混传分别处理",
+      "result": "PASS"
+    },
+    {
+      "name": "PDF解析报错不得假装图片绕过",
+      "result": "PASS"
+    },
+    {
+      "name": "缺少原始响应不得推断图片",
+      "result": "PASS"
+    },
+    {
+      "name": "节点整体错误不得回退OCR",
+      "result": "PASS"
+    },
+    {
+      "name": "响应链接不匹配时阻止自动分流",
+      "result": "PASS"
+    },
+    {
+      "name": "HTML文档的内嵌报告继续OCR",
+      "result": "PASS"
+    },
+    {
+      "name": "无前置表单且最终输出代码未改变",
+      "result": "PASS"
+    },
+    {
+      "name": "代码语法和所有变量引用完整",
+      "result": "PASS"
+    }
+  ]
+}

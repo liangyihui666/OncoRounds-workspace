@@ -1,0 +1,12 @@
+{
+  "five_question_prefix_normalization": true,
+  "answer_synced": true,
+  "wrong_letter_preserved_for_rejection": true,
+  "answer_mismatch_preserved_for_rejection": true,
+  "ordinary_gene_names_unchanged": true,
+  "idempotent": true,
+  "only_two_code_nodes_changed": true,
+  "api_calls": 0,
+  "online_verified": false,
+  "medical_review_performed": false
+}

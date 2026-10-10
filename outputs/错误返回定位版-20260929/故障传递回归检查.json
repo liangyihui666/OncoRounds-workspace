@@ -1,0 +1,52 @@
+{
+  "checks": [
+    {
+      "name": "用户实际10个空字符串：保持10个失败槽位，全部准确标记EMPTY_CHILD_RESPONSE",
+      "pass": true
+    },
+    {
+      "name": "原生并行执行报错保留message",
+      "pass": true
+    },
+    {
+      "name": "非空损坏JSON区分于空返回",
+      "pass": true
+    },
+    {
+      "name": "单例代码错误完整走过错误整理→调用返回→批量汇总",
+      "pass": true
+    },
+    {
+      "name": "空返回和调用错误优先级正确",
+      "pass": true
+    },
+    {
+      "name": "正常返回通过新增节点逐字不变",
+      "pass": true
+    },
+    {
+      "name": "调试错误凭据脱敏且长度有界",
+      "pass": true
+    },
+    {
+      "name": "9个单例错误口有唯一错误路由，成功路由保持",
+      "pass": true
+    },
+    {
+      "name": "模型提示词、检索节点、已有HTML处理代码及并发设置不变",
+      "pass": true
+    },
+    {
+      "name": "全部代码语法、变量引用和新增节点所属并行容器有效",
+      "pass": true
+    },
+    {
+      "name": "第二轮无返回分类为执行失败，已有首轮稿不自动发布",
+      "pass": true
+    }
+  ],
+  "passed": 11,
+  "failed": 0,
+  "online_verified": false,
+  "empty_response_root_cause_verified": false
+}

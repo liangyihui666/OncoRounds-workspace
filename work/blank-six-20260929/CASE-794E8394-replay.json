@@ -1,0 +1,2521 @@
+{
+  "selection_report": {
+    "schema_version": "triple-selection-1.0",
+    "candidate_count": 5,
+    "medical_approval_confirmed": false,
+    "source_groups": [
+      {
+        "group_id": "G1",
+        "parse_status": "OK",
+        "raw_question_count": 5,
+        "usable_question_count": 5,
+        "rejected_questions": [],
+        "warnings": [],
+        "audit": {
+          "availability": "not_provided"
+        },
+        "transport": {
+          "protocol": "single_json",
+          "json_block_count": 1,
+          "selected_block_index": 0,
+          "ignored_intermediate_blocks": 0,
+          "upstream_messages": []
+        },
+        "upstream_missing_information": [],
+        "workflow_revision": "20260929-evidence-depth-five",
+        "flow_status": "OUTPUT_READY",
+        "completion": {
+          "required_question_count": 5,
+          "available_question_count": 5,
+          "model_question_count": 5,
+          "complete": true
+        },
+        "program_check": {
+          "scope": "program_structure_and_reference_identity_only",
+          "decision": "PASS",
+          "errors": [],
+          "warnings": [
+            "OPTION_STYLE Q1：四项有效字符数=39/40/23/39，正确项=D；四项长度差异较大：应统一表达层次，不得机械补字或截断。",
+            "同一证据定位c9294314-38c0-4a55-92b6-b261f374a7da::60支持2题：复核是否考查不同真实决策；不设置复用题数配额"
+          ]
+        },
+        "workflow_diagnostics": {
+          "scope": "debug_only_not_learner_content",
+          "evidence_verification": {
+            "version": "option-anchors-1.0",
+            "scope": "literal_source_presence_and_shape_only",
+            "decision": "PASS",
+            "semantic_support": "not_independently_verified",
+            "errors": [],
+            "question_checks": [
+              {
+                "question_id": "Q1",
+                "evidence_id": "GB03",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "PD-L1 CPS ≥ 1;<br/>瑞拉芙普 α 注射液+XELOXk<br/>[1A 类]",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 152,
+                            "end": 199,
+                            "text": "</td><td>Ⅲ级推荐</td></tr><tr><td>HER2 中低或不表达°</td><td>PD-L1 TAP ≥ 5%;<br/>替雷利珠单抗+XELOX/FPi [1A 类]<br/>PD-L1 CPS ≥ 1;<br/>瑞拉芙普 α 注射液+XELOXk<br/>[1A 类]</td><td>PD-L1 TAP&lt;5%或检测不可及;<br/>替雷利珠单抗+XELOX/FPi [1B 类]</td><td></td></tr><tr><td></td><td>无论 PD"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "PD-L1 TAP ≥ 5%;<br/>替雷利珠单抗+XELOX/FPi [1A 类]",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 104,
+                            "end": 147,
+                            "text": "治疗（续）<table><tr><td>分层</td><td>Ⅰ级推荐</td><td>Ⅱ级推荐</td><td>Ⅲ级推荐</td></tr><tr><td>HER2 中低或不表达°</td><td>PD-L1 TAP ≥ 5%;<br/>替雷利珠单抗+XELOX/FPi [1A 类]<br/>PD-L1 CPS ≥ 1;<br/>瑞拉芙普 α 注射液+XELOXk<br/>[1A 类]</td><td>PD-L1 TAP&lt;5%或检测不可及;<br/>替雷利珠单抗+XELOX"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "三药联合方案 DCF 及 mDCF° [1B 类]",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 464,
+                            "end": 489,
+                            "text": " ≥ 75%);<br/>佐妥昔单抗+FOLFOX/XELOXn [1A 类]<br/>奥沙利铂/顺铂+氟尿嘧啶类° [1A 类]*<br/>氟尿嘧啶类 + 紫杉类° [2A 类]*</td><td>三药联合方案 DCF 及 mDCF° [1B 类]</td><td>单药氟尿嘧啶类或紫杉类° [2B 类]*</td></tr></table>"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "奥沙利铂/顺铂+氟尿嘧啶类° [1A 类]*",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 408,
+                            "end": 430,
+                            "text": "<br/>卡度尼利单抗+XELOXm [1A 类]<br/>Claudin 182 表达 (IHC2 或 3+, ≥ 75%);<br/>佐妥昔单抗+FOLFOX/XELOXn [1A 类]<br/>奥沙利铂/顺铂+氟尿嘧啶类° [1A 类]*<br/>氟尿嘧啶类 + 紫杉类° [2A 类]*</td><td>三药联合方案 DCF 及 mDCF° [1B 类]</td><td>单药氟尿嘧啶类或紫杉类° [2B 类]*</td></tr></"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "IHC：HER-2阴性、PD-L1阴性(CPS<1)、MMR正常",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 41,
+                        "end": 73,
+                        "text": "2016年12月前｜入院检查｜腹痛1个月，胃镜示胃窦癌变，病理确诊低分化管状腺癌，IHC：HER-2阴性、PD-L1阴性(CPS<1)、MMR正常，CT示胃窦壁增厚、周围淋巴结肿大、肝多发转移\n2016年12月｜开始CAPOX姑息化疗｜奥沙利铂130 mg/m² D1；卡培他滨2000 mg/m² D1-14，每3周一次\n治疗4个月后｜复查CT"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "case_timeline",
+                    "quote": "开始CAPOX姑息化疗",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 106,
+                        "end": 117,
+                        "text": "2月前｜入院检查｜腹痛1个月，胃镜示胃窦癌变，病理确诊低分化管状腺癌，IHC：HER-2阴性、PD-L1阴性(CPS<1)、MMR正常，CT示胃窦壁增厚、周围淋巴结肿大、肝多发转移\n2016年12月｜开始CAPOX姑息化疗｜奥沙利铂130 mg/m² D1；卡培他滨2000 mg/m² D1-14，每3周一次\n治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小\n第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\n9个周"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "A",
+                  "decision_boundary": "CPS<1不满足瑞拉芙普α的CPS≥1入组条件；CAPOX为1A且不依赖PD-L1状态",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+                  "split_index": 110
+                },
+                "decision": "PASS"
+              },
+              {
+                "question_id": "Q2",
+                "evidence_id": "IR05",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "对剂量限制性毒性（如：骨髓抑制）可减量",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 128,
+                            "end": 147,
+                            "text": "续用药，Ⅱ度需暂停用药直至恢复至I度，Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理，IV度可能需永久停药。  \n（2）不良反应类型有助判断“再挑战”时化疗药物  \n   \n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注意是否已达最大累积剂量，对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生。  \n（3）对复杂不良反应，可采用MDT to HI"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "对剂量限制性毒性（如：骨髓抑制）可减量",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 128,
+                            "end": 147,
+                            "text": "续用药，Ⅱ度需暂停用药直至恢复至I度，Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理，IV度可能需永久停药。  \n（2）不良反应类型有助判断“再挑战”时化疗药物  \n   \n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注意是否已达最大累积剂量，对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生。  \n（3）对复杂不良反应，可采用MDT to HI"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "Ⅱ度需暂停用药直至恢复至I度",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 32,
+                            "end": 46,
+                            "text": "（1）根据不良反应严重程度采取分级处理：I度不良事件可继续用药，Ⅱ度需暂停用药直至恢复至I度，Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理，IV度可能需永久停药。  \n（2）不良反应类型有助判断“再挑战”时化疗药物  \n   \n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 188,
+                            "end": 220,
+                            "text": "  \n（2）不良反应类型有助判断“再挑战”时化疗药物  \n   \n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注意是否已达最大累积剂量，对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生。  \n（3）对复杂不良反应，可采用MDT to HIM模式。需全程化、精细化、多学科团队参与和多方位（医护、临床药师、患者及家属）共同努力。"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 188,
+                        "end": 213,
+                        "text": "肿大、肝多发转移\n2016年12月｜开始CAPOX姑息化疗｜奥沙利铂130 mg/m² D1；卡培他滨2000 mg/m² D1-14，每3周一次\n治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小\n第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\n9个周期后｜终止化疗｜因持续血液学毒性\n化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\n后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\n2018年5月｜达到完全缓解\n2021年8月｜胃镜证实完全缓解"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "adverse_events",
+                    "quote": "奥沙利铂（CAPOX方案）｜骨髓毒性",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 7,
+                        "end": 25,
+                        "text": "第5个周期起｜奥沙利铂（CAPOX方案）｜骨髓毒性｜原文明示分级未记载｜奥沙利铂剂量减至75%｜持续至第9周期后终止化疗\n9个周期后｜CAPOX方案（奥沙利铂+卡培他滨）｜持续血液学毒性｜原文明示分级未记载｜终止化疗｜后续未再出现相关事件记载"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "C",
+                  "decision_boundary": "骨髓抑制为剂量限制性毒性→减量；非II度暂停后原剂量重启，也非特异质反应需换药",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "c9294314-38c0-4a55-92b6-b261f374a7da",
+                  "split_index": 60
+                },
+                "decision": "PASS"
+              },
+              {
+                "question_id": "Q3",
+                "evidence_id": "GB01",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "二线及后线治疗适用于初始化疗后出现疾病进展的患者",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 13,
+                            "end": 37,
+                            "text": "（2）二线及后线治疗：晚期二线及后线治疗适用于初始化疗后出现疾病进展的患者。二线治疗中，对既往接受过抗HER-2治疗的阳性患者，应根据HER-2再检测状态决定治疗策略，不推荐继续常规抗HER-2治疗。对既往未应用曲妥珠单抗者，可考虑曲妥珠单抗联合单药紫杉醇（2类推荐证据）["
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "二线及后线治疗适用于初始化疗后出现疾病进展的患者",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 13,
+                            "end": 37,
+                            "text": "（2）二线及后线治疗：晚期二线及后线治疗适用于初始化疗后出现疾病进展的患者。二线治疗中，对既往接受过抗HER-2治疗的阳性患者，应根据HER-2再检测状态决定治疗策略，不推荐继续常规抗HER-2治疗。对既往未应用曲妥珠单抗者，可考虑曲妥珠单抗联合单药紫杉醇（2类推荐证据）["
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "二线及后线治疗适用于初始化疗后出现疾病进展的患者",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 13,
+                            "end": 37,
+                            "text": "（2）二线及后线治疗：晚期二线及后线治疗适用于初始化疗后出现疾病进展的患者。二线治疗中，对既往接受过抗HER-2治疗的阳性患者，应根据HER-2再检测状态决定治疗策略，不推荐继续常规抗HER-2治疗。对既往未应用曲妥珠单抗者，可考虑曲妥珠单抗联合单药紫杉醇（2类推荐证据）["
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "二线及后线治疗适用于初始化疗后出现疾病进展的患者",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 13,
+                            "end": 37,
+                            "text": "（2）二线及后线治疗：晚期二线及后线治疗适用于初始化疗后出现疾病进展的患者。二线治疗中，对既往接受过抗HER-2治疗的阳性患者，应根据HER-2再检测状态决定治疗策略，不推荐继续常规抗HER-2治疗。对既往未应用曲妥珠单抗者，可考虑曲妥珠单抗联合单药紫杉醇（2类推荐证据）["
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 234,
+                        "end": 258,
+                        "text": "；卡培他滨2000 mg/m² D1-14，每3周一次\n治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小\n第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\n9个周期后｜终止化疗｜因持续血液学毒性\n化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\n后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\n2018年5月｜达到完全缓解\n2021年8月｜胃镜证实完全缓解｜活检未见肿瘤细胞\n2023年12月｜最后一次随访｜仍维持完全缓解，无进展生存期已超过93"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "case_timeline",
+                    "quote": "后续随访｜CT示原发灶消失，肝转移灶逐渐缩小",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 259,
+                        "end": 281,
+                        "text": "一次\n治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小\n第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\n9个周期后｜终止化疗｜因持续血液学毒性\n化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\n后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\n2018年5月｜达到完全缓解\n2021年8月｜胃镜证实完全缓解｜活检未见肿瘤细胞\n2023年12月｜最后一次随访｜仍维持完全缓解，无进展生存期已超过93个月"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "B",
+                  "decision_boundary": "轻度增大后自行缩小≠疾病进展；GB01二线仅适用于明确进展，本例不满足启动条件",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "0d244cdc-4b4c-4b72-9a3f-5ce862be52d6",
+                  "split_index": 58
+                },
+                "decision": "PASS"
+              },
+              {
+                "question_id": "Q4",
+                "evidence_id": "GS04",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "细胞/组织病理学诊断是胃癌确诊和治疗的依据",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 296,
+                            "end": 317,
+                            "text": "tomography-computed tomography, PET/CT）分别作为CT疑诊肝转移、腹膜转移及全身转移时的补充手段。影像学报告应提供涉及cTNM分期的征象描述，并给出分期诊断。  \n细胞/组织病理学诊断是胃癌确诊和治疗的依据。胃癌术后病理学诊断（pTNM分期）为明确胃癌的组织学类型、全面评估胃癌分期、判断患者预后、制订有针对性的个体化治疗方案提供必要的组织病理学依据。目前肿瘤组织HER2状态是胃癌分子分型和抗HER2靶向"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "细胞/组织病理学诊断是胃癌确诊和治疗的依据",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 296,
+                            "end": 317,
+                            "text": "tomography-computed tomography, PET/CT）分别作为CT疑诊肝转移、腹膜转移及全身转移时的补充手段。影像学报告应提供涉及cTNM分期的征象描述，并给出分期诊断。  \n细胞/组织病理学诊断是胃癌确诊和治疗的依据。胃癌术后病理学诊断（pTNM分期）为明确胃癌的组织学类型、全面评估胃癌分期、判断患者预后、制订有针对性的个体化治疗方案提供必要的组织病理学依据。目前肿瘤组织HER2状态是胃癌分子分型和抗HER2靶向"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "细胞/组织病理学诊断是胃癌确诊和治疗的依据",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 296,
+                            "end": 317,
+                            "text": "tomography-computed tomography, PET/CT）分别作为CT疑诊肝转移、腹膜转移及全身转移时的补充手段。影像学报告应提供涉及cTNM分期的征象描述，并给出分期诊断。  \n细胞/组织病理学诊断是胃癌确诊和治疗的依据。胃癌术后病理学诊断（pTNM分期）为明确胃癌的组织学类型、全面评估胃癌分期、判断患者预后、制订有针对性的个体化治疗方案提供必要的组织病理学依据。目前肿瘤组织HER2状态是胃癌分子分型和抗HER2靶向"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "细胞/组织病理学诊断是胃癌确诊和治疗的依据",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 296,
+                            "end": 317,
+                            "text": "tomography-computed tomography, PET/CT）分别作为CT疑诊肝转移、腹膜转移及全身转移时的补充手段。影像学报告应提供涉及cTNM分期的征象描述，并给出分期诊断。  \n细胞/组织病理学诊断是胃癌确诊和治疗的依据。胃癌术后病理学诊断（pTNM分期）为明确胃癌的组织学类型、全面评估胃癌分期、判断患者预后、制订有针对性的个体化治疗方案提供必要的组织病理学依据。目前肿瘤组织HER2状态是胃癌分子分型和抗HER2靶向"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "2018年5月｜达到完全缓解",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 282,
+                        "end": 296,
+                        "text": "均明显缩小\n第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\n9个周期后｜终止化疗｜因持续血液学毒性\n化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\n后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\n2018年5月｜达到完全缓解\n2021年8月｜胃镜证实完全缓解｜活检未见肿瘤细胞\n2023年12月｜最后一次随访｜仍维持完全缓解，无进展生存期已超过93个月"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "case_timeline",
+                    "quote": "2021年8月｜胃镜证实完全缓解｜活检未见肿瘤细胞",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 297,
+                        "end": 322,
+                        "text": "骨髓毒性｜奥沙利铂剂量减至75%\n9个周期后｜终止化疗｜因持续血液学毒性\n化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\n后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\n2018年5月｜达到完全缓解\n2021年8月｜胃镜证实完全缓解｜活检未见肿瘤细胞\n2023年12月｜最后一次随访｜仍维持完全缓解，无进展生存期已超过93个月"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "B",
+                  "decision_boundary": "病理确认是必要的，但无证据要求CR后3个月内必须活检；本例3年后确认仍合理",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+                  "split_index": 14
+                },
+                "decision": "PASS"
+              },
+              {
+                "question_id": "Q5",
+                "evidence_id": "IR05",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 47,
+                            "end": 76,
+                            "text": "（1）根据不良反应严重程度采取分级处理：I度不良事件可继续用药，Ⅱ度需暂停用药直至恢复至I度，Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理，IV度可能需永久停药。  \n（2）不良反应类型有助判断“再挑战”时化疗药物  \n   \n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "对剂量限制性毒性（如：骨髓抑制）可减量",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 128,
+                            "end": 147,
+                            "text": "续用药，Ⅱ度需暂停用药直至恢复至I度，Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理，IV度可能需永久停药。  \n（2）不良反应类型有助判断“再挑战”时化疗药物  \n   \n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注意是否已达最大累积剂量，对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生。  \n（3）对复杂不良反应，可采用MDT to HI"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 188,
+                            "end": 220,
+                            "text": "  \n（2）不良反应类型有助判断“再挑战”时化疗药物  \n   \n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注意是否已达最大累积剂量，对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生。  \n（3）对复杂不良反应，可采用MDT to HIM模式。需全程化、精细化、多学科团队参与和多方位（医护、临床药师、患者及家属）共同努力。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "对剂量限制性毒性（如：骨髓抑制）可减量",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 128,
+                            "end": 147,
+                            "text": "续用药，Ⅱ度需暂停用药直至恢复至I度，Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理，IV度可能需永久停药。  \n（2）不良反应类型有助判断“再挑战”时化疗药物  \n   \n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注意是否已达最大累积剂量，对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生。  \n（3）对复杂不良反应，可采用MDT to HI"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "9个周期后｜终止化疗｜因持续血液学毒性",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 214,
+                        "end": 233,
+                        "text": "息化疗｜奥沙利铂130 mg/m² D1；卡培他滨2000 mg/m² D1-14，每3周一次\n治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小\n第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\n9个周期后｜终止化疗｜因持续血液学毒性\n化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\n后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\n2018年5月｜达到完全缓解\n2021年8月｜胃镜证实完全缓解｜活检未见肿瘤细胞\n2023年12月｜最"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "case_timeline",
+                    "quote": "第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 188,
+                        "end": 213,
+                        "text": "肿大、肝多发转移\n2016年12月｜开始CAPOX姑息化疗｜奥沙利铂130 mg/m² D1；卡培他滨2000 mg/m² D1-14，每3周一次\n治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小\n第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\n9个周期后｜终止化疗｜因持续血液学毒性\n化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\n后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\n2018年5月｜达到完全缓解\n2021年8月｜胃镜证实完全缓解"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "B",
+                  "decision_boundary": "减量后毒性持续→风险/获益不利→终止；骨髓抑制非特异质→无需换铂类；支持治疗不能'完全预防'",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "c9294314-38c0-4a55-92b6-b261f374a7da",
+                  "split_index": 60
+                },
+                "decision": "PASS"
+              }
+            ]
+          },
+          "question_evidence_bindings": [
+            {
+              "question_id": "Q1",
+              "evidence_id": "GB03",
+              "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+              "split_index": 110,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q2",
+              "evidence_id": "IR05",
+              "doc_id": "c9294314-38c0-4a55-92b6-b261f374a7da",
+              "split_index": 60,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q3",
+              "evidence_id": "GB01",
+              "doc_id": "0d244cdc-4b4c-4b72-9a3f-5ce862be52d6",
+              "split_index": 58,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q4",
+              "evidence_id": "GS04",
+              "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+              "split_index": 14,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q5",
+              "evidence_id": "IR05",
+              "doc_id": "c9294314-38c0-4a55-92b6-b261f374a7da",
+              "split_index": 60,
+              "matching_record_count": 1
+            }
+          ],
+          "cited_evidence_snapshot": [
+            {
+              "evidence_id": "GS04",
+              "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+              "split_index": 14,
+              "type": "guideline",
+              "authority": "CSCO",
+              "source_title": "中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026",
+              "source_version": "2026",
+              "source_section": "专家组成员（以姓氏汉语拼音为序）（\\*为执笔人）",
+              "source_url": "",
+              "snippet": "胃癌治疗前基本诊断手段主要包括内镜、影像及病理学检查，用于胃癌的定性诊断、定位诊断和分期诊断，其他还包括体格检查、实验室检查、诊断性腹腔镜探查和腹腔灌洗液评价等方法以进一步对胃癌临床诊断进行补充和确证。  \n胸部及腹盆部增强计算机断层扫描（CT）检查是治疗前分期的基本手段，磁共振成像（MRI）、诊断性腹腔镜探查和腹腔灌洗液评价及正电子发射计算机体层显像（positron emission tomography-computed tomography, PET/CT）分别作为CT疑诊肝转移、腹膜转移及全身转移时的补充手段。影像学报告应提供涉及cTNM分期的征象描述，并给出分期诊断。  \n细胞/组织病理学诊断是胃癌确诊和治疗的依据。胃癌术后病理学诊断（pTNM分期）为明确胃癌的组织学类型、全面评估胃癌分期、判断患者预后、制订有针对性的个体化治疗方案提供必要的组织病理学依据。目前肿瘤组织HER2状态是胃癌分子分型和抗HER2靶向药物治疗的重要依据，所有经病理诊断证实为胃或食管胃结合部腺癌的病例均有必要进行HER2检测。推荐新诊断的胃癌病例进行MSI/MMR检测，从而使MSI-H/dMMR患者有机会从免疫治疗中获益。拟进行靶向Claudin 18.2治疗和采用程序性死亡受体I（programmed death-1, PD-1）/程序性死亡受体配体1（programmed death-ligand 1, PD-L1）抑制剂治疗的胃癌患者，应进行Claudin 18.2和PD-L1检测。二代测序（next-generation sequencing, NGS）和液体活检等在胃癌中的应用尚处在探索和数据积累阶段。  \n ",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            },
+            {
+              "evidence_id": "GB01",
+              "doc_id": "0d244cdc-4b4c-4b72-9a3f-5ce862be52d6",
+              "split_index": 58,
+              "type": "guideline",
+              "authority": "中华医学会肿瘤学分会",
+              "source_title": "中华医学会胃癌临床诊疗指南（2021版）",
+              "source_version": "2021",
+              "source_section": "（三）转移性胃癌的治疗",
+              "source_url": "",
+              "snippet": "（2）二线及后线治疗：晚期二线及后线治疗适用于初始化疗后出现疾病进展的患者。二线治疗中，对既往接受过抗HER-2治疗的阳性患者，应根据HER-2再检测状态决定治疗策略，不推荐继续常规抗HER-2治疗。对既往未应用曲妥珠单抗者，可考虑曲妥珠单抗联合单药紫杉醇（2类推荐证据）[85]和蒽环类药物之外的二线化疗方案（3类推荐证据）。MSI的患者可在PD-1抑制剂治疗中获益（2类推荐证据）[86]。对肿瘤负荷较大、存在转化治疗机会或单药免疫治疗效果欠佳的患者可采用联合免疫治疗，并推荐参加临床研究；无相关分子标志物的患者可进行二线化疗联合抗血管生成药物，如雷莫芦单抗 \\$^+\\$ 紫杉醇，此外还推荐行单药紫杉醇、单药伊立替康化疗（1类推荐证据），但有小样本Ⅱ期研究结果显示，对于体能状态良好的患者，双药化疗可带来更好的肿瘤控制且安全性尚可。\n三线及后线治疗对于HER- 2阳性患者推荐维迪西妥单抗，对于无相关分子标志物者则可尝试阿帕替尼、TAS102以及纳武利尤单抗等。基于ATTRACTION- 02Ⅲ期研究结果，阿帕替尼和纳武利尤单抗现被NMPA批准用于晚期胃癌的三线治\n ",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            },
+            {
+              "evidence_id": "GB03",
+              "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+              "split_index": 110,
+              "type": "guideline",
+              "authority": "CSCO",
+              "source_title": "中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026",
+              "source_version": "2026",
+              "source_section": "专家组成员（以姓氏汉语拼音为序）（\\*为执笔人）",
+              "source_url": "",
+              "snippet": " \n一线治疗（续）<table><tr><td>分层</td><td>Ⅰ级推荐</td><td>Ⅱ级推荐</td><td>Ⅲ级推荐</td></tr><tr><td>HER2 中低或不表达°</td><td>PD-L1 TAP ≥ 5%;<br/>替雷利珠单抗+XELOX/FPi [1A 类]<br/>PD-L1 CPS ≥ 1;<br/>瑞拉芙普 α 注射液+XELOXk<br/>[1A 类]</td><td>PD-L1 TAP&lt;5%或检测不可及;<br/>替雷利珠单抗+XELOX/FPi [1B 类]</td><td></td></tr><tr><td></td><td>无论 PD-L1 表达状态:<br/>卡度尼利单抗+XELOXm [1A 类]<br/>Claudin 182 表达 (IHC2 或 3+, ≥ 75%);<br/>佐妥昔单抗+FOLFOX/XELOXn [1A 类]<br/>奥沙利铂/顺铂+氟尿嘧啶类° [1A 类]*<br/>氟尿嘧啶类 + 紫杉类° [2A 类]*</td><td>三药联合方案 DCF 及 mDCF° [1B 类]</td><td>单药氟尿嘧啶类或紫杉类° [2B 类]*</td></tr></table>",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            },
+            {
+              "evidence_id": "IR05",
+              "doc_id": "c9294314-38c0-4a55-92b6-b261f374a7da",
+              "split_index": 60,
+              "type": "guideline",
+              "authority": "CACA",
+              "source_title": "中国肿瘤整合诊治技术指南（CACA） 整体支持",
+              "source_version": "2023",
+              "source_section": "（五）不良反应的处理",
+              "source_url": "",
+              "snippet": "（1）根据不良反应严重程度采取分级处理：I度不良事件可继续用药，Ⅱ度需暂停用药直至恢复至I度，Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理，IV度可能需永久停药。  \n（2）不良反应类型有助判断“再挑战”时化疗药物  \n   \n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注意是否已达最大累积剂量，对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生。  \n（3）对复杂不良反应，可采用MDT to HIM模式。需全程化、精细化、多学科团队参与和多方位（医护、临床药师、患者及家属）共同努力。",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            }
+          ],
+          "retrieval_queries": {
+            "staging": "初始临床评估与分期指南\n原发诊断：胃窦低分化管状腺癌（无亚型），HER-2阴性，PD-L1阴性（CPS<1），MMR功能正常，伴肝多发转移（IV期）\n初诊摘录：患者男，59岁，因腹痛1个月入院；胃镜检查显示胃窦癌变，组织病理学确诊为低分化管状腺癌（无亚型）；免疫组织化学检测显示HER-2阴性、PD-L1阴性（CPS<1）、MMR功能正常；CT扫描显示胃窦壁增厚、周围淋巴结肿大及肝脏多发转移灶；入院时未记载分子检测（如NGS）结果，未记载既往治疗史或合并症信息\n匹配原发病种与分期检查、区域和远处病变评估，不用后续事实反推初诊。",
+            "molecular": "病理与分子检测及结果应用指南\n原发诊断：胃窦低分化管状腺癌（无亚型），HER-2阴性，PD-L1阴性（CPS<1），MMR功能正常，伴肝多发转移（IV期）\n检测记录：分子检测｜未记载｜未记载｜未记载｜未记载（原文未提及NGS或其他分子分析）\n关注检测时机、结果等待与治疗衔接；检索关键词不代表初诊已知结果。",
+            "treatment": "复评、局部协调与后线决策正式指南\n原发诊断：胃窦低分化管状腺癌（无亚型），HER-2阴性，PD-L1阴性（CPS<1），MMR功能正常，伴肝多发转移（IV期）\n决策问题：2016年12月｜HER2阴性、PD-L1阴性(CPS<1)、MMR正常的转移性胃癌｜初始全身治疗方案选择；治疗4个月后｜原发灶及肝转移灶明显缩小｜是否继续原方案或调整\n实际治疗：2016年12月｜开始CAPOX姑息化疗｜奥沙利铂130 mg/m² D1；治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小；9个周期后｜终止化疗｜因持续血液学毒性；化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\n按原发癌种匹配复评与后线阶段，保留已知治疗限制。",
+            "study": "匹配病例实际方案的原始临床研究\n原发诊断：胃窦低分化管状腺癌（无亚型），HER-2阴性，PD-L1阴性（CPS<1），MMR功能正常，伴肝多发转移（IV期）\n方案和阶段：2016年12月｜开始CAPOX姑息化疗｜奥沙利铂130 mg/m² D1；治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小；9个周期后｜终止化疗｜因持续血液学毒性；化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\n匹配药物、人群、治疗阶段与决策终点，需该记录已报告原始研究结果。",
+            "toxicity_a": "奥沙利铂（CAPOX方案） 骨髓毒性 分级未提供 毒性识别 鉴别诊断 暂缓停药 再治疗条件 支持处理 正式指南",
+            "toxicity_b": "CAPOX方案（奥沙利铂+卡培他滨） 持续血液学毒性 分级未提供 毒性识别 鉴别诊断 暂缓停药 再治疗条件 支持处理 正式指南"
+          },
+          "retrieval_health": {
+            "ok": true,
+            "errors": []
+          },
+          "compression_report": {
+            "input_counts": {
+              "guideline_a_staging": 9,
+              "guideline_a": 11,
+              "guideline_b": 4,
+              "clinical_study_initial": 6,
+              "clinical_study_supplement": 0,
+              "irae_a": 4,
+              "irae_b": 4
+            },
+            "kept_counts": {
+              "guideline_a_staging": 4,
+              "guideline_a": 6,
+              "guideline_b": 4,
+              "clinical_study_initial": 3,
+              "clinical_study_supplement": 0,
+              "irae_a": 4,
+              "irae_b": 3
+            },
+            "kept_total": 24,
+            "dropped_total": 14,
+            "dropped": [
+              {
+                "lane": "guideline_a_staging",
+                "index": 3,
+                "reason": "LANE_CONTENT_MISMATCH",
+                "locator": "f51ad2ef-8e21-42f9-bfd1-f2ed36512587::109"
+              },
+              {
+                "lane": "guideline_a_staging",
+                "index": 5,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a_staging",
+                "index": 6,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a_staging",
+                "index": 7,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a_staging",
+                "index": 8,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 6,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 7,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 8,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 9,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 10,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 1,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "c1c887d3bfcd71dd11939067a4484c16::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 3,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260730_153537_2BA213C2::3"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 4,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260804_172043_892D9DAE::4"
+              },
+              {
+                "lane": "irae_b",
+                "index": 0,
+                "reason": "DUPLICATE_LOCATOR",
+                "locator": "e8b56a00-18c3-4e45-ab70-e0f1b0814c6d::61"
+              }
+            ]
+          },
+          "first_round_raw": "",
+          "second_round_raw": "",
+          "parsed_second_round_draft": null,
+          "partial_draft_questions": [],
+          "model_execution": {
+            "model": "qwen3.8-flash",
+            "max_output_tokens_configured": 16000,
+            "first_round_char_count": 5880,
+            "second_round_char_count": 5888,
+            "finish_reason": null,
+            "finish_reason_availability": "not_exposed_by_workflow_outputs"
+          }
+        },
+        "flow_publishable": false,
+        "output_ready": true,
+        "medical_review_status": "not_performed",
+        "generation_status": "success",
+        "evidence_context_status": "provided"
+      }
+    ],
+    "selected": [
+      {
+        "final_id": "Q1",
+        "candidate_id": "G1_Q1",
+        "group_id": "G1",
+        "source_question_id": "Q1",
+        "evidence_status": "located",
+        "evidence_key": "G1_E1",
+        "source_question_audit": null,
+        "audit_scope": "original_candidate",
+        "answer_mapping": {
+          "original": "D",
+          "final": "D",
+          "order_preserved": true
+        }
+      },
+      {
+        "final_id": "Q2",
+        "candidate_id": "G1_Q2",
+        "group_id": "G1",
+        "source_question_id": "Q2",
+        "evidence_status": "located",
+        "evidence_key": "G1_E2",
+        "source_question_audit": null,
+        "audit_scope": "original_candidate",
+        "answer_mapping": {
+          "original": "B",
+          "final": "B",
+          "order_preserved": true
+        }
+      },
+      {
+        "final_id": "Q3",
+        "candidate_id": "G1_Q3",
+        "group_id": "G1",
+        "source_question_id": "Q3",
+        "evidence_status": "located",
+        "evidence_key": "G1_E3",
+        "source_question_audit": null,
+        "audit_scope": "original_candidate",
+        "answer_mapping": {
+          "original": "A",
+          "final": "A",
+          "order_preserved": true
+        }
+      },
+      {
+        "final_id": "Q4",
+        "candidate_id": "G1_Q4",
+        "group_id": "G1",
+        "source_question_id": "Q4",
+        "evidence_status": "located",
+        "evidence_key": "G1_E4",
+        "source_question_audit": null,
+        "audit_scope": "original_candidate",
+        "answer_mapping": {
+          "original": "C",
+          "final": "C",
+          "order_preserved": true
+        }
+      },
+      {
+        "final_id": "Q5",
+        "candidate_id": "G1_Q5",
+        "group_id": "G1",
+        "source_question_id": "Q5",
+        "evidence_status": "located",
+        "evidence_key": "G1_E2",
+        "source_question_audit": null,
+        "audit_scope": "original_candidate",
+        "answer_mapping": {
+          "original": "A",
+          "final": "A",
+          "order_preserved": true
+        }
+      }
+    ],
+    "selection_notes": [],
+    "warnings": [
+      "Q1（G1_Q1）选项表达待复核：39/40/23/39字；四项长度差异较大：应统一表达层次，不得机械补字或截断。"
+    ],
+    "notice": "本流程未进行独立医学审核；程序检查仅检查结构及引用定位，不代表医学正确性。",
+    "workflow_revision": "20260929-full-review-five-outer",
+    "medical_review_status": "not_performed",
+    "required_question_count": 5,
+    "available_candidate_count": 5,
+    "workflow_status": "OUTPUT_READY",
+    "selection_method": "deterministic_original_order",
+    "editorial": {
+      "scope": "original_candidate_text_preserved",
+      "applied": [],
+      "rejected": []
+    },
+    "selection_status": "success",
+    "option_style_checks": [
+      {
+        "final_id": "Q1",
+        "candidate_id": "G1_Q1",
+        "version": "option-style-1.0",
+        "length_unit": "unicode_chars_excluding_spaces_punctuation_symbols",
+        "option_lengths": [
+          39,
+          40,
+          23,
+          39
+        ],
+        "answer_position": "D",
+        "correct_is_unique_longest": false,
+        "correct_to_distractor_median_ratio": 1,
+        "max_min_difference": 17,
+        "max_min_ratio": 1.74,
+        "absolute_phrase_positions": [],
+        "warning_codes": [
+          "OPTION_LENGTH_SPREAD"
+        ],
+        "warnings": [
+          "四项长度差异较大：应统一表达层次，不得机械补字或截断。"
+        ],
+        "interpretation": "仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。"
+      },
+      {
+        "final_id": "Q2",
+        "candidate_id": "G1_Q2",
+        "version": "option-style-1.0",
+        "length_unit": "unicode_chars_excluding_spaces_punctuation_symbols",
+        "option_lengths": [
+          31,
+          31,
+          27,
+          33
+        ],
+        "answer_position": "B",
+        "correct_is_unique_longest": false,
+        "correct_to_distractor_median_ratio": 1,
+        "max_min_difference": 6,
+        "max_min_ratio": 1.22,
+        "absolute_phrase_positions": [],
+        "warning_codes": [],
+        "warnings": [],
+        "interpretation": "仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。"
+      },
+      {
+        "final_id": "Q3",
+        "candidate_id": "G1_Q3",
+        "version": "option-style-1.0",
+        "length_unit": "unicode_chars_excluding_spaces_punctuation_symbols",
+        "option_lengths": [
+          28,
+          33,
+          23,
+          22
+        ],
+        "answer_position": "A",
+        "correct_is_unique_longest": false,
+        "correct_to_distractor_median_ratio": 1.22,
+        "max_min_difference": 11,
+        "max_min_ratio": 1.5,
+        "absolute_phrase_positions": [],
+        "warning_codes": [],
+        "warnings": [],
+        "interpretation": "仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。"
+      },
+      {
+        "final_id": "Q4",
+        "candidate_id": "G1_Q4",
+        "version": "option-style-1.0",
+        "length_unit": "unicode_chars_excluding_spaces_punctuation_symbols",
+        "option_lengths": [
+          26,
+          33,
+          32,
+          28
+        ],
+        "answer_position": "C",
+        "correct_is_unique_longest": false,
+        "correct_to_distractor_median_ratio": 1.14,
+        "max_min_difference": 7,
+        "max_min_ratio": 1.27,
+        "absolute_phrase_positions": [],
+        "warning_codes": [],
+        "warnings": [],
+        "interpretation": "仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。"
+      },
+      {
+        "final_id": "Q5",
+        "candidate_id": "G1_Q5",
+        "version": "option-style-1.0",
+        "length_unit": "unicode_chars_excluding_spaces_punctuation_symbols",
+        "option_lengths": [
+          32,
+          36,
+          34,
+          31
+        ],
+        "answer_position": "A",
+        "correct_is_unique_longest": false,
+        "correct_to_distractor_median_ratio": 0.94,
+        "max_min_difference": 5,
+        "max_min_ratio": 1.16,
+        "absolute_phrase_positions": [],
+        "warning_codes": [],
+        "warnings": [],
+        "interpretation": "仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。"
+      }
+    ],
+    "answer_distribution": {
+      "A": 2,
+      "B": 1,
+      "C": 1,
+      "D": 1
+    },
+    "taxonomy_warnings": []
+  },
+  "selection_report_json": "{\"schema_version\":\"triple-selection-1.0\",\"candidate_count\":5,\"medical_approval_confirmed\":false,\"source_groups\":[{\"group_id\":\"G1\",\"parse_status\":\"OK\",\"raw_question_count\":5,\"usable_question_count\":5,\"rejected_questions\":[],\"warnings\":[],\"audit\":{\"availability\":\"not_provided\"},\"transport\":{\"protocol\":\"single_json\",\"json_block_count\":1,\"selected_block_index\":0,\"ignored_intermediate_blocks\":0,\"upstream_messages\":[]},\"upstream_missing_information\":[],\"workflow_revision\":\"20260929-evidence-depth-five\",\"flow_status\":\"OUTPUT_READY\",\"completion\":{\"required_question_count\":5,\"available_question_count\":5,\"model_question_count\":5,\"complete\":true},\"program_check\":{\"scope\":\"program_structure_and_reference_identity_only\",\"decision\":\"PASS\",\"errors\":[],\"warnings\":[\"OPTION_STYLE Q1：四项有效字符数=39/40/23/39，正确项=D；四项长度差异较大：应统一表达层次，不得机械补字或截断。\",\"同一证据定位c9294314-38c0-4a55-92b6-b261f374a7da::60支持2题：复核是否考查不同真实决策；不设置复用题数配额\"]},\"workflow_diagnostics\":{\"scope\":\"debug_only_not_learner_content\",\"evidence_verification\":{\"version\":\"option-anchors-1.0\",\"scope\":\"literal_source_presence_and_shape_only\",\"decision\":\"PASS\",\"semantic_support\":\"not_independently_verified\",\"errors\":[],\"question_checks\":[{\"question_id\":\"Q1\",\"evidence_id\":\"GB03\",\"errors\":[],\"option_checks\":[{\"option\":\"A\",\"quotes\":[{\"quote\":\"PD-L1 CPS ≥ 1;<br/>瑞拉芙普 α 注射液+XELOXk<br/>[1A 类]\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":152,\"end\":199,\"text\":\"</td><td>Ⅲ级推荐</td></tr><tr><td>HER2 中低或不表达°</td><td>PD-L1 TAP ≥ 5%;<br/>替雷利珠单抗+XELOX/FPi [1A 类]<br/>PD-L1 CPS ≥ 1;<br/>瑞拉芙普 α 注射液+XELOXk<br/>[1A 类]</td><td>PD-L1 TAP&lt;5%或检测不可及;<br/>替雷利珠单抗+XELOX/FPi [1B 类]</td><td></td></tr><tr><td></td><td>无论 PD\"}]}]},{\"option\":\"B\",\"quotes\":[{\"quote\":\"PD-L1 TAP ≥ 5%;<br/>替雷利珠单抗+XELOX/FPi [1A 类]\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":104,\"end\":147,\"text\":\"治疗（续）<table><tr><td>分层</td><td>Ⅰ级推荐</td><td>Ⅱ级推荐</td><td>Ⅲ级推荐</td></tr><tr><td>HER2 中低或不表达°</td><td>PD-L1 TAP ≥ 5%;<br/>替雷利珠单抗+XELOX/FPi [1A 类]<br/>PD-L1 CPS ≥ 1;<br/>瑞拉芙普 α 注射液+XELOXk<br/>[1A 类]</td><td>PD-L1 TAP&lt;5%或检测不可及;<br/>替雷利珠单抗+XELOX\"}]}]},{\"option\":\"C\",\"quotes\":[{\"quote\":\"三药联合方案 DCF 及 mDCF° [1B 类]\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":464,\"end\":489,\"text\":\" ≥ 75%);<br/>佐妥昔单抗+FOLFOX/XELOXn [1A 类]<br/>奥沙利铂/顺铂+氟尿嘧啶类° [1A 类]*<br/>氟尿嘧啶类 + 紫杉类° [2A 类]*</td><td>三药联合方案 DCF 及 mDCF° [1B 类]</td><td>单药氟尿嘧啶类或紫杉类° [2B 类]*</td></tr></table>\"}]}]},{\"option\":\"D\",\"quotes\":[{\"quote\":\"奥沙利铂/顺铂+氟尿嘧啶类° [1A 类]*\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":408,\"end\":430,\"text\":\"<br/>卡度尼利单抗+XELOXm [1A 类]<br/>Claudin 182 表达 (IHC2 或 3+, ≥ 75%);<br/>佐妥昔单抗+FOLFOX/XELOXn [1A 类]<br/>奥沙利铂/顺铂+氟尿嘧啶类° [1A 类]*<br/>氟尿嘧啶类 + 紫杉类° [2A 类]*</td><td>三药联合方案 DCF 及 mDCF° [1B 类]</td><td>单药氟尿嘧啶类或紫杉类° [2B 类]*</td></tr></\"}]}]}],\"case_fact_checks\":[{\"field\":\"case_timeline\",\"quote\":\"IHC：HER-2阴性、PD-L1阴性(CPS<1)、MMR正常\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":41,\"end\":73,\"text\":\"2016年12月前｜入院检查｜腹痛1个月，胃镜示胃窦癌变，病理确诊低分化管状腺癌，IHC：HER-2阴性、PD-L1阴性(CPS<1)、MMR正常，CT示胃窦壁增厚、周围淋巴结肿大、肝多发转移\\n2016年12月｜开始CAPOX姑息化疗｜奥沙利铂130 mg/m² D1；卡培他滨2000 mg/m² D1-14，每3周一次\\n治疗4个月后｜复查CT\"}]},{\"field\":\"case_timeline\",\"quote\":\"开始CAPOX姑息化疗\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":106,\"end\":117,\"text\":\"2月前｜入院检查｜腹痛1个月，胃镜示胃窦癌变，病理确诊低分化管状腺癌，IHC：HER-2阴性、PD-L1阴性(CPS<1)、MMR正常，CT示胃窦壁增厚、周围淋巴结肿大、肝多发转移\\n2016年12月｜开始CAPOX姑息化疗｜奥沙利铂130 mg/m² D1；卡培他滨2000 mg/m² D1-14，每3周一次\\n治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小\\n第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\\n9个周\"}]}],\"decision_design\":{\"closest_alternative\":\"A\",\"decision_boundary\":\"CPS<1不满足瑞拉芙普α的CPS≥1入组条件；CAPOX为1A且不依赖PD-L1状态\",\"review_required\":\"核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。\"},\"source_locator\":{\"doc_id\":\"a67b5445-0dac-4ec4-a1ec-3d85f4849b6b\",\"split_index\":110},\"decision\":\"PASS\"},{\"question_id\":\"Q2\",\"evidence_id\":\"IR05\",\"errors\":[],\"option_checks\":[{\"option\":\"A\",\"quotes\":[{\"quote\":\"对剂量限制性毒性（如：骨髓抑制）可减量\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":128,\"end\":147,\"text\":\"续用药，Ⅱ度需暂停用药直至恢复至I度，Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理，IV度可能需永久停药。  \\n（2）不良反应类型有助判断“再挑战”时化疗药物  \\n   \\n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注意是否已达最大累积剂量，对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生。  \\n（3）对复杂不良反应，可采用MDT to HI\"}]}]},{\"option\":\"B\",\"quotes\":[{\"quote\":\"对剂量限制性毒性（如：骨髓抑制）可减量\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":128,\"end\":147,\"text\":\"续用药，Ⅱ度需暂停用药直至恢复至I度，Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理，IV度可能需永久停药。  \\n（2）不良反应类型有助判断“再挑战”时化疗药物  \\n   \\n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注意是否已达最大累积剂量，对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生。  \\n（3）对复杂不良反应，可采用MDT to HI\"}]}]},{\"option\":\"C\",\"quotes\":[{\"quote\":\"Ⅱ度需暂停用药直至恢复至I度\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":32,\"end\":46,\"text\":\"（1）根据不良反应严重程度采取分级处理：I度不良事件可继续用药，Ⅱ度需暂停用药直至恢复至I度，Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理，IV度可能需永久停药。  \\n（2）不良反应类型有助判断“再挑战”时化疗药物  \\n   \\n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减\"}]}]},{\"option\":\"D\",\"quotes\":[{\"quote\":\"对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":188,\"end\":220,\"text\":\"  \\n（2）不良反应类型有助判断“再挑战”时化疗药物  \\n   \\n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注意是否已达最大累积剂量，对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生。  \\n（3）对复杂不良反应，可采用MDT to HIM模式。需全程化、精细化、多学科团队参与和多方位（医护、临床药师、患者及家属）共同努力。\"}]}]}],\"case_fact_checks\":[{\"field\":\"case_timeline\",\"quote\":\"第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":188,\"end\":213,\"text\":\"肿大、肝多发转移\\n2016年12月｜开始CAPOX姑息化疗｜奥沙利铂130 mg/m² D1；卡培他滨2000 mg/m² D1-14，每3周一次\\n治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小\\n第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\\n9个周期后｜终止化疗｜因持续血液学毒性\\n化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\\n后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\\n2018年5月｜达到完全缓解\\n2021年8月｜胃镜证实完全缓解\"}]},{\"field\":\"adverse_events\",\"quote\":\"奥沙利铂（CAPOX方案）｜骨髓毒性\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":7,\"end\":25,\"text\":\"第5个周期起｜奥沙利铂（CAPOX方案）｜骨髓毒性｜原文明示分级未记载｜奥沙利铂剂量减至75%｜持续至第9周期后终止化疗\\n9个周期后｜CAPOX方案（奥沙利铂+卡培他滨）｜持续血液学毒性｜原文明示分级未记载｜终止化疗｜后续未再出现相关事件记载\"}]}],\"decision_design\":{\"closest_alternative\":\"C\",\"decision_boundary\":\"骨髓抑制为剂量限制性毒性→减量；非II度暂停后原剂量重启，也非特异质反应需换药\",\"review_required\":\"核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。\"},\"source_locator\":{\"doc_id\":\"c9294314-38c0-4a55-92b6-b261f374a7da\",\"split_index\":60},\"decision\":\"PASS\"},{\"question_id\":\"Q3\",\"evidence_id\":\"GB01\",\"errors\":[],\"option_checks\":[{\"option\":\"A\",\"quotes\":[{\"quote\":\"二线及后线治疗适用于初始化疗后出现疾病进展的患者\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":13,\"end\":37,\"text\":\"（2）二线及后线治疗：晚期二线及后线治疗适用于初始化疗后出现疾病进展的患者。二线治疗中，对既往接受过抗HER-2治疗的阳性患者，应根据HER-2再检测状态决定治疗策略，不推荐继续常规抗HER-2治疗。对既往未应用曲妥珠单抗者，可考虑曲妥珠单抗联合单药紫杉醇（2类推荐证据）[\"}]}]},{\"option\":\"B\",\"quotes\":[{\"quote\":\"二线及后线治疗适用于初始化疗后出现疾病进展的患者\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":13,\"end\":37,\"text\":\"（2）二线及后线治疗：晚期二线及后线治疗适用于初始化疗后出现疾病进展的患者。二线治疗中，对既往接受过抗HER-2治疗的阳性患者，应根据HER-2再检测状态决定治疗策略，不推荐继续常规抗HER-2治疗。对既往未应用曲妥珠单抗者，可考虑曲妥珠单抗联合单药紫杉醇（2类推荐证据）[\"}]}]},{\"option\":\"C\",\"quotes\":[{\"quote\":\"二线及后线治疗适用于初始化疗后出现疾病进展的患者\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":13,\"end\":37,\"text\":\"（2）二线及后线治疗：晚期二线及后线治疗适用于初始化疗后出现疾病进展的患者。二线治疗中，对既往接受过抗HER-2治疗的阳性患者，应根据HER-2再检测状态决定治疗策略，不推荐继续常规抗HER-2治疗。对既往未应用曲妥珠单抗者，可考虑曲妥珠单抗联合单药紫杉醇（2类推荐证据）[\"}]}]},{\"option\":\"D\",\"quotes\":[{\"quote\":\"二线及后线治疗适用于初始化疗后出现疾病进展的患者\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":13,\"end\":37,\"text\":\"（2）二线及后线治疗：晚期二线及后线治疗适用于初始化疗后出现疾病进展的患者。二线治疗中，对既往接受过抗HER-2治疗的阳性患者，应根据HER-2再检测状态决定治疗策略，不推荐继续常规抗HER-2治疗。对既往未应用曲妥珠单抗者，可考虑曲妥珠单抗联合单药紫杉醇（2类推荐证据）[\"}]}]}],\"case_fact_checks\":[{\"field\":\"case_timeline\",\"quote\":\"化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":234,\"end\":258,\"text\":\"；卡培他滨2000 mg/m² D1-14，每3周一次\\n治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小\\n第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\\n9个周期后｜终止化疗｜因持续血液学毒性\\n化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\\n后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\\n2018年5月｜达到完全缓解\\n2021年8月｜胃镜证实完全缓解｜活检未见肿瘤细胞\\n2023年12月｜最后一次随访｜仍维持完全缓解，无进展生存期已超过93\"}]},{\"field\":\"case_timeline\",\"quote\":\"后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":259,\"end\":281,\"text\":\"一次\\n治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小\\n第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\\n9个周期后｜终止化疗｜因持续血液学毒性\\n化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\\n后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\\n2018年5月｜达到完全缓解\\n2021年8月｜胃镜证实完全缓解｜活检未见肿瘤细胞\\n2023年12月｜最后一次随访｜仍维持完全缓解，无进展生存期已超过93个月\"}]}],\"decision_design\":{\"closest_alternative\":\"B\",\"decision_boundary\":\"轻度增大后自行缩小≠疾病进展；GB01二线仅适用于明确进展，本例不满足启动条件\",\"review_required\":\"核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。\"},\"source_locator\":{\"doc_id\":\"0d244cdc-4b4c-4b72-9a3f-5ce862be52d6\",\"split_index\":58},\"decision\":\"PASS\"},{\"question_id\":\"Q4\",\"evidence_id\":\"GS04\",\"errors\":[],\"option_checks\":[{\"option\":\"A\",\"quotes\":[{\"quote\":\"细胞/组织病理学诊断是胃癌确诊和治疗的依据\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":296,\"end\":317,\"text\":\"tomography-computed tomography, PET/CT）分别作为CT疑诊肝转移、腹膜转移及全身转移时的补充手段。影像学报告应提供涉及cTNM分期的征象描述，并给出分期诊断。  \\n细胞/组织病理学诊断是胃癌确诊和治疗的依据。胃癌术后病理学诊断（pTNM分期）为明确胃癌的组织学类型、全面评估胃癌分期、判断患者预后、制订有针对性的个体化治疗方案提供必要的组织病理学依据。目前肿瘤组织HER2状态是胃癌分子分型和抗HER2靶向\"}]}]},{\"option\":\"B\",\"quotes\":[{\"quote\":\"细胞/组织病理学诊断是胃癌确诊和治疗的依据\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":296,\"end\":317,\"text\":\"tomography-computed tomography, PET/CT）分别作为CT疑诊肝转移、腹膜转移及全身转移时的补充手段。影像学报告应提供涉及cTNM分期的征象描述，并给出分期诊断。  \\n细胞/组织病理学诊断是胃癌确诊和治疗的依据。胃癌术后病理学诊断（pTNM分期）为明确胃癌的组织学类型、全面评估胃癌分期、判断患者预后、制订有针对性的个体化治疗方案提供必要的组织病理学依据。目前肿瘤组织HER2状态是胃癌分子分型和抗HER2靶向\"}]}]},{\"option\":\"C\",\"quotes\":[{\"quote\":\"细胞/组织病理学诊断是胃癌确诊和治疗的依据\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":296,\"end\":317,\"text\":\"tomography-computed tomography, PET/CT）分别作为CT疑诊肝转移、腹膜转移及全身转移时的补充手段。影像学报告应提供涉及cTNM分期的征象描述，并给出分期诊断。  \\n细胞/组织病理学诊断是胃癌确诊和治疗的依据。胃癌术后病理学诊断（pTNM分期）为明确胃癌的组织学类型、全面评估胃癌分期、判断患者预后、制订有针对性的个体化治疗方案提供必要的组织病理学依据。目前肿瘤组织HER2状态是胃癌分子分型和抗HER2靶向\"}]}]},{\"option\":\"D\",\"quotes\":[{\"quote\":\"细胞/组织病理学诊断是胃癌确诊和治疗的依据\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":296,\"end\":317,\"text\":\"tomography-computed tomography, PET/CT）分别作为CT疑诊肝转移、腹膜转移及全身转移时的补充手段。影像学报告应提供涉及cTNM分期的征象描述，并给出分期诊断。  \\n细胞/组织病理学诊断是胃癌确诊和治疗的依据。胃癌术后病理学诊断（pTNM分期）为明确胃癌的组织学类型、全面评估胃癌分期、判断患者预后、制订有针对性的个体化治疗方案提供必要的组织病理学依据。目前肿瘤组织HER2状态是胃癌分子分型和抗HER2靶向\"}]}]}],\"case_fact_checks\":[{\"field\":\"case_timeline\",\"quote\":\"2018年5月｜达到完全缓解\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":282,\"end\":296,\"text\":\"均明显缩小\\n第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\\n9个周期后｜终止化疗｜因持续血液学毒性\\n化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\\n后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\\n2018年5月｜达到完全缓解\\n2021年8月｜胃镜证实完全缓解｜活检未见肿瘤细胞\\n2023年12月｜最后一次随访｜仍维持完全缓解，无进展生存期已超过93个月\"}]},{\"field\":\"case_timeline\",\"quote\":\"2021年8月｜胃镜证实完全缓解｜活检未见肿瘤细胞\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":297,\"end\":322,\"text\":\"骨髓毒性｜奥沙利铂剂量减至75%\\n9个周期后｜终止化疗｜因持续血液学毒性\\n化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\\n后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\\n2018年5月｜达到完全缓解\\n2021年8月｜胃镜证实完全缓解｜活检未见肿瘤细胞\\n2023年12月｜最后一次随访｜仍维持完全缓解，无进展生存期已超过93个月\"}]}],\"decision_design\":{\"closest_alternative\":\"B\",\"decision_boundary\":\"病理确认是必要的，但无证据要求CR后3个月内必须活检；本例3年后确认仍合理\",\"review_required\":\"核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。\"},\"source_locator\":{\"doc_id\":\"a67b5445-0dac-4ec4-a1ec-3d85f4849b6b\",\"split_index\":14},\"decision\":\"PASS\"},{\"question_id\":\"Q5\",\"evidence_id\":\"IR05\",\"errors\":[],\"option_checks\":[{\"option\":\"A\",\"quotes\":[{\"quote\":\"Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":47,\"end\":76,\"text\":\"（1）根据不良反应严重程度采取分级处理：I度不良事件可继续用药，Ⅱ度需暂停用药直至恢复至I度，Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理，IV度可能需永久停药。  \\n（2）不良反应类型有助判断“再挑战”时化疗药物  \\n   \\n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注\"}]}]},{\"option\":\"B\",\"quotes\":[{\"quote\":\"对剂量限制性毒性（如：骨髓抑制）可减量\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":128,\"end\":147,\"text\":\"续用药，Ⅱ度需暂停用药直至恢复至I度，Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理，IV度可能需永久停药。  \\n（2）不良反应类型有助判断“再挑战”时化疗药物  \\n   \\n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注意是否已达最大累积剂量，对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生。  \\n（3）对复杂不良反应，可采用MDT to HI\"}]}]},{\"option\":\"C\",\"quotes\":[{\"quote\":\"对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":188,\"end\":220,\"text\":\"  \\n（2）不良反应类型有助判断“再挑战”时化疗药物  \\n   \\n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注意是否已达最大累积剂量，对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生。  \\n（3）对复杂不良反应，可采用MDT to HIM模式。需全程化、精细化、多学科团队参与和多方位（医护、临床药师、患者及家属）共同努力。\"}]}]},{\"option\":\"D\",\"quotes\":[{\"quote\":\"对剂量限制性毒性（如：骨髓抑制）可减量\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":128,\"end\":147,\"text\":\"续用药，Ⅱ度需暂停用药直至恢复至I度，Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理，IV度可能需永久停药。  \\n（2）不良反应类型有助判断“再挑战”时化疗药物  \\n   \\n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注意是否已达最大累积剂量，对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生。  \\n（3）对复杂不良反应，可采用MDT to HI\"}]}]}],\"case_fact_checks\":[{\"field\":\"case_timeline\",\"quote\":\"9个周期后｜终止化疗｜因持续血液学毒性\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":214,\"end\":233,\"text\":\"息化疗｜奥沙利铂130 mg/m² D1；卡培他滨2000 mg/m² D1-14，每3周一次\\n治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小\\n第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\\n9个周期后｜终止化疗｜因持续血液学毒性\\n化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\\n后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\\n2018年5月｜达到完全缓解\\n2021年8月｜胃镜证实完全缓解｜活检未见肿瘤细胞\\n2023年12月｜最\"}]},{\"field\":\"case_timeline\",\"quote\":\"第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":188,\"end\":213,\"text\":\"肿大、肝多发转移\\n2016年12月｜开始CAPOX姑息化疗｜奥沙利铂130 mg/m² D1；卡培他滨2000 mg/m² D1-14，每3周一次\\n治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小\\n第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\\n9个周期后｜终止化疗｜因持续血液学毒性\\n化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\\n后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\\n2018年5月｜达到完全缓解\\n2021年8月｜胃镜证实完全缓解\"}]}],\"decision_design\":{\"closest_alternative\":\"B\",\"decision_boundary\":\"减量后毒性持续→风险/获益不利→终止；骨髓抑制非特异质→无需换铂类；支持治疗不能'完全预防'\",\"review_required\":\"核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。\"},\"source_locator\":{\"doc_id\":\"c9294314-38c0-4a55-92b6-b261f374a7da\",\"split_index\":60},\"decision\":\"PASS\"}]},\"question_evidence_bindings\":[{\"question_id\":\"Q1\",\"evidence_id\":\"GB03\",\"doc_id\":\"a67b5445-0dac-4ec4-a1ec-3d85f4849b6b\",\"split_index\":110,\"matching_record_count\":1},{\"question_id\":\"Q2\",\"evidence_id\":\"IR05\",\"doc_id\":\"c9294314-38c0-4a55-92b6-b261f374a7da\",\"split_index\":60,\"matching_record_count\":1},{\"question_id\":\"Q3\",\"evidence_id\":\"GB01\",\"doc_id\":\"0d244cdc-4b4c-4b72-9a3f-5ce862be52d6\",\"split_index\":58,\"matching_record_count\":1},{\"question_id\":\"Q4\",\"evidence_id\":\"GS04\",\"doc_id\":\"a67b5445-0dac-4ec4-a1ec-3d85f4849b6b\",\"split_index\":14,\"matching_record_count\":1},{\"question_id\":\"Q5\",\"evidence_id\":\"IR05\",\"doc_id\":\"c9294314-38c0-4a55-92b6-b261f374a7da\",\"split_index\":60,\"matching_record_count\":1}],\"cited_evidence_snapshot\":[{\"evidence_id\":\"GS04\",\"doc_id\":\"a67b5445-0dac-4ec4-a1ec-3d85f4849b6b\",\"split_index\":14,\"type\":\"guideline\",\"authority\":\"CSCO\",\"source_title\":\"中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026\",\"source_version\":\"2026\",\"source_section\":\"专家组成员（以姓氏汉语拼音为序）（\\\\*为执笔人）\",\"source_url\":\"\",\"snippet\":\"胃癌治疗前基本诊断手段主要包括内镜、影像及病理学检查，用于胃癌的定性诊断、定位诊断和分期诊断，其他还包括体格检查、实验室检查、诊断性腹腔镜探查和腹腔灌洗液评价等方法以进一步对胃癌临床诊断进行补充和确证。  \\n胸部及腹盆部增强计算机断层扫描（CT）检查是治疗前分期的基本手段，磁共振成像（MRI）、诊断性腹腔镜探查和腹腔灌洗液评价及正电子发射计算机体层显像（positron emission tomography-computed tomography, PET/CT）分别作为CT疑诊肝转移、腹膜转移及全身转移时的补充手段。影像学报告应提供涉及cTNM分期的征象描述，并给出分期诊断。  \\n细胞/组织病理学诊断是胃癌确诊和治疗的依据。胃癌术后病理学诊断（pTNM分期）为明确胃癌的组织学类型、全面评估胃癌分期、判断患者预后、制订有针对性的个体化治疗方案提供必要的组织病理学依据。目前肿瘤组织HER2状态是胃癌分子分型和抗HER2靶向药物治疗的重要依据，所有经病理诊断证实为胃或食管胃结合部腺癌的病例均有必要进行HER2检测。推荐新诊断的胃癌病例进行MSI/MMR检测，从而使MSI-H/dMMR患者有机会从免疫治疗中获益。拟进行靶向Claudin 18.2治疗和采用程序性死亡受体I（programmed death-1, PD-1）/程序性死亡受体配体1（programmed death-ligand 1, PD-L1）抑制剂治疗的胃癌患者，应进行Claudin 18.2和PD-L1检测。二代测序（next-generation sequencing, NGS）和液体活检等在胃癌中的应用尚处在探索和数据积累阶段。  \\n \",\"hard_evidence_type\":\"指南\",\"reasoning_eligible\":true},{\"evidence_id\":\"GB01\",\"doc_id\":\"0d244cdc-4b4c-4b72-9a3f-5ce862be52d6\",\"split_index\":58,\"type\":\"guideline\",\"authority\":\"中华医学会肿瘤学分会\",\"source_title\":\"中华医学会胃癌临床诊疗指南（2021版）\",\"source_version\":\"2021\",\"source_section\":\"（三）转移性胃癌的治疗\",\"source_url\":\"\",\"snippet\":\"（2）二线及后线治疗：晚期二线及后线治疗适用于初始化疗后出现疾病进展的患者。二线治疗中，对既往接受过抗HER-2治疗的阳性患者，应根据HER-2再检测状态决定治疗策略，不推荐继续常规抗HER-2治疗。对既往未应用曲妥珠单抗者，可考虑曲妥珠单抗联合单药紫杉醇（2类推荐证据）[85]和蒽环类药物之外的二线化疗方案（3类推荐证据）。MSI的患者可在PD-1抑制剂治疗中获益（2类推荐证据）[86]。对肿瘤负荷较大、存在转化治疗机会或单药免疫治疗效果欠佳的患者可采用联合免疫治疗，并推荐参加临床研究；无相关分子标志物的患者可进行二线化疗联合抗血管生成药物，如雷莫芦单抗 \\\\$^+\\\\$ 紫杉醇，此外还推荐行单药紫杉醇、单药伊立替康化疗（1类推荐证据），但有小样本Ⅱ期研究结果显示，对于体能状态良好的患者，双药化疗可带来更好的肿瘤控制且安全性尚可。\\n三线及后线治疗对于HER- 2阳性患者推荐维迪西妥单抗，对于无相关分子标志物者则可尝试阿帕替尼、TAS102以及纳武利尤单抗等。基于ATTRACTION- 02Ⅲ期研究结果，阿帕替尼和纳武利尤单抗现被NMPA批准用于晚期胃癌的三线治\\n \",\"hard_evidence_type\":\"指南\",\"reasoning_eligible\":true},{\"evidence_id\":\"GB03\",\"doc_id\":\"a67b5445-0dac-4ec4-a1ec-3d85f4849b6b\",\"split_index\":110,\"type\":\"guideline\",\"authority\":\"CSCO\",\"source_title\":\"中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026\",\"source_version\":\"2026\",\"source_section\":\"专家组成员（以姓氏汉语拼音为序）（\\\\*为执笔人）\",\"source_url\":\"\",\"snippet\":\" \\n一线治疗（续）<table><tr><td>分层</td><td>Ⅰ级推荐</td><td>Ⅱ级推荐</td><td>Ⅲ级推荐</td></tr><tr><td>HER2 中低或不表达°</td><td>PD-L1 TAP ≥ 5%;<br/>替雷利珠单抗+XELOX/FPi [1A 类]<br/>PD-L1 CPS ≥ 1;<br/>瑞拉芙普 α 注射液+XELOXk<br/>[1A 类]</td><td>PD-L1 TAP&lt;5%或检测不可及;<br/>替雷利珠单抗+XELOX/FPi [1B 类]</td><td></td></tr><tr><td></td><td>无论 PD-L1 表达状态:<br/>卡度尼利单抗+XELOXm [1A 类]<br/>Claudin 182 表达 (IHC2 或 3+, ≥ 75%);<br/>佐妥昔单抗+FOLFOX/XELOXn [1A 类]<br/>奥沙利铂/顺铂+氟尿嘧啶类° [1A 类]*<br/>氟尿嘧啶类 + 紫杉类° [2A 类]*</td><td>三药联合方案 DCF 及 mDCF° [1B 类]</td><td>单药氟尿嘧啶类或紫杉类° [2B 类]*</td></tr></table>\",\"hard_evidence_type\":\"指南\",\"reasoning_eligible\":true},{\"evidence_id\":\"IR05\",\"doc_id\":\"c9294314-38c0-4a55-92b6-b261f374a7da\",\"split_index\":60,\"type\":\"guideline\",\"authority\":\"CACA\",\"source_title\":\"中国肿瘤整合诊治技术指南（CACA） 整体支持\",\"source_version\":\"2023\",\"source_section\":\"（五）不良反应的处理\",\"source_url\":\"\",\"snippet\":\"（1）根据不良反应严重程度采取分级处理：I度不良事件可继续用药，Ⅱ度需暂停用药直至恢复至I度，Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理，IV度可能需永久停药。  \\n（2）不良反应类型有助判断“再挑战”时化疗药物  \\n   \\n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注意是否已达最大累积剂量，对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生。  \\n（3）对复杂不良反应，可采用MDT to HIM模式。需全程化、精细化、多学科团队参与和多方位（医护、临床药师、患者及家属）共同努力。\",\"hard_evidence_type\":\"指南\",\"reasoning_eligible\":true}],\"retrieval_queries\":{\"staging\":\"初始临床评估与分期指南\\n原发诊断：胃窦低分化管状腺癌（无亚型），HER-2阴性，PD-L1阴性（CPS<1），MMR功能正常，伴肝多发转移（IV期）\\n初诊摘录：患者男，59岁，因腹痛1个月入院；胃镜检查显示胃窦癌变，组织病理学确诊为低分化管状腺癌（无亚型）；免疫组织化学检测显示HER-2阴性、PD-L1阴性（CPS<1）、MMR功能正常；CT扫描显示胃窦壁增厚、周围淋巴结肿大及肝脏多发转移灶；入院时未记载分子检测（如NGS）结果，未记载既往治疗史或合并症信息\\n匹配原发病种与分期检查、区域和远处病变评估，不用后续事实反推初诊。\",\"molecular\":\"病理与分子检测及结果应用指南\\n原发诊断：胃窦低分化管状腺癌（无亚型），HER-2阴性，PD-L1阴性（CPS<1），MMR功能正常，伴肝多发转移（IV期）\\n检测记录：分子检测｜未记载｜未记载｜未记载｜未记载（原文未提及NGS或其他分子分析）\\n关注检测时机、结果等待与治疗衔接；检索关键词不代表初诊已知结果。\",\"treatment\":\"复评、局部协调与后线决策正式指南\\n原发诊断：胃窦低分化管状腺癌（无亚型），HER-2阴性，PD-L1阴性（CPS<1），MMR功能正常，伴肝多发转移（IV期）\\n决策问题：2016年12月｜HER2阴性、PD-L1阴性(CPS<1)、MMR正常的转移性胃癌｜初始全身治疗方案选择；治疗4个月后｜原发灶及肝转移灶明显缩小｜是否继续原方案或调整\\n实际治疗：2016年12月｜开始CAPOX姑息化疗｜奥沙利铂130 mg/m² D1；治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小；9个周期后｜终止化疗｜因持续血液学毒性；化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\\n按原发癌种匹配复评与后线阶段，保留已知治疗限制。\",\"study\":\"匹配病例实际方案的原始临床研究\\n原发诊断：胃窦低分化管状腺癌（无亚型），HER-2阴性，PD-L1阴性（CPS<1），MMR功能正常，伴肝多发转移（IV期）\\n方案和阶段：2016年12月｜开始CAPOX姑息化疗｜奥沙利铂130 mg/m² D1；治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小；9个周期后｜终止化疗｜因持续血液学毒性；化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\\n匹配药物、人群、治疗阶段与决策终点，需该记录已报告原始研究结果。\",\"toxicity_a\":\"奥沙利铂（CAPOX方案） 骨髓毒性 分级未提供 毒性识别 鉴别诊断 暂缓停药 再治疗条件 支持处理 正式指南\",\"toxicity_b\":\"CAPOX方案（奥沙利铂+卡培他滨） 持续血液学毒性 分级未提供 毒性识别 鉴别诊断 暂缓停药 再治疗条件 支持处理 正式指南\"},\"retrieval_health\":{\"ok\":true,\"errors\":[]},\"compression_report\":{\"input_counts\":{\"guideline_a_staging\":9,\"guideline_a\":11,\"guideline_b\":4,\"clinical_study_initial\":6,\"clinical_study_supplement\":0,\"irae_a\":4,\"irae_b\":4},\"kept_counts\":{\"guideline_a_staging\":4,\"guideline_a\":6,\"guideline_b\":4,\"clinical_study_initial\":3,\"clinical_study_supplement\":0,\"irae_a\":4,\"irae_b\":3},\"kept_total\":24,\"dropped_total\":14,\"dropped\":[{\"lane\":\"guideline_a_staging\",\"index\":3,\"reason\":\"LANE_CONTENT_MISMATCH\",\"locator\":\"f51ad2ef-8e21-42f9-bfd1-f2ed36512587::109\"},{\"lane\":\"guideline_a_staging\",\"index\":5,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"guideline_a_staging\",\"index\":6,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"guideline_a_staging\",\"index\":7,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"guideline_a_staging\",\"index\":8,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"guideline_a\",\"index\":6,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"guideline_a\",\"index\":7,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"guideline_a\",\"index\":8,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"guideline_a\",\"index\":9,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"guideline_a\",\"index\":10,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"clinical_study_initial\",\"index\":1,\"reason\":\"INELIGIBLE_SOURCE\",\"locator\":\"c1c887d3bfcd71dd11939067a4484c16::1\"},{\"lane\":\"clinical_study_initial\",\"index\":3,\"reason\":\"INELIGIBLE_SOURCE\",\"locator\":\"MEETING_20260730_153537_2BA213C2::3\"},{\"lane\":\"clinical_study_initial\",\"index\":4,\"reason\":\"INELIGIBLE_SOURCE\",\"locator\":\"MEETING_20260804_172043_892D9DAE::4\"},{\"lane\":\"irae_b\",\"index\":0,\"reason\":\"DUPLICATE_LOCATOR\",\"locator\":\"e8b56a00-18c3-4e45-ab70-e0f1b0814c6d::61\"}]},\"first_round_raw\":\"\",\"second_round_raw\":\"\",\"parsed_second_round_draft\":null,\"partial_draft_questions\":[],\"model_execution\":{\"model\":\"qwen3.8-flash\",\"max_output_tokens_configured\":16000,\"first_round_char_count\":5880,\"second_round_char_count\":5888,\"finish_reason\":null,\"finish_reason_availability\":\"not_exposed_by_workflow_outputs\"}},\"flow_publishable\":false,\"output_ready\":true,\"medical_review_status\":\"not_performed\",\"generation_status\":\"success\",\"evidence_context_status\":\"provided\"}],\"selected\":[{\"final_id\":\"Q1\",\"candidate_id\":\"G1_Q1\",\"group_id\":\"G1\",\"source_question_id\":\"Q1\",\"evidence_status\":\"located\",\"evidence_key\":\"G1_E1\",\"source_question_audit\":null,\"audit_scope\":\"original_candidate\",\"answer_mapping\":{\"original\":\"D\",\"final\":\"D\",\"order_preserved\":true}},{\"final_id\":\"Q2\",\"candidate_id\":\"G1_Q2\",\"group_id\":\"G1\",\"source_question_id\":\"Q2\",\"evidence_status\":\"located\",\"evidence_key\":\"G1_E2\",\"source_question_audit\":null,\"audit_scope\":\"original_candidate\",\"answer_mapping\":{\"original\":\"B\",\"final\":\"B\",\"order_preserved\":true}},{\"final_id\":\"Q3\",\"candidate_id\":\"G1_Q3\",\"group_id\":\"G1\",\"source_question_id\":\"Q3\",\"evidence_status\":\"located\",\"evidence_key\":\"G1_E3\",\"source_question_audit\":null,\"audit_scope\":\"original_candidate\",\"answer_mapping\":{\"original\":\"A\",\"final\":\"A\",\"order_preserved\":true}},{\"final_id\":\"Q4\",\"candidate_id\":\"G1_Q4\",\"group_id\":\"G1\",\"source_question_id\":\"Q4\",\"evidence_status\":\"located\",\"evidence_key\":\"G1_E4\",\"source_question_audit\":null,\"audit_scope\":\"original_candidate\",\"answer_mapping\":{\"original\":\"C\",\"final\":\"C\",\"order_preserved\":true}},{\"final_id\":\"Q5\",\"candidate_id\":\"G1_Q5\",\"group_id\":\"G1\",\"source_question_id\":\"Q5\",\"evidence_status\":\"located\",\"evidence_key\":\"G1_E2\",\"source_question_audit\":null,\"audit_scope\":\"original_candidate\",\"answer_mapping\":{\"original\":\"A\",\"final\":\"A\",\"order_preserved\":true}}],\"selection_notes\":[],\"warnings\":[\"Q1（G1_Q1）选项表达待复核：39/40/23/39字；四项长度差异较大：应统一表达层次，不得机械补字或截断。\"],\"notice\":\"本流程未进行独立医学审核；程序检查仅检查结构及引用定位，不代表医学正确性。\",\"workflow_revision\":\"20260929-full-review-five-outer\",\"medical_review_status\":\"not_performed\",\"required_question_count\":5,\"available_candidate_count\":5,\"workflow_status\":\"OUTPUT_READY\",\"selection_method\":\"deterministic_original_order\",\"editorial\":{\"scope\":\"original_candidate_text_preserved\",\"applied\":[],\"rejected\":[]},\"selection_status\":\"success\",\"option_style_checks\":[{\"final_id\":\"Q1\",\"candidate_id\":\"G1_Q1\",\"version\":\"option-style-1.0\",\"length_unit\":\"unicode_chars_excluding_spaces_punctuation_symbols\",\"option_lengths\":[39,40,23,39],\"answer_position\":\"D\",\"correct_is_unique_longest\":false,\"correct_to_distractor_median_ratio\":1,\"max_min_difference\":17,\"max_min_ratio\":1.74,\"absolute_phrase_positions\":[],\"warning_codes\":[\"OPTION_LENGTH_SPREAD\"],\"warnings\":[\"四项长度差异较大：应统一表达层次，不得机械补字或截断。\"],\"interpretation\":\"仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。\"},{\"final_id\":\"Q2\",\"candidate_id\":\"G1_Q2\",\"version\":\"option-style-1.0\",\"length_unit\":\"unicode_chars_excluding_spaces_punctuation_symbols\",\"option_lengths\":[31,31,27,33],\"answer_position\":\"B\",\"correct_is_unique_longest\":false,\"correct_to_distractor_median_ratio\":1,\"max_min_difference\":6,\"max_min_ratio\":1.22,\"absolute_phrase_positions\":[],\"warning_codes\":[],\"warnings\":[],\"interpretation\":\"仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。\"},{\"final_id\":\"Q3\",\"candidate_id\":\"G1_Q3\",\"version\":\"option-style-1.0\",\"length_unit\":\"unicode_chars_excluding_spaces_punctuation_symbols\",\"option_lengths\":[28,33,23,22],\"answer_position\":\"A\",\"correct_is_unique_longest\":false,\"correct_to_distractor_median_ratio\":1.22,\"max_min_difference\":11,\"max_min_ratio\":1.5,\"absolute_phrase_positions\":[],\"warning_codes\":[],\"warnings\":[],\"interpretation\":\"仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。\"},{\"final_id\":\"Q4\",\"candidate_id\":\"G1_Q4\",\"version\":\"option-style-1.0\",\"length_unit\":\"unicode_chars_excluding_spaces_punctuation_symbols\",\"option_lengths\":[26,33,32,28],\"answer_position\":\"C\",\"correct_is_unique_longest\":false,\"correct_to_distractor_median_ratio\":1.14,\"max_min_difference\":7,\"max_min_ratio\":1.27,\"absolute_phrase_positions\":[],\"warning_codes\":[],\"warnings\":[],\"interpretation\":\"仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。\"},{\"final_id\":\"Q5\",\"candidate_id\":\"G1_Q5\",\"version\":\"option-style-1.0\",\"length_unit\":\"unicode_chars_excluding_spaces_punctuation_symbols\",\"option_lengths\":[32,36,34,31],\"answer_position\":\"A\",\"correct_is_unique_longest\":false,\"correct_to_distractor_median_ratio\":0.94,\"max_min_difference\":5,\"max_min_ratio\":1.16,\"absolute_phrase_positions\":[],\"warning_codes\":[],\"warnings\":[],\"interpretation\":\"仅为措辞线索，不是医学质量评分；无提示也不等于无缺陷。药名、缩写或必要条件可能导致合理长度差异。\"}],\"answer_distribution\":{\"A\":2,\"B\":1,\"C\":1,\"D\":1},\"taxonomy_warnings\":[]}",
+  "quality_notice": "本流程未进行独立医学审核；程序检查仅检查结构及引用定位，不代表医学正确性。\nQ1（G1_Q1）选项表达待复核：39/40/23/39字；四项长度差异较大：应统一表达层次，不得机械补字或截断。",
+  "final_data": {
+    "schema_version": "1.0",
+    "case_id": "CASE-794E8394",
+    "cancer_type": "胃癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "治疗决策",
+        "phase": "初始全身治疗",
+        "timepoint": "2016年12月确诊后",
+        "question": "该患者HER2阴性、PD-L1 CPS<1、MMR正常的IV期胃癌，初始接受CAPOX化疗。关于此治疗决策，下列哪项正确？",
+        "options": {
+          "A": "应加用瑞拉芙普α联合XELOX，因该组合为1A类推荐且适用于所有HER2阴性患者",
+          "B": "应加用替雷利珠单抗联合XELOX，因该组合为1A类推荐且适用于所有HER2阴性患者",
+          "C": "应首选DCF三药方案，因多发肝转移需更强肿瘤控制",
+          "D": "CAPOX作为一线化疗合理，因PD-L1 CPS<1时含CPS阈值的免疫联合方案不适用"
+        },
+        "answer": "D",
+        "answer_text": "CAPOX作为一线化疗合理，因PD-L1 CPS<1时含CPS阈值的免疫联合方案不适用",
+        "explain": "A｜不正确：瑞拉芙普α+XELOX在指南中明确限定PD-L1 CPS≥1，本例CPS<1不满足该前提\nB｜不正确：替雷利珠单抗+XELOX/FP限定PD-L1 TAP≥5%，且选项称'适用于所有HER2阴性'与分层条件矛盾\nC｜不正确：DCF及mDCF为1B类（II级推荐），并非优于1A类CAPOX的首选方案\nD｜正确：奥沙利铂/顺铂+氟尿嘧啶类为1A类推荐且不依赖PD-L1状态，CPS<1时CAPOX合理",
+        "keyPoint": "PD-L1 CPS<1时含CPS阈值的免疫联合方案不适用，化疗骨架为1A",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+          "split_index": 110,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026",
+          "source_version": "2026",
+          "source_section": "专家组成员（以姓氏汉语拼音为序）（\\*为执笔人）",
+          "source_url": "",
+          "evidence_summary": "CSCO 2026一线分层：瑞拉芙普α需CPS≥1，替雷利珠单抗需TAP≥5%；奥沙利铂+氟尿嘧啶类为1A不依赖PD-L1"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "不良反应管理",
+        "phase": "化疗期间剂量调整",
+        "timepoint": "第5周期出现骨髓毒性时",
+        "question": "该患者CAPOX化疗第5周期起出现骨髓毒性，奥沙利铂剂量减至75%后继续治疗。关于此处理，下列哪项正确？",
+        "options": {
+          "A": "骨髓毒性出现即应永久停用奥沙利铂，因铂类骨髓抑制为不可逆累积毒性",
+          "B": "骨髓抑制属剂量限制性毒性，首次出现时减量继续治疗符合分级管理原则",
+          "C": "应暂停全部化疗直至血象完全正常，再以原剂量重启CAPOX",
+          "D": "骨髓毒性提示奥沙利铂为特异质反应，减量不能预防再次发生，应换用非铂方案"
+        },
+        "answer": "B",
+        "answer_text": "骨髓抑制属剂量限制性毒性，首次出现时减量继续治疗符合分级管理原则",
+        "explain": "A｜不正确：骨髓抑制为剂量限制性毒性可减量处理，非不可逆累积毒性，首次出现即永久停药过于激进\nB｜正确：指南明确骨髓抑制属剂量限制性毒性可减量，本例减至75%后继续治疗符合该原则\nC｜不正确：暂停至完全正常再以原剂量重启适用于II度，但本例采取减量提示更高级别，且原剂量重启违背减量原则\nD｜不正确：骨髓抑制是剂量限制性毒性而非特异质反应，特异质反应减量不能预防才需换药，本例分类错误",
+        "keyPoint": "剂量限制性毒性首次出现应减量而非永久停药或换药",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "c9294314-38c0-4a55-92b6-b261f374a7da",
+          "split_index": 60,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 整体支持",
+          "source_version": "2023",
+          "source_section": "（五）不良反应的处理",
+          "source_url": "",
+          "evidence_summary": "CACA整体支持：骨髓抑制属剂量限制性毒性可减量；特异质反应减量不能预防需换药；两者管理路径不同"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "疗效复评与局部治疗",
+        "phase": "化疗终止后随访",
+        "timepoint": "化疗终止后CT随访",
+        "question": "该患者9周期CAPOX化疗终止后，CT示病情稳定但肝转移灶略有增大，后续随访中肝转移灶逐渐缩小。关于此阶段处理，下列哪项正确？",
+        "options": {
+          "A": "肝转移灶轻度增大后自行缩小未构成明确进展，继续观察随访合理",
+          "B": "肝转移灶增大即达疾病进展标准，应立即启动雷莫芦单抗联合紫杉醇二线方案",
+          "C": "虽未达进展标准，但化疗已终止，应预防性启动二线化疗",
+          "D": "应恢复奥沙利铂联合卡培他滨方案，因原方案曾有效"
+        },
+        "answer": "A",
+        "answer_text": "肝转移灶轻度增大后自行缩小未构成明确进展，继续观察随访合理",
+        "explain": "A｜正确：指南规定二线适用于明确疾病进展，本例轻度增大后自行缩小未达进展标准，观察合理\nB｜不正确：雷莫芦单抗+紫杉醇为进展后二线选择，本例未达进展标准，启动二线缺乏适应证\nC｜不正确：指南明确二线适用于出现疾病进展的患者，预防性启动二线无适应证依据\nD｜不正确：化疗因持续血液学毒性终止，恢复原方案违背毒性管理原则且无进展证据支持",
+        "keyPoint": "转移灶轻度增大后自行缩小不构成疾病进展，不触发二线治疗",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "0d244cdc-4b4c-4b72-9a3f-5ce862be52d6",
+          "split_index": 58,
+          "type": "guideline",
+          "authority": "中华医学会肿瘤学分会",
+          "source_title": "中华医学会胃癌临床诊疗指南（2021版）",
+          "source_version": "2021",
+          "source_section": "（三）转移性胃癌的治疗",
+          "source_url": "",
+          "evidence_summary": "中华医学会指南：二线及后线适用于初始化疗后出现疾病进展的患者；本例未达进展标准"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "疗效复评与局部治疗",
+        "phase": "完全缓解确认",
+        "timepoint": "2018年5月影像学CR后",
+        "question": "该患者2018年5月CT示原发灶消失、肝转移灶缩小达影像学完全缓解，2021年8月胃镜活检未见肿瘤细胞。关于完全缓解的确认，下列哪项正确？",
+        "options": {
+          "A": "影像学完全缓解即可判定治愈，无需进一步内镜或病理学确认",
+          "B": "应在影像学CR后3个月内立即行胃镜活检，因影像无法区分瘢痕与残留肿瘤",
+          "C": "影像学CR需结合内镜活检进行病理学确认，本例胃镜证实CR支持该策略",
+          "D": "应以PET/CT代谢评估替代内镜活检作为CR的最终确认手段"
+        },
+        "answer": "C",
+        "answer_text": "影像学CR需结合内镜活检进行病理学确认，本例胃镜证实CR支持该策略",
+        "explain": "A｜不正确：指南明确细胞/组织病理学是确诊和治疗依据，影像学CR不能替代病理学确认\nB｜不正确：病理确认原则正确，但'3个月内立即'无指南依据，本例3年后确认仍合理且未影响结局\nC｜正确：病理学为确诊依据，影像学CR后行内镜活检确认符合原则，本例胃镜证实CR支持该策略\nD｜不正确：PET/CT用于分期评估，不能替代组织病理学作为CR最终确认手段",
+        "keyPoint": "影像学CR需病理学确认，但确认时机无硬性时限要求",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+          "split_index": 14,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026",
+          "source_version": "2026",
+          "source_section": "专家组成员（以姓氏汉语拼音为序）（\\*为执笔人）",
+          "source_url": "",
+          "evidence_summary": "CSCO 2026：细胞/组织病理学诊断是胃癌确诊和治疗的依据；影像学为分期手段非最终确认"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "不良反应管理",
+        "phase": "化疗终止决策",
+        "timepoint": "第9周期后持续血液学毒性",
+        "question": "该患者奥沙利铂减量至75%后仍出现持续血液学毒性，9周期后终止化疗。关于终止化疗的决策，下列哪项正确？",
+        "options": {
+          "A": "减量后持续血液学毒性时终止化疗合理，符合剂量限制性毒性分级管理原则",
+          "B": "应继续化疗并加用G-CSF和促血小板生成素，因骨髓抑制可通过支持治疗完全预防",
+          "C": "应换用顺铂联合氟尿嘧啶类方案，因奥沙利铂骨髓毒性属特异质反应需更换铂类",
+          "D": "应继续原剂量CAPOX至满12周期，因骨髓毒性可通过减量完全逆转"
+        },
+        "answer": "A",
+        "answer_text": "减量后持续血液学毒性时终止化疗合理，符合剂量限制性毒性分级管理原则",
+        "explain": "A｜正确：III度停药后需基于风险/获益比考虑，减量后毒性持续提示获益不足，终止合理\nB｜不正确：支持治疗可辅助但'完全预防'过于绝对，减量后仍持续毒性说明支持治疗不足以维持\nC｜不正确：骨髓抑制为剂量限制性毒性非特异质反应，换用顺铂（同为铂类）不解决同类毒性问题\nD｜不正确：已减量至75%仍持续毒性，恢复原剂量违背减量原则，'完全逆转'无依据",
+        "keyPoint": "减量后毒性仍持续提示风险获益不利，终止化疗符合分级管理",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "c9294314-38c0-4a55-92b6-b261f374a7da",
+          "split_index": 60,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 整体支持",
+          "source_version": "2023",
+          "source_section": "（五）不良反应的处理",
+          "source_url": "",
+          "evidence_summary": "CACA：III度停药后基于风险/获益比考虑；剂量限制性毒性可减量但持续时终止；非特异质无需换药"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "final_json": "{\"schema_version\":\"1.0\",\"case_id\":\"CASE-794E8394\",\"cancer_type\":\"胃癌\",\"generation_status\":\"success\",\"difficulty\":\"进阶\",\"question_count\":5,\"questions\":[{\"id\":\"Q1\",\"type\":\"治疗决策\",\"phase\":\"初始全身治疗\",\"timepoint\":\"2016年12月确诊后\",\"question\":\"该患者HER2阴性、PD-L1 CPS<1、MMR正常的IV期胃癌，初始接受CAPOX化疗。关于此治疗决策，下列哪项正确？\",\"options\":{\"A\":\"应加用瑞拉芙普α联合XELOX，因该组合为1A类推荐且适用于所有HER2阴性患者\",\"B\":\"应加用替雷利珠单抗联合XELOX，因该组合为1A类推荐且适用于所有HER2阴性患者\",\"C\":\"应首选DCF三药方案，因多发肝转移需更强肿瘤控制\",\"D\":\"CAPOX作为一线化疗合理，因PD-L1 CPS<1时含CPS阈值的免疫联合方案不适用\"},\"answer\":\"D\",\"answer_text\":\"CAPOX作为一线化疗合理，因PD-L1 CPS<1时含CPS阈值的免疫联合方案不适用\",\"explain\":\"A｜不正确：瑞拉芙普α+XELOX在指南中明确限定PD-L1 CPS≥1，本例CPS<1不满足该前提\\nB｜不正确：替雷利珠单抗+XELOX/FP限定PD-L1 TAP≥5%，且选项称'适用于所有HER2阴性'与分层条件矛盾\\nC｜不正确：DCF及mDCF为1B类（II级推荐），并非优于1A类CAPOX的首选方案\\nD｜正确：奥沙利铂/顺铂+氟尿嘧啶类为1A类推荐且不依赖PD-L1状态，CPS<1时CAPOX合理\",\"keyPoint\":\"PD-L1 CPS<1时含CPS阈值的免疫联合方案不适用，化疗骨架为1A\",\"guidelineRef\":{\"evidence_type\":\"指南\",\"doc_id\":\"a67b5445-0dac-4ec4-a1ec-3d85f4849b6b\",\"split_index\":110,\"type\":\"guideline\",\"authority\":\"CSCO\",\"source_title\":\"中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026\",\"source_version\":\"2026\",\"source_section\":\"专家组成员（以姓氏汉语拼音为序）（\\\\*为执笔人）\",\"source_url\":\"\",\"evidence_summary\":\"CSCO 2026一线分层：瑞拉芙普α需CPS≥1，替雷利珠单抗需TAP≥5%；奥沙利铂+氟尿嘧啶类为1A不依赖PD-L1\"}},{\"id\":\"Q2\",\"type\":\"不良反应管理\",\"phase\":\"化疗期间剂量调整\",\"timepoint\":\"第5周期出现骨髓毒性时\",\"question\":\"该患者CAPOX化疗第5周期起出现骨髓毒性，奥沙利铂剂量减至75%后继续治疗。关于此处理，下列哪项正确？\",\"options\":{\"A\":\"骨髓毒性出现即应永久停用奥沙利铂，因铂类骨髓抑制为不可逆累积毒性\",\"B\":\"骨髓抑制属剂量限制性毒性，首次出现时减量继续治疗符合分级管理原则\",\"C\":\"应暂停全部化疗直至血象完全正常，再以原剂量重启CAPOX\",\"D\":\"骨髓毒性提示奥沙利铂为特异质反应，减量不能预防再次发生，应换用非铂方案\"},\"answer\":\"B\",\"answer_text\":\"骨髓抑制属剂量限制性毒性，首次出现时减量继续治疗符合分级管理原则\",\"explain\":\"A｜不正确：骨髓抑制为剂量限制性毒性可减量处理，非不可逆累积毒性，首次出现即永久停药过于激进\\nB｜正确：指南明确骨髓抑制属剂量限制性毒性可减量，本例减至75%后继续治疗符合该原则\\nC｜不正确：暂停至完全正常再以原剂量重启适用于II度，但本例采取减量提示更高级别，且原剂量重启违背减量原则\\nD｜不正确：骨髓抑制是剂量限制性毒性而非特异质反应，特异质反应减量不能预防才需换药，本例分类错误\",\"keyPoint\":\"剂量限制性毒性首次出现应减量而非永久停药或换药\",\"guidelineRef\":{\"evidence_type\":\"指南\",\"doc_id\":\"c9294314-38c0-4a55-92b6-b261f374a7da\",\"split_index\":60,\"type\":\"guideline\",\"authority\":\"CACA\",\"source_title\":\"中国肿瘤整合诊治技术指南（CACA） 整体支持\",\"source_version\":\"2023\",\"source_section\":\"（五）不良反应的处理\",\"source_url\":\"\",\"evidence_summary\":\"CACA整体支持：骨髓抑制属剂量限制性毒性可减量；特异质反应减量不能预防需换药；两者管理路径不同\"}},{\"id\":\"Q3\",\"type\":\"疗效复评与局部治疗\",\"phase\":\"化疗终止后随访\",\"timepoint\":\"化疗终止后CT随访\",\"question\":\"该患者9周期CAPOX化疗终止后，CT示病情稳定但肝转移灶略有增大，后续随访中肝转移灶逐渐缩小。关于此阶段处理，下列哪项正确？\",\"options\":{\"A\":\"肝转移灶轻度增大后自行缩小未构成明确进展，继续观察随访合理\",\"B\":\"肝转移灶增大即达疾病进展标准，应立即启动雷莫芦单抗联合紫杉醇二线方案\",\"C\":\"虽未达进展标准，但化疗已终止，应预防性启动二线化疗\",\"D\":\"应恢复奥沙利铂联合卡培他滨方案，因原方案曾有效\"},\"answer\":\"A\",\"answer_text\":\"肝转移灶轻度增大后自行缩小未构成明确进展，继续观察随访合理\",\"explain\":\"A｜正确：指南规定二线适用于明确疾病进展，本例轻度增大后自行缩小未达进展标准，观察合理\\nB｜不正确：雷莫芦单抗+紫杉醇为进展后二线选择，本例未达进展标准，启动二线缺乏适应证\\nC｜不正确：指南明确二线适用于出现疾病进展的患者，预防性启动二线无适应证依据\\nD｜不正确：化疗因持续血液学毒性终止，恢复原方案违背毒性管理原则且无进展证据支持\",\"keyPoint\":\"转移灶轻度增大后自行缩小不构成疾病进展，不触发二线治疗\",\"guidelineRef\":{\"evidence_type\":\"指南\",\"doc_id\":\"0d244cdc-4b4c-4b72-9a3f-5ce862be52d6\",\"split_index\":58,\"type\":\"guideline\",\"authority\":\"中华医学会肿瘤学分会\",\"source_title\":\"中华医学会胃癌临床诊疗指南（2021版）\",\"source_version\":\"2021\",\"source_section\":\"（三）转移性胃癌的治疗\",\"source_url\":\"\",\"evidence_summary\":\"中华医学会指南：二线及后线适用于初始化疗后出现疾病进展的患者；本例未达进展标准\"}},{\"id\":\"Q4\",\"type\":\"疗效复评与局部治疗\",\"phase\":\"完全缓解确认\",\"timepoint\":\"2018年5月影像学CR后\",\"question\":\"该患者2018年5月CT示原发灶消失、肝转移灶缩小达影像学完全缓解，2021年8月胃镜活检未见肿瘤细胞。关于完全缓解的确认，下列哪项正确？\",\"options\":{\"A\":\"影像学完全缓解即可判定治愈，无需进一步内镜或病理学确认\",\"B\":\"应在影像学CR后3个月内立即行胃镜活检，因影像无法区分瘢痕与残留肿瘤\",\"C\":\"影像学CR需结合内镜活检进行病理学确认，本例胃镜证实CR支持该策略\",\"D\":\"应以PET/CT代谢评估替代内镜活检作为CR的最终确认手段\"},\"answer\":\"C\",\"answer_text\":\"影像学CR需结合内镜活检进行病理学确认，本例胃镜证实CR支持该策略\",\"explain\":\"A｜不正确：指南明确细胞/组织病理学是确诊和治疗依据，影像学CR不能替代病理学确认\\nB｜不正确：病理确认原则正确，但'3个月内立即'无指南依据，本例3年后确认仍合理且未影响结局\\nC｜正确：病理学为确诊依据，影像学CR后行内镜活检确认符合原则，本例胃镜证实CR支持该策略\\nD｜不正确：PET/CT用于分期评估，不能替代组织病理学作为CR最终确认手段\",\"keyPoint\":\"影像学CR需病理学确认，但确认时机无硬性时限要求\",\"guidelineRef\":{\"evidence_type\":\"指南\",\"doc_id\":\"a67b5445-0dac-4ec4-a1ec-3d85f4849b6b\",\"split_index\":14,\"type\":\"guideline\",\"authority\":\"CSCO\",\"source_title\":\"中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026\",\"source_version\":\"2026\",\"source_section\":\"专家组成员（以姓氏汉语拼音为序）（\\\\*为执笔人）\",\"source_url\":\"\",\"evidence_summary\":\"CSCO 2026：细胞/组织病理学诊断是胃癌确诊和治疗的依据；影像学为分期手段非最终确认\"}},{\"id\":\"Q5\",\"type\":\"不良反应管理\",\"phase\":\"化疗终止决策\",\"timepoint\":\"第9周期后持续血液学毒性\",\"question\":\"该患者奥沙利铂减量至75%后仍出现持续血液学毒性，9周期后终止化疗。关于终止化疗的决策，下列哪项正确？\",\"options\":{\"A\":\"减量后持续血液学毒性时终止化疗合理，符合剂量限制性毒性分级管理原则\",\"B\":\"应继续化疗并加用G-CSF和促血小板生成素，因骨髓抑制可通过支持治疗完全预防\",\"C\":\"应换用顺铂联合氟尿嘧啶类方案，因奥沙利铂骨髓毒性属特异质反应需更换铂类\",\"D\":\"应继续原剂量CAPOX至满12周期，因骨髓毒性可通过减量完全逆转\"},\"answer\":\"A\",\"answer_text\":\"减量后持续血液学毒性时终止化疗合理，符合剂量限制性毒性分级管理原则\",\"explain\":\"A｜正确：III度停药后需基于风险/获益比考虑，减量后毒性持续提示获益不足，终止合理\\nB｜不正确：支持治疗可辅助但'完全预防'过于绝对，减量后仍持续毒性说明支持治疗不足以维持\\nC｜不正确：骨髓抑制为剂量限制性毒性非特异质反应，换用顺铂（同为铂类）不解决同类毒性问题\\nD｜不正确：已减量至75%仍持续毒性，恢复原剂量违背减量原则，'完全逆转'无依据\",\"keyPoint\":\"减量后毒性仍持续提示风险获益不利，终止化疗符合分级管理\",\"guidelineRef\":{\"evidence_type\":\"指南\",\"doc_id\":\"c9294314-38c0-4a55-92b6-b261f374a7da\",\"split_index\":60,\"type\":\"guideline\",\"authority\":\"CACA\",\"source_title\":\"中国肿瘤整合诊治技术指南（CACA） 整体支持\",\"source_version\":\"2023\",\"source_section\":\"（五）不良反应的处理\",\"source_url\":\"\",\"evidence_summary\":\"CACA：III度停药后基于风险/获益比考虑；剂量限制性毒性可减量但持续时终止；非特异质无需换药\"}}],\"missing_information\":[]}",
+  "case_page_data": {
+    "schema_version": "1.0",
+    "case_id": "CASE-794E8394",
+    "cancer_type": "胃癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": ""
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "HER2阴性转移性胃癌CAPOX化疗后持久完全缓解",
+      "description": "患者男，59岁，因腹痛1个月入院。胃镜检查显示胃窦癌变，组织病理学确诊为低分化管状腺癌（无亚型）。免疫组织化学检测显示HER-2阴性、PD-L1阴性（CPS<1）、MMR功能正常。CT扫描显示胃窦壁增厚、周围淋巴结肿大及肝脏多发转移灶。入院时未记载分子检测（如NGS）结果，未记载既往治疗史或合并症信息。"
+    },
+    "overview": {
+      "hero": {
+        "title": "HER2阴性转移性胃癌CAPOX化疗后持久完全缓解",
+        "subtitle": "1. HER2阴性、PD-L1阴性、MMR正常的转移性胃癌初始化疗方案选择依据 2. 化疗疗效评估时机与影像学标准 3. 骨髓毒性出现后奥沙利铂剂量调整策略（减至75%） 4. 持续血液学毒性导致终止化疗的决策节点 5. 化疗终止后未追加二……"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者与就诊背景",
+              "value": "患者男，59岁，因腹痛1个月入院。胃镜检查显示胃窦癌变，组织病理学确诊为低分化管状腺癌（无亚型）。免疫组织化学检测显示HER-2阴性、PD-L1阴性（CPS<1）、MMR功能正常。CT扫描显示胃窦壁增厚、周围淋巴结肿大及肝脏多发转移灶。入院时未记载分子检测（如NGS）结果，未记载既往治疗史或合并症信息。"
+            },
+            {
+              "order": 2,
+              "label": "疾病与分期",
+              "value": "胃窦低分化管状腺癌（无亚型），HER-2阴性，PD-L1阴性（CPS<1），MMR功能正常，伴肝多发转移（IV期）"
+            },
+            {
+              "order": 3,
+              "label": "分子与病理",
+              "value": "病理｜取样时间未明确记载（入院时）｜胃窦活检｜组织病理学｜低分化管状腺癌（无亚型） IHC｜取样时间未明确记载（入院时）｜胃窦活检｜免疫组织化学｜HER-2阴性 IHC｜取样时间未明确记载（入院时）｜胃窦活检｜免疫组织化学｜PD-L1阴性（CPS<1） IHC｜取样时间未明确记载（入院时）｜胃窦活检｜免疫组织化学｜MMR功能正常 分子检测｜未记载｜未记载｜未记载｜未记载（原文未提及NGS或其他分子分析）"
+            },
+            {
+              "order": 4,
+              "label": "核心教学点",
+              "value": "1. HER2阴性、PD-L1阴性、MMR正常的转移性胃癌初始化疗方案选择依据 2. 化疗疗效评估时机与影像学标准 3. 骨髓毒性出现后奥沙利铂剂量调整策略（减至75%） 4. 持续血液学毒性导致终止化疗的决策节点 5. 化疗终止后未追加二线治疗而选择观察的依据与风险 6. 影像学完全缓解与内镜活检确认完全缓解的关系 7. 持久完全缓解患者的长期随访策略 8. 超反应现象的生物学机制探索方向"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 1",
+              "detail": "2016年12月前｜入院检查｜腹痛1个月，胃镜示胃窦癌变，病理确诊低分化管状腺癌，IHC：HER-2阴性、PD-L1阴性(CPS<1)、MMR正常，CT示胃窦壁增厚、周围淋巴结肿大、肝多发转移"
+            },
+            {
+              "date": "2016年12月",
+              "title": "开始CAPOX姑息化疗",
+              "detail": "奥沙利铂130 mg/m² D1；卡培他滨2000 mg/m² D1-14，每3周一次"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 3",
+              "detail": "治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 4",
+              "detail": "第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 5",
+              "detail": "9个周期后｜终止化疗｜因持续血液学毒性"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 6",
+              "detail": "化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 7",
+              "detail": "后续随访｜CT示原发灶消失，肝转移灶逐渐缩小"
+            },
+            {
+              "date": "时间未详",
+              "title": "诊疗节点 8",
+              "detail": "2018年5月｜达到完全缓解"
+            },
+            {
+              "date": "2021年8月",
+              "title": "胃镜证实完全缓解",
+              "detail": "活检未见肿瘤细胞"
+            },
+            {
+              "date": "2023年12月",
+              "title": "最后一次随访",
+              "detail": "仍维持完全缓解，无进展生存期已超过93个月"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  },
+  "case_page_json": "{\n  \"schema_version\": \"1.0\",\n  \"case_id\": \"CASE-794E8394\",\n  \"cancer_type\": \"胃癌\",\n  \"difficulty\": \"进阶\",\n  \"decision_point_count\": 5,\n  \"image\": {\n    \"src\": \"\",\n    \"alt\": \"\"\n  },\n  \"home\": {\n    \"recommendation_label\": \"今日推荐病例\",\n    \"display_title\": \"HER2阴性转移性胃癌CAPOX化疗后持久完全缓解\",\n    \"description\": \"患者男，59岁，因腹痛1个月入院。胃镜检查显示胃窦癌变，组织病理学确诊为低分化管状腺癌（无亚型）。免疫组织化学检测显示HER-2阴性、PD-L1阴性（CPS<1）、MMR功能正常。CT扫描显示胃窦壁增厚、周围淋巴结肿大及肝脏多发转移灶。入院时未记载分子检测（如NGS）结果，未记载既往治疗史或合并症信息。\"\n  },\n  \"overview\": {\n    \"hero\": {\n      \"title\": \"HER2阴性转移性胃癌CAPOX化疗后持久完全缓解\",\n      \"subtitle\": \"1. HER2阴性、PD-L1阴性、MMR正常的转移性胃癌初始化疗方案选择依据 2. 化疗疗效评估时机与影像学标准 3. 骨髓毒性出现后奥沙利铂剂量调整策略（减至75%） 4. 持续血液学毒性导致终止化疗的决策节点 5. 化疗终止后未追加二……\"\n    },\n    \"tabs\": [\n      {\n        \"id\": \"summary\",\n        \"label\": \"病例摘要\",\n        \"order\": 1,\n        \"summary_items\": [\n          {\n            \"order\": 1,\n            \"label\": \"患者与就诊背景\",\n            \"value\": \"患者男，59岁，因腹痛1个月入院。胃镜检查显示胃窦癌变，组织病理学确诊为低分化管状腺癌（无亚型）。免疫组织化学检测显示HER-2阴性、PD-L1阴性（CPS<1）、MMR功能正常。CT扫描显示胃窦壁增厚、周围淋巴结肿大及肝脏多发转移灶。入院时未记载分子检测（如NGS）结果，未记载既往治疗史或合并症信息。\"\n          },\n          {\n            \"order\": 2,\n            \"label\": \"疾病与分期\",\n            \"value\": \"胃窦低分化管状腺癌（无亚型），HER-2阴性，PD-L1阴性（CPS<1），MMR功能正常，伴肝多发转移（IV期）\"\n          },\n          {\n            \"order\": 3,\n            \"label\": \"分子与病理\",\n            \"value\": \"病理｜取样时间未明确记载（入院时）｜胃窦活检｜组织病理学｜低分化管状腺癌（无亚型） IHC｜取样时间未明确记载（入院时）｜胃窦活检｜免疫组织化学｜HER-2阴性 IHC｜取样时间未明确记载（入院时）｜胃窦活检｜免疫组织化学｜PD-L1阴性（CPS<1） IHC｜取样时间未明确记载（入院时）｜胃窦活检｜免疫组织化学｜MMR功能正常 分子检测｜未记载｜未记载｜未记载｜未记载（原文未提及NGS或其他分子分析）\"\n          },\n          {\n            \"order\": 4,\n            \"label\": \"核心教学点\",\n            \"value\": \"1. HER2阴性、PD-L1阴性、MMR正常的转移性胃癌初始化疗方案选择依据 2. 化疗疗效评估时机与影像学标准 3. 骨髓毒性出现后奥沙利铂剂量调整策略（减至75%） 4. 持续血液学毒性导致终止化疗的决策节点 5. 化疗终止后未追加二线治疗而选择观察的依据与风险 6. 影像学完全缓解与内镜活检确认完全缓解的关系 7. 持久完全缓解患者的长期随访策略 8. 超反应现象的生物学机制探索方向\"\n          }\n        ]\n      },\n      {\n        \"id\": \"timeline\",\n        \"label\": \"病程轴\",\n        \"order\": 2,\n        \"timeline_items\": [\n          {\n            \"date\": \"时间未详\",\n            \"title\": \"诊疗节点 1\",\n            \"detail\": \"2016年12月前｜入院检查｜腹痛1个月，胃镜示胃窦癌变，病理确诊低分化管状腺癌，IHC：HER-2阴性、PD-L1阴性(CPS<1)、MMR正常，CT示胃窦壁增厚、周围淋巴结肿大、肝多发转移\"\n          },\n          {\n            \"date\": \"2016年12月\",\n            \"title\": \"开始CAPOX姑息化疗\",\n            \"detail\": \"奥沙利铂130 mg/m² D1；卡培他滨2000 mg/m² D1-14，每3周一次\"\n          },\n          {\n            \"date\": \"时间未详\",\n            \"title\": \"诊疗节点 3\",\n            \"detail\": \"治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小\"\n          },\n          {\n            \"date\": \"时间未详\",\n            \"title\": \"诊疗节点 4\",\n            \"detail\": \"第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\"\n          },\n          {\n            \"date\": \"时间未详\",\n            \"title\": \"诊疗节点 5\",\n            \"detail\": \"9个周期后｜终止化疗｜因持续血液学毒性\"\n          },\n          {\n            \"date\": \"时间未详\",\n            \"title\": \"诊疗节点 6\",\n            \"detail\": \"化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\"\n          },\n          {\n            \"date\": \"时间未详\",\n            \"title\": \"诊疗节点 7\",\n            \"detail\": \"后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\"\n          },\n          {\n            \"date\": \"时间未详\",\n            \"title\": \"诊疗节点 8\",\n            \"detail\": \"2018年5月｜达到完全缓解\"\n          },\n          {\n            \"date\": \"2021年8月\",\n            \"title\": \"胃镜证实完全缓解\",\n            \"detail\": \"活检未见肿瘤细胞\"\n          },\n          {\n            \"date\": \"2023年12月\",\n            \"title\": \"最后一次随访\",\n            \"detail\": \"仍维持完全缓解，无进展生存期已超过93个月\"\n          }\n        ]\n      },\n      {\n        \"id\": \"images\",\n        \"label\": \"病例图片\",\n        \"order\": 3,\n        \"image_items\": []\n      }\n    ]\n  }\n}",
+  "execution_report": {
+    "schema_version": "oncorounds-execution-1.0",
+    "workflow_revision": "20260929-full-review-five-outer",
+    "case_id": "CASE-794E8394",
+    "status": "OUTPUT_READY",
+    "publishable": false,
+    "medical_review_status": "not_performed",
+    "extraction_check": {
+      "scope": "literal_excerpt_coverage_not_medical_validation",
+      "patient_section_found": true,
+      "matched_count": 0,
+      "retained_excerpts": [],
+      "warnings": []
+    },
+    "source_groups": [
+      {
+        "group_id": "G1",
+        "parse_status": "OK",
+        "raw_question_count": 5,
+        "usable_question_count": 5,
+        "rejected_questions": [],
+        "warnings": [],
+        "audit": {
+          "availability": "not_provided"
+        },
+        "transport": {
+          "protocol": "single_json",
+          "json_block_count": 1,
+          "selected_block_index": 0,
+          "ignored_intermediate_blocks": 0,
+          "upstream_messages": []
+        },
+        "upstream_missing_information": [],
+        "workflow_revision": "20260929-evidence-depth-five",
+        "flow_status": "OUTPUT_READY",
+        "completion": {
+          "required_question_count": 5,
+          "available_question_count": 5,
+          "model_question_count": 5,
+          "complete": true
+        },
+        "program_check": {
+          "scope": "program_structure_and_reference_identity_only",
+          "decision": "PASS",
+          "errors": [],
+          "warnings": [
+            "OPTION_STYLE Q1：四项有效字符数=39/40/23/39，正确项=D；四项长度差异较大：应统一表达层次，不得机械补字或截断。",
+            "同一证据定位c9294314-38c0-4a55-92b6-b261f374a7da::60支持2题：复核是否考查不同真实决策；不设置复用题数配额"
+          ]
+        },
+        "workflow_diagnostics": {
+          "scope": "debug_only_not_learner_content",
+          "evidence_verification": {
+            "version": "option-anchors-1.0",
+            "scope": "literal_source_presence_and_shape_only",
+            "decision": "PASS",
+            "semantic_support": "not_independently_verified",
+            "errors": [],
+            "question_checks": [
+              {
+                "question_id": "Q1",
+                "evidence_id": "GB03",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "PD-L1 CPS ≥ 1;<br/>瑞拉芙普 α 注射液+XELOXk<br/>[1A 类]",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 152,
+                            "end": 199,
+                            "text": "</td><td>Ⅲ级推荐</td></tr><tr><td>HER2 中低或不表达°</td><td>PD-L1 TAP ≥ 5%;<br/>替雷利珠单抗+XELOX/FPi [1A 类]<br/>PD-L1 CPS ≥ 1;<br/>瑞拉芙普 α 注射液+XELOXk<br/>[1A 类]</td><td>PD-L1 TAP&lt;5%或检测不可及;<br/>替雷利珠单抗+XELOX/FPi [1B 类]</td><td></td></tr><tr><td></td><td>无论 PD"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "PD-L1 TAP ≥ 5%;<br/>替雷利珠单抗+XELOX/FPi [1A 类]",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 104,
+                            "end": 147,
+                            "text": "治疗（续）<table><tr><td>分层</td><td>Ⅰ级推荐</td><td>Ⅱ级推荐</td><td>Ⅲ级推荐</td></tr><tr><td>HER2 中低或不表达°</td><td>PD-L1 TAP ≥ 5%;<br/>替雷利珠单抗+XELOX/FPi [1A 类]<br/>PD-L1 CPS ≥ 1;<br/>瑞拉芙普 α 注射液+XELOXk<br/>[1A 类]</td><td>PD-L1 TAP&lt;5%或检测不可及;<br/>替雷利珠单抗+XELOX"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "三药联合方案 DCF 及 mDCF° [1B 类]",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 464,
+                            "end": 489,
+                            "text": " ≥ 75%);<br/>佐妥昔单抗+FOLFOX/XELOXn [1A 类]<br/>奥沙利铂/顺铂+氟尿嘧啶类° [1A 类]*<br/>氟尿嘧啶类 + 紫杉类° [2A 类]*</td><td>三药联合方案 DCF 及 mDCF° [1B 类]</td><td>单药氟尿嘧啶类或紫杉类° [2B 类]*</td></tr></table>"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "奥沙利铂/顺铂+氟尿嘧啶类° [1A 类]*",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 408,
+                            "end": 430,
+                            "text": "<br/>卡度尼利单抗+XELOXm [1A 类]<br/>Claudin 182 表达 (IHC2 或 3+, ≥ 75%);<br/>佐妥昔单抗+FOLFOX/XELOXn [1A 类]<br/>奥沙利铂/顺铂+氟尿嘧啶类° [1A 类]*<br/>氟尿嘧啶类 + 紫杉类° [2A 类]*</td><td>三药联合方案 DCF 及 mDCF° [1B 类]</td><td>单药氟尿嘧啶类或紫杉类° [2B 类]*</td></tr></"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "IHC：HER-2阴性、PD-L1阴性(CPS<1)、MMR正常",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 41,
+                        "end": 73,
+                        "text": "2016年12月前｜入院检查｜腹痛1个月，胃镜示胃窦癌变，病理确诊低分化管状腺癌，IHC：HER-2阴性、PD-L1阴性(CPS<1)、MMR正常，CT示胃窦壁增厚、周围淋巴结肿大、肝多发转移\n2016年12月｜开始CAPOX姑息化疗｜奥沙利铂130 mg/m² D1；卡培他滨2000 mg/m² D1-14，每3周一次\n治疗4个月后｜复查CT"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "case_timeline",
+                    "quote": "开始CAPOX姑息化疗",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 106,
+                        "end": 117,
+                        "text": "2月前｜入院检查｜腹痛1个月，胃镜示胃窦癌变，病理确诊低分化管状腺癌，IHC：HER-2阴性、PD-L1阴性(CPS<1)、MMR正常，CT示胃窦壁增厚、周围淋巴结肿大、肝多发转移\n2016年12月｜开始CAPOX姑息化疗｜奥沙利铂130 mg/m² D1；卡培他滨2000 mg/m² D1-14，每3周一次\n治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小\n第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\n9个周"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "A",
+                  "decision_boundary": "CPS<1不满足瑞拉芙普α的CPS≥1入组条件；CAPOX为1A且不依赖PD-L1状态",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+                  "split_index": 110
+                },
+                "decision": "PASS"
+              },
+              {
+                "question_id": "Q2",
+                "evidence_id": "IR05",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "对剂量限制性毒性（如：骨髓抑制）可减量",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 128,
+                            "end": 147,
+                            "text": "续用药，Ⅱ度需暂停用药直至恢复至I度，Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理，IV度可能需永久停药。  \n（2）不良反应类型有助判断“再挑战”时化疗药物  \n   \n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注意是否已达最大累积剂量，对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生。  \n（3）对复杂不良反应，可采用MDT to HI"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "对剂量限制性毒性（如：骨髓抑制）可减量",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 128,
+                            "end": 147,
+                            "text": "续用药，Ⅱ度需暂停用药直至恢复至I度，Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理，IV度可能需永久停药。  \n（2）不良反应类型有助判断“再挑战”时化疗药物  \n   \n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注意是否已达最大累积剂量，对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生。  \n（3）对复杂不良反应，可采用MDT to HI"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "Ⅱ度需暂停用药直至恢复至I度",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 32,
+                            "end": 46,
+                            "text": "（1）根据不良反应严重程度采取分级处理：I度不良事件可继续用药，Ⅱ度需暂停用药直至恢复至I度，Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理，IV度可能需永久停药。  \n（2）不良反应类型有助判断“再挑战”时化疗药物  \n   \n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 188,
+                            "end": 220,
+                            "text": "  \n（2）不良反应类型有助判断“再挑战”时化疗药物  \n   \n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注意是否已达最大累积剂量，对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生。  \n（3）对复杂不良反应，可采用MDT to HIM模式。需全程化、精细化、多学科团队参与和多方位（医护、临床药师、患者及家属）共同努力。"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 188,
+                        "end": 213,
+                        "text": "肿大、肝多发转移\n2016年12月｜开始CAPOX姑息化疗｜奥沙利铂130 mg/m² D1；卡培他滨2000 mg/m² D1-14，每3周一次\n治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小\n第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\n9个周期后｜终止化疗｜因持续血液学毒性\n化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\n后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\n2018年5月｜达到完全缓解\n2021年8月｜胃镜证实完全缓解"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "adverse_events",
+                    "quote": "奥沙利铂（CAPOX方案）｜骨髓毒性",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 7,
+                        "end": 25,
+                        "text": "第5个周期起｜奥沙利铂（CAPOX方案）｜骨髓毒性｜原文明示分级未记载｜奥沙利铂剂量减至75%｜持续至第9周期后终止化疗\n9个周期后｜CAPOX方案（奥沙利铂+卡培他滨）｜持续血液学毒性｜原文明示分级未记载｜终止化疗｜后续未再出现相关事件记载"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "C",
+                  "decision_boundary": "骨髓抑制为剂量限制性毒性→减量；非II度暂停后原剂量重启，也非特异质反应需换药",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "c9294314-38c0-4a55-92b6-b261f374a7da",
+                  "split_index": 60
+                },
+                "decision": "PASS"
+              },
+              {
+                "question_id": "Q3",
+                "evidence_id": "GB01",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "二线及后线治疗适用于初始化疗后出现疾病进展的患者",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 13,
+                            "end": 37,
+                            "text": "（2）二线及后线治疗：晚期二线及后线治疗适用于初始化疗后出现疾病进展的患者。二线治疗中，对既往接受过抗HER-2治疗的阳性患者，应根据HER-2再检测状态决定治疗策略，不推荐继续常规抗HER-2治疗。对既往未应用曲妥珠单抗者，可考虑曲妥珠单抗联合单药紫杉醇（2类推荐证据）["
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "二线及后线治疗适用于初始化疗后出现疾病进展的患者",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 13,
+                            "end": 37,
+                            "text": "（2）二线及后线治疗：晚期二线及后线治疗适用于初始化疗后出现疾病进展的患者。二线治疗中，对既往接受过抗HER-2治疗的阳性患者，应根据HER-2再检测状态决定治疗策略，不推荐继续常规抗HER-2治疗。对既往未应用曲妥珠单抗者，可考虑曲妥珠单抗联合单药紫杉醇（2类推荐证据）["
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "二线及后线治疗适用于初始化疗后出现疾病进展的患者",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 13,
+                            "end": 37,
+                            "text": "（2）二线及后线治疗：晚期二线及后线治疗适用于初始化疗后出现疾病进展的患者。二线治疗中，对既往接受过抗HER-2治疗的阳性患者，应根据HER-2再检测状态决定治疗策略，不推荐继续常规抗HER-2治疗。对既往未应用曲妥珠单抗者，可考虑曲妥珠单抗联合单药紫杉醇（2类推荐证据）["
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "二线及后线治疗适用于初始化疗后出现疾病进展的患者",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 13,
+                            "end": 37,
+                            "text": "（2）二线及后线治疗：晚期二线及后线治疗适用于初始化疗后出现疾病进展的患者。二线治疗中，对既往接受过抗HER-2治疗的阳性患者，应根据HER-2再检测状态决定治疗策略，不推荐继续常规抗HER-2治疗。对既往未应用曲妥珠单抗者，可考虑曲妥珠单抗联合单药紫杉醇（2类推荐证据）["
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 234,
+                        "end": 258,
+                        "text": "；卡培他滨2000 mg/m² D1-14，每3周一次\n治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小\n第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\n9个周期后｜终止化疗｜因持续血液学毒性\n化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\n后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\n2018年5月｜达到完全缓解\n2021年8月｜胃镜证实完全缓解｜活检未见肿瘤细胞\n2023年12月｜最后一次随访｜仍维持完全缓解，无进展生存期已超过93"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "case_timeline",
+                    "quote": "后续随访｜CT示原发灶消失，肝转移灶逐渐缩小",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 259,
+                        "end": 281,
+                        "text": "一次\n治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小\n第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\n9个周期后｜终止化疗｜因持续血液学毒性\n化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\n后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\n2018年5月｜达到完全缓解\n2021年8月｜胃镜证实完全缓解｜活检未见肿瘤细胞\n2023年12月｜最后一次随访｜仍维持完全缓解，无进展生存期已超过93个月"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "B",
+                  "decision_boundary": "轻度增大后自行缩小≠疾病进展；GB01二线仅适用于明确进展，本例不满足启动条件",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "0d244cdc-4b4c-4b72-9a3f-5ce862be52d6",
+                  "split_index": 58
+                },
+                "decision": "PASS"
+              },
+              {
+                "question_id": "Q4",
+                "evidence_id": "GS04",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "细胞/组织病理学诊断是胃癌确诊和治疗的依据",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 296,
+                            "end": 317,
+                            "text": "tomography-computed tomography, PET/CT）分别作为CT疑诊肝转移、腹膜转移及全身转移时的补充手段。影像学报告应提供涉及cTNM分期的征象描述，并给出分期诊断。  \n细胞/组织病理学诊断是胃癌确诊和治疗的依据。胃癌术后病理学诊断（pTNM分期）为明确胃癌的组织学类型、全面评估胃癌分期、判断患者预后、制订有针对性的个体化治疗方案提供必要的组织病理学依据。目前肿瘤组织HER2状态是胃癌分子分型和抗HER2靶向"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "细胞/组织病理学诊断是胃癌确诊和治疗的依据",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 296,
+                            "end": 317,
+                            "text": "tomography-computed tomography, PET/CT）分别作为CT疑诊肝转移、腹膜转移及全身转移时的补充手段。影像学报告应提供涉及cTNM分期的征象描述，并给出分期诊断。  \n细胞/组织病理学诊断是胃癌确诊和治疗的依据。胃癌术后病理学诊断（pTNM分期）为明确胃癌的组织学类型、全面评估胃癌分期、判断患者预后、制订有针对性的个体化治疗方案提供必要的组织病理学依据。目前肿瘤组织HER2状态是胃癌分子分型和抗HER2靶向"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "细胞/组织病理学诊断是胃癌确诊和治疗的依据",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 296,
+                            "end": 317,
+                            "text": "tomography-computed tomography, PET/CT）分别作为CT疑诊肝转移、腹膜转移及全身转移时的补充手段。影像学报告应提供涉及cTNM分期的征象描述，并给出分期诊断。  \n细胞/组织病理学诊断是胃癌确诊和治疗的依据。胃癌术后病理学诊断（pTNM分期）为明确胃癌的组织学类型、全面评估胃癌分期、判断患者预后、制订有针对性的个体化治疗方案提供必要的组织病理学依据。目前肿瘤组织HER2状态是胃癌分子分型和抗HER2靶向"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "细胞/组织病理学诊断是胃癌确诊和治疗的依据",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 296,
+                            "end": 317,
+                            "text": "tomography-computed tomography, PET/CT）分别作为CT疑诊肝转移、腹膜转移及全身转移时的补充手段。影像学报告应提供涉及cTNM分期的征象描述，并给出分期诊断。  \n细胞/组织病理学诊断是胃癌确诊和治疗的依据。胃癌术后病理学诊断（pTNM分期）为明确胃癌的组织学类型、全面评估胃癌分期、判断患者预后、制订有针对性的个体化治疗方案提供必要的组织病理学依据。目前肿瘤组织HER2状态是胃癌分子分型和抗HER2靶向"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "2018年5月｜达到完全缓解",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 282,
+                        "end": 296,
+                        "text": "均明显缩小\n第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\n9个周期后｜终止化疗｜因持续血液学毒性\n化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\n后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\n2018年5月｜达到完全缓解\n2021年8月｜胃镜证实完全缓解｜活检未见肿瘤细胞\n2023年12月｜最后一次随访｜仍维持完全缓解，无进展生存期已超过93个月"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "case_timeline",
+                    "quote": "2021年8月｜胃镜证实完全缓解｜活检未见肿瘤细胞",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 297,
+                        "end": 322,
+                        "text": "骨髓毒性｜奥沙利铂剂量减至75%\n9个周期后｜终止化疗｜因持续血液学毒性\n化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\n后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\n2018年5月｜达到完全缓解\n2021年8月｜胃镜证实完全缓解｜活检未见肿瘤细胞\n2023年12月｜最后一次随访｜仍维持完全缓解，无进展生存期已超过93个月"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "B",
+                  "decision_boundary": "病理确认是必要的，但无证据要求CR后3个月内必须活检；本例3年后确认仍合理",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+                  "split_index": 14
+                },
+                "decision": "PASS"
+              },
+              {
+                "question_id": "Q5",
+                "evidence_id": "IR05",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 47,
+                            "end": 76,
+                            "text": "（1）根据不良反应严重程度采取分级处理：I度不良事件可继续用药，Ⅱ度需暂停用药直至恢复至I度，Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理，IV度可能需永久停药。  \n（2）不良反应类型有助判断“再挑战”时化疗药物  \n   \n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "对剂量限制性毒性（如：骨髓抑制）可减量",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 128,
+                            "end": 147,
+                            "text": "续用药，Ⅱ度需暂停用药直至恢复至I度，Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理，IV度可能需永久停药。  \n（2）不良反应类型有助判断“再挑战”时化疗药物  \n   \n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注意是否已达最大累积剂量，对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生。  \n（3）对复杂不良反应，可采用MDT to HI"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 188,
+                            "end": 220,
+                            "text": "  \n（2）不良反应类型有助判断“再挑战”时化疗药物  \n   \n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注意是否已达最大累积剂量，对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生。  \n（3）对复杂不良反应，可采用MDT to HIM模式。需全程化、精细化、多学科团队参与和多方位（医护、临床药师、患者及家属）共同努力。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "对剂量限制性毒性（如：骨髓抑制）可减量",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 128,
+                            "end": 147,
+                            "text": "续用药，Ⅱ度需暂停用药直至恢复至I度，Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理，IV度可能需永久停药。  \n（2）不良反应类型有助判断“再挑战”时化疗药物  \n   \n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注意是否已达最大累积剂量，对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生。  \n（3）对复杂不良反应，可采用MDT to HI"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "9个周期后｜终止化疗｜因持续血液学毒性",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 214,
+                        "end": 233,
+                        "text": "息化疗｜奥沙利铂130 mg/m² D1；卡培他滨2000 mg/m² D1-14，每3周一次\n治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小\n第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\n9个周期后｜终止化疗｜因持续血液学毒性\n化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\n后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\n2018年5月｜达到完全缓解\n2021年8月｜胃镜证实完全缓解｜活检未见肿瘤细胞\n2023年12月｜最"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "case_timeline",
+                    "quote": "第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 188,
+                        "end": 213,
+                        "text": "肿大、肝多发转移\n2016年12月｜开始CAPOX姑息化疗｜奥沙利铂130 mg/m² D1；卡培他滨2000 mg/m² D1-14，每3周一次\n治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小\n第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\n9个周期后｜终止化疗｜因持续血液学毒性\n化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\n后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\n2018年5月｜达到完全缓解\n2021年8月｜胃镜证实完全缓解"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "B",
+                  "decision_boundary": "减量后毒性持续→风险/获益不利→终止；骨髓抑制非特异质→无需换铂类；支持治疗不能'完全预防'",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "c9294314-38c0-4a55-92b6-b261f374a7da",
+                  "split_index": 60
+                },
+                "decision": "PASS"
+              }
+            ]
+          },
+          "question_evidence_bindings": [
+            {
+              "question_id": "Q1",
+              "evidence_id": "GB03",
+              "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+              "split_index": 110,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q2",
+              "evidence_id": "IR05",
+              "doc_id": "c9294314-38c0-4a55-92b6-b261f374a7da",
+              "split_index": 60,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q3",
+              "evidence_id": "GB01",
+              "doc_id": "0d244cdc-4b4c-4b72-9a3f-5ce862be52d6",
+              "split_index": 58,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q4",
+              "evidence_id": "GS04",
+              "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+              "split_index": 14,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q5",
+              "evidence_id": "IR05",
+              "doc_id": "c9294314-38c0-4a55-92b6-b261f374a7da",
+              "split_index": 60,
+              "matching_record_count": 1
+            }
+          ],
+          "cited_evidence_snapshot": [
+            {
+              "evidence_id": "GS04",
+              "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+              "split_index": 14,
+              "type": "guideline",
+              "authority": "CSCO",
+              "source_title": "中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026",
+              "source_version": "2026",
+              "source_section": "专家组成员（以姓氏汉语拼音为序）（\\*为执笔人）",
+              "source_url": "",
+              "snippet": "胃癌治疗前基本诊断手段主要包括内镜、影像及病理学检查，用于胃癌的定性诊断、定位诊断和分期诊断，其他还包括体格检查、实验室检查、诊断性腹腔镜探查和腹腔灌洗液评价等方法以进一步对胃癌临床诊断进行补充和确证。  \n胸部及腹盆部增强计算机断层扫描（CT）检查是治疗前分期的基本手段，磁共振成像（MRI）、诊断性腹腔镜探查和腹腔灌洗液评价及正电子发射计算机体层显像（positron emission tomography-computed tomography, PET/CT）分别作为CT疑诊肝转移、腹膜转移及全身转移时的补充手段。影像学报告应提供涉及cTNM分期的征象描述，并给出分期诊断。  \n细胞/组织病理学诊断是胃癌确诊和治疗的依据。胃癌术后病理学诊断（pTNM分期）为明确胃癌的组织学类型、全面评估胃癌分期、判断患者预后、制订有针对性的个体化治疗方案提供必要的组织病理学依据。目前肿瘤组织HER2状态是胃癌分子分型和抗HER2靶向药物治疗的重要依据，所有经病理诊断证实为胃或食管胃结合部腺癌的病例均有必要进行HER2检测。推荐新诊断的胃癌病例进行MSI/MMR检测，从而使MSI-H/dMMR患者有机会从免疫治疗中获益。拟进行靶向Claudin 18.2治疗和采用程序性死亡受体I（programmed death-1, PD-1）/程序性死亡受体配体1（programmed death-ligand 1, PD-L1）抑制剂治疗的胃癌患者，应进行Claudin 18.2和PD-L1检测。二代测序（next-generation sequencing, NGS）和液体活检等在胃癌中的应用尚处在探索和数据积累阶段。  \n ",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            },
+            {
+              "evidence_id": "GB01",
+              "doc_id": "0d244cdc-4b4c-4b72-9a3f-5ce862be52d6",
+              "split_index": 58,
+              "type": "guideline",
+              "authority": "中华医学会肿瘤学分会",
+              "source_title": "中华医学会胃癌临床诊疗指南（2021版）",
+              "source_version": "2021",
+              "source_section": "（三）转移性胃癌的治疗",
+              "source_url": "",
+              "snippet": "（2）二线及后线治疗：晚期二线及后线治疗适用于初始化疗后出现疾病进展的患者。二线治疗中，对既往接受过抗HER-2治疗的阳性患者，应根据HER-2再检测状态决定治疗策略，不推荐继续常规抗HER-2治疗。对既往未应用曲妥珠单抗者，可考虑曲妥珠单抗联合单药紫杉醇（2类推荐证据）[85]和蒽环类药物之外的二线化疗方案（3类推荐证据）。MSI的患者可在PD-1抑制剂治疗中获益（2类推荐证据）[86]。对肿瘤负荷较大、存在转化治疗机会或单药免疫治疗效果欠佳的患者可采用联合免疫治疗，并推荐参加临床研究；无相关分子标志物的患者可进行二线化疗联合抗血管生成药物，如雷莫芦单抗 \\$^+\\$ 紫杉醇，此外还推荐行单药紫杉醇、单药伊立替康化疗（1类推荐证据），但有小样本Ⅱ期研究结果显示，对于体能状态良好的患者，双药化疗可带来更好的肿瘤控制且安全性尚可。\n三线及后线治疗对于HER- 2阳性患者推荐维迪西妥单抗，对于无相关分子标志物者则可尝试阿帕替尼、TAS102以及纳武利尤单抗等。基于ATTRACTION- 02Ⅲ期研究结果，阿帕替尼和纳武利尤单抗现被NMPA批准用于晚期胃癌的三线治\n ",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            },
+            {
+              "evidence_id": "GB03",
+              "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+              "split_index": 110,
+              "type": "guideline",
+              "authority": "CSCO",
+              "source_title": "中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026",
+              "source_version": "2026",
+              "source_section": "专家组成员（以姓氏汉语拼音为序）（\\*为执笔人）",
+              "source_url": "",
+              "snippet": " \n一线治疗（续）<table><tr><td>分层</td><td>Ⅰ级推荐</td><td>Ⅱ级推荐</td><td>Ⅲ级推荐</td></tr><tr><td>HER2 中低或不表达°</td><td>PD-L1 TAP ≥ 5%;<br/>替雷利珠单抗+XELOX/FPi [1A 类]<br/>PD-L1 CPS ≥ 1;<br/>瑞拉芙普 α 注射液+XELOXk<br/>[1A 类]</td><td>PD-L1 TAP&lt;5%或检测不可及;<br/>替雷利珠单抗+XELOX/FPi [1B 类]</td><td></td></tr><tr><td></td><td>无论 PD-L1 表达状态:<br/>卡度尼利单抗+XELOXm [1A 类]<br/>Claudin 182 表达 (IHC2 或 3+, ≥ 75%);<br/>佐妥昔单抗+FOLFOX/XELOXn [1A 类]<br/>奥沙利铂/顺铂+氟尿嘧啶类° [1A 类]*<br/>氟尿嘧啶类 + 紫杉类° [2A 类]*</td><td>三药联合方案 DCF 及 mDCF° [1B 类]</td><td>单药氟尿嘧啶类或紫杉类° [2B 类]*</td></tr></table>",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            },
+            {
+              "evidence_id": "IR05",
+              "doc_id": "c9294314-38c0-4a55-92b6-b261f374a7da",
+              "split_index": 60,
+              "type": "guideline",
+              "authority": "CACA",
+              "source_title": "中国肿瘤整合诊治技术指南（CACA） 整体支持",
+              "source_version": "2023",
+              "source_section": "（五）不良反应的处理",
+              "source_url": "",
+              "snippet": "（1）根据不良反应严重程度采取分级处理：I度不良事件可继续用药，Ⅱ度需暂停用药直至恢复至I度，Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理，IV度可能需永久停药。  \n（2）不良反应类型有助判断“再挑战”时化疗药物  \n   \n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注意是否已达最大累积剂量，对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生。  \n（3）对复杂不良反应，可采用MDT to HIM模式。需全程化、精细化、多学科团队参与和多方位（医护、临床药师、患者及家属）共同努力。",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            }
+          ],
+          "retrieval_queries": {
+            "staging": "初始临床评估与分期指南\n原发诊断：胃窦低分化管状腺癌（无亚型），HER-2阴性，PD-L1阴性（CPS<1），MMR功能正常，伴肝多发转移（IV期）\n初诊摘录：患者男，59岁，因腹痛1个月入院；胃镜检查显示胃窦癌变，组织病理学确诊为低分化管状腺癌（无亚型）；免疫组织化学检测显示HER-2阴性、PD-L1阴性（CPS<1）、MMR功能正常；CT扫描显示胃窦壁增厚、周围淋巴结肿大及肝脏多发转移灶；入院时未记载分子检测（如NGS）结果，未记载既往治疗史或合并症信息\n匹配原发病种与分期检查、区域和远处病变评估，不用后续事实反推初诊。",
+            "molecular": "病理与分子检测及结果应用指南\n原发诊断：胃窦低分化管状腺癌（无亚型），HER-2阴性，PD-L1阴性（CPS<1），MMR功能正常，伴肝多发转移（IV期）\n检测记录：分子检测｜未记载｜未记载｜未记载｜未记载（原文未提及NGS或其他分子分析）\n关注检测时机、结果等待与治疗衔接；检索关键词不代表初诊已知结果。",
+            "treatment": "复评、局部协调与后线决策正式指南\n原发诊断：胃窦低分化管状腺癌（无亚型），HER-2阴性，PD-L1阴性（CPS<1），MMR功能正常，伴肝多发转移（IV期）\n决策问题：2016年12月｜HER2阴性、PD-L1阴性(CPS<1)、MMR正常的转移性胃癌｜初始全身治疗方案选择；治疗4个月后｜原发灶及肝转移灶明显缩小｜是否继续原方案或调整\n实际治疗：2016年12月｜开始CAPOX姑息化疗｜奥沙利铂130 mg/m² D1；治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小；9个周期后｜终止化疗｜因持续血液学毒性；化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\n按原发癌种匹配复评与后线阶段，保留已知治疗限制。",
+            "study": "匹配病例实际方案的原始临床研究\n原发诊断：胃窦低分化管状腺癌（无亚型），HER-2阴性，PD-L1阴性（CPS<1），MMR功能正常，伴肝多发转移（IV期）\n方案和阶段：2016年12月｜开始CAPOX姑息化疗｜奥沙利铂130 mg/m² D1；治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小；9个周期后｜终止化疗｜因持续血液学毒性；化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\n匹配药物、人群、治疗阶段与决策终点，需该记录已报告原始研究结果。",
+            "toxicity_a": "奥沙利铂（CAPOX方案） 骨髓毒性 分级未提供 毒性识别 鉴别诊断 暂缓停药 再治疗条件 支持处理 正式指南",
+            "toxicity_b": "CAPOX方案（奥沙利铂+卡培他滨） 持续血液学毒性 分级未提供 毒性识别 鉴别诊断 暂缓停药 再治疗条件 支持处理 正式指南"
+          },
+          "retrieval_health": {
+            "ok": true,
+            "errors": []
+          },
+          "compression_report": {
+            "input_counts": {
+              "guideline_a_staging": 9,
+              "guideline_a": 11,
+              "guideline_b": 4,
+              "clinical_study_initial": 6,
+              "clinical_study_supplement": 0,
+              "irae_a": 4,
+              "irae_b": 4
+            },
+            "kept_counts": {
+              "guideline_a_staging": 4,
+              "guideline_a": 6,
+              "guideline_b": 4,
+              "clinical_study_initial": 3,
+              "clinical_study_supplement": 0,
+              "irae_a": 4,
+              "irae_b": 3
+            },
+            "kept_total": 24,
+            "dropped_total": 14,
+            "dropped": [
+              {
+                "lane": "guideline_a_staging",
+                "index": 3,
+                "reason": "LANE_CONTENT_MISMATCH",
+                "locator": "f51ad2ef-8e21-42f9-bfd1-f2ed36512587::109"
+              },
+              {
+                "lane": "guideline_a_staging",
+                "index": 5,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a_staging",
+                "index": 6,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a_staging",
+                "index": 7,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a_staging",
+                "index": 8,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 6,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 7,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 8,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 9,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 10,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 1,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "c1c887d3bfcd71dd11939067a4484c16::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 3,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260730_153537_2BA213C2::3"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 4,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "MEETING_20260804_172043_892D9DAE::4"
+              },
+              {
+                "lane": "irae_b",
+                "index": 0,
+                "reason": "DUPLICATE_LOCATOR",
+                "locator": "e8b56a00-18c3-4e45-ab70-e0f1b0814c6d::61"
+              }
+            ]
+          },
+          "first_round_raw": "",
+          "second_round_raw": "",
+          "parsed_second_round_draft": null,
+          "partial_draft_questions": [],
+          "model_execution": {
+            "model": "qwen3.8-flash",
+            "max_output_tokens_configured": 16000,
+            "first_round_char_count": 5880,
+            "second_round_char_count": 5888,
+            "finish_reason": null,
+            "finish_reason_availability": "not_exposed_by_workflow_outputs"
+          }
+        },
+        "flow_publishable": false,
+        "output_ready": true,
+        "medical_review_status": "not_performed",
+        "generation_status": "success",
+        "evidence_context_status": "provided"
+      }
+    ],
+    "warnings": [
+      "Q1（G1_Q1）选项表达待复核：39/40/23/39字；四项长度差异较大：应统一表达层次，不得机械补字或截断。"
+    ]
+  },
+  "response_json": "{\"record_type\":\"oncorounds_batch_item\",\"transport_version\":\"1.0\",\"output_data\":{\"Questions\":{\"schema_version\":\"1.0\",\"case_id\":\"CASE-794E8394\",\"cancer_type\":\"胃癌\",\"generation_status\":\"success\",\"difficulty\":\"进阶\",\"question_count\":5,\"questions\":[{\"id\":\"Q1\",\"type\":\"治疗决策\",\"phase\":\"初始全身治疗\",\"timepoint\":\"2016年12月确诊后\",\"question\":\"该患者HER2阴性、PD-L1 CPS<1、MMR正常的IV期胃癌，初始接受CAPOX化疗。关于此治疗决策，下列哪项正确？\",\"options\":{\"A\":\"应加用瑞拉芙普α联合XELOX，因该组合为1A类推荐且适用于所有HER2阴性患者\",\"B\":\"应加用替雷利珠单抗联合XELOX，因该组合为1A类推荐且适用于所有HER2阴性患者\",\"C\":\"应首选DCF三药方案，因多发肝转移需更强肿瘤控制\",\"D\":\"CAPOX作为一线化疗合理，因PD-L1 CPS<1时含CPS阈值的免疫联合方案不适用\"},\"answer\":\"D\",\"answer_text\":\"CAPOX作为一线化疗合理，因PD-L1 CPS<1时含CPS阈值的免疫联合方案不适用\",\"explain\":\"A｜不正确：瑞拉芙普α+XELOX在指南中明确限定PD-L1 CPS≥1，本例CPS<1不满足该前提\\nB｜不正确：替雷利珠单抗+XELOX/FP限定PD-L1 TAP≥5%，且选项称'适用于所有HER2阴性'与分层条件矛盾\\nC｜不正确：DCF及mDCF为1B类（II级推荐），并非优于1A类CAPOX的首选方案\\nD｜正确：奥沙利铂/顺铂+氟尿嘧啶类为1A类推荐且不依赖PD-L1状态，CPS<1时CAPOX合理\",\"keyPoint\":\"PD-L1 CPS<1时含CPS阈值的免疫联合方案不适用，化疗骨架为1A\",\"guidelineRef\":{\"evidence_type\":\"指南\",\"doc_id\":\"a67b5445-0dac-4ec4-a1ec-3d85f4849b6b\",\"split_index\":110,\"type\":\"guideline\",\"authority\":\"CSCO\",\"source_title\":\"中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026\",\"source_version\":\"2026\",\"source_section\":\"专家组成员（以姓氏汉语拼音为序）（\\\\*为执笔人）\",\"source_url\":\"\",\"evidence_summary\":\"CSCO 2026一线分层：瑞拉芙普α需CPS≥1，替雷利珠单抗需TAP≥5%；奥沙利铂+氟尿嘧啶类为1A不依赖PD-L1\"}},{\"id\":\"Q2\",\"type\":\"不良反应管理\",\"phase\":\"化疗期间剂量调整\",\"timepoint\":\"第5周期出现骨髓毒性时\",\"question\":\"该患者CAPOX化疗第5周期起出现骨髓毒性，奥沙利铂剂量减至75%后继续治疗。关于此处理，下列哪项正确？\",\"options\":{\"A\":\"骨髓毒性出现即应永久停用奥沙利铂，因铂类骨髓抑制为不可逆累积毒性\",\"B\":\"骨髓抑制属剂量限制性毒性，首次出现时减量继续治疗符合分级管理原则\",\"C\":\"应暂停全部化疗直至血象完全正常，再以原剂量重启CAPOX\",\"D\":\"骨髓毒性提示奥沙利铂为特异质反应，减量不能预防再次发生，应换用非铂方案\"},\"answer\":\"B\",\"answer_text\":\"骨髓抑制属剂量限制性毒性，首次出现时减量继续治疗符合分级管理原则\",\"explain\":\"A｜不正确：骨髓抑制为剂量限制性毒性可减量处理，非不可逆累积毒性，首次出现即永久停药过于激进\\nB｜正确：指南明确骨髓抑制属剂量限制性毒性可减量，本例减至75%后继续治疗符合该原则\\nC｜不正确：暂停至完全正常再以原剂量重启适用于II度，但本例采取减量提示更高级别，且原剂量重启违背减量原则\\nD｜不正确：骨髓抑制是剂量限制性毒性而非特异质反应，特异质反应减量不能预防才需换药，本例分类错误\",\"keyPoint\":\"剂量限制性毒性首次出现应减量而非永久停药或换药\",\"guidelineRef\":{\"evidence_type\":\"指南\",\"doc_id\":\"c9294314-38c0-4a55-92b6-b261f374a7da\",\"split_index\":60,\"type\":\"guideline\",\"authority\":\"CACA\",\"source_title\":\"中国肿瘤整合诊治技术指南（CACA） 整体支持\",\"source_version\":\"2023\",\"source_section\":\"（五）不良反应的处理\",\"source_url\":\"\",\"evidence_summary\":\"CACA整体支持：骨髓抑制属剂量限制性毒性可减量；特异质反应减量不能预防需换药；两者管理路径不同\"}},{\"id\":\"Q3\",\"type\":\"疗效复评与局部治疗\",\"phase\":\"化疗终止后随访\",\"timepoint\":\"化疗终止后CT随访\",\"question\":\"该患者9周期CAPOX化疗终止后，CT示病情稳定但肝转移灶略有增大，后续随访中肝转移灶逐渐缩小。关于此阶段处理，下列哪项正确？\",\"options\":{\"A\":\"肝转移灶轻度增大后自行缩小未构成明确进展，继续观察随访合理\",\"B\":\"肝转移灶增大即达疾病进展标准，应立即启动雷莫芦单抗联合紫杉醇二线方案\",\"C\":\"虽未达进展标准，但化疗已终止，应预防性启动二线化疗\",\"D\":\"应恢复奥沙利铂联合卡培他滨方案，因原方案曾有效\"},\"answer\":\"A\",\"answer_text\":\"肝转移灶轻度增大后自行缩小未构成明确进展，继续观察随访合理\",\"explain\":\"A｜正确：指南规定二线适用于明确疾病进展，本例轻度增大后自行缩小未达进展标准，观察合理\\nB｜不正确：雷莫芦单抗+紫杉醇为进展后二线选择，本例未达进展标准，启动二线缺乏适应证\\nC｜不正确：指南明确二线适用于出现疾病进展的患者，预防性启动二线无适应证依据\\nD｜不正确：化疗因持续血液学毒性终止，恢复原方案违背毒性管理原则且无进展证据支持\",\"keyPoint\":\"转移灶轻度增大后自行缩小不构成疾病进展，不触发二线治疗\",\"guidelineRef\":{\"evidence_type\":\"指南\",\"doc_id\":\"0d244cdc-4b4c-4b72-9a3f-5ce862be52d6\",\"split_index\":58,\"type\":\"guideline\",\"authority\":\"中华医学会肿瘤学分会\",\"source_title\":\"中华医学会胃癌临床诊疗指南（2021版）\",\"source_version\":\"2021\",\"source_section\":\"（三）转移性胃癌的治疗\",\"source_url\":\"\",\"evidence_summary\":\"中华医学会指南：二线及后线适用于初始化疗后出现疾病进展的患者；本例未达进展标准\"}},{\"id\":\"Q4\",\"type\":\"疗效复评与局部治疗\",\"phase\":\"完全缓解确认\",\"timepoint\":\"2018年5月影像学CR后\",\"question\":\"该患者2018年5月CT示原发灶消失、肝转移灶缩小达影像学完全缓解，2021年8月胃镜活检未见肿瘤细胞。关于完全缓解的确认，下列哪项正确？\",\"options\":{\"A\":\"影像学完全缓解即可判定治愈，无需进一步内镜或病理学确认\",\"B\":\"应在影像学CR后3个月内立即行胃镜活检，因影像无法区分瘢痕与残留肿瘤\",\"C\":\"影像学CR需结合内镜活检进行病理学确认，本例胃镜证实CR支持该策略\",\"D\":\"应以PET/CT代谢评估替代内镜活检作为CR的最终确认手段\"},\"answer\":\"C\",\"answer_text\":\"影像学CR需结合内镜活检进行病理学确认，本例胃镜证实CR支持该策略\",\"explain\":\"A｜不正确：指南明确细胞/组织病理学是确诊和治疗依据，影像学CR不能替代病理学确认\\nB｜不正确：病理确认原则正确，但'3个月内立即'无指南依据，本例3年后确认仍合理且未影响结局\\nC｜正确：病理学为确诊依据，影像学CR后行内镜活检确认符合原则，本例胃镜证实CR支持该策略\\nD｜不正确：PET/CT用于分期评估，不能替代组织病理学作为CR最终确认手段\",\"keyPoint\":\"影像学CR需病理学确认，但确认时机无硬性时限要求\",\"guidelineRef\":{\"evidence_type\":\"指南\",\"doc_id\":\"a67b5445-0dac-4ec4-a1ec-3d85f4849b6b\",\"split_index\":14,\"type\":\"guideline\",\"authority\":\"CSCO\",\"source_title\":\"中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026\",\"source_version\":\"2026\",\"source_section\":\"专家组成员（以姓氏汉语拼音为序）（\\\\*为执笔人）\",\"source_url\":\"\",\"evidence_summary\":\"CSCO 2026：细胞/组织病理学诊断是胃癌确诊和治疗的依据；影像学为分期手段非最终确认\"}},{\"id\":\"Q5\",\"type\":\"不良反应管理\",\"phase\":\"化疗终止决策\",\"timepoint\":\"第9周期后持续血液学毒性\",\"question\":\"该患者奥沙利铂减量至75%后仍出现持续血液学毒性，9周期后终止化疗。关于终止化疗的决策，下列哪项正确？\",\"options\":{\"A\":\"减量后持续血液学毒性时终止化疗合理，符合剂量限制性毒性分级管理原则\",\"B\":\"应继续化疗并加用G-CSF和促血小板生成素，因骨髓抑制可通过支持治疗完全预防\",\"C\":\"应换用顺铂联合氟尿嘧啶类方案，因奥沙利铂骨髓毒性属特异质反应需更换铂类\",\"D\":\"应继续原剂量CAPOX至满12周期，因骨髓毒性可通过减量完全逆转\"},\"answer\":\"A\",\"answer_text\":\"减量后持续血液学毒性时终止化疗合理，符合剂量限制性毒性分级管理原则\",\"explain\":\"A｜正确：III度停药后需基于风险/获益比考虑，减量后毒性持续提示获益不足，终止合理\\nB｜不正确：支持治疗可辅助但'完全预防'过于绝对，减量后仍持续毒性说明支持治疗不足以维持\\nC｜不正确：骨髓抑制为剂量限制性毒性非特异质反应，换用顺铂（同为铂类）不解决同类毒性问题\\nD｜不正确：已减量至75%仍持续毒性，恢复原剂量违背减量原则，'完全逆转'无依据\",\"keyPoint\":\"减量后毒性仍持续提示风险获益不利，终止化疗符合分级管理\",\"guidelineRef\":{\"evidence_type\":\"指南\",\"doc_id\":\"c9294314-38c0-4a55-92b6-b261f374a7da\",\"split_index\":60,\"type\":\"guideline\",\"authority\":\"CACA\",\"source_title\":\"中国肿瘤整合诊治技术指南（CACA） 整体支持\",\"source_version\":\"2023\",\"source_section\":\"（五）不良反应的处理\",\"source_url\":\"\",\"evidence_summary\":\"CACA：III度停药后基于风险/获益比考虑；剂量限制性毒性可减量但持续时终止；非特异质无需换药\"}}],\"missing_information\":[]},\"detail\":{\"schema_version\":\"1.0\",\"case_id\":\"CASE-794E8394\",\"cancer_type\":\"胃癌\",\"difficulty\":\"进阶\",\"decision_point_count\":5,\"image\":{\"src\":\"\",\"alt\":\"\"},\"home\":{\"recommendation_label\":\"今日推荐病例\",\"display_title\":\"HER2阴性转移性胃癌CAPOX化疗后持久完全缓解\",\"description\":\"患者男，59岁，因腹痛1个月入院。胃镜检查显示胃窦癌变，组织病理学确诊为低分化管状腺癌（无亚型）。免疫组织化学检测显示HER-2阴性、PD-L1阴性（CPS<1）、MMR功能正常。CT扫描显示胃窦壁增厚、周围淋巴结肿大及肝脏多发转移灶。入院时未记载分子检测（如NGS）结果，未记载既往治疗史或合并症信息。\"},\"overview\":{\"hero\":{\"title\":\"HER2阴性转移性胃癌CAPOX化疗后持久完全缓解\",\"subtitle\":\"1. HER2阴性、PD-L1阴性、MMR正常的转移性胃癌初始化疗方案选择依据 2. 化疗疗效评估时机与影像学标准 3. 骨髓毒性出现后奥沙利铂剂量调整策略（减至75%） 4. 持续血液学毒性导致终止化疗的决策节点 5. 化疗终止后未追加二……\"},\"tabs\":[{\"id\":\"summary\",\"label\":\"病例摘要\",\"order\":1,\"summary_items\":[{\"order\":1,\"label\":\"患者与就诊背景\",\"value\":\"患者男，59岁，因腹痛1个月入院。胃镜检查显示胃窦癌变，组织病理学确诊为低分化管状腺癌（无亚型）。免疫组织化学检测显示HER-2阴性、PD-L1阴性（CPS<1）、MMR功能正常。CT扫描显示胃窦壁增厚、周围淋巴结肿大及肝脏多发转移灶。入院时未记载分子检测（如NGS）结果，未记载既往治疗史或合并症信息。\"},{\"order\":2,\"label\":\"疾病与分期\",\"value\":\"胃窦低分化管状腺癌（无亚型），HER-2阴性，PD-L1阴性（CPS<1），MMR功能正常，伴肝多发转移（IV期）\"},{\"order\":3,\"label\":\"分子与病理\",\"value\":\"病理｜取样时间未明确记载（入院时）｜胃窦活检｜组织病理学｜低分化管状腺癌（无亚型） IHC｜取样时间未明确记载（入院时）｜胃窦活检｜免疫组织化学｜HER-2阴性 IHC｜取样时间未明确记载（入院时）｜胃窦活检｜免疫组织化学｜PD-L1阴性（CPS<1） IHC｜取样时间未明确记载（入院时）｜胃窦活检｜免疫组织化学｜MMR功能正常 分子检测｜未记载｜未记载｜未记载｜未记载（原文未提及NGS或其他分子分析）\"},{\"order\":4,\"label\":\"核心教学点\",\"value\":\"1. HER2阴性、PD-L1阴性、MMR正常的转移性胃癌初始化疗方案选择依据 2. 化疗疗效评估时机与影像学标准 3. 骨髓毒性出现后奥沙利铂剂量调整策略（减至75%） 4. 持续血液学毒性导致终止化疗的决策节点 5. 化疗终止后未追加二线治疗而选择观察的依据与风险 6. 影像学完全缓解与内镜活检确认完全缓解的关系 7. 持久完全缓解患者的长期随访策略 8. 超反应现象的生物学机制探索方向\"}]},{\"id\":\"timeline\",\"label\":\"病程轴\",\"order\":2,\"timeline_items\":[{\"date\":\"时间未详\",\"title\":\"诊疗节点 1\",\"detail\":\"2016年12月前｜入院检查｜腹痛1个月，胃镜示胃窦癌变，病理确诊低分化管状腺癌，IHC：HER-2阴性、PD-L1阴性(CPS<1)、MMR正常，CT示胃窦壁增厚、周围淋巴结肿大、肝多发转移\"},{\"date\":\"2016年12月\",\"title\":\"开始CAPOX姑息化疗\",\"detail\":\"奥沙利铂130 mg/m² D1；卡培他滨2000 mg/m² D1-14，每3周一次\"},{\"date\":\"时间未详\",\"title\":\"诊疗节点 3\",\"detail\":\"治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小\"},{\"date\":\"时间未详\",\"title\":\"诊疗节点 4\",\"detail\":\"第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\"},{\"date\":\"时间未详\",\"title\":\"诊疗节点 5\",\"detail\":\"9个周期后｜终止化疗｜因持续血液学毒性\"},{\"date\":\"时间未详\",\"title\":\"诊疗节点 6\",\"detail\":\"化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\"},{\"date\":\"时间未详\",\"title\":\"诊疗节点 7\",\"detail\":\"后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\"},{\"date\":\"时间未详\",\"title\":\"诊疗节点 8\",\"detail\":\"2018年5月｜达到完全缓解\"},{\"date\":\"2021年8月\",\"title\":\"胃镜证实完全缓解\",\"detail\":\"活检未见肿瘤细胞\"},{\"date\":\"2023年12月\",\"title\":\"最后一次随访\",\"detail\":\"仍维持完全缓解，无进展生存期已超过93个月\"}]},{\"id\":\"images\",\"label\":\"病例图片\",\"order\":3,\"image_items\":[]}]}}},\"execution_report\":{\"schema_version\":\"oncorounds-execution-1.0\",\"workflow_revision\":\"20260929-full-review-five-outer\",\"case_id\":\"CASE-794E8394\",\"status\":\"OUTPUT_READY\",\"publishable\":false,\"medical_review_status\":\"not_performed\",\"extraction_check\":{\"scope\":\"literal_excerpt_coverage_not_medical_validation\",\"patient_section_found\":true,\"matched_count\":0,\"retained_excerpts\":[],\"warnings\":[]},\"source_groups\":[{\"group_id\":\"G1\",\"parse_status\":\"OK\",\"raw_question_count\":5,\"usable_question_count\":5,\"rejected_questions\":[],\"warnings\":[],\"audit\":{\"availability\":\"not_provided\"},\"transport\":{\"protocol\":\"single_json\",\"json_block_count\":1,\"selected_block_index\":0,\"ignored_intermediate_blocks\":0,\"upstream_messages\":[]},\"upstream_missing_information\":[],\"workflow_revision\":\"20260929-evidence-depth-five\",\"flow_status\":\"OUTPUT_READY\",\"completion\":{\"required_question_count\":5,\"available_question_count\":5,\"model_question_count\":5,\"complete\":true},\"program_check\":{\"scope\":\"program_structure_and_reference_identity_only\",\"decision\":\"PASS\",\"errors\":[],\"warnings\":[\"OPTION_STYLE Q1：四项有效字符数=39/40/23/39，正确项=D；四项长度差异较大：应统一表达层次，不得机械补字或截断。\",\"同一证据定位c9294314-38c0-4a55-92b6-b261f374a7da::60支持2题：复核是否考查不同真实决策；不设置复用题数配额\"]},\"workflow_diagnostics\":{\"scope\":\"debug_only_not_learner_content\",\"evidence_verification\":{\"version\":\"option-anchors-1.0\",\"scope\":\"literal_source_presence_and_shape_only\",\"decision\":\"PASS\",\"semantic_support\":\"not_independently_verified\",\"errors\":[],\"question_checks\":[{\"question_id\":\"Q1\",\"evidence_id\":\"GB03\",\"errors\":[],\"option_checks\":[{\"option\":\"A\",\"quotes\":[{\"quote\":\"PD-L1 CPS ≥ 1;<br/>瑞拉芙普 α 注射液+XELOXk<br/>[1A 类]\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":152,\"end\":199,\"text\":\"</td><td>Ⅲ级推荐</td></tr><tr><td>HER2 中低或不表达°</td><td>PD-L1 TAP ≥ 5%;<br/>替雷利珠单抗+XELOX/FPi [1A 类]<br/>PD-L1 CPS ≥ 1;<br/>瑞拉芙普 α 注射液+XELOXk<br/>[1A 类]</td><td>PD-L1 TAP&lt;5%或检测不可及;<br/>替雷利珠单抗+XELOX/FPi [1B 类]</td><td></td></tr><tr><td></td><td>无论 PD\"}]}]},{\"option\":\"B\",\"quotes\":[{\"quote\":\"PD-L1 TAP ≥ 5%;<br/>替雷利珠单抗+XELOX/FPi [1A 类]\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":104,\"end\":147,\"text\":\"治疗（续）<table><tr><td>分层</td><td>Ⅰ级推荐</td><td>Ⅱ级推荐</td><td>Ⅲ级推荐</td></tr><tr><td>HER2 中低或不表达°</td><td>PD-L1 TAP ≥ 5%;<br/>替雷利珠单抗+XELOX/FPi [1A 类]<br/>PD-L1 CPS ≥ 1;<br/>瑞拉芙普 α 注射液+XELOXk<br/>[1A 类]</td><td>PD-L1 TAP&lt;5%或检测不可及;<br/>替雷利珠单抗+XELOX\"}]}]},{\"option\":\"C\",\"quotes\":[{\"quote\":\"三药联合方案 DCF 及 mDCF° [1B 类]\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":464,\"end\":489,\"text\":\" ≥ 75%);<br/>佐妥昔单抗+FOLFOX/XELOXn [1A 类]<br/>奥沙利铂/顺铂+氟尿嘧啶类° [1A 类]*<br/>氟尿嘧啶类 + 紫杉类° [2A 类]*</td><td>三药联合方案 DCF 及 mDCF° [1B 类]</td><td>单药氟尿嘧啶类或紫杉类° [2B 类]*</td></tr></table>\"}]}]},{\"option\":\"D\",\"quotes\":[{\"quote\":\"奥沙利铂/顺铂+氟尿嘧啶类° [1A 类]*\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":408,\"end\":430,\"text\":\"<br/>卡度尼利单抗+XELOXm [1A 类]<br/>Claudin 182 表达 (IHC2 或 3+, ≥ 75%);<br/>佐妥昔单抗+FOLFOX/XELOXn [1A 类]<br/>奥沙利铂/顺铂+氟尿嘧啶类° [1A 类]*<br/>氟尿嘧啶类 + 紫杉类° [2A 类]*</td><td>三药联合方案 DCF 及 mDCF° [1B 类]</td><td>单药氟尿嘧啶类或紫杉类° [2B 类]*</td></tr></\"}]}]}],\"case_fact_checks\":[{\"field\":\"case_timeline\",\"quote\":\"IHC：HER-2阴性、PD-L1阴性(CPS<1)、MMR正常\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":41,\"end\":73,\"text\":\"2016年12月前｜入院检查｜腹痛1个月，胃镜示胃窦癌变，病理确诊低分化管状腺癌，IHC：HER-2阴性、PD-L1阴性(CPS<1)、MMR正常，CT示胃窦壁增厚、周围淋巴结肿大、肝多发转移\\n2016年12月｜开始CAPOX姑息化疗｜奥沙利铂130 mg/m² D1；卡培他滨2000 mg/m² D1-14，每3周一次\\n治疗4个月后｜复查CT\"}]},{\"field\":\"case_timeline\",\"quote\":\"开始CAPOX姑息化疗\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":106,\"end\":117,\"text\":\"2月前｜入院检查｜腹痛1个月，胃镜示胃窦癌变，病理确诊低分化管状腺癌，IHC：HER-2阴性、PD-L1阴性(CPS<1)、MMR正常，CT示胃窦壁增厚、周围淋巴结肿大、肝多发转移\\n2016年12月｜开始CAPOX姑息化疗｜奥沙利铂130 mg/m² D1；卡培他滨2000 mg/m² D1-14，每3周一次\\n治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小\\n第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\\n9个周\"}]}],\"decision_design\":{\"closest_alternative\":\"A\",\"decision_boundary\":\"CPS<1不满足瑞拉芙普α的CPS≥1入组条件；CAPOX为1A且不依赖PD-L1状态\",\"review_required\":\"核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。\"},\"source_locator\":{\"doc_id\":\"a67b5445-0dac-4ec4-a1ec-3d85f4849b6b\",\"split_index\":110},\"decision\":\"PASS\"},{\"question_id\":\"Q2\",\"evidence_id\":\"IR05\",\"errors\":[],\"option_checks\":[{\"option\":\"A\",\"quotes\":[{\"quote\":\"对剂量限制性毒性（如：骨髓抑制）可减量\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":128,\"end\":147,\"text\":\"续用药，Ⅱ度需暂停用药直至恢复至I度，Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理，IV度可能需永久停药。  \\n（2）不良反应类型有助判断“再挑战”时化疗药物  \\n   \\n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注意是否已达最大累积剂量，对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生。  \\n（3）对复杂不良反应，可采用MDT to HI\"}]}]},{\"option\":\"B\",\"quotes\":[{\"quote\":\"对剂量限制性毒性（如：骨髓抑制）可减量\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":128,\"end\":147,\"text\":\"续用药，Ⅱ度需暂停用药直至恢复至I度，Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理，IV度可能需永久停药。  \\n（2）不良反应类型有助判断“再挑战”时化疗药物  \\n   \\n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注意是否已达最大累积剂量，对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生。  \\n（3）对复杂不良反应，可采用MDT to HI\"}]}]},{\"option\":\"C\",\"quotes\":[{\"quote\":\"Ⅱ度需暂停用药直至恢复至I度\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":32,\"end\":46,\"text\":\"（1）根据不良反应严重程度采取分级处理：I度不良事件可继续用药，Ⅱ度需暂停用药直至恢复至I度，Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理，IV度可能需永久停药。  \\n（2）不良反应类型有助判断“再挑战”时化疗药物  \\n   \\n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减\"}]}]},{\"option\":\"D\",\"quotes\":[{\"quote\":\"对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":188,\"end\":220,\"text\":\"  \\n（2）不良反应类型有助判断“再挑战”时化疗药物  \\n   \\n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注意是否已达最大累积剂量，对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生。  \\n（3）对复杂不良反应，可采用MDT to HIM模式。需全程化、精细化、多学科团队参与和多方位（医护、临床药师、患者及家属）共同努力。\"}]}]}],\"case_fact_checks\":[{\"field\":\"case_timeline\",\"quote\":\"第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":188,\"end\":213,\"text\":\"肿大、肝多发转移\\n2016年12月｜开始CAPOX姑息化疗｜奥沙利铂130 mg/m² D1；卡培他滨2000 mg/m² D1-14，每3周一次\\n治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小\\n第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\\n9个周期后｜终止化疗｜因持续血液学毒性\\n化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\\n后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\\n2018年5月｜达到完全缓解\\n2021年8月｜胃镜证实完全缓解\"}]},{\"field\":\"adverse_events\",\"quote\":\"奥沙利铂（CAPOX方案）｜骨髓毒性\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":7,\"end\":25,\"text\":\"第5个周期起｜奥沙利铂（CAPOX方案）｜骨髓毒性｜原文明示分级未记载｜奥沙利铂剂量减至75%｜持续至第9周期后终止化疗\\n9个周期后｜CAPOX方案（奥沙利铂+卡培他滨）｜持续血液学毒性｜原文明示分级未记载｜终止化疗｜后续未再出现相关事件记载\"}]}],\"decision_design\":{\"closest_alternative\":\"C\",\"decision_boundary\":\"骨髓抑制为剂量限制性毒性→减量；非II度暂停后原剂量重启，也非特异质反应需换药\",\"review_required\":\"核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。\"},\"source_locator\":{\"doc_id\":\"c9294314-38c0-4a55-92b6-b261f374a7da\",\"split_index\":60},\"decision\":\"PASS\"},{\"question_id\":\"Q3\",\"evidence_id\":\"GB01\",\"errors\":[],\"option_checks\":[{\"option\":\"A\",\"quotes\":[{\"quote\":\"二线及后线治疗适用于初始化疗后出现疾病进展的患者\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":13,\"end\":37,\"text\":\"（2）二线及后线治疗：晚期二线及后线治疗适用于初始化疗后出现疾病进展的患者。二线治疗中，对既往接受过抗HER-2治疗的阳性患者，应根据HER-2再检测状态决定治疗策略，不推荐继续常规抗HER-2治疗。对既往未应用曲妥珠单抗者，可考虑曲妥珠单抗联合单药紫杉醇（2类推荐证据）[\"}]}]},{\"option\":\"B\",\"quotes\":[{\"quote\":\"二线及后线治疗适用于初始化疗后出现疾病进展的患者\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":13,\"end\":37,\"text\":\"（2）二线及后线治疗：晚期二线及后线治疗适用于初始化疗后出现疾病进展的患者。二线治疗中，对既往接受过抗HER-2治疗的阳性患者，应根据HER-2再检测状态决定治疗策略，不推荐继续常规抗HER-2治疗。对既往未应用曲妥珠单抗者，可考虑曲妥珠单抗联合单药紫杉醇（2类推荐证据）[\"}]}]},{\"option\":\"C\",\"quotes\":[{\"quote\":\"二线及后线治疗适用于初始化疗后出现疾病进展的患者\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":13,\"end\":37,\"text\":\"（2）二线及后线治疗：晚期二线及后线治疗适用于初始化疗后出现疾病进展的患者。二线治疗中，对既往接受过抗HER-2治疗的阳性患者，应根据HER-2再检测状态决定治疗策略，不推荐继续常规抗HER-2治疗。对既往未应用曲妥珠单抗者，可考虑曲妥珠单抗联合单药紫杉醇（2类推荐证据）[\"}]}]},{\"option\":\"D\",\"quotes\":[{\"quote\":\"二线及后线治疗适用于初始化疗后出现疾病进展的患者\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":13,\"end\":37,\"text\":\"（2）二线及后线治疗：晚期二线及后线治疗适用于初始化疗后出现疾病进展的患者。二线治疗中，对既往接受过抗HER-2治疗的阳性患者，应根据HER-2再检测状态决定治疗策略，不推荐继续常规抗HER-2治疗。对既往未应用曲妥珠单抗者，可考虑曲妥珠单抗联合单药紫杉醇（2类推荐证据）[\"}]}]}],\"case_fact_checks\":[{\"field\":\"case_timeline\",\"quote\":\"化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":234,\"end\":258,\"text\":\"；卡培他滨2000 mg/m² D1-14，每3周一次\\n治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小\\n第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\\n9个周期后｜终止化疗｜因持续血液学毒性\\n化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\\n后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\\n2018年5月｜达到完全缓解\\n2021年8月｜胃镜证实完全缓解｜活检未见肿瘤细胞\\n2023年12月｜最后一次随访｜仍维持完全缓解，无进展生存期已超过93\"}]},{\"field\":\"case_timeline\",\"quote\":\"后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":259,\"end\":281,\"text\":\"一次\\n治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小\\n第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\\n9个周期后｜终止化疗｜因持续血液学毒性\\n化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\\n后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\\n2018年5月｜达到完全缓解\\n2021年8月｜胃镜证实完全缓解｜活检未见肿瘤细胞\\n2023年12月｜最后一次随访｜仍维持完全缓解，无进展生存期已超过93个月\"}]}],\"decision_design\":{\"closest_alternative\":\"B\",\"decision_boundary\":\"轻度增大后自行缩小≠疾病进展；GB01二线仅适用于明确进展，本例不满足启动条件\",\"review_required\":\"核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。\"},\"source_locator\":{\"doc_id\":\"0d244cdc-4b4c-4b72-9a3f-5ce862be52d6\",\"split_index\":58},\"decision\":\"PASS\"},{\"question_id\":\"Q4\",\"evidence_id\":\"GS04\",\"errors\":[],\"option_checks\":[{\"option\":\"A\",\"quotes\":[{\"quote\":\"细胞/组织病理学诊断是胃癌确诊和治疗的依据\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":296,\"end\":317,\"text\":\"tomography-computed tomography, PET/CT）分别作为CT疑诊肝转移、腹膜转移及全身转移时的补充手段。影像学报告应提供涉及cTNM分期的征象描述，并给出分期诊断。  \\n细胞/组织病理学诊断是胃癌确诊和治疗的依据。胃癌术后病理学诊断（pTNM分期）为明确胃癌的组织学类型、全面评估胃癌分期、判断患者预后、制订有针对性的个体化治疗方案提供必要的组织病理学依据。目前肿瘤组织HER2状态是胃癌分子分型和抗HER2靶向\"}]}]},{\"option\":\"B\",\"quotes\":[{\"quote\":\"细胞/组织病理学诊断是胃癌确诊和治疗的依据\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":296,\"end\":317,\"text\":\"tomography-computed tomography, PET/CT）分别作为CT疑诊肝转移、腹膜转移及全身转移时的补充手段。影像学报告应提供涉及cTNM分期的征象描述，并给出分期诊断。  \\n细胞/组织病理学诊断是胃癌确诊和治疗的依据。胃癌术后病理学诊断（pTNM分期）为明确胃癌的组织学类型、全面评估胃癌分期、判断患者预后、制订有针对性的个体化治疗方案提供必要的组织病理学依据。目前肿瘤组织HER2状态是胃癌分子分型和抗HER2靶向\"}]}]},{\"option\":\"C\",\"quotes\":[{\"quote\":\"细胞/组织病理学诊断是胃癌确诊和治疗的依据\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":296,\"end\":317,\"text\":\"tomography-computed tomography, PET/CT）分别作为CT疑诊肝转移、腹膜转移及全身转移时的补充手段。影像学报告应提供涉及cTNM分期的征象描述，并给出分期诊断。  \\n细胞/组织病理学诊断是胃癌确诊和治疗的依据。胃癌术后病理学诊断（pTNM分期）为明确胃癌的组织学类型、全面评估胃癌分期、判断患者预后、制订有针对性的个体化治疗方案提供必要的组织病理学依据。目前肿瘤组织HER2状态是胃癌分子分型和抗HER2靶向\"}]}]},{\"option\":\"D\",\"quotes\":[{\"quote\":\"细胞/组织病理学诊断是胃癌确诊和治疗的依据\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":296,\"end\":317,\"text\":\"tomography-computed tomography, PET/CT）分别作为CT疑诊肝转移、腹膜转移及全身转移时的补充手段。影像学报告应提供涉及cTNM分期的征象描述，并给出分期诊断。  \\n细胞/组织病理学诊断是胃癌确诊和治疗的依据。胃癌术后病理学诊断（pTNM分期）为明确胃癌的组织学类型、全面评估胃癌分期、判断患者预后、制订有针对性的个体化治疗方案提供必要的组织病理学依据。目前肿瘤组织HER2状态是胃癌分子分型和抗HER2靶向\"}]}]}],\"case_fact_checks\":[{\"field\":\"case_timeline\",\"quote\":\"2018年5月｜达到完全缓解\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":282,\"end\":296,\"text\":\"均明显缩小\\n第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\\n9个周期后｜终止化疗｜因持续血液学毒性\\n化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\\n后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\\n2018年5月｜达到完全缓解\\n2021年8月｜胃镜证实完全缓解｜活检未见肿瘤细胞\\n2023年12月｜最后一次随访｜仍维持完全缓解，无进展生存期已超过93个月\"}]},{\"field\":\"case_timeline\",\"quote\":\"2021年8月｜胃镜证实完全缓解｜活检未见肿瘤细胞\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":297,\"end\":322,\"text\":\"骨髓毒性｜奥沙利铂剂量减至75%\\n9个周期后｜终止化疗｜因持续血液学毒性\\n化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\\n后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\\n2018年5月｜达到完全缓解\\n2021年8月｜胃镜证实完全缓解｜活检未见肿瘤细胞\\n2023年12月｜最后一次随访｜仍维持完全缓解，无进展生存期已超过93个月\"}]}],\"decision_design\":{\"closest_alternative\":\"B\",\"decision_boundary\":\"病理确认是必要的，但无证据要求CR后3个月内必须活检；本例3年后确认仍合理\",\"review_required\":\"核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。\"},\"source_locator\":{\"doc_id\":\"a67b5445-0dac-4ec4-a1ec-3d85f4849b6b\",\"split_index\":14},\"decision\":\"PASS\"},{\"question_id\":\"Q5\",\"evidence_id\":\"IR05\",\"errors\":[],\"option_checks\":[{\"option\":\"A\",\"quotes\":[{\"quote\":\"Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":47,\"end\":76,\"text\":\"（1）根据不良反应严重程度采取分级处理：I度不良事件可继续用药，Ⅱ度需暂停用药直至恢复至I度，Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理，IV度可能需永久停药。  \\n（2）不良反应类型有助判断“再挑战”时化疗药物  \\n   \\n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注\"}]}]},{\"option\":\"B\",\"quotes\":[{\"quote\":\"对剂量限制性毒性（如：骨髓抑制）可减量\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":128,\"end\":147,\"text\":\"续用药，Ⅱ度需暂停用药直至恢复至I度，Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理，IV度可能需永久停药。  \\n（2）不良反应类型有助判断“再挑战”时化疗药物  \\n   \\n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注意是否已达最大累积剂量，对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生。  \\n（3）对复杂不良反应，可采用MDT to HI\"}]}]},{\"option\":\"C\",\"quotes\":[{\"quote\":\"对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":188,\"end\":220,\"text\":\"  \\n（2）不良反应类型有助判断“再挑战”时化疗药物  \\n   \\n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注意是否已达最大累积剂量，对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生。  \\n（3）对复杂不良反应，可采用MDT to HIM模式。需全程化、精细化、多学科团队参与和多方位（医护、临床药师、患者及家属）共同努力。\"}]}]},{\"option\":\"D\",\"quotes\":[{\"quote\":\"对剂量限制性毒性（如：骨髓抑制）可减量\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":128,\"end\":147,\"text\":\"续用药，Ⅱ度需暂停用药直至恢复至I度，Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理，IV度可能需永久停药。  \\n（2）不良反应类型有助判断“再挑战”时化疗药物  \\n   \\n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注意是否已达最大累积剂量，对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生。  \\n（3）对复杂不良反应，可采用MDT to HI\"}]}]}],\"case_fact_checks\":[{\"field\":\"case_timeline\",\"quote\":\"9个周期后｜终止化疗｜因持续血液学毒性\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":214,\"end\":233,\"text\":\"息化疗｜奥沙利铂130 mg/m² D1；卡培他滨2000 mg/m² D1-14，每3周一次\\n治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小\\n第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\\n9个周期后｜终止化疗｜因持续血液学毒性\\n化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\\n后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\\n2018年5月｜达到完全缓解\\n2021年8月｜胃镜证实完全缓解｜活检未见肿瘤细胞\\n2023年12月｜最\"}]},{\"field\":\"case_timeline\",\"quote\":\"第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\",\"matched\":true,\"match_mode\":\"exact\",\"occurrences\":1,\"contexts\":[{\"start\":188,\"end\":213,\"text\":\"肿大、肝多发转移\\n2016年12月｜开始CAPOX姑息化疗｜奥沙利铂130 mg/m² D1；卡培他滨2000 mg/m² D1-14，每3周一次\\n治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小\\n第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\\n9个周期后｜终止化疗｜因持续血液学毒性\\n化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\\n后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\\n2018年5月｜达到完全缓解\\n2021年8月｜胃镜证实完全缓解\"}]}],\"decision_design\":{\"closest_alternative\":\"B\",\"decision_boundary\":\"减量后毒性持续→风险/获益不利→终止；骨髓抑制非特异质→无需换铂类；支持治疗不能'完全预防'\",\"review_required\":\"核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。\"},\"source_locator\":{\"doc_id\":\"c9294314-38c0-4a55-92b6-b261f374a7da\",\"split_index\":60},\"decision\":\"PASS\"}]},\"question_evidence_bindings\":[{\"question_id\":\"Q1\",\"evidence_id\":\"GB03\",\"doc_id\":\"a67b5445-0dac-4ec4-a1ec-3d85f4849b6b\",\"split_index\":110,\"matching_record_count\":1},{\"question_id\":\"Q2\",\"evidence_id\":\"IR05\",\"doc_id\":\"c9294314-38c0-4a55-92b6-b261f374a7da\",\"split_index\":60,\"matching_record_count\":1},{\"question_id\":\"Q3\",\"evidence_id\":\"GB01\",\"doc_id\":\"0d244cdc-4b4c-4b72-9a3f-5ce862be52d6\",\"split_index\":58,\"matching_record_count\":1},{\"question_id\":\"Q4\",\"evidence_id\":\"GS04\",\"doc_id\":\"a67b5445-0dac-4ec4-a1ec-3d85f4849b6b\",\"split_index\":14,\"matching_record_count\":1},{\"question_id\":\"Q5\",\"evidence_id\":\"IR05\",\"doc_id\":\"c9294314-38c0-4a55-92b6-b261f374a7da\",\"split_index\":60,\"matching_record_count\":1}],\"cited_evidence_snapshot\":[{\"evidence_id\":\"GS04\",\"doc_id\":\"a67b5445-0dac-4ec4-a1ec-3d85f4849b6b\",\"split_index\":14,\"type\":\"guideline\",\"authority\":\"CSCO\",\"source_title\":\"中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026\",\"source_version\":\"2026\",\"source_section\":\"专家组成员（以姓氏汉语拼音为序）（\\\\*为执笔人）\",\"source_url\":\"\",\"snippet\":\"胃癌治疗前基本诊断手段主要包括内镜、影像及病理学检查，用于胃癌的定性诊断、定位诊断和分期诊断，其他还包括体格检查、实验室检查、诊断性腹腔镜探查和腹腔灌洗液评价等方法以进一步对胃癌临床诊断进行补充和确证。  \\n胸部及腹盆部增强计算机断层扫描（CT）检查是治疗前分期的基本手段，磁共振成像（MRI）、诊断性腹腔镜探查和腹腔灌洗液评价及正电子发射计算机体层显像（positron emission tomography-computed tomography, PET/CT）分别作为CT疑诊肝转移、腹膜转移及全身转移时的补充手段。影像学报告应提供涉及cTNM分期的征象描述，并给出分期诊断。  \\n细胞/组织病理学诊断是胃癌确诊和治疗的依据。胃癌术后病理学诊断（pTNM分期）为明确胃癌的组织学类型、全面评估胃癌分期、判断患者预后、制订有针对性的个体化治疗方案提供必要的组织病理学依据。目前肿瘤组织HER2状态是胃癌分子分型和抗HER2靶向药物治疗的重要依据，所有经病理诊断证实为胃或食管胃结合部腺癌的病例均有必要进行HER2检测。推荐新诊断的胃癌病例进行MSI/MMR检测，从而使MSI-H/dMMR患者有机会从免疫治疗中获益。拟进行靶向Claudin 18.2治疗和采用程序性死亡受体I（programmed death-1, PD-1）/程序性死亡受体配体1（programmed death-ligand 1, PD-L1）抑制剂治疗的胃癌患者，应进行Claudin 18.2和PD-L1检测。二代测序（next-generation sequencing, NGS）和液体活检等在胃癌中的应用尚处在探索和数据积累阶段。  \\n \",\"hard_evidence_type\":\"指南\",\"reasoning_eligible\":true},{\"evidence_id\":\"GB01\",\"doc_id\":\"0d244cdc-4b4c-4b72-9a3f-5ce862be52d6\",\"split_index\":58,\"type\":\"guideline\",\"authority\":\"中华医学会肿瘤学分会\",\"source_title\":\"中华医学会胃癌临床诊疗指南（2021版）\",\"source_version\":\"2021\",\"source_section\":\"（三）转移性胃癌的治疗\",\"source_url\":\"\",\"snippet\":\"（2）二线及后线治疗：晚期二线及后线治疗适用于初始化疗后出现疾病进展的患者。二线治疗中，对既往接受过抗HER-2治疗的阳性患者，应根据HER-2再检测状态决定治疗策略，不推荐继续常规抗HER-2治疗。对既往未应用曲妥珠单抗者，可考虑曲妥珠单抗联合单药紫杉醇（2类推荐证据）[85]和蒽环类药物之外的二线化疗方案（3类推荐证据）。MSI的患者可在PD-1抑制剂治疗中获益（2类推荐证据）[86]。对肿瘤负荷较大、存在转化治疗机会或单药免疫治疗效果欠佳的患者可采用联合免疫治疗，并推荐参加临床研究；无相关分子标志物的患者可进行二线化疗联合抗血管生成药物，如雷莫芦单抗 \\\\$^+\\\\$ 紫杉醇，此外还推荐行单药紫杉醇、单药伊立替康化疗（1类推荐证据），但有小样本Ⅱ期研究结果显示，对于体能状态良好的患者，双药化疗可带来更好的肿瘤控制且安全性尚可。\\n三线及后线治疗对于HER- 2阳性患者推荐维迪西妥单抗，对于无相关分子标志物者则可尝试阿帕替尼、TAS102以及纳武利尤单抗等。基于ATTRACTION- 02Ⅲ期研究结果，阿帕替尼和纳武利尤单抗现被NMPA批准用于晚期胃癌的三线治\\n \",\"hard_evidence_type\":\"指南\",\"reasoning_eligible\":true},{\"evidence_id\":\"GB03\",\"doc_id\":\"a67b5445-0dac-4ec4-a1ec-3d85f4849b6b\",\"split_index\":110,\"type\":\"guideline\",\"authority\":\"CSCO\",\"source_title\":\"中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026\",\"source_version\":\"2026\",\"source_section\":\"专家组成员（以姓氏汉语拼音为序）（\\\\*为执笔人）\",\"source_url\":\"\",\"snippet\":\" \\n一线治疗（续）<table><tr><td>分层</td><td>Ⅰ级推荐</td><td>Ⅱ级推荐</td><td>Ⅲ级推荐</td></tr><tr><td>HER2 中低或不表达°</td><td>PD-L1 TAP ≥ 5%;<br/>替雷利珠单抗+XELOX/FPi [1A 类]<br/>PD-L1 CPS ≥ 1;<br/>瑞拉芙普 α 注射液+XELOXk<br/>[1A 类]</td><td>PD-L1 TAP&lt;5%或检测不可及;<br/>替雷利珠单抗+XELOX/FPi [1B 类]</td><td></td></tr><tr><td></td><td>无论 PD-L1 表达状态:<br/>卡度尼利单抗+XELOXm [1A 类]<br/>Claudin 182 表达 (IHC2 或 3+, ≥ 75%);<br/>佐妥昔单抗+FOLFOX/XELOXn [1A 类]<br/>奥沙利铂/顺铂+氟尿嘧啶类° [1A 类]*<br/>氟尿嘧啶类 + 紫杉类° [2A 类]*</td><td>三药联合方案 DCF 及 mDCF° [1B 类]</td><td>单药氟尿嘧啶类或紫杉类° [2B 类]*</td></tr></table>\",\"hard_evidence_type\":\"指南\",\"reasoning_eligible\":true},{\"evidence_id\":\"IR05\",\"doc_id\":\"c9294314-38c0-4a55-92b6-b261f374a7da\",\"split_index\":60,\"type\":\"guideline\",\"authority\":\"CACA\",\"source_title\":\"中国肿瘤整合诊治技术指南（CACA） 整体支持\",\"source_version\":\"2023\",\"source_section\":\"（五）不良反应的处理\",\"source_url\":\"\",\"snippet\":\"（1）根据不良反应严重程度采取分级处理：I度不良事件可继续用药，Ⅱ度需暂停用药直至恢复至I度，Ⅲ度停药后需基于风险/获益比考虑是否恢复药物治疗或减量处理，IV度可能需永久停药。  \\n（2）不良反应类型有助判断“再挑战”时化疗药物  \\n   \\n剂量会否调整，对剂量限制性毒性（如：骨髓抑制）可减量，剂量累积性毒性（如：蒽环类药物的心脏毒性）在减量同时应注意是否已达最大累积剂量，对特异质反应（过敏反应）应注意降低剂量不能预防不良反应的再次发生。  \\n（3）对复杂不良反应，可采用MDT to HIM模式。需全程化、精细化、多学科团队参与和多方位（医护、临床药师、患者及家属）共同努力。\",\"hard_evidence_type\":\"指南\",\"reasoning_eligible\":true}],\"retrieval_queries\":{\"staging\":\"初始临床评估与分期指南\\n原发诊断：胃窦低分化管状腺癌（无亚型），HER-2阴性，PD-L1阴性（CPS<1），MMR功能正常，伴肝多发转移（IV期）\\n初诊摘录：患者男，59岁，因腹痛1个月入院；胃镜检查显示胃窦癌变，组织病理学确诊为低分化管状腺癌（无亚型）；免疫组织化学检测显示HER-2阴性、PD-L1阴性（CPS<1）、MMR功能正常；CT扫描显示胃窦壁增厚、周围淋巴结肿大及肝脏多发转移灶；入院时未记载分子检测（如NGS）结果，未记载既往治疗史或合并症信息\\n匹配原发病种与分期检查、区域和远处病变评估，不用后续事实反推初诊。\",\"molecular\":\"病理与分子检测及结果应用指南\\n原发诊断：胃窦低分化管状腺癌（无亚型），HER-2阴性，PD-L1阴性（CPS<1），MMR功能正常，伴肝多发转移（IV期）\\n检测记录：分子检测｜未记载｜未记载｜未记载｜未记载（原文未提及NGS或其他分子分析）\\n关注检测时机、结果等待与治疗衔接；检索关键词不代表初诊已知结果。\",\"treatment\":\"复评、局部协调与后线决策正式指南\\n原发诊断：胃窦低分化管状腺癌（无亚型），HER-2阴性，PD-L1阴性（CPS<1），MMR功能正常，伴肝多发转移（IV期）\\n决策问题：2016年12月｜HER2阴性、PD-L1阴性(CPS<1)、MMR正常的转移性胃癌｜初始全身治疗方案选择；治疗4个月后｜原发灶及肝转移灶明显缩小｜是否继续原方案或调整\\n实际治疗：2016年12月｜开始CAPOX姑息化疗｜奥沙利铂130 mg/m² D1；治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小；9个周期后｜终止化疗｜因持续血液学毒性；化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\\n按原发癌种匹配复评与后线阶段，保留已知治疗限制。\",\"study\":\"匹配病例实际方案的原始临床研究\\n原发诊断：胃窦低分化管状腺癌（无亚型），HER-2阴性，PD-L1阴性（CPS<1），MMR功能正常，伴肝多发转移（IV期）\\n方案和阶段：2016年12月｜开始CAPOX姑息化疗｜奥沙利铂130 mg/m² D1；治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小；9个周期后｜终止化疗｜因持续血液学毒性；化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\\n匹配药物、人群、治疗阶段与决策终点，需该记录已报告原始研究结果。\",\"toxicity_a\":\"奥沙利铂（CAPOX方案） 骨髓毒性 分级未提供 毒性识别 鉴别诊断 暂缓停药 再治疗条件 支持处理 正式指南\",\"toxicity_b\":\"CAPOX方案（奥沙利铂+卡培他滨） 持续血液学毒性 分级未提供 毒性识别 鉴别诊断 暂缓停药 再治疗条件 支持处理 正式指南\"},\"retrieval_health\":{\"ok\":true,\"errors\":[]},\"compression_report\":{\"input_counts\":{\"guideline_a_staging\":9,\"guideline_a\":11,\"guideline_b\":4,\"clinical_study_initial\":6,\"clinical_study_supplement\":0,\"irae_a\":4,\"irae_b\":4},\"kept_counts\":{\"guideline_a_staging\":4,\"guideline_a\":6,\"guideline_b\":4,\"clinical_study_initial\":3,\"clinical_study_supplement\":0,\"irae_a\":4,\"irae_b\":3},\"kept_total\":24,\"dropped_total\":14,\"dropped\":[{\"lane\":\"guideline_a_staging\",\"index\":3,\"reason\":\"LANE_CONTENT_MISMATCH\",\"locator\":\"f51ad2ef-8e21-42f9-bfd1-f2ed36512587::109\"},{\"lane\":\"guideline_a_staging\",\"index\":5,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"guideline_a_staging\",\"index\":6,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"guideline_a_staging\",\"index\":7,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"guideline_a_staging\",\"index\":8,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"guideline_a\",\"index\":6,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"guideline_a\",\"index\":7,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"guideline_a\",\"index\":8,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"guideline_a\",\"index\":9,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"guideline_a\",\"index\":10,\"reason\":\"LANE_LIMIT\"},{\"lane\":\"clinical_study_initial\",\"index\":1,\"reason\":\"INELIGIBLE_SOURCE\",\"locator\":\"c1c887d3bfcd71dd11939067a4484c16::1\"},{\"lane\":\"clinical_study_initial\",\"index\":3,\"reason\":\"INELIGIBLE_SOURCE\",\"locator\":\"MEETING_20260730_153537_2BA213C2::3\"},{\"lane\":\"clinical_study_initial\",\"index\":4,\"reason\":\"INELIGIBLE_SOURCE\",\"locator\":\"MEETING_20260804_172043_892D9DAE::4\"},{\"lane\":\"irae_b\",\"index\":0,\"reason\":\"DUPLICATE_LOCATOR\",\"locator\":\"e8b56a00-18c3-4e45-ab70-e0f1b0814c6d::61\"}]},\"first_round_raw\":\"\",\"second_round_raw\":\"\",\"parsed_second_round_draft\":null,\"partial_draft_questions\":[],\"model_execution\":{\"model\":\"qwen3.8-flash\",\"max_output_tokens_configured\":16000,\"first_round_char_count\":5880,\"second_round_char_count\":5888,\"finish_reason\":null,\"finish_reason_availability\":\"not_exposed_by_workflow_outputs\"}},\"flow_publishable\":false,\"output_ready\":true,\"medical_review_status\":\"not_performed\",\"generation_status\":\"success\",\"evidence_context_status\":\"provided\"}],\"warnings\":[\"Q1（G1_Q1）选项表达待复核：39/40/23/39字；四项长度差异较大：应统一表达层次，不得机械补字或截断。\"]}}",
+  "output_data": {
+    "Questions": {
+      "schema_version": "1.0",
+      "case_id": "CASE-794E8394",
+      "cancer_type": "胃癌",
+      "generation_status": "success",
+      "difficulty": "进阶",
+      "question_count": 5,
+      "questions": [
+        {
+          "id": "Q1",
+          "type": "治疗决策",
+          "phase": "初始全身治疗",
+          "timepoint": "2016年12月确诊后",
+          "question": "该患者HER2阴性、PD-L1 CPS<1、MMR正常的IV期胃癌，初始接受CAPOX化疗。关于此治疗决策，下列哪项正确？",
+          "options": {
+            "A": "应加用瑞拉芙普α联合XELOX，因该组合为1A类推荐且适用于所有HER2阴性患者",
+            "B": "应加用替雷利珠单抗联合XELOX，因该组合为1A类推荐且适用于所有HER2阴性患者",
+            "C": "应首选DCF三药方案，因多发肝转移需更强肿瘤控制",
+            "D": "CAPOX作为一线化疗合理，因PD-L1 CPS<1时含CPS阈值的免疫联合方案不适用"
+          },
+          "answer": "D",
+          "answer_text": "CAPOX作为一线化疗合理，因PD-L1 CPS<1时含CPS阈值的免疫联合方案不适用",
+          "explain": "A｜不正确：瑞拉芙普α+XELOX在指南中明确限定PD-L1 CPS≥1，本例CPS<1不满足该前提\nB｜不正确：替雷利珠单抗+XELOX/FP限定PD-L1 TAP≥5%，且选项称'适用于所有HER2阴性'与分层条件矛盾\nC｜不正确：DCF及mDCF为1B类（II级推荐），并非优于1A类CAPOX的首选方案\nD｜正确：奥沙利铂/顺铂+氟尿嘧啶类为1A类推荐且不依赖PD-L1状态，CPS<1时CAPOX合理",
+          "keyPoint": "PD-L1 CPS<1时含CPS阈值的免疫联合方案不适用，化疗骨架为1A",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+            "split_index": 110,
+            "type": "guideline",
+            "authority": "CSCO",
+            "source_title": "中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026",
+            "source_version": "2026",
+            "source_section": "专家组成员（以姓氏汉语拼音为序）（\\*为执笔人）",
+            "source_url": "",
+            "evidence_summary": "CSCO 2026一线分层：瑞拉芙普α需CPS≥1，替雷利珠单抗需TAP≥5%；奥沙利铂+氟尿嘧啶类为1A不依赖PD-L1"
+          }
+        },
+        {
+          "id": "Q2",
+          "type": "不良反应管理",
+          "phase": "化疗期间剂量调整",
+          "timepoint": "第5周期出现骨髓毒性时",
+          "question": "该患者CAPOX化疗第5周期起出现骨髓毒性，奥沙利铂剂量减至75%后继续治疗。关于此处理，下列哪项正确？",
+          "options": {
+            "A": "骨髓毒性出现即应永久停用奥沙利铂，因铂类骨髓抑制为不可逆累积毒性",
+            "B": "骨髓抑制属剂量限制性毒性，首次出现时减量继续治疗符合分级管理原则",
+            "C": "应暂停全部化疗直至血象完全正常，再以原剂量重启CAPOX",
+            "D": "骨髓毒性提示奥沙利铂为特异质反应，减量不能预防再次发生，应换用非铂方案"
+          },
+          "answer": "B",
+          "answer_text": "骨髓抑制属剂量限制性毒性，首次出现时减量继续治疗符合分级管理原则",
+          "explain": "A｜不正确：骨髓抑制为剂量限制性毒性可减量处理，非不可逆累积毒性，首次出现即永久停药过于激进\nB｜正确：指南明确骨髓抑制属剂量限制性毒性可减量，本例减至75%后继续治疗符合该原则\nC｜不正确：暂停至完全正常再以原剂量重启适用于II度，但本例采取减量提示更高级别，且原剂量重启违背减量原则\nD｜不正确：骨髓抑制是剂量限制性毒性而非特异质反应，特异质反应减量不能预防才需换药，本例分类错误",
+          "keyPoint": "剂量限制性毒性首次出现应减量而非永久停药或换药",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "c9294314-38c0-4a55-92b6-b261f374a7da",
+            "split_index": 60,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "中国肿瘤整合诊治技术指南（CACA） 整体支持",
+            "source_version": "2023",
+            "source_section": "（五）不良反应的处理",
+            "source_url": "",
+            "evidence_summary": "CACA整体支持：骨髓抑制属剂量限制性毒性可减量；特异质反应减量不能预防需换药；两者管理路径不同"
+          }
+        },
+        {
+          "id": "Q3",
+          "type": "疗效复评与局部治疗",
+          "phase": "化疗终止后随访",
+          "timepoint": "化疗终止后CT随访",
+          "question": "该患者9周期CAPOX化疗终止后，CT示病情稳定但肝转移灶略有增大，后续随访中肝转移灶逐渐缩小。关于此阶段处理，下列哪项正确？",
+          "options": {
+            "A": "肝转移灶轻度增大后自行缩小未构成明确进展，继续观察随访合理",
+            "B": "肝转移灶增大即达疾病进展标准，应立即启动雷莫芦单抗联合紫杉醇二线方案",
+            "C": "虽未达进展标准，但化疗已终止，应预防性启动二线化疗",
+            "D": "应恢复奥沙利铂联合卡培他滨方案，因原方案曾有效"
+          },
+          "answer": "A",
+          "answer_text": "肝转移灶轻度增大后自行缩小未构成明确进展，继续观察随访合理",
+          "explain": "A｜正确：指南规定二线适用于明确疾病进展，本例轻度增大后自行缩小未达进展标准，观察合理\nB｜不正确：雷莫芦单抗+紫杉醇为进展后二线选择，本例未达进展标准，启动二线缺乏适应证\nC｜不正确：指南明确二线适用于出现疾病进展的患者，预防性启动二线无适应证依据\nD｜不正确：化疗因持续血液学毒性终止，恢复原方案违背毒性管理原则且无进展证据支持",
+          "keyPoint": "转移灶轻度增大后自行缩小不构成疾病进展，不触发二线治疗",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "0d244cdc-4b4c-4b72-9a3f-5ce862be52d6",
+            "split_index": 58,
+            "type": "guideline",
+            "authority": "中华医学会肿瘤学分会",
+            "source_title": "中华医学会胃癌临床诊疗指南（2021版）",
+            "source_version": "2021",
+            "source_section": "（三）转移性胃癌的治疗",
+            "source_url": "",
+            "evidence_summary": "中华医学会指南：二线及后线适用于初始化疗后出现疾病进展的患者；本例未达进展标准"
+          }
+        },
+        {
+          "id": "Q4",
+          "type": "疗效复评与局部治疗",
+          "phase": "完全缓解确认",
+          "timepoint": "2018年5月影像学CR后",
+          "question": "该患者2018年5月CT示原发灶消失、肝转移灶缩小达影像学完全缓解，2021年8月胃镜活检未见肿瘤细胞。关于完全缓解的确认，下列哪项正确？",
+          "options": {
+            "A": "影像学完全缓解即可判定治愈，无需进一步内镜或病理学确认",
+            "B": "应在影像学CR后3个月内立即行胃镜活检，因影像无法区分瘢痕与残留肿瘤",
+            "C": "影像学CR需结合内镜活检进行病理学确认，本例胃镜证实CR支持该策略",
+            "D": "应以PET/CT代谢评估替代内镜活检作为CR的最终确认手段"
+          },
+          "answer": "C",
+          "answer_text": "影像学CR需结合内镜活检进行病理学确认，本例胃镜证实CR支持该策略",
+          "explain": "A｜不正确：指南明确细胞/组织病理学是确诊和治疗依据，影像学CR不能替代病理学确认\nB｜不正确：病理确认原则正确，但'3个月内立即'无指南依据，本例3年后确认仍合理且未影响结局\nC｜正确：病理学为确诊依据，影像学CR后行内镜活检确认符合原则，本例胃镜证实CR支持该策略\nD｜不正确：PET/CT用于分期评估，不能替代组织病理学作为CR最终确认手段",
+          "keyPoint": "影像学CR需病理学确认，但确认时机无硬性时限要求",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "a67b5445-0dac-4ec4-a1ec-3d85f4849b6b",
+            "split_index": 14,
+            "type": "guideline",
+            "authority": "CSCO",
+            "source_title": "中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026",
+            "source_version": "2026",
+            "source_section": "专家组成员（以姓氏汉语拼音为序）（\\*为执笔人）",
+            "source_url": "",
+            "evidence_summary": "CSCO 2026：细胞/组织病理学诊断是胃癌确诊和治疗的依据；影像学为分期手段非最终确认"
+          }
+        },
+        {
+          "id": "Q5",
+          "type": "不良反应管理",
+          "phase": "化疗终止决策",
+          "timepoint": "第9周期后持续血液学毒性",
+          "question": "该患者奥沙利铂减量至75%后仍出现持续血液学毒性，9周期后终止化疗。关于终止化疗的决策，下列哪项正确？",
+          "options": {
+            "A": "减量后持续血液学毒性时终止化疗合理，符合剂量限制性毒性分级管理原则",
+            "B": "应继续化疗并加用G-CSF和促血小板生成素，因骨髓抑制可通过支持治疗完全预防",
+            "C": "应换用顺铂联合氟尿嘧啶类方案，因奥沙利铂骨髓毒性属特异质反应需更换铂类",
+            "D": "应继续原剂量CAPOX至满12周期，因骨髓毒性可通过减量完全逆转"
+          },
+          "answer": "A",
+          "answer_text": "减量后持续血液学毒性时终止化疗合理，符合剂量限制性毒性分级管理原则",
+          "explain": "A｜正确：III度停药后需基于风险/获益比考虑，减量后毒性持续提示获益不足，终止合理\nB｜不正确：支持治疗可辅助但'完全预防'过于绝对，减量后仍持续毒性说明支持治疗不足以维持\nC｜不正确：骨髓抑制为剂量限制性毒性非特异质反应，换用顺铂（同为铂类）不解决同类毒性问题\nD｜不正确：已减量至75%仍持续毒性，恢复原剂量违背减量原则，'完全逆转'无依据",
+          "keyPoint": "减量后毒性仍持续提示风险获益不利，终止化疗符合分级管理",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "c9294314-38c0-4a55-92b6-b261f374a7da",
+            "split_index": 60,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "中国肿瘤整合诊治技术指南（CACA） 整体支持",
+            "source_version": "2023",
+            "source_section": "（五）不良反应的处理",
+            "source_url": "",
+            "evidence_summary": "CACA：III度停药后基于风险/获益比考虑；剂量限制性毒性可减量但持续时终止；非特异质无需换药"
+          }
+        }
+      ],
+      "missing_information": []
+    },
+    "detail": {
+      "schema_version": "1.0",
+      "case_id": "CASE-794E8394",
+      "cancer_type": "胃癌",
+      "difficulty": "进阶",
+      "decision_point_count": 5,
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "home": {
+        "recommendation_label": "今日推荐病例",
+        "display_title": "HER2阴性转移性胃癌CAPOX化疗后持久完全缓解",
+        "description": "患者男，59岁，因腹痛1个月入院。胃镜检查显示胃窦癌变，组织病理学确诊为低分化管状腺癌（无亚型）。免疫组织化学检测显示HER-2阴性、PD-L1阴性（CPS<1）、MMR功能正常。CT扫描显示胃窦壁增厚、周围淋巴结肿大及肝脏多发转移灶。入院时未记载分子检测（如NGS）结果，未记载既往治疗史或合并症信息。"
+      },
+      "overview": {
+        "hero": {
+          "title": "HER2阴性转移性胃癌CAPOX化疗后持久完全缓解",
+          "subtitle": "1. HER2阴性、PD-L1阴性、MMR正常的转移性胃癌初始化疗方案选择依据 2. 化疗疗效评估时机与影像学标准 3. 骨髓毒性出现后奥沙利铂剂量调整策略（减至75%） 4. 持续血液学毒性导致终止化疗的决策节点 5. 化疗终止后未追加二……"
+        },
+        "tabs": [
+          {
+            "id": "summary",
+            "label": "病例摘要",
+            "order": 1,
+            "summary_items": [
+              {
+                "order": 1,
+                "label": "患者与就诊背景",
+                "value": "患者男，59岁，因腹痛1个月入院。胃镜检查显示胃窦癌变，组织病理学确诊为低分化管状腺癌（无亚型）。免疫组织化学检测显示HER-2阴性、PD-L1阴性（CPS<1）、MMR功能正常。CT扫描显示胃窦壁增厚、周围淋巴结肿大及肝脏多发转移灶。入院时未记载分子检测（如NGS）结果，未记载既往治疗史或合并症信息。"
+              },
+              {
+                "order": 2,
+                "label": "疾病与分期",
+                "value": "胃窦低分化管状腺癌（无亚型），HER-2阴性，PD-L1阴性（CPS<1），MMR功能正常，伴肝多发转移（IV期）"
+              },
+              {
+                "order": 3,
+                "label": "分子与病理",
+                "value": "病理｜取样时间未明确记载（入院时）｜胃窦活检｜组织病理学｜低分化管状腺癌（无亚型） IHC｜取样时间未明确记载（入院时）｜胃窦活检｜免疫组织化学｜HER-2阴性 IHC｜取样时间未明确记载（入院时）｜胃窦活检｜免疫组织化学｜PD-L1阴性（CPS<1） IHC｜取样时间未明确记载（入院时）｜胃窦活检｜免疫组织化学｜MMR功能正常 分子检测｜未记载｜未记载｜未记载｜未记载（原文未提及NGS或其他分子分析）"
+              },
+              {
+                "order": 4,
+                "label": "核心教学点",
+                "value": "1. HER2阴性、PD-L1阴性、MMR正常的转移性胃癌初始化疗方案选择依据 2. 化疗疗效评估时机与影像学标准 3. 骨髓毒性出现后奥沙利铂剂量调整策略（减至75%） 4. 持续血液学毒性导致终止化疗的决策节点 5. 化疗终止后未追加二线治疗而选择观察的依据与风险 6. 影像学完全缓解与内镜活检确认完全缓解的关系 7. 持久完全缓解患者的长期随访策略 8. 超反应现象的生物学机制探索方向"
+              }
+            ]
+          },
+          {
+            "id": "timeline",
+            "label": "病程轴",
+            "order": 2,
+            "timeline_items": [
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 1",
+                "detail": "2016年12月前｜入院检查｜腹痛1个月，胃镜示胃窦癌变，病理确诊低分化管状腺癌，IHC：HER-2阴性、PD-L1阴性(CPS<1)、MMR正常，CT示胃窦壁增厚、周围淋巴结肿大、肝多发转移"
+              },
+              {
+                "date": "2016年12月",
+                "title": "开始CAPOX姑息化疗",
+                "detail": "奥沙利铂130 mg/m² D1；卡培他滨2000 mg/m² D1-14，每3周一次"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 3",
+                "detail": "治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 4",
+                "detail": "第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 5",
+                "detail": "9个周期后｜终止化疗｜因持续血液学毒性"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 6",
+                "detail": "化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 7",
+                "detail": "后续随访｜CT示原发灶消失，肝转移灶逐渐缩小"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 8",
+                "detail": "2018年5月｜达到完全缓解"
+              },
+              {
+                "date": "2021年8月",
+                "title": "胃镜证实完全缓解",
+                "detail": "活检未见肿瘤细胞"
+              },
+              {
+                "date": "2023年12月",
+                "title": "最后一次随访",
+                "detail": "仍维持完全缓解，无进展生存期已超过93个月"
+              }
+            ]
+          },
+          {
+            "id": "images",
+            "label": "病例图片",
+            "order": 3,
+            "image_items": []
+          }
+        ]
+      }
+    }
+  },
+  "output_json": "{\n  \"Questions\": {\n    \"schema_version\": \"1.0\",\n    \"case_id\": \"CASE-794E8394\",\n    \"cancer_type\": \"胃癌\",\n    \"generation_status\": \"success\",\n    \"difficulty\": \"进阶\",\n    \"question_count\": 5,\n    \"questions\": [\n      {\n        \"id\": \"Q1\",\n        \"type\": \"治疗决策\",\n        \"phase\": \"初始全身治疗\",\n        \"timepoint\": \"2016年12月确诊后\",\n        \"question\": \"该患者HER2阴性、PD-L1 CPS<1、MMR正常的IV期胃癌，初始接受CAPOX化疗。关于此治疗决策，下列哪项正确？\",\n        \"options\": {\n          \"A\": \"应加用瑞拉芙普α联合XELOX，因该组合为1A类推荐且适用于所有HER2阴性患者\",\n          \"B\": \"应加用替雷利珠单抗联合XELOX，因该组合为1A类推荐且适用于所有HER2阴性患者\",\n          \"C\": \"应首选DCF三药方案，因多发肝转移需更强肿瘤控制\",\n          \"D\": \"CAPOX作为一线化疗合理，因PD-L1 CPS<1时含CPS阈值的免疫联合方案不适用\"\n        },\n        \"answer\": \"D\",\n        \"answer_text\": \"CAPOX作为一线化疗合理，因PD-L1 CPS<1时含CPS阈值的免疫联合方案不适用\",\n        \"explain\": \"A｜不正确：瑞拉芙普α+XELOX在指南中明确限定PD-L1 CPS≥1，本例CPS<1不满足该前提\\nB｜不正确：替雷利珠单抗+XELOX/FP限定PD-L1 TAP≥5%，且选项称'适用于所有HER2阴性'与分层条件矛盾\\nC｜不正确：DCF及mDCF为1B类（II级推荐），并非优于1A类CAPOX的首选方案\\nD｜正确：奥沙利铂/顺铂+氟尿嘧啶类为1A类推荐且不依赖PD-L1状态，CPS<1时CAPOX合理\",\n        \"keyPoint\": \"PD-L1 CPS<1时含CPS阈值的免疫联合方案不适用，化疗骨架为1A\",\n        \"guidelineRef\": {\n          \"evidence_type\": \"指南\",\n          \"doc_id\": \"a67b5445-0dac-4ec4-a1ec-3d85f4849b6b\",\n          \"split_index\": 110,\n          \"type\": \"guideline\",\n          \"authority\": \"CSCO\",\n          \"source_title\": \"中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026\",\n          \"source_version\": \"2026\",\n          \"source_section\": \"专家组成员（以姓氏汉语拼音为序）（\\\\*为执笔人）\",\n          \"source_url\": \"\",\n          \"evidence_summary\": \"CSCO 2026一线分层：瑞拉芙普α需CPS≥1，替雷利珠单抗需TAP≥5%；奥沙利铂+氟尿嘧啶类为1A不依赖PD-L1\"\n        }\n      },\n      {\n        \"id\": \"Q2\",\n        \"type\": \"不良反应管理\",\n        \"phase\": \"化疗期间剂量调整\",\n        \"timepoint\": \"第5周期出现骨髓毒性时\",\n        \"question\": \"该患者CAPOX化疗第5周期起出现骨髓毒性，奥沙利铂剂量减至75%后继续治疗。关于此处理，下列哪项正确？\",\n        \"options\": {\n          \"A\": \"骨髓毒性出现即应永久停用奥沙利铂，因铂类骨髓抑制为不可逆累积毒性\",\n          \"B\": \"骨髓抑制属剂量限制性毒性，首次出现时减量继续治疗符合分级管理原则\",\n          \"C\": \"应暂停全部化疗直至血象完全正常，再以原剂量重启CAPOX\",\n          \"D\": \"骨髓毒性提示奥沙利铂为特异质反应，减量不能预防再次发生，应换用非铂方案\"\n        },\n        \"answer\": \"B\",\n        \"answer_text\": \"骨髓抑制属剂量限制性毒性，首次出现时减量继续治疗符合分级管理原则\",\n        \"explain\": \"A｜不正确：骨髓抑制为剂量限制性毒性可减量处理，非不可逆累积毒性，首次出现即永久停药过于激进\\nB｜正确：指南明确骨髓抑制属剂量限制性毒性可减量，本例减至75%后继续治疗符合该原则\\nC｜不正确：暂停至完全正常再以原剂量重启适用于II度，但本例采取减量提示更高级别，且原剂量重启违背减量原则\\nD｜不正确：骨髓抑制是剂量限制性毒性而非特异质反应，特异质反应减量不能预防才需换药，本例分类错误\",\n        \"keyPoint\": \"剂量限制性毒性首次出现应减量而非永久停药或换药\",\n        \"guidelineRef\": {\n          \"evidence_type\": \"指南\",\n          \"doc_id\": \"c9294314-38c0-4a55-92b6-b261f374a7da\",\n          \"split_index\": 60,\n          \"type\": \"guideline\",\n          \"authority\": \"CACA\",\n          \"source_title\": \"中国肿瘤整合诊治技术指南（CACA） 整体支持\",\n          \"source_version\": \"2023\",\n          \"source_section\": \"（五）不良反应的处理\",\n          \"source_url\": \"\",\n          \"evidence_summary\": \"CACA整体支持：骨髓抑制属剂量限制性毒性可减量；特异质反应减量不能预防需换药；两者管理路径不同\"\n        }\n      },\n      {\n        \"id\": \"Q3\",\n        \"type\": \"疗效复评与局部治疗\",\n        \"phase\": \"化疗终止后随访\",\n        \"timepoint\": \"化疗终止后CT随访\",\n        \"question\": \"该患者9周期CAPOX化疗终止后，CT示病情稳定但肝转移灶略有增大，后续随访中肝转移灶逐渐缩小。关于此阶段处理，下列哪项正确？\",\n        \"options\": {\n          \"A\": \"肝转移灶轻度增大后自行缩小未构成明确进展，继续观察随访合理\",\n          \"B\": \"肝转移灶增大即达疾病进展标准，应立即启动雷莫芦单抗联合紫杉醇二线方案\",\n          \"C\": \"虽未达进展标准，但化疗已终止，应预防性启动二线化疗\",\n          \"D\": \"应恢复奥沙利铂联合卡培他滨方案，因原方案曾有效\"\n        },\n        \"answer\": \"A\",\n        \"answer_text\": \"肝转移灶轻度增大后自行缩小未构成明确进展，继续观察随访合理\",\n        \"explain\": \"A｜正确：指南规定二线适用于明确疾病进展，本例轻度增大后自行缩小未达进展标准，观察合理\\nB｜不正确：雷莫芦单抗+紫杉醇为进展后二线选择，本例未达进展标准，启动二线缺乏适应证\\nC｜不正确：指南明确二线适用于出现疾病进展的患者，预防性启动二线无适应证依据\\nD｜不正确：化疗因持续血液学毒性终止，恢复原方案违背毒性管理原则且无进展证据支持\",\n        \"keyPoint\": \"转移灶轻度增大后自行缩小不构成疾病进展，不触发二线治疗\",\n        \"guidelineRef\": {\n          \"evidence_type\": \"指南\",\n          \"doc_id\": \"0d244cdc-4b4c-4b72-9a3f-5ce862be52d6\",\n          \"split_index\": 58,\n          \"type\": \"guideline\",\n          \"authority\": \"中华医学会肿瘤学分会\",\n          \"source_title\": \"中华医学会胃癌临床诊疗指南（2021版）\",\n          \"source_version\": \"2021\",\n          \"source_section\": \"（三）转移性胃癌的治疗\",\n          \"source_url\": \"\",\n          \"evidence_summary\": \"中华医学会指南：二线及后线适用于初始化疗后出现疾病进展的患者；本例未达进展标准\"\n        }\n      },\n      {\n        \"id\": \"Q4\",\n        \"type\": \"疗效复评与局部治疗\",\n        \"phase\": \"完全缓解确认\",\n        \"timepoint\": \"2018年5月影像学CR后\",\n        \"question\": \"该患者2018年5月CT示原发灶消失、肝转移灶缩小达影像学完全缓解，2021年8月胃镜活检未见肿瘤细胞。关于完全缓解的确认，下列哪项正确？\",\n        \"options\": {\n          \"A\": \"影像学完全缓解即可判定治愈，无需进一步内镜或病理学确认\",\n          \"B\": \"应在影像学CR后3个月内立即行胃镜活检，因影像无法区分瘢痕与残留肿瘤\",\n          \"C\": \"影像学CR需结合内镜活检进行病理学确认，本例胃镜证实CR支持该策略\",\n          \"D\": \"应以PET/CT代谢评估替代内镜活检作为CR的最终确认手段\"\n        },\n        \"answer\": \"C\",\n        \"answer_text\": \"影像学CR需结合内镜活检进行病理学确认，本例胃镜证实CR支持该策略\",\n        \"explain\": \"A｜不正确：指南明确细胞/组织病理学是确诊和治疗依据，影像学CR不能替代病理学确认\\nB｜不正确：病理确认原则正确，但'3个月内立即'无指南依据，本例3年后确认仍合理且未影响结局\\nC｜正确：病理学为确诊依据，影像学CR后行内镜活检确认符合原则，本例胃镜证实CR支持该策略\\nD｜不正确：PET/CT用于分期评估，不能替代组织病理学作为CR最终确认手段\",\n        \"keyPoint\": \"影像学CR需病理学确认，但确认时机无硬性时限要求\",\n        \"guidelineRef\": {\n          \"evidence_type\": \"指南\",\n          \"doc_id\": \"a67b5445-0dac-4ec4-a1ec-3d85f4849b6b\",\n          \"split_index\": 14,\n          \"type\": \"guideline\",\n          \"authority\": \"CSCO\",\n          \"source_title\": \"中国临床肿瘤学会（CSCO）胃癌诊疗指南 2026\",\n          \"source_version\": \"2026\",\n          \"source_section\": \"专家组成员（以姓氏汉语拼音为序）（\\\\*为执笔人）\",\n          \"source_url\": \"\",\n          \"evidence_summary\": \"CSCO 2026：细胞/组织病理学诊断是胃癌确诊和治疗的依据；影像学为分期手段非最终确认\"\n        }\n      },\n      {\n        \"id\": \"Q5\",\n        \"type\": \"不良反应管理\",\n        \"phase\": \"化疗终止决策\",\n        \"timepoint\": \"第9周期后持续血液学毒性\",\n        \"question\": \"该患者奥沙利铂减量至75%后仍出现持续血液学毒性，9周期后终止化疗。关于终止化疗的决策，下列哪项正确？\",\n        \"options\": {\n          \"A\": \"减量后持续血液学毒性时终止化疗合理，符合剂量限制性毒性分级管理原则\",\n          \"B\": \"应继续化疗并加用G-CSF和促血小板生成素，因骨髓抑制可通过支持治疗完全预防\",\n          \"C\": \"应换用顺铂联合氟尿嘧啶类方案，因奥沙利铂骨髓毒性属特异质反应需更换铂类\",\n          \"D\": \"应继续原剂量CAPOX至满12周期，因骨髓毒性可通过减量完全逆转\"\n        },\n        \"answer\": \"A\",\n        \"answer_text\": \"减量后持续血液学毒性时终止化疗合理，符合剂量限制性毒性分级管理原则\",\n        \"explain\": \"A｜正确：III度停药后需基于风险/获益比考虑，减量后毒性持续提示获益不足，终止合理\\nB｜不正确：支持治疗可辅助但'完全预防'过于绝对，减量后仍持续毒性说明支持治疗不足以维持\\nC｜不正确：骨髓抑制为剂量限制性毒性非特异质反应，换用顺铂（同为铂类）不解决同类毒性问题\\nD｜不正确：已减量至75%仍持续毒性，恢复原剂量违背减量原则，'完全逆转'无依据\",\n        \"keyPoint\": \"减量后毒性仍持续提示风险获益不利，终止化疗符合分级管理\",\n        \"guidelineRef\": {\n          \"evidence_type\": \"指南\",\n          \"doc_id\": \"c9294314-38c0-4a55-92b6-b261f374a7da\",\n          \"split_index\": 60,\n          \"type\": \"guideline\",\n          \"authority\": \"CACA\",\n          \"source_title\": \"中国肿瘤整合诊治技术指南（CACA） 整体支持\",\n          \"source_version\": \"2023\",\n          \"source_section\": \"（五）不良反应的处理\",\n          \"source_url\": \"\",\n          \"evidence_summary\": \"CACA：III度停药后基于风险/获益比考虑；剂量限制性毒性可减量但持续时终止；非特异质无需换药\"\n        }\n      }\n    ],\n    \"missing_information\": []\n  },\n  \"detail\": {\n    \"schema_version\": \"1.0\",\n    \"case_id\": \"CASE-794E8394\",\n    \"cancer_type\": \"胃癌\",\n    \"difficulty\": \"进阶\",\n    \"decision_point_count\": 5,\n    \"image\": {\n      \"src\": \"\",\n      \"alt\": \"\"\n    },\n    \"home\": {\n      \"recommendation_label\": \"今日推荐病例\",\n      \"display_title\": \"HER2阴性转移性胃癌CAPOX化疗后持久完全缓解\",\n      \"description\": \"患者男，59岁，因腹痛1个月入院。胃镜检查显示胃窦癌变，组织病理学确诊为低分化管状腺癌（无亚型）。免疫组织化学检测显示HER-2阴性、PD-L1阴性（CPS<1）、MMR功能正常。CT扫描显示胃窦壁增厚、周围淋巴结肿大及肝脏多发转移灶。入院时未记载分子检测（如NGS）结果，未记载既往治疗史或合并症信息。\"\n    },\n    \"overview\": {\n      \"hero\": {\n        \"title\": \"HER2阴性转移性胃癌CAPOX化疗后持久完全缓解\",\n        \"subtitle\": \"1. HER2阴性、PD-L1阴性、MMR正常的转移性胃癌初始化疗方案选择依据 2. 化疗疗效评估时机与影像学标准 3. 骨髓毒性出现后奥沙利铂剂量调整策略（减至75%） 4. 持续血液学毒性导致终止化疗的决策节点 5. 化疗终止后未追加二……\"\n      },\n      \"tabs\": [\n        {\n          \"id\": \"summary\",\n          \"label\": \"病例摘要\",\n          \"order\": 1,\n          \"summary_items\": [\n            {\n              \"order\": 1,\n              \"label\": \"患者与就诊背景\",\n              \"value\": \"患者男，59岁，因腹痛1个月入院。胃镜检查显示胃窦癌变，组织病理学确诊为低分化管状腺癌（无亚型）。免疫组织化学检测显示HER-2阴性、PD-L1阴性（CPS<1）、MMR功能正常。CT扫描显示胃窦壁增厚、周围淋巴结肿大及肝脏多发转移灶。入院时未记载分子检测（如NGS）结果，未记载既往治疗史或合并症信息。\"\n            },\n            {\n              \"order\": 2,\n              \"label\": \"疾病与分期\",\n              \"value\": \"胃窦低分化管状腺癌（无亚型），HER-2阴性，PD-L1阴性（CPS<1），MMR功能正常，伴肝多发转移（IV期）\"\n            },\n            {\n              \"order\": 3,\n              \"label\": \"分子与病理\",\n              \"value\": \"病理｜取样时间未明确记载（入院时）｜胃窦活检｜组织病理学｜低分化管状腺癌（无亚型） IHC｜取样时间未明确记载（入院时）｜胃窦活检｜免疫组织化学｜HER-2阴性 IHC｜取样时间未明确记载（入院时）｜胃窦活检｜免疫组织化学｜PD-L1阴性（CPS<1） IHC｜取样时间未明确记载（入院时）｜胃窦活检｜免疫组织化学｜MMR功能正常 分子检测｜未记载｜未记载｜未记载｜未记载（原文未提及NGS或其他分子分析）\"\n            },\n            {\n              \"order\": 4,\n              \"label\": \"核心教学点\",\n              \"value\": \"1. HER2阴性、PD-L1阴性、MMR正常的转移性胃癌初始化疗方案选择依据 2. 化疗疗效评估时机与影像学标准 3. 骨髓毒性出现后奥沙利铂剂量调整策略（减至75%） 4. 持续血液学毒性导致终止化疗的决策节点 5. 化疗终止后未追加二线治疗而选择观察的依据与风险 6. 影像学完全缓解与内镜活检确认完全缓解的关系 7. 持久完全缓解患者的长期随访策略 8. 超反应现象的生物学机制探索方向\"\n            }\n          ]\n        },\n        {\n          \"id\": \"timeline\",\n          \"label\": \"病程轴\",\n          \"order\": 2,\n          \"timeline_items\": [\n            {\n              \"date\": \"时间未详\",\n              \"title\": \"诊疗节点 1\",\n              \"detail\": \"2016年12月前｜入院检查｜腹痛1个月，胃镜示胃窦癌变，病理确诊低分化管状腺癌，IHC：HER-2阴性、PD-L1阴性(CPS<1)、MMR正常，CT示胃窦壁增厚、周围淋巴结肿大、肝多发转移\"\n            },\n            {\n              \"date\": \"2016年12月\",\n              \"title\": \"开始CAPOX姑息化疗\",\n              \"detail\": \"奥沙利铂130 mg/m² D1；卡培他滨2000 mg/m² D1-14，每3周一次\"\n            },\n            {\n              \"date\": \"时间未详\",\n              \"title\": \"诊疗节点 3\",\n              \"detail\": \"治疗4个月后｜复查CT｜原发灶及肝转移灶均明显缩小\"\n            },\n            {\n              \"date\": \"时间未详\",\n              \"title\": \"诊疗节点 4\",\n              \"detail\": \"第5个周期起｜出现骨髓毒性｜奥沙利铂剂量减至75%\"\n            },\n            {\n              \"date\": \"时间未详\",\n              \"title\": \"诊疗节点 5\",\n              \"detail\": \"9个周期后｜终止化疗｜因持续血液学毒性\"\n            },\n            {\n              \"date\": \"时间未详\",\n              \"title\": \"诊疗节点 6\",\n              \"detail\": \"化疗终止后随访｜CT示病情稳定｜肝转移灶略有增大\"\n            },\n            {\n              \"date\": \"时间未详\",\n              \"title\": \"诊疗节点 7\",\n              \"detail\": \"后续随访｜CT示原发灶消失，肝转移灶逐渐缩小\"\n            },\n            {\n              \"date\": \"时间未详\",\n              \"title\": \"诊疗节点 8\",\n              \"detail\": \"2018年5月｜达到完全缓解\"\n            },\n            {\n              \"date\": \"2021年8月\",\n              \"title\": \"胃镜证实完全缓解\",\n              \"detail\": \"活检未见肿瘤细胞\"\n            },\n            {\n              \"date\": \"2023年12月\",\n              \"title\": \"最后一次随访\",\n              \"detail\": \"仍维持完全缓解，无进展生存期已超过93个月\"\n            }\n          ]\n        },\n        {\n          \"id\": \"images\",\n          \"label\": \"病例图片\",\n          \"order\": 3,\n          \"image_items\": []\n        }\n      ]\n    }\n  }\n}"
+}

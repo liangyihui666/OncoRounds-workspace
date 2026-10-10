@@ -1,0 +1,950 @@
+{
+  "nodes": [
+    {
+      "nodeId": "userGuide",
+      "name": "系统配置",
+      "intro": "可以配置应用的系统参数",
+      "avatar": "core/workflow/template/systemConfig",
+      "flowNodeType": "userGuide",
+      "position": {
+        "x": -2385,
+        "y": -1890
+      },
+      "version": "481",
+      "inputs": [
+        {
+          "key": "welcomeText",
+          "label": "core.app.Welcome Text",
+          "valueType": "string",
+          "renderTypeList": [
+            "hidden"
+          ],
+          "value": "请在病例文件上传框选择 1–10 个独立病例文件，输入“开始批量生成”提交。最多10个同时调用三连，完成后按上传顺序返回最终 JSON 数组。"
+        },
+        {
+          "key": "variables",
+          "label": "core.app.Chat Variable",
+          "valueType": "any",
+          "renderTypeList": [
+            "hidden"
+          ],
+          "value": [
+            {
+              "maxFiles": 10,
+              "canSelectFile": true,
+              "canSelectImg": false,
+              "canSelectVideo": false,
+              "canSelectAudio": false,
+              "canSelectCustomFileExtension": false,
+              "customFileExtensionList": [],
+              "key": "d5inu1nZ",
+              "label": "病例文件（1–10个，每个文件一个病例）",
+              "valueType": "arrayString",
+              "required": true,
+              "defaultValue": "",
+              "canLocalUpload": true,
+              "canUrlUpload": false,
+              "type": "file",
+              "description": "最多10个文件并行调用三连，每个文件独立处理，结果按上传顺序返回。"
+            }
+          ]
+        },
+        {
+          "key": "questionGuide",
+          "label": "core.app.Question Guide",
+          "valueType": "any",
+          "renderTypeList": [
+            "hidden"
+          ],
+          "value": {
+            "open": false
+          }
+        },
+        {
+          "key": "tts",
+          "label": "",
+          "valueType": "any",
+          "renderTypeList": [
+            "hidden"
+          ],
+          "value": {
+            "type": "web"
+          }
+        },
+        {
+          "key": "whisper",
+          "label": "",
+          "valueType": "any",
+          "renderTypeList": [
+            "hidden"
+          ],
+          "value": {
+            "open": false,
+            "autoSend": false,
+            "autoTTSResponse": false
+          }
+        },
+        {
+          "key": "scheduleTrigger",
+          "label": "",
+          "valueType": "any",
+          "renderTypeList": [
+            "hidden"
+          ],
+          "value": null
+        }
+      ],
+      "outputs": []
+    },
+    {
+      "nodeId": "448745",
+      "name": "流程开始",
+      "intro": "",
+      "avatar": "core/workflow/template/workflowStart",
+      "flowNodeType": "workflowStart",
+      "position": {
+        "x": -885,
+        "y": -1679
+      },
+      "version": "481",
+      "inputs": [
+        {
+          "key": "userChatInput",
+          "label": "workflow:user_question",
+          "valueType": "string",
+          "required": true,
+          "renderTypeList": [
+            "reference",
+            "textarea"
+          ],
+          "debugLabel": "",
+          "toolDescription": "用户问题"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "userChatInput",
+          "key": "userChatInput",
+          "type": "static",
+          "valueType": "string",
+          "label": "common:core.module.input.label.user question",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "nodeId": "iW8Qg5stNA8T2Qp9",
+      "parentNodeId": "rv8pvsOmvinDpzaN",
+      "name": "三连",
+      "intro": "",
+      "avatar": "core/app/type/workflowFill",
+      "flowNodeType": "appModule",
+      "showStatus": true,
+      "position": {
+        "x": 1165,
+        "y": -1792.5
+      },
+      "version": "",
+      "inputs": [
+        {
+          "key": "system_forbid_stream",
+          "label": "workflow:template.forbid_stream",
+          "valueType": "boolean",
+          "renderTypeList": [
+            "switch"
+          ],
+          "value": true,
+          "description": "workflow:template.forbid_stream_desc"
+        },
+        {
+          "key": "history",
+          "label": "common:core.module.input.label.chat history",
+          "valueType": "chatHistory",
+          "required": true,
+          "max": 50,
+          "min": 0,
+          "renderTypeList": [
+            "numberInput",
+            "reference"
+          ],
+          "value": 0,
+          "description": "workflow:max_dialog_rounds"
+        },
+        {
+          "key": "userChatInput",
+          "label": "workflow:user_question",
+          "valueType": "string",
+          "required": true,
+          "renderTypeList": [
+            "reference",
+            "textarea"
+          ],
+          "value": "请按当前工作流处理本次提供的单个病例文件，输出最终 JSON。",
+          "toolDescription": "user question",
+          "selectedTypeIndex": 1
+        },
+        {
+          "key": "d5inu1nZ",
+          "label": "case_source_file",
+          "valueType": "arrayString",
+          "required": true,
+          "defaultValue": "",
+          "renderTypeList": [
+            "fileSelect",
+            "reference"
+          ],
+          "debugLabel": "case_source_file",
+          "description": "",
+          "value": [
+            [
+              "kWC4W3Kz5lNbIlo8",
+              "loopStartInput"
+            ]
+          ],
+          "selectedTypeIndex": 1
+        },
+        {
+          "key": "fileUrlList",
+          "label": "本轮文件",
+          "valueType": "arrayString",
+          "renderTypeList": [
+            "reference"
+          ],
+          "value": [
+            [
+              "kWC4W3Kz5lNbIlo8",
+              "loopStartInput"
+            ]
+          ],
+          "required": false
+        }
+      ],
+      "outputs": [
+        {
+          "id": "history",
+          "key": "history",
+          "type": "static",
+          "valueType": "chatHistory",
+          "valueDesc": "{\n  obj: System | Human | AI;\n  value: string;\n}[]",
+          "label": "common:core.module.output.label.New context",
+          "description": "common:core.module.output.description.New context",
+          "required": true
+        },
+        {
+          "id": "answerText",
+          "key": "answerText",
+          "type": "static",
+          "valueType": "string",
+          "label": "common:core.module.output.label.Ai response content",
+          "description": "common:core.module.output.description.Ai response content",
+          "required": false
+        },
+        {
+          "id": "system_error_text",
+          "key": "system_error_text",
+          "type": "error",
+          "valueType": "string",
+          "label": "workflow:error_text"
+        }
+      ],
+      "pluginId": "6a991c7e2a5b103c1841ea95",
+      "catchError": false
+    },
+    {
+      "nodeId": "rv8pvsOmvinDpzaN",
+      "name": "并行执行（最多10文件）",
+      "intro": "同时处理最多10个独立病例文件，通过原生完整结果按上传顺序汇总。",
+      "avatar": "core/workflow/template/parallelRun",
+      "flowNodeType": "parallelRun",
+      "showStatus": true,
+      "position": {
+        "x": 900,
+        "y": -2878.5
+      },
+      "inputs": [
+        {
+          "key": "loopInputArray",
+          "label": "数组",
+          "valueType": "arrayAny",
+          "renderTypeList": [
+            "reference"
+          ],
+          "required": true,
+          "value": [
+            [
+              "batchPrep20260909",
+              "file_batches"
+            ]
+          ]
+        },
+        {
+          "key": "parallelRunMaxConcurrency",
+          "label": "最大并发数",
+          "valueType": "number",
+          "renderTypeList": [
+            "numberInput"
+          ],
+          "required": true,
+          "min": 1,
+          "value": 10
+        },
+        {
+          "key": "parallelRunMaxRetryTimes",
+          "label": "单轮报错重试次数",
+          "valueType": "number",
+          "renderTypeList": [
+            "numberInput"
+          ],
+          "required": true,
+          "min": 0,
+          "max": 5,
+          "value": 0
+        },
+        {
+          "key": "childrenNodeIdList",
+          "renderTypeList": [
+            "hidden"
+          ],
+          "valueType": "arrayString",
+          "label": "",
+          "value": [
+            "kWC4W3Kz5lNbIlo8",
+            "iW8Qg5stNA8T2Qp9",
+            "batchParallelEnd20260909"
+          ]
+        },
+        {
+          "key": "nodeWidth",
+          "renderTypeList": [
+            "hidden"
+          ],
+          "valueType": "number",
+          "label": "",
+          "value": 3454
+        },
+        {
+          "key": "nodeHeight",
+          "renderTypeList": [
+            "hidden"
+          ],
+          "valueType": "number",
+          "label": "",
+          "value": 2298
+        },
+        {
+          "key": "loopNodeInputHeight",
+          "label": "",
+          "valueType": "number",
+          "renderTypeList": [
+            "hidden"
+          ],
+          "value": 171,
+          "debugLabel": "",
+          "toolDescription": ""
+        }
+      ],
+      "outputs": [
+        {
+          "id": "parallelSuccessResults",
+          "key": "parallelSuccessResults",
+          "label": "成功结果",
+          "type": "static",
+          "valueType": "arrayAny"
+        },
+        {
+          "id": "parallelFullResults",
+          "key": "parallelFullResults",
+          "label": "完整结果",
+          "type": "static",
+          "valueType": "arrayObject"
+        },
+        {
+          "id": "parallelStatus",
+          "key": "parallelStatus",
+          "label": "完成状态",
+          "type": "static",
+          "valueType": "string"
+        },
+        {
+          "id": "system_error_text",
+          "key": "system_error_text",
+          "label": "错误信息",
+          "type": "error",
+          "valueType": "string"
+        }
+      ],
+      "catchError": true
+    },
+    {
+      "nodeId": "kWC4W3Kz5lNbIlo8",
+      "parentNodeId": "rv8pvsOmvinDpzaN",
+      "name": "并行开始",
+      "avatar": "core/workflow/template/loopStart",
+      "flowNodeType": "loopStart",
+      "showStatus": false,
+      "position": {
+        "x": 970,
+        "y": -2416.5
+      },
+      "inputs": [
+        {
+          "key": "loopStartInput",
+          "label": "",
+          "valueType": "any",
+          "renderTypeList": [
+            "hidden"
+          ],
+          "value": "",
+          "debugLabel": "",
+          "toolDescription": "",
+          "required": true
+        },
+        {
+          "key": "loopStartIndex",
+          "label": "",
+          "valueType": "number",
+          "renderTypeList": [
+            "hidden"
+          ],
+          "debugLabel": "",
+          "toolDescription": ""
+        }
+      ],
+      "outputs": [
+        {
+          "id": "loopStartIndex",
+          "key": "loopStartIndex",
+          "label": "数组元素下标",
+          "type": "static",
+          "valueType": "number"
+        },
+        {
+          "id": "loopStartInput",
+          "key": "loopStartInput",
+          "label": "当前文件数组",
+          "type": "static",
+          "valueType": "any"
+        }
+      ]
+    },
+    {
+      "nodeId": "batchPrep20260909",
+      "name": "批量文件校验与初始化",
+      "intro": "",
+      "avatar": "core/workflow/template/codeRun",
+      "flowNodeType": "code",
+      "showStatus": true,
+      "position": {
+        "x": -135,
+        "y": -1890
+      },
+      "inputs": [
+        {
+          "key": "system_addInputParam",
+          "label": "",
+          "valueType": "dynamic",
+          "required": false,
+          "customInputConfig": {
+            "selectValueTypeList": [
+              "string",
+              "number",
+              "boolean",
+              "object",
+              "arrayString",
+              "arrayNumber",
+              "arrayBoolean",
+              "arrayObject",
+              "arrayAny",
+              "any",
+              "chatHistory",
+              "datasetQuote",
+              "dynamic",
+              "selectDataset",
+              "selectApp"
+            ],
+            "showDescription": false,
+            "showDefaultValue": true
+          },
+          "renderTypeList": [
+            "addInputParam"
+          ],
+          "debugLabel": "",
+          "description": "workflow:these_variables_will_be_input_parameters_for_code_execution",
+          "toolDescription": ""
+        },
+        {
+          "key": "codeType",
+          "label": "",
+          "valueType": "string",
+          "renderTypeList": [
+            "hidden"
+          ],
+          "value": "js",
+          "debugLabel": "",
+          "toolDescription": ""
+        },
+        {
+          "key": "code",
+          "label": "",
+          "valueType": "string",
+          "renderTypeList": [
+            "custom"
+          ],
+          "value": "function main({files}) {\n  if (!Array.isArray(files) || files.length < 1 || files.length > 10) {\n    throw new Error('请在病例文件上传框选择 1–10 个文件；超过 10 个请分批提交。');\n  }\n  if (files.some(f => typeof f !== 'string' || !f.trim())) {\n    throw new Error('文件列表包含无效项，请重新选择文件。');\n  }\n  return {file_batches:files.map(f=>[f]), expected_count:files.length};\n}",
+          "debugLabel": "",
+          "toolDescription": ""
+        },
+        {
+          "key": "files",
+          "label": "files",
+          "valueType": "arrayString",
+          "required": true,
+          "renderTypeList": [
+            "reference"
+          ],
+          "value": [
+            [
+              "VARIABLE_NODE_ID",
+              "d5inu1nZ"
+            ]
+          ],
+          "canEdit": true,
+          "customInputConfig": {
+            "selectValueTypeList": [
+              "string",
+              "number",
+              "boolean",
+              "object",
+              "arrayString",
+              "arrayNumber",
+              "arrayBoolean",
+              "arrayObject",
+              "arrayAny",
+              "any",
+              "chatHistory",
+              "datasetQuote",
+              "dynamic",
+              "selectDataset",
+              "selectApp"
+            ],
+            "showDescription": false,
+            "showDefaultValue": true
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "id": "system_rawResponse",
+          "key": "system_rawResponse",
+          "type": "static",
+          "valueType": "object",
+          "valueDesc": "",
+          "label": "workflow:full_response_data",
+          "description": ""
+        },
+        {
+          "id": "error",
+          "key": "error",
+          "type": "error",
+          "valueType": "string",
+          "valueDesc": "",
+          "label": "workflow:error_text",
+          "description": ""
+        },
+        {
+          "id": "system_addOutputParam",
+          "key": "system_addOutputParam",
+          "type": "dynamic",
+          "valueType": "dynamic",
+          "valueDesc": "",
+          "label": "",
+          "description": "将代码中 return 的对象作为输出，传递给后续的节点。变量名需要对应 return 的 key",
+          "customFieldConfig": {
+            "selectValueTypeList": [
+              "string",
+              "number",
+              "boolean",
+              "object",
+              "arrayString",
+              "arrayNumber",
+              "arrayBoolean",
+              "arrayObject",
+              "arrayAny",
+              "any",
+              "chatHistory",
+              "datasetQuote",
+              "dynamic",
+              "selectDataset",
+              "selectApp"
+            ],
+            "showDefaultValue": false,
+            "showDescription": false
+          }
+        },
+        {
+          "id": "file_batches",
+          "key": "file_batches",
+          "label": "file_batches",
+          "type": "dynamic",
+          "valueType": "arrayAny",
+          "valueDesc": "",
+          "description": ""
+        },
+        {
+          "id": "expected_count",
+          "key": "expected_count",
+          "label": "expected_count",
+          "type": "dynamic",
+          "valueType": "number",
+          "valueDesc": "",
+          "description": ""
+        }
+      ],
+      "catchError": false
+    },
+    {
+      "nodeId": "batchFinal20260909",
+      "name": "批量最终JSON",
+      "intro": "",
+      "avatar": "core/workflow/template/codeRun",
+      "flowNodeType": "code",
+      "showStatus": true,
+      "position": {
+        "x": 5655,
+        "y": -1875
+      },
+      "inputs": [
+        {
+          "key": "system_addInputParam",
+          "label": "",
+          "valueType": "dynamic",
+          "required": false,
+          "customInputConfig": {
+            "selectValueTypeList": [
+              "string",
+              "number",
+              "boolean",
+              "object",
+              "arrayString",
+              "arrayNumber",
+              "arrayBoolean",
+              "arrayObject",
+              "arrayAny",
+              "any",
+              "chatHistory",
+              "datasetQuote",
+              "dynamic",
+              "selectDataset",
+              "selectApp"
+            ],
+            "showDescription": false,
+            "showDefaultValue": true
+          },
+          "renderTypeList": [
+            "addInputParam"
+          ],
+          "debugLabel": "",
+          "description": "workflow:these_variables_will_be_input_parameters_for_code_execution",
+          "toolDescription": ""
+        },
+        {
+          "key": "codeType",
+          "label": "",
+          "valueType": "string",
+          "renderTypeList": [
+            "hidden"
+          ],
+          "value": "js",
+          "debugLabel": "",
+          "toolDescription": ""
+        },
+        {
+          "key": "code",
+          "label": "",
+          "valueType": "string",
+          "renderTypeList": [
+            "custom"
+          ],
+          "value": "function main({results,expected_count}) {\n  if (!Number.isInteger(expected_count) || expected_count < 1 || expected_count > 10) throw new Error('批量文件数量无效');\n  const fail=(index,code,message)=>({error:{file_index:index+1,code,message}});\n  const object=v=>v!==null && typeof v==='object' && !Array.isArray(v);\n  // Full results retains failed positions; success-only results must never be used here.\n  if (results!=null && !Array.isArray(results)) throw new Error('并行完整结果不是数组');\n  const rows=results || [];\n  if(rows.length && rows.length!==expected_count) throw new Error('并行结果数量不一致，停止以避免病例错位');\n  const output_data=Array.from({length:expected_count},(_,index)=>{\n    const row=rows[index];\n    if(!row) return fail(index,'BATCH_INTERRUPTED','并行运行未取得完整结果，请查看运行详情后重试。');\n    if(row.success!==true) return fail(index,'CHILD_WORKFLOW_ERROR','此文件执行失败，请查看对应并行任务运行详情并单独重试。');\n    let result;\n    try {\n      if(typeof row.data!=='string' || !row.data.trim()) throw new Error('EMPTY_RESULT');\n      result=JSON.parse(row.data.replace(/^\\uFEFF/,'').trim());\n    } catch(e) { return fail(index,'INVALID_JSON','三连未返回可解析的单一 JSON 对象，请查看对应任务运行详情。'); }\n    if(!object(result)||Object.keys(result).length!==2||!object(result.Questions)||!object(result.detail)\n      ||!Array.isArray(result.Questions.questions)||result.Questions.question_count!==result.Questions.questions.length) {\n      return fail(index,'INVALID_RESULT','三连结果不符合 Questions/detail 契约，请检查三连实际运行版本。');\n    }\n    return result;\n  });\n  return {output_data,output_json:JSON.stringify(output_data,null,2)};\n}",
+          "debugLabel": "",
+          "toolDescription": ""
+        },
+        {
+          "key": "results",
+          "label": "results",
+          "valueType": "arrayObject",
+          "required": false,
+          "renderTypeList": [
+            "reference"
+          ],
+          "value": [
+            [
+              "rv8pvsOmvinDpzaN",
+              "parallelFullResults"
+            ]
+          ],
+          "canEdit": true,
+          "customInputConfig": {
+            "selectValueTypeList": [
+              "string",
+              "number",
+              "boolean",
+              "object",
+              "arrayString",
+              "arrayNumber",
+              "arrayBoolean",
+              "arrayObject",
+              "arrayAny",
+              "any",
+              "chatHistory",
+              "datasetQuote",
+              "dynamic",
+              "selectDataset",
+              "selectApp"
+            ],
+            "showDescription": false,
+            "showDefaultValue": true
+          }
+        },
+        {
+          "key": "expected_count",
+          "label": "expected_count",
+          "valueType": "number",
+          "required": true,
+          "renderTypeList": [
+            "reference"
+          ],
+          "value": [
+            "batchPrep20260909",
+            "expected_count"
+          ],
+          "canEdit": true,
+          "customInputConfig": {
+            "selectValueTypeList": [
+              "string",
+              "number",
+              "boolean",
+              "object",
+              "arrayString",
+              "arrayNumber",
+              "arrayBoolean",
+              "arrayObject",
+              "arrayAny",
+              "any",
+              "chatHistory",
+              "datasetQuote",
+              "dynamic",
+              "selectDataset",
+              "selectApp"
+            ],
+            "showDescription": false,
+            "showDefaultValue": true
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "id": "system_rawResponse",
+          "key": "system_rawResponse",
+          "type": "static",
+          "valueType": "object",
+          "valueDesc": "",
+          "label": "workflow:full_response_data",
+          "description": ""
+        },
+        {
+          "id": "error",
+          "key": "error",
+          "type": "error",
+          "valueType": "string",
+          "valueDesc": "",
+          "label": "workflow:error_text",
+          "description": ""
+        },
+        {
+          "id": "system_addOutputParam",
+          "key": "system_addOutputParam",
+          "type": "dynamic",
+          "valueType": "dynamic",
+          "valueDesc": "",
+          "label": "",
+          "description": "将代码中 return 的对象作为输出，传递给后续的节点。变量名需要对应 return 的 key",
+          "customFieldConfig": {
+            "selectValueTypeList": [
+              "string",
+              "number",
+              "boolean",
+              "object",
+              "arrayString",
+              "arrayNumber",
+              "arrayBoolean",
+              "arrayObject",
+              "arrayAny",
+              "any",
+              "chatHistory",
+              "datasetQuote",
+              "dynamic",
+              "selectDataset",
+              "selectApp"
+            ],
+            "showDefaultValue": false,
+            "showDescription": false
+          }
+        },
+        {
+          "id": "output_data",
+          "key": "output_data",
+          "label": "output_data",
+          "type": "dynamic",
+          "valueType": "arrayObject",
+          "valueDesc": "",
+          "description": ""
+        },
+        {
+          "id": "output_json",
+          "key": "output_json",
+          "label": "output_json",
+          "type": "dynamic",
+          "valueType": "string",
+          "valueDesc": "",
+          "description": ""
+        }
+      ],
+      "catchError": false
+    },
+    {
+      "nodeId": "batchAnswer20260909",
+      "name": "批量JSON输出",
+      "intro": "该模块可以直接回复一段指定的内容。常用于引导、提示。非字符串内容传入时，会转成字符串进行输出。",
+      "avatar": "core/workflow/template/reply",
+      "flowNodeType": "answerNode",
+      "position": {
+        "x": 6885,
+        "y": -1566.5
+      },
+      "inputs": [
+        {
+          "key": "text",
+          "label": "common:core.module.input.label.Response content",
+          "valueType": "any",
+          "required": true,
+          "isRichText": false,
+          "placeholder": "common:core.module.input.description.Response content",
+          "maxLength": 100000,
+          "selectedTypeIndex": 0,
+          "renderTypeList": [
+            "textarea",
+            "reference"
+          ],
+          "value": "{{$batchFinal20260909.output_json$}}",
+          "debugLabel": "",
+          "description": "common:core.module.input.description.Response content",
+          "toolDescription": ""
+        }
+      ],
+      "outputs": []
+    },
+    {
+      "nodeId": "batchParallelEnd20260909",
+      "parentNodeId": "rv8pvsOmvinDpzaN",
+      "name": "并行结束",
+      "avatar": "core/workflow/template/loopEnd",
+      "flowNodeType": "loopEnd",
+      "showStatus": false,
+      "position": {
+        "x": 2800,
+        "y": -1792.5
+      },
+      "inputs": [
+        {
+          "key": "loopEndInput",
+          "label": "本文件三连最终结果",
+          "valueType": "any",
+          "renderTypeList": [
+            "reference"
+          ],
+          "required": true,
+          "value": [
+            "iW8Qg5stNA8T2Qp9",
+            "answerText"
+          ]
+        }
+      ],
+      "outputs": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "448745",
+      "target": "batchPrep20260909",
+      "sourceHandle": "448745-source-right",
+      "targetHandle": "batchPrep20260909-target-left"
+    },
+    {
+      "source": "batchPrep20260909",
+      "target": "rv8pvsOmvinDpzaN",
+      "sourceHandle": "batchPrep20260909-source-right",
+      "targetHandle": "rv8pvsOmvinDpzaN-target-left"
+    },
+    {
+      "source": "rv8pvsOmvinDpzaN",
+      "target": "batchFinal20260909",
+      "sourceHandle": "rv8pvsOmvinDpzaN-source-right",
+      "targetHandle": "batchFinal20260909-target-left"
+    },
+    {
+      "source": "rv8pvsOmvinDpzaN",
+      "target": "batchFinal20260909",
+      "sourceHandle": "rv8pvsOmvinDpzaN-source_catch-right",
+      "targetHandle": "batchFinal20260909-target-left"
+    },
+    {
+      "source": "batchFinal20260909",
+      "target": "batchAnswer20260909",
+      "sourceHandle": "batchFinal20260909-source-right",
+      "targetHandle": "batchAnswer20260909-target-left"
+    },
+    {
+      "source": "kWC4W3Kz5lNbIlo8",
+      "target": "iW8Qg5stNA8T2Qp9",
+      "sourceHandle": "kWC4W3Kz5lNbIlo8-source-right",
+      "targetHandle": "iW8Qg5stNA8T2Qp9-target-left"
+    },
+    {
+      "source": "iW8Qg5stNA8T2Qp9",
+      "target": "batchParallelEnd20260909",
+      "sourceHandle": "iW8Qg5stNA8T2Qp9-source-right",
+      "targetHandle": "batchParallelEnd20260909-target-left"
+    }
+  ],
+  "chatConfig": {
+    "variables": [
+      {
+        "maxFiles": 10,
+        "canSelectFile": true,
+        "canSelectImg": false,
+        "canSelectVideo": false,
+        "canSelectAudio": false,
+        "canSelectCustomFileExtension": false,
+        "customFileExtensionList": [],
+        "key": "d5inu1nZ",
+        "label": "病例文件（1–10个，每个文件一个病例）",
+        "valueType": "arrayString",
+        "required": true,
+        "defaultValue": "",
+        "canLocalUpload": true,
+        "canUrlUpload": false,
+        "type": "file",
+        "description": "最多10个文件并行调用三连，每个文件独立处理，结果按上传顺序返回。"
+      }
+    ],
+    "scheduledTriggerConfig": {
+      "cronString": "",
+      "timezone": "Asia/Shanghai",
+      "defaultPrompt": ""
+    }
+  },
+  "type": "advanced",
+  "name": "批量生成",
+  "intro": "1–10个病例文件并行生成，最大并发10；原样保留三连结果，最终按上传顺序汇总。"
+}

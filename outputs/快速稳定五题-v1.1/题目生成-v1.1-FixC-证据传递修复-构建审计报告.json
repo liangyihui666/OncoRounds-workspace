@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "warnings": [],
+  "node_count": 41,
+  "edge_count": 54,
+  "topology_unchanged": true,
+  "chat_config_and_global_variables_unchanged": true,
+  "source": "C:\\Users\\admin\\Downloads\\题目生成 (1).json",
+  "source_sha256": "59132a6e2b913a9281c728dbba1fbadf35a7cf5bfbcc2d9d2a2d3e488b64167d",
+  "output": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\outputs\\快速稳定五题-v1.1\\题目生成-v1.1-FixC-证据传递修复-可导入.json",
+  "import_ready": true,
+  "output_sha256": "76a243e68708a2b859748da6f0b8a7f7e4418bef4e858f628023451b993bc8a5"
+}

@@ -1,0 +1,747 @@
+[
+  {
+    "id": "448745",
+    "name": "流程开始",
+    "inputs": [
+      {
+        "key": "userChatInput",
+        "label": "workflow:user_question",
+        "valueType": "string",
+        "required": true,
+        "selectedType": "reference",
+        "renderTypeList": [
+          "agentGenerated",
+          "reference",
+          "textarea"
+        ],
+        "debugLabel": "",
+        "toolDescription": "用户问题",
+        "defaultToAgentGenerated": true
+      }
+    ],
+    "outputs": [
+      {
+        "id": "userChatInput",
+        "key": "userChatInput",
+        "type": "static",
+        "valueType": "string",
+        "label": "common:core.module.input.label.user question",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "iW8Qg5stNA8T2Qp9",
+    "name": "三连",
+    "inputs": [
+      {
+        "key": "system_forbid_stream",
+        "label": "workflow:template.forbid_stream",
+        "valueType": "boolean",
+        "selectedType": "switch",
+        "renderTypeList": [
+          "switch"
+        ],
+        "value": true,
+        "description": "workflow:template.forbid_stream_desc",
+        "canAgentGenerated": false
+      },
+      {
+        "key": "history",
+        "label": "common:core.module.input.label.chat history",
+        "valueType": "chatHistory",
+        "required": true,
+        "max": 50,
+        "min": 0,
+        "selectedType": "numberInput",
+        "renderTypeList": [
+          "agentGenerated",
+          "numberInput",
+          "reference"
+        ],
+        "value": 0,
+        "description": "workflow:max_dialog_rounds"
+      },
+      {
+        "key": "fileUrlList",
+        "label": "app:workflow.user_file_input",
+        "valueType": "arrayString",
+        "renderTypeList": [
+          "agentGenerated",
+          "reference",
+          "JSONEditor"
+        ],
+        "debugLabel": "app:workflow.user_file_input",
+        "description": "app:workflow.user_file_input_desc",
+        "defaultToAgentGenerated": true,
+        "selectedType": "reference",
+        "value": [
+          [
+            "kWC4W3Kz5lNbIlo8",
+            "loopStartInput"
+          ]
+        ]
+      },
+      {
+        "key": "userChatInput",
+        "label": "workflow:user_question",
+        "valueType": "string",
+        "required": true,
+        "selectedType": "textarea",
+        "renderTypeList": [
+          "agentGenerated",
+          "reference",
+          "textarea"
+        ],
+        "value": "__ONCOROUNDS_BATCH_V2__",
+        "toolDescription": "user question",
+        "defaultToAgentGenerated": true
+      }
+    ],
+    "outputs": [
+      {
+        "id": "history",
+        "key": "history",
+        "type": "static",
+        "valueType": "chatHistory",
+        "valueDesc": "{\n  obj: System | Human | AI;\n  value: string;\n}[]",
+        "label": "common:core.module.output.label.New context",
+        "description": "common:core.module.output.description.New context",
+        "required": true
+      },
+      {
+        "id": "answerText",
+        "key": "answerText",
+        "type": "static",
+        "valueType": "string",
+        "label": "common:core.module.output.label.Ai response content",
+        "description": "common:core.module.output.description.Ai response content",
+        "required": false
+      },
+      {
+        "id": "system_error_text",
+        "key": "system_error_text",
+        "type": "error",
+        "valueType": "string",
+        "label": "workflow:error_text"
+      }
+    ]
+  },
+  {
+    "id": "rv8pvsOmvinDpzaN",
+    "name": "并行执行（最多10文件）",
+    "inputs": [
+      {
+        "key": "loopInputArray",
+        "label": "workflow:loop_input_array",
+        "valueType": "arrayAny",
+        "required": true,
+        "selectedType": "reference",
+        "renderTypeList": [
+          "reference"
+        ],
+        "value": [
+          [
+            "batchPrep20260909",
+            "file_batches"
+          ]
+        ],
+        "debugLabel": "",
+        "toolDescription": "",
+        "canAgentGenerated": false
+      },
+      {
+        "key": "parallelRunMaxConcurrency",
+        "label": "workflow:parallel_run_max_concurrency",
+        "valueType": "number",
+        "required": true,
+        "min": 1,
+        "selectedType": "numberInput",
+        "renderTypeList": [
+          "numberInput"
+        ],
+        "value": 10,
+        "debugLabel": "",
+        "description": "workflow:parallel_run_max_concurrency_tip",
+        "toolDescription": "",
+        "canAgentGenerated": false
+      },
+      {
+        "key": "parallelRunMaxRetryTimes",
+        "label": "workflow:parallel_run_max_retry_times",
+        "valueType": "number",
+        "required": true,
+        "max": 5,
+        "min": 0,
+        "selectedType": "numberInput",
+        "renderTypeList": [
+          "numberInput"
+        ],
+        "value": 0,
+        "debugLabel": "",
+        "description": "workflow:parallel_run_max_retry_times_tip",
+        "toolDescription": "",
+        "canAgentGenerated": false
+      },
+      {
+        "key": "childrenNodeIdList",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "valueType": "arrayString",
+        "label": "",
+        "value": [
+          "iW8Qg5stNA8T2Qp9",
+          "kWC4W3Kz5lNbIlo8",
+          "batchParallelEnd20260909"
+        ],
+        "selectedType": "hidden"
+      },
+      {
+        "key": "nodeWidth",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "valueType": "number",
+        "label": "",
+        "value": 2330,
+        "selectedType": "hidden"
+      },
+      {
+        "key": "nodeHeight",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "valueType": "number",
+        "label": "",
+        "value": 1389,
+        "selectedType": "hidden"
+      },
+      {
+        "key": "loopNodeInputHeight",
+        "label": "",
+        "valueType": "number",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "value": 260,
+        "debugLabel": "",
+        "toolDescription": ""
+      }
+    ],
+    "outputs": [
+      {
+        "id": "parallelSuccessResults",
+        "key": "parallelSuccessResults",
+        "type": "static",
+        "valueType": "arrayString",
+        "label": "workflow:parallel_success_results",
+        "description": "所有执行成功的任务输出，按输入顺序排列（仅包含成功项）。"
+      },
+      {
+        "id": "parallelFullResults",
+        "key": "parallelFullResults",
+        "type": "static",
+        "valueType": "arrayObject",
+        "label": "workflow:parallel_full_results",
+        "description": "与输入数组等长的结果数组，每项形如 {success, message, data}：成功时 success=true、message 为空、data 为输出值；失败时 success=false、message 为错误信息、data 为 null。"
+      },
+      {
+        "id": "parallelStatus",
+        "key": "parallelStatus",
+        "type": "static",
+        "valueType": "string",
+        "label": "workflow:parallel_status",
+        "description": "整体执行状态：success（全部成功）、partial_success（部分失败）、failed（全部失败）。"
+      },
+      {
+        "id": "system_error_text",
+        "key": "system_error_text",
+        "type": "error",
+        "valueType": "string",
+        "label": "错误信息"
+      }
+    ]
+  },
+  {
+    "id": "kWC4W3Kz5lNbIlo8",
+    "name": "并行开始",
+    "inputs": [
+      {
+        "key": "loopStartInput",
+        "label": "",
+        "valueType": "any",
+        "required": true,
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "value": "",
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "loopStartIndex",
+        "label": "workflow:Array_element_index",
+        "valueType": "number",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "debugLabel": "",
+        "toolDescription": ""
+      }
+    ],
+    "outputs": [
+      {
+        "id": "loopStartIndex",
+        "key": "loopStartIndex",
+        "type": "static",
+        "valueType": "number",
+        "label": "workflow:Array_element_index",
+        "description": ""
+      },
+      {
+        "id": "loopStartInput",
+        "key": "loopStartInput",
+        "type": "static",
+        "valueType": "any",
+        "label": "当前文件数组"
+      }
+    ]
+  },
+  {
+    "id": "batchPrep20260909",
+    "name": "批量文件校验与初始化",
+    "inputs": [
+      {
+        "key": "system_addInputParam",
+        "label": "",
+        "valueType": "dynamic",
+        "required": false,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        },
+        "selectedType": "addInputParam",
+        "renderTypeList": [
+          "addInputParam"
+        ],
+        "debugLabel": "",
+        "description": "workflow:these_variables_will_be_input_parameters_for_code_execution",
+        "toolDescription": "",
+        "canAgentGenerated": false
+      },
+      {
+        "key": "codeType",
+        "label": "",
+        "valueType": "string",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "value": "js",
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "files",
+        "label": "files",
+        "valueType": "arrayString",
+        "required": true,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        },
+        "selectedType": "reference",
+        "renderTypeList": [
+          "reference"
+        ],
+        "value": [
+          [
+            "VARIABLE_NODE_ID",
+            "d5inu1nZ"
+          ]
+        ],
+        "canAgentGenerated": false,
+        "canEdit": true
+      }
+    ],
+    "outputs": [
+      {
+        "id": "system_rawResponse",
+        "key": "system_rawResponse",
+        "type": "static",
+        "valueType": "object",
+        "valueDesc": "",
+        "label": "workflow:full_response_data",
+        "description": ""
+      },
+      {
+        "id": "error",
+        "key": "error",
+        "type": "error",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "workflow:error_text",
+        "description": ""
+      },
+      {
+        "id": "system_addOutputParam",
+        "key": "system_addOutputParam",
+        "type": "dynamic",
+        "valueType": "dynamic",
+        "valueDesc": "",
+        "label": "",
+        "description": "将代码中 return 的对象作为输出，传递给后续的节点。变量名需要对应 return 的 key",
+        "customFieldConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDefaultValue": false,
+          "showDescription": false
+        }
+      },
+      {
+        "id": "file_batches",
+        "key": "file_batches",
+        "type": "dynamic",
+        "valueType": "arrayAny",
+        "valueDesc": "",
+        "label": "file_batches",
+        "description": ""
+      },
+      {
+        "id": "expected_count",
+        "key": "expected_count",
+        "type": "dynamic",
+        "valueType": "number",
+        "valueDesc": "",
+        "label": "expected_count",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "batchFinal20260909",
+    "name": "批量最终JSON",
+    "inputs": [
+      {
+        "key": "system_addInputParam",
+        "label": "",
+        "valueType": "dynamic",
+        "required": false,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        },
+        "selectedType": "addInputParam",
+        "renderTypeList": [
+          "addInputParam"
+        ],
+        "debugLabel": "",
+        "description": "workflow:these_variables_will_be_input_parameters_for_code_execution",
+        "toolDescription": "",
+        "canAgentGenerated": false
+      },
+      {
+        "key": "codeType",
+        "label": "",
+        "valueType": "string",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "value": "js",
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "results",
+        "label": "results",
+        "valueType": "arrayObject",
+        "required": false,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        },
+        "selectedType": "reference",
+        "renderTypeList": [
+          "reference"
+        ],
+        "value": [
+          [
+            "rv8pvsOmvinDpzaN",
+            "parallelFullResults"
+          ]
+        ],
+        "canAgentGenerated": false,
+        "canEdit": true
+      },
+      {
+        "key": "expected_count",
+        "label": "expected_count",
+        "valueType": "number",
+        "required": true,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        },
+        "selectedType": "reference",
+        "renderTypeList": [
+          "reference"
+        ],
+        "value": [
+          "batchPrep20260909",
+          "expected_count"
+        ],
+        "canAgentGenerated": false,
+        "canEdit": true
+      }
+    ],
+    "outputs": [
+      {
+        "id": "system_rawResponse",
+        "key": "system_rawResponse",
+        "type": "static",
+        "valueType": "object",
+        "valueDesc": "",
+        "label": "workflow:full_response_data",
+        "description": ""
+      },
+      {
+        "id": "error",
+        "key": "error",
+        "type": "error",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "workflow:error_text",
+        "description": ""
+      },
+      {
+        "id": "system_addOutputParam",
+        "key": "system_addOutputParam",
+        "type": "dynamic",
+        "valueType": "dynamic",
+        "valueDesc": "",
+        "label": "",
+        "description": "将代码中 return 的对象作为输出，传递给后续的节点。变量名需要对应 return 的 key",
+        "customFieldConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDefaultValue": false,
+          "showDescription": false
+        }
+      },
+      {
+        "id": "output_data",
+        "key": "output_data",
+        "type": "dynamic",
+        "valueType": "arrayObject",
+        "valueDesc": "",
+        "label": "output_data",
+        "description": ""
+      },
+      {
+        "id": "output_json",
+        "key": "output_json",
+        "type": "dynamic",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "output_json",
+        "description": ""
+      },
+      {
+        "id": "batch_report",
+        "key": "batch_report",
+        "type": "dynamic",
+        "valueType": "object",
+        "valueDesc": "",
+        "label": "批量完成情况",
+        "description": ""
+      },
+      {
+        "id": "batch_report_json",
+        "key": "batch_report_json",
+        "type": "dynamic",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "批量完成情况JSON",
+        "description": ""
+      },
+      {
+        "id": "response_json",
+        "key": "response_json",
+        "type": "dynamic",
+        "valueType": "string",
+        "label": "response_json",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "batchAnswer20260909",
+    "name": "批量JSON输出",
+    "inputs": [
+      {
+        "key": "text",
+        "label": "common:core.module.input.label.Response content",
+        "valueType": "any",
+        "required": true,
+        "isRichText": false,
+        "placeholder": "common:core.module.input.description.Response content",
+        "maxLength": 100000,
+        "selectedType": "textarea",
+        "renderTypeList": [
+          "agentGenerated",
+          "textarea",
+          "reference"
+        ],
+        "value": "{{$batchFinal20260909.response_json$}}",
+        "debugLabel": "",
+        "description": "common:core.module.input.description.Response content",
+        "toolDescription": ""
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "id": "batchParallelEnd20260909",
+    "name": "并行结束",
+    "inputs": [
+      {
+        "key": "loopEndInput",
+        "label": "",
+        "valueType": "any",
+        "required": true,
+        "selectedType": "reference",
+        "renderTypeList": [
+          "agentGenerated",
+          "reference"
+        ],
+        "value": [
+          "iW8Qg5stNA8T2Qp9",
+          "answerText"
+        ],
+        "debugLabel": "",
+        "toolDescription": ""
+      }
+    ],
+    "outputs": []
+  }
+]

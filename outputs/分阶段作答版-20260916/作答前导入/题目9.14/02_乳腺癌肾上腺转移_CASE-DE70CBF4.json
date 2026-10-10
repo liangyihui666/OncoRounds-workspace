@@ -1,0 +1,208 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-DE70CBF4",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "鉴别诊断",
+        "timepoint": "首次随访",
+        "question": "乳腺癌术后患者出现性质未明的双侧肾上腺病灶，拟通过取材指导治疗。何时适合考虑肾上腺活检？",
+        "options": {
+          "A": "PET高摄取后即可安排穿刺，无需再做内分泌评估",
+          "B": "只要有乳腺癌病史，就应以穿刺作为首项检查",
+          "C": "排除嗜铬细胞瘤等功能性风险，且组织结果将改变治疗时",
+          "D": "影像不能确诊时即切除双侧肾上腺，以避免取材误差"
+        },
+        "answer": "C",
+        "answer_text": "排除嗜铬细胞瘤等功能性风险，且组织结果将改变治疗时",
+        "explain": "活检前应特别排除嗜铬细胞瘤，并评估病灶是否已能由影像判定为良性、取材可行性和结果对治疗的影响。“无法手术”不是所有此类患者的唯一活检条件。",
+        "keyPoint": "肾上腺取材前须完成安全评估并明确临床价值。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESE/ENSAT",
+          "source_title": "European Society of Endocrinology clinical practice guidelines on the management of adrenal incidentalomas",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://academic.oup.com/ejendo/article/189/1/G1/7198474",
+          "evidence_summary": "肾上腺取材前须完成安全评估并明确临床价值。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "分子诊断",
+        "phase": "复发转移确诊阶段",
+        "timepoint": "病理确诊阶段",
+        "question": "乳腺癌术后约14年出现疑似肾上腺转移。若已安全取得足量组织，重新检测ER、PR及HER2的主要目的是什么？",
+        "options": {
+          "A": "因超过固定年限，原发灶结果在技术上已失效",
+          "B": "识别可能的受体变化，为当前转移阶段重新选药",
+          "C": "证明肾上腺转移必然具有不同于原发灶的分型",
+          "D": "仅评估Ki-67变化，以此决定能否继续内分泌治疗"
+        },
+        "answer": "B",
+        "answer_text": "识别可能的受体变化，为当前转移阶段重新选药",
+        "explain": "受体可能随疾病演变或取样部位不同而出现差异，可靠的转移灶检测可影响选药。并非所有患者一定转型，也不存在本题所称的统一“结果有效期”。",
+        "keyPoint": "远期复发仍应关注当前病灶的受体状态。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic breast cancer",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+          "evidence_summary": "远期复发仍应关注当前病灶的受体状态。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "系统治疗启动",
+        "timepoint": "治疗启动",
+        "question": "转移灶确认为HR阳性、HER2阴性，患者已开始肾上腺激素替代。若无内脏危象且适合联合治疗，哪项方案可合理考虑？",
+        "options": {
+          "A": "评估瑞波西利联合来曲唑，并继续必要的激素替代",
+          "B": "仅因肾上腺是转移部位，就改用内分泌单药治疗",
+          "C": "先切除双侧肾上腺，以此作为系统治疗的前提",
+          "D": "等待肾上腺功能自行恢复，再决定是否抗肿瘤治疗"
+        },
+        "answer": "A",
+        "answer_text": "评估瑞波西利联合来曲唑，并继续必要的激素替代",
+        "explain": "CDK4/6抑制剂联合内分泌治疗是适宜HR阳性、HER2阴性晚期患者的治疗路径之一。需确认绝经或卵巢抑制状态、器官功能及相互作用；肾上腺功能不全本身不意味着必须放弃联合治疗。",
+        "keyPoint": "控制内分泌合并症后，按肿瘤分型与整体状态选药。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for metastatic breast cancer",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+          "evidence_summary": "控制内分泌合并症后，按肿瘤分型与整体状态选药。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "治疗决策",
+        "phase": "综合管理",
+        "timepoint": "治疗启动",
+        "question": "原发性肾上腺皮质功能不全患者接受抗肿瘤治疗期间，除日常氢化可的松替代外，还应重点落实哪项管理？",
+        "options": {
+          "A": "仅随访肿瘤缩小程度，据此决定是否停止激素",
+          "B": "监测血压电解质，评估盐皮质激素需求并制定应激用药计划",
+          "C": "感染或手术时维持原替代量，以减少激素相关风险",
+          "D": "出现恶心呕吐时先停用替代药物，等待消化道症状缓解"
+        },
+        "answer": "B",
+        "answer_text": "监测血压电解质，评估盐皮质激素需求并制定应激用药计划",
+        "explain": "应评估是否合并醛固酮缺乏，并教育患者在发热、手术或不能口服时及时按计划处理。原发性功能不全与一般“肾上腺负担”不同，不能自行停用替代治疗；疑似危象需要立即处理。",
+        "keyPoint": "肾上腺功能不全管理包括基础替代与应激预案。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "Endocrine Society",
+          "source_title": "Diagnosis and Treatment of Primary Adrenal Insufficiency",
+          "source_version": "2016",
+          "source_section": "",
+          "source_url": "https://www.endocrine.org/clinical-practice-guidelines/primary-adrenal-insufficiency",
+          "evidence_summary": "肾上腺功能不全管理包括基础替代与应激预案。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "不良反应管理",
+        "phase": "毒性管理阶段",
+        "timepoint": "治疗 2 周后",
+        "question": "瑞波西利联合来曲唑治疗2周后出现严重中性粒细胞减少，原文未给出ANC及是否发热。下一步最合理的原则是什么？",
+        "options": {
+          "A": "直接认定为4级毒性，永久停止所有内分泌治疗",
+          "B": "维持瑞波西利剂量，用预防性升白治疗替代剂量管理",
+          "C": "不复查血象即降至最低剂量，按原日程继续服用",
+          "D": "暂缓瑞波西利，明确分级及感染风险后决定恢复剂量"
+        },
+        "answer": "D",
+        "answer_text": "暂缓瑞波西利，明确分级及感染风险后决定恢复剂量",
+        "explain": "需根据ANC、发热及复发情况处理。首次无并发症3级与发热性、复发性3级或4级的恢复规则不同，不能将“严重”自动换算为某一级。病例确实减量恢复，但并非所有首次3级事件均需减量。",
+        "keyPoint": "中性粒细胞减少的恢复剂量取决于分级、发热及复发情况。",
+        "guidelineRef": {
+          "evidence_type": "药品说明书",
+          "doc_id": "",
+          "split_index": null,
+          "type": "drug_label",
+          "authority": "Novartis / 美国处方信息",
+          "source_title": "KISQALI Prescribing Information",
+          "source_version": "在线版本（核查于2026-09-10）",
+          "source_section": "",
+          "source_url": "https://www.novartis.com/us-en/sites/novartis_us/files/kisqali.pdf",
+          "evidence_summary": "中性粒细胞减少的恢复剂量取决于分级、发热及复发情况。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-DE70CBF4",
+    "cancer_type": "胸部肿瘤",
+    "second_cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "乳腺癌术后肾上腺病灶评估",
+      "description": "64岁女性，有乳腺癌手术及后续治疗史，因腹部隐痛就诊，影像随访发现双侧肾上腺病灶。"
+    },
+    "overview": {
+      "hero": {
+        "title": "乳腺癌术后肾上腺病灶评估",
+        "subtitle": "根据当前已知资料作出判断，完成整组后查看解析与实际经过。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "初始资料",
+              "value": "64岁女性，有乳腺癌手术及后续治疗史，因腹部隐痛就诊，影像随访发现双侧肾上腺病灶。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": []
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-F5CEC3E2",
+    "cancer_type": "胸部肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "新发肾上腺病灶评估",
+        "timepoint": "2021年12月CT发现病灶",
+        "question": "乳腺癌患者CT发现肾上腺新病灶，PET/CT显示摄取增高。最准确的解释是？",
+        "options": {
+          "A": "支持进一步评价转移可能，结合形态和病程，必要时取样，不能等同病理证实",
+          "B": "有乳腺癌病史即可排除肾上腺良性病变",
+          "C": "任何肾上腺高摄取均可直接确定乳腺来源",
+          "D": "PET/CT只要阳性就不再需要全身分期"
+        },
+        "answer": "A",
+        "answer_text": "支持进一步评价转移可能，结合形态和病程，必要时取样，不能等同病理证实",
+        "explain": "代谢影像可辅助定位和分期，但不提供组织来源的绝对证明。是否进一步取样取决于安全性及其是否会改变治疗；不能把影像临床诊断写成病理结论。",
+        "keyPoint": "PET/CT辅助复发评估，不能代替病理来源判断。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, staging and treatment of patients with metastatic breast cancer",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+          "evidence_summary": "PET/CT辅助复发评估，不能代替病理来源判断。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "分子诊断",
+        "phase": "复发后分型复核",
+        "timepoint": "拟更换系统方案时",
+        "question": "原发乳腺癌HR阳性、HER2 0，后续出现多处转移，摘要未提供转移灶受体结果。哪项做法更合理？",
+        "options": {
+          "A": "将影像PR作为HER2阴性已再次证实的依据",
+          "B": "必须穿刺脑转移灶，否则不能开展任何治疗",
+          "C": "安全可行时选择可及病灶复核HR/HER2，不能把缺失结果写成已确认一致",
+          "D": "以原发Luminal B标签认定所有转移灶均相同"
+        },
+        "answer": "C",
+        "answer_text": "安全可行时选择可及病灶复核HR/HER2，不能把缺失结果写成已确认一致",
+        "explain": "转移灶受体复评可影响选药，取样应权衡可及性和风险。无法取样时需保留信息缺口并结合既往资料决策，而非补造结果或无限期阻断治疗。",
+        "keyPoint": "转移受体未复核时应明确缺失，不默认已检测。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESO / ESMO",
+          "source_title": "5th ESO-ESMO international consensus guidelines for advanced breast cancer (ABC 5)",
+          "source_version": "2020",
+          "source_section": "",
+          "source_url": "https://doi.org/10.1016/j.annonc.2020.09.010",
+          "evidence_summary": "转移受体未复核时应明确缺失，不默认已检测。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "耐药与后线管理",
+        "phase": "内分泌进展后的方案讨论",
+        "timepoint": "拟使用阿贝西利联合氟维司群时",
+        "question": "患者曾用阿那曲唑，后发生进展，原发HR+/HER2-。评价CDK4/6抑制剂联合内分泌治疗是否适合，应重点核对什么？",
+        "options": {
+          "A": "既往内分泌及CDK4/6暴露、疾病速度、器官功能和是否需快速控制",
+          "B": "仅看原发Ki-67为25%，不再考虑既往方案",
+          "C": "只要存在任何内脏转移，就永久排除内分泌相关方案",
+          "D": "只要HR阳性，就不需评价危及器官功能的进展"
+        },
+        "answer": "A",
+        "answer_text": "既往内分泌及CDK4/6暴露、疾病速度、器官功能和是否需快速控制",
+        "explain": "HR+/HER2-转移性乳腺癌中内分泌联合靶向治疗有证据，但不能忽略既往耐药、药物暴露和迫切控制需求。原病例未提供的分子耐药机制不得推定。",
+        "keyPoint": "内分泌联合靶向治疗需结合既往暴露及当前临床紧迫性。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, staging and treatment of patients with metastatic breast cancer",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10186487/",
+          "evidence_summary": "内分泌联合靶向治疗需结合既往暴露及当前临床紧迫性。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "疗效复评与局部治疗",
+        "phase": "脑转移与系统治疗衔接",
+        "timepoint": "2022年出现小脑病灶",
+        "question": "本例脑病灶接受放疗，同时调整系统治疗。如何评价这种组合的依据？",
+        "options": {
+          "A": "存在多器官转移即意味着所有脑局部治疗均无价值",
+          "B": "只要采用CDK4/6抑制剂就可以统一替代脑局部治疗",
+          "C": "按脑病灶症状、负荷和既往局部治疗评估局部控制，同时兼顾颅外疾病",
+          "D": "肾上腺缩小即可证明脑病灶不再需要独立评价"
+        },
+        "answer": "C",
+        "answer_text": "按脑病灶症状、负荷和既往局部治疗评估局部控制，同时兼顾颅外疾病",
+        "explain": "颅内与颅外控制需要分别评估。尤其症状性脑转移应重视局部治疗；本例未明确的症状和分级不补写，也不能将系统药物的颅外效果等同其颅内效果。",
+        "keyPoint": "脑转移局部和系统策略需按症状及病灶条件衔接。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ASCO / SNO / ASTRO",
+          "source_title": "Treatment for Brain Metastases: ASCO-SNO-ASTRO Guideline",
+          "source_version": "2022",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8917399/",
+          "evidence_summary": "脑转移局部和系统策略需按症状及病灶条件衔接。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "疗效复评与局部治疗",
+        "phase": "多部位疗效判读",
+        "timepoint": "2023年2月肾上腺缩小时",
+        "question": "CT显示肾上腺病灶缩小，原文报告总体PR。独立复核总体疗效还需要什么？",
+        "options": {
+          "A": "将原发分期I期重新用于描述此时的总体病情",
+          "B": "骨痛改善即可抵消任何新发病灶",
+          "C": "只测肾上腺一处即可认定全身PR及脑转移缓解",
+          "D": "核对靶病灶总径、非靶病灶及新病灶，并单独随访颅内情况"
+        },
+        "answer": "D",
+        "answer_text": "核对靶病灶总径、非靶病灶及新病灶，并单独随访颅内情况",
+        "explain": "某一病灶缩小不足以独立重建总体RECIST结论。保留原文的PR报告，并明确其核验需要完整影像；脑部反应不能由腹部CT推断。",
+        "keyPoint": "总体反应需综合靶病灶、非靶病灶和新病灶。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "RECIST Working Group",
+          "source_title": "New response evaluation criteria in solid tumours: revised RECIST guideline (version 1.1)",
+          "source_version": "2009",
+          "source_section": "",
+          "source_url": "https://project.eortc.org/recist/wp-content/uploads/sites/4/2015/03/RECISTGuidelines.pdf",
+          "evidence_summary": "总体反应需综合靶病灶、非靶病灶和新病灶。"
+        }
+      }
+    ],
+    "missing_information": [],
+    "second_cancer_type": "乳腺癌"
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-F5CEC3E2",
+    "cancer_type": "胸部肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/breast-cancer-home.png",
+      "alt": "乳腺癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "乳腺癌随访中的新发病灶",
+      "description": "52岁女性，既往乳腺癌手术及系统治疗后，随访发现肾上腺新病灶，需进一步评估。"
+    },
+    "overview": {
+      "hero": {
+        "title": "乳腺癌随访中的新发病灶",
+        "subtitle": "根据当前已知资料作出判断，完成整组后查看解析与实际经过。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "初始资料",
+              "value": "52岁女性，既往乳腺癌手术及系统治疗后，随访发现肾上腺新病灶，需进一步评估。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": []
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    },
+    "second_cancer_type": "乳腺癌"
+  }
+}

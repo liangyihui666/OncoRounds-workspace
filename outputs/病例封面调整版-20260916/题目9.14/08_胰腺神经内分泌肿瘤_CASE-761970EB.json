@@ -1,0 +1,342 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-761970EB",
+    "cancer_type": "神经内分泌肿瘤",
+    "second_cancer_type": "胰腺神经内分泌肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "分子诊断",
+        "phase": "初始诊断与分级",
+        "timepoint": "2021 年 2 月",
+        "question": "肝穿刺提示胰腺神经内分泌肿瘤，Ki-67约10%。对有限标本的分级，哪项解读最妥当？",
+        "options": {
+          "A": "必须等到手术标本后，才可报告任何增殖分级",
+          "B": "结合分化形态、Ki-67热点及有丝分裂评估，并注明取样局限",
+          "C": "Syn阳性已足够确定低级别，无需进一步计数",
+          "D": "小标本优先归入G1，以避免因局部热点高估分级"
+        },
+        "answer": "B",
+        "answer_text": "结合分化形态、Ki-67热点及有丝分裂评估，并注明取样局限",
+        "explain": "Ki-67约10%在分化良好的NET中支持G2范围，但仍需结合有丝分裂及取样质量。标记阳性说明分化方向，不等于分级；小样本可能低估异质性，不能预设为G1。",
+        "keyPoint": "神经内分泌肿瘤的分化与增殖分级需要分别评估。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "中华医学会外科学分会胰腺外科学组",
+          "source_title": "中国胰腺神经内分泌肿瘤诊疗指南(2020)",
+          "source_version": "2020",
+          "source_section": "",
+          "source_url": "",
+          "evidence_summary": "神经内分泌肿瘤的分化与增殖分级需要分别评估。（原引用书目信息保留；本轮未取得对应原文分块，支持范围待复核。）"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "治疗决策",
+        "phase": "一线系统治疗",
+        "timepoint": "2021 年 4 月",
+        "question": "患者为非功能型、分化较好的G2胰腺NET，SSTR2免疫组化阳性，局部治疗后病情较稳定。评估SSA时，哪项说法更准确？",
+        "options": {
+          "A": "非功能型说明没有激素症状，因此SSA没有抗肿瘤价值",
+          "B": "SSTR2阳性即可替代全部受体显像和全身负荷评估",
+          "C": "可结合受体状态、负荷和进展速度讨论SSA的抗增殖作用",
+          "D": "Ki-67为10%就必须首先使用铂类化疗，不能考虑SSA"
+        },
+        "answer": "C",
+        "answer_text": "可结合受体状态、负荷和进展速度讨论SSA的抗增殖作用",
+        "explain": "SSA不仅用于控制激素症状，也可在适宜的分化良好NET中用于肿瘤控制。需结合病程和受体评估；组织SSTR2阳性与全身受体显像不是同一项检查，不能把本例未提供的显像结果写成已知。",
+        "keyPoint": "非功能型NET仍可讨论SSA，但需完整评估适宜性。",
+        "guidelineRef": {
+          "evidence_type": "循证资料",
+          "doc_id": "",
+          "split_index": null,
+          "type": "evidence_summary",
+          "authority": "NCI",
+          "source_title": "Pancreatic Neuroendocrine Tumors Treatment (PDQ), Health Professional Version",
+          "source_version": "在线版本（核查于2026-09-10）",
+          "source_section": "",
+          "source_url": "https://www.cancer.gov/types/pancreatic/hp/pnet-treatment-pdq",
+          "evidence_summary": "非功能型NET仍可讨论SSA，但需完整评估适宜性。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "不良反应管理",
+        "phase": "治疗副作用处理",
+        "timepoint": "2021 年 10 月",
+        "question": "奥曲肽治疗中出现头晕并自行停药。最合理的后续安排是什么？",
+        "options": {
+          "A": "将头晕直接归为不可逆神经毒性，停止所有肿瘤治疗",
+          "B": "不评估原因，直接按原剂量恢复并取消额外随访",
+          "C": "以另一种靶向药替换SSA，无需先判断症状来源",
+          "D": "评估血糖、血压等可能原因，再决定对症处理或调整方案"
+        },
+        "answer": "D",
+        "answer_text": "评估血糖、血压等可能原因，再决定对症处理或调整方案",
+        "explain": "头晕并非特异的神经毒性表现，可与代谢、循环或其他因素有关。应评估严重程度和用药关系，制定可执行的处理及复诊计划，避免因不适长期失访。",
+        "keyPoint": "非特异症状先明确原因，再决定是否调整抗肿瘤治疗。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国肿瘤共病防治专家共识（2025版）",
+          "source_version": "2025",
+          "source_section": "",
+          "source_url": "",
+          "evidence_summary": "非特异症状先明确原因，再决定是否调整抗肿瘤治疗。（原引用书目信息保留；本轮未取得对应原文分块，支持范围待复核。）"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "治疗决策",
+        "phase": "进展后二线治疗",
+        "timepoint": "2023 年 9 月",
+        "question": "失访后病灶明显进展，伴腹水和肾功能异常。MDT认为再次取材风险较高，下一步选药应如何权衡？",
+        "options": {
+          "A": "综合体能、器官功能、进展速度和既往病理，明确证据局限",
+          "B": "必须获得新病理才能开展任何治疗，不考虑病情紧迫性",
+          "C": "直接沿用两年前Ki-67，认定肿瘤生物学行为没有变化",
+          "D": "仅凭肾功能异常就排除全部系统治疗，转为局部干预"
+        },
+        "answer": "A",
+        "answer_text": "综合体能、器官功能、进展速度和既往病理，明确证据局限",
+        "explain": "新的快速进展可能提示生物学变化，需讨论复查病理能否改变管理及其风险。取材不可行时可据现有信息作个体化决策，但不应声称旧分级已准确代表当前全部病灶。",
+        "keyPoint": "无法重取材时仍需决策，同时保留当前分级的不确定性。",
+        "guidelineRef": {
+          "evidence_type": "循证资料",
+          "doc_id": "",
+          "split_index": null,
+          "type": "evidence_summary",
+          "authority": "NCI",
+          "source_title": "Pancreatic Neuroendocrine Tumors Treatment (PDQ), Health Professional Version",
+          "source_version": "在线版本（核查于2026-09-10）",
+          "source_section": "",
+          "source_url": "https://www.cancer.gov/types/pancreatic/hp/pnet-treatment-pdq",
+          "evidence_summary": "无法重取材时仍需决策，同时保留当前分级的不确定性。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "疗效复评与局部治疗",
+        "phase": "联合治疗阶段",
+        "timepoint": "2023 年 11 月",
+        "question": "系统治疗期间肝肿瘤负荷仍高，拟增加TACE。下列哪项最能体现局部治疗的合理定位？",
+        "options": {
+          "A": "出现肝转移后，应以TACE替代所有系统治疗",
+          "B": "仅按肝肿瘤大小决定，无需考虑腹水及肝功能",
+          "C": "评估肝储备、血管和肾功能后，将其作为综合治疗补充",
+          "D": "只要已有肝外病灶，就不再可能讨论任何肝局部治疗"
+        },
+        "answer": "C",
+        "answer_text": "评估肝储备、血管和肾功能后，将其作为综合治疗补充",
+        "explain": "TACE可用于筛选后的肝转移患者，但需要评估肝功能、门静脉及相关风险，既往腹水和肾异常尤其值得注意。病例实施不等于所有高负荷患者都适合，也不代表系统治疗可以停止。",
+        "keyPoint": "肝局部治疗的获益取决于病灶分布与器官安全条件。",
+        "guidelineRef": {
+          "evidence_type": "循证资料",
+          "doc_id": "",
+          "split_index": null,
+          "type": "evidence_summary",
+          "authority": "NCI",
+          "source_title": "Pancreatic Neuroendocrine Tumors Treatment (PDQ), Health Professional Version",
+          "source_version": "在线版本（核查于2026-09-10）",
+          "source_section": "",
+          "source_url": "https://www.cancer.gov/types/pancreatic/hp/pnet-treatment-pdq",
+          "evidence_summary": "肝局部治疗的获益取决于病灶分布与器官安全条件。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-761970EB",
+    "cancer_type": "神经内分泌肿瘤",
+    "second_cancer_type": "胰腺神经内分泌肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "胰腺神经内分泌肿瘤主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "54 岁女性胰腺神经内分泌肿瘤伴肝转移的个体化治疗病例",
+      "description": "患者 2021 年 2 月确诊胰腺神经内分泌肿瘤伴肝脏多发转移，接受射频消融及长效奥曲肽治疗。2021 年 10 月因副作用自行停用奥曲肽，随后两年间服用成分不详的中草药。2023 年 9 月因病情进展再次入院，影像学显示病灶显著增大伴腹水及肾功能异常，MDT 讨论后未行二次穿刺，决定开始口服索凡替尼联合短效奥曲肽治疗。"
+    },
+    "overview": {
+      "hero": {
+        "title": "54 岁女性胰腺神经内分泌肿瘤伴肝转移的个体化治疗病例",
+        "subtitle": "非功能型胰腺神经内分泌肿瘤的一线药物选择与副作用管理 疾病进展后的二线靶向治疗策略（索凡替尼） 多学科会诊（MDT）在避免重复有创检查中的决策作用 局部治疗（RFA、TACE）与全身治疗的联合应用时机 肿瘤标志物（NSE）在疗效监测中的动态……"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者与就诊背景",
+              "value": "患者 2021 年 2 月确诊胰腺神经内分泌肿瘤伴肝脏多发转移，接受射频消融及长效奥曲肽治疗。2021 年 10 月因副作用自行停用奥曲肽，随后两年间服用成分不详的中草药。2023 年 9 月因病情进展再次入院，影像学显示病灶显著增大伴腹水及肾功能异常，MDT 讨论后未行二次穿刺，决定开始口服索凡替尼联合短效奥曲肽治疗。"
+            },
+            {
+              "order": 2,
+              "label": "疾病与分期",
+              "value": "胰腺神经内分泌肿瘤（pNEN），病理分级 G2，分期 T4N0M1，Ki-67 增殖指数 10%，非功能型"
+            },
+            {
+              "order": 3,
+              "label": "分子与病理",
+              "value": "2021 年 2 月 | 肝脏穿刺组织 | 病理活检 | Ki-67 增殖指数 | 10% | 不详 2021 年 2 月后 | 手术标本 | 免疫组化 | CK19 | (+) | 不详 2021 年 2 月后 | 手术标本 | 免疫组化 | SYN | (+) | 不详 2021 年 2 月后 | 手术标本 | 免疫组化 | SSTR2 | (+) | 不详 2021 年 2 月后 | 手术标本 | 免疫组化 | Ki67 | (+ 10%) | 不详 2023 年 11 月后 | 血液 | 肿瘤标志物检测 |……"
+            },
+            {
+              "order": 4,
+              "label": "核心教学点",
+              "value": "非功能型胰腺神经内分泌肿瘤的一线药物选择与副作用管理 疾病进展后的二线靶向治疗策略（索凡替尼） 多学科会诊（MDT）在避免重复有创检查中的决策作用 局部治疗（RFA、TACE）与全身治疗的联合应用时机 肿瘤标志物（NSE）在疗效监测中的动态变化意义"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2021",
+              "title": "诊疗节点 1",
+              "detail": "2021 年 2 月：体检发现肝脏多发病灶，超声引导下肝穿刺活检确诊胰腺神经内分泌肿瘤（G2，T4N0M1，Ki-67 10%）"
+            },
+            {
+              "date": "2021",
+              "title": "诊疗节点 2",
+              "detail": "2021 年 2 月后：接受肝脏及胰腺病灶射频消融（RFA）治疗"
+            },
+            {
+              "date": "2021",
+              "title": "诊疗节点 3",
+              "detail": "2021 年 2 月后：术后免疫组化显示 CK19(+)、SYN(+)、SSTR2(+)、Ki67(+ 10%)，明确为非功能型"
+            },
+            {
+              "date": "2021",
+              "title": "诊疗节点 4",
+              "detail": "2021 年 4 月：开始长效生长抑素类似物奥曲肽治疗（20 mg，每 4 周一次）"
+            },
+            {
+              "date": "2021",
+              "title": "诊疗节点 5",
+              "detail": "2021 年 7 月：接受第二次肝脏病灶经皮 RFA 治疗"
+            },
+            {
+              "date": "2021",
+              "title": "诊疗节点 6",
+              "detail": "2021 年 10 月：接受第三次肝脏病灶经皮 RFA 治疗，影像学评估病情稳定"
+            },
+            {
+              "date": "2021",
+              "title": "诊疗节点 7",
+              "detail": "2021 年 10 月（第七周期）：因头晕等副作用自行停用奥曲肽"
+            },
+            {
+              "date": "2021",
+              "title": "诊疗节点 8",
+              "detail": "2021 年 11 月至 2023 年 9 月：未定期复诊，自述服用中草药（具体成分及剂量不详）"
+            },
+            {
+              "date": "2023",
+              "title": "诊疗节点 9",
+              "detail": "2023 年 9 月：因腹胀及全身瘙痒入院，影像学提示胰尾及肝脏病灶显著增大，伴腹水及右肾受压致肾功能异常"
+            },
+            {
+              "date": "2023",
+              "title": "诊疗节点 10",
+              "detail": "2023 年 9 月：MDT 讨论后未行二次穿刺，开始口服索凡替尼（300 mg/日）联合短效奥曲肽注射"
+            },
+            {
+              "date": "2023",
+              "title": "诊疗节点 11",
+              "detail": "2023 年 11 月：因肿瘤负荷高接受经肝动脉化疗栓塞（TACE）治疗，NSE 降至正常范围"
+            },
+            {
+              "date": "2024",
+              "title": "诊疗节点 12",
+              "detail": "2024 年 6 月：随访 MRCP 显示胰腺及肝脏病灶稳定，无新发病灶或进展"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/_7ri7EzT6rqha9GIuyv4ig/fnajC8ETzzLZfDeRb7rRomgmP4HBhGRn.jpg",
+              "timepoint": "2021 年 2 月后",
+              "caption": "免疫组织化学和 H&E 染色结果",
+              "alt": "免疫组织化学和 H&E 染色结果",
+              "mapping_status": "matched_by_timepoint",
+              "related_timeline": {
+                "date": "2021",
+                "title": "诊疗节点 2",
+                "detail": "2021 年 2 月后：接受肝脏及胰腺病灶射频消融（RFA）治疗"
+              }
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/_7ri7EzT6rqha9GIuyv4ig/ksI77ro1QqIWjr2MncjPdUw3q9O3Pvl1.jpg",
+              "timepoint": "2023 年 9 月后",
+              "caption": "接受靶向治疗的患者肿瘤发生变化",
+              "alt": "接受靶向治疗的患者肿瘤发生变化",
+              "mapping_status": "matched_by_timepoint",
+              "related_timeline": {
+                "date": "2023",
+                "title": "诊疗节点 9",
+                "detail": "2023 年 9 月：因腹胀及全身瘙痒入院，影像学提示胰尾及肝脏病灶显著增大，伴腹水及右肾受压致肾功能异常"
+              }
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/_7ri7EzT6rqha9GIuyv4ig/8MhKuxXYko84hrls2kQUQWknxCnpvK1E.jpg",
+              "timepoint": "2023 年 11 月后",
+              "caption": "接受靶向治疗的患者的 NSE 水平变化",
+              "alt": "接受靶向治疗的患者的 NSE 水平变化",
+              "mapping_status": "matched_by_timepoint",
+              "related_timeline": {
+                "date": "2023",
+                "title": "诊疗节点 11",
+                "detail": "2023 年 11 月：因肿瘤负荷高接受经肝动脉化疗栓塞（TACE）治疗，NSE 降至正常范围"
+              }
+            },
+            {
+              "id": "IMG4",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/_7ri7EzT6rqha9GIuyv4ig/3s3d1ElGko3ysGxXTuLw8vIynoEMBFxj.jpg",
+              "timepoint": "",
+              "caption": "诊治流程图",
+              "alt": "诊治流程图",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG5",
+              "src": "https://bosdev.liangyihui.net/temp/1659944452.png",
+              "timepoint": "",
+              "caption": "无明确图注",
+              "alt": "无明确图注",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

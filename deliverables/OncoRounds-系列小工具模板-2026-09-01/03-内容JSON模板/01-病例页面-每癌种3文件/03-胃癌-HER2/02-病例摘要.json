@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "case_id": "gastric-her2",
+  "cancer_type": "胃癌",
+  "page_type": "case_summary",
+  "hero": {
+    "image": "./assets/cases/gastric-her2.png",
+    "difficulty": "进阶",
+    "title": "一例 HER2 过表达进展期胃癌全程治疗管理病例分享",
+    "subtitle": "系统治疗、转化手术与免疫相关不良反应管理"
+  },
+  "tabs": {
+    "active": "summary",
+    "items": [
+      { "id": "summary", "label": "病例摘要" },
+      { "id": "timeline", "label": "病程轴" }
+    ]
+  },
+  "summary_items": [
+    {
+      "order": 1,
+      "label": "患者画像",
+      "value": "男性，65 岁；ECOG 1，胸骨后疼痛半年余。"
+    },
+    {
+      "order": 2,
+      "label": "病理分子",
+      "value": "胃低分化腺癌；HER2 IHC 3+、FISH 阳性，MSS/pMMR，PD-L1 CPS 5。"
+    },
+    {
+      "order": 3,
+      "label": "疾病分期",
+      "value": "Borrmann IV 型，cT4N3M1，IV 期，腹膜后淋巴结转移。"
+    },
+    {
+      "order": 4,
+      "label": "核心难点",
+      "value": "三联系统治疗后的转化手术窗口，以及免疫相关糖尿病与间质性肺炎。"
+    }
+  ],
+  "primary_action": {
+    "label": "开始模拟查房",
+    "action": "start_round"
+  },
+  "decision_point_count": 5
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "name": "全部代码节点通过JavaScript语法解析",
+    "status": "PASS"
+  },
+  {
+    "name": "全部连线、变量引用、节点输入输出ID可解析",
+    "status": "PASS"
+  },
+  {
+    "name": "132个二级名称按项目映射，未确认一级留空",
+    "status": "PASS"
+  },
+  {
+    "name": "未知二级与全文转移部位不猜分类",
+    "status": "PASS"
+  },
+  {
+    "name": "桌面15份病例分类回归及Questions/detail一致",
+    "status": "PASS"
+  },
+  {
+    "name": "A1结果与错误进入最终池，原始正文不截断，筛选JSON不携带原文",
+    "status": "PASS"
+  },
+  {
+    "name": "装配、审核原文、输出与详情实际1题",
+    "status": "FAIL",
+    "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'' !== '胸部肿瘤'\n\n    at C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\workflow-20260910\\test.js:59:10\n    at test (C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\workflow-20260910\\test.js:5:28)\n    at Object.<anonymous> (C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\workflow-20260910\\test.js:52:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+  },
+  {
+    "name": "装配、审核原文、输出与详情实际2题",
+    "status": "FAIL",
+    "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'' !== '胸部肿瘤'\n\n    at C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\workflow-20260910\\test.js:59:10\n    at test (C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\workflow-20260910\\test.js:5:28)\n    at Object.<anonymous> (C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\workflow-20260910\\test.js:52:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+  },
+  {
+    "name": "装配、审核原文、输出与详情实际3题",
+    "status": "FAIL",
+    "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'' !== '胸部肿瘤'\n\n    at C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\workflow-20260910\\test.js:59:10\n    at test (C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\workflow-20260910\\test.js:5:28)\n    at Object.<anonymous> (C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\workflow-20260910\\test.js:52:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+  },
+  {
+    "name": "装配、审核原文、输出与详情实际4题",
+    "status": "FAIL",
+    "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'' !== '胸部肿瘤'\n\n    at C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\workflow-20260910\\test.js:59:10\n    at test (C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\workflow-20260910\\test.js:5:28)\n    at Object.<anonymous> (C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\workflow-20260910\\test.js:52:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+  },
+  {
+    "name": "装配、审核原文、输出与详情实际5题",
+    "status": "FAIL",
+    "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'' !== '胸部肿瘤'\n\n    at C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\workflow-20260910\\test.js:59:10\n    at test (C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\workflow-20260910\\test.js:5:28)\n    at Object.<anonymous> (C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\workflow-20260910\\test.js:52:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+  },
+  {
+    "name": "零题返回insufficient和空detail，仍携带两级癌种",
+    "status": "FAIL",
+    "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'' !== '乳腺癌'\n\n    at C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\workflow-20260910\\test.js:62:234\n    at test (C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\workflow-20260910\\test.js:5:28)\n    at Object.<anonymous> (C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\workflow-20260910\\test.js:62:1)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+  },
+  {
+    "name": "第二轮有效部分题优先，真实REVISE不改为PASS",
+    "status": "PASS"
+  },
+  {
+    "name": "第二轮parse失败回退首轮并绑定首轮审核与证据",
+    "status": "PASS"
+  },
+  {
+    "name": "第二轮merge失败回退首轮并绑定首轮审核与证据",
+    "status": "FAIL",
+    "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n2 !== 1\n\n    at C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\workflow-20260910\\test.js:64:376\n    at test (C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\workflow-20260910\\test.js:5:28)\n    at Object.<anonymous> (C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\workflow-20260910\\test.js:64:45)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+  },
+  {
+    "name": "第二轮empty失败回退首轮并绑定首轮审核与证据",
+    "status": "PASS"
+  },
+  {
+    "name": "重复候选合并、错误ID回退、优先减少审核问题",
+    "status": "PASS"
+  },
+  {
+    "name": "合法模型ID保留选择顺序，不重写题目医学内容",
+    "status": "PASS"
+  },
+  {
+    "name": "三组候选可读新输出包，审核未通过仍入池",
+    "status": "PASS"
+  },
+  {
+    "name": "10文件按顺序保留单文件失败位置",
+    "status": "PASS"
+  },
+  {
+    "name": "上传1至10、并发10、重试0、完整结果汇总配置",
+    "status": "PASS"
+  },
+  {
+    "name": "无不良事件跳过不良反应检索",
+    "status": "PASS"
+  },
+  {
+    "name": "模型、检索参数保持，清洗提取终选关思考、独立审核保留思考",
+    "status": "PASS"
+  },
+  {
+    "name": "部分题医审PASS保留低分，不按75分阈值重写判定",
+    "status": "PASS"
+  },
+  {
+    "name": "PATCH 1题只改授权题，其他题原样继承",
+    "status": "PASS"
+  },
+  {
+    "name": "PATCH 2题只改授权题，其他题原样继承",
+    "status": "PASS"
+  },
+  {
+    "name": "PATCH 3题只改授权题，其他题原样继承",
+    "status": "PASS"
+  },
+  {
+    "name": "PATCH 4题只改授权题，其他题原样继承",
+    "status": "PASS"
+  },
+  {
+    "name": "PATCH 5题只改授权题，其他题原样继承",
+    "status": "PASS"
+  },
+  {
+    "name": "FULL从无可解析首轮恢复2题，无固定五题要求",
+    "status": "PASS"
+  },
+  {
+    "name": "FULL局部修订继承未授权题；越权修改必须失败",
+    "status": "PASS"
+  },
+  {
+    "name": "三组汇合等待全部结果；有向图无修订循环、错误分支可达",
+    "status": "PASS"
+  }
+]

@@ -1,0 +1,178 @@
+{
+  "scope": "literal_source_presence_only_not_medical_approval",
+  "reports": [
+    {
+      "case_id": "CASE-3665D6A9",
+      "status": "FORMAT_ERROR",
+      "quote_count": 23,
+      "literal_matches": 20,
+      "failed_quotes": [
+        {
+          "question": "Q3",
+          "option": "A",
+          "quote": "错配修复（MMR）蛋白表达/MSI",
+          "length_valid": true,
+          "literal_match": false,
+          "reported_match": false
+        },
+        {
+          "question": "Q3",
+          "option": "B",
+          "quote": "错配修复（MMR）蛋白表达/MSI",
+          "length_valid": true,
+          "literal_match": false,
+          "reported_match": false
+        },
+        {
+          "question": "Q3",
+          "option": "C",
+          "quote": "错配修复（MMR）蛋白表达/MSI",
+          "length_valid": true,
+          "literal_match": false,
+          "reported_match": false
+        },
+        {
+          "question": "Q3",
+          "option": "D",
+          "quote": "基因检测情况",
+          "length_valid": false,
+          "literal_match": true,
+          "reported_match": false
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-41901B16",
+      "status": "FORMAT_ERROR",
+      "quote_count": 20,
+      "literal_matches": 15,
+      "failed_quotes": [
+        {
+          "question": "Q3",
+          "option": "A",
+          "quote": "必须重新检测ER、PR、HER2的表达及Ki-67增殖指数",
+          "length_valid": true,
+          "literal_match": false,
+          "reported_match": false
+        },
+        {
+          "question": "Q3",
+          "option": "B",
+          "quote": "与原发肿瘤相比，受体状态可能发生改变（10%~40%），直接影响后续治疗决策",
+          "length_valid": true,
+          "literal_match": false,
+          "reported_match": false
+        },
+        {
+          "question": "Q3",
+          "option": "C",
+          "quote": "必须重新检测ER、PR、HER2的表达及Ki-67增殖指数。与原发肿瘤相比，受体状态可能发生改变（10%~40%），直接影响后续治疗决策",
+          "length_valid": true,
+          "literal_match": false,
+          "reported_match": false
+        },
+        {
+          "question": "Q3",
+          "option": "D",
+          "quote": "必须重新检测ER、PR、HER2的表达及Ki-67增殖指数",
+          "length_valid": true,
+          "literal_match": false,
+          "reported_match": false
+        },
+        {
+          "question": "Q5",
+          "option": "C",
+          "quote": "对这部分患者应追溯其首诊时的影像片（X线或骨窗CT）是否有溶骨性改变。骨转移的疗效评价需要结合患者症状、肿瘤标志物和影像学改变综合",
+          "length_valid": true,
+          "literal_match": false,
+          "reported_match": false
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-794E8394",
+      "status": "OUTPUT_READY",
+      "quote_count": 20,
+      "literal_matches": 20,
+      "failed_quotes": [],
+      "skill_audit": {
+        "exit": 1,
+        "output": "ERROR: duplicate primary evidence locator: c9294314-38c0-4a55-92b6-b261f374a7da / 60\r\nAUDIT FAIL: 1 error(s), 0 warning(s)\r\n"
+      }
+    },
+    {
+      "case_id": "CASE-928DA97A",
+      "status": "FORMAT_ERROR",
+      "quote_count": 20,
+      "literal_matches": 14,
+      "failed_quotes": [
+        {
+          "question": "Q3",
+          "option": "B",
+          "quote": "基本策略1：（①或②或③）+④+⑤；基本策略2：（①或②或③）+⑥",
+          "length_valid": true,
+          "literal_match": false,
+          "reported_match": false
+        },
+        {
+          "question": "Q3",
+          "option": "D",
+          "quote": "基本策略1：（①或②或③）+④+⑤；基本策略2：（①或②或③）+⑥；①乳腺超声；②乳腺X线（钼靶）；③乳腺核磁；④胸部CT；⑤腹部超声（或CT或核磁）；⑥PET-CT",
+          "length_valid": true,
+          "literal_match": false,
+          "reported_match": false
+        },
+        {
+          "question": "Q4",
+          "option": "B",
+          "quote": "推荐新辅助化疗±靶向治疗总疗程数为6~8个周期，完成的患者可不再进行术后辅助化疗",
+          "length_valid": true,
+          "literal_match": false,
+          "reported_match": false
+        },
+        {
+          "question": "Q5",
+          "option": "A",
+          "quote": "必须重新检测ER、PR、HER2的表达及Ki-67增殖指数",
+          "length_valid": true,
+          "literal_match": false,
+          "reported_match": false
+        },
+        {
+          "question": "Q5",
+          "option": "B",
+          "quote": "必须重新检测ER、PR、HER2的表达及Ki-67增殖指数。与原发肿瘤相比，受体状态可能发生改变（10%~40%），直接影响后续治疗决策",
+          "length_valid": true,
+          "literal_match": false,
+          "reported_match": false
+        },
+        {
+          "question": "Q5",
+          "option": "C",
+          "quote": "必须重新检测ER、PR、HER2的表达及Ki-67增殖指数。与原发肿瘤相比，受体状态可能发生改变（10%~40%），直接影响后续治疗决策。必要时考虑TNBC检测PD-L1（CPS）、BRCA1/2胚系突变等",
+          "length_valid": true,
+          "literal_match": false,
+          "reported_match": false
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-94E451EE",
+      "status": "FORMAT_ERROR",
+      "quote_count": 22,
+      "literal_matches": 22,
+      "failed_quotes": []
+    },
+    {
+      "case_id": "CASE-E88F230",
+      "status": "OUTPUT_READY",
+      "quote_count": 20,
+      "literal_matches": 20,
+      "failed_quotes": [],
+      "skill_audit": {
+        "exit": 1,
+        "output": "ERROR: duplicate primary evidence locator: 0d244cdc-4b4c-4b72-9a3f-5ce862be52d6 / 33\r\nAUDIT FAIL: 1 error(s), 0 warning(s)\r\n"
+      }
+    }
+  ]
+}

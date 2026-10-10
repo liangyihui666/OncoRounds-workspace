@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "case_id": "CASE-2CBF15F6",
+  "cancer_type": "食管癌",
+  "difficulty": "进阶",
+  "decision_point_count": 5,
+  "image": {
+    "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/GXJ9HwAE-uPbuVVjaZW8Ag/LKWp5eDeaPEqPwUZM2IwQDuII7LCvYHn.png",
+    "alt": "无明确图注，位于胃镜描述后"
+  },
+  "home": {
+    "recommendation_label": "今日推荐病例",
+    "display_title": "食管鳞癌免疫相关TEN后未手术的长期管理",
+    "description": "可手术性、重症药疹识别、免疫复药边界及器官保存随访"
+  },
+  "overview": {
+    "hero": {
+      "title": "食管鳞癌免疫相关TEN后未手术的长期管理",
+      "subtitle": "可手术性、重症药疹识别、免疫复药边界及器官保存随访"
+    },
+    "tabs": [
+      {
+        "id": "summary",
+        "label": "病例摘要",
+        "order": 1,
+        "summary_items": [
+          {
+            "order": 1,
+            "label": "患者画像",
+            "value": "女性，73岁；食管中下段低分化鳞状细胞癌，病变距门齿约29–35 cm。"
+          },
+          {
+            "order": 2,
+            "label": "初始评估",
+            "value": "PET提示部分淋巴结可疑，左锁骨上淋巴结穿刺阴性；材料不足以独立重建精确TNM分期。"
+          },
+          {
+            "order": 3,
+            "label": "治疗及不良反应",
+            "value": "接受试验性新辅助放化疗联合帕博利珠单抗，后确诊免疫相关TEN并合并MRSA感染，经专科治疗改善，未按原计划手术。"
+          },
+          {
+            "order": 4,
+            "label": "长期随访",
+            "value": "连续内镜与影像随访至2024年未发现明确复发；食管壁轻度增厚或僵硬仍需监测，不能在无切除标本时认定pCR。"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "label": "病程轴",
+        "order": 2,
+        "timeline_items": [
+          {
+            "date": "初诊",
+            "title": "食管鳞癌确诊",
+            "detail": "内镜病变位于食管中下段，活检为低分化鳞癌；影像见约3.3×1.6 cm局部病变。"
+          },
+          {
+            "date": "初始分期",
+            "title": "可疑淋巴结评价",
+            "detail": "PET提示锁骨上及贲门旁等淋巴结可疑，左锁骨上取样未证实肿瘤；未补造确定TNM分期。"
+          },
+          {
+            "date": "2020.12起",
+            "title": "试验性术前治疗",
+            "detail": "接受41.4 Gy/23次放疗，联合白蛋白紫杉醇、卡铂及2次帕博利珠单抗；该联合方案属于本例试验背景。"
+          },
+          {
+            "date": "2021.02下旬",
+            "title": "严重皮肤黏膜反应",
+            "detail": "广泛皮疹继发疼痛性破溃、唇部溃疡及出血，后诊断免疫相关TEN，合并MRSA感染。"
+          },
+          {
+            "date": "严重反应治疗阶段",
+            "title": "毒性处理与手术路径改变",
+            "detail": "接受甲泼尼龙、静脉免疫球蛋白及抗感染等治疗后改善，未按原计划行食管切除；不补写原记录不清的抗感染药名。"
+          },
+          {
+            "date": "2021.05.20",
+            "title": "局部疗效复评",
+            "detail": "PET未见原食管壁明显肿块，仍有代谢摄取，报告考虑治疗后改变；不能单凭PET认定病理完全缓解。"
+          },
+          {
+            "date": "2022.11.07",
+            "title": "内镜与取样复查",
+            "detail": "食管通畅，黏膜呈白色改变；病理见轻度异型性，考虑反应性改变。"
+          },
+          {
+            "date": "2023.02.10",
+            "title": "影像随访",
+            "detail": "CT见轻度壁厚及狭窄，较前改善。"
+          },
+          {
+            "date": "2024.03",
+            "title": "持续器官保存随访",
+            "detail": "CT仍见轻度壁厚及狭窄；内镜见黏膜完整、管壁较僵硬且蠕动欠佳，未报告明确复发。"
+          }
+        ]
+      }
+    ]
+  }
+}

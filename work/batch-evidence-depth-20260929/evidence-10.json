@@ -1,0 +1,62 @@
+[
+  {
+    "evidence_id": "GA01",
+    "doc_id": "0b11b7db-f85e-458c-8dad-bf67831fde09",
+    "split_index": 17,
+    "type": "guideline",
+    "authority": "CSCO",
+    "source_title": "结直肠癌分子病理检测临床实践指南(2025版)",
+    "source_version": "2025",
+    "source_section": "（一）RAS和BRAF检测原则",
+    "source_url": "",
+    "snippet": "推荐意见6：MMR免疫组织化学检测和MSI PCR/二代测序检测各有优缺点，必要时可互相补充和验证（强烈推荐）。对于MMR与MSI结果不一致的情况，建议首先进行复核，排除检测或判读不当导致的结果不一致（强烈推荐）。在确认结果无误后，通过免疫组织化学检测显示为dMMR或通过MSI PCR/二代测序检测表明为MSI- H的患者均可考虑接受免疫检查点抑制剂治疗[53]（可考虑）。",
+    "hard_evidence_type": "指南",
+    "reasoning_eligible": true,
+    "link": ""
+  },
+  {
+    "evidence_id": "GA06",
+    "doc_id": "0b11b7db-f85e-458c-8dad-bf67831fde09",
+    "split_index": 16,
+    "type": "guideline",
+    "authority": "CSCO",
+    "source_title": "结直肠癌分子病理检测临床实践指南(2025版)",
+    "source_version": "2025",
+    "source_section": "（一）RAS和BRAF检测原则",
+    "source_url": "",
+    "snippet": "推荐意见3：应对II～Ⅲ期结直肠癌患者行MMR/MSI检测，以评估预后和指导化疗方案的选择（强烈推荐）。应对转移性结直肠癌患者行MMR/MSI检测，以判断是否可从免疫治疗中获益（强烈推荐）。应对新诊断的、尚无远处转移（M0）的结直肠癌患者进行MMR/MSI检测，结合器官功能保护需求、手术根治机会，来确定围手术期的免\n疫治疗方案（推荐）。\n推荐意见4：MMR免疫组织化学检测包含4个MMR蛋白：MLH1、MSH2、MSH6和PMS2（强烈推荐）。MSI PCR检测可使用NCI工作组推荐位点Bethesda panel（BAT25、BAT26、D5S346、D2S123和D17S250），也可采用单核苷酸重复序列（BAT25，BAT26，NR- 21，NR- 24，MONO- 27/NR- 27）（强烈推荐）。\n推荐意见5：MMR免疫组织化学染色注意事项：接受新辅助治疗后的结直肠癌切除标本中可能会出现免疫组织化学结果异常，建议优先选择新辅助治疗前的结直肠癌标本进行MMR免疫组织化学检测（推荐）。",
+    "hard_evidence_type": "指南",
+    "reasoning_eligible": true,
+    "link": ""
+  },
+  {
+    "evidence_id": "GB02",
+    "doc_id": "745fcee1-ab81-490d-96fc-517f2a543f7b",
+    "split_index": 53,
+    "type": "guideline",
+    "authority": "CACA",
+    "source_title": "结肠癌",
+    "source_version": "2024",
+    "source_section": "3 不可切除的结肠癌肝转移",
+    "source_url": "",
+    "snippet": " \nc）免疫治疗：不论RAS/BRAF基因状态，对MSI- H/dMMR患者均优先推荐PD- 1单抗（帕博利珠单抗）。目前也有证据证实纳武利尤单抗联合伊匹木单抗的双免疗法可获益。不适合免疫治疗者，可参考姑息一线治疗。\nd）维持治疗：适于接受一定时长（通常6\\~8个周期）一线强烈化疗 \\$\\pm\\$ 靶向治疗（即诱导化疗）达到CR/PR/SD，经MDTtoHIM评估不适合局部处理。目前主要支持一线含奥沙利铂双药或三药化疗后采用维持治疗策略，优先推荐卡培他滨或5- FU \\$\\pm\\$ 贝伐珠单抗方案，如不愿继续接受化疗者可单用贝伐珠单抗。",
+    "hard_evidence_type": "指南",
+    "reasoning_eligible": true,
+    "link": ""
+  },
+  {
+    "evidence_id": "GB03",
+    "doc_id": "745fcee1-ab81-490d-96fc-517f2a543f7b",
+    "split_index": 50,
+    "type": "guideline",
+    "authority": "CACA",
+    "source_title": "结肠癌",
+    "source_version": "2024",
+    "source_section": "（3）免疫检查点抑制剂治疗",
+    "source_url": "",
+    "snippet": "由于MSI- HCC肝转移发生率低，小样本研究显示手术切除可使患者获益，虽然缺乏免疫检查点抑制剂用于此类患者转化治疗的高级别证据，但专家组仍推荐免疫治疗作为MSI- HCC肝转移的方案选择之一。  \n   \n### 2.3 评估  \n（1）潜在可切除的多学科评估  \n增强CT用于CC原发灶及远处转移的检查；增强MRI、超声造影用于肝脏病灶数量与部位的评估；三维CT与三维数字成像技术等有助于评估残肝体积。  \n（2）疗效评估  \n转化治疗建议6\\~8周行一次影像学评估。RECIST1.1标准评估转化治疗疗效，TRG分级评估转化治疗的病理退缩程度。如联合贝伐珠单抗治疗，则最后一次治疗与手术间隔至少6周，术后6\\~8周再重新开始贝伐珠单抗治疗。",
+    "hard_evidence_type": "指南",
+    "reasoning_eligible": true,
+    "link": ""
+  }
+]

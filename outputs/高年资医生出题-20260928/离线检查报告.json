@@ -1,0 +1,30 @@
+{
+  "offline": true,
+  "model_execution": false,
+  "checks": [
+    {
+      "name": "四个生成审核节点均采用高年资标准并保留时间阶段规则",
+      "pass": true
+    },
+    {
+      "name": "模型、代码、检索配置及连线不变",
+      "pass": true
+    },
+    {
+      "name": "审核结果合并-首轮：难度问题进入修订并保留通过题",
+      "pass": true
+    },
+    {
+      "name": "审核结果合并-首轮：高分或错误PASS不能覆盖难度失败",
+      "pass": true
+    },
+    {
+      "name": "审核结果合并-第二轮：难度问题进入修订并保留通过题",
+      "pass": true
+    },
+    {
+      "name": "审核结果合并-第二轮：高分或错误PASS不能覆盖难度失败",
+      "pass": true
+    }
+  ]
+}

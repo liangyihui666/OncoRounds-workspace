@@ -1,0 +1,5 @@
+const fs=require('fs');
+for(const i of [1,2,6,7]){const x=JSON.parse(fs.readFileSync(__dirname+'/item-'+i+'.json'));const d=x.execution_report.source_groups[0].workflow_diagnostics;fs.writeFileSync(__dirname+'/raw-'+i+'.txt',d.second_round_raw);let p;try{p=JSON.parse(d.second_round_raw)}catch(e){console.log(i,'parse',e.message.slice(0,90));continue}console.log(JSON.stringify({i,keys:Object.keys(p),rawQuestionsType:typeof p.questions,ids:[...d.second_round_raw.matchAll(/"id"\s*:\s*"(Q\d+)"/g)].map(m=>m[1]),qkeys:[...d.second_round_raw.matchAll(/"questions"\s*:/g)].map(m=>({at:m.index,context:d.second_round_raw.slice(Math.max(0,m.index-70),m.index+60)})),question_isArray:Array.isArray(p.questions),questions_keys:Object.keys(p.questions||{})}));}
+for(const i of [3,4,8]){const x=JSON.parse(fs.readFileSync(__dirname+'/item-'+i+'.json')),q=x.output_data.Questions,d=x.execution_report.source_groups[0].workflow_diagnostics;
+ fs.writeFileSync(__dirname+'/review-'+i+'.txt',JSON.stringify({title:x.output_data.detail.home.display_title,missing:q.missing_information,questions:q.questions,sources:d.cited_evidence_snapshot},null,2));
+}

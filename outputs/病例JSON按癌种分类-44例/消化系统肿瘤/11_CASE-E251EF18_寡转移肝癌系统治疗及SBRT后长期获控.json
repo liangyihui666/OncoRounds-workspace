@@ -1,0 +1,252 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-E251EF18",
+    "cancer_type": "消化系统肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "治疗决策",
+        "phase": "一线治疗选择",
+        "timepoint": "初诊确诊后",
+        "question": "该患者确诊 BCLC-C 期 HCC 伴骨转移，基线 AFP 显著升高，但合并近期出血性胃溃疡。在制定一线系统治疗方案时，下列哪项决策最符合指南推荐及患者安全原则？",
+        "options": {
+          "A": "首选阿替利珠单抗联合贝伐珠单抗方案",
+          "B": "立即进行肝动脉化疗栓塞联合索拉非尼",
+          "C": "先行手术切除原发灶后辅助免疫治疗",
+          "D": "选择纳武利尤单抗单药或其他不含贝伐方案"
+        },
+        "answer": "D",
+        "answer_text": "选择纳武利尤单抗单药或其他不含贝伐方案",
+        "explain": "患者有严重胃肠道出血史，贝伐珠单抗禁忌。指南推荐在此类禁忌情况下，可选择纳武利尤单抗单药或其他不含贝伐珠单抗的免疫方案作为替代。",
+        "keyPoint": "抗血管生成药物在近期严重出血事件中禁忌，需选择无此风险的免疫联合或单药方案。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "283cd06f-98bc-4bcf-8bed-921271343e66",
+          "split_index": 10,
+          "type": "guideline",
+          "authority": "中国医师协会肝癌专业委员会",
+          "source_title": "肝细胞癌免疫治疗中国专家共识(2021版)",
+          "source_version": "2021",
+          "source_section": "一、临床治疗推荐",
+          "source_url": "",
+          "evidence_summary": "指南指出若抗血管生成靶向治疗存在禁忌，可选用纳武利尤单抗；阿替利珠单抗联合贝伐珠单抗虽为优选但有出血风险限制。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "不良反应管理",
+        "phase": "治疗期间毒性处理",
+        "timepoint": "纳武利尤单抗治疗五周期后",
+        "question": "患者在接受纳武利尤单抗联合仑伐替尼治疗五周期后，出现肌酐升至 1.91 mg/dl，诊断为免疫相关性肾毒性。针对该不良反应，下列处理策略正确的是？",
+        "options": {
+          "A": "暂停纳武利尤单抗给予中等剂量激素治疗",
+          "B": "继续原剂量治疗仅给予水化支持观察",
+          "C": "永久停用所有药物立即开始血液透析",
+          "D": "将仑伐替尼减量百分之五十维持免疫药"
+        },
+        "answer": "A",
+        "answer_text": "暂停纳武利尤单抗给予中等剂量激素治疗",
+        "explain": "对于免疫检查点抑制剂引起的肾毒性，中重度反应需暂停免疫治疗并使用糖皮质激素干预。病例中患者经此处理后改善，符合指南管理原则。",
+        "keyPoint": "免疫相关性肾毒性需暂停 ICI 并使用中等剂量激素，而非仅支持治疗或立即透析。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "2de206a4-1b0d-4d19-b4ec-3caa10db3904",
+          "split_index": 32,
+          "type": "guideline",
+          "authority": "中国医师协会肝癌专业委员会",
+          "source_title": "肝细胞癌全程管理中国专家共识(2023版)",
+          "source_version": "2023",
+          "source_section": "（2）二线治疗选择",
+          "source_url": "",
+          "evidence_summary": "指南推荐根据不良反应类型和级别，考虑 ICIs 药物暂停和永久停用，并使用糖皮质激素干预。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "疗效复评与局部治疗",
+        "phase": "巩固治疗决策",
+        "timepoint": "全身治疗获深度缓解后",
+        "question": "患者在系统治疗后 AFP 降至 4.9 ng/ml，影像学显示病灶显著缩小。此时对肝脏原发灶及 T9 骨转移灶行 SBRT 治疗的主要目的是？",
+        "options": {
+          "A": "替代后续所有系统治疗，作为根治性手段",
+          "B": "清除残留病灶，延长无进展生存，争取长期缓解",
+          "C": "缓解骨痛症状，对肝脏病灶无实际获益",
+          "D": "预防贝伐珠单抗可能引起的出血并发症"
+        },
+        "answer": "B",
+        "answer_text": "清除残留病灶，延长无进展生存，争取长期缓解",
+        "explain": "在寡转移 HCC 患者经系统治疗获得深度缓解后，局部治疗（如 SBRT）可清除残留活性病灶，发挥巩固作用，有助于延长无进展生存期甚至实现长期无病生存，而非单纯姑息或替代系统治疗。",
+        "keyPoint": "寡转移 HCC 在系统治疗有效后，局部巩固治疗（SBRT）可提升长期控制率。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "f584a76f-9517-415d-843c-6ba1121dbd12",
+          "split_index": 24,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肝癌多学科综合治疗专家共识（2025年版）",
+          "source_version": "2025",
+          "source_section": "3 各临床分期肝细胞癌的多学科综合治疗",
+          "source_url": "",
+          "evidence_summary": "共识推荐不可切除患者采取系统治疗为主，结合局部治疗（如放疗），以提高转化率和治疗效果。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "分子诊断",
+        "phase": "疗效监测与评估",
+        "timepoint": "治疗全程及随访期",
+        "question": "该患者基线 AFP 高达 10,275 ng/ml，治疗后降至正常范围。关于 AFP 在该患者疗效评估中的作用，下列描述正确的是？",
+        "options": {
+          "A": "AFP 下降可单独作为完全缓解（CR）的判定依据",
+          "B": "AFP 水平与免疫治疗疗效无关，无需监测",
+          "C": "AFP 动态监测可佐证疗效，但必须结合影像学评估",
+          "D": "仅当 AFP 再次升高时才需进行影像学检查"
+        },
+        "answer": "C",
+        "answer_text": "AFP 动态监测可佐证疗效，但必须结合影像学评估",
+        "explain": "血清肿瘤标志物（如 AFP）可作为疗效评价的参考佐证，反映治疗反应，但不能单独作为判定完全缓解的依据，必须结合影像学检查结果综合评估。",
+        "keyPoint": "AFP 动态变化是疗效评估的重要参考，但确诊缓解需影像学证实，不可单凭标志物。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "c85901dd-d5df-42b9-b6c0-6c73dcf424e3",
+          "split_index": 64,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "肝细胞癌免疫联合治疗多学科中国专家共识(2023版)",
+          "source_version": "2023",
+          "source_section": "（六）ICI治疗疗效评估",
+          "source_url": "",
+          "evidence_summary": "指南明确血清学检查结果可作为疗效评价参考佐证，不可单独作为依据，评价 CR 时须结合影像学。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "疗效复评与局部治疗",
+        "phase": "全身治疗后巩固治疗",
+        "timepoint": "全身治疗取得深度缓解后",
+        "question": "患者在系统治疗后 AFP 显著下降，影像学评估病灶缩小。针对该寡转移 HCC 患者，后续采用 SBRT 对肝脏原发灶及 T9 转移灶进行巩固治疗，其主要依据是？",
+        "options": {
+          "A": "SBRT 可替代全身治疗，作为晚期 HCC 的唯一根治手段",
+          "B": "所有晚期 HCC 患者无论缓解程度如何，均必须接受预防性 SBRT",
+          "C": "SBRT 主要用于缓解骨转移疼痛，对肝脏原发灶无控制作用",
+          "D": "局部放疗可清除残留病灶，延长无进展生存，尤其适用于寡转移状态"
+        },
+        "answer": "D",
+        "answer_text": "局部放疗可清除残留病灶，延长无进展生存，尤其适用于寡转移状态",
+        "explain": "对于系统治疗有效的寡转移 HCC 患者，局部巩固治疗（如 SBRT）有助于清除残留病灶，可能延长生存期。这并非替代全身治疗，而是多学科综合治疗的一部分。",
+        "keyPoint": "寡转移 HCC 在系统治疗有效后，局部巩固治疗（SBRT）可改善预后。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "f584a76f-9517-415d-843c-6ba1121dbd12",
+          "split_index": 24,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肝癌多学科综合治疗专家共识（2025年版）",
+          "source_version": "2025",
+          "source_section": "3 各临床分期肝细胞癌的多学科综合治疗",
+          "source_url": "",
+          "evidence_summary": "共识推荐不可切除患者采取系统治疗为主，结合局部治疗（如放疗）的方案，以提高疗效。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-E251EF18",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "肝癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "肝癌伴骨病灶的治疗风险评估",
+      "description": "60岁男性，HCV相关肝硬化，肝癌伴T9转移；Child-Pugh A5。"
+    },
+    "overview": {
+      "hero": {
+        "title": "肝癌伴骨病灶的治疗风险评估",
+        "subtitle": "既往出血、系统治疗毒性与局部放疗的关系，以及个案长期缓解的证据边界。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "60岁男性，HCV相关肝硬化，肝癌伴T9转移；Child-Pugh A5。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "原文BCLC-C，近期有出血性胃溃疡。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "纳武利尤单抗联合仑伐替尼后处理皮肤及疑似肾毒性，继以肝与椎体SBRT。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "既往出血、系统治疗毒性与局部放疗的关系，以及个案长期缓解的证据边界。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "初诊",
+              "title": "肝癌及风险评估",
+              "detail": "HCV肝硬化、肝癌及T9转移，近期有出血性胃溃疡。"
+            },
+            {
+              "date": "系统治疗",
+              "title": "个体化方案",
+              "detail": "先用纳武利尤单抗，1周期后加仑伐替尼。"
+            },
+            {
+              "date": "治疗期间",
+              "title": "皮肤及肾功能变化",
+              "detail": "出现手部皮肤症状，后肌酐升高，临床考虑免疫相关肾毒性。"
+            },
+            {
+              "date": "毒性处理",
+              "title": "暂停与支持治疗",
+              "detail": "局部用药及短期泼尼松，停纳武利尤单抗后改善。"
+            },
+            {
+              "date": "后续",
+              "title": "局部SBRT",
+              "detail": "肝病灶27 Gy/3次；T9病灶及椎体其余区域分别接受单次20 Gy及14 Gy。"
+            },
+            {
+              "date": "长期随访",
+              "title": "暂缓恢复系统治疗",
+              "detail": "SBRT后暂停系统治疗，三年多仍无活动性疾病影像证据。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

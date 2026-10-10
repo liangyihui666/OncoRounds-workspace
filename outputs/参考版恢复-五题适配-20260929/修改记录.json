@@ -1,0 +1,42 @@
+{
+  "base": "用户确认以前能运行的0a5001c8附件",
+  "online_verified": false,
+  "known_working_components_preserved": [
+    "文件上传配置",
+    "文档解析及文件引用写法",
+    "HTML正文检查",
+    "正文清洗提示词与模型",
+    "病例结构化提取提示词与模型",
+    "代码运行与14字段病例接口"
+  ],
+  "removed": [
+    "外层终稿优化AI及条件节点",
+    "后来加入的患者整段逐字硬拦截",
+    "后来加入的集中错误分支与批量返回检查节点"
+  ],
+  "changes": [
+    "尾部适配当前五题契约、保留完整诊断、精简返回",
+    "格式修复解析后不再修改临床字段",
+    "批量空返回标记EMPTY_CHILD_RESPONSE",
+    "子应用保留两轮Flash及已有模型错误诊断"
+  ],
+  "models": {
+    "html_cleaner": "qwen3.5-plus-nothinking",
+    "case_extractor": "qwen3.5-plus-nothinking",
+    "question_rounds": "qwen3.8-flash"
+  },
+  "nodes": {
+    "child": {
+      "nodes": 33,
+      "edges": 52
+    },
+    "outer": {
+      "nodes": 11,
+      "edges": 11
+    },
+    "batch": {
+      "nodes": 8,
+      "edges": 7
+    }
+  }
+}

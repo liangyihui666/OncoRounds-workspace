@@ -1,0 +1,125 @@
+{
+  "base": "outputs/证据原句核对与进阶出题-20260929/02-HTML单例外层-配套版.json",
+  "online_verified": false,
+  "cause_not_confirmed": true,
+  "removed_output_aliases": [
+    "final_data",
+    "final_json",
+    "case_page_data",
+    "case_page_json",
+    "selection_report",
+    "selection_report_json",
+    "quality_notice",
+    "output_data",
+    "output_json",
+    "execution_report"
+  ],
+  "checks": [
+    {
+      "name": "只修改json生成一个节点，图、模型、检索及下游response_json引用不变",
+      "pass": true
+    },
+    {
+      "name": "全部代码节点语法有效",
+      "pass": true
+    },
+    {
+      "name": "CASE-3665D6A9：原样重放，题目/状态/原句诊断/失败草稿逐字不变",
+      "pass": true
+    },
+    {
+      "name": "CASE-3665D6A9：单例模式保持Questions/detail公开协议",
+      "pass": true
+    },
+    {
+      "name": "CASE-41901B16：原样重放，题目/状态/原句诊断/失败草稿逐字不变",
+      "pass": true
+    },
+    {
+      "name": "CASE-41901B16：单例模式保持Questions/detail公开协议",
+      "pass": true
+    },
+    {
+      "name": "CASE-794E8394：原样重放，题目/状态/原句诊断/失败草稿逐字不变",
+      "pass": true
+    },
+    {
+      "name": "CASE-794E8394：单例模式保持Questions/detail公开协议",
+      "pass": true
+    },
+    {
+      "name": "CASE-928DA97A：原样重放，题目/状态/原句诊断/失败草稿逐字不变",
+      "pass": true
+    },
+    {
+      "name": "CASE-928DA97A：单例模式保持Questions/detail公开协议",
+      "pass": true
+    },
+    {
+      "name": "CASE-94E451EE：原样重放，题目/状态/原句诊断/失败草稿逐字不变",
+      "pass": true
+    },
+    {
+      "name": "CASE-94E451EE：单例模式保持Questions/detail公开协议",
+      "pass": true
+    },
+    {
+      "name": "CASE-E88F230：原样重放，题目/状态/原句诊断/失败草稿逐字不变",
+      "pass": true
+    },
+    {
+      "name": "CASE-E88F230：单例模式保持Questions/detail公开协议",
+      "pass": true
+    }
+  ],
+  "sizes": [
+    {
+      "case_id": "CASE-3665D6A9",
+      "status": "FORMAT_ERROR",
+      "question_count": 0,
+      "before_bytes": 352140,
+      "after_bytes": 87254,
+      "reduction_percent": 75.2
+    },
+    {
+      "case_id": "CASE-41901B16",
+      "status": "FORMAT_ERROR",
+      "question_count": 0,
+      "before_bytes": 342120,
+      "after_bytes": 84756,
+      "reduction_percent": 75.2
+    },
+    {
+      "case_id": "CASE-794E8394",
+      "status": "OUTPUT_READY",
+      "question_count": 5,
+      "before_bytes": 236601,
+      "after_bytes": 53272,
+      "reduction_percent": 77.5
+    },
+    {
+      "case_id": "CASE-928DA97A",
+      "status": "FORMAT_ERROR",
+      "question_count": 0,
+      "before_bytes": 330611,
+      "after_bytes": 81839,
+      "reduction_percent": 75.2
+    },
+    {
+      "case_id": "CASE-94E451EE",
+      "status": "FORMAT_ERROR",
+      "question_count": 0,
+      "before_bytes": 329477,
+      "after_bytes": 82295,
+      "reduction_percent": 75
+    },
+    {
+      "case_id": "CASE-E88F230",
+      "status": "OUTPUT_READY",
+      "question_count": 5,
+      "before_bytes": 225297,
+      "after_bytes": 50524,
+      "reduction_percent": 77.6
+    }
+  ]
+}

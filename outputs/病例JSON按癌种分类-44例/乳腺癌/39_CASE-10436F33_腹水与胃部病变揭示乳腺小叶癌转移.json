@@ -1,0 +1,247 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-10436F33",
+    "cancer_type": "乳腺癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "初诊评估阶段",
+        "timepoint": "腹水提示腹膜癌但原发灶不明时",
+        "question": "患者因腹水就诊，初期内镜未见异常，腹腔镜病理提示印戒细胞增生。在怀疑乳腺癌胃转移但原发灶未明时，下列哪项是明确原发灶及分子分型的关键决策？",
+        "options": {
+          "A": "完善乳腺影像及 ER/HER2 免疫组化",
+          "B": "经验性启动胃癌化疗方案",
+          "C": "仅凭影像开始内分泌治疗",
+          "D": "重复 CT 观察暂不活检"
+        },
+        "answer": "A",
+        "answer_text": "完善乳腺影像及 ER/HER2 免疫组化",
+        "explain": "浸润性小叶癌易发生胃肠道转移且形态似原发胃癌。必须通过免疫组化（如 ER 阳性）鉴别来源，并确认分子分型以指导全身治疗，不可经验性按胃癌治疗。",
+        "keyPoint": "原发灶不明伴消化道转移时，免疫组化是鉴别乳腺癌转移与原发胃癌的金标准。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "7f8a2463-763c-4669-a370-54fca8039124",
+          "split_index": 1,
+          "type": "guideline",
+          "authority": "中华医学会病理学分会, CACA, 国家病理质控中心",
+          "source_title": "乳腺癌生物标志物检测临床应用指南",
+          "source_version": "2025",
+          "source_section": "乳腺癌生物标志物检测临床应用指南",
+          "source_url": "",
+          "evidence_summary": "指南强调生物标志物检测对个体化治疗策略制定的基础作用，需规范检测流程以提升诊断一致性。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "治疗决策",
+        "phase": "一线治疗阶段",
+        "timepoint": "确诊 HR+/HER2-初诊 IV 期乳腺癌后",
+        "question": "患者确诊 HR 阳性、HER2 阴性初诊 IV 期乳腺癌，伴内脏（胃、腹膜）及骨转移。依据当前指南，首选的全身系统治疗方案是？",
+        "options": {
+          "A": "单药内分泌治疗（如芳香化酶抑制剂）",
+          "B": "芳香化酶抑制剂联合 CDK4/6 抑制剂",
+          "C": "立即启动蒽环类联合紫杉类化疗",
+          "D": "单纯抗骨转移治疗观察原发灶"
+        },
+        "answer": "B",
+        "answer_text": "芳香化酶抑制剂联合 CDK4/6 抑制剂",
+        "explain": "HR+/HER2-初诊 IV 期乳腺癌首选内分泌联合 CDK4/6 抑制剂。本例虽有腹水但无血流动力学不稳定等内脏危象表现，故不首选化疗。病例中瑞波西利适用于绝经后女性。",
+        "keyPoint": "HR+/HER2-晚期乳腺癌无内脏危象时，内分泌联合 CDK4/6 抑制剂是标准一线方案。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "7e911bc2-d9c4-41ea-bcef-d28c231dc12d",
+          "split_index": 1,
+          "type": "guideline",
+          "authority": "中华医学会外科学分会乳腺外科学组",
+          "source_title": "初诊IV期乳腺癌诊疗临床实践指南（2025版）",
+          "source_version": "2025",
+          "source_section": "初诊IV期乳腺癌诊疗临床实践指南（2025版）",
+          "source_url": "",
+          "evidence_summary": "指南指出初诊 IV 期乳腺癌首选全身系统治疗，且随着诊治提高，生存显著改善。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "耐药与后线管理",
+        "phase": "二线治疗阶段",
+        "timepoint": "一线内分泌联合靶向治疗 5 个月进展后",
+        "question": "患者一线接受来曲唑联合瑞波西利治疗 5 个月后出现疾病进展。在制定二线方案前，首要的评估步骤是？",
+        "options": {
+          "A": "直接转换为单药化疗方案",
+          "B": "换用另一种 CDK4/6 抑制剂",
+          "C": "重新活检检测受体状态",
+          "D": "立即行根治性手术切除"
+        },
+        "answer": "C",
+        "answer_text": "重新活检检测受体状态",
+        "explain": "复发或进展后受体状态可能发生改变（10%-40%），直接影响后续治疗决策。指南推荐对复发灶进行活检并重新检测 ER、PR、HER2 表达，而非直接盲目转换治疗。",
+        "keyPoint": "复发或进展后必须重新检测生物标志物，因为受体状态可能随时间发生改变。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+          "split_index": 362,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+          "source_version": "2026",
+          "source_section": "13.2.3.1 药物预防性治疗",
+          "source_url": "",
+          "evidence_summary": "指南明确要求对复发灶进行穿刺或切除活检，必须重新检测 ER、PR、HER2 的表达及 Ki-67 增殖指数。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "治疗决策",
+        "phase": "一线系统治疗",
+        "timepoint": "确诊 HR+/HER2- 初诊 IV 期乳腺癌，无内脏危象时",
+        "question": "患者确诊 HR+/HER2- 初诊 IV 期乳腺癌，伴骨及腹膜转移但无内脏危象。首选的治疗原则是？",
+        "options": {
+          "A": "立即行姑息性手术切除原发乳腺病灶",
+          "B": "仅行局部放疗控制骨转移灶缓解疼痛",
+          "C": "观察等待直至出现内脏危象再行干预",
+          "D": "首选全身系统治疗而非局部手术治疗"
+        },
+        "answer": "D",
+        "answer_text": "首选全身系统治疗而非局部手术治疗",
+        "explain": "初诊 IV 期乳腺癌首选全身系统治疗理念已获共识。原发灶局部外科处理需在全身治疗基础上评估，非首选初始策略，尤其无内脏危象时。",
+        "keyPoint": "初诊 IV 期乳腺癌首选全身系统治疗，原发灶局部处理非初始标准策略。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "7e911bc2-d9c4-41ea-bcef-d28c231dc12d",
+          "split_index": 1,
+          "type": "guideline",
+          "authority": "中华医学会外科学分会乳腺外科学组",
+          "source_title": "初诊IV期乳腺癌诊疗临床实践指南（2025版）",
+          "source_version": "2025",
+          "source_section": "初诊IV期乳腺癌诊疗临床实践指南（2025版）",
+          "source_url": "",
+          "evidence_summary": "指南明确指出初诊 IV 期乳腺癌首选全身系统治疗理念已获共识，原发灶局部外科处理原则成为临床关注的热点问题。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "分子诊断",
+        "phase": "一线治疗进展后",
+        "timepoint": "来曲唑联合瑞波西利治疗 5 个月进展后",
+        "question": "患者一线内分泌联合靶向治疗 5 个月后出现疾病进展，关于后续诊疗策略的首要步骤，正确的是？",
+        "options": {
+          "A": "重新活检评估受体状态及分子特征",
+          "B": "立即更换另一种芳香化酶抑制剂",
+          "C": "直接行预防性全乳切除术",
+          "D": "维持原方案并增加药物剂量"
+        },
+        "answer": "A",
+        "answer_text": "重新活检评估受体状态及分子特征",
+        "explain": "复发或进展后受体状态可能发生改变（10%-40%），直接影响后续治疗决策。指南推荐对复发灶进行再确认，而非盲目调整方案。",
+        "keyPoint": "乳腺癌进展后需重新活检确认受体状态，以指导精准的后续治疗选择。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+          "split_index": 362,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国抗癌协会乳腺癌诊治指南与规范（2026 年版）",
+          "source_version": "2026",
+          "source_section": "13.2.3.1 药物预防性治疗",
+          "source_url": "",
+          "evidence_summary": "指南指出复发转移后必须重新检测 ER、PR、HER2 表达，受体状态改变直接影响后续治疗决策。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-10436F33",
+    "cancer_type": "乳腺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "病例思考封面"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "腹水伴胃部症状的来源鉴别",
+      "description": "53岁女性因腹胀、腹痛及腹水就诊，首次内镜未明确病因。"
+    },
+    "overview": {
+      "hero": {
+        "title": "腹水伴胃部症状的来源鉴别",
+        "subtitle": "腹水与胃部病变的来源、不同取材结果及免疫组化，以及原发灶的进一步寻找。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "53岁女性因腹胀、腹痛及腹水就诊，首次内镜未明确病因。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "后经胃、腹膜及乳腺取材确诊乳腺小叶癌，伴胃、腹膜及骨转移。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "先用来曲唑联合瑞波西利，约5个月后进展，改为表柔比星联合环磷酰胺。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "腹水与胃部病变的来源、不同取材结果及免疫组化，以及原发灶的进一步寻找。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "就诊阶段",
+              "title": "症状与初检",
+              "detail": "腹痛、腹胀及腹水，首次内镜未明确病因。"
+            },
+            {
+              "date": "后续取材",
+              "title": "寻找来源",
+              "detail": "腹膜及再次胃活检提示乳腺来源可能。"
+            },
+            {
+              "date": "乳腺及分期检查",
+              "title": "确诊",
+              "detail": "乳腺影像及病理确诊小叶癌，伴胃、腹膜及骨转移。"
+            },
+            {
+              "date": "一线治疗",
+              "title": "内分泌联合",
+              "detail": "使用来曲唑联合瑞波西利。"
+            },
+            {
+              "date": "约5个月后",
+              "title": "进展后调整",
+              "detail": "记录疾病进展，改表柔比星联合环磷酰胺。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

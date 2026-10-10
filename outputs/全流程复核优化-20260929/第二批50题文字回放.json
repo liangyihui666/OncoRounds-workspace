@@ -1,0 +1,479 @@
+{
+  "scope": "text_signals_only_not_medical_verdict",
+  "source_context": "visible_reference_summary_not_full_retrieval",
+  "model_rerun": false,
+  "rows": [
+    {
+      "output_index": 1,
+      "case_id": "CASE-BBE7355D",
+      "questions": [
+        {
+          "id": "Q1",
+          "format_errors": [],
+          "review_cues": [
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。"
+          ]
+        },
+        {
+          "id": "Q2",
+          "format_errors": [],
+          "review_cues": [
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。"
+          ]
+        },
+        {
+          "id": "Q3",
+          "format_errors": [],
+          "review_cues": [
+            "ABSENCE_OR_REVERSE_INFERENCE：某亚组结果、条款未提及或未禁止不能独自证明相反结论或排除竞争方案。",
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。",
+            "TOXICITY_SCOPE_CHECK：本题引用含ICI毒性内容；确认致病药物与条款一致，不能因同名皮疹或同在肿瘤患者中发生而套用。"
+          ]
+        },
+        {
+          "id": "Q4",
+          "format_errors": [
+            "学员可见正文或证据摘要含内部证据编号：IR03；须改写成自足理由，不得拼接其他记录"
+          ],
+          "review_cues": [
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。"
+          ]
+        },
+        {
+          "id": "Q5",
+          "format_errors": [],
+          "review_cues": [
+            "ABSENCE_OR_REVERSE_INFERENCE：某亚组结果、条款未提及或未禁止不能独自证明相反结论或排除竞争方案。",
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。"
+          ]
+        }
+      ]
+    },
+    {
+      "output_index": 2,
+      "case_id": "CASE-14AE0C2A",
+      "questions": [
+        {
+          "id": "Q1",
+          "format_errors": [
+            "学员可见正文或证据摘要含内部证据编号：GS02、GS03；须改写成自足理由，不得拼接其他记录"
+          ],
+          "review_cues": [
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。"
+          ]
+        },
+        {
+          "id": "Q2",
+          "format_errors": [
+            "学员可见正文或证据摘要含内部证据编号：GB01、GB02；须改写成自足理由，不得拼接其他记录"
+          ],
+          "review_cues": [
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。"
+          ]
+        },
+        {
+          "id": "Q3",
+          "format_errors": [
+            "学员可见正文或证据摘要含内部证据编号：IR01、IR02；须改写成自足理由，不得拼接其他记录"
+          ],
+          "review_cues": [
+            "ABSENCE_OR_REVERSE_INFERENCE：某亚组结果、条款未提及或未禁止不能独自证明相反结论或排除竞争方案。",
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。",
+            "DRUG_CLASS_CHECK：题目同时出现抗菌药和抗肿瘤药；核实处置条款真正针对哪类药，不可转移不停药例外。"
+          ]
+        },
+        {
+          "id": "Q4",
+          "format_errors": [
+            "学员可见正文或证据摘要含内部证据编号：IR02；须改写成自足理由，不得拼接其他记录"
+          ],
+          "review_cues": [
+            "ABSENCE_OR_REVERSE_INFERENCE：某亚组结果、条款未提及或未禁止不能独自证明相反结论或排除竞争方案。",
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。",
+            "RECURRENT_TOXICITY：核实首次/再次事件及责任药物；未知前次等级不能默认本次为首次。"
+          ]
+        },
+        {
+          "id": "Q5",
+          "format_errors": [
+            "学员可见正文或证据摘要含内部证据编号：GB01；须改写成自足理由，不得拼接其他记录",
+            "题干明确引入假设但未标【延伸情境】；添加标记后计入最多2题"
+          ],
+          "review_cues": []
+        }
+      ]
+    },
+    {
+      "output_index": 3,
+      "case_id": "CASE-60EC0E4C",
+      "questions": [
+        {
+          "id": "Q1",
+          "format_errors": [
+            "学员可见正文或证据摘要含内部证据编号：GB04；须改写成自足理由，不得拼接其他记录"
+          ],
+          "review_cues": []
+        },
+        {
+          "id": "Q2",
+          "format_errors": [
+            "学员可见正文或证据摘要含内部证据编号：GB03；须改写成自足理由，不得拼接其他记录"
+          ],
+          "review_cues": []
+        },
+        {
+          "id": "Q3",
+          "format_errors": [],
+          "review_cues": [
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。",
+            "TREATMENT_PHASE_CHECK：原文出现新辅助/术后/III期，题干涉及复发、转移、转化或pCR；回查实际初始分期及前序治疗，区分适用性题与直接外推推荐。"
+          ]
+        },
+        {
+          "id": "Q4",
+          "format_errors": [],
+          "review_cues": []
+        },
+        {
+          "id": "Q5",
+          "format_errors": [
+            "学员可见正文或证据摘要含内部证据编号：GS01；须改写成自足理由，不得拼接其他记录"
+          ],
+          "review_cues": [
+            "ABSENCE_OR_REVERSE_INFERENCE：某亚组结果、条款未提及或未禁止不能独自证明相反结论或排除竞争方案。"
+          ]
+        }
+      ]
+    },
+    {
+      "output_index": 4,
+      "case_id": "CASE-260BDA0B",
+      "questions": [
+        {
+          "id": "Q1",
+          "format_errors": [],
+          "review_cues": [
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。",
+            "TREATMENT_PHASE_CHECK：原文出现新辅助/术后/III期，题干涉及复发、转移、转化或pCR；回查实际初始分期及前序治疗，区分适用性题与直接外推推荐。"
+          ]
+        },
+        {
+          "id": "Q2",
+          "format_errors": [],
+          "review_cues": [
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。"
+          ]
+        },
+        {
+          "id": "Q3",
+          "format_errors": [],
+          "review_cues": [
+            "ABSENCE_OR_REVERSE_INFERENCE：某亚组结果、条款未提及或未禁止不能独自证明相反结论或排除竞争方案。",
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。",
+            "TOXICITY_SCOPE_CHECK：本题引用含ICI毒性内容；确认致病药物与条款一致，不能因同名皮疹或同在肿瘤患者中发生而套用。"
+          ]
+        },
+        {
+          "id": "Q4",
+          "format_errors": [],
+          "review_cues": []
+        },
+        {
+          "id": "Q5",
+          "format_errors": [],
+          "review_cues": []
+        }
+      ]
+    },
+    {
+      "output_index": 5,
+      "case_id": "CASE-EEAE0AD8",
+      "questions": [
+        {
+          "id": "Q1",
+          "format_errors": [
+            "学员可见正文或证据摘要含内部证据编号：GB04；须改写成自足理由，不得拼接其他记录"
+          ],
+          "review_cues": [
+            "ABSENCE_OR_REVERSE_INFERENCE：某亚组结果、条款未提及或未禁止不能独自证明相反结论或排除竞争方案。",
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。"
+          ]
+        },
+        {
+          "id": "Q2",
+          "format_errors": [
+            "学员可见正文或证据摘要含内部证据编号：GA06；须改写成自足理由，不得拼接其他记录"
+          ],
+          "review_cues": [
+            "UNKNOWN_CONDITION：逐项区分未知与已确认；不得将分级不详变成轻度、已控制或满足停药/手术条件。",
+            "ABSENCE_OR_REVERSE_INFERENCE：某亚组结果、条款未提及或未禁止不能独自证明相反结论或排除竞争方案。",
+            "RECURRENT_TOXICITY：核实首次/再次事件及责任药物；未知前次等级不能默认本次为首次。"
+          ]
+        },
+        {
+          "id": "Q3",
+          "format_errors": [
+            "学员可见正文或证据摘要含内部证据编号：GA01；须改写成自足理由，不得拼接其他记录"
+          ],
+          "review_cues": [
+            "ABSENCE_OR_REVERSE_INFERENCE：某亚组结果、条款未提及或未禁止不能独自证明相反结论或排除竞争方案。"
+          ]
+        },
+        {
+          "id": "Q4",
+          "format_errors": [
+            "学员可见正文或证据摘要含内部证据编号：GB02；须改写成自足理由，不得拼接其他记录"
+          ],
+          "review_cues": [
+            "ABSENCE_OR_REVERSE_INFERENCE：某亚组结果、条款未提及或未禁止不能独自证明相反结论或排除竞争方案。",
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。"
+          ]
+        },
+        {
+          "id": "Q5",
+          "format_errors": [
+            "学员可见正文或证据摘要含内部证据编号：CS01；须改写成自足理由，不得拼接其他记录"
+          ],
+          "review_cues": [
+            "TREATMENT_PHASE_CHECK：原文出现新辅助/术后/III期，题干涉及复发、转移、转化或pCR；回查实际初始分期及前序治疗，区分适用性题与直接外推推荐。"
+          ]
+        }
+      ]
+    },
+    {
+      "output_index": 6,
+      "case_id": "CASE-BE582C4B",
+      "questions": [
+        {
+          "id": "Q1",
+          "format_errors": [
+            "学员可见正文或证据摘要含内部证据编号：GA01；须改写成自足理由，不得拼接其他记录"
+          ],
+          "review_cues": [
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。"
+          ]
+        },
+        {
+          "id": "Q2",
+          "format_errors": [
+            "学员可见正文或证据摘要含内部证据编号：GA06；须改写成自足理由，不得拼接其他记录"
+          ],
+          "review_cues": [
+            "ABSENCE_OR_REVERSE_INFERENCE：某亚组结果、条款未提及或未禁止不能独自证明相反结论或排除竞争方案。",
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。"
+          ]
+        },
+        {
+          "id": "Q3",
+          "format_errors": [
+            "学员可见正文或证据摘要含内部证据编号：GB04；须改写成自足理由，不得拼接其他记录"
+          ],
+          "review_cues": [
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。",
+            "ACTIVE_COMPLICATION_CHECK：一般治疗强度分层不等于活动性感染或出血情境的用药许可，先核实控制状态与责任药风险。"
+          ]
+        },
+        {
+          "id": "Q4",
+          "format_errors": [
+            "学员可见正文或证据摘要含内部证据编号：GS02、GA01；须改写成自足理由，不得拼接其他记录"
+          ],
+          "review_cues": []
+        },
+        {
+          "id": "Q5",
+          "format_errors": [
+            "学员可见正文或证据摘要含内部证据编号：GB03；须改写成自足理由，不得拼接其他记录"
+          ],
+          "review_cues": [
+            "ACTIVE_COMPLICATION_CHECK：一般治疗强度分层不等于活动性感染或出血情境的用药许可，先核实控制状态与责任药风险。"
+          ]
+        }
+      ]
+    },
+    {
+      "output_index": 7,
+      "case_id": "CASE-FBAE598D",
+      "questions": [
+        {
+          "id": "Q1",
+          "format_errors": [
+            "学员可见正文或证据摘要含内部证据编号：GS03；须改写成自足理由，不得拼接其他记录"
+          ],
+          "review_cues": [
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。"
+          ]
+        },
+        {
+          "id": "Q2",
+          "format_errors": [
+            "学员可见正文或证据摘要含内部证据编号：GA06；须改写成自足理由，不得拼接其他记录"
+          ],
+          "review_cues": [
+            "UNKNOWN_CONDITION：逐项区分未知与已确认；不得将分级不详变成轻度、已控制或满足停药/手术条件。",
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。"
+          ]
+        },
+        {
+          "id": "Q3",
+          "format_errors": [
+            "学员可见正文或证据摘要含内部证据编号：GB02；须改写成自足理由，不得拼接其他记录"
+          ],
+          "review_cues": [
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。"
+          ]
+        },
+        {
+          "id": "Q4",
+          "format_errors": [
+            "学员可见正文或证据摘要含内部证据编号：GA02；须改写成自足理由，不得拼接其他记录"
+          ],
+          "review_cues": [
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。"
+          ]
+        },
+        {
+          "id": "Q5",
+          "format_errors": [
+            "学员可见正文或证据摘要含内部证据编号：GS02；须改写成自足理由，不得拼接其他记录"
+          ],
+          "review_cues": [
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。"
+          ]
+        }
+      ]
+    },
+    {
+      "output_index": 8,
+      "case_id": "CASE-916EC37E",
+      "questions": [
+        {
+          "id": "Q1",
+          "format_errors": [
+            "学员可见正文或证据摘要含内部证据编号：GB01；须改写成自足理由，不得拼接其他记录"
+          ],
+          "review_cues": [
+            "ACTIVE_COMPLICATION_CHECK：一般治疗强度分层不等于活动性感染或出血情境的用药许可，先核实控制状态与责任药风险。"
+          ]
+        },
+        {
+          "id": "Q2",
+          "format_errors": [
+            "学员可见正文或证据摘要含内部证据编号：GB01；须改写成自足理由，不得拼接其他记录"
+          ],
+          "review_cues": [
+            "ACTIVE_COMPLICATION_CHECK：一般治疗强度分层不等于活动性感染或出血情境的用药许可，先核实控制状态与责任药风险。"
+          ]
+        },
+        {
+          "id": "Q3",
+          "format_errors": [
+            "学员可见正文或证据摘要含内部证据编号：GB02；须改写成自足理由，不得拼接其他记录"
+          ],
+          "review_cues": [
+            "UNKNOWN_CONDITION：逐项区分未知与已确认；不得将分级不详变成轻度、已控制或满足停药/手术条件。",
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。"
+          ]
+        },
+        {
+          "id": "Q4",
+          "format_errors": [
+            "学员可见正文或证据摘要含内部证据编号：GB02；须改写成自足理由，不得拼接其他记录"
+          ],
+          "review_cues": [
+            "UNKNOWN_CONDITION：逐项区分未知与已确认；不得将分级不详变成轻度、已控制或满足停药/手术条件。",
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。"
+          ]
+        },
+        {
+          "id": "Q5",
+          "format_errors": [
+            "学员可见正文或证据摘要含内部证据编号：CS01；须改写成自足理由，不得拼接其他记录"
+          ],
+          "review_cues": []
+        }
+      ]
+    },
+    {
+      "output_index": 9,
+      "case_id": "CASE-A42C4C41",
+      "questions": [
+        {
+          "id": "Q1",
+          "format_errors": [],
+          "review_cues": [
+            "ABSENCE_OR_REVERSE_INFERENCE：某亚组结果、条款未提及或未禁止不能独自证明相反结论或排除竞争方案。"
+          ]
+        },
+        {
+          "id": "Q2",
+          "format_errors": [],
+          "review_cues": [
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。"
+          ]
+        },
+        {
+          "id": "Q3",
+          "format_errors": [],
+          "review_cues": [
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。"
+          ]
+        },
+        {
+          "id": "Q4",
+          "format_errors": [
+            "题干明确引入假设但未标【延伸情境】；添加标记后计入最多2题"
+          ],
+          "review_cues": [
+            "ABSENCE_OR_REVERSE_INFERENCE：某亚组结果、条款未提及或未禁止不能独自证明相反结论或排除竞争方案。",
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。",
+            "RECURRENT_TOXICITY：核实首次/再次事件及责任药物；未知前次等级不能默认本次为首次。"
+          ]
+        },
+        {
+          "id": "Q5",
+          "format_errors": [],
+          "review_cues": []
+        }
+      ]
+    },
+    {
+      "output_index": 10,
+      "case_id": "CASE-F95282D8",
+      "questions": [
+        {
+          "id": "Q1",
+          "format_errors": [],
+          "review_cues": [
+            "ABSENCE_OR_REVERSE_INFERENCE：某亚组结果、条款未提及或未禁止不能独自证明相反结论或排除竞争方案。",
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。"
+          ]
+        },
+        {
+          "id": "Q2",
+          "format_errors": [],
+          "review_cues": []
+        },
+        {
+          "id": "Q3",
+          "format_errors": [],
+          "review_cues": [
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。"
+          ]
+        },
+        {
+          "id": "Q4",
+          "format_errors": [],
+          "review_cues": [
+            "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。"
+          ]
+        },
+        {
+          "id": "Q5",
+          "format_errors": [],
+          "review_cues": []
+        }
+      ]
+    }
+  ]
+}

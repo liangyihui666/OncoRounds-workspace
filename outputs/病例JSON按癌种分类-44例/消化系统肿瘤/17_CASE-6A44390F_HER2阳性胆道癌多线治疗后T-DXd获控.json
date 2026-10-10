@@ -1,0 +1,252 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-6A44390F",
+    "cancer_type": "消化系统肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "分子诊断",
+        "phase": "复发/转移后线治疗前",
+        "timepoint": "2024 年 4 月多线治疗进展后",
+        "question": "该患者经多线标准化疗及免疫联合治疗进展后，决定进行 HER2 再检测的主要依据是什么？",
+        "options": {
+          "A": "初诊时未检测 HER2，必须补测才能开始任何治疗",
+          "B": "所有胆道肿瘤患者无论分期均需在每周期前常规复测",
+          "C": "仅当出现肝转移时才需要重新评估分子标志物",
+          "D": "胆道肿瘤 HER2 状态具有时空异质性，复发灶可能获得新靶点"
+        },
+        "answer": "D",
+        "answer_text": "胆道肿瘤 HER2 状态具有时空异质性，复发灶可能获得新靶点",
+        "explain": "胆道恶性肿瘤存在分子特征的时空异质性，初诊阴性或未知者，在复发/转移后线治疗前重新检测可发现新的靶向治疗机会（如本例 HER2 阳性）。",
+        "keyPoint": "复发/转移性胆道肿瘤应在后线治疗前重新评估关键驱动基因及靶点。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "f51ad2ef-8e21-42f9-bfd1-f2ed36512587",
+          "split_index": 137,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "中国肿瘤整合诊治技术指南（CACA） 病理诊断",
+          "source_version": "2023",
+          "source_section": "（五）分子病理诊断",
+          "source_url": "",
+          "evidence_summary": "指南指出胆囊癌及肝外胆管癌 HER2 扩增比例约 16%，可用 IHC 及 FISH 检测，为靶向治疗提供依据。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "治疗决策",
+        "phase": "四线治疗",
+        "timepoint": "2024 年 6 月确认 HER2 阳性后",
+        "question": "针对该 HER2 阳性胆道肿瘤患者，在多线治疗失败后，首选的单药靶向治疗方案是？",
+        "options": {
+          "A": "德曲妥珠单抗（T-DXd）",
+          "B": "曲妥珠单抗联合帕妥珠单抗",
+          "C": "维迪西妥单抗",
+          "D": "拉帕替尼联合卡培他滨"
+        },
+        "answer": "A",
+        "answer_text": "德曲妥珠单抗（T-DXd）",
+        "explain": "HERB 研究显示 T-DXd 在 HER2 阳性不可切除/复发性胆道肿瘤中显示出显著疗效（ORR 36.4%），指南推荐用于此类患者后线治疗。",
+        "keyPoint": "T-DXd 是 HER2 阳性胆道肿瘤后线治疗的重要选择，基于 HERB 研究数据。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "588b2660-a9f2-4476-8c6e-ca4a7ad04346",
+          "split_index": 109,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "原发性肝癌诊疗指南之肝内胆管癌诊疗中国专家共识(2022版)",
+          "source_version": "2022",
+          "source_section": "三、病理诊断辅助检查指标：",
+          "source_url": "",
+          "evidence_summary": "HERB 研究显示 T-DXd 治疗 HER2 阳性 BTC 的 ORR 为 36.4%，mPFS 4.4 个月，支持其临床应用。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "耐药与后线管理",
+        "phase": "四线治疗耐药后",
+        "timepoint": "2024 年 10 月 T-DXd 治疗 4 个月后",
+        "question": "患者接受 T-DXd 单药治疗 4 个月后出现疾病进展（CA19-9 回升），基于本病例报告及机制推测，可考虑的探索性策略是？",
+        "options": {
+          "A": "立即停用所有抗肿瘤药物，仅进行最佳支持治疗",
+          "B": "联合酪氨酸激酶抑制剂（如仑伐替尼）继续维持抗 HER2 治疗",
+          "C": "更换为不含抗 HER2 成分的标准化疗方案（如 FOLFOX）",
+          "D": "增加 T-DXd 剂量至 6.4mg/kg 以克服耐药"
+        },
+        "answer": "B",
+        "answer_text": "联合酪氨酸激酶抑制剂（如仑伐替尼）继续维持抗 HER2 治疗",
+        "explain": "目前 T-DXd 耐药后联合 TKI 缺乏高级别循证医学证据，本例为个案报道。机制上 TKI 可阻断旁路激活，临床决策需结合患者具体情况及多学科讨论。",
+        "keyPoint": "T-DXd 耐药后联合 TKI 属探索性策略，需个体化评估，非标准指南推荐。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "588b2660-a9f2-4476-8c6e-ca4a7ad04346",
+          "split_index": 71,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "原发性肝癌诊疗指南之肝内胆管癌诊疗中国专家共识(2022版)",
+          "source_version": "2022",
+          "source_section": "（三）二线治疗",
+          "source_url": "",
+          "evidence_summary": "指南提及 T-DXd 疗效需探索，临床实践中联合 TKI 是克服 ADC 耐药的潜在策略，本例证实有效。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "不良反应管理",
+        "phase": "四线治疗期间",
+        "timepoint": "2024 年 7 月 T-DXd 治疗期间",
+        "question": "患者接受 T-DXd 治疗期间出现 2 级骨髓抑制（白细胞减少、贫血），依据通用安全共识及研究数据，应采取的管理措施是？",
+        "options": {
+          "A": "永久停用 T-DXd，不再尝试任何抗 HER2 治疗",
+          "B": "无需调整剂量，仅口服升白药并继续原方案治疗",
+          "C": "暂停用药，给予造血生长因子治疗及支持治疗，恢复后酌情减量重启",
+          "D": "立即减量 50% 并常规预防性使用 G-CSF，不停药"
+        },
+        "answer": "C",
+        "answer_text": "暂停用药，给予造血生长因子治疗及支持治疗，恢复后酌情减量重启",
+        "explain": "虽无胆道肿瘤特异性指南详述 T-DXd 血液学毒性分级管理，但依据 ADC 类药物通用安全共识及 HERB 研究安全性数据，2 级毒性通常建议暂停并支持治疗。",
+        "keyPoint": "ADC 药物致 2 级骨髓抑制应暂停治疗并给予支持治疗，恢复后评估减量重启。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "e13a7302-7425-4b2c-aa54-f72696d523a8",
+          "split_index": 40,
+          "type": "guideline",
+          "authority": "中国医师协会泌尿外科医师分会/中华医学会泌尿外科学分会",
+          "source_title": "尿路上皮癌抗 HER2 治疗中国专家共识（2026 版）",
+          "source_version": "2026",
+          "source_section": "Chinese expert consensus on anti-HER2 therapy for urothelial carcinoma (2026 edition)",
+          "source_url": "",
+          "evidence_summary": "引用抗 HER2 ADC 药物通用安全管理原则，2 级血液学毒性需暂停用药并给予 G-CSF 等支持治疗。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "耐药与后线管理",
+        "phase": "靶向治疗耐药后",
+        "timepoint": "2024 年 10 月 T-DXd 治疗 4 个月后进展",
+        "question": "基于本病例的实际转归，针对该患者 T-DXd 单药耐药后的处理措施是？",
+        "options": {
+          "A": "立即停用 T-DXd，更换为吉西他滨 + 顺铂标准化疗",
+          "B": "继续 T-DXd 单药治疗，期待二次缓解",
+          "C": "转为最佳支持治疗，不再进行抗肿瘤治疗",
+          "D": "联合酪氨酸激酶抑制剂（如仑伐替尼）尝试克服耐药"
+        },
+        "answer": "D",
+        "answer_text": "联合酪氨酸激酶抑制剂（如仑伐替尼）尝试克服耐药",
+        "explain": "本病例中医生采取联合仑伐替尼策略使病情再次控制。需注意目前尚无指南将其列为标准推荐，属个体化探索；机制上 TKI 可能抑制旁路激活，但需更多循证证据支持。",
+        "keyPoint": "ADC 耐药后可探索联合 TKI 等策略，但需明确其目前多为个体化尝试而非标准疗法。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "588b2660-a9f2-4476-8c6e-ca4a7ad04346",
+          "split_index": 109,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "原发性肝癌诊疗指南之肝内胆管癌诊疗中国专家共识(2022版)",
+          "source_version": "2022",
+          "source_section": "三、病理诊断辅助检查指标：",
+          "source_url": "",
+          "evidence_summary": "HERB 研究证实 T-DXd 单药疗效，联合 TKI 克服耐药为本病例展示的创新尝试，缺乏高级别指南直接支持。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-6A44390F",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "胆道恶性肿瘤主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "胆道癌后线治疗的证据与安全性",
+      "description": "57岁男性，胆总管腺癌术后复发，经再次手术及多线系统治疗。"
+    },
+    "overview": {
+      "hero": {
+        "title": "胆道癌后线治疗的证据与安全性",
+        "subtitle": "HER2检测与后线研究人群的匹配，以及影像、肿瘤标志物和治疗毒性的综合评估。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "57岁男性，胆总管腺癌术后复发，经再次手术及多线系统治疗。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "HER2扩增；进展后采用德曲妥珠单抗。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "治疗后病灶缩小、CA19-9下降；约4个月后指标回升，随后加用仑伐替尼。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "HER2检测与后线研究人群的匹配，以及影像、肿瘤标志物和治疗毒性的综合评估。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "初诊",
+              "title": "手术及病理",
+              "detail": "胆管切除及胆肠吻合，病理为胆总管腺癌。"
+            },
+            {
+              "date": "2021年12月至2022年",
+              "title": "复发后再治疗",
+              "detail": "复发后二次手术，继以吉西他滨、顺铂及贝伐珠单抗。"
+            },
+            {
+              "date": "2023年6月起",
+              "title": "再次进展后治疗",
+              "detail": "度伐利尤单抗、白蛋白紫杉醇、卡铂及腹部放疗，后免疫维持。"
+            },
+            {
+              "date": "2024年4至5月",
+              "title": "后线调整",
+              "detail": "调整为卡度尼利单抗、奥沙利铂及卡培他滨，因严重手足反应停止。"
+            },
+            {
+              "date": "2024年6至7月",
+              "title": "T-DXd治疗",
+              "detail": "T-DXd后病灶缩小、CA19-9下降，出现血液学及肝功能异常。"
+            },
+            {
+              "date": "约4个月后及后续",
+              "title": "个体化联合",
+              "detail": "CA19-9回升、PET仍有活性，后加仑伐替尼，原文记录获控。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

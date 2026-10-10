@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "case_id": "lung-alk-adenosquamous",
+  "cancer_type": "肺癌",
+  "difficulty": "进阶",
+  "decision_point_count": 5,
+  "image": {
+    "src": "./assets/cases/lung-alk-adenosquamous.png",
+    "alt": "ALK融合阳性肺腺鳞癌病例主题图"
+  },
+  "home": {
+    "recommendation_label": "今日推荐病例",
+    "display_title": "ALK融合阳性肺腺鳞癌",
+    "description": "动态病理、靶向转化、根治性切除与脑部病灶管理"
+  },
+  "overview": {
+    "hero": {
+      "title": "ALK融合阳性肺腺鳞癌经靶向转化、根治性切除及脑部病灶局部治疗的全程管理",
+      "subtitle": "从有限活检与动态分子诊断到术后辅助及中枢神经系统病灶评估"
+    },
+    "tabs": [
+      {
+        "id": "summary",
+        "label": "病例摘要",
+        "order": 1,
+        "summary_items": [
+          {
+            "order": 1,
+            "label": "患者画像",
+            "value": "女性，57岁；无吸烟史，ECOG PS 1，因刺激性干咳就诊。"
+          },
+          {
+            "order": 2,
+            "label": "初始诊断",
+            "value": "左肺下叶非小细胞肺癌，有限活检倾向鳞癌；临床评估cT2N1M0、ⅡB期，ALK D5F3阴性。"
+          },
+          {
+            "order": 3,
+            "label": "动态病理分子",
+            "value": "再次取材确诊腺鳞癌，PCR检出ALK融合；手术标本ALK D5F3阳性、PD-L1 TPS＜1%。"
+          },
+          {
+            "order": 4,
+            "label": "核心难点",
+            "value": "有限取材与检测结果差异、阿来替尼转化后的手术机会、术后辅助治疗及新发脑部病灶的分层管理。"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "label": "病程轴",
+        "order": 2,
+        "timeline_items": [
+          {
+            "date": "2023.08",
+            "title": "初诊与临床分期",
+            "detail": "胸部CT示左肺下叶约3.3 cm团块伴肺门淋巴结肿大；有限活检倾向鳞癌，ALK D5F3阴性，临床评估ⅡB期。"
+          },
+          {
+            "date": "2023.10–11",
+            "title": "术前免疫联合化疗",
+            "detail": "接受白蛋白紫杉醇、卡铂联合帕博利珠单抗2周期，复查显示原发灶增大；术前出现发热和阻塞性肺炎风险，手术暂缓。"
+          },
+          {
+            "date": "2023.12",
+            "title": "再次取材与分子重评",
+            "detail": "支气管镜解除气道阻塞并再次取材，病理符合腺鳞癌，PCR检测ALK融合阳性。"
+          },
+          {
+            "date": "2023.12–2024.05",
+            "title": "阿来替尼转化治疗",
+            "detail": "开始阿来替尼治疗后肿块、肺门淋巴结及阻塞性肺不张逐步改善，重新获得根治性切除机会。"
+          },
+          {
+            "date": "2024.05.23",
+            "title": "根治性切除",
+            "detail": "行胸腔镜左下肺叶切除及肺门、纵隔淋巴结清扫；术后病理为腺鳞癌，淋巴结阴性，材料报告ypT2N0M0、IB期。"
+          },
+          {
+            "date": "2024.12–2025.06",
+            "title": "脑部病灶局部治疗与随访",
+            "detail": "辅助阿来替尼期间出现约1.1 cm右颞叶强化灶，考虑转移可能性大；接受立体定向放疗并继续原药，后续MRI示病灶及水肿减轻。"
+          }
+        ]
+      }
+    ]
+  }
+}

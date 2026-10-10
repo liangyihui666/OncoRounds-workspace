@@ -1,0 +1,272 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-8DC486E7",
+    "cancer_type": "消化系统肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "诊断与分期",
+        "phase": "初始病变范围评估",
+        "timepoint": "入院时",
+        "question": "胆管癌患者有巨大肝肿块、腹水、慢性门静脉血栓及胸部小结节，原文诊断伴转移。若独立复核M分期，应怎样使用这些资料？",
+        "options": {
+          "A": "将所有胸部小结节视为肺转移，不再核对",
+          "B": "仅凭CA19-9升高就确认已有远处转移",
+          "C": "核对明确转移依据，不把腹水或可疑结节自动升级为确诊",
+          "D": "将腹水直接作为腹膜转移的病理证据"
+        },
+        "answer": "C",
+        "answer_text": "核对明确转移依据，不把腹水或可疑结节自动升级为确诊",
+        "explain": "本题不否定原文的转移诊断，而是区分最终诊断与摘要中的证据。腹水可受门静脉等因素影响，可疑结节需结合影像判断；不能补造“腹膜种植已证实”。",
+        "keyPoint": "保留疑似与确诊的区别，按原发部位对应的分期系统核对证据。",
+        "guidelineRef": {
+          "evidence_type": "权威诊疗资料",
+          "doc_id": "",
+          "split_index": null,
+          "type": "reference",
+          "authority": "NCI",
+          "source_title": "Bile Duct Cancer (Cholangiocarcinoma) Treatment (PDQ®)–Health Professional Version",
+          "source_version": "",
+          "source_section": "",
+          "source_url": "https://www.cancer.gov/types/liver/hp/bile-duct-treatment-pdq",
+          "evidence_summary": "胆道癌分期需按具体原发部位和实际远处转移证据确定，M1不能由非特异性表现代替。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "分子诊断",
+        "phase": "系统治疗前评估",
+        "timepoint": "病理确诊后的教学讨论",
+        "question": "患者肝脏穿刺提示胆管来源腺癌。若一般状况改善、可以考虑系统治疗，哪种检测思路更符合胆道癌的病种特点？",
+        "options": {
+          "A": "因CA19-9明显升高，直接以该指标选择靶向药物",
+          "B": "只复测既有细胞角蛋白，以其阳性程度选择免疫治疗",
+          "C": "只检测EGFR、ALK和ROS1，以肺癌标准完成分子分型",
+          "D": "明确原发部位并进行覆盖相关靶点及MMR/MSI的分子评估"
+        },
+        "answer": "D",
+        "answer_text": "明确原发部位并进行覆盖相关靶点及MMR/MSI的分子评估",
+        "explain": "胆道癌可干预改变的分布与原发部位有关，检测应服务于具体治疗机会。这里讨论的是患者能够接受治疗时的条件性评估，不把实际已选择舒适照护的患者改写成已启动系统治疗。",
+        "keyPoint": "明确病种与治疗可行性后，再安排有决策价值的分子检测。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ESMO",
+          "source_title": "ESMO Clinical Practice Guideline interim update on the management of biliary tract cancer",
+          "source_version": "2024",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11846563/",
+          "evidence_summary": "晚期胆道癌在系统治疗开始时推荐分子谱检测，结果用于匹配治疗选择。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "诊断与分期",
+        "phase": "肿瘤急症识别",
+        "timepoint": "住院第5天",
+        "question": "患者尚未接受抗肿瘤治疗，却出现肾功能恶化、高钾、低钙和高尿酸，且肿瘤负荷巨大。哪种诊断思路最合理？",
+        "options": {
+          "A": "因未接受化疗，排除肿瘤溶解综合征",
+          "B": "考虑自发性肿瘤溶解综合征，同时评估其他肾损伤原因",
+          "C": "按免疫治疗相关肾炎处理，不必核对用药史",
+          "D": "仅归因于腹水导致的肌酐波动，待肿瘤治疗后复查"
+        },
+        "answer": "B",
+        "answer_text": "考虑自发性肿瘤溶解综合征，同时评估其他肾损伤原因",
+        "explain": "未接受治疗不能排除TLS。多项代谢异常与急性肾损伤并存时，应紧急评估；摘要缺少完整数值和磷水平，不能凭现有文本自行补齐实验室分级或排除其他并存原因。",
+        "keyPoint": "高负荷实体瘤也可发生自发性TLS，不能以未化疗作为排除条件。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "eviQ / Cancer Institute NSW",
+          "source_title": "Prevention of tumour lysis syndrome (ID 108)",
+          "source_version": "",
+          "source_section": "",
+          "source_url": "https://www.eviq.org.au/clinical-resources/side-effect-and-toxicity-management/prophylaxis-and-treatment/108-prevention-of-tumour-lysis-syndrome",
+          "evidence_summary": "TLS风险评估关注肿瘤负荷和肾功能；治疗前已存在实验室或临床TLS者也需处理。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "治疗决策",
+        "phase": "TLS降尿酸处理",
+        "timepoint": "急性代谢异常处理时",
+        "question": "原文记载患者使用别嘌醇后病情改善。对于已存在高尿酸和肾功能损害的TLS，以下哪项理解正确？",
+        "options": {
+          "A": "只要开始降尿酸治疗，高钾及容量状态可稍后处理",
+          "B": "别嘌醇能直接清除已形成尿酸，因此无需考虑其他药物",
+          "C": "本例用药有效即可规定所有TLS首选相同药物及剂量",
+          "D": "应区分抑制新尿酸生成与清除既有尿酸，并评估拉布立酶适用性"
+        },
+        "answer": "D",
+        "answer_text": "应区分抑制新尿酸生成与清除既有尿酸，并评估拉布立酶适用性",
+        "explain": "别嘌醇抑制新尿酸形成，并不直接降低既有尿酸负荷。已出现TLS及肾损伤时需评估拉布立酶等处理，同时紧急管理电解质和容量问题；拉布立酶使用前还需关注G6PD缺乏禁忌。",
+        "keyPoint": "TLS降尿酸药物的作用机制与适用情境不能混为一谈。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "eviQ / Cancer Institute NSW",
+          "source_title": "Prevention of tumour lysis syndrome (ID 108)",
+          "source_version": "",
+          "source_section": "",
+          "source_url": "https://www.eviq.org.au/clinical-resources/side-effect-and-toxicity-management/prophylaxis-and-treatment/108-prevention-of-tumour-lysis-syndrome",
+          "evidence_summary": "别嘌醇不清除既有尿酸；已有TLS、肾损伤或高尿酸时可考虑拉布立酶，并关注G6PD缺乏。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "治疗决策",
+        "phase": "治疗目标调整",
+        "timepoint": "TLS改善后",
+        "question": "急性代谢异常改善后，患者总体状况仍差，医患共同选择以舒适照护为主。对这一转变，哪项解释最恰当？",
+        "options": {
+          "A": "肿瘤相关急症一旦发生，就必须永久停止所有治疗讨论",
+          "B": "急症纠正与抗肿瘤耐受性分别评估，并尊重患者照护目标",
+          "C": "肾功能改善即证明可以耐受标准强度化疗",
+          "D": "选择舒适照护后，不再评估疼痛及其他可缓解症状"
+        },
+        "answer": "B",
+        "answer_text": "急症纠正与抗肿瘤耐受性分别评估，并尊重患者照护目标",
+        "explain": "代谢改善不等于整体预后和治疗耐受性恢复。舒适照护应主动缓解症状，并在理解预期获益与负担后作共同决策，而不是停止照护。",
+        "keyPoint": "治疗目标随患者状况与意愿调整，支持照护仍是积极医疗工作。",
+        "guidelineRef": {
+          "evidence_type": "权威诊疗资料",
+          "doc_id": "",
+          "split_index": null,
+          "type": "reference",
+          "authority": "NCI",
+          "source_title": "Bile Duct Cancer (Cholangiocarcinoma) Treatment (PDQ®)–Health Professional Version",
+          "source_version": "",
+          "source_section": "",
+          "source_url": "https://www.cancer.gov/types/liver/hp/bile-duct-treatment-pdq",
+          "evidence_summary": "晚期胆道癌治疗需重视患者状况与症状缓解，支持及姑息治疗是管理的重要组成部分。"
+        }
+      }
+    ],
+    "missing_information": [],
+    "second_cancer_type": "胆道恶性肿瘤"
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-8DC486E7",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/x-jYUwYN918MsxbLCb-iBg/SODaht2dx61j0zSXH2qA633ikvr7XNRB.png",
+      "alt": "（A）动脉期腹部 CT 和（B）门静脉期显示出现大范围且外观异质的肝脏肿块"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "72 岁男性胆管癌伴自发性肿瘤溶解综合征病例",
+      "description": "72岁男性，肝内高肿瘤负荷并腹水，影像提示门静脉血栓及其他可疑播散表现，病理为中分化腺癌，原文诊断转移性胆管癌。住院第5天、尚未接受抗肿瘤治疗时出现急性肾损伤、高钾、低钙及高尿酸，原文诊断自发性肿瘤溶解综合征。给予补液、别嘌醇和高钾等支持处理后改善。患者随后选择舒适照护。摘要未提供完整实验室数值，不能自行补算TLS分级。"
+    },
+    "overview": {
+      "hero": {
+        "title": "72 岁男性胆管癌伴自发性肿瘤溶解综合征病例",
+        "subtitle": "初始病变范围评估；系统治疗前评估；肿瘤急症识别；TLS降尿酸处理；治疗目标调整。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者与就诊背景",
+              "value": "72岁男性，肝内高肿瘤负荷并腹水，影像提示门静脉血栓及其他可疑播散表现，病理为中分化腺癌，原文诊断转移性胆管癌。住院第5天、尚未接受抗肿瘤治疗时出现急性肾损伤、高钾、低钙及高尿酸，原文诊断自发性肿瘤溶解综合征。给予补液、别嘌醇和高钾等支持处理后改善。患者随后选择舒适照护。摘要未提供完整实验室数值，不能自行补算TLS分级。"
+            },
+            {
+              "order": 2,
+              "label": "疾病与分期",
+              "value": "原文诊断转移性胆管癌；不能把腹水或可疑结节本身直接改写成病理证实的远处转移。"
+            },
+            {
+              "order": 3,
+              "label": "分子与病理",
+              "value": "中分化腺癌，原文免疫组化包括CK19、CK20及CK5.2；未提供可用于靶向治疗选择的完整分子检测。"
+            },
+            {
+              "order": 4,
+              "label": "核心教学点",
+              "value": "初始病变范围评估；系统治疗前评估；肿瘤急症识别；TLS降尿酸处理；治疗目标调整。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "入院评估",
+              "title": "高肿瘤负荷胆管癌",
+              "detail": "肝脏巨大肿瘤负荷、腹水及影像异常，结合病理诊断；腹水引流约3 L。"
+            },
+            {
+              "date": "住院第5天",
+              "title": "自发性TLS",
+              "detail": "未接受抗肿瘤治疗即出现急性肾损伤及相关代谢异常。"
+            },
+            {
+              "date": "急性处理",
+              "title": "支持与代谢纠正",
+              "detail": "补液、别嘌醇及高钾处理等；不把急救稳定心肌的用钙自动理解为常规补钙。"
+            },
+            {
+              "date": "病情改善后",
+              "title": "照护目标讨论",
+              "detail": "结合病情和患者意愿转为舒适照护。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/x-jYUwYN918MsxbLCb-iBg/SODaht2dx61j0zSXH2qA633ikvr7XNRB.png",
+              "timepoint": "入院影像学检查",
+              "caption": "（A）动脉期腹部 CT 和（B）门静脉期显示出现大范围且外观异质的肝脏肿块",
+              "alt": "（A）动脉期腹部 CT 和（B）门静脉期显示出现大范围且外观异质的肝脏肿块",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/x-jYUwYN918MsxbLCb-iBg/OXfOsN9gGBs2otLmHGyZJTfu405BZlbi.png",
+              "timepoint": "病理检查",
+              "caption": "（A）H&E 200×形成巢穴的肿瘤上皮细胞和少数模糊的管状结构。（B）H&E 400×具有明显核多态性、高色性和非典型有丝分裂的定义不明确的小管。肿瘤细胞上 IHC 阳性（C）细胞角蛋白 5.2 和（D）阳性细胞角蛋白 20",
+              "alt": "（A）H&E 200×形成巢穴的肿瘤上皮细胞和少数模糊的管状结构。（B）H&E 400×具有明显核多态性、高色性和非典型有丝分裂的定义不明确的小管。肿瘤细胞上 IHC 阳性（C）细胞角蛋白 5.2 和（D）阳性细胞角蛋白 20",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://bosdev.liangyihui.net/temp/1659944452.png",
+              "timepoint": "未知",
+              "caption": "无明确图注",
+              "alt": "无明确图注",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "胆道恶性肿瘤"
+  }
+}

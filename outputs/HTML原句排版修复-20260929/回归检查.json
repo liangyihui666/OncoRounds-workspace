@@ -1,0 +1,193 @@
+{
+  "checks": [
+    {
+      "name": "三套图、模型调用数及知识库/研究补检分支保持",
+      "pass": true
+    },
+    {
+      "name": "全部代码语法和节点/输出引用有效",
+      "pass": true
+    },
+    {
+      "name": "真实附件1：重复questions仍拒绝，不能覆盖",
+      "pass": true
+    },
+    {
+      "name": "真实附件2：真缺四题不自动补造",
+      "pass": true
+    },
+    {
+      "name": "真实附件6：五题错位归位且内容逐字不变",
+      "pass": true
+    },
+    {
+      "name": "真实附件7：五题错位归位且内容逐字不变",
+      "pass": true
+    },
+    {
+      "name": "重复嵌套答案键也拒绝",
+      "pass": true
+    },
+    {
+      "name": "错位冲突/题号不符/不完整归位都拒绝",
+      "pass": true
+    },
+    {
+      "name": "中文断行和br显示换行可匹配，英文边界、表格边界仍保留",
+      "pass": true
+    },
+    {
+      "name": "公式排版等价支持，不改变不等号/小数/否定",
+      "pass": true
+    },
+    {
+      "name": "五题通过全部程序检查、四行解析、不泄露内部核对字段",
+      "pass": true
+    },
+    {
+      "name": "结构归位后仍完整核对五题，错误引文不得放行",
+      "pass": true
+    },
+    {
+      "name": "未完成、错计数、错答案、重复选项、错引用、检索失败仍拦截",
+      "pass": true
+    },
+    {
+      "name": "1至4题草稿不当完成，零题保留不足状态",
+      "pass": true
+    },
+    {
+      "name": "伪造病例/否定/数值/跨记录/拼接原句仍拦截",
+      "pass": true
+    },
+    {
+      "name": "第二轮看到归位后全套题及明确完整替换要求，重复键不静默丢失",
+      "pass": true
+    },
+    {
+      "name": "HTML实体/内联标签/脚本清理保留数值否定，图片不推断",
+      "pass": true
+    },
+    {
+      "name": "HTML表格片段保留单元格和行边界，不能拼成相邻中文原句",
+      "pass": true
+    },
+    {
+      "name": "文档解析空/错误/多文件不会误作有效病例",
+      "pass": true
+    },
+    {
+      "name": "16字段格式修复不猜缺失引号、重复键和非字符串",
+      "pass": true
+    },
+    {
+      "name": "HTML原文贯穿病例包、稳定ID不受模型标题影响，临床限制不丢失",
+      "pass": true
+    },
+    {
+      "name": "清洗未通过/正文改写/缺少原文不进入出题",
+      "pass": true
+    },
+    {
+      "name": "原文可作核对来源；不能引用不存在的患者事实",
+      "pass": true
+    },
+    {
+      "name": "完整输出穿过精简外层与批量，失败槽位不丢失",
+      "pass": true
+    },
+    {
+      "name": "真实HTML读取与原句回溯 136519",
+      "pass": true
+    },
+    {
+      "name": "真实HTML读取与原句回溯 137992",
+      "pass": true
+    },
+    {
+      "name": "真实HTML读取与原句回溯 139431",
+      "pass": true
+    },
+    {
+      "name": "真实HTML读取与原句回溯 143320",
+      "pass": true
+    },
+    {
+      "name": "真实HTML读取与原句回溯 144506",
+      "pass": true
+    },
+    {
+      "name": "真实HTML读取与原句回溯 151422",
+      "pass": true
+    },
+    {
+      "name": "真实HTML读取与原句回溯 151454",
+      "pass": true
+    },
+    {
+      "name": "真实HTML读取与原句回溯 153018",
+      "pass": true
+    },
+    {
+      "name": "真实HTML读取与原句回溯 162144",
+      "pass": true
+    },
+    {
+      "name": "真实HTML读取与原句回溯 163395",
+      "pass": true
+    }
+  ],
+  "passed": 34,
+  "failed": 0,
+  "actual_structure_replay": [
+    {
+      "index": 1,
+      "before_count": 5,
+      "after_count": 0,
+      "error": "重复键：$.questions",
+      "warnings": []
+    },
+    {
+      "index": 2,
+      "before_count": 1,
+      "after_count": 1,
+      "error": "",
+      "warnings": []
+    },
+    {
+      "index": 5,
+      "before_count": 5,
+      "after_count": 5,
+      "error": "",
+      "warnings": []
+    },
+    {
+      "index": 6,
+      "before_count": 1,
+      "after_count": 5,
+      "error": "",
+      "warnings": [
+        "QUESTION_LAYOUT_REPAIRED：将根级Q2、Q3、Q4、Q5原对象归入questions；未改题干、选项、答案或引文，仍须全部校验。"
+      ]
+    },
+    {
+      "index": 7,
+      "before_count": 1,
+      "after_count": 5,
+      "error": "",
+      "warnings": [
+        "QUESTION_LAYOUT_REPAIRED：将根级Q2、Q3、Q4、Q5原对象归入questions；未改题干、选项、答案或引文，仍须全部校验。"
+      ]
+    },
+    {
+      "index": 9,
+      "before_count": 5,
+      "after_count": 5,
+      "error": "",
+      "warnings": []
+    }
+  ],
+  "online_verified": false,
+  "medical_correctness_verified": false,
+  "html_model_extraction_not_executed": true
+}

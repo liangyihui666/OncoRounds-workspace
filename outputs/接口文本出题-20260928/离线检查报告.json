@@ -1,0 +1,7 @@
+{
+  "graph": "reachable_acyclic",
+  "input": "preserved",
+  "invalid_input": "rejected",
+  "ocr_nodes": 0,
+  "online_test": false
+}

@@ -1,0 +1,134 @@
+{
+  "check_count": 31,
+  "checks": [
+    {
+      "name": "三个工作流全部代码节点语法通过",
+      "pass": true
+    },
+    {
+      "name": "仅修改六个子应用节点，外层、检索、模型配置与原连线保持",
+      "pass": true
+    },
+    {
+      "name": "所有代码变量和文本模板引用有效",
+      "pass": true
+    },
+    {
+      "name": "五题20个选项原句均核对，完整四行解析与选项顺序保持",
+      "pass": true
+    },
+    {
+      "name": "旧稿缺核对材料不得直接放行，第二轮能看到逐题缺口",
+      "pass": true
+    },
+    {
+      "name": "伪造原句会拦截",
+      "pass": true
+    },
+    {
+      "name": "从摘要借句会拦截",
+      "pass": true
+    },
+    {
+      "name": "把至少改为至多会拦截",
+      "pass": true
+    },
+    {
+      "name": "把0.5改成5会拦截",
+      "pass": true
+    },
+    {
+      "name": "删除否定会拦截",
+      "pass": true
+    },
+    {
+      "name": "不连续原句拼接会拦截",
+      "pass": true
+    },
+    {
+      "name": "原句仅关键词会拦截",
+      "pass": true
+    },
+    {
+      "name": "缺一个选项原句会拦截",
+      "pass": true
+    },
+    {
+      "name": "原句数组为空会拦截",
+      "pass": true
+    },
+    {
+      "name": "病例事实不在原字段会拦截",
+      "pass": true
+    },
+    {
+      "name": "不把候选决策当病例事实会拦截",
+      "pass": true
+    },
+    {
+      "name": "竞争项不能是正确项会拦截",
+      "pass": true
+    },
+    {
+      "name": "缺判别依据会拦截",
+      "pass": true
+    },
+    {
+      "name": "另一记录有完全相同引文也不能借用",
+      "pass": true
+    },
+    {
+      "name": "真正原文的不等号、数值和否定可以逐字通过",
+      "pass": true
+    },
+    {
+      "name": "容忍空白排版差异，但不删除英文单词边界",
+      "pass": true
+    },
+    {
+      "name": "返回原句上下文、定位及重复出现次数，不裁掉限定词",
+      "pass": true
+    },
+    {
+      "name": "未提供病例包或病例原句缺失时不能跳过核对",
+      "pass": true
+    },
+    {
+      "name": "文字匹配不冒充语义支持：无关真引文仍需模型/人工复核",
+      "pass": true
+    },
+    {
+      "name": "核对通过后才能完整五题输出，诊断附带原句但公开题目不泄露内部字段",
+      "pass": true
+    },
+    {
+      "name": "1至4题不计成功，零题证据不足也无需伪造核对材料",
+      "pass": true
+    },
+    {
+      "name": "解析、引用定位与题量规则仍会拦截，不被新核对掩盖",
+      "pass": true
+    },
+    {
+      "name": "新诊断贯穿单例和批量，失败仍为原文件槽位",
+      "pass": true
+    },
+    {
+      "name": "真实旧结果缺少原句材料会明示待补，不冒充已通过加强核对",
+      "pass": true
+    },
+    {
+      "name": "旧批量十例公开接口仍兼容，不能由此宣称新原句门槛已过",
+      "pass": true
+    },
+    {
+      "name": "内部14字段示例与检查同步，外层公开结构保持原样",
+      "pass": true
+    }
+  ],
+  "online_verified": false,
+  "medical_correctness_verified": false,
+  "real_model_generation": false,
+  "synthetic_fixtures_not_medical_evidence": true,
+  "quote_matching_does_not_verify_entailment": true
+}

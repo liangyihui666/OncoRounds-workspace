@@ -1,0 +1,74 @@
+{
+  "events": [
+    {
+      "id": "E01",
+      "event_name": "GrandRoundsHomeView",
+      "trigger": "大查房首页加载完成",
+      "properties": ["platform", "device"],
+      "purpose": "首页曝光、入口到达"
+    },
+    {
+      "id": "E02",
+      "event_name": "GrandRoundsCaseView",
+      "trigger": "病例卡片/病例详情有效曝光",
+      "properties": ["grand_rounds_case_id", "grand_rounds_case_name", "grand_rounds_case_type"],
+      "purpose": "分析病例曝光及病例偏好"
+    },
+    {
+      "id": "E03",
+      "event_name": "GrandRoundsStartRoundClick",
+      "trigger": "点击【开始查房】",
+      "properties": ["grand_rounds_case_id", "grand_rounds_case_name"],
+      "purpose": "开始查房意愿、登录前置漏斗"
+    },
+    {
+      "id": "E04",
+      "event_name": "GrandRoundsRegisterLoginSuccess",
+      "trigger": "因大查房触发登录，并登录成功回跳",
+      "properties": ["grand_rounds_case_id"],
+      "purpose": "登录转化及登录造成的流失"
+    },
+    {
+      "id": "E05",
+      "event_name": "GrandRoundsContinueRoundClick",
+      "trigger": "完成病例后点击【下一病例】",
+      "properties": ["grand_rounds_case_id", "grand_rounds_round_id", "grand_rounds_next_case_id"],
+      "purpose": "判断完成首例后的继续意愿"
+    },
+    {
+      "id": "E06",
+      "event_name": "GrandRoundsRoundStart",
+      "trigger": "正式进入病例问答首题",
+      "properties": ["grand_rounds_round_id", "grand_rounds_case_id", "grand_rounds_case_name", "grand_rounds_entry_source"],
+      "purpose": "查房真正开始、连续查房分析"
+    },
+    {
+      "id": "E07",
+      "event_name": "GrandRoundsQuestionAnswer",
+      "trigger": "用户提交单题答案",
+      "properties": ["grand_rounds_round_id", "grand_rounds_case_id", "grand_rounds_question_id", "grand_rounds_is_correct", "grand_rounds_cost_time"],
+      "purpose": "单题正确率、耗时、病例难度分析"
+    },
+    {
+      "id": "E08",
+      "event_name": "GrandRoundsCaseComplete",
+      "trigger": "完成最后一道题并成功生成/到达病例总结",
+      "properties": ["grand_rounds_round_id", "grand_rounds_case_id", "grand_rounds_completed_at", "grand_rounds_duration"],
+      "purpose": "病例完成率、完成耗时、连续查房起点"
+    },
+    {
+      "id": "E09",
+      "event_name": "GrandRoundsSummaryView",
+      "trigger": "总结页成功曝光",
+      "properties": ["grand_rounds_round_id", "grand_rounds_case_id", "grand_rounds_score"],
+      "purpose": "总结页到达及后续行为分析"
+    },
+    {
+      "id": "E10",
+      "event_name": "GrandRoundsShareClick",
+      "trigger": "点击【分享】",
+      "properties": ["grand_rounds_round_id", "grand_rounds_case_id", "grand_rounds_share_channel"],
+      "purpose": "分享传播"
+    }
+  ]
+}

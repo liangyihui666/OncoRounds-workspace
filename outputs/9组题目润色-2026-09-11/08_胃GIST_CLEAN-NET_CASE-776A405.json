@@ -1,0 +1,295 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-776A405",
+    "cancer_type": "骨与软组织肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "分子诊断",
+        "phase": "病理诊断",
+        "timepoint": "术前活检后",
+        "question": "近贲门胃部肿瘤为梭形细胞病变，KIT、DOG1及CD34免疫组化阳性。对KIT阳性的含义，哪项理解正确？",
+        "options": {
+          "A": "已经证实KIT基因外显子11突变",
+          "B": "已经排除PDGFRA突变及其他分子亚型",
+          "C": "已经足以决定术后必须使用伊马替尼",
+          "D": "支持GIST诊断，但不能替代KIT/PDGFRA基因检测"
+        },
+        "answer": "D",
+        "answer_text": "支持GIST诊断，但不能替代KIT/PDGFRA基因检测",
+        "explain": "免疫组化反映蛋白表达，基因检测回答具体分子改变。二者有关联但不能等同，KIT阳性也不是术后辅助治疗的独立指征。",
+        "keyPoint": "区分免疫表型与基因变异，避免由蛋白阳性推导用药。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "GEIS",
+          "source_title": "2023 GEIS Guidelines for gastrointestinal stromal tumors",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10467260/",
+          "evidence_summary": "GIST诊断可使用KIT、DOG1等免疫表型；分子检测与风险评估服务于后续治疗选择。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "治疗决策",
+        "phase": "局部手术计划",
+        "timepoint": "改良CLEAN-NET术前",
+        "question": "患者为约3 cm、靠近贲门的胃GIST，未见播散或远处转移。设计局部切除方案时，哪项最能兼顾肿瘤控制与器官功能？",
+        "options": {
+          "A": "优先扩大胃切除范围，贲门功能作为次要观察项目",
+          "B": "只追求最小胃壁切除，不必评估包膜完整性",
+          "C": "以常规扩大淋巴结清扫替代局部切缘控制",
+          "D": "完整切除并避免肿瘤破裂，同时评估贲门狭窄风险"
+        },
+        "answer": "D",
+        "answer_text": "完整切除并避免肿瘤破裂，同时评估贲门狭窄风险",
+        "explain": "局限性GIST手术需兼顾完整切除、包膜保护与功能保存。本例所用术式是一种实现这些目标的技术选择，单例成功不能证明其普遍优于其他局部切除方法。",
+        "keyPoint": "近贲门GIST的术式选择应服务于完整切除和功能保护。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "GEIS",
+          "source_title": "2023 GEIS Guidelines for gastrointestinal stromal tumors",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10467260/",
+          "evidence_summary": "局限性GIST手术以完整切除和避免破裂为原则，切除范围应兼顾器官功能。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "诊断与分期",
+        "phase": "术后复发风险分层",
+        "timepoint": "病理回报时",
+        "question": "病理报告将本例胃GIST评为低风险。若独立复核这一结论，除约3 cm的直径外，还应重点核对哪些资料？",
+        "options": {
+          "A": "KIT染色强度、切口长度和进食恢复速度",
+          "B": "术后三个月是否复发及患者满意度",
+          "C": "原发部位、核分裂计数及肿瘤破裂情况",
+          "D": "患者性别、手术时长和住院天数"
+        },
+        "answer": "C",
+        "answer_text": "原发部位、核分裂计数及肿瘤破裂情况",
+        "explain": "复发风险不能只由尺寸或短期无复发确定。需核对核分裂计数及其计量面积、部位和破裂情况；原文未给出的核分裂数值不能为了匹配低风险标签而补写。",
+        "keyPoint": "GIST风险分层需要尺寸之外的关键病理与手术信息。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "GEIS",
+          "source_title": "2023 GEIS Guidelines for gastrointestinal stromal tumors",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10467260/",
+          "evidence_summary": "GIST风险评估考虑肿瘤部位、大小、核分裂活性和破裂，计数需注意面积标准。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "治疗决策",
+        "phase": "术后辅助治疗",
+        "timepoint": "确认完整切除及低风险后",
+        "question": "本例完整切除、切缘阴性，病理评估为低风险GIST。关于辅助伊马替尼，哪项最合理？",
+        "options": {
+          "A": "因KIT阳性即常规使用，与风险层级无关",
+          "B": "通常不常规给予，是否适用须看复发风险和分子敏感性",
+          "C": "因采用微创切除就增加辅助治疗以弥补手术范围",
+          "D": "因位于贲门附近即认定高风险，固定治疗三年"
+        },
+        "answer": "B",
+        "answer_text": "通常不常规给予，是否适用须看复发风险和分子敏感性",
+        "explain": "辅助伊马替尼主要用于具有相应复发风险且分子敏感的患者。低风险、完整切除不能因KIT染色阳性或术式微创而自动升级为辅助治疗对象。",
+        "keyPoint": "辅助治疗取决于复发风险和分子敏感性，而非单一免疫标记。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "GEIS",
+          "source_title": "2023 GEIS Guidelines for gastrointestinal stromal tumors",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10467260/",
+          "evidence_summary": "辅助伊马替尼推荐与高复发风险及敏感基因型相关，不因KIT免疫组化阳性自动适用。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "疗效复评与局部治疗",
+        "phase": "术后随访",
+        "timepoint": "术后3个月无复发时",
+        "question": "术后三个月进食良好且未见复发。对于低风险胃GIST，后续随访应如何理解？",
+        "options": {
+          "A": "仅复查胸部影像，不再关注肝脏与腹膜",
+          "B": "三个月无复发足以结束影像随访",
+          "C": "按高风险方案固定每三个月复查，不考虑负担",
+          "D": "按风险选择腹部影像与间隔，并说明随访证据的局限"
+        },
+        "answer": "D",
+        "answer_text": "按风险选择腹部影像与间隔，并说明随访证据的局限",
+        "explain": "短期结果不能证明长期治愈。低风险GIST的随访强度可低于高风险组，具体间隔在指南间存在差异，需结合患者风险及负担制定，不能把某一时间表写成无条件唯一标准。",
+        "keyPoint": "GIST随访应风险分层，兼顾复发模式与检查负担。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "British Sarcoma Group",
+          "source_title": "Gastrointestinal stromal tumour (GIST): British Sarcoma Group clinical practice guidelines",
+          "source_version": "",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11723931/",
+          "evidence_summary": "低风险GIST随访获益及最优频率证据有限，若随访通常采用腹部CT或MRI等并按风险安排。"
+        }
+      }
+    ],
+    "missing_information": [],
+    "second_cancer_type": "胃肠道间质瘤"
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-776A405",
+    "cancer_type": "骨与软组织肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/1wiO66N_AL4gBBxtCAUvHQ/CGCSUAotUVFpXVxGSPA53f3xbQG7GlZp.png",
+      "alt": "图 1.术前检查。A.医疗检查中的内镜检查结果。在靠近贲门的胃体上部后壁观察到一个直径约 3 cm、无溃疡的胃黏膜下肿瘤（蓝色箭头）。B.上消化道造影结果显示胃黏膜下肿瘤（黄色箭头）位于贲门附近（蓝色箭头）。C.增强计算机断层扫描图像显示胃内腔内肿瘤（直径 3 cm）（黄色箭头）。D.内镜超声检查结果显示起源于第四层的黏膜下肿瘤。"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "43 岁女性胃体上部近贲门胃肠道间质瘤行改良 CLEAN-NET 手术病例",
+      "description": "43岁女性，胃贲门附近后壁约3 cm胃肠道间质瘤，KIT、CD34及DOG1免疫组化阳性，S100和SMA阴性，CT未见明确播散。接受改良CLEAN-NET切除，切缘阴性，原文按改良Fletcher标准评为低风险。手术约147分钟、出血约3 mL，术后第9天出院，3个月未见复发。原文未提供完整核分裂计数，不能由免疫组化阳性推定KIT基因突变或自行重算风险。"
+    },
+    "overview": {
+      "hero": {
+        "title": "43 岁女性胃体上部近贲门胃肠道间质瘤行改良 CLEAN-NET 手术病例",
+        "subtitle": "病理诊断；局部手术计划；术后复发风险分层；术后辅助治疗；术后随访。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者与就诊背景",
+              "value": "43岁女性，胃贲门附近后壁约3 cm胃肠道间质瘤，KIT、CD34及DOG1免疫组化阳性，S100和SMA阴性，CT未见明确播散。接受改良CLEAN-NET切除，切缘阴性，原文按改良Fletcher标准评为低风险。手术约147分钟、出血约3 mL，术后第9天出院，3个月未见复发。原文未提供完整核分裂计数，不能由免疫组化阳性推定KIT基因突变或自行重算风险。"
+            },
+            {
+              "order": 2,
+              "label": "疾病与分期",
+              "value": "胃部胃肠道间质瘤（胃GIST），原文评为低风险；风险复核需完整病理及肿瘤破裂信息。"
+            },
+            {
+              "order": 3,
+              "label": "分子与病理",
+              "value": "KIT、CD34、DOG1阳性，S100、SMA阴性；切缘阴性。免疫组化KIT阳性不等同KIT基因突变；未提供完整核分裂计数及突变检测结果。"
+            },
+            {
+              "order": 4,
+              "label": "核心教学点",
+              "value": "病理诊断；局部手术计划；术后复发风险分层；术后辅助治疗；术后随访。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "术前",
+              "title": "定位及诊断",
+              "detail": "贲门附近胃后壁约3 cm病灶，病理及免疫组化支持GIST，CT未见明确播散。"
+            },
+            {
+              "date": "手术期",
+              "title": "改良CLEAN-NET切除",
+              "detail": "采用改良切除及缝合方式，兼顾完整切除和贲门功能；手术约147分钟，出血约3 mL。"
+            },
+            {
+              "date": "术后病理",
+              "title": "切缘阴性",
+              "detail": "原文评为低风险；不补造核分裂计数或KIT突变。"
+            },
+            {
+              "date": "术后第9天",
+              "title": "出院",
+              "detail": "恢复后出院。"
+            },
+            {
+              "date": "术后3个月",
+              "title": "随访",
+              "detail": "未见复发，继续按风险安排随访。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/1wiO66N_AL4gBBxtCAUvHQ/CGCSUAotUVFpXVxGSPA53f3xbQG7GlZp.png",
+              "timepoint": "术前检查",
+              "caption": "图 1.术前检查。A.医疗检查中的内镜检查结果。在靠近贲门的胃体上部后壁观察到一个直径约 3 cm、无溃疡的胃黏膜下肿瘤（蓝色箭头）。B.上消化道造影结果显示胃黏膜下肿瘤（黄色箭头）位于贲门附近（蓝色箭头）。C.增强计算机断层扫描图像显示胃内腔内肿瘤（直径 3 cm）（黄色箭头）。D.内镜超声检查结果显示起源于第四层的黏膜下肿瘤。",
+              "alt": "图 1.术前检查。A.医疗检查中的内镜检查结果。在靠近贲门的胃体上部后壁观察到一个直径约 3 cm、无溃疡的胃黏膜下肿瘤（蓝色箭头）。B.上消化道造影结果显示胃黏膜下肿瘤（黄色箭头）位于贲门附近（蓝色箭头）。C.增强计算机断层扫描图像显示胃内腔内肿瘤（直径 3 cm）（黄色箭头）。D.内镜超声检查结果显示起源于第四层的黏膜下肿瘤。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/1wiO66N_AL4gBBxtCAUvHQ/XhY3HeNoEctn1gq6KP3K9GoXGe4nyhso.png",
+              "timepoint": "术中操作",
+              "caption": "图 2.改良 CLEAN-NET 手术。A.使用术中内镜在肿瘤周围黏膜下层注射吲哚菁绿 (ICG) 四点。B.在使用 ICG 注射高精度确认肿瘤位置后，仅在贲门对侧使用腹腔镜电刀进行半圆形浆膜肌层切开。C.在腹腔镜手术中使用两个钳子将肿瘤从浆膜肌层切口部位推到腔外。D.使用线性吻合器对包括肿瘤在内的胃壁进行腹腔镜全层钳夹，并使用术中内镜确认无残留肿瘤和贲门保留。E.肿瘤切除后，术中内镜检查确认无残留肿瘤、贲门明确保留、吻合口线无活动性出血，充气扩张时吻合口线无假性憩室。",
+              "alt": "图 2.改良 CLEAN-NET 手术。A.使用术中内镜在肿瘤周围黏膜下层注射吲哚菁绿 (ICG) 四点。B.在使用 ICG 注射高精度确认肿瘤位置后，仅在贲门对侧使用腹腔镜电刀进行半圆形浆膜肌层切开。C.在腹腔镜手术中使用两个钳子将肿瘤从浆膜肌层切口部位推到腔外。D.使用线性吻合器对包括肿瘤在内的胃壁进行腹腔镜全层钳夹，并使用术中内镜确认无残留肿瘤和贲门保留。E.肿瘤切除后，术中内镜检查确认无残留肿瘤、贲门明确保留、吻合口线无活动性出血，充气扩张时吻合口线无假性憩室。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/1wiO66N_AL4gBBxtCAUvHQ/HRABaJILCdkMDht3nuSrsjHOdLLNqQHg.png",
+              "timepoint": "术后病理及标本",
+              "caption": "图 3.切除标本和病理结果。A.切除标本显示包括肿瘤在内的胃壁切除范围最小，并且没有黏膜损伤，实现了非暴露切除。虚线所示的手术切缘略宽区域对应于半圆形浆膜肌层切口的区域。B.福尔马林固定标本的切片图像也显示肿瘤完全切除，胃壁切除范围最小。箭头指示浆膜肌层切口的位置。C.苏木精和伊红染色的低倍镜图像。D.苏木精和伊红染色的高倍镜图像，显示梭形肿瘤细胞和与胃肠道间质瘤诊断一致的组织病理学结果。E.免疫病理学结果显示 KIT 阳性。F.免疫病理学结果显示 CD34 阳性。",
+              "alt": "图 3.切除标本和病理结果。A.切除标本显示包括肿瘤在内的胃壁切除范围最小，并且没有黏膜损伤，实现了非暴露切除。虚线所示的手术切缘略宽区域对应于半圆形浆膜肌层切口的区域。B.福尔马林固定标本的切片图像也显示肿瘤完全切除，胃壁切除范围最小。箭头指示浆膜肌层切口的位置。C.苏木精和伊红染色的低倍镜图像。D.苏木精和伊红染色的高倍镜图像，显示梭形肿瘤细胞和与胃肠道间质瘤诊断一致的组织病理学结果。E.免疫病理学结果显示 KIT 阳性。F.免疫病理学结果显示 CD34 阳性。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG4",
+              "src": "https://bosdev.liangyihui.net/temp/1660012838.png",
+              "timepoint": "时间点不详",
+              "caption": "无明确图注。",
+              "alt": "无明确图注。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG5",
+              "src": "https://bosdev.liangyihui.net/temp/1660012838.png",
+              "timepoint": "时间点不详",
+              "caption": "无明确图注。",
+              "alt": "无明确图注。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "胃肠道间质瘤"
+  }
+}

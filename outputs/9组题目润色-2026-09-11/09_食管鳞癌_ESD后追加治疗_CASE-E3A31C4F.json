@@ -1,0 +1,295 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-E3A31C4F",
+    "cancer_type": "消化系统肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "治疗决策",
+        "phase": "ESD后追加治疗评估",
+        "timepoint": "ESD病理回报后",
+        "question": "食管鳞癌ESD病理为pT1a-MM，存在脉管瘤栓，垂直切缘阴性。哪项最能说明仍需讨论追加治疗？",
+        "options": {
+          "A": "病理已经属于pT1a，因此不能使用任何局部治疗",
+          "B": "垂直切缘阴性即可证明区域淋巴结没有风险",
+          "C": "曾完成ESD说明手术已无法再实施",
+          "D": "脉管侵犯提示转移风险，不能仅凭浅表浸润判为治愈性切除"
+        },
+        "answer": "D",
+        "answer_text": "脉管侵犯提示转移风险，不能仅凭浅表浸润判为治愈性切除",
+        "explain": "本例的关键高危因素是脉管侵犯。日本食管癌指南对这类病理结果建议评估手术或放化疗等追加治疗；不应把“局部切掉了”直接等同于区域风险已消除。",
+        "keyPoint": "ESD后治愈性评价需考虑脉管侵犯，不能只看T分期。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "Japan Esophageal Society",
+          "source_title": "Esophageal cancer practice guidelines 2022 edited by the Japan esophageal society: part 1",
+          "source_version": "2022",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10024303/",
+          "evidence_summary": "pT1a-MM伴脉管侵犯的患者需考虑追加手术或放化疗。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "诊断与分期",
+        "phase": "区域淋巴结复评",
+        "timepoint": "ESD后分期CT检查时",
+        "question": "CT显示气管隆突前和隆突下淋巴结稍大，摘要未提供组织学证据。对这些淋巴结应如何处理？",
+        "options": {
+          "A": "结合大小形态和其他检查评估，必要时取样，不直接写成病理转移",
+          "B": "因原发病灶为pT1a，直接认定所有淋巴结均为炎症",
+          "C": "只要“稍大”即可认定pN阳性并确定清扫后病理分期",
+          "D": "用原发灶切缘阴性替代淋巴结评估，按N0随访"
+        },
+        "answer": "A",
+        "answer_text": "结合大小形态和其他检查评估，必要时取样，不直接写成病理转移",
+        "explain": "影像异常需要结合其可信度及是否影响方案进一步评估。临床判断与病理N分期不同，摘要中的“稍大”不能自动升级为确诊转移，也不能因浅表原发灶而忽略。",
+        "keyPoint": "区域淋巴结的临床怀疑与病理证实应分开记录。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "Japan Esophageal Society",
+          "source_title": "Esophageal cancer practice guidelines 2022 edited by the Japan esophageal society: part 1",
+          "source_version": "2022",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10024303/",
+          "evidence_summary": "早期食管癌治疗选择需进行临床分期并评估区域淋巴结，不能以单一局部因素代替整体评估。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "诊断与分期",
+        "phase": "切缘报告复核",
+        "timepoint": "ESD病理复核时",
+        "question": "报告写“肿瘤距最近水平切缘＜1 mm”，垂直切缘阴性。对水平切缘最准确的表述是？",
+        "options": {
+          "A": "只要垂直切缘阴性，水平切缘内容可以省略",
+          "B": "应核对HM状态，距离近不能直接改写为切缘阳性",
+          "C": "只要距离＜1 mm，就能推定已有区域淋巴结转移",
+          "D": "已证实水平切缘阳性，与残留肿瘤同义"
+        },
+        "answer": "B",
+        "answer_text": "应核对HM状态，距离近不能直接改写为切缘阳性",
+        "explain": "距离描述与切缘是否受累不是同一个结论，需要原始病理明确HM状态。本例有脉管侵犯，追加治疗讨论不能依赖把“切缘近”改造成“阳性”来成立。",
+        "keyPoint": "水平切缘距离、HM状态与脉管侵犯应分别记录。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "Korean Society of Gastrointestinal Endoscopy",
+          "source_title": "Clinical practice guideline for endoscopic resection of early gastrointestinal cancer",
+          "source_version": "2020",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8100377/",
+          "evidence_summary": "内镜切除后的风险评价分别考虑水平/垂直切缘和脉管侵犯等病理因素。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "治疗决策",
+        "phase": "追加治疗方案选择",
+        "timepoint": "完成ESD后再分期时",
+        "question": "针对pT1a-MM伴脉管侵犯的食管鳞癌，团队讨论食管切除术与放化疗。哪种决策方式最恰当？",
+        "options": {
+          "A": "结合再分期、手术耐受性、放化疗适宜性和患者意愿选择",
+          "B": "仅按患者年龄决定，其他器官功能无需评估",
+          "C": "因原文患者接受手术，规定同类患者均只能手术",
+          "D": "将普通放疗与同步放化疗视为相同治疗策略"
+        },
+        "answer": "A",
+        "answer_text": "结合再分期、手术耐受性、放化疗适宜性和患者意愿选择",
+        "explain": "两种追加治疗路径需要结合个体风险和耐受性讨论。不能将放化疗简写为“补充放疗”而丢失方案差异，也不能由一个病例的选择证明另一方案普遍不适用。",
+        "keyPoint": "追加治疗比较应匹配具体方案及患者条件。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "Japan Esophageal Society",
+          "source_title": "Esophageal cancer practice guidelines 2022 edited by the Japan esophageal society: part 1",
+          "source_version": "2022",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10024303/",
+          "evidence_summary": "内镜切除后高危病理患者可讨论食管切除或放化疗，方案选择需个体化评估。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "治疗决策",
+        "phase": "研究证据适用性",
+        "timepoint": "追加治疗方案的教学讨论",
+        "question": "团队引用JCOG0508支持“诊断性内镜切除后选择性放化疗”。使用这项证据时，哪项理解最准确？",
+        "options": {
+          "A": "其结果证明放化疗在随机头对头比较中优于手术",
+          "B": "其结果支持特定早期人群的分层策略，不能视为与手术等效的随机证据",
+          "C": "其结果证明所有ESD后患者均可省略进一步病理分层",
+          "D": "其结果可直接适用于任何临床N分期及任何切缘状态"
+        },
+        "answer": "B",
+        "answer_text": "其结果支持特定早期人群的分层策略，不能视为与手术等效的随机证据",
+        "explain": "该研究按内镜切除后的病理风险选择后续处理，并非手术与放化疗的随机头对头比较。引用时需核对研究入组及分层条件，不能把良好的生存结果变成所有患者方案等效的证明。",
+        "keyPoint": "研究结果应按设计和入组边界使用，不能扩大为普遍等效结论。",
+        "guidelineRef": {
+          "evidence_type": "临床研究",
+          "doc_id": "",
+          "split_index": null,
+          "type": "journal",
+          "authority": "",
+          "source_title": "Final Analysis of Diagnostic Endoscopic Resection Followed by Selective Chemoradiotherapy for Stage I Esophageal Cancer: JCOG0508",
+          "source_version": "",
+          "source_section": "",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/36240951/",
+          "evidence_summary": "JCOG0508评价诊断性内镜切除后选择性放化疗策略，不是与食管切除术的随机头对头试验。"
+        }
+      }
+    ],
+    "missing_information": [],
+    "second_cancer_type": "食管癌"
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-E3A31C4F",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/RxFqIOTEWBvFjvUO0L_gfg/2g0FMAhY4ktSTnaN6gO51Q59SLISswD4.png",
+      "alt": "无明确图注文字"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "食管中低分化鳞癌 ESD 术后追加根治术病例",
+      "description": "54岁男性因进食相关不适就诊，食管病灶接受ESD，病理为中至低分化鳞癌、pT1a-MM，伴脉管瘤栓；垂直切缘阴性，肿瘤距最近水平切缘＜1 mm，不能仅据距离认定水平切缘阳性。病灶约4.5×3.2 cm。CT提示部分纵隔淋巴结稍大，不能直接写成病理N阳性。团队讨论追加治疗后实施食管切除术；所给资料未提供可核验的最终淋巴结病理分期及长期结局。"
+    },
+    "overview": {
+      "hero": {
+        "title": "食管中低分化鳞癌 ESD 术后追加根治术病例",
+        "subtitle": "ESD后追加治疗评估；区域淋巴结复评；切缘报告复核；追加治疗方案选择；研究证据适用性。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者与就诊背景",
+              "value": "54岁男性因进食相关不适就诊，食管病灶接受ESD，病理为中至低分化鳞癌、pT1a-MM，伴脉管瘤栓；垂直切缘阴性，肿瘤距最近水平切缘＜1 mm，不能仅据距离认定水平切缘阳性。病灶约4.5×3.2 cm。CT提示部分纵隔淋巴结稍大，不能直接写成病理N阳性。团队讨论追加治疗后实施食管切除术；所给资料未提供可核验的最终淋巴结病理分期及长期结局。"
+            },
+            {
+              "order": 2,
+              "label": "疾病与分期",
+              "value": "食管鳞癌ESD病理pT1a-MM伴脉管侵犯；需要追加治疗评估。影像淋巴结稍大不等于病理证实转移。"
+            },
+            {
+              "order": 3,
+              "label": "分子与病理",
+              "value": "中至低分化鳞癌，浸润黏膜肌层，脉管瘤栓；垂直切缘阴性，水平切缘距离＜1 mm，HM是否受累需核对。原文未提供特异性分子标志物检测结果。"
+            },
+            {
+              "order": 4,
+              "label": "核心教学点",
+              "value": "ESD后追加治疗评估；区域淋巴结复评；切缘报告复核；追加治疗方案选择；研究证据适用性。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "就诊前约2个月",
+              "title": "出现症状",
+              "detail": "食管相关症状后接受内镜评估。"
+            },
+            {
+              "date": "内镜治疗",
+              "title": "ESD切除",
+              "detail": "切除病灶约4.5×3.2 cm。"
+            },
+            {
+              "date": "ESD病理",
+              "title": "发现高危因素",
+              "detail": "pT1a-MM、中至低分化鳞癌、脉管侵犯，垂直切缘阴性，水平切缘距离近。"
+            },
+            {
+              "date": "追加治疗前",
+              "title": "再分期及方案讨论",
+              "detail": "CT部分纵隔淋巴结稍大；结合风险及耐受性讨论手术与放化疗。"
+            },
+            {
+              "date": "后续治疗",
+              "title": "食管切除术",
+              "detail": "原文选择三切口食管切除；最终pN及长期结局未提供，不补写。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/RxFqIOTEWBvFjvUO0L_gfg/2g0FMAhY4ktSTnaN6gO51Q59SLISswD4.png",
+              "timepoint": "ESD 手术描述后",
+              "caption": "无明确图注文字",
+              "alt": "无明确图注文字",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/RxFqIOTEWBvFjvUO0L_gfg/JfzJuvxmlGiVm2LBksT3Pe0aCyfvcBQI.png",
+              "timepoint": "病理描述后",
+              "caption": "无明确图注文字",
+              "alt": "无明确图注文字",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG3",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/RxFqIOTEWBvFjvUO0L_gfg/QJyp00Xe87f99GBKNH12zxGcDCFUvEpL.png",
+              "timepoint": "治疗策略讨论文本中",
+              "caption": "无明确图注文字",
+              "alt": "无明确图注文字",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG4",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/RxFqIOTEWBvFjvUO0L_gfg/VWUhWvDVwelNbssLNLn99gjbocUrGKqD.png",
+              "timepoint": "研究数据讨论文本中",
+              "caption": "无明确图注文字",
+              "alt": "无明确图注文字",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG5",
+              "src": "https://bosdev.liangyihui.net/temp/1659944452.png",
+              "timepoint": "未知",
+              "caption": "无",
+              "alt": "无",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "食管癌"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "only_changed": "病例结构化提取/systemPrompt/时间轴格式",
+  "schema_unchanged": true,
+  "code_syntax_valid": true,
+  "api_calls": 0,
+  "online_verified": false
+}

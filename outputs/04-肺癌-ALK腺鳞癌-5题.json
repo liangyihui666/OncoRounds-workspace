@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "case_id": "lung-alk-adenosquamous",
+  "cancer_type": "肺癌",
+  "generation_status": "success",
+  "difficulty": "进阶",
+  "question_count": 5,
+  "questions": [
+    {
+      "id": "Q1",
+      "type": "诊断策略",
+      "phase": "初始临床分期与手术规划",
+      "timepoint": "当前教学复盘：2023年8月初诊时",
+      "question": "患者影像学提示肺门淋巴结可疑，但EBUS-TBNA未证实转移。若MDT评估后仍进入手术路径，为提高病理分期准确性，术中最合理的淋巴结处理是？",
+      "options": {
+        "A": "EBUS-TBNA阴性即可省略术中淋巴结评估",
+        "B": "仅切除影像学最大的肺门淋巴结",
+        "C": "系统性进行纵隔及肺门淋巴结取样或清扫",
+        "D": "仅在术后影像提示复发时再评价淋巴结"
+      },
+      "answer": "C",
+      "answer_text": "系统性进行纵隔及肺门淋巴结取样或清扫",
+      "explain": "阴性的术前针吸结果不能替代手术路径中的规范淋巴结评估。CHEST指南建议，拟切除的临床I至II期NSCLC应系统性进行纵隔及肺门淋巴结取样或清扫，以获得准确的病理分期。该指南版本晚于病例初诊时间，本题用于当前教学复盘。",
+      "keyPoint": "进入手术路径后仍需系统性完成肺门和纵隔淋巴结评估。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "e2574d47-8f47-4596-bd57-d10e71895310",
+        "split_index": 8,
+        "type": "guideline",
+        "authority": "CHEST",
+        "source_title": "Management of Patients With Early-Stage Non-Small Cell Lung Cancer",
+        "source_version": "2025",
+        "source_section": "Lymph Node Evaluation",
+        "source_url": "",
+        "evidence_summary": "指南建议拟切除的临床I至II期NSCLC系统性进行纵隔及肺门淋巴结取样或清扫，以获得准确的病理分期。"
+      }
+    },
+    {
+      "id": "Q2",
+      "type": "诊断策略",
+      "phase": "初诊有限活检病理评估",
+      "timepoint": "当前教学复盘：2023年8月有限活检时",
+      "question": "支气管镜标本组织有限，形态仅倾向鳞癌，TTF-1阴性、P40局灶弱阳性且CK5/6阳性。兼顾组织学分型与后续治疗相关检测，最合理的病理策略是？",
+      "options": {
+        "A": "追加尽可能完整的免疫组化套餐直至组织耗尽",
+        "B": "采用TTF-1、P40等精简标志物完成倾向性分型并保留组织",
+        "C": "仅凭CK5/6阳性即可排除腺癌成分并终止分子检测",
+        "D": "小活检不能准确分型，因此无需进行任何免疫组化"
+      },
+      "answer": "B",
+      "answer_text": "采用TTF-1、P40等精简标志物完成倾向性分型并保留组织",
+      "explain": "有限标本应避免无目的地扩大免疫组化套餐。共识建议根据形态选择精简标志物完成腺癌与鳞癌的倾向性分型，同时保留足够组织用于治疗相关分子检测。该共识版本晚于病例初诊时间，本题用于当前教学复盘。",
+      "keyPoint": "有限活检应以精简免疫组化兼顾分型和组织保留。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "3c135c66-a9b5-48a9-8262-e2c3939ca5ac",
+        "split_index": 7,
+        "type": "guideline",
+        "authority": "CACA",
+        "source_title": "肺癌小活检标本病理诊断规范专家共识",
+        "source_version": "2024",
+        "source_section": "（二）肺癌小活检标本诊断规范及推荐术语（表1）",
+        "source_url": "",
+        "evidence_summary": "共识建议小活检使用精简免疫组化完成倾向性分型，并预留足够组织用于治疗相关分子检测。"
+      }
+    },
+    {
+      "id": "Q3",
+      "type": "治疗决策",
+      "phase": "根治性切除后辅助治疗",
+      "timepoint": "当前教学复盘：2024年5月根治性切除后",
+      "question": "患者完成根治性切除，术后病理为ALK融合阳性、ypT2N0M0。结合现有研究结果，术后系统治疗最值得优先讨论的循证方向是？",
+      "options": {
+        "A": "优先讨论阿来替尼辅助治疗",
+        "B": "因PD-L1低表达而优先选择免疫单药",
+        "C": "因鳞癌成分占优势而必须选择含铂化疗",
+        "D": "ALK状态仅影响晚期治疗，术后只能观察"
+      },
+      "answer": "A",
+      "answer_text": "优先讨论阿来替尼辅助治疗",
+      "explain": "ALINA是一项比较辅助阿来替尼与含铂化疗的Ⅲ期随机研究，结果显示阿来替尼显著改善完全切除的IB至IIIA期ALK阳性NSCLC患者的DFS。本患者既往接受过术前免疫化疗及阿来替尼转化治疗，与ALINA典型研究路径并不完全相同，因此应将该结果作为重要依据，由MDT结合既往治疗个体化讨论，而不能机械外推。",
+      "keyPoint": "ALINA支持术后阿来替尼的DFS获益，但复杂既往治疗路径仍需评估证据适用边界。",
+      "guidelineRef": {
+        "evidence_type": "临床研究",
+        "doc_id": "c5fdc15964026728bfb3b575037c5588",
+        "split_index": 1,
+        "type": "meeting",
+        "authority": "ESMO",
+        "source_title": "LBA2 - ALINA: Efficacy and safety of adjuvant alectinib versus chemotherapy in patients with early-stage ALK+ non-small cell lung cancer (NSCLC)",
+        "source_version": "2023",
+        "source_section": "LBA2 - ALINA: Efficacy and safety of adjuvant alectinib versus chemotherapy in patients with early-stage ALK+ non-small cell lung cancer (NSCLC)",
+        "source_url": "https://cslide.ctimeetingtech.com/esmo2023/attendee/confcal/show/session/65",
+        "evidence_summary": "ALINA研究显示，辅助阿来替尼较含铂化疗显著改善完全切除的IB至IIIA期ALK阳性NSCLC患者DFS。"
+      }
+    },
+    {
+      "id": "Q4",
+      "type": "证据适用性",
+      "phase": "辅助靶向治疗期间新发脑部病灶评估",
+      "timepoint": "当前教学复盘：2024年12月发现脑部强化灶时",
+      "question": "阿来替尼期间MRI发现新发单个脑部强化灶，考虑转移可能，但同期全身复查尚未完成。在定义为CNS寡进展并决定继续或更换ALK-TKI前，最合理的下一步是？",
+      "options": {
+        "A": "立即定义为寡进展并永久维持原方案",
+        "B": "仅凭单个脑灶立即更换为另一种ALK-TKI",
+        "C": "完善全身复评并经MDT确认进展范围，同时评估脑灶局部处理紧迫性",
+        "D": "等待出现多个脑转移后再进行任何评估"
+      },
+      "answer": "C",
+      "answer_text": "完善全身复评并经MDT确认进展范围，同时评估脑灶局部处理紧迫性",
+      "explain": "指南对寡进展或CNS进展与广泛进展采用不同治疗路径。当前尚缺颅外疾病状态，不能提前定义寡进展；应先明确进展范围，同时根据神经症状和脑部病灶风险判断局部治疗紧迫性。该指南版本晚于病例事件时间，本题用于当前教学复盘。",
+      "keyPoint": "全身状态未知时不得提前定义寡进展或直接决定继续、停用或更换ALK-TKI。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "065ff4dc-ec1b-442e-8381-e8d820673576",
+        "split_index": 181,
+        "type": "guideline",
+        "authority": "CSCO",
+        "source_title": "中国临床肿瘤学会（CSCO）非小细胞肺癌诊疗指南 2026",
+        "source_version": "2026",
+        "source_section": "【注释】",
+        "source_url": "",
+        "evidence_summary": "指南区分ALK-TKI治疗后的寡进展、CNS进展和广泛进展，并针对不同进展范围列出不同治疗策略。"
+      }
+    },
+    {
+      "id": "Q5",
+      "type": "局部治疗决策",
+      "phase": "脑部病灶局部治疗选择",
+      "timepoint": "当前教学复盘：假设完成全身复评并确认单发脑转移后",
+      "question": "假设后续复评确认该病灶为单发、小体积脑转移，且不存在需要立即处理的其他颅内病灶。兼顾局部控制和正常脑组织保护，优先考虑的局部治疗是？",
+      "options": {
+        "A": "不论病灶大小均必须开颅切除",
+        "B": "直接采用全脑放疗替代局灶治疗",
+        "C": "因阿来替尼具有中枢活性而完全取消局部治疗",
+        "D": "采用立体定向放射外科或立体定向放疗"
+      },
+      "answer": "D",
+      "answer_text": "采用立体定向放射外科或立体定向放疗",
+      "explain": "对于单发、小体积脑转移，指南指出SRS可获得较好的局部控制，并减少对周围正常脑组织的损伤。系统治疗继续或更换仍应依据完整全身复评、既往治疗和耐药评估另行判断。",
+      "keyPoint": "单发小体积脑转移可优先考虑SRS或SRT，系统治疗策略需另行综合判断。",
+      "guidelineRef": {
+        "evidence_type": "指南",
+        "doc_id": "1d434dbf-f181-4997-a088-b6de8327c537",
+        "split_index": 34,
+        "type": "guideline",
+        "authority": "中国医师协会肿瘤医师分会",
+        "source_title": "肺癌脑转移中国治疗指南（2021年版）",
+        "source_version": "2021",
+        "source_section": "（四）内科治疗",
+        "source_url": "",
+        "evidence_summary": "指南指出脑转移瘤体积越小，采用SRS可获得更好的局部控制，并减少对周围脑组织的损伤。"
+      }
+    }
+  ],
+  "missing_information": []
+}

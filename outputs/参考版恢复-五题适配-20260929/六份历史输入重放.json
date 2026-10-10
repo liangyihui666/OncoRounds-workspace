@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CASE-3665D6A9.json",
+    "count": 0,
+    "status": "FORMAT_ERROR",
+    "chars": 45206
+  },
+  {
+    "file": "CASE-41901B16.json",
+    "count": 0,
+    "status": "FORMAT_ERROR",
+    "chars": 42568
+  },
+  {
+    "file": "CASE-794E8394.json",
+    "count": 5,
+    "status": "OUTPUT_READY",
+    "chars": 28663
+  },
+  {
+    "file": "CASE-928DA97A.json",
+    "count": 0,
+    "status": "FORMAT_ERROR",
+    "chars": 42235
+  },
+  {
+    "file": "CASE-94E451EE.json",
+    "count": 0,
+    "status": "FORMAT_ERROR",
+    "chars": 45871
+  },
+  {
+    "file": "CASE-E88F230.json",
+    "count": 5,
+    "status": "OUTPUT_READY",
+    "chars": 30559
+  }
+]

@@ -1,0 +1,170 @@
+{
+  "schema_version": "1.0",
+  "case_id": "141821",
+  "cancer_type": "肺癌",
+  "difficulty": "进阶",
+  "decision_point_count": 5,
+  "image": {
+    "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/PU17K1NPPfc3et-fun2woQ/10Y2GlCiLh9YC7yJbR3F9DOsWztsLhqz.png",
+    "alt": "患者 2021 年 12 月 CT 检查结果"
+  },
+  "home": {
+    "recommendation_label": "今日推荐病例",
+    "display_title": "BRAF V600E 突变肺腺癌全程管理",
+    "description": "一例左肺上叶浸润性腺癌患者从初诊、多线治疗到 BRAF 双靶治疗的全程病例。"
+  },
+  "overview": {
+    "hero": {
+      "title": "BRAF V600E 突变左上肺浸润性腺癌四线治疗病例",
+      "subtitle": "从分子检测、多线治疗到达拉非尼联合曲美替尼"
+    },
+    "tabs": [
+      {
+        "id": "summary",
+        "label": "病例摘要",
+        "order": 1,
+        "summary_items": [
+          {
+            "order": 1,
+            "label": "患者画像",
+            "value": "男性，55 岁；既往有痛风、糖尿病、结节性甲状腺肿及高脂血症。"
+          },
+          {
+            "order": 2,
+            "label": "疾病与分期",
+            "value": "左肺上叶浸润性腺癌 cT4N0M1a，IVA 期。"
+          },
+          {
+            "order": 3,
+            "label": "分子检测",
+            "value": "BRAF 15 号外显子 V600E 突变；标本来源、检测方法及突变丰度未详。"
+          },
+          {
+            "order": 4,
+            "label": "核心教学点",
+            "value": "分子检测、多线系统治疗决策、严重骨髓抑制处理及 BRAF 双靶治疗疗效观察。"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "label": "病程轴",
+        "order": 2,
+        "timeline_items": [
+          {
+            "date": "2021.08–11",
+            "title": "就诊与确诊",
+            "detail": "因反复咳嗽伴胸背痛就诊，抗感染治疗疗效欠佳；2021 年 11 月 22 日经气管镜活检诊断左上肺浸润性腺癌，基因检测提示 BRAF V600E 突变。"
+          },
+          {
+            "date": "2021.12–2022.04",
+            "title": "一线化疗联合抗血管治疗",
+            "detail": "先行 AP 方案化疗 2 程，D3–D6 程联合贝伐珠单抗；2022 年 4 月评估 PD，PFS 5 个月。"
+          },
+          {
+            "date": "2022.04–10",
+            "title": "二线化疗联合免疫治疗",
+            "detail": "接受 TP 方案联合 PD-1 共 8 程，D4、D6 程因Ⅲ–Ⅳ度骨髓抑制暂停化疗；2022 年 10 月底评估 PD，最佳疗效为缩小 SD，PFS 6 个月。"
+          },
+          {
+            "date": "2022.11–2023.04",
+            "title": "三线安罗替尼治疗",
+            "detail": "接受安罗替尼治疗；2023 年 4 月评估 PD，最佳疗效为缩小 SD，PFS 5 个月。"
+          },
+          {
+            "date": "2023.04",
+            "title": "启动 BRAF 双靶治疗",
+            "detail": "改用甲磺酸达拉非尼胶囊联合曲美替尼片治疗。"
+          },
+          {
+            "date": "2023.05",
+            "title": "双靶治疗 1 个月复评",
+            "detail": "CT 显示左肺上叶舌段及双肺下叶阴影较前明显吸收减少。"
+          },
+          {
+            "date": "2023.08",
+            "title": "双靶治疗 4 个月复评",
+            "detail": "CT 显示相关阴影较前明显吸收减少，双肺实性结节同前。"
+          },
+          {
+            "date": "2024.02",
+            "title": "双靶治疗 10 个月随访",
+            "detail": "最后一次随访 CT 评估 PR，PFS 10 个月以上，双靶治疗仍在持续。"
+          }
+        ]
+      },
+      {
+        "id": "images",
+        "label": "病例图片",
+        "order": 3,
+        "image_items": [
+          {
+            "id": "IMG1",
+            "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/PU17K1NPPfc3et-fun2woQ/10Y2GlCiLh9YC7yJbR3F9DOsWztsLhqz.png",
+            "timepoint": "2021 年 12 月",
+            "caption": "患者 2021 年 12 月 CT 检查结果",
+            "alt": "患者 2021 年 12 月 CT 检查结果",
+            "mapping_status": "matched_by_timepoint",
+            "related_timeline": {
+              "date": "2021.12–2022.04",
+              "title": "一线化疗联合抗血管治疗",
+              "detail": "先行 AP 方案化疗 2 程，D3–D6 程联合贝伐珠单抗；2022 年 4 月评估 PD，PFS 5 个月。"
+            }
+          },
+          {
+            "id": "IMG2",
+            "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/PU17K1NPPfc3et-fun2woQ/LToszaehEntTB1Uovj9lBiF6o1ccD7CH.png",
+            "timepoint": "2023 年 4 月",
+            "caption": "2023 年 4 月患者双靶方案治疗前 CT 检查结果",
+            "alt": "双靶方案治疗前 CT 检查结果",
+            "mapping_status": "matched_by_timepoint",
+            "related_timeline": {
+              "date": "2023.04",
+              "title": "启动 BRAF 双靶治疗",
+              "detail": "改用甲磺酸达拉非尼胶囊联合曲美替尼片治疗。"
+            }
+          },
+          {
+            "id": "IMG3",
+            "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/PU17K1NPPfc3et-fun2woQ/jN4nFeRjIIFNp7CfgK1PIKGWmj7BiTpr.png",
+            "timepoint": "2023 年 5 月",
+            "caption": "2023 年 5 月患者双靶方案治疗 1 个月后 CT 检查结果",
+            "alt": "双靶方案治疗 1 个月后 CT 检查结果",
+            "mapping_status": "matched_by_timepoint",
+            "related_timeline": {
+              "date": "2023.05",
+              "title": "双靶治疗 1 个月复评",
+              "detail": "CT 显示左肺上叶舌段及双肺下叶阴影较前明显吸收减少。"
+            }
+          },
+          {
+            "id": "IMG4",
+            "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/PU17K1NPPfc3et-fun2woQ/UGET8pgEUIyl3qKv7ajeS7RQu6WmXQ29.png",
+            "timepoint": "2023 年 8 月",
+            "caption": "2023 年 8 月患者双靶方案治疗 4 个月后 CT 检查结果",
+            "alt": "双靶方案治疗 4 个月后 CT 检查结果",
+            "mapping_status": "matched_by_timepoint",
+            "related_timeline": {
+              "date": "2023.08",
+              "title": "双靶治疗 4 个月复评",
+              "detail": "CT 显示相关阴影较前明显吸收减少，双肺实性结节同前。"
+            }
+          },
+          {
+            "id": "IMG5",
+            "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/PU17K1NPPfc3et-fun2woQ/iZ5ZjcIdq0XAGGM97WmVSH6hymiJbs4q.png",
+            "timepoint": "2024 年 2 月",
+            "caption": "2024 年 2 月患者双靶方案治疗 10 个月前后 CT 检查结果",
+            "alt": "双靶方案治疗 10 个月前后 CT 检查结果",
+            "mapping_status": "matched_by_timepoint",
+            "related_timeline": {
+              "date": "2024.02",
+              "title": "双靶治疗 10 个月随访",
+              "detail": "最后一次随访 CT 评估 PR，PFS 10 个月以上，双靶治疗仍在持续。"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

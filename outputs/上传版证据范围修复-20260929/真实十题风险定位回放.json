@@ -1,0 +1,881 @@
+{
+  "scope": "literal_review_cues_only",
+  "case_packet_reconstructed_from_visible_case_page": true,
+  "model_rerun": false,
+  "medical_correctness_verified": false,
+  "reports": [
+    {
+      "label": "flash",
+      "case_id": "CASE-79CA83DD",
+      "review": {
+        "scope": "revision_checklist_not_medical_verdict",
+        "review_all_questions": true,
+        "case_constraints": {
+          "scope": "literal_case_excerpts_not_new_facts",
+          "items": [
+            {
+              "field": "case_timeline",
+              "text": "时间未详｜2019年4月后｜脑转移治疗｜全脑放疗（WBRT，40 Gy/20f）联合吡咯替尼和卡培他滨系统治疗；局部放疗初期获部分缓解，但患者因无法耐受严重胃肠道反应，系统治疗方案执行受限"
+            }
+          ],
+          "instruction": "保留原时点、否定及范围；候选决策/点评不等于患者事实。无命中不表示无禁忌或无限制；上游未传入的原文事实无法由此恢复。"
+        },
+        "set_review": {
+          "scope": "review_tasks_not_medical_verdict",
+          "questions": [
+            {
+              "id": "Q1",
+              "phase": "初始诊断",
+              "timepoint": "2017年8月",
+              "question": "患者初诊时伴淋巴结、骨和肝脏多发转移。依据初诊IV期乳腺癌诊疗指南，关于其基线评估与分期记录，下列哪项正确？",
+              "keyPoint": "初诊IV期乳腺癌基线评估须准确记录转移部位与数目，明确内脏转移状态。",
+              "evidence_id": "GS01",
+              "review_cues": [
+                "DEPTH_REVIEW：核对是否仅考一般流程或分期记忆；有关键词不等于不合格",
+                "STAGING_SOURCE_REVIEW：核对癌种、版本、c/p/yp及完整分期条款，包括错误项解析"
+              ]
+            },
+            {
+              "id": "Q2",
+              "phase": "脑转移系统治疗",
+              "timepoint": "2019年4月后",
+              "question": "患者使用吡咯替尼联合卡培他滨期间出现严重胃肠道反应致治疗受限。关于TKI相关性腹泻的管理，以下处理正确的是？",
+              "keyPoint": "TKI初次3级腹泻暂停至≤1级后原剂量恢复，再次3级腹泻才减量重启。",
+              "evidence_id": "IR01",
+              "review_cues": []
+            },
+            {
+              "id": "Q3",
+              "phase": "颅内进展",
+              "timepoint": "2021年9月",
+              "question": "患者颅内病灶进展而颅外病灶保持稳定。依据HER2阳性乳腺癌诊疗专家共识，此时系统治疗方案调整的原则是？",
+              "keyPoint": "HER2阳性脑转移颅外未进展时，局部治疗后可续用原靶向或换TKI，非绝对全身耐药。",
+              "evidence_id": "GB03",
+              "review_cues": [
+                "CLASS_TO_AGENT_REVIEW：核对完整原文是否支持此具体药物及场景，不以类别推荐替代"
+              ]
+            },
+            {
+              "id": "Q4",
+              "phase": "ADC单药治疗",
+              "timepoint": "2021年9月后",
+              "question": "患者启动RC48单药治疗。依据RC48-ADC治疗HER2阳性晚期乳腺癌的II期研究，关于该研究的入组人群与疗效特征，下列哪项正确？",
+              "keyPoint": "RC48-ADC II期研究入组多为≥3线化疗经治患者，HER2阳性亚组ORR 34.5%、mPFS 6.3个月。",
+              "evidence_id": "CS01",
+              "review_cues": [
+                "CLASS_TO_AGENT_REVIEW：核对完整原文是否支持此具体药物及场景，不以类别推荐替代"
+              ]
+            },
+            {
+              "id": "Q5",
+              "phase": "RC48治疗期间",
+              "timepoint": "首个周期后",
+              "question": "患者RC48治疗首个周期后神经系统症状迅速改善。关于后续疗效评估与影像学随访，下列哪项正确？",
+              "keyPoint": "抗肿瘤治疗疗效评估原则上每周期进行，必要时每2周期MRI评估，且应连续使用同一方法。",
+              "evidence_id": "GS02",
+              "review_cues": [
+                "DEPTH_REVIEW：核对是否仅考一般流程或分期记忆；有关键词不等于不合格",
+                "CLASS_TO_AGENT_REVIEW：核对完整原文是否支持此具体药物及场景，不以类别推荐替代"
+              ]
+            }
+          ],
+          "instruction": "逐题归纳真正需要作出的决策，比较五题是否重复；同一判断即可解两题时保留较好者并换写另一题。至少2题优先覆盖病例核心问题；一般MDT、完善检查不能静默代替独特决策。关键词线索不作为删题或医学判错依据。"
+        },
+        "evidence_scope_checklist": [
+          "答案每项措施是否都由本题绑定的同一记录支持？只支持急性处理时不附带后续方案。",
+          "研究的人群、线次、诱导/维持阶段及疗效状态是否与题干匹配？未记载不视为满足。",
+          "证据结论是否保留研究设计、终点与亚组限制？趋势或差异不显著不能改为非劣。",
+          "决定答案的分子结果、疗效与毒性在此时点是否已知？排除项不能使用未来事实。",
+          "逐项检查是否存在第二个成立的选项、上位与下位包含关系；不优先或未提及不能判错，无法唯一作答就整题重写。",
+          "毒性严重度、缺陷程度、停药和恢复条件是否明确匹配？不得将暂缓改成一律永久停药。"
+        ],
+        "question_checks": [
+          {
+            "question_id": "Q1",
+            "evidence_id": "GS01",
+            "structural_defects": [],
+            "applicability_review_cues": [
+              "QUALIFIER_LOSS_CHECK：证据含可能、可考虑或条件限制；核对答案与所有排除理由是否删去条件或并列备选措施，不将可能处置升级为唯一必做。"
+            ],
+            "option_review": [
+              {
+                "option": "A",
+                "text": "准确记录远处转移器官部位和转移病灶数目，尤其应明确是否存在内脏转移",
+                "draft_selected": true,
+                "draft_reason": "A｜正确：指南明确要求参照AJCC标准评估，准确记录远处转移器官部位和转移病灶数目，尤其应明确是否存在内脏转移。",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              },
+              {
+                "option": "B",
+                "text": "因已行改良根治术，术后病理TNM分期可直接替代初诊临床分期作为基线",
+                "draft_selected": false,
+                "draft_reason": "B｜不正确：初诊IV期应参照AJCC标准进行临床分期评估，术后病理不能替代初诊基线临床分期。",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              },
+              {
+                "option": "C",
+                "text": "仅需通过全身骨显像评估骨转移，无需对肝脏等腹部器官进行影像学评估",
+                "draft_selected": false,
+                "draft_reason": "C｜不正确：指南推荐采用超声或CT评估腹部器官转移，骨显像不能替代腹部影像学评估。",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              },
+              {
+                "option": "D",
+                "text": "初诊IV期乳腺癌首选原发灶局部外科处理，全身系统治疗应在术后启动",
+                "draft_selected": false,
+                "draft_reason": "D｜不正确：指南指出初诊IV期乳腺癌首选全身系统治疗理念已获共识，而非首选局部外科处理。",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              }
+            ],
+            "source_review": {
+              "scope": "review_tasks_not_medical_verdict",
+              "record_found": true,
+              "evidence_scope": {
+                "kind": "literal_terms_not_applicability_verdict",
+                "matched_terms": [
+                  "转移",
+                  "脑转移",
+                  "初次"
+                ],
+                "has_footnote_markers": false,
+                "has_nonrandom_design_terms": false
+              },
+              "tasks": [],
+              "action": "有命中须对照绑定全文核实；无命中仍检查每项。确实错配则整题更换，不能通过改写证据摘要扩大原文适用范围。"
+            },
+            "wording_review": "",
+            "fact_review": "逐项核对患者数值、分级、检查、部位和疗程的病例原句；缺少记录不能补成事实",
+            "matching_record_count": 1,
+            "source_locator": {
+              "doc_id": "7e911bc2-d9c4-41ea-bcef-d28c231dc12d",
+              "split_index": 3
+            },
+            "review_cues": []
+          },
+          {
+            "question_id": "Q2",
+            "evidence_id": "IR01",
+            "structural_defects": [],
+            "applicability_review_cues": [
+              "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。"
+            ],
+            "option_review": [
+              {
+                "option": "A",
+                "text": "初次发生3级腹泻时，暂停吡咯替尼直至缓解至≤1级，以原剂量重新开始治疗",
+                "draft_selected": true,
+                "draft_reason": "A｜正确：指南规定初次发生3级腹泻，直至缓解至≤1级，以原剂量开始治疗，符合本例管理原则。",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              },
+              {
+                "option": "B",
+                "text": "若再次发生3级腹泻，应永久停用吡咯替尼并更换为其他非TKI类靶向药物",
+                "draft_selected": false,
+                "draft_reason": "B｜不正确：再次发生3级腹泻应暂停治疗，缓解至≤1级以低剂量重新开始，而非永久停药。",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              },
+              {
+                "option": "C",
+                "text": "发生3-4级腹泻导致暂停吡咯替尼后，再次恢复治疗时无需预防性使用止泻药",
+                "draft_selected": false,
+                "draft_reason": "C｜不正确：PANDORA研究提示，因3-4级腹泻暂停后再次恢复吡咯替尼时，建议使用洛哌丁胺预防。",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              },
+              {
+                "option": "D",
+                "text": "1至2级腹泻提示药物不耐受，应立即减量或暂停吡咯替尼以避免进展为3级",
+                "draft_selected": false,
+                "draft_reason": "D｜不正确：1至2级腹泻无需调整剂量，应尽早进行腹泻防治和管理，而非立即减量或暂停。",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              }
+            ],
+            "source_review": {
+              "scope": "review_tasks_not_medical_verdict",
+              "record_found": true,
+              "evidence_scope": {
+                "kind": "literal_terms_not_applicability_verdict",
+                "matched_terms": [
+                  "初次",
+                  "再次"
+                ],
+                "has_footnote_markers": false,
+                "has_nonrandom_design_terms": false
+              },
+              "tasks": [
+                {
+                  "code": "UNBOUND_STUDY_NAME",
+                  "name": "PANDORA",
+                  "detail": "该研究名在绑定记录中未作字面匹配；核对别名，不用记忆或另一片段补排除理由。"
+                }
+              ],
+              "action": "有命中须对照绑定全文核实；无命中仍检查每项。确实错配则整题更换，不能通过改写证据摘要扩大原文适用范围。"
+            },
+            "wording_review": "",
+            "fact_review": "逐项核对患者数值、分级、检查、部位和疗程的病例原句；缺少记录不能补成事实",
+            "matching_record_count": 1,
+            "source_locator": {
+              "doc_id": "b85fd9d2-9933-4cf3-912b-0ce3a43b3b3d",
+              "split_index": 32
+            },
+            "review_cues": [
+              "联合",
+              "3级",
+              "缓解",
+              "1级",
+              "永久",
+              "4级",
+              "恢复治疗",
+              "2级",
+              "减量"
+            ]
+          },
+          {
+            "question_id": "Q3",
+            "evidence_id": "GB03",
+            "structural_defects": [],
+            "applicability_review_cues": [
+              "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。",
+              "QUALIFIER_LOSS_CHECK：证据含可能、可考虑或条件限制；核对答案与所有排除理由是否删去条件或并列备选措施，不将可能处置升级为唯一必做。"
+            ],
+            "option_review": [
+              {
+                "option": "A",
+                "text": "经有效的局部治疗后，可考虑继续使用原靶向治疗方案，必要时更换为TKI药物",
+                "draft_selected": true,
+                "draft_reason": "A｜正确：共识明确HER2阳性晚期脑转移若颅外未进展，有效局部治疗后可考虑续用原靶向或换TKI。",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              },
+              {
+                "option": "B",
+                "text": "颅内进展即代表全身耐药，必须立即停用所有抗HER2药物并转为单纯化疗",
+                "draft_selected": false,
+                "draft_reason": "B｜不正确：颅外稳定提示原方案对颅外病灶仍有效，不应立即停用所有抗HER2药物转为单纯化疗。",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              },
+              {
+                "option": "C",
+                "text": "颅外稳定说明原方案完全有效，无论颅内情况如何均不应调整任何系统治疗",
+                "draft_selected": false,
+                "draft_reason": "C｜不正确：颅内进展提示原方案对颅内控制不佳，必要时需更换为TKI等药物，而非完全不调整。",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              },
+              {
+                "option": "D",
+                "text": "脑转移进展后应优先选择大分子单抗联合化疗，因TKI和ADC无法透过血脑屏障",
+                "draft_selected": false,
+                "draft_reason": "D｜不正确：共识指出TKI类药物和ADC可优先选择，认为TKI和ADC无法透过血脑屏障与指南相悖。",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              }
+            ],
+            "source_review": {
+              "scope": "review_tasks_not_medical_verdict",
+              "record_found": true,
+              "evidence_scope": {
+                "kind": "literal_terms_not_applicability_verdict",
+                "matched_terms": [
+                  "复发",
+                  "转移",
+                  "维持治疗",
+                  "脑转移",
+                  "可考虑",
+                  "必要时"
+                ],
+                "has_footnote_markers": false,
+                "has_nonrandom_design_terms": false
+              },
+              "tasks": [],
+              "action": "有命中须对照绑定全文核实；无命中仍检查每项。确实错配则整题更换，不能通过改写证据摘要扩大原文适用范围。"
+            },
+            "wording_review": "",
+            "fact_review": "逐项核对患者数值、分级、检查、部位和疗程的病例原句；缺少记录不能补成事实",
+            "matching_record_count": 1,
+            "source_locator": {
+              "doc_id": "67c4d4fb-08f5-4412-90f7-4015e9ce42cd",
+              "split_index": 19
+            },
+            "review_cues": [
+              "必须",
+              "所有",
+              "联合"
+            ]
+          },
+          {
+            "question_id": "Q4",
+            "evidence_id": "CS01",
+            "structural_defects": [],
+            "applicability_review_cues": [
+              "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。"
+            ],
+            "option_review": [
+              {
+                "option": "A",
+                "text": "入组患者中88.1%既往接受过≥3线化疗，HER2阳性亚组ORR为34.5%、mPFS为6.3个月",
+                "draft_selected": true,
+                "draft_reason": "A｜正确：研究结果显示88.1%患者既往接受≥3线化疗，HER2阳性亚组ORR 34.5%、mPFS 6.3个月。",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              },
+              {
+                "option": "B",
+                "text": "该研究证明RC48单药在所有入组人群中均优于联合ICIs或TKIs的双药治疗方案",
+                "draft_selected": false,
+                "draft_reason": "B｜不正确：研究提示双药联合组mPFS长于单药组，并未证明单药在所有人群中优于联合方案。",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              },
+              {
+                "option": "C",
+                "text": "研究入组患者均为初治IV期HER2阳性乳腺癌，未接受过任何既往化疗或靶向治疗",
+                "draft_selected": false,
+                "draft_reason": "C｜不正确：入组患者为局部晚期或转移性乳腺癌且多线经治，并非初治IV期未接受过任何治疗。",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              },
+              {
+                "option": "D",
+                "text": "RC48-ADC在HER2低表达亚组的ORR和mPFS均显著高于HER2阳性亚组",
+                "draft_selected": false,
+                "draft_reason": "D｜不正确：HER2低表达亚组ORR 22.2%、mPFS 3.6个月，均低于HER2阳性亚组，并非显著高于。",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              }
+            ],
+            "source_review": {
+              "scope": "review_tasks_not_medical_verdict",
+              "record_found": true,
+              "evidence_scope": {
+                "kind": "literal_terms_not_applicability_verdict",
+                "matched_terms": [],
+                "has_footnote_markers": false,
+                "has_nonrandom_design_terms": true
+              },
+              "tasks": [
+                {
+                  "code": "COMPARATIVE_CLAIM_REVIEW",
+                  "detail": "记录含非随机/单臂设计词，检查组间数值描述是否被改为已证实优效；范围包括引用摘要。"
+                }
+              ],
+              "action": "有命中须对照绑定全文核实；无命中仍检查每项。确实错配则整题更换，不能通过改写证据摘要扩大原文适用范围。"
+            },
+            "wording_review": "",
+            "fact_review": "逐项核对患者数值、分级、检查、部位和疗程的病例原句；缺少记录不能补成事实",
+            "matching_record_count": 1,
+            "source_locator": {
+              "doc_id": "6e2caad03ab62f3396186fd219069693",
+              "split_index": 1
+            },
+            "review_cues": [
+              "所有",
+              "联合"
+            ]
+          },
+          {
+            "question_id": "Q5",
+            "evidence_id": "GS02",
+            "structural_defects": [],
+            "applicability_review_cues": [
+              "QUALIFIER_LOSS_CHECK：证据含可能、可考虑或条件限制；核对答案与所有排除理由是否删去条件或并列备选措施，不将可能处置升级为唯一必做。"
+            ],
+            "option_review": [
+              {
+                "option": "A",
+                "text": "原则上每周期都应进行肿瘤评估，必要时可每2周期通过MRI进行肿瘤评估",
+                "draft_selected": true,
+                "draft_reason": "A｜正确：指南规定原则上每周期都应进行肿瘤评估，必要时可每2周期通过乳腺MRI进行肿瘤评估。",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              },
+              {
+                "option": "B",
+                "text": "症状改善即可作为疗效评价终点，无需再进行影像学客观缓解率评估",
+                "draft_selected": false,
+                "draft_reason": "B｜不正确：症状改善不能替代影像学客观缓解率评估，疗效评价须依据通行的实体瘤疗效评价标准。",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              },
+              {
+                "option": "C",
+                "text": "疗效评估应交替使用CT和MRI，以全面覆盖颅内外病灶并避免单一方法偏差",
+                "draft_selected": false,
+                "draft_reason": "C｜不正确：指南强调原则上应连续使用同一检查方法进行评价，交替使用CT和MRI不符合评估原则。",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              },
+              {
+                "option": "D",
+                "text": "RC48治疗期间仅需在5个周期结束时进行一次颅脑MRI评估，无需每周期查体",
+                "draft_selected": false,
+                "draft_reason": "D｜不正确：仅5周期后评估一次不符合每周期评估的原则，且查体和影像学评估应贯穿治疗全程。",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              }
+            ],
+            "source_review": {
+              "scope": "review_tasks_not_medical_verdict",
+              "record_found": true,
+              "evidence_scope": {
+                "kind": "literal_terms_not_applicability_verdict",
+                "matched_terms": [
+                  "新辅助",
+                  "辅助治疗",
+                  "乳腺MRI",
+                  "可考虑",
+                  "必要时"
+                ],
+                "has_footnote_markers": false,
+                "has_nonrandom_design_terms": false
+              },
+              "tasks": [
+                {
+                  "code": "PHASE_CONTEXT_REVIEW",
+                  "detail": "引用含新辅助/术后辅助范围，病例含复发转移背景：逐题确认时点及治疗目的；不可将特定阶段频率泛化为全部系统治疗。"
+                },
+                {
+                  "code": "IMAGING_SITE_REVIEW",
+                  "detail": "引用含乳腺MRI、题目或病例涉及颅脑：核对检查部位及频率，不省掉器官名称后移用。"
+                }
+              ],
+              "action": "有命中须对照绑定全文核实；无命中仍检查每项。确实错配则整题更换，不能通过改写证据摘要扩大原文适用范围。"
+            },
+            "wording_review": "",
+            "fact_review": "逐项核对患者数值、分级、检查、部位和疗程的病例原句；缺少记录不能补成事实",
+            "matching_record_count": 1,
+            "source_locator": {
+              "doc_id": "b2719254-d290-4ec9-866b-51b36cafd1bc",
+              "split_index": 56
+            },
+            "review_cues": [
+              "缓解"
+            ]
+          }
+        ],
+        "case_focus": {
+          "decision_points": "",
+          "learning_points": "",
+          "adverse_events": "",
+          "instruction": "与病例原文核对核心决策，优先至少2题；无法覆盖时在missing_information保留具体缺口，不能用普通题静默替代"
+        },
+        "answer_position_warning": "正确位置少于3种；重写/补题时分散，保留合格题选项顺序",
+        "answer_counts": [
+          5,
+          0,
+          0,
+          0
+        ],
+        "toxicity_question_count": 1,
+        "instruction": "文字线索仅供复核，不自动判错或删题；无命中仍逐题核对。用evidence_id读取下方对应完整正文，不以摘要代替原文。"
+      }
+    },
+    {
+      "label": "plus",
+      "case_id": "CASE-9FD1CF5",
+      "review": {
+        "scope": "revision_checklist_not_medical_verdict",
+        "review_all_questions": true,
+        "case_constraints": {
+          "scope": "literal_case_excerpts_not_new_facts",
+          "items": [],
+          "instruction": "保留原时点、否定及范围；候选决策/点评不等于患者事实。无命中不表示无禁忌或无限制；上游未传入的原文事实无法由此恢复。"
+        },
+        "set_review": {
+          "scope": "review_tasks_not_medical_verdict",
+          "questions": [
+            {
+              "id": "Q1",
+              "phase": "复发转移",
+              "timepoint": "2024 年 9 月",
+              "question": "2024 年直肠转移灶活检证实为乳腺癌转移，关于该复发灶生物标志物检测，下列哪项正确？",
+              "keyPoint": "复发转移灶必须重新检测生物标志物以指导治疗",
+              "evidence_id": "GA04",
+              "review_cues": []
+            },
+            {
+              "id": "Q2",
+              "phase": "初诊",
+              "timepoint": "2017 年 3 月",
+              "question": "2017 年确诊早期乳腺癌时，关于初始分期评估检查项目，下列哪项正确？",
+              "keyPoint": "早期乳腺癌确诊需完成包括远处病灶在内的全面分期评估",
+              "evidence_id": "GS03",
+              "review_cues": [
+                "DEPTH_REVIEW：核对是否仅考一般流程或分期记忆；有关键词不等于不合格",
+                "STAGING_SOURCE_REVIEW：核对癌种、版本、c/p/yp及完整分期条款，包括错误项解析"
+              ]
+            },
+            {
+              "id": "Q3",
+              "phase": "复发转移",
+              "timepoint": "2022 年 10 月",
+              "question": "2022 年患者 HR 完全缺失且 HER2 阴性，关于此时分子分型判定，下列哪项正确？",
+              "keyPoint": "分子分型应基于当前肿瘤组织的免疫组化标记物结果",
+              "evidence_id": "GA06",
+              "review_cues": []
+            },
+            {
+              "id": "Q4",
+              "phase": "复发转移",
+              "timepoint": "2024 年 8 月",
+              "question": "2024 年 8 月患者出现排便习惯改变及 CT 示直肠壁增厚，下列哪项处理正确？",
+              "keyPoint": "复发灶需经病理活检确诊以指导后续治疗决策",
+              "evidence_id": "GA04",
+              "review_cues": []
+            },
+            {
+              "id": "Q5",
+              "phase": "复发转移",
+              "timepoint": "2021 年至 2022 年",
+              "question": "病程中 ER 从 90% 降至 30% 再至完全缺失，关于检测结果管理，下列哪项正确？",
+              "keyPoint": "检测结果准确性依赖质控及临床病理团队的有效沟通",
+              "evidence_id": "GA05",
+              "review_cues": []
+            }
+          ],
+          "instruction": "逐题归纳真正需要作出的决策，比较五题是否重复；同一判断即可解两题时保留较好者并换写另一题。至少2题优先覆盖病例核心问题；一般MDT、完善检查不能静默代替独特决策。关键词线索不作为删题或医学判错依据。"
+        },
+        "evidence_scope_checklist": [
+          "答案每项措施是否都由本题绑定的同一记录支持？只支持急性处理时不附带后续方案。",
+          "研究的人群、线次、诱导/维持阶段及疗效状态是否与题干匹配？未记载不视为满足。",
+          "证据结论是否保留研究设计、终点与亚组限制？趋势或差异不显著不能改为非劣。",
+          "决定答案的分子结果、疗效与毒性在此时点是否已知？排除项不能使用未来事实。",
+          "逐项检查是否存在第二个成立的选项、上位与下位包含关系；不优先或未提及不能判错，无法唯一作答就整题重写。",
+          "毒性严重度、缺陷程度、停药和恢复条件是否明确匹配？不得将暂缓改成一律永久停药。"
+        ],
+        "question_checks": [
+          {
+            "question_id": "Q1",
+            "evidence_id": "GA04",
+            "structural_defects": [],
+            "applicability_review_cues": [
+              "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。",
+              "QUALIFIER_LOSS_CHECK：证据含可能、可考虑或条件限制；核对答案与所有排除理由是否删去条件或并列备选措施，不将可能处置升级为唯一必做。"
+            ],
+            "option_review": [
+              {
+                "option": "A",
+                "text": "直接沿用 2017 年原发肿瘤免疫组化结果指导后续用药",
+                "draft_selected": false,
+                "draft_reason": "A｜不正确：受体状态可能发生改变，指南明确不能直接沿用旧结果影响决策",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              },
+              {
+                "option": "B",
+                "text": "必须重新检测 ER、PR、HER2 表达及 Ki-67 增殖指数",
+                "draft_selected": true,
+                "draft_reason": "B｜正确：指南规定复发灶必须重新检测受体及 Ki-67，因状态改变直接影响治疗",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              },
+              {
+                "option": "C",
+                "text": "仅需病理形态学确认无需进行分子分型检测指导用药",
+                "draft_selected": false,
+                "draft_reason": "C｜不正确：分子分型直接决定全身治疗方案，仅形态学确认不足以指导用药",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              },
+              {
+                "option": "D",
+                "text": "仅检测肠道来源标志物排除原发肠癌即可制定方案",
+                "draft_selected": false,
+                "draft_reason": "D｜不正确：确认乳腺癌来源后仍需检测乳腺癌相关受体以指导后续全身治疗",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              }
+            ],
+            "source_review": {
+              "scope": "review_tasks_not_medical_verdict",
+              "record_found": true,
+              "evidence_scope": {
+                "kind": "literal_terms_not_applicability_verdict",
+                "matched_terms": [
+                  "复发",
+                  "必要时"
+                ],
+                "has_footnote_markers": false,
+                "has_nonrandom_design_terms": false
+              },
+              "tasks": [
+                {
+                  "code": "MARKER_NECESSITY_REVIEW",
+                  "detail": "核对完整分型流程所需指标与本题具体亚型的判定条件，不能把常用指标清单当作每一亚型都必需。"
+                }
+              ],
+              "action": "有命中须对照绑定全文核实；无命中仍检查每项。确实错配则整题更换，不能通过改写证据摘要扩大原文适用范围。"
+            },
+            "wording_review": "",
+            "fact_review": "逐项核对患者数值、分级、检查、部位和疗程的病例原句；缺少记录不能补成事实",
+            "matching_record_count": 1,
+            "source_locator": {
+              "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+              "split_index": 362
+            },
+            "review_cues": [
+              "必须"
+            ]
+          },
+          {
+            "question_id": "Q2",
+            "evidence_id": "GS03",
+            "structural_defects": [],
+            "applicability_review_cues": [
+              "ABSENCE_OR_REVERSE_INFERENCE：某亚组结果、条款未提及或未禁止不能独自证明相反结论或排除竞争方案。",
+              "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。"
+            ],
+            "option_review": [
+              {
+                "option": "A",
+                "text": "仅需完成双侧乳腺及腋窝影像学检查排除局部病变",
+                "draft_selected": false,
+                "draft_reason": "A｜不正确：分期评估需涵盖远处病灶，仅乳腺腋窝检查不足以排除远处转移",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              },
+              {
+                "option": "B",
+                "text": "所有患者必须常规进行全身 PET-CT 检查明确分期",
+                "draft_selected": false,
+                "draft_reason": "B｜不正确：指南未规定所有早期患者必须常规进行全身 PET-CT 检查作为首选",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              },
+              {
+                "option": "C",
+                "text": "应包含远处病灶评估如胸部 CT 及骨放射性核素扫描",
+                "draft_selected": true,
+                "draft_reason": "C｜正确：指南早期乳腺癌确诊检查表明确包含胸部 CT 及骨扫描等远处评估",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              },
+              {
+                "option": "D",
+                "text": "无症状患者无需进行腹部盆腔影像学检查评估转移",
+                "draft_selected": false,
+                "draft_reason": "D｜不正确：指南建议腹部盆腔影像学检查作为远处病灶评估的一部分，非无需进行",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              }
+            ],
+            "source_review": {
+              "scope": "review_tasks_not_medical_verdict",
+              "record_found": true,
+              "evidence_scope": {
+                "kind": "literal_terms_not_applicability_verdict",
+                "matched_terms": [],
+                "has_footnote_markers": true,
+                "has_nonrandom_design_terms": false
+              },
+              "tasks": [
+                {
+                  "code": "FOOTNOTE_SCOPE_REVIEW",
+                  "detail": "返回正文有脚注标记；先查同一记录是否含对应条件，不能仅凭表内列项认定人人必做。"
+                }
+              ],
+              "action": "有命中须对照绑定全文核实；无命中仍检查每项。确实错配则整题更换，不能通过改写证据摘要扩大原文适用范围。"
+            },
+            "wording_review": "",
+            "fact_review": "逐项核对患者数值、分级、检查、部位和疗程的病例原句；缺少记录不能补成事实",
+            "matching_record_count": 1,
+            "source_locator": {
+              "doc_id": "b2719254-d290-4ec9-866b-51b36cafd1bc",
+              "split_index": 30
+            },
+            "review_cues": [
+              "所有",
+              "必须"
+            ]
+          },
+          {
+            "question_id": "Q3",
+            "evidence_id": "GA06",
+            "structural_defects": [],
+            "applicability_review_cues": [
+              "QUALIFIER_LOSS_CHECK：证据含可能、可考虑或条件限制；核对答案与所有排除理由是否删去条件或并列备选措施，不将可能处置升级为唯一必做。"
+            ],
+            "option_review": [
+              {
+                "option": "A",
+                "text": "依据当前复发灶 ER/PR/HER2/Ki-67 结果划分亚型",
+                "draft_selected": true,
+                "draft_reason": "A｜正确：指南指出使用 ER、PR、HER2 和 Ki67 四个标记物将浸润性乳腺癌分为亚型",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              },
+              {
+                "option": "B",
+                "text": "依据 2017 年原发灶免疫组化结果维持原分型不变",
+                "draft_selected": false,
+                "draft_reason": "B｜不正确：受体状态可能发生改变，应依据当前复发灶结果而非原发灶历史结果",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              },
+              {
+                "option": "C",
+                "text": "分子分型无需参考 Ki-67 增殖指数仅需受体状态",
+                "draft_selected": false,
+                "draft_reason": "C｜不正确：Ki-67 增殖指数是分子分型替代方法中的四个关键标记物之一不可缺",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              },
+              {
+                "option": "D",
+                "text": "仅依据基因检测结果确定分子亚型忽略免疫组化",
+                "draft_selected": false,
+                "draft_reason": "D｜不正确：临床常用分子分型替代方法基于免疫组化标记物而非仅基因检测结果",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              }
+            ],
+            "source_review": {
+              "scope": "review_tasks_not_medical_verdict",
+              "record_found": true,
+              "evidence_scope": {
+                "kind": "literal_terms_not_applicability_verdict",
+                "matched_terms": [
+                  "复发"
+                ],
+                "has_footnote_markers": false,
+                "has_nonrandom_design_terms": false
+              },
+              "tasks": [
+                {
+                  "code": "MARKER_NECESSITY_REVIEW",
+                  "detail": "核对完整分型流程所需指标与本题具体亚型的判定条件，不能把常用指标清单当作每一亚型都必需。"
+                }
+              ],
+              "action": "有命中须对照绑定全文核实；无命中仍检查每项。确实错配则整题更换，不能通过改写证据摘要扩大原文适用范围。"
+            },
+            "wording_review": "",
+            "fact_review": "逐项核对患者数值、分级、检查、部位和疗程的病例原句；缺少记录不能补成事实",
+            "matching_record_count": 1,
+            "source_locator": {
+              "doc_id": "f51ad2ef-8e21-42f9-bfd1-f2ed36512587",
+              "split_index": 82
+            },
+            "review_cues": [
+              "维持"
+            ]
+          },
+          {
+            "question_id": "Q4",
+            "evidence_id": "GA04",
+            "structural_defects": [],
+            "applicability_review_cues": [
+              "QUALIFIER_LOSS_CHECK：证据含可能、可考虑或条件限制；核对答案与所有排除理由是否删去条件或并列备选措施，不将可能处置升级为唯一必做。"
+            ],
+            "option_review": [
+              {
+                "option": "A",
+                "text": "直接行直肠切除术以解除梗阻并获取病理标本",
+                "draft_selected": false,
+                "draft_reason": "A｜不正确：广泛转移且全身状况差时首选微创确诊，直接手术创伤大且非首选确诊方式",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              },
+              {
+                "option": "B",
+                "text": "仅给予对症支持治疗无需进一步明确病变性质",
+                "draft_selected": false,
+                "draft_reason": "B｜不正确：明确病变性质对后续治疗决策至关重要，不能仅给予对症支持治疗",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              },
+              {
+                "option": "C",
+                "text": "立即开始全身化疗无需等待病理确诊结果",
+                "draft_selected": false,
+                "draft_reason": "C｜不正确：全身治疗需依据病理确诊及分子分型，未确诊前开始化疗缺乏依据",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              },
+              {
+                "option": "D",
+                "text": "行结肠镜检查及活检以明确病变性质及来源",
+                "draft_selected": true,
+                "draft_reason": "D｜正确：指南要求对复发灶进行穿刺或切除活检获取组织学诊断以指导治疗",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              }
+            ],
+            "source_review": {
+              "scope": "review_tasks_not_medical_verdict",
+              "record_found": true,
+              "evidence_scope": {
+                "kind": "literal_terms_not_applicability_verdict",
+                "matched_terms": [
+                  "复发",
+                  "必要时"
+                ],
+                "has_footnote_markers": false,
+                "has_nonrandom_design_terms": false
+              },
+              "tasks": [],
+              "action": "有命中须对照绑定全文核实；无命中仍检查每项。确实错配则整题更换，不能通过改写证据摘要扩大原文适用范围。"
+            },
+            "wording_review": "",
+            "fact_review": "逐项核对患者数值、分级、检查、部位和疗程的病例原句；缺少记录不能补成事实",
+            "matching_record_count": 1,
+            "source_locator": {
+              "doc_id": "4944f3a6-78b2-4ca7-8cfd-dde6451b1bc0",
+              "split_index": 362
+            },
+            "review_cues": []
+          },
+          {
+            "question_id": "Q5",
+            "evidence_id": "GA05",
+            "structural_defects": [],
+            "applicability_review_cues": [
+              "CASE_FACT_TRACE：将题干中的指标类型、等级、数值、部位及疗程逐项对照病例原句，不能拿指南阈值或另一指标补成患者事实。"
+            ],
+            "option_review": [
+              {
+                "option": "A",
+                "text": "视为实验室误差直接忽略不计维持原治疗方案",
+                "draft_selected": false,
+                "draft_reason": "A｜不正确：受体状态改变可能发生，需质控确认而非视为误差忽略，影响决策",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              },
+              {
+                "option": "B",
+                "text": "需确保检测质控并与临床团队有效沟通结果意义",
+                "draft_selected": true,
+                "draft_reason": "B｜正确：指南强调准确解读检测结果并保持与临床团队进行有效沟通至关重要",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              },
+              {
+                "option": "C",
+                "text": "仅由病理医师单方面解读无需临床提供病史资料",
+                "draft_selected": false,
+                "draft_reason": "C｜不正确：临床医师需提供完整临床资料，非仅由病理医师单方面解读结果",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              },
+              {
+                "option": "D",
+                "text": "直接采纳结果无需评估检测质量立即更换药物",
+                "draft_selected": false,
+                "draft_reason": "D｜不正确：检测结果直接影响临床决策，需评估检测质量而非直接采纳更换药物",
+                "review_required": "对照本题条件及同一完整记录，核对成立/不成立的依据与限定词；未提及或不优先不能充当错误理由；解析须解释本选项全部措施"
+              }
+            ],
+            "source_review": {
+              "scope": "review_tasks_not_medical_verdict",
+              "record_found": true,
+              "evidence_scope": {
+                "kind": "literal_terms_not_applicability_verdict",
+                "matched_terms": [
+                  "辅助治疗",
+                  "复发"
+                ],
+                "has_footnote_markers": false,
+                "has_nonrandom_design_terms": false
+              },
+              "tasks": [],
+              "action": "有命中须对照绑定全文核实；无命中仍检查每项。确实错配则整题更换，不能通过改写证据摘要扩大原文适用范围。"
+            },
+            "wording_review": "",
+            "fact_review": "逐项核对患者数值、分级、检查、部位和疗程的病例原句；缺少记录不能补成事实",
+            "matching_record_count": 1,
+            "source_locator": {
+              "doc_id": "7f8a2463-763c-4669-a370-54fca8039124",
+              "split_index": 37
+            },
+            "review_cues": [
+              "维持"
+            ]
+          }
+        ],
+        "case_focus": {
+          "decision_points": "",
+          "learning_points": "",
+          "adverse_events": "",
+          "instruction": "与病例原文核对核心决策，优先至少2题；无法覆盖时在missing_information保留具体缺口，不能用普通题静默替代"
+        },
+        "answer_position_warning": "",
+        "answer_counts": [
+          1,
+          2,
+          1,
+          1
+        ],
+        "toxicity_question_count": 0,
+        "instruction": "文字线索仅供复核，不自动判错或删题；无命中仍逐题核对。用evidence_id读取下方对应完整正文，不以摘要代替原文。"
+      }
+    }
+  ]
+}

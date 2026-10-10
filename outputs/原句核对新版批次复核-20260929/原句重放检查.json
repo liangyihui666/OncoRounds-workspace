@@ -1,0 +1,51 @@
+{
+  "scope": "returned_evidence_literal_presence_only",
+  "case_fields_not_independently_replayed": true,
+  "original_paste_has_invalid_escapes": true,
+  "reports": [
+    {
+      "file_index": 4,
+      "case_id": "CASE-656D0757",
+      "question_count": 5,
+      "declared_workflow_revision": "20260929-evidence-depth-five",
+      "quote_count": 20,
+      "matched_count": 20,
+      "quote_failures": [],
+      "skill_script_exit": 1,
+      "skill_script_output": "ERROR: duplicate primary evidence locator: 7e911bc2-d9c4-41ea-bcef-d28c231dc12d / 21\r\nAUDIT FAIL: 1 error(s), 0 warning(s)\r\n"
+    },
+    {
+      "file_index": 5,
+      "case_id": "CASE-FCAC0B7D",
+      "question_count": 5,
+      "declared_workflow_revision": "20260929-evidence-depth-five",
+      "quote_count": 20,
+      "matched_count": 20,
+      "quote_failures": [],
+      "skill_script_exit": 0,
+      "skill_script_output": "AUDIT PASS: 0 errors, 0 warning(s)\r\nManual semantic review of case facts and snippet support is still required.\r\n"
+    },
+    {
+      "file_index": 6,
+      "case_id": "CASE-CDE79729",
+      "question_count": 5,
+      "declared_workflow_revision": "20260929-evidence-depth-five",
+      "quote_count": 20,
+      "matched_count": 20,
+      "quote_failures": [],
+      "skill_script_exit": 1,
+      "skill_script_output": "ERROR: duplicate primary evidence locator: 6e2caad03ab62f3396186fd219069693 / 1\r\nAUDIT FAIL: 1 error(s), 0 warning(s)\r\n"
+    },
+    {
+      "file_index": 10,
+      "case_id": "CASE-7ADE271C",
+      "question_count": 5,
+      "declared_workflow_revision": "20260929-evidence-depth-five",
+      "quote_count": 20,
+      "matched_count": 20,
+      "quote_failures": [],
+      "skill_script_exit": 1,
+      "skill_script_output": "ERROR: duplicate primary evidence locator: 745fcee1-ab81-490d-96fc-517f2a543f7b / 50\r\nAUDIT FAIL: 1 error(s), 0 warning(s)\r\n"
+    }
+  ]
+}

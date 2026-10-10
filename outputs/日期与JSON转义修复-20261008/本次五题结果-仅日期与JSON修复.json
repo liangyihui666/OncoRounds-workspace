@@ -1,0 +1,253 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-5CDEE8ED",
+    "cancer_type": "肺癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "治疗决策",
+        "phase": "诱导治疗后",
+        "timepoint": "2024-09",
+        "question": "该患者诱导3周期后PR，降期至cT1cN3M0 IIIB期，PS 0-1。下一步局部治疗方案应如何选择？",
+        "options": {
+          "A": "根治性同步放化疗，放疗采用累及野淋巴结区域照射，化疗含铂双药",
+          "B": "诱导后手术切除（肺叶切除+系统性淋巴结清扫），因原发灶已降期至T1c",
+          "C": "序贯化疗+放疗（顺铂+紫杉醇化疗后三维适形放疗）",
+          "D": "继续白紫+卡铂+纳武利尤单抗至4周期后再评估手术可行性"
+        },
+        "answer": "A",
+        "answer_text": "根治性同步放化疗，放疗采用累及野淋巴结区域照射，化疗含铂双药",
+        "explain": "A｜正确：原病例组内倾向优先考虑放疗；按所引CSCO指南，不可手术Ⅲ期PS0-1的I级推荐为根治性同步放化疗含累及野照射。本例N3残留使完全切除难以实现，手术仅为II级推荐且需满足完全切除条件。\nB｜不正确：手术为II级推荐，前提是MDT评价降期后能做到完全性切除。本例N3多站残留，原发灶虽降至T1c但纵隔淋巴结未完全缓解，不满足完全切除条件。\nC｜不正确：序贯化疗+放疗为II级推荐，适用于不能耐受同步放化疗者。本例PS 0-1无同步放化疗禁忌，应优先选择I级推荐的同步方案。\nD｜不正确：继续诱导化疗非所引指南推荐路径。诱导3周期后已获PR，应进入局部治疗阶段（CRT或手术评估），而非延长全身治疗。",
+        "keyPoint": "不可手术Ⅲ期PS0-1首选根治性同步放化疗；手术为II级推荐且需满足完全切除条件",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "065ff4dc-ec1b-442e-8381-e8d820673576",
+          "split_index": 129,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会（CSCO）非小细胞肺癌诊疗指南 2026",
+          "source_version": "2026",
+          "source_section": "【注释】",
+          "source_url": "",
+          "evidence_summary": "CSCO 2026：不可手术Ⅲ期NSCLC PS0-1，I级推荐根治性同步放化疗+免疫巩固；II级含降期手术评估"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "诊断与分期",
+        "phase": "诊断",
+        "timepoint": "2024-09-25",
+        "question": "病理补充报告示EBERs(++)、CK5/6(+)、P40(+)、P63(+)、TTF1(-)、NapsinA(-)。关于该免疫表型的诊断解读，下列哪项正确？",
+        "options": {
+          "A": "该免疫表型提示NSCC-NOS，需进一步检测腺癌标记物以明确分型",
+          "B": "EBERs(++)联合鳞状标记物阳性及腺癌标记物阴性，支持淋巴上皮样癌诊断",
+          "C": "P40和P63阳性即可确诊肺鳞癌，EBER阳性为伴随发现不影响分型",
+          "D": "NapsinA和TTF1阴性排除腺癌成分，应诊断为纯鳞状细胞癌"
+        },
+        "answer": "B",
+        "answer_text": "EBERs(++)联合鳞状标记物阳性及腺癌标记物阴性，支持淋巴上皮样癌诊断",
+        "explain": "A｜不正确：所引指南规定NSCC-NOS仅在标本无明显分化或表型特征时使用。本例CK5/6、P40、P63阳性明确提示鳞状分化，EBERs(++)提示EBV关联，不符合NSCC-NOS诊断条件。\nB｜正确：原病例病理补充报告示EBERs(++)、CK5/6(+)、P40(+)、P63(+)、TTF1(-)、NapsinA(-)；按所引指南应尽可能明确组织学亚型，仅当无明显分化或表型特征时才诊断NSCC-NOS。本例有明确鳞状分化及EBV关联，支持LELC诊断。\nC｜不正确：P40/P63阳性提示鳞状分化，但LELC是独立亚型，需EBER阳性及淋巴细胞浸润背景。单纯鳞癌标记阳性不能排除LELC，EBER(++)是诊断LELC的关键依据而非伴随发现。\nD｜不正确：TTF1/NapsinA阴性排除腺癌成分，但LELC并非纯鳞癌。LELC具有独特EBV驱动病理特征和淋巴细胞浸润背景，需结合形态学和EBER综合判断，不能仅凭腺癌标记阴性归为鳞癌。",
+        "keyPoint": "LELC诊断需EBER阳性+鳞状分化+腺癌标记阴性，不应归为NSCC-NOS或纯鳞癌",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "2fe10ce2-1058-4e82-a610-24e151ef01eb",
+          "split_index": 48,
+          "type": "guideline",
+          "authority": "中华医学会肿瘤学分会",
+          "source_title": "中华医学会肿瘤学分会肺癌临床诊疗指南（2026 版）",
+          "source_version": "2026",
+          "source_section": "中华医学会肿瘤学分会肺癌临床诊疗指南（2026版）",
+          "source_url": "",
+          "evidence_summary": "中华医学会2026肺癌指南：应尽可能明确组织学亚型，仅无明显分化/表型时诊断NSCC-NOS"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "分子诊断",
+        "phase": "诊断",
+        "timepoint": "2024-06",
+        "question": "该患者为不可手术Ⅲ期NSCLC，已行NGS检出PIK3CA突变。关于分子检测策略，下列哪项正确？",
+        "options": {
+          "A": "已行NGS检出PIK3CA突变，无需再补充EGFR/ALK/ROS1等必检基因检测",
+          "B": "PIK3CA为NSCLC标准可靶向驱动基因，应据此选择靶向治疗替代化疗",
+          "C": "不可手术Ⅲ期NSCLC应在病理诊断时预留足够组织进行分子检测，指导治疗",
+          "D": "本例鳞状标记阳性，按指南肺鳞癌仅可考虑必检基因检测，无需常规系统分子检测"
+        },
+        "answer": "C",
+        "answer_text": "不可手术Ⅲ期NSCLC应在病理诊断时预留足够组织进行分子检测，指导治疗",
+        "explain": "A｜不正确：所引CACA指南列出必检基因包括EGFR、ALK、ROS1、RET、NTRK、BRAF、MET14、KRAS、HER-2。NGS检出PIK3CA不能替代这些必检基因的系统检测，且组织预留原则仍适用。\nB｜不正确：PIK3CA不在所引指南列出的NSCLC必检或标准可靶向驱动基因中。目前NSCLC无获批PI3K靶向药，该突变不改变放化疗+免疫的标准策略。\nC｜正确：原病例已行NGS检出PIK3CA突变；按所引CACA指南，不可手术Ⅲ期及IV期应在病理诊断时预留足够组织进行分子检测，根据分子分型指导治疗。本例为不可手术Ⅲ期，该原则直接适用。\nD｜不正确：所引指南中'肺鳞癌患者可考虑'针对的是具体必检基因列表的常规性，而非否定①预留组织进行分子检测的总原则。LELC为EBV相关独立亚型，不完全等同于肺鳞癌，①原则仍适用。",
+        "keyPoint": "不可手术Ⅲ期应预留组织进行系统分子检测，NGS单项结果不替代必检基因策略",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "fd357ad4-e149-4a6f-b624-009a1351acad",
+          "split_index": 20,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "肺癌",
+          "source_version": "2024",
+          "source_section": "3 分子病理",
+          "source_url": "",
+          "evidence_summary": "CACA肺癌2024：不可手术Ⅲ期及IV期应在病理诊断时预留足够组织进行分子检测，指导治疗"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "治疗决策",
+        "phase": "放化疗后",
+        "timepoint": "后续",
+        "question": "该患者拟行根治性同步放化疗。关于放化疗后巩固/维持治疗，下列哪项正确？",
+        "options": {
+          "A": "诱导期已用纳武利尤单抗，放化疗后无需再行免疫巩固，直接随访",
+          "B": "EGFR野生型患者放化疗后应使用奥希替尼维持治疗至疾病进展",
+          "C": "PD-L1 TPS仅1%+，免疫巩固获益不确定，放化疗后仅行观察随访",
+          "D": "无EGFR敏感突变，同步放化疗后推荐度伐利尤单抗或舒格利单抗巩固"
+        },
+        "answer": "D",
+        "answer_text": "无EGFR敏感突变，同步放化疗后推荐度伐利尤单抗或舒格利单抗巩固",
+        "explain": "A｜不正确：所引CSCO指南推荐CRT后度伐利尤单抗/舒格利单抗巩固为I级推荐，未因诱导期使用其他免疫检查点抑制剂而豁免。诱导化疗免疫与CRT后巩固属不同治疗阶段，不可互相替代。\nB｜不正确：奥希替尼维持仅适用于分子检测为EGFR敏感突变型患者。本例ALK(-)、未检出EGFR突变，不满足奥希替尼维持的适用条件。\nC｜不正确：所引指南将度伐利尤单抗/舒格利单抗列为I级推荐，未设PD-L1表达阈值限制。PD-L1 1%+不构成放弃免疫巩固的依据。\nD｜正确：原病例实际接受纳武利尤单抗诱导3周期；按所引CSCO指南，CRT后巩固推荐度伐利尤单抗或舒格利单抗为I级推荐。本例无EGFR敏感突变，不适用奥希替尼维持；诱导期免疫不替代CRT后巩固。",
+        "keyPoint": "CRT后巩固推荐度伐利尤单抗/舒格利单抗；诱导期免疫不替代CRT后巩固",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "065ff4dc-ec1b-442e-8381-e8d820673576",
+          "split_index": 129,
+          "type": "guideline",
+          "authority": "CSCO",
+          "source_title": "中国临床肿瘤学会（CSCO）非小细胞肺癌诊疗指南 2026",
+          "source_version": "2026",
+          "source_section": "【注释】",
+          "source_url": "",
+          "evidence_summary": "CSCO 2026：度伐利尤单抗/舒格利单抗为CRT后巩固I级推荐；EGFR突变型用奥希替尼维持"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "疗效复评与局部治疗",
+        "phase": "诱导治疗后",
+        "timepoint": "2024-09-18",
+        "question": "诱导3周期后复查PET/CT示PR(-48.1%)，但OCR数据存在尺寸和SUV值矛盾。关于疗效评估，下列哪项正确？",
+        "options": {
+          "A": "诱导后PET/CT显示PR即可判定疗效，无需结合肿瘤标志物及临床评估",
+          "B": "应在化疗2～3周期后等关键节点进行规范化评估，含影像、标志物及临床评估",
+          "C": "疗效评估发现PR后无需MDT再讨论，可直接按原计划进入下一步治疗",
+          "D": "诱导3周期后未达CR即视为疗效不佳，应立即更换为二线方案"
+        },
+        "answer": "B",
+        "answer_text": "应在化疗2～3周期后等关键节点进行规范化评估，含影像、标志物及临床评估",
+        "explain": "A｜不正确：所引共识明确评估手段包括影像学、肿瘤标志物及临床评估，非仅影像学。本例PET/CT数据存在OCR识别错误（尺寸、SUV值矛盾），单一影像学评估不可靠。\nB｜正确：原病例诱导3周期后PET/CT示PR(-48.1%)；按所引MDT共识，应在化疗2～3周期后等关键时间节点进行规范化疗效评估，采用影像学、肿瘤标志物及临床评估等手段。本例OCR数据矛盾更需多手段综合评估。\nC｜不正确：所引共识要求疗效不佳或进展时反馈MDT。本例虽获PR，但下一步局部治疗决策（CRT vs手术）需MDT讨论，所引CSCO指南亦要求MDT评价手术可行性。PR不等于无需再讨论。\nD｜不正确：PR为有效疗效评价，非疗效不佳。所引共识的'疗效不佳或进展'指SD/PD情况。本例-48.1%缩小符合PR标准，不应据此更换方案。",
+        "keyPoint": "疗效评估需多手段（影像+标志物+临床），PR后仍需MDT决定局部治疗路径",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "03a4d570-d74b-4746-9bac-e27d4c70f333",
+          "split_index": 17,
+          "type": "guideline",
+          "authority": "中国医师协会",
+          "source_title": "驱动基因阴性非小细胞肺癌多学科诊疗专家共识 (2026 版)",
+          "source_version": "2026",
+          "source_section": "驱动基因阴性非小细胞肺癌多学科诊疗专家共识(2026版)",
+          "source_url": "",
+          "evidence_summary": "驱动基因阴性NSCLC MDT共识2026：化疗2-3周期后规范化评估，含影像、标志物及临床评估"
+        }
+      }
+    ],
+    "missing_information": [
+      "基线PET/CT日期(2024-6-3)早于病理确诊(2024-6-15)，存在时间逻辑冲突",
+      "复查PET/CT原发灶尺寸及SUVmax OCR识别数据与PR结论严重矛盾，具体数值待核对原始报告",
+      "淋巴结分组数据OCR严重串列错位，无法精确提取第2、4等组具体大小和SUV值",
+      "NGS中CDKS基因名疑似OCR错误，NTRK2突变位点存疑",
+      "不良事件未描述"
+    ]
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-5CDEE8ED",
+    "cancer_type": "肺癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": ""
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "右肺淋巴上皮样癌诱导治疗后评估",
+      "description": "患者女性，57岁，不吸烟，PS 0~1分。2024年6月确诊右肺淋巴上皮样癌（cT3N3M0 IIIC期）。接受白紫+卡铂+纳武利尤单抗诱导治疗3周期。2024年9月复查PET/CT显示原发灶及淋巴结明显缩小，疗效评价PR。目前诊断为cT1cN3M0 IIIB期。拟讨论下一步局部治疗方案。"
+    },
+    "overview": {
+      "hero": {
+        "title": "右肺淋巴上皮样癌诱导治疗后评估",
+        "subtitle": "肺淋巴上皮样癌的病理特征（EBER阳性、鳞状标记物阳性、腺癌标记物阴性） 不可切除III期NSCLC新辅助免疫联合化疗后的疗效评估与分期降期 OCR数据在临床结构化提取中的噪声处理原则（如尺寸、SUV值的逻辑校验）"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者与就诊背景",
+              "value": "患者女性，57岁，不吸烟，PS 0~1分。2024年6月确诊右肺淋巴上皮样癌（cT3N3M0 IIIC期）。接受白紫+卡铂+纳武利尤单抗诱导治疗3周期。2024年9月复查PET/CT显示原发灶及淋巴结明显缩小，疗效评价PR。目前诊断为cT1cN3M0 IIIB期。拟讨论下一步局部治疗方案。"
+            },
+            {
+              "order": 2,
+              "label": "疾病与分期",
+              "value": "右肺淋巴上皮样癌 cT3N3M0 IIIC期（初诊）；cT1cN3M0 IIIB期（治疗后）"
+            },
+            {
+              "order": 3,
+              "label": "分子与病理",
+              "value": "PD-L1：TPS 1%+ (初诊及复检一致) EGFR/ALK/ROS1：ALK(D5F3)(-)，其他未提及或阴性 EBV：EBERs(++) IHC：CK5/6(+), P40(+), P63(+), TTF1(-), NapsinA(-) NGS_Somatic：PIK3CA p.E542K (丰度31.0%), NTRK2 p.M636I? (丰度32.8%, 位点存疑), RNF43 p.P301S (丰度32.4%), RARA p.L409V (丰度28.6%), CDKS? p.A155V (丰度……"
+            },
+            {
+              "order": 4,
+              "label": "核心教学点",
+              "value": "肺淋巴上皮样癌的病理特征（EBER阳性、鳞状标记物阳性、腺癌标记物阴性） 不可切除III期NSCLC新辅助免疫联合化疗后的疗效评估与分期降期 OCR数据在临床结构化提取中的噪声处理原则（如尺寸、SUV值的逻辑校验）"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2024-6-15",
+              "title": "诊断",
+              "detail": "EBUS检查，病理示淋巴上皮样癌。PD-L1 TPS 1%+，NGS示PIK3CA突变。"
+            },
+            {
+              "date": "2024-6-3",
+              "title": "基线评估",
+              "detail": "基线PET/CT（注：日期早于病理确诊，存在时间逻辑冲突，见evidence_notes）。原发灶约6.5x5.2cm，SUVmax 22.4。"
+            },
+            {
+              "date": "2024-6至2024-9",
+              "title": "诱导治疗",
+              "detail": "白紫 + 卡铂 + 纳武利尤单抗，共3周期。"
+            },
+            {
+              "date": "2024-9-18",
+              "title": "疗效评估",
+              "detail": "复查PET/CT。原发灶明显缩小，PR (-48.1%)。区域淋巴结大部分缩小，代谢减低。"
+            },
+            {
+              "date": "2024-09-25",
+              "title": "分子/病理复核",
+              "detail": "病理补充报告（右主支气管标本）。分化差的癌，支持淋巴上皮样癌。ALK(-), CK5/6(+), NapsinA(-), P40(+), P63(+), TTF1(-), EBERs(++)。PD-L1复检TPS 1%+。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

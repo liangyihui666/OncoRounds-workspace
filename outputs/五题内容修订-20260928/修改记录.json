@@ -1,0 +1,15 @@
+{
+  "revision": "20260928-quality-five",
+  "changed_nodes": [
+    "题目生成-首轮",
+    "第二轮修订输入",
+    "题目修订-第二轮",
+    "整理最终输出"
+  ],
+  "nodes": 33,
+  "edges": 52,
+  "generation_prompt_characters_before": 3731,
+  "generation_prompt_characters_after": 4555,
+  "online_verified": false,
+  "medical_correctness_verified": false
+}

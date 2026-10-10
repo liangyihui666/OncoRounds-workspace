@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "case_id": "CASE-7C34EC3D",
+  "cancer_type": "乳腺癌",
+  "generation_status": "success",
+  "difficulty": "进阶",
+  "question_count": 5,
+  "questions": [
+    {
+      "id": "Q1",
+      "type": "诊断策略",
+      "phase": "2023年1月：胃肠道病灶来源判断",
+      "timepoint": "当前教学复盘：2023年1月：胃肠道病灶来源判断",
+      "question": "52岁女性，既往乳腺浸润性小叶癌，现胃及结直肠多发溃疡。活检见低分化癌，ER、PR、GATA3阳性，E-cadherin及HER2阴性，与原乳腺肿瘤特征相符。综合这些信息，哪项判断最合理？",
+      "options": {
+        "A": "按多发溃疡的解剖部位，分别归入胃癌与结直肠癌",
+        "B": "按低分化癌的组织形态，优先归入胃肠道原发癌",
+        "C": "按病史及对照病理结果，支持乳腺癌的胃肠道转移",
+        "D": "按HER2阴性的检测结果，支持排除乳腺来源转移"
+      },
+      "answer": "C",
+      "answer_text": "按病史及对照病理结果，支持乳腺癌的胃肠道转移",
+      "explain": "本例来源判断依靠既往小叶癌病史、形态及免疫表型的综合对照，不是凭GATA3或某一项染色单独定论。转移发生在胃肠道，并不改变乳腺原发的归属；原JSON的“胃癌”分类应纠正。",
+      "keyPoint": "病灶所在器官不等于肿瘤原发器官。",
+      "guidelineRef": {
+        "evidence_type": "病例与临床推理",
+        "doc_id": "",
+        "split_index": null,
+        "type": "case_reasoning",
+        "authority": "NCI",
+        "source_title": "Metastatic Breast Cancer",
+        "source_version": "2025",
+        "source_section": "What is metastatic breast cancer?",
+        "source_url": "https://www.cancer.gov/types/breast/stages/metastatic-breast-cancer",
+        "evidence_summary": "NCI说明转移灶保留原发肿瘤类型；本例胃肠道来源的具体结论来自已提供的对照病理。"
+      }
+    },
+    {
+      "id": "Q2",
+      "type": "内分泌治疗条件",
+      "phase": "2023年2月：来曲唑联合哌柏西利及戈舍瑞林",
+      "timepoint": "当前教学复盘：2023年2月：来曲唑联合哌柏西利及戈舍瑞林",
+      "question": "患者胃肠道转移后接受来曲唑、哌柏西利和戈舍瑞林。原资料未完整交代绝经评估结果。若患者此时仍有卵巢功能，戈舍瑞林在该组合中的主要作用是什么？",
+      "options": {
+        "A": "抑制卵巢来源的雌激素，使AI治疗具备内分泌条件",
+        "B": "阻断肿瘤细胞的雌激素受体，替代AI的抗肿瘤作用",
+        "C": "促进卵巢功能在化疗后恢复，维持稳定的激素水平",
+        "D": "减少靶向药引起的骨髓抑制，提高CDK4/6抑制强度"
+      },
+      "answer": "A",
+      "answer_text": "抑制卵巢来源的雌激素，使AI治疗具备内分泌条件",
+      "explain": "这是明确的条件性问题，并未补造患者激素检测结果。卵巢功能尚存时，芳香化酶抑制剂不能替代卵巢功能抑制；戈舍瑞林用于抑制卵巢功能。不能仅凭52岁或化疗后停经认定永久绝经，也不能认为哌柏西利具有去势作用。",
+      "keyPoint": "AI应用需核对卵巢功能及抑制条件。",
+      "guidelineRef": {
+        "evidence_type": "官方医学资料",
+        "doc_id": "",
+        "split_index": null,
+        "type": "education",
+        "authority": "NCI",
+        "source_title": "Hormone Therapy for Breast Cancer",
+        "source_version": "在线版；核对2026-09-04",
+        "source_section": "Therapies that block ovarian function; Aromatase inhibitors",
+        "source_url": "https://www.cancer.gov/types/breast/treatment/hormone-therapy",
+        "evidence_summary": "绝经前使用芳香化酶抑制剂需同时抑制卵巢功能；GnRH激动剂可实现药物性卵巢功能抑制。"
+      }
+    },
+    {
+      "id": "Q3",
+      "type": "研究证据适用性",
+      "phase": "2024年8月进展后的当前教学复盘",
+      "timepoint": "当前教学复盘：2024年8月进展后的当前教学复盘",
+      "question": "来曲唑联合哌柏西利治疗后进展，本例改用氟维司群联合阿贝西利。当前复盘时参考postMONARCH研究，哪项表述最准确？",
+      "options": {
+        "A": "研究比较两种CDK4/6抑制剂，支持阿贝西利直接优效",
+        "B": "研究比较该联合方案与化疗，支持联合方案优于化疗",
+        "C": "研究比较两种内分泌药物，支持氟维司群单药优效",
+        "D": "研究以氟维司群单药为对照，支持特定联合方案获益"
+      },
+      "answer": "D",
+      "answer_text": "研究以氟维司群单药为对照，支持特定联合方案获益",
+      "explain": "postMONARCH是随机Ⅲ期研究，比较阿贝西利联合氟维司群与安慰剂联合氟维司群，支持所研究人群的PFS获益。它不证明所有CDK4/6抑制剂均可任意跨线互换，也不是与全部后线方案的比较。本文用于当前复盘，不能反称病例当时已依据后来发表的完整结果决策。",
+      "keyPoint": "方案特异性证据不能扩大为同类药物的普遍结论。",
+      "guidelineRef": {
+        "evidence_type": "临床研究",
+        "doc_id": "",
+        "split_index": null,
+        "type": "journal",
+        "authority": "JCO；postMONARCH研究组",
+        "source_title": "Abemaciclib Plus Fulvestrant in Advanced Breast Cancer After Progression on CDK4/6 Inhibition: Results From the Phase III postMONARCH Trial",
+        "source_version": "2024在线发表；2025卷期",
+        "source_section": "",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11936477/",
+        "evidence_summary": "在既往CDK4/6抑制剂联合内分泌治疗后进展的研究人群中，阿贝西利联合氟维司群较对照改善PFS；并非所有同类药物或全部后线方案间的比较。"
+      }
+    },
+    {
+      "id": "Q4",
+      "type": "进展复评",
+      "phase": "2024年12月：腹水细胞学结果出具前",
+      "timepoint": "当前教学复盘：2024年12月：腹水细胞学结果出具前",
+      "question": "患者出现腹胀，CT显示大网膜结节状增厚及腹腔积液，影像考虑腹膜转移。此时腹水病理尚未出具。为进一步判断腹水是否为肿瘤性及其来源，哪项检查最有针对性？",
+      "options": {
+        "A": "复查血清肿瘤标志物，依据升高幅度判定腹水来源",
+        "B": "送检腹水细胞学及细胞块，结合免疫表型对照原癌",
+        "C": "复查腹部CT并测量腹水量，依据增长速度确定来源",
+        "D": "复查血清白蛋白及肝功能，依据低蛋白程度判定转移"
+      },
+      "answer": "B",
+      "answer_text": "送检腹水细胞学及细胞块，结合免疫表型对照原癌",
+      "explain": "影像提出腹膜转移的怀疑，细胞学及免疫表型可进一步判断恶性性质和来源。此处考查的是已实际实施的腹水送检路径；单纯液量或标志物不能承担来源判定。若送检阴性但仍高度可疑，需复核取材充分性并讨论其他取材，不能由阴性直接排除转移。",
+      "keyPoint": "将影像怀疑与恶性细胞及来源证据分开确认。",
+      "guidelineRef": {
+        "evidence_type": "病例与临床推理",
+        "doc_id": "",
+        "split_index": null,
+        "type": "case_reasoning",
+        "authority": "NCI",
+        "source_title": "Metastatic Breast Cancer",
+        "source_version": "2025",
+        "source_section": "How is metastatic breast cancer diagnosed?",
+        "source_url": "https://www.cancer.gov/types/breast/stages/metastatic-breast-cancer",
+        "evidence_summary": "官方资料支持对疑似转移进行病理及生物标志物核实；腹水细胞学及ER/PR/HER2结果的具体证据来自本例，不将通用资料冒充腹水专门指南。"
+      }
+    },
+    {
+      "id": "Q5",
+      "type": "局部治疗证据边界",
+      "phase": "2025年4月：腹腔内顺铂治疗复盘",
+      "timepoint": "当前教学复盘：2025年4月：腹腔内顺铂治疗复盘",
+      "question": "多线治疗后本例腹膜病变进展，接受腹水引流及腹腔内顺铂。病例未记载肿瘤细胞减灭术或加温灌注。将这一经过写入教学结论时，哪项表述最严谨？",
+      "options": {
+        "A": "应记为个体化局部处理，尚不足以确立通用治疗标准",
+        "B": "可归入减瘤术联合热灌注，借用其他癌种的研究结论",
+        "C": "可视为晚期乳腺癌标准后线，主要依据给药途径确定",
+        "D": "可视为替代系统治疗的依据，主要依据腹水引流效果"
+      },
+      "answer": "A",
+      "answer_text": "应记为个体化局部处理，尚不足以确立通用治疗标准",
+      "explain": "原资料只支持“腹腔内顺铂”这一实际操作，不能改写为CRS联合HIPEC，也未给出可证明生存获益的比较结果。个体的局部处理不等于乳腺癌普遍标准，不能用结直肠癌腹膜转移证据代替；系统治疗与症状管理仍需分别评估。",
+      "keyPoint": "区分个案操作、术式定义与可推广的比较证据。",
+      "guidelineRef": {
+        "evidence_type": "病例与临床推理",
+        "doc_id": "",
+        "split_index": null,
+        "type": "case_reasoning",
+        "authority": "病例材料；NCI",
+        "source_title": "用户提供的乳腺浸润性小叶癌病例；Metastatic Breast Cancer",
+        "source_version": "病例随访至2025；NCI 2025",
+        "source_section": "",
+        "source_url": "https://www.cancer.gov/types/breast/stages/metastatic-breast-cancer",
+        "evidence_summary": "病例仅记载引流和腹腔内顺铂，未报告减瘤术或加温灌注。NCI提供转移性乳腺癌综合治疗背景，不直接推荐本例的腹腔顺铂方案。"
+      }
+    }
+  ],
+  "missing_information": []
+}

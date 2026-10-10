@@ -1,0 +1,304 @@
+{
+  "scope": "batch identity, completion, selected source-fact and evidence-use issues; not full medical validation",
+  "source": "C:/Users/admin/.codex/attachments/2119d01a-d048-4b43-86ed-f2c947759e91/已粘贴的文本.txt",
+  "files_accounted_for": 10,
+  "complete_case_count": 9,
+  "total_questions": 45,
+  "actual_upload_order_verified": false,
+  "online_child_revision_verified": false,
+  "retrieved_full_snippets_available": false,
+  "batch_report": {
+    "schema_version": "batch-five-1.0",
+    "scope": "structure_and_completion_only",
+    "expected_count": 10,
+    "complete_count": 9,
+    "incomplete_count": 1,
+    "failed_count": 0,
+    "status": "partial",
+    "retry_file_indices": [
+      7
+    ],
+    "items": [
+      {
+        "file_index": 1,
+        "status": "complete",
+        "case_id": "CASE-4AD31733",
+        "question_count": 5
+      },
+      {
+        "file_index": 2,
+        "status": "complete",
+        "case_id": "CASE-D5DDC4E5",
+        "question_count": 5
+      },
+      {
+        "file_index": 3,
+        "status": "complete",
+        "case_id": "CASE-4A459D5D",
+        "question_count": 5
+      },
+      {
+        "file_index": 4,
+        "status": "complete",
+        "case_id": "CASE-EDBD78F5",
+        "question_count": 5
+      },
+      {
+        "file_index": 5,
+        "status": "complete",
+        "case_id": "CASE-F42D3862",
+        "question_count": 5
+      },
+      {
+        "file_index": 6,
+        "status": "complete",
+        "case_id": "CASE-A5AA8674",
+        "question_count": 5
+      },
+      {
+        "file_index": 7,
+        "status": "incomplete",
+        "code": "NO_COMPLETE_QUESTION_SET",
+        "question_count": 0,
+        "missing_information": [
+          "Q2：解析必须恰好四行，按A/B/C/D逐项解释",
+          "Q2：B解析缺失、格式错误或与答案不一致",
+          "Q2：C解析缺失、格式错误或与答案不一致",
+          "Q2：D解析缺失、格式错误或与答案不一致",
+          "Q2缺少字段：keyPoint",
+          "Q2的keyPoint必须为非空字符串",
+          "Q4：解析必须恰好四行，按A/B/C/D逐项解释",
+          "Q4：B解析缺失、格式错误或与答案不一致",
+          "Q4：C解析缺失、格式错误或与答案不一致",
+          "Q4：D解析缺失、格式错误或与答案不一致",
+          "Q4缺少字段：keyPoint",
+          "Q4的keyPoint必须为非空字符串"
+        ]
+      },
+      {
+        "file_index": 8,
+        "status": "complete",
+        "case_id": "CASE-2ADCCCD3",
+        "question_count": 5
+      },
+      {
+        "file_index": 9,
+        "status": "complete",
+        "case_id": "CASE-8540CAE2",
+        "question_count": 5
+      },
+      {
+        "file_index": 10,
+        "status": "complete",
+        "case_id": "CASE-90072EBC",
+        "question_count": 5
+      }
+    ]
+  },
+  "rows": [
+    {
+      "output_index": 1,
+      "source_id": "161147",
+      "source_file": "C:\\Users\\admin\\Desktop\\新增病例候选-第3批10例-2026-09-15\\161147_循证有例_紫杉醇化疗的“隐匿副作用”_一例男性乳腺癌患者并发紫杉醇诱导性胶原性结肠炎病例启示.html",
+      "topic": "紫杉醇相关胶原性结肠炎",
+      "case_id": "CASE-4AD31733",
+      "matching_basis": "manual comparison of case identity and distinctive clinical course; not an upload-order manifest",
+      "title": "男性转移性乳腺癌化疗后严重腹泻的病因鉴别",
+      "question_count": 5,
+      "generation_status": "success",
+      "answer_sequence": "BBBBB",
+      "missing_information": [],
+      "internal_reference_mentions": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "timeline_fallbacks": 9,
+      "source_character_count": 2630
+    },
+    {
+      "output_index": 2,
+      "source_id": "161906",
+      "source_file": "C:\\Users\\admin\\Desktop\\新增病例候选-第3批10例-2026-09-15\\161906_循证有例_乳房切除术后硅胶诱发的同侧内乳淋巴结肿大酷似乳腺癌复发导致的诊断难题_一例病例报告.html",
+      "topic": "硅胶假体相关淋巴结肿大",
+      "case_id": "CASE-D5DDC4E5",
+      "matching_basis": "manual comparison of case identity and distinctive clinical course; not an upload-order manifest",
+      "title": "乳腺癌术后内乳淋巴结肿大伴FDG高摄取的鉴别",
+      "question_count": 5,
+      "generation_status": "success",
+      "answer_sequence": "ACBDA",
+      "missing_information": [],
+      "internal_reference_mentions": [
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5"
+      ],
+      "timeline_fallbacks": 6,
+      "source_character_count": 4650
+    },
+    {
+      "output_index": 3,
+      "source_id": "163169",
+      "source_file": "C:\\Users\\admin\\Desktop\\新增病例候选-第3批10例-2026-09-15\\163169_医案集萃丨罕见！肺腺癌合并结直肠癌双重原发_林奇综合征双重原发癌免疫治疗获益.html",
+      "topic": "肺腺癌与结直肠癌双原发",
+      "case_id": "CASE-4A459D5D",
+      "matching_basis": "manual comparison of case identity and distinctive clinical course; not an upload-order manifest",
+      "title": "dMMR肺腺癌合并结直肠癌的免疫治疗决策",
+      "question_count": 5,
+      "generation_status": "success",
+      "answer_sequence": "CABDC",
+      "missing_information": [],
+      "internal_reference_mentions": [
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5"
+      ],
+      "timeline_fallbacks": 5,
+      "source_character_count": 1953
+    },
+    {
+      "output_index": 4,
+      "source_id": "163170",
+      "source_file": "C:\\Users\\admin\\Desktop\\新增病例候选-第3批10例-2026-09-15\\163170_循证有例_警惕化疗后的“非典型”贫血，转移性乳腺癌继发冷凝集素综合征病例分享.html",
+      "topic": "乳腺癌继发冷凝集素综合征",
+      "case_id": "CASE-EDBD78F5",
+      "matching_basis": "manual comparison of case identity and distinctive clinical course; not an upload-order manifest",
+      "title": "转移性乳腺癌紫杉醇三线治疗后严重贫血的诊治",
+      "question_count": 5,
+      "generation_status": "success",
+      "answer_sequence": "BACAD",
+      "missing_information": [
+        "冷凝集素综合征（CAS）特异性治疗（利妥昔单抗升级策略、糖皮质激素在冷抗体型中预期疗效有限）：已检索irae_a/irae_b及clinical_study_initial/supplement，证据池中无血液学免疫并发症管理相关记录，无法为2024年CAS处理决策出题",
+        "节律性化疗方案（卡培他滨、脂质体多柔比星）的疗效与安全性循证依据：已检索clinical_study_initial（8条均因INELIGIBLE_SOURCE被剔除），无原始研究支持节律性方案选择决策",
+        "紫杉醇相关冷凝集素综合征的识别与诊断路径（DAT分型、复温试验）：证据池中无溶血性贫血或免疫性血细胞减少相关指南/研究",
+        "严重溶血期间输血管理（加温器使用）及后续化疗降级策略：已检查全部16条保留记录，无输血医学或化疗降级相关证据"
+      ],
+      "internal_reference_mentions": [],
+      "timeline_fallbacks": 8,
+      "source_character_count": 3283
+    },
+    {
+      "output_index": 5,
+      "source_id": "163179",
+      "source_file": "C:\\Users\\admin\\Desktop\\新增病例候选-第3批10例-2026-09-15\\163179_循证有例_乳腺癌术后7年发生直肠转移，一例少见的消化道转移病例报告.html",
+      "topic": "乳腺癌术后7年直肠转移",
+      "case_id": "CASE-F42D3862",
+      "matching_basis": "manual comparison of case identity and distinctive clinical course; not an upload-order manifest",
+      "title": "乳腺癌初治7年后直肠转移的鉴别与管理",
+      "question_count": 5,
+      "generation_status": "success",
+      "answer_sequence": "ACBDA",
+      "missing_information": [],
+      "internal_reference_mentions": [],
+      "timeline_fallbacks": 5,
+      "source_character_count": 3809
+    },
+    {
+      "output_index": 6,
+      "source_id": "137657",
+      "source_file": "C:\\Users\\admin\\Desktop\\新增病例候选-第3批10例-2026-09-15\\137657_医案集萃 _ 出现又消失的腹水？结直肠癌治疗中的罕见现象.html",
+      "topic": "奥沙利铂治疗期间腹水",
+      "case_id": "CASE-A5AA8674",
+      "matching_basis": "manual comparison of case identity and distinctive clinical course; not an upload-order manifest",
+      "title": "上段直肠癌术后化疗期间出现腹胀的病因探查",
+      "question_count": 5,
+      "generation_status": "success",
+      "answer_sequence": "BADDB",
+      "missing_information": [],
+      "internal_reference_mentions": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5"
+      ],
+      "timeline_fallbacks": 5,
+      "source_character_count": 1443
+    },
+    {
+      "output_index": 7,
+      "source_id": "139414",
+      "source_file": "C:\\Users\\admin\\Desktop\\新增病例候选-第3批10例-2026-09-15\\139414_医案集萃 _ 年轻直肠癌患者罕见致命并发症，如何应对治疗挑战？.html",
+      "topic": "年轻直肠癌严重并发症",
+      "case_id": "CASE-1368749D",
+      "matching_basis": "manual comparison of case identity and distinctive clinical course; not an upload-order manifest",
+      "title": "年轻晚期直肠印戒细胞癌化疗联合靶向全程管理",
+      "question_count": 0,
+      "generation_status": "insufficient",
+      "answer_sequence": "",
+      "missing_information": [
+        "Q2：解析必须恰好四行，按A/B/C/D逐项解释",
+        "Q2：B解析缺失、格式错误或与答案不一致",
+        "Q2：C解析缺失、格式错误或与答案不一致",
+        "Q2：D解析缺失、格式错误或与答案不一致",
+        "Q2缺少字段：keyPoint",
+        "Q2的keyPoint必须为非空字符串",
+        "Q4：解析必须恰好四行，按A/B/C/D逐项解释",
+        "Q4：B解析缺失、格式错误或与答案不一致",
+        "Q4：C解析缺失、格式错误或与答案不一致",
+        "Q4：D解析缺失、格式错误或与答案不一致",
+        "Q4缺少字段：keyPoint",
+        "Q4的keyPoint必须为非空字符串"
+      ],
+      "internal_reference_mentions": [],
+      "timeline_fallbacks": 2,
+      "source_character_count": 3688
+    },
+    {
+      "output_index": 8,
+      "source_id": "154724",
+      "source_file": "C:\\Users\\admin\\Desktop\\新增病例候选-第3批10例-2026-09-15\\154724_循证有例_一例乳腺浸润性小叶癌迟发性胃与直肠同步转移的病例报告.html",
+      "topic": "乳腺小叶癌胃与直肠同步转移",
+      "case_id": "CASE-2ADCCCD3",
+      "matching_basis": "manual comparison of case identity and distinctive clinical course; not an upload-order manifest",
+      "title": "乳腺浸润性小叶癌术后11年胃直肠同步转移的诊治",
+      "question_count": 5,
+      "generation_status": "success",
+      "answer_sequence": "CBABD",
+      "missing_information": [],
+      "internal_reference_mentions": [],
+      "timeline_fallbacks": 5,
+      "source_character_count": 2367
+    },
+    {
+      "output_index": 9,
+      "source_id": "155586",
+      "source_file": "C:\\Users\\admin\\Desktop\\新增病例候选-第3批10例-2026-09-15\\155586_循证有例 _ 当乳腺癌“伪装”成胃溃疡_一例导管黏液癌胃转移病例报道.html",
+      "topic": "乳腺黏液癌胃转移",
+      "case_id": "CASE-8540CAE2",
+      "matching_basis": "manual comparison of case identity and distinctive clinical course; not an upload-order manifest",
+      "title": "右乳黏液癌术后罕见胃转移的多线序贯治疗",
+      "question_count": 5,
+      "generation_status": "success",
+      "answer_sequence": "ABCBD",
+      "missing_information": [],
+      "internal_reference_mentions": [],
+      "timeline_fallbacks": 7,
+      "source_character_count": 2744
+    },
+    {
+      "output_index": 10,
+      "source_id": "155595",
+      "source_file": "C:\\Users\\admin\\Desktop\\新增病例候选-第3批10例-2026-09-15\\155595_循证有例 _ 潜伏的“基因魔咒”_一例BRCA1突变携带者从宫颈癌到复发性三阴性乳腺癌的诊疗历程.html",
+      "topic": "BRCA1相关多原发癌",
+      "case_id": "CASE-90072EBC",
+      "matching_basis": "manual comparison of case identity and distinctive clinical course; not an upload-order manifest",
+      "title": "BRCA1突变携带者多原发癌全程管理",
+      "question_count": 5,
+      "generation_status": "success",
+      "answer_sequence": "BACBC",
+      "missing_information": [],
+      "internal_reference_mentions": [
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5"
+      ],
+      "timeline_fallbacks": 9,
+      "source_character_count": 2385
+    }
+  ]
+}

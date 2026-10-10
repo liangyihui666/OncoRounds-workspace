@@ -1,0 +1,2412 @@
+[
+  {
+    "id": "448745",
+    "name": "流程开始",
+    "inputs": [
+      {
+        "key": "userChatInput",
+        "label": "workflow:user_question",
+        "valueType": "string",
+        "required": true,
+        "selectedType": "reference",
+        "renderTypeList": [
+          "agentGenerated",
+          "reference",
+          "textarea"
+        ],
+        "debugLabel": "",
+        "toolDescription": "用户问题",
+        "defaultToAgentGenerated": true
+      }
+    ],
+    "outputs": [
+      {
+        "id": "userChatInput",
+        "key": "userChatInput",
+        "type": "static",
+        "valueType": "string",
+        "label": "common:core.module.input.label.user question",
+        "description": ""
+      },
+      {
+        "id": "userFiles",
+        "key": "userFiles",
+        "type": "static",
+        "valueType": "arrayString",
+        "label": "app:workflow.user_file_input",
+        "description": "app:workflow.user_file_input_desc"
+      }
+    ]
+  },
+  {
+    "id": "glGeIMqOVaSRs5jF",
+    "name": "正文清洗（HTML/PDF）",
+    "inputs": [
+      {
+        "key": "model",
+        "label": "common:core.module.input.label.aiModel",
+        "valueType": "string",
+        "selectedType": "settingLLMModel",
+        "renderTypeList": [
+          "settingLLMModel",
+          "reference"
+        ],
+        "value": "qwen3.5-plus-nothinking",
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "temperature",
+        "label": "",
+        "valueType": "number",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "maxToken",
+        "label": "",
+        "valueType": "number",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "isResponseAnswerText",
+        "label": "",
+        "valueType": "boolean",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "value": false,
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "aiChatQuoteRole",
+        "label": "",
+        "valueType": "string",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "value": "system",
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "quoteTemplate",
+        "label": "",
+        "valueType": "string",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "quotePrompt",
+        "label": "",
+        "valueType": "string",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "aiChatVision",
+        "label": "",
+        "valueType": "boolean",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "value": false,
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "aiChatAudio",
+        "label": "",
+        "valueType": "boolean",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "value": false,
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "aiChatVideo",
+        "label": "",
+        "valueType": "boolean",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "value": false,
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "aiChatExtractFiles",
+        "label": "",
+        "valueType": "boolean",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "value": false,
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "aiChatReasoning",
+        "label": "",
+        "valueType": "boolean",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "value": false,
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "aiChatReasoningEffort",
+        "label": "",
+        "valueType": "string",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "value": "",
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "aiChatTopP",
+        "label": "",
+        "valueType": "number",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "aiChatStopSign",
+        "label": "",
+        "valueType": "string",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "aiChatResponseFormat",
+        "label": "",
+        "valueType": "string",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "aiChatJsonSchema",
+        "label": "",
+        "valueType": "string",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "history",
+        "label": "common:core.module.input.label.chat history",
+        "valueType": "chatHistory",
+        "required": true,
+        "max": 50,
+        "min": 0,
+        "selectedType": "numberInput",
+        "renderTypeList": [
+          "agentGenerated",
+          "numberInput",
+          "reference"
+        ],
+        "value": 0,
+        "debugLabel": "",
+        "description": "workflow:max_dialog_rounds",
+        "toolDescription": ""
+      },
+      {
+        "key": "quoteQA",
+        "label": "",
+        "valueType": "datasetQuote",
+        "selectedType": "settingDatasetQuotePrompt",
+        "renderTypeList": [
+          "settingDatasetQuotePrompt"
+        ],
+        "debugLabel": "知识库引用",
+        "description": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "fileUrlList",
+        "label": "app:workflow.user_file_input",
+        "valueType": "arrayString",
+        "selectedType": "reference",
+        "renderTypeList": [
+          "agentGenerated",
+          "reference",
+          "JSONEditor"
+        ],
+        "debugLabel": "文件链接",
+        "description": "app:workflow.user_file_input_desc",
+        "toolDescription": "",
+        "defaultToAgentGenerated": true
+      },
+      {
+        "key": "userChatInput",
+        "label": "workflow:user_question",
+        "valueType": "string",
+        "required": true,
+        "selectedType": "reference",
+        "renderTypeList": [
+          "agentGenerated",
+          "reference",
+          "textarea"
+        ],
+        "value": [
+          "htmlTextCheck",
+          "text"
+        ],
+        "debugLabel": "",
+        "toolDescription": "user question",
+        "defaultToAgentGenerated": true
+      }
+    ],
+    "outputs": [
+      {
+        "id": "history",
+        "key": "history",
+        "type": "static",
+        "valueType": "chatHistory",
+        "valueDesc": "{\n  obj: System | Human | AI;\n  value: string;\n}[]",
+        "label": "common:core.module.output.label.New context",
+        "description": "将本次回复内容拼接上历史记录，作为新的上下文返回",
+        "required": true
+      },
+      {
+        "id": "answerText",
+        "key": "answerText",
+        "type": "static",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "common:core.module.output.label.Ai response content",
+        "description": "将在 stream 回复完毕后触发",
+        "required": true
+      },
+      {
+        "id": "reasoningText",
+        "key": "reasoningText",
+        "type": "static",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "workflow:reasoning_content",
+        "description": "",
+        "required": false,
+        "invalid": true
+      },
+      {
+        "id": "system_error_text",
+        "key": "system_error_text",
+        "type": "error",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "workflow:error_text",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "t7eXTzfAM2QUzvvK",
+    "name": "病例结构化提取",
+    "inputs": [
+      {
+        "key": "model",
+        "label": "common:core.module.input.label.aiModel",
+        "valueType": "string",
+        "selectedType": "settingLLMModel",
+        "renderTypeList": [
+          "settingLLMModel",
+          "reference"
+        ],
+        "value": "qwen3.5-plus-nothinking",
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "temperature",
+        "label": "",
+        "valueType": "number",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "maxToken",
+        "label": "",
+        "valueType": "number",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "value": 16000,
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "isResponseAnswerText",
+        "label": "",
+        "valueType": "boolean",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "value": false,
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "aiChatQuoteRole",
+        "label": "",
+        "valueType": "string",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "value": "system",
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "quoteTemplate",
+        "label": "",
+        "valueType": "string",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "quotePrompt",
+        "label": "",
+        "valueType": "string",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "aiChatVision",
+        "label": "",
+        "valueType": "boolean",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "value": true,
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "aiChatAudio",
+        "label": "",
+        "valueType": "boolean",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "value": false,
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "aiChatVideo",
+        "label": "",
+        "valueType": "boolean",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "value": false,
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "aiChatExtractFiles",
+        "label": "",
+        "valueType": "boolean",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "value": true,
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "aiChatReasoning",
+        "label": "",
+        "valueType": "boolean",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "value": false,
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "aiChatReasoningEffort",
+        "label": "",
+        "valueType": "string",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "value": "",
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "aiChatTopP",
+        "label": "",
+        "valueType": "number",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "aiChatStopSign",
+        "label": "",
+        "valueType": "string",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "aiChatResponseFormat",
+        "label": "",
+        "valueType": "string",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "aiChatJsonSchema",
+        "label": "",
+        "valueType": "string",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "history",
+        "label": "common:core.module.input.label.chat history",
+        "valueType": "chatHistory",
+        "required": true,
+        "max": 50,
+        "min": 0,
+        "selectedType": "numberInput",
+        "renderTypeList": [
+          "agentGenerated",
+          "numberInput",
+          "reference"
+        ],
+        "value": 0,
+        "debugLabel": "",
+        "description": "workflow:max_dialog_rounds",
+        "toolDescription": ""
+      },
+      {
+        "key": "quoteQA",
+        "label": "",
+        "valueType": "datasetQuote",
+        "selectedType": "settingDatasetQuotePrompt",
+        "renderTypeList": [
+          "settingDatasetQuotePrompt"
+        ],
+        "debugLabel": "知识库引用",
+        "description": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "fileUrlList",
+        "label": "app:workflow.user_file_input",
+        "valueType": "arrayString",
+        "selectedType": "reference",
+        "renderTypeList": [
+          "agentGenerated",
+          "reference",
+          "JSONEditor"
+        ],
+        "debugLabel": "文件链接",
+        "description": "app:workflow.user_file_input_desc",
+        "toolDescription": "",
+        "defaultToAgentGenerated": true
+      },
+      {
+        "key": "userChatInput",
+        "label": "workflow:user_question",
+        "valueType": "string",
+        "required": true,
+        "selectedType": "reference",
+        "renderTypeList": [
+          "agentGenerated",
+          "reference",
+          "textarea"
+        ],
+        "value": [
+          "glGeIMqOVaSRs5jF",
+          "answerText"
+        ],
+        "debugLabel": "",
+        "toolDescription": "user question",
+        "defaultToAgentGenerated": true
+      }
+    ],
+    "outputs": [
+      {
+        "id": "history",
+        "key": "history",
+        "type": "static",
+        "valueType": "chatHistory",
+        "valueDesc": "{\n  obj: System | Human | AI;\n  value: string;\n}[]",
+        "label": "common:core.module.output.label.New context",
+        "description": "将本次回复内容拼接上历史记录，作为新的上下文返回",
+        "required": true
+      },
+      {
+        "id": "answerText",
+        "key": "answerText",
+        "type": "static",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "common:core.module.output.label.Ai response content",
+        "description": "将在 stream 回复完毕后触发",
+        "required": true
+      },
+      {
+        "id": "reasoningText",
+        "key": "reasoningText",
+        "type": "static",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "workflow:reasoning_content",
+        "description": "",
+        "required": false,
+        "invalid": true
+      },
+      {
+        "id": "system_error_text",
+        "key": "system_error_text",
+        "type": "error",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "workflow:error_text",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "ogy1PAMdD268kXeo",
+    "name": "代码运行",
+    "inputs": [
+      {
+        "key": "system_addInputParam",
+        "label": "",
+        "valueType": "dynamic",
+        "required": false,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        },
+        "selectedType": "addInputParam",
+        "renderTypeList": [
+          "addInputParam"
+        ],
+        "debugLabel": "",
+        "description": "workflow:these_variables_will_be_input_parameters_for_code_execution",
+        "toolDescription": "",
+        "canAgentGenerated": false
+      },
+      {
+        "key": "codeType",
+        "label": "",
+        "valueType": "string",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "value": "js",
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "case_json",
+        "label": "case_json",
+        "valueType": "string",
+        "required": true,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        },
+        "selectedType": "reference",
+        "renderTypeList": [
+          "reference"
+        ],
+        "value": [
+          "d4esByk5Pccmn1gH",
+          "qLUQfhG0ILRX"
+        ],
+        "canAgentGenerated": false,
+        "canEdit": true
+      }
+    ],
+    "outputs": [
+      {
+        "id": "system_rawResponse",
+        "key": "system_rawResponse",
+        "type": "static",
+        "valueType": "object",
+        "valueDesc": "",
+        "label": "workflow:full_response_data",
+        "description": ""
+      },
+      {
+        "id": "error",
+        "key": "error",
+        "type": "error",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "workflow:error_text",
+        "description": ""
+      },
+      {
+        "id": "system_addOutputParam",
+        "key": "system_addOutputParam",
+        "type": "dynamic",
+        "valueType": "dynamic",
+        "valueDesc": "",
+        "label": "",
+        "description": "将代码中 return 的对象作为输出，传递给后续的节点。变量名需要对应 return 的 key",
+        "customFieldConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDefaultValue": false,
+          "showDescription": false
+        }
+      },
+      {
+        "id": "eTM8oV",
+        "key": "production_variables",
+        "type": "dynamic",
+        "valueType": "object",
+        "valueDesc": "",
+        "label": "production_variables",
+        "description": ""
+      },
+      {
+        "id": "svI5Uc",
+        "key": "case_id",
+        "type": "dynamic",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "case_id",
+        "description": ""
+      },
+      {
+        "id": "jqRbmC",
+        "key": "case_title",
+        "type": "dynamic",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "case_title",
+        "description": ""
+      },
+      {
+        "id": "fTvz8J",
+        "key": "disease",
+        "type": "dynamic",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "disease",
+        "description": ""
+      },
+      {
+        "id": "jvAfM5",
+        "key": "case_context",
+        "type": "dynamic",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "case_context",
+        "description": ""
+      },
+      {
+        "id": "nZ569o",
+        "key": "learning_points",
+        "type": "dynamic",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "learning_points",
+        "description": ""
+      },
+      {
+        "id": "nxo1wc",
+        "key": "question_count",
+        "type": "dynamic",
+        "valueType": "number",
+        "valueDesc": "",
+        "label": "question_count",
+        "description": ""
+      },
+      {
+        "id": "xYOEDr",
+        "key": "question_draft",
+        "type": "dynamic",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "question_draft",
+        "description": ""
+      },
+      {
+        "id": "geFy5d",
+        "key": "difficulty",
+        "type": "dynamic",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "difficulty",
+        "description": ""
+      },
+      {
+        "id": "tdJHzW",
+        "key": "review_feedback",
+        "type": "dynamic",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "review_feedback",
+        "description": ""
+      },
+      {
+        "id": "tFoCUR",
+        "key": "case_mode",
+        "type": "dynamic",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "case_mode",
+        "description": ""
+      },
+      {
+        "id": "wjaggH",
+        "key": "case_timeline",
+        "type": "dynamic",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "case_timeline",
+        "description": ""
+      },
+      {
+        "id": "aaTHm3",
+        "key": "biomarkers",
+        "type": "dynamic",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "biomarkers",
+        "description": ""
+      },
+      {
+        "id": "n5nH06",
+        "key": "decision_points",
+        "type": "dynamic",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "decision_points",
+        "description": ""
+      },
+      {
+        "id": "bgxpG3",
+        "key": "adverse_events",
+        "type": "dynamic",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "adverse_events",
+        "description": ""
+      },
+      {
+        "id": "zEViXc",
+        "key": "evidence_notes",
+        "type": "dynamic",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "evidence_notes",
+        "description": ""
+      },
+      {
+        "id": "g7Y0Kp",
+        "key": "case_image_index",
+        "type": "dynamic",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "case_image_index",
+        "description": ""
+      },
+      {
+        "id": "hmHZ1X",
+        "key": "case_intro_images",
+        "type": "dynamic",
+        "valueType": "arrayString",
+        "valueDesc": "",
+        "label": "case_intro_images",
+        "description": ""
+      },
+      {
+        "id": "r26FocusA",
+        "key": "learning_points_a",
+        "type": "dynamic",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "learning_points_a",
+        "description": ""
+      },
+      {
+        "id": "r26FocusB",
+        "key": "learning_points_b",
+        "type": "dynamic",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "learning_points_b",
+        "description": ""
+      },
+      {
+        "id": "r26FocusC",
+        "key": "learning_points_c",
+        "type": "dynamic",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "learning_points_c",
+        "description": ""
+      },
+      {
+        "id": "oncCancerType",
+        "key": "cancer_type",
+        "type": "dynamic",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "cancer_type",
+        "description": ""
+      },
+      {
+        "id": "oncSecondCancerType",
+        "key": "second_cancer_type",
+        "type": "dynamic",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "second_cancer_type",
+        "description": ""
+      },
+      {
+        "id": "casePayloadJson",
+        "key": "case_payload_json",
+        "type": "dynamic",
+        "valueType": "string",
+        "label": "14字段病例JSON",
+        "description": "传给题目生成子应用的用户问题，不是OCR数组。"
+      }
+    ]
+  },
+  {
+    "id": "jKqMCN8eJKvkngnI",
+    "name": "json生成",
+    "inputs": [
+      {
+        "key": "system_addInputParam",
+        "label": "",
+        "valueType": "dynamic",
+        "required": false,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        },
+        "selectedType": "addInputParam",
+        "renderTypeList": [
+          "addInputParam"
+        ],
+        "debugLabel": "",
+        "description": "workflow:these_variables_will_be_input_parameters_for_code_execution",
+        "toolDescription": "",
+        "canAgentGenerated": false
+      },
+      {
+        "key": "codeType",
+        "label": "",
+        "valueType": "string",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "value": "js",
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "case_id",
+        "label": "case_id",
+        "valueType": "string",
+        "required": false,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        },
+        "selectedType": "reference",
+        "renderTypeList": [
+          "reference"
+        ],
+        "value": [
+          "ogy1PAMdD268kXeo",
+          "svI5Uc"
+        ],
+        "canAgentGenerated": false,
+        "canEdit": true
+      },
+      {
+        "key": "disease",
+        "label": "disease",
+        "valueType": "string",
+        "required": true,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        },
+        "selectedType": "reference",
+        "renderTypeList": [
+          "reference"
+        ],
+        "value": [
+          "ogy1PAMdD268kXeo",
+          "fTvz8J"
+        ],
+        "canAgentGenerated": false,
+        "canEdit": true
+      },
+      {
+        "key": "case_title",
+        "label": "case_title",
+        "valueType": "string",
+        "required": true,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        },
+        "selectedType": "reference",
+        "renderTypeList": [
+          "reference"
+        ],
+        "value": [
+          "ogy1PAMdD268kXeo",
+          "jqRbmC"
+        ],
+        "canAgentGenerated": false,
+        "canEdit": true
+      },
+      {
+        "key": "case_context",
+        "label": "case_context",
+        "valueType": "string",
+        "required": false,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        },
+        "selectedType": "reference",
+        "renderTypeList": [
+          "reference"
+        ],
+        "value": [
+          "ogy1PAMdD268kXeo",
+          "jvAfM5"
+        ],
+        "canAgentGenerated": false,
+        "canEdit": true
+      },
+      {
+        "key": "learning_points",
+        "label": "learning_points",
+        "valueType": "string",
+        "required": false,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        },
+        "selectedType": "reference",
+        "renderTypeList": [
+          "reference"
+        ],
+        "value": [
+          "ogy1PAMdD268kXeo",
+          "nZ569o"
+        ],
+        "canAgentGenerated": false,
+        "canEdit": true
+      },
+      {
+        "key": "case_timeline",
+        "label": "case_timeline",
+        "valueType": "string",
+        "required": false,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        },
+        "selectedType": "reference",
+        "renderTypeList": [
+          "reference"
+        ],
+        "value": [
+          "ogy1PAMdD268kXeo",
+          "wjaggH"
+        ],
+        "canAgentGenerated": false,
+        "canEdit": true
+      },
+      {
+        "key": "biomarkers",
+        "label": "biomarkers",
+        "valueType": "string",
+        "required": false,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        },
+        "selectedType": "reference",
+        "renderTypeList": [
+          "reference"
+        ],
+        "value": [
+          "ogy1PAMdD268kXeo",
+          "aaTHm3"
+        ],
+        "canAgentGenerated": false,
+        "canEdit": true
+      },
+      {
+        "key": "decision_points",
+        "label": "decision_points",
+        "valueType": "string",
+        "required": false,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        },
+        "selectedType": "reference",
+        "renderTypeList": [
+          "reference"
+        ],
+        "value": [
+          "ogy1PAMdD268kXeo",
+          "n5nH06"
+        ],
+        "canAgentGenerated": false,
+        "canEdit": true
+      },
+      {
+        "key": "case_image_index",
+        "label": "case_image_index",
+        "valueType": "string",
+        "required": false,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        },
+        "selectedType": "reference",
+        "renderTypeList": [
+          "reference"
+        ],
+        "value": [
+          "ogy1PAMdD268kXeo",
+          "g7Y0Kp"
+        ],
+        "canAgentGenerated": false,
+        "canEdit": true
+      },
+      {
+        "key": "difficulty",
+        "label": "difficulty",
+        "valueType": "string",
+        "required": false,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        },
+        "selectedType": "reference",
+        "renderTypeList": [
+          "reference"
+        ],
+        "value": [
+          "ogy1PAMdD268kXeo",
+          "geFy5d"
+        ],
+        "canAgentGenerated": false,
+        "canEdit": true
+      },
+      {
+        "key": "candidate_pool",
+        "label": "candidate_pool",
+        "valueType": "object",
+        "required": true,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        },
+        "selectedType": "reference",
+        "renderTypeList": [
+          "reference"
+        ],
+        "value": [
+          "bJcPjyWI8hiwuVOS",
+          "r26CandidatePool"
+        ],
+        "canAgentGenerated": false,
+        "canEdit": true
+      },
+      {
+        "key": "cancer_type",
+        "label": "cancer_type",
+        "valueType": "string",
+        "required": false,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        },
+        "selectedType": "reference",
+        "renderTypeList": [
+          "reference"
+        ],
+        "value": [
+          "ogy1PAMdD268kXeo",
+          "oncCancerType"
+        ],
+        "debugLabel": "",
+        "toolDescription": "",
+        "canAgentGenerated": false,
+        "canEdit": true
+      },
+      {
+        "key": "second_cancer_type",
+        "label": "second_cancer_type",
+        "valueType": "string",
+        "required": false,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        },
+        "selectedType": "reference",
+        "renderTypeList": [
+          "reference"
+        ],
+        "value": [
+          "ogy1PAMdD268kXeo",
+          "oncSecondCancerType"
+        ],
+        "debugLabel": "",
+        "toolDescription": "",
+        "canAgentGenerated": false,
+        "canEdit": true
+      },
+      {
+        "key": "transport_mode",
+        "label": "transport_mode",
+        "valueType": "string",
+        "required": false,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        },
+        "selectedType": "reference",
+        "renderTypeList": [
+          "reference"
+        ],
+        "value": [
+          "448745",
+          "userChatInput"
+        ],
+        "canAgentGenerated": false,
+        "canEdit": true
+      }
+    ],
+    "outputs": [
+      {
+        "id": "system_rawResponse",
+        "key": "system_rawResponse",
+        "type": "static",
+        "valueType": "object",
+        "valueDesc": "",
+        "label": "workflow:full_response_data",
+        "description": ""
+      },
+      {
+        "id": "error",
+        "key": "error",
+        "type": "error",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "workflow:error_text",
+        "description": ""
+      },
+      {
+        "id": "system_addOutputParam",
+        "key": "system_addOutputParam",
+        "type": "dynamic",
+        "valueType": "dynamic",
+        "valueDesc": "",
+        "label": "",
+        "description": "将代码中 return 的对象作为输出，传递给后续的节点。变量名需要对应 return 的 key",
+        "customFieldConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDefaultValue": false,
+          "showDescription": false
+        }
+      },
+      {
+        "id": "response_json",
+        "key": "response_json",
+        "type": "dynamic",
+        "valueType": "string",
+        "label": "response_json",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "bTxgvHEhA8qEPFTa",
+    "name": "json输出",
+    "inputs": [
+      {
+        "key": "text",
+        "label": "common:core.module.input.label.Response content",
+        "valueType": "any",
+        "required": true,
+        "isRichText": false,
+        "placeholder": "common:core.module.input.description.Response content",
+        "maxLength": 100000,
+        "selectedType": "textarea",
+        "renderTypeList": [
+          "agentGenerated",
+          "textarea",
+          "reference"
+        ],
+        "value": "{{$jKqMCN8eJKvkngnI.response_json$}}",
+        "debugLabel": "",
+        "description": "common:core.module.input.description.Response content",
+        "toolDescription": ""
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "id": "d4esByk5Pccmn1gH",
+    "name": "JSON格式修复",
+    "inputs": [
+      {
+        "key": "system_addInputParam",
+        "label": "",
+        "valueType": "dynamic",
+        "required": false,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        },
+        "selectedType": "addInputParam",
+        "renderTypeList": [
+          "addInputParam"
+        ],
+        "debugLabel": "",
+        "description": "workflow:these_variables_will_be_input_parameters_for_code_execution",
+        "toolDescription": "",
+        "canAgentGenerated": false
+      },
+      {
+        "key": "codeType",
+        "label": "",
+        "valueType": "string",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "value": "js",
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "raw_json",
+        "label": "raw_json",
+        "valueType": "string",
+        "required": true,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        },
+        "selectedType": "reference",
+        "renderTypeList": [
+          "reference"
+        ],
+        "value": [
+          "t7eXTzfAM2QUzvvK",
+          "answerText"
+        ],
+        "canAgentGenerated": false,
+        "canEdit": true
+      }
+    ],
+    "outputs": [
+      {
+        "id": "system_rawResponse",
+        "key": "system_rawResponse",
+        "type": "static",
+        "valueType": "object",
+        "valueDesc": "",
+        "label": "workflow:full_response_data",
+        "description": ""
+      },
+      {
+        "id": "error",
+        "key": "error",
+        "type": "error",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "workflow:error_text",
+        "description": ""
+      },
+      {
+        "id": "system_addOutputParam",
+        "key": "system_addOutputParam",
+        "type": "dynamic",
+        "valueType": "dynamic",
+        "valueDesc": "",
+        "label": "",
+        "description": "将代码中 return 的对象作为输出，传递给后续的节点。变量名需要对应 return 的 key",
+        "customFieldConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDefaultValue": false,
+          "showDescription": false
+        }
+      },
+      {
+        "id": "qLUQfhG0ILRX",
+        "key": "repaired_json",
+        "type": "dynamic",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "repaired_json",
+        "description": ""
+      },
+      {
+        "id": "gR0mkQpJ4Og8",
+        "key": "repaired_data",
+        "type": "dynamic",
+        "valueType": "object",
+        "valueDesc": "",
+        "label": "repaired_data",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "ddwhzFImUXV1QTsA",
+    "name": "题目生成",
+    "inputs": [
+      {
+        "key": "system_forbid_stream",
+        "label": "workflow:template.forbid_stream",
+        "valueType": "boolean",
+        "selectedType": "switch",
+        "renderTypeList": [
+          "switch"
+        ],
+        "value": true,
+        "description": "workflow:template.forbid_stream_desc",
+        "canAgentGenerated": false
+      },
+      {
+        "key": "history",
+        "label": "common:core.module.input.label.chat history",
+        "valueType": "chatHistory",
+        "required": true,
+        "max": 50,
+        "min": 0,
+        "selectedType": "numberInput",
+        "renderTypeList": [
+          "agentGenerated",
+          "numberInput",
+          "reference"
+        ],
+        "value": 0,
+        "description": "workflow:max_dialog_rounds"
+      },
+      {
+        "key": "userChatInput",
+        "label": "workflow:user_question",
+        "valueType": "string",
+        "required": true,
+        "selectedType": "reference",
+        "renderTypeList": [
+          "agentGenerated",
+          "reference",
+          "textarea"
+        ],
+        "value": [
+          "ogy1PAMdD268kXeo",
+          "casePayloadJson"
+        ],
+        "toolDescription": "user question",
+        "defaultToAgentGenerated": true
+      }
+    ],
+    "outputs": [
+      {
+        "id": "history",
+        "key": "history",
+        "type": "static",
+        "valueType": "chatHistory",
+        "valueDesc": "{\n  obj: System | Human | AI;\n  value: string;\n}[]",
+        "label": "common:core.module.output.label.New context",
+        "description": "common:core.module.output.description.New context",
+        "required": true
+      },
+      {
+        "id": "answerText",
+        "key": "answerText",
+        "type": "static",
+        "valueType": "string",
+        "label": "common:core.module.output.label.Ai response content",
+        "description": "common:core.module.output.description.Ai response content",
+        "required": false
+      },
+      {
+        "id": "system_error_text",
+        "key": "system_error_text",
+        "type": "error",
+        "valueType": "string",
+        "label": "workflow:error_text"
+      }
+    ]
+  },
+  {
+    "id": "bJcPjyWI8hiwuVOS",
+    "name": "单组候选检查与终稿输入",
+    "inputs": [
+      {
+        "key": "system_addInputParam",
+        "label": "",
+        "valueType": "dynamic",
+        "required": false,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        },
+        "selectedType": "addInputParam",
+        "renderTypeList": [
+          "addInputParam"
+        ],
+        "debugLabel": "",
+        "description": "workflow:these_variables_will_be_input_parameters_for_code_execution",
+        "toolDescription": "",
+        "canAgentGenerated": false
+      },
+      {
+        "key": "codeType",
+        "label": "",
+        "valueType": "string",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "value": "js",
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "group1",
+        "label": "group1",
+        "valueType": "string",
+        "required": true,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        },
+        "selectedType": "reference",
+        "renderTypeList": [
+          "reference"
+        ],
+        "value": [
+          "ddwhzFImUXV1QTsA",
+          "answerText"
+        ],
+        "canAgentGenerated": false,
+        "canEdit": true
+      },
+      {
+        "key": "case_packet",
+        "label": "case_packet",
+        "valueType": "object",
+        "required": true,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        },
+        "selectedType": "reference",
+        "renderTypeList": [
+          "reference"
+        ],
+        "value": [
+          "ogy1PAMdD268kXeo",
+          "eTM8oV"
+        ],
+        "canAgentGenerated": false,
+        "canEdit": true
+      },
+      {
+        "key": "group1_error",
+        "label": "group1_error",
+        "valueType": "string",
+        "required": false,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        },
+        "selectedType": "reference",
+        "renderTypeList": [
+          "reference"
+        ],
+        "value": [
+          "ddwhzFImUXV1QTsA",
+          "system_error_text"
+        ],
+        "debugLabel": "",
+        "toolDescription": "",
+        "canAgentGenerated": false,
+        "canEdit": true
+      }
+    ],
+    "outputs": [
+      {
+        "id": "system_rawResponse",
+        "key": "system_rawResponse",
+        "type": "static",
+        "valueType": "object",
+        "valueDesc": "",
+        "label": "workflow:full_response_data",
+        "description": ""
+      },
+      {
+        "id": "error",
+        "key": "error",
+        "type": "error",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "workflow:error_text",
+        "description": ""
+      },
+      {
+        "id": "system_addOutputParam",
+        "key": "system_addOutputParam",
+        "type": "dynamic",
+        "valueType": "dynamic",
+        "valueDesc": "",
+        "label": "",
+        "description": "将代码中 return 的对象作为输出，传递给后续的节点。变量名需要对应 return 的 key",
+        "customFieldConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDefaultValue": false,
+          "showDescription": false
+        }
+      },
+      {
+        "id": "r26CandidatePool",
+        "key": "candidate_pool",
+        "type": "dynamic",
+        "valueType": "object",
+        "valueDesc": "",
+        "label": "candidate_pool",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "vyzKQjoc7z0gMCFM",
+    "name": "文档解析",
+    "inputs": [
+      {
+        "key": "fileUrlList",
+        "label": "app:workflow.file_url",
+        "valueType": "arrayString",
+        "required": true,
+        "selectedType": "reference",
+        "renderTypeList": [
+          "agentGenerated",
+          "reference"
+        ],
+        "value": [
+          "448745",
+          "userFiles"
+        ],
+        "toolDescription": "文档链接",
+        "defaultToAgentGenerated": true,
+        "debugLabel": ""
+      }
+    ],
+    "outputs": [
+      {
+        "id": "system_text",
+        "key": "system_text",
+        "type": "static",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "app:workflow.read_files_result",
+        "description": "文档原文，由文件名和文档内容组成，多个文件之间通过横线隔开。"
+      },
+      {
+        "id": "system_rawResponse",
+        "key": "system_rawResponse",
+        "type": "static",
+        "valueType": "arrayObject",
+        "valueDesc": "",
+        "label": "workflow:raw_response",
+        "description": "工具的原始响应"
+      },
+      {
+        "id": "system_error_text",
+        "key": "system_error_text",
+        "type": "error",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "workflow:error_text",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "htmlTextCheck",
+    "name": "HTML正文检查",
+    "inputs": [
+      {
+        "key": "system_addInputParam",
+        "label": "",
+        "valueType": "dynamic",
+        "required": false,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        },
+        "selectedType": "addInputParam",
+        "renderTypeList": [
+          "addInputParam"
+        ],
+        "debugLabel": "",
+        "description": "workflow:these_variables_will_be_input_parameters_for_code_execution",
+        "toolDescription": "",
+        "canAgentGenerated": false
+      },
+      {
+        "key": "codeType",
+        "label": "",
+        "valueType": "string",
+        "selectedType": "hidden",
+        "renderTypeList": [
+          "hidden"
+        ],
+        "value": "js",
+        "debugLabel": "",
+        "toolDescription": ""
+      },
+      {
+        "key": "files",
+        "label": "files",
+        "valueType": "arrayString",
+        "required": false,
+        "selectedType": "reference",
+        "renderTypeList": [
+          "reference"
+        ],
+        "value": [
+          "448745",
+          "userFiles"
+        ],
+        "canEdit": true,
+        "canAgentGenerated": false,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        }
+      },
+      {
+        "key": "text",
+        "label": "text",
+        "valueType": "string",
+        "required": false,
+        "selectedType": "reference",
+        "renderTypeList": [
+          "reference"
+        ],
+        "value": [
+          "vyzKQjoc7z0gMCFM",
+          "system_text"
+        ],
+        "canEdit": true,
+        "canAgentGenerated": false,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        }
+      },
+      {
+        "key": "rows",
+        "label": "rows",
+        "valueType": "arrayObject",
+        "required": false,
+        "selectedType": "reference",
+        "renderTypeList": [
+          "reference"
+        ],
+        "value": [
+          "vyzKQjoc7z0gMCFM",
+          "system_rawResponse"
+        ],
+        "canEdit": true,
+        "canAgentGenerated": false,
+        "customInputConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDescription": false,
+          "showDefaultValue": true
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "id": "system_rawResponse",
+        "key": "system_rawResponse",
+        "type": "static",
+        "valueType": "object",
+        "valueDesc": "",
+        "label": "workflow:full_response_data",
+        "description": ""
+      },
+      {
+        "id": "error",
+        "key": "error",
+        "type": "error",
+        "valueType": "string",
+        "valueDesc": "",
+        "label": "workflow:error_text",
+        "description": ""
+      },
+      {
+        "id": "system_addOutputParam",
+        "key": "system_addOutputParam",
+        "type": "dynamic",
+        "valueType": "dynamic",
+        "valueDesc": "",
+        "label": "",
+        "description": "将代码中 return 的对象作为输出，传递给后续的节点。变量名需要对应 return 的 key",
+        "customFieldConfig": {
+          "selectValueTypeList": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "arrayString",
+            "arrayNumber",
+            "arrayBoolean",
+            "arrayObject",
+            "arrayAny",
+            "any",
+            "chatHistory",
+            "datasetQuote",
+            "dynamic",
+            "selectDataset",
+            "selectApp"
+          ],
+          "showDefaultValue": false,
+          "showDescription": false
+        }
+      },
+      {
+        "id": "text",
+        "key": "text",
+        "type": "dynamic",
+        "valueType": "string",
+        "label": "HTML正文",
+        "description": ""
+      }
+    ]
+  }
+]

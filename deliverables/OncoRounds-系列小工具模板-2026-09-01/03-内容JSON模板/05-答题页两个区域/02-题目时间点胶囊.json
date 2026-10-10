@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0",
+  "ui_component": "question_context",
+  "icon": "ClipboardText",
+  "display_format": "{timepoint} · {phase}",
+  "cases": [
+    {
+      "case_id": "lung-ros1",
+      "cancer_type": "肺癌",
+      "display_title": "ROS1 融合肺癌",
+      "items": [
+        {
+          "order": 1,
+          "question_id": "Q1",
+          "timepoint": "2020 年初诊时",
+          "phase": "初始治疗",
+          "display_text": "2020 年初诊时 · 初始治疗",
+          "question": "患者确诊 ROS1 融合阳性 IVB 期肺腺癌，伴脑转移，ECOG PS 1 分。综合当前规范，此时最适宜的初始系统治疗策略是？"
+        },
+        {
+          "order": 2,
+          "question_id": "Q2",
+          "timepoint": "2021 年 9 月 CNS 进展时",
+          "phase": "疾病进展管理",
+          "display_text": "2021 年 9 月 CNS 进展时 · 疾病进展管理",
+          "question": "患者在 ROS1 靶向治疗期间出现 CNS 进展，颅外病灶仍相对稳定。下列哪项属于当前正式指南明确列出的 CNS 进展管理路径？"
+        },
+        {
+          "order": 3,
+          "question_id": "Q3",
+          "timepoint": "2022 年 8 月广泛进展时",
+          "phase": "后线系统治疗",
+          "display_text": "2022 年 8 月广泛进展时 · 后线系统治疗",
+          "question": "患者经多线 TKI 治疗后出现脑部及肺部广泛进展，再次活检暂不可行且后续 ROS1 抑制剂可及性受限。此时最适宜的系统治疗方案是？"
+        },
+        {
+          "order": 4,
+          "question_id": "Q4",
+          "timepoint": "2023 年 8 月再次进展时",
+          "phase": "分子检测与耐药评估",
+          "display_text": "2023 年 8 月再次进展时 · 分子检测与耐药评估",
+          "question": "患者化疗后再次进展，拟重新评估分子状态以指导后续治疗。关于 ROS1 融合基因检测策略，下列说法正确的是？"
+        },
+        {
+          "order": 5,
+          "question_id": "Q5",
+          "timepoint": "2023 年 9 月后线治疗时",
+          "phase": "后线治疗与临床研究",
+          "display_text": "2023 年 9 月后线治疗时 · 后线治疗与临床研究",
+          "question": "患者标准后线治疗选择受限，且有意愿探索新治疗选择。关于此时合理的治疗策略，下列说法正确的是？"
+        }
+      ]
+    },
+    {
+      "case_id": "esophageal-vaccine",
+      "cancer_type": "食管癌",
+      "display_title": "新抗原疫苗联合免疫",
+      "items": [
+        {
+          "order": 1,
+          "question_id": "Q1",
+          "timepoint": "当前教学复盘：初诊cT4bN0M1、IVB期时",
+          "phase": "初始治疗",
+          "display_text": "当前教学复盘：初诊cT4bN0M1、IVB期时 · 初始治疗",
+          "question": "患者初诊为食管中下段鳞状细胞癌，记录分期cT4bN0M1、IVB期，右侧锁骨上淋巴结考虑转移，ECOG PS 1。下列哪项最符合此时的临床决策思路？"
+        },
+        {
+          "order": 2,
+          "question_id": "Q2",
+          "timepoint": "当前教学复盘：完成2周期转化治疗并获得影像学PR时",
+          "phase": "转化治疗后评估",
+          "display_text": "当前教学复盘：完成2周期转化治疗并获得影像学PR时 · 转化治疗后评估",
+          "question": "患者完成2周期转化治疗后症状改善，原发灶及锁骨上淋巴结明显缩小，影像学评价PR。下列关于下一步决策的说法正确的是？"
+        },
+        {
+          "order": 3,
+          "question_id": "Q3",
+          "timepoint": "当前教学复盘：根治性切除后拟定辅助治疗时",
+          "phase": "术后管理",
+          "display_text": "当前教学复盘：根治性切除后拟定辅助治疗时 · 术后管理",
+          "question": "患者在新辅助免疫化疗后接受根治性切除，术后拟参加帕博利珠单抗联合个体化新抗原疫苗的前瞻性探索性IIT。下列对该方案证据定位的说法正确的是？"
+        },
+        {
+          "order": 4,
+          "question_id": "Q4",
+          "timepoint": "当前教学复盘：术后首次出现上纵隔及锁骨上淋巴结复发时",
+          "phase": "术后复发",
+          "display_text": "当前教学复盘：术后首次出现上纵隔及锁骨上淋巴结复发时 · 术后复发",
+          "question": "患者术后出现上纵隔及锁骨上淋巴结复发，病例资料尚不足以确认复发灶是否可切除。下列哪项最符合术后局部区域复发的治疗决策框架？"
+        },
+        {
+          "order": 5,
+          "question_id": "Q5",
+          "timepoint": "当前教学复盘：局部放疗后曾获缓解、随后再次进展且生物学行为改变时",
+          "phase": "再次进展",
+          "display_text": "当前教学复盘：局部放疗后曾获缓解、随后再次进展且生物学行为改变时 · 再次进展",
+          "question": "患者局部放疗后曾获得缓解，随后病灶再次增大且临床行为发生变化。在选择新的后线系统治疗前，下列哪项处理最合理？"
+        }
+      ]
+    },
+    {
+      "case_id": "gastric-her2",
+      "cancer_type": "胃癌",
+      "display_title": "HER2 过表达胃癌",
+      "items": [
+        {
+          "order": 1,
+          "question_id": "Q1",
+          "timepoint": "当前教学复盘：初始治疗决策时",
+          "phase": "初始治疗",
+          "display_text": "当前教学复盘：初始治疗决策时 · 初始治疗",
+          "question": "65 岁男性，IV 期胃低分化腺癌，HER2 IHC 3+ 且 FISH 扩增，PD-L1 CPS 5，MSS/pMMR，ECOG PS 1。按当前指南进行教学复盘，此时最适宜的一线系统治疗策略是？"
+        },
+        {
+          "order": 2,
+          "question_id": "Q2",
+          "timepoint": "当前教学复盘：初诊时",
+          "phase": "初始诊断",
+          "display_text": "当前教学复盘：初诊时 · 初始诊断",
+          "question": "对于初诊 IV 期胃癌患者，为指导精准治疗分层，按当前共识进行教学复盘，初诊时推荐完善哪些关键分子检测？"
+        },
+        {
+          "order": 3,
+          "question_id": "Q3",
+          "timepoint": "当前教学复盘：转化治疗 3 周期后评估 PR 时",
+          "phase": "转化治疗后评估",
+          "display_text": "当前教学复盘：转化治疗 3 周期后评估 PR 时 · 转化治疗后评估",
+          "question": "患者接受 SOX 联合曲妥珠单抗和帕博利珠单抗治疗 3 周期后，增强 CT 提示原发灶及淋巴结明显缩小，评价 PR。依据当前共识进行教学复盘，此时关于手术决策的说法正确的是？"
+        },
+        {
+          "order": 4,
+          "question_id": "Q4",
+          "timepoint": "出现 G4 ICI 相关 1 型糖尿病并 DKA 时",
+          "phase": "不良反应处理",
+          "display_text": "出现 G4 ICI 相关 1 型糖尿病并 DKA 时 · 不良反应处理",
+          "question": "患者出现 G4 免疫检查点抑制剂相关 1 型糖尿病并糖尿病酮症酸中毒，血糖>27.8mmol/L，酮体阳性。按当前指南进行教学复盘，此时最恰当的处理是？"
+        },
+        {
+          "order": 5,
+          "question_id": "Q5",
+          "timepoint": "依据当前 2026 版共识进行教学复盘：出现 G3 ICI 相关间质性肺炎，感染不能排除时",
+          "phase": "不良反应处理",
+          "display_text": "依据当前 2026 版共识进行教学复盘：出现 G3 ICI 相关间质性肺炎，感染不能排除时 · 不良反应处理",
+          "question": "患者出现 G3 免疫检查点抑制剂相关间质性肺炎，伴高热和低氧。支气管肺泡灌洗液涂片曾见革兰阴性杆菌，感染不能排除。此时最恰当的处理是？"
+        }
+      ]
+    }
+  ]
+}

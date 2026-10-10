@@ -1,0 +1,407 @@
+{
+  "cases": 44,
+  "questions": 220,
+  "original_url_count": 2,
+  "added_external_urls": 0,
+  "all_answers_match_options": true,
+  "question_reference_pairing": "原工作流题目与引用整体原样恢复，不按润色后题号拼接",
+  "medical_revalidation_performed": false,
+  "files": [
+    {
+      "case_id": "CASE-4FDC8196",
+      "file": "01_十二指肠腺癌_转移期管理_CASE-4FDC8196.json",
+      "workflow_original_source": "C:\\Users\\admin\\.codex\\attachments\\34148321-1a54-409c-b7a5-ffdd036b485b\\pasted-text.txt",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "87a85c16ae3c8b49bf6b64241c39b919dd127cb8d250e7cfb71d2e15f467f338"
+    },
+    {
+      "case_id": "CASE-E9E45955",
+      "file": "02_小肠癌_双侧卵巢转移_CASE-E9E45955.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\new-batch.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "72b7368771e6436b270bcf858432c302cdd616f0c0237937eb074626071da4c2"
+    },
+    {
+      "case_id": "CASE-CC5590E2",
+      "file": "03_CASE-CC5590E2_pMMR_MSS直肠癌复发后的RIN治疗.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\incoming-check.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "08d68e4d45c492f454901974479ca795a6dd48749a96cbf9ea8d842bdf5df8ef"
+    },
+    {
+      "case_id": "CASE-14D22BE9",
+      "file": "04_CASE-14D22BE9_直肠癌胰腺转移伴感染性假性囊肿.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\incoming-check.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "493948679ae3309e3baaf96c8a660e879440810137ed6f9519c1e607653225de"
+    },
+    {
+      "case_id": "CASE-BE8833A9",
+      "file": "05_结直肠癌肝转移多次复发_CASE-BE8833A9.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\tmp\\polish-20260910\\input.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "daf3aaf6c1f93bdb191fc11d00ea5d9f452105497655ebf045dacb4854cf599f"
+    },
+    {
+      "case_id": "CASE-A8792225",
+      "file": "06_转移性直肠癌_润色版.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\tmp\\polish-six-20260909\\input.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "79c1a4f47e72a24878ebafe921ec9ab25840c606162d2dd4733676580aa8282b"
+    },
+    {
+      "case_id": "CASE-9236151F",
+      "file": "07_AFP阳性结肠癌_CASE-9236151F.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\new-batch.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "b1657a57a06b3a9d57633daa21cc0c56fd77c4bcc602294334c583fd7535f9f5"
+    },
+    {
+      "case_id": "CASE-6E841405",
+      "file": "08_MSI-H结肠癌_肝转移转化_CASE-6E841405.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\new-batch.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "a5d22c0a5e0e2422045cc60fdd983e980c2ede1658d2db6dbc906f79e3eadeeb"
+    },
+    {
+      "case_id": "CASE-FCB62584",
+      "file": "09_肝癌_仑伐替尼肾损伤_CASE-FCB62584.json",
+      "workflow_original_source": "C:\\Users\\admin\\.codex\\attachments\\34148321-1a54-409c-b7a5-ffdd036b485b\\pasted-text.txt",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "706a3216dd4369b850e612d326266980eb741c914cdacce24c5156341128690e"
+    },
+    {
+      "case_id": "CASE-DB524C69",
+      "file": "10_肝移植后肝癌_肾上腺转移_CASE-DB524C69.json",
+      "workflow_original_source": "C:\\Users\\admin\\.codex\\attachments\\34148321-1a54-409c-b7a5-ffdd036b485b\\pasted-text.txt",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "efd33db6083b27c30415696e96d97fd8ff17531e51274e7e8d575b21d46757ab"
+    },
+    {
+      "case_id": "CASE-E251EF18",
+      "file": "11_CASE-E251EF18_寡转移肝癌系统治疗及SBRT后长期获控.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\incoming-check.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "f2527e8dea1f3700291ac53978e199ad27cfc13089169b44fccbfcadc8da7687"
+    },
+    {
+      "case_id": "CASE-29CA171F",
+      "file": "12_胃癌_CAPOX持久缓解_CASE-29CA171F.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\new-batch.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "5a70f497375f5171e0f79a51d379cf37c420e10f5893961e082697cc6ab38c3e"
+    },
+    {
+      "case_id": "CASE-351D64C1",
+      "file": "13_CASE-351D64C1_MSS胃癌转化治疗后病理完全缓解.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\incoming-check.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "d685ffedd6dbbc3bdd434722174c98301561057cb8b5b7813571bed511ad81e5"
+    },
+    {
+      "case_id": "CASE-F5639B6F",
+      "file": "14_胃癌肝转移转化治疗_CASE-F5639B6F.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\tmp\\polish-20260910\\input.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "86c016e8e2d9f2c9825d37fdde952694add20e05934950237ec9e90e29c678b9"
+    },
+    {
+      "case_id": "CASE-E07D1504",
+      "file": "15_胃癌_HER2阳性合并MSI-H_CASE-E07D1504.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\new-batch.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "3c4dfc0bd95dc699f3a25a1fe0c36de6bd827ff1a7c60c6272757ba6f7887284"
+    },
+    {
+      "case_id": "CASE-8C6E34E9",
+      "file": "16_HER2阳性胃癌_润色版.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\tmp\\polish-six-20260909\\input.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "d50471a69c1fe3aee3d8c076abe8074be5c5947d084abdebdd472f3b9725077a"
+    },
+    {
+      "case_id": "CASE-6A44390F",
+      "file": "17_CASE-6A44390F_HER2阳性胆道癌多线治疗后T-DXd获控.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\incoming-check.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "8f7ff4cc164f6df00d30932f60827929a934b202884fcd9d2a7dc7015d545660"
+    },
+    {
+      "case_id": "CASE-46B8BDDE",
+      "file": "18_胆管癌_EGFR靶向证据边界_CASE-46B8BDDE.json",
+      "workflow_original_source": "C:\\Users\\admin\\.codex\\attachments\\34148321-1a54-409c-b7a5-ffdd036b485b\\pasted-text.txt",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "a4c4330c516e8c2b744d4547228806518a89d8adaae0baf1a00e915e9f75f427"
+    },
+    {
+      "case_id": "CASE-8DC486E7",
+      "file": "19_胆管癌_自发性肿瘤溶解_CASE-8DC486E7.json",
+      "workflow_original_source": "C:\\Users\\admin\\.codex\\attachments\\34148321-1a54-409c-b7a5-ffdd036b485b\\pasted-text.txt",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "953d85bd56e5ccf3f97b7cb8c82979ea47f38ef8f35bce3b1748a22330c462c0"
+    },
+    {
+      "case_id": "CASE-7D7C02B3",
+      "file": "20_BRCA2变异胰腺癌_CASE-7D7C02B3.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\tmp\\polish-20260910\\input.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "ecf38ae36bf3eb4955db5e87a57b3517497ff0fdb0d529c260720c48099bfc58"
+    },
+    {
+      "case_id": "CASE-CA70947A",
+      "file": "21_胰腺腺鳞癌转化治疗_CASE-CA70947A.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\tmp\\polish-20260910\\input.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "9e083965e53122f74bc5b977694803ea26a935baf773418bf8c4439a07f7c8d9"
+    },
+    {
+      "case_id": "CASE-E3A31C4F",
+      "file": "22_食管鳞癌_ESD后追加治疗_CASE-E3A31C4F.json",
+      "workflow_original_source": "C:\\Users\\admin\\.codex\\attachments\\34148321-1a54-409c-b7a5-ffdd036b485b\\pasted-text.txt",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "d21bf1ee8edfba897d38e5ac51138dbeea48b7d5fb15689b0601362179ed1a68"
+    },
+    {
+      "case_id": "CASE-55BF9202",
+      "file": "23_食管癌疑似寡转移_润色版.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\tmp\\polish-six-20260909\\input.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "880795f39822d697f8f2378dec3293592b6f80261723be4a2d5c4a3d5a9b27b6"
+    },
+    {
+      "case_id": "CASE-BD2810E1",
+      "file": "24_胃神经内分泌肿瘤_恶性贫血_CASE-BD2810E1.json",
+      "workflow_original_source": "C:\\Users\\admin\\.codex\\attachments\\34148321-1a54-409c-b7a5-ffdd036b485b\\pasted-text.txt",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "a411b0c79e68ff7eafe6f0d9cd548fdfebcb9ef5730dd11ef7fc047d8d1a356e"
+    },
+    {
+      "case_id": "CASE-761970EB",
+      "file": "25_胰腺神经内分泌肿瘤_CASE-761970EB.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\tmp\\polish-20260910\\input.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "ef1701f4985902d30fa73063c0d8f6befca74363c080192dcf5e37f8594861c6"
+    },
+    {
+      "case_id": "CASE-82A82F9C",
+      "file": "26_CASE-82A82F9C_妊娠期HER2阳性乳腺癌伴胎盘转移.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\incoming-check.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "919700ccc6b74fc11a258b10573ab88313dcb93b29c6b2a8dfa57438ab4273bc"
+    },
+    {
+      "case_id": "CASE-37BF6300",
+      "file": "27_乳腺癌合并MPN及韧带样纤维瘤_CASE-37BF6300.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\tmp\\polish-20260910\\input.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "e8fe8c494794e4066a3f60293be4434f526e427e7fd8993fe7a9155847ab39b1"
+    },
+    {
+      "case_id": "CASE-C54DD4A4",
+      "file": "28_乳腺癌_髌骨转移_CASE-C54DD4A4.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\new-batch.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "63bf239e79a9c2909a812116c87e3339cf9aab9f621bcc9baefa0212c7e4bdbd"
+    },
+    {
+      "case_id": "CASE-DE70CBF4",
+      "file": "29_乳腺癌肾上腺转移_CASE-DE70CBF4.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\tmp\\polish-20260910\\input.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "3d1adbf2dcd9ba879963a4d183f8b1cd1eec143e1a8c346a12344af196b3b799"
+    },
+    {
+      "case_id": "CASE-95977E69",
+      "file": "30_CASE-95977E69_卡匹色替治疗后的放射回忆性皮炎.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\incoming-check.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "e79532d1fc8f94125af75018e30b55696a75512b16c72f60b0ae7a355eebfadb"
+    },
+    {
+      "case_id": "CASE-22A52DF0",
+      "file": "31_三阴乳腺癌_脑膜转移_CASE-22A52DF0.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\new-batch.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "fa802bc7faddebd063526463b63188c820fab6fdd9d7ca6307b33ca2d5af0890"
+    },
+    {
+      "case_id": "CASE-6E309B6B",
+      "file": "32_CASE-6E309B6B_乳腺癌术后诺卡菌菌血症的诊治.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\incoming-check.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "6d75ff9eb3df87ace997820c1b89fd674824e5842378134be525ab7d42e60365"
+    },
+    {
+      "case_id": "CASE-C38F9D7E",
+      "file": "33_乳腺癌PIK3CA多重突变_CASE-C38F9D7E.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\tmp\\polish-20260910\\input.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "9eae9c3607808a6fd51c20e69d2b969accc763bb75004d8555e526f83df01d92"
+    },
+    {
+      "case_id": "CASE-8EB5623E",
+      "file": "34_乳腺癌_十二指肠梗阻_CASE-8EB5623E.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\new-batch.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "b11855aae244e23b3dfd3f08d60dc3abad289c20aba2495e4b42e80ee6159e7e"
+    },
+    {
+      "case_id": "CASE-F5CEC3E2",
+      "file": "35_乳腺癌_肾上腺及脑转移_CASE-F5CEC3E2.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\new-batch.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "b6ccd364c892ba1e908d41f2c6ab7f1ffc9d5a708b87f721a3b1d407b985294f"
+    },
+    {
+      "case_id": "CASE-E920FEFC",
+      "file": "36_CASE-E920FEFC_三阴性乳腺癌肝内脏危象的挽救治疗.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\incoming-check.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "852410b3f0f1282523c82cb5ccf2c1972f3705a6db53267091a022b0443d3364"
+    },
+    {
+      "case_id": "CASE-8B47BE60",
+      "file": "37_HER2乳腺癌_RC48脑转移_CASE-8B47BE60.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\new-batch.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "2d6308de56b2432981e0dcf726d3e5e5e87349b95528b185971c67c34a89468a"
+    },
+    {
+      "case_id": "CASE-B559946D",
+      "file": "38_男性乳腺癌_CASE-B559946D.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\tmp\\polish-20260910\\input.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "5df31dbdcffdd3e04d32d005ffdd633420f654199a05066f24917186fc07c770"
+    },
+    {
+      "case_id": "CASE-10436F33",
+      "file": "39_CASE-10436F33_腹水与胃部病变揭示乳腺小叶癌转移.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\work\\incoming-check.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "450c5ac7e519a10f149bf39947c0782e5e25e89c0f1cf931504fa3029e0303ad"
+    },
+    {
+      "case_id": "CASE-51D1DA57",
+      "file": "40_HER2阳性乳腺癌皮肤及脑转移_CASE-51D1DA57.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\tmp\\polish-20260910\\input.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "ed9540015e3aacb97207384c04f7222f4bab380197143205b4471bb4c0b4850b"
+    },
+    {
+      "case_id": "CASE-B5FF3EFE",
+      "file": "41_乳腺癌心包填塞_润色版.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\tmp\\polish-six-20260909\\input.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "d68f3c62bab6c0c0abf68c53a61a726a038a304075ca52afbf8b84825caa5844"
+    },
+    {
+      "case_id": "CASE-902F741C",
+      "file": "42_乳腺癌受体演变_润色版.json",
+      "workflow_original_source": "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\tmp\\polish-six-20260909\\input.json",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "e47065113ee0f91382ddbb2fad9c589c671f1ae27c8ab66870a419f0d37ebdf2"
+    },
+    {
+      "case_id": "CASE-DD610E54",
+      "file": "43_乳腺血管肉瘤_局部治疗_CASE-DD610E54.json",
+      "workflow_original_source": "C:\\Users\\admin\\.codex\\attachments\\34148321-1a54-409c-b7a5-ffdd036b485b\\pasted-text.txt",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "69e74b30510724a3478547c4ead6163a544bd0b3abb464a8ccf2062b749c82fd"
+    },
+    {
+      "case_id": "CASE-776A405",
+      "file": "44_胃GIST_CLEAN-NET_CASE-776A405.json",
+      "workflow_original_source": "C:\\Users\\admin\\.codex\\attachments\\34148321-1a54-409c-b7a5-ffdd036b485b\\pasted-text.txt",
+      "question_count": 5,
+      "full_questions_and_references_exactly_restored": true,
+      "detail_unchanged": true,
+      "sha256": "ba1653600d8c0d3f3386cc25899f40a02b4b92c8bd56a5d800445b67426b0861"
+    }
+  ]
+}

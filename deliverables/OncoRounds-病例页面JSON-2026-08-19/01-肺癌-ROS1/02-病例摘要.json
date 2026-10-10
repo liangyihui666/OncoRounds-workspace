@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "case_id": "lung-ros1",
+  "cancer_type": "肺癌",
+  "page_type": "case_summary",
+  "hero": {
+    "image": "./assets/cases/lung-ros1-home.png",
+    "difficulty": "进阶",
+    "title": "一例 ROS1 融合肺癌精准治疗临床病例分享",
+    "subtitle": "从靶向耐药、再活检到新一代 ROS1 抑制剂"
+  },
+  "tabs": {
+    "active": "summary",
+    "items": [
+      { "id": "summary", "label": "病例摘要" },
+      { "id": "timeline", "label": "病程轴" }
+    ]
+  },
+  "summary_items": [
+    {
+      "order": 1,
+      "label": "患者画像",
+      "value": "女性，50 岁；肺腺癌伴多发脑转移。"
+    },
+    {
+      "order": 2,
+      "label": "初始分子检测",
+      "value": "CD74–ROS1 融合阳性；EGFR、ALK、KRAS、BRAF、RET 等阴性。"
+    },
+    {
+      "order": 3,
+      "label": "疾病分期",
+      "value": "右肺腺癌 T4N3M1c，IVB 期；颅内与胸内病灶均需全程管理。"
+    },
+    {
+      "order": 4,
+      "label": "核心难点",
+      "value": "多线 ROS1 靶向治疗后耐药，如何安排化疗、再活检与后续精准治疗。"
+    }
+  ],
+  "primary_action": {
+    "label": "开始模拟查房",
+    "action": "start_round"
+  },
+  "decision_point_count": 5
+}

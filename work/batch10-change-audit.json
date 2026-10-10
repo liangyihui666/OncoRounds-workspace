@@ -1,0 +1,62 @@
+[
+  {
+    "case_id": "CASE-29CA171F",
+    "source_slot": 1,
+    "file": "01_胃癌_CAPOX持久缓解_CASE-29CA171F.json",
+    "changes": "纠正停药时已经CR的倒因果表述；拆除两道重复标志物题；不把当前指南追溯为2016年必须遵循的要求。"
+  },
+  {
+    "case_id": "CASE-C54DD4A4",
+    "source_slot": 2,
+    "file": "02_乳腺癌_髌骨转移_CASE-C54DD4A4.json",
+    "changes": "删除“孤立性”既定事实与免疫组化“体细胞检测”推断；由重复活检题拆为取样、标本质量、分期、局部功能与长期管理。"
+  },
+  {
+    "case_id": "CASE-22A52DF0",
+    "source_slot": 3,
+    "file": "03_三阴乳腺癌_脑膜转移_CASE-22A52DF0.json",
+    "changes": "取消“所有高危无症状患者固定MRI筛查”及“所有脑膜转移固定WBRT+鞘内”的过度推广；五题考点分离。"
+  },
+  {
+    "case_id": "CASE-8EB5623E",
+    "source_slot": 4,
+    "file": "04_乳腺癌_十二指肠梗阻_CASE-8EB5623E.json",
+    "changes": "修正2005年治疗及受体检测归属时间；删去原文未报告CDX2阴性；避免将梗阻直接等同统一联合化疗指征。"
+  },
+  {
+    "case_id": "CASE-F5CEC3E2",
+    "source_slot": 5,
+    "file": "05_乳腺癌_肾上腺及脑转移_CASE-F5CEC3E2.json",
+    "changes": "三道PET/CT题和两道受体题拆为不同决策；不把影像诊断变成病理证实，不由肾上腺缩小推断脑内药效。"
+  },
+  {
+    "case_id": "CASE-8B47BE60",
+    "source_slot": 6,
+    "file": "06_HER2乳腺癌_RC48脑转移_CASE-8B47BE60.json",
+    "changes": "三道HER2复检题改为受体、局部决策、个案证据、反应终点及机制边界；保留此例明确提供的颅外稳定。"
+  },
+  {
+    "case_id": "CASE-9236151F",
+    "source_slot": 7,
+    "file": "07_AFP阳性结肠癌_CASE-9236151F.json",
+    "changes": "修正AFP特异性、监测敏感性和pMMR化疗获益的错误；保留T分期及周期/月份矛盾并注明。"
+  },
+  {
+    "case_id": "CASE-E07D1504",
+    "source_slot": 8,
+    "file": "08_胃癌_HER2阳性合并MSI-H_CASE-E07D1504.json",
+    "changes": "明确直接肝侵犯与M1、临床与病理分期差异；重复转化手术题改为pCR证据边界。"
+  },
+  {
+    "case_id": "CASE-E9E45955",
+    "source_slot": 9,
+    "file": "09_小肠癌_双侧卵巢转移_CASE-E9E45955.json",
+    "changes": "纠正PAX8阴性可排除妇科原发；注明原文N1与第8版N2差异；不宣称已根治或统一标准辅助治疗。"
+  },
+  {
+    "case_id": "CASE-6E841405",
+    "source_slot": 10,
+    "file": "10_MSI-H结肠癌_肝转移转化_CASE-6E841405.json",
+    "changes": "修正手术时点并非仅11周期后；删除“联合抗血管提高缓解深度”的未经比较结论；增加遗传风险题。"
+  }
+]

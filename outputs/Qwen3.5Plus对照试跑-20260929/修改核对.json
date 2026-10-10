@@ -1,0 +1,35 @@
+{
+  "source": "outputs/题干措辞与病例事实修复-20260929/01-出题子应用-题干措辞与病例事实修复版.json",
+  "destination": "outputs\\Qwen3.5Plus对照试跑-20260929\\01-出题子应用-Qwen3.5Plus对照版.json",
+  "source_sha256": "0d20f33805622451752dc8a7d849b207984357bc4fad67bded31d3c6adf0b4e2",
+  "destination_sha256": "4c8884dfbc983c2a46091f07054738bc037f95cefecf14d7c0115770a8336be4",
+  "changes": [
+    {
+      "nodeId": "sR35QbYF2xamDQR3",
+      "name": "题目生成-首轮",
+      "field": "model",
+      "from": "qwen3.8-flash",
+      "to": "qwen3.5-plus",
+      "temperature": 0.3,
+      "maxToken": 16000,
+      "aiChatReasoning": false,
+      "responseFormat": "json_object"
+    },
+    {
+      "nodeId": "v12RevisionGenerator",
+      "name": "题目修订-第二轮",
+      "field": "model",
+      "from": "qwen3.8-flash",
+      "to": "qwen3.5-plus",
+      "temperature": 0.2,
+      "maxToken": 16000,
+      "aiChatReasoning": false,
+      "responseFormat": "json_object"
+    }
+  ],
+  "node_count": 33,
+  "edge_count": 52,
+  "verification": "JSON解析、两处模型字段变更及其他字段完全一致检查通过",
+  "online_run": false,
+  "kb_selection_required": true
+}

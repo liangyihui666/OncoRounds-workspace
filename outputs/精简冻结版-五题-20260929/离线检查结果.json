@@ -1,0 +1,141 @@
+{
+  "checks": [
+    {
+      "name": "全部代码语法和节点/输出引用有效",
+      "pass": true
+    },
+    {
+      "name": "真实附件1：重复questions仍拒绝，不能覆盖",
+      "pass": true
+    },
+    {
+      "name": "真实附件2：真缺四题不自动补造",
+      "pass": true
+    },
+    {
+      "name": "真实附件6：五题错位归位且内容逐字不变",
+      "pass": true
+    },
+    {
+      "name": "真实附件7：五题错位归位且内容逐字不变",
+      "pass": true
+    },
+    {
+      "name": "重复嵌套答案键也拒绝",
+      "pass": true
+    },
+    {
+      "name": "错位冲突/题号不符/不完整归位都拒绝",
+      "pass": true
+    },
+    {
+      "name": "中文断行和br显示换行可匹配，英文边界、表格边界仍保留",
+      "pass": true
+    },
+    {
+      "name": "公式排版等价支持，不改变不等号/小数/否定",
+      "pass": true
+    },
+    {
+      "name": "五题通过全部程序检查、四行解析、不泄露内部核对字段",
+      "pass": true
+    },
+    {
+      "name": "结构归位后仍完整核对五题，错误引文不得放行",
+      "pass": true
+    },
+    {
+      "name": "未完成、错计数、错答案、重复选项、错引用、检索失败仍拦截",
+      "pass": true
+    },
+    {
+      "name": "1至4题草稿不当完成，零题保留不足状态",
+      "pass": true
+    },
+    {
+      "name": "伪造病例/否定/数值/跨记录/拼接原句仍拦截",
+      "pass": true
+    },
+    {
+      "name": "第二轮看到归位后全套题及明确完整替换要求，重复键不静默丢失",
+      "pass": true
+    },
+    {
+      "name": "参考版上传、读取、清洗、提取及子应用调用逐节点保持",
+      "pass": true
+    },
+    {
+      "name": "无整段原文硬拦截及新集中错误路由，外层无额外终稿模型",
+      "pass": true
+    },
+    {
+      "name": "尾部只返回response_json，公开回复变量确实指向它",
+      "pass": true
+    },
+    {
+      "name": "格式修复保留原文日期及推算限定，不擅自改为时间不详",
+      "pass": true
+    },
+    {
+      "name": "参考字段映射结果可被现有五题子应用接收；不依赖新增原文变量",
+      "pass": true
+    },
+    {
+      "name": "真实历史json生成输入可回传完整结果 CASE-3665D6A9.json",
+      "pass": true
+    },
+    {
+      "name": "真实历史json生成输入可回传完整结果 CASE-41901B16.json",
+      "pass": true
+    },
+    {
+      "name": "真实历史json生成输入可回传完整结果 CASE-794E8394.json",
+      "pass": true
+    },
+    {
+      "name": "真实历史json生成输入可回传完整结果 CASE-928DA97A.json",
+      "pass": true
+    },
+    {
+      "name": "真实历史json生成输入可回传完整结果 CASE-94E451EE.json",
+      "pass": true
+    },
+    {
+      "name": "真实历史json生成输入可回传完整结果 CASE-E88F230.json",
+      "pass": true
+    },
+    {
+      "name": "上游模型返回为空时，已到达尾部的流程明确返回失败诊断",
+      "pass": true
+    },
+    {
+      "name": "最新实际十条空返回仍保留位置且不标成JSON损坏",
+      "pass": true
+    },
+    {
+      "name": "正常和空HTML按参考版本处理",
+      "pass": true
+    },
+    {
+      "name": "只改登记节点，完整检索分支/模型/图连接和运行配置未变",
+      "pass": true
+    },
+    {
+      "name": "第二轮原样收到首轮核对结果和完整证据，包括首轮未使用来源；无结果不假报通过",
+      "pass": true
+    },
+    {
+      "name": "删除三组侧重后病例映射和14字段载荷逐字保持",
+      "pass": true
+    },
+    {
+      "name": "六份历史最终返回与精简前完全一致，不把已知失败变成成功",
+      "pass": true
+    }
+  ],
+  "passed": 33,
+  "failed": 0,
+  "online_verified": false,
+  "clinical_quality_verified": false,
+  "api_calls": 0
+}

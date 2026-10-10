@@ -1,0 +1,11 @@
+{
+  "source_sha256": {
+    "C:\\Users\\admin\\Downloads\\题目生成 (10).json": "1a4d39400910a8a5b5256f4f7692ea0a06e3150b8a2228881207d858e5068eb9",
+    "C:\\Users\\admin\\Documents\\ChatGPT\\大查房\\outputs\\最终出题-全页精简V4-20260918\\最终出题-全页精简V4-测试版.json": "b99360a62a88c9e6c5452025b78378a441cba1bfd86889b215454d607561f55b"
+  },
+  "outputs": [
+    "题目生成-统一限字V5-测试版.json",
+    "最终出题-统一限字V5-测试版.json"
+  ],
+  "online_tested": false
+}

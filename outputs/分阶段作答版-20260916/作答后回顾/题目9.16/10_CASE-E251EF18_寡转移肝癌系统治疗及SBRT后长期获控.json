@@ -1,0 +1,273 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-E251EF18",
+    "cancer_type": "消化系统肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "治疗决策",
+        "phase": "系统治疗前风险权衡",
+        "timepoint": "HCC肝外转移伴近期出血性胃溃疡",
+        "question": "患者近期有严重胃肠道出血，讨论含贝伐珠单抗方案时，最恰当的处理是？",
+        "options": {
+          "A": "避开贝伐珠单抗后，所有其他抗血管生成药均无出血风险",
+          "B": "评估并处理出血来源及再出血风险，再权衡含抗血管生成药的方案",
+          "C": "Child-Pugh A5即可抵消近期出血风险",
+          "D": "因AFP很高，应直接开始原方案并略过出血评估"
+        },
+        "answer": "B",
+        "answer_text": "评估并处理出血来源及再出血风险，再权衡含抗血管生成药的方案",
+        "explain": "肝储备良好不代表没有出血风险。本例实际采用纳武利尤单抗后加仑伐替尼，但不应描述为所有同类患者的通用一线方案；替代药也需逐项评估毒性。",
+        "keyPoint": "肝功能与出血风险是独立评估维度，替代方案也有自身风险。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "AASLD",
+          "source_title": "AASLD Practice Guidance on prevention, diagnosis, and treatment of hepatocellular carcinoma",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10663390/",
+          "evidence_summary": "肝功能与出血风险是独立评估维度，替代方案也有自身风险。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "不良反应管理",
+        "phase": "肌酐升高的鉴别",
+        "timepoint": "纳武利尤单抗5周期后肌酐1.91 mg/dL",
+        "question": "纳武利尤单抗相关治疗期间肌酐升高，原文考虑免疫相关肾毒性，但现有资料缺少基线肌酐和完整尿检。最合适的评估是？",
+        "options": {
+          "A": "先通过再次给纳武利尤单抗确认是否会继续升高",
+          "B": "仅由1.91 mg/dL固定判为3级免疫性肾炎",
+          "C": "对照基线与变化趋势，检查尿液并排查容量、梗阻及其他药物原因",
+          "D": "因同时用仑伐替尼，直接排除免疫相关因素"
+        },
+        "answer": "C",
+        "answer_text": "对照基线与变化趋势，检查尿液并排查容量、梗阻及其他药物原因",
+        "explain": "原病例实际停用纳武利尤单抗并短期用泼尼松后改善。参考答案强调病因和严重程度核实，不能把改善等同于病理确诊，也不能从绝对值单独补写等级。",
+        "keyPoint": "疑似免疫相关肾损伤需结合基线、尿检和替代病因。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "SITC",
+          "source_title": "Society for Immunotherapy of Cancer (SITC) clinical practice guideline on immune checkpoint inhibitor-related adverse events",
+          "source_version": "2021",
+          "source_section": "",
+          "source_url": "https://jitc.bmj.com/content/9/6/e002435",
+          "evidence_summary": "疑似免疫相关肾损伤需结合基线、尿检和替代病因。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "疗效复评与局部治疗",
+        "phase": "残余肝及椎体病灶局部治疗",
+        "timepoint": "系统治疗后拟实施SBRT",
+        "question": "本例对肝脏及T9病灶实施SBRT。将类似策略用于其他患者前，最应核对什么？",
+        "options": {
+          "A": "全身病灶范围、肝储备及正常肝/胃肠道/脊髓约束和椎体稳定性",
+          "B": "AFP接近正常即可忽略残余病灶位置",
+          "C": "仅按本例肝和椎体处方复制，不再重新计划",
+          "D": "椎体无疼痛即可认定没有脊髓及骨结构风险"
+        },
+        "answer": "A",
+        "answer_text": "全身病灶范围、肝储备及正常肝/胃肠道/脊髓约束和椎体稳定性",
+        "explain": "原病例提供的是个体化处方和结局，不能直接推广剂量。肝脏与椎体照射面对不同正常组织和结构风险；寡转移标签不能替代完整计划评估。",
+        "keyPoint": "局部放疗需按器官、病灶与正常组织风险个体化制定。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "",
+          "split_index": null,
+          "type": "journal",
+          "authority": "",
+          "source_title": "Durable Response to Combined Nivolumab, Lenvatinib, and Radiation Therapy Against Oligometastatic Hepatocellular Carcinoma",
+          "source_version": "2024",
+          "source_section": "",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/39669840/",
+          "evidence_summary": "局部放疗需按器官、病灶与正常组织风险个体化制定。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "疗效复评与局部治疗",
+        "phase": "AFP与影像综合判断",
+        "timepoint": "AFP从10275降至4.9 ng/mL",
+        "question": "AFP显著下降后，如何评价治疗反应更准确？",
+        "options": {
+          "A": "结合增强影像及临床状态评估，AFP下降不能单独证明无存活肿瘤",
+          "B": "仅依据AFP比值即可更改最初BCLC分期为早期",
+          "C": "AFP恢复正常即可定义病理完全缓解",
+          "D": "AFP下降证明所有肝外病灶也已消失，无需复查"
+        },
+        "answer": "A",
+        "answer_text": "结合增强影像及临床状态评估，AFP下降不能单独证明无存活肿瘤",
+        "explain": "AFP变化有助于监测，但不替代影像。肝癌疗效需关注病灶及强化等适用评价要素；没有切除病理时不应补写pCR，既往肝外转移也不会被抹除。",
+        "keyPoint": "AFP是辅助监测信息，不能独立确定完全缓解。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "AASLD",
+          "source_title": "AASLD Practice Guidance on prevention, diagnosis, and treatment of hepatocellular carcinoma",
+          "source_version": "2023",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10663390/",
+          "evidence_summary": "AFP是辅助监测信息，不能独立确定完全缓解。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "治疗决策",
+        "phase": "长期停药结局复盘",
+        "timepoint": "停止系统治疗后长期未见活动性疾病",
+        "question": "患者在联合及局部治疗后长期获控。对停药和疗效归因，哪项结论最严谨？",
+        "options": {
+          "A": "三种治疗先后使用即可证明存在协同增效",
+          "B": "记录长期获控，但不能据单例确定通用停药时点或各治疗的独立贡献",
+          "C": "因本例停药后未进展，所有寡转移HCC均可同样停药",
+          "D": "长期影像无活动性疾病即可免除后续肝病管理"
+        },
+        "answer": "B",
+        "answer_text": "记录长期获控，但不能据单例确定通用停药时点或各治疗的独立贡献",
+        "explain": "本例因毒性等因素调整治疗并在SBRT后暂缓恢复系统治疗。长期结局有教学价值，但缺少对照，无法区分各治疗贡献，也不能确立统一停药标准。肝硬化等基础病仍需管理。",
+        "keyPoint": "长期个案获控不等于验证了统一停药或联合增效规则。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "",
+          "split_index": null,
+          "type": "journal",
+          "authority": "",
+          "source_title": "Durable Response to Combined Nivolumab, Lenvatinib, and Radiation Therapy Against Oligometastatic Hepatocellular Carcinoma",
+          "source_version": "2024",
+          "source_section": "",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/39669840/",
+          "evidence_summary": "长期个案获控不等于验证了统一停药或联合增效规则。"
+        }
+      }
+    ],
+    "missing_information": [],
+    "second_cancer_type": "肝癌"
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-E251EF18",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "肝癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "寡转移肝癌系统治疗联合SBRT",
+      "description": "60岁男性，HCV相关肝硬化，肝癌伴T9转移；Child-Pugh A5。"
+    },
+    "overview": {
+      "hero": {
+        "title": "寡转移肝癌系统治疗联合SBRT",
+        "subtitle": "纳武利尤单抗联合仑伐替尼后处理皮肤及疑似肾毒性，继以肝与椎体SBRT。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "就诊背景",
+              "value": "60岁男性，HCV相关肝硬化，肝癌伴T9转移；Child-Pugh A5。"
+            },
+            {
+              "order": 2,
+              "label": "关键诊断",
+              "value": "原文BCLC-C，近期有出血性胃溃疡。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "纳武利尤单抗联合仑伐替尼后处理皮肤及疑似肾毒性，继以肝与椎体SBRT。"
+            },
+            {
+              "order": 4,
+              "label": "随访结局",
+              "value": "停系统治疗后三年多，原文报告影像未见活动性疾病。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "初诊",
+              "title": "肝癌及风险评估",
+              "detail": "HCV肝硬化、肝癌及T9转移，近期有出血性胃溃疡。"
+            },
+            {
+              "date": "系统治疗",
+              "title": "个体化方案",
+              "detail": "先用纳武利尤单抗，1周期后加仑伐替尼。"
+            },
+            {
+              "date": "治疗期间",
+              "title": "皮肤及肾功能变化",
+              "detail": "出现手部皮肤症状，后肌酐升高，临床考虑免疫相关肾毒性。"
+            },
+            {
+              "date": "毒性处理",
+              "title": "暂停与支持治疗",
+              "detail": "局部用药及短期泼尼松，停纳武利尤单抗后改善。"
+            },
+            {
+              "date": "后续",
+              "title": "局部SBRT",
+              "detail": "肝病灶27 Gy/3次；T9病灶及椎体其余区域分别接受单次20 Gy及14 Gy。"
+            },
+            {
+              "date": "长期随访",
+              "title": "暂缓恢复系统治疗",
+              "detail": "SBRT后暂停系统治疗，三年多仍无活动性疾病影像证据。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/mAhjeP4Pf8dU_-DU6nWwnQ/kchZJ61UHRQsUJY6njqkhqO25KT7Yzvq.jpg",
+              "timepoint": "治疗前后",
+              "caption": "图 1. 治疗前后肝脏 CT 对比。",
+              "alt": "图 1. 治疗前后肝脏 CT 对比。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            },
+            {
+              "id": "IMG2",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/mAhjeP4Pf8dU_-DU6nWwnQ/q8ram6KdWdfqofXjFI1rm56XXWnv0Rwd.jpg",
+              "timepoint": "治疗期间",
+              "caption": "图 2.治疗期间 AFP 水平变化。",
+              "alt": "图 2.治疗期间 AFP 水平变化。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "肝癌"
+  }
+}

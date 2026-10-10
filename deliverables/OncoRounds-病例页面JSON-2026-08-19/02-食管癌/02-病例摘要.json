@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "case_id": "esophageal-vaccine",
+  "cancer_type": "食管癌",
+  "page_type": "case_summary",
+  "hero": {
+    "image": "./assets/cases/esophageal-vaccine.png",
+    "difficulty": "进阶",
+    "title": "个体化新抗原疫苗联合免疫治疗在食管鳞癌术后辅助治疗中的疗效与挑战",
+    "subtitle": "一例神经内分泌转化病例报告"
+  },
+  "tabs": {
+    "active": "summary",
+    "items": [
+      { "id": "summary", "label": "病例摘要" },
+      { "id": "timeline", "label": "病程轴" }
+    ]
+  },
+  "summary_items": [
+    {
+      "order": 1,
+      "label": "患者画像",
+      "value": "男性，60 岁；进行性吞咽困难 3 月余。"
+    },
+    {
+      "order": 2,
+      "label": "初始诊断",
+      "value": "胸中下段食管鳞癌，伴锁骨上转移淋巴结，cT4bN0M1，IVB 期。"
+    },
+    {
+      "order": 3,
+      "label": "转化治疗",
+      "value": "白蛋白紫杉醇 + 卡铂 + 卡瑞利珠单抗 2 周期后 PR，获得手术机会。"
+    },
+    {
+      "order": 4,
+      "label": "核心难点",
+      "value": "术后疫苗联合免疫的获益判断，以及进展后神经内分泌转化的识别。"
+    }
+  ],
+  "primary_action": {
+    "label": "开始模拟查房",
+    "action": "start_round"
+  },
+  "decision_point_count": 5
+}

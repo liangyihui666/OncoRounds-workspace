@@ -1,0 +1,13 @@
+{
+  "before_errors": [
+    "Q3 [OPTION_QUOTE_NOT_FOUND] D原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。",
+    "Q4 [OPTION_QUOTE_NOT_FOUND] C原句未在本题绑定正文中找到；不能改写、拼接、从另一片段借用或修正符号。"
+  ],
+  "after_errors": [],
+  "all_five_literal_checks_pass": true,
+  "semantic_support": "not_independently_verified",
+  "medical_review_performed": false,
+  "known_content_issue": "Q3未经标注，将原文未明确的确诊G2、激素治疗和缓解写成实际事实；不得据本次字面核对通过发布。",
+  "api_calls": 0,
+  "attachment_escape_recovery_for_offline_only": true
+}

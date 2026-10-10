@@ -1,0 +1,11 @@
+const fs=require('fs');
+const base='outputs/病程轴与状态修复-20260928/HTML测试外层-病程轴与状态修复版.json';
+const out='outputs/病程轴阶段兼容-20260928';
+const workflow=JSON.parse(fs.readFileSync(base,'utf8'));
+const input=workflow.nodes.find(n=>n.nodeId==='jKqMCN8eJKvkngnI').inputs.find(i=>i.key==='code');
+const before='(?:初诊(?:时)?|首次就诊';
+if(input.value.split(before).length!==2)throw new Error('Expected one relative-stage pattern');
+input.value=input.value.replace(before,'(?:后续阶段|初诊(?:时)?|首次就诊');
+fs.mkdirSync(out,{recursive:true});
+fs.writeFileSync(out+'/HTML测试外层-阶段兼容补充版.json',JSON.stringify(workflow,null,2));
+console.log('Built '+out);

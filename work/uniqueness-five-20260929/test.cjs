@@ -1,0 +1,12 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert/strict');
+let test=fs.readFileSync('work/structured-five-20260928/test.cjs','utf8');
+test=test.replaceAll('outputs/五题结构与证据边界修复-20260928/','outputs/五题唯一性与进阶修复-20260929/').replaceAll('01-出题子应用-五题结构与证据边界修复版.json','01-出题子应用-Qwen3.5Plus质量修复版.json').replaceAll('20260928-structured-five','20260929-unique-advanced-five');
+test=test.replace('outputs/五题内容修订-20260928/01-出题子应用-五题内容修订版.json','outputs/Qwen3.5Plus对照试跑-20260929/01-出题子应用-Qwen3.5Plus对照版.json');
+test=test.replace("test('修改六个节点，保留模型参数、知识库、所有输入引用及连线'","test('仅修改四个节点，保留模型参数、知识库、所有输入引用及连线'");
+test=test.replace("'v12RevisionInput','cmuTcUhJefVm2DC6','v12AssemblyR2','v12FinalPublicationNormalize'","'v12RevisionInput','v12FinalPublicationNormalize'");
+const anchor="extra+'\\nconst datasetConfig='";assert(test.includes(anchor));
+test=test.replace(anchor,"extra+fs.readFileSync('work/applicability-five-20260928/cases.js','utf8')+fs.readFileSync('work/wording-facts-20260929/cases.js','utf8')+fs.readFileSync('work/uniqueness-five-20260929/cases.js','utf8')+'\\nconst datasetConfig='");
+const modelCheck="assert.equal(m.value,b.inputs.find(i=>i.key==='model').value);";
+const updated="assert.equal(m.value,['sR35QbYF2xamDQR3','v12RevisionGenerator'].includes(n.nodeId)?'qwen3.5-plus':b.inputs.find(i=>i.key==='model').value);";
+test=test.replace("const extra=String.raw`","suite=suite.replace("+JSON.stringify(modelCheck)+","+JSON.stringify(updated)+");\nconst extra=String.raw`");
+vm.runInThisContext('(function(require){'+test+'\n})',{filename:'uniqueness-five-suite.cjs'})(require);

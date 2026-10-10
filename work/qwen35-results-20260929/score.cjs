@@ -1,0 +1,96 @@
+const fs=require('fs'),path=require('path'),assert=require('assert/strict');
+const batch=require('./results.json');
+const prior=JSON.parse(fs.readFileSync('outputs/新十例题组评分-20260929/逐例评分.json','utf8'));
+const dir='outputs/Qwen3.5Plus试跑评分-20260929';
+fs.mkdirSync(dir,{recursive:true});
+const data=[
+ ['144506',[22,12,6,7,8],'Q1存在多个合理答案；毒性题开始标注假设，但整体更偏基础。',[
+  'Q1须重写单选：氟尿嘧啶类加顺铂与CAPOX均可作为晚期胃癌化疗选择，题干没有肾功能等足以排除顺铂的条件；“耐受性更优”不等于另一方案错误。体能状态良好也未见病例正文明确记录。[NCI胃癌治疗](https://www.cancer.gov/types/stomach/hp/stomach-treatment-pdq)',
+  'Q2评估周期方向可保留，属于直接记忆，三个干扰项较弱。',
+  'Q3把Ⅲ度毒性标为【延伸情境】是进步，但骨髓毒性未分到中性粒细胞/血小板等项目，B解析仍用“四级或不可恢复”概括永久停药，存在条件简化。',
+  'Q4不能耐受时中止/暂缓方向合理；C解析从持续毒性推断骨髓储备不足，并排除所有再减量策略，超出可见事实。',
+  'Q5需核对转化治疗共识适用人群及检测推荐强度；不能把探索性靶点一概当成所有IV期初诊的常规必要检查。整套没有深入覆盖停药后长期完全缓解管理。']],
+ ['151422',[23,18,7,10,7],'较上次减少重复系统治疗题，但HER2未知时直接指定联合靶向，依据仍不完整。',[
+  'Q1病灶穿刺确诊方向合理，干扰项明显。',
+  'Q2题干已给出转移灶ER/PR结果，答案仍泛泛要求重新检测；应明确补齐HER2等缺项，避免看起来要求无理由重复已做检查。',
+  'Q3引用仅支持优先内分泌，答案额外加入“联合靶向”；HER2未知、靶向药物未指明，也未说明既往内分泌史，尚不能支持唯一具体策略。',
+  'Q4个体化评估间隔方向合理，但“每两周PET/CT”“仅凭标志物停药”等使题目过易。',
+  'Q5已标延伸情境，当前转移灶HER2阳性可讨论抗HER2治疗；“只要一次阳性”的表述须保留合格检测及临床适用边界。与Q2仍部分重叠，骨局部处理和骨事件管理覆盖较弱。']],
+ ['151454',[23,23,3,8,4],'原有cN2错误及强制颅内取材消失，但几乎全部改成基础规范题，脑膜转移核心决策缺失。',[
+  'Q1乳腺MRI疗效评估可保留；missing_information却声称原文没有每2周期MRI，原HTML图1文字注释明确记载此频率。说明资料读取或汇总仍漏信息。',
+  'Q2答案“病理分子特征及状况”表达粗略，其他选项全是“仅”，不构成进阶决策。',
+  'Q3BRCA检测方向可讨论，但引用摘要仅说明突变与药物疗效相关，未直接展示本例检测适应证。',
+  'Q4由哪些科室参与MDT属于基础流程，几乎不依赖患者信息。',
+  'Q5治疗前需TNM分期属于基本质控，原先困难的cN/ypN问题被移除，不是已经正确解决。整套无脑膜转移诊断或治疗题，虽然已披露证据缺口，仍不能按进阶整组评价为合格。']],
+ ['153018',[24,19,7,8,7],'复检措辞及诊断证据范围较前改善；部分局部治疗结论仍由一般原则外推。',[
+  'Q1保留“有可能获取组织”的条件，比无条件强制活检更好。',
+  'Q2用初诊IV期乳腺癌一般局部治疗条款支持复发乳腺癌肠梗阻介入/放疗选择，需核对部位、具体技术和适应证；不能自动证明本例具体处理。',
+  'Q3改为MDT讨论并采用适当方法取材，与泛化证据更匹配；但难度也下降。',
+  'Q4回顾完整病史合理；B选项说全身药物选择，解析主要反驳局部放疗选择，两者没有完全对应。',
+  'Q5原病例为长期复发转移，不是初诊IV期；一般评估可参考，但影像方式推荐不能直接推出所有无症状人群需要筛查脑转移。']],
+ ['162144',[21,18,6,7,7],'开始覆盖阿贝西利联合氟维司群，但五题全B，Q3/Q4重复且耐药表述前后矛盾。',[
+  'Q1PET-CT作为可疑病灶评估选择合理，但“影像优先”未充分证明必须排除活检和局部MRI。',
+  'Q2“建议再穿刺”较绝对命令缓和，但仍应加入安全可及性及结果是否改变治疗；原文没有做过肾上腺穿刺，“再”字不准。',
+  'Q3覆盖了病例真实关键方案，是较上次的进步；解释新加“无内脏危象”，应区分原文明确记录与未见报道。',
+  'Q4与Q3重复，且Q3写内分泌后进展，Q4解析直接称内分泌敏感；不能用无内脏危象替代完整耐药状态判断。',
+  'Q5个体化评估间隔可保留，仍偏基础。本组答案BBBBB属于题组呈现缺陷，不据此判定五题医学全错，也不建议程序强行洗牌。']],
+ ['163395',[18,16,7,9,8],'不再强制颅内穿刺、也不再使用未来PFS，但仍有时间点错移和把ADC类别证据套到RC48的问题。',[
+  'Q1器官对应影像方式基本是记忆题；应区分有适应证时选MRI与所有初诊患者一律筛查脑转移。',
+  'Q2原HTML明确写颅外稳定是在2021年9月，本题移到2019年4月，未见正文依据。',
+  'Q3原文仅记严重且不能耐受胃肠道反应，本题引用具体3～4级腹泻恢复策略，缺腹泻类型、等级、恢复标准，不能把二者直接等同。',
+  'Q4拒绝再次放疗这一重要条件恢复了，但“脑转移可选TKI/ADC”不能单独证明RC48这一具体药物的选择；而且2023年指南不能作为2021年团队已知的决策依据。可改成明确的当前教学回顾并核对特定药物证据。',
+  'Q5影像方式一致性原则较稳妥，干扰项明显。missing_information对PFS起点的疑问应查原研究，不能自行选择起点。']],
+ ['136519',[23,20,6,9,7],'恢复五题交付，N分期和疗程主线较清楚；核心AFP鉴别缺口仍在，Q4观察措辞有歧义。',[
+  'Q1十枚区域结节阳性归N2b，符合引用摘要，属于简单计数记忆题。',
+  'Q2术后约4周、不迟于8周与所引摘要一致；“2周内一定不正确”的排除理由仍需恢复条件和原文限制。',
+  'Q3应明确按该指南推荐讨论高危III期疗程，避免把其他方案/个体化缩短一概定为不允许。原文“8周期（4个月）”存在疗程记录疑点，不应以生成题替代核实。',
+  'Q4正确选项“继续观察，复发转移时再评估”可能被理解为不做已适应的辅助化疗，应写清继续规范辅助化疗、HER2阳性不自动增加抗HER2药。引用只要求转移期检测，并不逻辑等同于证明辅助期无治疗证据。',
+  'Q5按规范完成辅助疗程后结束方向可保留；与Q3重复。AFP来源鉴别、乙肝背景及肠套叠手术核心仍未覆盖。']],
+ ['137992',[19,11,7,6,8],'恢复五题交付且感染处理方向较稳妥；Q5疑似套用错误分期表，须优先核查。',[
+  'Q1系统治疗后评估转化主线合理，但宽泛正确项B包含具体系统治疗选项C；不能仅凭概括指南就断言MSI-H人群免疫单药无初治依据。',
+  'Q2初诊已获得HER2及MSI信息，再考应检测这些项目较浅；需要核对该“IV期”共识是否覆盖本例M0局部晚期。',
+  'Q3MSI-H在初诊时已明确，并非术后首次证实。围手术期化疗证据不能无条件套到HER2阳性、转化后pCR的特殊患者，“不能改善生存”的绝对说法需核原证据范围。',
+  'Q4暂停化疗并处理菌血症方向较合理；不应因“持续时间长”就补出具体中性粒细胞减少等级。',
+  'Q5高风险待核。“ypT0–2N0M0为I期”可见于食管/食管胃结合部的分期表；胃癌AJCC第8版研究指出ypT0N0当时未定义分期组。未取得CSCO2026 split207原表，不能确认是模型错配还是检索来源问题；应核癌种及分期表，不能直接把初诊IVA改写掉。IVB也不以“远处转移未控制”作为定义。[胃癌分期原始研究](https://pmc.ncbi.nlm.nih.gov/articles/PMC7703858/)；[食管及结合部分期说明](https://pmc.ncbi.nlm.nih.gov/articles/PMC5387145/)']],
+ ['139431',[19,13,7,6,8],'3/19归属和CAPEOX单药措辞消失，但新增错误选项解析，辅助与姑息治疗仍混用。',[
+  'Q1答案IV期正确，但A解析写“T4N1M0才对应IIB期”明确错误：IIB应为T4N0M0。不能因正确选项对就放过错误选项解析。[NCI小肠癌分期](https://www.cancer.gov/types/small-intestine/hp/small-intestine-treatment-pdq)',
+  'Q2原文术后恢复良好不能直接等同已评估适合强烈治疗；晚期一线化疗与完整切除后的辅助治疗应明确区分。',
+  'Q3免疫组化综合判读主线合理；D解析新加ER阳性仍可能消化道来源这一具体断言，当前泛化摘要不能核实。',
+  'Q4原病例仍在化疗中，本题写已经完成辅助化疗，应改成未来计划或明确延伸情境；“每次随访均做增强CT”需核完整共识的时间间隔。',
+  'Q5仍把晚期姑息“未进展可维持”的规则放到被称为术后辅助的病例，治疗目的混用未解决。原HTML的N1与三枚结节阳性也存在分期版本疑点，应保留来源冲突，不能据此再编教学结论。']],
+ ['143320',[24,18,7,7,7],'去掉未经证实的6周间隔及长期治疗后补半年疗程；研究题仍混淆终点和人群。',[
+  'Q1分子检测与取样原则可保留，偏通用规范。',
+  'Q2化疗进展且MSI-H后讨论免疫合理；D解析以“无绝对禁忌记载”推出可联合抗血管，属于从证据沉默推出肯定支持。原文个案用过不能证明一般推荐。',
+  'Q3无区域结节转移但有肿瘤沉积的N1c主线合理，属于分期定义题。',
+  'Q4标题写基因突变状态一致，解析涉及KRAS及MMR，范围需精确；“90%以上”和“肿瘤比例20%”未在可见摘要出现，须回到绑定检索原文核实。',
+  'Q5PRODIGE-14为不同RAS状态患者按状态配靶向药，并非只研究KRAS突变者；主要终点是R0/R1联合切除率，不是解析中的R0切除率。未调整主要比较P=0.17，但调整分析有差异，不能宽泛说三药无优势；对照组身份也不自动证明临床标准。[研究原文](https://pmc.ncbi.nlm.nih.gov/articles/PMC9042909/)']]
+];
+const rows=data.map(([id,pts,reason,notes],i)=>{
+ const prev=prior.rows.find(r=>r.source_id===id);assert(prev);
+ pts.forEach((p,j)=>assert(p>=0&&p<=Object.values(prior.rubric)[j]));
+ const score=pts.reduce((a,b)=>a+b,0);
+ return {index:i+1,source_id:id,topic:prev.topic,case_id:batch[i].Questions.case_id,previous_case_id:prev.case_id,question_count:batch[i].Questions.questions.length,score,previous_score:prev.quality_score,delta:prev.quality_score===null?null:score-prev.quality_score,dimensions:Object.fromEntries(Object.keys(prior.rubric).map((k,j)=>[k,pts[j]])),reason,notes};
+});
+const structure=rows.map((r,i)=>{
+ const x=batch[i].Questions;assert.equal(x.questions.length,5);assert.equal(x.question_count,5);
+ const issues=[];
+ for(const q of x.questions){
+  if(Object.keys(q.options).sort().join('')!=='ABCD')issues.push(q.id+':options');
+  if(q.answer_text!==q.options[q.answer])issues.push(q.id+':answer_text');
+  if(q.explain.split(/\r?\n/).map(s=>s.slice(0,2)).join(',')!=='A｜,B｜,C｜,D｜')issues.push(q.id+':explain');
+  if(/\b(?:GA|GB|GS|CS|IR)\d{1,3}\b/.test(JSON.stringify({q:q.question,o:q.options,e:q.explain,k:q.keyPoint,s:q.guidelineRef.evidence_summary})))issues.push(q.id+':internal_id');
+ }
+ const answers=x.questions.map(q=>q.answer).join('');
+ return {source_id:r.source_id,answers,all_same_answer:new Set(answers).size===1,extension_count:x.questions.filter(q=>q.question.includes('【延伸情境】')).length,issues};
+});
+assert(structure.every(s=>!s.issues.length));
+const paired=rows.filter(r=>r.previous_score!==null);
+const mean=x=>x.reduce((a,b)=>a+b,0)/x.length;
+const metrics={current_cases:10,current_questions:50,previous_cases:8,previous_questions:40,current_mean:mean(rows.map(r=>r.score)),paired_current_mean:mean(paired.map(r=>r.score)),paired_previous_mean:mean(paired.map(r=>r.previous_score)),previous_delivery_mean:prior.mean_delivery_score,all_same_answer_cases:structure.filter(s=>s.all_same_answer).length};
+const limitations=['本批按用户切换Qwen3.5 Plus后的结果评估，但返回未含真实model字段、Token用量和完整执行轨迹，无法独立验证实际调用模型或实测成本。','病例内容与上批同10例对应，但8例case_id变化，不能据此认定输入/预处理及检索池严格相同；这是单次输出比较，不是严格控制变量实验。','未取得逐题完整检索原文，模型生成的evidence_summary不等于真实证据。来源适用性不明者列为待核，明确错误与待核事项分开。','评分沿用五维人工编辑标准，不是医学正确率或发布审批。上批2例零题内容分为null，不计算内容提高了多少分。','本次只核对、评分并保存比较报告，没有修改题目、原始附件、工作流或知识库。'];
+const report={input:'C:/Users/admin/.codex/attachments/c4aafaae-9bc6-4881-bb1d-20c9345827b8/已粘贴的文本.txt',rubric:prior.rubric,metrics,limitations,structure,rows};
+fs.writeFileSync(path.join(dir,'逐例对比.json'),JSON.stringify(report,null,2)+'\n');
+const table=rows.map(r=>`| ${r.index} | ${r.topic} | ${r.previous_score??'未交付'} | **${r.score}** | ${r.delta===null?'恢复5题':(r.delta>0?'+':'')+r.delta} | ${r.reason} |`).join('\n');
+const text=`# Qwen3.5 Plus试跑：同十例评分与比较\n\n本轮10例全部各5题，共50题；上轮8例有题，共40题。本轮均分${metrics.current_mean.toFixed(1)}，共同有题的8例从${metrics.paired_previous_mean.toFixed(1)}变为${metrics.paired_current_mean.toFixed(1)}。观察到交付完整性改善，内容质量只有小幅变化，不能证明3.5 Plus全面优于3.8 Flash。\n\n${limitations.map(s=>'- '+s).join('\n')}\n\n## 逐例评分\n\n| 序号 | 病例 | 上次3.8批次 | 本次3.5批次 | 变化 | 主要判断 |\n|---|---|---:|---:|---:|---|\n${table}\n\n## 五维分数\n\n| 病例编号 | 忠实/25 | 证据/30 | 进阶/20 | 选项解析/15 | 完整覆盖/10 |\n|---|---:|---:|---:|---:|---:|\n${rows.map(r=>`| ${r.source_id} | ${Object.values(r.dimensions).join(' | ')} |`).join('\n')}\n\n## 逐题核对\n\n${rows.map(r=>`### ${r.index}. ${r.topic}：${r.score}分\n\n${r.notes.map(s=>'- '+s).join('\n')}`).join('\n\n')}\n\n## 程序结构与对比结论\n\n50题全部有四选项、匹配的answer_text和四行解析，学员正文及证据摘要没有内部证据编号。两道延伸题分别位于第1、2组，各1题。第5组全部答案为B，仅作题组质量问题标记，不因此判医学全错，也未重排选项。\n\n有改善：此前两例零题恢复；强制颅内穿刺与未来PFS用于早期决策不再出现；6周停贝伐的无依据精确时间被移除。\n\n仍有问题：大量题目靠“仅/无需/必须/禁止”即可排除；三阴性脑膜转移组把难点换成MDT、分期时点等基础题，不能视为解决了原困难决策。胃癌Q1单选不唯一、小肠癌Q1解析错误优先处理；HER2/MSI-H胃癌Q5应回查原分期表；RC48具体药物证据仍不足。\n\n建议保留本次结果作为比较样本，下一轮优先针对这些真实失败修订。不能仅靠换模型保证5道有效进阶题，也不能以简单常识题填满数量。\n`;
+fs.writeFileSync(path.join(dir,'逐例评分与模型对比.md'),text);
+console.log(JSON.stringify({metrics,scores:rows.map(r=>[r.source_id,r.previous_score,r.score]),structure},null,2));

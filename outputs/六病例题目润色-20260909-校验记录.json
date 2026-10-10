@@ -1,0 +1,44 @@
+[
+  {
+    "file": "154186_乳腺癌合并结节病_不足状态.json",
+    "case_id": "CASE-E1EFC415",
+    "status": "insufficient",
+    "question_count": 0,
+    "json_and_structure_valid": true
+  },
+  {
+    "file": "135868_HER2阳性胃癌_润色版.json",
+    "case_id": "CASE-8C6E34E9",
+    "status": "success",
+    "question_count": 5,
+    "json_and_structure_valid": true
+  },
+  {
+    "file": "137559_转移性直肠癌_润色版.json",
+    "case_id": "CASE-A8792225",
+    "status": "success",
+    "question_count": 5,
+    "json_and_structure_valid": true
+  },
+  {
+    "file": "139352_食管癌疑似寡转移_润色版.json",
+    "case_id": "CASE-55BF9202",
+    "status": "success",
+    "question_count": 5,
+    "json_and_structure_valid": true
+  },
+  {
+    "file": "141249_乳腺癌心包填塞_润色版.json",
+    "case_id": "CASE-B5FF3EFE",
+    "status": "success",
+    "question_count": 5,
+    "json_and_structure_valid": true
+  },
+  {
+    "file": "154097_乳腺癌受体演变_润色版.json",
+    "case_id": "CASE-902F741C",
+    "status": "success",
+    "question_count": 5,
+    "json_and_structure_valid": true
+  }
+]

@@ -1,0 +1,79 @@
+{
+  "passed": 18,
+  "failed": 0,
+  "tests": [
+    {
+      "name": "两套全部代码可编译，节点输入输出引用及连线可定位",
+      "status": "PASS"
+    },
+    {
+      "name": "无新增调用、连线/模型/检索参数/应用绑定不变",
+      "status": "PASS"
+    },
+    {
+      "name": "四个生成/修订/医审提示词统一限字，无旧160/70字指令",
+      "status": "PASS"
+    },
+    {
+      "name": "question在上限接收，超1字在子/父最终回退均被拦截",
+      "status": "PASS"
+    },
+    {
+      "name": "explain在上限接收，超1字在子/父最终回退均被拦截",
+      "status": "PASS"
+    },
+    {
+      "name": "keyPoint在上限接收，超1字在子/父最终回退均被拦截",
+      "status": "PASS"
+    },
+    {
+      "name": "phase在上限接收，超1字在子/父最终回退均被拦截",
+      "status": "PASS"
+    },
+    {
+      "name": "timepoint在上限接收，超1字在子/父最终回退均被拦截",
+      "status": "PASS"
+    },
+    {
+      "name": "answer_text在上限接收，超1字在子/父最终回退均被拦截",
+      "status": "PASS"
+    },
+    {
+      "name": "所有选项及证据摘要上限生效，正确答案一致",
+      "status": "PASS"
+    },
+    {
+      "name": "医审REVISE仍输出限字内题目，来源名称章节链接完整保留",
+      "status": "PASS"
+    },
+    {
+      "name": "1至5题实际计数，过滤超长题后连续编号，审计不错误重绑定",
+      "status": "PASS"
+    },
+    {
+      "name": "第二轮全超长退首轮限字内结果，第二轮有效时优先，合并失败回退",
+      "status": "PASS"
+    },
+    {
+      "name": "超长且无法分句的病程不回退展示，原文内部保留",
+      "status": "PASS"
+    },
+    {
+      "name": "正常限长病程保留，页面字段边界和所有序列化输出一致",
+      "status": "PASS"
+    },
+    {
+      "name": "机械硬检两轮都生成精确长度修订任务",
+      "status": "PASS"
+    },
+    {
+      "name": "Unicode按字符而非UTF16码元统一计数",
+      "status": "PASS"
+    },
+    {
+      "name": "44例220条引用回归：保留题来源不变，超长题有明确原因和内部记录",
+      "status": "PASS"
+    }
+  ],
+  "online_tested": false
+}

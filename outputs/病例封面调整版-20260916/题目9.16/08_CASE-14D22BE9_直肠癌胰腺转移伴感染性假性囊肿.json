@@ -1,0 +1,264 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-14D22BE9",
+    "cancer_type": "消化系统肿瘤",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "疗效复评与局部治疗",
+        "phase": "症状性脑转移处理",
+        "timepoint": "多发小脑病灶伴脑水肿和协调障碍",
+        "question": "患者小脑病灶伴明显神经症状和脑水肿。系统方案尚在讨论时，应如何安排颅内处理？",
+        "options": {
+          "A": "先完成数周期双HER2治疗，再按症状决定是否处理脑部",
+          "B": "因为颅外已有转移，局部治疗不再有价值",
+          "C": "及时由神经外科及放疗团队评估局部治疗，不能仅等系统药起效",
+          "D": "只依据HER2 3+推定颅内病灶会同步快速缓解"
+        },
+        "answer": "C",
+        "answer_text": "及时由神经外科及放疗团队评估局部治疗，不能仅等系统药起效",
+        "explain": "症状性脑转移通常需及时局部治疗，具体手术或放疗方式取决于病灶与患者条件。本例实际先行小脑转移灶切除；这是颅内手术，不应误写为直肠原发灶切除。",
+        "keyPoint": "症状性脑转移的局部处理不应仅等待系统疗效。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "ASCO / SNO / ASTRO",
+          "source_title": "Treatment for Brain Metastases: ASCO-SNO-ASTRO Guideline",
+          "source_version": "2022",
+          "source_section": "",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8917399/",
+          "evidence_summary": "症状性脑转移的局部处理不应仅等待系统疗效。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "诊断与分期",
+        "phase": "胰腺病灶来源鉴别",
+        "timepoint": "直肠及胰腺均有病变",
+        "question": "EUS取材发现胰腺腺癌，CDX2、SATB2阳性且HER2 3+。结合直肠病理，哪项判断最有依据？",
+        "options": {
+          "A": "HER2 3+单项即可独立证明直肠来源",
+          "B": "CA19-9升高足以推翻组织病理的来源判断",
+          "C": "综合形态及成组免疫表型与原发灶比对，支持直肠来源转移",
+          "D": "只因胰腺占位伴胰腺炎，就按原发胰腺癌处理"
+        },
+        "answer": "C",
+        "answer_text": "综合形态及成组免疫表型与原发灶比对，支持直肠来源转移",
+        "explain": "本例组织获取及免疫表型比较支持胰腺转移。影像、肿瘤标志物及单个染色均不能独立完成来源鉴别；EUS-TA是组织获取的统称，不应补写未确认的针型。",
+        "keyPoint": "罕见转移需将组织形态、免疫表型与临床病史共同解释。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "",
+          "split_index": null,
+          "type": "journal",
+          "authority": "",
+          "source_title": "HER2-positive rectal adenocarcinoma metastatic to the pancreas complicated by obstructive pancreatitis and an infected pseudocyst: a case report",
+          "source_version": "2026",
+          "source_section": "",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/42455446/",
+          "evidence_summary": "罕见转移需将组织形态、免疫表型与临床病史共同解释。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "治疗决策",
+        "phase": "感染合并症下的治疗顺序",
+        "timepoint": "感染性假性囊肿尚未完全消退",
+        "question": "原病例在抗菌治疗改善炎症后启动双HER2治疗。对这一顺序，哪项理解最准确？",
+        "options": {
+          "A": "先处理并持续评估感染，再权衡抗肿瘤方案；双靶向不替代感染控制",
+          "B": "只要肿瘤标志物下降，持续发热便无需再查感染",
+          "C": "囊肿未完全消失意味着任何抗肿瘤治疗都必须无限期停止",
+          "D": "双HER2骨髓抑制较轻，可直接替代抗菌药处理囊肿"
+        },
+        "answer": "A",
+        "answer_text": "先处理并持续评估感染，再权衡抗肿瘤方案；双靶向不替代感染控制",
+        "explain": "原文有先行抗菌治疗，不能省略后直接归功于双靶向。是否需要进一步引流等源控制取决于感染与解剖评估；原文未记录人工引流操作，不补写为已实施。",
+        "keyPoint": "降低骨髓抑制风险不能替代对持续感染的处理。",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "",
+          "split_index": null,
+          "type": "journal",
+          "authority": "",
+          "source_title": "HER2-positive rectal adenocarcinoma metastatic to the pancreas complicated by obstructive pancreatitis and an infected pseudocyst: a case report",
+          "source_version": "2026",
+          "source_section": "",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/42455446/",
+          "evidence_summary": "降低骨髓抑制风险不能替代对持续感染的处理。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "治疗决策",
+        "phase": "双HER2方案适用边界",
+        "timepoint": "因感染风险选择一线曲妥珠单抗加帕妥珠单抗",
+        "question": "用MyPathway研究解释本例选择时，哪项最需要说明？",
+        "options": {
+          "A": "研究中无化疗意味着双抗不存在严重不良事件",
+          "B": "研究证明所有HER2染色阳性结直肠癌均同等获益",
+          "C": "研究专门比较感染性胰腺囊肿患者的一线治疗",
+          "D": "研究主要为既往治疗难治的HER2扩增患者，不能直接证明本例一线策略优于标准方案"
+        },
+        "answer": "D",
+        "answer_text": "研究主要为既往治疗难治的HER2扩增患者，不能直接证明本例一线策略优于标准方案",
+        "explain": "MyPathway为Ⅱa期篮式研究，支持双抗在相应人群中的活性。原病例因合并症作出个体化选择，其一线阶段和感染情境与研究条件不同，不能写成已被直接验证的统一方案。",
+        "keyPoint": "靶点相同仍需核对线次、扩增定义与合并症条件。",
+        "guidelineRef": {
+          "evidence_type": "临床研究",
+          "doc_id": "",
+          "split_index": null,
+          "type": "journal",
+          "authority": "",
+          "source_title": "Pertuzumab plus trastuzumab for HER2-amplified metastatic colorectal cancer (MyPathway): an updated report from a multicentre, open-label, phase 2a, multiple basket study",
+          "source_version": "2019",
+          "source_section": "",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/30857956/",
+          "evidence_summary": "靶点相同仍需核对线次、扩增定义与合并症条件。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "疗效复评与局部治疗",
+        "phase": "治疗12周复评",
+        "timepoint": "胰腺病灶缩小、囊肿改善及标志物下降",
+        "question": "现有摘要未提供靶病灶径线总和及完整全身复评。哪项疗效表述最合适？",
+        "options": {
+          "A": "描述已观察到的局部缩小和指标改善，正式总体分级仍需完整评估",
+          "B": "仅凭CEA下降即可确定全身RECIST PR",
+          "C": "假性囊肿改善即证明所有脑转移已消失",
+          "D": "胰腺病灶变小即可判定所有既往PET异常均为感染"
+        },
+        "answer": "A",
+        "answer_text": "描述已观察到的局部缩小和指标改善，正式总体分级仍需完整评估",
+        "explain": "本例有局部及生化改善，但感染性病变和肿瘤病灶不能混为同一靶病灶；总体疗效还需考虑非靶病灶、新灶及颅内状态。未提供的数据不应由模型补齐。",
+        "keyPoint": "局部缩小和标志物下降不能独立完成全身疗效分级。",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "",
+          "split_index": null,
+          "type": "guideline",
+          "authority": "RECIST Working Group",
+          "source_title": "New response evaluation criteria in solid tumours: revised RECIST guideline (version 1.1)",
+          "source_version": "2009",
+          "source_section": "",
+          "source_url": "https://project.eortc.org/recist/wp-content/uploads/sites/4/2015/03/RECISTGuidelines.pdf",
+          "evidence_summary": "局部缩小和标志物下降不能独立完成全身疗效分级。"
+        }
+      }
+    ],
+    "missing_information": [],
+    "second_cancer_type": "直肠癌"
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-14D22BE9",
+    "cancer_type": "消化系统肿瘤",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "",
+      "alt": "直肠癌主题封面待配置"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "直肠癌胰腺转移伴感染性假性囊肿",
+      "description": "60多岁男性因神经症状发现多发小脑病灶，后确诊HER2阳性直肠癌。小脑病灶手术后出现梗阻性胰腺炎及感染性假性囊肿，EUS取材支持直肠来源胰腺转移；抗感染改善后采用双HER2治疗，12周时局部病灶及指标改善。"
+    },
+    "overview": {
+      "hero": {
+        "title": "直肠癌胰腺转移伴感染性假性囊肿",
+        "subtitle": "症状性脑转移的局部处理不应仅等待系统疗效；罕见转移需将组织形态、免疫表型与临床病史共同解释；降低骨髓抑制风险不能替代对持续感染的处理；靶点相同仍需核对线次、扩增定义与合并症条件；局部缩小和标志物下降不能独立完成全身疗效分级。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者与就诊背景",
+              "value": "60多岁男性因神经症状发现多发小脑病灶，后确诊HER2阳性直肠癌。小脑病灶手术后出现梗阻性胰腺炎及感染性假性囊肿，EUS取材支持直肠来源胰腺转移；抗感染改善后采用双HER2治疗，12周时局部病灶及指标改善。"
+            },
+            {
+              "order": 2,
+              "label": "疾病与分期",
+              "value": "直肠腺癌伴小脑及胰腺转移；PET另见肝、骨及淋巴结异常摄取，未将全部摄取灶补写为病理确诊。"
+            },
+            {
+              "order": 3,
+              "label": "分子与病理",
+              "value": "直肠腺癌CDX2、SATB2阳性，HER2 3+，MSS、RAS/BRAF野生型；胰腺取材的腺癌免疫表型与直肠来源相符。"
+            },
+            {
+              "order": 4,
+              "label": "核心教学点",
+              "value": "症状性脑转移的局部处理不应仅等待系统疗效；罕见转移需将组织形态、免疫表型与临床病史共同解释；降低骨髓抑制风险不能替代对持续感染的处理；靶点相同仍需核对线次、扩增定义与合并症条件；局部缩小和标志物下降不能独立完成全身疗效分级。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "初诊",
+              "title": "神经及全身检查",
+              "detail": "神经症状、脑水肿及小脑病灶；PET提示直肠、胰腺等异常，直肠活检确诊。"
+            },
+            {
+              "date": "首先局部处理",
+              "title": "小脑手术",
+              "detail": "行小脑转移灶切除；正文未记载直肠根治切除。"
+            },
+            {
+              "date": "术后",
+              "title": "感染及胰腺病灶",
+              "detail": "高热，影像与内镜提示梗阻性胰腺炎、感染性假性囊肿及脓液流出。"
+            },
+            {
+              "date": "组织获取",
+              "title": "确认胰腺来源",
+              "detail": "EUS-TA取材及免疫组化支持直肠来源转移。"
+            },
+            {
+              "date": "抗感染改善后",
+              "title": "双HER2治疗",
+              "detail": "因持续感染风险权衡后选择曲妥珠单抗联合帕妥珠单抗。"
+            },
+            {
+              "date": "4周期/12周",
+              "title": "复评",
+              "detail": "CEA和CA19-9下降，胰腺病灶及假性囊肿改善，胃部隆起处呈瘢痕；未补写全身RECIST分级。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": [
+            {
+              "id": "IMG1",
+              "src": "https://rs-os-lyh-dt-publicread-picture-bosmetadata-prod.liangyihui.net/document/mbhME_wJBpOMUK2Q8u2-FQ/h57ZwUcuE3KoHBYhOnw8oXAAqlOgcwjv.png",
+              "timepoint": "初诊时",
+              "caption": "初诊时的影像学及病理学表现：a MRI 显示小脑多发占位性病变；b PET-CT 显示直肠 FDG 摄取异常；c PET-CT 显示胰腺 FDG 摄取异常；但无法确定患者患有原发性胰腺癌还是转移性疾病；d 内镜图像显示 2 型直肠肿瘤；e 苏木精 - 伊红（H&E）染色显示为腺癌；f 直肠肿瘤标本的 HER2 免疫组化检测呈强阳性（3+）。",
+              "alt": "初诊时的影像学及病理学表现：a MRI 显示小脑多发占位性病变；b PET-CT 显示直肠 FDG 摄取异常；c PET-CT 显示胰腺 FDG 摄取异常；但无法确定患者患有原发性胰腺癌还是转移性疾病；d 内镜图像显示 2 型直肠肿瘤；e 苏木精 - 伊红（H&E）染色显示为腺癌；f 直肠肿瘤标本的 HER2 免疫组化检测呈强阳性（3+）。",
+              "mapping_status": "caption_only",
+              "related_timeline": null
+            }
+          ]
+        }
+      ]
+    },
+    "second_cancer_type": "直肠癌"
+  }
+}

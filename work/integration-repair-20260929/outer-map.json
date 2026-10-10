@@ -1,0 +1,797 @@
+[
+  {
+    "id": "448745",
+    "name": "流程开始",
+    "type": "workflowStart",
+    "inputs": [
+      {
+        "key": "userChatInput"
+      }
+    ],
+    "outputs": [
+      {
+        "id": "userChatInput",
+        "key": "userChatInput",
+        "type": "string"
+      },
+      {
+        "id": "userFiles",
+        "key": "userFiles",
+        "type": "arrayString"
+      }
+    ]
+  },
+  {
+    "id": "glGeIMqOVaSRs5jF",
+    "name": "正文清洗（HTML/PDF）",
+    "type": "chatNode",
+    "inputs": [
+      {
+        "key": "model",
+        "value": "qwen3.8-flash"
+      },
+      {
+        "key": "temperature"
+      },
+      {
+        "key": "maxToken"
+      },
+      {
+        "key": "isResponseAnswerText",
+        "value": false
+      },
+      {
+        "key": "aiChatQuoteRole",
+        "value": "system"
+      },
+      {
+        "key": "quoteTemplate"
+      },
+      {
+        "key": "quotePrompt"
+      },
+      {
+        "key": "aiChatVision",
+        "value": false
+      },
+      {
+        "key": "aiChatAudio",
+        "value": false
+      },
+      {
+        "key": "aiChatVideo",
+        "value": false
+      },
+      {
+        "key": "aiChatExtractFiles",
+        "value": false
+      },
+      {
+        "key": "aiChatReasoning",
+        "value": false
+      },
+      {
+        "key": "aiChatReasoningEffort",
+        "value": "minimal"
+      },
+      {
+        "key": "aiChatTopP"
+      },
+      {
+        "key": "aiChatStopSign"
+      },
+      {
+        "key": "aiChatResponseFormat"
+      },
+      {
+        "key": "aiChatJsonSchema"
+      },
+      {
+        "key": "systemPrompt",
+        "value": "FILE"
+      },
+      {
+        "key": "history",
+        "value": 0
+      },
+      {
+        "key": "quoteQA"
+      },
+      {
+        "key": "fileUrlList"
+      },
+      {
+        "key": "userChatInput",
+        "value": [
+          "htmlTextCheck",
+          "text"
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "id": "history",
+        "key": "history",
+        "type": "chatHistory"
+      },
+      {
+        "id": "answerText",
+        "key": "answerText",
+        "type": "string"
+      },
+      {
+        "id": "reasoningText",
+        "key": "reasoningText",
+        "type": "string"
+      },
+      {
+        "id": "system_error_text",
+        "key": "system_error_text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "id": "t7eXTzfAM2QUzvvK",
+    "name": "病例结构化提取",
+    "type": "chatNode",
+    "inputs": [
+      {
+        "key": "model",
+        "value": "qwen3.8-flash"
+      },
+      {
+        "key": "temperature"
+      },
+      {
+        "key": "maxToken",
+        "value": 16000
+      },
+      {
+        "key": "isResponseAnswerText",
+        "value": false
+      },
+      {
+        "key": "aiChatQuoteRole",
+        "value": "system"
+      },
+      {
+        "key": "quoteTemplate"
+      },
+      {
+        "key": "quotePrompt"
+      },
+      {
+        "key": "aiChatVision",
+        "value": true
+      },
+      {
+        "key": "aiChatAudio",
+        "value": false
+      },
+      {
+        "key": "aiChatVideo",
+        "value": false
+      },
+      {
+        "key": "aiChatExtractFiles",
+        "value": true
+      },
+      {
+        "key": "aiChatReasoning",
+        "value": false
+      },
+      {
+        "key": "aiChatReasoningEffort",
+        "value": "minimal"
+      },
+      {
+        "key": "aiChatTopP"
+      },
+      {
+        "key": "aiChatStopSign"
+      },
+      {
+        "key": "aiChatResponseFormat"
+      },
+      {
+        "key": "aiChatJsonSchema"
+      },
+      {
+        "key": "systemPrompt",
+        "value": "FILE"
+      },
+      {
+        "key": "history",
+        "value": 0
+      },
+      {
+        "key": "quoteQA"
+      },
+      {
+        "key": "fileUrlList"
+      },
+      {
+        "key": "userChatInput",
+        "value": [
+          "glGeIMqOVaSRs5jF",
+          "answerText"
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "id": "history",
+        "key": "history",
+        "type": "chatHistory"
+      },
+      {
+        "id": "answerText",
+        "key": "answerText",
+        "type": "string"
+      },
+      {
+        "id": "reasoningText",
+        "key": "reasoningText",
+        "type": "string"
+      },
+      {
+        "id": "system_error_text",
+        "key": "system_error_text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "id": "ogy1PAMdD268kXeo",
+    "name": "代码运行",
+    "type": "code",
+    "inputs": [
+      {
+        "key": "system_addInputParam"
+      },
+      {
+        "key": "codeType",
+        "value": "js"
+      },
+      {
+        "key": "code",
+        "value": "FILE"
+      },
+      {
+        "key": "case_json",
+        "value": [
+          "d4esByk5Pccmn1gH",
+          "qLUQfhG0ILRX"
+        ]
+      },
+      {
+        "key": "cleaned_text",
+        "value": [
+          "glGeIMqOVaSRs5jF",
+          "answerText"
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "id": "system_rawResponse",
+        "key": "system_rawResponse",
+        "type": "object"
+      },
+      {
+        "id": "error",
+        "key": "error",
+        "type": "string"
+      },
+      {
+        "id": "system_addOutputParam",
+        "key": "system_addOutputParam",
+        "type": "dynamic"
+      },
+      {
+        "id": "eTM8oV",
+        "key": "production_variables",
+        "type": "object"
+      },
+      {
+        "id": "svI5Uc",
+        "key": "case_id",
+        "type": "string"
+      },
+      {
+        "id": "jqRbmC",
+        "key": "case_title",
+        "type": "string"
+      },
+      {
+        "id": "fTvz8J",
+        "key": "disease",
+        "type": "string"
+      },
+      {
+        "id": "jvAfM5",
+        "key": "case_context",
+        "type": "string"
+      },
+      {
+        "id": "nZ569o",
+        "key": "learning_points",
+        "type": "string"
+      },
+      {
+        "id": "nxo1wc",
+        "key": "question_count",
+        "type": "number"
+      },
+      {
+        "id": "geFy5d",
+        "key": "difficulty",
+        "type": "string"
+      },
+      {
+        "id": "tFoCUR",
+        "key": "case_mode",
+        "type": "string"
+      },
+      {
+        "id": "wjaggH",
+        "key": "case_timeline",
+        "type": "string"
+      },
+      {
+        "id": "aaTHm3",
+        "key": "biomarkers",
+        "type": "string"
+      },
+      {
+        "id": "n5nH06",
+        "key": "decision_points",
+        "type": "string"
+      },
+      {
+        "id": "bgxpG3",
+        "key": "adverse_events",
+        "type": "string"
+      },
+      {
+        "id": "zEViXc",
+        "key": "evidence_notes",
+        "type": "string"
+      },
+      {
+        "id": "g7Y0Kp",
+        "key": "case_image_index",
+        "type": "string"
+      },
+      {
+        "id": "hmHZ1X",
+        "key": "case_intro_images",
+        "type": "arrayString"
+      },
+      {
+        "id": "oncCancerType",
+        "key": "cancer_type",
+        "type": "string"
+      },
+      {
+        "id": "oncSecondCancerType",
+        "key": "second_cancer_type",
+        "type": "string"
+      },
+      {
+        "id": "casePayloadJson",
+        "key": "case_payload_json",
+        "type": "string"
+      },
+      {
+        "id": "extraction_check",
+        "key": "extraction_check",
+        "type": "object"
+      }
+    ]
+  },
+  {
+    "id": "jKqMCN8eJKvkngnI",
+    "name": "json生成",
+    "type": "code",
+    "inputs": [
+      {
+        "key": "system_addInputParam"
+      },
+      {
+        "key": "codeType",
+        "value": "js"
+      },
+      {
+        "key": "code",
+        "value": "FILE"
+      },
+      {
+        "key": "case_id",
+        "value": [
+          "ogy1PAMdD268kXeo",
+          "svI5Uc"
+        ]
+      },
+      {
+        "key": "disease",
+        "value": [
+          "ogy1PAMdD268kXeo",
+          "fTvz8J"
+        ]
+      },
+      {
+        "key": "case_title",
+        "value": [
+          "ogy1PAMdD268kXeo",
+          "jqRbmC"
+        ]
+      },
+      {
+        "key": "case_context",
+        "value": [
+          "ogy1PAMdD268kXeo",
+          "jvAfM5"
+        ]
+      },
+      {
+        "key": "learning_points",
+        "value": [
+          "ogy1PAMdD268kXeo",
+          "nZ569o"
+        ]
+      },
+      {
+        "key": "case_timeline",
+        "value": [
+          "ogy1PAMdD268kXeo",
+          "wjaggH"
+        ]
+      },
+      {
+        "key": "biomarkers",
+        "value": [
+          "ogy1PAMdD268kXeo",
+          "aaTHm3"
+        ]
+      },
+      {
+        "key": "decision_points",
+        "value": [
+          "ogy1PAMdD268kXeo",
+          "n5nH06"
+        ]
+      },
+      {
+        "key": "case_image_index",
+        "value": [
+          "ogy1PAMdD268kXeo",
+          "g7Y0Kp"
+        ]
+      },
+      {
+        "key": "difficulty",
+        "value": [
+          "ogy1PAMdD268kXeo",
+          "geFy5d"
+        ]
+      },
+      {
+        "key": "candidate_pool",
+        "value": [
+          "bJcPjyWI8hiwuVOS",
+          "r26CandidatePool"
+        ]
+      },
+      {
+        "key": "cancer_type",
+        "value": [
+          "ogy1PAMdD268kXeo",
+          "oncCancerType"
+        ]
+      },
+      {
+        "key": "second_cancer_type",
+        "value": [
+          "ogy1PAMdD268kXeo",
+          "oncSecondCancerType"
+        ]
+      },
+      {
+        "key": "transport_mode",
+        "value": [
+          "448745",
+          "userChatInput"
+        ]
+      },
+      {
+        "key": "extraction_check",
+        "value": [
+          "ogy1PAMdD268kXeo",
+          "extraction_check"
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "id": "system_rawResponse",
+        "key": "system_rawResponse",
+        "type": "object"
+      },
+      {
+        "id": "error",
+        "key": "error",
+        "type": "string"
+      },
+      {
+        "id": "system_addOutputParam",
+        "key": "system_addOutputParam",
+        "type": "dynamic"
+      },
+      {
+        "id": "response_json",
+        "key": "response_json",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "id": "bTxgvHEhA8qEPFTa",
+    "name": "json输出",
+    "type": "answerNode",
+    "inputs": [
+      {
+        "key": "text",
+        "value": "{{$jKqMCN8eJKvkngnI.response_json$}}"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "id": "d4esByk5Pccmn1gH",
+    "name": "JSON格式修复",
+    "type": "code",
+    "inputs": [
+      {
+        "key": "system_addInputParam"
+      },
+      {
+        "key": "codeType",
+        "value": "js"
+      },
+      {
+        "key": "code",
+        "value": "FILE"
+      },
+      {
+        "key": "raw_json",
+        "value": [
+          "t7eXTzfAM2QUzvvK",
+          "answerText"
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "id": "system_rawResponse",
+        "key": "system_rawResponse",
+        "type": "object"
+      },
+      {
+        "id": "error",
+        "key": "error",
+        "type": "string"
+      },
+      {
+        "id": "system_addOutputParam",
+        "key": "system_addOutputParam",
+        "type": "dynamic"
+      },
+      {
+        "id": "qLUQfhG0ILRX",
+        "key": "repaired_json",
+        "type": "string"
+      },
+      {
+        "id": "gR0mkQpJ4Og8",
+        "key": "repaired_data",
+        "type": "object"
+      }
+    ]
+  },
+  {
+    "id": "ddwhzFImUXV1QTsA",
+    "name": "题目生成",
+    "type": "appModule",
+    "inputs": [
+      {
+        "key": "system_forbid_stream",
+        "value": true
+      },
+      {
+        "key": "history",
+        "value": 0
+      },
+      {
+        "key": "userChatInput",
+        "value": [
+          "ogy1PAMdD268kXeo",
+          "casePayloadJson"
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "id": "history",
+        "key": "history",
+        "type": "chatHistory"
+      },
+      {
+        "id": "answerText",
+        "key": "answerText",
+        "type": "string"
+      },
+      {
+        "id": "system_error_text",
+        "key": "system_error_text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "id": "bJcPjyWI8hiwuVOS",
+    "name": "单组候选检查与终稿输入",
+    "type": "code",
+    "inputs": [
+      {
+        "key": "system_addInputParam"
+      },
+      {
+        "key": "codeType",
+        "value": "js"
+      },
+      {
+        "key": "code",
+        "value": "FILE"
+      },
+      {
+        "key": "group1",
+        "value": [
+          "ddwhzFImUXV1QTsA",
+          "answerText"
+        ]
+      },
+      {
+        "key": "case_packet",
+        "value": [
+          "ogy1PAMdD268kXeo",
+          "eTM8oV"
+        ]
+      },
+      {
+        "key": "group1_error",
+        "value": [
+          "ddwhzFImUXV1QTsA",
+          "system_error_text"
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "id": "system_rawResponse",
+        "key": "system_rawResponse",
+        "type": "object"
+      },
+      {
+        "id": "error",
+        "key": "error",
+        "type": "string"
+      },
+      {
+        "id": "system_addOutputParam",
+        "key": "system_addOutputParam",
+        "type": "dynamic"
+      },
+      {
+        "id": "r26CandidatePool",
+        "key": "candidate_pool",
+        "type": "object"
+      }
+    ]
+  },
+  {
+    "id": "vyzKQjoc7z0gMCFM",
+    "name": "文档解析",
+    "type": "readFiles",
+    "inputs": [
+      {
+        "key": "fileUrlList",
+        "value": [
+          [
+            "448745",
+            "userFiles"
+          ]
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "id": "system_text",
+        "key": "system_text",
+        "type": "string"
+      },
+      {
+        "id": "system_rawResponse",
+        "key": "system_rawResponse",
+        "type": "arrayObject"
+      },
+      {
+        "id": "system_error_text",
+        "key": "system_error_text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "id": "htmlTextCheck",
+    "name": "HTML正文检查",
+    "type": "code",
+    "inputs": [
+      {
+        "key": "system_addInputParam"
+      },
+      {
+        "key": "codeType",
+        "value": "js"
+      },
+      {
+        "key": "code",
+        "value": "FILE"
+      },
+      {
+        "key": "files",
+        "value": [
+          "448745",
+          "userFiles"
+        ]
+      },
+      {
+        "key": "text",
+        "value": [
+          "vyzKQjoc7z0gMCFM",
+          "system_text"
+        ]
+      },
+      {
+        "key": "rows",
+        "value": [
+          "vyzKQjoc7z0gMCFM",
+          "system_rawResponse"
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "id": "system_rawResponse",
+        "key": "system_rawResponse",
+        "type": "object"
+      },
+      {
+        "id": "error",
+        "key": "error",
+        "type": "string"
+      },
+      {
+        "id": "system_addOutputParam",
+        "key": "system_addOutputParam",
+        "type": "dynamic"
+      },
+      {
+        "id": "text",
+        "key": "text",
+        "type": "string"
+      }
+    ]
+  }
+]

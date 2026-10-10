@@ -1,0 +1,17 @@
+{
+  "relative_time_cases": [
+    "发病前5天",
+    "入院当日",
+    "入院第2天",
+    "停药后1周",
+    "2024年5月起",
+    "2021-6起"
+  ],
+  "dates_titles_details_preserved": true,
+  "undated_facts_not_assigned_dates": true,
+  "questions_unchanged": true,
+  "only_outer_display_code_and_two_generator_prompts_changed": true,
+  "evidence_verification_unchanged": true,
+  "api_calls": 0,
+  "model_run_performed": false
+}

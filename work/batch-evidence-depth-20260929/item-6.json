@@ -1,0 +1,1078 @@
+{
+  "record_type": "oncorounds_batch_item",
+  "transport_version": "1.0",
+  "output_data": {
+    "Questions": {
+      "schema_version": "1.0",
+      "case_id": "CASE-CDE79729",
+      "cancer_type": "乳腺癌",
+      "generation_status": "success",
+      "difficulty": "进阶",
+      "question_count": 5,
+      "questions": [
+        {
+          "id": "Q1",
+          "type": "治疗决策",
+          "phase": "后线解救",
+          "timepoint": "2021年9月颅内进展",
+          "question": "2021年9月该患者颅内病灶增大伴症状，颅外稳定，既往WBRT后拒绝再放疗，国内T-DXd及妥卡替尼不可及。以下处理正确的是？",
+          "options": {
+            "A": "启动RC48单药治疗，兼顾颅内进展控制与既往系统治疗耐受性限制",
+            "B": "行SRS处理增大颅内病灶后仅予对症观察，避免系统治疗毒性",
+            "C": "等待T-DXd国内可及后再接替，期间以皮质类固醇维持",
+            "D": "恢复吡咯替尼联合卡培他滨，因2019年曾获部分缓解"
+          },
+          "answer": "A",
+          "answer_text": "启动RC48单药治疗，兼顾颅内进展控制与既往系统治疗耐受性限制",
+          "explain": "A｜正确：单臂II期HER2+亚组ORR 34.5%、mPFS 6.3月，证实RC48对含脑转移的HER2阳性MBC有活性且耐受性良好\nB｜不正确：患者拒绝再放疗排除SRS；研究含35.5%脑转移且系统治疗有效，仅观察不当\nC｜不正确：有症状颅内进展需积极治疗，ORR 31.6%、mPFS 5.7月支持即刻启动而非等待\nD｜不正确：既往严重GI不耐受致方案执行受限；RC48毒性以肝酶升高为主非GI，恢复同方案不现实",
+          "keyPoint": "脑转移系统治疗选择需整合局部治疗史、药物可及性和既往耐受性",
+          "guidelineRef": {
+            "evidence_type": "临床研究",
+            "doc_id": "6e2caad03ab62f3396186fd219069693",
+            "split_index": 1,
+            "type": "meeting",
+            "authority": "ESMO",
+            "source_title": "397P - Efficacy and safety of the recombinant humanized anti-HER2 monoclonal antibody-MMAE conjugate RC48-ADC in patients with HER2-positive or HER2-low expressing, locally advanced or metastatic breast cancer: A single-arm phase II study",
+            "source_version": "2023",
+            "source_section": "397P - Efficacy and safety of the recombinant humanized anti-HER2 monoclonal antibody-MMAE conjugate RC48-ADC in patients with HER2-positive or HER2-low expressing, locally advanced or metastatic breast cancer: A single-arm phase II study",
+            "source_url": "https://cslide.ctimeetingtech.com/esmo2023/attendee/confcal_2/presentation",
+            "evidence_summary": "单臂II期 ：35.5%基线脑转移，HER2+亚组ORR 34.5%、mPFS 6.3月，AE多为1-2级"
+          }
+        },
+        {
+          "id": "Q2",
+          "type": "不良反应管理",
+          "phase": "系统治疗中",
+          "timepoint": "2019年4月后",
+          "question": "2019年该患者使用吡咯替尼联合卡培他滨后出现严重胃肠道反应致系统治疗执行受限，原文未记载具体毒性分级。以下处理正确的是？",
+          "options": {
+            "A": "严重反应即判定≥3级，永久停用吡咯替尼并更换方案",
+            "B": "先明确分级，3-4级暂停后恢复予洛哌丁胺预防21天",
+            "C": "无论分级均减量至50%继续用药以保留颅内控制",
+            "D": "仅对症止泻不停药不减量，因颅内需持续TKI覆盖"
+          },
+          "answer": "B",
+          "answer_text": "先明确分级，3-4级暂停后恢复予洛哌丁胺预防21天",
+          "explain": "A｜不正确：指南描述3-4级后暂停再恢复路径，非永久停药；严重反应不等于已确认≥3级需先评估\nB｜正确：指南明确3-4级暂停后恢复予洛哌丁胺预防21天；分级未记录应先评估再决策\nC｜不正确：指南管理路径为暂停后恢复，非任意减量50%继续；未提及减量策略\nD｜不正确：指南提及3-4级腹泻导致暂停，提示严重反应需暂停而非仅对症处理",
+          "keyPoint": "毒性分级未记录时须先评估再决策，管理路径依分级而异",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "b2719254-d290-4ec9-866b-51b36cafd1bc",
+            "split_index": 247,
+            "type": "guideline",
+            "authority": "CSCO",
+            "source_title": "中国临床肿瘤学会（CSCO）乳腺癌诊疗指南 2026",
+            "source_version": "2026",
+            "source_section": "（3）化疗患者的心脏不良反应预防策略",
+            "source_url": "",
+            "evidence_summary": "吡咯替尼3-4级腹泻暂停后恢复时建议洛哌丁胺预防21天；管理依分级而定"
+          }
+        },
+        {
+          "id": "Q3",
+          "type": "疗效复评与局部治疗",
+          "phase": "疗效评估",
+          "timepoint": "2021年9月",
+          "question": "2021年9月该患者MRI示脑部病灶增大而颅外病灶稳定。以下疗效评估与监测策略正确的是？",
+          "options": {
+            "A": "颅内进展即判定全身进展，立即更换所有系统方案",
+            "B": "颅外稳定说明方案仍有效，颅内增大为假性进展无需干预",
+            "C": "分别评估颅内与颅外，据进展速度和转移部位调整监测间隔",
+            "D": "仅复查颅脑MRI即可，颅外病灶无需继续影像学随访"
+          },
+          "answer": "C",
+          "answer_text": "分别评估颅内与颅外，据进展速度和转移部位调整监测间隔",
+          "explain": "A｜不正确：指南要求按转移部位/范围分别评估，颅内进展不自动等于全身进展\nB｜不正确：指南要求按计划周期影像学评估，MRI示增大为客观进展非假性\nC｜正确：指南明确评估间隔基于进展速度、转移部位/范围和治疗模式调整\nD｜不正确：指南要求CT、骨扫描或PET/CT全面评估，不能仅查颅脑MRI",
+          "keyPoint": "颅内与颅外可呈不一致反应，评估须按部位分别进行并调整监测频率",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "fea9ac8e-8f06-46c0-9a57-2bf3069f1a01",
+            "split_index": 32,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "乳腺癌多学科诊疗标准与规范（2023年版）",
+            "source_version": "2023",
+            "source_section": "9 《乳腺癌多学科诊疗标准与规范（2023年版）》的具体要求",
+            "source_url": "",
+            "evidence_summary": "评估间隔基于疾病进展速度、转移部位/范围、治疗模式调整，可缩短或延长"
+          }
+        },
+        {
+          "id": "Q4",
+          "type": "治疗决策",
+          "phase": "方案优化",
+          "timepoint": "2021年9月RC48启动时",
+          "question": "一项单臂II期研究显示RC48联合组mPFS 7.1个月优于单药组4.6个月。该患者因颅内进展启动RC48，既往有严重胃肠道不耐受史。以下关于是否联合用药的判断正确的是？",
+          "options": {
+            "A": "联合组优于单药组已证实优效，该患者应加用TKI或ICI",
+            "B": "单药组mPFS仅4.6个月低于联合组，说明单药无临床获益",
+            "C": "未报告脑转移亚组联合数据，故无法判断联合是否有益",
+            "D": "单臂研究组间比较非RCT优效证据，结合不耐受史单药合理"
+          },
+          "answer": "D",
+          "answer_text": "单臂研究组间比较非RCT优效证据，结合不耐受史单药合理",
+          "explain": "A｜不正确：单臂研究联合vs单药为组间观察性比较，非RCT优效证据，不能直接推断应联合\nB｜不正确：HER2阳性亚组ORR 34.5%、mPFS 6.3月，单药有明确活性，非无获益\nC｜不正确：研究整体显示联合优于单药趋势，不能因缺亚组数据就完全否定联合价值\nD｜正确：单臂设计限制优效推断；HER2+亚组数据支持单药活性，既往GI不耐受史支持单药",
+          "keyPoint": "单臂研究组间观察性比较不能等同于随机对照优效证据，个体化因素可支持单药",
+          "guidelineRef": {
+            "evidence_type": "临床研究",
+            "doc_id": "6e2caad03ab62f3396186fd219069693",
+            "split_index": 1,
+            "type": "meeting",
+            "authority": "ESMO",
+            "source_title": "397P - Efficacy and safety of the recombinant humanized anti-HER2 monoclonal antibody-MMAE conjugate RC48-ADC in patients with HER2-positive or HER2-low expressing, locally advanced or metastatic breast cancer: A single-arm phase II study",
+            "source_version": "2023",
+            "source_section": "397P - Efficacy and safety of the recombinant humanized anti-HER2 monoclonal antibody-MMAE conjugate RC48-ADC in patients with HER2-positive or HER2-low expressing, locally advanced or metastatic breast cancer: A single-arm phase II study",
+            "source_url": "https://cslide.ctimeetingtech.com/esmo2023/attendee/confcal_2/presentation",
+            "evidence_summary": "单臂II期 ：联合组mPFS 7.1月vs单药4.6月为组间观察比较，非随机对照优效"
+          }
+        },
+        {
+          "id": "Q5",
+          "type": "疗效复评与局部治疗",
+          "phase": "局部-全身协调",
+          "timepoint": "2019年4月后",
+          "question": "2019年该患者确诊多发脑转移后接受WBRT联合吡咯替尼+卡培他滨，局部放疗初期获部分缓解但系统治疗因胃肠道毒性执行受限。以下关于局部与全身治疗协调的判断正确的是？",
+          "options": {
+            "A": "WBRT提供局部控制，系统受限时密切监测而非放弃全身治疗",
+            "B": "系统治疗受限即应停止WBRT，两者必须同步完成才有意义",
+            "C": "局部放疗已获部分缓解，仅依赖WBRT控制颅内无需系统治疗",
+            "D": "立即以T-DXd替代，TKI不耐受时ADC是唯一选择"
+          },
+          "answer": "A",
+          "answer_text": "WBRT提供局部控制，系统受限时密切监测而非放弃全身治疗",
+          "explain": "A｜正确：指南推荐脑转移用TKI或ADC系统治疗，WBRT已完成提供局部控制，系统受限需监测而非放弃\nB｜不正确：WBRT 40Gy/20f已完成无法停止；指南推荐系统治疗非要求与放疗同步\nC｜不正确：指南明确脑转移需TKI或ADC系统治疗，仅WBRT不足以控制全身及颅内微转移\nD｜不正确：指南列TKI和ADC为并列可选项非ADC唯一；且当时T-DXd不可及",
+          "keyPoint": "局部放疗与系统治疗互补，系统受限时不等同于放弃全身控制，需动态监测",
+          "guidelineRef": {
+            "evidence_type": "指南",
+            "doc_id": "fea9ac8e-8f06-46c0-9a57-2bf3069f1a01",
+            "split_index": 39,
+            "type": "guideline",
+            "authority": "CACA",
+            "source_title": "乳腺癌多学科诊疗标准与规范（2023年版）",
+            "source_version": "2023",
+            "source_section": "9 《乳腺癌多学科诊疗标准与规范（2023年版）》的具体要求",
+            "source_url": "",
+            "evidence_summary": "脑转移患者TKI和ADC可优先选择，为并列选项非唯一，支持系统治疗必要性"
+          }
+        }
+      ],
+      "missing_information": []
+    },
+    "detail": {
+      "schema_version": "1.0",
+      "case_id": "CASE-CDE79729",
+      "cancer_type": "乳腺癌",
+      "difficulty": "进阶",
+      "decision_point_count": 5,
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "home": {
+        "recommendation_label": "今日推荐病例",
+        "display_title": "HER2阳性乳腺癌脑转移经放疗后进展的靶向治疗决策",
+        "description": "45岁女性，2017年8月确诊左侧IV期HER2阳性乳腺癌（cT4bN3cM1），初始诊断时已伴有淋巴结、骨和肝脏多发转移。初始接受epirubicin联合环磷酰胺序贯化疗，随后帕妥珠单抗联合曲妥珠单抗靶向治疗，并行左侧乳腺癌改良根治术，术后接受内分泌治疗、靶向维持及局部放疗。2019年4月因头痛、恶心入院，颅脑MRI证实多发脑转移，接受全脑放疗（WBRT……"
+      },
+      "overview": {
+        "hero": {
+          "title": "HER2阳性乳腺癌脑转移经放疗后进展的靶向治疗决策",
+          "subtitle": "初始IV期HER2阳性乳腺癌多线系统治疗与局部手术时机选择 脑转移后WBRT联合系统治疗的协调与耐受性管理 既往WBRT后颅内进展且患者拒绝再次放疗时的替代策略 新型HER2靶向药物可及性受限时的本土ADC药物选择 RC48单药治疗症状性脑……"
+        },
+        "tabs": [
+          {
+            "id": "summary",
+            "label": "病例摘要",
+            "order": 1,
+            "summary_items": [
+              {
+                "order": 1,
+                "label": "患者与就诊背景",
+                "value": "45岁女性，2017年8月确诊左侧IV期HER2阳性乳腺癌（cT4bN3cM1），初始诊断时已伴有淋巴结、骨和肝脏多发转移。初始接受epirubicin联合环磷酰胺序贯化疗，随后帕妥珠单抗联合曲妥珠单抗靶向治疗，并行左侧乳腺癌改良根治术，术后接受内分泌治疗、靶向维持及局部放疗。2019年4月因头痛、恶心入院，颅脑MRI证实多发脑转移，接受全脑放疗（WBRT 40Gy/20f）联合吡咯替尼和卡培他滨系统治疗，局部放疗初期获得部分缓解，但因无法耐受严重胃肠道反应，系统治疗方案执行受限。"
+              },
+              {
+                "order": 2,
+                "label": "疾病与分期",
+                "value": "左侧IV期HER2阳性乳腺癌（cT4bN3cM1），伴淋巴结、骨、肝多发转移；2019年4月出现多发脑转移；2021年9月颅内病灶进展"
+              },
+              {
+                "order": 3,
+                "label": "分子与病理",
+                "value": "病理｜2017年8月｜左侧乳腺癌｜HER2阳性（原文未注明具体检测方法如IHC/FISH） 分子｜原文未记载HR状态、BRCA或其他分子标志物检测结果"
+              },
+              {
+                "order": 4,
+                "label": "核心教学点",
+                "value": "初始IV期HER2阳性乳腺癌多线系统治疗与局部手术时机选择 脑转移后WBRT联合系统治疗的协调与耐受性管理 既往WBRT后颅内进展且患者拒绝再次放疗时的替代策略 新型HER2靶向药物可及性受限时的本土ADC药物选择 RC48单药治疗症状性脑转移的疗效评估与安全性监测 降颅压皮质类固醇逐步停用的时机判断 颅内PFS与颅外病灶稳定性的分别评估"
+              }
+            ]
+          },
+          {
+            "id": "timeline",
+            "label": "病程轴",
+            "order": 2,
+            "timeline_items": [
+              {
+                "date": "2017年8月",
+                "title": "确诊左侧IV期HER2阳性乳腺癌（cT4bN3cM1）",
+                "detail": "伴淋巴结、骨、肝多发转移"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 2",
+                "detail": "2017年8月后｜初始治疗｜epirubicin+环磷酰胺序贯化疗→帕妥珠单抗+曲妥珠单抗靶向→左侧乳腺癌改良根治术→术后内分泌+靶向维持+局部放疗"
+              },
+              {
+                "date": "2019年4月",
+                "title": "因头痛、恶心入院，颅脑MRI证实多发脑转移",
+                "detail": "接受WBRT 40Gy/20f + 吡咯替尼+卡培他滨；局部放疗初期部分缓解；因无法耐受严重胃肠道反应，系统治疗方案执行受限"
+              },
+              {
+                "date": "2021年9月",
+                "title": "再次出现头痛、恶心、步态不稳，MRI示脑部病灶增大，颅内进展，颅外稳定",
+                "detail": "限制：既往已接受WBRT且患者拒绝再次放疗；国内获取新型HER2靶向药（T-DXd、妥卡替尼）受限；决定启动维迪西妥单抗（RC48）单药治疗"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 5",
+                "detail": "首个周期后｜神经系统症状迅速改善｜逐步停用降颅压皮质类固醇"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 6",
+                "detail": "完成5周期后｜颅脑MRI示多发脑转移结节显著缩小，PR｜颅内PFS达12个月；耐受性良好，未出现明显相关毒性或血液学异常"
+              },
+              {
+                "date": "时间未详",
+                "title": "诊疗节点 7",
+                "detail": "图注｜图1：RC48治疗前后颅脑MRI对比。A-D：基线期（2021年9月），多发强化脑转移病灶。E-H：RC48治疗5周期后，病灶显著缩小，PR。"
+              }
+            ]
+          },
+          {
+            "id": "images",
+            "label": "病例图片",
+            "order": 3,
+            "image_items": []
+          }
+        ]
+      }
+    }
+  },
+  "execution_report": {
+    "schema_version": "oncorounds-execution-1.0",
+    "workflow_revision": "20260929-full-review-five-outer",
+    "case_id": "CASE-CDE79729",
+    "status": "OUTPUT_READY",
+    "publishable": false,
+    "medical_review_status": "not_performed",
+    "extraction_check": {
+      "scope": "literal_excerpt_coverage_not_medical_validation",
+      "patient_section_found": true,
+      "matched_count": 2,
+      "retained_excerpts": [
+        "2019年4月：因头痛、恶心入院，颅脑MRI证实为多发脑转移。随后接受全脑放疗（WBRT，40 Gy/20f），同时联合吡咯替尼和卡培他滨的系统治疗。局部放疗初期获得部分缓解，但患者因无法耐受严重的胃肠道反应，系统治疗方案的执行受到限制。",
+        "2021年9月：再次出现头痛、恶心及步态不稳等症状，复查MRI显示脑部病灶较前增大，提示颅内病情进展，颅外病灶保持稳定。限制条件：患者既往已接受过全脑放疗且拒绝再次放疗；当时在国内获取新型HER2靶向药物（如T-DXd、妥卡替尼）受限。经临床团队评估后，决定从2021年9月起启动维迪西妥单抗（Disitamab Vedotin，RC48）单药治疗。"
+      ],
+      "warnings": [
+        "以下限制原句未被逐字完整保留，已附入evidence_notes供核对；可能与提取后的同义表述重复。"
+      ]
+    },
+    "source_groups": [
+      {
+        "group_id": "G1",
+        "parse_status": "OK",
+        "raw_question_count": 5,
+        "usable_question_count": 5,
+        "rejected_questions": [],
+        "warnings": [],
+        "audit": {
+          "availability": "not_provided"
+        },
+        "transport": {
+          "protocol": "single_json",
+          "json_block_count": 1,
+          "selected_block_index": 0,
+          "ignored_intermediate_blocks": 0,
+          "upstream_messages": []
+        },
+        "upstream_missing_information": [],
+        "workflow_revision": "20260929-evidence-depth-five",
+        "flow_status": "OUTPUT_READY",
+        "completion": {
+          "required_question_count": 5,
+          "available_question_count": 5,
+          "model_question_count": 5,
+          "complete": true
+        },
+        "program_check": {
+          "scope": "program_structure_and_reference_identity_only",
+          "decision": "PASS",
+          "errors": [],
+          "warnings": [
+            "同一证据定位6e2caad03ab62f3396186fd219069693::1支持2题：复核是否考查不同真实决策；不设置复用题数配额"
+          ]
+        },
+        "workflow_diagnostics": {
+          "scope": "debug_only_not_learner_content",
+          "evidence_verification": {
+            "version": "option-anchors-1.0",
+            "scope": "literal_source_presence_and_shape_only",
+            "decision": "PASS",
+            "semantic_support": "not_independently_verified",
+            "errors": [],
+            "question_checks": [
+              {
+                "question_id": "Q1",
+                "evidence_id": "CS03",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "In the HER2-positive subgroup, the ORR and mPFS were 34.5% and 6.3 months.",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 1258,
+                            "end": 1332,
+                            "text": "ns. In the overall population, the ORR was 31.6%. The median PFS was 5.7 months. The DCR was 57.9%. In the HER2-positive subgroup, the ORR and mPFS were 34.5% and 6.3 months. In the HER2-low expressing subgroup, the ORR and mPFS were 22.2% and 3.6 months. In addition, the m"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "At baseline, 35 patients (46.0%) had liver metastases, 27 patients (35.5%) had brain metastases, and 67 patients (88.1%) had received ≥3 prior chemotherapy regimens.",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 996,
+                            "end": 1161,
+                            "text": "with RC48. 58 patients (76.3%) were HER2-positive and 18 patients (23.7%) were HER2-low expressing. At baseline, 35 patients (46.0%) had liver metastases, 27 patients (35.5%) had brain metastases, and 67 patients (88.1%) had received ≥3 prior chemotherapy regimens. In the overall population, the ORR was 31.6%. The median PFS was 5.7 months. The DCR was 57.9%. In "
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "In the overall population, the ORR was 31.6%. The median PFS was 5.7 months. The DCR was 57.9%.",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 1162,
+                            "end": 1257,
+                            "text": " (35.5%) had brain metastases, and 67 patients (88.1%) had received ≥3 prior chemotherapy regimens. In the overall population, the ORR was 31.6%. The median PFS was 5.7 months. The DCR was 57.9%. In the HER2-positive subgroup, the ORR and mPFS were 34.5% and 6.3 months. In the HER2-low expressi"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "The most frequently reported adverse events were increased AST (62.4%), increased ALT (61.9%), decreased white blood cell count (42.4%), and fatigue (30.4%)",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 1590,
+                            "end": 1746,
+                            "text": "than that in the single drug treatment group, with mPFS of 7.1 months and 4.6 months, respectively. The most frequently reported adverse events were increased AST (62.4%), increased ALT (61.9%), decreased white blood cell count (42.4%), and fatigue (30.4%), most were grade 1-2 in severity.\nConclusions\nRC48-ADC showed consistent efficacy in HER2-positive "
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "2021年9月｜再次出现头痛、恶心、步态不稳，MRI示脑部病灶增大，颅内进展，颅外稳定｜限制：既往已接受WBRT且患者拒绝再次放疗；国内获取新型HER2靶向药（T-DXd、妥卡替尼）受限；决定启动维迪西妥单抗（RC48）单药治疗",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 217,
+                        "end": 331,
+                        "text": "持+局部放疗\n2019年4月｜因头痛、恶心入院，颅脑MRI证实多发脑转移｜接受WBRT 40Gy/20f + 吡咯替尼+卡培他滨；局部放疗初期部分缓解；因无法耐受严重胃肠道反应，系统治疗方案执行受限\n2021年9月｜再次出现头痛、恶心、步态不稳，MRI示脑部病灶增大，颅内进展，颅外稳定｜限制：既往已接受WBRT且患者拒绝再次放疗；国内获取新型HER2靶向药（T-DXd、妥卡替尼）受限；决定启动维迪西妥单抗（RC48）单药治疗\n首个周期后｜神经系统症状迅速改善｜逐步停用降颅压皮质类固醇\n完成5周期后｜颅脑MRI示多发脑转移结节显著缩小，PR｜颅内PFS达12个月；耐受性良好，未出现明显相关毒性或血液学异常\n图注｜图1：RC"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "adverse_events",
+                    "quote": "2019年4月后｜吡咯替尼+卡培他滨｜严重胃肠道反应｜原文未记载具体分级｜系统治疗方案执行受限｜原文未记载是否永久停用或减量",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 0,
+                        "end": 62,
+                        "text": "2019年4月后｜吡咯替尼+卡培他滨｜严重胃肠道反应｜原文未记载具体分级｜系统治疗方案执行受限｜原文未记载是否永久停用或减量"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "B",
+                  "decision_boundary": "患者拒绝再放疗+T-DXd不可及+颅内进展需系统治疗→RC48单药；若T-DXd可及则优先T-DXd",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "6e2caad03ab62f3396186fd219069693",
+                  "split_index": 1
+                },
+                "decision": "PASS"
+              },
+              {
+                "question_id": "Q2",
+                "evidence_id": "IR02",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "对于3-4级腹泻导致暂停吡咯替尼的患者，再次恢复吡咯替尼治疗时，建议使用洛哌丁胺预防性治疗，预防时间为21天",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 434,
+                            "end": 488,
+                            "text": "频率、形态及变化。开始用药时可嘱患者膳食中以优质蛋白、低脂和低纤维的谷物为主，避免含乳糖的食物，多饮水及少食多餐。\n \n1）吡咯替尼：PANDORA研究提示，对于使用吡咯替尼的患者，可采用一级预防，但对于3-4级腹泻导致暂停吡咯替尼的患者，再次恢复吡咯替尼治疗时，建议使用洛哌丁胺预防性治疗，预防时间为21天[134]。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "对于3-4级腹泻导致暂停吡咯替尼的患者，再次恢复吡咯替尼治疗时，建议使用洛哌丁胺预防性治疗，预防时间为21天",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 434,
+                            "end": 488,
+                            "text": "频率、形态及变化。开始用药时可嘱患者膳食中以优质蛋白、低脂和低纤维的谷物为主，避免含乳糖的食物，多饮水及少食多餐。\n \n1）吡咯替尼：PANDORA研究提示，对于使用吡咯替尼的患者，可采用一级预防，但对于3-4级腹泻导致暂停吡咯替尼的患者，再次恢复吡咯替尼治疗时，建议使用洛哌丁胺预防性治疗，预防时间为21天[134]。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "TKI最常见的不良反应为腹泻，且3~4级的发生率较高。TKI相关性腹泻均发生在用药早期，随着治疗时间延长，发生率显著降低，因此，应尽早进行腹泻防治和管理。",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 0,
+                            "end": 77,
+                            "text": "TKI最常见的不良反应为腹泻，且3~4级的发生率较高。TKI相关性腹泻均发生在用药早期，随着治疗时间延长，发生率显著降低，因此，应尽早进行腹泻防治和管理。拉帕替尼、吡咯替尼和奈拉替尼导致的腹泻，绝大多数在用药第1周至1个月内出现，半数以上患者的3~4级腹泻首次发生在用药1~10天内，持续时间中位数为2~5天。\n（1）TKI相关性腹泻的监测：腹泻临床表现"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "对于3-4级腹泻导致暂停吡咯替尼的患者",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 434,
+                            "end": 453,
+                            "text": "频率、形态及变化。开始用药时可嘱患者膳食中以优质蛋白、低脂和低纤维的谷物为主，避免含乳糖的食物，多饮水及少食多餐。\n \n1）吡咯替尼：PANDORA研究提示，对于使用吡咯替尼的患者，可采用一级预防，但对于3-4级腹泻导致暂停吡咯替尼的患者，再次恢复吡咯替尼治疗时，建议使用洛哌丁胺预防性治疗，预防时间为21天[134]。"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "adverse_events",
+                    "quote": "2019年4月后｜吡咯替尼+卡培他滨｜严重胃肠道反应｜原文未记载具体分级｜系统治疗方案执行受限｜原文未记载是否永久停用或减量",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 0,
+                        "end": 62,
+                        "text": "2019年4月后｜吡咯替尼+卡培他滨｜严重胃肠道反应｜原文未记载具体分级｜系统治疗方案执行受限｜原文未记载是否永久停用或减量"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "evidence_notes",
+                    "quote": "原文未记载吡咯替尼+卡培他滨胃肠道反应的具体分级及后续处理细节",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 31,
+                        "end": 62,
+                        "text": "原文未注明HER2检测具体方法（IHC/FISH）及HR状态\n原文未记载吡咯替尼+卡培他滨胃肠道反应的具体分级及后续处理细节\n专家观点中关于RC48机制（旁观者效应、血脑屏障通透性）为文献综述，非本患者直接证据\n专家观点提及NCT03052634研究数据为外部证据，非本患者事实\n【清洗正文限制原句，保留时点及范围】\n201"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "A",
+                  "decision_boundary": "毒性分级未记录→先评估分级再决定暂停/恢复；若明确≥3级则按指南暂停后洛哌丁胺预防恢复",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "b2719254-d290-4ec9-866b-51b36cafd1bc",
+                  "split_index": 247
+                },
+                "decision": "PASS"
+              },
+              {
+                "question_id": "Q3",
+                "evidence_id": "GB01",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "反应评估间隔还应基于疾病进展速度、转移部位／范围、治疗模式进行调整，可相应缩短或延长",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 246,
+                            "end": 288,
+                            "text": "准指导一线及后线药物选择（表8）。\n乳腺癌的影像学检查贯穿MDT的疾病全过程，建议无论治疗决策如何，都应按计划的周期通过临床和影像学检查（包括CT、骨扫描或PET/CT）评估转移性疾病患者的治疗反应，反应评估间隔还应基于疾病进展速度、转移部位／范围、治疗模式进行调整，可相应缩短或延长［32］。\n表6 早期乳腺癌患者手术方案-MDT模式基本要求"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "建议无论治疗决策如何，都应按计划的周期通过临床和影像学检查（包括CT、骨扫描或PET/CT）评估转移性疾病患者的治疗反应",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 185,
+                            "end": 245,
+                            "text": "也起着关键作用［31]，建议结合临床实际，通过病理学活检明确疾病类型、分子分型、肿瘤标志物表达状态及靶向基因改变情况，以精准指导一线及后线药物选择（表8）。\n乳腺癌的影像学检查贯穿MDT的疾病全过程，建议无论治疗决策如何，都应按计划的周期通过临床和影像学检查（包括CT、骨扫描或PET/CT）评估转移性疾病患者的治疗反应，反应评估间隔还应基于疾病进展速度、转移部位／范围、治疗模式进行调整，可相应缩短或延长［32］。\n表6 早期乳腺癌患者手术方案-MDT模式基本要求"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "反应评估间隔还应基于疾病进展速度、转移部位／范围、治疗模式进行调整，可相应缩短或延长",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 246,
+                            "end": 288,
+                            "text": "准指导一线及后线药物选择（表8）。\n乳腺癌的影像学检查贯穿MDT的疾病全过程，建议无论治疗决策如何，都应按计划的周期通过临床和影像学检查（包括CT、骨扫描或PET/CT）评估转移性疾病患者的治疗反应，反应评估间隔还应基于疾病进展速度、转移部位／范围、治疗模式进行调整，可相应缩短或延长［32］。\n表6 早期乳腺癌患者手术方案-MDT模式基本要求"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "建议无论治疗决策如何，都应按计划的周期通过临床和影像学检查（包括CT、骨扫描或PET/CT）评估转移性疾病患者的治疗反应",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 185,
+                            "end": 245,
+                            "text": "也起着关键作用［31]，建议结合临床实际，通过病理学活检明确疾病类型、分子分型、肿瘤标志物表达状态及靶向基因改变情况，以精准指导一线及后线药物选择（表8）。\n乳腺癌的影像学检查贯穿MDT的疾病全过程，建议无论治疗决策如何，都应按计划的周期通过临床和影像学检查（包括CT、骨扫描或PET/CT）评估转移性疾病患者的治疗反应，反应评估间隔还应基于疾病进展速度、转移部位／范围、治疗模式进行调整，可相应缩短或延长［32］。\n表6 早期乳腺癌患者手术方案-MDT模式基本要求"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "2021年9月｜再次出现头痛、恶心、步态不稳，MRI示脑部病灶增大，颅内进展，颅外稳定｜限制：既往已接受WBRT且患者拒绝再次放疗；国内获取新型HER2靶向药（T-DXd、妥卡替尼）受限；决定启动维迪西妥单抗（RC48）单药治疗",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 217,
+                        "end": 331,
+                        "text": "持+局部放疗\n2019年4月｜因头痛、恶心入院，颅脑MRI证实多发脑转移｜接受WBRT 40Gy/20f + 吡咯替尼+卡培他滨；局部放疗初期部分缓解；因无法耐受严重胃肠道反应，系统治疗方案执行受限\n2021年9月｜再次出现头痛、恶心、步态不稳，MRI示脑部病灶增大，颅内进展，颅外稳定｜限制：既往已接受WBRT且患者拒绝再次放疗；国内获取新型HER2靶向药（T-DXd、妥卡替尼）受限；决定启动维迪西妥单抗（RC48）单药治疗\n首个周期后｜神经系统症状迅速改善｜逐步停用降颅压皮质类固醇\n完成5周期后｜颅脑MRI示多发脑转移结节显著缩小，PR｜颅内PFS达12个月；耐受性良好，未出现明显相关毒性或血液学异常\n图注｜图1：RC"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "A",
+                  "decision_boundary": "颅内进展+颅外稳定→分别评估各部位并调整监测；若颅外也进展则按全身进展处理",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "fea9ac8e-8f06-46c0-9a57-2bf3069f1a01",
+                  "split_index": 32
+                },
+                "decision": "PASS"
+              },
+              {
+                "question_id": "Q4",
+                "evidence_id": "CS03",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "In addition, the mPFS in the dual drug combination-treated group was longer than that in the single drug treatment group, with mPFS of 7.1 months and 4.6 months, respectively.",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 1414,
+                            "end": 1589,
+                            "text": "5% and 6.3 months. In the HER2-low expressing subgroup, the ORR and mPFS were 22.2% and 3.6 months. In addition, the mPFS in the dual drug combination-treated group was longer than that in the single drug treatment group, with mPFS of 7.1 months and 4.6 months, respectively. The most frequently reported adverse events were increased AST (62.4%), increased ALT (61.9%), decr"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "In the HER2-positive subgroup, the ORR and mPFS were 34.5% and 6.3 months.",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 1258,
+                            "end": 1332,
+                            "text": "ns. In the overall population, the ORR was 31.6%. The median PFS was 5.7 months. The DCR was 57.9%. In the HER2-positive subgroup, the ORR and mPFS were 34.5% and 6.3 months. In the HER2-low expressing subgroup, the ORR and mPFS were 22.2% and 3.6 months. In addition, the m"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "At baseline, 35 patients (46.0%) had liver metastases, 27 patients (35.5%) had brain metastases",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 996,
+                            "end": 1091,
+                            "text": "with RC48. 58 patients (76.3%) were HER2-positive and 18 patients (23.7%) were HER2-low expressing. At baseline, 35 patients (46.0%) had liver metastases, 27 patients (35.5%) had brain metastases, and 67 patients (88.1%) had received ≥3 prior chemotherapy regimens. In the overall population, th"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "Patients with HER2-positive or HER2-low expressing MBC were eligible and received RC48 2.5 mg/kg every two weeks alone or combined with drugs with different anti-tumor mechanisms",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 366,
+                            "end": 544,
+                            "text": "C 1+) population. Here, we report the efficacy and safety of RC48-ADC in patients with MBC.\nMethods\nPatients with HER2-positive or HER2-low expressing MBC were eligible and received RC48 2.5 mg/kg every two weeks alone or combined with drugs with different anti-tumor mechanisms, such as immune checkpoint inhibitors (ICIs), tyrosine kinase inhibitors (TKIs) and antiangiogenic "
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "adverse_events",
+                    "quote": "2019年4月后｜吡咯替尼+卡培他滨｜严重胃肠道反应｜原文未记载具体分级｜系统治疗方案执行受限｜原文未记载是否永久停用或减量",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 0,
+                        "end": 62,
+                        "text": "2019年4月后｜吡咯替尼+卡培他滨｜严重胃肠道反应｜原文未记载具体分级｜系统治疗方案执行受限｜原文未记载是否永久停用或减量"
+                      }
+                    ]
+                  },
+                  {
+                    "field": "case_timeline",
+                    "quote": "国内获取新型HER2靶向药（T-DXd、妥卡替尼）受限；决定启动维迪西妥单抗（RC48）单药治疗",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 283,
+                        "end": 331,
+                        "text": "部放疗初期部分缓解；因无法耐受严重胃肠道反应，系统治疗方案执行受限\n2021年9月｜再次出现头痛、恶心、步态不稳，MRI示脑部病灶增大，颅内进展，颅外稳定｜限制：既往已接受WBRT且患者拒绝再次放疗；国内获取新型HER2靶向药（T-DXd、妥卡替尼）受限；决定启动维迪西妥单抗（RC48）单药治疗\n首个周期后｜神经系统症状迅速改善｜逐步停用降颅压皮质类固醇\n完成5周期后｜颅脑MRI示多发脑转移结节显著缩小，PR｜颅内PFS达12个月；耐受性良好，未出现明显相关毒性或血液学异常\n图注｜图1：RC"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "A",
+                  "decision_boundary": "单臂研究组间比较≠RCT优效；若为随机对照证实联合优效则应联合",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "6e2caad03ab62f3396186fd219069693",
+                  "split_index": 1
+                },
+                "decision": "PASS"
+              },
+              {
+                "question_id": "Q5",
+                "evidence_id": "GB04",
+                "errors": [],
+                "option_checks": [
+                  {
+                    "option": "A",
+                    "quotes": [
+                      {
+                        "quote": "对于脑转移的患者，TKI类药物和抗体药物偶联物（antibody-drug conjugate，ADC）可优先选择。",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 17,
+                            "end": 75,
+                            "text": "类药物更多显示PFS获益[38]。对于脑转移的患者，TKI类药物和抗体药物偶联物（antibody-drug conjugate，ADC）可优先选择。HER2靶向治疗研究时间最久，也是第一个可改变乳腺癌患者预后的治疗靶点。相信随着更多抗HER2药物纳入医保，未来中国晚期乳腺癌患者可以得到更规范的治疗，生存获益也会进一步提高。晚期\n表8复诊（复发转移"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "B",
+                    "quotes": [
+                      {
+                        "quote": "对于脑转移的患者，TKI类药物和抗体药物偶联物（antibody-drug conjugate，ADC）可优先选择。",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 17,
+                            "end": 75,
+                            "text": "类药物更多显示PFS获益[38]。对于脑转移的患者，TKI类药物和抗体药物偶联物（antibody-drug conjugate，ADC）可优先选择。HER2靶向治疗研究时间最久，也是第一个可改变乳腺癌患者预后的治疗靶点。相信随着更多抗HER2药物纳入医保，未来中国晚期乳腺癌患者可以得到更规范的治疗，生存获益也会进一步提高。晚期\n表8复诊（复发转移"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "C",
+                    "quotes": [
+                      {
+                        "quote": "对于脑转移的患者，TKI类药物和抗体药物偶联物（antibody-drug conjugate，ADC）可优先选择。",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 17,
+                            "end": 75,
+                            "text": "类药物更多显示PFS获益[38]。对于脑转移的患者，TKI类药物和抗体药物偶联物（antibody-drug conjugate，ADC）可优先选择。HER2靶向治疗研究时间最久，也是第一个可改变乳腺癌患者预后的治疗靶点。相信随着更多抗HER2药物纳入医保，未来中国晚期乳腺癌患者可以得到更规范的治疗，生存获益也会进一步提高。晚期\n表8复诊（复发转移"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "option": "D",
+                    "quotes": [
+                      {
+                        "quote": "对于脑转移的患者，TKI类药物和抗体药物偶联物（antibody-drug conjugate，ADC）可优先选择。",
+                        "matched": true,
+                        "match_mode": "exact",
+                        "occurrences": 1,
+                        "contexts": [
+                          {
+                            "start": 17,
+                            "end": 75,
+                            "text": "类药物更多显示PFS获益[38]。对于脑转移的患者，TKI类药物和抗体药物偶联物（antibody-drug conjugate，ADC）可优先选择。HER2靶向治疗研究时间最久，也是第一个可改变乳腺癌患者预后的治疗靶点。相信随着更多抗HER2药物纳入医保，未来中国晚期乳腺癌患者可以得到更规范的治疗，生存获益也会进一步提高。晚期\n表8复诊（复发转移"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "case_fact_checks": [
+                  {
+                    "field": "case_timeline",
+                    "quote": "2019年4月｜因头痛、恶心入院，颅脑MRI证实多发脑转移｜接受WBRT 40Gy/20f + 吡咯替尼+卡培他滨；局部放疗初期部分缓解；因无法耐受严重胃肠道反应，系统治疗方案执行受限",
+                    "matched": true,
+                    "match_mode": "exact",
+                    "occurrences": 1,
+                    "contexts": [
+                      {
+                        "start": 124,
+                        "end": 216,
+                        "text": "（cT4bN3cM1）｜伴淋巴结、骨、肝多发转移\n2017年8月后｜初始治疗｜epirubicin+环磷酰胺序贯化疗→帕妥珠单抗+曲妥珠单抗靶向→左侧乳腺癌改良根治术→术后内分泌+靶向维持+局部放疗\n2019年4月｜因头痛、恶心入院，颅脑MRI证实多发脑转移｜接受WBRT 40Gy/20f + 吡咯替尼+卡培他滨；局部放疗初期部分缓解；因无法耐受严重胃肠道反应，系统治疗方案执行受限\n2021年9月｜再次出现头痛、恶心、步态不稳，MRI示脑部病灶增大，颅内进展，颅外稳定｜限制：既往已接受WBRT且患者拒绝再次放疗；国内获取新型HER2靶向药（T-DXd、妥卡替尼）受限；决定启动维"
+                      }
+                    ]
+                  }
+                ],
+                "decision_design": {
+                  "closest_alternative": "C",
+                  "decision_boundary": "WBRT已完成+系统受限→局部控制暂维持但需监测；若颅内未控制则需调整系统方案",
+                  "review_required": "核对所列条件是否真的决定取舍，另一方案是否确有竞争力；场景与条件变化必须由绑定全文支持。字段齐全不等于达到进阶难度。"
+                },
+                "source_locator": {
+                  "doc_id": "fea9ac8e-8f06-46c0-9a57-2bf3069f1a01",
+                  "split_index": 39
+                },
+                "decision": "PASS"
+              }
+            ]
+          },
+          "question_evidence_bindings": [
+            {
+              "question_id": "Q1",
+              "evidence_id": "CS03",
+              "doc_id": "6e2caad03ab62f3396186fd219069693",
+              "split_index": 1,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q2",
+              "evidence_id": "IR02",
+              "doc_id": "b2719254-d290-4ec9-866b-51b36cafd1bc",
+              "split_index": 247,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q3",
+              "evidence_id": "GB01",
+              "doc_id": "fea9ac8e-8f06-46c0-9a57-2bf3069f1a01",
+              "split_index": 32,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q4",
+              "evidence_id": "CS03",
+              "doc_id": "6e2caad03ab62f3396186fd219069693",
+              "split_index": 1,
+              "matching_record_count": 1
+            },
+            {
+              "question_id": "Q5",
+              "evidence_id": "GB04",
+              "doc_id": "fea9ac8e-8f06-46c0-9a57-2bf3069f1a01",
+              "split_index": 39,
+              "matching_record_count": 1
+            }
+          ],
+          "cited_evidence_snapshot": [
+            {
+              "evidence_id": "GB01",
+              "doc_id": "fea9ac8e-8f06-46c0-9a57-2bf3069f1a01",
+              "split_index": 32,
+              "type": "guideline",
+              "authority": "CACA",
+              "source_title": "乳腺癌多学科诊疗标准与规范（2023年版）",
+              "source_version": "2023",
+              "source_section": "9 《乳腺癌多学科诊疗标准与规范（2023年版）》的具体要求",
+              "source_url": "",
+              "snippet": "复发／转移性乳腺癌治疗是一个复杂的过程，治疗期间必须考虑各种因素。对于晚期乳腺癌，机体状态和转移部位是主要考虑因素［30］。病理科医师提供的病理学信息在复发／转移的情况下也起着关键作用［31]，建议结合临床实际，通过病理学活检明确疾病类型、分子分型、肿瘤标志物表达状态及靶向基因改变情况，以精准指导一线及后线药物选择（表8）。\n乳腺癌的影像学检查贯穿MDT的疾病全过程，建议无论治疗决策如何，都应按计划的周期通过临床和影像学检查（包括CT、骨扫描或PET/CT）评估转移性疾病患者的治疗反应，反应评估间隔还应基于疾病进展速度、转移部位／范围、治疗模式进行调整，可相应缩短或延长［32］。\n表6 早期乳腺癌患者手术方案-MDT模式基本要求",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            },
+            {
+              "evidence_id": "GB04",
+              "doc_id": "fea9ac8e-8f06-46c0-9a57-2bf3069f1a01",
+              "split_index": 39,
+              "type": "guideline",
+              "authority": "CACA",
+              "source_title": "乳腺癌多学科诊疗标准与规范（2023年版）",
+              "source_version": "2023",
+              "source_section": "9 《乳腺癌多学科诊疗标准与规范（2023年版）》的具体要求",
+              "source_url": "",
+              "snippet": "类药物更多显示PFS获益[38]。对于脑转移的患者，TKI类药物和抗体药物偶联物（antibody-drug conjugate，ADC）可优先选择。HER2靶向治疗研究时间最久，也是第一个可改变乳腺癌患者预后的治疗靶点。相信随着更多抗HER2药物纳入医保，未来中国晚期乳腺癌患者可以得到更规范的治疗，生存获益也会进一步提高。晚期\n表8复诊（复发转移性/初诊晚期）乳腺癌MDT综合诊疗基本要求",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            },
+            {
+              "evidence_id": "CS03",
+              "doc_id": "6e2caad03ab62f3396186fd219069693",
+              "split_index": 1,
+              "type": "meeting",
+              "authority": "ESMO",
+              "source_title": "397P - Efficacy and safety of the recombinant humanized anti-HER2 monoclonal antibody-MMAE conjugate RC48-ADC in patients with HER2-positive or HER2-low expressing, locally advanced or metastatic breast cancer: A single-arm phase II study",
+              "source_version": "2023",
+              "source_section": "397P - Efficacy and safety of the recombinant humanized anti-HER2 monoclonal antibody-MMAE conjugate RC48-ADC in patients with HER2-positive or HER2-low expressing, locally advanced or metastatic breast cancer: A single-arm phase II study",
+              "source_url": "https://cslide.ctimeetingtech.com/esmo2023/attendee/confcal_2/presentation",
+              "snippet": "Background\nCurrent treatment options for HER2-positive (IHC 3+, or IHC 2+/FISH+) metastatic breast cancer (MBC) at third-line and above have shown limited clinical benefit. There is no recommended HER2-targeting treatment for HER2-low expressing (IHC 2+/FISH-, or IHC 1+) population. Here, we report the efficacy and safety of RC48-ADC in patients with MBC.\nMethods\nPatients with HER2-positive or HER2-low expressing MBC were eligible and received RC48 2.5 mg/kg every two weeks alone or combined with drugs with different anti-tumor mechanisms, such as immune checkpoint inhibitors (ICIs), tyrosine kinase inhibitors (TKIs) and antiangiogenic compounds. The primary endpoint was the objective response rate (ORR). Secondary endpoints included progression-free survival (PFS), overall survival (OS), disease control rate (DCR) and safety.\nResults\n76 female MBC patients were enrolled and treated with RC48. 58 patients (76.3%) were HER2-positive and 18 patients (23.7%) were HER2-low expressing. At baseline, 35 patients (46.0%) had liver metastases, 27 patients (35.5%) had brain metastases, and 67 patients (88.1%) had received ≥3 prior chemotherapy regimens. In the overall population, the ORR was 31.6%. The median PFS was 5.7 months. The DCR was 57.9%. In the HER2-positive subgroup, the ORR and mPFS were 34.5% and 6.3 months. In the HER2-low expressing subgroup, the ORR and mPFS were 22.2% and 3.6 months. In addition, the mPFS in the dual drug combination-treated group was longer than that in the single drug treatment group, with mPFS of 7.1 months and 4.6 months, respectively. The most frequently reported adverse events were increased AST (62.4%), increased ALT (61.9%), decreased white blood cell count (42.4%), and fatigue (30.4%), most were grade 1-2 in severity.\nConclusions\nRC48-ADC showed consistent efficacy in HER2-positive and HER2-low expressing subgroups. No new safety signals were observed. Coadministration with ICIs, TKIs and antiangiogenic compounds demonstrated substantially enhanced efficacy and could be a future direction of ADC.\nLegal entity responsible for the study\nThe authors.\nFunding\nHas not received any funding.\nDisclosure\nAll authors have declared no conflicts of interest.",
+              "hard_evidence_type": "临床研究",
+              "reasoning_eligible": true
+            },
+            {
+              "evidence_id": "IR02",
+              "doc_id": "b2719254-d290-4ec9-866b-51b36cafd1bc",
+              "split_index": 247,
+              "type": "guideline",
+              "authority": "CSCO",
+              "source_title": "中国临床肿瘤学会（CSCO）乳腺癌诊疗指南 2026",
+              "source_version": "2026",
+              "source_section": "（3）化疗患者的心脏不良反应预防策略",
+              "source_url": "",
+              "snippet": "TKI最常见的不良反应为腹泻，且3~4级的发生率较高。TKI相关性腹泻均发生在用药早期，随着治疗时间延长，发生率显著降低，因此，应尽早进行腹泻防治和管理。拉帕替尼、吡咯替尼和奈拉替尼导致的腹泻，绝大多数在用药第1周至1个月内出现，半数以上患者的3~4级腹泻首次发生在用药1~10天内，持续时间中位数为2~5天。\n（1）TKI相关性腹泻的监测：腹泻临床表现主要为粪便性状改变和排便次数增多。粪便性状可表现为稀便、水样便、黏脓便或脓血便。严重腹泻时，患者可出现重度脱水和中毒症状。诊断时，应排除其他原因导致的腹泻，如服用高渗性药物或消化不良等，还须警惕肠道细菌或病毒感染可能。\n（2）TKI相关性腹泻的预防：治疗前应教育患者，告知可能出现的腹泻症状，指导患者每日记录排便的频率、形态及变化。开始用药时可嘱患者膳食中以优质蛋白、低脂和低纤维的谷物为主，避免含乳糖的食物，多饮水及少食多餐。\n \n1）吡咯替尼：PANDORA研究提示，对于使用吡咯替尼的患者，可采用一级预防，但对于3-4级腹泻导致暂停吡咯替尼的患者，再次恢复吡咯替尼治疗时，建议使用洛哌丁胺预防性治疗，预防时间为21天[134]。",
+              "hard_evidence_type": "指南",
+              "reasoning_eligible": true
+            }
+          ],
+          "retrieval_queries": {
+            "staging": "初始临床评估与分期指南\n原发诊断：左侧IV期HER2阳性乳腺癌（cT4bN3cM1），伴淋巴结、骨、肝多发转移；2019年4月出现多发脑转移；2021年9月颅内病灶进展\n初诊摘录：45岁女性，2017年8月确诊左侧IV期HER2阳性乳腺癌（cT4bN3cM1），初始诊断时已伴有淋巴结、骨和肝脏多发转移；初始接受epirubicin联合环磷酰胺序贯化疗，随后帕妥珠单抗联合曲妥珠单抗靶向治疗，并行左侧乳腺癌改良根治术，术后接受内分泌治疗、靶向维持及局部放疗\n匹配原发病种与分期检查、区域和远处病变评估，不用后续事实反推初诊。",
+            "molecular": "病理与分子检测及结果应用指南\n原发诊断：左侧IV期HER2阳性乳腺癌（cT4bN3cM1），伴淋巴结、骨、肝多发转移；2019年4月出现多发脑转移；2021年9月颅内病灶进展\n检测记录：病理｜2017年8月｜左侧乳腺癌｜HER2阳性（原文未注明具体检测方法如IHC/FISH）；分子｜原文未记载HR状态、BRCA或其他分子标志物检测结果\n关注检测时机、结果等待与治疗衔接；检索关键词不代表初诊已知结果。",
+            "treatment": "复评、局部协调与后线决策正式指南\n原发诊断：左侧IV期HER2阳性乳腺癌（cT4bN3cM1），伴淋巴结、骨、肝多发转移；2019年4月出现多发脑转移；2021年9月颅内病灶进展\n决策问题：2019年4月｜多发脑转移确诊，既往无颅内治疗史｜是否选择WBRT联合系统治疗，以及吡咯替尼+卡培他滨方案的耐受性预期；2021年9月｜颅内进展，既往已接受WBRT且患者拒绝再次放疗\n实际治疗：2017年8月后｜初始治疗｜epirubicin+环磷酰胺序贯化疗→帕妥珠单抗+曲妥珠单抗靶向→左侧乳腺癌改良根治术→术后内分泌+靶向维持+局部放疗；局部放疗初期部分缓解；因无法耐受严重胃肠道反应，系统治疗方案执行受限；决定启动维迪西妥单抗（RC48）单药治疗\n检测记录：病理｜2017年8月｜左侧乳腺癌｜HER2阳性（原文未注明具体检测方法如IHC/FISH）\n按原发癌种匹配复评与后线阶段，保留已知治疗限制。",
+            "study": "匹配病例实际方案的原始临床研究\n原发诊断：左侧IV期HER2阳性乳腺癌（cT4bN3cM1），伴淋巴结、骨、肝多发转移；2019年4月出现多发脑转移；2021年9月颅内病灶进展\n方案和阶段：2017年8月后｜初始治疗｜epirubicin+环磷酰胺序贯化疗→帕妥珠单抗+曲妥珠单抗靶向→左侧乳腺癌改良根治术→术后内分泌+靶向维持+局部放疗；局部放疗初期部分缓解；因无法耐受严重胃肠道反应，系统治疗方案执行受限；决定启动维迪西妥单抗（RC48）单药治疗；图注｜图1：RC48治疗前后颅脑MRI对比\n人群线索：病理｜2017年8月｜左侧乳腺癌｜HER2阳性（原文未注明具体检测方法如IHC/FISH）\n匹配药物、人群、治疗阶段与决策终点，需该记录已报告原始研究结果。",
+            "toxicity_a": "吡咯替尼+卡培他滨 严重胃肠道反应 分级未提供 毒性识别 鉴别诊断 暂缓停药 再治疗条件 支持处理 正式指南",
+            "toxicity_b": ""
+          },
+          "retrieval_health": {
+            "ok": true,
+            "errors": []
+          },
+          "compression_report": {
+            "input_counts": {
+              "guideline_a_staging": 6,
+              "guideline_a": 8,
+              "guideline_b": 4,
+              "clinical_study_initial": 5,
+              "clinical_study_supplement": 0,
+              "irae_a": 2,
+              "irae_b": 0
+            },
+            "kept_counts": {
+              "guideline_a_staging": 4,
+              "guideline_a": 6,
+              "guideline_b": 4,
+              "clinical_study_initial": 3,
+              "clinical_study_supplement": 0,
+              "irae_a": 2,
+              "irae_b": 0
+            },
+            "kept_total": 19,
+            "dropped_total": 6,
+            "dropped": [
+              {
+                "lane": "guideline_a_staging",
+                "index": 4,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a_staging",
+                "index": 5,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 6,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "guideline_a",
+                "index": 7,
+                "reason": "LANE_LIMIT"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 0,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "243e31595ff6035376a255d6fd683f56::1"
+              },
+              {
+                "lane": "clinical_study_initial",
+                "index": 1,
+                "reason": "INELIGIBLE_SOURCE",
+                "locator": "e7d94b64efe1c3d4c91224a2c3baa365::1"
+              }
+            ]
+          },
+          "first_round_raw": "",
+          "second_round_raw": "",
+          "parsed_second_round_draft": null,
+          "partial_draft_questions": [],
+          "model_execution": {
+            "model": "qwen3.8-flash",
+            "max_output_tokens_configured": 16000,
+            "first_round_char_count": 7061,
+            "second_round_char_count": 7184,
+            "finish_reason": null,
+            "finish_reason_availability": "not_exposed_by_workflow_outputs"
+          }
+        },
+        "flow_publishable": false,
+        "output_ready": true,
+        "medical_review_status": "not_performed",
+        "generation_status": "success",
+        "evidence_context_status": "provided"
+      }
+    ],
+    "warnings": []
+  }
+}

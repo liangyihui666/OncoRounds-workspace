@@ -1,0 +1,247 @@
+{
+  "Questions": {
+    "schema_version": "1.0",
+    "case_id": "CASE-55BF9202",
+    "cancer_type": "食管癌",
+    "generation_status": "success",
+    "difficulty": "进阶",
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "分子诊断",
+        "phase": "转移灶病理与标志物检测",
+        "timepoint": "2024 年 9 月 11 日",
+        "question": "患者肺转移灶小活检标本确诊鳞癌，基因检测无殊。针对小活检标本的后续检测策略，下列哪项最符合病理诊断规范？",
+        "options": {
+          "A": "重复进行免疫组化检测以再次确认组织学亚型",
+          "B": "立即行二次大手术活检以获取足量肿瘤组织",
+          "C": "停止所有分子检测仅依据形态学制定方案",
+          "D": "保留剩余组织用于后续治疗相关标志物检测"
+        },
+        "answer": "D",
+        "answer_text": "保留剩余组织用于后续治疗相关标志物检测",
+        "explain": "小活检标本在明确分型后，应精简免疫组化标记，预留足量组织供后续治疗相关标志物检测。",
+        "keyPoint": "小活检标本需平衡分型确诊与标志物检测用组织",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "3c135c66-a9b5-48a9-8262-e2c3939ca5ac",
+          "split_index": 3,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "肺癌小活检标本病理诊断规范专家共识",
+          "source_version": "2024",
+          "source_section": "肺癌小活检标本病理诊断规范专家共识",
+          "source_url": "",
+          "evidence_summary": "共识指出小活检标本在保证明确诊断分型前提下，应提供足量组织标本以供后续治疗相关标志物检测。"
+        }
+      },
+      {
+        "id": "Q2",
+        "type": "治疗决策",
+        "phase": "全身治疗方案制定",
+        "timepoint": "2024 年 9 月 11 日后",
+        "question": "患者拟行化疗联合抗 PD-1 抗体治疗。关于 PD-L1 检测在食管鳞癌免疫治疗决策中的价值，下列描述正确的是？",
+        "options": {
+          "A": "PD-L1 蛋白表达检测是指导临床筛选免疫治疗获益人群的有效指标",
+          "B": "PD-L1 表达水平与免疫治疗疗效无关，无需检测即可直接使用免疫药",
+          "C": "仅当 PD-L1 高表达时才推荐使用免疫治疗，低表达患者绝对禁忌",
+          "D": "所有食管癌患者 PD-L1 表达一致，检测结果对治疗方案无指导意义"
+        },
+        "answer": "A",
+        "answer_text": "PD-L1 蛋白表达检测是指导临床筛选免疫治疗获益人群的有效指标",
+        "explain": "多项研究显示 PD-L1 蛋白表达水平与 PD-1 抑制剂疗效及生存获益密切相关，是指导筛选获益人群的有效指标。",
+        "keyPoint": "PD-L1 检测是筛选免疫治疗获益人群的有效指标",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "42eb5383-2863-4873-b720-11b044a229ed",
+          "split_index": 11,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "食管癌免疫检查点抑制剂临床应用全程管理专家共识",
+          "source_version": "2024",
+          "source_section": "3.2 生物标志物",
+          "source_url": "",
+          "evidence_summary": "共识指出 PD-L1 蛋白表达检测是目前指导临床筛选免疫治疗获益人群有效的指标，与疗效和生存获益密切相关。"
+        }
+      },
+      {
+        "id": "Q3",
+        "type": "疗效复评与局部治疗",
+        "phase": "寡转移综合管理策略",
+        "timepoint": "2024 年 9 月 11 日后",
+        "question": "患者肺转移伴胸膜增厚，多发淋巴结代谢增高待排。关于食管癌寡转移的综合管理，下列哪项最符合专家共识？",
+        "options": {
+          "A": "所有寡转移患者均首选同步放化疗联合免疫治疗",
+          "B": "需转向个体化多学科管理以应对临床表现多样性",
+          "C": "仅依据转移灶数量决定是否需要局部根治性放疗",
+          "D": "PD-L1 低表达患者禁止使用放疗联合免疫治疗"
+        },
+        "answer": "B",
+        "answer_text": "需转向个体化多学科管理以应对临床表现多样性",
+        "explain": "由于临床表现多样性，食管癌寡转移更加需要转向个体化、多学科管理，而非单一固定模式。",
+        "keyPoint": "食管癌寡转移管理强调个体化与多学科协作",
+        "guidelineRef": {
+          "evidence_type": "病例+临床推理",
+          "doc_id": "2b69985f-e0cd-4a09-b96a-8457f27c08df",
+          "split_index": 46,
+          "type": "guideline",
+          "authority": "中国医师协会放射肿瘤治疗医师分会, 中华医学会放射肿瘤治疗学分会, 中国抗癌协会肿瘤放射治疗专业委员会, 中国肿瘤放射治疗联盟食管癌专家委员会",
+          "source_title": "食管癌寡转移放射治疗专家共识(2025年版)",
+          "source_version": "2025",
+          "source_section": "6.不良反应的规避",
+          "source_url": "",
+          "evidence_summary": "共识指出由于临床表现多样性，食管癌寡转移更加需要转向个体化、多学科管理。"
+        }
+      },
+      {
+        "id": "Q4",
+        "type": "疗效复评与局部治疗",
+        "phase": "全身治疗后评估",
+        "timepoint": "2024 年 9 月 11 日后",
+        "question": "患者计划先行全身治疗，若治疗后肿瘤退缩且稳定，关于后续局部治疗的可行性评估，下列哪项符合指南推荐？",
+        "options": {
+          "A": "IV 期病变经药物治疗稳定后，经评估可行局部放疗联合或不联合免疫治疗",
+          "B": "一旦开始全身治疗，无论疗效如何均禁止再行任何局部放疗干预",
+          "C": "只有达到病理完全缓解（pCR）的患者才允许接受后续局部放疗治疗",
+          "D": "局部放疗仅适用于初治患者，转移性病变经药物治疗后不可再行放疗"
+        },
+        "answer": "A",
+        "answer_text": "IV 期病变经药物治疗稳定后，经评估可行局部放疗联合或不联合免疫治疗",
+        "explain": "指南指出 IV 期病变经全身药物治疗后评估肿瘤退缩且稳定，经评估可行局部放疗联合或不联合免疫治疗。",
+        "keyPoint": "药物治疗稳定后可评估行局部放疗",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "65dca43b-7ca8-48fc-a336-b4ab88dbd5e2",
+          "split_index": 248,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "食管癌整合诊治指南（第二版）",
+          "source_version": "2024",
+          "source_section": "5 IV期寡转移放疗适应证",
+          "source_url": "",
+          "evidence_summary": "指南推荐 IV 期病变经全身药物治疗后评估肿瘤退缩且稳定，经评估可行局部放疗联合或不联合免疫治疗。"
+        }
+      },
+      {
+        "id": "Q5",
+        "type": "治疗决策",
+        "phase": "全身治疗后评估",
+        "timepoint": "2024 年 9 月 11 日后",
+        "question": "患者计划先行化疗联合抗 PD-1 抗体全身治疗。若治疗后评估肿瘤退缩且稳定，关于后续局部放疗适应证的判断，下列哪项正确？",
+        "options": {
+          "A": "仅当肿瘤完全消失时方可考虑局部放疗",
+          "B": "全身治疗有效即禁止追加任何形式局部放疗",
+          "C": "经评估可行局部食管、淋巴结或远地转移灶放疗",
+          "D": "必须等待出现明显疼痛症状后才启动局部放疗"
+        },
+        "answer": "C",
+        "answer_text": "经评估可行局部食管、淋巴结或远地转移灶放疗",
+        "explain": "指南指出 IV 期病变经全身药物治疗后评估肿瘤退缩且稳定，经放疗科评估可行局部食管、淋巴结或远地转移灶放疗。",
+        "keyPoint": "全身治疗有效且稳定者可评估行局部放疗",
+        "guidelineRef": {
+          "evidence_type": "指南",
+          "doc_id": "65dca43b-7ca8-48fc-a336-b4ab88dbd5e2",
+          "split_index": 248,
+          "type": "guideline",
+          "authority": "CACA",
+          "source_title": "食管癌整合诊治指南（第二版）",
+          "source_version": "2024",
+          "source_section": "5 IV期寡转移放疗适应证",
+          "source_url": "",
+          "evidence_summary": "指南明确 IV 期病变经全身治疗评估退缩且稳定，经评估可行局部食管、淋巴结或远地转移灶放疗。"
+        }
+      }
+    ],
+    "missing_information": []
+  },
+  "detail": {
+    "schema_version": "1.0",
+    "case_id": "CASE-55BF9202",
+    "cancer_type": "食管癌",
+    "difficulty": "进阶",
+    "decision_point_count": 5,
+    "image": {
+      "src": "../assets/cases/esophageal-vaccine.png",
+      "alt": "食管癌主题示意封面（非患者影像）"
+    },
+    "home": {
+      "recommendation_label": "今日推荐病例",
+      "display_title": "食管癌术后新发肺部病灶",
+      "description": "69岁女性，食管鳞癌经新辅助放化疗及手术达pCR，约3年后发现肺病灶。"
+    },
+    "overview": {
+      "hero": {
+        "title": "食管癌术后新发肺部病灶",
+        "subtitle": "不同肺部病灶取样结果的解释、转移范围确认，以及局部治疗前的复评。"
+      },
+      "tabs": [
+        {
+          "id": "summary",
+          "label": "病例摘要",
+          "order": 1,
+          "summary_items": [
+            {
+              "order": 1,
+              "label": "患者画像",
+              "value": "69岁女性，食管鳞癌经新辅助放化疗及手术达pCR，约3年后发现肺病灶。"
+            },
+            {
+              "order": 2,
+              "label": "诊断与检查",
+              "value": "左肺上叶穿刺见低分化鳞形细胞癌；另有胸膜及淋巴结可疑灶，合并肺部感染。"
+            },
+            {
+              "order": 3,
+              "label": "治疗经过",
+              "value": "团队拟先行化疗联合抗PD-1治疗，再评估是否适合肺部局部治疗。"
+            },
+            {
+              "order": 4,
+              "label": "核心难点",
+              "value": "不同肺部病灶取样结果的解释、转移范围确认，以及局部治疗前的复评。"
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "病程轴",
+          "order": 2,
+          "timeline_items": [
+            {
+              "date": "2021年5月",
+              "title": "初诊食管鳞癌",
+              "detail": "临床分期cT3N2M0。"
+            },
+            {
+              "date": "2021年8至10月",
+              "title": "新辅助治疗及手术",
+              "detail": "同步放化疗后根治术，术后ypT0N0M0，达到pCR。"
+            },
+            {
+              "date": "2024年8月",
+              "title": "左上肺取材",
+              "detail": "肺占位增大，CT引导穿刺符合低分化鳞形细胞癌。"
+            },
+            {
+              "date": "2024年9月",
+              "title": "分部位再评估",
+              "detail": "PET-CT另见胸膜及淋巴结可疑灶；左下肺感染区域支气管镜未见恶性证据。"
+            },
+            {
+              "date": "后续计划",
+              "title": "系统治疗后复评",
+              "detail": "拟化疗联合抗PD-1，再评估肺部局部治疗；后续疗效未提供。"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "label": "病例图片",
+          "order": 3,
+          "image_items": []
+        }
+      ]
+    }
+  }
+}

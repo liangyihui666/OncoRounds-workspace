@@ -1,0 +1,29 @@
+{
+  "checks": [
+    {
+      "name": "本次五条date/event/stage均提取日期和阶段，不再输出JSON碎片",
+      "pass": true
+    },
+    {
+      "name": "兼容序列化JSON数组和原date/event/details输入",
+      "pass": true
+    },
+    {
+      "name": "双引号、反斜杠及换行正确序列化并可还原，五题不改",
+      "pass": true
+    },
+    {
+      "name": "真实粘贴结果仅修复5处detail转义和5条时间轴，题目不改",
+      "pass": true
+    },
+    {
+      "name": "全部代码、引用及边有效，draftData和应用绑定保持",
+      "pass": true
+    }
+  ],
+  "pasted_detail_escape_repairs": 5,
+  "api_calls": 0,
+  "online_verified": false,
+  "medical_content_changed": false,
+  "medical_review_status": "not_performed"
+}

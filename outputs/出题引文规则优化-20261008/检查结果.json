@@ -1,0 +1,16 @@
+{
+  "changes": [
+    {
+      "node": "题目生成-首轮",
+      "key": "systemPrompt"
+    },
+    {
+      "node": "题目修订-第二轮",
+      "key": "systemPrompt"
+    }
+  ],
+  "other_nodes_and_code_unchanged": true,
+  "schemas_unchanged": true,
+  "api_calls": 0,
+  "model_run_performed": false
+}

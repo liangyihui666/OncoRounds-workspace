@@ -1,0 +1,50 @@
+{
+  "checks": [
+    {
+      "name": "图、检索节点、模型、配置及非目标代码保持",
+      "pass": true
+    },
+    {
+      "name": "全部代码语法、边及变量引用有效",
+      "pass": true
+    },
+    {
+      "name": "两轮15字段契约一致，输出保留对照而移除内部verification",
+      "pass": true
+    },
+    {
+      "name": "记录明确的不同处理及原因可回溯，未知结局不导致零题",
+      "pass": true
+    },
+    {
+      "name": "不同处理但无原因必须明确未说明，不补造原因",
+      "pass": true
+    },
+    {
+      "name": "篡改处理、结局、原因、原文与摘要冲突均拒绝",
+      "pass": true
+    },
+    {
+      "name": "未知不能冒充一致；假设题不能冒充实际治疗",
+      "pass": true
+    },
+    {
+      "name": "缺少及畸形字段返回检查错误，不引发worker异常",
+      "pass": true
+    },
+    {
+      "name": "错误答案、重复选项、假引文、不足五题仍不能完成",
+      "pass": true
+    },
+    {
+      "name": "子应用→候选检查→外层字母答案输出，五题新字段逐字保留",
+      "pass": true
+    }
+  ],
+  "passed": 10,
+  "failed": 0,
+  "api_calls": 0,
+  "online_verified": false,
+  "medical_review_status": "not_performed",
+  "local_frontend_modified": false
+}

@@ -1,0 +1,14 @@
+【case_packet：病例结构化字段与可选患者原文，保留待核实说明】
+{{$v12CasePacket.v12CasePacketJson$}}
+
+【evidence_pool：带稳定evidence_id的完整返回正文证据池】
+{{$v11EvidenceRegistry.v12FinalPoolJson$}}
+
+【固定内部参数】
+交付要求question_count=5。首轮即输出完整五个不同决策；第二轮返回包含合格题的完整替换稿；证据不足须明确缺口，不能承诺后续一定补齐；1至4题仅为未完成草稿；difficulty=进阶；case_intro_images仅兼容保留，未被模型处理。
+
+【目标学员】
+高年资肿瘤专科医生。进阶指基于病例条件与证据边界的方案取舍；禁止常识题、明显错误干扰项和无依据的复杂化。
+
+【首次出题答案位置计划：0=A、1=B、2=C、3=D】
+{{$v12CasePacket.answerPositionPlanJson$}}

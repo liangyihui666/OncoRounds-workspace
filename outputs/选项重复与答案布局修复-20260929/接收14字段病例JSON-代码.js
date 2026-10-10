@@ -1,0 +1,61 @@
+// Plans apply before drafting. This code never reorders or rewrites completed options.
+function answerPositionPlan(packet) {
+  const key=[packet?.case_id,packet?.case_title,packet?.disease].filter(v=>typeof v==='string').join('|');
+  let seed=2166136261;
+  for(let i=0;i<key.length;i++){seed^=key.charCodeAt(i);seed=Math.imul(seed,16777619)>>>0;}
+  const positions=[0,1,2,3];let state=seed||1;
+  for(let i=3;i>0;i--){state^=state<<13;state^=state>>>17;state^=state<<5;state>>>=0;const j=state%(i+1);const t=positions[i];positions[i]=positions[j];positions[j]=t;}
+  positions.push(positions[seed%3]);
+  return {scope:'initial_drafting_layout_not_answer_shuffle',assignments:positions.map((answer,i)=>({id:'Q'+(i+1),answer,letter:'ABCD'[answer]})),instruction:'首轮首次构思时按此位置写正确项及其余三个有临床迷惑性的选项，再写对应解析；第二轮保留内容合格题顺序，仅重写/补写时参考空缺位置。位置计划不代表医学答案，禁止改变事实或扭曲正确性去凑位置。'};
+}
+
+function main({ case_json }) {
+  const instruction='请将外层“题目生成→用户问题”引用为“代码运行→14字段病例JSON”。';
+  function decode(value){
+    for(let i=0;i<3&&typeof value==='string';i++){
+      const text=value.trim().replace(/^```(?:json)?\s*/i,'').replace(/\s*```$/,'');
+      if(!text) throw new Error('病例JSON输入为空。'+instruction);
+      try{value=JSON.parse(text);}catch(_){throw new Error('病例输入不是有效JSON。'+instruction);}
+    }
+    return value;
+  }
+  let source=decode(case_json);
+  if(source&&typeof source==='object'&&!Array.isArray(source)&&Object.prototype.hasOwnProperty.call(source,'production_variables')){
+    source=decode(source.production_variables);
+  }
+  if(!source||typeof source!=='object'||Array.isArray(source)){
+    const type=Array.isArray(source)?'数组':source===null?'null':typeof source;
+    throw new Error('需要单个病例JSON对象，当前收到'+type+'。不接受原始识别文本数组。'+instruction);
+  }
+  const fields = ["case_id", "case_title", "disease", "case_context", "learning_points", "case_mode", "case_timeline", "biomarkers", "decision_points", "adverse_events", "evidence_notes", "case_intro_images", "cancer_type", "second_cancer_type"];
+  const packet = {};
+  for (const key of fields) {
+    const value = source[key];
+    if (key === 'case_intro_images') {
+      if (value != null && (!Array.isArray(value) || value.length !== 0)) {
+        throw new Error('case_intro_images 应为 []；本流程只接收已识别的病例字段。');
+      }
+      packet[key] = [];
+    } else {
+      if (value != null && typeof value !== 'string') throw new Error(key + ' 应为字符串，请检查病例字段输入。');
+      packet[key] = value == null ? '' : value;
+    }
+  }
+  const missing = ['case_title','disease','case_context','case_mode','decision_points'].filter(k => !packet[k].trim());
+  if (packet.case_mode === '全程管理' && !packet.case_timeline.trim()) missing.push('case_timeline');
+  if (missing.length) throw new Error('病例字段缺失：' + missing.join('、') + '。请核对上游结果，不要补造病例信息。');
+  if (!['全程管理','单时间点'].includes(packet.case_mode)) throw new Error('case_mode 应为全程管理或单时间点。');
+  const inputWarnings=[];
+  if(/已知[^\n]{0,100}(未[^\n]{0,8}回报|未完全回报)/.test(packet.decision_points)) inputWarnings.push('决策点同条出现已知结果与未回报，必须按病例时间线核对，不能把后回报结果提前使用');
+  if(/永久|终止所有|停用所有/.test(packet.decision_points)) inputWarnings.push('决策点含永久或全类别停药表述，它是候选问题而非已证实医嘱；不能扩大病例原始停用范围');
+  if(inputWarnings.length) packet.evidence_notes += '\n【输入一致性提示，仅为程序线索】'+inputWarnings.join('；');
+  const result = {
+    case_packet: packet,
+    answer_position_plan_json: JSON.stringify(answerPositionPlan(packet)),
+    case_packet_json: JSON.stringify(packet),
+    case_packet_text: fields.filter(k => typeof packet[k] === 'string' && packet[k]).map(k => '【' + k + '】\n' + packet[k]).join('\n\n'),
+    dedupe_report: {policy:'接收已整理的病例字段，保留原文，不去重、不摘要、不补写', removed_duplicate_count:0}
+  };
+  for (const key of fields) result[key] = packet[key];
+  return result;
+}

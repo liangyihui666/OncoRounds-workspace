@@ -1,0 +1,153 @@
+{
+  "case_id": "CASE-1368749D",
+  "question_count": 5,
+  "structure_decision": "FAIL",
+  "structure_errors": [
+    "Q1：学员可见正文或证据摘要含内部证据编号：GB02；须改写成自足理由，不得拼接其他记录",
+    "Q2：学员可见正文或证据摘要含内部证据编号：IR02；须改写成自足理由，不得拼接其他记录",
+    "Q2：解析必须恰好四行，按A/B/C/D逐项解释",
+    "Q2：B解析缺失、格式错误或与答案不一致",
+    "Q2：C解析缺失、格式错误或与答案不一致",
+    "Q2：D解析缺失、格式错误或与答案不一致",
+    "Q2：解析只有证据指代，缺少实际理由",
+    "Q2缺少字段：keyPoint",
+    "Q2的keyPoint必须为非空字符串",
+    "Q3：学员可见正文或证据摘要含内部证据编号：CS01；须改写成自足理由，不得拼接其他记录",
+    "Q4：学员可见正文或证据摘要含内部证据编号：IR01；须改写成自足理由，不得拼接其他记录",
+    "Q4：解析必须恰好四行，按A/B/C/D逐项解释",
+    "Q4：B解析缺失、格式错误或与答案不一致",
+    "Q4：C解析缺失、格式错误或与答案不一致",
+    "Q4：D解析缺失、格式错误或与答案不一致",
+    "Q4缺少字段：keyPoint",
+    "Q4的keyPoint必须为非空字符串",
+    "Q5：学员可见正文或证据摘要含内部证据编号：GB04；须改写成自足理由，不得拼接其他记录"
+  ],
+  "revision_question_checks": [
+    {
+      "question_id": "Q1",
+      "evidence_id": "GB02",
+      "structural_defects": [
+        "学员可见正文或证据摘要含内部证据编号：GB02；须改写成自足理由，不得拼接其他记录"
+      ],
+      "applicability_review_cues": [
+        "TOXICITY_SCOPE_CHECK：本题引用含ICI毒性内容；确认致病药物与条款一致，不能因同名皮疹或同在肿瘤患者中发生而套用。",
+        "QUALIFIER_LOSS_CHECK：证据含可能、可考虑或条件限制；核对答案与所有排除理由是否删去条件或并列备选措施，不将可能处置升级为唯一必做。"
+      ],
+      "wording_review": "改为临床情境加下列哪项正确，依据放解析和引用；不改变题意或选项顺序",
+      "fact_review": "逐项核对患者数值、分级、检查、部位和疗程的病例原句；缺少记录不能补成事实",
+      "matching_record_count": 1,
+      "source_locator": {
+        "doc_id": "6e90e9ac-4a5f-41cb-b7c6-c761ecbdc5e8",
+        "split_index": 94
+      },
+      "review_cues": [
+        "野生型",
+        "联合"
+      ]
+    },
+    {
+      "question_id": "Q2",
+      "evidence_id": "IR02",
+      "structural_defects": [
+        "keyPoint缺失或为空：必须撰写完整决策原则",
+        "旧稿解析不完整：现有1行，必须重写四项理由",
+        "学员可见正文或证据摘要含内部证据编号：IR02；须改写成自足理由，不得拼接其他记录"
+      ],
+      "applicability_review_cues": [
+        "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。"
+      ],
+      "wording_review": "改为临床情境加下列哪项正确，依据放解析和引用；不改变题意或选项顺序",
+      "fact_review": "逐项核对患者数值、分级、检查、部位和疗程的病例原句；缺少记录不能补成事实",
+      "matching_record_count": 1,
+      "source_locator": {
+        "doc_id": "ea2a8a87-e782-4e9c-b9fc-6c9823c9f851",
+        "split_index": 125
+      },
+      "review_cues": [
+        "永久",
+        "所有",
+        "减量"
+      ]
+    },
+    {
+      "question_id": "Q3",
+      "evidence_id": "CS01",
+      "structural_defects": [
+        "学员可见正文或证据摘要含内部证据编号：CS01；须改写成自足理由，不得拼接其他记录"
+      ],
+      "applicability_review_cues": [
+        "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。"
+      ],
+      "wording_review": "改为临床情境加下列哪项正确，依据放解析和引用；不改变题意或选项顺序",
+      "fact_review": "逐项核对患者数值、分级、检查、部位和疗程的病例原句；缺少记录不能补成事实",
+      "matching_record_count": 1,
+      "source_locator": {
+        "doc_id": "MEETING_20260730_153537_81FEFCFD",
+        "split_index": 1
+      },
+      "review_cues": [
+        "永久",
+        "野生型",
+        "所有",
+        "维持",
+        "联合",
+        "4级",
+        "无劣"
+      ]
+    },
+    {
+      "question_id": "Q4",
+      "evidence_id": "IR01",
+      "structural_defects": [
+        "keyPoint缺失或为空：必须撰写完整决策原则",
+        "旧稿解析不完整：现有1行，必须重写四项理由",
+        "学员可见正文或证据摘要含内部证据编号：IR01；须改写成自足理由，不得拼接其他记录"
+      ],
+      "applicability_review_cues": [
+        "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。",
+        "CASE_FACT_TRACE：将题干中的指标类型、等级、数值、部位及疗程逐项对照病例原句，不能拿指南阈值或另一指标补成患者事实。",
+        "SEQUENCE_VS_COMBINATION：核对停前药后换线与保留前药加药的区别；序贯后线证据不能自动支持同期联合。"
+      ],
+      "wording_review": "改为临床情境加下列哪项正确，依据放解析和引用；不改变题意或选项顺序",
+      "fact_review": "逐项核对患者数值、分级、检查、部位和疗程的病例原句；缺少记录不能补成事实",
+      "matching_record_count": 1,
+      "source_locator": {
+        "doc_id": "bcb7fcab-4771-4f79-baba-d6727511bf9c",
+        "split_index": 36
+      },
+      "review_cues": [
+        "联合",
+        "4级",
+        "减量",
+        "永久"
+      ]
+    },
+    {
+      "question_id": "Q5",
+      "evidence_id": "GB04",
+      "structural_defects": [
+        "学员可见正文或证据摘要含内部证据编号：GB04；须改写成自足理由，不得拼接其他记录"
+      ],
+      "applicability_review_cues": [
+        "ABSENCE_OR_REVERSE_INFERENCE：某亚组结果、条款未提及或未禁止不能独自证明相反结论或排除竞争方案。",
+        "UNCONDITIONAL_RULE：检查原文限定人群、阶段、前提；列表不能自动变成所有患者必做，停药须满足等级及具体条件。",
+        "QUALIFIER_LOSS_CHECK：证据含可能、可考虑或条件限制；核对答案与所有排除理由是否删去条件或并列备选措施，不将可能处置升级为唯一必做。"
+      ],
+      "wording_review": "改为临床情境加下列哪项正确，依据放解析和引用；不改变题意或选项顺序",
+      "fact_review": "逐项核对患者数值、分级、检查、部位和疗程的病例原句；缺少记录不能补成事实",
+      "matching_record_count": 1,
+      "source_locator": {
+        "doc_id": "8350da7b-6914-4101-be88-7d4db6c58220",
+        "split_index": 234
+      },
+      "review_cues": [
+        "野生型",
+        "联合",
+        "排除免疫获益",
+        "必须"
+      ]
+    }
+  ],
+  "model_rerun": false,
+  "medical_correctness_verified": false
+}
